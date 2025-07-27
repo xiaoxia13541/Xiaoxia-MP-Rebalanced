@@ -1215,9 +1215,11 @@ on_siege_won_province = {
 		limit = {
 			superregion = china_superregion
 			controller = {
-				has_country_flag = chinese_interior_war_flag
-				has_government_attribute = has_unify_china_cb
 				OR = {
+					AND = {
+						has_country_flag = chinese_interior_war_flag
+						has_government_attribute = has_unify_china_cb
+					}
 					is_in_war = {
 						attacker_leader = this
 						casus_belli = cb_chinese_unification

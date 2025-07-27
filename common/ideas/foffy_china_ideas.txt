@@ -464,11 +464,11 @@ QIC_ideas = { #Qi
 
 CXI_ideas = { #Xi
 	start = {
-		infantry_power = 0.25
+		infantry_power = 0.15
 		core_creation = -0.10
 	}
 	bonus = {
-		artillery_shock = 1
+		artillery_shock = 0.5
 		global_trade_goods_size_modifier = 0.1
 	}
 
@@ -496,7 +496,7 @@ CXI_ideas = { #Xi
 		production_efficiency = 0.1
 	}
 	CXI_6 = {
-		infantry_shock = 0.15
+		infantry_shock = 0.25
 	}
 	CXI_7 = {
 		army_tradition = 0.5

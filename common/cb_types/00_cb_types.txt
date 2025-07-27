@@ -1390,11 +1390,11 @@ cb_chinese_unification = {
 				NOT = { has_dlc = "Mandate of Heaven" }
 				culture_group = east_asian #Chinese
 				OR = {	#Manchus won't get this unless they unify
-				tag = MCH
-				tag = QNG
-				NOT = { primary_culture = manchu }
+					tag = MCH
+					tag = QNG
+					NOT = { primary_culture = manchu }
+				}
 			}
-		}
 			has_government_attribute = has_unify_china_cb
 			has_country_flag = chinese_interior_war_flag
 		}
