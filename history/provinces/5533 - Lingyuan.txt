@@ -1,0 +1,24 @@
+# 2538 - Lingyuan
+owner = CHH#MNG
+controller = CHH#MNG
+culture = chahar#hanyu
+religion = vajrayana#confucianism
+capital = "Lingyuan"
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 5500
+add_core = CHH#MNG
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1618.1.1 = { controller = MCH }
+1626.1.1 = { 
+	add_core = MCH
+}
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes

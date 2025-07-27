@@ -1,0 +1,13 @@
+add_core = TLC
+owner = TLC
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = sunni
+controller = TLC
+is_city = yes
+culture = algerian
+trade_goods = grain
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western

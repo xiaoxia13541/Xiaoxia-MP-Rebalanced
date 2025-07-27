@@ -1,0 +1,28 @@
+# 2724 - Shanghai
+owner = SHG
+controller = SHG
+add_core = SHG
+culture = wu
+religion = confucianism
+capital = "Shanghai"
+trade_goods = silk
+base_tax = 4
+base_production = 3
+base_manpower = 2
+# citysize = 1500
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+center_of_trade = 1
+1500.1.1 = { base_tax = 2 }
+1600.1.1 = { base_tax = 2 }
+1645.9.9 = { controller = QNG }
+1661.6.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+1675.1.1 = { controller = MNG }
+1680.1.1 = { controller = QNG }
+1700.1.1 = { base_tax = 2 }
+1800.1.1 = { base_tax = 2 }
+is_city = yes

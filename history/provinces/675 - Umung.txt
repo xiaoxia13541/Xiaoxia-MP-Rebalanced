@@ -1,0 +1,20 @@
+#675 - Qujing
+owner = CYI
+controller = CYI
+add_core = CYI
+culture = yi
+religion = confucianism
+capital = "Qujing"
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 8500
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1681.10.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes

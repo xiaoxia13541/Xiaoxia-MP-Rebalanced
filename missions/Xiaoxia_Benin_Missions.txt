@@ -1,0 +1,1399 @@
+benin_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = BEN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	ben_humuiliate_rival = { # 羞辱宿敌
+		icon = mission_general_riding
+		required_missions = { } 
+		position = 1
+		provinces_to_highlight = {
+		}
+
+		trigger = {
+			power_projection = 50
+			custom_trigger_tooltip = {
+				tooltip = ben_eclipsed_or_humiliated_any_rival_tt
+				OR = {
+					any_rival_country = {
+						has_been_eclipsed_by = ROOT
+					}
+					has_country_flag = humiliated_rival
+				}
+			}
+		}
+
+		effect = {
+			guinea_region = {
+				add_permanent_claim = ROOT
+			}
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 15
+			}
+		}
+	}
+	
+	ben_king_of_forest = { # 丛林之王
+		icon = mission_general_riding
+		required_missions = { ben_assemble_an_legion } 
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1162
+				province_id = 1145
+			}
+		}
+		
+		trigger = {
+			owns_core_province = 1162
+			owns_core_province = 1145
+		}
+
+		effect = {
+			add_stability_or_adm_power = yes
+			custom_tooltip = claim_neighbor_province
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_claim = ROOT
+					}
+				}
+			}		
+			add_country_modifier = {
+				name = benin_march_to_jungle
+				duration = -1
+			}
+		}
+	}
+
+	ben_guinea_domination = { # 支配几内亚
+		icon = mission_general_riding
+		required_missions = { ben_king_of_forest } 
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = west_africa_coast_area
+				area = benin_area
+				area = gulf_of_guinea_area
+				area = Dahomey_area
+			}
+		}	
+		
+		trigger = {
+			grown_by_development = 150
+			Dahomey_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			lower_niger_area = {
+				type = all
+				owned_by = ROOT				
+				is_core = ROOT
+			}
+			west_africa_coast_area = {
+				type = any
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			adamawa_plateau_area = {
+				type = any
+				owned_by = ROOT
+				is_core = ROOT				
+			}
+		}
+
+		effect = {
+			custom_tooltip = claim_neighbor_province
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_claim = ROOT
+					}
+				}
+			}
+			remove_country_modifier = benin_march_to_jungle
+			add_country_modifier = {
+				name = benin_march_to_jungle2
+				duration = -1
+			}
+			5088 = { add_siberian_construction = 100 }
+			5090 = { add_siberian_construction = 100 }
+		}
+	}
+
+	ben_jungle_and_plains = { # 丛林与平原
+		icon = mission_general_riding
+		required_missions = { ben_guinea_domination ben_rush_to_plains } 
+		position = 4
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			num_of_loans = 0
+			is_in_deficit = no
+			army_size = 125
+			total_development = 600
+			calc_true_if = {
+				amount = 30
+				all_owned_province = {
+					has_terrain = jungle
+				}
+			}
+			calc_true_if = {
+				amount = 25
+				all_owned_province = {
+					NOT = { has_terrain = jungle }
+				}
+			}
+		}
+
+		effect = {
+			add_legitimacy = 50
+			add_prestige = 50
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 15
+			}
+			remove_country_modifier = benin_march_to_jungle2
+			add_country_modifier = {
+				name = benin_march_to_jungle3
+				duration = -1
+			}
+		}
+	}
+
+	ben_african_empire = { # 非洲帝国
+		icon = mission_general_riding
+		required_missions = { ben_jungle_and_plains ben_african_manufactory } 
+		position = 6
+		provinces_to_highlight = {
+		}
+		trigger = {
+			OR = {
+				is_great_power = yes
+				AND = {
+					total_development = 1250
+					government_rank = 3
+				}
+			}
+			OR = {
+				AND = {		
+					num_of_loans = 0
+					is_in_deficit = no
+					army_size = 225
+					num_of_provinces_in_states = 125
+					crown_land_share = 70
+				}
+				custom_trigger_tooltip = {
+					tooltip = benin_is_most_powerful_african_country_tt
+					NOT ={
+						any_known_country = {
+							capital_scope = {
+								continent = africa
+							}
+							total_development = ROOT 
+							army_size = ROOT 
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			add_stability_or_adm_power = yes
+			add_power_projection = {
+				type = 25_permanent_power_projection
+				amount = 25
+			}
+			custom_tooltip = sca_scandinavian_european_empire_tt
+			remove_country_modifier = benin_march_to_jungle3
+			add_country_modifier = {
+				name = benin_march_to_jungle4
+				duration = -1
+			}
+		}
+	}
+
+	ben_build_up_temples = { # 兴建寺庙
+		icon = mission_general_riding
+		required_missions = { ben_enbrace_the_tradition } 
+		position = 8
+		provinces_to_highlight = {
+
+		}
+		
+		trigger = {
+			1147 = {
+				has_tax_building_trigger = yes
+			}
+			temple = 10
+			treasury = 200
+		}
+		effect = {
+			add_treasury = -200
+			1147 = {
+				add_base_tax = 2
+				add_or_upgrade_tax_building = yes
+			}
+			if = {
+				limit = {
+					has_estate_privilege = estate_church_development_of_temples
+				}
+				change_estate_land_share = {
+					estate = estate_church
+					share = -10
+				}
+			}
+		}
+	}
+	ben_manic_worship = { # 狂热崇拜
+		icon = mission_general_riding
+		required_missions = { ben_build_up_temples } 
+		position = 9
+		provinces_to_highlight = {
+
+		}
+		provinces_to_highlight = {
+
+		}
+		
+		trigger = {
+			has_adopted_cult = roog_cult
+			num_of_unlocked_cults = 13
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = benin_manic_worship_modifier
+				duration = -1
+			}
+		}
+	}
+
+	ben_divine_ritual = { # 神圣仪式
+		icon = mission_son_fetishist_alliances
+		required_missions = { ben_ancestor_summoning } 
+		position = 11
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			OR = {
+				ruler_has_personality = zealot_personality
+				full_idea_group = religious_ideas
+				monthly_adm = 15
+			}
+			num_of_battles = { amount = 200 }
+			army_tradition = 80
+			army_size_percentage = 1
+			num_of_generals_with_traits = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = benin_divine_ritual_modifier
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}
+	}
+
+	# 		add_country_modifier = {
+	# 			name = ben_trade_kingdom_modifier
+	# 			duration = -1
+	# 		}
+
+	# 	effect = {
+	# 		add_country_modifier = {
+	# 			name = ben_trade_empire_modifier
+	# 			duration = -1
+	# 		}
+	# 	}
+}
+
+
+benin_mission_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = BEN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	ben_golden_city = { # 黄金之城
+		icon = mission_general_riding
+		required_missions = { ben_assemble_an_legion } 
+		position = 2
+		provinces_to_highlight = {
+			province_id = 1144
+		}
+		trigger = {
+			owns_core_province = 1144
+			OYO = { exists = no }
+		}
+
+		effect = {
+			1144 = {
+				if = {
+					limit = {
+						NOT = { devastation = 1 }
+					}
+					add_devastation = -50
+				}
+				else = {
+					add_province_modifier = {
+						name = ben_oyo_salvation
+						duration = 3650
+					}
+				}
+				change_trade_goods = gold
+				add_base_production = 2
+			}
+			add_country_modifier = {
+				name = benin_rise_of_benin
+				duration = 3650
+			}	
+			niger_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	ben_rush_to_plains = { # 冲向平原
+		icon = mission_general_riding
+		required_missions = { ben_golden_city } 
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1149
+				province_id = 1157
+				province_id = 1155
+			}
+		}
+		trigger = {
+			owns_core_province = 1149
+			owns_core_province = 1157
+			owns_core_province = 1155
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = benin_guinea_lord
+				duration = 9125
+			}
+			sahel_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	ben_african_manufactory = { # 非洲制造业
+		icon = mission_son_own_develop_clothes_and_salt
+		required_missions = { ben_salt_cloth_and_conch } 
+		position = 5
+		provinces_to_highlight = {
+			owned_by = ROOT
+			has_manufactory_trigger = no
+			NOT = { trade_goods = gold }
+		}
+		trigger = {
+			calc_true_if = {
+				desc = build_manufactories_mission_tooltip
+				all_owned_province = {
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				amount = 20
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "proto_industrialization"
+				duration = 9125
+			}
+			add_years_of_income = 1
+			random_owned_province = {
+				limit = { has_manufactory_trigger = yes }
+				add_base_production = 1
+			}
+			random_owned_province = {
+				limit = { has_manufactory_trigger = yes }
+				add_base_production = 1
+			}
+			random_owned_province = {
+				limit = { has_manufactory_trigger = yes }
+				add_base_production = 1
+			}
+			random_owned_province = {
+				limit = { has_manufactory_trigger = yes }
+				add_base_production = 1
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}			
+	}
+
+	ben_enbrace_the_tradition = { #拥抱传统
+		icon = mission_kon_collect_cults
+		required_missions = { } 
+		position = 7
+		provinces_to_highlight = { }
+		trigger = {
+			stability = 2
+			estate_influence = {
+				estate = estate_church
+				influence = 60
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = w_african_cult_collector
+				duration = 9125
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}
+	}
+
+	ben_cousin_branch = { # 同宗兄弟
+		icon = mission_mal_more_tolerance_to_heathens
+		required_missions = { ben_enbrace_the_tradition } 
+		position = 8
+		provinces_to_highlight = {
+			owner = {
+				religion = ROOT
+				NOT = { alliance_with = ROOT }
+				NOT = { is_rival = ROOT }
+				NOT = { is_enemy = ROOT }
+				NOT = { is_subject_of = ROOT }
+				NOT = { tag = ROOT }
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			calc_true_if = {
+				all_known_country = {
+					OR = {
+						is_subject_of = ROOT
+						alliance_with = ROOT
+					}
+					religion = ROOT
+				}
+				amount = 3
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ben_cousin_branch_modifier
+				duration = 9125
+			}
+			define_advisor = {
+				type = inquisitor
+				skill = 2
+				culture = ROOT
+				religion = ROOT
+				cost_multiplier = 0.5
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}
+	}
+
+	ben_shamans = { # 萨满
+		icon = mission_son_back_to_the_roots
+		required_missions = { ben_cousin_branch } 
+		position = 9
+		provinces_to_highlight = {
+			has_discovered = ROOT
+			religion = ROOT
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+
+			custom_trigger_tooltip = {
+				tooltip = ben_converted_20_prov_tt
+				check_variable = { which = num_converted_religion value = 25 }
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				religion = ROOT
+				value = 65
+			}
+		}
+		effect = {
+			add_stability = 1
+			add_country_modifier = {
+				name = ben_shamans_modifier
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 75	# Default
+		}
+	}
+
+	ben_ancestor_summoning = { # 先祖召唤
+		icon = mission_general_riding
+		required_missions = { ben_shamans ben_manic_worship } 
+		position = 10
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 75
+			}
+			estate_influence = {
+				estate = estate_church
+				influence = 75
+			}
+			num_of_estate_privileges = {
+				estate = estate_church
+				value = 6
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = w_african_tolerance_fetishist
+				duration = -1
+				desc = w_african_tolerance_desc	#Until you switch the religion
+			}			
+		}		
+	}
+}
+
+
+benin_mission_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = BEN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	ben_assemble_an_legion = { # 组建战团
+		icon = mission_kon_conquer_ckw
+		required_missions = { } 
+		position = 1
+		trigger = { 
+			#OR = {
+				army_size_percentage = 1 
+				#num_of_mercenaries = 1 #1 company of mercenaries
+			#} 
+		}
+		effect = { 
+			add_country_modifier = { 
+				name = "benin_assemble_warband" #Reduced mercenary maintenance cost
+				duration = 3650 #10 years
+			}
+			custom_tooltip = claim_neighbor_province
+			hidden_effect = {
+				2291 = {
+					add_permanent_claim = ROOT
+				}
+				2292 = {
+					add_permanent_claim = ROOT
+				}
+				6150 = {
+					add_permanent_claim = ROOT
+				}
+				every_owned_province = {
+					every_neighbor_province = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_claim = ROOT
+					}
+				}
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}
+	}
+
+	ben_sweeping_and_irrigating_the_land = { # 土地清理
+		icon = mission_mal_subjugate_zaf
+		required_missions = { ben_assemble_an_legion } 
+		position = 3
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { development = 12 }
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				development = 12
+				value = 3
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = benin_land_irrigation
+				duration = 9125
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}		
+	}
+
+	ben_salt_cloth_and_conch = { # 食盐 布匹和贝壳
+		icon = mission_market_place_with_asian_traders
+		required_missions = { ben_sweeping_and_irrigating_the_land } 
+		position = 4
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}		 
+		}
+		effect = {
+			add_country_modifier = { # 空buff 拥有这个buff期间 可以种1得2生产
+				name = ben_increased_dev_modifier			
+				duration = 9125
+			}
+			custom_tooltip = ben_double_dip_dev_bonus_tt
+		}			
+	}
+
+	ben_guinea_trade = { # 西非贸易
+		icon = mission_mal_riches_of_trade
+		required_missions = { ben_african_manufactory ben_developing_commerce_chamber } 
+		position = 6
+		provinces_to_highlight = {}
+		trigger = {
+			num_of_light_ship = 50
+			navy_size_percentage = 0.9
+			monthly_trade_income = 125
+			has_institution = new_world_i
+			calc_true_if = {
+				amount = 20
+				all_owned_province = {
+					has_trade_building_trigger = yes
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Dharma"
+				}	
+				num_of_owned_provinces_with = {
+					province_has_center_of_trade_of_level = 2
+					value = 12
+				}
+			}
+			else = {
+				calc_true_if = {
+					all_province = {
+						OR = {
+							province_id = 1132
+							province_id = 1149
+							province_id = 1466
+						}
+						trade_share = {
+							country = ROOT
+							share = 45
+						}
+					}
+					amount = 3
+				}
+			}
+		}	
+		effect = {
+			add_mercantilism_or_monarch_power = { amount = 10 }
+			define_advisor = {
+				type = trader
+				skill = 3
+				culture = ROOT
+				religion = ROOT
+				cost_multiplier = 0.25
+			}
+			add_country_modifier = {
+				name = ben_west_african_trade
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}	
+	}
+	
+	ben_reform_traditional_warfare = { # 改革传统战法
+		icon = mission_general_riding
+		required_missions = { } 
+		position = 8
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			army_tradition = 50
+			army_professionalism = 0.2
+			army_reformer = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = benin_reform_traditional_statics
+				duration = 18250
+			}
+			add_country_modifier = {
+				name =  benin_thunder_in_jungle1_modifier
+				duration = -1
+			}			
+		}	
+	}
+
+	ben_faithful_ruler = { # 虔诚的统治者？
+		icon = mission_general_riding
+		required_missions = { ben_shamans } 
+		position = 10
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			ruler_religion = shamanism
+			NOT = { num_of_ruler_traits = { amount = 3 } }
+			calc_true_if = {
+				amount = 35
+				all_owned_province = {
+					has_tax_building_trigger = yes
+				}
+			}
+			OR ={
+				theologian = 3
+				inquisitor = 3
+				philosopher = 3
+			}
+			OR = {
+				adm = 6
+				dip = 6
+				ruler_total_stats = { amount = 12 }
+			}
+		}
+		effect = {
+			country_event = { id = west_african.29 }
+		}			
+	}
+	
+	ben_royal_seminary = { # 皇宫神学院
+		icon = mission_general_riding
+		required_missions = { ben_faithful_ruler } 
+		position = 11
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			NOT = { current_age = age_of_discovery }
+			1147 = {
+				is_capital = yes
+				base_tax = 12
+				development = 35
+				province_has_center_of_trade_of_level = 3
+				num_of_times_expanded_infrastructure = 1
+				has_building = cathedral
+				is_prosperous = yes
+			}
+		}
+		effect = {
+			add_innovativeness_big_effect = yes
+			1147 = {
+				add_building = university
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 15
+			}
+			add_country_modifier = {
+				name = benin_royal_seminary
+				duration = -1
+			}
+		}			
+	}
+}
+
+
+benin_mission_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = BEN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ben_collect_tribute = { # 收集贡品
+		position = 1
+		icon = mission_kon_conquer_ksj
+		trigger = {
+			if = {
+				limit = {
+					NOT = { tag = KBO }
+					has_dlc = "Art of War"
+				}
+				num_of_war_reparations = 4
+			}
+			else_if = {
+				limit = {
+					tag = KBO
+				}
+				army_size_percentage = 1
+				num_of_generals = 1
+			}
+			else = {
+				treasury = 200
+				NOT = { num_of_loans = 1 }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = w_african_tax_collectors
+				duration = 3650
+			}
+			if = {
+				limit = {
+					tag = KBO
+				}
+				hausa_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				katsina_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				zazzau_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}
+	}
+
+	ben_cooperate_with_chieftain ={ # 与部落酋长合作
+		icon = mission_general_riding
+		required_missions = { } 
+		position = 2
+		provinces_to_highlight = {
+			province_id = 5770
+			province_id = 1141
+			province_id = 5769
+		}
+		trigger = {
+			5770 = {
+				owned_by = ROOT
+				is_core = ROOT
+				NOT = { devastation = 1 }
+				base_manpower = 5
+			}
+			1141 = {
+				owned_by = ROOT
+				is_core = ROOT
+				NOT = { devastation = 1 }
+				base_manpower = 5
+			}
+			5769 = {
+				owned_by = ROOT
+				is_core = ROOT
+				NOT = { devastation = 1 }
+				base_manpower = 5
+			}
+			FAN = { exists = no }
+		}
+		effect = {
+			5769 = {
+				add_province_modifier = {
+					name = benin_cooperation_with_chieftan_modifier
+					duration = -1
+				}
+			}
+			1141 = {
+				add_province_modifier = {
+					name = benin_cooperation_with_chieftan_modifier
+					duration = -1
+				}
+			}
+			5770 = {
+				add_province_modifier = {
+					name = benin_cooperation_with_chieftan_modifier
+					duration = -1
+				}
+			}
+			1139 = {
+				add_siberian_construction = 100
+			}
+		}		
+	}
+
+	ben_lawful_ruler = { # 严明律法的君主
+		icon = mission_general_riding
+		required_missions = { ben_cooperate_with_chieftain } 
+		position = 3
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			OR ={
+				ruler_has_personality = lawgiver_personality
+				adm = 4
+			}
+			calc_true_if = {
+				amount = 4
+				all_owned_province = {
+					has_building = courthouse
+				}
+			}
+		}
+		effect = {
+			change_ruler_stat = {
+				type = adm
+				amount = 1
+			}
+			add_country_modifier = {
+				name = benin_lawful_ruler
+				duration = 9125
+			}
+		}	
+	}
+
+	ben_niger_river_delta_monopoly = { # 垄断尼日尔河口
+		icon = mission_general_riding
+		required_missions = { ben_sweeping_and_irrigating_the_land } 
+		position = 4
+		provinces_to_highlight = {
+			area = benin_area
+		}
+		trigger = {
+			benin_area = {
+				type = all
+				owned_by = ROOT
+			}
+			trader = 3
+			1147 = {
+				has_trade_building_trigger = yes
+			}
+		}
+		effect = {
+			1147 = {
+				add_or_upgrade_trade_building = yes
+			}
+			benin_area = {
+				add_province_modifier = {
+					name = benin_niger_monopoly_modifier
+					duration = -1
+				}
+			}
+		}	
+	}
+
+	ben_developing_commerce_chamber = { # 发展贝宁商会
+		icon = mission_general_riding
+		required_missions = { ben_niger_river_delta_monopoly ben_jungle_confedracy} 
+		position = 5
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			num_of_estate_privileges = {
+				estate = estate_burghers
+				value = 4
+			}
+			monthly_trade_income = 35
+			NOT = {
+				has_estate_privilege = estate_burghers_indebted_to_burghers
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_estate_privilege = estate_burghers_land_rights
+				}
+				take_estate_land_share_gigantic = {
+					estate = estate_burghers
+				}
+			}
+			else = {
+				custom_tooltip = if_we_have_burghers_land_right_privilege_minus_10_land_share_tt
+			}
+			country_event = { id = west_african.30 }
+		}	
+	}
+
+	ben_prosperity_of_slave_trade = { # 奴隶贸易兴起
+		icon = mission_general_riding
+		required_missions = { ben_developing_commerce_chamber } 
+		position = 6
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			calc_true_if = {
+				amount = 10
+				all_owned_province = {
+					trade_goods = slaves
+					development = 15
+					has_production_building_trigger = yes
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = slaves
+				}
+				add_province_modifier = {
+					name = slavery_boost
+					duration = -1
+				}
+			}	
+		}	
+	}
+
+	ben_expand_into_jungle = { # 深入丛林开发
+		icon = mission_general_riding
+		required_missions = { ben_prosperity_of_slave_trade } 
+		position = 7
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			reform_level = 5
+			calc_true_if = {
+				amount = 40
+				all_owned_province = {
+					has_terrain = jungle
+					num_of_times_improved = 5
+					NOT = { devastation = 1 }
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					has_terrain = jungle
+					num_of_times_improved = 5
+					NOT = { devastation = 1 }
+				}
+				add_province_modifier = {
+					name = ben_jungle_development_modifier
+					duration = 9125
+				}
+			}
+		}	
+	}
+
+	ben_import_artillery = { # 贝宁火炮
+		icon = mission_general_riding
+		required_missions = { ben_reform_traditional_warfare } 
+		position = 9
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			any_neighbor_province = {
+				owner = { 
+					mil_tech = 7
+					OR = {
+						technology_group = western 
+						technology_group = muslim
+					}
+					reverse_has_opinion = {
+						who = ROOT
+						value = 125
+					}
+				}
+			}
+			num_of_artillery = 10			 
+		}
+		effect = {
+			add_treasury = -100
+			add_country_modifier = {
+				name = benin_inporting_artillery_modifier
+				duration = 9125
+			}
+			remove_country_modifier = benin_thunder_in_jungle1_modifier
+			add_country_modifier = {
+				name =  benin_thunder_in_jungle2_modifier
+				duration = -1
+			}	
+		}		
+	}
+
+	ben_thunder_in_jungle = { # 丛林天雷
+		icon = mission_general_riding
+		required_missions = { ben_import_artillery ben_improve_the_conscription_system } 
+		position = 11
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			has_institution = printing_press
+			full_idea_group = quality_ideas
+			num_of_artillery = 60
+			mil_power = 200
+			army_professionalism = 0.8
+		}
+		effect = {
+			add_mil_power = -200
+			remove_country_modifier = benin_thunder_in_jungle2_modifier
+			add_country_modifier = {
+				name = benin_thunder_in_jungle3_modifier
+				duration = -1
+			}
+		}	
+	}
+}
+
+
+benin_mission_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = BEN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	ben_court_guardian = { # 宫廷卫队
+		icon = mission_general_riding
+		required_missions = { ben_cooperate_with_chieftain } 
+		position = 3
+		provinces_to_highlight = {
+			province_id = 1140
+		}
+		trigger = {
+			mil_tech = 8
+			1140 = {
+				owned_by = ROOT
+				is_core = ROOT
+				base_manpower = 8
+			}
+		}
+		effect = {
+			custom_tooltip = benin_allow_dahomey_amazons_merc_tt
+			1140 = {
+				add_base_manpower = -1
+			}
+		}	
+	}
+
+	ben_jungle_confedracy = { # 丛林议事会
+		icon = mission_general_riding
+		required_missions = { } 
+		position = 4
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			treasury = 100
+			has_government_power = {
+				mechanic_type = benin_jungle_confederacy
+				power_type = benin_jungle_assembled_power
+				value = 90
+			}
+			custom_trigger_tooltip = {
+				tooltip = benin_has_any_active_gov_power_tt # 正在使用任意政府能力
+				OR = {
+					NOT ={
+						had_country_flag = {
+							flag = benin_prior_capital_supplying_flag
+							days = 3650
+						}
+					}
+					NOT = {
+						had_country_flag = {
+							flag = benin_focus_on_production_flag
+							days = 3650
+						}
+					}
+					NOT = {
+						had_country_flag = {
+							flag = benin_assemble_warriors_for_war_flag
+							days = 3650
+						}
+					}	
+				}
+			}
+		}
+		effect = {
+			add_treasury = -100
+			add_ruler_personality = well_connected_personality
+			add_country_modifier = {
+				name = benin_mission_jungle_confedracy_modifier
+				duration = 9125
+			}
+		}
+	}
+
+	ben_court_scholar = { # 宫廷学者
+		icon = mission_general_riding
+		required_missions = { ben_jungle_confedracy } 
+		position = 5
+		provinces_to_highlight = {
+
+		}
+		trigger = {	
+			monthly_adm = 12
+			monthly_dip = 12
+			monthly_mil = 12
+			has_adm_advisor_3 = yes
+			has_dip_advisor_3 = yes
+			has_mil_advisor_3 = yes
+			is_in_deficit = no
+			num_of_loans = 0
+		}
+		effect = {
+			add_country_modifier = {
+				name = benin_open_court_modifier
+				duration = -1
+			}
+		}	
+	}	
+
+	ben_treasury_of_ivory = { # 象牙财富
+		icon = mission_general_riding
+		required_missions = { ben_prosperity_of_slave_trade } 
+		position = 7	
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			1147 = { has_building = trade_depot }
+			production_leader = {
+				trade_goods = ivory
+			}			
+		}
+		effect = {
+			custom_tooltip = ivory_province_gain_1_trade_good_size_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						trade_goods = ivory
+					}
+					add_province_modifier = {
+						name = ben_ivory_gains
+						duration = -1
+					}
+				}
+			}
+		}	
+	}
+
+	ben_arsenal = { # 兵工厂
+		icon = mission_general_riding
+		required_missions = { } 
+		position = 8
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			BEN_ideas = 4
+			calc_true_if = {
+				amount = 3
+				all_owned_province = {
+					trade_goods = copper
+				}
+			}
+			calc_true_if = {
+				amount = 3
+				all_owned_province = {
+					trade_goods = iron
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ben_weapons_manufactory_modifier
+				duration = 18250
+			}
+		}	
+	}
+
+	ben_improve_the_conscription_system = { # 完善征召制度
+		icon = mission_general_riding
+		required_missions = { ben_import_artillery ben_arsenal } 
+		position = 10
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			barracks = 30
+			regimental_camp = 30
+			recruitmaster = 3
+			army_professionalism = 0.25
+			mil_power = 300
+		}
+		effect = {
+			add_mil_power = -300
+			custom_tooltip = all_provinces_with_single_building_gain_2_manpower_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							has_building = barracks
+							has_building = regimental_camp
+						}
+					}
+					add_base_manpower = 2
+				}
+			}
+			add_country_modifier = {
+				name = ben_well_served_conscription_system
+				duration = -1
+			}
+		}	
+	}
+
+
+}

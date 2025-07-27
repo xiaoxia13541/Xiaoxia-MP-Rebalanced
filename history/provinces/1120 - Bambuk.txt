@@ -1,0 +1,16 @@
+#1120 - Bambuk
+owner = MAL
+controller = MAL
+culture = soninke
+is_city = yes
+base_manpower = 1
+religion = shamanism#Fetishism
+capital = "Bambuk"
+trade_goods = dyes
+base_tax = 5
+base_production = 5
+add_core = MAL
+discovered_by = sub_saharan
+1535.1.1 = { controller = FUL add_core = FUL }
+1753.1.1 = { controller = SOF add_core = SOF }
+1761.1.1 = { capital = "Guemu" }

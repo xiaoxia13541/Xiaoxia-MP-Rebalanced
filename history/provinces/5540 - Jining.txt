@@ -1,0 +1,20 @@
+# 2547 - Jining
+owner = LUU
+controller = LUU
+add_core = LUU
+culture = shandong_culture
+religion = confucianism
+capital = "Jining"
+trade_goods = silk
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 9000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes

@@ -1,0 +1,22 @@
+#671 - Yichun
+owner = KCN
+controller = KCN
+culture = chahar
+religion = vajrayana
+capital = "Yichun"
+trade_goods = cloth
+base_tax = 3
+base_production = 5
+base_manpower = 2
+# citysize = 79800
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+1679.1.1 = { controller = QNG }
+is_city = yes
+add_core = KCN
+fort_15th = yes

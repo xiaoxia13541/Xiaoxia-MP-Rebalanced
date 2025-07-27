@@ -1,0 +1,14 @@
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+is_city = yes
+add_core = ORO
+discovered_by = ottoman
+discovered_by = muslim
+discovered_by = indian
+owner = ORO
+culture = oromo
+trade_goods = slaves
+controller = ORO
+discovered_by = east_african

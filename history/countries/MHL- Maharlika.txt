@@ -1,0 +1,8 @@
+# Hunterrio
+government = republic
+add_government_reform = oligarchy_reform
+technology_group = chinese
+primary_culture = filipino
+capital = 656 #Manila
+religion = hinduism
+government_rank = 2

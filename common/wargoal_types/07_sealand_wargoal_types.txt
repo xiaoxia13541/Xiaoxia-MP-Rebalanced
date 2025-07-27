@@ -1,0 +1,119 @@
+# Papal State:
+pap_vassalize_naples = {
+	type = take_capital
+	attacker = {
+		badboy_factor = 0.70
+		prestige_factor = 1
+		peace_cost_factor = 0.70
+		required_treaty_to_take_provinces = {
+			po_subjugate_vassal
+		}
+		peace_options = {
+			po_demand_provinces
+			po_subjugate_vassal
+		}
+	}
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	war_name = VASSAL_MISSION_WAR_NAME
+}
+# Austria:
+hab_take_capital_personal_union = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+		peace_options = {
+			po_demand_provinces
+			po_form_personal_union
+		}
+	}
+	
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	war_name = UNION_WAR_NAME
+}
+# Tunis/Morocco:
+tun_mor_unite_barbary = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1.5
+		peace_cost_factor = 0.5
+		allowed_provinces = {
+			OR = {
+				is_claim = ROOT
+				is_core = ROOT
+			}
+		}
+		peace_options = {
+			po_demand_provinces
+		}
+		prov_desc = ALL_CLAIMS
+	}
+	
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1.5
+		peace_cost_factor = 0.5
+		allowed_provinces = {
+			OR = {
+				is_claim = ROOT
+				is_core = ROOT
+			}
+		}
+		peace_options = {
+			po_demand_provinces
+		}
+		prov_desc = ALL_CLAIMS
+	}
+	war_name = CLAIM_WAR_NAME
+}
+# Hundred Years Union
+eng_fra_hundred_years = {
+	type = take_capital
+	attacker = {
+		badboy_factor = 0.8
+		prestige_factor = 1
+		peace_cost_factor = 0.8
+		allowed_provinces = {
+			OR = {
+				is_claim = ROOT
+				is_core = ROOT
+			}
+		}
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	defender = {
+		badboy_factor = 0.8
+		prestige_factor = 1
+		peace_cost_factor = 0.8
+		allowed_provinces = {
+			OR = {
+				is_claim = ROOT
+				is_core = ROOT
+			}
+		}
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	war_name = VASSAL_MISSION_WAR_NAME
+}

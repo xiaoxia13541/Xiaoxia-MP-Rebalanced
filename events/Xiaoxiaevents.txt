@@ -1,0 +1,1523 @@
+# 小夏的彩蛋系列
+namespace = xiaoxia	
+
+country_event = { # 圣爱音堡
+	id = xiaoxia.1
+	title = xiaoxia.1.t
+	desc = xiaoxia.1.d
+	picture = VILLAGE_RAIDED_eventPicture
+	fire_only_once = yes
+	trigger = {
+		ai = no
+		any_owned_province = {
+			is_capital = yes
+			is_prosperous = yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 1825
+	}
+	option = {
+		name = xiaoxia.1.a
+		capital_scope = {
+			add_devastation = 1
+		}
+	}
+}
+
+country_event = { # 西班牙军事学院
+	id = xiaoxia.2
+	title = xiaoxia.2.t
+	desc = xiaoxia.2.d
+	picture = LAND_MILITARY_eventPicture
+	fire_only_once = yes
+	trigger = {
+		ai = no
+		capital_scope = { NOT = { region = iberia_region } }
+		OR = {
+			war_with = CAS
+			war_with = POR
+			war_with = GAL
+			war_with = GRA
+			war_with = NAV
+			war_with = ARA
+			war_with = CAT
+			war_with = VAL
+			war_with = SPA
+			war_with = ADU
+		}
+		iberia_region = {
+			type = any
+			controlled_by = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		days = 730
+	}
+	option = {
+		name = xiaoxia.2.a
+		add_country_modifier = {
+			name = xiaoxia_iberian_army_training
+			duration = 3650
+		}
+	}
+}
+
+country_event = { # 笑笑扣你威望
+	id = xiaoxia.3
+	title = xiaoxia.3.t
+	desc = xiaoxia.3.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	
+	trigger = {
+		ai = no
+		prestige = 30
+		NOT ={ has_country_flag = xiaoxia3_flag }
+	}
+
+	mean_time_to_happen = {
+		days = 7300
+	}
+	
+	option = {
+		name = xiaoxia.3.a
+		add_prestige = -2
+		set_country_flag = xiaoxia3_flag
+	}
+}
+country_event = {
+	id = xiaoxia.4 # 理塘丁真
+	title = xiaoxia.4.t
+	desc = xiaoxia.4.d
+	picture = east_asian_IMPORTANT_STATUE_eventPicture
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		owns_core_province = 5805
+	}
+
+	mean_time_to_happen = {
+		days = 9125
+	}
+	
+	option = {
+		name = xiaoxia.4.a
+		define_advisor = {
+			type = theologian
+			discount = yes
+			skill = 2
+			name = "Ding Zhen"
+			religion = vajrayana
+			culture = tibetan
+		}
+	}
+
+	option = {
+		name = xiaoxia.4.b
+		5805 = { add_base_tax = 1 }
+	}
+
+	option = {
+		name = xiaoxia.4.c
+		add_manpower = -0.001
+	}
+}
+
+country_event = { # 变更国名：大顺-小顺
+	id = xiaoxia.5
+	title = xiaoxia.5.t
+	desc = xiaoxia.5.d
+	picture = east_asian_REFORM_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = xiaoxia_name_meme_flag
+	}
+	
+	option = {
+		name = xiaoxia.5.b
+		add_prestige = 1
+	}
+
+	option = {
+		name = xiaoxia.5.a
+		add_prestige = -1
+		if = {
+			limit = { 
+				tag = YUE
+			}
+			override_country_name = XIAO_YUE
+		}
+		if = {
+			limit = { 
+				tag = QIC
+			}
+			override_country_name = XIAO_QIC
+		}
+		if = {
+			limit = { 
+				tag = WUU
+			}
+			override_country_name = XIAO_WUU
+		}
+		if = {
+			limit = { 
+				tag = CXI
+			}
+			override_country_name = XIAO_CXI
+		}
+		if = {
+			limit = { 
+				tag = CYI
+			}
+			override_country_name = XIAO_CYI
+		}
+		if = {
+			limit = { 
+				tag = CSH
+			}
+			override_country_name = XIAO_CSH
+		}
+		if = {
+			limit = { 
+				tag = GNM
+			}
+			override_country_name = XIAO_GNM
+		}
+	}
+	option = {
+		name = xiaoxia.5.b
+		highlight = yes
+		trigger = { has_country_flag = nnnn_sissy_flag }	
+		override_country_name = XIAO_NAN_LIANG
+	}
+}
+
+country_event = { # 窝哥偷偷给你点数
+	id = xiaoxia.6
+	title = xiaoxia.6.t
+	desc = xiaoxia.6.d
+	picture = ADVISOR_eventPicture
+
+	immediate = {
+		set_country_flag = xiaoxia6_flag
+	}
+
+	trigger = {
+		NOT = { has_country_flag = xiaoxia6_flag }
+		OR = {
+			tag = QIC
+			tag = YUE
+			tag = WUU
+			tag = CSH
+			tag = CYI
+			tag = CXI
+		}
+		any_owned_province = {
+			num_of_times_expanded_infrastructure = 1
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 730
+	}
+
+	option = {
+		name = xiaoxia.6.a
+		add_adm_power = 50
+	}
+}
+
+country_event = { # 波兰上不了太空 因为波兰要守新松奇
+	id = xiaoxia.7
+	title = xiaoxia.7.t
+	desc = xiaoxia.7.d
+	picture = east_slavic_FORT_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = POL
+		owns_core_province = 2960
+		is_at_war = yes
+	}
+
+	mean_time_to_happen = {
+		days = 730
+	}
+
+	option = {
+		name = xiaoxia.7.a  # 波兰永不屈服！
+		2960 = {
+			add_province_modifier = {
+				name = xiaoxia_belssing
+				duration = -1
+				desc = until_it_is_conquered_desc
+			}
+		}
+	}
+}
+
+country_event = { # 阿凝问你要不要当南梁
+	id = xiaoxia.8
+	title = xiaoxia.8.t
+	desc = xiaoxia.8.d
+	picture = SEJM_eventPicture
+
+	immediate = {
+		set_country_flag = xiaoxia8_flag
+	}
+
+	trigger = {
+		NOT = { has_country_flag = xiaoxia8_flag }
+		OR = {
+			tag = QIC
+			tag = YUE
+			tag = WUU
+			tag = CSH
+			tag = CYI
+			tag = CXI
+		}
+		capital_scope = {
+			OR = {
+				region = south_china_region
+				region = xinan_region
+			}
+		}
+		OR = {
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7300
+	}
+
+	option = {
+		name = xiaoxia.8.a
+		override_country_name = NAN_LIANG
+		set_country_flag = nnnn_sissy_flag
+	}
+
+	option = {
+		name = xiaoxia.8.b
+	}
+}
+
+country_event = { # 中子灭杀 superregion版本
+	id = xiaoxia.9
+	title = xiaoxia.9.t
+	desc = xiaoxia.9.d
+	picture = COURT_eventPicture
+	major = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = xiaoxia9_flag
+	}
+	
+	# 亚洲
+	option = {
+		name = sea_advisor_event.0.0
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia_banned_this_decision
+		set_global_flag = xiaoxia9_banned_flag
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.near_east
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		near_east_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.persia
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		persia_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = { 
+		name = xiaoxia.9.india
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		india_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}		
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = { 
+		name = xiaoxia.9.SEA
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		east_indies_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.oceania
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		oceania_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.tartary
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		tartary_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.far_east
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		far_east_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.china
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		china_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	#欧洲
+	option = {
+		name = xiaoxia.9.west_eu
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		europe_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.east_eu
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		eastern_europe_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	# 非洲
+	option = {
+		name = xiaoxia.9.north_africa
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		africa_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.south_africa
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		southern_africa_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	# 美洲
+	option = {
+		name = xiaoxia.9.south_america
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		south_america_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.andes
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		andes_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.central_america
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		central_america_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+	option = {
+		name = xiaoxia.9.north_america
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		north_america_superregion = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia9_flag
+	}
+}
+
+country_event = { # 中子灭杀 region版本
+	id = xiaoxia.10
+	title = xiaoxia.10.t
+	desc = xiaoxia.10.d
+	picture = COURT_eventPicture
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = xiaoxia10_flag
+	}
+	
+	option = {
+		name = sea_advisor_event.0.0
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia_banned_this_decision
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		set_global_flag = xiaoxia10_banned_flag
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.france_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		france_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.scandinavia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		scandinavia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.low_countries_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		low_countries_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.italy_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		italy_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.north_german_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		north_german_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.south_german_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		south_german_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.russia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		russia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.ural_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		ural_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.iberia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		iberia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.british_isles_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		british_isles_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.baltic_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		baltic_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.poland_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		poland_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.ruthenia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		ruthenia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.crimea_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		crimea_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.balkan_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		balkan_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.egypt_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		egypt_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.maghreb_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		maghreb_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.mashriq_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		mashriq_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.anatolia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		anatolia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.persia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		persia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.khorasan_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		khorasan_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.caucasia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		caucasia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.arabia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		arabia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.niger_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		niger_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.guinea_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		guinea_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.sahel_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		sahel_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.horn_of_africa_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		horn_of_africa_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.east_africa_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		east_africa_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.central_africa_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		central_africa_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.kongo_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		kongo_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.central_asia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		central_asia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.south_africa_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		south_africa_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.west_siberia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		west_siberia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.east_siberia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		east_siberia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.mongolia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		mongolia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.manchuria_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		manchuria_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.korea_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		korea_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.tibet_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		tibet_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.hindusthan_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		hindusthan_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.bengal_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		bengal_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.west_india_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		west_india_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.deccan_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		deccan_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.coromandel_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		coromandel_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.burma_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		burma_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.japan_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		japan_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.australia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		australia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.south_china_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		south_china_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.xinan_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		xinan_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.xibei_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		xibei_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.north_china_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		north_china_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.brazil_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		brazil_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.la_plata_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		la_plata_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.colombia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		colombia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.upper_peru_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		upper_peru_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.malaya_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		malaya_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.moluccas_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		moluccas_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.indonesia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		indonesia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.oceanea_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		oceanea_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.indo_china_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		indo_china_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.canada_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		canada_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.great_lakes_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		great_lakes_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.northeast_america_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		northeast_america_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.southeast_america_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		southeast_america_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.mississippi_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		mississippi_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.great_plains_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		great_plains_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.california_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		california_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.cascadia_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		cascadia_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.hudson_bay_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		hudson_bay_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.mexico_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		mexico_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.carribeans_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		carribeans_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.central_america_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		central_america_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+	option = {
+		name = xiaoxia.10.rio_grande_region
+		custom_tooltip = CHOOSE_CAREFULLY_NOT_REVERSEABLE_TT
+		rio_grande_region = {
+			decolonize = yes
+			add_province_modifier = {
+				name = colony_banned
+				duration = -1
+			}	
+		}
+		clr_country_flag = xiaoxia10_flag
+	}
+}
+
+country_event = { # 1NOMU 二次元彩蛋
+	id = xiaoxia.11
+	title = none
+	desc = none
+	picture = none
+	fire_only_once = yes
+
+	hidden = yes
+
+	trigger = {
+		ai = no
+		capital_scope = { # 首都位于新大陆
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+		}
+		
+		any_enemy_country = { # 本国ROOT与任何首都位于旧世界的敌对国家THIS发生战争 且占领其旧大陆任意省份
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = europe
+					continent = asia
+				}
+			}
+			ai = no
+			OR = { 
+				is_in_war = {
+					attackers = ROOT
+					defender_leader = THIS
+				}
+				is_in_war = {
+					attacker_leader = THIS
+					defenders = ROOT
+				}
+			}
+			any_owned_province = {
+				OR = {
+					continent = africa
+					continent = europe
+					continent = asia
+				}
+				controlled_by = ROOT
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 730
+	}
+
+	option = {
+		name = xiaoxia.11.a  # 
+		random_enemy_country = {
+			limit = {
+				capital_scope = {
+					OR = {
+						continent = africa
+						continent = europe
+						continent = asia
+					}
+				}
+				ai = no
+				OR = { 
+					is_in_war = {
+						attackers = ROOT
+						defender_leader = THIS
+					}
+					is_in_war = {
+						attacker_leader = THIS
+						defenders = ROOT
+					}
+				}
+				any_owned_province = {
+					OR = {
+						continent = africa
+						continent = europe
+						continent = asia
+					}
+					controlled_by = ROOT
+				}				
+			}
+			country_event = {
+				id = xiaoxia.12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = xiaoxia.12
+	title = xiaoxia.12.t
+	desc = xiaoxia.12.d
+	picture = SIEGE_PRAGUE_CASTLE_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = xiaoxia.12.a
+		add_country_modifier = {
+			name = 1nomu_event_modifier
+			duration = 180
+		}
+	}
+}

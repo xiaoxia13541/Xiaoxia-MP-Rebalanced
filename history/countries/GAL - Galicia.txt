@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = galician
+religion = catholic
+technology_group = western
+capital = 206	# Galicia
+beieras_area = { add_permanent_claim = GAL }
+alentejo_area = { add_permanent_claim = GAL }
+
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+1444.1.1 = {
+	monarch = {
+		dip = 4
+		adm = 3
+		mil = 3
+	}
+}

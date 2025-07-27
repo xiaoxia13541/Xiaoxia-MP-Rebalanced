@@ -1,0 +1,11 @@
+add_core = HEH
+owner = HEH
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = HEH
+is_city = yes
+culture = nyasa
+trade_goods = livestock
+discovered_by = central_african

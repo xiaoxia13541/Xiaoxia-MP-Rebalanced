@@ -1,0 +1,17 @@
+#2856 - Highveld
+latent_trade_goods = { 
+	coal 
+}
+owner = SOT
+controller = SOT
+add_core = SOT
+culture = tswana
+religion = shamanism#Fetishism
+capital = "Highveld"
+is_city = yes
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 1
+discovered_by = central_african
+1750.1.1 = { discovered_by = NED }

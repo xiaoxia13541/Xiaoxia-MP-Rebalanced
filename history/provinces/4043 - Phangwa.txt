@@ -1,0 +1,19 @@
+#4043 - Phangwa
+
+owner = MKU
+controller = MKU
+add_core = MKU
+culture = nyasa
+religion = shamanism #Fetishism
+trade_goods = ivory
+is_city = yes
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+
+capital = "Phangwa"
+discovered_by = central_african

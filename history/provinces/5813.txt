@@ -1,0 +1,13 @@
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = tibetan
+trade_goods = wool
+religion = vajrayana
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = KAM
+owner = KAM
+controller = KAM
+discovered_by = indian

@@ -1,0 +1,19 @@
+#5695 - Loulan
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = oirats
+religion = vajrayana
+capital = "Qakilik"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 3
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = nomad_group

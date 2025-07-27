@@ -1,0 +1,11 @@
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = taiwan
+trade_goods = fish
+religion = confucianism
+is_city = yes
+owner = MIN
+controller = MIN
+discovered_by = chinese
+add_core = MIN

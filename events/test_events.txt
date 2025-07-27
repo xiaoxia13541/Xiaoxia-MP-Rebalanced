@@ -1,0 +1,827 @@
+
+namespace = test_events
+
+country_event = { # Fire
+	id = test_events.1
+	title = test_events.1.t
+	desc = test_events.1.d
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 6 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 7 } }
+		}
+		picture = test_inf_fire_0_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 7 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 8 } }
+		}
+		picture = test_inf_fire_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 8 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 9 } }
+		}
+		picture = test_inf_fire_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 9 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 10 } }
+		}
+		picture = test_inf_fire_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 10 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 11 } }
+		}
+		picture = test_inf_fire_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 11 }
+		}
+		picture = test_inf_fire_5_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 5 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 6 } }
+		}
+		picture = test_inf_fire_rec_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 4 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 6 } }
+		}
+		picture = test_inf_fire_rec_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 3 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 4 } }
+		}
+		picture = test_inf_fire_rec_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 2 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 3 } }
+		}
+		picture = test_inf_fire_rec_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 1 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 6 } }
+		}
+		picture = test_inf_fire_rec_5_eventPicture
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		#hidden_trigger = {
+			if = {
+				limit = { NOT = { has_country_flag = inf_fire_dmg_value_flag } }
+				set_variable = { which = inf_fire_dmg_value value = 6 }
+			}
+			set_country_flag = inf_fire_dmg_value_flag
+		#}
+	}
+
+	option = { # next
+		name = test_events.1.a
+	}
+	option = { # prev
+		name = test_events.1.b
+	}
+	option = { # fire/shock/morale
+		name = test_events.1.c
+		hidden_effect = { country_event = { id = test_events.3 } }
+	}
+	option = { # increase
+		name = test_events.1.e
+		if = {
+			limit = { NOT = { check_variable = { which = inf_fire_dmg_value value = 11 } } }
+			if = {
+				limit = { check_variable = { which = inf_fire_dmg_value value = 6 } }
+				change_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { subtract_variable = { which = maintenance_reinforce_value value = 1 } }
+			change_variable = { which = inf_fire_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.2 } }
+	}
+	option = { # save
+		name = test_events.1.f
+		set_maintenance_reinforce_modifier = yes
+		set_fire_dmg_modifier = yes
+		set_shock_dmg_modifier = yes
+		set_morale_dmg_modifier = yes
+	}
+	option = { # decrease
+		name = test_events.1.g
+		if = {
+			limit = { check_variable = { which = inf_fire_dmg_value value = 2 } }
+			if = {
+				limit = { check_variable = { which = inf_fire_dmg_value value = 7 } }
+				subtract_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { change_variable = { which = maintenance_reinforce_value value = 1 } }
+			subtract_variable = { which = inf_fire_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.2 } }
+	}
+}
+country_event = {
+	id = test_events.2
+	title = test_events.1.t
+	desc = test_events.1.d
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 6 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 7 } }
+		}
+		picture = test_inf_fire_0_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 7 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 8 } }
+		}
+		picture = test_inf_fire_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 8 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 9 } }
+		}
+		picture = test_inf_fire_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 9 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 10 } }
+		}
+		picture = test_inf_fire_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 10 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 11 } }
+		}
+		picture = test_inf_fire_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 11 }
+		}
+		picture = test_inf_fire_5_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 5 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 6 } }
+		}
+		picture = test_inf_fire_rec_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 4 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 6 } }
+		}
+		picture = test_inf_fire_rec_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 3 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 4 } }
+		}
+		picture = test_inf_fire_rec_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 2 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 3 } }
+		}
+		picture = test_inf_fire_rec_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_fire_dmg_value value = 1 }
+			NOT = { check_variable = { which = inf_fire_dmg_value value = 6 } }
+		}
+		picture = test_inf_fire_rec_5_eventPicture
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		#hidden_trigger = {
+			if = {
+				limit = { NOT = { has_country_flag = inf_fire_dmg_value_flag } }
+				set_variable = { which = inf_fire_dmg_value value = 6 }
+			}
+			set_country_flag = inf_fire_dmg_value_flag
+		#}
+	}
+
+	option = { # next
+		name = test_events.1.a
+	}
+	option = { # prev
+		name = test_events.1.b
+	}
+	option = { # fire/shock/morale
+		name = test_events.1.c
+		hidden_effect = { country_event = { id = test_events.3 } }
+	}
+	option = { # increase
+		name = test_events.1.e
+		if = {
+			limit = { NOT = { check_variable = { which = inf_fire_dmg_value value = 11 } } }
+			if = {
+				limit = { check_variable = { which = inf_fire_dmg_value value = 6 } }
+				change_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { subtract_variable = { which = maintenance_reinforce_value value = 1 } }
+			change_variable = { which = inf_fire_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.1 } }
+	}
+	option = { # save
+		name = test_events.1.f
+		set_maintenance_reinforce_modifier = yes
+		set_fire_dmg_modifier = yes
+		set_shock_dmg_modifier = yes
+		set_morale_dmg_modifier = yes
+	}
+	option = { # decrease
+		name = test_events.1.g
+		if = {
+			limit = { check_variable = { which = inf_fire_dmg_value value = 2 } }
+			if = {
+				limit = { check_variable = { which = inf_fire_dmg_value value = 7 } }
+				subtract_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { change_variable = { which = maintenance_reinforce_value value = 1 } }
+			subtract_variable = { which = inf_fire_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.1 } }
+	}
+}
+##### ##### #####
+country_event = { # Shock
+	id = test_events.3
+	title = test_events.1.t
+	desc = test_events.1.d
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 6 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 7 } }
+		}
+		picture = test_inf_shock_0_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 7 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 8 } }
+		}
+		picture = test_inf_shock_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 8 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 9 } }
+		}
+		picture = test_inf_shock_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 9 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 10 } }
+		}
+		picture = test_inf_shock_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 10 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 11 } }
+		}
+		picture = test_inf_shock_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 11 }
+		}
+		picture = test_inf_shock_5_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 5 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 6 } }
+		}
+		picture = test_inf_shock_rec_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 4 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 5 } }
+		}
+		picture = test_inf_shock_rec_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 3 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 4 } }
+		}
+		picture = test_inf_shock_rec_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 2 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 3 } }
+		}
+		picture = test_inf_shock_rec_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 1 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 2 } }
+		}
+		picture = test_inf_shock_rec_5_eventPicture
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		#hidden_trigger = {
+			if = {
+				limit = { NOT = { has_country_flag = inf_shock_dmg_value_flag } }
+				set_variable = { which = inf_shock_dmg_value value = 6 }
+			}
+			set_country_flag = inf_shock_dmg_value_flag
+		#}
+	}
+
+	option = { # next
+		name = test_events.1.a
+	}
+	option = { # prev
+		name = test_events.1.b
+	}
+	option = { # fire/shock/morale
+		name = test_events.1.c
+		hidden_effect = { country_event = { id = test_events.5 } }
+	}
+	option = { # increase
+		name = test_events.1.e
+		if = {
+			limit = { NOT = { check_variable = { which = inf_shock_dmg_value value = 11 } } }
+			if = {
+				limit = { check_variable = { which = inf_shock_dmg_value value = 6 } }
+				change_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { subtract_variable = { which = maintenance_reinforce_value value = 1 } }
+			change_variable = { which = inf_shock_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.4 } }
+	}
+	option = { # save
+		name = test_events.1.f
+		set_maintenance_reinforce_modifier = yes
+		set_fire_dmg_modifier = yes
+		set_shock_dmg_modifier = yes
+		set_morale_dmg_modifier = yes
+	}
+	option = { # decrease
+		name = test_events.1.g
+		if = {
+			limit = { check_variable = { which = inf_shock_dmg_value value = 2 } }
+			if = {
+				limit = { check_variable = { which = inf_shock_dmg_value value = 7 } }
+				subtract_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { change_variable = { which = maintenance_reinforce_value value = 1 } }
+			subtract_variable = { which = inf_shock_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.4 } }
+	}
+}
+country_event = {
+	id = test_events.4
+	title = test_events.1.t
+	desc = test_events.1.d
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 6 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 7 } }
+		}
+		picture = test_inf_shock_0_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 7 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 8 } }
+		}
+		picture = test_inf_shock_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 8 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 9 } }
+		}
+		picture = test_inf_shock_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 9 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 10 } }
+		}
+		picture = test_inf_shock_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 10 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 11 } }
+		}
+		picture = test_inf_shock_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 11 }
+		}
+		picture = test_inf_shock_5_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 5 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 6 } }
+		}
+		picture = test_inf_shock_rec_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 4 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 5 } }
+		}
+		picture = test_inf_shock_rec_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 3 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 4 } }
+		}
+		picture = test_inf_shock_rec_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 2 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 3 } }
+		}
+		picture = test_inf_shock_rec_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_shock_dmg_value value = 1 }
+			NOT = { check_variable = { which = inf_shock_dmg_value value = 2 } }
+		}
+		picture = test_inf_shock_rec_5_eventPicture
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		#hidden_trigger = {
+			if = {
+				limit = { NOT = { has_country_flag = inf_shock_dmg_value_flag } }
+				set_variable = { which = inf_shock_dmg_value value = 6 }
+			}
+			set_country_flag = inf_shock_dmg_value_flag
+		#}
+	}
+
+	option = { # next
+		name = test_events.1.a
+	}
+	option = { # prev
+		name = test_events.1.b
+	}
+	option = { # fire/shock/morale
+		name = test_events.1.c
+		hidden_effect = { country_event = { id = test_events.5 } }
+	}
+	option = { # increase
+		name = test_events.1.e
+		if = {
+			limit = { NOT = { check_variable = { which = inf_shock_dmg_value value = 11 } } }
+			if = {
+				limit = { check_variable = { which = inf_shock_dmg_value value = 6 } }
+				change_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { subtract_variable = { which = maintenance_reinforce_value value = 1 } }
+			change_variable = { which = inf_shock_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.3 } }
+	}
+	option = { # save
+		name = test_events.1.f
+		set_maintenance_reinforce_modifier = yes
+		set_fire_dmg_modifier = yes
+		set_shock_dmg_modifier = yes
+		set_morale_dmg_modifier = yes
+	}
+	option = { # decrease
+		name = test_events.1.g
+		if = {
+			limit = { check_variable = { which = inf_shock_dmg_value value = 2 } }
+			if = {
+				limit = { check_variable = { which = inf_shock_dmg_value value = 7 } }
+				subtract_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { change_variable = { which = maintenance_reinforce_value value = 1 } }
+			subtract_variable = { which = inf_shock_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.3 } }
+	}
+}
+##### ##### #####
+country_event = { # Morale
+	id = test_events.5
+	title = test_events.1.t
+	desc = test_events.1.d
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 6 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 7 } }
+		}
+		picture = test_inf_morale_0_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 7 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 8 } }
+		}
+		picture = test_inf_morale_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 8 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 9 } }
+		}
+		picture = test_inf_morale_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 9 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 10 } }
+		}
+		picture = test_inf_morale_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 10 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 11 } }
+		}
+		picture = test_inf_morale_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 11 }
+		}
+		picture = test_inf_morale_5_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 5 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 6 } }
+		}
+		picture = test_inf_morale_rec_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 4 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 5 } }
+		}
+		picture = test_inf_morale_rec_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 3 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 4 } }
+		}
+		picture = test_inf_morale_rec_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 2 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 3 } }
+		}
+		picture = test_inf_morale_rec_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 1 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 2 } }
+		}
+		picture = test_inf_morale_rec_5_eventPicture
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		#hidden_trigger = {
+			if = {
+				limit = { NOT = { has_country_flag = inf_morale_dmg_value_flag } }
+				set_variable = { which = inf_morale_dmg_value value = 6 }
+			}
+			set_country_flag = inf_morale_dmg_value_flag
+		#}
+	}
+
+	option = { # next
+		name = test_events.1.a
+	}
+	option = { # prev
+		name = test_events.1.b
+	}
+	option = { # fire/shock/morale
+		name = test_events.1.c
+		hidden_effect = { country_event = { id = test_events.1 } }
+	}
+	option = { # increase
+		name = test_events.1.e
+		if = {
+			limit = { NOT = { check_variable = { which = inf_morale_dmg_value value = 11 } } }
+			if = {
+				limit = { check_variable = { which = inf_morale_dmg_value value = 6 } }
+				change_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { subtract_variable = { which = maintenance_reinforce_value value = 1 } }
+			change_variable = { which = inf_morale_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.6 } }
+	}
+	option = { # save
+		name = test_events.1.f
+		set_maintenance_reinforce_modifier = yes
+		set_fire_dmg_modifier = yes
+		set_shock_dmg_modifier = yes
+		set_morale_dmg_modifier = yes
+	}
+	option = { # decrease
+		name = test_events.1.g
+		if = {
+			limit = { check_variable = { which = inf_morale_dmg_value value = 2 } }
+			if = {
+				limit = { check_variable = { which = inf_morale_dmg_value value = 7 } }
+				subtract_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { change_variable = { which = maintenance_reinforce_value value = 1 } }
+			subtract_variable = { which = inf_morale_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.6 } }
+	}
+}
+country_event = { #
+	id = test_events.6
+	title = test_events.1.t
+	desc = test_events.1.d
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 6 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 7 } }
+		}
+		picture = test_inf_morale_0_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 7 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 8 } }
+		}
+		picture = test_inf_morale_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 8 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 9 } }
+		}
+		picture = test_inf_morale_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 9 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 10 } }
+		}
+		picture = test_inf_morale_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 10 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 11 } }
+		}
+		picture = test_inf_morale_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 11 }
+		}
+		picture = test_inf_morale_5_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 5 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 6 } }
+		}
+		picture = test_inf_morale_rec_1_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 4 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 5 } }
+		}
+		picture = test_inf_morale_rec_2_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 3 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 4 } }
+		}
+		picture = test_inf_morale_rec_3_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 2 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 3 } }
+		}
+		picture = test_inf_morale_rec_4_eventPicture
+	}
+	picture = {
+		trigger = {
+			check_variable = { which = inf_morale_dmg_value value = 1 }
+			NOT = { check_variable = { which = inf_morale_dmg_value value = 2 } }
+		}
+		picture = test_inf_morale_rec_5_eventPicture
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		#hidden_trigger = {
+			if = {
+				limit = { NOT = { has_country_flag = inf_morale_dmg_value_flag } }
+				set_variable = { which = inf_morale_dmg_value value = 6 }
+			}
+			set_country_flag = inf_morale_dmg_value_flag
+		#}
+	}
+
+	option = { # next
+		name = test_events.1.a
+	}
+	option = { # prev
+		name = test_events.1.b
+	}
+	option = { # fire/shock/morale
+		name = test_events.1.c
+		hidden_effect = { country_event = { id = test_events.1 } }
+	}
+	option = { # increase
+		name = test_events.1.e
+		if = {
+			limit = { NOT = { check_variable = { which = inf_morale_dmg_value value = 11 } } }
+			if = {
+				limit = { check_variable = { which = inf_morale_dmg_value value = 6 } }
+				change_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { subtract_variable = { which = maintenance_reinforce_value value = 1 } }
+			change_variable = { which = inf_morale_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.5 } }
+	}
+	option = { # save
+		name = test_events.1.f
+		set_maintenance_reinforce_modifier = yes
+		set_fire_dmg_modifier = yes
+		set_shock_dmg_modifier = yes
+		set_morale_dmg_modifier = yes
+	}
+	option = { # decrease
+		name = test_events.1.g
+		if = {
+			limit = { check_variable = { which = inf_morale_dmg_value value = 2 } }
+			if = {
+				limit = { check_variable = { which = inf_morale_dmg_value value = 7 } }
+				subtract_variable = { which = maintenance_reinforce_value value = 1 }
+			}
+			else = { change_variable = { which = maintenance_reinforce_value value = 1 } }
+			subtract_variable = { which = inf_morale_dmg_value value = 1 }
+		}
+		hidden_effect = { country_event = { id = test_events.5 } }
+	}
+}

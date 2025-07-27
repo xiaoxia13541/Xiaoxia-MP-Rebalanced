@@ -1,0 +1,21 @@
+# 2548 - Yancheng
+owner = EAS
+controller = EAS
+culture = jianghuai
+religion = confucianism
+capital = "Yancheng"
+trade_goods = fish
+base_tax = 3
+base_production = 2
+base_manpower = 2
+# citysize = 16000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1644.4.1 = { controller = CSH }
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes
+add_core = EAS

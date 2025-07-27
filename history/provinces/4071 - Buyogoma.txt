@@ -1,0 +1,13 @@
+# - Buyogoma
+owner = UBH
+controller = UBH
+add_core = UBH
+culture = takama#Ha
+religion = shamanism#Fetishism
+trade_goods = grain
+capital = "Buyogoma"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = central_african

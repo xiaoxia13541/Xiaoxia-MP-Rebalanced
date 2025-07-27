@@ -1,0 +1,25 @@
+# 2431 - Liaoyang
+owner = LIA
+controller = LIA
+add_core = LIA
+culture = manchu
+religion = confucianism
+capital = "Liaoyang"
+trade_goods = grain
+base_tax = 3
+base_production = 3
+base_manpower = 2
+# citysize = 132000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1618.1.1 = { controller = MCH }
+1626.1.1 = { 
+	add_core = MCH
+}
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+fort_15th = yes
+is_city = yes

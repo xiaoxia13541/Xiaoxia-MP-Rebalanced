@@ -1,0 +1,80 @@
+COA_ideas = {  # 猪猡王朝
+	start = {
+		naval_morale = 0.15
+		build_cost = -0.10
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = COA
+	}
+	free = yes
+	
+	chola_expeditionary = {
+		land_maintenance_modifier = -0.1
+		cav_to_inf_ratio = 0.1
+	}
+	chola_shiva_protector = {
+		tolerance_heretic = 3
+	}
+	chola_tamil_literature = {
+		prestige = 1
+	}
+	chola_war_elephants = {
+		cavalry_power = 0.2
+	}
+	chola_indian_trade = {
+		trade_efficiency = 0.05   # 贸易效率+5%
+        trade_steering = 0.3
+	}
+	chola_temple_network = {
+		global_manpower_modifier = 0.20
+	}
+	chola_ur_land_tax = {
+		global_tax_modifier = 0.2
+		development_cost_modifier = -0.1
+	}
+}
+
+KRZ_ideas = {  # 花剌子模
+	start = {
+		shock_damage_received = -0.1
+		horde_unity = 1
+	}
+	bonus = {
+		cavalry_fire = 0.25
+		yearly_government_power = 1
+	}
+	trigger = {
+		tag = KRZ
+	}
+	free = yes
+	
+	amu_darya_irrigation = {
+		production_efficiency = 0.1
+	}
+	urgench_cavalry = {
+		cavalry_power = 0.2
+		cavalry_cost = -0.1
+	}
+	silk_road_depot = {
+		trade_efficiency = 0.1
+		global_own_trade_power = 0.25
+	}
+	revenge_to_mongols = {
+		land_morale = 0.1
+	}
+	claim_the_tochari = {
+		prestige = 1
+		years_of_nationalism = -5
+	}
+	ignite_the_holy_flame = {
+		manpower_in_true_faith_provinces = 0.15
+		global_missionary_strength = 0.02
+	}
+	dream_of_shahanshah = {
+		core_creation = -0.1
+		fire_damage = 0.1
+	}
+}

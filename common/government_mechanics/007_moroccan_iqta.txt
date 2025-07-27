@@ -1,0 +1,725 @@
+moroccan_iqta_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 2
+	available = {
+		has_dlc = "Domination"
+	}
+	
+	powers = {
+		moroccan_berbers_influence = {
+			gui = sea_moroccan_power_influence_gov_mech
+			max = 100
+			min = 0
+			base_monthly_growth = -0.5
+			is_good = no
+			reverse_scaled_modifier = {
+				modifier = {
+					land_maintenance_modifier = -0.1
+					global_tax_modifier = 0.25
+					yearly_corruption = -0.25
+					global_autonomy = -0.025
+				}
+				start_value = 0
+				end_value = 50
+			}
+			scaled_modifier = {
+				modifier = {
+					land_maintenance_modifier = 0.1
+					global_tax_modifier = -0.25
+					yearly_corruption = 0.25
+					global_autonomy = 0.025
+				}
+				start_value = 50
+				end_value = 100
+			}
+			scaled_modifier = {
+				modifier = {
+					reduced_liberty_desire = -50
+					manpower_recovery_speed = 0.25
+					sailors_recovery_speed = 0.25
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 1
+					}
+					NOT = {
+						calc_true_if = {
+							all_subject_country = {
+								OR = { 
+									is_subject_of_type = vassal
+									is_subject_of_type = march
+								}
+							}
+							amount = 2
+						}
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 0.1
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 2
+					}
+					NOT = {
+						calc_true_if = {
+							all_subject_country = {
+								OR = { 
+									is_subject_of_type = vassal
+									is_subject_of_type = march
+								}
+							}
+							amount = 3
+						}
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 0.2
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 3
+					}
+					NOT = {
+						calc_true_if = {
+							all_subject_country = {
+								OR = { 
+									is_subject_of_type = vassal
+									is_subject_of_type = march
+								}
+							}
+							amount = 4
+						}
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 0.3
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 4
+					}
+					NOT = {
+						calc_true_if = {
+							all_subject_country = {
+								OR = { 
+									is_subject_of_type = vassal
+									is_subject_of_type = march
+								}
+							}
+							amount = 5
+						}
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 0.4
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 5
+					}
+					NOT = {
+						calc_true_if = {
+							all_subject_country = {
+								OR = { 
+									is_subject_of_type = vassal
+									is_subject_of_type = march
+								}
+							}
+							amount = 6
+						}
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 0.5
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 6
+					}
+					NOT = {
+						calc_true_if = {
+							all_subject_country = {
+								OR = { 
+									is_subject_of_type = vassal
+									is_subject_of_type = march
+								}
+							}
+							amount = 7
+						}
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 0.6
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 7
+					}
+					NOT = {
+						calc_true_if = {
+							all_subject_country = {
+								OR = { 
+									is_subject_of_type = vassal
+									is_subject_of_type = march
+								}
+							}
+							amount = 8
+						}
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 0.7
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 8
+					}
+					NOT = {
+						calc_true_if = {
+							all_subject_country = {
+								OR = { 
+									is_subject_of_type = vassal
+									is_subject_of_type = march
+								}
+							}
+							amount = 9
+						}
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 0.8
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 9
+					}
+					NOT = {
+						calc_true_if = {
+							all_subject_country = {
+								OR = { 
+									is_subject_of_type = vassal
+									is_subject_of_type = march
+								}
+							}
+							amount = 10
+						}
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 0.9
+				}
+				start_value = 0
+				end_value = 100
+			}
+			range_modifier = {
+				trigger = {
+					calc_true_if = {
+						all_subject_country = {
+							OR = { 
+								is_subject_of_type = vassal
+								is_subject_of_type = march
+							}
+						}
+						amount = 10
+					}
+				}
+				modifier = {
+					monthly_moroccan_berbers_influence = 1
+				}
+				start_value = 0
+				end_value = 100
+			}
+		}
+	}
+	
+	interactions = {
+		sea_conscript_subject_maritime = {
+			gui = sea_conscript_maritime_gov_mech
+			trigger = {
+				NOT = {
+					has_government_power = { 
+						mechanic_type = moroccan_iqta_mechanic
+						power_type = moroccan_berbers_influence
+						value = 15
+					}
+				}
+				any_owned_province = {
+					has_port = yes
+					NOT = { has_construction = navy }
+					has_siege = no
+					controlled_by = ROOT
+				}
+			}
+			effect = {
+				custom_tooltip = sea_conscript_subject_maritime_tt
+				random_owned_province = {
+					limit = {
+						has_port = yes
+						NOT = { has_construction = navy }
+						has_siege = no
+						controlled_by = ROOT
+					}
+					add_unit_construction = {
+						type = galley
+						amount = 1
+						speed = 0.5
+						cost = 0
+					}
+				}
+				hidden_effect = {
+					add_government_power = {
+						mechanic_type = moroccan_iqta_mechanic
+						power_type = moroccan_berbers_influence
+						value = 2
+					}
+				}
+			}
+			ai_chance = { factor = 0 }
+		}
+		sea_conscript_subject_infantry = {
+			gui = sea_conscript_inf_gov_mech
+			trigger = {
+				any_owned_province = {
+					has_siege = no
+					controlled_by = ROOT
+				}
+				NOT = {
+					has_government_power = { 
+						mechanic_type = moroccan_iqta_mechanic
+						power_type = moroccan_berbers_influence
+						value = 50
+					}
+				}
+				any_subject_country = {
+					custom_trigger_tooltip = {
+						tooltip = sea_conscript_subject_infantry_ttt
+						any_province = {
+							country_or_non_sovereign_subject_holds = ROOT
+							infantry_in_province = PREV
+						}
+					}
+				}
+			}
+			effect = { 
+				custom_tooltip = sea_conscript_subject_infantry_tt
+				tooltip = {
+					if = {
+						limit = {
+							capital_scope = {
+								OR = {
+									has_siege = yes
+									NOT = { controlled_by = ROOT }
+								}
+							}
+						}
+						random_owned_province = {
+							limit = {
+								has_siege = no
+								controlled_by = ROOT
+							}
+							infantry = ROOT
+						}
+					}
+					else = {
+						capital_scope = {
+							infantry = ROOT
+						}
+					}
+				}
+				hidden_effect = {
+					set_variable = {
+						which = subject_inf_recruited
+						value = 0
+					}
+					every_subject_country = {
+						set_variable = {
+							which = subject_inf
+							value = 0
+						}
+						while = {
+							limit = {
+								overlord = {
+									NOT = {
+										check_variable = {
+											which = subject_inf_recruited
+											value = 10
+										}
+									}
+									NOT = {
+										has_government_power = { 
+											mechanic_type = moroccan_iqta_mechanic
+											power_type = moroccan_berbers_influence
+											value = 50
+										}
+									}
+								}
+								any_province = {
+									country_or_non_sovereign_subject_holds = ROOT
+									infantry_in_province = PREV
+								}
+							}
+							change_variable = {
+								which = subject_inf
+								value = 1
+							}
+							random_province = {
+								limit = {
+									country_or_non_sovereign_subject_holds = ROOT
+									infantry_in_province = PREV
+								}
+								kill_units = {
+									who = PREV
+									type = infantry
+									amount = 1
+								}
+							}
+							overlord = {
+								change_variable = {
+									which = subject_inf_recruited
+									value = 1
+								}
+								add_government_power = {
+									mechanic_type = moroccan_iqta_mechanic
+									power_type = moroccan_berbers_influence
+									value = 2
+								}
+							}
+						}
+						while = {
+							limit = {
+								check_variable = {
+									which = subject_inf
+									value = 1
+								}
+							}
+							subtract_variable = {
+								which = subject_inf
+								value = 1
+							}
+							overlord = {
+								if = {
+									limit = {
+										capital_scope = {
+											OR = {
+												has_siege = yes
+												NOT = { controlled_by = ROOT }
+											}
+										}
+									}
+									random_owned_province = {
+										limit = {
+											has_siege = no
+											controlled_by = ROOT
+										}
+										infantry = ROOT
+									}
+								}
+								else = {
+									capital_scope = {
+										infantry = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			ai_chance = { factor = 0 }
+		}
+		sea_conscript_subject_cavalry = {
+			gui = sea_conscript_cav_gov_mech
+			trigger = {
+				any_owned_province = {
+					has_siege = no
+					controlled_by = ROOT
+				}
+				NOT = {
+					has_government_power = { 
+						mechanic_type = moroccan_iqta_mechanic
+						power_type = moroccan_berbers_influence
+						value = 85
+					}
+				}
+				any_subject_country = {
+					custom_trigger_tooltip = {
+						tooltip = sea_conscript_subject_cavalry_ttt
+						any_province = {
+							country_or_non_sovereign_subject_holds = ROOT
+							cavalry_in_province = PREV
+						}
+					}
+				}
+			}
+			effect = {
+				custom_tooltip = sea_conscript_subject_cavalry_tt
+				tooltip = {
+					if = {
+						limit = {
+							capital_scope = {
+								OR = {
+									has_siege = yes
+									NOT = { controlled_by = ROOT }
+								}
+							}
+						}
+						random_owned_province = {
+							limit = {
+								has_siege = no
+								controlled_by = ROOT
+							}
+							cavalry = ROOT
+						}
+					}
+					else = {
+						capital_scope = {
+							cavalry = ROOT
+						}
+					}
+				}
+				hidden_effect = {
+					set_variable = {
+						which = subject_cav_recruited
+						value = 0
+					}
+					every_subject_country = {
+						set_variable = {
+							which = subject_cav
+							value = 0
+						}
+						while = {
+							limit = {
+								overlord = {
+									NOT = {
+										check_variable = {
+											which = subject_cav_recruited
+											value = 10
+										}
+									}
+									NOT = {
+										has_government_power = { 
+											mechanic_type = moroccan_iqta_mechanic
+											power_type = moroccan_berbers_influence
+											value = 85
+										}
+									}
+								}
+								any_province = {
+									country_or_non_sovereign_subject_holds = ROOT
+									cavalry_in_province = PREV
+								}
+							}
+							change_variable = {
+								which = subject_cav
+								value = 1
+							}
+							random_province = {
+								limit = {
+									country_or_non_sovereign_subject_holds = ROOT
+									cavalry_in_province = PREV
+								}
+								kill_units = {
+									who = PREV
+									type = cavalry
+									amount = 1
+								}
+							}
+							overlord = {
+								change_variable = {
+									which = subject_cav_recruited
+									value = 1
+								}
+								add_government_power = {
+									mechanic_type = moroccan_iqta_mechanic
+									power_type = moroccan_berbers_influence
+									value = 2
+								}
+							}
+						}
+						while = {
+							limit = {
+								check_variable = {
+									which = subject_cav
+									value = 1
+								}
+							}
+							subtract_variable = {
+								which = subject_cav
+								value = 1
+							}
+							overlord = {
+								if = {
+									limit = {
+										capital_scope = {
+											OR = {
+												has_siege = yes
+												NOT = { controlled_by = ROOT }
+											}
+										}
+									}
+									random_owned_province = {
+										limit = {
+											has_siege = no
+											controlled_by = ROOT
+										}
+										cavalry = ROOT
+									}
+								}
+								else = {
+									capital_scope = {
+										cavalry = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			ai_chance = { factor = 0 }
+		}
+		sea_moroccan_iqta_decrease_influence = {
+			gui = sea_moroccan_iqta_decrease_gov_mech
+			center = no
+			potential = {
+				has_estate_privilege = estate_nobles_moroccan_iqta
+			}
+			trigger = {
+				adm_power_cost = 20
+				mil_power_cost = 15
+				has_government_power = {
+					mechanic_type = moroccan_iqta_mechanic
+					power_type = moroccan_berbers_influence
+					value = 0.1
+				}
+			}
+			effect = {
+				adm_power_cost = 20
+				mil_power_cost = 15
+				add_government_power = {
+					mechanic_type = moroccan_iqta_mechanic
+					power_type = moroccan_berbers_influence
+					value = -5
+				}
+			}
+			ai_chance = { factor = 0 }
+		}
+		sea_moroccan_iqta_increase_influence = {
+			gui = sea_moroccan_iqta_increase_gov_mech
+			center = no
+			potential = {
+				has_estate_privilege = estate_nobles_moroccan_iqta
+			}
+			trigger = {
+				dip_power_cost = 20
+				mil_power_cost = 15
+				NOT = {
+					has_government_power = {
+						mechanic_type = moroccan_iqta_mechanic
+						power_type = moroccan_berbers_influence
+						value = 100
+					}
+				}
+			}
+			effect = {
+				dip_power_cost = 20 # 8 # 20 # 40
+				mil_power_cost = 15 # 6 # 15 # 30
+				add_government_power = {
+					mechanic_type = moroccan_iqta_mechanic
+					power_type = moroccan_berbers_influence
+					value = 5 # 2 # 5 # 10
+				}
+			}
+			ai_chance = { factor = 0 }
+		}
+	}
+}

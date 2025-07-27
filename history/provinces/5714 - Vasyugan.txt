@@ -1,0 +1,21 @@
+#5714 - Vasyugan
+
+owner = SIB
+controller = SIB
+#owner = SHY
+#controller = SHY
+add_core = SIB
+#add_core = SHY
+culture = ostyaki
+religion = sunni
+capital = "Vasyugan"
+trade_goods = fur
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+
+
+discovered_by = nomad_group

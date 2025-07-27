@@ -1,0 +1,16 @@
+government = tribal
+government_rank = 1
+add_government_reform = steppe_horde
+primary_culture = chahar
+religion = vajrayana
+technology_group = nomad_group
+capital = 722#Jirem
+1414.1.1 = { 
+	monarch = { 
+		name = "Gungsangnorbu"
+		dynasty = "Kharchin"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

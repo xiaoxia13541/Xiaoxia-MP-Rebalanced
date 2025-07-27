@@ -1,0 +1,21 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_MIDDLE_EAST_MUSLIM"
+	desc = "TY_BOOKMARK_MIDDLE_EAST_MUSLIM_DESC"
+	date = 1444.11.11
+	
+	center = 407
+
+	country = TUR
+	country = MAM
+	country = MOR
+	country = TUN
+	country = QAR
+	country = GEO
+	country = QOM
+	country = ORM
+	country = TRS
+	country = KHO
+	
+
+}

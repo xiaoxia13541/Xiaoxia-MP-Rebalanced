@@ -1,0 +1,196 @@
+# Vatican Library
+build_dev_vatican_library = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			tag = PAP
+		}
+	}
+	development_cost = -0.05
+	build_cost = -0.05
+	state_maintenance_modifier = -0.2
+}
+########################################
+# Assassinate Heir triggered:
+#sea_spy_kill_heir_diplo_action_modifier = {
+#	potential = {
+#		has_province_flag = sea_spy_kill_heir_diplo_action_modifier_flag
+#	}
+#	trigger = { }
+#	on_activation = {
+#		random_list = {
+#			30 = {
+#				owner = {
+#					set_country_flag = hunting_accident_heir_assassination_flag
+#					country_event = { id = 9459 }
+#					set_country_flag = sea_spy_kill_heir_covert_action_cooldown_flag
+#				}
+#			}
+#			70 = { }
+#		}
+#		clr_province_flag = sea_spy_kill_heir_diplo_action_modifier_flag
+#	}
+#	on_deactivation = {
+#		remove_province_triggered_modifier = sea_spy_kill_heir_diplo_action_modifier
+#	}
+#}
+########################################
+# Fishing game?:
+#sea_fishing_game_triggered_modifier = {
+#	potential = {
+#		has_province_flag = sea_fishing_game_modifier_flag
+#	}
+#	trigger = { }
+#	on_activation = {
+#		random_list = {
+#			1 = { owner = { country_event = { id = sealand_events.16 days = 100 } } } # Bless ruler
+#			1 = {
+#				owner = {
+#					if = {
+#						limit = {
+#							is_year = 1555
+#							NOT = { has_country_flag = got_legendary_general_flag }
+#						}
+#						country_event = { id = sealand_events.17 days = 100 }
+#					}
+#					else = { country_event = { id = sealand_events.177 days = 100 } }
+#				}
+#			}
+#			1 = { owner = { country_event = { id = sealand_events.15 days = 100 } } } # Fishing accident
+#			1 = { owner = { country_event = { id = sealand_events.19 days = 100 } } } # Stability
+#			3 = {
+#				if = {
+#					limit = { has_port = yes }
+#					set_province_flag = sea_fishing_game_pirates_flag
+#					owner = { country_event = { id = sealand_events.18 days = 100 } } # Pirates
+#				}
+#			}
+#			3 = {
+#				owner = {
+#					set_country_flag = sea_fishing_game_adm_power_flag
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			3 = {
+#				owner = {
+#					set_country_flag = sea_fishing_game_dip_power_flag
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			2 = {
+#				owner = {
+#					set_country_flag = sea_fishing_game_mil_power_flag
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			2 = {
+#				owner = {
+#					set_country_flag = sea_fishing_game_innovativeness_flag
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			2 = {
+#				owner = {
+#					set_country_flag = sea_fishing_game_splendor_flag
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			2 = {
+#				owner = {
+#					set_country_flag = sea_fishing_game_professionalism_flag
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			3 = {
+#				set_province_flag = sea_fishing_game_tax_flag
+#				owner = {
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			3 = {
+#				set_province_flag = sea_fishing_game_remove_tax_flag
+#				owner = {
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			3 = {
+#				set_province_flag = sea_fishing_game_production_flag
+#				owner = {
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			3 = {
+#				set_province_flag = sea_fishing_game_remove_production_flag
+#				owner = {
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			2 = {
+#				set_province_flag = sea_fishing_game_manpower_flag
+#				owner = {
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			3 = {
+#				set_province_flag = sea_fishing_game_remove_manpower_flag
+#				owner = {
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			4 = {
+#				set_province_flag = sea_fishing_game_province_depleted # So Fish wouldn't spawn
+#				set_province_flag = sea_fishing_game_province_depleted_flag
+#				owner = {
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			6 = {
+#				set_province_flag = sea_fishing_game_overfishing_flag
+#				owner = {
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			4 = {
+#				owner = {
+#					set_country_flag = sea_fishing_game_treasury_flag
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			20 = {
+#				owner = {
+#					set_country_flag = sea_fishing_game_unsuccess_flag
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#			28 = {
+#				owner = {
+#					set_country_flag = sea_fishing_game_success_flag
+#					country_event = { id = sealand_events.20 days = 100 } # Generic random
+#				}
+#			}
+#		}
+#	}
+#	on_deactivation = {
+#		remove_province_triggered_modifier = sea_fishing_game_triggered_modifier
+#	}
+#}
+########################################
+# Roulette game:
+#sea_roulette_game_triggered_modifier = {
+#	potential = {
+#		has_province_flag = sea_roulette_game_modifier_flag
+#	}
+#	trigger = { }
+#	on_activation = {
+#		random_list = {
+#			4 = { owner = { add_mil_power = 50 } }
+#			6 = { owner = { add_mil_power = -50 } }
+#		}
+#		clr_province_flag = sea_roulette_game_modifier_flag
+#	}
+#	on_deactivation = {
+#		remove_province_triggered_modifier = sea_roulette_game_triggered_modifier
+#	}
+#}

@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 2
+base_production = 2
+culture = chihan
+trade_goods = copper
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = QIC
+owner = QIC
+controller = QIC
+discovered_by = indian

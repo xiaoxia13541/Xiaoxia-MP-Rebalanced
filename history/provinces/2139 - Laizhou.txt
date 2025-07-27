@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 3
+base_production = 2
+culture = shandong_culture
+trade_goods = grain
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+add_core = QIC
+owner = QIC
+controller = QIC
+discovered_by = nomad_group
+discovered_by = indian

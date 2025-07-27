@@ -1,0 +1,61 @@
+azama_chiefdom_confederacy = { # 阿扎玛议事会 贝宁
+    icon = "benin_jungel_confedracy_icon" 
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+
+    potential = {
+		OR ={
+			tag = BEN
+			was_tag = BEN
+		}
+    }
+    
+	trigger = {
+        religion = shamanism
+		capital_scope = {
+			continent = africa
+			has_terrain = jungle
+		}
+    }
+    
+	modifiers = {
+		infantry_cost = -0.1
+        attack_bonus_in_capital_terrain = 1
+		move_capital_cost_modifier = -0.75
+		legitimacy = -5
+    }
+
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Cradle of Civilization"
+				has_dlc = "Winds of Change"
+			}
+		}
+		government_abilities = {
+			benin_jungle_confederacy
+		}
+	}
+}
+
+benin_tribe_remain_tribal_reform = { # 六改 建立先进部落
+	icon = "advanced_reformed_tribes_icon"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			AND = {
+				NOT = { has_reform = steppe_horde }
+				NOT = { has_reform = great_mongol_state_reform }
+			}
+			NOT = { has_dlc = "The Cossacks" }
+		}
+	}
+	modifiers = {
+		legitimacy = 1
+		monthly_benin_jungle_assembled_power = 0.1
+	}
+	ai = {
+		factor = 0
+	}
+}

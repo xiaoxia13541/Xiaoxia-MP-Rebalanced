@@ -1,0 +1,16 @@
+# Sealand Swiss Mercenaries
+
+type = infantry
+unit_type = sea_special_units
+
+# Tech 23-32 I sure do hope it's not op...
+
+maneuver = 1
+offensive_morale = 4
+defensive_morale = 4
+offensive_fire = 4
+defensive_fire = 4
+offensive_shock = 4
+defensive_shock = 4
+
+manpower = 2.5

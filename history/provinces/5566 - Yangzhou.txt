@@ -1,0 +1,21 @@
+# 2727 - Yangzhou
+owner = EAS
+controller = EAS
+culture = jianghuai
+religion = confucianism
+capital = "Yangzhou"
+trade_goods = grain
+base_tax = 2
+base_production = 3
+base_manpower = 3
+# citysize = 8900
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1645.7.1 = { controller = QNG }
+1661.6.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes
+add_core = EAS

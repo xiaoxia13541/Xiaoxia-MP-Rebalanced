@@ -1,0 +1,10 @@
+# Sealand.
+government = republic
+add_government_reform = vinland_government
+government_rank = 2
+primary_culture = scanian
+add_accepted_culture = icelandic
+religion = norse_pagan_reformed
+technology_group = western
+historical_friend = NOR
+capital = 981 #Taqamkuk

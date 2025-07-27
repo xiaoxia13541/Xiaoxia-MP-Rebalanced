@@ -1,0 +1,24 @@
+#615 - Luang Prabang
+#owner = LXA
+#controller = LXA
+add_core = LXA
+owner = MPH
+controller = MPH
+culture = lao
+religion = buddhism
+capital = "Xieng Tong"
+trade_goods = chinaware
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = LUA
+discovered_by = chinese
+discovered_by = indian
+1560.1.1 = { capital = "Luang Prabang" }
+1655.1.1 = { discovered_by = SPA }
+1694.1.1 = { add_core = AYU }
+1707.1.1 = { 
+	controller = LUA
+}
+add_core = MPH

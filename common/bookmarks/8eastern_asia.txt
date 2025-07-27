@@ -1,0 +1,22 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_EASTERN_ASIA"
+	desc = "TY_BOOKMARK_EASTERN_ASIA_DESC"
+	date = 1444.11.11
+	
+	center = 1821
+
+	country = CSH
+	country = CYI
+	country = CXI
+	country = YUE
+	country = WUU
+	country = QIC
+	country = KOR
+	country = ASK
+	country = SMZ
+	country = UES
+	country = TKD
+
+	
+}

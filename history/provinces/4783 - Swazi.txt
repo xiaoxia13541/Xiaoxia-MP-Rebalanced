@@ -1,0 +1,14 @@
+#9002 - Swazi
+owner = SWZ
+controller = SWZ
+add_core = SWZ
+culture = nguni
+religion = shamanism#Fetishism
+capital = "Mbabane"
+is_city = yes
+trade_goods = gold
+base_tax = 3
+base_production = 3
+base_manpower = 4
+discovered_by = central_african
+fort_15th = yes

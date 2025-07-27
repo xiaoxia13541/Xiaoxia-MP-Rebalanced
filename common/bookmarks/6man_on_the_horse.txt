@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_MAN_ON_THE_HORSE"
+	desc = "TY_BOOKMARK_MAN_ON_THE_HORSE_DESC"
+	date = 1444.11.11
+	
+	center = 5674
+
+
+	country = NOG
+	country = SHY
+	country = ZUN
+	country = CHG
+	country = KHA
+	country = MJZ
+
+
+}

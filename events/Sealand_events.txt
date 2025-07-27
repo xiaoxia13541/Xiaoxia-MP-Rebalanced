@@ -1,0 +1,5481 @@
+########################################################################
+#Teutonic Order mission event:
+namespace = teutonic_events
+
+country_event = { # Centralize The Order mission event
+	id = teutonic_events.1
+	title = flavor_brapru.15.t
+	desc = teutonic_events.1.d
+	picture = DIPLOMACY_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_flag = fired_brandeburg_event_for_neumark } # Because original Neumark event fired
+	}
+
+	immediate = { set_country_flag = fired_teutonic_event_for_neumark } # To stop the other event from firing
+	
+	option = { # Send offer to sell lands to Brandenburg.
+		name = teutonic_events.1.a
+		custom_tooltip = teutonic_events.1.a.tt
+		tooltip = {
+			add_country_modifier = {
+				name = "centralized_the_order_modifier"
+				duration = 1825
+			}
+			take_estate_land_share_gigantic = { estate = estate_burghers }
+		}
+		BRA = {
+			country_event = { id = teutonic_events.2 }
+		}
+	}
+	option = { # Keep the lands.
+		name = flavor_brapru.16.b
+		add_stability = 2
+	}
+}
+country_event = { # Brandenburg response
+	id = teutonic_events.2
+	title = flavor_brapru.15.t
+	desc = teutonic_events.2.d
+	picture = DIPLOMACY_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # Accept the offer
+		name = teutonic_events.2.a
+		ai_chance = { factor = 100 }
+		tooltip = {
+			49 = {
+				if = {
+					limit = {
+						owned_by = FROM
+						controlled_by = FROM
+					}
+					cede_province = ROOT
+					add_core = ROOT
+					remove_core = FROM
+				}
+			}
+			4747 = {
+				if = {
+					limit = {
+						owned_by = FROM
+						controlled_by = FROM
+					}
+					cede_province = ROOT
+					add_core = ROOT
+					remove_core = FROM
+				}
+			}
+		}
+		add_treasury = -100
+		FROM = {
+			country_event = { id = teutonic_events.3 }
+			add_opinion = {
+				who = ROOT
+				modifier = pawning_of_neumark
+			}
+		}
+	}
+	option = { # Decline the offer
+		name = flavor_brapru.15.b
+		ai_chance = { factor = 0 }
+		custom_tooltip = flavor_brapru.15.b.tt
+		add_prestige = -5
+		FROM = {
+			country_event = { id = teutonic_events.4 }
+		}
+	}
+}
+country_event = { # Brandenburg accepts
+	id = teutonic_events.3
+	title = flavor_brapru.17.t
+	desc = teutonic_events.3.d
+	picture = DIPLOMACY_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = flavor_brapru.17.a
+		49 = {
+			if = {
+				limit = {
+					owned_by = ROOT
+					controlled_by = ROOT
+				}
+				cede_province = FROM
+				add_core = FROM
+				remove_core = ROOT
+			}
+		}
+		4747 = {
+			if = {
+				limit = {
+					owned_by = ROOT
+					controlled_by = ROOT
+				}
+				cede_province = FROM
+				add_core = FROM
+				remove_core = ROOT
+			}
+		}
+		add_treasury = 100
+		FROM = {
+			add_opinion = {
+				who = ROOT
+				modifier = pawning_of_neumark
+			}
+		}
+		add_country_modifier = {
+			name = "centralized_the_order_modifier"
+			duration = 1825
+		}
+		take_estate_land_share_gigantic = { estate = estate_burghers }
+	}
+}
+country_event = { # Brandenburg declines
+	id = teutonic_events.4
+	title = teutonic_events.4.t
+	desc = teutonic_events.4.d
+	picture = DIPLOMACY_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = teutonic_events.4.a
+		add_stability = 2
+	}
+}
+
+######################
+# Partition of Commonwealth mission event:
+
+country_event = {
+	id = teutonic_events.5
+	title = teutonic_events.5.t
+	desc = teutonic_events.5.d
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = teutonic_events.5.a
+		ai_chance = { factor = 100 }
+		every_country = {
+			limit = {
+				owns = 4128
+			}
+			country_event = { id = teutonic_events.6 }
+		}
+		custom_tooltip = teutonic_events.5.aa.tt
+		tooltip = {
+			4128 = {
+				add_core = FROM
+				cede_province = FROM
+				remove_core = ROOT
+				change_culture = saxon
+				if = {
+					limit = {
+						NOT = { religion = catholic }
+					}
+					change_religion = catholic
+				}
+			}
+		}
+		custom_tooltip = teutonic_events.5.ab.tt
+		tooltip = {
+			4128 = {
+				add_core = FROM
+			}
+		}
+	}
+	option = {
+		name = teutonic_events.5.b
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = { # Whoever owns, response.
+	id = teutonic_events.6
+	title = teutonic_events.6.t
+	desc = teutonic_events.6.d
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = teutonic_events.6.a
+		ai_chance = { factor = 100 }
+		4128 = {
+			add_core = FROM
+			cede_province = FROM
+			remove_core = ROOT
+			change_culture = saxon
+			if = {
+				limit = {
+					NOT = { religion = catholic }
+				}
+				change_religion = catholic
+			}
+		}
+	}
+	option = {
+		name = teutonic_events.6.b
+		ai_chance = { factor = 0 }
+		4128 = {
+			add_core = FROM
+		}
+	}
+}
+########################################################################
+# Austria
+namespace = sea_austria_events
+country_event = {
+	id = sea_austria_events.1
+	title = sea_austria_events.1.t
+	desc = sea_austria_events.1.d
+	picture = KING_SICK_IN_BED_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_country_flag = fired_austria_warning_event }
+		NOT = { is_year = 1445 }
+		is_elector = yes
+		HAB = { ai = yes }
+	}
+	immediate = {
+		set_country_flag = fired_austria_warning_event
+		set_global_flag = fired_austria_warning_event2
+	}
+	option = { name = sea_austria_events.1.a }
+}
+country_event = {
+	id = sea_austria_events.2
+	title = none
+	desc = none
+	picture = KING_SICK_IN_BED_eventPicture
+	hidden = yes
+	fire_only_once = yes
+   	mean_time_to_happen = {
+        	months = 6
+    	}
+	trigger = {
+		tag = HAB
+		OR = {
+			is_year = 1454
+			has_country_flag = friedrich_iii_dies_flag
+		}
+		has_global_flag = fired_austria_warning_event2
+		NOT = { has_country_flag = fired_austria_slip_event }
+	}
+	immediate = {
+		if = {
+			limit = {
+				has_ruler = "Friedrich III"
+			}
+			kill_ruler = yes
+			define_ruler = { dynasty = "von Habsburg" }
+		}
+		set_country_flag = fired_austria_slip_event
+		every_owned_province = {
+			limit = { OR = { is_core = STY is_core = TIR } }
+			remove_core = HAB
+			add_claim = HAB
+		}
+		every_owned_province = {
+			limit = {
+				is_core = CLI
+			}
+			remove_core = HAB
+		}
+		release = STY
+		release = TIR
+		STY = { create_alliance = TIR }
+		release = CLI
+		add_truce_with = STY
+		add_truce_with = TIR
+		add_truce_with = CLI
+	}
+	option = { }
+}
+########################################################################
+#Denmark mission event:
+namespace = sea_denmark_events
+
+country_event = {
+	id = sea_denmark_events.1
+	title = sea_denmark_events.1.t
+	desc = sea_denmark_events.1.d
+	picture = KING_SICK_IN_BED_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NRM = { exists = no }
+					NOT = {
+						normandy_area = {
+							type = all
+							NOT = { is_core = NRM }
+						}
+					}
+				}
+				normandy_area = { add_core = NRM }
+			}
+		}
+	}
+
+	option = {
+		name = sea_denmark_events.1.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				NRM = { is_subject = no }
+				NRM = { exists = no }
+			}
+			hidden_effect = {
+				release = NRM
+			}
+			vassalize = NRM
+			hidden_effect = {
+				NRM = {
+					change_government = monarchy
+					add_government_reform = feudalism_reform
+				}
+			}
+		}
+		NRM = {
+			define_heir = {
+				name = "Rollo"
+				dynasty = "Ragnvaldsson"
+				religion = norse_pagan_reformed
+				claim = 100
+				birth_date = 860.1.1
+			}
+			hidden_effect = {
+				kill_ruler = yes
+			}
+			add_ruler_modifier = {
+				name = live_long_and_prosper_modifier
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				normandy_area = {
+					is_core = ROOT
+				}
+			}
+			normandy_area = { remove_core = ROOT }
+		}
+	}
+	option = {
+		name = sea_denmark_events.1.b
+		ai_chance = { factor = 0 }
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+	}
+}
+########################################################################
+# England/Angevin
+namespace = sea_angevin_events
+
+country_event = { # GB Marines
+	id = sea_angevin_events.2
+	title = sea_angevin_events.2.t
+	desc = sea_angevin_events.2.d
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+	immediate = { set_country_flag = royal_marines_reform_event_flag }
+
+	option = {
+		name = sea_angevin_events.2.a
+		ai_chance = { factor = 1 }
+		set_country_flag = estate_nobles_gb_royal_marines_special_units_elite_army_flag
+		custom_tooltip = sea_angevin_events.2.a.tt
+	}
+	option = {
+		name = sea_angevin_events.2.b
+		ai_chance = { factor = 0 }
+		set_country_flag = estate_nobles_gb_royal_marines_special_units_national_army_flag
+		custom_tooltip = sea_angevin_events.2.b.tt
+	}
+}
+########################################################################
+# France
+namespace = sea_france_events
+
+province_event = { # Paris fallen
+	id = sea_france_events.1
+	title = sea_france_events.1.t
+	desc = sea_france_events.1.d
+	picture = SIEGE_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		owner = { tag = FRA }
+		province_id = 183
+		NOT = { is_year = 1474 }
+	}
+	immediate = { FRA = { set_country_flag = paris_has_fallen_flag } }
+	option = {
+		name = sea_france_events.1.a
+		custom_tooltip = paris_has_fallen_tt
+	}
+}
+########################################################################
+namespace = sealand_events
+# New World and Colonial Australia nerf:
+
+country_event = {
+	id = sealand_events.1
+	title = sealand_events.1.t
+	desc = sealand_events.1.d
+	picture = BATTLE_eventPicture
+
+	hidden = yes
+   	mean_time_to_happen = {
+        	days = 1
+    	}
+	fire_only_once = yes
+	immediate = {
+		set_global_flag = empire_of_china_dismantled # For Mandate of China
+		every_province = {
+			limit = {
+				OR = {
+					colonial_region = colonial_australia
+					continent = north_america
+					continent = south_america
+				}
+			}
+			add_permanent_province_modifier	= {
+				name = new_wrold_nerfs_modifier
+				duration = -1
+			}
+		}
+	}
+	option = { }
+}
+
+country_event = {
+	id = sealand_events.2
+	title = sealand_events.2.t
+	desc = sealand_events.2.d
+	picture = COLONIZATION_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		ai = no
+		te_ika_a_maui_hauauru_area = {
+			type = all
+			owned_by = ROOT	
+		}
+		te_ika_a_maui_waho_area = {
+			type = all
+			owned_by = ROOT	
+		}
+		te_waipounamu_area = {
+			type = all
+			owned_by = ROOT	
+		}
+	}
+	option = {
+		name = sealand_events.2.a
+	}
+}
+country_event = {
+	id = sealand_events.3
+	title = sealand_events.3.t
+	desc = sealand_events.3.d
+	picture = EP_ISLAND_eventPicture
+
+	trigger = {
+		ai = no
+		num_of_owned_provinces_with = {
+			value = 20
+			is_island = yes
+		}
+		NOT = { has_country_flag = fired_sealand_event_3 }
+	}
+	option = {
+		name = sealand_events.3.a
+		set_country_flag = fired_sealand_event_3
+		add_country_modifier = {
+			name = sealand_modifier
+			duration = -1
+		}
+	}
+}
+# Estate 30% crownland set.
+country_event = {
+	id = sealand_events.4
+	title = sealand_events.4.t
+	desc = sealand_events.4.d
+	picture = BATTLE_eventPicture
+
+	hidden = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { crown_land_share = 30 }
+		NOT = { has_country_flag = fired_crownland_event }
+	}
+	immediate = {
+		if = {
+			limit = {
+				crown_land_share = 29
+			}
+			take_estate_land_share_small = { estate = all }
+		}
+		if = {
+			limit = {
+				crown_land_share = 28
+				NOT = { crown_land_share = 29 }
+			}
+			take_estate_land_share_medium = { estate = all }
+		}
+		if = {
+			limit = {
+				crown_land_share = 27
+				NOT = { crown_land_share = 28 }
+			}
+			take_estate_land_share_large = { estate = all }
+		}
+		if = {
+			limit = {
+				crown_land_share = 25
+				NOT = { crown_land_share = 27 }
+			}
+			take_estate_land_share_massive = { estate = all }
+		}
+		if = {
+			limit = {
+				crown_land_share = 24
+				NOT = { crown_land_share = 25 }
+			}
+			take_estate_land_share_massive = { estate = all }
+			take_estate_land_share_medium = { estate = all }
+		}
+		else_if = {
+			limit = {
+				NOT = { crown_land_share = 30 }
+			}
+			take_estate_land_share_medium = { estate = all }
+		}
+		set_country_flag = fired_crownland_event
+	}
+	option = { }
+}
+# Discover Africa for players
+country_event = {
+	id = sealand_events.5
+	title = sealand_events.5.t
+	desc = sealand_events.5.d
+	picture = BATTLE_eventPicture
+
+	hidden = yes
+   	mean_time_to_happen = {
+        	days = 1
+    	}
+	trigger = {
+		NOT = { has_country_flag = discovered_africa_flag }
+		capital_scope = {
+			continent = africa
+		}
+		ai = no
+	}
+	immediate = {
+		every_province = {
+			limit = {
+				continent = africa
+				NOT = { area = mascarenes_area }
+				NOT = { area = sao_tome_area }
+				NOT = { area = macaronesia_area }
+				NOT = { province_id = 1098 }
+				NOT = { province_id = 1096 }
+			}
+			discover_country = ROOT
+		}
+		every_province = {
+			limit = {
+				continent = africa
+				NOT = { area = mascarenes_area }
+				NOT = { area = sao_tome_area }
+				NOT = { area = macaronesia_area }
+				NOT = { province_id = 1098 }
+				NOT = { province_id = 1096 }
+			}
+			sea_zone = {
+				discover_country = ROOT
+			}
+		}
+		mashriq_region = {
+			discover_country = ROOT
+		}
+		arabia_region= {
+			discover_country = ROOT
+		}
+		arabian_sea_region = {
+			discover_country = ROOT
+		}
+		1450 = {
+			discover_country = ROOT
+		}
+		1453 = {
+			discover_country = ROOT
+		}
+		1618 = {
+			discover_country = ROOT
+		}
+		1616 = {
+			discover_country = ROOT
+		}
+		1619 = {
+			discover_country = ROOT
+		}
+		persia_region = {
+			limit = {
+				has_port = yes
+			}
+			discover_country = ROOT
+		}
+		khorasan_region = {
+			limit = {
+				has_port = yes
+			}
+			discover_country = ROOT
+		}
+		west_india_region = {
+			limit = {
+				has_port = yes
+			}
+			discover_country = ROOT
+		}
+		deccan_region = {
+			limit = {
+				has_port = yes
+			}
+			discover_country = ROOT
+		}
+		set_country_flag = discovered_africa_flag
+	}
+	option = { }
+}
+country_event = {
+	id = sealand_events.6
+	title = sealand_events.6.t
+	desc = sealand_events.6.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_flag = fired_sealand_events_6_flag }
+		#ai = no
+		OR = {
+			is_colonial_nation = yes
+			has_reform = trade_company_government
+		}
+	}
+	option = {
+		name = sealand_events.6.a
+		set_country_flag = fired_sealand_events_6_flag
+	}
+}
+# Discover America for players
+#country_event = {
+#	id = sealand_events.7
+#	title = sealand_events.7.t
+#	desc = sealand_events.7.d
+#	picture = BATTLE_eventPicture
+#
+#	hidden = yes
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	trigger = {
+#		NOT = { is_year = 1450 }
+#		NOT = { has_country_flag = discovered_america_flag }
+#		capital_scope = {
+#			OR = {
+#				continent = north_america
+#				continent = south_america
+#			}
+#		}
+#		ai = no
+#	}
+#	immediate = {
+#		every_province = {
+#			limit = {
+#				OR = {
+#					continent = north_america
+#					continent = south_america
+#					superregion = near_east_superregion
+#					superregion = persia_superregion
+#					superregion = india_superregion
+#				}
+#			}
+#			discover_country = ROOT
+#		}
+#		every_province = {
+#			limit = {
+#				OR = {
+#					continent = north_america
+#					continent = south_america
+#					superregion = near_east_superregion
+#					superregion = persia_superregion
+#					superregion = india_superregion
+#				}
+#			}
+#			sea_zone = {
+#				discover_country = ROOT
+#			}
+#		}
+#		set_country_flag = discovered_america_flag
+#	}
+#	option = { }
+#}
+# Discover more:
+#country_event = {
+#	id = sealand_events.8
+#	title = sealand_events.7.t
+#	desc = sealand_events.7.d
+#	picture = BATTLE_eventPicture
+#
+#	hidden = yes
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	trigger = {
+#		is_year = 1455
+#		NOT = { is_year = 1460 }
+#		NOT = { has_country_flag = discovered_america_more_flag }
+#		capital_scope = {
+#			OR = {
+#				continent = north_america
+#				continent = south_america
+#			}
+#		}
+#		ai = no
+#	}
+#	immediate = {
+#		every_province = {
+#			limit = {
+#				OR = {
+#					superregion = tartary_superregion
+#					superregion = far_east_superregion
+#					superregion = china_superregion
+#					superregion = east_indies_superregion
+#				}
+#			}
+#			discover_country = ROOT
+#		}
+#		every_province = {
+#			limit = {
+#				OR = {
+#					superregion = tartary_superregion
+#					superregion = far_east_superregion
+#					superregion = china_superregion
+#					superregion = east_indies_superregion
+#				}
+#			}
+#			sea_zone = {
+#				discover_country = ROOT
+#			}
+#		}
+#		set_country_flag = discovered_america_more_flag
+#	}
+#	option = { }
+#}
+# Discover more more:
+#country_event = {
+#	id = sealand_events.9
+#	title = sealand_events.7.t
+#	desc = sealand_events.7.d
+#	picture = BATTLE_eventPicture
+#
+#	hidden = yes
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	trigger = {
+#		is_year = 1488
+#		NOT = { is_year = 1500 }
+#		NOT = { has_country_flag = discovered_america_more_more_flag }
+#		capital_scope = {
+#			OR = {
+#				continent = north_america
+#				continent = south_america
+#			}
+#		}
+#		ai = no
+#	}
+#	immediate = {
+#		every_province = {
+#			limit = {
+#				OR = {
+#					superregion = eastern_europe_superregion
+#					superregion = europe_superregion
+#					superregion = africa_superregion
+#					superregion = southern_africa_superregion
+#				}
+#			}
+#			discover_country = ROOT
+#		}
+#		every_province = {
+#			limit = {
+#				OR = {
+#					superregion = eastern_europe_superregion
+#					superregion = europe_superregion
+#					superregion = africa_superregion
+#					superregion = southern_africa_superregion
+#				}
+#			}
+#			sea_zone = {
+#				discover_country = ROOT
+#			}
+#		}
+#		set_country_flag = discovered_america_more_more_flag
+#	}
+#	option = { }
+#}
+country_event = {
+	id = sealand_events.10
+	title = sealand_events.10.t
+	desc = sealand_events.10.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+	option = {
+		name = sealand_events.10.a
+		trigger = {
+			OR = {
+				NOT = { government = monarchy }
+				has_reform = native_basic_reform
+				tag = AZT
+			}
+		}
+		change_government = monarchy
+		if = {
+			limit = {
+				tag = AZT
+				NOT = { has_reform = aztec_empire_reform }
+			}
+			add_government_reform = aztec_empire_reform
+		}
+	}
+	option = {
+		name = sealand_events.10.b
+		trigger = {
+			NOT = { government = republic }
+		}
+		change_government = republic
+	}
+	option = {
+		name = sealand_events.10.c
+		trigger = {
+			NOT = { government = theocracy }
+		}
+		change_government = theocracy
+	}
+	option = {
+		name = sealand_events.10.g
+		trigger = {
+			NOT = { government = tribal }
+		}
+		change_government = tribal
+		add_government_reform = steppe_horde
+	}
+	option = {
+		name = sealand_events.10.gg
+		trigger = {
+			NOT = { government = tribal }
+		}
+		change_government = tribal
+		add_government_reform = tribal_federation
+	}
+	#option = {
+	#	name = sealand_events.10.e
+	#	trigger = {
+	#		NOT = { has_reform = native_basic_reform }
+	#	}
+	#	change_government = native
+	#	add_government_reform = native_clan_council_reform
+	#}
+	option = {
+		name = sealand_events.10.f
+		if = {
+			limit = {
+				tag = AZT
+				has_reform = aztec_empire_reform
+			}
+			custom_tooltip = aztecs_monarchy_reform_tt
+		}
+	}
+}
+country_event = {
+	id = sealand_events.11
+	title = sealand_events.11.t
+	desc = sealand_events.11.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	option = {
+		name = sealand_events.11.a
+		define_ruler = { }
+	}
+	option = {
+		name = sealand_events.11.b
+		define_ruler = { }
+	}
+	option = {
+		name = sealand_events.11.c
+		define_ruler = { }
+	}
+}
+# Holy Roman Empire Emperor reforms:
+country_event = {
+	id = sealand_events.12
+	title = sealand_events.12.t
+	desc = sealand_events.12.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		has_global_flag = emperor_imperial_estates_decision_flag
+	}
+	immediate = {
+		hidden_effect = { hre_inheritable = no }
+	}
+	option = {
+		tooltip = { hre_inheritable = no }
+	}
+}
+country_event = {
+	id = sealand_events.13
+	title = sealand_events.13.t
+	desc = sealand_events.13.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		has_global_flag = emperor_privilegia_de_non_appelando_decision_flag
+	}
+	immediate = {
+		every_subject_country = {
+			limit = {
+				has_country_flag = fire_hre_vassals_3_flag
+			}
+			grant_independence = yes
+		}
+	}
+	option = {
+		name = sealand_events.13.a
+		custom_tooltip = sealand_events.13.a.tt
+	}
+}
+# National focus stuff for future:
+# country_event = {
+# 	id = sealand_events.14
+# 	title = sealand_events.14.t
+# 	desc = sealand_events.14.d
+# 	picture = BAD_WITH_MONARCH_eventPicture
+# 	is_triggered_only = yes
+# 	trigger = {
+# 		always = no
+# 	}
+
+# 	option = { # Set ADM focus
+# 		name = sealand_events.14.a
+# 		set_country_flag = change_national_focus_cooldown_flag
+# 		change_national_focus = ADM
+# 		add_country_modifier = {
+# 			name = national_focus_adm_modifier
+# 			duration = -1
+# 		}
+# 		remove_country_modifier = national_focus_dip_modifier
+# 		remove_country_modifier = national_focus_mil_modifier
+# 		remove_country_modifier = national_focus_remove_cooldown_modifier
+# 	}
+# 	option = { # No idea
+# 		name = sealand_events.14.b
+# 	}
+# 	option = { # Set DIP focus
+# 		name = sealand_events.14.c
+# 		set_country_flag = change_national_focus_cooldown_flag
+# 		change_national_focus = DIP
+# 		add_country_modifier = {
+# 			name = national_focus_dip_modifier
+# 			duration = -1
+# 		}
+# 		remove_country_modifier = national_focus_adm_modifier
+# 		remove_country_modifier = national_focus_mil_modifier
+# 		remove_country_modifier = national_focus_remove_cooldown_modifier
+# 	}
+# 	option = { # No idea
+# 		name = sealand_events.14.e
+# 	}
+# 	option = { # Set MIL focus
+# 		name = sealand_events.14.f
+# 		set_country_flag = change_national_focus_cooldown_flag
+# 		change_national_focus = MIL
+# 		add_country_modifier = {
+# 			name = national_focus_mil_modifier
+# 			duration = -1
+# 		}
+# 		remove_country_modifier = national_focus_adm_modifier
+# 		remove_country_modifier = national_focus_dip_modifier
+# 		remove_country_modifier = national_focus_remove_cooldown_modifier
+# 	}
+# 	option = { # Exit
+# 		name = sealand_events.14.g
+# 		add_country_modifier = {
+# 			name = national_focus_remove_cooldown_modifier
+# 			duration = -1
+# 		}
+# 		remove_country_modifier = national_focus_adm_modifier
+# 		remove_country_modifier = national_focus_dip_modifier
+# 		remove_country_modifier = national_focus_mil_modifier
+# 	}
+# }
+# Fishing game?:
+# country_event = { # Fishing accident
+#	id = sealand_events.15
+#	title = sealand_events.15.t
+#	desc = sealand_events.15.d
+#	picture = DEATH_OF_HEIR_eventPicture
+#	is_triggered_only = yes
+#	option = {
+#		name = sealand_events.15.a
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		if = {
+#			limit = {
+#				AND = {
+#					has_heir = yes
+#					heir_age = 15
+#					is_lesser_in_union = no
+#					NOT = { has_reform = elective_monarchy }
+#					NOT = { has_reform = polish_elective_monarchy }
+#				}
+#			}
+#			kill_heir = {}
+#		}
+#		else = { kill_ruler = yes }
+#		add_stability = -1
+#	}
+#	option = {
+#		name = sealand_events.15.b
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		if = {
+#			limit = {
+#				AND = {
+#					has_heir = yes
+#					heir_age = 15
+#					is_lesser_in_union = no
+#					NOT = { has_reform = elective_monarchy }
+#					NOT = { has_reform = polish_elective_monarchy }
+#				}
+#			}
+#			kill_heir = {}
+#		}
+#		else = { kill_ruler = yes }
+#		add_prestige = -10
+#	}
+#}
+#country_event = { # Bless ruler
+#	id = sealand_events.16
+#	title = sealand_events.16.t
+#	desc = sealand_events.16.d
+#	picture = COMET_SIGHTED_eventPicture
+#	is_triggered_only = yes
+#	option = {
+#		name = sealand_events.16.a
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		change_adm = 1
+#	}
+#	option = {
+#		name = sealand_events.16.b
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		change_dip = 1
+#	}
+#	option = {
+#		name = sealand_events.16.c
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		change_mil = 1
+#	}
+#	option = {
+#		name = sealand_events.16.e
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#	}
+#}
+#country_event = { # Legendary General
+#	id = sealand_events.17
+#	title = sealand_events.17.t
+#	desc = sealand_events.17.d
+#	picture = GENERALS_DISCUSSING_eventPicture
+#	is_triggered_only = yes
+#	option = {
+#		name = sealand_events.17.a
+#		set_country_flag = got_legendary_general_flag
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		define_general = {
+#			fire = 6
+#			shock = 6
+#			manuever = 6
+#			siege = 6
+#			trait = sea_military_tactician_personality
+#		}
+#	}
+#	option = {
+#		name = sealand_events.17.b
+#	}
+#}
+#country_event = { # Good General
+#	id = sealand_events.177
+#	title = sealand_events.177.t
+#	desc = sealand_events.177.d
+#	picture = GENERALS_DISCUSSING_eventPicture
+#	is_triggered_only = yes
+#	option = {
+#		name = sealand_events.177.a
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		create_general = { tradition = 100 }
+#	}
+#	option = {
+#		name = sealand_events.177.b
+#	}
+#}
+#country_event = { # Pirates
+#	id = sealand_events.18
+#	title = sealand_events.18.t
+#	desc = sealand_events.18.d
+#	picture = BARBARY_PIRATES_eventPicture
+#	is_triggered_only = yes
+#	option = {
+#		name = sealand_events.18.a
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		every_owned_province = {
+#			limit = {
+#				has_province_flag = sea_fishing_game_pirates_flag
+#			}
+#			sea_zone = {
+#				custom_tooltip = sealand_events.18.tt
+#				hidden_effect = { create_pirate = 1 create_pirate = 1 }
+#			}
+#			clr_province_flag = sea_fishing_game_pirates_flag
+#		}
+#	}
+#}
+#country_event = { # Stability
+#	id = sealand_events.19
+#	title = sealand_events.19.t
+#	desc = sealand_events.19.d
+#	picture = COMET_SIGHTED_eventPicture
+#	is_triggered_only = yes
+#	option = {
+#		name = sealand_events.19.a
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		add_stability = 1
+#	}
+#}
+#country_event = { # Generic random:
+#	id = sealand_events.20
+#	title = sealand_events.20.t
+#	desc = {
+#		trigger = {
+#			any_owned_province = {
+#				OR = {
+#					has_country_flag = sea_fishing_game_adm_power_flag
+#					has_country_flag = sea_fishing_game_dip_power_flag
+#					has_country_flag = sea_fishing_game_mil_power_flag
+#				}
+#			}
+#		}
+#		desc = sealand_events.20.d.abc
+#	}
+#	desc = {
+#		trigger = { has_country_flag = sea_fishing_game_innovativeness_flag }
+#		desc = sealand_events.20.d.e
+#	}
+#	desc = {
+#		trigger = { has_country_flag = sea_fishing_game_splendor_flag }
+#		desc = sealand_events.20.d.f
+#	}
+#	desc = {
+#		trigger = { has_country_flag = sea_fishing_game_professionalism_flag }
+#		desc = sealand_events.20.d.g
+#	}
+#	desc = {
+#		trigger = {
+#			any_owned_province = {
+#				OR = {
+#					has_province_flag = sea_fishing_game_tax_flag
+#					has_province_flag = sea_fishing_game_production_flag
+#					has_province_flag = sea_fishing_game_manpower_flag
+#				}
+#			}
+#		}
+#		desc = sealand_events.20.d.hjl
+#	}
+#	desc = {
+#		trigger = {
+#			any_owned_province = {
+#				OR = {
+#					has_province_flag = sea_fishing_game_remove_tax_flag
+#					has_province_flag = sea_fishing_game_remove_production_flag
+#					has_province_flag = sea_fishing_game_remove_manpower_flag
+#				}
+#			}
+#		}
+#		desc = sealand_events.20.d.ikm
+#	}
+#	desc = {
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_province_depleted_flag
+#			}
+#		}
+#		desc = sealand_events.20.d.n
+#	}
+#	desc = {
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_overfishing_flag
+#			}
+#		}
+#		desc = sealand_events.20.d.o
+#	}
+#	desc = {
+#		trigger = { has_country_flag = sea_fishing_game_treasury_flag }
+#		desc = sealand_events.20.d.p
+#	}
+#	desc = {
+#		trigger = { has_country_flag = sea_fishing_game_unsuccess_flag }
+#		desc = sealand_events.20.d.q
+#	}
+#	desc = {
+#		trigger = { has_country_flag = sea_fishing_game_success_flag }
+#		desc = sealand_events.20.d.r
+#	}
+#	picture = TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture
+#	is_triggered_only = yes
+#	option = {
+#		name = sealand_events.20.a
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			has_country_flag = sea_fishing_game_adm_power_flag
+#		}
+#		add_adm_power = 10
+#		clr_country_flag = sea_fishing_game_adm_power_flag
+#	}
+#	option = {
+#		name = sealand_events.20.b
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			has_country_flag = sea_fishing_game_dip_power_flag
+#		}
+#		add_dip_power = 10
+#		clr_country_flag = sea_fishing_game_dip_power_flag
+#	}
+#	option = {
+#		name = sealand_events.20.c
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			has_country_flag = sea_fishing_game_mil_power_flag
+#		}
+#		add_mil_power = 10
+#		clr_country_flag = sea_fishing_game_mil_power_flag
+#	}
+#	option = {
+#		name = sealand_events.20.e
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			has_country_flag = sea_fishing_game_innovativeness_flag
+#		}
+#		change_innovativeness = 3
+#		clr_country_flag = sea_fishing_game_innovativeness_flag
+#	}
+#	option = {
+#		name = sealand_events.20.f
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			has_country_flag = sea_fishing_game_splendor_flag
+#		}
+#		add_splendor = 3
+#		clr_country_flag = sea_fishing_game_splendor_flag
+#	}
+#	option = {
+#		name = sealand_events.20.g
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			has_country_flag = sea_fishing_game_professionalism_flag
+#		}
+#		add_army_professionalism = 0.02
+#		clr_country_flag = sea_fishing_game_professionalism_flag
+#	}
+#	option = {
+#		name = sealand_events.20.h
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_tax_flag
+#			}
+#		}
+#		every_owned_province = {
+#			limit = {
+#				has_province_flag = sea_fishing_game_tax_flag
+#			}
+#			add_base_tax = 1
+#			clr_province_flag = sea_fishing_game_tax_flag
+#		}
+#	}
+#	option = {
+#		name = sealand_events.20.i
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_remove_tax_flag
+#			}
+#		}
+#		every_owned_province = {
+#			limit = {
+#				has_province_flag = sea_fishing_game_remove_tax_flag
+#			}
+#			add_base_tax = -1
+#			clr_province_flag = sea_fishing_game_remove_tax_flag
+#		}
+#	}
+#	option = {
+#		name = sealand_events.20.j
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_production_flag
+#			}
+#		}
+#		every_owned_province = {
+#			limit = {
+#				has_province_flag = sea_fishing_game_production_flag
+#			}
+#			add_base_production = 1
+#			clr_province_flag = sea_fishing_game_production_flag
+#		}
+#	}
+#	option = {
+#		name = sealand_events.20.k
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_remove_production_flag
+#			}
+#		}
+#		every_owned_province = {
+#			limit = {
+#				has_province_flag = sea_fishing_game_remove_production_flag
+#			}
+#			add_base_production = -1
+#			clr_province_flag = sea_fishing_game_remove_production_flag
+#		}
+#	}
+#	option = {
+#		name = sealand_events.20.l
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_manpower_flag
+#			}
+#		}
+#		every_owned_province = {
+#			limit = {
+#				has_province_flag = sea_fishing_game_manpower_flag
+#			}
+#			add_base_manpower = 1
+#			clr_province_flag = sea_fishing_game_manpower_flag
+#		}
+#	}
+#	option = {
+#		name = sealand_events.20.m
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_remove_manpower_flag
+#			}
+#		}
+#		every_owned_province = {
+#			limit = {
+#				has_province_flag = sea_fishing_game_remove_manpower_flag
+#			}
+#			add_base_manpower = -1
+#			clr_province_flag = sea_fishing_game_remove_manpower_flag
+#		}
+#	}
+#	option = {
+#		name = sealand_events.20.n
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_province_depleted_flag
+#			}
+#		}
+#		every_owned_province = {
+#			limit = {
+#				has_province_flag = sea_fishing_game_province_depleted_flag
+#			}
+#			custom_tooltip = sea_fishing_game_province_depleted_n_tt
+#			change_trade_goods = unknown
+#			clr_province_flag = sea_fishing_game_province_depleted_flag
+#		}
+#	}
+#	option = {
+#		name = sealand_events.20.o
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			any_owned_province = {
+#				has_province_flag = sea_fishing_game_overfishing_flag
+#			}
+#		}
+#		every_owned_province = {
+#			limit = {
+#				has_province_flag = sea_fishing_game_overfishing_flag
+#			}
+#			add_province_modifier = {
+#				name = sea_fishing_game_modifier
+#				duration = 3650
+#			}
+#			clr_province_flag = sea_fishing_game_overfishing_flag
+#		}
+#	}
+#	option = {
+#		name = sealand_events.20.p
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			has_country_flag = sea_fishing_game_treasury_flag
+#		}
+#		add_treasury = 250
+#		clr_country_flag = sea_fishing_game_treasury_flag
+#	}
+#	option = {
+#		name = sealand_events.20.q
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			has_country_flag = sea_fishing_game_unsuccess_flag
+#		}
+#		clr_country_flag = sea_fishing_game_unsuccess_flag
+#	}
+#	option = {
+#		name = sealand_events.20.r
+#		every_owned_province = { clr_province_flag = sea_fishing_game_modifier_flag }
+#		trigger = {
+#			has_country_flag = sea_fishing_game_success_flag
+#		}
+#		add_treasury = 2.50
+#		clr_country_flag = sea_fishing_game_success_flag
+#	}
+#}
+# Age of Discovery Colonial Growth: # Removed
+#country_event = {
+#	id = sealand_events.21
+#}
+# Unlock African cults:
+country_event = {
+	id = sealand_events.21
+	title = none
+	desc = none
+	picture = none
+
+	hidden = yes
+	is_triggered_only = yes
+	trigger = {
+		religion = shamanism
+		NOT = { has_country_flag = fired_ferishism_cults_event }
+	}
+	immediate = {
+		set_country_flag = fired_ferishism_cults_event
+		if = {
+			limit = { NOT = { has_unlocked_cult = yemoja_cult } }
+			unlock_cult = yemoja_cult
+		}
+		if = {
+			limit = { NOT = { has_unlocked_cult = roog_cult } }
+			unlock_cult = roog_cult
+		}
+		if = {
+			limit = { NOT = { has_unlocked_cult = nyame_cult } }
+			unlock_cult = nyame_cult
+		}
+		if = {
+			limit = { NOT = { has_unlocked_cult = cwezi_cult } }
+			unlock_cult = cwezi_cult
+		}
+		if = {
+			limit = { NOT = { has_unlocked_cult = central_african_ancestor_cult } }
+			unlock_cult = central_african_ancestor_cult
+		}
+		if = {
+			limit = { NOT = { has_unlocked_cult = mwari_cult } }
+			unlock_cult = mwari_cult
+		}
+		if = {
+			limit = { NOT = { has_unlocked_cult = enkai_cult } }
+			unlock_cult = enkai_cult
+		}
+		if = {
+			limit = { NOT = { has_unlocked_cult = waaq_cult } }
+			unlock_cult = waaq_cult
+		}
+		if = {
+			limit = { NOT = { has_unlocked_cult = zanahary_cult } }
+			unlock_cult = zanahary_cult
+		}
+	}
+	option = { }
+}
+# Hanys:
+country_event = {
+	id = sealand_events.23
+	title = sealand_events.23.t
+	desc = sealand_events.23.d
+	picture = LAND_MILITARY_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sealand_events.23.a
+		trigger = { NOT = { has_country_flag = silesia_hanys_special_units_upgrade_1_flag } }
+		set_country_flag = silesia_hanys_special_units_upgrade_1_flag
+		add_country_modifier = {
+			name = silesia_hanys_special_units_upgrade_1
+			duration = -1
+		}
+		clr_country_flag = sil_hanys_upgrade_flag
+	}
+	option = {
+		name = sealand_events.23.b
+		trigger = { NOT = { has_country_flag = silesia_hanys_special_units_upgrade_2_flag } }
+		set_country_flag = silesia_hanys_special_units_upgrade_2_flag
+		add_country_modifier = {
+			name = silesia_hanys_special_units_upgrade_2
+			duration = -1
+		}
+		clr_country_flag = sil_hanys_upgrade_flag
+	}
+	option = {
+		name = sealand_events.23.c
+		trigger = { NOT = { has_country_flag = silesia_hanys_special_units_upgrade_3_flag } }
+		set_country_flag = silesia_hanys_special_units_upgrade_3_flag
+		add_country_modifier = {
+			name = silesia_hanys_special_units_upgrade_3
+			duration = -1
+		}
+		clr_country_flag = sil_hanys_upgrade_flag
+	}
+	option = {
+		name = sealand_events.23.e
+		trigger = { NOT = { has_country_flag = silesia_hanys_special_units_upgrade_4_flag } }
+		set_country_flag = silesia_hanys_special_units_upgrade_4_flag
+		add_country_modifier = {
+			name = silesia_hanys_special_units_upgrade_4
+			duration = -1
+		}
+		clr_country_flag = sil_hanys_upgrade_flag
+	}
+	option = {
+		name = sealand_events.23.f
+		trigger = { NOT = { has_country_flag = silesia_hanys_special_units_upgrade_5_flag } }
+		set_country_flag = silesia_hanys_special_units_upgrade_5_flag
+		add_country_modifier = {
+			name = silesia_hanys_special_units_upgrade_5
+			duration = -1
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = silesia_hanys_special_units_upgrade_55
+				duration = -1
+				hidden = yes
+			}
+		}
+		clr_country_flag = sil_hanys_upgrade_flag
+	}
+}
+# Merc switch decision event:
+country_event = {
+	id = sealand_events.24
+	title = sealand_events.24.t
+	desc = sealand_events.24.d
+	picture = SCOTTISH_MERCENARIES_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sealand_events.24.a
+		set_country_flag = sea_mercs_inf_to_cav_switch_cooldown
+		set_country_flag = sea_mercs_inf_to_cav_switch_flag
+		custom_tooltip = sea_mercs_inf_to_cav_switch_tt
+		clr_country_flag = sea_mercs_inf_to_cav_switch_event_active
+	}
+	option = {
+		name = sealand_events.24.b
+		clr_country_flag = sea_mercs_inf_to_cav_switch_event_active
+	}
+}
+country_event = {
+	id = sealand_events.25
+	title = sealand_events.25.t
+	desc = sealand_events.25.d
+	picture = HUSSARS_eventPicture
+
+	trigger = {
+		ai = no
+		num_of_owned_provinces_with = {
+			value = 10
+			culture = polish
+		}
+		num_of_owned_provinces_with = {
+			has_manpower_building_trigger = yes 
+			value = 77
+		}
+		NOT = { has_country_flag = fired_sealand_event_25 }
+	}
+	option = {
+		name = sealand_events.3.a
+		set_country_flag = fired_sealand_event_25
+		add_country_modifier = {
+			name = soldier_zlewikk_modifier
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = sealand_events.26
+	title = sealand_events.26.t
+	desc = sealand_events.26.d
+	picture = NAVAL_MILITARY_eventPicture
+
+	trigger = {
+		ai = no
+		OR = {
+			num_of_galley = 200
+			num_of_heavy_ship = 100
+		}
+		NOT = { has_country_flag = fired_sealand_event_26 }
+	}
+	option = {
+		name = sealand_events.3.a
+		set_country_flag = fired_sealand_event_26
+		add_country_modifier = {
+			name = deckhand_davlan_modifier
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = sealand_events.27
+	title = sealand_events.27.t
+	desc = sealand_events.27.d
+	picture = CULTURE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sealand_events.27.nothing
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = mali } # 主流文化不是马里
+			NOT = { accepted_culture = mali } # 未接纳马里文化
+			NOT = { # 已控制所有马里文化省份
+				any_province = {
+					culture = mali
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}		
+		}
+		name = sealand_events.27.mali
+		add_accepted_culture = mali
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = songhai }
+			NOT = { accepted_culture = songhai }
+			NOT = { 
+				any_province = {
+					culture = songhai
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.songhai
+		add_accepted_culture = songhai
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = soninke }
+			NOT = { accepted_culture = soninke }
+			NOT = { 
+				any_province = {
+					culture = soninke
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.soninke
+		add_accepted_culture = soninke
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = bambara }
+			NOT = { accepted_culture = bambara }
+			NOT = { 
+				any_province = {
+					culture = bambara
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.bambara
+		add_accepted_culture = bambara
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = bozo }
+			NOT = { accepted_culture = bozo }
+			NOT = { 
+				any_province = {
+					culture = bozo
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.bozo
+		add_accepted_culture = bozo
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = dyola }
+			NOT = { accepted_culture = dyola }
+			NOT = { 
+				any_province = {
+					culture = dyola
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.dyola
+		add_accepted_culture = dyola
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = hausa }
+			NOT = { accepted_culture = hausa }
+			NOT = { 
+				any_province = {
+					culture = hausa
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.hausa
+		add_accepted_culture = hausa
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = kanuri }
+			NOT = { accepted_culture = kanuri }
+			NOT = { 
+				any_province = {
+					culture = kanuri
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.kanuri
+		add_accepted_culture = kanuri
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = bilala }
+			NOT = { accepted_culture = bilala }
+			NOT = { 
+				any_province = {
+					culture = bilala
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.bilala
+		add_accepted_culture = bilala
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = tunjur }
+			NOT = { accepted_culture = tunjur }
+			NOT = { 
+				any_province = {
+					culture = tunjur
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.tunjur
+		add_accepted_culture = tunjur
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = tuareg }
+			NOT = { accepted_culture = tuareg }
+			NOT = { 
+				any_province = {
+					culture = tuareg
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.tuareg
+		add_accepted_culture = tuareg
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = senegambian }
+			NOT = { accepted_culture = senegambian }
+			NOT = { 
+				any_province = {
+					culture = senegambian
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.senegambian
+		add_accepted_culture = senegambian
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = fulani }
+			NOT = { accepted_culture = fulani }
+			NOT = { 
+				any_province = {
+					culture = fulani
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.fulani
+		add_accepted_culture = fulani
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = yorumba }
+			NOT = { accepted_culture = yorumba }
+			NOT = { 
+				any_province = {
+					culture = yorumba
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.yorumba
+		add_accepted_culture = yorumba
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = aka }
+			NOT = { accepted_culture = aka }
+			NOT = { 
+				any_province = {
+					culture = aka
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.aka
+		add_accepted_culture = aka
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = nupe }
+			NOT = { accepted_culture = nupe }
+			NOT = { 
+				any_province = {
+					culture = nupe
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.nupe
+		add_accepted_culture = nupe
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = fon }
+			NOT = { accepted_culture = fon }
+			NOT = { 
+				any_province = {
+					culture = fon
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.fon
+		add_accepted_culture = fon
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = mossi }
+			NOT = { accepted_culture = mossi }
+			NOT = { 
+				any_province = {
+					culture = mossi
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.mossi
+		add_accepted_culture = mossi
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = dagomba }
+			NOT = { accepted_culture = dagomba }
+			NOT = { 
+				any_province = {
+					culture = dagomba
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.dagomba
+		add_accepted_culture = dagomba
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = makua }
+			NOT = { accepted_culture = makua }
+			NOT = { 
+				any_province = {
+					culture = makua
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.makua
+		add_accepted_culture = makua
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = nguni }
+			NOT = { accepted_culture = nguni }
+			NOT = { 
+				any_province = {
+					culture = nguni
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.nguni
+		add_accepted_culture = nguni
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = bemba }
+			NOT = { accepted_culture = bemba }
+			NOT = { 
+				any_province = {
+					culture = bemba
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.bemba
+		add_accepted_culture = bemba
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = khoisan }
+			NOT = { accepted_culture = khoisan }
+			NOT = { 
+				any_province = {
+					culture = khoisan
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.khoisan
+		add_accepted_culture = khoisan
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = shona }
+			NOT = { accepted_culture = shona }
+			NOT = { 
+				any_province = {
+					culture = shona
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.shona
+		add_accepted_culture = shona
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = nyasa }
+			NOT = { accepted_culture = nyasa }
+			NOT = { 
+				any_province = {
+					culture = nyasa
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.nyasa
+		add_accepted_culture = nyasa
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = lunda }
+			NOT = { accepted_culture = lunda }
+			NOT = { 
+				any_province = {
+					culture = lunda
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.lunda
+		add_accepted_culture = lunda
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = luba }
+			NOT = { accepted_culture = luba }
+			NOT = { 
+				any_province = {
+					culture = luba
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.luba
+		add_accepted_culture = luba
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = kongolese }
+			NOT = { accepted_culture = kongolese }
+			NOT = { 
+				any_province = {
+					culture = kongolese
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.kongolese
+		add_accepted_culture = kongolese
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = yaka }
+			NOT = { accepted_culture = yaka }
+			NOT = { 
+				any_province = {
+					culture = yaka
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.yaka
+		add_accepted_culture = yaka
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = kuba }
+			NOT = { accepted_culture = kuba }
+			NOT = { 
+				any_province = {
+					culture = kuba
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.kuba
+		add_accepted_culture = kuba
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = mbundu }
+			NOT = { accepted_culture = mbundu }
+			NOT = { 
+				any_province = {
+					culture = mbundu
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.mbundu
+		add_accepted_culture = mbundu
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = chokwe }
+			NOT = { accepted_culture = chokwe }
+			NOT = { 
+				any_province = {
+					culture = chokwe
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.chokwe
+		add_accepted_culture = chokwe
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = mbangala }
+			NOT = { accepted_culture = mbangala }
+			NOT = { 
+				any_province = {
+					culture = mbangala
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.mbangala
+		add_accepted_culture = mbangala
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = jukun }
+			NOT = { accepted_culture = jukun }
+			NOT = { 
+				any_province = {
+					culture = jukun
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.jukun
+		add_accepted_culture = jukun
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = sawabantu }
+			NOT = { accepted_culture = sawabantu }
+			NOT = { 
+				any_province = {
+					culture = sawabantu
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.sawabantu
+		add_accepted_culture = sawabantu
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = lingala }
+			NOT = { accepted_culture = lingala }
+			NOT = { 
+				any_province = {
+					culture = lingala
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.lingala
+		add_accepted_culture = lingala
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = rwandan }
+			NOT = { accepted_culture = rwandan }
+			NOT = { 
+				any_province = {
+					culture = rwandan
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.rwandan
+		add_accepted_culture = rwandan
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = ganda }
+			NOT = { accepted_culture = ganda }
+			NOT = { 
+				any_province = {
+					culture = ganda
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.ganda
+		add_accepted_culture = ganda
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = masaba }
+			NOT = { accepted_culture = masaba }
+			NOT = { 
+				any_province = {
+					culture = masaba
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.masaba
+		add_accepted_culture = masaba
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = madagasque }
+			NOT = { accepted_culture = madagasque }
+			NOT = { 
+				any_province = {
+					culture = madagasque
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.madagasque
+		add_accepted_culture = madagasque
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = takama }
+			NOT = { accepted_culture = takama }
+			NOT = { 
+				any_province = {
+					culture = takama
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.takama
+		add_accepted_culture = takama
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = bena }
+			NOT = { accepted_culture = bena }
+			NOT = { 
+				any_province = {
+					culture = bena
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.bena
+		add_accepted_culture = bena
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = bantu }
+			NOT = { accepted_culture = bantu }
+			NOT = { 
+				any_province = {
+					culture = bantu
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.bantu
+		add_accepted_culture = bantu
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = swahili }
+			NOT = { accepted_culture = swahili }
+			NOT = { 
+				any_province = {
+					culture = swahili
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.swahili
+		add_accepted_culture = swahili
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = somali }
+			NOT = { accepted_culture = somali }
+			NOT = { 
+				any_province = {
+					culture = somali
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.somali
+		add_accepted_culture = somali
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = harari }
+			NOT = { accepted_culture = harari }
+			NOT = { 
+				any_province = {
+					culture = harari
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.harari
+		add_accepted_culture = harari
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = afar }
+			NOT = { accepted_culture = afar }
+			NOT = { 
+				any_province = {
+					culture = afar
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.afar
+		add_accepted_culture = afar
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = oromo }
+			NOT = { accepted_culture = oromo }
+			NOT = { 
+				any_province = {
+					culture = oromo
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.oromo
+		add_accepted_culture = oromo
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = tigray }
+			NOT = { accepted_culture = tigray }
+			NOT = { 
+				any_province = {
+					culture = tigray
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.tigray
+		add_accepted_culture = tigray
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = sidamo }
+			NOT = { accepted_culture = sidamo }
+			NOT = { 
+				any_province = {
+					culture = sidamo
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.sidamo
+		add_accepted_culture = sidamo
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = amhara }
+			NOT = { accepted_culture = amhara }
+			NOT = { 
+				any_province = {
+					culture = amhara
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.amhara
+		add_accepted_culture = amhara
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = fur_culture }
+			NOT = { accepted_culture = fur_culture }
+			NOT = { 
+				any_province = {
+					culture = fur_culture
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.fur_culture
+		add_accepted_culture = fur_culture
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = acholi }
+			NOT = { accepted_culture = acholi }
+			NOT = { 
+				any_province = {
+					culture = acholi
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.acholi
+		add_accepted_culture = acholi
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = nubian }
+			NOT = { accepted_culture = nubian }
+			NOT = { 
+				any_province = {
+					culture = nubian
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.nubian
+		add_accepted_culture = nubian
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = beja }
+			NOT = { accepted_culture = beja }
+			NOT = { 
+				any_province = {
+					culture = beja
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.beja
+		add_accepted_culture = beja
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = moroccan }
+			NOT = { accepted_culture = moroccan }
+			NOT = { 
+				any_province = {
+					culture = moroccan
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.moroccan
+		add_accepted_culture = moroccan
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = tunisian }
+			NOT = { accepted_culture = tunisian }
+			NOT = { 
+				any_province = {
+					culture = tunisian
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.tunisian
+		add_accepted_culture = tunisian
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = algerian }
+			NOT = { accepted_culture = algerian }
+			NOT = { 
+				any_province = {
+					culture = algerian
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.algerian
+		add_accepted_culture = algerian
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+	option = {
+		trigger = {
+			NOT = { primary_culture = berber }
+			NOT = { accepted_culture = berber }
+			NOT = { 
+				any_province = {
+					culture = berber
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		name = sealand_events.27.berber
+		add_accepted_culture = berber
+		# add_dip_power = -100
+		clr_country_flag = afr_culture_unite_reform_decision_flag
+	}
+}
+country_event = { # state edicts
+	id = sealand_events.28
+	title = sealand_events.28.t
+	desc = sealand_events.28.d
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sealand_events.28.0
+		clr_country_flag = sea_state_edicts_flag
+	}
+	option = {
+		name = sealand_events.28.00
+		set_country_flag = sea_state_edicts_clear_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.00.tt
+	}
+	option = {
+		name = sealand_events.28.1
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_advancement_effort
+		}
+		set_country_flag = sea_state_edicts_decision_edict_advancement_effort_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.1.tt
+	}
+	option = {
+		name = sealand_events.28.2
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_centralization_effort
+		}
+		set_country_flag = sea_state_edicts_decision_edict_centralization_effort_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.2.tt
+	}
+	option = {
+		name = sealand_events.28.3
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_defensive_edict
+		}
+		set_country_flag = sea_state_edicts_decision_edict_defensive_edict_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.3.tt
+	}
+	option = {
+		name = sealand_events.28.4
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_of_absolutism
+		}
+		set_country_flag = sea_state_edicts_decision_edict_of_absolutism_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.4.tt
+	}
+	option = {
+		trigger = { has_country_flag = hab_prosperity_edict }
+		name = sealand_events.28.5
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_of_governance
+		}
+		set_country_flag = sea_state_edicts_decision_edict_of_governance_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.5.tt
+	}
+	option = {
+		name = sealand_events.28.6
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_encourage_development
+		}
+		set_country_flag = sea_state_edicts_decision_edict_encourage_development_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.6.tt
+	}
+	option = {
+		trigger = { current_age = age_of_discovery }
+		name = sealand_events.28.7
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_feudal_de_jure_law
+		}
+		set_country_flag = sea_state_edicts_decision_edict_feudal_de_jure_law_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.7.tt
+	}
+	option = {
+		trigger = { has_country_flag = fra_enable_infrastructure_network_flag }
+		name = sealand_events.28.8
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = french_infrastructure_network
+		}
+		set_country_flag = sea_state_edicts_decision_french_infrastructure_network_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.8.tt
+	}
+	option = {
+		name = sealand_events.28.9
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_promote_military_recruitment
+		}
+		set_country_flag = sea_state_edicts_decision_edict_promote_military_recruitment_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.9.tt
+	}
+	option = {
+		trigger = { NOT = { has_country_flag = fra_improve_trade_power_state_edict_flag } }
+		name = sealand_events.28.10
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_protect_trade
+		}
+		set_country_flag = sea_state_edicts_decision_edict_protect_trade_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.10.tt
+	}
+	option = {
+		trigger = { has_country_flag = fra_improve_trade_power_state_edict_flag }
+		name = sealand_events.28.11
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = protect_trade_empowered
+		}
+		set_country_flag = sea_state_edicts_decision_protect_trade_empowered_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.11.tt
+	}
+	option = {
+		trigger = {
+			current_age = age_of_reformation
+			#has_country_flag = religion_enforced_edict
+		}
+		name = sealand_events.28.12
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_religion_enforced
+		}
+		set_country_flag = sea_state_edicts_decision_edict_religion_enforced_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.12.tt
+	}
+	option = {
+		name = sealand_events.28.13
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = edict_religious_unity
+		}
+		set_country_flag = sea_state_edicts_decision_edict_religious_unity_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.13.tt
+	}
+	option = {
+		trigger = { has_country_flag = enable_industrialisation_flag }
+		name = sealand_events.28.14
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = chinese_industrialization
+		}
+		set_country_flag = sea_state_edicts_decision_chinese_industrialization_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.14.tt
+	}
+	option = {
+		trigger = {
+			current_age = age_of_discovery
+			has_government_attribute = unlock_special_state_edicts
+		}
+		name = sealand_events.28.15
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = feudal_taxes_state_edict
+		}
+		set_country_flag = sea_state_edicts_decision_feudal_taxes_state_edict_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.15.tt
+	}
+	option = {
+		trigger = {
+			current_age = age_of_reformation
+			has_government_attribute = unlock_special_state_edicts
+		}
+		name = sealand_events.28.16
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = religious_tolerance_state_edict
+		}
+		set_country_flag = sea_state_edicts_decision_religious_tolerance_state_edict_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.16.tt
+	}
+	option = {
+		trigger = {
+			current_age = age_of_absolutism
+			has_government_attribute = unlock_special_state_edicts
+		}
+		name = sealand_events.28.17
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = state_integration_state_edict
+		}
+		set_country_flag = sea_state_edicts_decision_state_integration_state_edict_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.17.tt
+	}
+	option = {
+		trigger = {
+			current_age = age_of_revolutions
+			has_government_attribute = unlock_special_state_edicts
+		}
+		name = sealand_events.28.18
+		every_owned_province = { 
+			limit = { is_state = yes }
+			set_state_edict = urbanization_state_edict
+		}
+		set_country_flag = sea_state_edicts_decision_urbanization_state_edict_flag
+		clr_country_flag = sea_state_edicts_flag
+		custom_tooltip = sealand_events.28.18.tt
+	}
+}
+country_event = { # buildings delete
+	id = sealand_events.29
+	title = sealand_events.29.t
+	desc = sealand_events.29.d
+	picture = CITY_DEVELOPMENT_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sealand_events.28.0
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_tax_building_trigger = yes } }
+		name = sealand_events.29.1
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_tax_building_trigger = yes }
+				remove_building = temple
+				remove_building = cathedral
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_trade_building_trigger = yes } }
+		name = sealand_events.29.2
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_trade_building_trigger = yes }
+				remove_building = marketplace
+				remove_building = trade_depot
+				remove_building = stock_exchange
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_production_building_trigger = yes } }
+		name = sealand_events.29.3
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_production_building_trigger = yes }
+				remove_building = workshop
+				remove_building = counting_house
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_dock_building_trigger = yes } }
+		name = sealand_events.29.4
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_dock_building_trigger = yes }
+				remove_building = dock
+				remove_building = drydock
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_shipyard_building_trigger = yes } }
+		name = sealand_events.29.5
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_shipyard_building_trigger = yes }
+				remove_building = shipyard
+				remove_building = grand_shipyard
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_manpower_building_trigger = yes } }
+		name = sealand_events.29.6
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_manpower_building_trigger = yes }
+				remove_building = barracks
+				remove_building = training_fields
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_forcelimit_building_trigger = yes } }
+		name = sealand_events.29.7
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_forcelimit_building_trigger = yes }
+				remove_building = regimental_camp
+				remove_building = conscription_center
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_fort_building_trigger = yes } }
+		name = sealand_events.29.8
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_fort_building_trigger = yes }
+				remove_building = fort_15th
+				remove_building = fort3
+				remove_building = fort_16th
+				remove_building = fort5
+				remove_building = fort_17th
+				remove_building = fort7
+				remove_building = fort_18th
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_coast_defense_building_trigger = yes } }
+		name = sealand_events.29.9
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_coast_defense_building_trigger = yes }
+				remove_building = coastal_defence
+				remove_building = naval_battery
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = impressment_offices } }
+		name = sealand_events.29.10
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = impressment_offices }
+				remove_building = impressment_offices
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = state_house } }
+		name = sealand_events.29.11
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = state_house }
+				remove_building = state_house
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = soldier_households } }
+		name = sealand_events.29.12
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = soldier_households }
+				remove_building = soldier_households
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = furnace } }
+		name = sealand_events.29.13
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = furnace }
+				remove_building = furnace
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = mint } }
+		name = sealand_events.29.14
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = mint }
+				remove_building = mint
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT OR = { has_building = wharf has_building = weapons has_building = textile has_building = plantations has_building = tradecompany has_building = farm_estate has_building =  mills } } }
+		name = sealand_events.29.15
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT OR = { has_building = wharf has_building = weapons has_building = textile has_building = plantations has_building = tradecompany has_building = farm_estate has_building =  mills } }
+				remove_building = wharf
+				remove_building = weapons
+				remove_building = textile
+				remove_building = plantations
+				remove_building = tradecompany
+				remove_building = farm_estate
+				remove_building = mills
+			}
+		}
+		custom_tooltip = sealand_events.29.15.tt
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = wharf } }
+		name = sealand_events.29.16
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = wharf }
+				remove_building = wharf
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = weapons } }
+		name = sealand_events.29.17
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = weapons }
+				remove_building = weapons
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = textile } }
+		name = sealand_events.29.18
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = textile }
+				remove_building = textile
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = plantations } }
+		name = sealand_events.29.19
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = plantations }
+				remove_building = plantations
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = tradecompany } }
+		name = sealand_events.29.20
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = tradecompany }
+				remove_building = tradecompany
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = farm_estate } }
+		name = sealand_events.29.21
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = farm_estate }
+				remove_building = farm_estate
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+	option = {
+		trigger = { any_owned_province = { controlled_by = ROOT has_building = mills } }
+		name = sealand_events.29.22
+		hidden_effect = {
+			every_owned_province = {
+				limit = { controlled_by = ROOT has_building = mills }
+				remove_building = mills
+			}
+		}
+		clr_country_flag = sea_clear_specific_building_flag
+	}
+}
+country_event = {
+	id = sealand_events.30
+	title = none
+	desc = none
+	picture = none
+	hidden = yes
+	mean_time_to_happen = { months = 333 } 
+	trigger = { ai = no NOT = { has_country_flag = get_war_declare_flag } }
+	immediate = { set_country_flag = get_war_declare_flag play_sound = declarewar_onus }
+	option = { }
+}
+# Colonization:
+country_event = {
+	id = sealand_events.31
+	title = none
+	desc = none
+	picture = none
+	hidden = yes
+	is_triggered_only = yes
+	immediate = { event_target:sea_siberian_frontier = { add_siberian_construction = 100 } }
+	option = { }
+}
+
+# Theocracy government:
+namespace = theocracy_election_government
+
+country_event = { # For Georgia to become the government changed with Mirecek mission.
+	id = theocracy_election_government.11
+	title = theocracy_election_government.11.t
+	desc = theocracy_election_government.11.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = theocracy_election_government.11.a
+		change_tag = GOE
+		on_change_tag_effect = yes
+		set_country_flag = formed_georgia_flag
+		set_country_flag = eschatological_theocracy_georgia
+		set_country_flag = eschatological_theocracy_georgia_reform_flag
+		change_government = theocracy
+		add_government_reform = eschatological_theocracy_georgia_reform
+	}
+	option = {
+		name = theocracy_election_government.11.aa
+		set_country_flag = formed_georgia_flag
+		set_country_flag = eschatological_theocracy_georgia
+		set_country_flag = eschatological_theocracy_georgia_reform_flag
+		change_government = theocracy
+		add_government_reform = eschatological_theocracy_georgia_reform
+	}
+	option = {
+		name = theocracy_election_government.11.b
+		change_government_reform_progress = 300
+		add_splendor = 500
+		add_prestige = 10
+	}
+}
+# Georgia Eschatological Theocracy elections:
+country_event = {
+	id = theocracy_election_government.1
+	title = theocracy_election_government.1.t
+	desc = theocracy_election_government.1.d
+	picture = KING_SICK_IN_BED_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_reform = eschatological_theocracy_georgia_reform
+	}
+	option = {
+		name = theocracy_election_government.1.a
+		define_ruler = {
+		}
+		change_statists_vs_orangists = -0.33
+	}
+	option = {
+		name = theocracy_election_government.1.b
+		define_ruler = {
+		}
+		add_devotion = -5
+	}
+	option = {
+		name = theocracy_election_government.1.c
+		define_ruler = {
+		}
+		change_statists_vs_orangists = 0.33
+	}
+}
+# Caliphate Eschatological Theocracy elections:
+country_event = {
+	id = theocracy_election_government.2
+	title = theocracy_election_government.1.t
+	desc = theocracy_election_government.1.d
+	picture = KING_SICK_IN_BED_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_reform = eschatological_theocracy_caliphate_reform
+	}
+	immediate = {
+		hidden_effect = {
+			define_exiled_ruler = {
+				exiled_as = caliphate_candidate_a_@ROOT
+				option = 0
+			}
+			define_exiled_ruler = {
+				exiled_as = caliphate_candidate_b_@ROOT
+				option = 1
+			}
+			define_exiled_ruler = {
+				exiled_as = caliphate_candidate_c_@ROOT
+				option = 2
+			}
+		}
+	}
+	after = {
+		clear_exiled_ruler = caliphate_candidate_a_@ROOT
+		clear_exiled_ruler = caliphate_candidate_b_@ROOT
+		clear_exiled_ruler = caliphate_candidate_c_@ROOT
+	}
+	option = {
+		name = theocracy_election_government.2.a
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = caliphate_candidate_a_@ROOT
+		add_devotion = -5
+		add_prestige = 10
+	}
+	option = {
+		name = theocracy_election_government.2.b
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = caliphate_candidate_b_@ROOT
+		add_years_of_income = 0.35
+		add_devotion = -5
+	}
+	option = {
+		name = theocracy_election_government.2.c
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = caliphate_candidate_c_@ROOT
+		add_devotion = 10
+		add_prestige = -5
+	}
+}
+# Sasanian new ruler same dynasty "elections":
+country_event = {
+	id = theocracy_election_government.3
+	title = theocracy_election_government.1.t
+	desc = theocracy_election_government.3.d
+	picture = KING_SICK_IN_BED_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_reform = sasanian_government
+	}
+	immediate = {
+		hidden_effect = {
+			define_exiled_ruler = {
+				exiled_as = sasanian_candidate_a_@ROOT
+				option = 0
+			}
+			define_exiled_ruler = {
+				exiled_as = sasanian_candidate_b_@ROOT
+				option = 1
+			}
+			define_exiled_ruler = {
+				exiled_as = sasanian_candidate_c_@ROOT
+				option = 2
+			}
+		}
+	}
+	after = {
+		clear_exiled_ruler = sasanian_candidate_a_@ROOT
+		clear_exiled_ruler = sasanian_candidate_b_@ROOT
+		clear_exiled_ruler = sasanian_candidate_c_@ROOT
+	}
+	option = {
+		name = theocracy_election_government.3.a
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = sasanian_candidate_a_@ROOT
+	}
+	option = {
+		name = theocracy_election_government.3.b
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = sasanian_candidate_b_@ROOT
+	}
+	option = {
+		name = theocracy_election_government.3.c
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = sasanian_candidate_c_@ROOT
+	}
+}
+
+# Swazi Government elections:
+namespace = swazi_election_government
+country_event = {
+	id = swazi_election_government.1
+	title = swazi_election_government.1.t
+	picture = KING_SICK_IN_BED_eventPicture
+	desc = {
+		trigger = { NOT = { has_country_flag = swazi_heir_died } }
+		desc = swazi_election_government.1.d
+	}
+	desc = {
+		trigger = { has_country_flag = swazi_heir_died }
+		desc = swazi_election_government.1.dd
+	}
+
+	is_triggered_only = yes
+	trigger = {
+		has_reform = swazi_government_reform
+		religion = shamanism
+	}
+	option = { # 1
+		name = swazi_election_government.1.a
+		trigger = {
+			has_unlocked_cult = cwezi_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 46
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_cwezi_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 2
+		name = swazi_election_government.1.b
+		trigger = {
+			has_unlocked_cult = central_african_ancestor_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 46
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_central_african_ancestor_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 3
+		name = swazi_election_government.1.c
+		trigger = {
+			has_unlocked_cult = mwari_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 46
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_mwari_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 4
+		name = swazi_election_government.1.e
+		trigger = {
+			has_unlocked_cult = yemoja_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 49
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_yemoja_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 5
+		name = swazi_election_government.1.f
+		trigger = {
+			has_unlocked_cult = roog_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 47
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_roog_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 6
+		name = swazi_election_government.1.g
+		trigger = {
+			has_unlocked_cult = nyame_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 48
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_nyame_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 7
+		name = swazi_election_government.1.h
+		trigger = {
+			has_unlocked_cult = enkai_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 50
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_enkai_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 8
+		name = swazi_election_government.1.i
+		trigger = {
+			has_unlocked_cult = waaq_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 45
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_waaq_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 9
+		name = swazi_election_government.1.j
+		trigger = {
+			has_unlocked_cult = zanahary_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 55
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_zanahary_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	# ROTW Cults:
+	option = { # 10
+		name = swazi_election_government.1.k
+		trigger = {
+			has_unlocked_cult = christianity_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 53
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_christianity_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 11
+		name = swazi_election_government.1.l
+		trigger = {
+			has_unlocked_cult = islam_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 54
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_islam_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 12
+		name = swazi_election_government.1.m
+		trigger = {
+			has_unlocked_cult = buddhism_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 51
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_buddhism_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 13
+		name = swazi_election_government.1.n
+		trigger = {
+			has_unlocked_cult = dharmic_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 52
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_dharmic_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 14
+		name = swazi_election_government.1.o
+		trigger = {
+			has_unlocked_cult = south_central_american_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 47
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_south_central_american_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 15
+		name = swazi_election_government.1.p
+		trigger = {
+			has_unlocked_cult = norse_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 51
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_norse_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 16
+		name = swazi_election_government.1.q
+		trigger = {
+			has_unlocked_cult = jewish_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 49
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_jewish_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+	option = { # 17
+		name = swazi_election_government.1.r
+		trigger = {
+			has_unlocked_cult = zoroastrian_cult
+		}
+		hidden_effect = {
+			define_heir = {
+				dynasty = Ndwandwe
+				age = 15
+				claim = 70
+				male = yes
+			}
+		}
+		define_consort = {
+			country_of_origin = ROOT
+			dynasty = Ndwandwe
+			age = 50
+			female = yes
+		}
+		add_country_modifier = {
+			name = mini_zoroastrian_cult_modifier
+			duration = -1
+			desc = UNTIL_NEW_SWAZI_CONSORT
+		}
+		clr_country_flag = swazi_heir_died
+	}
+}
+
+########################################################################
+# Papal State:
+namespace = sea_papal_events
+country_event = { # Naples vassal or claims
+	id = sea_papal_events.1
+	title = sea_papal_events.1.t
+	desc = sea_papal_events.1.d
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			kill_ruler = yes
+		}
+	}
+
+	option = {
+		name = sea_papal_events.1.a
+		ai_chance = {
+			factor = 1
+		}
+		every_country = {
+			limit = {
+				alliance_with = NAP
+			}
+			break_alliance = NAP
+		}
+		declare_war_with_cb = {
+			who = NAP
+			casus_belli = cb_pap_vassalize_naples
+		}
+	}
+	#option = {
+	#	name = sea_papal_events.1.b
+	#	ai_chance = {
+	#		factor = 0
+	#	}
+	#	NAP = {
+	#		every_owned_province = {
+	#			add_permanent_claim = PAP
+	#		}
+	#	}
+	#}
+	option = {
+		name = sea_papal_events.1.c
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = 1
+	}
+}
+country_event = { # new ruler choosing.
+	id = sea_papal_events.2
+	title = sea_papal_events.2.t
+	desc = sea_papal_events.2.d
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		if = {
+			limit = {
+				has_country_flag = pope_got_elected_no_need_another_event
+			}
+			had_country_flag = {
+				flag = pope_got_elected_no_need_another_event
+				days = 3
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = pope_got_elected_no_need_another_event
+			}
+			clr_country_flag = pope_got_elected_no_need_another_event
+		}
+		hidden_effect = {
+			define_exiled_ruler = {
+				exiled_as = pope_candidate_a_@ROOT
+				male = yes
+				min_age = 40
+				max_age = 70
+				change_adm = 5
+				max_random_dip = 4
+				max_random_mil = 4
+				option = 0
+			}
+			define_exiled_ruler = {
+				exiled_as = pope_candidate_b_@ROOT
+				male = yes
+				min_age = 40
+				max_age = 70
+				max_random_adm = 4
+				change_dip = 5
+				max_random_mil = 4
+				option = 1
+			}
+			define_exiled_ruler = {
+				exiled_as = pope_candidate_c_@ROOT
+				male = yes
+				min_age = 40
+				max_age = 70
+				max_random_adm = 4
+				max_random_dip = 4
+				change_mil = 5
+				option = 2
+			}
+		}
+	}
+	
+	after = {
+		clear_exiled_ruler = pope_candidate_a_@ROOT
+		clear_exiled_ruler = pope_candidate_b_@ROOT
+		clear_exiled_ruler = pope_candidate_c_@ROOT
+	}
+
+	option = {
+		name = sea_papal_events.2.a
+		set_country_flag = pope_got_elected_no_need_another_event
+		ai_chance = {
+			factor = 0
+		}
+		every_country = {
+			limit = {
+				religion = catholic
+				NOT = { tag = PAP }
+				is_papal_controller = yes
+			}
+			set_country_flag = papal_controller_flag
+		}
+		set_ruler = pope_candidate_a_@ROOT
+		every_country = {
+			limit = {
+				has_country_flag = papal_controller_flag
+			}
+			transfer_papal_controller = THIS
+			clr_country_flag = papal_controller_flag
+		}
+		add_corruption = 0.30
+		add_curia_treasury = -300
+		add_papal_influence = -50
+	}
+	option = {
+		name = sea_papal_events.2.b
+		set_country_flag = pope_got_elected_no_need_another_event
+		ai_chance = {
+			factor = 0
+		}
+		every_country = {
+			limit = {
+				religion = catholic
+				NOT = { tag = PAP }
+				is_papal_controller = yes
+			}
+			set_country_flag = papal_controller_flag
+		}
+		set_ruler = pope_candidate_b_@ROOT
+		every_country = {
+			limit = {
+				has_country_flag = papal_controller_flag
+			}
+			transfer_papal_controller = THIS
+			clr_country_flag = papal_controller_flag
+		}
+		add_corruption = 0.20
+		add_prestige = -30
+		add_devotion = -10
+		add_papal_influence = -50
+	}
+	option = {
+		name = sea_papal_events.2.c
+		set_country_flag = pope_got_elected_no_need_another_event
+		ai_chance = {
+			factor = 0
+		}
+		every_country = {
+			limit = {
+				religion = catholic
+				NOT = { tag = PAP }
+				is_papal_controller = yes
+			}
+			set_country_flag = papal_controller_flag
+		}
+		set_ruler = pope_candidate_c_@ROOT
+		every_country = {
+			limit = {
+				has_country_flag = papal_controller_flag
+			}
+			transfer_papal_controller = THIS
+			clr_country_flag = papal_controller_flag
+		}
+		add_corruption = 0.20
+		add_prestige = -10
+		add_devotion = -30
+		add_papal_influence = -50
+	}
+	option = {
+		name = sea_papal_events.2.e
+		set_country_flag = pope_got_elected_no_need_another_event
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = 10
+		add_devotion = 10
+		add_splendor = 3
+		add_papal_influence = 25
+	}
+}
+########################################################################
+# Switzerland:
+namespace = sea_switzerland_events
+province_event = { # Swiss mercs:
+	id = sea_switzerland_events.1
+	title = none
+	desc = none
+	picture = none
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		FROM = {
+			# Tech 23-32
+			if = {
+				limit = {
+					mil_tech = 23
+				}
+				if = {
+					limit = {
+						land_forcelimit = 1
+						NOT = { land_forcelimit = 24 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 10 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 24
+						NOT = { land_forcelimit = 48 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 20 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 48
+						NOT = { land_forcelimit = 96 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 30 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 96
+						NOT = { land_forcelimit = 192 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 40 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 192
+						NOT = { land_forcelimit = 384 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 80 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 384
+					}
+					NOT = { sea_swiss_mercenaries_3 = 120 }
+				}
+			}
+			# Tech 12-22
+			else_if = {
+				limit = {
+					mil_tech = 12
+					NOT = { mil_tech = 23 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 1
+						NOT = { land_forcelimit = 24 }
+					}
+					NOT = { sea_swiss_mercenaries_2 = 10 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 24
+						NOT = { land_forcelimit = 48 }
+					}
+					NOT = { sea_swiss_mercenaries_2 = 20 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 48
+						NOT = { land_forcelimit = 96 }
+					}
+					NOT = { sea_swiss_mercenaries_2 = 30 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 96
+						NOT = { land_forcelimit = 192 }
+					}
+					NOT = { sea_swiss_mercenaries_2 = 40 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 192
+					}
+					NOT = { sea_swiss_mercenaries_2 = 60 }
+				}
+			}
+			# tech 1-12
+			else = {
+				if = {
+					limit = {
+						land_forcelimit = 1
+						NOT = { land_forcelimit = 40 }
+					}
+					NOT = { sea_swiss_mercenaries_1 = 10 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 40
+					}
+					NOT = { sea_swiss_mercenaries_1 = 20 }
+				}
+			}
+		}
+	}
+	immediate = {
+		FROM = {
+			add_treasury = -30
+			add_manpower = -1
+		}
+		if = {
+			limit = {
+				FROM = { mil_tech = 23 }
+			}
+			sea_swiss_mercenaries_3 = ROOT
+		}
+		else_if = {
+			limit = {
+				FROM = {
+					mil_tech = 12
+					NOT = { mil_tech = 23 }
+				}
+			}
+			sea_swiss_mercenaries_2 = ROOT
+		}
+		else = { sea_swiss_mercenaries_1 = ROOT }
+	}
+	option = { }
+}
+country_event = {
+	id = sea_switzerland_events.2
+	title = sea_switzerland_events.2.t
+	desc = sea_switzerland_events.2.d
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+	immediate = { set_country_flag = sea_swiss_cantons_2_influence_flag }
+	option = {
+		name = sea_switzerland_events.2.a
+		trigger = {
+			has_government_power = {
+				mechanic_type = swiss_cantons_mechanic
+				power_type = swiss_cantons_influence
+				value = 20
+			}
+		}
+		clr_country_flag = sea_swiss_cantons_2_influence_flag
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 20
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 40
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_1_modifier_1
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 40
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 60
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_1_modifier_2
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 60
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 80
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_1_modifier_3
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 80
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 100
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_1_modifier_4
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 100
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_1_modifier_5
+				duration = 1825
+			}
+		}
+		add_government_power = {
+			mechanic_type = swiss_cantons_mechanic
+			power_type = swiss_cantons_influence
+			value = -20
+		}
+	}
+	option = {
+		name = sea_switzerland_events.2.b
+		trigger = {
+			has_government_power = {
+				mechanic_type = swiss_cantons_mechanic
+				power_type = swiss_cantons_influence
+				value = 20
+			}
+		}
+		clr_country_flag = sea_swiss_cantons_2_influence_flag
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 20
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 40
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_2_modifier_1
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 40
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 60
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_2_modifier_2
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 60
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 80
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_2_modifier_3
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 80
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 100
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_2_modifier_4
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 100
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_2_modifier_5
+				duration = 1825
+			}
+		}
+		add_government_power = {
+			mechanic_type = swiss_cantons_mechanic
+			power_type = swiss_cantons_influence
+			value = -20
+		}
+	}
+	option = {
+		name = sea_switzerland_events.2.c
+		trigger = {
+			NOT = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 81
+				}
+			}
+		}
+		clr_country_flag = sea_swiss_cantons_2_influence_flag
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 61
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 81
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_3_modifier_1
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 41
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 61
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_3_modifier_2
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 21
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 41
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_3_modifier_3
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 1
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 21
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_3_modifier_4
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 1
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_3_modifier_5
+				duration = 1825
+			}
+		}
+		add_government_power = {
+			mechanic_type = swiss_cantons_mechanic
+			power_type = swiss_cantons_influence
+			value = 20
+		}
+	}
+	option = {
+		name = sea_switzerland_events.2.e
+		trigger = {
+			NOT = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 81
+				}
+			}
+		}
+		clr_country_flag = sea_swiss_cantons_2_influence_flag
+		define_ruler = {
+			min_age = 30
+			max_age = 50
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 61
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 81
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_4_modifier_1
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 41
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 61
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_4_modifier_2
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 21
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 41
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_4_modifier_3
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				has_government_power = {
+					mechanic_type = swiss_cantons_mechanic
+					power_type = swiss_cantons_influence
+					value = 1
+				}
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 21
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_4_modifier_4
+				duration = 1825
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government_power = {
+						mechanic_type = swiss_cantons_mechanic
+						power_type = swiss_cantons_influence
+						value = 1
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = sea_swiss_cantons_2_influence_4_modifier_5
+				duration = 1825
+			}
+		}
+		add_government_power = {
+			mechanic_type = swiss_cantons_mechanic
+			power_type = swiss_cantons_influence
+			value = 20
+		}
+	}
+}
+########################################################################
+# Novgorod:
+namespace = sea_novgorod_events
+country_event = {
+	id = sea_novgorod_events.1
+	title = sea_novgorod_events.1.t
+	desc = sea_novgorod_events.1.d
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = sea_novgorod_events.1.a
+		ai_chance = { factor = 1 }
+		310 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		295 = {
+			add_core = ROOT
+			move_capital_effect = yes
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_devastation = -1
+		}
+	}
+	option = {
+		name = sea_novgorod_events.1.b
+		ai_chance = { factor = 0 }
+		add_stability = 1
+	}
+}
+########################################################################
+# Nogai:
+namespace = sea_nogai_events
+country_event = {
+	id = sea_nogai_events.1
+	title = sea_nogai_events.1.t
+	desc = sea_nogai_events.1.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	option = { # Send offer to buy Genoa lands in Crimea.
+		name = sea_nogai_events.1.a
+		ai_chance = { factor = 100 }
+		GEN = { country_event = { id = sea_nogai_events.2 } }
+		custom_tooltip = sea_nogai_events.1.tt
+		tooltip = {
+			add_treasury = -500
+			azov_area = {
+				limit = {
+					owned_by = GEN
+					controlled_by = GEN
+				}
+				cede_province = ROOT
+				remove_core = GEN
+			}
+			crimea_area = {
+				limit = {
+					owned_by = GEN
+					controlled_by = GEN
+				}
+				cede_province = ROOT
+				remove_core = GEN
+			}
+			if = {
+				limit = {
+					NOT = { owns = 286 }
+				}
+				286 = {
+					center_of_trade = 1
+					add_permanent_province_modifier = {
+						name = nog_black_sea_slave_trade_revived
+						duration = -1
+					}
+					add_trade_modifier = {
+						who = ROOT
+						duration = -1
+						power = 15
+						key = nog_black_sea_slave_trade_revived_tt
+					}
+				}
+			}
+		}
+	}
+	option = { # Don't send offer.
+		name = sea_nogai_events.1.b
+		ai_chance = { factor = 0 }
+		add_prestige = 10
+	}
+}
+country_event = { # Genoa response.
+	id = sea_nogai_events.2
+	title = sea_nogai_events.1.t
+	desc = sea_nogai_events.2.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	option = { # Accept the offer
+		name = sea_nogai_events.2.a
+		ai_chance = { factor = 100 }
+		tooltip = {
+			azov_area = {
+				limit = {
+					owned_by = ROOT
+					controlled_by = ROOT
+				}
+				cede_province = FROM
+				remove_core = ROOT
+			}
+			crimea_area = {
+				limit = {
+					owned_by = ROOT
+					controlled_by = ROOT
+				}
+				cede_province = FROM
+				remove_core = ROOT
+			}
+		}
+		add_treasury = 500
+		FROM = { country_event = { id = sea_nogai_events.3 } }
+	}
+	option = { # Decline the offer
+		name = sea_nogai_events.2.b
+		ai_chance = { factor = 0 }
+		add_prestige = 10
+		FROM = { country_event = { id = sea_nogai_events.4 } }
+	}
+}
+country_event = { # Genoa accepts.
+	id = sea_nogai_events.3
+	title = sea_nogai_events.1.t
+	desc = sea_nogai_events.3.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sea_nogai_events.3.a
+		azov_area = {
+			limit = {
+				owned_by = FROM
+				controlled_by = FROM
+			}
+			cede_province = ROOT
+			remove_core = FROM
+		}
+		crimea_area = {
+			limit = {
+				owned_by = FROM
+				controlled_by = FROM
+			}
+			cede_province = ROOT
+			remove_core = FROM
+		}
+		if = {
+			limit = {
+				owns = 286
+				286 = { NOT = { has_province_modifier = nog_black_sea_slave_trade_revived } }
+			}
+			286 = {
+				center_of_trade = 1
+				add_permanent_province_modifier = {
+					name = nog_black_sea_slave_trade_revived
+					duration = -1
+				}
+				add_trade_modifier = {
+					who = ROOT
+					duration = -1
+					power = 15
+					key = nog_black_sea_slave_trade_revived_tt
+				}
+			}
+		}
+		add_treasury = -500
+	}
+}
+country_event = { # Genoa declines.
+	id = sea_nogai_events.4
+	title = sea_nogai_events.1.t
+	desc = sea_nogai_events.4.d
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = sea_nogai_events.4.a
+		add_prestige = 5
+	}
+}
+########################################################################
+# Achievements:
+#namespace = achiev_events
+#country_event = {
+#	id = achiev_events.1
+#	title = none
+#	desc = none
+#	picture = KING_SICK_IN_BED_eventPicture
+#	hidden = yes
+#	mean_time_to_happen = { days = 1 }
+#	trigger = {
+#		has_country_modifier = achiev_good_samaritan
+#		NOT = { has_country_flag = achiev_good_samaritan_flag }
+#	}
+#	immediate = { set_country_flag = achiev_good_samaritan_flag }
+#	option = { }
+#}
+########################################################################
+# Advisors:
+namespace = sea_advisor_event
+country_event = {
+	id = sea_advisor_event.0
+	title = sea_advisor_event.0.t
+	desc = sea_advisor_event.0.d
+	picture = ADVISOR_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sea_advisor_event.0.0
+		clr_country_flag = sea_get_specific_advisor_flag
+	}
+	option = {
+		name = sea_advisor_event.0.a
+		country_event = { id = sea_advisor_event.1 }
+	}
+	option = {
+		name = sea_advisor_event.0.b
+		country_event = { id = sea_advisor_event.2 }
+	}
+	option = {
+		name = sea_advisor_event.0.c
+		country_event = { id = sea_advisor_event.3 }
+	}
+}
+# Adm:
+country_event = {
+	id = sea_advisor_event.1
+	title = sea_advisor_event.1.t
+	desc = sea_advisor_event.1.d
+	picture = ADVISOR_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sea_advisor_event.0.0
+		clr_country_flag = sea_get_specific_advisor_flag
+	}
+	option = {
+		name = sea_advisor_event.0.01
+		hidden_effect = { country_event = { id = sea_advisor_event.0 } }
+	}
+	option = {
+		name = sea_advisor_event.1.3
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = philosopher
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.4
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = {
+			government = monarchy
+			NOT = { has_reform = celestial_empire }
+		}
+		define_advisor = {
+			type = advisor_legitimate_government
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.5
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { government = republic }
+		define_advisor = {
+			type = advisor_republic_government
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.6
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { government = theocracy }
+		define_advisor = {
+			type = advisor_devoted_government
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.7
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { is_nomad = yes }
+		define_advisor = {
+			type = advisor_horde_government
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.8
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_reform_growth
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.9
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_splendor_blendor
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.10
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = {
+			OR = {
+				current_age = age_of_absolutism
+				current_age = age_of_revolutions
+			}
+		}
+		define_advisor = {
+			type = advisor_increase_absolutism
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.11
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_centralize_autonomy
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.12
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = artist
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.13
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_war_exhaust
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.14
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = master_of_mint
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.15
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = treasurer
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.16
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = natural_scientist
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.17
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = theologian
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.1.18
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = inquisitor
+			skill = 1
+		}
+		add_treasury = -33
+	}
+}
+# Dip:
+country_event = {
+	id = sea_advisor_event.2
+	title = sea_advisor_event.2.t
+	desc = sea_advisor_event.1.d
+	picture = ADVISOR_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sea_advisor_event.0.0
+		clr_country_flag = sea_get_specific_advisor_flag
+	}
+	option = {
+		name = sea_advisor_event.0.01
+		hidden_effect = { country_event = { id = sea_advisor_event.0 } }
+	}
+	option = {
+		name = sea_advisor_event.2.2
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { is_emperor = yes }
+		define_advisor = {
+			type = advisor_imperial_authority
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.3
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { is_emperor_of_china = yes }
+		define_advisor = {
+			type = advisor_mandate_growth
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.4
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_corrupt_decay
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.5
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = statesman
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.6
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = diplomat
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.8
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = spymaster
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.9
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_defence_spymaster
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.11
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = trader
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.12
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_colonists = 1 }
+		define_advisor = {
+			type = colonial_governor
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.13
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = {
+			num_of_colonists = 1
+			is_colonial_nation = no
+			NOT = { has_reform = trade_company_government }
+		}
+		define_advisor = {
+			type = navigator
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.14
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_colonists = 1 }
+		define_advisor = {
+			type = advisor_colonial_increase
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.15
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = naval_reformer
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.16
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_heavy_combat
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.17
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_light_combat
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.18
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_galley_combat
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.19
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_durability
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.20
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_engagement
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.21
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_forcelimit
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.22
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_maintenance
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.23
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_sailors
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.24
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_attrition
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.25
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_morale_recovery
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.2.26
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { num_of_ports = 1 }
+		define_advisor = {
+			type = advisor_naval_repair
+			skill = 1
+		}
+		add_treasury = -33
+	}
+}
+# Mil:
+country_event = {
+	id = sea_advisor_event.3
+	title = sea_advisor_event.3.t
+	desc = sea_advisor_event.1.d
+	picture = ADVISOR_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = sea_advisor_event.0.0
+		clr_country_flag = sea_get_specific_advisor_flag
+	}
+	option = {
+		name = sea_advisor_event.0.01
+		hidden_effect = { country_event = { id = sea_advisor_event.0 } }
+	}
+	option = {
+		name = sea_advisor_event.3.2
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = army_reformer
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.3
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = commandant
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.4
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_inf_combat
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.5
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_cav_combat
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.6
+		clr_country_flag = sea_get_specific_advisor_flag
+		trigger = { mil_tech = 7 }
+		define_advisor = {
+			type = advisor_art_combat
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.77
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_morale_damage
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.88
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_morale_damage_received
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.7
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_fire_damage
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.8
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_fire_damage_received
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.9
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_shock_damage
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.10
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_shock_damage_received
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.11
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_cav_to_inf_ratio
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.12
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_speedy_boys
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.13
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = quartermaster
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.14
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = recruitmaster
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.15
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = army_organiser
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.16
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = grand_captain
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.17
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_land_attrition
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.18
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_morale_recovery
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.19
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_siege_ability
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.20
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = fortification_expert
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.21
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_drill_gain
+			skill = 1
+		}
+		add_treasury = -33
+	}
+	option = {
+		name = sea_advisor_event.3.22
+		clr_country_flag = sea_get_specific_advisor_flag
+		define_advisor = {
+			type = advisor_drill_decay
+			skill = 1
+		}
+		add_treasury = -33
+	}
+}

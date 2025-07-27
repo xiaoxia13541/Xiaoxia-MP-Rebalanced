@@ -1,0 +1,11 @@
+add_core = MAL
+owner = MAL
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = fulani
+trade_goods = gold
+religion = shamanism
+controller = MAL
+is_city = yes
+discovered_by = sub_saharan

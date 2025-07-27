@@ -1,0 +1,734 @@
+##################################################
+# ITALY:
+merc_venetia_company = {
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1
+	home_province = 112 # Venezia
+	sprites = { dlc056_ven_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = sea_italian_mercs_flag
+		owns = 112
+	}
+	modifier = { 
+		morale_damage = 0.125
+		morale_damage_received = -0.1
+		reinforce_speed = 0.1
+		recover_army_morale_speed = 0.1
+		land_attrition = -0.1
+	}
+}
+merc_lombard_company = {
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1
+	home_province = 104 # Milano
+	sprites = { dlc056_mlo_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = sea_italian_mercs_flag
+		owns = 104
+	}
+	modifier = { 
+		infantry_power = 0.1
+		reinforce_speed = 0.1
+		recover_army_morale_speed = 0.1
+		land_attrition = -0.1
+	}
+}
+merc_piedmont_company = {
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1
+	home_province = 2981 # Monferrato
+	sprites = { dlc103_sav_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = sea_italian_mercs_flag
+		owns = 2981
+	}
+	modifier = { 
+		shock_damage = 0.1
+		fire_damage_received = -0.075
+		reinforce_speed = 0.1
+		recover_army_morale_speed = 0.1
+		land_attrition = -0.1
+	}
+}
+merc_tuscan_company = {
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1
+	home_province = 116 # Firenze
+	sprites = { dlc056_lan_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = sea_italian_mercs_flag
+		owns = 116
+	}
+	modifier = { 
+		discipline = 0.05
+		reinforce_speed = 0.1
+		recover_army_morale_speed = 0.1
+		land_attrition = -0.1
+	}
+}
+merc_naples_company = {
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1
+	home_province = 121 # Napoli
+	sprites = { dlc056_nap_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = sea_italian_mercs_flag
+		owns = 121
+	}
+	modifier = { 
+		land_morale = 0.125
+		reinforce_speed = 0.1
+		recover_army_morale_speed = 0.1
+		land_attrition = -0.1
+	}
+}
+merc_sicily_company = {
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1
+	home_province = 125 # Palermo
+	sprites = { dlc103_sic_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = sea_italian_mercs_flag
+		owns = 125
+	}
+	modifier = { 
+		fire_damage = 0.1
+		shock_damage_received = -0.075
+		reinforce_speed = 0.1
+		recover_army_morale_speed = 0.1
+		land_attrition = -0.1
+	}
+}
+##################################################
+
+# Black Army (Hungary)
+merc_black_army = {
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 1.25
+	cavalry_weight = 0.2
+	cavalry_cap = 4
+	home_province = 153
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = hab_black_army_unlocked
+			}
+			has_country_modifier = hun_black_army
+			has_reform = black_army_reform
+			has_reform = expanded_black_army_reform
+		}
+	}
+	cost_modifier = 0.75
+	modifier = {
+		cav_to_inf_ratio = 1
+		discipline = 0.05
+	}
+}
+# Black Army Reserves (Hungary)
+merc_black_army_2 = {
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 1.25
+	cavalry_weight = 0.2
+	cavalry_cap = 4
+	home_province = 153
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			has_reform = black_army_reform
+			has_reform = expanded_black_army_reform
+		}
+	}
+	cost_modifier = 0.75
+	modifier = {
+		cav_to_inf_ratio = 1
+		discipline = 0.05
+	}
+}
+
+# Knights Templar
+merc_knights_templar = {
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 0.8
+	home_province = 379
+	cavalry_weight = 0.8
+	sprites = { dlc040_kni_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		custom_trigger_tooltip = {
+			tooltip = templars_tt
+			has_country_flag = knights_templar_flag
+		}
+		owns = 379
+	}
+	modifier = {
+		cav_to_inf_ratio = 1
+		cavalry_power = 0.15
+		shock_damage = 0.1
+	}
+	cost_modifier = 0.5
+}
+
+# Mesopotamian Mamluks
+merc_mesopotamian_mamluks = {
+	max_size = 32 # 20
+	min_size = 32 # 20
+	no_additional_manpower_from_max_size = yes
+	cavalry_weight = 0.625
+	home_province = 410
+	cost_modifier = 0.9
+	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		has_country_flag = mesopotamian_mamluks_flag
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			capital_scope = {
+				region = mashriq_region
+			}
+			accepted_culture = al_iraqiya_arabic
+			AND = {
+				religion_group = muslim
+				any_owned_province = {
+					region = mashriq_region
+				}
+			}
+		}
+	}
+	modifier = {
+		cav_to_inf_ratio = 1
+		cavalry_shock = 1.0
+	}
+}
+
+merc_mongol_banner = {
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 0.7
+	cavalry_weight = 1
+	home_province = 718
+	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = MJZ
+			tag = MHX
+			tag = MYR
+			tag = MCH
+			tag = QNG
+			tag = EJZ
+			tag = NHX
+		}
+		mission_completed = mch_khan_of_the_mongols
+	}
+	cost_modifier = 1.1
+	modifier = {
+		cav_to_inf_ratio = 1
+		cavalry_shock =1.0
+	}
+}
+
+merc_japanese_volunteers = {
+	max_size = 12
+	min_size = 12
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 1.25
+	cavalry_weight = 0.1
+	cavalry_cap = 2
+	home_province = 600
+	sprites = { dlc068_jap_sprite_pack jap_base_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		mission_completed = mnd_siam_japan
+	}
+	modifier = {
+		cav_to_inf_ratio = 1
+		infantry_power = 0.15
+		discipline = 0.05
+	}
+}
+
+merc_militant_order_of_saint_joan = {
+	max_size = 28
+	min_size = 28
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0.2
+	cavalry_cap = 4
+	home_province = 184
+	cost_modifier = 0.75
+	sprites = { dlc120_CHP_sprite_pack dlc001_orl_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = militant_order_of_saint_joan
+	}
+	modifier = {
+		cav_to_inf_ratio = 1
+		may_recruit_female_generals = yes
+		female_advisor_chance = 1.0
+		fire_damage = 0.2
+		discipline = 0.05
+	}
+}
+
+merc_eth_janissaries_company = {
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	home_province = 1211
+	cost_modifier = 0.5
+	sprites = { dlc002_tur_sprite_pack dlc042_tur_sprite_pack tur_base_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			AND = {
+				tag = ADA
+				exists = TUR
+				has_global_flag = eth_ottoman_company_available
+			}
+			has_country_flag = aju_can_use_janissaries_mercs
+			AND = {
+				capital_scope = {
+					continent = africa
+				}
+				OR = {
+					is_subject_of = TUR
+					alliance_with = TUR
+					is_subject_of = RUM
+					alliance_with = RUM
+				}
+			}
+		}
+	}
+	modifier = {
+		shock_damage_received = -0.1
+		fire_damage_received = -0.1
+	}
+}
+
+merc_eth_musketeers_company = {
+	max_size = 16
+	min_size = 16
+	no_additional_manpower_from_max_size = yes
+	home_province = 1224
+	cost_modifier = 0.5
+	sprites = { dlc098_nav_sprite_pack dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		tag = ETH
+		exists = POR
+		has_global_flag = eth_portugese_company_available
+	}
+	modifier = {
+		discipline = 0.05
+		infantry_power = 0.1
+	}
+}
+
+merc_zim_butua_warriors = {
+	max_size = 28
+	min_size = 28
+	no_additional_manpower_from_max_size = yes
+	home_province = 1185
+	cost_modifier = 1
+	sprites = { dlc098_nav_sprite_pack dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			is_or_was_tag = {
+				tag = RZW
+			}
+			has_country_flag = zim_enabled_butua_warriors
+		}
+	}
+	modifier = {
+		discipline = 0.05
+		infantry_power = 0.1
+	}
+}
+
+merc_aju_mamluk_soldiers = {
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.55
+	cavalry_weight = 1
+	sprites = { dlc098_nav_sprite_pack dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = ada_mamluk_mercs
+	}
+	modifier = {
+		cav_to_inf_ratio = 1
+		cavalry_power = 0.1
+	}
+}
+
+merc_oyo_cavalry = {
+	max_size = 30
+	min_size = 30
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.5
+	cavalry_weight = 1
+	home_province = 1144
+	sprites = { dlc062_ben_sprite_pack africangfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_unlocked_merc_company = {
+			merc_company = merc_oyo_cavalry
+		}
+	}
+	modifier = {
+		cavalry_flanking = 0.5
+		cav_to_inf_ratio = 1
+		cavalry_power = 0.2
+	}
+}
+
+merc_hakkapeliita_cavalry = {
+	max_size = 16
+	min_size = 16
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	home_province = 28 # Nyland
+	sprites = { dlc116_FIN_sprite_pack dlc054_swe_sprite_pack dlc028_swe_sprite_pack swe_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			has_country_modifier = rus_grand_duke_of_finland
+			has_unlocked_merc_company = {
+				merc_company = merc_hakkapeliita_cavalry
+			}
+		}
+	}
+	modifier = {
+		cavalry_shock = 1 
+		cav_to_inf_ratio = 1 
+		movement_speed = 0.25
+	}
+}
+
+merc_large_hakkapeliita_cavalry = {
+	max_size = 16
+	min_size = 16
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	home_province = 28 # Nyland
+	sprites = { dlc116_FIN_sprite_pack dlc054_swe_sprite_pack dlc028_swe_sprite_pack swe_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_unlocked_merc_company = {
+			merc_company = merc_large_hakkapeliita_cavalry
+		}
+	}
+	modifier = {
+		cav_to_inf_ratio = 1
+		cavalry_shock = 1 
+		movement_speed = 0.25
+	}
+}
+
+merc_guerilla_hakkapeliita_cavalry = {
+	max_size = 16
+	min_size = 16
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	home_province = 28 # Nyland
+	sprites = { dlc116_FIN_sprite_pack dlc054_swe_sprite_pack dlc028_swe_sprite_pack swe_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_unlocked_merc_company = {
+			merc_company = merc_guerilla_hakkapeliita_cavalry
+		}
+	}
+	modifier = {
+		cav_to_inf_ratio = 1
+		cavalry_shock = 1 
+		movement_speed = 0.33
+	}
+}
+
+merc_elite_hakkapeliita_cavalry = {
+	max_size = 12
+	min_size = 12
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	home_province = 28 # Nyland
+	sprites = { swe_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_unlocked_merc_company = {
+			merc_company = merc_elite_hakkapeliita_cavalry
+		}
+	}
+	modifier = {
+		cav_to_inf_ratio = 1
+		cavalry_shock = 1 
+		cavalry_fire = 1
+		movement_speed = 0.25
+	}
+}
+
+merc_prussian_volunteer_army = {
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cost_modifier = 1.75
+	cavalry_weight = 0
+	home_province = 41 # Königsberg
+	sprites = { dlc054_pru_sprite_pack dlc028_bra_sprite_pack pru_base_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_unlocked_merc_company = {
+			merc_company = merc_prussian_volunteer_army
+		}
+	}
+	modifier = {
+		infantry_power = 0.2
+		discipline = 0.05
+	}
+}
+
+merc_scouting_almogavars = {
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 10
+	min_size = 10
+	no_additional_manpower_from_max_size = yes
+	cavalry_weight = 0
+	artillery_weight = 0
+	cost_modifier = 0.55
+	sprites = { dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_government_attribute = has_improved_almogavars
+	}
+	modifier = {
+		movement_speed = 0.25
+		discipline = -0.05
+	}
+}
+merc_skirmishing_almogavars = {
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 10
+	min_size = 10
+	no_additional_manpower_from_max_size = yes
+	cavalry_weight = 0
+	artillery_weight = 0
+	cost_modifier = 0.75
+	sprites = { dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_government_attribute = has_improved_almogavars
+	}
+	modifier = {
+	}
+}
+merc_veteran_almogavars = {
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 10
+	min_size = 10
+	no_additional_manpower_from_max_size = yes
+	cavalry_weight = 0
+	artillery_weight = 0
+	cost_modifier = 0.95
+	sprites = { dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_government_attribute = has_improved_almogavars
+	}
+	modifier = {
+		infantry_power = 0.1
+	}
+}
+merc_gavras_house_guards = {
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0 #Pure infantry
+	cavalry_cap = 0 
+	sprites = { dlc006_byz_sprite_pack easterngfx_sprite_pack } #Could be changed to Russian
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = unlocked_gavras_house_guards
+	}
+	modifier = { 
+		shock_damage_received = -0.1
+		fire_damage_received = -0.1
+		morale_damage_received = -0.1
+	}
+}
+rnw_modifier_weights = {
+	shock_damage = {
+		min = 0.05
+		max = 0.1
+		weight = 2
+		cost_modifier = 0.3
+	}
+	shock_damage_received = {
+		min = -0.05
+		max = -0.1
+		weight = 1.5
+		cost_modifier = 0.3
+	}
+	fire_damage = {
+		min = 0.05
+		max = 0.1
+		weight = 2
+		cost_modifier = 0.3
+	}
+	fire_damage_received = {
+		min = -0.05
+		max = -0.1
+		weight = 1.5
+		cost_modifier = 0.3
+	}
+	discipline = {
+		min = -0.05
+		max = 0.05
+		weight = 2
+		cost_modifier = 0.3
+	}
+	infantry_power = {
+		min = 0.05
+		max = 0.1
+		weight = 1
+		cost_modifier = 0.2
+		sub_unit = infantry
+	}
+	infantry_fire = {
+		min = 0.05
+		max = 0.2
+		weight = 0.5
+		cost_modifier = 0.1
+		sub_unit = infantry
+	}
+	infantry_shock = {
+		min = 0.05
+		max = 0.2
+		weight = 0.5
+		cost_modifier = 0.1
+		sub_unit = infantry
+	}
+	cavalry_power = {
+		min = 0.05
+		max = 0.1
+		weight = 1
+		cost_modifier = 0.2
+		sub_unit = cavalry
+	}
+	cavalry_fire = {
+		min = 0.05
+		max = 0.2
+		weight = 0.5
+		cost_modifier = 0.1
+		sub_unit = cavalry
+	}
+	cavalry_shock = {
+		min = 0.05
+		max = 0.2
+		weight = 0.5
+		cost_modifier = 0.1
+		sub_unit = cavalry
+	}
+	cavalry_flanking = {
+		min = 0.33
+		max = 1
+		weight = 0.5
+		cost_modifier = 0.1
+		sub_unit = cavalry
+	}
+	artillery_power = {
+		min = 0.05
+		max = 0.1
+		weight = 0.5
+		cost_modifier = 0.2
+		sub_unit = artillery
+	}
+	artillery_fire = {
+		min = 0.05
+		max = 0.2
+		weight = 0.25
+		cost_modifier = 0.1
+		sub_unit = artillery
+	}
+	artillery_shock = {
+		min = 0.05
+		max = 0.2
+		weight = 0.25
+		cost_modifier = 0.1
+		sub_unit = artillery
+	}
+	land_morale = {
+		min = 0.05
+		max = 0.1
+		weight = 2
+		cost_modifier = 0.2
+	}
+	reinforce_speed = {
+		min = -0.2
+		max = 0.2
+		weight = 0.7
+		cost_modifier = 0.1
+	}
+	movement_speed = {
+		min = 0.1
+		max = 0.2
+		weight = 1
+		cost_modifier = 0.1
+	}
+	land_attrition = {
+		min = -0.1
+		max = -0.3
+		weight = 0.5
+		cost_modifier = 0.1
+	}
+	prestige_from_land = {
+		min = 0.1
+		max = 0.3
+		weight = 0.2
+		cost_modifier = 0.15
+	}
+}
+

@@ -1,0 +1,12 @@
+#4108 Kaonde
+latent_trade_goods = { 
+	coal 
+}
+culture = bemba
+religion = shamanism#Fetishism
+trade_goods = unknown
+capital = "Kaonde"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = central_african

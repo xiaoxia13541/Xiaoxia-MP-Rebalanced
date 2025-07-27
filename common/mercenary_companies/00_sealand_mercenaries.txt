@@ -1,0 +1,1140 @@
+####################################
+# Generic:
+# 0. Base:
+sea_small_merc_comp_0 = { # 4
+	max_size = 4
+	min_size = 4
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		NOT = { has_institution = renaissance }
+	}
+}
+sea_medium_merc_comp_0 = { # 8
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.5
+	trigger = {
+		is_subject = no
+		NOT = { has_country_flag = sea_mercs_inf_to_cav_switch_flag }
+		is_allowed_to_recruit_mercenaries = yes
+		NOT = { has_institution = renaissance }
+	}
+}
+sea_big_merc_comp_0 = { # 16
+	max_size = 16
+	min_size = 16
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.5
+	trigger = {
+		is_subject = no
+		is_allowed_to_recruit_mercenaries = yes
+		NOT = { has_institution = renaissance }
+	}
+}
+sea_big_merc_comp_reform_0 = { # 16
+	max_size = 16
+	min_size = 16
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.5
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		NOT = { has_institution = renaissance }
+		has_government_attribute = unlock_additional_sea_big_merc_comp
+	}
+}
+sea_cav_merc_comp_0 = { # 8
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	cavalry_cap = 8
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		NOT = { has_institution = renaissance }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+	}
+}
+sea_cav2_merc_comp_0 = { # 8
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	cavalry_cap = 8
+	trigger = {
+		has_country_flag = sea_mercs_inf_to_cav_switch_flag
+		is_allowed_to_recruit_mercenaries = yes
+		NOT = { has_institution = renaissance }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+	}
+}
+sea_art_merc_comp_0 = { # 10
+	max_size = 10
+	min_size = 10
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	artillery_weight = 1
+	trigger = {
+		is_subject = no
+		is_allowed_to_recruit_mercenaries = yes
+		NOT = { has_institution = renaissance }
+		mil_tech = 7
+		full_idea_group = mercenary_ideas
+	}
+}
+####################################
+# 1. Renaissance:
+sea_small_merc_comp_1 = { # 6
+	max_size = 6
+	min_size = 6
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_small_merc_comp_0 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = renaissance
+		NOT = { has_institution = new_world_i }
+	}
+	modifier = {
+		shock_damage = 0.05
+	}
+}
+sea_medium_merc_comp_1 = { # 10
+	max_size = 10
+	min_size = 10
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.5
+	trigger = {
+		is_subject = no
+		NOT = { has_country_flag = sea_mercs_inf_to_cav_switch_flag }
+		NOT = { any_hired_mercenary_company = { template = sea_medium_merc_comp_0 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = renaissance
+		NOT = { has_institution = new_world_i }
+	}
+	modifier = {
+		shock_damage = 0.05
+	}
+}
+sea_big_merc_comp_1 = { # 20
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.5
+	trigger = {
+		is_subject = no
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_0 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = renaissance
+		NOT = { has_institution = new_world_i }
+	}
+	modifier = {
+		shock_damage = 0.05
+	}
+}
+sea_big_merc_comp_reform_1 = { # 20
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.5
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_reform_0 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = renaissance
+		NOT = { has_institution = new_world_i }
+		has_government_attribute = unlock_additional_sea_big_merc_comp
+	}
+	modifier = {
+		shock_damage = 0.05
+	}
+}
+sea_cav_merc_comp_1 = { # 10
+	max_size = 10
+	min_size = 10
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.8
+	cavalry_weight = 1
+	cavalry_cap = 10
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_cav_merc_comp_0 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = renaissance
+		NOT = { has_institution = new_world_i }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+	}
+}
+sea_cav2_merc_comp_1 = { # 10
+	max_size = 10
+	min_size = 10
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.8
+	cavalry_weight = 1
+	cavalry_cap = 10
+	trigger = {
+		has_country_flag = sea_mercs_inf_to_cav_switch_flag
+		NOT = { any_hired_mercenary_company = { template = sea_cav2_merc_comp_0 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = renaissance
+		NOT = { has_institution = new_world_i }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+	}
+}
+sea_art_merc_comp_1 = { # 18
+	max_size = 18
+	min_size = 18
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.8
+	artillery_weight = 1
+	trigger = {
+		is_subject = no
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = renaissance
+		NOT = { has_institution = new_world_i }
+		mil_tech = 7
+		full_idea_group = mercenary_ideas
+	}
+	modifier = {
+		shock_damage = 0.05
+	}
+}
+####################################
+# 2. Colonialism:
+sea_small_merc_comp_2 = { # 8
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.15
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_small_merc_comp_1 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = new_world_i
+		NOT = { has_institution = printing_press }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+	}
+}
+sea_medium_merc_comp_2 = { # 12
+	max_size = 12
+	min_size = 12
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.35
+	trigger = {
+		is_subject = no
+		NOT = { has_country_flag = sea_mercs_inf_to_cav_switch_flag }
+		NOT = { any_hired_mercenary_company = { template = sea_medium_merc_comp_1 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = new_world_i
+		NOT = { has_institution = printing_press }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+	}
+}
+sea_big_merc_comp_2 = { # 24
+	max_size = 24
+	min_size = 24
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.35
+	trigger = {
+		is_subject = no
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_1 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = new_world_i
+		NOT = { has_institution = printing_press }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+	}
+}
+sea_big_merc_comp_reform_2 = { # 24
+	max_size = 24
+	min_size = 24
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.35
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_reform_1 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = new_world_i
+		NOT = { has_institution = printing_press }
+		has_government_attribute = unlock_additional_sea_big_merc_comp
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+	}
+}
+sea_cav_merc_comp_2 = { # 12
+	max_size = 12
+	min_size = 12
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	cavalry_cap = 12
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_cav_merc_comp_1 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = new_world_i
+		NOT = { has_institution = printing_press }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+	}
+}
+sea_cav2_merc_comp_2 = { # 12
+	max_size = 12
+	min_size = 12
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	cavalry_cap = 12
+	trigger = {
+		has_country_flag = sea_mercs_inf_to_cav_switch_flag
+		NOT = { any_hired_mercenary_company = { template = sea_cav2_merc_comp_1 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = new_world_i
+		NOT = { has_institution = printing_press }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+	}
+}
+sea_art_merc_comp_2 = { # 24
+	max_size = 24
+	min_size = 24
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	artillery_weight = 1
+	trigger = {
+		is_subject = no
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = new_world_i
+		NOT = { has_institution = printing_press }
+		mil_tech = 7
+		full_idea_group = mercenary_ideas
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+	}
+}
+####################################
+# 3. Printing Press:
+sea_small_merc_comp_3 = { # 14
+	max_size = 14
+	min_size = 14
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.35
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_small_merc_comp_2 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = printing_press
+		NOT = { has_institution = global_trade }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		land_morale = 0.05
+	}
+}
+sea_medium_merc_comp_3 = { # 14
+	max_size = 14
+	min_size = 14
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.35
+	trigger = {
+		is_subject = no
+		NOT = { has_country_flag = sea_mercs_inf_to_cav_switch_flag }
+		NOT = { any_hired_mercenary_company = { template = sea_medium_merc_comp_2 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = printing_press
+		NOT = { has_institution = global_trade }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		land_morale = 0.05
+	}
+}
+sea_big_merc_comp_3 = { # 26
+	max_size = 26
+	min_size = 26
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.35
+	trigger = {
+		is_subject = no
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_2 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = printing_press
+		NOT = { has_institution = global_trade }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		land_morale = 0.05
+	}
+}
+sea_big_merc_comp_reform_3 = { # 26
+	max_size = 26
+	min_size = 26
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.35
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_reform_2 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = printing_press
+		NOT = { has_institution = global_trade }
+		has_government_attribute = unlock_additional_sea_big_merc_comp
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		land_morale = 0.05
+	}
+}
+sea_cav_merc_comp_3 = { # 14
+	max_size = 14
+	min_size = 14
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	cavalry_cap = 14
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_cav_merc_comp_2 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = printing_press
+		NOT = { has_institution = global_trade }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		land_morale = 0.05
+	}
+}
+sea_cav2_merc_comp_3 = { # 14
+	max_size = 14
+	min_size = 14
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	cavalry_cap = 14
+	trigger = {
+		has_country_flag = sea_mercs_inf_to_cav_switch_flag
+		NOT = { any_hired_mercenary_company = { template = sea_cav2_merc_comp_2 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = printing_press
+		NOT = { has_institution = global_trade }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		land_morale = 0.05
+	}
+}
+sea_art_merc_comp_3 = { # 26
+	max_size = 26
+	min_size = 26
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	artillery_weight = 1
+	trigger = {
+		is_subject = no
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = printing_press
+		NOT = { has_institution = global_trade }
+		mil_tech = 7
+		full_idea_group = mercenary_ideas
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		land_morale = 0.05
+	}
+}
+sea_inf_cav_merc_comp_3 = { # 26
+	max_size = 26
+	min_size = 26
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.9
+	cavalry_weight = 0.5
+	cavalry_cap = 13
+	trigger = {
+		is_subject = no
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = printing_press
+		NOT = { has_institution = global_trade }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		land_morale = 0.05
+	}
+}
+####################################
+# 4. Global Trade:
+sea_small_merc_comp_4 = { # 18
+	max_size = 18
+	min_size = 18
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_small_merc_comp_3 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = global_trade
+		NOT = { has_institution = manufactories }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_medium_merc_comp_4 = { # 18
+	max_size = 18
+	min_size = 18
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		is_subject = no
+		NOT = { has_country_flag = sea_mercs_inf_to_cav_switch_flag }
+		NOT = { any_hired_mercenary_company = { template = sea_medium_merc_comp_3 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = global_trade
+		NOT = { has_institution = manufactories }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_big_merc_comp_4 = { # 30
+	max_size = 30
+	min_size = 30
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		is_subject = no
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_3 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = global_trade
+		NOT = { has_institution = manufactories }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_big_merc_comp_reform_4 = { # 30
+	max_size = 30
+	min_size = 30
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_reform_3 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = global_trade
+		NOT = { has_institution = manufactories }
+		has_government_attribute = unlock_additional_sea_big_merc_comp
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_cav_merc_comp_4 = { # 18
+	max_size = 18
+	min_size = 18
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	cavalry_cap = 18
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_cav_merc_comp_3 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = global_trade
+		NOT = { has_institution = manufactories }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		cavalry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_cav2_merc_comp_4 = { # 18
+	max_size = 18
+	min_size = 18
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	cavalry_cap = 18
+	trigger = {
+		has_country_flag = sea_mercs_inf_to_cav_switch_flag
+		NOT = { any_hired_mercenary_company = { template = sea_cav2_merc_comp_3 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = global_trade
+		NOT = { has_institution = manufactories }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		cavalry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_art_merc_comp_4 = { # 30
+	max_size = 30
+	min_size = 30
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	artillery_weight = 1
+	trigger = {
+		is_subject = no
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = global_trade
+		NOT = { has_institution = manufactories }
+		mil_tech = 7
+		full_idea_group = mercenary_ideas
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		artillery_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_inf_cav_merc_comp_4 = { # 30
+	max_size = 30
+	min_size = 30
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 0.5
+	cavalry_cap = 15
+	trigger = {
+		is_subject = no
+		NOT = { any_hired_mercenary_company = { template = sea_inf_cav_merc_comp_3 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = global_trade
+		NOT = { has_institution = manufactories }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		cavalry_power = 0.05
+		land_morale = 0.05
+	}
+}
+####################################
+# 5. Manufactories:
+sea_small_merc_comp_5 = { # 24
+	max_size = 24
+	min_size = 24
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_small_merc_comp_4 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = manufactories
+		NOT = { has_institution = enlightenment }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_medium_merc_comp_5 = { # 24
+	max_size = 24
+	min_size = 24
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		is_subject = no
+		NOT = { has_country_flag = sea_mercs_inf_to_cav_switch_flag }
+		NOT = { any_hired_mercenary_company = { template = sea_medium_merc_comp_4 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = manufactories
+		NOT = { has_institution = enlightenment }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_big_merc_comp_5 = { # 34
+	max_size = 34
+	min_size = 34
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		is_subject = no
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_4 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = manufactories
+		NOT = { has_institution = enlightenment }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_big_merc_comp_reform_5 = { # 34
+	max_size = 34
+	min_size = 34
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_reform_4 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = manufactories
+		NOT = { has_institution = enlightenment }
+		has_government_attribute = unlock_additional_sea_big_merc_comp
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_cav_merc_comp_5 = { # 24
+	max_size = 24
+	min_size = 24
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.65
+	cavalry_weight = 1
+	cavalry_cap = 24
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_cav_merc_comp_4 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = manufactories
+		NOT = { has_institution = enlightenment }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		cavalry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_cav2_merc_comp_5 = { # 24
+	max_size = 24
+	min_size = 24
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.65
+	cavalry_weight = 1
+	cavalry_cap = 24
+	trigger = {
+		has_country_flag = sea_mercs_inf_to_cav_switch_flag
+		NOT = { any_hired_mercenary_company = { template = sea_cav2_merc_comp_4 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = manufactories
+		NOT = { has_institution = enlightenment }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		cavalry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_art_merc_comp_5 = { # 34
+	max_size = 34
+	min_size = 34
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	artillery_weight = 1
+	trigger = {
+		is_subject = no
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = manufactories
+		NOT = { has_institution = enlightenment }
+		mil_tech = 7
+		full_idea_group = mercenary_ideas
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		artillery_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_inf_cav_merc_comp_5 = { # 34
+	max_size = 34
+	min_size = 34
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 0.5
+	cavalry_cap = 17
+	trigger = {
+		is_subject = no
+		NOT = { any_hired_mercenary_company = { template = sea_inf_cav_merc_comp_4 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = manufactories
+		NOT = { has_institution = enlightenment }
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		cavalry_power = 0.05
+		land_morale = 0.05
+	}
+}
+sea_additional_inf_merc_comp_5 = { # 34
+	max_size = 34
+	min_size = 34
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = manufactories
+		NOT = { has_institution = enlightenment }
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+}
+####################################
+# 6. Enlightenment:
+sea_small_merc_comp_6 = { # 32
+	max_size = 32
+	min_size = 32
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_small_merc_comp_5 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = enlightenment
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+		discipline = 0.025
+		reinforce_speed = 0.25
+	}
+}
+sea_medium_merc_comp_6 = { # 32
+	max_size = 32
+	min_size = 32
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		is_subject = no
+		NOT = { has_country_flag = sea_mercs_inf_to_cav_switch_flag }
+		NOT = { any_hired_mercenary_company = { template = sea_medium_merc_comp_5 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = enlightenment
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+		discipline = 0.025
+		reinforce_speed = 0.25
+	}
+}
+sea_big_merc_comp_6 = { # 40
+	max_size = 40
+	min_size = 40
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		is_subject = no
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_5 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = enlightenment
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+		discipline = 0.025
+		reinforce_speed = 0.25
+	}
+}
+sea_big_merc_comp_reform_6 = { # 40
+	max_size = 40
+	min_size = 40
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_big_merc_comp_reform_5 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = enlightenment
+		has_government_attribute = unlock_additional_sea_big_merc_comp
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+		discipline = 0.025
+		reinforce_speed = 0.25
+	}
+}
+sea_cav_merc_comp_6 = { # 32
+	max_size = 32
+	min_size = 32
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.65
+	cavalry_weight = 1
+	cavalry_cap = 32
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_cav_merc_comp_5 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = enlightenment
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		cavalry_power = 0.05
+		land_morale = 0.05
+		discipline = 0.025
+		reinforce_speed = 0.25
+	}
+}
+sea_cav2_merc_comp_6 = { # 32
+	max_size = 32
+	min_size = 32
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.65
+	cavalry_weight = 1
+	cavalry_cap = 32
+	trigger = {
+		has_country_flag = sea_mercs_inf_to_cav_switch_flag
+		NOT = { any_hired_mercenary_company = { template = sea_cav2_merc_comp_5 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = enlightenment
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		cavalry_power = 0.05
+		land_morale = 0.05
+		discipline = 0.025
+		reinforce_speed = 0.25
+	}
+}
+sea_art_merc_comp_6 = { # 40
+	max_size = 40
+	min_size = 40
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	artillery_weight = 1
+	trigger = {
+		is_subject = no
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = enlightenment
+		mil_tech = 7
+		full_idea_group = mercenary_ideas
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		artillery_power = 0.05
+		land_morale = 0.05
+		discipline = 0.025
+		reinforce_speed = 0.25
+	}
+}
+sea_inf_cav_merc_comp_6 = { # 40
+	max_size = 40
+	min_size = 40
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.75
+	cavalry_weight = 0.5
+	cavalry_cap = 20
+	trigger = {
+		is_subject = no
+		NOT = { any_hired_mercenary_company = { template = sea_inf_cav_merc_comp_5 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = enlightenment
+	}
+	modifier = {
+		cav_to_inf_ratio = 0.5
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		cavalry_power = 0.05
+		land_morale = 0.05
+		discipline = 0.025
+		reinforce_speed = 0.25
+	}
+}
+sea_additional_inf_merc_comp_6 = { # 40
+	max_size = 40
+	min_size = 40
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 1.2
+	trigger = {
+		NOT = { any_hired_mercenary_company = { template = sea_additional_inf_merc_comp_5 } }
+		is_allowed_to_recruit_mercenaries = yes
+		has_institution = enlightenment
+	}
+	modifier = {
+		shock_damage = 0.05
+		fire_damage = 0.05
+		infantry_power = 0.05
+		land_morale = 0.05
+		discipline = 0.025
+		reinforce_speed = 0.25
+	}
+}
+####################################
+####################################
+# Sasanian Zhayedan aka Immortals:
+merc_sasanian_zhayedan = {
+	max_size = 28
+	min_size = 28
+	no_additional_manpower_from_max_size = yes
+	cavalry_weight = 1
+	home_province = 410
+	cost_modifier = 0.75
+	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		has_country_flag = reestablish_the_immortals_flag
+		OR = {
+			tag = SAS
+			tag = ACE
+		}
+	}
+	modifier = {
+		cav_to_inf_ratio = 1
+		cavalry_shock = 1.0
+		cavalry_fire = 1.0
+	}
+}
+####################################
+####################################
+merc_genoa_crossbowmen_company = {
+	home_province = 101 # Genoa
+	max_size = 8
+	min_size = 8
+	no_additional_manpower_from_max_size = yes
+	sprites = { dlc056_ven_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		NOT = { has_country_flag = emp_gen_genoese_crossbowmen_flag }
+		is_allowed_to_recruit_mercenaries = yes
+		tag = GEN
+	}
+	modifier = {
+		infantry_fire = 0.2
+		fire_damage_received = -0.3
+	}
+}
+####################################
+####################################
+# The future is now, old man...
+sea_ancient_robots = {
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.5
+	home_province = 36 # Estonia?
+	sprites = { robots_sprite_pack }
+	trigger = {
+		has_country_flag = sea_ancient_robots_flag
+	}
+	modifier = { # Crazy to think that those modifiers were considered op, and now with this constant powercreep, those are not so op any longer.
+		fire_damage_received = 0.5
+		land_morale = 0.2
+		shock_damage_received = -0.25
+		discipline = 0.25
+		reinforce_speed = -1
+	}
+}
+# Hanys:
+hanys_mercs = {
+	max_size = 10
+	min_size = 10
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.5
+	home_province = 264
+	sprites = { dlc054_pru_sprite_pack dlc028_bra_sprite_pack pru_base_sprite_pack }
+	trigger = {
+		NOT = { tag = SIL }
+		any_owned_province = {
+			area = silesia_area
+			owned_by = ROOT
+		}
+	}
+	modifier = {
+		discipline = -0.025
+		infantry_power = -0.05
+		recover_army_morale_speed = 0.5
+		reinforce_speed = 1
+	}
+}
+# POLSKA GUROM!:
+polska_gurom_mercs = {
+	max_size = 7
+	min_size = 7
+	no_additional_manpower_from_max_size = yes
+	home_province = 257
+	sprites = { dlc003_pol_sprite_pack }
+	trigger = {
+		is_year = 1605
+		any_owned_province = {
+			area = mazovia_area
+			owned_by = ROOT
+		}
+	}
+	modifier = {
+		morale_damage = 0.37
+		morale_damage_received = -0.21
+	}
+}
+####################################

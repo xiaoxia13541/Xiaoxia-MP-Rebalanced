@@ -1,0 +1,12 @@
+#1165 - Gabon
+base_tax = 1
+base_manpower = 1
+base_production = 1
+trade_goods = unknown
+religion = shamanism
+culture = kongolese
+capital = "Gabon"
+discovered_by = sub_saharan
+discovered_by = central_african
+extra_cost = 8
+center_of_trade = 1

@@ -1,0 +1,28 @@
+#335 - Melilla
+owner = MOR
+controller = MOR
+culture = algerian
+religion = sunni
+capital = "Melilla"
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = FEZ
+add_core = MOR
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+1472.1.1 = { 
+	controller = FEZ
+}
+1497.9.17 = { 
+	controller = CAS
+	add_core = CAS
+}
+1516.1.23 = { 
+	controller = SPA
+	add_core = SPA
+}

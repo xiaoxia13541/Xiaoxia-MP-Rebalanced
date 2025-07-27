@@ -1,0 +1,13 @@
+base_tax = 3
+base_manpower = 4
+base_production = 2
+culture = zhongyuan
+trade_goods = livestock
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = TNG
+owner = TNG
+controller = TNG
+discovered_by = indian

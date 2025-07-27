@@ -1,0 +1,22 @@
+# country_decisions = {
+# 	chinese_interior_war = {
+# 		major = yes
+# 		potential = {
+# 			ai = no
+# 		}
+# 		provinces_to_highlight = {
+# 		}
+# 		allow = {
+# 			is_year = 1464
+# 			ai = no
+# 		}
+# 		effect = {
+# 			custom_tooltip = gain_unify_china_cb_tt			
+# 			custom_tooltip = gain_territorial_core_on_sieged_prov_tt
+# 			set_country_flag = chinese_interior_war_flag
+# 		}
+# 		ai_will_do = {
+# 			factor = 0
+# 		}
+# 	}
+# }

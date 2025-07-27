@@ -1,0 +1,4212 @@
+# 中华区
+tengwangge_building = { # 滕王阁
+	# province it starts in
+	start = 683
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	# 唐朝
+	date = 626.01.01 
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 1
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 1
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+	}
+
+	#what to do when it's built
+	on_built = {
+		show_ambient_object = tengwangge_building
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		hide_ambient_object = tengwangge_building
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+		custom_trigger_tooltip = {
+			tooltip = poem_of_tengwangge_building_tt # 关山难越，谁悲失路之人。萍水相逢，尽是他乡之客。
+		}
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 120
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_tax_modifier = 0.2
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_tax_modifier = 0.5
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			idea_cost = -0.02
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			add_base_tax = 2
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_tax_modifier = 1
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			idea_cost = -0.05
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {	
+			add_base_tax = 2
+		}
+	}
+}
+
+bouxcuengh_palace = { # 壮族土司
+	start = 2164
+	
+	date = 1400.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+ 	# 东方宗教组+文化是汉化壮 
+	build_trigger = { # 可建造trigger :1、同化僮文化 且接纳壮文化 2、转变省份文化 且成为中华文化母国
+		religion_group = eastern
+		# OR = {
+		# 	owner = { primary_culture = zhuang_new }
+		# 	owner = { accepted_culture = zhuang_new }
+		# }
+		province_is_or_accepts_culture = yes
+	}
+
+	on_built = {
+		show_ambient_object = bouxcuengh_palace
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = bouxcuengh_palace
+	}
+
+	can_use_modifiers_trigger = {
+		religion_group = eastern
+		# OR = {
+		# 	owner = { primary_culture = zhuang_new }
+		# 	owner = { accepted_culture = zhuang_new }
+		# }
+		province_is_or_accepts_culture = yes
+		custom_trigger_tooltip = {
+			tooltip = bouxcuengh_palace_building_tt # 远胜登仙去，飞鸾不假骖。
+		}
+	}
+
+	can_upgrade_trigger = {
+		religion_group = eastern
+		# OR = {
+		# 	owner = { primary_culture = zhuang_new }
+		# 	owner = { accepted_culture = zhuang_new }
+		# }
+		province_is_or_accepts_culture = yes
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+			
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			culture_conversion_cost = -0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.15
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			culture_conversion_cost = -0.1
+			years_of_nationalism = -2
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.25
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			culture_conversion_cost = -0.15
+			years_of_nationalism = -5
+		}
+		on_upgraded = {	
+		}
+	}
+}
+
+wudang_mountain = { # 武当山
+	start = 5582
+	
+	date = 1400.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		OR = {  # 要么这里是儒教 要么这里的宗教被和谐/接纳了
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+	}
+
+	on_built = {
+		show_ambient_object = wudang_mountain
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = wudang_mountain
+	}
+
+	can_use_modifiers_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+
+			
+		custom_trigger_tooltip = {
+			tooltip = poem_of_wudang_mountain_tt # 且乘金顶凉宵月，来避尘寰酷暑风。
+		}
+	}
+
+	can_upgrade_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.05
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			stability_cost_modifier = -0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.1
+		}
+		area_modifier = {
+			
+		}
+		country_modifiers = {
+			stability_cost_modifier = -0.2
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.2
+		}
+		area_modifier = {
+			
+		}
+		country_modifiers = {
+			stability_cost_modifier = -0.2
+			no_stability_loss_on_monarch_death = yes
+		}
+		on_upgraded = {	
+		}
+	}
+}
+
+yungang_grottoes = { # 云冈石窟
+	start = 697
+	
+	date = 400.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
+	}
+
+	on_built = {
+		show_ambient_object = wudang_mountain
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = wudang_mountain
+	}
+
+	can_use_modifiers_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
+		custom_trigger_tooltip = {
+			tooltip = poem_of_yungang_grottoes_tt # 1、片石三千界，微尘四部洲。坐看群生劫，何缘彼岸舟？ 2、万载不改莲花界，大道虚无自古今。
+		}
+	}
+
+	can_upgrade_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.05
+		}
+		area_modifier = {
+		}
+
+		country_modifiers = {
+			church_loyalty_modifier = 0.05
+			church_influence_modifier = 0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			church_loyalty_modifier = 0.1
+			church_influence_modifier = 0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.2
+		}
+		area_modifier = {
+
+		}
+		country_modifiers = {
+			missionaries = 1
+			church_loyalty_modifier = 0.15
+			church_influence_modifier = 0.15
+		}
+		on_upgraded = {	
+		}
+	}
+}
+
+tongguan_fortress_monument = { # 潼关
+	start = 5621
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+		show_ambient_object = tongguan_fortress_monument
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = tongguan_fortress_monument
+	}
+
+	can_use_modifiers_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = poem_of_tongguan_tt # 峰峦如聚，波涛如怒，山河表里潼关路。
+		}
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			defensiveness = 0.1
+		}
+		area_modifier = {
+			local_manpower_modifier = 0.25
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			defensiveness = 0.25
+			garrison_size = 0.1
+		}
+		area_modifier = {
+			local_manpower_modifier = 0.5
+		}
+		country_modifiers = {
+			land_maintenance_modifier = -0.02
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			defensiveness = 0.5
+			garrison_size = 0.2
+		}
+		area_modifier = {
+			local_manpower_modifier = 1
+		}
+		country_modifiers = {
+			land_maintenance_modifier = -0.05
+		}
+		on_upgraded = {	
+		}
+	}
+}
+
+nurgan_commission = { # 奴儿干都司
+	start = 1050
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+	}
+
+	on_built = {
+		show_ambient_object = nurgan_commission
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = nurgan_commission
+	}
+
+	can_use_modifiers_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+	}
+
+	can_upgrade_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			province_trade_power_value = 5
+		}
+		area_modifier = {
+			trade_goods_size = 1
+			local_development_cost_modifier = -0.05
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			province_trade_power_value = 10
+			
+		}
+		area_modifier = {
+			trade_goods_size = 2
+			local_development_cost_modifier = -0.1
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			province_trade_power_value = 20
+		}
+		area_modifier = {
+			trade_goods_size = 3
+			local_development_cost_modifier = -0.25
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {	
+			add_base_production = 2
+		}
+	}
+}
+
+summer_palace = { # 圆明园
+	start = 1816
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+	}
+
+	on_built = {
+		show_ambient_object = summer_palace
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = summer_palace
+	}
+
+	can_use_modifiers_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+		
+		custom_trigger_tooltip = {
+			tooltip = yaunmingyuan_poem_building_tt 
+		}
+	}
+
+	can_upgrade_trigger = {
+		OR = { 
+			province_is_or_accepts_religion = {
+				religion = confucianism
+			}	
+			has_owner_harmonized_religion = yes
+		}
+		culture_group = east_asian
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			
+		}
+		country_modifiers = {
+			monthly_splendor = 1
+			monarch_lifespan = 0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			monthly_splendor = 2
+			monarch_lifespan = 0.25
+		}
+		conditional_modifier = {
+			trigger = {
+				owner = {	
+					culture_group = east_asian
+				}
+			}
+			modifier = {
+				special_unit_forcelimit = 0.1
+			}
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			monthly_splendor = 3
+			monarch_lifespan = 0.5
+		}
+		on_upgraded = {
+		}
+		conditional_modifier = {
+			trigger = {
+				owner = {	
+					culture_group = east_asian
+				}
+			}
+			modifier = {
+				special_unit_forcelimit = 0.25
+			}
+		}
+	}
+}
+
+potala_palace = { # 布达拉宫
+	start = 677
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+		religion_group = eastern
+		province_is_buddhist_or_accepts_buddhism = yes
+		province_is_or_accepts_culture = yes
+	}
+
+	on_built = {
+		show_ambient_object = potala_palace
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = potala_palace
+	}
+
+	can_use_modifiers_trigger = {
+		religion_group = eastern
+		province_is_buddhist_or_accepts_buddhism = yes	
+		province_is_or_accepts_culture = yes
+		custom_trigger_tooltip = {
+			tooltip = potala_palace_tt # 竺法渐传三界远，盛音近绕佛堂前。
+		}
+	}
+
+	can_upgrade_trigger = {
+		religion_group = eastern
+		province_is_buddhist_or_accepts_buddhism = yes
+		province_is_or_accepts_culture = yes
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_regiment_recruit_speed = -0.05
+			land_maintenance_modifier = -0.02
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_regiment_recruit_speed = -0.1
+			land_maintenance_modifier = -0.05
+		}
+		# conditional_modifier = {
+		# 	trigger = {
+		# 		mission_completed = tib_tebetan_empire_restored
+		# 	}
+		# 	modifier = {
+		# 		discipline = 0.025
+		# 	}
+		# }
+		on_upgraded = {
+			add_base_manpower = 1
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_regiment_recruit_speed = -0.2
+			land_maintenance_modifier = -0.1
+		}
+		# conditional_modifier = {
+		# 	trigger = {	
+		# 		mission_completed = tib_tebetan_empire_restored
+		# 	}
+		# 	modifier = {
+		# 		discipline = 0.05
+		# 	}
+		# }
+		on_upgraded = {
+			add_base_manpower = 2
+		}
+	}
+}
+
+kangrinboqe = { # 冈仁波齐
+	start = 4516
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		religion_group = eastern
+		province_is_buddhist_or_accepts_buddhism = yes
+	}
+
+	on_built = {
+		show_ambient_object = kangrinboqe
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = kangrinboqe
+	}
+
+	can_use_modifiers_trigger = {
+		religion_group = eastern
+		province_is_buddhist_or_accepts_buddhism = yes
+	}
+
+	can_upgrade_trigger = {
+		religion_group = eastern
+		province_is_buddhist_or_accepts_buddhism = yes	
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			tolerance_own = 1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			tolerance_own = 2
+			manpower_in_true_faith_provinces = 0.05
+		}
+		# conditional_modifier = {
+		# 	# trigger = {
+		# 	# 	mission_completed = tib_tebetan_empire_restored
+		# 	# }
+		# 	# modifier = {
+		# 	# 	regiment_manpower_usage = -0.075
+		# 	# }
+		# }
+		on_upgraded = {
+			add_base_manpower = 1
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			tolerance_own = 3
+			manpower_in_true_faith_provinces = 0.1
+		}
+		# conditional_modifier = {
+		# 	# trigger = {
+		# 	# 	mission_completed = tib_tebetan_empire_restored
+		# 	# }
+		# 	# modifier = {
+		# 	# 	regiment_manpower_usage = -0.15
+		# 	# }
+		# }
+		on_upgraded = {
+			add_base_manpower = 2
+		}
+	}
+}
+
+quanzhou_shipping_bureau = { # 泉州市舶司
+	start = 1829
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+		culture_group = east_asian
+	}
+
+	on_built = {
+		show_ambient_object = quanzhou_shipping_bureau
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = quanzhou_shipping_bureau
+	}
+
+	can_use_modifiers_trigger = {
+		culture_group = east_asian
+	}
+
+	can_upgrade_trigger = {
+		culture_group = east_asian
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			province_trade_power_value = 5
+		}
+		area_modifier = {
+			local_ship_repair = 0.25
+		}
+		country_modifiers = {
+			naval_forcelimit_modifier = 0.1
+		}
+		on_upgraded = {
+			owner = {	
+				add_mercantilism = 1
+			}
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			province_trade_power_value = 10
+		}
+		area_modifier = {
+			local_ship_repair = 0.5
+		}
+		country_modifiers = {
+			naval_forcelimit_modifier = 0.15
+		}
+		on_upgraded = {
+			owner = {	
+				add_mercantilism = 2
+			}
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			province_trade_power_value = 20
+		}
+		area_modifier = {
+			local_ship_repair = 1
+		}
+		country_modifiers = {
+			naval_forcelimit_modifier = 0.25
+		}
+		on_upgraded = {
+			owner = {	
+				add_mercantilism = 3
+			}
+		}
+	}
+}
+
+karez = { # 坎儿井
+	start = 4207
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+		show_ambient_object = karez
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = karez
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.1
+			trade_goods_size_modifier = 0.05
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.15
+			trade_goods_size_modifier = 0.1
+		}
+		country_modifiers = {
+			burghers_loyalty_modifier = 0.05
+			burghers_influence_modifier = 0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.25
+			trade_goods_size_modifier = 0.25
+		}
+		country_modifiers = {
+			burghers_loyalty_modifier = 0.1
+			burghers_influence_modifier = 0.1
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+#欧洲与北非
+
+Mount_Saint_Michel = { # 圣米歇尔山
+	start = 169
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+
+	on_built = {
+		show_ambient_object = Mount_Saint_Michel
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Mount_Saint_Michel
+	}
+
+	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+
+	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_defensiveness = 0.2
+			local_garrison_damage = 0.2
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_defensiveness = 0.5
+			local_garrison_damage = 0.5
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			religious_unity = 0.1
+			tolerance_own = 1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_defensiveness = 1
+			local_garrison_damage = 1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			religious_unity = 0.2
+			tolerance_own = 2
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+Colosseum = { # 罗斗
+	start = 118
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+		show_ambient_object = Colosseum
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Colosseum
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			army_tradition = 0.25
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			army_tradition = 0.5
+			global_unrest = -1
+		}
+		conditional_modifier = {
+			trigger = {
+				tag = ROM
+			}
+			modifier = {
+				leader_land_shock = 1
+			}
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			army_tradition = 1
+			global_unrest = -2
+		}
+		conditional_modifier = {
+			trigger = {
+				tag = ROM
+			}
+			modifier = {
+				leader_land_shock = 1
+				max_general_shock = 1
+			}
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+Palace_of_Westminster = { # 威斯特敏斯特宫/议会大厦
+	start = 236
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+		owner = { has_parliament = yes }
+	}
+
+	on_built = {
+		show_ambient_object = Palace_of_Westminster
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Palace_of_Westminster
+	}
+
+	can_use_modifiers_trigger = {
+		owner = { has_parliament = yes }
+	}
+
+	can_upgrade_trigger = {
+		owner = { has_parliament = yes }
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_tax_modifier = 0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_tax_modifier = 0.1
+			num_of_parliament_issues = 1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_tax_modifier = 0.15
+			num_of_parliament_issues = 2
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+Catedral_de_Sevilla = { # 塞维利亚大教堂
+	start = 224
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+
+	on_built = {
+		show_ambient_object = Catedral_de_Sevilla
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Catedral_de_Sevilla
+	}
+	can_use_modifiers_trigger = { # 基督教组 
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+
+	}
+
+	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_missionary_strength = 0.01	
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_missionary_strength = 0.02
+			papal_influence_from_cardinals = 0.2
+			missionaries = 1
+		}
+		on_upgraded = {
+			add_base_tax = 2
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_missionary_strength = 0.03
+			papal_influence_from_cardinals = 0.5
+			missionaries = 1
+		}
+		on_upgraded = {
+			add_base_tax = 2
+		}
+	}
+}
+
+Ben_Youssef_Madrasa = { # 阿里-本-优素福神学院
+	start = 344
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}	
+	}
+
+	on_built = {
+		show_ambient_object = Ben_Youssef_Madrasa
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Ben_Youssef_Madrasa
+	}
+	can_use_modifiers_trigger = { # 宗教是穆斯林
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+		
+	}
+
+	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			reform_progress_growth = 0.05
+			same_religion_advisor_cost = -0.05
+			monthly_splendor = 1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			reform_progress_growth = 0.1
+			same_religion_advisor_cost = -0.1
+			monthly_splendor = 2
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			reform_progress_growth = 0.15
+			same_religion_advisor_cost = -0.2
+			monthly_splendor = 3
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+Kasbah = { # 卡斯巴哈
+	start = 338
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		owner = {	
+			culture_group = maghrebi
+		}
+			province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+	}
+
+	on_built = {
+		show_ambient_object = Kasbah
+	}
+	on_destroyed = {
+		hide_ambient_object = Kasbah
+	}
+	
+	can_use_modifiers_trigger = { # 穆斯林组 
+		owner = {	
+			culture_group = maghrebi
+		}
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+	}
+
+	can_upgrade_trigger = {
+		owner = {	
+			culture_group = maghrebi
+		}
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			trade_goods_size = 1
+			local_sailors_modifier = 1
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			blockade_force_required = 1
+		}
+		area_modifier = {
+			trade_goods_size = 2
+			local_sailors_modifier = 2
+		}
+		country_modifiers = {
+			coast_raid_range = 1
+			available_province_loot = 0.2
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			blockade_force_required = 2
+		}
+		area_modifier = {
+			trade_goods_size = 3
+			local_sailors_modifier = 3
+		}
+		country_modifiers = {
+			coast_raid_range = 2
+			available_province_loot = 0.5
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+University_of_Gottingen = { # 哥廷根大学
+	start = 4773
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		owner = {	
+			technology_group = western
+			has_institution = printing_press
+		}
+	}
+
+	on_built = {
+		show_ambient_object = University_of_Gottingen
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = University_of_Gottingen
+	}
+	can_use_modifiers_trigger = { # 西欧科技组 接纳印刷机思潮可用
+		owner = {	
+			technology_group = western
+			has_institution = printing_press
+		}
+	}
+
+	can_upgrade_trigger = {
+		owner = {
+			technology_group = western
+			has_institution = printing_press
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_institution_spread = 0.5
+		}
+		country_modifiers = {
+			yearly_innovativeness = 0.25
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_institution_spread = 0.5
+		}
+		country_modifiers = {
+			yearly_innovativeness = 0.5
+			advisor_cost = -0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_institution_spread = 2
+		}
+		country_modifiers = {
+			yearly_innovativeness = 1
+			advisor_cost = -0.2
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+Drottningholm_Palace = { # 卓宁霍姆宫
+	start = 1
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		owner = {
+			culture_group = scandinavian
+		}		
+	}
+
+	on_built = {
+		show_ambient_object = Drottningholm_Palace
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Drottningholm_Palace
+	}
+	can_use_modifiers_trigger = { # 斯堪的纳维亚文化组
+		owner = {
+			culture_group = scandinavian
+		}
+	}
+
+	can_upgrade_trigger = {
+		owner = {
+			culture_group = scandinavian
+		}	
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+
+		}
+		country_modifiers = {
+			prestige = 1
+			legitimacy = 1
+			devotion = 1
+			republican_tradition = 0.3
+			meritocracy = 1	#For completion's sake
+			horde_unity = 1
+		}
+		on_upgraded = {
+			custom_tooltip = increasing_Reformist_personality_tt
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			prestige = 2
+			legitimacy = 2
+			devotion = 2
+			republican_tradition = 0.6
+			meritocracy = 2	#For completion's sake
+			horde_unity = 2
+		}
+		on_upgraded = {
+			custom_tooltip = increasing_Reformist_personality_tt
+			custom_tooltip = increasing_Architectural_Visionary_personality_tt
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			prestige = 2
+			legitimacy = 2
+			devotion = 2
+			republican_tradition = 0.6
+			meritocracy = 2	#For completion's sake
+			horde_unity = 2
+		}
+		on_upgraded = {
+			custom_tooltip = increasing_Reformist_personality_tt
+			custom_tooltip = increasing_Architectural_Visionary_personality_tt
+			custom_tooltip = increasing_strict_personality_tt
+		}
+	}
+}
+
+Budai_Var  = { # 布达城堡山
+	start = 153
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+
+	on_built = {
+		show_ambient_object = Budai_Var
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Budai_Var
+	}
+	can_use_modifiers_trigger = { # 基督教组
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+
+	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_defensiveness = 0.1
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.05
+		}
+		country_modifiers = {
+			placed_merchant_power_modifier = 0.2
+		}
+		on_upgraded = {
+			add_mercantilism_or_monarch_power = { amount = 1 }
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_defensiveness = 0.25
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.1
+		}
+		country_modifiers = {
+			placed_merchant_power_modifier = 0.5
+		}
+		on_upgraded = {
+			add_mercantilism_or_monarch_power = { amount = 2 }
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_defensiveness = 0.5
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.2
+		}
+		country_modifiers = {
+			placed_merchant_power_modifier = 1
+		}
+		on_upgraded = {
+			add_mercantilism_or_monarch_power = { amount = 3 }
+		}
+	}
+}
+
+Sevastopol = { # 塞瓦斯托波尔
+	start = 2410
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+		show_ambient_object = Sevastopol
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Sevastopol
+	}
+	can_use_modifiers_trigger = { # 暂无
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_defensiveness = 0.1
+		}
+		area_modifier = {
+			hostile_fleet_attrition = 5
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_defensiveness = 0.25
+		}
+		area_modifier = {
+			hostile_fleet_attrition = 10
+		}
+		country_modifiers = {
+		}
+		conditional_modifier = {
+			trigger = {
+				owner = {	
+					tag = RUS
+				}
+			}
+			modifier = {
+				naval_forcelimit_modifier = 0.1
+			}
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_defensiveness = 0.5
+		}
+		area_modifier = {
+			hostile_fleet_attrition = 15
+		}
+		country_modifiers = {
+		}
+		conditional_modifier = {
+			trigger = {
+				tag = RUS	
+			}
+			modifier = {
+				naval_forcelimit_modifier = 0.25
+			}
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+Birka_Hovgarden = { # 比尔卡-霍夫加登
+	start = 1
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		owner = { culture_group = scandinavian }
+	}
+
+	on_built = {
+		show_ambient_object = Birka_Hovgarden
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Birka_Hovgarden
+	}
+	can_use_modifiers_trigger = { # 斯堪的纳维亚文化组
+		owner = { culture_group = scandinavian }	
+	}
+
+	can_upgrade_trigger = {
+		owner = { culture_group = scandinavian }	
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			trade_goods_size_modifier = 0.1
+		}
+		country_modifiers = {
+			trade_efficiency = 0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			trade_goods_size_modifier = 0.2
+		}
+		country_modifiers = {
+			trade_efficiency = 0.1
+		}
+		conditional_modifier = {
+			trigger = { 
+				province_is_or_accepts_religion = {
+					religion = norse_pagan_reformed
+				}
+			}
+			modifier = {
+				land_morale = 0.025
+			}
+		}
+		on_upgraded = {
+			add_base_production = 2
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			trade_goods_size_modifier = 0.5
+		}
+		country_modifiers = {
+			trade_efficiency = 0.15
+		}
+		conditional_modifier = {
+			trigger = { 
+				province_is_or_accepts_religion = {
+					religion = norse_pagan_reformed
+				}
+			}
+			modifier = {
+				land_morale = 0.05
+			}
+		}
+		on_upgraded = {
+			add_base_production = 2
+		}
+	}
+}
+
+Vallee_de_Joux = { # 汝拉山谷
+	start = 4720
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+		show_ambient_object = Vallee_de_Joux
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Vallee_de_Joux
+	}
+	can_use_modifiers_trigger = { # 无
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {  
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+					NOT = {
+						trade_goods = glass
+					}
+				}
+				change_trade_goods = glass
+			}
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.2
+		}
+		area_modifier = {
+			trade_goods_size = 1
+			local_manpower_modifier = 1
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_development_cost_modifier = -0.4
+		}
+		area_modifier = {
+			trade_goods_size = 1
+			local_manpower_modifier = 2
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+			add_base_production = 2
+			add_base_manpower = 2
+		}
+	}
+}
+
+# 黑非洲
+Royal_Hill_of_Ambohimanga = { # 皇家蓝山行宫
+	start = 1792
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+		show_ambient_object = Royal_Hill_of_Ambohimanga
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Royal_Hill_of_Ambohimanga
+	}
+	can_use_modifiers_trigger = { # 无
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			defensiveness = 0.1
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.1
+		}
+		country_modifiers = {  
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			defensiveness = 0.2
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.15
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			defensiveness = 0.3
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.25
+		}
+		country_modifiers = {
+			
+		}
+		on_upgraded = {
+		}
+	}	
+}
+
+# Kilimanjaro = { # 乞力马扎罗
+# 	start = 6289
+	
+# 	date = 1000.1.1
+	
+# 	time = {
+# 		months = 0
+# 	}
+	
+# 	build_cost = 0
+# 	can_be_moved = no
+# 	move_days_per_unit_distance = 1
+# 	starting_tier = 0
+# 	type = monument
+
+# 	build_trigger = {
+# 	}
+
+# 	on_built = {
+# 		show_ambient_object = Kilimanjaro
+# 	}
+	
+# 	on_destroyed = {
+# 		hide_ambient_object = Kilimanjaro
+# 	}
+# 	can_use_modifiers_trigger = { # 无
+# 	}
+
+# 	can_upgrade_trigger = {
+# 	}
+
+# 	keep_trigger = {
+# 	}
+
+# 	tier_0 = {
+# 		upgrade_time = {
+# 			months = 0
+# 		}
+# 		cost_to_upgrade = {
+# 			factor = 0
+# 		}
+# 		province_modifiers = {
+# 		}
+# 		area_modifier = {
+# 		}
+# 		country_modifiers = {
+# 		}
+# 		on_upgraded = {
+# 		}
+# 	}
+
+# 	tier_1 = {
+# 		upgrade_time = {
+# 			months = 120
+# 		}
+# 		cost_to_upgrade = {
+# 			factor = 1000
+# 		}
+# 		province_modifiers = {
+# 			local_development_cost = -5
+# 		}
+# 		area_modifier = {
+# 		}
+# 		country_modifiers = {  
+# 		}
+# 		on_upgraded = {
+# 		}
+# 	}
+
+# 	tier_2 = {
+# 		upgrade_time = {
+# 			months = 240
+# 		}
+# 		cost_to_upgrade = {
+# 			factor = 2500
+# 		}
+# 		province_modifiers = {
+# 			local_development_cost = -10
+# 		}
+# 		area_modifier = {
+# 		}
+# 		country_modifiers = {
+# 			tolerance_heathen = 1
+# 			tolerance_heretic = 1
+# 		}
+# 		on_upgraded = {
+# 		}
+# 	}
+
+# 	tier_3 = {
+# 		upgrade_time = {
+# 			months = 480
+# 		}
+# 		cost_to_upgrade = {
+# 			factor = 5000
+# 		}
+# 		province_modifiers = {
+# 			local_development_cost = -15
+# 		}
+# 		area_modifier = {
+# 		}
+# 		country_modifiers = {
+# 			tolerance_heathen = 2
+# 			tolerance_heretic = 2			
+# 		}
+# 		on_upgraded = {
+# 		}
+# 	}	
+# }
+
+# Royal_Palaces_of_Abomey = { # 阿波美皇宫
+# 	start = 1140
+	
+# 	date = 1000.1.1
+	
+# 	time = {
+# 		months = 0
+# 	}
+	
+# 	build_cost = 0
+# 	can_be_moved = no
+# 	move_days_per_unit_distance = 1
+# 	starting_tier = 0
+# 	type = monument
+
+# 	build_trigger = {
+# 		religion = shamanism
+# 	}
+
+# 	on_built = {
+# 		show_ambient_object = Royal_Palaces_of_Abomey
+# 	}
+	
+# 	on_destroyed = {
+# 		hide_ambient_object = Royal_Palaces_of_Abomey
+# 	}
+# 	can_use_modifiers_trigger = {
+# 		religion = shamanism
+# 	}
+
+# 	can_upgrade_trigger = {
+# 		religion = shamanism
+# 	}
+
+# 	keep_trigger = {
+# 	}
+
+# 	tier_0 = {
+# 		upgrade_time = {
+# 			months = 0
+# 		}
+# 		cost_to_upgrade = {
+# 			factor = 0
+# 		}
+# 		province_modifiers = {
+# 		}
+# 		area_modifier = {
+# 		}
+# 		country_modifiers = {
+# 		}
+# 		on_upgraded = {
+# 		}
+# 	}
+
+# 	tier_1 = {
+# 		upgrade_time = {
+# 			months = 120
+# 		}
+# 		cost_to_upgrade = {
+# 			factor = 1000
+# 		}
+# 		province_modifiers = {
+# 		}
+# 		area_modifier = {
+# 		}
+# 		country_modifiers = {  
+# 			max_absolutism = 5
+# 			same_religion_advisor_cost = -0.05
+# 		}
+# 		on_upgraded = {
+# 		}
+# 	}
+
+# 	tier_2 = {
+# 		upgrade_time = {
+# 			months = 240
+# 		}
+# 		cost_to_upgrade = {
+# 			factor = 2500
+# 		}
+# 		province_modifiers = {
+# 		}
+# 		area_modifier = {
+# 		}
+# 		country_modifiers = {
+# 			max_absolutism = 10
+# 			same_religion_advisor_cost = -0.15
+# 		}
+# 		on_upgraded = {
+# 		}
+# 	}
+
+# 	tier_3 = {
+# 		upgrade_time = {
+# 			months = 480
+# 		}
+# 		cost_to_upgrade = {
+# 			factor = 5000
+# 		}
+# 		province_modifiers = {
+# 		}
+# 		area_modifier = {
+# 		}
+# 		country_modifiers = {	
+# 			max_absolutism = 25
+# 			same_religion_advisor_cost = -0.25
+# 		}
+# 		on_upgraded = {
+# 		}
+# 	}		
+# }
+
+Mausoleum_of_Askia = { # 阿斯基亚王陵
+	start = 2270
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+	}
+
+	on_built = {
+		show_ambient_object = Mausoleum_of_Askia
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Mausoleum_of_Askia
+	}
+	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+	}
+
+	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+
+		}
+		area_modifier = {
+		}
+		country_modifiers = {  
+			stability_cost_modifier = -0.1
+			general_cost = -0.1			
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			stability_cost_modifier = -0.2
+			general_cost = -0.2
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+
+		}
+		area_modifier = {
+		}
+		country_modifiers = {	
+			stability_cost_modifier = -0.3
+			general_cost = -0.3
+		}
+		on_upgraded = {
+		}
+	}		
+}
+
+Ribeira_Grande = { # 大里贝拉
+	start = 1096
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+		owner = {			
+			technology_group = western	
+			has_institution = new_world_i
+		}
+	}
+
+	on_built = {
+		show_ambient_object = Ribeira_Grande
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Ribeira_Grande
+	}
+	can_use_modifiers_trigger = {
+		owner = {			
+			technology_group = western
+			has_institution = new_world_i
+		}
+	}
+
+	can_upgrade_trigger = {
+		owner = {			
+			technology_group = western
+			has_institution = new_world_i
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			blockade_force_required = 0.5
+		}
+		area_modifier = {
+		}
+		country_modifiers = {  
+			colonist_placement_chance = 0.05	
+		}
+		on_upgraded = {
+			change_trade_goods = slaves
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			blockade_force_required = 1
+			trade_goods_size = 1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			colonist_placement_chance = 0.1
+			expel_minorities_cost = -0.2
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			blockade_force_required = 2
+			trade_goods_size = 2
+		}
+		area_modifier = {
+		}
+		country_modifiers = {	
+			colonist_placement_chance = 0.2
+			expel_minorities_cost = -0.5
+		}
+		on_upgraded = {
+		}
+	}		
+}
+
+Lamu_Old_Town = { # 拉穆古镇
+	start = 2796
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		culture = swahili
+		province_is_or_accepts_culture = yes
+	}
+
+	on_built = {
+		show_ambient_object = Lamu_Old_Town
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Lamu_Old_Town
+	}
+	can_use_modifiers_trigger = { 
+		culture = swahili
+		province_is_or_accepts_culture = yes
+	}
+
+	can_upgrade_trigger = {
+		culture = swahili
+		province_is_or_accepts_culture = yes
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {  
+			num_accepted_cultures = 1
+			culture_conversion_cost = -0.1
+		}
+		on_upgraded = {
+
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			num_accepted_cultures = 2
+			culture_conversion_cost = -0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {	
+			num_accepted_cultures = 3
+			culture_conversion_cost = -0.2
+		}
+		on_upgraded = {
+		}
+	}		
+}
+
+Loro_Pani = { # 洛罗派尼
+	start = 2252
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+		show_ambient_object = Loro_Pani
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Loro_Pani
+	}
+	can_use_modifiers_trigger = { 
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_gold_depletion_chance_modifier = -0.1
+		}
+		area_modifier = {
+			local_production_efficiency = 1
+		}
+		country_modifiers = {  
+		}
+		on_upgraded = {
+			change_trade_goods = gold
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			
+			local_gold_depletion_chance_modifier = -0.25
+		}
+		area_modifier = {
+			local_production_efficiency = 1.5
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+			add_base_production = 1
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_gold_depletion_chance_modifier = -0.5
+		}
+		area_modifier = {
+			local_production_efficiency = 2.5
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+			add_base_production = 2
+		}
+	}		
+}
+
+Agadez_Trans_Saharan_Trading_Town = { # 阿加德兹绿洲
+	start = 2275
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		culture = tuareg
+		province_is_or_accepts_culture = yes
+	}
+
+	on_built = {
+		show_ambient_object = Agadez_Trans_Saharan_Trading_Town
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Agadez_Trans_Saharan_Trading_Town
+	}
+	can_use_modifiers_trigger = {
+		culture = tuareg
+		province_is_or_accepts_culture = yes
+	}
+
+	can_upgrade_trigger = {
+		culture = tuareg
+		province_is_or_accepts_culture = yes
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+			
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			province_trade_power_value = 5
+		}
+		area_modifier = {
+			local_friendly_movement_speed = 0.1
+		}
+		country_modifiers = {  
+			trade_steering = 0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			province_trade_power_value = 10
+		}
+		area_modifier = {
+			local_friendly_movement_speed = 0.25
+		}
+		country_modifiers = {
+			trade_steering = 0.15
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			province_trade_power_value = 20
+		}
+		area_modifier = {
+			local_friendly_movement_speed = 0.5
+		}
+		country_modifiers = {
+			trade_steering = 0.25
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+Fort_Jesus = { # 耶稣堡
+	start = 1202
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		owner = {
+			technology_group = western
+		}
+	}
+
+	on_built = {
+		show_ambient_object = Fort_Jesus
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Fort_Jesus
+	}
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+			
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			defensiveness = 0.15
+			local_assault_fort_ability = -0.1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {  
+			range = 0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			defensiveness = 0.25
+			local_assault_fort_ability = -0.2
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			range = 0.2
+			ship_durability = 0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			defensiveness = 0.5
+			local_assault_fort_ability = -0.4
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			range = 0.3
+			ship_durability = 0.1
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+Mapungubwe = { # 马蓬古布韦
+	start = 4784
+	
+	date = 1000.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		owner = {
+			OR = {
+				technology_group = east_african
+				technology_group = central_african
+			}
+		}
+	}
+
+	on_built = {
+		show_ambient_object = Mapungubwe
+	}
+	
+	on_destroyed = {
+		hide_ambient_object = Mapungubwe
+	}
+	can_use_modifiers_trigger = {
+		owner = {
+			OR = {
+				technology_group = east_african
+				technology_group = central_african
+			}
+		}
+	}
+
+	can_upgrade_trigger = {
+		owner = {
+			OR = {
+				technology_group = east_african
+				technology_group = central_african
+			}
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+			
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {  
+			global_monthly_devastation = -0.1
+			global_prosperity_growth = 0.1
+		}
+		on_upgraded = {
+			add_base_tax = 1
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_monthly_devastation = -0.2
+			global_prosperity_growth = 0.2
+		}
+		on_upgraded = {
+			add_base_tax = 2
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_monthly_devastation = -0.4
+			global_prosperity_growth = 0.4
+		}
+		on_upgraded = {
+			add_base_tax = 3
+		}
+	}
+}

@@ -1,0 +1,20 @@
+# 5542 - Yiyang
+owner = CHC
+controller = CHC
+add_core = CHC
+culture = xiang
+religion = confucianism
+capital = "Yiyang"
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+1679.1.1 = { controller = QNG }

@@ -1,0 +1,11 @@
+add_core = UBH
+owner = UBH
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = UBH
+is_city = yes
+culture = takama
+trade_goods = cloth
+discovered_by = central_african

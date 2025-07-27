@@ -1,0 +1,39 @@
+# 安斯巴赫龙骑兵
+ansbach_dragoons = { 
+	cav_to_inf_ratio = 0.25
+	cavalry_power = 0.15
+	cavalry_fire = 0.1
+}
+
+# 黄牛
+vij_jains_protected = {
+    jains_loyalty_modifier = 0.1
+    jains_privilege_slots = 1
+}
+
+vij_malayan_ambition = {
+    movement_speed_onto_off_boat_modifier = 0.25
+    landing_penalty = -2
+}
+
+elephant_recruitment = {
+	cavalry_fire = 0.2
+	cavalry_shock = 0.2
+    cav_to_inf_ratio = 0.15
+    cavalry_cost = 0.05
+}
+
+chola_marine_traditions = { 
+    shock_damage_received = -0.20    
+    regiment_manpower_usage = -0.25           
+    infantry_shock = 0.33                     
+    is_marine_modifier = yes
+}
+
+pru_elite_thunderous_advance_modifier = {
+    shock_damage = 0.1
+}
+
+pru_elite_rewrite_military_manual_modifier = {
+    artillery_power = 0.1
+}

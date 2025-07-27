@@ -1,0 +1,21 @@
+# 694 - Changzhi
+owner = LNG
+controller = LNG
+add_core = LNG
+culture = jin
+religion = confucianism
+capital = "Changzhi"
+trade_goods = iron
+base_tax = 3
+base_production = 1
+base_manpower = 2
+# citysize = 68700
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+1644.10.1 = { controller = MCH }
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes

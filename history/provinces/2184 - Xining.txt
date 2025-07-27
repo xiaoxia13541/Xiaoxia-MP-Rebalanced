@@ -1,0 +1,23 @@
+# 2184 - Xining
+owner = DII
+controller = DII
+culture = tibetan
+religion = vajrayana
+capital = "Xining"
+trade_goods = salt
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+1644.1.1 = { 
+	controller = CSH
+}
+1645.2.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+1682.1.1 = { discovered_by = SPA }
+add_core = DII

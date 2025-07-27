@@ -1,0 +1,148 @@
+merc_the_three_thousand_battalions ={ # 三千营 大明专属
+	max_size = 30 
+	min_size = 30
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 1
+	cost_modifier = 1
+    home_province = 1821
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		tag = GNM
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = allowed_three_thousand_battalions_flag
+		capital_scope = {
+			superregion = china_superregion
+		}
+	}
+	modifier = {
+        cavalry_power = 0.2
+		cavalry_shock = 1
+		shock_damage = 0.2
+	}
+}
+
+merc_the_divine_artilery_camp_1 ={ # 神机营-先登 大明专属
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	artillery_weight = 1
+	cost_modifier = 1
+    home_province = 1816
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		tag = GNM
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = allowed_the_divine_artilery_camp1
+		capital_scope = {
+			superregion = china_superregion
+		}
+	}
+	modifier = {
+		artillery_fire = 1
+		artillery_shock = 1
+		drill_decay_modifier = -0.33
+		drill_gain_modifier = 1
+	}
+}
+merc_the_divine_artilery_camp_2 ={ # 神机营-火锐 大明专属
+	max_size = 30
+	min_size = 30
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	artillery_weight = 1
+	cost_modifier = 1
+    home_province = 1816
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		tag = GNM
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = allowed_the_divine_artilery_camp2
+		capital_scope = {
+			superregion = china_superregion
+		}
+	}
+	modifier = {
+		artillery_fire = 1
+		artillery_shock = 1
+		drill_decay_modifier = -0.33
+		drill_gain_modifier = 1
+	}
+}
+merc_the_divine_artilery_camp_3 ={ # 神机营-烈焰 大明专属
+	max_size = 20
+	min_size = 20
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	artillery_weight = 1
+	cost_modifier = 1
+    home_province = 1821
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		tag = GNM
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = allowed_the_divine_artilery_camp1
+		capital_scope = {
+			superregion = china_superregion
+		}
+	}
+	modifier = {
+		artillery_fire = 1
+		artillery_shock = 1
+		drill_decay_modifier = -0.33
+		drill_gain_modifier = 1
+	}
+}
+merc_the_divine_artilery_camp_4 ={ # 神机营-天雷 大明专属
+	max_size = 30
+	min_size = 30
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	artillery_weight = 1
+	cost_modifier = 1
+    home_province = 1821
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		tag = GNM
+		is_allowed_to_recruit_mercenaries = yes
+		has_country_flag = allowed_the_divine_artilery_camp2
+		capital_scope = {
+			superregion = china_superregion
+		}
+	}
+	modifier = {
+		artillery_fire = 1
+		artillery_shock = 1
+		drill_decay_modifier = -0.33
+		drill_gain_modifier = 1
+	}
+}
+merc_dahomey_amazons = { # 达荷美女战士 贝宁专属
+	max_size = 30
+	min_size = 4
+    regiments_per_development = 0.025
+	cavalry_weight = 0
+	artillery_weight = 0
+	no_additional_manpower_from_max_size = yes
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	mercenary_desc_key = OVER_FORCELIMIT_BUT_SOME_DONT_COUNT
+    home_province = 1140
+	cost_modifier = 1.5	
+	sprites = { dlc062_ben_sprite_pack africangfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		1140 = { owned_by = ROOT }
+		mission_completed = ben_court_guardian
+	}
+    modifier = {
+        may_recruit_female_generals = yes
+        female_advisor_chance = 1.0
+		discipline = 0.05
+		regiment_recruit_speed = 0.5
+		morale_damage_received = -0.25
+    }
+}
+
+
+

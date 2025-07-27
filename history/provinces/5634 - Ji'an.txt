@@ -1,0 +1,20 @@
+#5538 - Ji'an
+owner = CBS
+controller = CBS
+culture = hakka
+religion = confucianism
+capital = "Ji'an"
+trade_goods = cloth
+base_tax = 2
+base_production = 2
+base_manpower = 2
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+1679.1.1 = { controller = QNG }
+is_city = yes
+add_core = CBS

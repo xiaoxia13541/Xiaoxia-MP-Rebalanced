@@ -1,0 +1,13 @@
+base_tax = 1
+base_manpower = 3
+base_production = 2
+culture = hakka
+trade_goods = paper
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = HAK
+controller = HAK
+add_core = HAK
+discovered_by = indian

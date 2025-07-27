@@ -1,0 +1,11 @@
+add_core = ZAF
+owner = ZAF
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = ZAF
+is_city = yes
+culture = soninke
+trade_goods = slaves
+discovered_by = sub_saharan

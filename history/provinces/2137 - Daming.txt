@@ -1,0 +1,13 @@
+base_tax = 4
+base_manpower = 2
+base_production = 3
+culture = zhongyuan
+trade_goods = grain
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = SHD
+controller = SHD
+add_core = SHD
+discovered_by = indian

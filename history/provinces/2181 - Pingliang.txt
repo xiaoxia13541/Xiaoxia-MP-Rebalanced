@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 2
+base_production = 3
+culture = xibei
+trade_goods = salt
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = CSH
+controller = CSH
+discovered_by = indian
+add_core = CSH

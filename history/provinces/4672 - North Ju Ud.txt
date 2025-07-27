@@ -1,0 +1,29 @@
+owner = CTL
+controller = CTL
+culture = chahar
+religion = confucianism
+capital = "Josutu"
+trade_goods = livestock
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = KRC
+add_core = CHH
+discovered_by = chinese
+discovered_by = nomad_group
+1552.1.1 = { 
+	controller = KHA
+	add_core = KHA
+}
+1608.1.1 = { discovered_by = SPA }
+1624.1.1 = { 
+	controller = MCH
+	add_core = MCH
+}
+1636.5.15 = { 
+	controller = QNG
+	add_core = QNG
+}
+add_core = CTL
+discovered_by = indian

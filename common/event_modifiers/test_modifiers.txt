@@ -1,0 +1,121 @@
+inf_fire_dmg_1 = { fire_damage = 0.1 }
+inf_fire_dmg_2 = { fire_damage = 0.2 }
+inf_fire_dmg_3 = { fire_damage = 0.3 }
+inf_fire_dmg_4 = { fire_damage = 0.4 }
+inf_fire_dmg_5 = { fire_damage = 0.5 }
+inf_fire_dmg_received_1 = { fire_damage_received = -0.1 }
+inf_fire_dmg_received_2 = { fire_damage_received = -0.2 }
+inf_fire_dmg_received_3 = { fire_damage_received = -0.3 }
+inf_fire_dmg_received_4 = { fire_damage_received = -0.4 }
+inf_fire_dmg_received_5 = { fire_damage_received = -0.5 }
+inf_shock_dmg_1 = { shock_damage = 0.1 }
+inf_shock_dmg_2 = { shock_damage = 0.2 }
+inf_shock_dmg_3 = { shock_damage = 0.3 }
+inf_shock_dmg_4 = { shock_damage = 0.4 }
+inf_shock_dmg_5 = { shock_damage = 0.5 }
+inf_shock_dmg_received_1 = { shock_damage_received = -0.1 }
+inf_shock_dmg_received_2 = { shock_damage_received = -0.2 }
+inf_shock_dmg_received_3 = { shock_damage_received = -0.3 }
+inf_shock_dmg_received_4 = { shock_damage_received = -0.4 }
+inf_shock_dmg_received_5 = { shock_damage_received = -0.5 }
+inf_morale_dmg_1 = { morale_damage = 0.1 }
+inf_morale_dmg_2 = { morale_damage = 0.2 }
+inf_morale_dmg_3 = { morale_damage = 0.3 }
+inf_morale_dmg_4 = { morale_damage = 0.4 }
+inf_morale_dmg_5 = { morale_damage = 0.5 }
+inf_morale_dmg_received_1 = { morale_damage_received = -0.1 }
+inf_morale_dmg_received_2 = { morale_damage_received = -0.2 }
+inf_morale_dmg_received_3 = { morale_damage_received = -0.3 }
+inf_morale_dmg_received_4 = { morale_damage_received = -0.4 }
+inf_morale_dmg_received_5 = { morale_damage_received = -0.5 }
+###
+inf_aintenance_reinforce_5 = {
+	land_maintenance_modifier = 0.05
+	reinforce_speed = -0.05
+	reinforce_cost_modifier = 0.05
+	infantry_cost = 0.05
+}
+inf_aintenance_reinforce_10 = {
+	land_maintenance_modifier = 0.10
+	reinforce_speed = -0.10
+	reinforce_cost_modifier = 0.10
+	infantry_cost = 0.10
+}
+inf_aintenance_reinforce_15 = {
+	land_maintenance_modifier = 0.15
+	reinforce_speed = -0.15
+	reinforce_cost_modifier = 0.15
+	infantry_cost = 0.15
+}
+inf_aintenance_reinforce_20 = {
+	land_maintenance_modifier = 0.20
+	reinforce_speed = -0.20
+	reinforce_cost_modifier = 0.20
+	infantry_cost = 0.20
+}
+inf_aintenance_reinforce_25 = {
+	land_maintenance_modifier = 0.25
+	reinforce_speed = -0.25
+	reinforce_cost_modifier = 0.25
+	infantry_cost = 0.25
+}
+inf_aintenance_reinforce_30 = {
+	land_maintenance_modifier = 0.30
+	reinforce_speed = -0.30
+	reinforce_cost_modifier = 0.30
+	infantry_cost = 0.30
+}
+inf_aintenance_reinforce_35 = {
+	land_maintenance_modifier = 0.35
+	reinforce_speed = -0.35
+	reinforce_cost_modifier = 0.35
+	infantry_cost = 0.35
+}
+inf_aintenance_reinforce_40 = {
+	land_maintenance_modifier = 0.40
+	reinforce_speed = -0.40
+	reinforce_cost_modifier = 0.40
+	infantry_cost = 0.40
+}
+inf_aintenance_reinforce_45 = {
+	land_maintenance_modifier = 0.45
+	reinforce_speed = -0.45
+	reinforce_cost_modifier = 0.45
+	infantry_cost = 0.45
+}
+inf_aintenance_reinforce_50 = {
+	land_maintenance_modifier = 0.50
+	reinforce_speed = -0.50
+	reinforce_cost_modifier = 0.50
+	infantry_cost = 0.50
+}
+inf_aintenance_reinforce_55 = {
+	land_maintenance_modifier = 0.55
+	reinforce_speed = -0.55
+	reinforce_cost_modifier = 0.55
+	infantry_cost = 0.55
+}
+inf_aintenance_reinforce_60 = {
+	land_maintenance_modifier = 0.60
+	reinforce_speed = -0.60
+	reinforce_cost_modifier = 0.60
+	infantry_cost = 0.60
+}
+inf_aintenance_reinforce_65 = {
+	land_maintenance_modifier = 0.65
+	reinforce_speed = -0.65
+	reinforce_cost_modifier = 0.65
+	infantry_cost = 0.65
+}
+inf_aintenance_reinforce_70 = {
+	land_maintenance_modifier = 0.70
+	reinforce_speed = -0.70
+	reinforce_cost_modifier = 0.70
+	infantry_cost = 0.70
+}
+inf_aintenance_reinforce_75 = {
+	land_maintenance_modifier = 0.75
+	reinforce_speed = -0.75
+	reinforce_cost_modifier = 0.75
+	infantry_cost = 0.75
+}

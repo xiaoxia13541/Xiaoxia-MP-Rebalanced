@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 3
+base_production = 4
+culture = yi
+trade_goods = naval_supplies
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = CZH
+controller = CZH
+add_core = CZH
+discovered_by = indian

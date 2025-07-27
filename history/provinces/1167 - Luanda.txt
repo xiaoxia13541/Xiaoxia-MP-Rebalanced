@@ -1,0 +1,36 @@
+#1167 - Luanda
+culture = mbundu
+religion = shamanism#Fetishism
+capital = "Luanda"
+trade_goods = naval_supplies
+base_tax = 3
+base_production = 4
+base_manpower = 2
+native_size = 50
+native_ferocity = 1
+native_hostileness = 3
+extra_cost = 8
+center_of_trade = 1
+discovered_by = central_african
+discovered_by = sub_saharan
+1481.1.1 = { discovered_by = POR }
+1575.1.1 = { 
+	controller = POR
+	add_core = POR
+	trade_goods = slaves
+}
+1580.1.1 = { discovered_by = ENG }
+1627.1.1 = { capital = "São Paulo de Luanda" }
+1640.1.1 = { 
+	controller = NED
+	add_core = NED
+	capital = "Aardenburgh"
+}
+1648.1.1 = { 
+	controller = POR
+	capital = "São Paulo de Luanda"
+}
+add_core = NDO
+owner = NDO
+controller = NDO
+is_city = yes

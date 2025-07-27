@@ -1,0 +1,11 @@
+add_core = MAL
+owner = MAL
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = MAL
+is_city = yes
+culture = senegambian
+trade_goods = copper
+discovered_by = sub_saharan

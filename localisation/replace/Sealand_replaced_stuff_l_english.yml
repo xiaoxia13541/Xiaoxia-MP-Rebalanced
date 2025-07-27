@@ -1,0 +1,961 @@
+﻿l_english:
+ # 00_lanfang:
+ PROV4808:0 "WSÏ‚è•TrJ"
+ estate_burghers_tropical_effect_tooltip:0 "Ïk*Nåb	g„vN—g0WbVwýN·ƒ—Vÿ\n,g0WuµNHe‡sÿ§G+15.0%§!"
+ estate_burghers_tropical_revoke_effect_tooltip:0 "Ïk*Nåb	g„vN—g0WbVwýN1Y»Sÿ\n,g0WuµNHe‡sÿ§G+15.0%§!"
+ renovate_emerald_buddha_shrine_title:0 "£sea_vaj_mah_the_logo£ûîOáàiOúRÿ§YŸR·V +§!	ÿ"
+ renovate_emerald_buddha_shrine_alternate_title:0 "£sea_vaj_mah_the_logo£ûîOáàiOúRÿ§YŸR·V -§!	ÿ"
+ siamese_nation_title:0 "@SIA Äuú^¹fWýV¶R"
+ lanfang_decision_title:0 "@LFA Ž÷‹lQOTw¦"
+ lanfang_decision_formation_title:0 "@LFA Ž÷‹lQOTw¦"
+ restore_dai_viet_title:0 "@DAI b`Y'YŠ"
+ malay_islam_decision_title:0 "£sea_sunni_logo£åb±bO¯epQYe"
+ restore_lan_xang_title:0 "@LXA b`YpQ³u"
+ # aow:
+ ruthenian_nation_title:0 "@UKR 6eÞVœ^X<SšNWµN"
+ manchu_nation_1_title:1 "@MCH Ç‘³uán2m«ŽýN"
+ british_nation_diplomatically_title:0 "@GBR ÇY²NKbµkÄuú^'YNR ˜ýV¶R"
+ incan_nation_title:0 "@INC TXN÷^Ï‚2SÿpS R^ýV"
+ sokoto_nation_title:0 "@SOK Rú^0tÑyXbÈTÌ‘ÑSýV"
+ # areas_regions:
+ svealand_area:1 "‰¯eôupQ"
+ ostra_svealand_area:0 "N¯eôupQ"
+ ural_area:0 "g0WLNÉbS"
+ ural_area_name:0 "g0WLNÉbS"
+ ural_area_adj:0 "g0WLNÉbS„v"
+ bunyoro_area:0 "Olš"
+ bunyoro_area_name:0 "Olš"
+ bunyoro_area_adj:0 "Olš„v"
+ kazakhstan_area:0 "LNÌ‘WY"
+ kazakhstan_area_name:0 "LNÌ‘WY"
+ kazakhstan_area_adj:0 "LNÌ‘WY„v"
+ hebei_area:0 "kWN"
+ jiangsu_area:0 "mlN"
+ south_hebei_area:0 "ŽQÞT"
+ anhui_area:0 "–vWS"
+ guangdong_area:0 "noUl"
+ yun_gui_area:0 "‘N5"
+ huguang_area:0 "GoXn"
+ henan_area:0 "îmN"
+ gansu_area:0 "RY"
+ west_guangdong_area:0 "²|‰"
+ guangxi_area:0 "G•WS"
+ liaoning_area:0 "ú^ÞT"
+ jiangxi_area:0 "^u–"
+ shaanxi_area:0 "sQ-N"
+ shandong_area:0 "R—ÞT"
+ fujian_area:0 "ý•WS"
+ zhejiang_area:0 "ïtŠ"
+ shanxi_area:0 "Kf3–"
+ sichuan_area:0 "ôT‡"
+ ordos_area:0 "g¹e"
+ new_zealand_region:0 "°e‰pQ"
+ new_zealand_region_name:0 "°e‰pQ"
+ new_zealand_region_adj:0 "°e‰pQ„v"
+ # common_sense:
+ papacy_events.11.b:0 "Í‘¹p”^å‹>e(WR°ejOÁTN0"
+ dip_vatican_library:0 "µh‚„ˆQþVfN†™ - R°eHr"
+ desc_dip_vatican_library:0 "Ÿ±RR°ew°d™QsQŽNÖNìN„vÅez0Œ2RŒTåe8^åTjOÿ6qTSÙ›NjOÁTúQHrv^ûm R0Rµh‚„ˆQþVfN†™0)R(uÙ›NjOÁTÿfRwïSåNRgŒTxvzTÍyY²NžRõÿåNÊSUOöe0‚YUOåNÊS:NÀNHNƒRìNg	gHe0"
+ regulate_the_monastaries_title:0 "£sea_vajrayana_logo£Ä‰ƒîOSb–"
+ adopt_vajrayana_title:0 "£sea_vajrayana_logo£Ç‘³uÑ‘RXNiOYe"
+ invite_lama_title:0 "£sea_vajrayana_logo£Ž÷‹‡UV(WbýVšRES"
+ # core:
+ ABANDON_CORE_COST:0 ">eV8hÃVïSýwOb`Y`ONîvhýV¶R„vsQû|0ƒRNO©‹`O1Y»SðXg0"
+ # cossacks:
+ tengri_expel_the_khojas_title:0 "£sea_tengri_logo£qš— R"
+ curtail_estate_noble_title:0 "£sea_estate_logo£JR1V5Ïe"
+ curtail_estate_church_title:0 "£sea_estate_logo£JR1V^yLwºNXT"
+ curtail_estate_brahmins_title:0 "£sea_estate_logo£JR1VFZWè•"
+ curtail_estate_burghers_title:0 "£sea_estate_logo£JR1V^l"
+ curtail_estate_vaisyas_title:1 "£sea_estate_logo£JR1V.T‚"
+ curtail_estate_nomadic_tribes_title:0 "£sea_estate_logo£JR1V8ngrèK„"
+ curtail_estate_dhimmi_title:0 "£sea_estate_logo£JR1VPŸs|"
+ curtail_estate_jains_title:0 "£sea_estate_logo£JR1Vw±Ye’V"
+ gain_access_to_estate_dhimmi_title:0 "£sea_estate_logo£ú^ËzPŸs|6–BS"
+ # countries:
+ ZUN:1 "ðuW¯e"
+ ZUN_ADJ:1 "ðuW¯e"
+ PHA:1 "kS"
+ SIL:0 "ÔkXbÆY"
+ # cradle_of_civilization:
+ adopt_wahabism_title:0 "£sea_hanbali_logo£åb±bætÈTÔkININ"
+ trade_propagation_convert_to_islam_title:0 "£sea_islam_logo£SO¯epQYešR:NýVYe"
+ ARMY_PROFESSIONALISM_STATIC_MODIFIERS_DESC:1 "§YËzsS·ƒ—Vÿ§!\nÛbßRS›Qÿ§G+1%§!\nÛbßRÇ–cOuQÿ§R-2%§!"
+ # decisions:
+ unite_japan_subject_tooltip:1 "Ïk*Nåe,g„v'YT^SýVSb:NnfSã0\nÏk*Nåe,g„v'YT^SýVÿ\nŸ^d–§Y'YT§!?eœ^9ei—ÿ"
+ restore_the_shrine_of_ise_title:0 "£sea_shinto_logo£b`YO¿R^y>y"
+ pol_commonwealth_title:0 "@PLC Äuú^âlpQ-Ëzv–›RTw¦"
+ lit_commonwealth_title:1 "@PLC Äuú^Ëzv–›R-âlpQTw¦"
+ commonwealth_enforced_title:1 "@PLC :V6RTw¦"
+ shan_nation_title:0 "@SST TwT¸c¦"
+ croatian_nation_title:0 "@CRO Äuú^KQW0WšN"
+ polish_nation_title:0 "@POL Äuú^âlpQýV¶R"
+ australia_nation_title:0 "@AUS Äuú^³o'Y)RšNýV¶R"
+ andalusian_nation_title:0 "@ADU b`Y?–S-‰R¾bS¯e"
+ tuscan_nation_title:0 "@TUS Äuú^Xb¯eaS³u"
+ icelandic_nation_title:0 "@ICE åb±b°Q›S«ŽýN"
+ tatar_nation_title:0 "@GLH Í‘ú^Ñ‘^WlýV"
+ form_great_yuan_title:0 "@YUA 9ei—'YCQ"
+ yemen_nation_title:0 "@YEM ßuNmNè•"
+ georgia_nation_title:0 "@GEO ßuN<hœ	TšN"
+ turkish_nation_title:0 "@RUM b`YWÆYÏ‚9NýV"
+ armenia_nation_title:0 "@ARM šNŽ<SšN‹sýV"
+ timurid_nation_title:0 "@TIM ðXðyÐcÆYS„vWµN"
+ enthrone_timurid_prince_title:0 "@TIM åbËzÐcÆYS‹sPR"
+ adopt_mamluk_government_title:0 "@MAM Ç‘³ulšFzœKQ?eœ^"
+ scottish_nation_title:0 "@SCO Äuú^Ï‚<hpQýV¶R"
+ sultan_of_delhi_title:0 "@DLH ·VÌ‘„vÏ‚9N"
+ nepal_nation_title:0 "@NPL ßuN<SÊlS"
+ rajput_nation_title:0 "@RJP TwTÉbpgnfyr"
+ deccan_nation_title:0 "@DEC ·Vr^„vÏ‚9N"
+ maratha_nation_title:0 "@MAR lšÉbTXTw¦"
+ gond_nation_title:0 "@NAG ±<hfmS‹sýV"
+ punjab_nation_title:0 "@PUN Áennf‹sýV"
+ orissa_nation_title:0 "@ORI ßuNeYÌ‘(„"
+ restore_mongol_empire_title:0 "@MGE b`Y™„äS^ýV"
+ restore_ilkhanate_decision_march_title:0 "@ILK b`YOSWlýV"
+ restore_ilkhanate_decision_title:0 "@ILK Í‘ú^OSWlýV"
+ california_nation_title:0 "@CAL Äuú^ R)Ry<SšNýV¶R"
+ texas_nation_title:0 "@TEX Äuú^·VKQ(„¯eýV¶R"
+ por_flee_to_brazil_title:0 "@BRZ ŽVôT‰"
+ enforce_religion_muslim_title:0 "£sea_islam_logo£:V6R—RYeßuN"
+ tengri_yellow_shamanism_title:0 "£sea_tengri_logo£Äž(„ánYe"
+ tengri_black_shamanism_title:0 "£sea_tengri_logo£Ñž(„ánYe"
+ zoroastrian_rites_of_admission_title:0 "£sea_zoroastrian_logo£eQYeêNV"
+ zoroastrian_royal_fires_title:0 "£sea_zoroastrian_logo£Í‘Ãq‡v¶R1Wkp"
+ zoroastrian_diaspora_title:0 "£sea_zoroastrian_logo£tWšN¯e·VYeAmce²SO"
+ animism_ritual_education_title:0 "£sea_animist_logo£êNVYe²w"
+ shamanism_wondering_shamans_title:0 "£sea_fetishist_logo£Amjm„v(„án"
+ totemism_purification_movement_title:0 "£sea_totemism_logo£ÀQSÐ¨R"
+ mesoamerican_codification_of_the_faith_title:0 "£sea_mayan_logo£áOðNÕlxQS"
+ nahuatl_conversion_ceremonies_title:0 "£sea_nahuatl_logo£³uætyrSºN.OYe"
+ inti_obligatory_religious_festivals_title:0 "£sea_inti_logo£pS‚„.OYe"
+ pagan_conversion_to_christianity_title:0 "£sea_christianity_logo£ˆvOúWcwYe"
+ pagan_conversion_to_islam_title:0 "£sea_islam_logo£ˆvOO¯epQYe"
+ pagan_conversion_to_buddhism_title:0 "£sea_eastern_logo£ˆvOiOYe"
+ pagan_conversion_to_dharmic_title:0 "£sea_dharmic_logo£ˆvOpS¦^Ye"
+ pagan_conversion_to_zoroastrian_title:0 "£sea_zoroastrian_logo£ˆvOtWšN¯e·VYe"
+ pagan_conversion_to_judaism_title:0 "£sea_jewish_logo£ˆvO¹r*YYe"
+ muslim_conversion_to_sikhism_title:0 "£sea_sikh_logo£ˆvO!•KQYe"
+ conversion_of_convenience_title:0 "£sea_religions_logo£=föePb:N[Root.Religion.GetName] [Root.Monarch.GetTitle]†NTÿ"
+ cossack_nation_title:0 "£sea_cossacks_logo£IƒŸS„v|T2U"
+ pragmatic_sanction_decision_title:0 "£sea_hre_logo£¡RžR6RÁˆ"
+ stop_shadow_kingdom_title:0 "£sea_hre_logo£µc6RSa'Y)R"
+ # dharma:
+ COT_RIGHT_CLICK_TO_DOWNGRADE:0 "óS.•M–µu:N$NAME|Y$ÿàe—ðXg0"
+ COT_RIGHT_CLICK_TO_DOWNGRADE_SUBJECT:0 "óS.•M–µu:N$NAME|Y$ÿàe—ðXg0M–µuN*N1u^SýVµc6R„v8f-NÃVSžX R§R$LIBERTY_DESIRE$%§!ê»l2kg0"
+ COT_DOWNGRADE_CONFIRM_DESC:0 "M–µu:N$NAME|Y$ÿ\n$DESCRIPTION$0\nÙSÐc›OåNN‹YYÿ\n$BENEFITS$\nv^NS±‚90ðXg0"
+ # domination:
+ earlier_coal_available_tt:0 "‚YœgbìN¥c×S†N§YhQt8f§!6R¦^v^N¾0R†NLˆ?eŽb=g§Y19§!ÿ±HN°s(WïSåNO(u§Ydq­p§!0"
+ flavor_gbr.109.a.tt:0 "êS‰Ù*NîOckYŽNÀoIm¶r`ÿ\n§Y·ƒ—VN*NÖS³QŽNŒ˜î•‰|‹WŒTŽbýw„vîOckÿ§!\n -§YòTfR¶R§!0§Yê6qÑyfR¶R§!ŒT§Y—RYe9ei—¶R§!\n - Vïz¹RÍV¦^ÿÏkŽbýw§G+1.00§!\n -§Yz‚=g¶R§!0§YTÕlSw§!0§YqQŒTININw§!0§YT†Ú‹w§!0§Y8ngrßuNw§!ŒT§Ywízw§!\n - ¯uckáOðN¹RÍV¦^ÿÏkŽbýw§G+1.00§!\n -§Y0?e˜R§!0§Yø”^'Y^§!ŒT§YSplendid§!\n - —RYeßuN¦^ÿÏkŽbýw§G+15.0%§!\n -§Y—RYeÁˆ2R˜R§!0§Y^yfR¶R§!0§Y˜RÚP§!ŒT§YfMQw§!\n - ùRVïz„v.OYe›RÏ‘ÿÏkŽbýw§G+1.0%§!"
+ mng_inward_perfection_reward_tt:0 "	ébÇ…QTŒRŽyrCgŒRbÙ*NûN¡RSÛNekžX:VyrCgÿKˆNƒRåNNeˆEQîOckÿ\nNb	g6–BSàVÚ‹GWaˆÿ§G+10%§!\nTINLˆ?eŽbýwÿ§G+1§!\n'Y‹Wy˜îvGSµub,gÿ§G-15%§!"
+ mng_palace_bureaucracy_benefits_tt:0 "žRËeibUS«R÷^˜RÚP:g„gÕläNØSKˆN§G-10%§!Œ˜î•b,g"
+ mechanic_marine_buff_yes:1 "§Ywm›QF–b–§!·ƒ—VåNN Rbÿ\n²QûQ2O³Rÿ§G-10.0%§!\n›QâVºN›RO(uÿ§G-20.0%§!"
+ qng_extinguish_ming_title:0 "Qbmp-NýV›Q–"
+ qng_extinguish_ming_desc:0 "êS‰Ø	gûNUO-NýV›Q–„v!X’WXR(WÿbìNùR-NýV„vßu»l1S8lÜNOwck‰RhQ0bìNÅV‰˜9hd–-NýV›Q–0"
+ mos_rus_build_up_army_at:0 "Ù*N‹NöNSAQ¸‹bìNåNNb	g§Y8lEN±Rðy§!ÎNbìN„vûN¡R-N·ƒ—V:V'Y„vîOck0"
+ flavor_tur.240.a.tt:2 "‚YœgbìN(WŒTs^OS®‹-NÎN§Y[MAM.GetName]§!Kb-N:YÖS§Y[361.GetName]§!ÿ±HN‹NöN§Ylš(gYuKQÏ‚9NýV„v†‰mp§!Sæ‰ÑSÿAQ¸‹bìNÎNåb	g„v§Y[MAM.GetName]§!8hÃVwýN-NRú^§YÃWÊSw§!ÿƒRS(W§Y[MAM.GetName]§!wýNN·ƒ—V8hÃV0"
+ flavor_tur.242.desc:0 "ÎW^[361.GetName]YŽNeY¯eüfµc6RKNNÿwlš(gYuKQ?eœ^sSSR)T»yg0Ù*NïS`„vÏ‚9NýVNÇ=f?–Ôb¯eÈTÌ‘ÑSýVRÂˆb¸‹YçubýVKNMR„v°‹ÆV0ˆVf>fÿÏ‚9NýVQmNàeÕlôucêñT0«ˆÚVy(W[361.GetName]„vlš(gYuKQLˆ?e˜RXTT[Root.Monarch.GetName]8OúQ†NôcKbÿú^®‹SÖNìNNbåb	g„vÏ‚9NýV²NÙubìN„v[Root.Monarch.GetTitle]ÿåNbcÖSÖNìN(WÃWÊSLˆ?e-N„vçuíug¡R0"
+ flavor_tur.242.a:0 "N*NTt„v¡‹R0©‹ÖNìN:NbìNg¡R0"
+ fra_military_reform_title:0 "9ei—kpªgKb"
+ gbr_dominiate_new_world_at:1 "Nb	g§Y–kl0W§!^SýV·ƒ—V§G+25.0%§!uµNHe‡sŒT§G+25.0%§!8fHe‡s0"
+ jap_military_parade_tt:0 "Ïk*NóS	g§G60§!*NbìN„v›QâV„vwýNS>NLˆ›Q‹N–uQÿ·ƒ—V1 £adm£ £dip£ ŒT £mil£ ÑSUSÿjO:NÞV¥bKˆNbìN §G5§!F–›Q.Oßu"
+ royal_council_interaction_tooltip:0 "ïSåN	ébåNNîOckKNNÿcíu§Y10t^§!ÿ\n§Y«R÷^ÔYXTO§!ÿ\n ïSýw„vŒ˜î•ÿ§G+1§!\n Œ˜î•b,gÿ§G-5.0%§!\n\n§Y0?eÔYXTO§!ÿ\n t^¦^'¨ÀwÏQSÿ§G-0.05§!\n t^)R‡sÿ§G-0.50§!\n\n§Y—RYeÁˆ2RNbÔYXTO§!ÿ\n .OYeëXÿ§G+1§!\n ùRVïz„v.OYe›RÏ‘ÿ§G+2.0%§!"
+ state_council_interaction_tooltip:1 "ïSåN	ébåNNîOckKNNÿcíu§Y10t^§!ÿ\n§Y'k2mÔYXTO§!ÿ\n Y²NðXgÿ§G+2.00§!\n\n§Y0W-NwmÔYXTO§!ÿ\n hh^9‚b—eýw›Rÿ§G+10.0%§!\n\n§YpS¦^ÔYXTO§!ÿ\n hQt–klwžX Rÿ§G+15.00§! \n vQÖN'YF–N„vê»l2kgÏQSÿ§G-10.00%§!"
+ war_council_interaction_tooltip:0 "ïSåN	ébåNNîOckKNNÿcíu§Y10t^§!ÿ\n§YASWR›QÔYXTO§!ÿ\n ºN›Rb`Y¦^ÿ§G+7.5%§!\n\n§Y›Q‹Néy^ÔYXTO§!ÿ\n Ïkt^F–›Q.Oßuÿ§G+1.00§!\n\n§Y0‚–ÔYXTO§!ÿ\n Ïkt^wm›Q.Oßuÿ§G+1.00§!"
+ mos_rus_conquer_the_great_horde_desc:0 "ú‹ÖvŒTvQÖN¹ƒXN„v8ngrèK„ùRbìN„š²P„vºNlËe R†NÖNìNªv`„v·g•0Ïkt^NTt„v!ÁT‰BlÿÙ›NèK„NÇ=fbìNýV¶R„vqSi–³Rk†0\n‚YœgbìNó`b:NN*NO'Y„v^ýVÿN*NwckïSåNðXðyWlšWµN„výV¶Rÿ±HNbìNÅV‰˜ã‰>eêñTÿFd1‘—|—·g•0"
+ desc_the_tatar_yoke:0 "\n§RÏkt^ÅV‰˜T§Y[474.Owner.GetName]§!=eØN!ÁTÿ&TRSb—4N‘—|—„v2a`.§!\n\n–NwúW…W¯e(W1223t^K„eQ™„äSºNKb-Nÿ™„äSºNŒTTeg„v‘—|—ºNùRÄOW¯eãlÝOc†NbrúV„vµc6R0(W«ƒ¯eÑy'YlQýV„vcüRNÿÄOW¯eºNT«ƒ¯eÑy'YlQ=eØN!ÁTÿ6qT1uÖNl²NÙu[474.GetName]„vïSWl0!ÁT=fïS¡rt„vÿFOƒR„vXR(W,g«Ž1S=fùRûNUO4ngçuíuWlšWµN„vêSN¯eÉb+YºN„v®O±0\n\n§Y‚Yœg[474.GetName]1Y»S†N‘—|—·g•îOckÿÙ*NîOckS«ˆûyd–0§!"
+ flavor_mos.1.a.tt:0 "§R§Y[Root.GetName]§!«ˆëÏkt^T§Y[474.Owner.GetName]§!=eØN!ÁTÿêS‰Ù*NîOckYŽNÀoIm¶r`0§!"
+ flavor_mos.2.desc:0 "–Nw[474.GetName]K„eQ[474.Owner.GetName]Kb-Nÿ‘—|—ºNQmNàeÕl:V6RÖNìNùR[Root.GetAdjective]ºNl„v!ÁT‰Bl0[Root.GovernmentName]„v[Root.GetUsableName]ÈuŽNFd1†N‘—|—·g•ÿ"
+ flavor_mos.3.desc:0 "t^¦^!ÁT‰BlòTÏu0R¾[Root.Monarch.GetName]„v«R÷^0egê[474.Owner.GetName]„vÎ‘î†ºNggbìNåNNb	gW¯e„vTIN=eØN0"
+ flavor_mos.3.a.tt:1 "§Y[Root.GetName]§!T§Y[474.Owner.GetName]§!=eØN§R[Root.mos_tribute_to_pay.GetValue]§!¤0"
+ flavor_mos.3.b.tt:0 "§Y[474.Owner.GetName]§!ïSýwOùR§Y[Root.GetName]§!„vºNlÛLˆ¥bY..."
+ eng_abolish_adjustments_of_laws_title:0 "£sea_parliament_logo£Ÿ^d–Õl‹VŒte"
+ eng_end_the_law_discussions_title:0 "£sea_parliament_logo£ÓumgÕl‹V¨‹º‹"
+ eng_start_the_law_discussions_title:0 "£sea_parliament_logo£b`YÕl‹V¨‹º‹"
+ eng_disable_colonial_ventures_title:0 "£sea_parliament_logo£ÙuˆN–klONê»lCg"
+ eng_enable_colonial_ventures_title:0 "£sea_parliament_logo£²d•–klON„vê»lCg"
+ curtail_eunuch_estate_decision_title:0 "£sea_estate_logo£JR1V¦R˜R"
+ force_issue_through_title:0 "£sea_parliament_logo£:V6Rî•˜˜Ç"
+ force_british_union_debate_title:0 "@GBR [Root.GetActsOfUnionDecisionTitle]"
+ force_french_union_debate_title:0 "@AVE [Root.GetActsOfUnionDecisionTitle]"
+ curtail_eunuch_estate_decision_title:0 "£sea_estate_logo£JR1V¦R˜R"
+ restore_devshirme_system_title:0 "£sea_janissary£b`Y·V+Y^S…h6R¦^"
+ face_the_janissaries_1_title:0 "£sea_janissary£(WôTSr^b—ùR6w<S^XÌ‘"
+ face_the_janissaries_2_title:0 "£sea_janissary£(W‰R³uXb)RšNb—ùR6w<S^XÌ‘"
+ face_the_janissaries_3_title:0 "£sea_janissary£(W[Root.Capital.GetName]b—ùR6w<S^XÌ‘"
+ negotiate_with_the_janissaries_title:0 "£sea_janissary£N6w<S^XÌ‘Œ2R"
+ second_islamic_golden_era_descision_title:0 "£sea_islam_logo£,rŒN*NO¯epQÄžÑ‘öeãN"
+ royal_council_interaction_tooltip:0 "ïSåN	ébåNNîOckKNNÿcíu§Y10t^§!ÿ\n§Y«R÷^ÔYXTO§!ÿ\n ïSýw„vŒ˜î•ÿ§G+1§!\n Œ˜î•b,gÿ§G-5.0%§!\n\n§Y0?eÔYXTO§!ÿ\n t^¦^'¨ÀwÏQSÿ§G-0.05§!\n t^)R‡sÿ§G-0.50§!\n\n§Y—RYeÁˆ2RNbÔYXTO§!ÿ\n .OYeëXÿ§G+1§!\n ùRVïz„v.OYe›RÏ‘ÿ§G+2.0%§!"
+ state_council_interaction_tooltip:1 "ïSåN	ébåNNîOckKNNÿcíu§Y10t^§!ÿ\n§Y'k2mÔYXTO§!ÿ\n Y²NðXgÿ§G+2.00§!\n\n§Y0W-NwmÔYXTO§!ÿ\n hh^9‚b—eýw›Rÿ§G+10.0%§!\n\n§YpS¦^ÔYXTO§!ÿ\n hQt–klwžX Rÿ§G+15.00§! \n vQÖN'YF–N„vê»l2kgÏQSÿ§G-10.00%§!"
+ war_council_interaction_tooltip:0 "ïSåN	ébåNNîOckKNNÿcíu§Y10t^§!ÿ\n§YASWR›QÔYXTO§!ÿ\n ºN›Rb`Y¦^ÿ§G+7.5%§!\n\n§Y›Q‹Néy^ÔYXTO§!ÿ\n Ïkt^F–›Q.Oßuÿ§G+1.00§!\n\n§Y0‚–ÔYXTO§!ÿ\n Ïkt^wm›Q.Oßuÿ§G+1.00§!"
+ mechanic_manpower_from_capturing_forts_yes:0 "Uc·ƒLeºN!X’WÙuˆN§G0.05§!t^„vºN›RÿÏk*N!X’WIrµuÿHeœgÏk§Y10t^§!êSýwùRÏk*N!X’WÑSuN!k	ÿ"
+ 
+ # eldorado
+ maya_nation_title:0 "@MAY Í‘°eßuNlšÅ–XoTwßv"
+ 
+ # emperor:
+ MODIFIER_LOCAL_WARSCORE_COST_MODIFIER:0 ",g0Wb‰NRpeb,g"
+ 
+ # emperor_content:
+ loses_old_world_provs_tt:2 "§R`OS>eVNb	g(W'k2m0šN2mŒT^—2m„v8hÃVwýNŒT^SýV0§!"
+ adm_vatican_library_tt:1 "S(W§Y[118.GetName]§!ú^Ëz§Yµh‚„ˆQþVfN†™ - Lˆ?eHr§!ÿÙuˆNåNNHeœgÿ\nÏkÑ‘˜)Ro`ÿ§G-0.50§!\nÏkg‰Lqÿ§G+3.00§!\nLˆ?eHe‡sÿ§G+5.0%§!"
+ dip_vatican_library_tt:0 "S(W§Y[118.GetName]§!ú^Ëz§Yµh‚„ˆQþVfN†™ - R°eHr§!ÿÙuˆNåNNHeœgÿ\nŽb=gb,gÿ§G-5.0%§!\ntõVb,gÿ§G-5.0%§!\nïSýw„v?eVrÿ§G+1§!"
+ mil_vatican_library_tt:0 "S(W§Y[118.GetName]§!ú^Ëz§Yµh‚„ˆQþVfN†™ - ›Q‹NHr§!ÿÙuˆNåNNHeœgÿ\neˆEQ¦^ÿ§G+33.0%§!\nûy¨R¦^ÿ§G+15.0%§!\nÎNb—e-N·ƒ—V„vF–›Q.Oßuÿ§G+75.0%§!"
+ two_sicilies_nation_title:0 "@TTS ßuN2N‰‰Ì‘"
+ switzerland_nation_title:0 "@SWI b`Y^tëXTw¦"
+ silesia_nation_title:0 "@SIL ÔkXbÆY„vTw"
+ bavaria_nation_title:0 "@BAV Äuú^ôTO)RšN"
+ pomerania_nation_title:0 "@POM Äuú^âlŽÉb<SšN"
+ franconia_nation_title:0 "@FKN Äuú^VpQÑy<SšN"
+ swabia_nation_title:0 "@SWA Äuú^¯eætÔkšN"
+ saxony_nation_title:0 "@SAX Äuú^(„KQîh"
+ become_kirishitan_daimyo_title:0 "£sea_catholic_logo£úWcwYe'YTî•˜˜"
+ become_ikko_ikki_daimyo_title:0 "£sea_mahayana_logo£^yÎ˜"
+ become_confucian_daimyo_title:0 "£sea_confucian_logo£Ç‘³uQ¶RLˆ?e"
+ dalmatian_nation_title:0 "@DAL Í‘°eßuN¾SlšÐcšN‹sýV"
+ zealandia_nation_title:0 "@NZL Äuú^‰pQêšN"
+ alaska_nation_title:0 "@ALA Äuú^?–Éb¯e R"
+ cascadia_nation_title:0 "@CSC Äuú^ŽU¯eŽUêšN"
+ west_indies_nation_title:0 "@WSI Äuú^ RÒRÔkýV¶R"
+ vermont_nation_title:1 "@VRM Äuú^iO™„yrýV¶R"
+ sonora_nation_title:0 "@SNA Äuú^0tú‹ÉbýV¶R"
+ florida_nation_title:0 "@FLO Äuú^iOWÌ‘¾ýV¶R"
+ cuba_nation_title:0 "@CUB Äuú^äSôTýV¶R"
+ illinois_nation_title:0 "@ILI Äuú^O)Rú‹¯eýV¶R"
+ lotharingia_nation_title:0 "@LOT b`Ym—g‹sýV"
+ become_hussite_title:0 "£sea_hussite_logo£Ç‘³uáw¯eININ"
+ shadow_kingdom_decision_title:0 "£sea_hre_logo£µc6Ra'Y)R"
+ great_peasants_war_emperor_decision_title:0 "£sea_hre_logo£ÓumgO'Y„vœQlb‰N"
+ great_peasants_war_peasant_decision_title:0 "£sea_hre_logo£gbLˆœQl‰Bl"
+ # emperor_estates:
+ estate_dhimmi_manpower_effect_tooltip:0 "Ïk*N^—§YFz¯e—g§!áOðN„våb	gwýN·ƒ—V§YPŸs|VuQ§!ÿÙuˆNåNNHeœgÿ\n,g0WºN›RîOckÿ§G+15.0%§!"
+ estate_maratha_levies_for_muslims_effect_tooltip:1 "Ïk*N§YpS¦^Ye§!áOðN„våb	gwýN·ƒ—V§YžX RlšÉb0WVuQ§!ÿÙuˆNåNNHeœgÿ\n,g0WºN›RîOckÿ§G+15.0%§!"
+ estate_cossacks_exploration_expedition_effect_tooltip:1 "Nb	gIƒŸSwýN„v0W¹eÑSUSb,g§G-5%§!"
+ brahmin_hindu_deity_decision_title:0 "£sea_estate_logo£Q!k	éb*NºN^yGy"
+ # emperor_missions:
+ emp_lan_reform_the_monte_title:0 "9ei—™„yr"
+ emp_bur_league_of_public_weal_trigger_tooltip:1 "ÕlýV'YF–N„vÕlýVSãÿ\nùR§Y[Root.GetName]§!„vaÁ‰óS:N§Y120§!0"
+ # EU4:
+ #REGCAT_banner:0 "Mercenary"
+ #BANNERS_DESC:0 "Banner Mercs!"
+ #BANNER_NAME:0 "$HOME$'s $NUM$$ORDER$ Mercenary"
+ REGCAT_streltsy:0 "yrŠkÇ–cOuQ"
+ STRELTSY_NAME:0 "$HOME$„v$NUMORDER$yrŠkÇ–cOuQâV"
+ STRELTSY_REGIMENT:1 "yrŠkÇ–cOuQâV\n$EFFECT$"
+ streltsy_modifier:0 "OVyrŠkÇ–cOuQ"
+ RUSABIL_STRELTSY:1 "ÅˆY¯eyrRS(ƒ"
+ RUSABIL_STRELTSY_desc:0 ""
+ #ÙSqVÍTb‰N²u³R$CHANGE$ÿv^(WbìN„v–™ýyrÆ–$UNITS|Y$yrŠkÇ–cOuQ¯eyrRS(ƒâV0
+ RUSABIL_DO_IT_STRELTSY:0 "ÇO(u$VAL|Y$ZwÆ–„v›RÏ‘ÛLˆ'$NAME|Y$'ÿbìNSqVÍTb‰N²u³R$CHANGE$ÿv^(WbìN„v–™ýyrÆ–$UNITS|Y$yrŠkÇ–cOuQ¯eyrRS(ƒâV0"
+ RUSABIL_STRELTSY_MODIFIER:0 ""
+ tribal_allegiance_desc:1 "Çb—Vb—e0ž±ùRKb0åb	gØšF–›Q.OßuŒTckb—3zšR'`ÿèK„Tw¦ïSåNžX RÖNìN„vèK„àVÚ‹¦^ÿw“‰cb—e0×S0Rž±0åb	gb—3zšR'`0«ˆ`S†˜ŒTYŽNŒTs^¶r`ROÏQSƒR0\n\nƒRØàV$CHANGE$Ïkt^ØSSÿ1uŽNÿ\n$WHY$\n"
+ obj_100_development_desc:0 "¾0RóS§Y100§!ÑSUS0"
+ obj_5_centers_of_trade_desc:1 "åb	g0µc6Rv^åb	góS§Y4§!*N2µubôfØšµu+R„v8f-NÃVwýN0"
+ obj_30_development_city_desc:0 "åb	gv^µc6RN*NóS	g§Y25§!ÑSUS„v8hÃVwýN0"
+ obj_30_development_city_tooltip:0 "åb	g25ÑSUS„v8hÃVwýN\n"
+ obj_two_unions_desc:0 "óS	g§Y2§!*NvQÖNýV¶RN`OTwßvÿ`O„vßu»lw=fÖNìN„vßu»lw0"
+ obj_many_vassals_desc:0 "TöeóS	g§Y2§!*NNT„vSã0"
+ obj_humiliate_rival_tooltip:0 "ž±ùRKbbwÿb300¹p"
+ obj_convert_10_provinces_desc:0 "SóS§Y10§!*NwýNlbc:N`O„váOðN0"
+ obj_colonial_empire_desc:0 "åb	g§Y3§!*N–klýV¶RjO:N^SýV0"
+ obj_force_converted:0 "áOðN„vMckSw"
+ obj_force_converted_desc:0 "±Rðyb:NáOðN„vMckSw0"
+ obj_asian_trade:0 ",gW8f"
+ obj_asian_trade_desc:0 "ÎNûNUO8fFUÁT-N·ƒ—V8fVY±R0"
+ obj_unify_culture:0 "YeXNY"
+ obj_unify_culture_desc:0 "(W§Y15§!*Nåb	g„vwýNNåb	gúR™^b'YYeX0"
+ obj_3_trade_companies:0 "2N*N8flQøS"
+ obj_3_trade_companies_desc:0 "óSRËz§Y2§!*NNT„v8flQøS0"
+ obj_universities_desc:0 "åb	góS§Y5§!Nb'YfR0"
+ obj_large_forcelimit_desc:0 "åb	góS§Y200§!*NâV„vF–›QpeÏ‘NP–0"
+ obj_90_absolutism_desc:0 "N6RININóS:N§Y60§!0"
+ obj_emperor_of_china:0 "Aucƒ„v‡v^"
+ obj_emperor_of_china_desc:0 "b:Nåb	g…Ç§Y40§!^ýVCgZ„v^y1WWlš‡v^ÿbjO:NN*N^ýVžX•óS§Y1000§!ÑSUS0"
+ obj_cultures_accepted_desc:0 "óS	g§Y5§!ÍyNT„v¥c×S‡eS0"
+ obj_disc_army_desc:0 "›Q–óSåb	g120%„vªu‹V0"
+ obj_huge_capital_desc:0 "–™ýóS	g§Y35§!ÑSUS0"
+ obj_two_institutions_desc:0 "åb	gv^µc6RóS§Y1§!*N:g„g„vÑSn0W0"
+ ab_portugal_colonial_growth:0 "–kl0WžX•"
+ #\n§Ry(u§Y–klÎ‘ÃV§!öeãNýw›R0§!"
+ ab_portugal_colonial_growth_flag:0 "O(u†N–kl0WžX•öeãNýw›R"
+ ab_allow_feudal_de_jure_law:0 "Ÿ±RÑSUS0"
+ ab_rival_change:0 "ÝuùRßu»l"
+ ab_sweden_manpower:0 "¯e*X„v³uôušNÛbßR"
+ ab_same_contine_lib_desire:0 "ÝuùRßu»l"
+ #BANNER_NOWHERE_TO_GO:0 "bìN¡l	gŒRhQµc6R(W$NAME$„vwýNÿàVdkàeÕlÛbßRÇ–cOuQ0"
+ #BANNER_NONE_AVAIL:3 "(W$NAME$„vŒRhQ8hÃVwýN-N¡l	g³Y„v$CULTURE$ºNÿàeÕlÛbßRûNUOÇ–cOuQ0"
+ #BANNER_ALL_RAISED:1 "$NAME$NýwQÛbßRÇ–cOuQÿàV:NòTÏuÛbßR†N$CURR|Y$0\n"
+ #BANNER_TOO_HIGH_CORRUPTION:0 "ÛbßRÙ*NÇ–cOuQOžX RbìN„vP%$VAL|R$ÿ…Ç1000"
+ #RAISE_MANCHU_BANNERS:0 "ÛbßRÇ–cOuQ"
+ #BANNERS_FROM_TT:3 "§YÇ–cOuQpeÏ‘NP–§!\nÙ=fbìNýV¶RïSåNåb	g„vSVMRŒTïSýw„vÇ–cOuQpeÏ‘0\n\n$NAME$Ðc›O$AMOUNT|Y$peÏ‘NP–„vÇ–cOuQÿ1uŽNåNN0W:S„vÑSUSÿ"
+ #STATE_CORRUPTION_INC:2 "jO:NÇ–cOuQÛbßR$RAISED|Y$*NâVSžX RP%$INC$0\n"
+ #AVAILABLE_BANNERS_LIMIT:0 "àV:NbìNòTÏuÛbßR†N$CURRENT|Y$*NÇ–cOuQÿNbåNpeÏ‘ÏQS0R$VAL|Y$0"
+ #CONFIRRAISEBANNER:0 "nx²‹ÛbßRÇ–cOuQ"
+ hannoverian_nation_title:0 "@HAN Äuú^Ilú‹Z"
+ westfalian_nation_title:0 "@WES Äuú^Z¯eyrÕl&O"
+ greek_nation_title:0 "@GRE Äuú^^J"
+ form_union_with_lithuania_title:0 "@PLC NËzv–›RÄuú^Tw¦"
+ spanish_nation_diplomatically_title:0 "@SPA ÇY²NKbµkÄuú^‰ísYrýV¶R"
+ la_plata_nation_title:0 "@LAP Äuú^ÉbnfÉbTXýV¶R"
+ haiti_nation_title:0 "@HAT Äuú^wm0WýV¶R"
+ colombia_nation_title:0 "@COL Äuú^åT&OÔkšNýV¶R"
+ chile_nation_title:0 "@CHL Äuú^zf)RýV¶R"
+ canada_nation_title:0 "@CAN Äuú^ Rÿb'YýV¶R"
+ venezuela_nation_title:0 "@VNZ Äuú^ÔY…Q^tÉbýV¶R"
+ usa_nation_title:0 "@USA Äuú^ŽýV"
+ upca_nation_title:0 "@CAM Äuú^-NŽ2mýV¶R"
+ quebec_nation_title:0 "@QUE Äuú^A›SKQýV¶R"
+ peru_nation_title:0 "@PEU Äuú^ØyœýV¶R"
+ paraguay_nation_title:0 "@PRG Äuú^ôTÉb-WýV¶R"
+ mexico_nation_title:0 "@MEX Äuú^¨X‰åTýV¶R"
+ louisiana_nation_title:0 "@LOU Äuú^ïf¯e‰R±ýV¶R"
+ brazil_nation_title:0 "@BRZ Äuú^ôT‰ýV¶R"
+ cb_chinese_unification_desc:1 "ßuN-NýV!k'YF–„vW0W0"
+ 
+ edict_religious_unity:0 ":V6R—RYeßuN"
+ sea_edict_religious_unity:0 ":V6R—RYeßuN"
+ edict_protect_trade:0 "ÝO²b8f"
+ sea_edict_protect_trade:0 "ÝO²b8f"
+ edict_promote_military_recruitment:1 "žX RVuQ"
+ sea_edict_promote_military_recruitment:1 "žX RVuQ"
+ edict_encourage_development:0 "Ÿ±RÑSUS"
+ sea_edict_encourage_development:0 "Ÿ±RÑSUS"
+ edict_defensive_edict:0 "2–¡VÕläN"
+ sea_edict_defensive_edict:0 "2–¡VÕläN"
+ edict_advancement_effort:0 "ÛekªR›R"
+ sea_edict_advancement_effort:0 "ÛekªR›R"
+ edict_centralization_effort:0 "-N.YSªR›R"
+ sea_edict_centralization_effort:0 "-N.YSªR›R"
+ edict_feudal_de_jure_law:0 "Sú^Õl‹V"
+ sea_edict_feudal_de_jure_law:0 "Sú^Õl‹V"
+ edict_religion_enforced:0 ":V6R—RYe"
+ sea_edict_religion_enforced:0 ":V6R—RYe"
+ edict_of_absolutism:0 "N6RININÕläN"
+ sea_edict_of_absolutism:0 "N6RININÕläN"
+ 
+ mechanic_unlock_special_state_edicts_yes:2 "åb	göeãNìr	g„v§YýV¶RÕläN§!\n§YÑS°söeãN§!ÿ\n,g0Wz6eîOckÿ§G+50.0%§!\n§Y—RYe9ei—öeãN§!ÿ\n,g0W—RYeßuN!.sÿ§G-50.0%§!\n§YN6RININöeãN§!ÿ\nR»yININt^peÿ§G-10§!\n§Yi—‹TöeãN§!ÿ\n,g0WFUÁTuµNîOckÿ§G+33.0%§!"
+ mechanic_tall_unlock_special_state_edicts_yes:2 "åb	göeãNìr	g„v§YýV¶RÕläN§!\n§YÑS°söeãN§!ÿ\n,g0WuµNHe‡sÿ§G+50.0%§!\n,g0Wz6eîOckÿ§G+50.0%§!\n§Y—RYe9ei—öeãN§!ÿ\n,g0W—RYeßuN!.sÿ§G-50.0%§!\n,g0Wb‰NRpeb,gÿ§R+25.0%§!\n§YN6RININöeãN§!ÿ\nR»yININt^peÿ§G-10§!\n‡eSlbcb,gÿ§G-33.0%§!\n§Yi—‹TöeãN§!ÿ\n,g0Wú^¾‹öeô•ÿ§G-33.0%§!\n,g0WFUÁTuµNîOckÿ§G+33.0%§!"
+ mechanic_tall_unlock_special_state_edicts:1 "åb	göeãNìr	g„v§YýV¶RÕläN§!"
+ feudal_taxes_state_edict:0 "Sú^z6eÕläN"
+ sea_feudal_taxes_state_edict:0 "Sú^z6eÕläN"
+ religious_tolerance_state_edict:0 "—RYe¹RÍVÕläN"
+ sea_religious_tolerance_state_edict:0 "—RYe¹RÍVÕläN"
+ state_integration_state_edict:0 "ýV¶RteTÕläN"
+ sea_state_integration_state_edict:0 "ýV¶RteTÕläN"
+ urbanization_state_edict:0 "ÎW^SÕläN"
+ sea_urbanization_state_edict:0 "ÎW^SÕläN"
+ # Own, just having all in one place:
+ edict_supply_edict:0 "eˆÙuÕläN"
+ sea_edict_supply_edict:0 "eˆÙuÕläN"
+ edict_attrition_edict:0 "mcwÕläN"
+ sea_edict_attrition_edict:0 "mcwÕläN"
+ INTI_REFORM_TOOLTIP:0 "`OnxšR‰ã‰•§Y$NAME$§!TÿÙ7hZPS±‚9§Y75§!CgZÿM–NO`O„v3zšR'`§R1§!ÿv^OýV¶Rw–eQ…Qb0"
+ # flavor_events:
+ flavor_brapru.15.a.tt:1 "§RÐc›O25§!¤(uŽN§Yú‹OlšKQ§!ŒT§Y·VÉbÆY!X§!wýN0"
+ disband_the_janissaries_title:1 "£sea_janissary£:Vë6w<S^XÌ‘¥c×S¡Råg"
+ flavor_fra.6.t:0 "?–gŒg„v•bM–"
+ flavor_fra.6.d:0 "jO:N¥c×S1444t^þVSag¦u„v²Nbcÿ?–gŒg=OýV«ˆbú‹ÙuÕlýV06qwÿžRE–NÿÙS*gžR°s0¡l	gNMOñ‚ýVI`cw?aa«ˆ°‹OO:N>eV?–gŒg„vºNÿw(W[Root.Capital.GetCapitalName]„vpgúQ5ÏeìNðXðyÿbìN„vŒ2RãNhˆZÉ^··VÉb·âlS¡l	gˆcCg(Wag¦u-NZPúQÙN©‹ek0êŒr¦uåNegÿÕlýVOwY!kÐc’‘bìNÙN¹pÿ[FRA.Monarch.GetName]°s(WÈuŽN²NêYtdk‹Nÿv^úQ°s(WÒR’‚„vÎW™XNÿ‰BlÎW^•bM–0\nd–^—bìNS?–gŒg•bM–ÙuÕlýVÿ&TRbìNˆVïSýwb—4NLeùRLˆ¨R„vÅb`Y0"
+ flavor_fra.7.t:0 "?–gŒg„v•bM–"
+ flavor_fra.7.d:0 "jO:N¥c×S1444t^þVSag¦u„v²Nbcÿ?–gŒg=OýV«ˆbú‹ÙuÕlýV06qwÿžRE–NÿÙS*gžR°s0ñ‚ýVºNNQÞVÙ*Nî•˜˜ÿŠegŠf>f„v=fÿ¸‹Yñ‚ýV5–%„-N„vºN²‹:Nag¦uSNO«ˆSÍ‘0jO:NgTN!kSÕ‹ÿ[Root.Monarch.GetName]²Nê¥cÑ†N=OýV–™ýÿv^‰BlÎW^•bM–0\nSV0W„vc%c˜RÿKS¡r¡l	g³Y„v›RÏ‘µb—bIeûQÿFO¡l	gûNUOùaŒhˆfSb—rSbVÎWè•0"
+ flavor_fra.8.t:0 "?–gŒg„v•bM–"
+ flavor_fra.8.d:0 "jO:N¥c×S1444t^þVSag¦u„v²Nbcÿ?–gŒgá«ˆbú‹ÙuÕlýV06qwžRE–NÿÙ—‰øvSV•„vöeô•MbýwžR°s0[Root.Monarch.GetName] [Root.Monarch.GetHerselfHimself]„v0Reg<ONNòTÏuˆmd–†NÖbö^ÿgÈu?–gŒg°s(WòT(WbìN„vŒcµcKN-N0"
+ # generic_events:
+ EVTNAME4116:0 "ÈTÆYkyy"
+ EVTDESC4116:0 "ÈTÆY(u‹YÐŒT™™I…kyy`O0"
+ EVTOPTA4116:0 "jTV^Vÿ"
+ EVTOPTB4116:0 "0Œ0Œ`OÈTÆYÿ^—8^w‘0"
+ EVTNAME5060:0 "ÑS°s„b­ˆ"
+ EVTDESC5060:0 "œQlI`=f÷áO„vÿ„b­ˆ„vúQ°s(WbìNºNl-NVw†NP`La0ÖNìNZWáOÙ=föeãN+gåeSÑ„vh×VÿbwNEN„vSegOÑSuN‹Y„v‹NÅ`0"
+ EVTOPTF5060:0 "zrrrN*NºN‰|„vÃVeg‰Ršb„b­ˆÿ"
+ EVTOPTG5060:0 "‰=fbìN	g„b­ˆaÆ‹1S‹Y†N..."
+ EVTOPTH5060:0 "æT„b­ˆÿT›<›„v²NbŒTTO..."
+ EVTNAME4025:0 "$ARTIST$"
+ EVTDESC4025:0 "$ARTIST$«ˆ¸‹YºN²‹:N=fbìNÙ*NöeãNgO'Y„v(WNz‚=g¶RKNN0$ARTIST_POSS_PRONOUN$„v¸‹YjOÁT(W°sXR„vgW„TjOÁT-NTRMRƒ0"
+ EVTNAME4025.a:0 "$ADVISOR_REFORM_GROWTH$"
+ EVTDESC4025.a:0 "$ADVISOR_REFORM_GROWTH$«ˆ¸‹YºN²‹:N=fbìNÙ*NöeãNgO'Y„v(WNz‚=g¶RKNN0$ADVISOR_REFORM_GROWTH_POSS_PRONOUN$„v¸‹YjOÁT(W°sXR„vgW„TjOÁT-NTRMRƒ0"
+ # golden_century:
+ spare_jolly_roger:0 "sUcwm×v"
+ spare_jolly_roger_desc:0 "¾–S`ON¨‹ŒS	gºNÇwm›QÁy c`O„v8f‚‚¹pegcEˆ`OTÿ"
+ # goose_1_35:
+ MODIFIER_HAS_STRELTSY:0 "ýV¶RAQ¸‹yrŠkÇ–cOuQâV"
+ MODIFIER_ALLOWED_STRELTSY_FRACTION:0 "yrŠkÇ–cO›Qè–P–6RÔk‹O"
+ MODIFIER_AMOUNT_OF_STRELTSY:0 "yrŠkÇ–cO›Qè–P–6R"
+ MODIFIER_LOCAL_HAS_STRELTSY:0 "wýNAQ¸‹yrŠkÇ–cOuQâV"
+ STRELTSY_LIMIT_CULTURE:0 "$PROVINCE$=f$CULTURE$wýNÿàVdkNýw(WÙÌ‘ÛbßRyrŠkÇ–cOuQâV0"
+ STRELTSY_FORCELIMIT:0 "1uŽNåNNŸSàVÿbìNïSåNÛbßRØš¾$VAL|%Y$„v›Q›RP–6R$FL$jO:N§GyrŠkÇ–cOuQâV§!ÿ\n"
+ # government:
+ mechanic_maratha_general_interaction_yes:2 "=T(ulšÉb0W„^íVyrCg'§YlšÉb0W›Q‹N†˜üR§!'ÿgYïSÐc›O§G+5%§!ªu‹VŒT§R-15%§!z6e6eeQÿ	clšÉb0WW0WNb	gCgÔk‹OŒte0"
+ #mechanic_allow_banners_yes:0 "AQ¸‹ÛbßRÇ–cOuQ"
+ mechanic_foreign_slave_rulers_yes:0 "=T(u(W‰k¡Nöe	éb°eßu»lw0" # àV:NêS	g(W‹NöN-Nßu»lw‰k¡Nÿw(WdkKNMR¡l	g·ƒ—V°eßu»lwÿNNO(ustates-general:g6R„v0W¹eMbO9eØS0
+ mechanic_foreign_slave_rulers_no:0 "y(u(W‰k¡Nöe	éb°eßu»lw0"
+ # institutions:
+ sea_tooltip_port_open_sea_province_new_world:0 "lQwmN„v=nãSwýN"
+ sea_tooltip_port_inland_sea_province_new_world:0 "…QwmN„v=nãSwýN"
+ sea_tooltip_port_7_dev_open_sea_province_new_world:0 "lQwmN7ÑSUS¦^„v=nãSwýN"
+ sea_tooltip_no_port_20_dev_province_new_world:0 "20ÑSUS¦^„v…QF–wýN"
+ sea_tooltip_level_3_cot_province_new_world:0 "åb	g3µu8f-NÃV„vwýN"
+ sea_tooltip_development_5_post_1445:0 "5ÑSUS¦^wýN - 1445t^T"
+ tooltip_development_10:0 "10ÑSUS¦^wýN"
+ tooltip_development_20:0 "20ÑSUS¦^wýN"
+ sea_tooltip_development_30:0 "30ÑSUS¦^wýN"
+ tooltip_development_20_capital:0 "20ÑSUS¦^„v–™ý"
+ sea_tooltip_development_40_capital:0 "40ÑSUS¦^„v–™ý"
+ tooltip_development_5_post_1500:0 "5ÑSUS¦^wýN - 1500t^T"
+ sea_tooltip_paper_getting_printed:0 "	g¸u.VïSåNpS7R"
+ tooltip_owner_protestant:2 "^—8flQøSNýV¶R—RYe=f°eYe01WlQ—R09ei——Rbáw¯e>m"
+ tooltip_province_protestant_RB:0 "wýN=f°eYe01WlQ—R09ei——Rbáw¯e>m"
+ sea_tooltip_owner_confucianism:0 "^—8flQøSNýV¶R—RYe=fQ¶R"
+ sea_tooltip_province_confucianism:0 "wýN=fQ¶R"
+ # insults: # Many from BERTUS
+ insult_default2:0 "You don't frighten us you [Root.GetAdjective] p-dogs, go and boil your bottoms you sons of a silly person!NˆNûÑ‹"
+ insult_default3:0 "I blow my nose at you so called [Root.Monarch.GetName], you and your silly [Root.GetAdjective] knigets!NˆNûÑ‹"
+ insult_default4:0 "I don't want to talk to you no more you empty-headed animal food trough wiper, I fart in your general direction!NˆNûÑ‹"
+ insult_default5:0 "The small state of [Root.Capital.GetCapitalName] is a charming reminder of how Europe used to be: plague victims crawl elegantly down his downhills streets greasing the way with pus from their buboes.NˆNûÑ‹"
+ insult_default6:0 "You [Root.GetAdjective] and your pickled herring!NˆNûÑ‹"
+ insult_default7:0 "You know nothing [Root.Monarch.GetName].NˆNûÑ‹"
+ insult_default18:0 "Go play Candy crush!NˆNûÑ‹"
+ insult_default20:0 "Deus Vult!NˆNûÑ‹"
+ insult_default21:0 "Allahu Akbar!NˆNûÑ‹"
+ insult_pvp2:0 "Is this abstract art or just bullshit?NˆNûÑ‹"
+ insult_pvp3:0 "Raise your maintenance, I'm going to attackNˆNûÑ‹"
+ insult_pvp5:0 "Go play monopolyNˆNûÑ‹"
+ insult_pvp6:0 "Before the vice to asking, the virtue of not givingNˆNûÑ‹"
+ insult_pvp9:0 "You will die more than Imperator RomeNˆNûÑ‹"
+ insult_pvp10:0 "Hugboxer!NˆNûÑ‹"
+ # king_of_kings:
+ arm_coptic_restoration_insight_tt:0 "\n§G‹NöNmßRÿ§!\ndk‹NöNˆcˆNbìN¿‹î•§YˆcˆNaSætyrCg§!,r”Nµu?eœ^9ei—„vCgP–ÿùRNLuNNb	gÑynfyrwýNåb	g8lEN±RðyÿÃWÊS0W:SmN·ƒ—V†NåNNîOckÿ"
+ unlock_the_cawa_regiments_reform_tt:0 "ˆcˆNbìN¿‹î•§YˆcˆNaSætyrCg§!,r”Nµu?eœ^9ei—„vCgP–0"
+ mam_naval_ideas_yes_tt:1 "\n£yes£‚YœgbìNŒRbO‹Töeåb	gIrŽNb'YŽN§Y300§!„v0‚–ÿ"
+ geo_metropolitan_bonus_tt:0 "§Yky1W'YINYe§!°s(WÙuˆN§G-5.0%§!,g0WÑSUSb,g0"
+ border_nation1:0 "¹ƒXýV¶R" # NXR(W
+ border_nation1_desc:0 "šNŽ<SšNêäSåNegÿ8^8^=fàQ*N'YýVKNô•‰N—e„vb:Wÿ•¾pe*NNªu0sSO(WbìNb`YINCgTÿÝOc-NËz„vËz:WmN8^8^=fðV¾–„v0‰RšbÏk*NºN=fðV¾–„vÿFO=fÙ=fïSåNžR°s„v0"
+ sygnakhs1:0 "Sygnakhs" # NXR(W
+ sygnakhs1_desc:0 "Sygnakhs=fšNŽ<SšN„v›Q‹NÓu„gÿ(uŽNÛbßRÄuÇu02–¡Vû|ßu0áO÷SopTXŒTTäR=ec08^Ïk*Nmeliký	gêñT„vsygnakhÿFO=fôf'Y„vsygnakhs1uNT„vmeliksqQ«N0ú^ËzÙ7h„vsygnakhsObìNýwYôf	gHe0WÆ–ÓubìN„v›Q–0"
+ YEM_win_10_wars_against_heretics:0 "óSòT(W§Y6§!:Wˆ”ùR§YVïz§!„vb‰N-NÖS—V§YÜw)R§!0ÿîvMRÿ§Y[Root.GetNumWarsAgainstHeretics]§!.	ÿ"
+ YEM_win_20_wars_against_non_believers:0 "óSòT(W§Y10§!:Wˆ”ùR§YvQÖN—RYe§!„vb‰N-NÖS—V§YÜw)R§!0ÿîvMRÿ§Y[Root.GetNumWarsAgainstNonBelievers]§!.	ÿ"
+ mam_unlock_light_doctrine_tt:0 "ˆcˆN¿‹î•§Ylš(gYuKQFU9‚§!wm›QfRô‹ÿÙuˆNåNN…Q¹Rÿ\n9‚êS8f›RÏ‘ÿ§G+25%§!\n‰‹W9‚êSb,gÿ§G-30%§!"
+ mam_unlock_transports_doctrine_tt:1 "ˆcˆN¿‹î•§Ylš(gYuKQÐ“9‚§!wm›QfRô‹ÿÙuˆNåNN…Q¹Rÿ\nwm›QF–b–peÏ‘NP–ÿ§G+20%§!\n0‚–ûy¨R¦^ÿ§G+2§!"
+ # leviathan:
+ aotearoa_nation_title:0 "@AOT Äuú^eYyršNW"
+ unite_hawaii_title:0 "@HAW ßuNYZ7Y"
+ unite_fiji_title:0 "@VIT ßuNeNm"
+ # maghreb_formations:
+ moroccan_nation_title:0 "@MOR Äuú^idmåT‹sýV"
+ algiers_nation_title:0 "@ALG Äuú^?–SÊS)RšNýV¶R"
+ tunisian_nation_title:0 "@TUN Äuú^z<S¯eýV¶R"
+ tripoli_nation_title:0 "@TRP Äuú^„vÎžâlÌ‘"
+ # manchu:
+ extinguish_ming_tt:0 "§Y[Root.GetName]§!(W§Y-NýV§!!k'YF–NNb	g*gåb	g„vwýN·ƒ—V8lEN±Rðy"
+ PROV4684:0 "³uÌ‘ÆY"
+ PROV_ADJ4684:0 "³uÌ‘ÆY"
+ PROV4692:0 "³uLNVyÆY"
+ PROV_ADJ4692:0 "³uLNVyÆY"
+ # mandate_of_heaven:
+ HARMONIZE_DESC:0 "åb	gŒTŒ—RYe„vwýN«ˆÆ‰:N§Y$NAME$§!ÿ×S0R¹RÍV0\nuªV`O„vûNUOŒTŒ—RYe„výV¶RO²‹:N`O‹YÏPáOIY±*N—RYeN7h0\n§YïSýw„vŒTŒîOck§!ÿ\nkR - §GuµNHe‡s+5%§! \nàV - §GÏkgb‰N²u³R¦^-0.03§! \n<y - §GtõVb,g-5%§! \náO - §GekuQb—e›R+10%§! \nIN - §GhQtNán¦^-1§! \nzf - §GhQt:g„g.O­d¦^+20%§! \nÁN - §G¯uckáOðN¹RÍV¦^+1§! \n‚‚ - §G8fHe‡s+5%§! \nÚ‹ - §G3zšR'`b,g-10%§!"
+ disaster_active_for_10_years_tooltip:0 "Œp¾–òTÏuImÃ†N5t^0"
+ empire_of_china_nomadic_border_tt:0 "=fN*N§Y8ngrýV¶R§!v^Nåb	g§Y600§!„vê	gŒT^—g!^SýVI`ÑSUS"
+ eoc_nomadic_border_tooltip:0 "I`ÑSUSóS:N§Y600§!"
+ shinto_events.1.d:0 "(WNnxšR„vöegÿÙ›NW0W„vnlŒT*‚wmw8^8^É‹ø‹ŽNwm×vLˆ:NŒT­ˆûQbìN»ýV„vwm¸S0gTN!kÝÄ‰jmnoåNKakitsuag¦uÓumgÿvQ-NN›N'YT·ƒ—V†NTYýV=nãSÑSNšRpeÏ‘„v8fÜV„vCg)R0\n6qwÿöeãNŒTCg›Rs^aˆ=fYØS„vÿ'Bahan8f'Q!kb:NbìNãl-NŠegŠ8^Á‰„vLwN0N›N†˜INêñTVËYD©RbïygÂSN­ˆûQ0NdkTöeÿÙ›N'Wokou'wm×v„v×S³RwVËYT±›N.^©RI–bkZÁw„vºNÐc›O4YTˆŒTcƒ‰Š0\n\nWokouwm×v‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B0§!\n1) ‚Yœg‹NöN<P¾0R§B8bôfØš§!ÿR·ƒ—Vÿ§Gwµu8f›RÏ‘îOckÿ+20.0%§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT7KNô•§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+20.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§G9‚êSwEN¦^ÿ+20.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=f2N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B2§!ÿ§B-1§!ÿ§B3§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B1§!ÿ§B2§!ÿ§B3§!0"
+ shinto_events.1.aa.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.1.bb.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.2.d:0 "wm×vŒT­ˆûQLˆ:NcíužX R0ÂSNwÎNŽrUS„vnlŒTS†˜IN0RESOO(WYýV×SðVpbwm¸S¿uN„vºNý	g0–Nwöeô•„v¨cûyÿýV…QY„v:V'Y)RÊvVËYD©RbŸR„vwm×v–™†˜ÿwwegwm×vnc¹p°s(WM^bìN„v›SSŒTwm¸S0\n°s(W»ýVVËYÇ‘ÖSôf R%N‰S„vLˆ¨R0ÖNìNck(W:N­ˆûQw„v0RegZPÆQYÿv^ïygýUcwm×v–™†˜0bìN„v[Root.Monarch.GetTitle] [Root.Monarch.GetHerselfHimself]òTÏu6e0R†NYýVO‚‚„vfnxZÁwÿd–^—bìNÇ‘ÖS:VlxLˆ¨Rÿ&TRÖNìNSŠbbìN„v9‚êSÆ‰:NLeºNÿv^GPšRƒRìN=fwm×v-N„vNXT0\n\nWokouwm×v‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_wokou_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B8bôfØš§!ÿR·ƒ—Vÿ§Gwµu8f›RÏ‘îOckÿ+20.0%§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT7KNô•§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+20.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§G9‚êSwEN¦^ÿ+20.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=fgÈu‹NöNÿÐc›O	y˜ÿ<P:N§B1§!ÿ§B2§!ÿ§B3§!0"
+ shinto_events.2.aa.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.2.bb.tt:0 "§YS‹NöN<PžX R§M-1§!0§!"
+ shinto_events.2.cc.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.3.d:0 "[save_wokou_target.GetName]„v†˜INìNåNàeOu„vwm×vwû•TÿÖNìNc%c„vàVÚ‹ŒT0ÌRKˆN†NÖNìNèT'Y„vqVÍT›RŒTCg›R0(WN*N`—Ñwm¸S„v›SSNÿNMOyr+RbŸR„vwm×v–™†˜ú^Ëz†NN*NŒRhQ1uÖN„vÜV=ec„v‰^X0IeNÙ7h„v!X’WïSýwOØNúQØšf„vãN÷NÿFOÖNck(W2VrbìNêñT„vwm›QÄ–ÃV0\n\nWokouwm×v‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_wokou_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B8bôfØš§!ÿR·ƒ—Vÿ§Gwµu8f›RÏ‘îOckÿ+20.0%§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT7KNô•§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+20.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§G9‚êSwEN¦^ÿ+20.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0"
+ shinto_events.3.aa.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.3.bb.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.3.cc.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.4.d:0 "–Nwöeô•„v¨cûyÿbìN¾‹ÕlSWokouÎNN*NàeÕlàe)Y0Rce„vwm×v²SOlØS:NbìNc%cN„vwm›Q0–™†˜ìN«ˆë:NbìN„v[Root.Monarch.GetTitle]g¡Rÿv^(WbìN„výV¶R-N·ƒ—V†NqVÍT›RŒTCg›R0°s(WbìNc%cN„v9‚XTŒT9‚êS°s(W=fN=eNNNÏuŒš0NÌR„v›RÏ‘ÿýwYÛLˆ­ˆûQ0wmNb—euóùRYýV†˜WÛLˆSÄ‰!jeQµO0\nÎN[saved_neighbor.GetAdjective]„vRY—ÎW^0R[save_wokou_target.GetName]„vù•<›=nãSÿbìN„vwm›QäNºNOuç`ŒTSle0\n\nWokouwm×v‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_wokou_tt.GetValue]§!0"
+ shinto_events.5.d:0 "¸‹YºN(‘ubìNSbûQwmmŒTwm¸S¿uN„vxy³R„vípÅ`0	g›NºNuóô‹wm×vŒT c:YùRNb	g[Root.GetAdjective]nlegô‹=fê6qw6q„vÿbìNòTÏuùRÙÍyQS‘„vZPÕlÆ‰wNÁ‰†N0\n6qwÿ–Nwöeô•„v¨cûyÿbìN„v»ESfRO†NÑvÆ‰ÖNìN„vwm¸S¿uÿv^ýUcv^é`Y±›N4xOWŒTs^„vºN0Wokou­ˆûQ„v‘˜‡sêàQt^MR„vz6qÀožXåNegòTÏu>fW„NM–ÿùR[Root.GetAdjective]„vqVÍTˆVS0\n\nWokouwm×v‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_wokou_tt.GetValue]§!0"
+ shinto_events.6.d:0 "bìNùRµc6RbìN¿lwmºNãS-N„vjo(Wwm×v0­ˆûQwŒTpÁyw„vÀoÈpªR›RÿòTÏuObìN„vwmm?eVràQNNŒRhQlØS09hnc[Root.Monarch.GetTitle]„vÕläNÿNb	gnlý«ˆybkåb	gfkhVÿNb	g9‚êSýšRgdåg0°s(WùRNb	gzŠwmm„vºNý(u%N<h„vÄ‰RŒTÕlÄ‰ÿbìN„v°ewm¸Sf‹kSAQ¸‹bìNsQí•bìN„v†˜ßW0åNMR„vwm¸S­ˆûQîvh:Ndka0R1kœUå‚Ârÿv^ÍSÇeg:NbìN.^©RÖNìNôu²bŒTs^wPˆN†NèT'Y„vcƒ‰ŠŒTVY±R0\n\nWokouwm×v‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_wokou_tt.GetValue]§!0"
+ shinto_events.7.d:0 "(WN*NåeÊvLeùR„vNLuÌ‘ÿÎW!X„v‰RhQâe=fÝO²b„vbú‹mN=f1SN„v:gO0Yt^egÿfkëXìN>eV†NÖNìN(WœQQg„v¶RíVÿlwESOO(WÖNìNINºNÎW!XÎW™XN„vÎW^ÿFUºNŒTåT.SmN=f‚Ydk0bìN„v–™ý[Root.Capital.GetCapitalName]mNN‹OYÿƒR„vžX•Nôv=fbìN¡rtXTsQèl„v&q¹p0\n‚YœgbìNó`gSSkpŒpŒT¾uÅuIrî•˜˜ÿïSýw—‰°eDÑ‘eg9e„UúWNx¾‹Ëe0\n\nÎW^S‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B0§!\n1) ‚Yœg‹NöN<P¾0R§B8bôfØš§!ÿR·ƒ—Vÿ§GFUÁTuµNîOckÿ+15.0%§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT7KNô•§!ÿR·ƒ—Vÿ§GÑSUSb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§GŽb=gb,gÿ-10.0%§! cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=f2N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B2§!ÿ§B-1§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B1§!ÿ§B2§!ÿ§B3§!0"
+ shinto_events.7.aa.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.7.bb.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.8.d:0 "–NwœQQgºNãS„vžX RÿÏk*NœQlåb	g„vW0Wb—ïy–NwÏk!kçubý(WÏQS0KS¡rµNÏ‘(WžX RÿFON›NœQlÍN6qàeÕlO`—W0WuIm0¸‹YºN	ébÛÎWESOOÿÛNek RgR†N[Root.Capital.GetCapitalName]„vb•Ûuæ‚0\nW0WNb	gw±b(`v^s`BlbìNËe RôfY„v>yOéy^0ÖNìN:VÈpú^®‹bìNžRËeÕl‹VÿI–bkºNìN(WbìN†˜0W…Q„vAm¨R0\n\nÎW^S‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_urbanization_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B8bôfØš§!ÿR·ƒ—Vÿ§GFUÁTuµNîOckÿ+15.0%§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT7KNô•§!ÿR·ƒ—Vÿ§GÑSUSb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§GŽb=gb,gÿ-10.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=fgÈu‹NöNÿÐc›O	y˜ÿ<P:N§B1§!ÿ§B2§!ÿ§B3§!0"
+ shinto_events.8.aa.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.8.bb.tt:0 "§YS‹NöN<PžX R§M-1§!0§!"
+ shinto_events.9.d:0 "ÎW^žX•üRôbìNýV¶R„väSwZa8fLˆOÅžX RÖNìN„vCg›R0bìN†˜0W…QnfM÷mqN„vNS¿RmNasTNwÖNìNŠegŠOVêñT„v‰RhQ‰R’c0LˆO°s(WòTÏuSúR™^0W0WNb	gwŒTfkëXNÖNìN„v‹NNTwû|weg0FOÖNìNmN·ƒ—V†NLeºN0\nN›NºNs`BlbìN„v[Root.Monarch.GetTitle]ÙzúQegÍSùRLˆOÿ:N	gýw›R„vûNUOºNV>eÏuNm0vQÖNºN²‹:NbìNóS”^å‹TLˆOåNY„vºNÑS>e„W­eCgŒTyrCg0\n\nÎW^S‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_urbanization_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B8bôfØš§!ÿR·ƒ—Vÿ§GFUÁTuµNîOckÿ+15.0%§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT7KNô•§!ÿR·ƒ—Vÿ§GÑSUSb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§GŽb=gb,gÿ-10.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0"
+ shinto_events.9.aa.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.9.bb.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.9.cc.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.10.d:0 ":N†NùR—bbìNÅÎW^S„v>yONbb—4N„véy^ZÁwÿbìNžRËe†NNû|R%N<h„vÕl‹V0Ù›NÄ‰RŒTÕlÄ‰P–6R†NNTt„v>yOuóirtAm¨R'`0ÇÙÍy¹eVÿbìN¾‹ÕlÝOc†NYt^egNôv©‹bìN>yOâVÓu(WNw„vcƒ‰ŠŒT3zšR0\n\nÎW^S‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_urbanization_tt.GetValue]§!0"
+ shinto_events.11.d:0 "bìN„v†˜0WÏu†S†NøvùRŒR‹Y„vëVÎW^Söeg0ÏP[Root.Capital.GetCapitalName]Ù7h„vÎW^°s(W…ö^—Vôf'Y0ŠegŠY„vºNãS°s(W`—8f0åTz‚uó›Q‹Ng¡RŒuÿwN=f`—wÍyW0W,g«Ž0\n\nÎW^S‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_urbanization_tt.GetValue]§!0"
+ shinto_events.12.d:0 "N­ežX•„vºNãSŒTëVÎW^S:NbìN„v†˜0W&^eg†NøvSV'Y„v>yOAm¨R'`0bìNŸ±RÙ›N‹¿RÿåNÃOÛN*NEQánIm›R„v0KS¡rïSýwN3zšR„v>yO0USg*gegÿƒR=fN*N9eØS†N„v†˜0Wÿ(W±Ì‘ÿ(WàQãNºN„vöeô•…Qÿg8^Á‰„vLwNòTÏuÎNwÍyW0WØSb†NÎN‹NLˆ?e08fb›Q‹NåTjO0\n\nÎW^S‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_urbanization_tt.GetValue]§!0"
+ shinto_events.13.d:0 "(WÙ*N¨Raƒ„vöeãNÿŠegŠY„vºNlT—RYeûRBlcüRŒT‰RhQ0iOYeòTÏuN^ySYeqQXRˆV•öeô•†NÿFOgÑáO’V„vpeÏ‘žX•ÅÿôfY„viOYe.OßumNÛeQ†N[Root.GetAdjective]ºNl„våe8^uIm0\nê1uKN0WiOYe’V-Nf>f„vQeNŒT>yOAm¨R'`bú‹8TV†NˆVYºN0(WbìN„v†˜0WT0Wÿ°eúR™^·u·uV.Vÿ1uÌRºNŒTwzºND©R0\n\nIkko-Ikki‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B0§!\n1) ‚Yœg‹NöN<P¾0R§B9bôfØš§!ÿR·ƒ—Vÿ§GhQýVNán¦^ÿ-2.00§!ŒT§GÏkgê»l¦^ØSSÿ-0.05§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT8KNô•§!ÿR·ƒ—Vÿ§GýV¶RºN›RîOckÿ+15.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§G›Q–ëXlÿ+5.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0ØSÙuúQ³QšRÿðy:N'^yÎ˜'ÿb:N^yCgýV¶R0qQŒTýVblbc:N'YXNiOYe0\n–T=f2N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B3§!ÿ§B2§!ÿ§B1§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B1§!ÿ§B2§!ÿ§B3§!0"
+ shinto_events.13.aa.tt:0 "§YS‹NöN<PžX R§M0§!0§!"
+ shinto_events.13.bb.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.13.cc.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.14.d:0 "àVžR„v>y:SÿIkko-IkkiÿòTÏuVËY(W†˜0W…QIN‰iOYeúR™^hTôVb•:NSÎWG•0Ù›NÎW^NÅN(W¾|^yNwQ	gqVÍT›RÿƒRìNØc%cêñT„v2–¡V›RÏ‘ÿ1uNOµuW0WNb	gw„vfkëX0RfkÅˆœQlŒTçP±OÄub0Ikko-IkkilQ>yãNhˆ†NNÅN=fùRU^œ^wNùRµc6RhT¹W0W„vûNUO'YT„vs^LˆCgZ0\nÙ7hN*NlQ>y(W[ikko_province.GetName]„vNµ^úR™^hTôVtQwÿ‹†6qbìNïSýwýwYÎNÖNìN„v=ec-N×SÊvÿFOÙÍy—RYeÂríp0fkhVŒTê»l„v:V'Y÷mTùR'YTCgZ„gb†NZÁw0\n\nIkko-Ikki‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_ikko_shu_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B9bôfØš§!ÿR·ƒ—Vÿ§GhQýVNán¦^ÿ-2.00§!ŒT§GÏkgê»l¦^ØSSÿ-0.05§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT8KNô•§!ÿR·ƒ—Vÿ§GýV¶RºN›RîOckÿ+15.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§G›Q–ëXlÿ+5.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0ØSÙuúQ³QšRÿðy:N'^yÎ˜'ÿb:N^yCgýV¶R0qQŒTýVblbc:N'YXNiOYe0\n–T=fgÈu‹NöNÿÐc›O	y˜ÿ<P:N§B1§!ÿ§B2§!ÿ§B3§!0"
+ shinto_events.14.aa.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.14.bb.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.14.cc.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.15.d:0 "bìN†˜0W…Q„vIkko-IkkiØS—VŠegŠ:V'Y0ŠegŠYÿ2SvQ=fŠegŠ'YÆw0bìN„v˜RXT¥bJTô‹ÿ	göeIkki„vz6e6eÆ–w(WÖNìN0R¾Qg„^öeòTÏu6eÆ–Ç†NÿFUºNìN(WÏuÇÙ›N>y:SöemNNQa0R‰RhQ0Ikko-Ikki°s(W‚Ydk:V'YÿåNóŽN¸‹YºNVËY(‘uÖNìN„vyrCg0\n\nIkko-Ikki‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_ikko_shu_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B9bôfØš§! ÿR·ƒ—Vÿ§GhQýVNán¦^ÿ-2.00§!ŒT§GÏkgê»l¦^ØSSÿ-0.05§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT8KNô•§!ÿR·ƒ—Vÿ§GýV¶RºN›RîOckÿ+15.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§G›Q–ëXlÿ+5.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0ØSÙuúQ³QšRÿðy:N'^yÎ˜'ÿb:N^yCgýV¶R0qQŒTýVblbc:N'YXNiOYe0"
+ shinto_events.15.bb.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.15.cc.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.15.aa.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.16.d:0 "bìNÈuŽNbŸR0WO6R†NNTNÆcÿåNÊSÖNìNµc6RN„vÎWG•0œQlòTÏu«ˆã‰d–fkÅˆÿ°s(WêS	gbìN„vãNhˆ	gCgV6eLˆ90z6eåNÊSùRY2–¡V0\n\nNTNÆc‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_ikko_shu_tt.GetValue]§!0"
+ shinto_events.17.d:0 "NT>y:S<ONNèlšR‰YuNeg0‹†6qbìNÕ‹þVÝO²bbìNêñT„vCgZÿFObìNmN©‹ekÙu5–KSøvSV„vCg)RŒTyrCgÿwwegÖNìNSçuíu(WbìN„v>yO-NnboÍ‘‰Ò‰r‚0\n\nNTNÆc‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_ikko_shu_tt.GetValue]§!0"
+ shinto_events.18.d:0 "bìNNôv(W=ecúR™^>y:S„vÑSUSÿàVdkbìNNNTNÆc	g†NTwû|0iOYeúR™^>y:S„v†˜–ˆïSýw(WbìN„v>yO-N	gˆV'Y„vqVÍT›RÿFOÖNìNmN=fbìN[Root.Monarch.GetTitle]„vZWšR=ecw0\n\nNTNÆc‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_ikko_shu_tt.GetValue]§!0\nÐc›OT:N^yÎ˜„v³QšRÿb:N^yCgýV¶R0qQŒTýVblbc:N'YXNiOYe0"
+ shinto_events.19.d:0 "¸‹Yåe,g„vIN‰'YT‰HN=fê›Rôfu„vºNÿ‰HNOVŽNÙ›NºN„vàVÚ‹06qwÿbìNçe„vS·VÆQR:VŒNˆßuŒTàVÚ‹„vÍ‘‰'`ÿåNÊSôVÕu‡v²R„véy^0Q¶RfRw°s(Wck(W¢c0t1g¹q„vYeüRÿåNcüRbìNýV¶R„v»lt0\nÙÍyùR°eQfR„v°etQ±:VŒÛVfNwN=fäSw„vÏuxQÿv^Õ‹þV:N0W¹eßu»lwŒTnfºNÐc›Ot'`„vS·VÆQR0\n\n°eQfR‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B0§!\n1) ‚Yœg‹NöN<P¾0R§B7bôfØš§!ÿR·ƒ—Vÿ§GÏkt^ðXgÿ+1.00§!ŒT§GÏkt^TÕl'`ÿ+1.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B5ŒT6KNô•§!ÿR·ƒ—Vÿ§GŽb=gb,gÿ-5.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B4bôfNO§!ÿR·ƒ—Vÿ§GÏkgê»l¦^ØSSÿ-0.10§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=f2N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B1§!ÿ§B3§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B2§!ÿ§B3§!0"
+ shinto_events.19.aa.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.19.bb.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.20.d:0 "°eQfRtó`(WbìN>yO„v.O­düRô¸‹YúQ«ŽQS®V„vºNNGS0RåwÆ‹qVÍT›R„vMOn0vQ-NNMOôfpgúQ„vfRw=fjmºN„vTãNÿÖNŒTvQÖNQ¶RfRwSb—rÇlQV²‹µ^ŒT(uŽrUSí‹Š™Q„vfNOfR`Nôf^Ûl0WïS(u0\n(WˆVY¹eb—ÿÙ=fùRçe>yOéy^„vcbÿfR`Nþf=fNÍyyrCgÿÅNP–ŽNcknx„v¶RÏeNˆßu0\n\n°eQfR‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_neo_confucianism_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B7bôfØš§!ÿR·ƒ—Vÿ§GÏkt^ðXgÿ+1.00§!ŒT§GÏkt^TÕl'`ÿ+1.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B5ŒT6KNô•§!ÿR·ƒ—Vÿ§GŽb=gb,gÿ-5.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B4bôfNO§!ÿR·ƒ—Vÿ§GÏkgê»l¦^ØSSÿ-0.10§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=fgÈu‹NöNÿÐc›O	y˜ÿ<P:N§B2§!ÿ§B3§!0"
+ shinto_events.20.aa.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.20.bb.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.21.d:0 "ÎNS[Root.Monarch.GetName]1SNôv(WxvzQ¶R‡e,gŒT,TÖS°eQ¶R²‹µ^0jO:N[Root.GetName]„v[Root.Monarch.GetTitle]ÿ[Root.Monarch.GetSheHe]°s(W	gýw›RSÙ›NòTfRŸSRØNø‹žRõ0N*NÄ–ÃVÃRÃR„v¡‹RS=f9hd–±›N(WbìN†˜0W…QÅNàVúQ«ŽŒTbìN¶RÏeKNô•äSw„vàVÚ‹Ëu&^wåb	gqVÍT›R„vàeýwKNˆ0\nSV6qÿbìNàVÚ‹„vSãïSýwOSdkÆ‰:NØVi`INŒTàeïz„vLea0\n\n°eQfR‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_neo_confucianism_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B7bôfØš§!ÿR·ƒ—Vÿ§GÏkt^ðXgÿ+1.00§!ŒT§GÏkt^TÕl'`ÿ+1.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B5ŒT6KNô•§!ÿR·ƒ—Vÿ§GŽb=gb,gÿ-5.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B4bôfNO§!ÿR·ƒ—Vÿ§GÏkgê»l¦^ØSSÿ-0.10§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0"
+ shinto_events.21.aa.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.21.bb.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.22.d:0 "bìNòTÏu(W1g¹q„vYeüRŒT-NýV„vQ¶R.Oßu-NûRBl†NNÍy°e„vßu»lòTfR0Ù›Ntó`«ˆÁ‹fNÅN=fbìN˜RÚP:g„g„vZWžRúWNxÿmN=fbìNte*N>yO„vZWžRúWNx0t'``w0ôf^Ûl„vÆ‹WR‡sŒTôfnpf„vÍ‘Æ‰ŸRéuw^—úQ«ŽÿO—V[Root.GetAdjective]ýwY(W¨Raƒ„vöeãNú^ËzN*Nôf:V'Y„výV¶R0\n\n°eQfR‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_neo_confucianism_tt.GetValue]§!0"
+ shinto_events.23.d:0 "‹†6qòTfR„vIN‰¿u0tþfÏu=fÎN.Oßu„våe,g÷N<PÂ‰lT-NýVºNôf Rt'`„v¹eÕlÿFOòTfR¶RŒTfRw„vsQèl¹p°s(WòTÏulûy0R*NºN1ûNN0ÇRsQèlzf›RýVÆ‰†N1rŒTTÅ`„vžRE–a×SÿÙ=fŸRýw>yO„vúWNx0\n0º‹í‹0„vã‰Ê‘ŒT¨‹º‹ïSýwOçuíu06qwÿ–Nw°s(W^Ûl„vÆ‹WR‡sŒTùRÏuxQŒTfNM|„vŸq‰`ÿôf'Y„v>yO²SOïSåNÂSNvQ-N0\n\n°eQfR‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_neo_confucianism_tt.GetValue]§!0"
+ shinto_events.24.d:0 "‹†6qbìN,TÖS†N1g¹qIrQ¶RfRw„v°eã‰Ê‘ÿFObìNv^¡l	g1Y»SùRbìNºNläSw.Oßu„vsQèl0bìNòTÏuÁ‹f†NbìNÍN6qÍ‘Æ‰‡v²RŒTbìNVyHQôuc„väSw4YTˆŒTàVÚ‹SOû|0\n\n°eQfR‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_neo_confucianism_tt.GetValue]§!0"
+ shinto_events.25.d:0 "–Nw‰¹e9‚êS„v0RegÿbìNw0R†Negê'k2måNÊS‰¹eFUºN‘˜AuIQŒ˜„všN2mT*NÒ‰K„„v%`—FUÁT„vŒmeQ0'Y‹W9‚êSŠegŠ‘˜Au0WúQ°s(WbìN„vwm¸S¿uNÿùRŽN0kÎÖNìN„v'YTegô‹ÿƒRìNbú‹†NèT'Y„v0ÌR0\nÙ7h„v9‚êS„v9‚•gÑ0R¾†N[nanban_traders_here.GetName]ÿ÷‹BlbìNAQ¸‹ÖNìNšRg(WD–Ñ„v=nãSjP`—ÿåN^:W‰¹eFUÁT0\n\nWSî†8f‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B4§!\n1) ‚Yœg‹NöN<P¾0R§B6bôfØš§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+10.0%§!ŒT§G¯uckáOðN„v¹RÍV¦^ÿ+2.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B2ŒT5KNô•§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+15.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B1bôfNO§!ÿR·ƒ—Vÿ§GtõVb,gÿ-5.0%§!ŒT§G:g„g.O­dÿ+10.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=f	N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B-1§!ÿ§B0§!ÿ§B2§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B-1§!ÿ§B1§!0,r	N*N‹NöNÐc›O	y˜ÿ<P:N§B-1§!ÿ§B2§!0"
+ shinto_events.25.aa.tt:0 "§YS‹NöN<PžX R§M-1§!0§!"
+ shinto_events.25.bb.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.25.cc.tt:0 "§YS‹NöN<PžX R§M0§!0§!"
+ shinto_events.26.d:0 "êÎN‰¹eºN0RegTÿN›NºNùRÖNìNc`‘u`¦^0ÖNìN„vãS‹ˆˆVñmÿfkhV:V'YÿùRN›NºNegô‹ÿÖNìN„v‡eS<ONNˆV÷ºN06qwÿNÙ›NFUºNSb²NS„vºN¥bJTô‹ÿ'k2mºNI`=f(W’NøvVrR0àQNNÏk!kNYýVO‚‚Ob—ÿÖNìNýOf‹JTbìNÖNìN„vùRKb„vN›N4–Œb¡‹R0ˆVf>fÿbìNN=f(WŒT	gcƒ‰Ša„vºNSb²NS0\n–NwN²°e„vFUºN‰BlbìNžX RÖNìN„vyrCgÿbìN„vŒ˜î•JTë‹bìN‰ÔNÆuwQ†Ù*NÐc®‹0\n\nWSî†8f‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_nanban_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B6bôfØš§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+10.0%§!ŒT§G¯uckáOðN„v¹RÍV¦^ÿ+2.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B2ŒT5KNô•§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+15.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B1bôfNO§!ÿR·ƒ—Vÿ§GtõVb,gÿ-5.0%§!ŒT§G:g„g.O­dÿ+10.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=f2N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B-1§!ÿ§B1§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B-1§!ÿ§B2§!0"
+ shinto_events.26.aa.tt:0 "§YS‹NöN<PžX R§M-1§!."
+ shinto_events.26.bb.tt:0 "§YS‹NöN<PžX R§M0§!."
+ shinto_events.26.cc.tt:0 "§YS‹NöN<PžX R§M1§!."
+ shinto_events.27.d:0 "(W[nanban_traders_here.GetName]„v8fÙzNÅNVËY8TVFUºNÿØ8TV†NfRwŒTåwÆ‹RPR0ùRÙ›NºNegô‹ÿYýVºN&^eg„vfNM|ÔkÖNìNó`‰úQ.U„vFUÁTôf	g÷N<P0xvz‰¹eÑyfRŒT‡eSÿsSpQfRÿck(WÑSUSb:NêñT„vfRÑyÿv^N9hnc=ecw„vô‹ÕlÿbìN	gˆVY—‰fR`N„v0W¹e06qwÿ¸‹Y^yLwºNXTc`‘u`¦^ÿN›NQ¶RfRwmN=f‚Ydk0\n\nWSî†8f‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_nanban_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B6bôfØš§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+10.0%§!ŒT§G¯uckáOðN„v¹RÍV¦^ÿ+2.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B2ŒT5KNô•§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+15.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B1bôfNO§!ÿR·ƒ—Vÿ§GtõVb,gÿ-5.0%§!ŒT§G:g„g.O­dÿ+10.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=fgÈu‹NöNÿÐc›O	y˜ÿ<P:N§B-1§!ÿ§B2§!0"
+ shinto_events.27.aa.tt:0 "§YS‹NöN<PžX R§M-1§!0§!"
+ shinto_events.27.bb.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.28.d:0 "N›NºN²‹:NbìNÇŽNOVYýVFUºN†N0bìNêñT„våT.S¯wšRNÔkýVY„vîTÿNvQ±‚9èTDÛãSegêYèNLu„v6RbÁTÿbìNêñTmNïSåNuµNvQ-N„v¸‹YFUÁT06qTbìN1SïSåNÎN-N·ƒ)R0\n°s(WØN=fŒRhQjPbk8f„vöePÿFO‚YœgbìN©‹bìNgO'Y„våT.SåTjOÿbìNïSýw(WSegNQ±HN%`R0WIr…VNNX‚8f9‚„v0Reg0\n\nWSî†8f‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_nanban_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B6bôfØš§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+10.0%§!ŒT§G¯uckáOðN„v¹RÍV¦^ÿ+2.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B2ŒT5KNô•§!ÿR·ƒ—Vÿ§G8fHe‡sÿ+15.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B1bôfNO§!ÿR·ƒ—Vÿ§GtõVb,gÿ-5.0%§!ŒT§G:g„g.O­dÿ+10.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0"
+ shinto_events.28.aa.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.28.bb.tt:0 "§YS‹NöN<PžX R§M-1§!0§!"
+ shinto_events.29.d:0 "N‰¹e„vOb—ùRbìN[Root.GetAdjective]egô‹=fN*NøvSV¨Raƒ„vmGÿbìN0kÎ‰¹eFUºN„vªR›R:NbìN&^eg†NùR'k2m‡eS„vàeN&OÔk„vmßR›RÿåNÊSùRÖNìN„vFUÁT„vo‚‹Y·ƒÖS0	gÛÖSÃV„výV%mºNŒTvQÖN	gqVÍT›R„vºNòTÏuVËYSÖNìN„v?QPR0R'k2m»Sôv¥cfR`N‰¹eºNÿÕ‹þVÑS˜cKSïSýwY„vbìNïSåN(WýV…Q)R(u„vN‰0\n\nWSî†8f‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_nanban_tt.GetValue]§!0"
+ shinto_events.30.d:0 "–Nwöeô•„v¨cûyÿN‰¹e„v8f6eeQòTÏuÎNgR„vØšðSNM–ÿFOÙ›NegêÜ¹eÅeLˆw„vFUÁTŒT`ó`„vŒmeQÍN(W9eØSbìN„v>yOÿOvQNQ=fÇ»S„v7hPR0êS	göeô•ýwJTÉ‹bìNïSýw(WY'Yz¦^NTSÙ›NÜ¹eÅeLˆw„vtó`0\n\nWSî†8f‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_nanban_tt.GetValue]§!0"
+ shinto_events.31.d:0 "bìNòTÏuÇ‘ÖS†N	g›R„vLˆ¨RegP–6R‰¹eFUºNùRbìN>yO„vqVÍT0‹†6qÕ‹þVŒRhQR­eNb	gTwû|ïSýwOüRôpÁyÿbìNòTÏuSFUºNP–6R(WN*N=nãSÿv^NbìN%N<hÑv¡rÖNìNNå‹¥cæ‰¹pKNY„vNLu„v’N¨R0Ù7hbìN1SïSåNÂSNbìN^g·ƒ—V„vFUÁTÿŒTªg=e	ÿÿTöeP–6R ˜†‰'`—RYeOþVbVrR„vÎ˜i–0\n\nWSî†8f‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_nanban_tt.GetValue]§!0"
+ shinto_events.32.d:0 "–Nw‰¹eFUºN„v0Regÿ,rNyb¿O:dVkphVòTÏueg0RbìN„v†˜0W0Ù›NfkhVNÙÌ‘O(u„vfkhVNTÿ‚YœgƒRìN^Ûl.O­dÿƒRìNbú‹S‰V•^9eØSb‰N06qwÿ·ƒ—V³YpeÏ‘„vkphVv^NÏPwweg±HNŽrUS0kpªg(W±›NÁ‰ÇƒRìNZ›R„vºN-N—BlÏ‘ˆV'YÿFOƒRìNïSýw(WLeºNKb-Nÿuó(WN*NNˆRÄ‰éw„vœQl>y:SKb-NýwZPÀNHN„vMRofmNT7häNºNN‰R0\n–NwbìNVËYuµNv^YeüRbìN„vëXuQO(uÙ›NfkhVÿbìN—‰³QšRŒSýwY¥cæ‰0RÙ›Nªg=eÿåNÊSbìNS6R.YS0\n\nkphVibce‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B1§!\n1) ‚Yœg‹NöN<P¾0R§B5bôfØš§!ÿR·ƒ—Vÿ§G›Q–ëXlÿ+15.0%§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT4KNô•§!ÿR·ƒ—Vÿ§GekuQb—e›Rÿ+10.0%§!cíu50t^ÿv^ÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§GF–0WkphV2O³Rÿ+10.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=f2N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B-1§!ÿ§B1§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B-1§!ÿ§B1§!0"
+ shinto_events.32.aa.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.32.bb.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.33.d:0 "YýVºN&^ÙubìN„vçqÑSªgÔkbìN„˜g„vôf¹Rf'YÄ‰!juµN0–NwŠegŠY„vbìN„v›Q–ïSåN(uÙ›NªgÅˆYÿˆVf>fbìNàeÕl	gHe0WP–6RƒRìN.O­d0RbìN„vLeºNbnfºN0‚YœgbìNw„v^gÏQSAm-N„vkphVÿbìNSN—VNˆVëVÇ‘ÖS^—8^ZWšR„vLˆ¨R0\n\nkphVibce‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_firearms_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B5bôfØš§!ÿR·ƒ—Vÿ§G›Q–ëXlÿ+15.0%§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT4KNô•§!ÿR·ƒ—Vÿ§GekuQb—e›Rÿ+10.0%§!cíu50t^ÿv^ÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§GF–0WkphV2O³Rÿ+10.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n–T=fgÈu‹NöNÿÐc›O	y˜ÿ<P:N§B-1§!ÿ§B1§!0"
+ shinto_events.33.aa.tt:0 "§YS‹NöN<PžX R§M-1§!0§!"
+ shinto_events.33.bb.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.34.d:0 "–NwkphV„v°eœœanˆmÿˆVf>fƒRìNv^NÏPéeg=ecwðXðy„v±7hØšHe0Ç­‹ÃuÿbìN¯wšRïSåNÐcØšƒRìN„vHe‡sÿbìN„vN›NÁ”.SmNÐcúQ†N9eÛfkhV,g«Ž„v¹eÕl0vQÖNºNR²‹:NbìN”^å‹SbìN„vÁ”.SŒTëXuQ„vöeô•±‚(Wôf.Oßu„vfkhVN0bìN„vVyHQ„vfkhV(Wb—e-N<ONNÍN6qg	gqVÍT›RÿbìNb¸‹”^å‹SÍ‘ÖNìN„v.Oßu0\n\nkphVibce‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_firearms_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B5bôfØš§!ÿR·ƒ—Vÿ§G›Q–ëXlÿ+15.0%§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n2) ‚Yœg‹NöN<P(W§B3ŒT4KNô•§!ÿR·ƒ—Vÿ§GekuQb—e›Rÿ+10.0%§!cíu50t^ÿv^ÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B2bôfNO§!ÿR·ƒ—Vÿ§GF–0WkphV2O³Rÿ+10.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0"
+ shinto_events.34.aa.tt:0 "§YS‹NöN<PžX R§M-1§!0§!"
+ shinto_events.34.bb.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.35.d:0 "êÎN,rNybkpóuªgVËYúQ°s(WbìN„vW0WNÿƒRìNòTÏuÎN°eGY‹NirØSb†Nôf8^(u„vfkhVKNN0N›NºNuóðXðybìN6R.„vfkhVÔkƒRìN„vŸSµNýVôfY0ôf‹Y0ÙO—VûNUOó`‰ÍSùRbìNßu»l„vºNýåb	g†NqSi–„vfkhVÿFOªg°h„vëVÇ‘(umNObìN„v›Q–b:NÔk¸‹YvQÖNýV¶Rôf×SSle„v›RÏ‘0\n\nkphVibce‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_firearms_tt.GetValue]§!0Since the first matchlocks started appearing in our lands they have gone from being a novelty to one of the more common weapons in use. Some even claim we make more and better weapons than their originating countries do. This has placed a dangerous weapon in the hands of anyone who would oppose our rule, but the rapid adoption of the guns has also made our armies a more respected force than many others.\n\nProliferation of Firearms Incident outcome:\nFinal Incident value is §B[Root.incident_firearms_tt.GetValue]§!."
+ shinto_events.36.d:0 "êÎN,rNybkpóuªgVËYúQ°s(WbìN„vW0WNÿƒRìNòTÏuÎN°eGY‹NirØSb†Nôf8^(u„vfkhVKNN0–Nw°eœœanˆmÿvQÖNßu»lwmNÇ‘(u†NƒRìNÿÙ›NfkhVNQ«ˆÆ‰:Nb:WN„vi—‹TÿFOƒRìNÍN6qXR(WŽNNè•O(uƒRìN„vâVÌ‘0(Ws^luIm-NÿmNòT`Nï`ŽNO(ukpªgjO:Nf‹kSŒTsºN0\n\nkphVibce‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_firearms_tt.GetValue]§!0"
+ shinto_events.37.d:0 "bìNv^¡l	gSNb	g¾|›Rý•beQ0RkphV„vO(uŒT.O­dNÿw=fÕ‹þVP–6RƒRìNÿøvÍSÿbìNŸ±RO(uQRŒTÛw0kpªgïSýwgÈuOØS—Vôf RnfMÿFO1SîvMRwŠÿbìNÍN6qøváOÙ›NÏuxQfkhVS:NbìN„v†˜0W&^egcƒwŒTcƒ‰Š0\n\nkphVibce‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_firearms_tt.GetValue]§!0"
+ shinto_events.38.d:0 "–Nw'k2mºN„v0RegÿbìN¥cæ‰0R†NNÍy°e„v‡eSŒTNÍy°e„v—RYe0(WÐg›N¹eb—ƒRwwegŒTbìN„vøv<OÿFO(WvQÖN¹eb—ƒRùRbìNegô‹ŒRhQL–u0N²7uºNòTÏu0R¾[Root.Capital.GetCapitalName]ÿÕ‹þV.O­dN*NúWcw^y„vyó—06qwÿÖNìN„váOo`wweg^—8^GY*`ÿïSýw=f1uŽNàeýwbv`a„vûÑ‹0\n(WÖNìN%`R0WnxÝO[Root.Monarch.GetName]„v^©RNÿ.OYeëXìNúQ°söe¡l	g&^eg<yirÿØáwô‹kQS0Ù=fùRbìN[Root.Monarch.GetTitle]„v%NÍ‘Nleÿ6qwÿN›NºNOf‹JTô‹ÿÙ›N1Yï‹asTNwÖNìNëR—‰bìN„v.^©R0\n\núWcwYe.O­d‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B0§!\n1) ‚Yœg‹NöN<P¾0R§B11bôfØš§!ÿR·ƒ—Vÿ§GŒ˜î•b,gÿ-25.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B6ŒT10KNô•§!ÿR·ƒ—Vÿ§GtõVb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B5bôfNO§!ÿR·ƒ—Vÿ§G¯uckáOðN„v¹RÍV¦^ÿ+3.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n–T=f”N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B3§!ÿ‚Yœg	gçubºNRïS(u	ÿÿ§B2§!ÿÙuˆNSV0WúWcwYe.OYewýNîOck	ÿÿ§B-1§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B2§!ÿÙuˆNSV0WúWcwYe.OYewýNîOck	ÿÿ§B-1§!0,r	N*N‹NöNÐc›O	y˜ÿ<P:N§B3§!ÿ§B1§!0,rÛV*N‹NöNÐc›O‹NöNÿÙuˆN<P:N§B2§!ÿ§B-5§!ÿb<P:N§B0§!0,r”N*N‹NöNÐc›O	y˜ÿ<P:N§B1§!ÿ‚Yœg	gSV0WúWcwYe.OYewýNîOckRïS(u	ÿÿ§B-2§!0"
+ shinto_events.38.aa.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.38.bb.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.38.cc.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.39.da:0 "N²úWcw’VÊN)Yeg0R[Root.Capital.GetCapitalName]„v«R÷^ÿ÷‹BlAQ¸‹ÖNìN(WbìNO'Y„vÎW^-NRú^N*NáO’V„vS>y:S06qTÖNìNSgqŒ˜wzºNÿv^YeüR±›N?aa>P,T„vºNsQŽNÖNìN„v^y0\n.OYeëXØÐcúQYe²wbìNêñT„v[Root.Heir.GetName]sQŽNN^„v¹eVÿåNÊSúWcwYeÑyfR„vfRÑy0iOYe^yLwºNXTåNÊSbìN„vN›NýV%mºNýf‹JTbìNÿÖNìN²‹:NÙ=fùRbìNäSw.Oßu„v’Q¯rÿwbìN†˜0W…Q„vFUºN^g‚YœgbìN©‹ÖNìNYuNegÿ1SýwN‰¹eºN¾b	g÷N<P„v8fOS®‹0\n\núWcwYe.O­d‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B11bôfØš§!ÿR·ƒ—Vÿ§GŒ˜î•b,gÿ-25.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B6ŒT10KNô•§!ÿR·ƒ—Vÿ§GtõVb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B5bôfNO§!ÿR·ƒ—Vÿ§G¯uckáOðN„v¹RÍV¦^ÿ+3.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n–T=fÛV*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B2§!ÿÙuˆNSV0WúWcwYe.OYewýNîOck	ÿÿ§B-1§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B3§!ÿ§B1§!0,r	N*N‹NöNÐc›O	y˜ÿ‹NöNÙuˆN<P:N§B2§!ÿ§B-5§!ÿb<P:N§B0§!0,rÛV*N‹NöNÐc›O	y˜ÿ<P:N§B1§!ÿ‚Yœg	gSV0WúWcwYe.OYewýNîOckRïS(u	ÿÿ§B-2§!0"
+ shinto_events.39.db:0 "N²úWcw’VÊN)Yeg0R[Root.Capital.GetCapitalName]„v«R÷^ÿ÷‹BlAQ¸‹ÖNìN(WbìNO'Y„vÎW^-NRú^N*NáO’V„vS>y:S06qTÖNìNSgqŒ˜ÎW^-N„vwzºNÿv^YeüR±›N?aa>P,T„vºNsQŽNÖNìN„v^y0\niOYe^yLwºNXTåNÊSbìN„vN›NýV%mºNýf‹JTbìNÿÖNìN²‹:NÙ=fùRbìNäSw.Oßu„v’Q¯rÿwbìN†˜0W…Q„vFUºN^g‚YœgbìN©‹ÖNìNYuNegÿ1SýwN‰¹eºN¾b	g÷N<P„v8fOS®‹0\n\núWcwYe.O­d‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B11bôfØš§!ÿR·ƒ—Vÿ§GŒ˜î•b,gÿ-25.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B6ŒT10KNô•§!ÿR·ƒ—Vÿ§GtõVb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B5bôfNO§!ÿR·ƒ—Vÿ§G¯uckáOðN„v¹RÍV¦^ÿ+3.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n–T=fÛV*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B2§!ÿÙuˆNSV0WúWcwYe.OYewýNîOck	ÿÿ§B-1§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B3§!ÿ§B1§!0,r	N*N‹NöNÐc›O	y˜ÿ‹NöNÙuˆN<P:N§B2§!ÿ§B-5§!ÿb<P:N§B0§!0,rÛV*N‹NöNÐc›O	y˜ÿ<P:N§B1§!ÿ‚Yœg	gSV0WúWcwYe.OYewýNîOckRïS(u	ÿÿ§B-2§!0"
+ shinto_events.39.aa.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.39.cc.tt:0 "§YS‹NöN<PžX R§M-1§!0§!"
+ shinto_events.40.d:0 "N²úWcwYe.OYeëXT[Root.Monarch.GetName]ÐcúQ†NN*NÐc®‹ÿÖNìN?aaSÖNìNVyýV„v'Y‹W8f9‚êSlûy0RbìN„v=nãSÿ‚YœgbìNAQ¸‹ÖNìN(Wwm¹:NúWcw’VˆvOwRú^N*N>y:S0Ù=fN*NùRbìN„vFUºNegô‹wQ	gøvSV÷N<P„vÐc®‹0\n\núWcwYe.O­d‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B11bôfØš§!ÿR·ƒ—Vÿ§GŒ˜î•b,gÿ-25.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B6ŒT10KNô•§!ÿR·ƒ—Vÿ§GtõVb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B5bôfNO§!ÿR·ƒ—Vÿ§G¯uckáOðN„v¹RÍV¦^ÿ+3.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n–T=f	N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B3§!ÿ§B1§!0,rŒN*N‹NöNÐc›O	y˜ÿ‹NöNÙuˆN<P:N§B2§!ÿ§B-5§!ÿb<P:N§B0§!0,r	N*N‹NöNÐc›O	y˜ÿ<P:N§B1§!ÿ‚Yœgåb	gSV0WúWcwYe.OYewýNîOckRïS(u	ÿÿ§B-2§!0"
+ shinto_events.40.aa.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.40.bb.tt:0 "§YS‹NöN<PžX R§M-1§!0§!"
+ shinto_events.41.d:0 "úWcwYe.OYeëX(WbìNW0WN„vLˆ:NNôvˆVo‚‹YÿêÎNÖNìNeg0RÙÌ‘šRESåNeg0ÖNìNuˆRÕl‹VÿŠegŠY„vºNVËYw0RÖNìN„v^y„vIQ’‚0ÖNìN„v†˜–ˆòTÏub—V†NjO:NN*NOÀyŒã‰XT„vðX‰ŠÿÖNïSýwOb:NN*NOÀy„vè•0ÖNTaÙN¹pÿagöN=fbìN:NvQÖNåe,g„vNLu†˜–ˆ™QNS¨cPƒáO0\nSV6qÿbìNôf.Oßu„vSãOSÖN„vûN‹TÆ‰:NùRbìN.OßuŒTÖNìNêñT„v’Q¯r0ÖNìN„vêS†˜–ˆmNïSýwó`‰ÅbûN˜RLwÿKS¡rÖN„vMbýw(WvQÖN†˜ßW0\n\núWcwYe.O­d‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B11bôfØš§!ÿR·ƒ—Vÿ§GŒ˜î•b,gÿ-25.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B6ŒT10KNô•§!ÿR·ƒ—Vÿ§GtõVb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B5bôfNO§!ÿR·ƒ—Vÿ§G¯uckáOðN„v¹RÍV¦^ÿ+3.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n–T=f2N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ‹NöNÙuˆN<P:N§B2§!ÿ§B-5§!ÿb<P:N§B0§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B1§!ÿ‚Yœgåb	gSV0WúWcwYe.OYewýNîOckRïS(u	ÿÿ§B-2§!0"
+ shinto_events.41.aa.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.41.bb.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.42.d:0 "bìNòTÏu¥c0R†NbìNg	g÷N<P„výV%mºNŒTbìN†˜0W…Q„vúR™^>y:S„v>f‰ºNir„v'YÏ‘÷‹Bl0ÖNìNý‰BlbìNŒågúWcwYe„v ˜†‰'`(0ÖNìN²‹:NÙÍyYeg—RYeck(W4xOWbìN„v.Oßuÿ®O±bìN„vVyHQÿv^‰BlbìNùRÙÍyáOðNÛLˆ¡R2RÿAQ¸‹<P—VáOV„vcƒ‰ŠŒTÁT(„vºNegŒågdk‹N0\n\núWcwYe.O­d‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B11bôfØš§!ÿR·ƒ—Vÿ§GŒ˜î•b,gÿ-25.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B6ŒT10KNô•§!ÿR·ƒ—Vÿ§GtõVb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B5bôfNO§!ÿR·ƒ—Vÿ§G¯uckáOðN„v¹RÍV¦^ÿ+3.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n–T=fgÈu‹NöNÿÐc›O	y˜ÿ<P:N§B1§!ÿ‚Yœgåb	gSV0WúWcwYe.OYewýNîOckRïS(u	ÿÿ§B-2§!0"
+ shinto_events.42.aa.tt:0 "§YÐc›O‹NöNÿ‹NöN<P	y˜:N§M2§!ŒT§M-5§!0§!"
+ shinto_events.42.bb.tt:0 "§YS‹NöN<PžX R§M0§!0§!"
+ shinto_events.43.d:0 "bìNùRúWcwYe'`(„vŒågÇ‘ÖS†NN*N^—8^äNºN—Ê`„vlØSÿàV:NÕl˜RìNêñTÞVeg‰Bl¥c×Sm<y0vQ-NNMO=fNMOZSfRN×SºNSle„v°eQ¶RfRwÿæSNMO=fNMO×SºNSle„v)Y‡efR¶RÿgTNMO=fbìNgS5„vfkëXKNN01uŽNÙ›N7uºN«ˆ	:N>yO„v=eñgÿÙùRbìNNb	gºNegô‹=fN*NaY„vÑSUS0\n\núWcwYe.O­d‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B11bôfØš§!ÿR·ƒ—Vÿ§GŒ˜î•b,gÿ-25.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B6ŒT10KNô•§!ÿR·ƒ—Vÿ§GtõVb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B5bôfNO§!ÿR·ƒ—Vÿ§G¯uckáOðN„v¹RÍV¦^ÿ+3.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0"
+ shinto_events.43.aa.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.43.bb.tt:0 "§YS‹NöN<PžX R§M-5§!0§!"
+ shinto_events.44.d:0 "bìNùRúWcwYe'`(„vŒågNúQNb™e0W—VúQÓuº‹ÿÙÍy—RYe(WSÍ‘ŒTuˆRbìN‡eS.Oßu¹eb—>f—VN³0bìN1Œåg„vZSfRŒTS5„vºNòTÏu±R^ÿ‹†6qÙÍy—RYeïSýwwwegˆVñ‹ºNÿFOžRE–NƒRùRbìN„v>yO=fN*NqSi–0\n\núWcwYe.O­d‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B11bôfØš§!ÿR·ƒ—Vÿ§GŒ˜î•b,gÿ-25.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B6ŒT10KNô•§!ÿR·ƒ—Vÿ§GtõVb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B5bôfNO§!ÿR·ƒ—Vÿ§G¯uckáOðN„v¹RÍV¦^ÿ+3.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0"
+ shinto_events.44.aa.tt:0 "§YS‹NöN<PžX R§M-5§!0§!"
+ shinto_events.44.bb.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.45.d:0 "Ù*NgÿúWcwYeFUºN(W[christian_port_event_target.GetName]„vÓN“^NbkN!kÑSukpŒpÿ‹†6qSV0WfkëXðXðyÙ=fNû|RNx^„v‹NEeÿFO<ONNv^N=fÏk*NºNýÏPbìNN7hùRÙ›NYýVºN„v0RegcËS‹Y`¦^0\n\núWcwYe.O­d‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B11bôfØš§!ÿR·ƒ—Vÿ§GŒ˜î•b,gÿ-25.0%§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B6ŒT10KNô•§!ÿR·ƒ—Vÿ§GtõVb,gÿ-10.0%§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B5bôfNO§!ÿR·ƒ—Vÿ§G¯uckáOðN„v¹RÍV¦^ÿ+3.00§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0"
+ shinto_events.45.aa.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.45.bb.tt:0 "§YS‹NöN<PžX R§M-2§!0§!"
+ shinto_events.47.d:0 "bìNòTÏuSúWcw^y„vý–wnŽNbìN„vÝO²bKNNÿv^AQ¸‹ÖNìN(WbìN„výV¶R-NuIm0åTjOŒT.OYe0àeº‹ÖNìNp0RêTÌ‘ÿÏk*NºNýåwSÙ›NúWcw’V	gCg(WbìN„v†˜0W…QÙ7hZP0úWcwYeFUºN(WbìN„vÎW^-NòTÏub:N8^Á‰„vofaŒÿw(W«R÷^-NÿúWcwYeòTÏub:NbìN„vè•ŒT¶Rã-NŠegŠnfM„v—RYe0\n\núWcwYe.O­d‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0"
+ shinto_events.48.d:0 "‹†6qbìNNôvùRÖNìNÝOcÑvÆ‰ÿFObìNAQ¸‹úWcwYe>y:S(WbìNW0WNb•ÿTöeÝO²bÖNìN„vý–wMQ×S2O³R0ÙObìNýwYNÖNìN„vwmYVyýV¾b	g÷N<P„v8fOS®‹ÿv^b—V†NbìNjO:NN*NlQckŒTlQs^„v†˜0W„vðX‰Š0\n\núWcwYe.O­d‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0"
+ shinto_events.49.d:0 "bìNòTÏubŸR0Wµbˆm†NúWcwYe(WbìN>yO-N„vqSi–qVÍT0bìNNôvNÖNìN„v.OYeëXÝOcÝ»yÿv^NSí•†NbìN„v†˜0WÿNAQ¸‹ÖNìN„vý–wÛeQÿuóý*ŽbìN¹Lu…QûNUO`‘u„váO’V0àVdkÿbìN«ˆbìN„v¶RãåNÊSbìN†˜0W…Q„v^ySYeŒTiOYe^yLwºNXT‰Š:Nôu²bbìNVyHQ¹eV„vMckSw0\n\núWcwYe.O­d‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_spread_of_christianity_tt.GetValue]§!0"
+ shinto_events.50.d:0 ":N†NžX R[Root.Overlord.Monarch.GetHerHis]ùRåe,g'YT„vCgZÿ[Root.Overlord.Monarch.GetName]Nôv(WÛLˆhQýV'`„v0WM|Œåg0Ù‰mÊS0RKmÏ‘ŒT¡‹—rNb	gºN0DnŒTNb	gCgsQû|ÿv^9hnc[Root.Overlord.Monarch.GetHerHis]„v¾‹¡‹Í‘°eQX.ƒRìN0Ù=f)Y‡vKˆNbìNS›Q„vûN¡RÿFOƒR«ˆ(ueg ˜†‰•gCg›RsQû|0\nÊN)YÿÙ7h„vŒågòTÏueg0R†N[Root.GetName]†˜0W0bìNòTÏu6e0R†N[Root.Overlord.GetAdjective]Lˆ?e˜RXT„våwÿðXfPˆNSã„vS0WgÈu^SŽNýV¶RÿSãêS=f‚föec	gW0W0\n\n§R‚Yœg`O—V0R†NÙ*N‹NöNÿ±HN`O”^å‹(WZPÀNHNÿ§!\nU^œ^CgZNGS‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B0§!\n1) ‚Yœg‹NöN<P¾0R§B7bôfØš§!ÿR·ƒ—Vÿ§GY²NðXgÿ+1.00§!ŒT§GÏkt^TÕl'`ÿ+1.00§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B4ŒT6KNô•§!ÿR·ƒ—Vÿ§GY²NðXgÿ+2.00§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B3bôfNO§!ÿR·ƒ—Vÿ§GÏkt^TÕl'`ÿ+1.00§!ŒT§GÏkgê»l¦^ØSSÿ-0.10§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n–T=f	N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B3§!ÿ§B1§!0,rŒN*N‹NöNÐc›O	y˜ÿ<P:N§B3§!ÿ§B-1§!ÿÙuˆN‹NöNÙu†˜INÿ†˜IN±RbbÙuˆN‹NöN<P§B-3§!	ÿ0,r	N*N‹NöN‚Yœg	éb†N,rŒN*N‹NöN„v,rŒN*N	y˜N†˜IN¡l	g	éb±RbÿRÐc›O	y˜<P:N§B-3§!0"
+ shinto_events.50.aa.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.50.bb.tt:0 "§YS‹NöN<PžX R§M2§!0§!"
+ shinto_events.50.cc.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.51.d:0 "S›QòTÏu.O¾†N)Y‡v„vèeaÿ‰BlbìN[Root.Monarch.GetName](W^ýV«R÷^D–Ñ0hQt^ESOO(WbìNêñT„v[Root.Capital.GetCapitalName]«R÷^SNQ«ˆ¥c×Sÿ°s(WòTÏuÕläNÿbìN„v¶RÏeÅV‰˜ÎN°s(WwhQt^ESOO(W^ýV«R÷^0‹†6q	göeòTÏu=fÙ7hÿFOÙ*N^ýV‹TäN©‹bìNàQNN¡l	g	éb„vYO0W0[Root.Monarch.GetName]ÅV‰˜ËzsSMRŽV«R÷^ÿ&TRSb—4N%NÍ‘Tœg0\n\nU^œ^CgZNGS‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_shogunate_authority_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B7bôfØš§!ÿR·ƒ—Vÿ§GY²NðXgÿ+1.00§!ŒT§GÏkt^TÕl'`ÿ+1.00§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B4ŒT6KNô•§!ÿR·ƒ—Vÿ§GY²NðXgÿ+2.00§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B3bôfNO§!ÿR·ƒ—Vÿ§GÏkt^TÕl'`ÿ+1.00§!ŒT§GÏkgê»l¦^ØSSÿ-0.10§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n–T=f2N*N‹NöN0,rN*N‹NöNÐc›O	y˜ÿ<P:N§B3§!ÿ§B-1§!ÿÙuˆN‹NöNÙu†˜INÿ†˜IN±RbbÙuˆN‹NöN<P§B-3§!	ÿ0,rŒN*N‹NöN‚Yœg	éb†N,rN*N‹NöN„v,rŒN*N	y˜N†˜IN¡l	g	éb±RbÿRÐc›O	y˜<P:N§B-3§!0"
+ shinto_events.51.aa.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.51.bb.tt:0 "§YS‹NöN<PžX R§M1§!0§!"
+ shinto_events.52.d:0 "U^œ^òTÏu.O¾†Nˆmo`ÿ[Root.Monarch.GetName]«ˆggÅbûN^ýV˜RXT0t’ŽN÷‹Bl„vÚ‹aÿÒbÝu=fNïSýw„vÿuóïSýw«ˆÆ‰:NlQ6qÍSÛSŒTNT‰Š„vh×V0ÙmN>f6q=f:N[Root.GetAdjective]·ƒ—VðXgŒTqVÍT›R„v„VÿFOƒR=fN*NqSi–„vcƒ‰Š0[Root.Overlord.GetAdjective]U^œ^gÑåNÊ`ºN„v¦^ôfbc˜RXT0ÖNìNNÅNÅNán³ŽN©‹ÖNìN„v=ecwŒTàVÚ‹„v¶RãÅbûNØšLwÿ°s(WÖNìNck(Wã‰Ç–±›N¡l	g¾0RS›QggÓuœg„vºN0ùRN›NºNegô‹ÿÙ=fNÍyŸRéu6RÿFOùRŽN¸‹Y(W^ýVg¡R„v˜RXTegô‹ÿÙasTNwN­e„v¡RågP`ç`0\n\nU^œ^CgZNGS‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_shogunate_authority_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B7bôfØš§!ÿR·ƒ—Vÿ§GY²NðXgÿ+1.00§!ŒT§GÏkt^TÕl'`ÿ+1.00§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B4ŒT6KNô•§!ÿR·ƒ—Vÿ§GY²NðXgÿ+2.00§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B3bôfNO§!ÿR·ƒ—Vÿ§GÏkt^TÕl'`ÿ+1.00§!ŒT§GÏkgê»l¦^ØSSÿ-0.10§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0\n–T=fgÈu‹NöNÿ‚Yœg	éb†NSVMR‹NöN„v,rŒN*N	y˜N†˜IN¡l	g	éb±RbÿRÐc›O	y˜<P:N§B-3§!0"
+ shinto_events.52.aa.tt:0 "§YS‹NöN<PžX R§M3§!0§!"
+ shinto_events.52.bb.tt:0 "§YS‹NöN<PžX R§M-1§!0\n‚Yœg[Root.Overlord.GetName]N±RbÿR·ƒ—V˜Y„v‹NöN<P§M-3§!0§!"
+ shinto_events.54.d:0 "Á‹f[Root.Overlord.Monarch.GetHerselfHimself]ŒTbìN`‘u„vN7ho1Vÿ[Root.Overlord.GetName]„vU^œ^S›QòTÏuTa)ÿNQ‰BlbìNÐc›Og¡R0ÖNìNòTÏuNäNSbìNÒbÝu„vLwMO©‹Ùu+RºNÿFOÖNìN„vCgZ%NÍ‘×SmcÿûNUOºNýïSåNw0RbìN„vÒbÝu„vHeœg0\n\nU^œ^CgZNGS‹NöNÓuœgÿ\nSVMR‹NöN<P:N§B[Root.incident_shogunate_authority_tt.GetValue]§!0\n1) ‚Yœg‹NöN<P¾0R§B7bôfØš§!ÿR·ƒ—Vÿ§GY²NðXgÿ+1.00§!ŒT§GÏkt^TÕl'`ÿ+1.00§!cíu50t^ÿv^ÏQSdRËzININ4ls^§R1§!0\n2) ‚Yœg‹NöN<P(W§B4ŒT6KNô•§!ÿR·ƒ—Vÿ§GY²NðXgÿ+2.00§!cíu50t^ÿÝOcSVMRdRËzININ4ls^0\n3) ‚Yœg‹NöN<P(W§B3bôfNO§!ÿR·ƒ—Vÿ§GÏkt^TÕl'`ÿ+1.00§!ŒT§GÏkgê»l¦^ØSSÿ-0.10§!cíu50t^ÿv^žX R§R1§!dRËzININ4ls^0"
+ shinto_events.54.aa.tt:0 "§YS‹NöN<PžX R§M-3§!0§!"
+ shinto_events.55.d:0 "bìNùRU^œ^ R:Vµc6Råe,g„v?eVrÇ‘ÖS†NàVÚ‹ŒTz˜ÎN„v?eVrÿb—V†N^ýV«R÷^„váOûNŒTàVÚ‹0bìNïSýw(WN›NºN<w-N1Y»S†NìrËz'`ÿFObìNmNàVdk·ƒ—V†NR5„vR—Pwÿv^(Wåe,g„v°eßu»l¶RÏe-N`S	gN-^KN0W0\n\nU^œ^CgZNGS‹NöNÓuœgÿ\ngÈu‹NöN<P:N§B[Root.incident_shogunate_authority_tt.GetValue]§!0"
+
+ shinto_events.56.d:0 "bìNÕ‹þV(WU^œ^Õ‹þV R:VùR^ýV„vµc6Röep-Nô•ï¿u0‹†6qbìNN—r=f‡v^gNàVÚ‹„vø‹¯OKNNÿFObìNmNN=fg¥cÑ¡rtBS„v²SO0ÙObìNýwY(WÝOYubìN„vìrËz'`„vTöeÿmNÎN°eöeãN&^eg„vÕl‹V0éy^ŒT‰RhQ-N×SÊv0\nNGS„vU^œ^CgZ‹NöNÓuœgÿ\ngÈu‹NöN<P:N §B[Root.incident_shogunate_authority_tt.GetValue]§!0"
+ shinto_events.57.d:0 "bìN„v?eVr=fïygôu²bbìN„vìrËz'`ÿv^OVŽNÿfãN„v0W¹eCgZÿwN=fNU^œ^„v4–ŒTjOÿÙObìNb—V†NN*NgvQìrËzŒT:V'Y„v'YT„vðX‰Š0bìN„vÝ‹&^	gSÍ‘ÿbìN„vLˆ¨RN¸‹Y^g¨c¨RÖNìN„vD–¸^P–6R„våe,g'YTŒTýVlµNuqQ1ž0ÇïygJR1V^ýVCgZÿbìNck(WÅú^ËzêñT„vCg›RúWNx0\nNGS„vU^œ^CgZ‹NöNÓuœgÿ\ngÈu‹NöN<P:N §B[Root.incident_shogunate_authority_tt.GetValue]§!0"
+ #BANNER_CANT_HAVE:1 "`O„výV¶RNýwÛbßRÇ–cOuQ0
+ #BANNER_NOT_OWNED_PROV:0 "`OêSýwÎN`Oåb	g„vÞTÛbßRÇ–cOuQ0÷‹	ébN*N`O=fNb	gw„vwýN0
+ # mare_nostrum:
+ restore_roman_empire_title:0 "@ROM b`YWlš^ýV"
+ # modifiers:
+ #MODIFIER_AMOUNT_OF_BANNERS:0 "ïSýw„vÇ–cOuQÿ%	ÿ"
+ #MODIFIER_LOCAL_AMOUNT_OF_BANNERS:0 "ïSýw„v0W¹eÇ–cOuQ"
+ #MODIFIER_HAS_BANNERS:1 "AQ¸‹Ç–cOuQ"
+ habsburg_nation_title:1 "@HAB 6eÞVeY0W)RlQýV"
+ MODIFIER_LOCAL_RELIGIOUS_UNITY_CONTRIBUTION:0 "0W¹e—RYeßuN"
+ # muslim_DLC:
+ unify_islam_title:0 "£sea_islam_logo£ßuNO¯epQ"
+ change_religion_sunni_title:0 "£sea_sunni_logo£S—RYe9e:N<S>m"
+ change_religion_shiite_title:0 "£sea_shia_logo£S—RYe9e:NÀNöS>m"
+ # new_missions:
+ building_alliances.tooltipt:0 "óS §Y1§! *NýV¶Rÿ\nN §Y[Root.GetName]§! „vTwßv0\nóS	g §Y75§! „vùR §Y[Root.GetName]§! „vaÁ‰0"
+ eng_war_france.tooltip:0 "(W §YSurrender of Alençon§! ‹NöN-NS?–gŒgRVØÙu §YFrance§!"
+ # opinions:
+ fra_gave_up_on_maine:0 ">eV†N?–gŒg"
+ # origins:
+ cawa_regiment:0 "yrŠkekuQ"
+ estate_church_one_faith_one_culture_gta:0 "Ïk*N^SŽN §Y[Root.Religion.GetName]§! áOðN„våb	gwýNÿàeº‹=f(W §Y[Root.Culture.GetGroupName]§! ‡eSÄub	g §Y«ˆ¥c×S„v‡eS§!ÿýO·ƒ—V '§Y—RYe>yO§!'ÿHeœg‚YNÿ\n0W¹eNánÿ§G-1.00§!\n0W¹ez6eîOckÿ§G+10.0%§!\n0W¹euµNHe‡sÿ§G+5.0%§!\n0W¹eºN›RîOckÿ§G+5.0%§!"
+ maliki_school_bonus_tt:0 "ÑSUSb,gÿ§G-5.0%§!"
+ kon_consolidate_central_africa_tt:0 "Ïk*N^SŽN §YRœg§! ‡eSÄu„vwýNÿd–†N0tætísþVŒT1gf‡eS	ÿý=f §Y[Root.GetName]§! „vNb	g0WŒT8hÃV0"
+ tooltip_yemoja_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nšRESw:gOÿ§G+10.0%§!\nÏkt^TÕl'`ÿ§G+0.50§!\nÏkt^qQŒT.Oßuÿ§G+0.20§!\nÏkt^T†Ú‹ÿ§G+0.50§!\nÏkt^èK„ßuNÿ§G+0.50§!"
+ tooltip_roog_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nžXôc¦^ÿ§G+20.0%§!\nûy¨R¦^ÿ§G+10.0%§!"
+ tooltip_nyame_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nŒ˜î•b,gÿ§G-10.0%§!\nwýNb‰NRpeb,gÿ§G-10.0%§!"
+ tooltip_cwezi_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\n›Q–ëXlÿ§G+8.0%§!\nwm›QëXlÿ§G+8.0%§!"
+ tooltip_central_african_ancestor_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nÑSUSb,gÿ§G-5.0%§!\nýV¶Rôu²bÿ§G-20.0%§!"
+ tooltip_mwari_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nªu‹Vÿ§G+3.0%§!\n9‚êSwEN'`ÿ§G+10.0%§!"
+ tooltip_enkai_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nºN›Rb`Y¦^ÿ§G+15.0%§!\n4lKbb`Y¦^ÿ§G+15.0%§!"
+ tooltip_waaq_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nhQt8f›RÏ‘ÿ§G+20.0%§!\nFUÁTuµNîOckÿ§G+10.0%§!"
+ tooltip_zanahary_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nÏkgb‰N²u³Rÿ§G-0.08§!\nÏkt^›Q–LwNSÿ§G+0.2%§!"
+ tooltip_christianity_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\n.OYeëXÿ§G+2§!\nŽb=gb,gÿ§G-10.0%§!"
+ tooltip_islam_cult:1 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nFUºNÿ§G+2§!\ntõVb,gÿ§G-10.0%§!"
+ tooltip_buddhism_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nÏkg‰Lqÿ§G+2.00§!\ngNOê»lÿ§G-20.00§!"
+ tooltip_dharmic_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\n–klwÿ§G+2§!\n»ltýw›RîOckÿ§G+20.0%§!"
+ tooltip_south_central_american_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\n–kl0WÑSUSÐcGSÿ§G+2.00§!\nÄžÑ‘¯gíz:gOîOckÿ§G-100.0%§!"
+ tooltip_norse_cult:0 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nÏkt^wm›Q.Oßuÿ§G+2.00§!\n‰vF–öeb—eé`Zÿ§G-2.00§!"
+ tooltip_zoroastrian_cult:1 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nibUSúWNx¾‹Ëeb,gÿ§G-40.0%§!\n-N.YÆ–CgýV¶Rb,gÿ§G-40.0%§!"
+ tooltip_jewish_cult:1 "Ù*NªYe(W	éböe	gåNN‹YYÿ\nýV¶Rz6eîOckÿ§G+40.0%§!\nt^)R‡sÿ§G-0.40§!"
+ custom_amount_of_cawa:0 "yrŠkekuQ"
+ custom_amount_of_cawa_desc:0 "Ù›N=fÅN1uekuQÄub„vyrŠkekuQ0"
+ enable_development_on_buildings_built_tt:0 "ú^.^—2–¡V'`ú^QrS §YžX R§! wýN„vÑSUS0\n(WÙÍyHeœgÀoImöeú^.„vú^Qr«ˆgdÁkÿSûyd–ÑSUS0\n§RÙÍyýw›RÅN(W §Y10§! t^…Q	gHe0§!"
+ shinto_christian_decision_title:0 "£sea_catholic_logo£Ùußu»lwËem"
+ bulgaria_nation_title:0 "@BUL b`YÝO R)RšN"
+ swap_primary_cult_title:0 "£sea_fetishist_logo£RbcIN‰ªYe"
+ kongo_nation_title:0 "@KON b`YRœg‹sýV"
+ ethiopia_nation_title:0 "@ETH b`YNbWè•„vWµN"
+ send_the_shaman_to_a_foreign_country_title:0 "£sea_fetishist_logo£S(„ánŽVYýVªYe"
+ switch_active_cult_decision_title:0 "£sea_fetishist_logo£ôfbcªYeþVŒ"
+ switch_active_cult_decision_desc:0 "‹NöNbuffNÆQnxÿgÈuåN—RYeLub—:NÆQÿ¡lŒb0R,g0WS(WêT	ÿ"
+ switch_permanent_scholar_title:0 "£sea_muslim_school£ÿfbc8^‰šfRw"
+ zulu_nation_title:0 "@ZUL ›Q‹NSi`äS<S"
+ aksumite_nation_title:0 "@AKS b`Y?–KQÏ‚ÆY"
+ great_zimbabwe_nation_title:0 "@GZI b`Y%môT^æ—"
+ hausa_nation_title:0 "@HAU ßuNjŒ(„"
+ israel_nation_title:0 "@ISR Í‘°eú^ËzåNr‚R"
+ kitara_nation_title:0 "@KIT ðXðyúWTXÉb^ýVðy÷S"
+ macina_nation_title:0 "@ZAF bVblš‰³u"
+ mali_nation_title:0 "@MAL bÅblšÌ‘„vLw1"
+ mossi_nation_title:0 "@MSI MSI ßuN«ƒ‰‹sýV"
+ nubian_nation_title:0 "@NBI ßuNªRÔkšNºN"
+ rozwi_nation_title:0 "@RZI ú^ËzWyQôu"
+ somalia_nation_title:0 "@SOM ßuN0tlšÌ‘èK„"
+ can_colonize_the_strait_tt:0 "AQ¸‹bìN	gýw›R–kl’dÈTÉbpÊ^0"
+ c_a_humiliate_rival_mission_ct:0 "(WùR—bùRKbbLeºN„vb‰N-Nåb	g §Y50§! b‰NRpe"
+ enable_capital_slave_raid_tt:0 "[Root.GetName] àV`S†˜LeùR!X’Ww·ƒ—V §G0.05t^§! „vºN›R0\nºN›R„vpeÏ‘–Nw!X’WIrµu„vžX RwžX RÿÏk!X’WIrµužX R §G0.05t^§! „vºN›R	ÿ0"
+ enable_slave_raid_pillage_tt:0 " c:Y–™ýmNSÙu [Root.GetName] &^eg §G0.5t^§! „vºN›R0\n2NÍyHeœgÏk §Y10t^§! êSýwùRÏk*N«ˆ c:Y„v–™ýb«ˆ`S†˜„v!X’WÑSuN!k0"
+ # personalityoptions:
+ immortal_personality:0 "›Q–"
+ desc_immortal_personality:0 "ÙMOßu»lwck(W‰N:Yfg)TƒnT(W-NýVYuN„vCg›Rwzz0"
+ immortal_personality_die_desc:0 "bìN„v‹sýVS`õV [Root.Monarch.GetHerHis] Aucƒ„vßu»l0"
+ # policies:
+ the_integrated_administration_act:0 "­‹Ãuãl˜RXT"
+ desc_the_integrated_administration_act:0 "bìNN=f>mbìN„v˜RXT»SbìN„vãl±Ì‘ÿw=f­‹ÃuÖNìNåb	gêñT„v˜RXT0"
+ # powers_and_ideas:
+ humanist_tolerance_desc:0 "ÇªR›RžR°sN*NôfËR¹R„v>yOÿv^SÕ‹åNôft'`„v¹eVã‰³QbìN„v>yOŒT—RYeî•˜˜ÿ…QqN„vÎ˜i–SOÏQS0NQ·ƒ—V '§YWVfúQ°s§!' ‹NöN0"
+ efficient_mining_desc:1 "ÑS^ÕläNÿŒR„UbìN†˜ßW…QÑ‘^SÇ‘ÿw„vT*N¹eb—ÿªR›RÄ‰ƒvQ(WbìN^:W-N„vXR(W0"
+ organised_mercenary_recruitment_desc:0 "Ñ‘±”v^N=fÛbßRÇ–cOuQ„v=UNP–6R0æSN*Nötˆ˜=f^g:NbìNg¡R„vÇ–cOuQlQøS0àVdkÿbìNÅV‰˜nxÝObìN„vû|ßuAQ¸‹Ïk*NlQøS ReQbìN0\nã‰•ÿ§Y®puQÇ–cOuQlQøS§!" 
+ # Bhamanis:
+ bha_indian_army:0 "pS¦^^ýV›Q–"
+ bha_indian_army_desc:0 "(W‰¹eYýV›Q˜R„v.^©RNÿôTÉbyr›Q–«ˆŒRhQÍ‘Äu:N‰¹eÎ˜<h0°eÅˆY0b=g0	gHe­‹Ãu - Nb	gÙ›NýOpS¦^›Q–ÎN°s(Wwb:NN*NN¹RSÑ‰„v›RÏ‘0"
+ bha_ganga:0 "W0Wz"
+ bha_ganga_desc:0 "œQlåNz6e„vbVVT?eœ^=eØNèR6eeQÿz‡s9hncW0W(Ï‘(W	NRKNN0RmQRKNNKNô•0"
+ bha_brahmin_administration:0 "ôTÉbyrwmm8f"
+ bha_brahmin_administration_desc:0 "pS¦^FUºNSÖNìN„vFUÁTúQãS0RYýVÿv^ÛãSÖNìNN¡RNb—„vFUÁT0úQãS„vFUÁTSìbáwi0ÜY0‰wBh0SFŒI…0Ã‹PR0WgPR0Rów‚YÍyPR - Ísàs0ž™™0¦‚mƒ0Éh^0Á”0¢”ŒT÷thV0R‰šNýV¶RŒTN‰wm¸S„v=nãS0ÖNìNØÛãSÜ”04lö”01gx0ÊsZt0Ï…¢u±‚0iVr‚)YEžÒu0«spt4l0R0iVr‚|šÛk0ÄžÑ‘ŒT‹vö”0d–dkKNYÿvQÖNÛãSFUÁTØSìbegê8u0¯eÌ‘pQaSŒTÃRúV„v™™™e0Óg™e(gPg0d–Á”åNY„vÑ‘^S0jŒTNÇuÁT0"
+ bha_rocketry:0 "ÑSUSkp­rŽb=g"
+ bha_rocketry_desc:0 "Á”óXkp­rS*g«ˆ^Ûl(uŽN›Q‹Nîv„vÿFOƒRìN„vr¸pZ›R¯wšRwQ	gb=g”^(u0bìN”^å‹SÕ‹Ùy˜Žb=gv^(Wb:WNKmÕ‹ƒR0"
+ # prov_names_ADJ:
+ PROV_ADJ439:0 "Aktauan"
+ PROV_ADJ440:0 "Nukus"
+ PROV_ADJ460:0 "Oshian"
+ PROV_ADJ476:0 "Sarysu"
+ PROV_ADJ477:0 "Shetian"
+ PROV_ADJ478:0 "Bayanaulian"
+ PROV_ADJ662:0 "Kunmingan"
+ PROV_ADJ663:0 "Wenshan"
+ PROV_ADJ664:0 "Guangxian"
+ PROV_ADJ665:0 "Jiangmenian"
+ PROV_ADJ667:0 "Guangzhouan"
+ PROV_ADJ673:0 "Tongrenian"
+ PROV_ADJ675:0 "Qujingian"
+ PROV_ADJ685:0 "Huai'an"
+ PROV_ADJ687:0 "Zhoujiakouan"
+ PROV_ADJ690:0 "Shandongian"
+ PROV_ADJ692:0 "Handanian"
+ PROV_ADJ694:0 "Changzhian"
+ PROV_ADJ695:0 "Tianjinian"
+ PROV_ADJ698:0 "Guyuanian"
+ PROV_ADJ702:0 "Ulanqabian"
+ PROV_ADJ704:0 "Liaoxian"
+ PROV_ADJ708:0 "Baiyinian"
+ PROV_ADJ709:0 "Yinchuanian"
+ PROV_ADJ716:0 "Kyzylian"
+ PROV_ADJ726:0 "Dalian"
+ PROV_ADJ1164:0 "Wourian"
+ PROV_ADJ1798:0 "Guluan"
+ PROV_ADJ1799:0 "Genale Doryan"
+ PROV_ADJ1829:0 "Xiamenian"
+ PROV_ADJ1833:0 "Jiujang"
+ PROV_ADJ1836:0 "Nanyangian"
+ PROV_ADJ2115:0 "Chifengian"
+ PROV_ADJ2120:0 "Ghuljan"
+ PROV_ADJ2355:0 "Semeyan"
+ PROV_ADJ2359:0 "Karakenggyrian"
+ PROV_ADJ2360:0 "Karkaralian"
+ PROV_ADJ2368:0 "Saryesik-Atyrau"
+ PROV_ADJ2428:0 "Bolshoy Yugan"
+ PROV_ADJ2710:0 "Sambaliungian"
+ PROV_ADJ4208:0 "Kuytunian"
+ # prov_names:
+ PROV8:0 "Õl&O"
+ PROV269:0 "âl·VÉb0Œ"
+ PROV439:0 "?–KQWY"
+ PROV440:0 "ªR“^¯e"
+ PROV460:0 "eYÀN"
+ PROV476:0 "(„÷–Ï‚"
+ PROV477:0 "¾‹yr"
+ PROV478:0 "ôTšNªRS"
+ PROV491:1 "?–œôT"
+ PROV926:1 "Œ‚OÀN"
+ PROV1106:0 "ætf RR"
+ PROV1108:0 "WpQKO"
+ PROV1164:0 "ƒlfkÌ‘"
+ PROV1246:0 "æt—>m"
+ PROV1426:0 "°e‰pQwm¸S"
+ PROV1798:0 "äSœ"
+ PROV1799:0 "	T³u)R"
+ PROV1881:0 "ÿRøSKN0W"
+ PROV2120:0 "Ee>"
+ PROV2355:0 "^Xè•"
+ PROV2359:0 "aSÉb¯w"
+ PROV2360:0 "ÉbaSÉbaSê"
+ PROV2368:0 "?–yr³RS"
+ PROV2428:0 "âlËu"
+ PROV2541:1 "*XôT^"
+ PROV2705:0 "‰ Rg"
+ PROV2737:0 "?–áwÌ‘Ì‘"
+ PROV2738:0 "ætyrÈTS"
+ PROV2739:0 "KQÌ‘W?–"
+
+ # religion:
+ restrict_government_offices_title:0 "£sea_jewish_logo£Ÿ±R9eáO¹r*YYe"
+ spreading_of_norse_rituals_title:0 "£sea_norse_logo£.O­dS'kêNV"
+ build_the_third_temple_title:0 "£sea_jewish_logo£ú^.,r	N1W¿k"
+ # rule_britannia:
+ gain_consort_aspect:1 "§Y·ƒ—V°e„vçubºN§!"
+ desc_gain_consort_aspect:0 "ýV…Q	g¸‹YT„vçubºNïS›O	éb0t’ŽNbìNîvMR„vçubºNÿbìN”^å‹wQ†ŒbN*NôfT„vºN0"
+ desc_expel_heretics_aspect:0 "VïzRPRùRbìN„v—RYeŒT‡eS„gbZÁw0bìN”^å‹SÖNìNÎNbìN„vW0WNqšúQ»Sÿv^SÖNìNŽV°eNLu0\n‚YœgbìNåb	g–klwýNÿ±HNƒRS·ƒ—V §G100§! ºNãS0TöežX RšRESw:gO §G5.0%§!ÿhQtšRESwžX R §G+15.00§! ŒT—RYeßuN §G10.0%§! cíu §Y15t^§!0\n	g §Y33%§! „v:gO©‹–kl0WÇ‘³uvQ-NN*N §YVïz§! —RYe0"
+ cb_hundred_years_union:0 "Œvt^b‰N"
+ cb_hundred_years_union_desc:0 "ÕlýVlQýVÅV‰˜8lÜTbìNHSg0"
+ # scandinavia:
+ flavor_swe.121.desc:0 "NbìNMRINºN„vb‰Nv^N±HNNˆe0ºNìNuóïSåNô‹9h,g1S¡l	gb‰N0FONåw`„vÿbìN`S†NNÎ˜ÿ·ƒ—V†NìrËzÿ\n–NwaSSlšTwßv°s(Wætã‰ÿ¯e*X„v³uôušN„v°e‹sýV - [Root.GetName] - „vTwVËY†N0"
+ flavor_swe.121.a:0 "Ù=fN*N°eöeãN„vVËY0"
+ allow_earlier_scandinavia_formation_tt:0 "ýV¶R §Y¯e*X„v³uôušN§! NQ—‰N*N §YLˆ?eŽb=g§! „v §Y15§! MbýwbVb0"
+ swe_repay_estate_church_title:0 "£sea_estate_logo£PØ [Root.GetChurchOrFallbackName] „v:P¡R"
+ swe_repay_estate_burghers_title:0 "£sea_estate_logo£PØ [Root.GetBurghersOrFallbackName] „v:P¡R"
+ swe_repay_estate_nobles_title:0 "£sea_estate_logo£PØ [Root.GetNobilityOrFallbackName] „v:P¡R"
+ swe_provoke_religious_leagues_forming_decision_title:0 "£sea_catholic_protestant_logo£±R^ÝO²b°eYe’V"
+ norse_flexible_deity_decision_title:0 "£sea_norse_logo£Q!k	éb*NºN^yGy"
+ norse_restore_the_uppsala_temple_title:0 "£sea_norse_logo£b`YLNnf(„Éb^y™^"
+ norse_gain_norse_missions_title:0 "£sea_norse_logo£[Root.GetName] „v—RYeKNï"
+ purchase_the_electorate_title:0 "£sea_hre_logo£-pN	^¯OD<h"
+ request_the_electorate_title:0 "£sea_hre_logo£÷‹Bl	^¯OD<h"
+ usurp_the_electorate_title:0 "£sea_hre_logo£ár:Y	^¯OD<h"
+ rig_reestablish_livonian_order_title:0 "@LIV Í‘ú^)Rƒl<SšNéy^"
+ got_choose_aristocratic_gutnish_imperial_focus_title:0 "£sea_factions_logo£Ç‘ÖS5Ïe&q¹p"
+ got_choose_traders_gutnish_imperial_focus_title:0 "£sea_factions_logo£Ç‘ÖSFUºN&q¹p"
+ got_choose_guilds_gutnish_imperial_focus_title:0 "£sea_factions_logo£Ç‘ÖSLˆO&q¹p"
+ got_choose_the_buccaneers_focus_title:0 "£sea_factions_logo£	ébwm×v„v c:Y&q¹p"
+ got_choose_the_smugglers_focus_title:0 "£sea_factions_logo£	ébpÁyw„vpÁy&q¹p"
+ got_choose_the_captains_focus_title:0 "£sea_factions_logo£	éb9‚•„v c:Y&q¹p"
+ couronian_nation_baltic_german_title:0 "@KUR åb±b“^SpQ«ŽýN"
+ livonian_nation_title:0 "@LVA 9ei—:N)Rƒl<SšN"
+ livonian_nation_batlic_german_title:0 "@LVA bVb)Rƒl<SšN"
+ declare_hanseatic_league_title:0 "@HSA ±R^Il(„Tßv"
+ return_to_the_legal_ways_title:0 "£sea_islam_logo£åb±bÕl¶R"
+ buddhism_consulate_monasteries_title:0 "£sea_vaj_mah_the_logo£¨Tâ‹úRb–"
+ # sikh:
+ save_the_burning_world_title:0 "£sea_sikh_logo£ïbQeÃqçp„vNLu"
+ # text:
+ PEACETITLE:0 "GYVZSëXlJT`OÿY›sÆY, begŒagöN†N0"
+ RELEASE_RELIGION:0 "ÖNìNSuªV §Y$RELIGION$§! áOðN0åb	g §YQ¶R§! wýN„výV¶RS	cgqvQINüR—RYeÊ‘>e0"
+ commandant_boost:0 "Harambe„vkyy"
+ bless_monarch:0 "?aN^ÝOQObìN"
+ #BANNER_REGIMENT:2 "Ç–cOuQ
+ #$EFFECT$"
+ unite_japan_title:0 "@JAP ßuNåe,gÿ"
+ united_japan_title:0 "@JAP åe,gßuN"
+ united_japan_daimyo_title:0 "@JAP åe,gßuN"
+ christian_daimyo_title:0 "£sea_catholic_logo£úWcwYelbc"
+ form_manchu_dynasty_title:0 "@QNG ng"
+ malayan_nation_title:0 "@MSA bVblšegšN"
+ hindustan_nation_dravidian_title:0 "@HIN bVbpS¦^¯efW"
+ hindustan_nation_western_aryan_title:0 "@HIN bVbpS¦^¯efW"
+ hindustan_nation_hindusthani_title:0 "@HIN bVbpS¦^¯efW"
+ hindustan_nation_eastern_aryan_title:0 "@HIN bVbpS¦^¯efW"
+ hindustan_nation_central_indic_title:0 "@HIN bVbpS¦^¯efW"
+ bharat_nation_dravidian_title:0 "@BHA bVbôTÉbyr"
+ bharat_nation_western_aryan_title:0 "@BHA bVbôTÉbyr"
+ bharat_nation_hindusthani_title:0 "@BHA bVbôTÉbyr"
+ bharat_nation_eastern_aryan_title:0 "@BHA bVbôTÉbyr"
+ bharat_nation_central_indic_title:0 "@BHA bVbôTÉbyr"
+ sardinia_piedmont_nation_title:0 "@SPI bVb’dN<SšN-®vÃW™„yr"
+ sardinia_piedmont_nation_inherit_title:1 "@SPI ÇY²NKbµkbVb’dN<SšN-®vÃW™„yr"
+ romanian_nation_title:0 "@RMN bVbWlš<SšNýV¶R"
+ russian_nation_title:0 "@RUS bVbÄOW¯eýV¶R"
+ netherlands_nation_title:0 "@NED bVbwƒpQýV¶R"
+ spanish_nation_title:0 "@SPA Ç›Q‹NKbµkbVb‰ísYrýV¶R"
+ english_nation_title:0 "@ENG bVbñ‚<hpQýV¶R"
+ french_nation_title:0 "@FRA bVbÕlýVýV¶R"
+ italian_nation_title:0 "@ITA bVba'Y)RýV¶R"
+ german_nation_title:0 "@GER bVb·VýVýV¶R"
+ persian_nation_title:0 "@PER bVbâl¯eýV¶R"
+ mughal_nation_title:0 "@MUG bVb«ƒgS?Q^ýV"
+ irish_nation_title:0 "@IRE bVb1rSpQýV¶R"
+ british_nation_title:0 "@GBR bVb'YNR ˜ýV¶R"
+ scandinavian_nation_title:0 "@SCA bVb¯e*X„v³uôušNýV¶R"
+ restore_byzantine_empire_title:0 "@BYZ b`YÜb`S­^^ýV"
+ prussian_nation_title:0 "@PRU 9ei—:NnfœëX"
+ form_kingdom_of_prussia_title:0 "@PRU bVbnfœëX‹sýV"
+ prussian_nation_general_title:0 "@PRU 9ei—:NnfœëX"
+ kingdom_of_jerusalem_title:0 "@KOJ Í‘ú^6wï’d·Q‹sýV"
+ gods_kingdom_title:0 "@PAP ±R^N^‹sýV"
+ couronian_nation_title:0 "@KUR 9ei—:N“^SpQ"
+ egyptian_nation_title:0 "@EGY bVbÃWÊS"
+ bukharan_nation_title:0 "@BUK bVb^ÈTÉb"
+ arab_nation_title:0 "@ARB bVb?–Éb=O"
+ tibetan_nation_title:0 "@TIB bVbÏ…Ïe"
+ naval_recruiting_act_title:0 "£sea_minor_modif_decisions£Çwm›QÛbßRÕlHh"
+ militia_act_title:0 "£sea_minor_modif_decisions£ÇluQÕlHh"
+ navigation_act_title:0 "£sea_minor_modif_decisions£Ç*‚wmÕlHh"
+ naval_convoy_system_title:0 "£sea_minor_modif_decisions£ú^Ëzwm›Q²b*‚û|ßu"
+ anti_piracy_act_title:0 "£sea_minor_modif_decisions£ÇÍSwm×vÕlHh"
+ land_recruiting_act_title:0 "£sea_minor_modif_decisions£ÇF–0WÛbßRÕlHh"
+ licensing_of_the_press_act_title:0 "£sea_minor_modif_decisions£Ç°eû•¸‹ïSÕlHh"
+ tenures_abolition_act_title:0 "£sea_minor_modif_decisions£ÇW0WÝO	gCgŸ^d–ÕlHh"
+ dissolution_act_title:0 "£sea_minor_modif_decisions£Çã‰ceÕlHh"
+ witchcraft_act_title:0 "£sea_minor_modif_decisions£ÇëT=gÕlHh"
+ education_act_title:0 "£sea_minor_modif_decisions£ÇYe²wÕlHh"
+ judiciary_act_title:0 "£sea_minor_modif_decisions£ÇøSÕlÕlHh"
+ combination_act_title:0 "£sea_minor_modif_decisions£ÇTwTÕlHh"
+ school_establishment_act_title:0 "£sea_minor_modif_decisions£ÇfR!hú^ËzÕlHh"
+ benign_neglect_title:0 "£sea_minor_modif_decisions£„UaýVÆ‰"
+ colonial_expansion_title:0 "£sea_minor_modif_decisions£–klib.V"
+ house_of_trade_title:0 "£sea_minor_modif_decisions£ú^Ëz8fKN¶R"
+ colonial_restrictions_title:0 "£sea_minor_modif_decisions£–klP–6R"
+ liquor_act_title:0 "£sea_minor_modif_decisions£ÇR‘‰|ÕlHh"
+ joint_stock_companies_act_title:0 "£sea_minor_modif_decisions£ÇT¡wlQøSÕlHh"
+ merchant_shipping_act_title:0 "£sea_minor_modif_decisions£ÇFUºN*‚ÐÕlHh"
+ court_of_wards_and_liveries_title:0 "£sea_minor_modif_decisions£ÇÑv²bŒTS0WÕlHh"
+ agricultural_cultivation_title:0 "£sea_minor_modif_decisions£œQNwjO"
+ importation_act_title:0 "£sea_minor_modif_decisions£ÇÛãSÕlHh"
+ mining_act_title:0 "£sea_minor_modif_decisions£ÇÇ‘ÿwÕlHh"
+ implement_gold_standard_title:0 "£sea_minor_modif_decisions£žRËeÑ‘,gMO6R"
+ formalize_measures_title:0 "£sea_minor_modif_decisions£Ä‰ƒS¦^Ï‘aˆ"
+ abolish_slavery_act_title:0 "£sea_minor_modif_decisions£ÇŸ^tYÕlHh"
+ enlist_privateers_title:0 "£sea_minor_modif_decisions£ÛbßRÁy cw"
+ state_firearm_regiments_title:0 "£sea_minor_modif_decisions£ýV¶RkpªgâV"
+ standardized_uniforms_title:0 "£sea_minor_modif_decisions£hÆQS6Rg"
+ abolish_standardized_uniforms_title:0 "£sea_minor_modif_decisions£Ÿ^d–hÆQS6Rg"
+ abolish_state_firearm_regiments_title:0 "£sea_minor_modif_decisions£Ÿ^d–bìN„vfkÅˆ¾|ñ‚âV"
+ institute_the_societas_jesu_title:0 "£sea_catholic_logo£ú^Ëz6w1zO"
+ de_heretico_comburendo_act_title:0 "£sea_catholic_logo£ÇVïzY³QÕlHh"
+ advancement_of_true_religion_act_title:0 "£sea_christianity_logo£Çwck—RYeÛekÕlHh"
+ blasphemy_act_title:0 "£sea_christianity_logo£ÇµNnÕlHh"
+ declaration_of_indulgence_title:0 "£sea_christianity_logo£ÇËR¹R±RŠÕlHh"
+ act_of_uniformity_title:0 "£sea_christianity_logo£ÇNôÕlHh"
+ sunday_school_title:0 "£sea_christianity_logo£ú^ËzINåefR!h"
+ conventicle_act_title:0 "£sea_christianity_logo£ÇØyÆRÆ–OÕlHh"
+ test_act_title:0 "£sea_protestant_reformed_logo£ÇKmÕ‹ÕlHh"
+ dissolution_of_the_monasteries_title:0 "£sea_protestant_reformed_logo£Çã‰ceîOSb–ÕlHh"
+ popery_act_title:0 "£sea_protestant_reformed_logo£Ç)YINYeÕlHh"
+ the_khalifah_title:0 "£sea_sunni_logo£Ç‘(uÈTÌ‘ÑSðy÷S"
+ denouncement_of_sect_practices_title:0 "£sea_islam_logo£4Œ1Ye>mžRõ"
+ islamic_centre_of_scholarly_title:0 "£sea_islam_logo£O¯epQfR=g-NÃV"
+ monastic_education_title:0 "£sea_vaj_mah_the_logo£úRb–Ye²w"
+ anti_christian_edict_title:0 "£sea_no_christianity_logo£ÍSúWcwYeÕläN"
+ ibadat_khana_title:0 "£sea_islam_logo£ú^ËzOôT¾yrWl³u"
+ anti_muslim_edict_title:0 "£sea_no_muslim_logo£ÍSFz¯e—gÕläN"
+ acceptance_of_religious_sects_title:0 "£sea_hindu_logo£¥c×S—RYeYe>m"
+ haridasa_movement_title:0 "£sea_hindu_logo£=ecÈTÌ‘¾(„Ð¨R"
+ advaita_movement_title:0 "£sea_hindu_logo£=ecNŒNº‹Ð¨R"
+ divination_title:0 "£sea_pagan_logo£Ÿ±R`SjS"
+ religious_sacrifice_title:0 "£sea_pagan_logo£—RYezrrr"
+ vision_quest_title:0 "£sea_pagan_logo£VeQÆ‰É‰¢c0t"
+ enforce_heritage_title:0 "£sea_eastern_logo£gbLˆbìN„vWµN"
+ join_the_counter_reformation_title:0 "£sea_catholic_protestant_logo£ ReQÍS—RYe9ei—"
+ din_i_illahi_title:0 "£sea_hindu_muslim_logo£VeQê<S-OÉb^"
+ statue_in_restraint_of_appeals_title:0 "£sea_catholic_logo£±R^P–6RNÉ‹ÕläN"
+ revoke_restraint_of_appeals_title:0 "£sea_catholic_logo£±R^²d•P–6RNÉ‹"
+ formalize_separation_of_powers_title:0 "£sea_parliament_logo£Ä‰ƒSCg›RRËz"
+ # tmm:
+ CAWA_NAME:0 "$HOME$„v$NUM$$ORDER$yrŠkekuQ"
+ MODIFIER_AMOUNT_OF_CAWA:0 "ïSýw„vyrŠkekuQ"
+ MODIFIER_LOCAL_AMOUNT_OF_CAWA:0 "ïSýw„vyrŠkekuQ"
+ mechanic_allow_cawa_yes:1 "AQ¸‹ÛbßR §YyrŠkekuQ§!"
+ CAWA_CANT_HAVE:0 "`O„výV¶RNýwÛbßRyrŠkekuQ0"
+ CAWA_DESC:0 "Ù›N=fÅN1uekuQÄubyrŠkekuQ0"
+ REGCAT_cawa:0 "yrŠkuQâV"
+ CAWA_REGIMENT:0 "yrŠkekuQâV\n$EFFECT$"
+ HAVE_LESS_CAWA_THAN:0 "yrŠkekuQâVSŽN $VALUE|Y$0\n"
+ HAVE_AT_LEAST_CAWA_THAN:0 "óS	g $VALUE|Y$ yrŠkekuQâV0\n"
+ CAWA_REGIMENT_TYPE:0 "yrŠkekuQ"
+ ONLY_CAWA_MODIFIER:0 "§YÅNqVÍTyrŠkekuQâV§!"
+ CREATECAWA:0 "ÛbßRyrŠkekuQ"
+ STATE_CAWA_CREATED_REGIMENTS:0 "ÙS±‚9 $MILAMOUNT|Y$ £mil£ÿ$NUM|Y$ yrŠkekuQSúQ°s(W $PROV|Y$0\n`Oó`ÛbßRyrŠkekuQTÿ"
+ CAWA_FROM_TT:0 "§YyrŠkekuQ›RÏ‘P–6R§!\nÙ=fbìNýV¶RïSåNåb	g„vSVMRŒTïSýw„vyrŠkekuQ„vpeÏ‘0\n\nyrŠkekuQ=fÎNýV¶RŒRhQ8hÃVwýNÛbßR„v0\n\n$NAME$1uŽNêñT„v›RÏ‘P–6Rÿ(WåNN0W:SÐc›O$AMOUNT|Y$yrŠkekuQ›RÏ‘P–6Rÿ\n"
+ #ONLY_BANNER_MODIFIER:0 "§YÅNqVÍTÇ–cOekuQâV§!"
+ ONLY_STRELTSY_MODIFIER:0 "§YÅNqVÍTyrŠkÇ–cOekuQâV§!"
+ STRELTSY_DESC:1 "Ù›N=fÅN1uekuQÄubNN^SŽNûNUOÇ–cOuQlQøS„vyrŠkÇ–cOuQ0"
+ MODIFIER_CAWA_COST:0 "yrŠkekuQb,g"
+ MODIFIER_CAN_RECRUIT_CAWA:0 "ïSåNÛbßRyrŠkekuQ"
+ crown_colony_long_desc:0 "ôv––kl0W×S0R—RINýV„vØš¦^ôv¥cµc6R0ƒRìN!.s†NøvSVpeÏ‘„vÑ‘±”ŒTºN›R0\n§RRbc0RÙÍy–kl0W‰|‹Wÿ(W §Y300§! ÑSUS4ls^öeNOÙuˆN–kl0WÏQÊv0\n\nNýwRbc–kl0W‰|‹Wÿ\n\n§M(WIN˜˜‰|‹WhŒr-N §YîO9eIN˜˜sQû|§! ’N¨RAQ¸‹bìNÐcGS–kl0W0§!"
+ private_enterprise_long_desc:0 "Áy%„ONSNèlŽNÎNW0W-N·ƒ—V˜Y„v'^÷N<Pÿv^SvQ&^ÞV¶RÙu—RINýV0\n§RRbc0RÙÍy–kl0W‰|‹Wÿ(W §Y300§! ÑSUS4ls^öeNOÙuˆN–kl0WÏQÊv0\n\nNýwRbc–kl0W‰|‹Wÿ\n\n§M(WIN˜˜‰|‹WhŒr-N §YîO9eIN˜˜sQû|§! ’N¨RAQ¸‹bìNÐcGS–kl0W0§!"
+ self_governing_colony_long_desc:0 "ê»l–kl0WSNèlŽNwjOŒT9e„UW0W0ƒRìNSÔkvQÖNûNUO‰|‹W„v–kl0W	gôfØš„vê1u?agÿFOSýwYôfëV0Wib.VŒTÑSUS0\n§R(WûNUOöePRbc0RÙÍy–kl0W‰|‹WÿS(W §Y300§! ÑSUS4ls^öeÙuˆN–kl0WÏQÊv0\n\nNýwRbc–kl0W‰|‹Wÿ\n\n§M(WIN˜˜‰|‹WhŒr-N §YîO9eIN˜˜sQû|§! ’N¨RAQ¸‹bìNÐcGS–kl0W0§!"
+
+ # triggers_and_effects:
+ #HAVE_LESS_BANNERS_THAN:1 "Have less cOuQ›QâV than §Y$VALUE$§!.\n"
+ #HAVE_AT_LEAST_BANNERS_THAN:1 "Have at least §Y$VALUE$§! cOuQ›QâV.\n"
+ #BANNER_REGIMENT_TYPE:0 "Mercenary"
+ 
+ ADD_CAWA_SUB_UNIT_EFFECT:0 "(W $WHERE|Y$ ·ƒ—V '§GyrŠkekuQ§!' $UNIT$0"
+ HAVE_LESS_STRELTSY_THAN:1 "yrŠkÇ–cOuQSŽN §Y$VALUE$§!0\n"
+ HAVE_AT_LEAST_STRELTSY_THAN:1 "óS	g §Y$VALUE$§! yrŠkÇ–cOuQ0\n"
+ STRELTSY_REGIMENT_TYPE:0 "yrŠkÇ–cOuQ"
+ ADD_STRELTSY_SUB_UNIT_EFFECT:0 "(W §Y$WHERE$§! ·ƒ—V '§GyrŠkÇ–cOuQ§!' $UNIT$0"
+ # winds_of_change:
+ GER_early_coal:0 "§Y[This.GetName]§! SýwY(W §YhQt8f§! 6R¦^ŒT §Y20§! Lˆ?eŽb=g-N·ƒ—V §Ydq­p§!0"
+ INC_further_reforms_will_take_less_stability:0 "ÛNek„v §Y—RYe9ei—§! SêSÏQS §R-50§! CgZ0"
+ hun_emperor_bohemia_pu_tt_yes:1 "£yes£ ‚YœgbìNÇD–¸^Sb:V6RN @BOH §Yâl^s|šN§! ú^Ëz §Y*NºNTwßv§!ÿÖNìN=f §Y	^¯O§!ÿv^NbìNán³ ReQ §Y^y1WWlš^ýV§! „v‰BlÿbìNØS·ƒ—Vÿ"
+ hun_emperor_bohemia_pu_tt_no:1 "£no£ ‚YœgbìNÇD–¸^Sb:V6RN @BOH §Yâl^s|šN§! ú^Ëz §Y*NºNTwßv§!ÿÖNìN=f §Y	^¯O§!ÿv^NbìNán³ ReQ §Y^y1WWlš^ýV§! „v‰BlÿbìNØS·ƒ—Vÿ"
+ form_austria_hungary_title:0 "@AUH bVbeYS^ýV"
+ hungarian_nation_title:0 "@HUN bVbSYr)RýV¶R"
+ great_moravia_title:0 "@GMA b`Y'YidÉbôušN"
+ hordes_restore_yuan_title:0 "@YUA b`Y'YCQ"
+ FEO_UNLOCK_RUSSIAN_MERCENARY_GUARD:0 "bìNSã‰•,r5BS §YÄOW¯eÇ–cOuQkS–§! ?eœ^9ei—ÿÙSAQ¸‹bìNÛbßR §YyrŠkÇ–cOuQ§!"
+ FEO_STRELTSY_BUFF_TT:0 "bìN„v §YyrŠkÇ–cOekuQâV§! S·ƒ—VåNN Rbÿ\nâVb,gÿ§R+20.0%§!\nªu‹Vÿ§G+5.00%§!\nF–0WSûQ2O³Rÿ§G+10.0%§!\n6e0R„vSûQ2O³Rÿ§G-10.0%§!\n6e0R„v²QûQ2O³Rÿ§G-10.0%§!"
+ ven_upgrade_state_inuisition_idea_tt:0 "bìN„v §Yú^ËzýV¶R—RYeÁˆ2RNb§! ýV¶RtõVSGSµu:Nÿ\nekuQb—eýw›Rÿ§G+15.0%§!"
+ AZT_buffed_conditional_benefit_for_obsidian:0 "‚YœgbìN„vûNUO §YwýN§! åb	g '§YVÑSÑžÜfówn§!' îOp™&rÿbwbìN„vûNUO §YD–^SýV§! b §YßvËS§! åb	gÙ7h„vîOp™&rÿbìNS·ƒ—VåNNîOp™&rÿ\nekuQb—eýw›Rÿ§G+10.0%§!\n[Root.GetNobilityName] qVÍT›Rÿ§Y+5.0%§!"
+ #AZT_MODIFY_MECHANIC_HUITZILOPOCHTLI:1 "O §Yà`PŸmâlGYyr)R§! b:NbìNýV¶R„vIN‰ˆR²b^yÿÙSO §YXb³u)R6eÆ–§! (Wg'Y›RÏ‘öewQ	gåNNHeœgÿ\n›Q–ëXlÿ§G+10.0%§!\nTN‡eSÄuwýN„vºN›Rÿ§G+10.0%§!"
+ #AZT_MODIFY_MECHANIC_TLALOC:1 "O §YyrÉbmKQ§! b:NbìNýV¶R„vIN‰ˆR²b^yÿÙSO §YXb³u)R6eÆ–§! (Wg'Y›RÏ‘öewQ	gåNNHeœgÿ\nú^¾‹b,gÿ§G-19.0%§!\nIN‰‡eS„vÑSUSb,gÿ§G-5.0%§!"
+ MAY_conditional_benefit_for_obsidian:0 "‚YœgbìN„vûNUO §YwýN§! åb	g '§YVÑSÑžÜfówn§!' îOp™&rÿbwbìN„vûNUO §YD–^SýV§! b §YßvËS§! åb	gÙ7h„vîOp™&rÿbìNS·ƒ—VåNNîOp™&rÿ\nekuQb—eýw›Rÿ§G+5.0%§!\n[Root.GetNobilityName] qVÍT›Rÿ§Y+5.0%§!"
+ MAY_upgrade_obsidian_privilege:1 " R:V '§YfkÅˆ [Root.GetNobilityName] Nlš8YOyrS§!' yrCgÿ:N §Y[Root.GetNobilityName]§!ÿûyd– '§YgØšN6RININ§!' é`ZŒTán³‰Blöe„v '§Y[Root.GetNobilityName] qVÍT›R§!' îOp™&r0\nS˜Y·ƒ—V §G+5.00%§! ekuQb—eýw›R0"
+ #estate_burghers_mountain_expansion_upgraded_gt:0 "ÏQSÏk*Nåb	g„v §YqS	§!0§YØš0W§! ŒT §YNu–§! wýN1u0WbV‰|‹WVw„vÑSUSb,gé`Z §G50.0%§!0"
+ #INC_upgrade_mountain_development_privilege:0 " R:V '§YØšwmÔb”^§!' yrCgÿ^SŽN §Y[Root.GetBurghersName]§!ÿNOÙuˆN '§YN`Nï`„vé`Z§!'0"
+ #SUN_enable_burgher_privilege_for_recovery:0 "ã‰• '§Y=ecb`YºNãS§!' yrCgÿ^SŽN §Y[Root.GetBurghersName]§!ÿAQ¸‹bìN(WIN‰‡eSwýN·ƒ—V §G-5.0%§! ÑSUSb,g [Root.GetPrivilegeForRecoveryModifiers]0"
+ MESOAMERICA_ANY_BORDERING_EMPTY_PROVINCE_IS_EMPTY:1 "bìN¹Lu…QSŽŒTWSŽ„vóS §YN*N§! wýN=f §Y*g–kl„v§! v^NNbìN„v–™ýøvÞ0"
+ INC_any_province_available_for_colonization:1 "ûNUOwýNîvMRýïSåNÇ §Y³QšR§! «ˆ–kl0‰–klN*NwýNÿ`OÅV‰˜Ç §YûN¡Rh§! ã‰•ƒR0"
+ INC_will_be_colonized:0 "§Y[This.GetName]§! S(WO(uÙ*N §Y³QšR§! öe«ˆ–kl0"
+ INC_colonize_eastern_edges:0 "AQ¸‹Ç'§Yú^ËzŽ2m¹Lu§!' 	c®”–kl §Y[2833.GetName]§!0§Y[803.GetName]§!0§Y[801.GetName]§! ŒT §Y[2832.GetName]§!0"
+ CSU_will_be_able_to_colonize_mountains:0 "AQ¸‹Ç '§Yú^ËzŽ2m¹Lu§!' 	c®”–kl §Y[4604.GetName]§!0§Y[2818.GetName]§!0§Y[2817.GetName]§! ŒT §Y[4607.GetName]§!0"
+ INC_may_expand_south:0 "AQ¸‹Ç '§Yú^ËzŽ2m¹Lu§!' 	c®”TWSib.Vó §Y[787.GetName]§! ŒT §Y[2843.GetName]§!0"
+ INC_expand_into_coastal_provs:0 "AQ¸‹Ç '§Yú^ËzŽ2m¹Lu§!' 	c®”–klØyœwm¸S0W:S0"

@@ -1,0 +1,12 @@
+owner = VNA
+controller = VNA
+culture = nguni
+religion = shamanism#Fetishism
+trade_goods = livestock
+capital = "Khwe"
+is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = central_african
+add_core = VNA

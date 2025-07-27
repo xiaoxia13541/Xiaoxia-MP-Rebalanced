@@ -1,0 +1,12 @@
+# 德意志先驱骑兵 (German Vorreiter)
+
+unit_type = western
+type = cavalry
+
+maneuver = 1
+offensive_morale = 1
+defensive_morale = 1
+offensive_fire = 1
+defensive_fire = 0
+offensive_shock = 1
+defensive_shock = 1

@@ -1,0 +1,21 @@
+# 2543 - Zhashui
+owner = WEI
+controller = WEI
+add_core = WEI
+culture = zhongyuan
+religion = confucianism
+capital = "Zhashui"
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 5800
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1637.1.1 = { controller = REB revolt = { type = anti_tax_rebels size = 2 } }
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes

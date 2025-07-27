@@ -1,0 +1,17 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_MAGIC_INDIAN"
+	desc = "TY_BOOKMARK_MAGIC_INDIAN_DESC"
+	date = 1444.11.11
+	
+	center = 4460
+
+	country = SRH
+	country = MER
+	country = JNP
+	country = VIJ
+	country = BAH
+	country = ORI
+	country = GRK
+	country = BNG
+}

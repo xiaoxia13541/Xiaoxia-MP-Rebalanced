@@ -1,0 +1,23 @@
+# 5536 - Suijiang
+owner = CYI
+controller = CYI
+culture = yi
+religion = xiaoxia_bimox
+capital = "Suijiang"
+trade_goods = copper
+base_tax = 4
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+#1644.8.9 = {	owner = CXI
+#		controller = CXI
+#	   } # The Xi dynasty of Zhang Xianzhong
+1646.10.1 = { controller = QNG }
+1662.1.1 = { 
+	add_core = QNG
+}
+1680.1.1 = { controller = QNG }
+add_core = CYI

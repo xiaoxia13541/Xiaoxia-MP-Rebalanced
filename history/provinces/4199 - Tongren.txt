@@ -1,0 +1,13 @@
+base_tax = 1
+base_manpower = 2
+base_production = 2
+culture = miao
+trade_goods = cloth
+religion = animism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = CYS
+controller = CYS
+add_core = CYS
+discovered_by = indian

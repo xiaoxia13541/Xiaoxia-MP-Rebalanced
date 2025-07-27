@@ -1,0 +1,13 @@
+add_core = KAF
+owner = KAF
+base_tax = 2
+base_manpower = 2
+base_production = 1
+religion = shamanism
+controller = KAF
+is_city = yes
+discovered_by = muslim
+
+culture = sidamo
+trade_goods = slaves
+discovered_by = east_african

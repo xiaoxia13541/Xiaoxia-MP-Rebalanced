@@ -1,0 +1,22 @@
+# 3625 - Dezhou
+owner = DEZ
+controller = DEZ
+add_core = DEZ
+culture = chihan
+religion = confucianism
+capital = "Dezhou"
+trade_goods = grain
+base_tax = 4
+base_production = 3
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+#1402.7.13 = { revolt = {} controller = MNG }
+1519.1.1 = { discovered_by = POR }
+1644.6.4 = { controller = MCH }
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}

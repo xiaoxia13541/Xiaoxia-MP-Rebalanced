@@ -1,0 +1,12 @@
+base_tax = 3
+base_manpower = 2
+base_production = 2
+culture = vietnamese
+trade_goods = incense
+religion = mahayana
+is_city = yes
+discovered_by = chinese
+add_core = DAI
+owner = DAI
+controller = DAI
+discovered_by = indian

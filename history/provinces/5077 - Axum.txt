@@ -1,0 +1,13 @@
+owner = WAD
+controller = WAD
+add_core = WAD
+culture = tunjur
+religion = sunni#Fetishism
+capital = "Axum"
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+discovered_by = sub_saharan
+discovered_by = DAR

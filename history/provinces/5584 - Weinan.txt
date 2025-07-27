@@ -1,0 +1,20 @@
+# 3616 - Weinan
+owner = WEI
+controller = WEI
+add_core = WEI
+culture = zhongyuan
+religion = confucianism
+capital = "Weinan"
+trade_goods = grain
+base_tax = 4
+base_production = 2
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1637.1.1 = { controller = REB revolt = { type = anti_tax_rebels size = 1 } }
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}

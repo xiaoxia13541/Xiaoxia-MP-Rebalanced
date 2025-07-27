@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 1
+base_production = 4
+culture = jianghuai
+trade_goods = paper
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = ZHU
+controller = ZHU
+add_core = ZHU
+discovered_by = indian

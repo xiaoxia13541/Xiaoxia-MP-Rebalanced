@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 2
+base_production = 3
+culture = yi
+trade_goods = livestock
+religion = xiaoxia_bimox
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = CYI
+owner = CYI
+controller = CYI
+discovered_by = indian

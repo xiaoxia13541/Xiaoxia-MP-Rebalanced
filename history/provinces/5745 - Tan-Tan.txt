@@ -1,0 +1,16 @@
+#5745 - Tan-Tan
+owner = MOR
+controller = MOR
+culture = algerian
+religion = sunni
+capital = "Tan-Tan"
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = MOR
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+discovered_by = eastern

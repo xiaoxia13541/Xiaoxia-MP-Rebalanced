@@ -1,0 +1,16 @@
+owner = AJU
+controller = AJU
+add_core = AJU
+culture = harari
+religion = sunni
+capital = "Degreba"
+trade_goods = grain
+is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 2
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+1550.1.1 = { discovered_by = TUR }

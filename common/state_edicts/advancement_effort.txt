@@ -1,0 +1,40 @@
+edict_advancement_effort = {
+	potential = {
+		always = yes		#we support "potential" if modders want to have lots and just show some.
+	}
+	
+	allow = {
+		always = yes
+		custom_trigger_tooltip = {
+			tooltip = sea_remove_state_edicts_flag_tt
+			OR = {
+				NOT = { has_country_flag = sea_state_edicts_clear_flag }
+				had_country_flag = {
+					flag = sea_state_edicts_clear_flag
+					days = 33
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		local_institution_spread = 0.5
+	}
+
+	notify_trigger = {
+		FROM = {
+			current_institution = 100
+		}
+	}
+	
+	color = { 50 173 192 }
+	on_state_edict_revoked = { FROM = { clr_country_flag = sea_state_edicts_decision_edict_advancement_effort_flag } }
+	
+	
+	ai_will_do = {
+		# has to be around at least 10 to be picked (depends on maintainance cost and general economy)
+		factor = 0
+	}
+	# on_state_edict_enacted = {} triggers an effect when the state edict is added ROOT - Province FROM - Country that started
+	# on_state_edict_revoked = {} triggers an affect when the state edict is removed ROOT - Province FROM - Country that started
+}

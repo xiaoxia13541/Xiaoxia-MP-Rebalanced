@@ -1,0 +1,17 @@
+version="1.37.*.*"
+tags={
+	"Alternative History"
+	"Balance"
+	"Events"
+	"Expansion"
+	"Gameplay"
+	"Map"
+	"Missions And Decisions"
+	"New Nations"
+	"National Ideas"
+	"Translation"
+}
+name="Zlewikk-MJL MP Rebalance CH"
+picture="thumbnail.png"
+supported_version="v1.37.5.0"
+remote_file_id="3395397627"

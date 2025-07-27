@@ -1,0 +1,13 @@
+base_tax = 1
+base_manpower = 3
+base_production = 3
+culture = chahar
+trade_goods = naval_supplies
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = CTL
+controller = CTL
+discovered_by = indian
+add_core = CTL

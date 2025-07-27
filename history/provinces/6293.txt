@@ -1,0 +1,12 @@
+add_core = GOG
+owner = GOG
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = GOG
+is_city = yes
+culture = bantu
+trade_goods = sugar
+discovered_by = central_african
+discovered_by = east_african

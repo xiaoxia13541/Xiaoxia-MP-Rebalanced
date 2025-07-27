@@ -1,0 +1,144 @@
+country_decisions = {
+	mjl_rise_of_zhungars = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = mjl_choros_leads_confederation }
+			ai = no
+			OR = {
+				tag = ZUN
+				tag = KAS
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 718 #Kobdo
+				province_id = 715 #Urumqi
+				area = zungaria_area
+				area = north_zungaria
+				area = zungarian_gate
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			total_development = 100
+			has_reform = steppe_horde
+			OR = {
+				NOT = { exists = OIR }
+				OIR = {
+					is_subject = yes
+				}
+				OIR = {
+					NOT = {
+						total_development = 50
+					}
+				}
+			}
+			owns_core_province = 718 #Kobdo
+			owns_core_province = 715 #Urumqi
+			zungaria_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			north_zungaria = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			zungarian_gate = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			set_country_flag = mjl_choros_leads_confederation
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_stability = 3
+			add_war_exhaustion = -3
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+			every_province = {
+				limit = {
+					culture = oirats
+					continent = asia
+					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ZUN
+			}
+			override_country_name = ZUN_Kingdom
+		}
+	}
+	mjl_become_mongol_khagan = {
+		major = yes
+		potential = {
+			has_reform = steppe_horde
+			OR = {
+				primary_culture = kirgiz
+				primary_culture = oirats
+				primary_culture = mongol
+				primary_culture = chahar
+				primary_culture = khalkha
+				primary_culture = uyghur
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 480 #Pegaya Orda
+				province_id = 718 #Kobdo
+				province_id = 715 #Urumqi
+				#province_id = 723 #Xilin Gol
+				province_id = 2116 #Ih Hure
+				province_id = 2190 #Qaraqorum
+				province_id = 5675 #Khorgas
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			total_development = 300
+			NOT = {
+				any_country = {
+					capital_scope = {
+						region = mongolia_region
+					}
+					total_development = ROOT
+				}
+			}
+			NOT = { exists = OIR }
+			owns_core_province = 480 #Pegaya Orda
+			owns_core_province = 718 #Kobdo
+			owns_core_province = 715 #Urumqi
+			#owns_core_province = 723 #Xilin Gol
+			owns_core_province = 2116 #Ih Hure
+			owns_core_province = 2190 #Qaraqorum
+			owns_core_province = 5675 #Khorgas
+		}
+		effect = {
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			if = {
+				limit = { has_reform = steppe_horde }
+				add_government_reform = great_mongol_state_reform
+			}
+			add_prestige = 15
+		}
+	}
+
+}

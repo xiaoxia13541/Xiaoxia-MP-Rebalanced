@@ -1,0 +1,13 @@
+add_core = MOR
+owner = MOR
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = sunni
+controller = MOR
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+trade_goods = livestock
+discovered_by = muslim

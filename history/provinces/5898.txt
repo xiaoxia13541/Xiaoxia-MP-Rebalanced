@@ -1,0 +1,13 @@
+add_core = QIN
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+owner = QIN
+base_tax = 3
+base_manpower = 3
+base_production = 2
+culture = xibei
+trade_goods = sugar
+religion = confucianism
+controller = QIN
+is_city = yes

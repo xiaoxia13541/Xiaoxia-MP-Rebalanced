@@ -1,0 +1,18 @@
+#Pyeonchang
+
+owner = KOR
+controller = KOR
+culture = korean
+religion = confucianism
+capital = "Pyeonchang"
+trade_goods = chinaware
+hre = no
+base_tax = 2
+base_manpower = 2
+base_production = 2
+is_city = yes
+add_core = KOR
+discovered_by = chinese
+discovered_by = nomad_group
+
+1542.1.1 = { discovered_by = POR }

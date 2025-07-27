@@ -1,0 +1,11 @@
+add_core = YAO
+owner = YAO
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = sunni
+controller = YAO
+is_city = yes
+culture = bilala
+trade_goods = ivory
+discovered_by = sub_saharan

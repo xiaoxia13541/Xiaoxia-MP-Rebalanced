@@ -1,0 +1,23 @@
+# 2720 - Yingtan
+owner = WUU
+controller = WUU
+add_core = WUU
+culture = chimin
+religion = confucianism
+capital = "Yingtan"
+trade_goods = tea
+base_tax = 2
+base_production = 1
+base_manpower = 2
+# citysize = 4200
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1646.1.1 = { controller = QNG }
+1661.6.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+1675.1.1 = { controller = MNG }
+1680.1.1 = { controller = QNG }
+is_city = yes

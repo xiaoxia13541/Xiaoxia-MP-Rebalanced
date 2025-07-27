@@ -1,0 +1,30 @@
+vassal = {
+	first = SAV
+	second = GNV
+	start_date = 1444.1.1
+	end_date = 1526.1.1
+}
+union = {
+	first = ANS
+	second = BYT
+	start_date = 1440.9.20
+	end_date = 1791.12.2
+}
+union = {
+	first = SAX
+	second = THU
+	start_date = 1409.10.29
+	end_date = 1485.8.26
+}
+vassal = {
+	first = WBG
+	second = BAM
+	start_date = 1444.1.1
+	end_date = 1803.1.1
+}
+vassal = {
+	first = UBV
+	second = PSS
+	start_date = 1444.1.1
+	end_date = 1503.11.30
+}

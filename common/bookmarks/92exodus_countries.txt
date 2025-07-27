@@ -1,0 +1,16 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_EXODUS_COUNTRIES"
+	desc = "TY_BOOKMARK_EXODUS_COUNTRIES_DESC"
+	date = 1444.11.11
+	
+	center = 112
+
+	country = NOR
+	country = BRI
+	country = CNN
+	country = MCM
+	country = JOL
+	country = TER
+	country = KMC
+}

@@ -1,0 +1,23 @@
+# Venice League:
+dependency = {
+	subject_type = "venetian_league_subjects"
+	first = VEN
+	second = CEP
+	start_date = 1444.1.1
+	end_date = 1460.1.1
+}
+dependency = {
+	subject_type = "venetian_league_subjects"
+	first = VEN
+	second = NAX
+	start_date = 1444.1.1
+	end_date = 1579.1.1
+}
+dependency = {
+	subject_type = "venetian_league_subjects"
+	first = VEN
+	second = CRT
+	start_date = 1444.1.1
+	end_date = 1522.12.21
+}
+

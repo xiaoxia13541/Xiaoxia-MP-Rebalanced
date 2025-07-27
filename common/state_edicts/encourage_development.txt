@@ -1,0 +1,47 @@
+edict_encourage_development = {
+	potential = {
+		always = yes		#we support "potential" if modders want to have lots and just show some.
+	}
+	
+	allow = {
+		always = yes
+		custom_trigger_tooltip = {
+			tooltip = sea_remove_state_edicts_flag_tt
+			OR = {
+				NOT = { has_country_flag = sea_state_edicts_clear_flag }
+				had_country_flag = {
+					flag = sea_state_edicts_clear_flag
+					days = 33
+				}
+			}
+		}
+	}
+	
+	years_to_notify = 2 #specifies how many years an edict needs to be active to show an alert
+	
+	modifier = {
+		local_development_cost = -0.1
+	}
+	
+	color = {  244 184 12  }
+	on_state_edict_revoked = { FROM = { clr_country_flag = sea_state_edicts_decision_edict_encourage_development_flag } }
+	
+	
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 10
+			all_province_in_state = {
+				is_city = yes
+				development = 6
+			}
+		}
+		modifier = {
+			factor = 10
+			any_province_in_state = {
+				is_capital = yes
+			}
+		}
+	}
+	
+}

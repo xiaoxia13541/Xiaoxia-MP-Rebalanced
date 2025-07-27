@@ -1,0 +1,21 @@
+#875 - Canyon
+
+#owner = KER
+#controller = KER
+#add_core = KER
+culture = navajo 
+religion = totemism
+capital = "Canyon" 
+trade_goods = unknown # gems
+hre = no 
+#is_city = yes
+base_tax = 2#3
+base_production = 2
+base_manpower = 1#2
+native_size = 5 
+native_ferocity = 2 
+native_hostileness = 1 
+ # Francisco Vásquez de Coronado
+discovered_by = north_american
+
+1540.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado

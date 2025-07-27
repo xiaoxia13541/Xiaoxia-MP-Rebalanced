@@ -1,0 +1,23 @@
+#1058 - Nerchinsky
+owner = DUR
+controller = DUR
+add_core = DUR
+culture = buryat
+religion = tengri_pagan_reformed
+capital = "Onan Gol"
+trade_goods = fur
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = nomad_group
+discovered_by = BRT
+1653.1.1 = { 
+	discovered_by = RUS
+	controller = RUS
+	religion = orthodox
+	culture = russian
+	trade_goods = wool
+}
+1678.1.1 = { add_core = RUS }
+discovered_by = chinese

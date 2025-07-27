@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 2
+base_production = 2
+culture = wu
+trade_goods = paper
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = ZEN
+controller = ZEN
+add_core = ZEN
+discovered_by = indian

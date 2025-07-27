@@ -1,0 +1,11 @@
+add_core = BUG
+owner = BUG
+base_tax = 1
+base_manpower = 3
+base_production = 3
+religion = shamanism
+controller = BUG
+is_city = yes
+culture = masaba
+trade_goods = naval_supplies
+discovered_by = central_african

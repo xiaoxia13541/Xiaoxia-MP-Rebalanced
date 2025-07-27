@@ -1,0 +1,26 @@
+sea_fezzan_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = FZA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	fza_kingdom_of_the_sand = {
+		icon = mission_conquer_air
+		trigger = {
+			grown_by_development = 150
+		}
+		effect = {
+			add_country_modifier = {
+				name = fza_kingdom_of_the_sand_modifier
+				duration = 7300
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+}

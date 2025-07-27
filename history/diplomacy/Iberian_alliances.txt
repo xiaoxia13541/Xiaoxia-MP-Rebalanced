@@ -1,0 +1,32 @@
+# Castille + Aragon = PU mission over Portugal.
+dependency = {
+	subject_type = "castille_vassal"
+	first = CAS
+	second = ARA
+	start_date = 1444.10.10
+	end_date = 1555.11.11
+}
+# Castille + Catalonia
+dependency = {
+	subject_type = "castille_vassal"
+	first = CAS
+	second = CAT
+	start_date = 1444.10.10
+	end_date = 1555.11.11
+}
+# Castille + Valencia
+dependency = {
+	subject_type = "castille_vassal"
+	first = CAS
+	second = VAL
+	start_date = 1444.10.10
+	end_date = 1555.11.11
+}
+# Castille + Navarra
+dependency = {
+	subject_type = "castille_vassal"
+	first = CAS
+	second = NAV
+	start_date = 1444.10.10
+	end_date = 1555.11.11
+}

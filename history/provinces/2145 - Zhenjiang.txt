@@ -1,0 +1,13 @@
+base_tax = 3
+base_manpower = 5
+base_production = 3
+culture = wu
+trade_goods = livestock
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = HUY
+owner = HUY
+controller = HUY
+discovered_by = indian

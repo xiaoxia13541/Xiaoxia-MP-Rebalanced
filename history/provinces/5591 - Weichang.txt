@@ -1,0 +1,15 @@
+# 3623 - Weichang
+owner = CDA
+controller = CDA
+culture = chihan 
+religion = vajrayana #confucianism
+capital = "Weichang"
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+add_core = CDA

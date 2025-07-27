@@ -1,0 +1,23 @@
+# 3590 - Wuhai
+owner = QIN
+controller = QIN
+culture = xibei
+religion = confucianism
+capital = "Wuhai"
+trade_goods = livestock
+base_tax = 3
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1634.1.1 = { 
+	controller = MCH
+	add_core = MCH
+}
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+add_core = QIN

@@ -1,0 +1,14 @@
+base_tax = 3
+base_manpower = 2
+base_production = 2
+culture = zhongyuan
+trade_goods = cloth
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = SUI
+owner = SUI
+controller = SUI
+discovered_by = indian
+

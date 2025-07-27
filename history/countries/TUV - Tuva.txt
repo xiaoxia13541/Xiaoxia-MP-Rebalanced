@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = siberian_tribe
+government_rank = 1
+technology_group = nomad_group
+religion = tengri_pagan_reformed
+primary_culture = kirgiz
+capital = 716#Tannu Uriankhai
+1414.1.1 = { 
+	monarch = { 
+		name = "Naghachu"
+		dynasty = "Tuvan"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

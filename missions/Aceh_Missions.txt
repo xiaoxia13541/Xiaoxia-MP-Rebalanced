@@ -1,0 +1,67 @@
+# New is ME_Pasai_Aceh_Missions.txt
+
+atj_1 = { # This is needed for a mission completion effect elsewhere.
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		always = no
+	}
+	has_country_shield = yes
+
+	atj_porch_of_mecca = {
+		icon = mission_market_place_with_asian_traders
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 617
+			OR = {
+				NOT = { owned_by = ROOT }
+				OR = {
+					NOT = { has_building = temple }
+					NOT = { has_building = cathedral }
+				}
+				NOT = { religion = sunni }
+			}
+		}
+		trigger = {
+			religion = sunni
+			if = {
+				limit = {
+					has_estate = estate_church
+				}
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 55
+				}
+			}
+			617 = {
+				owned_by = ROOT
+				religion = sunni
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc = "Cradle of Civilization"
+				}
+				custom_tooltip = atj_propagate_religion_tt
+			}
+			else = {
+				add_country_modifier = {
+					name = atj_porch_of_mecca_modifier
+					duration = 7300
+				}
+			}
+			custom_tooltip = atj_holy_war_cb_sumatra_tt
+			set_country_flag = 35_trade_power_for_propogate_religion
+		}
+		ai_weight = {
+			factor = 500
+		}
+	}
+}

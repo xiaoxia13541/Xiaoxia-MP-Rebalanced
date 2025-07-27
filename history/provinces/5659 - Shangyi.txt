@@ -1,0 +1,16 @@
+# 5563 - Shangyi
+owner = YUE
+controller = YUE
+culture = cantonese
+religion = confucianism
+capital = "Shangyi"
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 5000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+add_core = YUE
+is_city = yes

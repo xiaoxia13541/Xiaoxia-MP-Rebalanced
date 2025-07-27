@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 1
+base_production = 1
+culture = hakka
+trade_goods = cotton
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = CHZ
+owner = CHZ
+controller = CHZ
+discovered_by = indian

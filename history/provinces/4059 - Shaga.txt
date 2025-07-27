@@ -1,0 +1,17 @@
+#4059 - Shaga
+owner = KRW
+controller = KRW
+add_core = KRW
+culture = masaba
+religion = shamanism#Fetishism
+trade_goods = naval_supplies
+base_tax = 2
+base_production = 2
+base_manpower = 1
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+is_city = yes
+discovered_by = central_african
+capital = "Shaga"
+discovered_by = east_african

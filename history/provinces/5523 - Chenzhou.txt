@@ -1,0 +1,20 @@
+# 2441 - Chenzhou
+owner = CMI
+controller = CMI
+add_core = CMI
+culture = xiang
+religion = confucianism
+capital = "Chenzhou"
+trade_goods = silk
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+1679.1.1 = { controller = QNG }

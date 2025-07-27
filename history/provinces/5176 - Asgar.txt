@@ -1,0 +1,19 @@
+# Sealand
+culture = somali
+religion = sunni
+capital = "Asgar"
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 30
+native_ferocity = 4
+native_hostileness = 9
+add_core = MJE
+owner = MJE
+controller = MJE
+is_city = yes
+discovered_by = ottoman
+discovered_by = muslim
+discovered_by = indian
+discovered_by = east_african

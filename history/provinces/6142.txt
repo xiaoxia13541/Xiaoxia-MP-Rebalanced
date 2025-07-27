@@ -1,0 +1,11 @@
+add_core = ZND
+owner = ZND
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = ZND
+is_city = yes
+culture = bambara
+trade_goods = wool
+discovered_by = sub_saharan

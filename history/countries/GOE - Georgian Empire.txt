@@ -1,0 +1,8 @@
+# Sealand
+government = theocracy
+add_government_reform = eschatological_theocracy_georgia_reform
+government_rank = 3
+primary_culture = georgian
+religion = orthodox
+technology_group = eastern
+capital = 423 # T'bilisi

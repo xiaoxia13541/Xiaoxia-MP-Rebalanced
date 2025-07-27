@@ -1,0 +1,158 @@
+sea_ferrara_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = FER
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	fer_prepare_for_war = {
+		icon = mission_assemble_an_army
+		trigger = {
+			army_size = 15
+		}
+		effect = {
+			po_valley_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lombardy_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tuscany_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lazio_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	fer_new_tuscany = {
+		icon = conquer_tuscany
+		required_missions = { fer_prepare_for_war }
+		provinces_to_highlight = {
+			area = tuscany_area 
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			NOT = { exists = LAN }
+			tuscany_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			change_primary_culture = tuscan
+			add_country_modifier = {
+				name = fer_new_tuscany_modifier
+				duration = 7300
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+}
+sea_ferrara_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = FER
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	fer_consolidate_area = {
+		icon = mission_unite_home_region
+		provinces_to_highlight = {
+			area = emilia_romagna_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			emilia_romagna_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = fer_consolidate_area_modifier
+				duration = 3650
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	fer_lombary_united = {
+		icon = expand_the_terraferma
+		required_missions = { fer_prepare_for_war }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 116
+				province_id = 104
+				province_id = 101
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			116 = { owned_by = ROOT }
+			104 = { owned_by = ROOT }
+			101 = { owned_by = ROOT }
+			land_forcelimit = 20
+			naval_forcelimit = 15
+		}
+		effect = {
+			italy_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	fer_mighty_ferrara = {
+		icon = republican_yearnings
+		required_missions = { fer_lombary_united }
+		trigger = {
+			development_in_provinces = {
+				value = 400
+				region = italy_region
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = fer_mighty_ferrara_modifier
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+}

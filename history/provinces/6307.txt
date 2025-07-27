@@ -1,0 +1,11 @@
+add_core = HEH
+owner = HEH
+base_tax = 1
+base_manpower = 1
+base_production = 2
+religion = shamanism
+controller = HEH
+is_city = yes
+culture = bena
+trade_goods = cotton
+discovered_by = central_african

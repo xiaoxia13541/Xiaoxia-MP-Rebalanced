@@ -1,0 +1,122 @@
+# New is ME_Majapahit_Missions.txt
+
+mnd_maj_3 = { # This is needed for a mission completion effect elsewhere.
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Leviathan"
+	}
+	potential = {
+		always = no
+		has_dlc = "Leviathan"
+	}
+	has_country_shield = yes
+	
+	mnd_maj_porch_of_mecca = {
+		icon = mission_mnd_maj_porch_of_mecca
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					area = north_sumatra_area
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					is_capital = yes
+					ROOT = { religion_group = muslim }
+					owner = {
+						NOT = { religion_group = muslim }
+						capital_scope = {
+							OR = {
+								region = malaya_region
+								region = indonesia_region
+							}
+						}
+					}
+				}
+				AND = {
+					is_capital = yes
+					ROOT = { NOT = { religion_group = muslim } }
+					owner = {
+						religion_group = muslim
+						capital_scope = {
+							OR = {
+								region = malaya_region
+								region = indonesia_region
+							}
+						}
+					}
+				}
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					NOT = { religion_group = muslim }
+				}
+				custom_trigger_tooltip = {
+					tooltip = no_more_muslims_tt
+					NOT = {
+						any_country = {
+							religion_group = muslim
+							capital_scope = {
+								OR = {
+									region = malaya_region
+									region = indonesia_region
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = all_muslims_tt
+					NOT = {
+						any_country = {
+							NOT = { religion_group = muslim }
+							capital_scope = {
+								OR = {
+									region = malaya_region
+									region = indonesia_region
+								}
+							}
+						}
+					}
+				}
+			}
+			north_sumatra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				owner = {
+					religion = ROOT
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { religion = sunni }
+				}
+				if = {
+					limit = {
+						has_dlc = "Cradle of Civilization"
+						religion = hinduism
+					}
+					custom_tooltip = propagate_religion_maj_tt
+				}
+				every_province = {
+					limit = {
+						area = north_sumatra_area
+						religion = sunni
+					}
+					change_religion = ROOT
+				}
+			}
+			else = {
+				add_prestige = 20
+			}
+		}
+	}
+}

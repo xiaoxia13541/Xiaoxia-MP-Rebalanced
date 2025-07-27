@@ -1,0 +1,142 @@
+sea_bytom_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SIL
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	sil_bottom_bytom = {
+		icon = mission_colonial
+		provinces_to_highlight = {
+			province_id = 264
+			NOT = { development = 15 }
+		}
+		trigger = {
+			264 = { development = 15 }
+		}
+		effect = {
+			wielkopolska_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			moravia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			slovakia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	sil_develop_homeland = {
+		icon = mission_pol_develop_countryside
+		required_missions = { sil_bottom_bytom }
+		provinces_to_highlight = {
+			area = silesia_area
+		}
+		trigger = {
+			development_in_provinces = {
+				value = 80
+				area = silesia_area
+			}
+		}
+		effect = {
+			silesia_area = {
+				add_province_modifier = {
+					name = sil_develop_homeland_modifier
+					duration = -1
+				}
+			}
+			poland_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	sil_heir_of_polonia_bytom = {
+		icon = polish_diplomacy
+		required_missions = { sil_develop_homeland }
+		trigger = {
+			land_forcelimit = 40
+		}
+		effect = {
+			add_country_modifier = {
+				name = sil_heir_of_polonia_bytom_modifier
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	sil_coal_kingdom = {
+		icon = mission_rb_prospect_for_coal
+		required_missions = { sil_heir_of_polonia_bytom }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 262
+				province_id = 4237
+				province_id = 62
+				province_id = 1763
+				province_id = 260
+				province_id = 2961
+				province_id = 1951
+				province_id = 1864
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				OR = {
+					province_id = 262
+					province_id = 4237
+					province_id = 62
+					province_id = 1763
+					province_id = 260
+					province_id = 2961
+					province_id = 1951
+					province_id = 1864
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = { has_dlc = "Rule Britannia" }
+				custom_tooltip = earlier_coal_available_tt
+			}
+			set_country_flag = earlier_coal_available
+			263 = {
+				add_province_modifier = {
+					name = sil_coal_kingdom_modifier
+					duration = -1
+				}
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+}

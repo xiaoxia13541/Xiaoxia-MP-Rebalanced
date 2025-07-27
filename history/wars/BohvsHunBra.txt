@@ -1,0 +1,19 @@
+name = "Bohemian-Hungarian War"
+war_goal = {
+	type = take_capital_throne
+	casus_belli = cb_claim_throne
+	tag = BOH
+}
+
+1440.1.1 = {
+	add_attacker = HUN
+	add_attacker = BRA
+	add_defender = BOH
+}
+
+# Peace
+1444.10.10 = {
+	rem_attacker = HUN
+	rem_attacker = BRA
+	rem_defender = BOH
+}

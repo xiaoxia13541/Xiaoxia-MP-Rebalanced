@@ -1,0 +1,11 @@
+add_core = LDU
+owner = LDU
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = LDU
+is_city = yes
+culture = nyasa
+trade_goods = cloth
+discovered_by = central_african

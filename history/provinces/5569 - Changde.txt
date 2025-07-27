@@ -1,0 +1,22 @@
+# 2730 - Changde
+owner = CXI
+controller = CXI
+add_core = CXI
+culture = xiang
+religion = confucianism
+capital = "Changde"
+trade_goods = cotton
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 1500000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+1679.1.1 = { controller = QNG }
+is_city = yes
+fort_15th = yes

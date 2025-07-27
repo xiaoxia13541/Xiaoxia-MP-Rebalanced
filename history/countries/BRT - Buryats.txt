@@ -1,0 +1,21 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+primary_culture = khalkha
+add_accepted_culture = buryat
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 1056
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
+
+1444.11.11 = {
+	monarch = {
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

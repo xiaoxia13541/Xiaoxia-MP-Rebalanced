@@ -1,0 +1,13 @@
+base_tax = 4
+base_manpower = 4
+base_production = 2
+culture = wu
+trade_goods = cloth
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = SZH
+controller = SZH
+add_core = SZH
+discovered_by = indian

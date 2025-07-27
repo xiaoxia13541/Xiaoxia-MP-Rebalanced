@@ -1,0 +1,1417 @@
+# OTHER:
+# Change Muslim School:
+change_school_modifier = {
+	# Nothing is needed here
+}
+# Fishing game?:
+#sea_fishing_game_modifier = {
+#	trade_goods_size = -1
+#}
+# Russian Gov mech:
+rus_gov_mec_streltsy_regiment = {
+	fire_damage = 0.1
+	fire_damage_received = -0.1
+	is_streltsy_modifier = yes
+}
+trained_subject_officers = {
+	discipline = 0.025
+	land_morale = 0.1
+}
+trained_marines_act_marines = {
+	infantry_power = 0.1
+	is_marine_modifier = yes
+}
+national_focus_remove_cooldown_modifier = {
+	national_focus_years = -30
+}
+national_focus_adm_modifier = {
+	country_admin_power = 2
+	country_diplomatic_power = -1
+	country_military_power = -1
+}
+national_focus_dip_modifier = {
+	country_admin_power = -1
+	country_diplomatic_power = 2
+	country_military_power = -1
+}
+national_focus_mil_modifier = {
+	country_admin_power = -1
+	country_diplomatic_power = -1
+	country_military_power = 2
+}
+################
+# Diplo actions:
+# Muslim Jihad:
+sea_sunni_crusade_jihad_diplo_action_modifier = {
+	# Nothing is needed here
+}
+# Sabotage Enemy defences diplo action:
+sea_spy_sabotage_defences_covert_action_modifier = {
+	defensiveness = -0.15
+}
+##########################################
+# Privileges:
+estate_church_no_church_unrest_modifier = {
+	local_unrest = -4
+}
+tib_tame_the_mountains_modifier = {
+	local_development_cost = -0.35
+}
+################
+# New World canal prov:
+new_world_canal_tag_no_colonize = {
+	colonists = -5
+}
+# New World and Colonial Australia nerf:
+new_wrold_nerfs_modifier = {
+	local_development_cost = 0.15
+	local_manpower_modifier = -0.1
+}
+# New World Splendor:
+new_world_splendor = {
+	monthly_splendor = 1
+}
+sea_new_world_more_trade_power_modifier = {
+	trade_efficiency = 0.2
+	placed_merchant_power = 2
+	trade_steering = 0.2
+}
+sea_new_world_kill_ruler_options_cooldown = {
+	yearly_corruption = 0.01
+}
+
+colonial_ambitions_modifier = {
+	colonists = 1
+	global_colonial_growth = 20
+}
+discover_new_land_modifier = {
+	range = 3
+}
+discover_new_land_short_modifier = {
+	range = 1
+}
+sea_sunset_invasion_modifier = {
+	movement_speed = 0.1
+	reinforce_speed = 0.05
+	recover_army_morale_speed = 0.05
+}
+# Catholic action:
+papal_legate_2 = {
+	global_colonial_growth = 15
+}
+################
+# Cooldowns:
+military_reform_cooldown_modifier = {
+	global_manpower = 0.001
+}
+birthplace_of_the_embracemonke = {
+	local_manpower = 0.001
+}
+################
+# Age Modifiers:
+sea_reformation_increased_condo_modifier = {
+	possible_condottieri = 0.33
+}
+sea_absolutism_increased_condo_modifier = {
+	possible_condottieri = 0.66
+}
+sea_revolutions_increased_condo_modifier = {
+	possible_condottieri = 1
+}
+##########################################
+# Buildings:
+road_workshop_modifier = {
+	local_production_efficiency = 0.1
+}
+road_temple_modifier = {
+	local_tax_modifier = 0.175
+}
+road_marketplace_modifier = {
+	province_trade_power_modifier = 0.25
+}
+mint_temple_modifier = {
+	local_tax_modifier = 0.25
+}
+war_college_supply_modifier = {
+	supply_limit_modifier = 2
+	supply_limit = 2
+}
+##########################################
+# North-America:
+atw_extra_merchant_modifier = {
+	merchants = 1
+	global_trade_power = 0.1
+}
+# Atlantis:
+atl_ship_building_modifier = {
+	global_ship_cost = -0.25
+	global_ship_recruit_speed = -0.25
+}
+atl_focus_on_trading_modifier = {
+	merchants = 1
+	mercantilism_cost = -0.1
+}
+atl_massive_fleet_modifier = {
+	ship_durability = 0.2
+	naval_attrition = -0.2
+	global_naval_engagement_modifier = 0.1
+}
+# Kemet:
+kem_construction_modifier = {
+	build_cost = -0.15
+	build_time = -0.15
+}
+#######
+# Meso/South America:
+# Aztecs
+aztecs_eagle_special_units = {
+	morale_damage = 0.2
+	land_morale = 0.15
+	infantry_power = 0.05
+	is_cawa_modifier = yes
+}
+aztecs_jaguar_special_units = {
+	morale_damage = 0.15
+	land_morale = 0.1
+	infantry_power = 0.1
+	is_cawa_modifier = yes
+}
+##########################################
+# Hormuz:
+tamed_the_desert_modifier = {
+	local_development_cost = -0.15
+}
+the_way_to_god_modifier = {
+	monthly_piety = -0.001
+}
+eschatological_theocracy_caliphate_reform_janissaries_boost = {
+	is_janissary_modifier = yes
+	infantry_power = 0.33
+}
+##########################################
+# Teutonic Order
+centralized_the_order_modifier = {
+	stability_cost_modifier = -0.20
+}
+convert_baltics_modifier = {
+	local_culture_conversion_cost = -0.3
+	local_culture_conversion_time = -0.15
+	local_unrest = 1
+}
+teu_recover_manpower_modifier = {
+	manpower_recovery_speed = 0.33
+}
+teu_knights_of_war_modifier = {
+	cavalry_cost = -0.1
+	cavalry_fire = 0.5
+}
+##########################################
+# Silesia:
+silesia_monarchy_reform_coal_bonus = {
+	local_production_efficiency = 0.5
+}
+silesia_monarchy_reform_coal_latent = {
+	local_development_cost = -0.2
+	local_unrest = -2
+}
+silesia_hanys_special_units = {
+	discipline = -0.025
+	infantry_power = -0.05
+	is_cawa_modifier = yes
+}
+silesia_hanys_special_units_upgrade_1 = {
+	land_maintenance_modifier = 0.1
+	morale_damage = 0.1
+	fire_damage_received = -0.15
+	is_cawa_modifier = yes
+}
+silesia_hanys_special_units_upgrade_2 = {
+	land_maintenance_modifier = 0.1
+	morale_damage = 0.1
+	shock_damage_received = -0.15
+	is_cawa_modifier = yes
+}
+silesia_hanys_special_units_upgrade_3 = {
+	land_maintenance_modifier = 0.1
+	drill_gain_modifier = 0.33
+	drill_decay_modifier = -0.33
+	is_cawa_modifier = yes
+}
+silesia_hanys_special_units_upgrade_4 = {
+	land_maintenance_modifier = 0.1
+	recover_army_morale_speed = 0.25
+	reinforce_speed = 0.5
+	is_cawa_modifier = yes
+}
+silesia_hanys_special_units_upgrade_5 = {
+	land_maintenance_modifier = 0.1
+	sea_special_units_double_fl = 1
+	is_cawa_modifier = yes
+}
+silesia_hanys_special_units_upgrade_55 = {
+	local_amount_of_cawa = 10
+}
+##########################################
+# Qara Qoyunlu:
+cavarly_focused_society_modifier = {
+	cavalry_cost = -0.1
+	cavalry_flanking = 1
+}
+unite_the_turks_modifier = {
+	num_accepted_cultures = 1
+	same_culture_advisor_cost = -0.07
+	culture_conversion_cost = -0.1
+}
+egypt_under_new_management_modifier = {
+	local_state_maintenance_modifier = 0.33
+	local_unrest = 3
+	min_local_autonomy = 50
+	local_production_efficiency = 1
+}
+subjugate_the_bedouins_modifier = {
+	local_autonomy = -0.1
+}
+royal_road_modifier = {
+	supply_limit_modifier = 0.25
+	local_friendly_movement_speed = 0.15
+	local_hostile_movement_speed = 0.15
+}
+clans_united_modifier = {
+	monthly_tribal_allegiance = 0.1
+}
+##########################################
+# Mamluks:
+tunisian_trade_modifier = {
+	global_ship_trade_power = 0.2
+}
+nubian_integration_modifier = {
+	local_autonomy = -0.07
+}
+convert_ethiopian_heathens_modifier = {
+	local_missionary_strength = 0.03
+	local_missionary_maintenance_cost = -0.3
+}
+invasion_to_italy_modifier = {
+	galley_power = 0.2
+	recover_navy_morale_speed = 0.1
+}
+australian_gold_modifier = {
+	global_tariffs = 0.25
+}
+subjugation_of_beyliks_modifier = {
+	local_autonomy = -0.05
+	local_years_of_nationalism = -5
+}
+modernized_society_views_modifier = {
+	may_recruit_female_generals = yes
+	female_advisor_chance = 0.1
+}
+mesopotamian_mamluks_modifier = {
+	cavalry_power = 0.05
+	cav_to_inf_ratio = 0.1
+}
+prepare_for_europe_hugbox_modifier = {
+	manpower_recovery_speed = 0.3
+	reinforce_speed = 0.3
+}
+abbasid_governors_modifier = {
+	governing_capacity = 150
+	max_absolutism = 10
+	global_autonomy = -0.05
+}
+##########################################
+# Ethiopia:
+eth_tame_the_mountains_modifier = {
+	local_development_cost = -0.1
+}
+##########################################
+# Korea:
+asian_dragon_modifier = {
+	local_build_cost = -0.1
+	allowed_num_of_buildings = 1
+}
+four_asian_dragons_modifier = {
+	build_cost = -0.05
+	global_tax_modifier = 0.1
+	inflation_reduction = 0.05
+}
+kor_defence_war_modifier = {
+	shock_damage_received = -0.2
+}
+##########################################
+# Siam:
+mnd_siam_defy_china_mod = {
+	cavalry_fire = 0.25
+}
+##########################################
+# Norway:
+the_known_frontier_modifier = {
+	colonists = 1
+	range = 0.2
+}
+influx_of_nordic_settlers_modifier = {
+	colonist_placement_chance = 0.3
+}
+production_on_wood_modifier = {
+	trade_goods_size = 1.0
+}
+good_contact_with_the_natives_modifier = {
+	native_assimilation = 0.5
+	native_uprising_chance = -1
+}
+bad_contact_with_the_natives_modifier = {
+	native_uprising_chance = 1
+}
+focus_on_england_modifier = {
+	capture_ship_chance = 0.2
+	global_naval_engagement_modifier = 0.1
+	naval_attrition = -0.2
+	blockade_efficiency = 0.2
+}
+rule_the_north_sea_modifier = {
+	global_ship_trade_power = 0.1
+	ship_power_propagation = 0.1
+}
+defend_the_frontier_modifier = {
+	defensiveness = 0.33
+	hostile_attrition = 3
+	reinforce_speed = 0.33
+	recover_army_morale_speed = 0.33
+	discipline = 0.033
+}
+peasant_levies_modifier = {
+	land_morale = 0.05
+	infantry_cost = -0.1
+}
+##########################################
+# Denmark:
+wittelsbach_prevailed_modifier = {
+	prestige = 1
+}
+subjugation_of_sweden_modifier = {
+	local_years_of_nationalism = -10
+	min_local_autonomy = 20
+}
+nordic_trade_union_modifier = {
+	inflation_reduction = 0.1
+	embargo_efficiency = 0.2
+	mercantilism_cost = -0.15
+	merchants = 1
+}
+invasion_fleet_modifier = {
+	allowed_marine_fraction = 0.33
+	naval_attrition = -0.05
+	ship_durability = 0.05
+}
+live_long_and_prosper_modifier = {
+	monarch_lifespan = 0.99
+}
+boosted_infantry_quality_modifier = {
+	infantry_power = 0.1
+}
+##########################################
+# Sweden:
+utskrivning_modifier = {
+	local_manpower_modifier = 0.15
+}
+swedish_colonizer_modifier = {
+	colonists = 1
+}
+king_in_the_north_modifier = {
+	prestige = 1
+	yearly_corruption = -0.1
+	yearly_absolutism = 1
+}
+hanseatic_city_modifier = {
+	merchants = 1
+	placed_merchant_power = 5
+}
+uniformity_policy_modifier = {
+	global_unrest = -1
+	global_autonomy = -0.05
+	stability_cost_modifier = -0.1
+}
+trans_baltic_dominion_modifier = {
+	global_autonomy = -0.05
+	local_culture_conversion_cost = -0.25
+	local_culture_conversion_time = -0.1
+}
+new_living_space_modifier = {
+	land_forcelimit_modifier = 0.05
+}
+##########################################
+# England/Great Britain:
+gb_royal_marines_units_elite = { # Special
+	regiment_disembark_speed = 2
+	discipline = 0.05
+	infantry_fire = 0.5 # infantry_power = 0.15
+	fire_damage = 0.1
+	reinforce_speed = 1
+	# landing_penalty = -1 # Sadly doesn't work, nor transport_attrition for 1.35 even
+	is_cawa_modifier = yes
+}
+gb_royal_marines_units_national = { # National
+	regiment_disembark_speed = 1
+	discipline = 0.025
+	infantry_fire = 0.25 # infantry_power = 0.1
+	fire_damage = 0.05
+	reinforce_speed = 0.5
+	sea_special_units_double_fl = 1
+	# landing_penalty = -1 # Sadly doesn't work, nor transport_attrition
+	is_cawa_modifier = yes
+}
+sealand_cawa_fl_base_gb_increase = {
+	local_amount_of_cawa = 10
+}
+eng_war_france_modifier = {
+	siege_ability = 0.15
+	reinforce_speed = 0.2
+}
+# GB:
+gbr_navy_army_buildings_manp = {
+	local_manpower_modifier = 0.4
+}
+gbr_navy_army_buildings_manp2 = {
+	local_manpower_modifier = 0.8
+}
+gbr_navy_army_buildings_fl = {
+	land_forcelimit = 0.5
+}
+gbr_navy_army_buildings_fl2 = {
+	land_forcelimit = 1
+}
+# Angevin:
+ave_musketeers_modifier = {
+	has_musketeer = yes 
+	allowed_musketeer_fraction = 0.15
+}
+##########################################
+# France:
+france_reformed_musketeers_units = {
+	discipline = 0.025
+	regiment_manpower_usage = -0.15
+	drill_gain_modifier = 1
+	land_attrition = -0.15
+	is_musketeer_modifier = yes
+}
+alpine_forticiations_modifier = {
+	defensiveness = 0.2
+}
+
+musketeers_reform_modifier = {
+	allowed_musketeer_fraction = 0.2
+}
+##########################################
+# Dutch/Burgundy:
+dutch_maurician_special_units = {
+	infantry_fire = 1
+	is_cawa_modifier = yes
+}
+##########################################
+# Papal State:
+sea_recruited_swiss_guard_mercs_modifier = { # Swiss Guard Mercs coodown.
+	# Nothing is needed here
+}
+sea_pap_naples_submission_modifier = {
+	reduced_liberty_desire = 50
+}
+italian_trade_cities = {
+	mercantilism_cost = -0.25
+}
+build_dev_vatican_library = {
+	development_cost = -0.05
+	build_cost = -0.05
+	state_maintenance_modifier = -0.2
+}
+##########################################
+# Switzerland:
+sea_swiss_cantons_2_influence_1_modifier_1 = {
+	republican_tradition = 0.5
+	legitimacy = 3
+	devotion = 3
+	yearly_absolutism = -2
+	#
+	monthly_reform_progress_modifier = 0.04
+	advisor_cost = -0.04
+	state_maintenance_modifier = -0.05
+	state_governing_cost = -0.05
+}
+sea_swiss_cantons_2_influence_1_modifier_2 = {
+	republican_tradition = 0.5
+	legitimacy = 3
+	devotion = 3
+	yearly_absolutism = -2
+	#
+	monthly_reform_progress_modifier = 0.08
+	advisor_cost = -0.08
+	state_maintenance_modifier = -0.1
+	state_governing_cost = -0.1
+	monthly_splendor = 1
+}
+sea_swiss_cantons_2_influence_1_modifier_3 = {
+	republican_tradition = 0.5
+	legitimacy = 3
+	devotion = 3
+	yearly_absolutism = -2
+	#
+	monthly_reform_progress_modifier = 0.12
+	advisor_cost = -0.12
+	state_maintenance_modifier = -0.15
+	state_governing_cost = -0.15
+	monthly_splendor = 2
+}
+sea_swiss_cantons_2_influence_1_modifier_4 = {
+	republican_tradition = 0.5
+	legitimacy = 3
+	devotion = 3
+	yearly_absolutism = -2
+	#
+	monthly_reform_progress_modifier = 0.16
+	advisor_cost = -0.16
+	state_maintenance_modifier = -0.2
+	state_governing_cost = -0.2
+	monthly_splendor = 2
+}
+sea_swiss_cantons_2_influence_1_modifier_5 = {
+	republican_tradition = 0.5
+	legitimacy = 3
+	devotion = 3
+	yearly_absolutism = -2
+	#
+	monthly_reform_progress_modifier = 0.2
+	advisor_cost = -0.2
+	state_maintenance_modifier = -0.25
+	state_governing_cost = -0.25
+	monthly_splendor = 3
+}
+##
+sea_swiss_cantons_2_influence_2_modifier_1 = {
+	republican_tradition = 0.25
+	legitimacy = 2
+	devotion = 2
+	yearly_absolutism = -1
+	#
+	global_trade_power = 0.03
+	trade_efficiency = 0.03
+	placed_merchant_power = 1
+	mercantilism_cost = -0.08
+}
+sea_swiss_cantons_2_influence_2_modifier_2 = {
+	republican_tradition = 0.25
+	legitimacy = 2
+	devotion = 2
+	yearly_absolutism = -1
+	#
+	global_trade_power = 0.06
+	trade_efficiency = 0.06
+	placed_merchant_power = 2
+	merchants = 1
+	mercantilism_cost = -0.16
+}
+sea_swiss_cantons_2_influence_2_modifier_3 = {
+	republican_tradition = 0.25
+	legitimacy = 2
+	devotion = 2
+	yearly_absolutism = -1
+	#
+	global_trade_power = 0.09
+	trade_efficiency = 0.09
+	placed_merchant_power = 3
+	merchants = 1
+	mercantilism_cost = -0.24
+}
+sea_swiss_cantons_2_influence_2_modifier_4 = {
+	republican_tradition = 0.25
+	legitimacy = 2
+	devotion = 2
+	yearly_absolutism = -1
+	#
+	global_trade_power = 0.12
+	trade_efficiency = 0.12
+	placed_merchant_power = 4
+	merchants = 2
+	mercantilism_cost = -0.32
+}
+sea_swiss_cantons_2_influence_2_modifier_5 = {
+	republican_tradition = 0.25
+	legitimacy = 2
+	devotion = 2
+	yearly_absolutism = -1
+	#
+	global_trade_power = 0.15
+	trade_efficiency = 0.15
+	placed_merchant_power = 5
+	merchants = 3
+	mercantilism_cost = -0.4
+}
+##
+sea_swiss_cantons_2_influence_3_modifier_1 = {
+	republican_tradition = -0.25
+	legitimacy = -2
+	devotion = -2
+	#
+	global_tax_modifier = 0.03
+	production_efficiency = 0.02
+	build_cost = -0.01
+	development_cost_in_primary_culture = -0.01
+	global_prosperity_growth = 0.05
+	global_monthly_devastation = -0.02
+}
+sea_swiss_cantons_2_influence_3_modifier_2 = {
+	republican_tradition = -0.25
+	legitimacy = -2
+	devotion = -2
+	#
+	global_tax_modifier = 0.06
+	production_efficiency = 0.04
+	build_cost = -0.02
+	development_cost_in_primary_culture = -0.02
+	global_prosperity_growth = 0.1
+	global_monthly_devastation = -0.04
+}
+sea_swiss_cantons_2_influence_3_modifier_3 = {
+	republican_tradition = -0.25
+	legitimacy = -2
+	devotion = -2
+	#
+	global_tax_modifier = 0.09
+	production_efficiency = 0.06
+	build_cost = -0.03
+	development_cost_in_primary_culture = -0.03
+	global_prosperity_growth = 0.2
+	global_monthly_devastation = -0.06
+}
+sea_swiss_cantons_2_influence_3_modifier_4 = {
+	republican_tradition = -0.25
+	legitimacy = -2
+	devotion = -2
+	#
+	global_tax_modifier = 0.12
+	production_efficiency = 0.08
+	build_cost = -0.04
+	development_cost_in_primary_culture = -0.04
+	global_prosperity_growth = 0.25
+	global_monthly_devastation = -0.08
+}
+sea_swiss_cantons_2_influence_3_modifier_5 = {
+	republican_tradition = -0.25
+	legitimacy = -2
+	devotion = -2
+	#
+	global_tax_modifier = 0.15
+	production_efficiency = 0.1
+	build_cost = -0.05
+	development_cost_in_primary_culture = -0.05
+	global_prosperity_growth = 0.3
+	global_monthly_devastation = -0.1
+}
+##
+sea_swiss_cantons_2_influence_4_modifier_1 = {
+	republican_tradition = -0.5
+	legitimacy = -3
+	devotion = -3
+	#
+	election_cycle = 5
+	years_of_nationalism = -2
+	culture_conversion_time = -0.12
+	culture_conversion_cost = -0.08
+	global_autonomy = -0.05
+}
+sea_swiss_cantons_2_influence_4_modifier_2 = {
+	republican_tradition = -0.5
+	legitimacy = -3
+	devotion = -3
+	#
+	election_cycle = 5
+	yearly_absolutism = 0.5
+	years_of_nationalism = -4
+	culture_conversion_time = -0.24
+	culture_conversion_cost = -0.16
+	global_autonomy = -0.1
+}
+sea_swiss_cantons_2_influence_4_modifier_3 = {
+	republican_tradition = -0.5
+	legitimacy = -3
+	devotion = -3
+	#
+	election_cycle = 5
+	yearly_absolutism = 1
+	years_of_nationalism = -6
+	culture_conversion_time = -0.36
+	culture_conversion_cost = -0.24
+	global_autonomy = -0.15
+}
+sea_swiss_cantons_2_influence_4_modifier_4 = {
+	republican_tradition = -0.5
+	legitimacy = -3
+	devotion = -3
+	#
+	election_cycle = 5
+	yearly_absolutism = 1.5
+	years_of_nationalism = -8
+	culture_conversion_time = -0.48
+	culture_conversion_cost = -0.32
+	global_autonomy = -0.2
+}
+sea_swiss_cantons_2_influence_4_modifier_5 = {
+	republican_tradition = -0.5
+	legitimacy = -3
+	devotion = -3
+	#
+	election_cycle = 5
+	yearly_absolutism = 2
+	years_of_nationalism = -10
+	culture_conversion_time = -0.6
+	culture_conversion_cost = -0.4
+	global_autonomy = -0.25
+}
+###
+sea_swiss_cantons_3_influence_modifier = {
+	fort_level = 1
+	garrison_growth = 1
+	local_garrison_size = 0.66
+	local_garrison_damage = 0.33
+	local_fort_maintenance_modifier = 1
+}
+##########################################
+# Morocco:
+mor_religious_reasons_modifier = {
+	discipline = 0.025
+	siege_ability = 0.2
+}
+mor_siege_modifier = {
+	siege_ability = 0.33
+	core_creation = -0.15
+}
+##########################################
+# Tunis/Emirate of Two Sicilies:
+tun_siege_modifier = {
+	siege_ability = 0.33
+	core_creation = -0.15
+}
+tun_morocco_conquered = {
+	manpower_recovery_speed = 0.1
+}
+
+ets_mediterranean_pirates_modifier = {
+	allowed_marine_fraction = 0.25 #marinetemp# 0.5
+}
+ets_medici_bank_modifier = {
+	interest = -0.2
+}
+ets_trade_control_modifier = {
+	local_years_of_nationalism = -5
+	trade_value_modifier = 0.1
+	local_defensiveness = 0.15
+}
+ets_trade_control_2_modifier = {
+	trade_value_modifier = 0.2
+	allowed_num_of_buildings = 1
+	local_defensiveness = 0.30
+	local_state_maintenance_modifier = -0.25
+}
+fatimid_government_janissaries_boost_0 = {
+	is_janissary_modifier = yes
+	drill_decay_modifier = -0.5
+}
+fatimid_government_janissaries_boost_1 = {
+	is_janissary_modifier = yes
+	reinforce_speed = 0.33
+	reinforce_cost_modifier = -0.5
+}
+fatimid_government_janissaries_boost_2 = {
+	is_janissary_modifier = yes
+	fire_damage = 0.2
+	shock_damage = 0.2
+}
+fatimid_government_janissaries_boost_3 = {
+	is_janissary_modifier = yes
+	discipline = 0.025
+	infantry_power = 0.1
+	fire_damage_received = -0.05
+	shock_damage_received = -0.05
+}
+##########################################
+# Andalusia:
+andalusia_government_janissaries = {
+	is_janissary_modifier = yes
+	fire_damage = 0.1
+	shock_damage_received = -0.1
+	reinforce_speed = 0.2
+}
+##########################################
+# Ottoman:
+reformed_janissary_alexandria_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.1
+	infantry_shock = 0.1
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.05
+}
+reformed_janissary_wallachia_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.1
+	infantry_shock = 0.1
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.05
+}
+reformed_janissary_levant_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.1
+	infantry_shock = 0.1
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.05
+}
+reformed_janissary_georgia_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.1
+	infantry_shock = 0.1
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.05
+}
+reformed_janissary_persia_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.2
+	infantry_shock = 0.2
+	reinforce_cost_modifier = 0.4
+	reinforce_speed = -0.1
+}
+reformed_janissary_arabia_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.1
+	infantry_shock = 0.1
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.05
+}
+reformed_janissary_balkan_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.1
+	infantry_shock = 0.1
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.05
+}
+reformed_janissary_golden_age_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 1
+	infantry_shock = 1
+	reinforce_cost_modifier = 2
+	reinforce_speed = -0.5
+}
+# Rum:
+improve_ottoman_janissary_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.1
+	infantry_shock = 0.1
+	reinforce_cost_modifier = 0.2
+}
+# Seljuks:
+sjk_reformed_janissary_alexandria_modifier = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.1
+	infantry_shock = 0.1
+	reinforce_cost_modifier = 0.2
+}
+
+# Sasanid Empire:
+converted_to_zoroastrian_modifier = {
+	missionaries = 1
+	global_missionary_strength = 0.03
+}
+##########################################
+# Byzantium:
+varangian_guards_special_units = {
+	infantry_shock = 0.5
+	discipline = 0.025
+	is_cawa_modifier = yes
+}
+varangian_guards_special_units_upgraded = {
+	infantry_shock = 1
+	discipline = 0.05
+	is_cawa_modifier = yes
+}
+return_to_italy = {
+	monthly_splendor = 1
+	infantry_power = 0.1
+}
+##########################################
+# Novgorod:
+nov_sway_muscovite_subjects_modifier = {
+	province_warscore_cost = -0.25
+}
+##########################################
+# Sealand:
+sealand_modifier = {
+	global_sailors = 1
+}
+soldier_zlewikk_modifier = {
+	global_manpower = 0.001
+}
+deckhand_davlan_modifier = {
+	global_sailors = 1
+}
+sealand_home_modifier = {
+	local_manpower = 0.001
+}
+free_hong_kong_modifier = {
+	local_unrest = 10
+}
+##########################################
+# AFRICA:
+########
+# Swazi:
+swz_exploit_zimbabwe_downfall_modifier = {
+	inflation_reduction = 0.05
+}
+swz_invest_in_gold_modifier = {
+	inflation_reduction = -0.25
+	interest = -1
+	build_cost = -0.15
+}
+swz_control_zambezi_charter_modifier = {
+	mercantilism_cost = -0.1
+	trade_company_investment_cost = -0.075
+	merchants = 1
+}
+swz_control_zambezi_charter_province_modifier = {
+	local_state_maintenance_modifier = -0.05
+	local_institution_spread = 0.1
+	province_trade_power_value = 0.1
+}
+swz_secure_swahili_region_modifier = {
+	num_accepted_cultures = 2
+}
+swz_aggressive_swahili_trading_modifier = {
+	global_prov_trade_power_modifier = 0.15
+	trade_steering = 0.15
+	center_of_trade_upgrade_cost = -0.15
+}
+swz_control_madagascar_modifier = {
+	naval_morale = -0.1
+	heavy_ship_power = 0.2
+	naval_attrition = -0.2
+	ship_durability = 0.2
+}
+swz_tame_the_steppes_modifier = {
+	supply_limit = 1
+	local_friendly_movement_speed = 0.2
+}
+zulu_warriors_units = {
+	reinforce_speed = 1 # movement_speed and morale_recovery_speed Does not work, because intentional not to... :(
+	morale_damage = 0.33
+	infantry_shock = 0.5
+	fire_damage_received = 0.2
+	is_cawa_modifier = yes
+}
+########
+# Central:
+mini_cwezi_cult_modifier = {
+	land_morale = 0.04
+	naval_morale = 0.04
+}
+mini_central_african_ancestor_cult_modifier = {
+	development_cost = -0.025
+	state_maintenance_modifier = -0.1
+}
+mini_mwari_cult_modifier = {
+	discipline = 0.015
+	ship_durability = 0.05
+}
+# Western
+mini_yemoja_cult_modifier = {
+	legitimacy = 0.25
+	republican_tradition = 0.1
+	devotion = 0.25
+	horde_unity = 0.25
+	colonist_placement_chance = 0.05
+}
+mini_roog_cult_modifier = {
+	reinforce_speed = 0.1
+	movement_speed = 0.05
+}
+mini_nyame_cult_modifier = {
+	province_warscore_cost = -0.05
+	advisor_cost = -0.05
+
+}
+# Eastern:
+mini_enkai_cult_modifier = {
+	manpower_recovery_speed = 0.075
+	sailors_recovery_speed = 0.075
+}
+mini_waaq_cult_modifier = {
+	global_trade_goods_size_modifier = 0.05
+	global_trade_power = 0.1
+}
+mini_zanahary_cult_modifier = {
+	yearly_army_professionalism = 0.001
+	war_exhaustion = -0.04
+}
+# ROTW:
+mini_christianity_cult_modifier = {
+	missionaries = 1
+	technology_cost = -0.05
+}
+mini_islam_cult_modifier = {
+	merchants = 1
+	idea_cost = -0.05
+}
+mini_buddhism_cult_modifier = {
+	monthly_splendor = 1
+	min_autonomy = -10
+}
+mini_dharmic_cult_modifier = {
+	colonists = 1
+	governing_capacity_modifier = 0.1
+}
+mini_south_central_american_cult_modifier = {
+	gold_depletion_chance_modifier = -0.5
+	colony_development_boost = 1
+}
+mini_norse_cult_modifier = {
+	landing_penalty = -1
+	navy_tradition = 1
+}
+mini_jewish_cult_modifier = {
+	interest = -0.2
+	global_tax_modifier = 0.25
+}
+mini_zoroastrian_cult_modifier = {
+	expand_infrastructure_cost_modifier = -0.25
+	centralize_state_cost = -0.25
+}
+##########################################
+# Kilwa:
+zan_great_kilwa_gold_modifier = {
+	local_gold_depletion_chance_modifier = -0.25
+}
+##########################################
+# Castille/Spain:
+focus_on_france_modifier = {
+	discipline = 0.025
+	reinforce_speed = 0.25
+}
+tercios_special_fire_units = {
+	fire_damage = 0.2
+	shock_damage_received = 0.2
+	is_tercio_modifier = yes
+}
+##########################################
+# Portugal:
+henry_the_navigator = {
+	naval_maintenance_modifier = -0.1
+	global_ship_recruit_speed = -0.1
+	naval_attrition = -0.1
+	sea_por_explo_influence = 0.1 # Portugal faction
+	may_explore = yes
+}
+gc_por_establishes_foothold_brazil_modifier = {
+	manpower_recovery_speed = 0.1
+	land_forcelimit_modifier = 0.1
+}
+gc_por_caribbean_modifier = {
+	land_morale = 0.05
+	artillery_fire = 0.25
+}
+gc_por_colonise_central_africa_modifier = {
+	land_maintenance_modifier = -0.1
+	production_efficiency = 0.1
+}
+gc_por_discovers_cape_good_hope_modifier = {
+	trade_steering = 0.1
+	infantry_power = 0.05
+}
+gc_por_conquers_zanzibar_modifier = {
+	discipline = 0.025
+	global_foreign_trade_power = 0.1
+}
+##########################################
+# Nogai:
+nog_crimean_development_modifier = {
+	local_development_cost = -0.1
+	local_build_cost = -0.15
+}
+nog_golden_horde_restored_modifier = {
+	horde_unity = 2
+	governing_capacity_modifier = 0.33
+	yearly_absolutism = 0.5
+	max_absolutism = 20
+}
+nog_industrialize_the_steppes_modifier = {
+	local_development_cost = -0.05
+	local_friendly_movement_speed = 0.05
+}
+nog_silk_road_modifier = {
+	province_trade_power_modifier = 0.05
+	supply_limit_modifier = 0.2
+	local_friendly_movement_speed = 0.1
+	local_hostile_movement_speed = 0.1
+}
+nog_black_sea_slave_trade_revived = {
+	trade_goods_size = 2.0
+}
+nog_mercs_carpathia_modifier = {
+	mercenary_cost = -0.1
+}
+##########################################
+# Venice:
+ven_navy_mission_2_modifier = {
+	is_marine_modifier = yes
+	land_morale = 0.1
+	shock_damage_received = -0.3
+}
+ven_navy_mission_22_modifier = {
+	 #marinetemp# sailors_recovery_speed = 0.25
+	allowed_marine_fraction = 0.25
+}
+##########################################
+# Genoa
+sea_gen_triangle_trade_prov_mod = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+sea_gen_triangle_trade_modifier = {
+	merchants = 1
+	mercantilism_cost = -0.1
+}
+tradenode_tangiers_modifier = {
+	trade_company_investment_cost = -0.15
+}
+sea_gen_sicily_modifier = {
+	allowed_marine_fraction = 0.33 #marinetemp# 0.5
+}
+sea_gen_corsica_modifier = {
+	galley_power = 0.15
+	prestige_from_naval = 1
+}
+emp_gen_grand_fleet_modifier = {
+	landing_penalty = -2
+	regiment_disembark_speed = 1
+	transport_attrition = -1
+}
+emp_gen_the_spanish_question_modifier = {
+	landing_penalty = -1
+	regiment_disembark_speed = 0.5
+	transport_attrition = -0.5
+}
+genoese_crossbowmen_special_units = {
+	infantry_fire = 0.5
+	morale_damage = 0.1
+	fire_damage_received = -0.3
+	reinforce_speed = 0.5
+	is_cawa_modifier = yes
+}
+genoa_trade_node_power_modifier = {
+	ae_impact = -0.1
+}
+##########################################
+# North Sea Empire:
+jomsvikings_special_units = {
+	discipline = 0.1
+	morale_damage_received = -0.35
+	is_cawa_modifier = yes
+}
+berserker_special_units = {
+	fire_damage_received = -0.1
+	shock_damage = 0.15
+	morale_damage = 0.25
+	is_cawa_modifier = yes
+}
+##########################################
+# 1.4.1 Decision stuff:
+# Military:
+the_recruiting_act = {
+	global_ship_recruit_speed = -0.1
+	global_ship_cost = -0.05
+	stability_cost_modifier = 0.1
+}
+#the_military_act = { # Is triggered modifier now
+#	discipline = 0.06
+#	stability_cost_modifier = 0.05
+#}
+the_navigation_act = {
+	trade_efficiency = 0.025
+	naval_forcelimit_modifier = 0.05
+	navy_tradition = 0.5
+	global_manpower_modifier = -0.05
+}
+convoy_system = {
+	global_tariffs = 0.10
+	prestige_from_naval = 0.1
+}
+the_anti_piracy_act = {
+	ship_power_propagation = 0.2
+}
+the_land_recruiting_act = {
+	global_regiment_recruit_speed = -0.1
+	global_manpower_modifier = 0.1
+}
+# Civic:
+the_licensing_of_the_press_act = {
+	stability_cost_modifier = -0.1
+}
+the_tenures_abolition_act = {
+	stability_cost_modifier = -0.1
+	production_efficiency = -0.05
+}
+the_dissolution_act = {
+	stability_cost_modifier = -0.05
+}
+innovative_modifier = {
+	technology_cost = -0.05
+	global_missionary_strength = 0.01
+}
+the_dissolution_of_the_monasteries = {
+	global_tax_modifier = 0.1
+}
+the_witchcraft_act = {
+	global_missionary_strength = 0.02
+}
+the_education_act = {
+	prestige = 0.5
+	core_creation = 0.1
+}
+the_judiciary_act = {
+	global_unrest = -2
+	administrative_efficiency = 0.05
+}
+the_combination_act = {
+	production_efficiency = 0.05
+	global_tax_modifier = -0.1
+}
+the_school_establishment_act = {
+	production_efficiency = -0.05
+	stability_cost_modifier = -0.1
+	global_tax_modifier = 0.2
+	build_cost = 0.05
+}
+# Colonial:
+beneficial_neglect = {
+	colonist_placement_chance = 0.1
+}
+colonial_expansions = {
+	global_colonial_growth = 5
+}
+the_house_of_trade = {
+	global_trade_goods_size_modifier = 0.025
+	stability_cost_modifier = 0.05
+	light_ship_cost = -0.05
+}
+restrictions_for_colonies = {
+	production_efficiency = 0.05
+	stability_cost_modifier = -0.05
+	colonist_placement_chance = -0.1
+	global_colonial_growth = -10
+}
+# Economic:
+the_liquor_act = {
+	global_tax_modifier = 0.1
+	stability_cost_modifier = 0.05
+}
+the_joint_stock_companies_act = {
+	global_trade_power = 0.05
+}
+the_merchant_shipping_act = {
+	trade_efficiency = 0.025
+	global_tax_modifier = -0.05
+}
+the_court_of_wards_and_liveries = {
+	global_tax_modifier = 0.2
+}
+agricultural_cultivations = {
+	production_efficiency = 0.05
+	technology_cost = 0.025
+}
+the_importation_act = {
+	global_trade_goods_size_modifier = 0.05
+	production_efficiency = -0.05
+}
+the_mining_act = {
+	global_tax_modifier = 0.1
+	production_efficiency = 0.05
+	trade_efficiency = -0.1
+}
+gold_standard = {
+	inflation_reduction = 0.05
+}
+formalized_measures = {
+	global_tax_modifier = 0.05
+}
+
+###################### MINORS:
+# Ferrara:
+fer_new_tuscany_modifier = {
+	land_morale = 0.1
+}
+fer_consolidate_area_modifier = {
+	core_creation = -0.15
+	ae_impact = -0.1
+}
+fer_mighty_ferrara_modifier = {
+	development_cost = -0.05
+	mercenary_discipline = 0.025
+}
+# Baden:
+bad_prepare_for_war_modifier = {
+	ae_impact = -0.1
+}
+bad_bregenz_fortification_modifier = {
+	movement_speed = 0.05
+	defensiveness = 0.1
+}
+bad_swiss_conquest_modifier = {
+	merc_maintenance_modifier = -0.1
+}
+# Brunswick:
+han_unite_the_welfs_modifier = {
+	ae_impact = -0.2
+}
+# Bytom:
+sil_coal_kingdom_modifier = {
+	local_development_cost = -0.2
+}
+sil_develop_homeland_modifier = {
+	local_amount_of_cawa = 1
+	local_manpower_modifier = 0.15
+}
+sil_heir_of_polonia_bytom_modifier = {
+	land_morale = 0.05
+	global_trade_goods_size_modifier = 0.05
+}
+# Mazovia:
+maz_new_poland_modifier = {
+	shock_damage = 0.1
+	cavalry_power = 0.1
+}
+# Timbuktu:
+tmb_defend_motherland_modifier = {
+	land_morale = 0.1
+}
+tmb_warriors_of_sahel_modifier = {
+	discipline = 0.025
+}
+# Benin:
+ben_trade_kingdom_modifier = {
+	global_trade_goods_size_modifier = 0.05
+	trade_steering = 0.2
+	leader_siege = 1
+}
+ben_trade_empire_modifier = {
+	global_manpower_modifier = 0.15
+	movement_speed = 0.10
+}
+# Fezzan:
+fza_kingdom_of_the_sand_modifier = {
+	may_establish_frontier = yes
+}
+# Yarkand:
+kas_defend_steppes_modifier = {
+	own_territory_dice_roll_bonus = 1
+	movement_speed = 0.15
+}
+# Mysore:
+mys_under_new_administration_modifier = {
+	core_creation = -0.25
+}
+mys_mega_fast_modifier = {
+	movement_speed = 0.05
+}

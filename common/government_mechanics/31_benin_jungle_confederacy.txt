@@ -1,0 +1,212 @@
+benin_jungle_confederacy = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 17
+	available = {
+		has_dlc = "Domination"
+	}
+	
+	powers = {
+		benin_jungle_assembled_power = {
+			gui = benin_jungle_power_gov_mech
+			max = 100
+			min = 0
+			base_monthly_growth = -1.5
+			is_good = yes
+
+			scaled_modifier = {
+				modifier = {
+					land_morale = 0.1
+					global_regiment_cost = -0.1
+					global_manpower_modifier = 0.2
+					legitimacy = 2
+				}
+				start_value = 0
+				end_value = 100
+			}
+		}
+	}
+	
+	interactions = {
+		prior_capital_supplying = { # 优先供应首都
+			gui = benin_prior_capital_supply_gov_mech
+			trigger = {
+				custom_trigger_tooltip = { # 10年CD
+					tooltip = MSA_cooldown_10
+					OR = {
+						had_country_flag = {
+							flag = benin_prior_capital_supplying_flag
+							days = 3650
+						}
+						NOT = { has_country_flag = benin_prior_capital_supplying_flag }
+					}
+				}
+				adm_power = 50
+				has_government_power = { 
+					mechanic_type = benin_jungle_confederacy
+					power_type = benin_jungle_assembled_power
+					value = 30
+				}
+			}
+			effect = {
+				add_adm_power = -50
+				change_government_reform_progress = 50
+				custom_tooltip = ben_every_capital_prov_get_build_dev_buff_tt
+				custom_tooltip = SEPERATOR_TOOLTIP
+				custom_tooltip = ben_every_non_capital_prov_get_unrest_dev_debuff_tt
+				hidden_effect = {
+					every_owned_province = {
+						if ={
+							limit = {
+								area_for_scope_province = {
+									is_capital_of = ROOT
+								}
+							}
+							add_province_modifier = {
+								name = benin_prior_capital_supplying_modifier_capital
+								duration = 3650
+							}
+						}
+						else = {
+							add_province_modifier = {
+								name = benin_prior_capital_supplying_modifier_rural
+								duration = 3650
+							}
+						}
+					}
+					if = { # 如果从来没有flag 则设置一个
+						limit = {
+							NOT = {
+								has_country_flag = benin_prior_capital_supplying_flag
+							}
+						}
+						set_country_flag = benin_prior_capital_supplying_flag
+					}
+					else = { # 如果已有flag 则清除重新设置
+						clr_country_flag = benin_prior_capital_supplying_flag
+						set_country_flag = benin_prior_capital_supplying_flag
+					}
+					add_government_power = {
+						mechanic_type = benin_jungle_confederacy
+						power_type = benin_jungle_assembled_power
+						value = -30
+					}
+				}
+			}
+		}	
+		
+		focus_on_production = { # 专注集市与工坊
+			gui = benin_focus_on_economics_gov_mech
+			trigger = {
+				custom_trigger_tooltip = { # 10年CD
+					tooltip = MSA_cooldown_10 
+					OR = {
+						had_country_flag = {
+							flag = benin_focus_on_production_flag
+							days = 3650
+						}
+						NOT = { has_country_flag = benin_focus_on_production_flag }
+					}
+				}
+				dip_power = 50
+				has_government_power = { 
+					mechanic_type = benin_jungle_confederacy
+					power_type = benin_jungle_assembled_power
+					value = 30
+				}			
+			}
+			effect = {
+				add_dip_power = -50
+				add_years_of_trade_income = {
+					custom_tooltip = YEARS_OF_TRADE_INCOME_1
+					years = 1
+				}
+				add_country_modifier = {
+					name = benin_focus_on_production_modifier
+					duration = 3650
+				}
+				hidden_effect = {
+					if = { # 如果从来没有flag 则设置一个
+						limit = {
+							NOT = {
+								has_country_flag = benin_focus_on_production_flag
+							}
+						}
+						set_country_flag = benin_focus_on_production_flag
+					}
+					else = { # 如果已有flag 则清除重新设置
+						clr_country_flag = benin_focus_on_production_flag
+						set_country_flag = benin_focus_on_production_flag
+					}
+					add_government_power = {
+						mechanic_type = benin_jungle_confederacy
+						power_type = benin_jungle_assembled_power
+						value = -30
+					}
+				}
+			}
+		}
+
+		assemble_warriors_for_war = { # 战争准备
+			gui = benin_prepare_for_war_gov_mech
+			trigger = {
+				custom_trigger_tooltip = { # 10年CD
+					tooltip = MSA_cooldown_10 
+					OR = {
+						had_country_flag = {
+							flag = benin_assemble_warriors_for_war_flag
+							days = 3650
+						}
+						NOT = { has_country_flag = benin_assemble_warriors_for_war_flag }
+					}
+				}
+				mil_power = 50
+				has_government_power = { 
+					mechanic_type = benin_jungle_confederacy
+					power_type = benin_jungle_assembled_power
+					value = 30
+				}				
+				is_at_war = no
+				capital_scope = {
+					has_siege = no
+					controlled_by = ROOT
+				}
+			}
+			effect = {
+				add_mil_power = -50
+				if = {
+					limit = { NOT = { army_size_percentage = 1 } }
+				}
+				ROOT = {
+					capital_scope = {
+						build_to_forcelimit = {
+							infantry = 0.3
+						}
+					}
+				}
+				add_country_modifier = {
+					name = benin_assemble_warriors_for_war_modifier
+					duration = 3650
+				}
+				hidden_effect = {
+					if = { # 如果从来没有flag 则设置一个
+						limit = {
+							NOT = {
+								has_country_flag = benin_assemble_warriors_for_war_flag
+							}
+						}
+						set_country_flag = benin_assemble_warriors_for_war_flag
+					}
+					else = { # 如果已有flag 则清除重新设置
+						clr_country_flag = benin_assemble_warriors_for_war_flag
+						set_country_flag = benin_assemble_warriors_for_war_flag
+					}	
+					add_government_power = {
+						mechanic_type = benin_jungle_confederacy
+						power_type = benin_jungle_assembled_power
+						value = -30
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+country_decisions = {
+    ARL_nation ={
+        major = yes
+        potential = {
+            tag = QOM
+            ai = no
+        }
+        provinces_to_highlight = {
+            province_id = 424
+            OR = {
+                NOT = { owned_by = ROOT }
+                NOT = { is_core = ROOT }
+            }
+        }
+
+        allow = {
+            is_at_war = no
+            is_free_or_tributary_trigger = yes
+            424 = {
+                owned_by = ROOT
+                is_core = ROOT
+            }
+            OR = {
+                owns_core_province = 417
+                KRY = { is_subject_of = ROOT }
+            }
+            NOT = { exists = ARL }
+        }
+        effect = {
+            change_tag = ARL
+            set_country_flag = Ajam_Ardabil_flag # 增加任务flag
+            swap_non_generic_missions = yes
+            on_change_tag_effect = yes
+            if = {
+                limit = { NOT = { religion = shiite } }
+                change_religion = shiite
+            }
+            country_event = { 
+                id = ideagroups.1 
+            }
+            set_country_flag = per_shia_missions 
+            clr_country_flag = per_sunni_missions 
+            clr_country_flag = per_zoroastrian_missions
+
+            custom_tooltip = enable_baseline_invite_scholar_tt
+            hidden_effect = {
+                country_event = {
+                    id = muslim_school_events.24
+                    days = 30
+                }
+                set_country_flag = enabled_baseline_invite_scholar
+            }
+			
+            custom_tooltip = disable_scholar_cost_tt # 无需花费行政点数邀请学者
+            set_country_flag = no_scholar_adm_cost
+            unlock_estate = {
+                estate = estate_qizilbash
+            }
+            add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            add_government_reform = feudal_theocracy
+            unlock_holy_order = { type = savafid_order }
+            define_ruler = {
+                name = "HaiDar"
+				dynasty = "Safavi"  
+				adm = 4
+				dip = 3
+				mil = 4
+				age = 30
+				claim = 95
+                culture = azerbaijani
+            }
+            add_legitimacy = 20
+            add_stability = -1
+        }
+    }
+}

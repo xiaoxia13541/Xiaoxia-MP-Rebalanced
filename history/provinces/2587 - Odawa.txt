@@ -1,0 +1,25 @@
+# No previous file for Odawa
+
+#owner = ATW
+#controller = ATW
+#add_core = ATW
+culture = anishinabe
+religion = totemism
+capital = "Odawa"
+trade_goods = unknown # fish
+hre = no
+#is_city = yes
+base_tax = 2
+base_production = 2
+base_manpower = 2#3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = north_american
+
+1609.1.1 = { discovered_by = FRA }
+1664.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }

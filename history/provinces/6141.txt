@@ -1,0 +1,11 @@
+add_core = TMB
+owner = TMB
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = TMB
+is_city = yes
+culture = bambara
+trade_goods = gems
+discovered_by = sub_saharan

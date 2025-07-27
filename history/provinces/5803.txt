@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 1
+base_production = 1
+culture = bai
+trade_goods = tea
+religion = buddhism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = DIA
+controller = DIA
+add_core = DIA
+discovered_by = indian

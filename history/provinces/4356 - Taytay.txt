@@ -1,0 +1,15 @@
+#4356 - Taytay
+owner = MAS
+controller = MAS
+add_core = MAS
+trade_goods = grain
+is_city = yes
+culture = filipino
+religion = animism
+capital = "Taytay"
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+discovered_by = chinese
+

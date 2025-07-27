@@ -1,0 +1,41 @@
+namespace = hunterrio_events
+
+country_event = {
+	id = hunterrio_events.1
+	title = hunterrio_events.1.t
+	desc = hunterrio_events.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	is_triggered_only = yes
+	option = { #mahárlika
+		name = hunterrio_events.1.a
+		custom_tooltip = hunterrio_events.1.a.tt
+		hidden_effect = { restore_country_name = yes }
+	}
+	option = { #mai
+		name = hunterrio_events.1.b
+		set_country_flag = mhl_rename_mai_flag
+		override_country_name = MAI_MAHARLIKA
+	}
+	option = { #philippines
+		name = hunterrio_events.1.c
+		highlight = yes
+		trigger = {
+			OR = {
+				culture_group = iberian
+				accepted_culture = castillian
+				accepted_culture = mexican
+				accepted_culture = leonese
+				accepted_culture = aragonese
+				accepted_culture = catalan
+				accepted_culture = galician
+				accepted_culture = andalucian
+				accepted_culture = portugese
+				accepted_culture = brazilian
+				accepted_culture = basque
+				accepted_culture = platinean
+			}
+		}
+		override_country_name = PHILIPPINES_MAHARLIKA
+		set_country_flag = mhl_rename_filipino_flag
+	}
+}

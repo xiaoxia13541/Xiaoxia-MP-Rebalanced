@@ -1,0 +1,34 @@
+namespace = mjl_zlew_events
+normal_or_historical_nations = yes
+
+country_event = { id = mjl_zlew_events.1 title = "mjl_zlew_events.EVTNAME1" desc = "mjl_zlew_events.EVTDESC1" picture = ANGRY_MOB_eventPicture trigger = { was_player = yes is_at_war = no } mean_time_to_happen = { years = 77 } option = { name = "mjl_zlew_events.EVTOPTA1" add_country_modifier = { name = "mjl_table_slam" duration = 5 } } }
+
+country_event = { id = mjl_zlew_events.8 title = "mjl_zlew_events.EVTNAME8" desc = "mjl_zlew_events.EVTDESC8" picture = ANGRY_MOB_eventPicture trigger = { was_player = yes is_at_war = yes } mean_time_to_happen = { years = 8 } option = { name = "mjl_zlew_events.EVTOPTA8" add_yearly_manpower = 0.01 } }
+
+# More:
+namespace = zlewikk
+normal_or_historical_nations = yes
+
+country_event = { id = zlewikk.1 title = zlewikk.1.t desc = zlewikk.1.d picture = STREET_SPEECH_eventPicture is_triggered_only = yes trigger = { NOT = { has_country_flag = zlewikk_ruined_campaign } } immediate = { set_country_flag = zlewikk_ruined_campaign } option = { name = zlewikk.1.1 random_owned_province = { add_devastation = 1 } } }
+
+country_event = { id = zlewikk.2 title = zlewikk.2.t desc = zlewikk.2.d picture = ECONOMY_eventPicture is_triggered_only = yes trigger = { NOT = { has_country_flag = zlewikk_florrynomics } } immediate = { set_country_flag = zlewikk_florrynomics } option = { name = zlewikk.2.1 add_country_modifier = { name = zlewikk_florrynomics_modifier duration = 30 } } }
+
+country_event = { id = zlewikk.3 title = zlewikk.3.t desc = zlewikk.3.d picture = HUSSARS_eventPicture trigger = { NOT = { has_country_flag = zlewikk_arumba } num_of_cavalry = 10 } immediate = { set_country_flag = zlewikk_arumba } mean_time_to_happen = { months = 120 } option = { name = zlewikk.3.1 add_country_modifier = { name = zlewikk_arumba_modifier duration = 5 } } }
+
+country_event = { id = zlewikk.4 title = zlewikk.4.t desc = zlewikk.4.d picture = RELIGION_eventPicture trigger = { NOT = { has_country_flag = zlewikk_habibi is_at_war = yes } } immediate = { set_country_flag = zlewikk_habibi } mean_time_to_happen = { months = 180 } option = { name = zlewikk.4.1 add_country_modifier = { name = zlewikk_habibi_modifier duration = 5 } } }
+
+country_event = { id = zlewikk.5 title = zlewikk.5.t desc = zlewikk.5.d picture = TOURNAMENT_eventPicture trigger = { NOT = { has_country_flag = zlewikk_blob_battles } is_at_war = yes } immediate = { set_country_flag = zlewikk_blob_battles } mean_time_to_happen = { months = 1 } option = { name = zlewikk.5.1 add_manpower = 0.068 } }
+
+country_event = { id = zlewikk.6 title = zlewikk.6.t desc = zlewikk.6.d picture = VILLAGE_RAIDED_eventPicture trigger = { NOT = { has_country_flag = zlewikk_we_got_him owns = 257 } controls = 257 } immediate = { set_country_flag = zlewikk_we_got_him } mean_time_to_happen = { months = 1 } option = { name = zlewikk.6.1 257 = { add_devastation = 1 } } }
+
+country_event = { id = zlewikk.7 title = zlewikk.7.t desc = zlewikk.7.d picture = SCOTTISH_MERCENARIES_eventPicture trigger = { 918 = { NOT = { has_province_flag = zlewikk_choo_choo } } owns_core_province = 918 ai = no } immediate = { 918 = { set_province_flag = zlewikk_choo_choo } } mean_time_to_happen = { months = 1 } option = { name = zlewikk.7.1 918 = { add_base_production = 5 } } }
+
+country_event = { id = zlewikk.8 title = zlewikk.8.t desc = zlewikk.8.d picture = LAND_MILITARY_eventPicture trigger = { ai = no is_year = 1454 OR = { NOT = { has_country_flag = zlewikk_dev_manpower_2 } had_country_flag = { flag = zlewikk_dev_manpower_2 days = 27375 } } } mean_time_to_happen = { months = 30 } option = { name = zlewikk.8.1 random_owned_province = { add_base_manpower = 1 } set_country_flag = zlewikk_dev_manpower_2 } }
+
+country_event = { id = zlewikk.9 title = zlewikk.9.t desc = zlewikk.9.d picture = BURGHER_ESTATE_eventPicture trigger = { NOT = { OR = { num_of_estate_privileges = { estate = estate_brahmins value = 1 } num_of_estate_privileges = { estate = estate_church value = 1 } num_of_estate_privileges = { estate = estate_maratha value = 1 } num_of_estate_privileges = { estate = estate_nobles value = 1 } num_of_estate_privileges = { estate = estate_vaisyas value = 1 } num_of_estate_privileges = { estate = estate_burghers value = 1 } num_of_estate_privileges = { estate = estate_cossacks value = 1 } num_of_estate_privileges = { estate = estate_nomadic_tribes value = 1 } num_of_estate_privileges = { estate = estate_dhimmi value = 1 } num_of_estate_privileges = { estate = estate_jains value = 1 } num_of_estate_privileges = { estate = estate_rajput value = 1 } } } } mean_time_to_happen = { months = 60 } option = { name = zlewikk.9.1 add_prestige = -1 } }
+
+country_event = { id = zlewikk.10 title = zlewikk.10.t desc = zlewikk.10.d picture = ADVISOR_eventPicture trigger = { ai = no is_year = 1460 OR = { NOT = { has_country_flag = zlewikk_skan_3 } had_country_flag = { flag = zlewikk_skan_3 days = 14600 } } } mean_time_to_happen = { months = 30 } option = { name = zlewikk.10.1 add_prestige = 1 set_country_flag = zlewikk_skan_3 } }
+
+country_event = { id = zlewikk.11 title = zlewikk.11.t desc = zlewikk.11.d picture = VILLAGE_RAIDED_eventPicture trigger = { NOT = { has_country_flag = zlewikk_moskau_moskau owns = 295 } controls = 295 } immediate = { set_country_flag = zlewikk_moskau_moskau } mean_time_to_happen = { months = 1 } option = { name = zlewikk.11.1 295 = { add_devastation = 1 } } }
+
+country_event = { id = zlewikk.12 title = zlewikk.12.t desc = zlewikk.12.d picture = BANKRUPTCY_eventPicture is_triggered_only = yes trigger = { NOT = { has_country_flag = zlewikk_eco_dev_2 } } immediate = { set_country_flag = zlewikk_eco_dev_2 } option = { name = zlewikk.12.1 random_owned_province = { add_base_tax = 1 } } }

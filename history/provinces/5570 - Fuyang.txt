@@ -1,0 +1,22 @@
+# 2731 - Fuyang
+owner = ZEN
+controller = ZEN
+culture = jianghuai
+religion = confucianism
+capital = "Fuyang"
+trade_goods = dyes
+base_tax = 2
+base_production = 2
+base_manpower = 3
+# citysize = 3500
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1641.1.1 = { controller = REB revolt = { type = anti_tax_rebels size = 2 } }
+1643.1.1 = { controller = CSH revolt = { size = 1 } }
+1661.6.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes
+add_core = ZEN

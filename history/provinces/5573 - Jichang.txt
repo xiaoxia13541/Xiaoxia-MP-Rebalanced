@@ -1,0 +1,21 @@
+# 2734 - Jichang
+owner = HAC
+controller = HAC
+culture = zhongyuan
+religion = confucianism
+capital = "Jichang"
+trade_goods = chinaware
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 18700
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1644.10.1 = { controller = MCH }
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes
+add_core = HAC

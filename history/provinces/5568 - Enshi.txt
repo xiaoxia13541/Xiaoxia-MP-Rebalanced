@@ -1,0 +1,20 @@
+# 2729 - Enshi
+owner = BAA
+controller = BAA
+culture = sichuanese
+religion = confucianism
+capital = "Enshi"
+trade_goods = tea
+base_tax = 2
+base_production = 1
+base_manpower = 2
+# citysize = 5500
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+add_core = BAA
+is_city = yes

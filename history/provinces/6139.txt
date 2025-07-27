@@ -1,0 +1,11 @@
+add_core = ZAF
+owner = ZAF
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = sunni
+controller = ZAF
+is_city = yes
+culture = bambara
+trade_goods = naval_supplies
+discovered_by = sub_saharan

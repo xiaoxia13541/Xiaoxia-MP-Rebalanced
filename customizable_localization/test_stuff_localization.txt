@@ -1,0 +1,63 @@
+defined_text = {
+	random = no
+	name = GetfireDamageNumber
+	text = { localisation_key = loc_fire_damage_n_1 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 7 } } }
+	text = { localisation_key = loc_fire_damage_n_2 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 8 } } }
+	text = { localisation_key = loc_fire_damage_n_3 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 9 } } }
+	text = { localisation_key = loc_fire_damage_n_4 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 10 } } }
+	text = { localisation_key = loc_fire_damage_n_5 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 11 } } }
+	text = { localisation_key = loc_fire_damage_received_n_1 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 5 } } }
+	text = { localisation_key = loc_fire_damage_received_n_2 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 4 } } }
+	text = { localisation_key = loc_fire_damage_received_n_3 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 3 } } }
+	text = { localisation_key = loc_fire_damage_received_n_4 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 2 } } }
+	text = { localisation_key = loc_fire_damage_received_n_5 trigger = { is_variable_equal = { which = inf_fire_dmg_value value = 1 } } }
+}
+defined_text = {
+	random = no
+	name = GetShockDamageNumber
+	text = { localisation_key = loc_shock_damage_n_1 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 7 } } }
+	text = { localisation_key = loc_shock_damage_n_2 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 8 } } }
+	text = { localisation_key = loc_shock_damage_n_3 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 9 } } }
+	text = { localisation_key = loc_shock_damage_n_4 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 10 } } }
+	text = { localisation_key = loc_shock_damage_n_5 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 11 } } }
+	text = { localisation_key = loc_shock_damage_received_n_1 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 5 } } }
+	text = { localisation_key = loc_shock_damage_received_n_2 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 4 } } }
+	text = { localisation_key = loc_shock_damage_received_n_3 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 3 } } }
+	text = { localisation_key = loc_shock_damage_received_n_4 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 2 } } }
+	text = { localisation_key = loc_shock_damage_received_n_5 trigger = { is_variable_equal = { which = inf_shock_dmg_value value = 1 } } }
+}
+defined_text = {
+	random = no
+	name = GetMoraleDamageNumber
+	text = { localisation_key = loc_morale_damage_n_1 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 7 } } }
+	text = { localisation_key = loc_morale_damage_n_2 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 8 } } }
+	text = { localisation_key = loc_morale_damage_n_3 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 9 } } }
+	text = { localisation_key = loc_morale_damage_n_4 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 10 } } }
+	text = { localisation_key = loc_morale_damage_n_5 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 11 } } }
+	text = { localisation_key = loc_morale_damage_received_n_1 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 5 } } }
+	text = { localisation_key = loc_morale_damage_received_n_2 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 4 } } }
+	text = { localisation_key = loc_morale_damage_received_n_3 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 3 } } }
+	text = { localisation_key = loc_morale_damage_received_n_4 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 2 } } }
+	text = { localisation_key = loc_morale_damage_received_n_5 trigger = { is_variable_equal = { which = inf_morale_dmg_value value = 1 } } }
+}
+#
+defined_text = {
+	random = no
+	name = GetMaintenanceReinforceNumber
+	text = { localisation_key = loc_maintenance_reinforce_0 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 0 } } }
+	text = { localisation_key = loc_maintenance_reinforce_5 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 1 } } }
+	text = { localisation_key = loc_maintenance_reinforce_10 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 2 } } }
+	text = { localisation_key = loc_maintenance_reinforce_15 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 3 } } }
+	text = { localisation_key = loc_maintenance_reinforce_20 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 4 } } }
+	text = { localisation_key = loc_maintenance_reinforce_25 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 5 } } }
+	text = { localisation_key = loc_maintenance_reinforce_30 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 6 } } }
+	text = { localisation_key = loc_maintenance_reinforce_35 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 7 } } }
+	text = { localisation_key = loc_maintenance_reinforce_40 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 8 } } }
+	text = { localisation_key = loc_maintenance_reinforce_45 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 9 } } }
+	text = { localisation_key = loc_maintenance_reinforce_50 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 10 } } }
+	text = { localisation_key = loc_maintenance_reinforce_55 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 11 } } }
+	text = { localisation_key = loc_maintenance_reinforce_60 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 12 } } }
+	text = { localisation_key = loc_maintenance_reinforce_65 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 13 } } }
+	text = { localisation_key = loc_maintenance_reinforce_70 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 14 } } }
+	text = { localisation_key = loc_maintenance_reinforce_75 trigger = { is_variable_equal = { which = maintenance_reinforce_value value = 15 } } }
+}

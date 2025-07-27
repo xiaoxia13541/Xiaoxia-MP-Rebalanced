@@ -1,0 +1,13 @@
+#5752 - Lubango
+owner = LND
+controller = LND
+culture = mbangala
+religion = shamanism#Fetishism
+capital = "Lubango"
+is_city = yes
+trade_goods = slaves
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = central_african
+add_core = LND

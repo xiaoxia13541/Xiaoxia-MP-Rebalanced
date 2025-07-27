@@ -1,0 +1,18 @@
+# No previous file for Logone
+owner = KBO
+controller = KBO
+add_core = YAO
+add_core = KBO
+add_core = BAG
+culture = kanuri
+religion = sunni#Fetishism
+capital = "Logone"
+trade_goods = gold
+base_tax = 2
+base_production = 4
+is_city = yes
+base_manpower = 2
+discovered_by = sub_saharan
+1505.1.1 = { 
+	controller = KBO
+}

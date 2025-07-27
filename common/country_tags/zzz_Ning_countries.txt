@@ -1,0 +1,2 @@
+COA = "countries/Chola.txt"  #朱罗王朝
+KRZ = "countries/Khorazm.txt" # 花剌子模

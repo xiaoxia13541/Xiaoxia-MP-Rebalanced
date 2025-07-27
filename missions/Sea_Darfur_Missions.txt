@@ -1,0 +1,75 @@
+sea_darfur_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAR
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	dar_secure_frontier = {
+		icon = mission_mal_subjugate_zaf
+		provinces_to_highlight = {
+			OR = {
+				area = wadai_area
+				area = kobbe_area
+				area = guera_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			wadai_area = {
+				type = all
+				owned_by = ROOT
+			}
+			kobbe_area = {
+				type = all
+				owned_by = ROOT
+			}
+			guera_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			sahel_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	dar_expand_frontier = {
+		icon = mission_son_military_expertise
+		required_missions = { dar_secure_frontier }
+		trigger = {
+			grown_by_development = 150
+			num_of_infantry = 30
+		}
+		effect = {
+			niger_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			horn_of_africa_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+}

@@ -1,0 +1,13 @@
+add_core = BEJ
+owner = BEJ
+base_tax = 1
+base_manpower = 1
+base_production = 1
+controller = BEJ
+is_city = yes
+discovered_by = ottoman
+discovered_by = muslim
+culture = beja
+trade_goods = wool
+religion = sunni
+discovered_by = east_african

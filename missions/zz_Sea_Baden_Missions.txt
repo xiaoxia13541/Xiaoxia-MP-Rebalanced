@@ -1,0 +1,90 @@
+sea_baden_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = BAD
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	bad_prepare_for_war = {
+		position = 5
+		icon = mission_assemble_an_army
+		trigger = {
+			grown_by_development = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = bad_prepare_for_war_modifier
+				duration = 3650
+			}
+			lower_swabia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			alsace_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	bad_bregenz_fortification = {
+		icon = fortress_switzerland
+		provinces_to_highlight = {
+			province_id = 4710
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			owns = 4710
+			4710 = { development = 10 }
+		}
+		effect = {
+			add_country_modifier = {
+				name = bad_bregenz_fortification_modifier
+				duration = -1
+			}
+			4710 = {
+				add_latest_building = {
+					fort = yes
+					builder = ROOT
+				}
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	bad_swiss_conquest = {
+		icon = consolidate_switzerland
+		provinces_to_highlight = {
+			area = switzerland_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			NOT = { exists = SWI }
+			switzerland_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = bad_swiss_conquest_modifier
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+}

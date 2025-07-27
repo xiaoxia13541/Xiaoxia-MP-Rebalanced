@@ -1,0 +1,15 @@
+add_core = PTE
+owner = PTE
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = ibadi
+controller = PTE
+is_city = yes
+culture = bantu
+trade_goods = naval_supplies
+discovered_by = central_african
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = indian

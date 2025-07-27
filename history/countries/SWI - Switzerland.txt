@@ -1,0 +1,39 @@
+government = republic
+add_government_reform = united_cantons_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = swiss
+capital = 165 # Bern
+elector = yes
+add_army_professionalism = 0.1
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+add_government_power = {
+	mechanic_type = swiss_cantons_mechanic
+	power_type = swiss_cantons_influence
+	value = 50
+}
+
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.5
+}
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Die Tagsatzung"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+
+1528.1.1 = { religion = reformed }
+
+1798.1.1 = { set_legacy_government = constitutional_republic }

@@ -1,0 +1,1968 @@
+########################################
+# Custom events for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+namespace = foffychina
+
+country_event = { #Li Shun
+	id = foffychina.1
+	title = foffychina.1.t
+	desc = foffychina.1.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.1.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = { #Zhang Xi
+	id = foffychina.2
+	title = foffychina.2.t
+	desc = foffychina.2.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.2.a
+		change_mil = 1
+		add_government_reform = cxi_indulging_warlords
+	}
+}
+
+country_event = { #Meng Yi
+	id = foffychina.3
+	title = foffychina.3.t
+	desc = foffychina.3.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.3.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = { # Huan Qi
+	id = foffychina.4
+	title = foffychina.4.t
+	desc = foffychina.4.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.4.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = { #Qian Wu
+	id = foffychina.5
+	title = foffychina.5.t
+	desc = foffychina.5.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.5.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = { #Goujian Yue
+	id = foffychina.6
+	title = foffychina.6.t
+	desc = foffychina.6.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.6.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = { #Shun Warlord 2 Ancillary - Li's Ambition
+	id = foffychina.7
+	title = foffychina.7.t
+	desc = foffychina.7.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.7.a
+		add_country_modifier = {
+			name = "h_csh_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.7.b
+		add_country_modifier = {
+			name = "h_csh_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.7.c
+		add_country_modifier = {
+			name = "h_csh_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Shun Warlord 3 Ancillary - Li's Land Reforms
+	id = foffychina.8
+	title = foffychina.8.t
+	desc = foffychina.8.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.8.a
+		add_country_modifier = {
+			name = "h_csh_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.8.b
+		add_country_modifier = {
+			name = "h_csh_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.8.c
+		add_country_modifier = {
+			name = "h_csh_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Shun Warlord 4 Ancillary - Great Shun
+	id = foffychina.9
+	title = foffychina.9.t
+	desc = foffychina.9.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.9.a
+		add_country_modifier = {
+			name = "h_csh_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.9.b
+		add_country_modifier = {
+			name = "h_csh_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.9.c
+		add_country_modifier = {
+			name = "h_csh_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Xi Warlord 2 Ancillary - Tiger's Raiders
+	id = foffychina.10
+	title = foffychina.10.t
+	desc = foffychina.10.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.10.a
+		add_country_modifier = {
+			name = "h_cxi_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.10.b
+		add_country_modifier = {
+			name = "h_cxi_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.10.c
+		add_country_modifier = {
+			name = "h_cxi_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Xi Warlord 3 Ancillary - Subjugate Estates
+	id = foffychina.11
+	title = foffychina.11.t
+	desc = foffychina.11.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.11.a
+		add_country_modifier = {
+			name = "h_cxi_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.11.b
+		add_country_modifier = {
+			name = "h_cxi_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.11.c
+		add_country_modifier = {
+			name = "h_cxi_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Xi Warlord 4 Ancillary - Great Xi
+	id = foffychina.12
+	title = foffychina.12.t
+	desc = foffychina.12.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.12.a
+		add_country_modifier = {
+			name = "h_cxi_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.12.b
+		add_country_modifier = {
+			name = "h_cxi_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.12.c
+		add_country_modifier = {
+			name = "h_cxi_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Yi Warlord 2 Ancillary - Tribal Reforms
+	id = foffychina.13
+	title = foffychina.13.t
+	desc = foffychina.13.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.13.a
+		add_country_modifier = {
+			name = "h_cyi_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.13.b
+		add_country_modifier = {
+			name = "h_cyi_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.13.c
+		add_country_modifier = {
+			name = "h_cyi_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Yi Warlord 3 Ancillary - Dragon's Roar
+	id = foffychina.14
+	title = foffychina.14.t
+	desc = foffychina.14.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.14.a
+		add_country_modifier = {
+			name = "h_cyi_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.14.b
+		add_country_modifier = {
+			name = "h_cyi_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.14.c
+		add_country_modifier = {
+			name = "h_cyi_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Yi Warlord 4 Ancillary - Great Yi
+	id = foffychina.15
+	title = foffychina.15.t
+	desc = foffychina.15.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.15.a
+		add_country_modifier = {
+			name = "h_cyi_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.15.b
+		add_country_modifier = {
+			name = "h_cyi_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.15.c
+		add_country_modifier = {
+			name = "h_cyi_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Qi Warlord 2 Ancillary - Huan's Fiscal Reforms
+	id = foffychina.16
+	title = foffychina.16.t
+	desc = foffychina.16.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.16.a
+		add_country_modifier = {
+			name = "h_qic_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.16.b
+		add_country_modifier = {
+			name = "h_qic_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.16.c
+		add_country_modifier = {
+			name = "h_qic_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Qi Warlord 3 Ancillary - Defend the Kingdom
+	id = foffychina.17
+	title = foffychina.17.t
+	desc = foffychina.17.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.17.a
+		add_country_modifier = {
+			name = "h_qic_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.17.b
+		add_country_modifier = {
+			name = "h_qic_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.17.c
+		add_country_modifier = {
+			name = "h_qic_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Qi Warlord 4 Ancillary - Great Qi
+	id = foffychina.18
+	title = foffychina.18.t
+	desc = foffychina.18.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.18.a
+		add_country_modifier = {
+			name = "h_qic_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.18.b
+		add_country_modifier = {
+			name = "h_qic_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.18.c
+		add_country_modifier = {
+			name = "h_qic_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Wu Warlord 2 Ancillary - Call in Favors
+	id = foffychina.19
+	title = foffychina.19.t
+	desc = foffychina.19.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.19.a
+		add_country_modifier = {
+			name = "h_wuu_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.19.b
+		add_country_modifier = {
+			name = "h_wuu_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.19.c
+		add_country_modifier = {
+			name = "h_wuu_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Wu Warlord 3 Ancillary - Riches of Hangzhou
+	id = foffychina.20
+	title = foffychina.20.t
+	desc = foffychina.20.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.20.a
+		add_country_modifier = {
+			name = "h_wuu_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.20.b
+		add_country_modifier = {
+			name = "h_wuu_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.20.c
+		add_country_modifier = {
+			name = "h_wuu_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Wu Warlord 4 Ancillary - Great Wu
+	id = foffychina.21
+	title = foffychina.21.t
+	desc = foffychina.21.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.21.a
+		add_country_modifier = {
+			name = "h_wuu_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.21.b
+		add_country_modifier = {
+			name = "h_wuu_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.21.c
+		add_country_modifier = {
+			name = "h_wuu_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Yue Warlord 2 Ancillary - Crossroads
+	id = foffychina.22
+	title = foffychina.22.t
+	desc = foffychina.22.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.22.a
+		add_country_modifier = {
+			name = "h_yue_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.22.b
+		add_country_modifier = {
+			name = "h_yue_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.22.c
+		add_country_modifier = {
+			name = "h_yue_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Yue Warlord 3 Ancillary - Pearl River Trade
+	id = foffychina.23
+	title = foffychina.23.t
+	desc = foffychina.23.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.23.a
+		add_country_modifier = {
+			name = "h_yue_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.23.b
+		add_country_modifier = {
+			name = "h_yue_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.23.c
+		add_country_modifier = {
+			name = "h_yue_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Yue Warlord 4 Ancillary - Great Yue
+	id = foffychina.24
+	title = foffychina.24.t
+	desc = foffychina.24.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.24.a
+		add_country_modifier = {
+			name = "h_yue_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.24.b
+		add_country_modifier = {
+			name = "h_yue_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.24.c
+		add_country_modifier = {
+			name = "h_yue_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #CSH Warlord Death
+	id = foffychina.25
+	title = foffychina.25.t
+	desc = foffychina.25.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CSH
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 90
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.25.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_csh_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #CXI Warlord Death
+	id = foffychina.26
+	title = foffychina.26.t
+	desc = foffychina.26.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CXI
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 90
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.26.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_cxi_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #CYI Warlord Death
+	id = foffychina.27
+	title = foffychina.27.t
+	desc = foffychina.27.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CYI
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 90
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.27.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_cyi_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #QIC Warlord Death
+	id = foffychina.28
+	title = foffychina.28.t
+	desc = foffychina.28.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QIC
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 90
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.28.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_qic_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #WUU Warlord Death
+	id = foffychina.29
+	title = foffychina.29.t
+	desc = foffychina.29.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = WUU
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 90
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.29.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_wuu_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #YUE Warlord Death
+	id = foffychina.30
+	title = foffychina.30.t
+	desc = foffychina.30.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = YUE
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 90
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.30.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_yue_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = {
+	id = foffychina.31
+	title = foffychina.31.t
+	desc = foffychina.31.d
+	picture = COURT_eventPicture
+	
+	#fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			tag = OYO
+			has_reform = h_reform_commandery
+		}
+		NOT = { has_country_flag = h_isolationflag }
+	}
+	
+	#mean_time_to_happen = {
+	#	months = 1
+	#}
+	
+	option = {
+		name = hashmp.31.a
+		set_country_flag = h_isolationflag
+		every_known_country = {
+			add_opinion = {
+				modifier = h_commandery_isolation
+				who = ROOT
+			}
+			reverse_add_opinion = {
+				modifier = h_commandery_isolation
+				who = ROOT
+			}
+		}
+	}
+}
+
+#Hengyang Mine
+country_event = {
+	id = foffychina.32
+	title = foffychina.32.t
+	desc = foffychina.32.d
+	picture = east_slavic_EXPLORERS_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		owns = 2174 #Hengyang
+		2174 = {
+			NOT = { trade_goods = gold }
+		}
+	}
+	
+	option = {
+		name = foffychina.32.a
+		add_years_of_income = -1
+		add_inflation = 3
+		if = {
+			limit = {
+				2174 = {
+					has_building = weapons
+				}
+			}
+			2174 = {
+				remove_building = weapons
+			}
+			add_treasury = 500
+		}
+		2174 = {
+			change_trade_goods = gold
+			add_base_production = 3
+		}
+	}
+	
+	option = {
+		name = foffychina.32.b
+		if = {
+			limit = {
+				2174 = {
+					has_building = weapons
+				}
+			}
+			2174 = {
+				remove_building = weapons
+			}
+			add_treasury = 500
+		}
+		2174 = {
+			change_trade_goods = gold
+		}
+	}
+	
+}
+
+country_event = { #CSH Warlord Death on ruler death
+	id = foffychina.33
+	title = foffychina.25.t
+	desc = foffychina.25.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CSH
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+
+	option = { 
+		name = foffychina.25.a
+		add_country_modifier = {
+			name = "h_csh_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #CXI Warlord Death on ruler death
+	id = foffychina.34
+	title = foffychina.26.t
+	desc = foffychina.26.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CXI
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.26.a
+		add_country_modifier = {
+			name = "h_cxi_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #CYI Warlord Death on ruler death
+	id = foffychina.35
+	title = foffychina.27.t
+	desc = foffychina.27.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CYI
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.27.a
+		add_country_modifier = {
+			name = "h_cyi_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #QIC Warlord Death on ruler death
+	id = foffychina.36
+	title = foffychina.28.t
+	desc = foffychina.28.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = QIC
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.28.a
+		add_country_modifier = {
+			name = "h_qic_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #WUU Warlord Death on ruler death
+	id = foffychina.37
+	title = foffychina.29.t
+	desc = foffychina.29.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = WUU
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.29.a
+		add_country_modifier = {
+			name = "h_wuu_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #YUE Warlord Death on ruler death
+	id = foffychina.38
+	title = foffychina.30.t
+	desc = foffychina.30.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = YUE
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.30.a
+		add_country_modifier = {
+			name = "h_yue_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #Move Capital Beijing
+	id = foffychina.39
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_beijing }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = { 
+		name = foffychina.39.a
+		1816 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_beijing
+	}
+}
+
+country_event = { #Move Capital Changsha
+	id = foffychina.40
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_changsha }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		5503 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_changsha
+	}
+}
+
+country_event = { #Move Capital Chengdu
+	id = foffychina.41
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_chengdu }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		5504 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_chengdu
+	}
+}
+
+country_event = { #Move Capital Chongqing
+	id = foffychina.42
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_chongqing }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		680 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_chongqing
+	}
+}
+
+country_event = { #Move Capital Dalian
+	id = foffychina.43
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_dalian }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		726 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_dalian
+	}
+}
+
+country_event = { #Move Capital Guangzhou
+	id = foffychina.44
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_guangzhou }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		667 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_guangzhou
+	}
+}
+
+country_event = { #Move Capital Hangzhou
+	id = foffychina.45
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_hangzhou }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		684 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_hangzhou
+	}
+}
+
+country_event = { #Move Capital Kunming
+	id = foffychina.46
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_kumning }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		662 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_kumning
+	}
+}
+
+country_event = { #Move Capital Luoyang
+	id = foffychina.47
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_luoyang }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		5571 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_luoyang
+	}
+}
+
+country_event = { #Move Capital Nanjing
+	id = foffychina.48
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_nanjing }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		1821 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_nanjing
+	}
+}
+
+country_event = { #Move Capital Wuchang
+	id = foffychina.49
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_wuchang }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		682 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_wuchang
+	}
+}
+
+country_event = { #Move Capital Xi'an
+	id = foffychina.50
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_xian }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_bonus
+	}
+	
+	option = {
+		name = foffychina.39.a
+		700 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_xian
+	}
+}
+
+country_event = { #Move Capital Xiamen
+	id = foffychina.51
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_xiamen }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		1829 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_xiamen
+	}
+}
+
+#Timed commandery buffs
+
+country_event = { #Timed commandery buff beijing
+	id = foffychina.52
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_beijing }
+		owns = 1816
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 1816
+		}
+		add_prestige = 15
+		change_government_reform_progress = 50
+		set_global_flag = h_commandery_bonus_beijing
+	}
+}
+
+country_event = { #Timed commandery buff changsha
+	id = foffychina.53
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_changsha }
+		owns = 5503
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 5503
+		}
+		add_country_modifier = {
+			name= "h_commandery_bonus_changsha_reward"
+			duration = 5475
+		}
+		set_global_flag = h_commandery_bonus_changsha
+	}
+}
+
+country_event = { #Timed commandery buff chengdu
+	id = foffychina.54
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_chengdu }
+		owns = 5504
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 5504
+		}
+		add_country_modifier = {
+			name= "h_commandery_bonus_chengdu_reward"
+			duration = 5475
+		}
+		5504 = {
+			add_province_modifier = {
+				name = h_commandery_bonus_chengdu_reward_provincial
+				duration = -1
+			}
+		}
+		set_global_flag = h_commandery_bonus_chengdu
+	}
+}
+
+country_event = { #Timed commandery buff chongqing
+	id = foffychina.55
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_chongqing }
+		owns = 680
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 680
+		}
+		define_general = {
+			shock = 3
+			fire = 3
+			manuever = 5
+			siege = 2
+		}
+		set_global_flag = h_commandery_bonus_chongqing
+	}
+}
+
+country_event = { #Timed commandery buff dalian
+	id = foffychina.56
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_dalian }
+		owns = 726
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 726
+		}
+		change_innovativeness = 5
+		set_global_flag = h_commandery_bonus_dalian
+	}
+}
+
+country_event = { #Timed commandery buff guangzhou
+	id = foffychina.57
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_guangzhou }
+		owns = 667
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 667
+		}
+		667 = {
+			add_building = stock_exchange
+		}
+		set_global_flag = h_commandery_bonus_guangzhou
+	}
+}
+
+country_event = { #Timed commandery buff hangzhou
+	id = foffychina.58
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_hangzhou }
+		owns = 684
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 684
+		}
+		add_mercantilism = 7
+		set_global_flag = h_commandery_bonus_hangzhou
+		hidden_effect = {
+			every_owned_province = {
+				clear_rebels = yes
+			}
+		}
+	}
+}
+
+country_event = { #Timed commandery buff kumning
+	id = foffychina.59
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_kumning }
+		owns = 662
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 662
+		}
+		define_advisor = {
+			type = master_of_mint
+			name = "Xuanzang"
+			skill = 2
+			cost_multiplier = 0.5
+		}
+		set_global_flag = h_commandery_bonus_kumning
+	}
+}
+
+country_event = { #Timed commandery buff luoyang
+	id = foffychina.60
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_luoyang }
+		owns = 5571
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 5571
+		}
+		add_corruption = -4
+		set_global_flag = h_commandery_bonus_luoyang
+	}
+}
+
+country_event = { #Timed commandery buff nanjing
+	id = foffychina.61
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_nanjing }
+		owns = 1821
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 1821
+		}
+		add_treasury = 300
+		set_global_flag = h_commandery_bonus_nanjing
+	}
+}
+
+country_event = { #Timed commandery buff wuchang
+	id = foffychina.62
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_wuchang }
+		owns = 682
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 682
+		}
+		682 = {
+			add_building = counting_house
+		}
+		set_global_flag = h_commandery_bonus_wuchang
+	}
+}
+
+country_event = { #Timed commandery buff xian
+	id = foffychina.63
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CSH
+		NOT = { has_global_flag = h_commandery_bonus_xian }
+		owns = 700
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 700
+		}
+		add_country_modifier = {
+			name= "h_commandery_bonus_xian_reward"
+			duration = 5475
+		}
+		set_global_flag = h_commandery_bonus_xian
+	}
+}
+
+country_event = { #Timed commandery buff xiamen
+	id = foffychina.64
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_xiamen }
+		owns = 1829
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 1829
+		}
+		add_country_modifier = {
+			name= "h_commandery_bonus_xiamen_reward"
+			duration = 3650
+		}
+		set_global_flag = h_commandery_bonus_xiamen
+	}
+}

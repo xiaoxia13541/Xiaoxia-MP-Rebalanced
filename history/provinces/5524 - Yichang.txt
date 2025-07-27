@@ -1,0 +1,16 @@
+# 2442 - Yichang
+owner = CXI
+controller = CXI
+culture = hubei
+religion = confucianism
+capital = "Yichang"
+trade_goods = cotton
+base_tax = 4
+base_production = 2
+base_manpower = 4
+# citysize = 7000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+is_city = yes
+add_core = CXI

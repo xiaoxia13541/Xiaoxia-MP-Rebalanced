@@ -1,0 +1,11 @@
+add_core = BON
+owner = BON
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = BON
+is_city = yes
+culture = fon
+trade_goods = slaves
+discovered_by = sub_saharan

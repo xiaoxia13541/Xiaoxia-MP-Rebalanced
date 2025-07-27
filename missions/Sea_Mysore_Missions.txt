@@ -1,0 +1,110 @@
+sea_mysore_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = MYS
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	mys_from_island_to_just_land = {
+		icon = mission_unite_coromandel
+		provinces_to_highlight = {
+			OR = {
+				area = lanka_area
+				area = south_lanka_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			lanka_area = {
+				type = all
+				owned_by = ROOT
+			}
+			south_lanka_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			coromandel_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	mys_under_new_administration = {
+		icon = mission_protect_jain_communities
+		required_missions = { mys_from_island_to_just_land }
+		provinces_to_highlight = {
+			OR = {
+				area = rayalaseema_area
+				area = mysore_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			rayalaseema_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mysore_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = mys_under_new_administration_modifier
+				duration = 5475
+			}
+			add_country_modifier = {
+				name = mys_mega_fast_modifier
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	mys_vij_downfall = {
+		icon = mission_city_of_victory_bah
+		required_missions = { mys_under_new_administration }
+		provinces_to_highlight = {
+			OR = {
+				owned_by = VIJ
+				AND = {
+					OR = {
+						province_id = 4428
+						province_id = 541
+					}
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}
+		trigger = {
+			NOT = { exists = VIJ }
+			owns_core_province = 4428
+			owns_core_province = 541
+		}
+		effect = {
+			deccan_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+}

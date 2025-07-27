@@ -1,0 +1,311 @@
+guiTypes = {
+
+	windowType = {
+		name = "countrytechnologyview"
+		#position = { x=0 y=140 }	
+		position = { x=-600 y=140 }	
+		show_position = { x=0 y =140 }
+		hide_position = { x=-600 y =140 }	
+		animation_type = "decelerated"
+		animation_time = 300	
+		size = { x=1024 y=100 }
+		moveable = 0
+		Orientation = "UPPER_LEFT"
+		upsound = tab_technology
+		
+		iconType =
+		{
+			name ="countrytechnologyview_bg"
+			spriteType = "GFX_technology_view_bg"
+			position = { x= -12 y = -10 }
+			Orientation = "UPPER_LEFT"
+
+		}
+		
+		guiButtonType = {
+			name = "close_button"
+			position = { x = 514 y = -1 }
+			quadTextureSprite ="GFX_closebutton2"	
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_LEFT"
+			clicksound = close_window
+		}		
+	
+		instantTextBoxType = {
+			name = "window_title"
+			position = { x = 15 y = 78 }
+			textureFile = ""
+			font = "vic_29s"
+			borderSize = {x = 4 y = 4}	
+			text = "HEADER_TECHNOLOGY"	
+			maxWidth = 512
+			maxHeight = 32
+			format = centre
+		}
+
+		listboxType = {
+			name = "tables"
+			position = { x = 0 y = 115}
+			backGround=""
+			size = { x=520 y = 450 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 0
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 0 y = 0}
+		}
+		
+
+		guiButtonType =
+		{
+			name ="show_institutions"
+			spriteType = "GFX_institutions_large_icon"
+			position = { x= 14 y = 104 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_techgroup"
+			shortcut = "n"
+		}
+
+		iconType =
+		{
+			name = "innovativeness_icon"
+			spriteType = "GFX_innovativeness_icon"
+			position = { x= 495 y = 115 }
+		}
+
+		instantTextBoxType = {
+			name = "innovativeness_text"
+			position = { x = 446 y = 115 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 4 y = 4}
+			maxWidth = 50
+			maxHeight = 32
+			format = right
+			text = "100.0"
+		}
+		
+		### ------- Institutions -------		
+		windowType = {
+			name = "institutions_window"
+			position = { x=11 y=283 }
+			moveable = 0
+			Orientation = "UPPER_LEFT"
+
+			iconType = {
+				name = "bg"
+				spriteType ="GFX_country_institutions_overlay"	
+				position = { x = -18 y = -152 }
+				orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "institutions_title"
+				position = { x = 52 y = -28 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}	
+				text = "INSTITUTIONS"	
+				maxWidth = 300
+				maxHeight = 32
+				format = left
+				fixedsize = yes
+			}			
+			
+			OverlappingElementsBoxType = {
+				name = "institutions"
+				position = { x = -35 y = 79 }
+				size = { x = 604 y = 128 }
+				Orientation = "UPPER_LEFT"
+				format = center
+				spacing = 1
+			}
+			
+			iconType = {
+				name = "institution_red_banner"
+				spriteType ="GFX_institution_red_banner"	
+				position = { x = 17 y = 138 }
+				orientation = "UPPER_LEFT"
+			}		
+			
+			iconType = {
+				name = "mod_institution_spread_icon"
+				spriteType = "GFX_institution_spread_icon"
+				position = { x= 20 y = 20 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "mod_institution_spread"
+				position = { x = 48 y = 25 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}	
+				maxWidth = 216
+				maxHeight = 32
+				format = left
+				text = "Institution Spread: +70%"
+			}
+			
+			iconType = {
+				name ="mod_embracement_cost_icon"
+				spriteType = "GFX_institution_embracement_cost_icon"
+				position = { x= 271 y = 20 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "mod_embracement_cost"
+				position = { x = 299 y = 25 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}	
+				maxWidth = 216
+				maxHeight = 32
+				format = left
+				text = "Embracement Cost: -20%"
+			}
+			
+			guiButtonType =
+			{
+				name ="embrace_button"
+				quadTextureSprite= "GFX_standard_button_105"
+				position = { x = 378 y = 340 }
+				Orientation = "UPPER_LEFT"
+				buttonText = "BUTTON_EMBRACE"
+				buttonFont = "vic_18"
+			}			
+			
+			instantTextBoxType = {
+				name = "name"
+				position = { x = 28 y = 144 }
+				textureFile = ""
+				font = "vic_29s"
+				borderSize = {x = 4 y = 4}	
+				maxWidth = 230
+				maxHeight = 32
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "when_embraced_label"
+				position = { x = 28 y = 178 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}	
+				maxWidth = 200
+				maxHeight = 32
+				format = left
+				text = "WHEN_EMBRACED"
+			}
+			
+			instantTextBoxType = {
+				name = "when_embraced"
+				position = { x = 36 y = 204 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}	
+				maxWidth = 290
+				maxHeight = 32
+				format = left
+			}
+			
+			iconType = {
+				name = "country_progress"
+				spriteType = "GFX_institution_progress"
+				position = { x = 39 y = 346 }
+			}
+			
+			iconType = {
+				name = "country_progress_frame"
+				spriteType = "GFX_institution_progress_frame"
+				position = { x = 26 y = 342 }
+			}			
+			
+			instantTextBoxType = {
+				name = "country_progress_label"
+				position = { x = 28 y = 316 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}	
+				maxWidth = 200
+				maxHeight = 26
+				format = left
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "origin"
+				position = { x = 264 y = 146 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}	
+				text = "Origin: North of the Wall"	
+				maxWidth = 236
+				maxHeight = 32
+				format = right
+				fixedsize = yes
+			}
+			
+			guiButtonType =
+			{
+				name ="goto_origin"
+				quadTextureSprite= "GFX_standard_button_105"
+				position = { x = 400 y = 173 }
+				Orientation = "UPPER_LEFT"
+				buttonText = "GOTO_GOTO"
+				buttonFont = "vic_18"
+			} 
+
+			iconType = {
+				name = "spread_info_icon"
+				spriteType = "GFX_institution_spread_conditions"
+				position = { x = 286 y = 146 }
+			}
+			
+			instantTextBoxType = {
+				name = "embrace_cost"
+				position = { x = 140 y = 342 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}	
+				maxWidth = 120
+				maxHeight = 32
+				format = center
+				text = "4322 ¤"
+			}
+			
+			guiButtonType =
+			{
+				name ="back_button"
+				quadTextureSprite= "GFX_standard_button_105"
+				position = { x = 214 y = 387 }
+				Orientation = "UPPER_LEFT"
+				buttonText = "BACK"
+				buttonFont = "vic_18"
+				shortcut = "n"
+			}
+		}
+	}
+	
+	################################################################################################
+	### --- Tech Research Mil Items
+
+	windowType = {
+		name = "countrytechnologyview_institution"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=200 y=64 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		guiButtonType =
+		{
+			name ="item_button"
+			spriteType = "GFX_icon_maneuver"
+			position = { x= -5 y = -12 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+}

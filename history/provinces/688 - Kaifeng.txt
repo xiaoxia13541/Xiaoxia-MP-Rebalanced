@@ -1,0 +1,23 @@
+#688 - Kaifeng (can't change file name)
+owner = KAI
+controller = KAI
+add_core = KAI
+culture = zhongyuan
+religion = confucianism
+capital = "Kaifeng"
+trade_goods = chinaware
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+center_of_trade = 1
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+1608.1.1 = { discovered_by = SPA }
+1642.1.1 = { controller = REB revolt = { type = anti_tax_rebels size = 0 } }
+1643.1.1 = { controller = CSH add_core = CSH revolt = { size = 1 } }
+1645.2.1 = { 
+	controller = QNG
+	add_core = QNG
+}

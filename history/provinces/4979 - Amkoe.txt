@@ -1,0 +1,12 @@
+owner = RZW
+controller = RZW
+culture = nguni
+religion = shamanism#Fetishism
+trade_goods = wool
+capital = "Amkoe"
+is_city = yes
+base_tax = 2
+base_production = 3
+base_manpower = 4
+discovered_by = central_african
+add_core = RZW

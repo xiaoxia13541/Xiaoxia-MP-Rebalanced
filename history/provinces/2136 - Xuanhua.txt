@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 2
+base_production = 2
+culture = mongol
+trade_goods = grain
+religion = vajrayana
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = CDA
+controller = CDA
+add_core = CDA
+discovered_by = indian

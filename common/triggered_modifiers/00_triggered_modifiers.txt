@@ -1,0 +1,442 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+######################################
+# Custodian of the Two Holy Mosques
+######################################
+custodian_of_the_two_holy_mosques = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 385	# Mecca
+		has_discovered = 384	# Medina
+		religion_group = muslim
+	}
+
+	trigger = {
+		is_free_or_tributary_trigger = yes
+		owns_or_vassal_of = 385
+		owns_or_vassal_of = 384
+	}
+
+	legitimacy = 0.5
+	missionaries = 1
+}
+######################################
+# Italian - Submission to Emperor
+######################################
+submission_to_emperor = {
+	potential = {
+		# AI will avoid joining HRE when this modifier is potential:
+
+		has_global_flag = italians_leave_hre
+		NOT = { has_country_flag = reined_in_for_shadow_kingdom }
+		is_emperor = no
+		NOT = { is_year = 1550 }
+		culture_group = latin
+		OR = {
+			is_subject = no
+			overlord = { is_emperor = no }
+		}
+	}
+
+	trigger = {
+		is_part_of_hre = yes
+		NOT = { tag = ITA }
+		NOT = { emperor = { alliance_with = ROOT } }
+		NOT = { is_year = 1550 } # Duplicating so it shows in tooltip
+	}
+
+	global_unrest = 1
+	#stability_cost_modifier = 0.1
+	prestige = -0.5
+}
+######################################
+# Crusader
+######################################
+crusader = {
+	potential = {
+		religion = catholic
+		crusade_target = {
+			exists = yes
+		}
+		
+	}
+
+	trigger = {
+		
+		crusade_target = {
+			war_with = ROOT
+			any_province = {
+				controlled_by = root
+			}
+		}  
+		land_maintenance = 1.0
+	}
+
+	global_manpower_modifier = 0.2
+	global_tax_modifier = 0.3
+	land_morale = 0.05
+	prestige = 1
+	papal_influence = 1
+	devotion = 0.25
+	#icon = 9
+}
+
+######################################
+# Excommunication
+######################################
+excommunication = {
+	potential = {
+		religion = catholic	
+	}
+
+	trigger = {
+		is_excommunicated = yes
+		
+	}
+
+	prestige = -2
+	tolerance_own = -3
+	devotion = -5
+	papal_influence = -10
+	#icon = 10
+}
+##################################################
+# China modifiers
+##################################################
+the_mandate_of_heaven = {
+	potential = {
+		has_reform = celestial_empire
+		NOT = { has_dlc = "Mandate of Heaven" }
+	}
+	
+	trigger = {	
+		stability = 0
+		legitimacy = 60
+		num_of_cities = 20
+	}
+
+	stability_cost_modifier = -0.10
+	global_unrest = -5
+}
+
+the_mandate_of_heaven_lost = {
+	potential = {
+		has_reform = celestial_empire
+		NOT = { has_dlc = "Mandate of Heaven" }
+	}
+
+	trigger = {
+		OR = {
+			NOT = { stability = 0 }
+			NOT = { legitimacy = 60 }
+			NOT = { num_of_cities = 20 }	
+		}
+	}
+
+	discipline = -0.1
+	stability_cost_modifier = 0.5
+	global_unrest = 10
+}
+
+ai_wants_chinese_capitals = {
+	potential = {
+		ai = yes
+		OR = {
+			owns = 1816
+			owns = 1821
+			owns = 667
+		}
+		has_dlc = "Mandate of Heaven"
+		capital_scope = {
+			superregion = china_superregion
+		}
+	}
+	trigger = {
+		owns = 1816
+		owns = 1821
+		owns = 667
+	}
+
+	ai_weight = {
+		factor = 100 # Makes AI try to conquer the cities
+	}
+}
+
+
+lost_control_of_beijing = {
+	potential = {
+		has_reform = celestial_empire
+		has_dlc = "Mandate of Heaven"
+	}
+
+	trigger = {
+		OR = {
+			NOT = { owns = 1816 }
+			NOT = { controls = 1816 }
+		}
+	}
+
+	ai_weight = {
+		factor = -1000 # Do what you can to avoid this modifier
+	}
+
+	imperial_mandate = -0.05
+}
+
+lost_control_of_nanjing = {
+	potential = {
+		has_reform = celestial_empire
+		has_dlc = "Mandate of Heaven"
+	}
+
+	trigger = {
+		OR = {
+			NOT = { owns = 1821 }
+			NOT = { controls = 1821 }
+		}
+	}
+
+	ai_weight = {
+		factor = -1000 # Do what you can to avoid this modifier
+	}
+
+	imperial_mandate = -0.05
+}
+
+lost_control_of_canton = {
+	potential = {
+		has_reform = celestial_empire
+		has_dlc = "Mandate of Heaven"
+	}
+
+	trigger = {
+		OR = {
+			NOT = { owns = 667 }
+			NOT = { controls = 667 }
+		}
+	}
+
+	ai_weight = {
+		factor = -1000 # Do what you can to avoid this modifier
+	}
+
+	imperial_mandate = -0.05
+}
+
+waging_war_for_china = {
+	potential = {
+		has_reform = celestial_empire
+		has_dlc = "Mandate of Heaven"
+	}
+
+	trigger = {
+		is_in_war = {
+			attacker_leader = root
+			casus_belli = cb_chinese_unification
+		}
+	}
+	
+	imperial_mandate = 0.05
+}
+
+##################################################
+# HRE modifiers
+##################################################
+hre_dominant_catholic = {
+	potential = {
+		capital_scope = {
+			continent = europe
+		}
+		OR = {
+			religion = catholic
+			religion = protestant
+			religion = reformed
+		}
+	}
+
+	trigger = {
+		religion = catholic
+		hre_religion = catholic
+		hre_religion_locked = yes
+	}
+	
+	legitimacy = 0.25
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	imperial_authority = 0.25
+}
+
+hre_dominant_protestant = {
+	potential = {
+		capital_scope = {
+			continent = europe
+		}
+		OR = {
+			religion = catholic
+			religion = protestant
+			religion = reformed
+		}
+	}
+
+	trigger = {
+		religion = protestant
+		hre_religion = protestant
+		hre_religion_locked = yes
+	}
+	
+	legitimacy = 0.25
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	imperial_authority = 0.25
+}
+
+hre_dominant_reformed = {
+	potential = {
+		capital_scope = {
+			continent = europe
+		}
+		OR = {
+			religion = catholic
+			religion = protestant
+			religion = reformed
+		}
+	}
+
+	trigger = {
+		religion = reformed
+		hre_religion = reformed
+		hre_religion_locked = yes
+	}
+	
+	legitimacy = 0.25
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	imperial_authority = 0.25
+}
+
+hre_dominant_hussite = {
+	potential = {
+		capital_scope = {
+			continent = europe
+		}
+		OR = {
+			religion = catholic
+			religion = protestant
+			religion = reformed
+			religion = hussite
+		}
+	}
+
+	trigger = {
+		religion = hussite
+		hre_religion = hussite
+		hre_religion_locked = yes
+	}
+	
+	legitimacy = 0.25
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	imperial_authority = 0.25
+}
+
+######################################
+# The Great Peasants' War
+######################################
+
+great_peasants_war_triggered_modifier = {
+	potential = {
+		has_global_flag = great_peasants_war_flag
+		capital_scope = {
+			continent = europe
+		}
+	}
+	trigger = {
+		is_part_of_hre = yes
+		NOT = { has_government_attribute = is_peasants_republic }
+	}
+	global_unrest = 6
+}
+
+great_peasants_war_concessions_triggered_modifier = {
+	potential = {
+		OR = {
+			has_global_flag = gpw_peasants_win_major
+			has_global_flag = gpw_peasants_win_minor
+		}
+		capital_scope = {
+			continent = europe
+		}
+	}
+	trigger = {
+		is_part_of_hre = yes
+		NOT = { has_government_attribute = is_peasants_republic }
+	}
+	global_tax_modifier = -0.05
+}
+
+######################################
+# Judaism Defensive Aspect
+######################################
+
+judaism_yom_kippur_aspect_war_modifier = {
+	potential = {
+		religion = jewish
+		has_church_aspect = judaism_yom_kippur_aspect
+	}
+	trigger = {
+		is_at_war = yes
+	}
+	manpower_recovery_speed = 0.20
+	church_power_modifier = 0.25
+}
+
+judaism_yom_kippur_aspect_defensive_war_modifier = {
+	potential = {
+		religion = jewish
+		has_church_aspect = judaism_yom_kippur_aspect
+	}
+	trigger = {
+		is_at_war = yes
+		is_in_war = {
+			defenders = ROOT
+		}
+	}
+	manpower_recovery_speed = 0.20
+	church_power_modifier = 0.25
+}
+
+TIM_diwan_adm = {
+	potential = {
+		has_reform = timurid_diwan_reform
+	}
+
+	trigger = {
+		national_focus = adm
+	}
+	yearly_corruption = -0.15
+}
+
+TIM_diwan_dip = {
+	potential = {
+		has_reform = timurid_diwan_reform
+	}
+
+	trigger = {
+		national_focus = dip
+	}
+	global_unrest = -1
+}
+
+TIM_diwan_mil = {
+	potential = {
+		has_reform = timurid_diwan_reform
+	}
+
+	trigger = {
+		national_focus = mil
+	}
+	land_maintenance_modifier = -0.1
+}

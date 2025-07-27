@@ -1,0 +1,8 @@
+#5692 - Dzungarian Mountains
+
+
+
+
+discovered_by = nomad_group
+discovered_by = chinese
+

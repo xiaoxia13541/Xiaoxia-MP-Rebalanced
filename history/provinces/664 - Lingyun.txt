@@ -1,0 +1,22 @@
+#664 - Guangxi
+owner = GXI
+controller = GXI
+add_core = GXI
+culture = zhuang
+religion = animism
+capital = "Nanning"
+trade_goods = tea
+base_tax = 4
+base_production = 3
+base_manpower = 3
+# citysize = 12900
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1652.1.1 = { controller = QNG }
+1681.10.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes
+fort_15th = yes

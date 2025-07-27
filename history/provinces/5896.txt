@@ -1,0 +1,15 @@
+add_core = YNG
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+discovered_by = nomad_group
+
+owner = YNG
+base_tax = 2
+base_manpower = 1
+base_production = 2
+culture = chahar
+trade_goods = cloth
+religion = confucianism
+controller = YNG
+is_city = yes

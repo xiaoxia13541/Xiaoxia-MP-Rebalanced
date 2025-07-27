@@ -1,0 +1,139 @@
+country_decisions = {
+	unite_africa_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+
+			NOT = { has_country_flag = united_african_empire_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = AFR }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+					adm_tech = 10
+				}
+			}
+			OR = {
+				culture_group = maghrebi
+				culture_group = mande
+				culture_group = sahelian
+				culture_group = west_african
+				culture_group = great_lakes_group
+				culture_group = african
+				culture_group = cushitic
+				culture_group = southern_african
+				culture_group = kongo_group
+				culture_group = sudanese
+			}
+
+			capital_scope = {
+				continent = africa
+				is_core = ROOT
+			}
+
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4064 # Buganda
+				province_id = 4097 # Luba
+				province_id = 1170 # Mpemba
+				province_id = 1185 # Butua
+				province_id = 1211 # Harer
+				province_id = 2757 # Kaffa
+				province_id = 1224 # Gonder
+				province_id = 1155 # Kano
+				province_id = 1132 # Timbuktu
+				province_id = 1124 # Joma
+				province_id = 4040 # Kalonga
+				province_id = 344 # Marrakech
+				province_id = 346 # Tafilalt
+				province_id = 341 # Tunis
+				province_id = 1196 # Kilwa
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			capital_scope = {
+				continent = africa
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				continent = africa
+				value = 169
+			}
+			calc_true_if = {
+				amount = 9
+				owns_core_province = 344 # Marrakech
+				owns_core_province = 346 # Tafilalt
+				owns_core_province = 341 # Tunis
+				owns_core_province = 1155 # Kano
+				owns_core_province = 1132 # Timbuktu
+				owns_core_province = 1124 # Joma
+				owns_core_province = 4097 # Luba
+				owns_core_province = 1170 # Mpemba
+				owns_core_province = 4064 # Buganda
+				owns_core_province = 1185 # Butua
+				owns_core_province = 4040 # Kalonga
+				owns_core_province = 1196 # Kilwa
+				owns_core_province = 1224 # Gonder
+				owns_core_province = 1211 # Harer
+				owns_core_province = 2757 # Kaffa
+			}
+		}
+
+		effect = {
+			change_tag = AFR
+			on_change_tag_effect = yes
+
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+
+			add_prestige = 25
+
+			set_country_flag = united_african_empire_flag
+
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

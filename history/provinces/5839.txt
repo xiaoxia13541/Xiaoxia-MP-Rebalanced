@@ -1,0 +1,13 @@
+base_tax = 4
+base_manpower = 3
+base_production = 2
+culture = wu
+trade_goods = silk
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = CYZ
+controller = CYZ
+add_core = CYZ
+discovered_by = indian

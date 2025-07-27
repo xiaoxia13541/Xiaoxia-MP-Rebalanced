@@ -1,0 +1,123 @@
+chinese_clash_of_two_dynasty = {
+	ended_by_country_breaking_to_rebels = no
+	potential = {
+		is_free_or_tributary_trigger = yes
+		normal_or_historical_nations = yes
+		OR = {
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+		}
+		OR = {
+			tag = CSH
+			tag = CYI
+			tag = QIC
+			tag = WUU
+			tag = GNM
+			tag = CXI
+			tag = YUE
+		}
+		NOT = { has_country_flag = clash_of_chinese_dynasty_happened_flag }		
+	}
+	
+	can_start = {
+		has_any_disaster = no
+		has_reform = h_reform_warlord_3
+		custom_trigger_tooltip = {
+			tooltip = own_100_china_provinces_or_1000_total_dev_tt
+			OR = {
+				calc_true_if = {
+					amount = 100
+					all_owned_province = {
+						superregion = china_superregion
+					}
+				}
+				total_development = 1000
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = another_country_own_100_china_prov_or_1000_dev_tt
+			any_known_country = {
+				is_free_or_tributary_trigger = yes
+				NOT = { tag = ROOT }
+				has_reform = h_reform_warlord_3
+				OR = {
+					calc_true_if = {
+						amount = 100
+						all_owned_province = {
+							superregion = china_superregion
+						}
+					}
+					total_development = 1000
+				}
+			}
+		}
+	}
+	
+	can_stop = { 
+		has_any_disaster = yes
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 2
+			NOT = { owns_core_province = 1816 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { owns_core_province = 1821 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { owns_core_province = 667 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { owns_core_province = 1816 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { owns_core_province = 700 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { owns_core_province = 5504 }
+		}
+		modifier = {
+			factor = 2
+			has_reform = h_reform_warlord_3
+		}
+	}
+	
+
+	can_end = {
+		any_country = {
+			has_reform = celestial_empire
+		}
+	}
+	
+	modifier = {
+		global_autonomy = 0.05
+		stability_cost_modifier = 0.25
+		fort_maintenance_modifier = 0.5
+		monthly_reform_progress_modifier = -0.1
+		province_warscore_cost = -0.4
+	}
+	
+	on_start = foffy_china.9
+	on_end = foffy_china.10
+
+	
+	on_monthly = {
+		events = {
+			# foffy_china.17 # 100 tradition general
+		}
+		random_events = {
+			# 85 = 0
+			# 5 = foffy_china.18 # province revolt
+			# 5 = foffy_china.19 # province support us
+			# 5 = foffy_china.20 # peasant revolt
+		}
+	}
+}
+

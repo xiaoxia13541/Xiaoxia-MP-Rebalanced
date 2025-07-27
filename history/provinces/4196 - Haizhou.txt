@@ -1,0 +1,17 @@
+base_tax = 3
+base_manpower = 2
+base_production = 2
+culture = jianghuai
+trade_goods = salt
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = EAS
+controller = EAS
+add_core = EAS
+discovered_by = indian
+add_province_modifier = {
+	name = huang_he_estuary_modifier
+	duration = -1
+}

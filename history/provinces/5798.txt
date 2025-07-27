@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 2
+base_production = 1
+culture = bai
+trade_goods = sugar
+religion = buddhism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = CNG
+controller = CNG
+add_core = CNG
+discovered_by = indian

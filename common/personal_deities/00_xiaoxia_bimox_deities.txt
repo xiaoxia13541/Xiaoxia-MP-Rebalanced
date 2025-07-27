@@ -1,0 +1,102 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+# 尼木措毕（毕摩教的仪式
+
+madu = { # 传教：玛都（做灵牌）
+	culture_conversion_cost = -0.15
+	global_missionary_strength = 0.02
+
+	sprite = 17
+	potential = { religion = xiaoxia_bimox }
+	trigger = {}
+	effect = {}
+	removed_effect = {}
+	ai_will_do = { factor = 1 }
+}
+
+zuobi = { # 外交：撮毕（送灵牌）
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.2
+
+	sprite = 13
+	potential = { religion = xiaoxia_bimox }
+	trigger = {}
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {	
+		factor = 1
+	}
+}
+
+zhuoni = { # 种地：卓尼（念净宅经）
+	development_cost = -0.05
+	production_efficiency = 0.1
+	
+	potential = { religion = xiaoxia_bimox }
+	trigger = {}
+	sprite = 18
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 5
+			is_at_war = no
+		}
+	}	
+}
+
+xiaobu = { # 维稳：消布（念消咒经）
+	core_creation = -0.1
+	war_exhaustion = -0.05
+
+	potential = { religion = xiaoxia_bimox }
+	trigger = {}
+	sprite = 16
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1	
+	}	
+}
+
+lici =  { # 防守：里次（念咒鬼经）
+	hostile_attrition = 1
+	garrison_size = 0.2
+	
+	potential = { religion = xiaoxia_bimox }
+	trigger = {}
+	sprite = 15
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 10
+			is_at_war = yes
+		}
+	}	
+}
+
+zuori = { # 进攻：撮日（念咒仇敌经）
+	land_morale = 0.05
+	infantry_power = 0.1
+	
+	potential = { religion = xiaoxia_bimox }
+	trigger = {}
+	sprite = 14
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}
+	}	
+}

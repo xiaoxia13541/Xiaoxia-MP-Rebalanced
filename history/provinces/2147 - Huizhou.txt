@@ -1,0 +1,13 @@
+base_tax = 1
+base_manpower = 2
+base_production = 2
+culture = gan
+trade_goods = copper
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = CJN
+controller = CJN
+add_core = CJN
+discovered_by = indian

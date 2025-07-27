@@ -1,0 +1,626 @@
+########################################
+# Custom modifiers for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+h_sichuan_basin = {
+	trade_goods_size = 2.0
+}
+
+h_commandery_province = {
+	local_state_maintenance_modifier = -0.75
+	local_garrison_size = 0.15
+	local_defensiveness = 0.2
+	allowed_num_of_buildings = 1
+}
+
+h_warlord_startmod = {
+	global_tax_income = 18
+	land_morale = 0.05
+}
+
+h_wu_armada = {
+	heavy_ship_power = 0.05
+}
+
+h_china_wonders = {
+	all_power_cost = -0.05
+}
+
+h_csh_anc1_1 = {
+	movement_speed = 0.1
+	reinforce_speed = 0.1
+}
+
+h_csh_anc1_2 = {
+	global_tax_modifier = 0.1
+}
+
+h_csh_anc1_3 = {
+	advisor_cost = -0.1
+	global_unrest = 1
+}
+
+h_csh_anc2_1 = {
+	global_unrest = -1
+	governing_capacity = 150
+}
+
+h_csh_anc2_2 = {
+	diplomatic_annexation_cost = -0.2
+}
+
+h_csh_anc2_3 = {
+	province_warscore_cost = -0.1
+}
+
+h_csh_anc3_1 = {
+	global_manpower_modifier = 0.15
+}
+
+h_csh_anc3_2 = {
+	infantry_power = 0.1
+}
+
+h_csh_anc3_3 = {
+	build_cost = -0.1
+	development_cost = -0.05
+}
+
+h_cxi_anc1_1 = {
+	global_trade_goods_size_modifier = 0.05
+}
+
+h_cxi_anc1_2 = {
+	global_tax_modifier = 0.1
+}
+
+h_cxi_anc1_3 = {
+	idea_cost = -0.05
+}
+
+h_cxi_anc2_1 = {
+	global_manpower_modifier = 0.1
+	global_unrest = 1
+}
+
+h_cxi_anc2_2 = {
+	trade_efficiency = 0.1
+	global_unrest = 1
+}
+
+h_cxi_anc2_3 = {
+	technology_cost = -0.05
+	global_unrest = 1
+}
+
+h_cxi_anc3_1 = {
+	development_cost = -0.05
+}
+
+h_cxi_anc3_2 = {
+	land_morale = 0.05
+}
+
+h_cxi_anc3_3 = {
+	monarch_military_power = 1
+	army_tradition_decay = -0.01
+}
+
+h_cyi_anc1_1 = {
+	production_efficiency = 0.1
+}
+
+h_cyi_anc1_2 = {
+	core_creation = -0.1
+}
+
+h_cyi_anc1_3 = {
+	years_of_nationalism = -5
+}
+
+h_cyi_anc2_1 = {
+	leader_land_shock = 1
+}
+
+h_cyi_anc2_2 = {
+	manpower_recovery_speed = 0.1
+}
+
+h_cyi_anc2_3 = {
+	shock_damage = 0.1
+}
+
+h_cyi_anc3_1 = {
+	cavalry_power = 0.15
+}
+
+h_cyi_anc3_2 = {
+	artillery_power = 0.075
+}
+
+h_cyi_anc3_3 = {
+	infantry_power = 0.075
+}
+
+h_qic_anc1_1 = {
+	production_efficiency = 0.1
+}
+
+h_qic_anc1_2 = {
+	infantry_cost = -0.05
+}
+
+h_qic_anc1_3 = {
+	interest = -0.25
+}
+
+h_qic_anc2_1 = {
+	#shock_damage_received = -0.1
+	land_morale = 0.1
+}
+
+h_qic_anc2_2 = {
+	defensiveness = 0.1
+	fort_maintenance_modifier = -0.1
+}
+
+h_qic_anc2_3 = {
+	naval_morale = 0.1
+}
+
+h_qic_anc3_1 = {
+	monarch_military_power = 1
+	global_manpower_modifier = 0.1
+}
+
+h_qic_anc3_2 = {
+	monarch_diplomatic_power = 1
+	dip_tech_cost_modifier = -0.1
+}
+
+h_qic_anc3_3 = {
+	monarch_admin_power = 1
+	adm_tech_cost_modifier = -0.1
+}
+
+h_wuu_anc1_1 = {
+	global_prov_trade_power_modifier = 0.1
+}
+
+h_wuu_anc1_2 = {
+	merc_maintenance_modifier = -0.15
+}
+
+h_wuu_anc1_3 = {
+	naval_forcelimit_modifier = 0.1
+	blockade_efficiency = 0.25
+}
+
+h_wuu_anc2_1 = {
+	global_trade_goods_size_modifier = 0.1
+}
+
+h_wuu_anc2_2 = {
+	global_ship_cost = -0.1
+}
+
+h_wuu_anc2_3 = {
+	colonists = 1
+	colonist_placement_chance = 0.03
+}
+	
+h_wuu_anc3_1 = {
+	mercenary_manpower = 0.5
+	mercenary_discipline = 0.05
+}
+
+h_wuu_anc3_2 = {
+	backrow_artillery_damage = 0.1
+}
+
+h_wuu_anc3_3 = {
+	trade_efficiency = 0.1
+	naval_morale = 0.1
+}
+
+h_yue_anc1_1 = {
+	land_attrition = -0.1
+}
+
+h_yue_anc1_2 = {
+	vassal_income = 0.25
+	diplomatic_upkeep = 1
+}
+
+h_yue_anc1_3 = {
+	core_creation = -0.1
+}
+
+h_yue_anc2_1 = {
+	trade_efficiency = 0.1
+}
+
+h_yue_anc2_2 = {
+	inflation_reduction = 0.2
+	global_trade_goods_size_modifier = 0.05
+}
+
+h_yue_anc2_3 = {
+	build_cost = -0.05
+	build_time = -0.1
+}
+
+h_yue_anc3_1 = {
+	fire_damage = 0.075
+	fire_damage_received = -0.075
+}
+
+h_yue_anc3_2 = {
+	land_forcelimit_modifier = 0.15
+	global_manpower_modifier = 0.15
+}
+
+h_yue_anc3_3 = {
+	land_morale = 0.05
+}
+
+h_chinese_empire = {
+	global_unrest = -2
+	global_autonomy = -0.1
+}
+
+h_csh_legacy = {
+	land_morale = 0.1
+}
+
+h_cxi_legacy = {
+	discipline = 0.05
+}
+
+h_cyi_legacy = {
+	shock_damage = 0.2
+}
+
+h_qic_legacy = {
+	technology_cost = -0.05
+	infantry_power = 0.1
+}
+
+h_wuu_legacy = {
+	advisor_cost = -0.15
+	mercenary_manpower = 0.5
+	mercenary_discipline = 0.05
+}
+
+h_yue_legacy = {
+	#global_manpower_modifier = 0.33
+	fire_damage = 0.075
+	fire_damage_received = -0.075
+}
+
+###############################
+#	MISSION MODIFIERS
+###############################
+
+foffy_china_conversions = {
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.20
+}
+
+china_cyi_zhou_conquered = {
+	global_unrest = -2
+	ae_impact = -0.1
+}
+
+china_cyi_tribes_united = {
+	local_autonomy = -0.05
+}
+
+china_cyi_shan_harmonized = {
+	num_accepted_cultures = 1
+}
+
+china_cyi_bai_converted = {
+	local_culture_conversion_cost = -0.35
+	local_culture_conversion_time = -0.35
+}
+
+china_cyi_fortified_castles = {
+	fort_maintenance_modifier = -0.15
+	hostile_attrition = 1
+}
+
+china_cyi_nanzhao_kingdom_restored = {
+	legitimacy = 1
+}
+
+china_cyi_yi_script_modifier = {
+	technology_cost = -0.1
+	innovativeness_gain = 0.25
+}
+
+china_cyi_tibet_conquered = {
+	trade_steering = 0.20
+	global_unrest = -2
+}
+
+china_yue_yanshan_conquered = {
+	global_unrest = -2
+	ae_impact = -0.1
+}
+
+china_yue_secured_heinan = {
+	global_ship_cost = -0.25
+	global_ship_recruit_speed = -0.15
+}
+
+china_yue_controlling_red_river_delta = {
+	global_own_trade_power = 0.2
+}
+
+china_yue_vietnam_control = {
+	local_unrest = -2
+	local_autonomy = -0.025
+}
+
+china_yue_vietnam_harmonized = {
+	global_unrest = -1
+}
+
+china_yue_vietnam_converted = {
+	global_autonomy = -0.025
+	prestige = 0.5
+}
+
+china_yue_trade_fleet = {
+	global_ship_trade_power = 0.1
+	global_ship_cost = -0.15
+}
+
+china_yue_chinese_armada = {
+	ship_durability = 0.1
+}
+
+china_guangzhou_developed = {
+	global_tax_modifier = 0.1
+}
+
+china_yue_nanyue_legacy_restored = {
+	legitimacy = 1
+}
+
+china_yue_metalworking = {
+	artillery_cost = -0.1
+}
+
+china_yue_tomb_of_zhao_mo = {
+	local_defensiveness = 0.2
+	local_state_maintenance_modifier = -0.1
+	local_tax_modifier = 0.15
+	local_manpower_modifier = 0.5
+}
+
+china_wuu_min_conquered = {
+	manpower_recovery_speed = 0.1
+}
+
+china_wuu_ning_vassalized = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+}
+
+china_wuu_hanghzou_bay_held = {
+	global_own_trade_power = 0.1
+	trade_efficiency = 0.1
+}
+
+china_wuu_monopolize_hangzhou_trade = {
+	global_ship_cost = -0.1
+	naval_maintenance_modifier = -0.1
+}
+
+china_wuu_sea_dragon_king = {
+	naval_morale = 0.05
+}
+
+china_wuu_pushed_north = {
+	local_unrest = -2
+	local_autonomy = -0.05
+}
+
+china_wuu_pushed_south = {
+	defensiveness = 0.15
+}
+
+china_wuu_wuyue_kingdom = {
+	legitimacy = 1
+}
+
+china_wuu_tianyi_ge_library = {
+	great_project_upgrade_cost = -0.25
+}
+
+china_cyi_chengdu_tobacco_modifier = {
+	trade_goods_size_modifier = 0.1
+}
+
+h_qic_col_war1_3_2_reward = {
+	ae_impact = -0.1
+}
+
+h_qic_col_war1_3_4_reward = {
+	global_autonomy = -0.1
+}
+
+h_qic_col_war2_2_5_reward = {
+	global_ship_trade_power = 0.15
+	light_ship_cost = -0.15
+}
+
+h_qic_col_war2_2_6_reward = {
+	idea_cost = -0.1
+}
+
+h_qic_col_war2_3_6_reward = {
+	local_defensiveness = 0.15
+}
+
+h_qic_col_war3_4_3_reward = {
+	global_trade_goods_size_modifier = 0.1
+}
+
+h_qic_col_war3_5_4_reward = {
+	infantry_power = 0.10
+	army_tradition = 0.25
+}
+
+h_cxi_col_war1_3_3_reward = {
+	diplomatic_reputation = 1
+}
+
+h_cxi_col_war1_3_4_reward = {
+	production_efficiency = 0.075
+}
+
+h_cxi_col_war2_2_6_reward = {
+	trade_goods_size = 1
+}
+
+h_qic_col_war2_3_5_reward = {
+	global_manpower_modifier = 0.10
+}
+
+h_qic_col_war2_5_5_reward = {
+	global_trade_power = 0.1
+}
+
+h_cxi_col_war3_4_3_reward = {
+	leader_land_fire = 1
+}
+
+h_cxi_col_war3_4_4_reward = {
+	land_morale = 0.075
+	infantry_cost = -0.075
+}
+
+china_csh_lulin_destroyed = {
+	global_unrest = -2
+	ae_impact = -0.1
+}
+
+china_csh_taozhou_conquered = {
+	local_build_cost = -0.15
+	local_build_time = -0.15
+}
+
+china_csh_taozhou_fortified = {
+	local_defensiveness = 0.1
+	local_monthly_devastation = -0.05
+}
+
+china_csh_great_wall_expanded = {
+	hostile_attrition = 1
+}
+
+china_csh_silk_road_entrance = {
+	global_prov_trade_power_modifier = 0.15
+}
+
+china_csh_lower_mongolia_frontier = {
+	local_development_cost = -0.1
+}
+
+china_csh_gao_guiying_influence = {
+	may_recruit_female_generals = yes
+	female_advisor_chance = 0.15
+}
+
+china_csh_lulin_seized = {
+	global_unrest = -2
+	ae_impact = -0.1
+}
+
+china_csh_control_of_gansu = {
+	global_tax_income = 24
+}
+
+china_csh_hanzhong_state_captured = {
+	production_efficiency = 0.1
+}
+
+china_forbidden_city_modifier = {
+	stability_cost_modifier = -0.1
+}
+
+china_csh_humble_origins = {
+	global_unrest = -2
+	manpower_recovery_speed = 0.2
+}
+
+china_csh_rebelious_past_modifier = {
+	spy_offence = 0.15
+	global_spy_defence = 0.15
+	rebel_support_efficiency = 0.25
+}
+
+h_cxi_col_war1_3_2_reward = {
+	ae_impact = -0.1
+}
+
+h_cxi_col_war2_4_6_reward = {
+	idea_cost = -0.1
+}
+
+h_cxi_col_war2_3_5_reward = {
+	global_manpower_modifier = 0.10
+}
+
+h_cxi_col_war2_5_5_reward = {
+	global_trade_power = 0.1
+}
+
+mjl_shun_mountains_mod = {
+	local_development_cost = -0.1
+}
+
+#timed commandery buffs
+
+h_commandery_bonus_changsha_reward = {
+	idea_cost = -0.05
+}
+
+h_commandery_bonus_chengdu_reward_provincial = {
+	local_development_cost = -0.05
+}
+
+h_commandery_bonus_xian_reward = {
+	global_tax_income = 36
+}
+
+h_commandery_bonus_xiamen_reward = {
+	global_prov_trade_power_modifier = 0.15
+}
+
+h_commandery_bonus_chengdu_reward = {
+	same_culture_advisor_cost = -0.15
+}
+
+h_populate_altai_mountains_mod = {
+	local_development_cost = -0.1
+}
+
+mjl_oirat_buffs = {
+	global_tax_income = 120
+	global_manpower = 20
+}
+
+mjl_herd_bonus_prod = {
+	local_production_efficiency = 0.5
+}
+
+mjl_esen_choros_death_modifier = {
+	global_unrest = -2
+	discipline = 0.05
+}

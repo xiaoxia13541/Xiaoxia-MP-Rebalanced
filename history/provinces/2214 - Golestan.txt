@@ -1,0 +1,39 @@
+#2214 - Golestan
+owner = KHO# Babur Ibn-Baysunkur
+controller = KHO
+culture = mazandarani
+religion = shiite
+capital = "Asatarabad"
+trade_goods = tea
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = KHO
+add_core = TAB
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = indian
+1457.12.13 = { controller = QAR }
+1458.12.22 = { controller = TIM add_core = TIM }
+1469.8.27 = { controller = KHO }
+1505.1.1 = { controller = BUK }
+1507.7.1 = { 
+	add_core = BUK
+}
+1510.1.1 = { 
+	controller = PER
+}
+1550.1.1 = { discovered_by = TUR }
+1673.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
+1750.1.2 = { 
+	controller = KHO
+}
+1796.1.1 = { 
+	controller = PER
+	add_core = PER
+}
+discovered_by = eastern
+fort_15th = yes

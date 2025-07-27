@@ -1,0 +1,10 @@
+add_core = SHI
+owner = SHI
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = SHI
+is_city = yes
+culture = sidamo
+trade_goods = wool

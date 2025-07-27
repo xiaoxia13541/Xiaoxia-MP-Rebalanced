@@ -1,0 +1,23 @@
+# 3627 - Zhangjianjie
+owner = CHC
+controller = CHC
+add_core = CHC
+culture = miao
+religion = animism
+capital = "Zhangjianjie"
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+#1643.1.1 = {	owner = CXI
+#		controller = CXI
+#} # The Xi dynasty of Zhang Xianzhong
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+1679.1.1 = { controller = QNG }

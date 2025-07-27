@@ -1,0 +1,16 @@
+culture = al_misr_arabic
+religion = sunni
+capital = "Kordofan"
+trade_goods = iron
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = ALO
+discovered_by = MAK
+add_core = MAK
+owner = MAK
+controller = MAK
+is_city = yes

@@ -1,0 +1,16 @@
+name = "Hungary-Austria War"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1440.1.1 = {
+	add_attacker = HUN
+	add_defender = HAB
+}
+
+#Peace and end of war
+1444.10.10 = {
+	rem_attacker = HUN
+	rem_defender = HAB
+}

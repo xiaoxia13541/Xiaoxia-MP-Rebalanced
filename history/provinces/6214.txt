@@ -1,0 +1,11 @@
+add_core = NKO
+owner = NKO
+base_tax = 2
+base_manpower = 2
+base_production = 1
+religion = shamanism
+controller = NKO
+is_city = yes
+culture = ganda
+trade_goods = wool
+discovered_by = central_african

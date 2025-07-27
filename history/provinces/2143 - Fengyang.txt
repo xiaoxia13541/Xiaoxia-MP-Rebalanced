@@ -1,0 +1,13 @@
+base_tax = 3
+base_manpower = 3
+base_production = 1
+culture = jianghuai
+trade_goods = naval_supplies
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = ZHU
+controller = ZHU
+add_core = ZHU
+discovered_by = indian

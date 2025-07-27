@@ -1,0 +1,36 @@
+sea_karaman_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = KAR
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	kar_rise_of_beylik = {
+		icon = mission_suleiman
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2303
+				province_id = 4298
+				province_id = 321
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			2303 = { owned_by = ROOT }
+			4298 = { owned_by = ROOT }
+			321 = { owned_by = ROOT }
+		}
+		effect = {
+			anatolia_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}

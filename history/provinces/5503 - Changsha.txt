@@ -1,0 +1,29 @@
+#672 - Hunan
+owner = CHS
+controller = CHS
+add_core = CHS
+culture = xiang
+religion = confucianism
+capital = "Changsha"
+trade_goods = paper
+base_tax = 8
+base_production = 10
+base_manpower = 6
+# citysize = 250000 #2.5 mil
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+add_province_triggered_modifier = h_cwonder_changsha
+#add_province_triggered_modifier = h_cwonder_changsha_heathen
+add_permanent_province_modifier = { 
+	name = h_commandery_province
+	duration = -1
+}
+center_of_trade = 1
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+1679.1.1 = { controller = QNG }
+is_city = yes
+fort_15th = yes

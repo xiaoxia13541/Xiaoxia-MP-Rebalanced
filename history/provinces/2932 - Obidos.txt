@@ -1,0 +1,14 @@
+owner = WAD
+controller = WAD
+add_core = WAD
+add_claim = YAO
+culture = tunjur
+religion = sunni
+capital = "Ouara"
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = sub_saharan
+discovered_by = DAR

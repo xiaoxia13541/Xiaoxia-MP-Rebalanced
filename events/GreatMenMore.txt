@@ -1,0 +1,1363 @@
+namespace = greatmen_event
+# Philosopher
+country_event = {
+	id = greatmen_event.1
+	title = greatmen_event.1.t
+	desc = greatmen_event.1.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_legitimate_government = 3
+		NOT = { has_country_flag = philosopher }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = philosopher }
+	option = {
+		name = "EVTOPTA4021"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+	}
+	option = {
+		name = "EVTOPTB4021"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+	}
+}
+country_event = {
+	id = greatmen_event.2
+	title = greatmen_event.2.t
+	desc = greatmen_event.2.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_horde_government = 3
+		NOT = { has_country_flag = philosopher }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = philosopher }
+	option = {
+		name = "EVTOPTA4021"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+	}
+	option = {
+		name = "EVTOPTB4021"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+	}
+}
+country_event = {
+	id = greatmen_event.3
+	title = greatmen_event.3.t
+	desc = greatmen_event.3.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_republic_government = 3
+		NOT = { has_country_flag = philosopher }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = philosopher }
+	option = {
+		name = "EVTOPTA4021"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+	}
+	option = {
+		name = "EVTOPTB4021"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+	}
+}
+country_event = {
+	id = greatmen_event.4
+	title = greatmen_event.4.t
+	desc = greatmen_event.4.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_devoted_government = 3
+		NOT = { has_country_flag = philosopher }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = philosopher }
+	option = {
+		name = "EVTOPTA4021"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+	}
+	option = {
+		name = "EVTOPTB4021"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+	}
+}
+##################################################
+##################################################
+# Army Reformer
+country_event = {
+	id = greatmen_event.5
+	title = greatmen_event.5.t
+	desc = greatmen_event.5.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_fire_damage = 3
+		NOT = { has_country_flag = army_reformer }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = army_reformer }
+	option = {
+		name = "EVTOPTA4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.6
+	title = greatmen_event.6.t
+	desc = greatmen_event.6.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_fire_damage_received = 3
+		NOT = { has_country_flag = army_reformer }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = army_reformer }
+	option = {
+		name = "EVTOPTA4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.7
+	title = greatmen_event.7.t
+	desc = greatmen_event.7.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_shock_damage = 3
+		NOT = { has_country_flag = army_reformer }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = army_reformer }
+	option = {
+		name = "EVTOPTA4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.8
+	title = greatmen_event.8.t
+	desc = greatmen_event.8.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_shock_damage_received = 3
+		NOT = { has_country_flag = army_reformer }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = army_reformer }
+	option = {
+		name = "EVTOPTA4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.9
+	title = greatmen_event.9.t
+	desc = greatmen_event.9.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_morale_damage = 3
+		NOT = { has_country_flag = army_reformer }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = army_reformer }
+	option = {
+		name = "EVTOPTA4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.10
+	title = greatmen_event.10.t
+	desc = greatmen_event.10.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_morale_damage_received = 3
+		NOT = { has_country_flag = army_reformer }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = army_reformer }
+	option = {
+		name = "EVTOPTA4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4023"
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "land_investment" duration = 2190 }
+	}
+}
+##################################################
+##################################################
+# Naval reformer
+country_event = {
+	id = greatmen_event.11
+	title = greatmen_event.11.t
+	desc = greatmen_event.11.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_engagement = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.12
+	title = greatmen_event.12.t
+	desc = greatmen_event.12.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_attrition = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.13
+	title = greatmen_event.13.t
+	desc = greatmen_event.13.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_durability = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.14
+	title = greatmen_event.14.t
+	desc = greatmen_event.14.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_morale_recovery = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.15
+	title = greatmen_event.15.t
+	desc = greatmen_event.15.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_sailors = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.16
+	title = greatmen_event.16.t
+	desc = greatmen_event.16.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_maintenance = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.17
+	title = greatmen_event.17.t
+	desc = greatmen_event.17.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_forcelimit = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.18
+	title = greatmen_event.18.t
+	desc = greatmen_event.18.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_repair = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.19
+	title = greatmen_event.19.t
+	desc = greatmen_event.19.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_heavy_combat = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.20
+	title = greatmen_event.20.t
+	desc = greatmen_event.20.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_light_combat = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.21
+	title = greatmen_event.21.t
+	desc = greatmen_event.21.d
+	picture = REFORM_eventPicture
+	trigger = {
+		advisor_naval_galley_combat = 3
+		NOT = { has_country_flag = naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = naval_reformer }
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "naval_investment" duration = 2190 }
+	}
+}
+##################################################
+##################################################
+# Artist
+country_event = {
+	id = greatmen_event.22
+	title = greatmen_event.22.t
+	desc = greatmen_event.22.d
+	picture = PAINTER_ARTIST_eventPicture
+	trigger = {
+		advisor_reform_growth = 3
+		NOT = { has_country_flag = artist }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = artist }
+	option = {
+		name = "EVTOPTA4025"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "reduced_stability_cost" duration = 2190 }
+	}
+
+	option = {
+		name = "EVTOPTB4025"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "reduced_stability_cost" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.23
+	title = greatmen_event.23.t
+	desc = greatmen_event.23.d
+	picture = PAINTER_ARTIST_eventPicture
+	trigger = {
+		advisor_splendor_blendor = 3
+		NOT = { has_country_flag = artist }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = artist }
+	option = {
+		name = "EVTOPTA4025"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "reduced_stability_cost" duration = 2190 }
+	}
+
+	option = {
+		name = "EVTOPTB4025"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "reduced_stability_cost" duration = 2190 }
+	}
+}
+##################################################
+##################################################
+# Theologian
+country_event = {
+	id = greatmen_event.24
+	title = greatmen_event.24.t
+	desc = greatmen_event.24.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_centralize_autonomy = 3
+		NOT = { has_country_flag = theologian }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = theologian }
+	option = {
+		name = "EVTOPTA4027"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "theology" duration = 2190 }
+	}
+		
+	option = {
+		name = "EVTOPTB4027"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "theology" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.25
+	title = greatmen_event.25.t
+	desc = greatmen_event.25.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_war_exhaust = 3
+		NOT = { has_country_flag = theologian }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = theologian }
+	option = {
+		name = "EVTOPTA4027"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "theology" duration = 2190 }
+	}
+		
+	option = {
+		name = "EVTOPTB4027"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "theology" duration = 2190 }
+	}
+}
+##################################################
+##################################################
+# Statesman
+country_event = {
+	id = greatmen_event.26
+	title = greatmen_event.26.t
+	desc = greatmen_event.26.d
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		advisor_imperial_authority = 3
+		NOT = { has_country_flag = statesman }
+	}
+	
+	mean_time_to_happen = {
+		months = 150 
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = statesman }
+	option = {
+		name = "EVTOPTA4028"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "government_investment" duration = 2190 }
+	}
+		
+	option = {
+		name = "EVTOPTB4028"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "government_investment" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.27
+	title = greatmen_event.27.t
+	desc = greatmen_event.27.d
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		advisor_mandate_growth = 3
+		NOT = { has_country_flag = statesman }
+	}
+	
+	mean_time_to_happen = {
+		months = 150 
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = statesman }
+	option = {
+		name = "EVTOPTA4028"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "government_investment" duration = 2190 }
+	}
+		
+	option = {
+		name = "EVTOPTB4028"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "government_investment" duration = 2190 }
+	}
+}
+##################################################
+##################################################
+# Spymaster
+country_event = {
+	id = greatmen_event.28
+	title = greatmen_event.28.t
+	desc = greatmen_event.28.d
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		advisor_defence_spymaster = 3
+		NOT = { has_country_flag = spymaster }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = spymaster }
+	option = {
+		name = "EVTOPTA4030"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "spy" duration = 2190 }	
+	}
+		
+	option = {
+		name = "EVTOPTB4030"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "spy" duration = 2190 }	
+	}
+}
+##################################################
+##################################################
+# Diplomat
+country_event = {
+	id = greatmen_event.29
+	title = greatmen_event.29.t
+	desc = greatmen_event.29.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_corrupt_decay = 3
+		NOT = { has_country_flag = diplomat }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = diplomat }
+	option = {
+		name = "EVTOPTA4031"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_dip_power = 50
+	}
+	option = {
+		name = "EVTOPTB4031"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_dip_power = 50
+	}
+}
+##################################################
+##################################################
+# navigator
+country_event = {
+	id = greatmen_event.30
+	title = greatmen_event.30.t
+	desc = greatmen_event.30.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_colonial_increase = 3
+		NOT = { has_country_flag = navigator }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = navigator }
+	option = {
+		name = "EVTOPTA4110"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "navigator_boost" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4110"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "navigator_boost" duration = 2190 }
+	}
+}
+##################################################
+##################################################
+# grand_captain
+country_event = {
+	id = greatmen_event.31
+	title = greatmen_event.31.t
+	desc = greatmen_event.31.d
+	picture = ADVISOR_eventPicture	
+	trigger = {
+		advisor_land_attrition = 3
+		NOT = { has_country_modifier = PR_grand_captain_cooldown }
+		NOT = { has_country_flag = grand_captain }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = grand_captain }
+	option = {
+		name = "EVTOPTA4114"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "grand_captain_boost" duration = 2190 }
+	}
+
+	option = {
+		name = "EVTOPTB4114"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "grand_captain_boost" duration = 2190 }
+	}
+	
+	option = {
+		name = "PR_grand_captain_cooldown_tooltip"	# PR advisor cooldown
+		add_country_modifier = { name = "PR_grand_captain_cooldown" duration = 7300 }
+		clr_country_flag = grand_captain
+	}
+}
+##################################################
+##################################################
+# army_organiser
+country_event = {
+	id = greatmen_event.32
+	title = greatmen_event.32.t
+	desc = greatmen_event.32.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_cav_to_inf_ratio = 3
+		NOT = { has_country_flag = army_organiser }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = army_organiser }
+	option = {
+		name = "EVTOPTA4115"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "army_organiser_boost" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4115"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "army_organiser_boost" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.33
+	title = greatmen_event.33.t
+	desc = greatmen_event.33.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_speedy_boys = 3
+		NOT = { has_country_flag = army_organiser }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = army_organiser }
+	option = {
+		name = "EVTOPTA4115"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "army_organiser_boost" duration = 2190 }
+	}
+	option = {
+		name = "EVTOPTB4115"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "army_organiser_boost" duration = 2190 }
+	}
+}
+##################################################
+##################################################
+# commandant
+country_event = {
+	id = greatmen_event.34
+	title = greatmen_event.34.t
+	desc = greatmen_event.34.d
+	picture = Harambe_eventPicture
+	trigger = {
+		advisor_inf_combat = 3
+		NOT = { has_country_modifier = PR_commandant_cooldown }
+		NOT = { has_country_flag = commandant }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = commandant }
+	option = {
+		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "commandant_boost" duration = 2190 }		
+	}
+	option = {
+		name = "EVTOPTB4116"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "commandant_boost" duration = 2190 }
+	}
+	option = {
+		name = "PR_commandant_cooldown_tooltip"	# PR advisor cooldown
+		add_country_modifier = { name = "PR_commandant_cooldown" duration = 7300 }
+		clr_country_flag = commandant
+	}
+}
+country_event = {
+	id = greatmen_event.35
+	title = greatmen_event.35.t
+	desc = greatmen_event.35.d
+	picture = Harambe_eventPicture
+	trigger = {
+		advisor_cav_combat = 3
+		NOT = { has_country_modifier = PR_commandant_cooldown }
+		NOT = { has_country_flag = commandant }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = commandant }
+	option = {
+		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "commandant_boost" duration = 2190 }		
+	}
+	option = {
+		name = "EVTOPTB4116"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "commandant_boost" duration = 2190 }
+	}
+	option = {
+		name = "PR_commandant_cooldown_tooltip"	# PR advisor cooldown
+		add_country_modifier = { name = "PR_commandant_cooldown" duration = 7300 }
+		clr_country_flag = commandant
+	}
+}
+country_event = {
+	id = greatmen_event.36
+	title = greatmen_event.36.t
+	desc = greatmen_event.36.d
+	picture = Harambe_eventPicture
+	trigger = {
+		advisor_art_combat = 3
+		NOT = { has_country_modifier = PR_commandant_cooldown }
+		NOT = { has_country_flag = commandant }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = commandant }
+	option = {
+		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "commandant_boost" duration = 2190 }		
+	}
+	option = {
+		name = "EVTOPTB4116"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "commandant_boost" duration = 2190 }
+	}
+	option = {
+		name = "PR_commandant_cooldown_tooltip"	# PR advisor cooldown
+		add_country_modifier = { name = "PR_commandant_cooldown" duration = 7300 }
+		clr_country_flag = commandant
+	}
+}
+##################################################
+##################################################
+# Quartermaster
+country_event = {
+	id = greatmen_event.37
+	title = greatmen_event.37.t
+	desc = greatmen_event.37.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_morale_recovery = 3
+		NOT = { has_country_flag = quartermaster }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = quartermaster }
+	option = {
+		name = "EVTOPTA4117"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "quartermaster_boost" duration = 2190 }		
+	}
+	option = {
+		name = "EVTOPTB4117"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "quartermaster_boost" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.38
+	title = greatmen_event.38.t
+	desc = greatmen_event.38.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_drill_gain = 3
+		NOT = { has_country_flag = quartermaster }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = quartermaster }
+	option = {
+		name = "EVTOPTA4117"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "quartermaster_boost" duration = 2190 }		
+	}
+	option = {
+		name = "EVTOPTB4117"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "quartermaster_boost" duration = 2190 }
+	}
+}
+country_event = {
+	id = greatmen_event.39
+	title = greatmen_event.39.t
+	desc = greatmen_event.39.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_drill_decay = 3
+		NOT = { has_country_flag = quartermaster }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = quartermaster }
+	option = {
+		name = "EVTOPTA4117"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "quartermaster_boost" duration = 2190 }		
+	}
+	option = {
+		name = "EVTOPTB4117"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "quartermaster_boost" duration = 2190 }
+	}
+}
+##################################################
+##################################################
+# Fortification Expert
+country_event = {
+	id = greatmen_event.40
+	title = greatmen_event.40.t
+	desc = greatmen_event.40.d
+	picture = ADVISOR_eventPicture
+	trigger = {
+		advisor_siege_ability = 3
+		NOT = { has_country_flag = fortification_expert }
+	}
+	mean_time_to_happen = {
+		months = 150
+		modifier = { factor = 0.9 innovativeness_ideas = 4 }
+		modifier = { factor = 0.9 innovativeness_ideas = 6 }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 4 } }
+		modifier = { factor = 1.1 NOT = { innovativeness_ideas = 2 } }
+	}
+	immediate = { set_country_flag = fortification_expert }
+	option = {
+		name = "EVTOPTA4119"	# His efforts will be admired throughout the nation
+		ai_chance = { factor = 50 modifier = { factor = 0 stability = 2 } }
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = { name = "fortification_expert_boost" duration = 2190 }		
+	}
+	option = {
+		name = "EVTOPTB4119"	# His reputation will reach further than our borders
+		ai_chance = { factor = 50 modifier = { factor = 0 NOT = { stability = 1 } } }
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = { name = "fortification_expert_boost" duration = 2190 }
+	}
+}

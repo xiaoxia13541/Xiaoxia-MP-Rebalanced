@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 2
+base_production = 2
+culture = mongol
+trade_goods = spices
+religion = vajrayana
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = KHA
+controller = KHA
+add_core = KHA
+discovered_by = indian

@@ -1,0 +1,9 @@
+# Sealand
+government = republic
+add_government_reform = leleges_military_government
+government_rank = 2
+primary_culture = spartan
+religion = totemism # hellenic_pagan
+technology_group = western
+unit_type = eastern
+capital = 917

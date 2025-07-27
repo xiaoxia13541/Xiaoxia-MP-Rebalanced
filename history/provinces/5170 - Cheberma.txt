@@ -1,0 +1,19 @@
+# Sealand
+culture = tunisian
+religion = sunni
+capital = "Cheberma"
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 30
+native_ferocity = 4
+native_hostileness = 9
+discovered_by = muslim
+discovered_by = ottoman
+add_core = TUN
+owner = TUN
+controller = TUN
+is_city = yes
+discovered_by = western
+discovered_by = eastern

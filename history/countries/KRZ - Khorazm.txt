@@ -1,0 +1,7 @@
+government = tribal
+government_rank = 2
+add_government_reform = khorazm_horde_nation
+primary_culture = uzbehk
+religion = sunni
+technology_group = nomad_group
+capital = 480#Pegaya Orda

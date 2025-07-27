@@ -1,0 +1,2244 @@
+# 基础任务
+cyi_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+		}
+	}
+	has_country_shield = yes
+
+	cyi_annex_lhasa = { # 兼并拉萨
+		icon = mission_cyi_annex_lhasa
+		position = 6
+		required_missions = { cyi_tibetan_ambition }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2133
+				province_id = 677
+			}
+		}
+		trigger = {
+			677 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 15
+				num_of_buildings_in_province = 3
+			}
+			2133 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 10
+				num_of_buildings_in_province = 3
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "china_cyi_tibet_conquered"
+				duration = 9125
+			}
+			2133 = {
+				add_or_upgrade_trade_building = yes
+				add_or_upgrade_tax_building = yes
+				add_or_upgrade_production_building = yes
+			}
+			677 = {
+				add_province_modifier = {	
+					name = city_of_dream
+					duration = -1
+				}
+			}
+			unlock_estate_privilege = {
+				estate_privilege = estate_burghers_tib_tame_the_mountains
+			}
+		}
+	}
+
+	cyi_convert_lhasa_buddhism = { # 融合藏传佛教
+		icon = mission_cyi_convert_lhasa_buddhism
+		position = 7
+		required_missions = { cyi_annex_lhasa }
+		provinces_to_highlight = {
+			province_id = 677
+		}
+		trigger = {
+			677  = { religion = xiaoxia_bimox }
+			religious_unity = 0.95
+			calc_true_if = {
+				amount = 20
+				all_owned_province = {				
+					region = tibet_region
+					religion = xiaoxia_bimox
+				}
+			}
+		}
+		effect = {
+			country_event = { id = foffy_china.28 }
+			add_country_modifier = {
+				name = tibetan_missionaries
+				duration = 9125
+			}
+		}
+	}
+}
+
+cyi_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire			
+		}
+	}
+	has_country_shield = yes
+	
+	china_cyi_bimoism_religion = { # 教士忠诚
+		icon = mission_hands_praying
+		position = 1
+		required_missions = { }
+        provinces_to_highlight = { }
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						has_building = cathedral
+						has_building = temple
+					}
+				}
+				amount = 6
+			}
+			if = {
+				limit = {
+					has_estate = estate_church
+				}
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 60
+				}
+			}
+		}
+		effect = {
+			add_estate_influence_modifier = {
+				estate = estate_church
+				influence = 5
+				desc = bimoism_religion_influence
+				duration = -1
+			}
+			add_estate_loyalty_modifier = {
+				estate = estate_church
+				desc = bimoism_religion_influence
+				loyalty = 5
+				duration = -1
+			}
+		}
+	}
+	
+	h_cyi_starter = { # Rise of Yi # 彝族崛起
+		icon = mission_manchu_warrior
+		position = 2
+		trigger = {
+			has_mil_advisor = yes
+			army_size_percentage = 1
+			num_of_generals = 1
+		}
+		effect = {
+			country_event = { id = foffychina.3 } #Ruler Event
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = CDL
+				months = 120
+			}
+			every_province = { 
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+					culture = yi
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+
+	china_cyi_subjugate_dali = { # 保护大理
+		icon = mission_conquer_50_development
+		position = 4
+		required_missions = { h_cyi_starter }
+        provinces_to_highlight = {
+			owned_by = CDL
+        }
+		trigger = {
+			OR = {
+				CDL = { 
+					vassal_of = CYI 
+					owns_core_province = 2167
+				}
+				AND = {
+					owns_core_province = 661
+					owns_core_province = 2167
+					owns_core_province = 5603
+					CDL = { exists = no }
+				}
+			}
+		}
+		effect = {
+			2167 = {
+				add_base_tax = 1
+				add_base_manpower = 1
+				add_base_production = 1
+			}
+			Golog_area = {
+				add_permanent_claim = ROOT
+			}
+			kham_area = {
+				add_permanent_claim = ROOT
+			}
+			East_Tibet_Area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	cyi_tibetan_ambition = { # 高原雄心
+		icon = mission_cyi_tibetan_ambition
+		position = 5
+		required_missions = { china_cyi_subjugate_dali cyi_unite_xinan_region }
+		provinces_to_highlight = { 
+			province_id = 5805
+		}
+		trigger = {
+			OR = {
+				has_reform = cyi_sepo_theocracy
+				has_reform = cyi_zimo_kingdom
+				has_reform = cyi_holy_empire
+
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+			calc_true_if = {
+				amount = 7
+				all_owned_province = {				
+					region = tibet_region
+					OR = {
+						trade_goods = wool
+						trade_goods = livestock
+					}
+				}
+			}
+		}
+		effect = {
+			add_army_tradition = 20
+			tibet_region = { add_permanent_claim = ROOT }
+		}
+	}
+}
+
+cyi_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+		}
+	}
+	has_country_shield = yes
+	
+ 	china_cyi_yi_script = { #Yi Script 彝文
+ 		icon = mission_rb_monopolize_the_channel
+ 		position = 1
+		required_missions = { }
+        provinces_to_highlight = {
+        }
+ 		trigger = {
+ 			OR = {
+				has_reform = cyi_zimo_kingdom
+				has_reform = cyi_holy_empire	
+ 				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+
+			has_mil_advisor_3 = yes
+			has_adm_advisor_3 = yes
+			has_dip_advisor_3 = yes
+			monthly_adm = 11
+			has_institution = printing_press
+			is_in_deficit = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = "china_cyi_yi_script_modifier"
+				duration = 7300
+			}
+			add_mil_power = 50
+		}
+	}
+
+	china_cyi_unite_the_tribes = { # 统一彝族部落
+		icon = mission_asian_city
+		position = 3
+		required_missions = { h_cyi_starter }
+        provinces_to_highlight = {
+			area = luzhou_area
+        }
+		trigger = {
+			grown_by_development = 60
+		}
+		effect = {
+			custom_tooltip = gain_all_bai_miao_culture_provs_claim_tt
+			add_country_modifier = {
+				name = "china_cyi_zhou_conquered"
+				duration = 7300
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+						culture = bai
+					}
+					add_permanent_claim = ROOT
+				}
+				every_province = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+						culture = miao
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	
+	cyi_unite_xinan_region = { # 西南一统
+		icon = mission_unite_home_region
+		required_missions = { china_cyi_unite_the_tribes }
+		position = 4
+        provinces_to_highlight = {
+			culture = yi
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		trigger = {
+			dali_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kunming_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			yun_gui_borderland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			Southeast_yunnan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			custom_tooltip = all_bai_provicnes_minus_20_nationalism_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						culture = bai
+					}
+					add_nationalism = -20
+					add_province_modifier = {
+						name = "china_cyi_tribes_united"
+						duration = 5475
+					}
+				}
+			}
+			Yelang_area = {
+				add_permanent_claim = ROOT
+			}
+			yanshan_area = {
+				add_permanent_claim = ROOT
+			}
+			guangxi_area = {
+				add_permanent_claim = ROOT
+			}
+			guilin_area = {
+				add_permanent_claim = ROOT
+			}
+			Tay_Bac_area = {
+				add_permanent_claim = ROOT
+			}
+			Xiangxi_area = {
+				add_permanent_claim = ROOT
+			}
+			Wuling_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	cyi_zhuang_people_subjugation = { # 僮人归化
+		icon = mission_cyi_zhuang_people_subjugation
+		required_missions = { cyi_unite_xinan_region }
+		position = 6
+        provinces_to_highlight = {
+			culture = zhuang
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+
+		trigger = {
+			OR = {
+				has_reform = cyi_sepo_theocracy
+				has_reform = cyi_zimo_kingdom
+				has_reform = cyi_holy_empire	
+			
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+			OR = {
+				AND = {
+					owns_core_province = 2164
+					owns_core_province = 664
+					owns_core_province = 1840
+				}
+				calc_true_if = {
+					amount = 8
+					all_owned_province = {
+						OR = {
+							culture = zhuang_new
+							culture = zhuang
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = cyi_change_zhuang_culture_into_yi_tt
+			custom_tooltip = SEPERATOR_TOOLTIP
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							culture = zhuang_new
+							culture = zhuang
+						}
+					}
+					change_culture = yi
+				}
+			}
+			red_river_delta_area = {
+				add_permanent_claim = ROOT
+			}
+			Tay_Bac_area = {
+				add_permanent_claim = ROOT
+			}
+			west_guangdong_area = {
+				add_permanent_claim = ROOT
+			}
+			hainan_area = {
+				add_permanent_claim = ROOT
+			}
+			guangzhou_area = {
+				add_permanent_claim = ROOT
+			}
+			Punyu_area = {
+				add_permanent_claim = ROOT
+			}
+			huguang_area = {
+				add_permanent_claim = ROOT
+			}
+			jiangxi_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	cyi_land_of_baiyue = { # 百越之地
+		icon = mission_cyi_land_of_baiyue
+		required_missions = { cyi_zhuang_people_subjugation }
+		position = 7
+        provinces_to_highlight = {
+			OR = {
+				province_id = 613
+				province_id = 2159
+			}
+		}
+	
+		trigger = {
+			num_of_ports = 12
+			crown_land_share = 40
+			legitimacy_equivalent = 90
+			owns_core_province = 613
+		}
+		effect = {
+	
+			add_country_modifier = {
+				name = cyi_excel_at_diplomacy_modifier
+				duration = 9125
+			}
+	
+			#广东 福建
+			ankang_area = {
+				add_permanent_claim = ROOT
+			}
+			wuchang_area = {
+				add_permanent_claim = ROOT
+			}
+			xianning_area = {
+				add_permanent_claim = ROOT
+			}
+			ganzhou_area = {
+				add_permanent_claim = ROOT
+			}
+			MinBei_area = {
+				add_permanent_claim = ROOT
+			}
+			fujian_area = {
+				add_permanent_claim = ROOT
+			}
+			guangdong_area = {
+				add_permanent_claim = ROOT
+			}
+			# 越南 万象
+			vietnam_area = {
+				add_permanent_claim = ROOT
+			}
+			north_laos_area ={
+				add_permanent_claim = ROOT
+			}
+			vientiane_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+cyi_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+		}
+	}
+	has_country_shield = yes
+
+	cyi_develop_guiyang = { # 贵山之阳
+		icon = mission_cyi_develop_guiyang # 西南夷君长以什数，谓之部落方国。地域辽阔，北抵巴蜀，东临荆楚，南至南越。予以义正邦，华夏蛮貊，罔不率服。惟尔贵州，远在要服。……尔若挈土来廷，爵禄、土地、人民世守如故。
+		position = 2
+		required_missions = {}
+		provinces_to_highlight = {
+			province_id = 674
+		}
+		trigger = {
+			674 = {
+				owned_by = ROOT
+				development = 15
+				has_trade_building_trigger = yes
+				num_of_times_expanded_infrastructure = 1
+			}
+		}
+		effect = {
+			custom_tooltip = unlock_estate_burghers_geo_tame_the_mountains_tt
+			674 = { center_of_trade = 1 }
+			add_country_modifier = {
+				name = "h_warlord_startmod"
+				duration = 3650
+			}
+		}
+	}
+
+	cyi_take_back_kunming = { # 昆明归附
+		icon = mission_cyi_take_back_kunming
+		position = 3
+		required_missions = { h_cyi_starter }
+		provinces_to_highlight = {
+			province_id = 662
+		}
+		trigger = {
+			662 = { # 昆明
+				owned_by = ROOT
+				is_core = ROOT
+				province_has_center_of_trade_of_level = 2
+				has_trade_building_trigger = yes
+				NOT = { devastation = 1 }
+			}
+		}
+		effect = {
+			662 = {
+				add_building_construction = {
+					building = mills
+					speed = 1
+					cost = 0
+				}
+				add_or_upgrade_trade_building = yes
+			}
+			change_ruler_stat = {
+				type = dip
+				amount = 1
+			}
+		}	
+	}
+
+	cyi_mountain_defense = { # 山林防御
+		icon = mission_cyi_mountain_defense
+		position = 4
+		required_missions = { cyi_take_back_kunming }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 5803
+				province_id = 662
+			}
+		}
+		trigger = {
+			fort_15th = 3
+			is_at_war = no
+		}
+		effect = {
+			5803 = {
+				if = {
+					limit = { owned_by = ROOT }
+					add_or_upgrade_fort_building = yes
+				}
+			}
+			662 = {
+				if = {
+					limit = { owned_by = ROOT }
+					add_or_upgrade_fort_building = yes
+				}
+			}
+			add_country_modifier = {
+				name = china_cyi_fortified_castles
+				duration = 7300
+			}
+			chengdu_area = {
+				add_permanent_claim = ROOT
+			}
+			Chongqing_area = {
+				add_permanent_claim = ROOT
+			}
+			sichuan_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	china_cyi_into_red_basin = { #Into the Red Basin 控制成都
+		icon = mission_rb_inland_india
+		position = 5
+		required_missions = { cyi_mountain_defense cyi_unite_xinan_region }
+        provinces_to_highlight = {
+			province_id = 5504 #Chengdu
+        }
+		trigger = {
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			owns_core_province = 5504
+		}
+		effect = {
+			country_event = { id = foffy_china.29 } # 彝族人的道路
+			5504 = {
+				add_trade_modifier = {
+					who = root
+					duration = 7300
+					power = 20
+					key = china_cyi_chengdu_control
+				}
+			}
+		}
+	}
+
+	china_cyi_control_sichuan_basin = { #Control Sichuan Basin 巴蜀之地
+		icon = mission_china_cyi_control_sichuan_basin
+		required_missions = { china_cyi_into_red_basin }
+		position = 6
+        provinces_to_highlight = {
+			OR = {
+				area = chengdu_area
+				area = Chongqing_area
+			}
+			OR = {
+				local_autonomy = 50
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+				unrest = 1
+				devastation = 1
+			}	
+        }
+		trigger = {
+			OR = {
+				has_reform = cyi_sepo_theocracy
+				has_reform = cyi_zimo_kingdom
+				has_reform = cyi_holy_empire	
+
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+
+			chengdu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				NOT = { unrest = 1 }
+				NOT = { devastation = 1 }
+				NOT = { local_autonomy = 50 }
+			}
+			Chongqing_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+		}
+		effect = {
+ 			define_advisor = {
+				name = "Ningningningning" # meme
+				type = commandant
+				skill = 2
+				culture = sichuanese
+				cost_multiplier = 0.5
+			}
+			chengdu_area = { add_prosperity = 50 }
+
+			Chuanbei_area = {
+				add_permanent_claim = ROOT
+			}
+			xia_area = {
+				add_permanent_claim = ROOT
+			}		
+			hanzhong_area = {
+				add_permanent_claim = ROOT
+			}
+			Badong_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	cyi_suffer_shu_mountains = { # 蜀道难
+		icon = mission_cyi_suffer_shu_mountains
+		required_missions = { china_cyi_control_sichuan_basin }
+		position = 7
+        provinces_to_highlight = { 
+			province_id = 689
+		}
+		trigger = {
+			owns_core_province = 689
+			5504 = {
+				owned_by = ROOT
+ 				development = 30
+ 				num_of_buildings_in_province = 6
+ 				trade_share = {
+					country = ROOT
+					share = 45
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					5504 = {
+						has_building = counting_house
+					}
+				}
+				add_treasury = 100
+			}
+			else = {
+				5504 = {
+					add_building = counting_house
+				}
+			}
+			add_country_modifier = {
+				name = china_csh_hanzhong_state_captured
+				duration = 9125
+			}
+		}
+	}
+}
+
+cyi_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+		}
+	}
+	has_country_shield = yes
+
+	cyi_empire_edge = { # 帝国边境
+		icon = mission_cyi_empire_edge
+		required_missions = { cyi_mountain_defense }
+		position = 5
+		provinces_to_highlight = {
+			OR ={
+				region = xinan_region
+				region = burma_region
+				region = indo_china_region
+				region = south_china_region
+			}
+			trade_goods = tea
+		}
+		trigger = {
+			OR = {
+				has_reform = cyi_sepo_theocracy
+				has_reform = cyi_zimo_kingdom
+				has_reform = cyi_holy_empire	
+		
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+			calc_true_if = {
+				amount = 10
+				all_owned_province = {
+					trade_goods = tea
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = flavor_YEM.7
+			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = tea_and_horse_trade_triggered_flag }
+				}
+				country_event = { id = foffy_china.7 }
+			}
+			else = {
+				add_years_of_income = 2
+			}
+			shan_hill_area = {
+				add_permanent_claim = ROOT
+			}
+			karenni_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+# 选择中华道路的任务 开启决议转战国
+china_cyi_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYI
+		has_country_flag = cyi_integrate_into_china_flag
+		OR = {
+			has_reform = cyi_monge_system			
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+	has_country_shield = yes
+	
+	chian_cyi_last_picture = { # 台湾拼图
+		icon = mission_chian_cyi_last_picture
+		position = 9
+		required_missions = { china_cyi_minhow }
+		provinces_to_highlight = {
+			area = taiwan_area
+		}
+
+		trigger = {
+			taiwan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			Taiwan_Strait_island = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			Eastern_taiwan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			naval_forcelimit = 100
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = cyi_pacific_ambition
+				duration = 18250
+			}
+		}
+	}
+
+	china_cyi_holy_mandate = { # 天命神授
+		icon = mission_china_cyi_holy_mandate
+		position = 11
+		required_missions = { china_cyi_south_china_warlord }
+		provinces_to_highlight = {}
+
+		trigger = {
+			has_reform = celestial_empire
+			imperial_mandate = 100 
+			stability = 2
+			monthly_adm = 12 
+			num_of_owned_provinces_with = {
+				value = 200
+				is_prosperous = yes
+			}
+		}
+
+		effect = {
+			add_stability_or_adm_power = yes
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			change_government_reform_progress = 300
+			custom_tooltip = SEPERATOR_TOOLTIP
+			custom_tooltip = turkoman_if_used_ge_rest_else_30_years_extension_tt
+			hidden_effect = {
+				if = {
+					limit = { has_had_golden_age = yes } 
+					reset_golden_age = yes 
+				}
+				else_if = {
+					limit = { in_golden_age = yes } 
+					extend_golden_age = 360
+				}
+			}
+		}
+	}
+}
+
+china_cyi_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYI
+		has_country_flag = cyi_integrate_into_china_flag
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+	has_country_shield = yes
+
+	china_cyi_minhow = { # 闽侯
+		icon = mission_china_cyi_minhow
+		position = 8
+		required_missions = { cyi_land_of_baiyue }
+		provinces_to_highlight = {
+			province_id = 1829
+		}
+
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+			fujian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			MinBei_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			Taiwan_Strait_island = {
+				add_permanent_claim = ROOT
+			}
+			taiwan_area = {
+				add_permanent_claim = ROOT
+			}
+			Eastern_taiwan_area = {
+				add_permanent_claim = ROOT
+			}
+			1829 = {
+				add_great_project_tier = {
+					type = quanzhou_shipping_bureau 
+					tier = 1
+				}
+			}
+		}
+	}
+	
+	china_cyi_south_china_warlord = { # 华南雄主
+		icon = mission_china_cyi_south_china_warlord
+		position = 10
+		required_missions = { china_cyi_minhow china_cyi_march_to_zhejiang }
+		provinces_to_highlight = { 
+			province_id = 2164
+			province_id = 667
+			province_id = 5503
+		}
+
+		trigger = {
+			owns_core_province = 2164
+			owns_core_province = 667
+			owns_core_province = 5503
+			calc_true_if = {
+				amount = 60
+				all_owned_province = { region = south_china_region }
+			}
+		}
+		effect = {
+			china_superregion = {
+				if = {
+					limit = { 
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			custom_tooltip = SEPERATOR_TOOLTIP
+			custom_tooltip = owned_south_china_prov_boomed_tt
+			hidden_effect = {
+				south_china_region = {
+					limit = { owned_by = ROOT }
+					add_province_modifier = {
+						name = cyi_south_china_boom
+						duration = -1
+						desc = until_end_of_age_desc
+					}
+				}
+			}
+		}
+	}
+}
+
+china_cyi_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYI
+		has_country_flag = cyi_integrate_into_china_flag
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+
+	has_country_shield = yes
+
+	china_cyi_march_to_zhejiang= { # 进军江浙
+		icon = mission_china_cyi_march_to_zhejiang
+		position = 9
+		required_missions = { china_cyi_minhow china_cyi_wuhan_campaign }
+		provinces_to_highlight = {
+			province_id = 684
+		}
+
+		trigger = {
+			num_of_centers_of_trade = 15
+			684 = {
+				owned_by = ROOT
+				is_core = ROOT
+				has_trade_building_trigger = yes
+				has_production_building_trigger = yes
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			684 = {
+				add_or_upgrade_trade_building = yes
+				add_or_upgrade_production_building = yes
+			}
+			add_country_modifier = {
+				name = JAP_trade_hegemon
+				duration = -1
+			}
+		}
+	}
+
+	china_cyi_great_yi = { # 大彝帝国
+		icon = mission_china_cyi_great_yi
+		position = 11
+		required_missions = { china_cyi_south_china_warlord china_cyi_peacify_gansu }
+		
+		provinces_to_highlight = { 
+			OR ={
+				province_id = 1816
+				province_id = 700
+				province_id = 1821
+				province_id = 667
+			}
+			NOT ={ is_core = ROOT }
+			NOT ={ owned_by = ROOT }
+		}
+
+		trigger = {
+			has_reform = celestial_empire
+			owns_core_province = 1816
+			owns_core_province = 1821
+			owns_core_province = 700
+			owns_core_province = 667
+			calc_true_if = {
+				amount = 220
+				all_owned_province = {
+					superregion = china_superregion
+				}
+			}
+			NOT = {
+				any_country = {
+					calc_true_if = {
+						amount = 30
+						all_owned_province = {
+							superregion = china_superregion
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			country_event = {
+				id = foffy_china.11
+			}
+			add_country_modifier = {
+				name = ture_fate_of_heaven
+				duration = -1
+			}
+			custom_tooltip = SEPERATOR_TOOLTIP
+			custom_tooltip = if_we_win_dynasty_disater_tt
+			tooltip = {
+				china_superregion = {
+					add_territorial_core = ROOT
+				}
+			}
+			hidden_effect = {
+				if ={
+					limit = {
+						has_country_flag = won_the_clash_of_chinese_dynasty_disaster_flag
+					}
+					china_superregion = {
+						add_territorial_core = ROOT
+					}
+				}
+			}
+		}
+	}
+}
+
+china_cyi_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYI
+		has_country_flag = cyi_integrate_into_china_flag
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+	has_country_shield = yes
+
+	china_cyi_wuhan_campaign = {  # 武汉会战
+		icon = mission_china_cyi_wuhan_campaign
+		position = 8
+		required_missions = { cyi_suffer_shu_mountains cyi_land_of_baiyue } 
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2171
+				province_id = 682
+			}
+		}
+
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+			owns_core_province = 2171
+			owns_core_province = 682
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = cyi_zhang_xi_strategy
+				duration = -1
+			}
+		}
+	}
+
+	cyi_three_cities = { # 华南重镇
+		icon = mission_cyi_three_cities
+		required_missions = { china_cyi_wuhan_campaign }
+		position = 9
+        provinces_to_highlight = {
+			OR = {
+				province_id = 5503
+				province_id = 682
+				province_id = 683
+			} 
+		}
+
+		trigger = {
+			owns_core_province = 5503
+			owns_core_province = 682
+			owns_core_province = 683
+			monthly_income = 150
+			reform_level = 5
+		}
+
+		effect = {
+			add_stability_or_adm_power = yes
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 20
+			}	
+		}
+	}
+
+	china_cyi_culture_policy = { # 推行彝文化
+		icon = mission_china_cyi_culture_policy
+		position = 10
+		required_missions = { china_cyi_march_to_zhejiang } 
+		
+		provinces_to_highlight = { }
+
+		trigger = {		
+			primary_culture = yi
+			dominant_culture = yi
+			religious_unity = 0.95
+			num_of_converted_provinces = { amount = 150 }
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			add_country_modifier = {
+				name = cyi_saint_three_in_one
+				duration = -1
+			}
+		}
+	}
+}
+
+china_cyi_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYI
+		has_country_flag = cyi_integrate_into_china_flag
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+	has_country_shield = yes
+
+	
+	china_cyi_siege_of_xian = { # 围困西安
+		icon = mission_china_cyi_siege_of_xian
+		position = 8
+		required_missions = { cyi_suffer_shu_mountains } 
+		
+		provinces_to_highlight = {
+			province_id = 700
+		}
+
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+			shaanxi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			700 = { # 西安
+				development = 30
+				province_has_center_of_trade_of_level = 3
+				num_of_times_expanded_infrastructure = 1
+				is_prosperous = yes
+			}
+		}
+
+		effect = {
+			add_splendor = 150
+			custom_tooltip = SEPERATOR_TOOLTIP
+			every_province = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+					culture = xibei
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+	china_cyi_peacify_gansu = { # 平定陕甘
+		icon = mission_china_cyi_peacify_gansu
+		position = 10
+		required_missions = { china_cyi_siege_of_xian } 
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 698
+				province_id = 699
+				province_id = 2182
+				province_id = 708
+			}
+		}
+		trigger = {
+			owns_core_province = 698
+			owns_core_province = 699
+			owns_core_province = 2182
+			owns_core_province = 708
+		}
+		effect = {
+			699 = {
+				add_base_tax = 2
+				add_or_upgrade_tax_building = yes
+				add_province_modifier = {
+					name = minority_prospers
+					duration = -1
+				}
+			}
+			698 = {
+				add_base_manpower = 2
+				add_or_upgrade_fort_building = yes
+				add_great_project_tier = {
+					type = the_great_wall_of_china
+					tier = 1
+				}
+			}
+			custom_tooltip = SEPERATOR_TOOLTIP
+			yumen_area = {
+				add_permanent_claim = ROOT
+			}
+			turpan_kumul_area = {
+				add_permanent_claim = ROOT
+			}
+			shanshan_area = {
+				add_permanent_claim = ROOT
+			}
+			ejin_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+
+# 选择中南半岛道路的任务（无法变身天朝 保留神权制度)
+indochina_cyi_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+		}
+		has_country_flag = cyi_focus_on_indochina_flag
+	}
+	has_country_shield = yes
+
+	cyi_charged_down_the_mountains = { # 居高临下
+		icon = mission_chinese_general_riding
+		position = 9
+		required_missions = { } 
+		
+		provinces_to_highlight = {
+			region = bengal_region
+		}
+
+		trigger = {
+			calc_true_if = {
+				amount = 8
+				all_owned_province = {
+					region = bengal_region
+				}
+			}
+		}
+		effect = {
+			assam_area = {
+				add_permanent_claim = ROOT
+			}
+			naga_hills_area = {
+				add_permanent_claim = ROOT
+			}
+			tripura_area = {
+				add_permanent_claim = ROOT
+			}
+			east_bengal_area = {
+				add_permanent_claim = ROOT
+			}
+			gaur_area = {
+				add_permanent_claim = ROOT
+			}
+			west_bengal_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	cyi_kill_the_tiger = { # 虎落平阳
+		icon = mission_chinese_general_riding
+		position = 10
+		required_missions = { cyi_charged_down_the_mountains } 
+
+		provinces_to_highlight = {
+			culture = bengali
+		}
+
+		trigger = {
+			OR = {
+				1343 = {
+					trade_share = {
+						country = ROOT
+						share = 50
+					}
+				}
+				AND = {
+					owns_core_province = 4477
+					owns_core_province = 561
+					owns_core_province = 564
+					owns_core_province = 563	
+					owns_core_province = 568	
+					owns_core_province = 579	
+				}
+			}
+		}
+
+		effect = {
+			custom_tooltip = allow_in`_personal_deities_tt # 允许使用印度教的象头神，苏利耶 两个神像崇拜
+			add_country_modifier = {
+				name = cyi_hinduism_cooperation
+				duration = 9125
+			}
+		}
+	}
+
+	cyi_gange_delta = { # 恒河三角洲
+		icon = mission_clear_the_delta
+		required_missions = { cyi_kill_the_tiger }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2039
+				province_id = 561
+				province_id = 564
+				province_id = 568
+				province_id = 2046
+				province_id = 4474
+				province_id = 4475
+			}
+			NOT = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+		}
+		trigger = {
+			2039 = {
+				owned_by = ROOT
+				has_building = cathedral
+				OR = {
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+			561 = {
+				owned_by = ROOT
+				has_building = cathedral
+				OR = {
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+			564 = {
+				owned_by = ROOT
+				has_building = cathedral
+				OR = {
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+			568 = {
+				owned_by = ROOT
+				has_building = cathedral
+				OR = {
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+			2046 = {
+				owned_by = ROOT
+				has_building = cathedral
+				OR = {
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+			4475 = {
+				owned_by = ROOT
+				has_building = cathedral
+				OR = {
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+			4474 = {
+				owned_by = ROOT
+				has_building = cathedral
+				OR = {
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+		}
+		effect = {
+			set_country_flag = bng_delta_flag
+			country_event = { id = flavor_bng.4 }
+			bengal_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+indochina_cyi_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+		}
+		has_country_flag = cyi_focus_on_indochina_flag
+	}
+	has_country_shield = yes
+
+	cyi_millions_elephant = { # 万象王国			
+		icon = mission_chinese_general_riding
+		position = 8
+		required_missions = { cyi_land_of_baiyue } 
+		
+		provinces_to_highlight = {
+		}
+
+		trigger = {
+			north_laos_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			vientiane_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			north_laos_area = {
+				add_nationalism = -20
+			}
+			vientiane_area = {
+				add_nationalism = -20
+			}
+			add_years_of_income = 2
+			northern_thai_area = {
+				add_permanent_claim = ROOT
+			}
+			champasak_area = {
+				add_permanent_claim = ROOT
+			}
+			khorat_area ={
+				add_permanent_claim = ROOT
+			}
+			angkor_area = {
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = { 
+					KHM = {
+						exists = yes
+					}
+				}
+				add_casus_belli = {
+					type = cb_vassalize_mission
+					target = KHM
+					months = 180
+				}
+			}
+		}
+	}
+
+	cyi_sack_of_chiang_mai = { # 肢解清迈
+		icon = mission_chinese_general_riding
+		position = 9
+		required_missions = { cyi_millions_elephant } 
+		
+		provinces_to_highlight = { }
+		
+		trigger = {
+			LNA = { exists = no }
+			northern_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect= {
+			country_event = {
+				id = flavor_YEM.6
+			}
+			# 如果我们的首都拥有玉佛修正：解锁 佛陀 个人崇拜
+			custom_tooltip = if_we_owned_emerald_buddha_unlock_buddha_diety_tt
+			if = {
+				limit = { any_owned_province = { has_province_modifier = emerald_buddha } }
+				set_country_flag = cyi_buddha_boost_flag
+			}	
+			add_yearly_manpower = 2
+			central_thai_area = {
+				add_permanent_claim = ROOT
+			}
+			sukhothai_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	cyi_siam_superpower = { # 暹罗霸权
+		icon = mission_chinese_general_riding
+		position = 11
+		required_missions = { cyi_dominate_indochina } 
+		
+		provinces_to_highlight = {
+			province_id = 600
+		}
+
+		trigger = {
+			central_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = MUG_itinerant_court
+				duration = -1
+			}
+			north_tenasserim_area = {
+				add_permanent_claim = ROOT
+			}
+			tenasserim_area = {
+				add_permanent_claim = ROOT
+			}
+			north_malaya_area = {
+				add_permanent_claim = ROOT
+			}
+			malaya_area = {
+				add_permanent_claim = ROOT
+			}
+			johor_area = {
+				add_permanent_claim = ROOT
+			}
+			malacca_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+indochina_cyi_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+		}
+		has_country_flag = cyi_focus_on_indochina_flag
+	}
+	has_country_shield = yes
+	
+	cyi_angkor_wat = { # 吴哥窟
+		icon = mission_chinese_general_riding
+		position = 9
+		required_missions = { cyi_millions_elephant } 
+		
+		provinces_to_highlight = {
+			province_id = 609
+		}
+
+		trigger = {
+			609 = {				
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			country_event = {
+				id = flavor_YEM.5
+			}
+			mekong_area = {
+				add_permanent_claim = ROOT
+			}
+			cambodia_area = {
+				add_permanent_claim = ROOT
+			}
+			champa_area = {
+				add_permanent_claim = ROOT
+			}
+			tay_nguyen_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+ 
+	cyi_dominate_indochina = { # 支配中南半岛
+		icon = mission_chinese_general_riding
+		position = 10
+		required_missions = { cyi_angkor_wat cyi_sack_of_chiang_mai } 
+		
+		provinces_to_highlight = {
+		}
+
+		trigger = {
+			is_great_power = yes
+			total_development = 1250
+		}
+		
+		effect = {
+			custom_tooltip = cyi_northern_thai_lao_culture_gain_culture_buff_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+						culture = northern_thai
+						culture = lao
+						culture = central_thai
+					}
+				}	
+				add_province_modifier = {
+					name = cyi_thai_culture_conversion
+					duration = 9125
+				}
+				}
+			}
+		}
+	}
+	
+	cyi_rice_fields = { # 南亚稻田
+		icon = mission_chinese_general_riding
+		position = 11
+		required_missions = { cyi_dominate_indochina } 
+		
+		provinces_to_highlight = { }
+		
+		trigger = {
+			OR ={
+				num_of_owned_provinces_with = {
+					value = 25
+					trade_goods = grain
+				}
+				num_of_owned_provinces_with = {
+					value = 10
+					has_terrain = farmlands
+				}
+			}
+		}
+		
+		effect= {
+			custom_tooltip = unlock_estate_burghers_khmer_irrigation_tt
+			hidden_effect = {	
+				unlock_estate_privilege = {
+					estate_privilege = estate_burghers_khmer_irrigation
+				}
+			}
+				add_country_modifier = {
+				name = cyi_million_rice_fields
+				duration = -1
+			}
+		}
+	}
+}
+
+indochina_cyi_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+		}
+		has_country_flag = cyi_focus_on_indochina_flag
+	}
+
+	has_country_shield = yes
+
+	cyi_cham_submission = { # 占族臣服
+		icon = mission_chinese_general_riding
+		position = 10
+		required_missions = { cyi_angkor_wat } 
+		
+		provinces_to_highlight = {
+			province_id = 4831
+			province_id = 609
+			province_id = 2373
+		}
+
+		trigger = {
+			accepted_culture = cham
+			num_of_owned_provinces_with = {
+				value = 7
+				culture = cham
+				NOT = { unrest = 1 }
+			}
+			4831 = {
+				owned_by = ROOT
+				is_core = ROOT
+				is_in_capital_area = yes
+			}
+			609 = {
+				owned_by = ROOT
+				is_core = ROOT
+				is_in_capital_area = yes
+			}
+			2373 = {
+				owned_by = ROOT
+				is_core = ROOT
+				is_in_capital_area = yes
+			}
+		}
+		
+		effect = {
+			# 吴哥窟+1 曼谷大皇宫+1 顺化皇城+1
+			4831 = {
+				add_great_project_tier = {
+					type = the_grand_palace
+					tier = 1
+				}
+			}
+			609 = {
+				add_great_project_tier = {
+					type = angkor_wat
+					tier = 1
+				}
+			}
+			2373 = {
+				add_great_project_tier = {
+					type = imperial_city_hue
+					tier = 1
+				}
+			}
+			add_country_modifier = {
+				name = cyi_cham_architect
+				duration = -1
+			}
+		}
+	}
+
+	cyi_malacca_ambition = { # 马六甲野望
+		icon = mission_chinese_general_riding
+		position = 12
+		required_missions = { cyi_siam_superpower cyi_mon_thai_unification } 
+		
+		provinces_to_highlight = {
+			province_id = 596
+		}
+
+		trigger = {
+			num_of_heavy_ship = 40
+			num_of_light_ship = 40
+			num_of_owned_provinces_with = {
+				value = 15
+				region = malaya_region
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = cyi_malayan_ambition
+				duration = -1
+			}
+		}
+	}
+}
+
+indochina_cyi_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CYI
+			was_tag = CYI
+		}
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+		}
+		has_country_flag = cyi_focus_on_indochina_flag
+	}
+	has_country_shield = yes
+
+
+	cyi_burma_rainforest = { # 缅甸雨林
+		icon = mission_chinese_general_riding
+		required_missions = { cyi_empire_edge }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = kachin_area
+				area = shan_hill_area
+				area = karenni_area
+			}
+		}
+			
+		trigger = {
+			shan_hill_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			karenni_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "china_cyi_shan_harmonized"
+				duration = -1
+			}
+			kachin_area = {
+				add_permanent_claim = ROOT
+			}
+			upper_burma_area = {
+				add_permanent_claim = ROOT
+			}
+			chindwin_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	cyi_shan_heritage = { # 掸邦遗产
+		icon = mission_chinese_general_riding
+		required_missions = { cyi_burma_rainforest cyi_land_of_baiyue  } # 
+		position = 8
+		provinces_to_highlight = {
+			province_id = 584
+		}
+		trigger = {
+			is_at_war = no
+			owns_core_province = 580 #Kale
+			owns_core_province = 582 #Mong Yang
+			owns_core_province = 583 #Hsenwi
+			owns_core_province = 584 #Ava
+			owns_core_province = 585 #东吁
+			owns_core_province = 2396 #Mong Kawng
+			owns_core_province = 2399 #Pagan
+			owns_core_province = 2400 #Hsipaw
+		}
+
+		effect = {
+			# 成立掸邦 换理念 换政体 神权帝国
+			set_country_flag = cyi_enhanced_ideas_flag
+			# if = {
+			# 	limit = {
+			# 		NOT = { government_rank = 3 }
+			# 	}
+			# 	set_government_rank = 3
+			# }
+			add_prestige = 20
+			change_tag = SST
+			on_change_tag_effect = yes
+			if = {
+				limit = {
+					NOT = {
+						has_reform = cyi_zimo_kingdom
+					}
+				}
+				set_government_rank = 3
+				add_government_reform = cyi_zimo_kingdom
+			}
+			swap_free_idea_group = yes
+			burma_region = {
+				add_permanent_claim = ROOT
+			}
+			hidden_effect = {
+				complete_mission = cyi_shan_heritage
+			}
+		}
+	}
+
+	cyi_myitkyina_crystal = { # 密支那矿区
+		icon = mission_chinese_general_riding
+		required_missions = { cyi_shan_heritage }
+		position = 9
+		provinces_to_highlight = {
+			area = kachin_area
+		}
+
+		trigger = {
+			2396 = {
+				is_core	= ROOT
+				owned_by = ROOT
+				base_production = 8
+				has_production_building_trigger = yes
+				NOT = { devastation = 1 }
+			}
+			582 = {
+				is_core	= ROOT
+				owned_by = ROOT
+				base_production = 8
+				has_production_building_trigger = yes
+				NOT = { devastation = 1 }
+			}
+		}
+
+		effect = {
+			2396 = {
+				change_trade_goods = gems
+				add_province_modifier = {
+					name = myitkyina_gem_mines
+					duration = -1
+				}	
+			}
+			582 = {
+				change_trade_goods = gems
+				add_province_modifier = {
+					name = myitkyina_gem_mines
+					duration = -1
+				}
+			}
+		}
+	}
+
+	cyi_irrawaddy_river = { # 大金沙江
+		icon = mission_chinese_general_riding
+		required_missions = { cyi_myitkyina_crystal }
+		position = 10
+		provinces_to_highlight = {
+			area = lower_burma_area
+		}
+
+		trigger = {
+			lower_burma_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			584 = { add_base_production = 3 }
+			585 = { center_of_trade = 1 }
+			586 = { add_building = drydock }
+			add_country_modifier = {
+				name = "tau_expansionism"
+				duration = -1
+			}
+		}
+	}
+
+	cyi_mon_thai_unification = { # 缅泰一统
+		icon = mission_chinese_general_riding
+		position = 11
+		required_missions = { cyi_irrawaddy_river } 
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 613
+				province_id = 600
+				province_id = 584
+				province_id = 586
+				province_id = 589
+				province_id = 662
+			}
+		}
+
+		trigger = {
+			613 = {
+				development = 30
+				num_of_buildings_in_province = 5
+				is_prosperous = yes
+			}
+			600 = {
+				development = 30
+				num_of_buildings_in_province = 5
+				is_prosperous = yes
+			}
+			584 = {
+				development = 30
+				num_of_buildings_in_province = 5
+				is_prosperous = yes
+			}
+			586 = {
+				development = 30
+				num_of_buildings_in_province = 5
+				is_prosperous = yes
+			}
+			589 = {
+				development = 30
+				num_of_buildings_in_province = 5
+				is_prosperous = yes
+			}
+			662 = {
+				development = 30
+				num_of_buildings_in_province = 5
+				is_prosperous = yes
+			}
+			burma_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			indo_china_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			define_general = {
+				name = "kobt"
+				shock = 5
+				fire = 6
+				manuever = 3
+				siege = 2
+			}
+			add_country_modifier = {
+				name = cyi_indochina_domination
+				duration = -1
+			}
+		}
+	}
+}

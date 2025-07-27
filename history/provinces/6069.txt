@@ -1,0 +1,11 @@
+add_core = RWA
+owner = RWA
+base_tax = 3
+base_manpower = 3
+base_production = 3
+religion = shamanism
+controller = RWA
+is_city = yes
+culture = ganda
+trade_goods = tropical_wood
+discovered_by = central_african

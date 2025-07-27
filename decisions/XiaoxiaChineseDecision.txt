@@ -1,0 +1,578 @@
+# 同化决议 
+
+country_decisions = { # 同化阿尔泰
+	sinicize_mongols = {
+		
+		major = yes
+		potential = {
+			culture_group = east_asian
+			capital_scope = { superregion = china_superregion }
+			any_owned_province = {
+				OR = {
+					culture = oirats
+					culture = chahar
+					culture = khalkha
+					culture = mongol
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				culture = oirats
+				culture = chahar
+				culture = khalkha
+				culture = mongol
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		allow = {
+			culture_group = east_asian
+			 
+			custom_trigger_tooltip = {
+				tooltip = subject_all_mongols
+				NOT = {
+					any_province = {
+						culture = mongol
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+				NOT = {
+					any_province = {
+						culture = oirats
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+				NOT = {
+					any_province = {
+						culture = khalkha
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+				NOT = {
+					any_province = {
+						culture = chahar
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = all_eligible_provinces_will_changed_into_culture_new_tt
+			hidden_effect = {
+				every_province = { # 所有省份转化为阿尔泰文化
+					limit = {
+						OR = {
+							culture = oirats
+							culture = chahar
+							culture = khalkha
+							culture = mongol
+						}
+					}
+					change_culture = altaic_new
+				}
+				every_country = { # 所有主流文化还是旧文化的 国家 君主 继承人 皇后 均转变为新文化
+					limit = {
+						OR = {
+							primary_culture = oirats
+							primary_culture = chahar
+							primary_culture = khalkha
+							primary_culture = mongol
+						}
+					}
+					change_primary_culture = altaic_new
+					set_ruler_culture = altaic_new
+					if = {
+						limit = {
+							has_heir = yes
+						}
+						set_heir_culture = altaic_new
+					}
+					if = {
+						limit = {
+							has_consort = yes
+							OR = {
+								consort_culture = oirats
+								consort_culture = mongol
+								consort_culture = chahar
+								consort_culture = khalkha
+							}
+						}
+						set_consort_culture = altaic_new
+					}
+				}
+				remove_accepted_culture = oirats
+				remove_accepted_culture = chahar
+				remove_accepted_culture = khalkha
+				remove_accepted_culture = mongol
+			}
+		}
+	}
+}
+
+country_decisions ={ # 同化壮族
+	sinicize_zhuang = {
+		major = yes
+		potential = {
+			culture_group = east_asian
+			capital_scope = { superregion = china_superregion }
+			any_owned_province = {
+				culture = zhuang
+			}
+		}
+
+		provinces_to_highlight = {
+			culture = zhuang
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		allow = {
+			culture_group = east_asian
+			 
+			custom_trigger_tooltip = {
+				tooltip = subject_all_zhuang_tt # 所有壮族文化省份需要被我们拥有或附庸
+				NOT = {
+					any_province = {
+						culture = zhuang
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+		}
+
+		effect = {
+			custom_tooltip = all_eligible_provinces_will_changed_into_culture_new_tt # 本地化：所有符合条件的省份将会被汉化，进入中华文化组
+			hidden_effect = {
+				ty_sinicized_culture_group ={
+					culture = zhuang
+				}
+			}
+		}
+	}
+}
+
+country_decisions ={ # 同化满洲
+	sinicize_manchu = {
+		
+		major = yes
+		potential = {
+			NOT ={ # 满洲成立会把所有女真文化都转为满洲
+				any_country = { has_country_flag = formed_manchu_flag }
+			} 
+			culture_group = east_asian
+			capital_scope = { superregion = china_superregion }
+			any_owned_province = {
+				culture = manchu
+			}
+		}
+
+		provinces_to_highlight = {
+			culture = manchu
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+			culture_group = east_asian
+			 
+			custom_trigger_tooltip = {
+				tooltip = subject_all_manchu_tt # 所有女真文化省份需要被我们拥有或附庸
+				NOT = {
+					any_province = {
+						culture = manchu
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+		}
+
+		effect = {
+			custom_tooltip = all_eligible_provinces_will_changed_into_culture_new_tt
+			hidden_effect = {
+				ty_sinicized_culture_group ={
+					culture = manchu
+				}
+			}
+		}
+	}
+}
+
+country_decisions ={ # 同化韩国
+	sinicize_korean = {
+		
+		major = yes
+		potential = {
+			culture_group = east_asian
+			capital_scope = { superregion = china_superregion }
+			any_owned_province = {
+				culture = korean
+			}
+		}
+		
+		provinces_to_highlight = {
+			culture = korean
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+			culture_group = east_asian
+			 
+			custom_trigger_tooltip = {
+				tooltip = subject_all_korean_tt # 所有韩国文化省份需要被我们拥有或附庸
+				NOT = {
+					any_province = {
+						culture = korean
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+		}
+
+		effect = {
+			custom_tooltip = all_eligible_provinces_will_changed_into_culture_new_tt
+			hidden_effect = {
+				ty_sinicized_culture_group ={
+					culture = korean
+				}
+			}
+		}
+	}
+}
+
+country_decisions ={ # 同化越南
+	sinicize_vietnam = {
+		
+		major = yes
+		potential = {
+			culture_group = east_asian
+			capital_scope = { superregion = china_superregion }
+			any_owned_province = {
+				culture = vietnamese
+
+			}
+		}
+		provinces_to_highlight = {
+			culture = vietnamese
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+			culture_group = east_asian
+			 
+			custom_trigger_tooltip = {
+				tooltip = subject_all_vietnamese_tt # 所有越南文化省份需要被我们拥有或附庸
+				NOT = {
+					any_province = {
+						culture = vietnamese
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+		}
+
+		effect = {
+			custom_tooltip = all_eligible_provinces_will_changed_into_culture_new_tt
+			hidden_effect = {
+				ty_sinicized_culture_group ={
+					culture = vietnamese
+				}
+			}
+		}
+	}
+}
+
+country_decisions ={ # 同化西南
+	sinicize_xinan = {
+		
+		major = yes
+		potential = {
+			culture_group = east_asian
+			capital_scope = { superregion = china_superregion }
+			any_owned_province = {
+				OR = {
+					culture = miao
+					culture = bai
+					culture = yi
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				culture = miao
+				culture = bai
+				culture = yi
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		allow = {
+			culture_group = east_asian
+			custom_trigger_tooltip = {
+				tooltip = subject_all_xinan_tt
+				NOT = {
+					any_province = {
+						culture = yi
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+				NOT = {
+					any_province = {
+						culture = bai
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+				NOT = {
+					any_province = {
+						culture = miao
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			custom_tooltip = all_eligible_provinces_will_changed_into_culture_new_tt
+			hidden_effect = {
+				every_province = { # 所有省份转化为西南文化
+					limit = {
+						OR = {
+							culture = miao
+							culture = bai
+							culture = yi
+						}
+					}
+					change_culture = xinan_new
+				}
+				every_country = { # 所有主流文化还是旧文化的 国家 君主 继承人 皇后 均转变为新文化
+					limit = {
+						OR = {
+							culture = miao
+							culture = bai
+							culture = yi
+						}
+					}
+					change_primary_culture = xinan_new
+					set_ruler_culture = xinan_new
+					if = {
+						limit = {
+							has_heir = yes
+						}
+						set_heir_culture = xinan_new
+					}
+					if = {
+						limit = {
+							has_consort = yes
+							OR = {
+								consort_culture = miao
+								consort_culture = bai
+								consort_culture = yi
+							}
+						}
+						set_consort_culture = xinan_new
+					}
+					if = {
+						limit = { accepted_culture = yi }
+						remove_accepted_culture = yi
+					}
+					if = {
+						limit = { accepted_culture = bai }
+						remove_accepted_culture = bai
+					}
+					if = {
+						limit = { accepted_culture = miao }
+						remove_accepted_culture = miao
+					}
+				}
+			}		
+		}
+	}
+}
+
+country_decisions ={ # 同化藏族
+	sinicize_tibet = {
+		
+		major = yes
+		potential = {
+			culture_group = east_asian
+			capital_scope = { superregion = china_superregion }
+			any_owned_province = {
+				culture = tibetan
+			}
+		}
+
+		provinces_to_highlight = {
+			culture = tibetan
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		allow = {
+			culture_group = east_asian
+			 
+			custom_trigger_tooltip = {
+				tooltip = subject_all_tibetan_tt
+				NOT = {
+					any_province = {
+						culture = tibetan
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+		}
+
+		effect = {
+			custom_tooltip = all_eligible_provinces_will_changed_into_culture_new_tt
+			hidden_effect = {
+				ty_sinicized_culture_group = {
+					culture = tibetan
+				}
+			}			
+		}
+	}
+}
+
+country_decisions ={ # 同化台湾
+	sinicize_taiwan = {
+		
+		major = yes
+		potential = {
+			culture_group = east_asian
+			capital_scope = { superregion = china_superregion }
+			any_owned_province = {
+				culture = taiwan
+			}
+		}
+
+		provinces_to_highlight = {
+			culture = taiwan
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+			culture_group = east_asian
+			 
+			custom_trigger_tooltip = { # 所有台湾省份均要被其所有
+				tooltip = subject_all_taiwan_tt
+				NOT = {
+					any_province = {
+						culture = taiwan
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = all_eligible_provinces_will_changed_into_culture_new_tt
+			hidden_effect = {
+				ty_sinicized_culture_group = {
+					culture = taiwan
+				}
+			}		
+		}
+	}
+}
+
+country_decisions ={ # 同化维吾尔
+	sinicize_uyghur = {
+		
+		major = yes
+		potential = {
+			culture_group = east_asian
+			capital_scope = { superregion = china_superregion }
+			any_owned_province = {
+				culture = uyghur
+			}
+		}
+		
+		provinces_to_highlight = {
+			culture = uyghur
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+			culture_group = east_asian
+			 
+			custom_trigger_tooltip = {
+				tooltip = subject_all_uyghur_tt # 所有维吾尔文化省份需要被我们拥有或附庸
+				NOT = {
+					any_province = {
+						culture = uyghur
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			custom_tooltip = all_eligible_provinces_will_changed_into_culture_new_tt
+			hidden_effect = {
+				ty_sinicized_culture_group = {
+					culture = uyghur
+				}
+			}
+		}
+	}
+}
+
+country_decisions = { # 天子变更国名
+	
+	xiaoxia_meme_country_name = {
+		major = yes
+		potential = {
+			has_reform = celestial_empire
+			has_reform = h_reform_warlord_4
+			OR = {
+				tag = QIC
+				tag = CXI
+				tag = CYI
+				tag = CSH
+				tag = WUU
+				tag = GNM
+				tag = YUE
+			}
+			NOT = {
+				has_country_flag = xiaoxia_name_meme_flag
+			}
+		}
+
+		allow = {
+			prestige = 1
+			capital_scope = {
+				superregion = china_superregion
+			}
+		}
+		effect = {
+			country_event = {
+				id = xiaoxia.5 
+			}
+		}
+	}
+}

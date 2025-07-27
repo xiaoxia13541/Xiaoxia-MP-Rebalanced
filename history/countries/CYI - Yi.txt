@@ -1,0 +1,37 @@
+government = theocracy
+add_government_reform = cyi_monge_system
+government_rank = 1
+primary_culture = yi
+religion = xiaoxia_bimox
+technology_group = chinese
+capital = 674 # GUIYANG
+historical_rival = CXI
+historical_rival = CSH
+historical_rival = WUU
+historical_rival = YUE
+historical_rival = QIC
+historical_rival = RYU
+historical_rival = GNM
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.502
+}
+
+1444.1.31 = {
+	monarch = {
+		name = "Meng"
+		dynasty = "Yi"
+		birth_date = 1424.1.1 #Age - 20
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = just_personality
+}

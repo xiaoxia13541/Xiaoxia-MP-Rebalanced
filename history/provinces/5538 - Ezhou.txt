@@ -1,0 +1,22 @@
+# 2545 - Ezhou
+owner = WAN
+controller = WAN
+add_core = WAN
+culture = hubei
+religion = confucianism
+capital = "Ezhou"
+trade_goods = salt
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 10800
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1637.1.1 = { controller = REB revolt = { type = anti_tax_rebels size = 2 } }
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+fort_15th = yes
+is_city = yes

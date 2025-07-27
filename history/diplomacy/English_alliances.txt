@@ -1,0 +1,15 @@
+# England + Normandy and Gascony guarantee subjects:
+dependency = {
+	subject_type = "incorporated_vassal"
+	first = ENG
+	second = NRM
+	start_date = 1417.8.1
+	end_date = 1450.5.1
+}
+dependency = {
+	subject_type = "incorporated_vassal"
+	first = ENG
+	second = GUY
+	start_date = 1337.5.1
+	end_date = 1453.10.19
+}

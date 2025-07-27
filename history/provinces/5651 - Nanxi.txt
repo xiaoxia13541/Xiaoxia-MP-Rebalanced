@@ -1,0 +1,15 @@
+# 5555 - Nanxi
+owner = CYI
+controller = CYI
+culture = yi
+religion = animism
+capital = "Nanxi"
+trade_goods = copper
+base_tax = 3
+base_production = 2
+base_manpower = 4
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+add_core = CYI

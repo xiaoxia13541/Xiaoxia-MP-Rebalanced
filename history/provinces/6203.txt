@@ -1,0 +1,11 @@
+add_core = NGL
+owner = NGL
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = NGL
+is_city = yes
+discovered_by = sub_saharan
+culture = bilala
+trade_goods = tropical_wood

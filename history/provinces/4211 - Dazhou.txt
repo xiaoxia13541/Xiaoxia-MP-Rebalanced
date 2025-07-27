@@ -1,0 +1,13 @@
+base_tax = 1
+base_manpower = 2
+base_production = 2
+culture = sichuanese
+trade_goods = cloth
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = BAO
+controller = BAO
+add_core = BAO
+discovered_by = indian

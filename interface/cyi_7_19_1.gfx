@@ -1,0 +1,116 @@
+spriteTypes = {
+	spriteType = {
+		name = "mission_cyi_develop_guiyang"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_develop_guiyang.dds"
+    }
+	
+	spriteType = {
+		name = "mission_china_art_of_war"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_art_of_war.dds"
+    }
+
+    spriteType = {
+		name = "mission_cyi_take_back_kunming"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_take_back_kunming.dds"
+    }
+	
+	spriteType = {
+		name = "mission_cyi_mountain_defense"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_mountain_defense.dds"
+    }
+
+	spriteType = {
+		name = "mission_cyi_tibetan_ambition"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_tibetan_ambition.dds"
+    }
+
+	spriteType = {
+		name = "mission_cyi_empire_edge"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_empire_edge.dds"
+    }
+
+	spriteType = {
+		name = "mission_cyi_annex_lhasa"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_annex_lhasa.dds"
+    }
+
+	spriteType = {
+		name = "mission_cyi_zhuang_people_subjugation"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_zhuang_people_subjugation.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_control_sichuan_basin"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_control_sichuan_basin.dds"
+    }
+
+	spriteType = {
+		name = "mission_cyi_convert_lhasa_buddhism"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_convert_lhasa_buddhism.dds"
+    }
+
+	spriteType = {
+		name = "mission_cyi_land_of_baiyue"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_land_of_baiyue.dds"
+    }
+
+	spriteType = {
+		name = "mission_cyi_suffer_shu_mountains"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_suffer_shu_mountains.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_minhow"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_minhow.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_wuhan_campaign"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_wuhan_campaign.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_siege_of_xian"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_siege_of_xian.dds"
+    }
+
+	spriteType = {
+		name = "mission_chian_cyi_last_picture"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chian_cyi_last_picture.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_march_to_zhejiang"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_march_to_zhejiang.dds"
+    }
+
+	spriteType = {
+		name = "mission_cyi_three_cities"
+		texturefile = "gfx/interface/missions/Chinese_warlord/cyi_three_cities.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_south_china_warlord"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_south_china_warlord.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_culture_policy"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_culture_policy.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_peacify_gansu"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_peacify_gansu.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_holy_mandate"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_holy_mandate.dds"
+    }
+
+	spriteType = {
+		name = "mission_china_cyi_great_yi"
+		texturefile = "gfx/interface/missions/Chinese_warlord/china_cyi_great_yi.dds"
+    }
+}

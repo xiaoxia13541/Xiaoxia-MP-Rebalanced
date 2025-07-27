@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = al_iraqiya_arabic
+religion = shiite
+technology_group = muslim
+capital = 410	# Bagdad
+religious_school = jafari_school
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+1444.1.1 = {
+	monarch = {
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

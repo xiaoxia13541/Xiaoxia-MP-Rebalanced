@@ -1,0 +1,20 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_EUROPEAN_MAJOR"
+	desc = "TY_BOOKMARK_EUROPEAN_MAJOR_DESC"
+	date = 1444.11.11
+	
+	center = 112
+	default = yes
+	
+	country = ENG
+	country = FRA
+	country = BUR
+	country = POR
+	country = CAS
+	country = HAB
+	country = HUN
+	country = BOH
+	country = DAN
+	country = SWE
+}

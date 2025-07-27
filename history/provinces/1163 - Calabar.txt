@@ -1,0 +1,14 @@
+#1163 - Calabar
+base_tax = 2
+base_manpower = 2
+base_production = 2
+trade_goods = fish
+religion = shamanism
+culture = nupe
+capital = "Calabar"
+discovered_by = sub_saharan
+add_core = BEN
+owner = BEN
+controller = BEN
+is_city = yes
+

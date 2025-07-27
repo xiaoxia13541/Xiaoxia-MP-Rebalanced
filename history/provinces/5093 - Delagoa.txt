@@ -1,0 +1,18 @@
+owner = NGU
+controller = NGU
+add_core = NGU
+culture = nguni
+religion = shamanism #Fetishism
+capital = "Delagoa"
+is_city = yes
+trade_goods = slaves
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2
+discovered_by = central_african
+extra_cost = 8
+center_of_trade = 1
+
+1497.12.25 = { discovered_by = POR } #Vasco Da Gama
+1816.1.1 = { capital = "Bulawayo" } # Zulu Kingdom

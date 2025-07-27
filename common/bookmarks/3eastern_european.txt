@@ -1,0 +1,16 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_EASTERN_EUROPEAN"
+	desc = "TY_BOOKMARK_EASTERN_EUROPEAN_DESC"
+	date = 1444.11.11
+	
+	center = 4244
+
+	country = POL
+	country = LIT
+	country = MOS
+	country = NOV
+	country = TEU
+	country = WAL
+
+}

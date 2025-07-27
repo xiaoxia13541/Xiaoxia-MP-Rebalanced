@@ -1,0 +1,53 @@
+government = tribal
+add_government_reform = azama_chiefdom_confederacy
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+religion = shamanism #Fetishism
+primary_culture = nupe
+add_accepted_culture = fon
+capital = 1147	# Oredo
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
+1440.1.1 = {
+	monarch = {
+		birth_date = 1402.1.1
+		name = "Ewuare"
+		dynasty = "Abomey"
+		adm = 4
+		dip = 3
+		mil = 5
+		leader = {
+			name = "Ewuare Abomey"
+			type = general
+			fire = 1
+			shock = 4
+			manuever = 1
+			siege = 3
+			personality = siege_specialist_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = inspiring_leader_personality
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Ezoti"
+		monarch_name ="Ezoiti"
+		dynasty = "Abomey"
+		birth_date = 1420.1.1
+		death_Date = 1476.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = entrepreneur_personality
+}

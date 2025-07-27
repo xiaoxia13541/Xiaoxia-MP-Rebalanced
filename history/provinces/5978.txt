@@ -1,0 +1,12 @@
+add_core = MZB
+owner = MZB
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = ibadi
+controller = MZB
+is_city = yes
+culture = algerian
+trade_goods = wool
+discovered_by = ottoman
+discovered_by = muslim

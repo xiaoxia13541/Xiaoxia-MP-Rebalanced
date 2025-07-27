@@ -1,0 +1,7 @@
+# Sealand
+government = monarchy
+add_government_reform = iqta
+technology_group = muslim
+religion = sunni
+primary_culture = hejazi_culture
+capital = 384	# Medina

@@ -1,0 +1,8 @@
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+discovered_by = central_african
+discovered_by = sub_saharan
+culture = sawabantu
+trade_goods = unknown

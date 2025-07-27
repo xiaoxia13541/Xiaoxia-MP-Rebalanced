@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = tsardom
+primary_culture = serbian
+religion = orthodox
+technology_group = eastern
+capital = 4176	# Krusevac

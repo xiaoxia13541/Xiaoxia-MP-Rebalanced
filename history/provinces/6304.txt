@@ -1,0 +1,11 @@
+add_core = TBK
+owner = TBK
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = TBK
+is_city = yes
+culture = bena
+trade_goods = slaves
+discovered_by = central_african

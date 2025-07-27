@@ -1,0 +1,1054 @@
+# remake by 阿凝
+# edited by 小夏
+
+qic_warlord_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = QIC
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+	has_country_shield = yes
+
+	qic_skilled_soliders = { 
+		icon = mission_yan_shandong_conquest
+		required_missions = { } 
+		position = 1
+		provinces_to_highlight = { } 
+
+		trigger = {
+			OR = {
+				army_professionalism = 0.1
+				army_tradition = 40
+			}
+			army_size = 100
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = qic_skilled_soliders_modifier
+				duration = 9125
+			}
+		}
+	}
+
+	qic_great_qic_army = {
+		icon = mission_csh_tongguan_duel
+		required_missions = { qic_skilled_soliders } 
+		position = 2
+		provinces_to_highlight = { } 
+
+		trigger = {
+			has_reform = wei_suo_system_reform
+			OR = {
+				army_professionalism = 0.25
+				army_tradition = 60
+			}
+			calc_true_if = {
+				amount = 12
+				all_owned_province = {
+					has_manpower_building_trigger = yes
+				}
+			}
+			calc_true_if = {
+				amount = 12
+				all_owned_province = {
+					has_forcelimit_building_trigger = yes
+				}
+			}
+
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = great_qic_army
+				duration = -1
+			}
+			# set_country_flag = allowed_three_thousand_battalions_flag
+			# unlock_merc_company = {
+			# 	merc_company = merc_the_three_thousand_battalions
+			# }
+		}
+	}
+
+	qic_steady_like_taishan = {
+		icon = mission_chi_strong_power_base
+		required_missions = { qic_great_qic_army } 
+		position = 3
+		provinces_to_highlight = { } 
+
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3	
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+			OR = {
+				army_professionalism = 0.5
+				army_tradition = 80
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = qic_taishan_legion
+				duration = -1
+			}
+		}
+	}	
+
+	qic_jianghuai_compaign ={
+		icon = mission_qic_a_strong_fleet
+		required_missions = { qic_a_foothold_in_shandong } 
+		position = 4
+		provinces_to_highlight = {
+			province_id = 685 
+		} 
+
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = celestial_empire
+			}
+			685 = {
+				owned_by = ROOT
+				is_core = ROOT
+				is_in_capital_area = yes
+			}
+			xuzhou_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = qic_jianghuai_compaign
+				duration = 7300
+			}
+			anhui_area = {
+				add_permanent_claim = ROOT
+			}
+			hangzhou_area = {
+				add_permanent_claim = ROOT
+			}
+			YingTian_area = {
+				add_permanent_claim = ROOT
+			}
+			jiangsu_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qic_heaven_suzhou_n_hangzhou = {
+		icon = mission_WUU_take_back_hangzhou
+		required_missions = { qic_jianghuai_compaign } 
+		position = 6
+		provinces_to_highlight = { 
+			OR = {
+				province_id = 684
+				province_id = 1821
+			}
+			NOT ={
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		trigger = {
+			owns_core_province = 684
+			owns_core_province = 1821
+			calc_true_if = {
+				amount = 12
+				all_owned_province = {
+					is_core = ROOT
+					OR ={
+						area = YingTian_area
+						area = anhui_area
+						area = hangzhou_area
+						area = jiangsu_area						
+					}
+				}
+			}
+		}
+		effect = {
+			KuaiJi_area = {
+				add_permanent_claim = ROOT
+			}
+			zhejiang_area = {
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = qic_control_jiangnan
+				duration = 9125
+			}
+		}
+	}
+
+	qic_ture_chinese_emperor = {
+		icon = mission_shu_back_to_pervious_capital
+		required_missions = { qic_shandong_hegemony } 
+		position = 8
+		provinces_to_highlight = { } 
+
+		trigger = {
+			has_reform = celestial_empire
+			imperial_mandate = 100 
+			stability = 2
+			monthly_adm = 12 
+			num_of_owned_provinces_with = {
+				value = 200
+				is_prosperous = yes
+			}
+		}
+
+		effect = {
+			add_stability_or_adm_power = yes
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			change_government_reform_progress = 300
+			custom_tooltip = SEPERATOR_TOOLTIP
+			custom_tooltip = turkoman_if_used_ge_rest_else_30_years_extension_tt
+			hidden_effect = {
+				if = {
+					limit = { has_had_golden_age = yes } 
+					reset_golden_age = yes 
+				}
+				else_if = {
+					limit = { in_golden_age = yes } 
+					extend_golden_age = 360
+				}
+			}
+		}
+	}
+}
+
+qic_warlord_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = QIC
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+	has_country_shield = yes
+
+	qic_prepare_for_war = {
+		icon = mission_chi_start_chaotic_era
+		required_missions = { } 
+		position = 1
+		provinces_to_highlight = { } 
+
+		trigger = {
+			army_size_percentage = 0.8
+			num_of_generals = 1
+			has_mil_advisor = yes
+		}
+
+		effect = {
+			country_event = {
+				id = foffychina.4
+			}
+			Dengzhou_area = {
+				add_permanent_claim = ROOT
+			}
+			jinan_area = {
+				add_permanent_claim = ROOT
+			}
+			xuzhou_area = {
+				add_permanent_claim = ROOT
+			}
+			south_hebei_area = {
+				add_permanent_claim = ROOT
+			}
+			tai_an_area = {
+				add_permanent_claim = ROOT
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_dlc = "Mandate of Heaven" }
+					capital_scope = {
+						add_province_modifier = {
+							name = allow_banners_capital_modifier
+							duration = -1
+							hidden = yes
+						}
+					}
+					every_owned_province = {
+						limit = { culture = root }
+						add_province_modifier = {
+							name = mongol_banners_location
+							duration = -1
+							hidden = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	qic_a_foothold_in_shandong = {
+		icon = mission_qic_unite_shandong_warlords
+		required_missions = { qic_prepare_for_war } 
+		position = 3
+		provinces_to_highlight = { } 
+	
+		trigger = {
+			shandong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tai_an_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jinan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			Dengzhou_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = a_foothold_in_shandong
+				duration = -1
+				desc = until_end_of_age_of_discovery_desc
+			}
+			custom_tooltip = if_we_finished_before_1459_tt
+			custom_tooltip = all_outraged_countries_ae_minus_15_tt	
+			custom_tooltip = SEPERATOR_TOOLTIP
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = { is_year = 1459 }
+					}
+					every_known_country = {
+						limit = {
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = aggressive_expansion
+							}
+						}
+						add_aggressive_expansion = {
+							who = ROOT
+							value = -15
+						}
+					}
+				}
+			}
+
+			chengde_area = {
+				add_permanent_claim = ROOT
+			}
+			weichang_area = {
+				add_permanent_claim = ROOT
+			}
+			Jingshi_area = {
+				add_permanent_claim = ROOT
+			}
+			chengde_area = {
+				add_permanent_claim = ROOT
+			}
+			huai_an_area = {
+				add_permanent_claim = ROOT
+			}
+			Fengyang_area = {
+				add_permanent_claim = ROOT
+			}
+			North_Henan_area = {
+				add_permanent_claim = ROOT
+			}
+			Zhongyuan_area = {
+				add_permanent_claim = ROOT
+			}
+			henan_area = {
+				add_permanent_claim = ROOT
+			}
+			biyang_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qic_conquering_central_china = {
+		icon = mission_qic_center_of_the_stage
+		required_missions = { qic_a_foothold_in_shandong } 
+		position = 5
+		provinces_to_highlight = { } 
+
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = celestial_empire
+			}
+			North_Henan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			Zhongyuan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			henan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			Badong_area = {
+				add_permanent_claim = ROOT
+			}
+			ankang_area = {
+				add_permanent_claim = ROOT
+			}
+			wuchang_area = {
+				add_permanent_claim = ROOT
+			}
+
+			# custom_tooltip = all_outraged_countries_ae_minus_10_tt
+			# hidden_effect = {
+			# 	every_known_country = {
+			# 		limit = {
+			# 			has_opinion_modifier = {
+			# 				who = ROOT
+			# 				modifier = aggressive_expansion
+			# 			}
+			# 		}
+			# 		add_aggressive_expansion = {
+			# 			who = ROOT
+			# 			value = -10
+			# 		}
+			# 	}
+			# }
+		}
+	}
+
+	qic_central_yangtze_plains = {
+		icon = mission_qic_jianghuai_plain
+		required_missions = { qic_conquering_central_china } 
+		position = 6
+		provinces_to_highlight = { 
+			owned_by = CXI
+		} 
+
+		trigger = {
+			CXI = {
+				exists = no
+			}
+			wuchang_area = {
+				type = 	all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = qic_support_form_hubei
+				duration = 7300
+			}
+			changsha_area ={
+				add_permanent_claim = ROOT
+			}
+			Wuling_area = {
+				add_permanent_claim = ROOT
+			}
+			xianning_area = {
+				add_permanent_claim = ROOT
+			}
+			ganzhou_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qic_shandong_hegemony = {
+		icon = mission_chi_shunfa_imperial_city
+		required_missions = { qic_heaven_suzhou_n_hangzhou qic_central_yangtze_plains qic_governing_xian_note} 
+		position = 7
+		provinces_to_highlight = { 
+			OR = {
+				province_id = 2171
+				province_id = 5571
+				province_id = 2141
+				province_id = 691
+				province_id = 682
+				province_id = 684
+				province_id = 693
+			}
+			NOT ={
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		trigger = {
+			OR ={
+				has_reform = h_reform_warlord_3
+				has_reform = celestial_empire
+			}
+			owns_core_province = 2171
+			owns_core_province = 5571
+			owns_core_province = 2141
+			owns_core_province = 691
+			owns_core_province = 682
+			owns_core_province = 684
+			owns_core_province = 700
+		}
+
+		effect = {
+			add_years_of_income = 5
+			south_china_region = {
+				add_permanent_claim = ROOT
+			}
+			country_event = {
+				id = foffy_china.15
+			}
+		}
+	}
+}
+
+qic_warlord_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = QIC
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+	has_country_shield = yes
+	
+	qic_preserve_confucianism_hometown = {
+		icon = mission_hands_praying
+		required_missions = { qic_prepare_for_war } 
+		position = 2
+		provinces_to_highlight = {
+			province_id = 5567
+		} 
+
+		trigger = {
+			5567 = {
+				owned_by = ROOT
+				is_core = ROOT
+				NOT = { devastation = 1 }
+				has_tax_building_trigger = yes
+			}
+		}
+		effect = {
+			5567 = {
+				add_base_tax = 1
+			}
+			define_advisor = { 
+				type = philosopher
+				cost_multiplier = 0.5
+				skill = 2
+				name = "Zhou Chu"
+				religion = confucianism
+			}
+		}
+	}
+	
+	qic_march_to_beijing = {
+		icon = mission_qic_huabei_strategy
+		required_missions = { qic_a_foothold_in_shandong } 
+		position = 4
+		provinces_to_highlight = {
+			OR ={
+				province_id = 704
+				province_id = 1816
+			}
+		} 
+
+		trigger = {
+			owns_core_province = 704
+			owns_core_province = 1816
+			1816 = { # 北京
+				development = 30
+				province_has_center_of_trade_of_level = 2
+				num_of_times_expanded_infrastructure = 1
+				has_trade_building_trigger = yes
+				NOT = { devastation = 1 }
+			}
+			695 = {
+				development = 15
+				province_has_center_of_trade_of_level = 2
+				has_trade_building_trigger = yes
+				NOT = { devastation = 1 }
+			}	
+		}
+
+		effect = {
+			
+			1816 = {
+				upgrade_trade_building = yes
+			}
+			695 = {
+				upgrade_trade_building = yes
+			}
+			add_stability = 1
+			custom_tooltip = SEPERATOR_TOOLTIP
+			704 = {
+				add_base_manpower = 2 
+				add_or_upgrade_fort_building = yes
+				add_province_modifier = {
+					name = Shanhaiguan_fortress
+					duration = -1
+					desc = until_it_is_conquered_desc
+				}
+			}
+			shenyang_area = {
+				add_permanent_claim = ROOT
+			}
+			Liaoshen_area = {
+				add_permanent_claim = ROOT
+			}
+			dalian_area = {
+				add_permanent_claim = ROOT
+			}
+			datong_area = {
+				add_permanent_claim = ROOT
+			}
+			changzhi_area = {
+				add_permanent_claim = ROOT
+			}
+			shanxi_area = {
+				add_permanent_claim = ROOT
+			}
+			jinzhong_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qic_access_to_shanxi = {
+		icon = mission_chi_expand_the_broder
+		required_missions = { qic_march_to_beijing } 
+		position = 5
+		provinces_to_highlight = { 
+			province_id = 697
+		} 
+
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = celestial_empire
+			}
+			697 = {
+				is_core = ROOT
+				NOT ={ pure_unrest = 1 }
+				NOT = { local_autonomy = 1 }
+			}
+			changzhi_area= {
+				type = any
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			shanxi_area= {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jinzhong_area= {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			hidden_effect = {
+				if = {
+					limit = { 
+						has_harmonized_with = vajrayana
+						NOT = {
+							697 = {
+								has_great_project = {
+									type = yungang_grottoes
+									tier = 3
+								}
+							}
+						}
+					}
+					697 = {
+						add_great_project_tier = {
+							type = yungang_grottoes
+							tier = 1
+						}
+					}
+				}
+			}
+			697 = {
+				center_of_trade = 1
+				add_base_production = 2
+			}
+			custom_tooltip = if_harmonized_vajrayana_tt
+			tooltip = {
+				697 = {
+					add_great_project_tier = {
+						type = yungang_grottoes
+						tier = 1
+					}
+				}
+			}
+			shanxi_area = {
+				add_province_modifier = {
+					name = csh_interior_world
+					duration = 7300
+				}
+			}
+			jinzhong_area = {
+				add_province_modifier = {
+					name = csh_interior_world
+					duration = 7300
+				}
+			}
+			shaanxi_area = {
+				add_permanent_claim = ROOT
+			}
+			Shanbei_area = {
+				add_permanent_claim = ROOT
+			}
+			hanzhong_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	qic_governing_xian_note = {
+		icon = mission_grand_chinese_culture_gruop 
+		required_missions = { qic_conquering_central_china qic_access_to_shanxi } 
+		position = 6
+		provinces_to_highlight = { 
+			province_id = 700
+		} 
+
+		trigger = {
+			shaanxi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			700 = { # 西安
+				country_or_non_sovereign_subject_holds = ROOT	
+				has_trade_building_trigger = yes
+				has_tax_building_trigger = yes
+				has_production_building_trigger = yes
+				has_manpower_building_trigger = yes
+				has_manufactory_trigger = yes
+				development = 30
+				province_has_center_of_trade_of_level = 3
+				num_of_times_expanded_infrastructure = 1
+				is_prosperous = yes
+			}
+		}
+
+		effect = {
+			add_splendor = 100 
+			custom_tooltip = SEPERATOR_TOOLTIP
+			xibei_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qic_a_new_day_dawning ={
+		icon = mission_qic_chinese_dragons_era 
+		required_missions = { qic_shandong_hegemony } 
+		position = 8
+		provinces_to_highlight = {
+			OR ={
+				province_id = 1816
+				province_id = 1821
+				province_id = 700
+				province_id = 667
+			}
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
+		}
+
+		trigger = {
+			owns_core_province = 1816
+			owns_core_province = 1821
+			owns_core_province = 700
+			owns_core_province = 667
+			calc_true_if = {
+				amount = 220
+				all_owned_province = {
+					superregion = china_superregion
+				}
+			}
+			NOT = {
+				any_known_country = {
+					calc_true_if = {
+						amount = 30
+						all_owned_province = {
+							superregion = china_superregion
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			country_event = {
+				id = foffy_china.11
+			}
+			add_country_modifier = {
+				name = ture_fate_of_heaven
+				duration = -1
+			}
+
+			custom_tooltip = SEPERATOR_TOOLTIP
+			custom_tooltip = if_we_win_dynasty_disater_tt
+			tooltip = {
+				china_superregion = {
+					add_territorial_core = ROOT
+				}
+			}
+			hidden_effect = {
+				if ={
+					limit = {
+						has_country_flag = won_the_clash_of_chinese_dynasty_disaster_flag
+					}
+					china_superregion = {
+						add_territorial_core = ROOT
+					}
+				}
+			}
+		}
+	}
+}
+
+qic_warlord_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = QIC
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+	has_country_shield = yes
+
+	qic_peacify_eastern_liaoning = {
+		icon = mission_qic_start_chaotic_era
+		required_missions = { qic_march_to_beijing } 
+		position = 5
+		provinces_to_highlight = { } 
+		trigger = {
+			shenyang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			Liaoshen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			dalian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			liaoning_area = {
+				add_permanent_claim = ROOT
+			}
+			jilin_area = {
+				add_permanent_claim = ROOT
+			}
+			ningguta_area = {
+				add_permanent_claim = ROOT
+			}
+			furdan_area = {
+				add_permanent_claim = ROOT
+			}
+			central_jilin_area = {
+				add_permanent_claim = ROOT
+			}
+			central_heilongjiang_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qic_birdle_jurchen_clans = {
+		icon = mission_qic_manchuria_outpost
+		required_missions = { qic_peacify_eastern_liaoning }
+		position = 6
+		provinces_to_highlight = { 
+			OR ={
+				culture = manchu
+				culture = manchu_new
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+	
+		trigger = {
+			calc_true_if = {
+				amount = 25
+				all_owned_province = {
+					OR ={
+						culture = manchu
+						culture = manchu_new
+					}	
+				}
+			}
+			reform_level = 4
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						any_known_country = {
+							OR = {
+								tag = MCH
+								was_tag = MCH
+							}
+						}
+					}
+				}
+				# add_country_modifier = {
+				# 	name = mng_banner_recruitment_2_modifier
+				# 	duration = -1
+				# }
+				
+				# capital_scope = {
+				# 	add_province_modifier = {
+				# 		name = allow_local_banners_modifier
+				# 		duration = -1
+				# 		hidden = yes 
+				# 	}
+				# }
+				custom_tooltip = qic_allow_banners_gov_reform_tt
+				custom_tooltip = qic_allow_esetate_nomadic_tribe_tt
+				set_country_flag = enables_estate_nomadic_tribes_flag
+			}
+			
+			else = {
+				add_country_modifier = {
+					name = mng_banner_recruitment_2_modifier # mng_banner_recruitment_modifier 启用八旗用这个
+					duration = 18250
+				}
+				
+				# capital_scope = {
+				# 	add_province_modifier = {
+				# 		name = allow_local_banners_modifier
+				# 		duration = 18250
+				# 		hidden = yes 
+				# 	}
+				# }
+				
+				custom_tooltip = qic_allow_esetate_nomadic_tribe_tt
+				set_country_flag = enables_estate_nomadic_tribes_flag
+			}
+		}	
+	}
+
+	qic_gyeongbok_palace_diplomacy = {
+		icon = mission_qic_conquer_korea
+		required_missions = { qic_birdle_jurchen_clans } 
+		position = 7
+		provinces_to_highlight = { 
+			province_id = 735
+		}  
+		trigger = {
+			OR = {
+				# 和韩国关系很好 200+ 信任 80+
+				735 = {
+					owner = {
+						alliance_with = ROOT
+						has_opinion = {
+							who = ROOT
+							value = 180
+						}
+						trust = {
+							who =ROOT
+							value = 80
+						}
+					}
+				}
+				# 宿敌 轻蔑地羞辱 
+				AND = {
+					is_at_war = no
+					735 = {
+						owner = {
+							OR ={
+								is_rival = ROOT
+								has_been_insulted_by_root = yes	
+							}
+							NOT = { army_size = ROOT } 
+							NOT = { navy_size = ROOT }
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			add_yearly_manpower = 1
+			custom_tooltip = if_we_ally_with_kor_owner_tt
+			tooltip = {
+				add_country_modifier = {
+					name = qic_good_relation_with_gyeongbok
+					duration = -1
+				}
+				
+			}
+			custom_tooltip = alternatively_if_rival_kor_owner_tt
+			tooltip = {
+				korea_region = {
+					add_permanent_claim = ROOT
+				}
+			}
+
+			hidden_effect = {
+				if = {
+					limit = {
+						735 = {
+							owner = {
+								alliance_with = ROOT
+							}
+						}
+					}
+					add_yearly_manpower = 1
+					add_country_modifier = {
+						name = qic_good_relation_with_gyeongbok
+						duration = 9125
+					}
+				}
+				else = {
+					korea_region = {
+						add_permanent_claim = ROOT
+					}
+				}
+			}
+		}
+	}
+}

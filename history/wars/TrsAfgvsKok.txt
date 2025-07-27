@@ -1,0 +1,18 @@
+name = "Kokhan War"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+	tag = KOK
+}
+
+1443.1.1 = {
+	add_attacker = TRS
+	add_attacker = AFG
+	add_defender = KOK
+}
+# Peace
+1444.6.10 = {
+	rem_attacker = TRS
+	rem_attacker = AFG
+	rem_defender = KOK
+}

@@ -1,0 +1,23 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_AFRICAN_NATIONS"
+	desc = "TY_BOOKMARK_AFRICAN_NATIONS_DESC"
+	date = 1444.11.11
+	
+	center = 5006
+
+	
+	country = MAL
+	country = SON
+	country = KBO
+	country = BEN
+	country = ETH
+	country = ADA
+	country = KON
+	country = MGU
+	country = ZAN
+	country = RZW
+	country = SWZ
+
+
+}

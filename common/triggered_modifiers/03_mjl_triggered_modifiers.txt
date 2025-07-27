@@ -1,0 +1,106 @@
+###########################################
+# Player in new world nerf
+###########################################
+new_world_player_nerf = {
+	potential = {
+		OR = {	
+			AND = {
+				is_colonial_nation = yes
+				has_country_flag = self_governing_colony_government_flag
+			}
+			has_reform = trade_company_government
+			is_subject_of_type = european_colony
+		}
+		was_player = yes
+	}
+
+	trigger = {
+		total_development = 300
+	}
+
+	manpower_recovery_speed = -0.1
+	sailors_recovery_speed = -0.1
+	global_sailors_modifier = -0.1
+	naval_forcelimit_modifier = -0.1
+	land_forcelimit_modifier = -0.1
+}
+new_world_player_nerf_600 = {
+	potential = {
+		OR = {
+			capital_scope = {
+				continent = north_america
+			}
+			capital_scope = {
+				continent = south_america
+			}	
+			capital_scope = {
+				colonial_region = colonial_australia
+			}
+			is_colonial_nation = yes
+			has_reform = trade_company_government
+			has_country_flag = changed_from_colonial_nation
+			is_subject_of_type = european_colony
+		}
+		was_player = yes
+	}
+
+	trigger = {
+		total_development = 600
+	}
+
+	manpower_recovery_speed = -0.1
+	sailors_recovery_speed = -0.1
+	global_sailors_modifier = -0.1
+	naval_forcelimit_modifier = -0.1
+	land_forcelimit_modifier = -0.1
+}
+new_world_player_nerf_1200 = {
+	potential = {
+		OR = {
+			capital_scope = {
+				continent = north_america
+			}
+			capital_scope = {
+				continent = south_america
+			}	
+			capital_scope = {
+				colonial_region = colonial_australia
+			}
+			is_colonial_nation = yes
+			has_reform = trade_company_government
+			has_country_flag = changed_from_colonial_nation
+			is_subject_of_type = european_colony
+		}
+		was_player = yes
+	}
+
+	trigger = {
+		total_development = 1200
+	}
+
+	manpower_recovery_speed = -0.1
+	sailors_recovery_speed = -0.1
+	global_sailors_modifier = -0.1
+	naval_forcelimit_modifier = -0.1
+	land_forcelimit_modifier = -0.1
+}
+new_world_player_nerf_2400 = {
+	potential = {
+		OR = {
+			is_colonial_nation = yes
+			has_reform = trade_company_government
+			is_subject_of_type = european_colony
+		}
+		was_player = yes
+	}
+
+	trigger = {
+		total_development = 2400
+	}
+
+	manpower_recovery_speed = -0.1
+	sailors_recovery_speed = -0.1
+	global_sailors_modifier = -0.1
+	naval_forcelimit_modifier = -0.1
+	land_forcelimit_modifier = -0.1
+}

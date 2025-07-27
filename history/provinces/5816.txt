@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 1
+base_production = 1
+culture = tibetan
+trade_goods = livestock
+religion = vajrayana
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = SYG
+owner = SYG
+controller = SYG
+discovered_by = indian

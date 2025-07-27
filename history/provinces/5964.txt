@@ -1,0 +1,13 @@
+add_core = GHD
+owner = GHD
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = sunni
+controller = GHD
+is_city = yes
+culture = tunisian
+trade_goods = wool
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim

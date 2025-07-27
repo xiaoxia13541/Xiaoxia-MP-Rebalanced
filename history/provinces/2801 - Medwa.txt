@@ -1,0 +1,23 @@
+#2801 - Medwa
+culture = fur_culture
+religion = shiite
+capital = "Medowa"
+add_core = DAR
+native_size = 50
+native_ferocity = 4
+native_hostileness = 9
+base_tax = 1
+base_production = 2
+base_manpower = 1
+discovered_by = WAD
+discovered_by = DAJ
+discovered_by = TGL
+discovered_by = KRD
+
+owner = DAR
+controller = DAR
+discovered_by = NUB
+is_city = yes
+trade_goods = grain
+
+discovered_by = sub_saharan

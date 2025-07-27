@@ -1,0 +1,56 @@
+spriteTypes = {
+	# 卫所按钮 三个
+	spriteType = {
+		name = "GFX_prisoner_military_service"
+		texturefile = "gfx//interface//government_mechanics/chinese_weisuo/prisoner_military_service.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_army_deving_border"
+		texturefile = "gfx//interface//government_mechanics/chinese_weisuo/army_deving_border.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_fortress_fortification"
+		texturefile = "gfx//interface//government_mechanics/chinese_weisuo/fortress_fortification.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	
+	# 彝政府改革小图 四个
+	spriteType = {
+		name = "government_reform_cyi_monge_system_icon"
+		texturefile = "gfx//interface//government_reform_icons//cyi_monge_system.dds"
+	}
+	spriteType = {
+		name = "government_reform_cyi_sepo_theocracy_icon"
+		texturefile = "gfx//interface//government_reform_icons//cyi_sepo_theocracy.dds"
+	}
+	spriteType = {
+		name = "government_reform_cyi_zimo_kingdom_icon"
+		texturefile = "gfx//interface//government_reform_icons//cyi_zimo_kingdom.dds"
+	}
+	spriteType = {
+		name = "government_reform_cyi_holy_empire_icon"
+		texturefile = "gfx//interface//government_reform_icons//cyi_holy_empire.dds"
+	}
+
+	# 花剌子模 政府改革
+	spriteType = {
+		name = "government_reform_khorazm_horde_nation_icon"
+		texturefile = "gfx//interface//government_reform_icons//khorazm_horde_nation.dds"
+	}
+	# 贝宁 阿扎玛议事会
+	spriteType = {
+		name = "government_reform_benin_jungel_confedracy_icon"
+		texturefile = "gfx//interface//government_reform_icons//benin_jungel_confedracy.dds"
+	}
+	# 贝宁六改 建立先进部落
+	spriteType = {
+		name = "government_reform_advanced_reformed_tribes_icon"
+		texturefile = "gfx//interface//government_reform_icons//advanced_reformed_tribes.dds"
+	}
+}
+

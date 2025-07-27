@@ -1,0 +1,55 @@
+government = native
+add_government_reform = native_clan_council_reform
+government_rank = 1
+primary_culture = ge
+add_accepted_culture = maipurean
+religion = animism
+technology_group = andean
+unit_type = south_american
+capital = 2888
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+add_country_modifier = {
+	name = new_world_splendor
+	duration = -1
+}
+add_mercantilism = 35
+add_adm_tech = 1
+add_dip_tech = 1
+add_mil_tech = 1
+define_ruler = {
+	adm = 4
+	dip = 4
+	mil = 4
+	age = 33
+}
+add_ruler_personality = expansionist_personality
+every_province = {
+	limit = {
+		OR = {
+			continent = north_america
+			continent = south_america
+			superregion = near_east_superregion
+			superregion = persia_superregion
+			superregion = india_superregion
+		}
+	}
+	discover_country = ROOT
+}
+every_province = {
+	limit = {
+		OR = {
+			continent = north_america
+			continent = south_america
+			superregion = near_east_superregion
+			superregion = persia_superregion
+			superregion = india_superregion
+		}
+	}
+	sea_zone = {
+		discover_country = ROOT
+	}
+}
+set_country_flag = discovered_america_flag

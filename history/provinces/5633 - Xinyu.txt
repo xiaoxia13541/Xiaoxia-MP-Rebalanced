@@ -1,0 +1,20 @@
+#5537 - Xinyu
+owner = XYU
+controller = XYU
+add_core = XYU
+culture = xiang
+religion = confucianism
+capital = "Xinyu"
+trade_goods = iron
+base_tax = 4
+base_production = 2
+base_manpower = 2
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+1679.1.1 = { controller = QNG }
+is_city = yes

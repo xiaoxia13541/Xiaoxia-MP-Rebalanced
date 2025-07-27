@@ -1,0 +1,392 @@
+estate_rajput_levies = {
+	icon = privilege_spawn_rajput_regiments
+	max_absolutism = -5
+	influence = 0.1
+	is_valid = {
+		technology_group = indian
+	}
+	modifier_by_land_ownership = {
+		#global_tax_modifier = -0.10
+		global_manpower_modifier = 0.25
+	}
+	penalties = {
+	}
+	mechanics = {
+		exempt_from_seize_land
+	}
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 1.5
+			any_rival_country = {
+				army_strength = {
+					who = root
+					value = 1.5
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_idea_group = quantity_ideas
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { max_manpower = 40 }
+		}
+		modifier = {
+			factor = 0.5
+			max_manpower = 200
+		}
+		modifier = {
+			factor = 2
+			estate_territory = {
+				estate = estate_maratha
+				territory = 50
+			}
+		}
+		modifier = {
+			factor = 1.5
+			estate_territory = {
+				estate = estate_maratha
+				territory = 40
+			}
+		}
+		modifier = {
+			factor = 1.5
+			estate_territory = {
+				estate = estate_maratha
+				territory = 30
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_territory = {
+					estate = estate_maratha
+					territory = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_territory = {
+					estate = estate_maratha
+					territory = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_territory = {
+					estate = estate_maratha
+					territory = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_jains_advisor = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		NOT = { religion = hinduism }
+	}
+	penalties = {
+		stability_cost_modifier = 0.1
+	}
+	benefits = {
+		dip_advisor_cost = -0.25
+	}
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { dip = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			dip = 5
+		}
+	}
+}
+
+mjl_estate_tribes_advisors = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	penalties = {
+		stability_cost_modifier = 0.1
+	}
+	benefits = {
+		advisor_cost = -0.15
+	}
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { mil = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			mil = 5
+		}
+	}
+}
+
+estate_tribes_tribal_primacy = {
+	icon = privilege_military_power
+	land_share = 10
+	max_absolutism = -5
+	loyalty = -0.05
+	can_select = {
+		is_year = 1500
+		can_select_monarch_power_privilege = {
+			estate = estate_nomadic_tribes
+			type = mil
+		}
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		country_military_power = 1
+	}
+	ai_will_do = {
+		factor = 2000
+	}
+}
+
+estate_tribes_raise_host = {
+	icon = privilege_promote_purbias
+	influence = 0.1
+	loyalty = -0.05
+	is_valid = {
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	on_granted = {
+		random_owned_province = {
+			add_unit_construction = {
+				type = cavalry
+				amount = 5
+				speed = 0.5
+				cost = 0
+			}
+		}
+		create_general = { tradition = 20 }
+		custom_tooltip = mjl_estate_grant_generalship_tt
+	}
+	cooldown_years = 10
+	on_cooldown_expires = {
+		remove_estate_privilege = estate_tribes_raise_host
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+	}
+}
+
+mjl_estate_church_orm_tamed_deserts = {
+	icon = privilege_dev_cost_desert
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	
+	is_valid = {
+		mission_completed = tame_the_desert
+	}
+	on_granted = {
+		custom_tooltip = mjl_estate_church_orm_tamed_deserts_effect_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = { 
+					has_terrain = desert
+					region = arabia_region
+				}
+				add_province_modifier = {
+					name = "tamed_the_desert_modifier"
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = mjl_estate_church_orm_tamed_deserts_mod_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_modifier = "tamed_the_desert_modifier" }
+				remove_province_modifier = "tamed_the_desert_modifier"
+			}
+		}
+	}
+	on_invalid = {
+		custom_tooltip = mjl_estate_church_orm_tamed_deserts_mod_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = "tamed_the_desert_modifier"
+				}
+				remove_province_modifier = "tamed_the_desert_modifier"
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 25 }
+				estate_influence = {
+					estate = estate_church
+					influence = 75
+				}
+			}
+			NOT = { has_estate_privilege = mjl_estate_church_orm_tamed_deserts }
+		}
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}
+
+mjl_estate_church_npl_tamed_mountains = {
+	icon = privilege_grant_new_world_charter
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		mission_completed = npl_tame_the_mountains
+	}
+	on_granted = {
+		custom_tooltip = mjl_estate_church_npl_tamed_mountains_effect_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = { 
+					has_climate = arctic
+					region = tibet_region
+				}
+				add_province_modifier = {
+					name = "mirecek_artic_adaptation_npl"
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = mjl_estate_church_npl_tamed_mountains_mod_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_modifier = "mirecek_artic_adaptation_npl" }
+				remove_province_modifier = "mirecek_artic_adaptation_npl"
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 25 }
+				estate_influence = {
+					estate = estate_church
+					influence = 75
+				}
+			}
+			NOT = { has_estate_privilege = mjl_estate_church_npl_tamed_mountains }
+		}
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}
+
+mjl_estate_brahmins_npl_tamed_mountains = {
+	icon = privilege_grant_new_world_charter
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		mission_completed = npl_tame_the_mountains
+		OR = {
+			religion = hinduism
+			religion = sikhism
+		}
+	}
+	on_granted = {
+		custom_tooltip = mjl_estate_church_npl_tamed_mountains_effect_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = { 
+					has_climate = arctic
+					region = tibet_region
+				}
+				add_province_modifier = {
+					name = "mirecek_artic_adaptation_npl"
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = mjl_estate_church_npl_tamed_mountains_mod_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_modifier = "mirecek_artic_adaptation_npl" }
+				remove_province_modifier = "mirecek_artic_adaptation_npl"
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 25 }
+				estate_influence = {
+					estate = estate_church
+					influence = 75
+				}
+			}
+			NOT = { has_estate_privilege = mjl_estate_brahmins_npl_tamed_mountains }
+		}
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}

@@ -1,0 +1,68 @@
+country_decisions = {
+
+	incan_nation = {
+		major = yes
+		potential = {
+			is_random_new_world = no
+			NOT = { has_country_flag = exodus_formed_nation_flag }
+			normal_or_historical_nations = yes
+			NOT = { tag = INC }
+			OR = { tag = JOL tag = TER }
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = quito_area
+				area = chimor_area
+				area = cajamarca_area
+				area = ucayali_area
+				area = huanuco_area
+				area = kuntisuyu_area
+				area = antisuyu_area
+				area = upper_peru
+				area = potosi_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			NOT = { exists = INC }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			num_of_owned_provinces_with = {
+				value = 15
+				OR = {
+					area = quito_area
+					area = chimor_area
+					area = cajamarca_area
+					area = ucayali_area
+					area = huanuco_area
+					area = kuntisuyu_area
+					area = antisuyu_area
+					area = upper_peru
+					area = potosi_area
+				}
+			}
+		}
+		effect = {
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = { is_former_colonial_nation = yes }
+					}
+					ROOT = { save_event_target_as = old_tag_target }
+					set_country_flag = was_not_former_colonial_nation
+				}
+			}
+			change_tag = INC
+			change_primary_culture = inca
+			set_sea_exodus_stuff = yes
+			hidden_effect = {
+				every_owned_province = { change_culture = inca }
+			}
+			change_religion = inti
+			change_technology_group = andean
+			change_unit_type = south_american
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

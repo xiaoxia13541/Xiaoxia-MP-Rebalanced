@@ -1,0 +1,20 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_EUROPEAN_MINORS"
+	desc = "TY_BOOKMARK_EUROPEAN_MINORS_DESC"
+	date = 1444.11.11
+	
+	center = 112
+	
+	country = SWI
+	country = SAV
+	country = MLO
+	country = VEN
+	country = HES
+	country = LBV
+	country = SIC
+	country = BRA
+	country = PAP
+	country = GEN
+	country = LAN
+}

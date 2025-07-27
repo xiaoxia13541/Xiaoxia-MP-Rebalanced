@@ -1,0 +1,15 @@
+# 5543 - Shangluo
+owner = CSH
+controller = CSH
+culture = zhongyuan
+religion = confucianism
+capital = "Shangluo"
+trade_goods = grain
+base_tax = 3
+base_production = 2
+base_manpower = 3
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+add_core = CSH

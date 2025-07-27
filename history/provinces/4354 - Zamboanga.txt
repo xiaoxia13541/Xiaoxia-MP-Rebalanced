@@ -1,0 +1,23 @@
+#4354 - Zamboanga
+
+owner = MAS
+controller = MAS
+add_core = MAS
+is_city = yes
+culture = filipino
+religion = animism
+capital = "Zamboanga"
+trade_goods = tropical_wood
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+discovered_by = chinese
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+1569.1.1 = {	
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	religion = catholic
+}

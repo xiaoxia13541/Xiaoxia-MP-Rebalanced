@@ -1,0 +1,788 @@
+# Swazi consort cults:
+swz_has_consort_with_cult = {
+	OR = {
+		has_country_modifier = mini_cwezi_cult_modifier
+		has_country_modifier = mini_central_african_ancestor_cult_modifier
+		has_country_modifier = mini_mwari_cult_modifier
+		has_country_modifier = mini_yemoja_cult_modifier
+		has_country_modifier = mini_roog_cult_modifier
+		has_country_modifier = mini_nyame_cult_modifier
+		has_country_modifier = mini_enkai_cult_modifier
+		has_country_modifier = mini_waaq_cult_modifier
+		has_country_modifier = mini_zanahary_cult_modifier
+		has_country_modifier = mini_christianity_cult_modifier
+		has_country_modifier = mini_islam_cult_modifier
+		has_country_modifier = mini_buddhism_cult_modifier
+		has_country_modifier = mini_dharmic_cult_modifier
+		has_country_modifier = mini_south_central_american_cult_modifier
+		has_country_modifier = mini_norse_cult_modifier
+		has_country_modifier = mini_jewish_cult_modifier
+		has_country_modifier = mini_zoroastrian_cult_modifier
+	}
+}
+
+# For ME Colonial mission tree:
+num_of_owned_manufactory_combined_trigger = {
+	calc_true_if = {
+		all_owned_province = {
+			has_manufactory_trigger = yes
+		}
+		amount = $amount$
+	}
+}
+has_manu_manufactory_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_manufactory_trigger_tooltip
+		OR = {
+			has_building = wharf
+			has_building = weapons
+			has_building = textile
+			has_building = tradecompany
+			has_building = farm_estate
+			has_building = mills
+			has_building = furnace
+			has_building = plantations
+		}
+	}
+}
+
+# Forts stuff:
+can_build_fort_trigger = {
+	OR = {
+		is_capital = yes
+		province_id = 14
+		province_id = 127
+		province_id = 1247
+		province_id = 12
+		province_id = 1983
+		province_id = 4149
+		province_id = 4142
+		province_id = 6
+		province_id = 2994
+		province_id = 47
+		province_id = 4745
+		province_id = 48
+		province_id = 1
+		province_id = 1930
+		province_id = 27
+		province_id = 35
+		province_id = 39
+		province_id = 36
+		province_id = 4779
+		province_id = 316
+		province_id = 2296
+		province_id = 151
+		province_id = 249
+		province_id = 4121
+		province_id = 369
+		province_id = 253
+		province_id = 4364
+		province_id = 4110
+		province_id = 4363
+		province_id = 226
+		province_id = 1751
+		province_id = 4565
+		province_id = 366
+		province_id = 4560
+		province_id = 333
+		province_id = 4559
+		province_id = 124
+		province_id = 123
+		province_id = 2954
+		province_id = 353
+		province_id = 112
+		province_id = 1774
+		province_id = 142
+		province_id = 144
+		province_id = 4698
+		province_id = 4699
+		province_id = 1773
+		province_id = 146
+		province_id = 3003
+		province_id = 164
+		province_id = 4700
+		province_id = 2348
+		province_id = 318
+		province_id = 285
+		province_id = 2447
+		province_id = 1215
+		province_id = 387
+		province_id = 396
+		province_id = 394
+		province_id = 395
+		province_id = 398
+		province_id = 2999
+		province_id = 431
+		province_id = 2890
+		province_id = 748
+		province_id = 2929
+		province_id = 2803
+		province_id = 502
+		province_id = 500
+		province_id = 499
+		province_id = 498
+		province_id = 497
+		province_id = 496
+		province_id = 495
+		province_id = 494
+		province_id = 972
+		province_id = 973
+		province_id = 874
+		province_id = 2022
+		province_id = 976
+		province_id = 2587
+		province_id = 2521
+		province_id = 945
+		province_id = 911
+		province_id = 1001
+		province_id = 983
+		province_id = 982
+		province_id = 2569
+		province_id = 2578
+		province_id = 2576
+		province_id = 981
+		province_id = 997
+		province_id = 536
+		province_id = 2100
+		province_id = 1050
+		province_id = 4658
+		province_id = 2745
+		province_id = 4651
+		province_id = 1017
+		province_id = 1818
+		province_id = 1014
+		province_id = 4186
+		province_id = 1825
+		province_id = 1820
+		province_id = 1021
+		province_id = 4193
+		province_id = 5668
+		province_id = 1852
+		province_id = 1032
+		province_id = 2159
+		province_id = 666
+		province_id = 5528
+		province_id = 597
+		province_id = 2686
+		province_id = 4815
+		province_id = 620
+		province_id = 2677
+		province_id = 659
+		province_id = 622
+		province_id = 2678
+		province_id = 623
+		province_id = 624
+		province_id = 628
+		province_id = 2692
+		province_id = 631
+		province_id = 2693
+		province_id = 632
+		province_id = 633
+		province_id = 2695
+		province_id = 2716
+		province_id = 4796
+		province_id = 647
+		province_id = 646
+		province_id = 649
+		province_id = 650
+		province_id = 648
+		province_id = 4354
+		province_id = 4351
+		province_id = 4352
+		province_id = 4353
+		province_id = 4355
+		province_id = 2700
+		province_id = 4350
+		province_id = 4356
+		province_id = 654
+		province_id = 2699
+		province_id = 2738
+		province_id = 1107
+		province_id = 489
+		province_id = 2654
+		province_id = 4141
+		province_id = 54
+		#SEA SUFF
+		province_id = 2683
+		province_id = 2684
+		province_id = 2679
+		province_id = 2706
+		province_id = 635
+		province_id = 634
+		province_id = 2696
+		province_id = 2725
+		province_id = 2724
+		province_id = 2722
+		province_id = 2730
+		province_id = 2718
+		province_id = 645
+		province_id = 2717
+		province_id = 643
+		province_id = 2714
+		province_id = 4799
+		province_id = 1245
+		province_id = 651
+		province_id = 656
+		#Caribbeans
+		province_id = 488
+		province_id = 487
+		province_id = 501
+		province_id = 1881
+		province_id = 492
+		province_id = 493
+		province_id = 4621
+		province_id = 483
+		province_id = 4624
+		province_id = 2652
+		#English Channel
+		province_id = 235
+		province_id = 87
+		#Mediteranean
+		province_id = 115
+		province_id = 2982
+		province_id = 126
+		province_id = 341
+		province_id = 4736
+		province_id = 320
+		province_id = 319
+		province_id = 321
+		province_id = 2302
+		#Madagascar
+		province_id = 4049
+		province_id = 4040
+		province_id = 4042
+		#Taiwan
+		province_id = 2154
+		province_id = 1829
+		#Japan
+		province_id = 1031
+		province_id = 1033
+		province_id = 1034
+		NOT = {
+			any_neighbor_province = {
+				owner = {
+					tag = ROOT
+				}
+				OR = {
+					has_building = fort_15th
+					has_construction = fort_15th
+					has_building = fort3
+					has_construction = fort3
+					has_building = fort_16th
+					has_construction = fort_16th
+					has_building = fort5
+					has_construction = fort5
+					has_building = fort_17th
+					has_construction = fort_17th
+					has_building = fort7
+					has_construction = fort7
+					has_building = fort_18th
+					has_construction = fort_18th
+				}
+				NOT = { is_capital = yes }
+			}
+		}
+	}
+}
+can_keep_fort_trigger = {
+	OR = {
+		AND = {
+			has_province_flag = mjl_new_conquest_fort_delay
+			NOT = { had_province_flag = { flag = mjl_new_conquest_fort_delay days = 182 } }
+		}
+		is_capital = yes
+		province_id = 14
+		province_id = 127
+		province_id = 1247
+		province_id = 12
+		province_id = 1983
+		province_id = 4149
+		province_id = 4142
+		province_id = 6
+		province_id = 2994
+		province_id = 47
+		province_id = 4745
+		province_id = 48
+		province_id = 1
+		province_id = 1930
+		province_id = 27
+		province_id = 35
+		province_id = 39
+		province_id = 36
+		province_id = 4779
+		province_id = 316
+		province_id = 2296
+		province_id = 151
+		province_id = 249
+		province_id = 4121
+		province_id = 369
+		province_id = 253
+		province_id = 4364
+		province_id = 4110
+		province_id = 4363
+		province_id = 226
+		province_id = 1751
+		province_id = 4565
+		province_id = 366
+		province_id = 4560
+		province_id = 333
+		province_id = 4559
+		province_id = 124
+		province_id = 123
+		province_id = 2954
+		province_id = 353
+		province_id = 112
+		province_id = 1774
+		province_id = 142
+		province_id = 144
+		province_id = 4698
+		province_id = 4699
+		province_id = 1773
+		province_id = 146
+		province_id = 3003
+		province_id = 164
+		province_id = 4700
+		province_id = 2348
+		province_id = 318
+		province_id = 285
+		province_id = 2447
+		province_id = 1215
+		province_id = 387
+		province_id = 396
+		province_id = 394
+		province_id = 395
+		province_id = 398
+		province_id = 2999
+		province_id = 431
+		province_id = 2890
+		province_id = 748
+		province_id = 2929
+		province_id = 2803
+		province_id = 502
+		province_id = 500
+		province_id = 499
+		province_id = 498
+		province_id = 497
+		province_id = 496
+		province_id = 495
+		province_id = 494
+		province_id = 972
+		province_id = 973
+		province_id = 874
+		province_id = 2022
+		province_id = 976
+		province_id = 2587
+		province_id = 2521
+		province_id = 945
+		province_id = 911
+		province_id = 1001
+		province_id = 983
+		province_id = 982
+		province_id = 2569
+		province_id = 2578
+		province_id = 2576
+		province_id = 981
+		province_id = 997
+		province_id = 536
+		province_id = 2100
+		province_id = 1050
+		province_id = 4658
+		province_id = 2745
+		province_id = 4651
+		province_id = 1017
+		province_id = 1818
+		province_id = 1014
+		province_id = 4186
+		province_id = 1825
+		province_id = 1820
+		province_id = 1021
+		province_id = 4193
+		province_id = 5668
+		province_id = 1852
+		province_id = 1032
+		province_id = 2159
+		province_id = 666
+		province_id = 5528
+		province_id = 597
+		province_id = 2686
+		province_id = 4815
+		province_id = 620
+		province_id = 2677
+		province_id = 659
+		province_id = 622
+		province_id = 2678
+		province_id = 623
+		province_id = 624
+		province_id = 628
+		province_id = 2692
+		province_id = 631
+		province_id = 2693
+		province_id = 632
+		province_id = 633
+		province_id = 2695
+		province_id = 2716
+		province_id = 4796
+		province_id = 647
+		province_id = 646
+		province_id = 649
+		province_id = 650
+		province_id = 648
+		province_id = 4354
+		province_id = 4351
+		province_id = 4352
+		province_id = 4353
+		province_id = 4355
+		province_id = 2700
+		province_id = 4350
+		province_id = 4356
+		province_id = 654
+		province_id = 2699
+		province_id = 2738
+		province_id = 1107
+		province_id = 489
+		province_id = 2654
+		province_id = 4141
+		province_id = 54
+		#SEA SUFF
+		province_id = 2683
+		province_id = 2684
+		province_id = 2679
+		province_id = 2706
+		province_id = 635
+		province_id = 634
+		province_id = 2696
+		province_id = 2725
+		province_id = 2724
+		province_id = 2722
+		province_id = 2730
+		province_id = 2718
+		province_id = 645
+		province_id = 2717
+		province_id = 643
+		province_id = 2714
+		province_id = 4799
+		province_id = 1245
+		province_id = 651
+		province_id = 656
+		#Caribbeans
+		province_id = 488
+		province_id = 487
+		province_id = 501
+		province_id = 1881
+		province_id = 492
+		province_id = 493
+		province_id = 4621
+		province_id = 483
+		province_id = 4624
+		province_id = 2652
+		#English Channel
+		province_id = 235
+		province_id = 87
+		#Mediteranean
+		province_id = 115
+		province_id = 2982
+		province_id = 126
+		province_id = 341
+		province_id = 4736
+		province_id = 320
+		province_id = 319
+		province_id = 321
+		province_id = 2302
+		#Madagascar
+		province_id = 4049
+		province_id = 4040
+		province_id = 4042
+		#Taiwan
+		province_id = 2154
+		province_id = 1829
+		#Japan
+		province_id = 1031
+		province_id = 1033
+		province_id = 1034
+		NOT = {
+			any_neighbor_province = {
+				owner = {
+					tag = ROOT
+				}
+				OR = {
+					has_building = fort_15th
+					has_construction = fort_15th
+					has_building = fort3
+					has_construction = fort3
+					has_building = fort_16th
+					has_construction = fort_16th
+					has_building = fort5
+					has_construction = fort5
+					has_building = fort_17th
+					has_construction = fort_17th
+					has_building = fort7
+					has_construction = fort7
+					has_building = fort_18th
+					has_construction = fort_18th
+				}
+				NOT = { is_capital = yes }
+			}
+		}
+		NOT = {
+			any_neighbor_province = {
+				owner = {
+					tag = ROOT
+				}
+				OR = {
+					has_building = fort_15th
+					has_construction = fort_15th
+					has_building = fort3
+					has_construction = fort3
+					has_building = fort_16th
+					has_construction = fort_16th
+					has_building = fort5
+					has_construction = fort5
+					has_building = fort_17th
+					has_construction = fort_17th
+					has_building = fort7
+					has_construction = fort7
+					has_building = fort_18th
+					has_construction = fort_18th
+				}
+				NOT = {
+					AND = {
+						has_province_flag = mjl_new_conquest_fort_delay
+						NOT = { had_province_flag = { flag = mjl_new_conquest_fort_delay days = 182 } }
+					}
+				}
+			}
+		}
+	}
+}
+
+is_african_culture = {
+	OR = {
+		# mande
+		culture = mali
+		culture = songhai
+		culture = soninke
+		culture = bambara
+		culture = bozo
+		culture = dyola
+		# sahelian
+		culture = hausa
+		culture = kanuri
+		culture = bilala
+		culture = tunjur
+		culture = tuareg
+		culture = senegambian
+		culture = fulani
+		# west_african
+		culture = yorumba
+		culture = aka
+		culture = nupe
+		culture = fon
+		culture = mossi
+		culture = dagomba
+		# southern_african
+		culture = makua
+		culture = nguni
+		culture = bemba
+		culture = khoisan
+		culture = shona
+		culture = nyasa
+		# kongo_group
+		culture = lunda
+		culture = luba
+		culture = kongolese
+		culture = yaka
+		culture = kuba
+		culture = mbundu
+		culture = chokwe
+		culture = mbangala
+		culture = jukun
+		culture = sawabantu
+		culture = lingala
+		# great_lakes_group
+		culture = rwandan
+		culture = ganda
+		culture = masaba
+		# african
+		culture = madagasque
+		culture = takama
+		culture = bena
+		culture = bantu
+		culture = swahili
+		# cushitic
+		culture = somali
+		culture = harari
+		culture = afar
+		culture = oromo
+		culture = tigray
+		culture = sidamo
+		culture = amhara
+		# sudanese
+		culture = fur_culture
+		culture = acholi
+		culture = nubian
+		culture = beja
+		# maghrebi
+		culture = moroccan
+		culture = tunisian
+		culture = algerian
+		culture = berber
+	}
+}
+is_african_primary_culture = {
+	OR = {
+		# mande
+		primary_culture = mali
+		primary_culture = songhai
+		primary_culture = soninke
+		primary_culture = bambara
+		primary_culture = bozo
+		primary_culture = dyola
+		# sahelian
+		primary_culture = hausa
+		primary_culture = kanuri
+		primary_culture = bilala
+		primary_culture = tunjur
+		primary_culture = tuareg
+		primary_culture = senegambian
+		primary_culture = fulani
+		# west_african
+		primary_culture = yorumba
+		primary_culture = aka
+		primary_culture = nupe
+		primary_culture = fon
+		primary_culture = mossi
+		primary_culture = dagomba
+		# southern_african
+		primary_culture = makua
+		primary_culture = nguni
+		primary_culture = bemba
+		primary_culture = khoisan
+		primary_culture = shona
+		primary_culture = nyasa
+		# kongo_group
+		primary_culture = lunda
+		primary_culture = luba
+		primary_culture = kongolese
+		primary_culture = yaka
+		primary_culture = kuba
+		primary_culture = mbundu
+		primary_culture = chokwe
+		primary_culture = mbangala
+		primary_culture = jukun
+		primary_culture = sawabantu
+		primary_culture = lingala
+		# great_lakes_group
+		primary_culture = rwandan
+		primary_culture = ganda
+		primary_culture = masaba
+		# african
+		primary_culture = madagasque
+		primary_culture = takama
+		primary_culture = bena
+		primary_culture = bantu
+		primary_culture = swahili
+		# cushitic
+		primary_culture = somali
+		primary_culture = harari
+		primary_culture = afar
+		primary_culture = oromo
+		primary_culture = tigray
+		primary_culture = sidamo
+		primary_culture = amhara
+		# sudanese
+		primary_culture = fur_culture
+		primary_culture = acholi
+		primary_culture = nubian
+		primary_culture = beja
+	}
+}
+is_african_accepted_culture = {
+	OR = {
+		# mande
+		accepted_culture = mali
+		accepted_culture = songhai
+		accepted_culture = soninke
+		accepted_culture = bambara
+		accepted_culture = bozo
+		accepted_culture = dyola
+		# sahelian
+		accepted_culture = hausa
+		accepted_culture = kanuri
+		accepted_culture = bilala
+		accepted_culture = tunjur
+		accepted_culture = tuareg
+		accepted_culture = senegambian
+		accepted_culture = fulani
+		# west_african
+		accepted_culture = yorumba
+		accepted_culture = aka
+		accepted_culture = nupe
+		accepted_culture = fon
+		accepted_culture = mossi
+		accepted_culture = dagomba
+		# southern_african
+		accepted_culture = makua
+		accepted_culture = nguni
+		accepted_culture = bemba
+		accepted_culture = khoisan
+		accepted_culture = shona
+		accepted_culture = nyasa
+		# kongo_group
+		accepted_culture = lunda
+		accepted_culture = luba
+		accepted_culture = kongolese
+		accepted_culture = yaka
+		accepted_culture = kuba
+		accepted_culture = mbundu
+		accepted_culture = chokwe
+		accepted_culture = mbangala
+		accepted_culture = jukun
+		accepted_culture = sawabantu
+		accepted_culture = lingala
+		# great_lakes_group
+		accepted_culture = rwandan
+		accepted_culture = ganda
+		accepted_culture = masaba
+		# african
+		accepted_culture = madagasque
+		accepted_culture = takama
+		accepted_culture = bena
+		accepted_culture = bantu
+		accepted_culture = swahili
+		# cushitic
+		accepted_culture = somali
+		accepted_culture = harari
+		accepted_culture = afar
+		accepted_culture = oromo
+		accepted_culture = tigray
+		accepted_culture = sidamo
+		accepted_culture = amhara
+		# sudanese
+		accepted_culture = fur_culture
+		accepted_culture = acholi
+		accepted_culture = nubian
+		accepted_culture = beja
+	}
+}
+has_state_edict_enabled = {
+	OR = {
+		has_state_edict = edict_advancement_effort
+		has_state_edict = edict_centralization_effort
+		has_state_edict = edict_defensive_edict
+		has_state_edict = edict_of_absolutism
+		has_state_edict = edict_of_governance
+		has_state_edict = edict_encourage_development
+		has_state_edict = edict_feudal_de_jure_law
+		has_state_edict = french_infrastructure_network
+		has_state_edict = edict_promote_military_recruitment
+		has_state_edict = edict_protect_trade
+		has_state_edict = protect_trade_empowered
+		has_state_edict = edict_religion_enforced
+		has_state_edict = edict_religious_unity
+		has_state_edict = chinese_industrialization
+		has_state_edict = feudal_taxes_state_edict
+		has_state_edict = religious_tolerance_state_edict
+		has_state_edict = state_integration_state_edict
+		has_state_edict = urbanization_state_edict
+	}
+}

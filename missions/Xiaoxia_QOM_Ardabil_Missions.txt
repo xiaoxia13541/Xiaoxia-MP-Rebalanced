@@ -1,0 +1,1369 @@
+ajam_reconquest_persia = { # 1
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		NOT = {
+			AND = {
+				has_dlc = "Winds of Change"
+				tag = TIM
+			}
+		}
+	}
+	potential = {
+		OR = {
+			# AND = {
+			# 	NOT = { has_dlc = "Winds of Change" }
+			# 	tag = TIM
+			# }
+			# tag = TRS
+			# tag = AFG
+			tag = QOM
+			AND = {
+				tag = ARL
+				has_country_flag = Ajam_Ardabil_flag
+			}
+			# tag = KHO
+			# tag = FRS
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	qom_freedom = {
+		icon = mission_have_two_subjects
+		required_missions = { }
+		position = 1
+		completed_by = 1525.1.1
+		
+		trigger = {
+			if = {
+				limit = {
+					tag = TIM
+					vassal = 1
+				}
+				NOT = {
+					any_subject_country = {
+						liberty_desire = 40
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					tag = QOM
+				}
+				army_size_percentage = 1
+			}
+			else_if = {
+				limit = {
+					tag = TIM
+					NOT = { vassal = 1 }
+				}
+				vassal = 1
+				NOT = {
+					any_subject_country = {
+						liberty_desire = 40
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						OR = {
+							tag = TIM
+							tag = QOM
+						}
+					}
+				}
+				OR = {
+					war_with = TIM
+					is_subject = no
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						exists = TIM
+					}
+				}
+				army_size_percentage = 1
+			}
+		}
+		
+		effect = {
+			add_mil_power = 60
+			add_prestige = 10
+			if = {
+				limit = {
+					NOT = { tag = TIM }
+				}
+				farsistan_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				persian_gulf_coast = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				kerman_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				431 = {
+					add_permanent_claim = ROOT
+				}
+				4327 = {
+					add_permanent_claim = ROOT
+				}
+				2217 = {
+					add_permanent_claim = ROOT
+				}
+				4342 = {
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	
+	qom_persia_one = {
+		icon = mission_arabian_fort
+		required_missions = { qom_freedom }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = farsistan_area
+				area = persian_gulf_coast
+				area = kerman_area
+				province_id = 431
+				province_id = 4327
+				province_id = 2217
+				province_id = 4342
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			LRI = { exists = no	}
+			farsistan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			persian_gulf_coast = {
+				type = all
+				owned_by = ROOT
+			}
+			kerman_area = {
+				type = all
+				owned_by = ROOT
+			}
+			431 = {
+				owned_by = ROOT
+			}
+			4327 = {
+				owned_by = ROOT
+			}
+			2217 = {
+				owned_by = ROOT
+			}
+			4342 = {
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_treasury = 400
+			413 = {
+				add_permanent_claim = ROOT
+			}
+			414 = {
+				add_permanent_claim = ROOT
+			}
+			2210 = {
+				add_permanent_claim = ROOT
+			}
+			isfahan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			iraq_e_ajam_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			azerbaijan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	qom_persia_two = {
+		icon = mission_persian_soldiers
+		required_missions = { qom_persia_one }
+		position = 5
+		
+		provinces_to_highlight = {
+			OR = {
+				area = isfahan_area
+				area = iraq_e_ajam_area
+				area = azerbaijan_area
+				province_id = 413
+				province_id = 414
+				province_id = 2210
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			ARD = { exists = no }
+			413 = {
+				owned_by = ROOT
+			}
+			414 = {
+				owned_by = ROOT
+			}
+			2210 = {
+				owned_by = ROOT
+			}
+			isfahan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			iraq_e_ajam_area = {
+				type = all
+				owned_by = ROOT
+			}
+			azerbaijan_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_adm_power = 100
+			add_country_modifier = {
+				name = "tim_mountain_reconquest"
+				duration = 5475
+			}
+		}
+	}
+	
+}
+
+ajam_khorasan = { # 3 
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Dharma"
+	}
+	potential = {
+		OR = {
+			# tag = TIM
+			# tag = TRS
+			# tag = AFG
+			tag = QOM
+			AND = {
+				tag = ARL
+				has_country_flag = Ajam_Ardabil_flag
+			}
+			# tag = KHO
+		}
+		NOT = {
+			AND = {
+				has_dlc = "Winds of Change"
+				tag = TIM
+			}
+		}
+		has_dlc = "Dharma"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	qom_army_built = {
+		icon = mission_non-western_soldiers
+		required_missions = { }
+		
+		trigger = {
+			army_size_percentage = 1
+			manpower_percentage = 0.6
+			num_of_generals = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "oma_buildforces_mod"
+				duration = 5475
+			}
+			mashhad_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			birjand_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sistan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			herat_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lahore_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			506 = {
+				add_permanent_claim = ROOT
+			}
+			2078 = {
+				add_permanent_claim = ROOT
+			}
+			510 = {
+				add_permanent_claim = ROOT
+			}
+			2075 = {
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
+	}
+	
+	qom_khorasan_one = {
+		icon = per_establish_western_defenses
+		required_missions = { qom_army_built }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				area = mashhad_area
+				area = birjand_area
+				area = sistan_area
+				area = herat_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			mashhad_area = {
+				type = all
+				owned_by = ROOT
+			}
+			birjand_area = {
+				type = all
+				owned_by = ROOT
+			}
+			sistan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			herat_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			ghor_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			kabulistan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			balkh_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
+	}
+	
+	qom_khorasan_two = {
+		icon = per_establish_eastern_defenses
+		required_missions = { qom_khorasan_one }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = ghor_area
+				area = kabulistan_area
+				area = balkh_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			ghor_area = {
+				type = all
+				owned_by = ROOT
+			}
+			kabulistan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			balkh_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_adm_power = 100
+			add_country_modifier = {
+				name = "tim_heartland_reconquest"
+				duration = 5475
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
+	}
+
+	qom_indian_raid = {
+		icon = mission_indian_stateman
+		position = 4
+		required_missions = { }
+		
+		
+		provinces_to_highlight = {
+			area = kabulistan_area
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			kabulistan_area = {
+				owned_by = ROOT
+			}
+			army_size = 40
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "mug_formation_hope"
+				duration = 9125 #25 years
+			}
+			if = {
+				limit = { is_year = 1750 }
+				define_general = {
+					name = "Ahmad Khan Abdali"
+					shock = 1
+					fire = 5
+					manuever = 5
+					siege = 2
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1700 }
+				define_general = {
+					name = "Nadir Quli Beg"
+					fire = 3
+					shock = 5
+					manuever = 5
+					siege = 1
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1650 }
+				define_general = {
+					name = "Aurangzîb Timurid"
+					shock = 5
+					fire = 5
+					manuever = 2
+					siege = 0
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1600 }
+				define_general = {
+					name = "Akbar Timurid"
+					shock = 4
+					fire = 4
+					manuever = 2
+					siege = 2
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1550 }
+				define_general = {
+					name = "Humayun Timurid"
+					shock = 4
+					fire = 4
+					manuever = 2
+					siege = 2
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1500 }
+				define_general = {
+					name = "Babur Timurid"
+					shock = 5
+					fire = 5
+					manuever = 3
+					siege = 1
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1450 }
+				define_general = {
+					name = "Abu Said Timurid"
+					shock = 5
+					fire = 4
+					manuever = 3
+					siege = 1
+					trait = master_of_arms_personality
+				}
+			}
+			else = {
+				define_general = {
+					name = "Abu Said Timurid"
+					shock = 5
+					fire = 4
+					manuever = 3
+					siege = 1
+					trait = master_of_arms_personality
+				}
+			}
+			lahore_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sind_sagar_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	qom_conquer_punjab_MUG = {
+		icon = mission_indian_soldier_elephant
+		required_missions = { qom_indian_raid }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = lahore_area
+				area = sind_sagar_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			lahore_area = {
+				type = all
+				owned_by = ROOT
+			}
+			sind_sagar_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "mug_looting"
+				duration = 9125 #25 years
+			}
+			sirhind_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_doab_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
+	}
+	
+	qom_conquer_delhi = {
+		icon = mission_monarch_in_throne_room
+		required_missions = { qom_conquer_punjab_MUG }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = sirhind_area
+				area = upper_doab_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			sirhind_area = {
+				type = all
+				owned_by = ROOT
+			}
+			upper_doab_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "mug_fall_of_delhi"
+				duration = 9125 #25 years
+			}
+			add_treasury = 500
+			add_prestige = 20
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
+	}
+}
+
+ajam_reconquest_transoxiana = { # 5
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		NOT = {
+			AND = {
+				has_dlc = "Winds of Change"
+				tag = TIM
+			}
+		}
+	}
+	potential = {
+		OR = {
+			# AND = {
+				# NOT = { has_dlc = "Winds of Change" }
+				# tag = TIM
+			# }
+			# tag = TRS
+			# tag = AFG
+			tag = QOM
+			AND = {
+				tag = ARL
+				has_country_flag = Ajam_Ardabil_flag
+			}
+			# tag = KHO
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	qom_stability = {
+		icon = mission_arabian_fort
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			stability	= 2
+		}
+		
+		effect = {
+			transoxiana_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			termez_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			458 = {
+				add_permanent_claim = ROOT
+			}
+			1967 = {
+				add_permanent_claim = ROOT
+			}
+			457 = {
+				add_permanent_claim = ROOT
+			}
+			2356 = {
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500
+		}
+	}
+	
+	qom_transoxiana_one = {
+		icon = mission_central_asian_city
+		required_missions = { qom_stability }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = transoxiana_area
+				area = termez_area
+				province_id = 458
+				province_id = 1967
+				province_id = 457
+				province_id = 2356
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			transoxiana_area = {
+				type = all
+				owned_by = ROOT
+			}
+			termez_area = {
+				type = all
+				owned_by = ROOT
+			}
+			458 = {
+				owned_by = ROOT
+			}
+			1967 = {
+				owned_by = ROOT
+			}
+			457 = {
+				owned_by = ROOT
+			}
+			2356 = {
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			merv_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			437 = {
+				add_permanent_claim = ROOT
+			}
+			438 = {
+				add_permanent_claim = ROOT
+			}
+			2349 = {
+				add_permanent_claim = ROOT
+			}
+			2214 = {
+				add_permanent_claim = ROOT
+			}
+			441 = {
+				add_permanent_claim = ROOT
+			}
+			2362 = {
+				add_permanent_claim = ROOT
+			}
+			1973 = {
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500
+		}
+	}
+	
+	qom_transoxiana_two = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { qom_transoxiana_one }
+		position = 5
+		
+		provinces_to_highlight = {
+			OR = {
+				area = merv_area
+				province_id = 437
+				province_id = 438
+				province_id = 2349
+				province_id = 2214
+				province_id = 441
+				province_id = 2362
+				province_id = 1973
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			merv_area = {
+				type = all
+				owned_by = ROOT
+			}
+			437 = {
+				owned_by = ROOT
+			}
+			438 = {
+				owned_by = ROOT
+			}
+			2349 = {
+				owned_by = ROOT
+			}
+			2214 = {
+				owned_by = ROOT
+			}
+			441 = {
+				owned_by = ROOT
+			}
+			2362 = {
+				owned_by = ROOT
+			}
+			1973 = {
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_adm_power = 100
+			add_country_modifier = {
+				name = "tim_steppe_reconquest"
+				duration = 5475
+			}
+		}
+		ai_weight = {
+			factor = 500
+		}
+	}
+	
+}
+
+
+# 成立阿尔达比勒之后拥有以下任务
+qom_ardabil_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = ARL
+		has_country_flag = Ajam_Ardabil_flag
+		NOT = { map_setup = map_setup_random }
+		has_dlc = "King of Kings"
+	}
+	has_country_shield = yes
+
+	qom_expand_country_mission = {
+		icon = mission_unite_west_india
+		required_missions = { qom_build_army_mission }
+		position = 7
+		trigger = { grown_by_development = 50 }
+		effect = {
+			capital_scope = {
+				area = {
+					limit = { country_or_non_sovereign_subject_holds = ROOT }
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+					add_province_modifier = {
+						name = "growth_of_capital"
+						duration = 9125 #25 years
+					}
+				}
+			}
+		}
+	}
+
+	qom_conquer_states = {
+		icon = mission_gharbianss
+		required_missions = { qom_expand_country_mission }
+		position = 8
+		trigger = { grown_by_states = 4 }
+		effect = {
+			add_country_modifier = {
+				name = "expansionist_country"
+				duration = 9125 #25 years
+			}
+			if = { 
+				limit = { 
+					has_dlc = "Rights of Man" 
+					NOT = { num_of_ruler_traits = { amount = 3 } }
+				} 
+				add_ruler_personality = conqueror_personality
+			}
+			else = { add_mil_power = 50 }
+		}
+	}
+}
+
+qom_ardabil_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ARL
+		has_country_flag = Ajam_Ardabil_flag
+		NOT = { map_setup = map_setup_random }
+		has_dlc = "King of Kings"
+	}
+	has_country_shield = yes
+
+	qom_build_army_mission = { 
+		icon = mission_unite_the_deccan
+		required_missions = {  }
+		position = 6
+		trigger = {
+			army_size_percentage = 1 
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125
+			}
+			tabriz_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			shirvan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qom_conquer_tabriz = {
+		icon = mission_into_persia_1
+		required_missions = { qom_build_army_mission }
+		position = 7
+		provinces_to_highlight = {
+			area = tabriz_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			tabriz_area = {
+				type = all 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			416 = { add_core = ROOT }
+			add_war_exhaustion = -2
+		}
+	}
+
+	qom_unite_home_region = {
+		icon = unite_the_realm
+		position = 9
+		required_missions = { qom_conquer_states qom_into_persia }
+		provinces_to_highlight = {
+			region_for_scope_province = {
+				is_capital_of = ROOT
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			religion = shiite
+			custom_trigger_tooltip = {
+				tooltip = unite_home_region2_ct
+				capital_scope = {
+					region_for_scope_province = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT 
+					}
+				}
+			}
+			iraq_arabi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			basra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+			add_country_modifier = {
+				name = sword_of_safavi
+				duration = -1
+			}
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+			}
+		}
+	}
+
+}
+
+qom_ardabil_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = ARL
+		has_country_flag = Ajam_Ardabil_flag
+		NOT = { map_setup = map_setup_random }
+		has_dlc = "King of Kings"
+	}
+	has_country_shield = yes
+
+	qom_into_persia = {
+		icon = mission_into_persia_2
+		required_missions = { qom_conquer_tabriz qom_conquer_shirvan }
+		position = 8
+		provinces_to_highlight = {
+			region = persia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = persia_region 
+				value = 15
+			}
+		}
+		effect = {
+			country_event = { id = flavor_per.79 }
+
+			custom_tooltip = flavor_per.79_tt
+		}
+	}
+}
+
+qom_ardabil_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = ARL
+		has_country_flag = Ajam_Ardabil_flag
+		NOT = { map_setup = map_setup_random }
+		has_dlc = "King of Kings"
+	}
+	has_country_shield = yes
+
+	qom_conquer_shirvan = {
+		icon = mission_persianate_empire
+		required_missions = { qom_build_army_mission }
+		position = 7
+		provinces_to_highlight = {
+			area = shirvan_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			421 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			add_stability_or_adm_power = yes
+		}
+	}
+
+	qom_establish_the_safaviyya = {
+		icon = mission_spoils_of_war
+		required_missions = { qom_conquer_shirvan }
+		position = 8
+		trigger = {
+			capital_scope = {
+				if = {
+					limit = { has_dlc = "Golden Century" }
+					has_holy_order_trigger = yes
+				}
+				else = {
+					base_manpower = 7
+					has_manpower_building_trigger = yes
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = arl_lion_of_blood
+				duration = -1
+			}
+			if = { 
+				limit = { 
+					capital_scope = {
+						has_fort_building_trigger = no 
+					}
+				}
+				capital_scope = {
+					add_latest_building = {
+						fort = yes
+						builder = ROOT
+					}
+				}
+			}
+			else = {
+				capital_scope = { add_base_manpower = 2 }
+			}
+
+			if = { 
+				limit = { 
+					capital_scope = {
+						has_tax_building_trigger = no 
+					}
+				}
+				capital_scope = {
+					add_latest_building = {
+						tax = yes
+						builder = ROOT
+					}
+				}
+			}
+			else = {
+				capital_scope = { add_base_tax = 1 }
+			}
+		}
+	}
+
+	qom_rise_safavids = {
+		icon = mission_persian_lion
+		required_missions = { qom_establish_the_safaviyya qom_promote_piety qom_into_persia }
+		position = 9
+		provinces_to_highlight = {
+			region = persia_region 
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			religion = shiite
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = persia_region 
+				value = 30
+			}
+			if = {
+				limit = { 
+					OR = {
+						has_dlc = "Rights of Man"
+						has_dlc = "Emperor"
+					}
+				}
+				is_great_power = yes 
+			}
+			else = {
+				total_development = 400
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = rise_safavids_modifier
+				duration = -1
+			}
+		}
+	}
+}
+
+qom_ardabil_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = ARL
+		has_country_flag = Ajam_Ardabil_flag
+		NOT = { map_setup = map_setup_random }
+		has_dlc = "King of Kings"
+	}
+	has_country_shield = yes
+
+	qom_establish_qizilbash = {
+		icon = mission_persian_soldiers
+		required_missions = {  }
+		position = 6
+		trigger = {
+			if = {
+				limit = { has_estate = estate_qizilbash }
+				has_estate_privilege = estate_qizilbash_establish_the_qizilbash_regiments
+				num_of_qizilbash = 3
+			}
+			else = {
+				monthly_mil = 8
+			}
+		}
+		effect = {
+			add_army_tradition = 20
+		}
+	}
+
+	qom_effective_governance = {
+		icon = mission_muslim_administrators
+		required_missions = { qom_establish_qizilbash }
+		position = 7
+		trigger = {
+			if = {
+				limit = { has_government_mechanic = feudal_theocracy_mechanic }
+				custom_trigger_tooltip = {
+					tooltip = used_either_feudal_theocracy_buttons_tt
+					OR = {
+						has_country_modifier = seize_clerical_holdings_modifier
+						any_owned_province = {
+							has_province_modifier = invite_minorities_modifier
+						}
+					}
+				}
+			}
+			else = {
+				stability = 2
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_government_mechanic = feudal_theocracy_mechanic
+				}
+				if = {
+					limit = {
+						has_country_modifier = seize_clerical_holdings_modifier
+					}
+					custom_tooltip = arl_clerical_reward_yes_tt
+				}
+				else = { custom_tooltip = arl_clerical_reward_no_tt }
+				tooltip = {
+					change_estate_land_share = {
+						estate = estate_church
+						share = -5
+					}
+					capital_scope = {
+						add_base_tax = 1
+					}
+				}
+				if = {
+					limit = {
+						any_owned_province = {
+							has_province_modifier = invite_minorities_modifier
+						}
+					}
+					custom_tooltip = arl_minorities_reward_yes_tt
+				}
+				else = { custom_tooltip = arl_minorities_reward_no_tt }
+				tooltip = {
+					capital_scope = { 
+						add_base_production = 1
+						add_base_manpower = 1
+					}
+				}
+			}
+			else = {
+				change_government_reform_progress = 100
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_country_modifier = seize_clerical_holdings_modifier
+					}
+					change_estate_land_share = {
+						estate = estate_church
+						share = -5
+					}
+					capital_scope = {
+						add_base_tax = 1
+					}
+				}
+				if = {
+					limit = {
+						any_owned_province = {
+							has_province_modifier = invite_minorities_modifier
+						}
+					}
+					capital_scope = { 
+						add_base_production = 1
+						add_base_manpower = 1
+					}
+				}
+			}
+		}
+	}
+
+	qom_promote_piety = {
+		icon = mission_hands_praying
+		required_missions = { qom_effective_governance }
+		position = 8
+		trigger = {
+			if = {
+				limit = { has_dlc = "Cradle of Civilization" }
+				OR = {
+					piety = 0.8
+					NOT = { piety = -0.8 }
+				}
+			}
+			else = {
+				employed_advisor = { type = inquisitor }
+			}
+			religious_unity = 0.75
+		}
+		effect = {
+			custom_tooltip = add_core_of_all_persian_shiite_provinces_tt
+			hidden_effect = {
+				persia_region = {
+					limit = { religion = shiite }
+					add_core = ROOT
+				}
+			}
+			add_country_modifier = {
+				name = arl_pious_conquest_modifier
+				duration = 9125	
+			}
+		}
+	}
+}
+	

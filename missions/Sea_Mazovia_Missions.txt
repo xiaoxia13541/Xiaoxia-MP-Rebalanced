@@ -1,0 +1,97 @@
+sea_mazovia_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = MAZ
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	maz_conquer_and_prosper = {
+		icon = mission_unite_home_region
+		provinces_to_highlight = {
+			area = sandomierz_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			sandomierz_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			poland_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	maz_new_poland = {
+		icon = mission_pol_deal_mazovia
+		required_missions = { maz_conquer_and_prosper }
+		provinces_to_highlight = {
+			OR = {
+				owned_by = POL
+				owned_by = LIT
+				AND = {
+					region = poland_region
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		trigger = {
+			NOT = { exists = POL }
+			NOT = { exists = LIT }
+			poland_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = maz_new_poland_modifier
+				duration = -1
+			}
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+	maz_found_the_hussars = {
+		icon = mission_conquer_5_states
+		provinces_to_highlight = {
+			area = malopolska_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			owns_core_province = 257
+			owns_core_province = 262
+			malopolska_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+		}
+		effect = {
+			257 = { add_center_of_trade_level = 1 }
+			262 = { add_center_of_trade_level = 1 }
+			# capital_scope = {
+			# 	hussars_cavalry = ROOT
+			# 	hussars_cavalry = ROOT
+			# 	hussars_cavalry = ROOT
+			# 	hussars_cavalry = ROOT
+			# 	hussars_cavalry = ROOT
+			# }
+		}
+		ai_weight = {
+			factor = 1000
+		}
+	}
+}

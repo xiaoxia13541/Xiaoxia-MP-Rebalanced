@@ -1,0 +1,124 @@
+npl_war_bng = {
+	cavalry_power = 0.15
+}
+npl_war_jnp = {
+	infantry_power = 0.10
+}
+mirecek_npl_defense_forts = {
+	local_defensiveness = 0.10
+}
+mirecek_stronk_nepal = {
+	prestige = 0.5
+}
+mirecek_trade = {
+	trade_efficiency = 0.10
+}
+mirecek_mountains_npl = {
+	local_development_cost = -0.10
+}
+mirecek_artic_adaptation_npl = {
+	local_development_cost = -0.35
+}
+mirecek_palpa_district_npl = {
+	trade_goods_size_modifier = 0.25
+	trade_goods_size = 0.5
+}
+mirecek_malla_influence_npl = {
+	monarch_admin_power = -1
+	monarch_diplomatic_power = 1
+}
+mirecek_malla_goods = {
+	global_trade_goods_size_modifier = 0.1
+	tolerance_own = 1
+}
+mirecek_npl_faith = {
+	tolerance_own = 1
+}
+mirecek_npl_faith_manpower = {
+	manpower_in_true_faith_provinces= 0.10
+}
+
+npl_thriving_arms_industry = {
+	land_maintenance_modifier = -0.1
+}
+
+npl_simroungarh_maintenance_mission_reward = {
+	global_tax_income = 12	
+}
+
+npl_palpa_maintenance_mission_reward = {
+	global_tax_income = 12	
+}
+
+# Georgia:
+georgia_strenght_is_in_unity_mod = {
+	global_regiment_cost = -0.10
+	land_morale = 0.05
+	can_bypass_forts = yes
+}
+georgia_crusade_against_ottomans = {
+	siege_ability = 0.10
+	land_morale = 0.10
+	shock_damage_received = -0.10
+}
+georgia_defence = {
+	own_territory_dice_roll_bonus = 1
+	hostile_attrition = 1
+	max_hostile_attrition = 1
+}
+georgia_trebizond_defence = {
+	local_defensiveness = 0.2
+	local_hostile_attrition = 1
+}
+georgia_victory_monument = {
+	prestige = 0.5
+}
+georgia_victory_celebration = {
+	global_unrest = -2
+	global_tax_modifier = 0.10
+}
+georgia_fuck_turkey = {
+	land_morale = 0.05
+	tolerance_own = 1
+	prestige_from_land = 0.50
+}
+georgia_destroy_qq = {
+	shock_damage_received = -0.10
+	fire_damage_received = -0.10
+}
+georgia_convert_bombermen = {
+	global_missionary_strength = 0.02
+	global_autonomy = -0.05
+}
+georgia_revive_the_aznauri = {
+	cavalry_fire = 0.2
+	cavalry_shock = 0.2
+	cavalry_cost = -0.2
+	cav_to_inf_ratio = 0.15
+	global_regiment_cost = -0.2
+	is_cossack_modifier = yes
+}
+georgia_conquer_heatens_mod = {
+	warscore_cost_vs_other_religion = -0.10
+}
+georgia_persia_uurah = {
+	trade_efficiency = 0.1
+}
+georgia_dev = {
+	local_development_cost = -0.1
+}
+georgia_wine = {
+	local_unrest = -1
+	trade_value_modifier = 0.25
+}
+georgia_manganese = {
+	global_trade_goods_size_modifier = 0.05
+}
+
+georgia_local_fort_buff = {
+	local_fort_maintenance_modifier = -0.5
+	local_defensiveness = 0.33
+}
+geo_tame_the_mountains_modifier = {
+	local_development_cost = -0.15
+}

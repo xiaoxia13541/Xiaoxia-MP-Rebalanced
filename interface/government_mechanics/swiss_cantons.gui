@@ -1,0 +1,103 @@
+guiTypes = {
+	windowType = { # Copied and adjusted from government_interaction_type
+		name = "sea_swiss_cantons_power_gov_mech"
+		size = { x = 300 y = 0 }
+		moveable = 0
+		
+		iconType = { 
+			name = "government_power_bar"
+			spriteType = "GFX_swiss_cantons_power_bar"
+			position = { x = 49 y = 14 }
+		}
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_swiss_cantons_power_bar_frame"
+			position = { x = 6 y = -2 }
+			alwaystransparent = yes
+		}
+	}
+	windowType = {
+		name = "sea_swiss_cantons_decrease_gov_mech"
+		size = { x = 37 y = 38 }
+		moveable = 0
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_sea_swiss_cantons_decrease_button"
+			position = { x = 4 y = 5 }
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "sea_swiss_cantons_empty_gov_mech"
+		size = { x = 0 y = 0 }
+		moveable = 0
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_sea_swiss_cantons_empty_button"
+			position = { x = 0 y = 0 }
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "sea_swiss_cantons_increase_gov_mech"
+		size = { x = 37 y = 38 }
+		moveable = 0
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_sea_swiss_cantons_increase_button"
+			position = { x = 222 y = 5 }
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "sea_swiss_cantons_1_gov_mech"
+		size = { x = 58 y = 58 }
+		moveable = 0
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_sea_swiss_cantons_1"
+			position = { x = 61 y = 1 }
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "sea_swiss_cantons_2_gov_mech"
+		size = { x = 58 y = 58 }
+		moveable = 0
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_sea_swiss_cantons_2"
+			position = { x = 63 y = 1 }
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "sea_swiss_cantons_3_gov_mech"
+		size = { x = 58 y = 58 }
+		moveable = 0
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_sea_swiss_cantons_3"
+			position = { x = 65 y = 1 }
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+}

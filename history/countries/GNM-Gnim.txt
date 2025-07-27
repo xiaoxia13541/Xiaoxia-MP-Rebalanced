@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = h_reform_warlord_1
+government_rank = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = jianghuai
+capital = 1824	#Wenzhou
+historical_rival = CXI
+historical_rival = CYI
+historical_rival = CSH
+historical_rival = YUE
+historical_rival = QIC
+historical_rival = RYU
+
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}

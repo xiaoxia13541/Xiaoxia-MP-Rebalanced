@@ -1,0 +1,92 @@
+country_decisions = {
+	khorazm_horde_nation = {
+		major = yes
+		potential = {
+			technology_group = muslim
+			primary_culture = uzbehk
+			is_nomad = yes
+			NOT = { tag = TIM }
+			NOT = { tag = BUK }
+			NOT = { was_tag = TIM }
+			NOT = { was_tag = BUK }
+			was_never_end_game_tag_trigger = yes
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 454 # 核心省份撒马尔罕454，木鹿445，希瓦441，克孜勒库姆455，乌尔根奇1973，戈勒斯坦2214，萨里4341
+				province_id = 445
+				province_id = 441
+				province_id = 455
+				province_id = 1973
+				province_id = 2214
+				province_id = 4341
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 445
+			owns_core_province = 441
+			owns_core_province = 455
+			owns_core_province = 1973
+			owns_core_province = 2214
+			owns_core_province = 4341
+			454 = {
+				owned_by = ROOT	
+				is_state_core = ROOT	
+			}
+		}
+
+		effect = {
+			change_tag = KRZ
+			on_change_tag_effect = yes
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			change_primary_culture = khorazm_culture
+			custom_tooltip = embrace_khorazm_culture_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = { 
+						is_core = ROOT 
+						culture = uzbehk
+					}
+						change_culture = khorazm_culture
+				}
+			}	
+			remove_accepted_culture = uzbehk
+			set_ruler_culture = khorazm_culture
+			if = {
+				limit = { 
+					has_heir = yes
+					NOT = { heir_culture = khorazm_culture }
+				}
+				set_heir_culture = khorazm_culture
+			}
+			if = {
+				limit = { 
+					has_consort = yes
+					NOT = { consort_culture = khorazm_culture }
+				}
+				set_consort_culture = khorazm_culture
+			}
+			# swap_non_generic_missions = yes 等后续花剌子模专属任务
+
+			set_government_rank = 3
+			add_government_reform = khorazm_horde_nation
+			central_asia_region = {
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 # high
+	}
+}

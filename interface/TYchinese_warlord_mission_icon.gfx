@@ -1,0 +1,560 @@
+# 中华群雄任务图标
+spriteTypes = {
+	# yue
+	spriteType = {
+		name = "mission_chi_dev_50"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_dev_50.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_strong_power_base"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_strong_power_base.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_fleet_on_the_sea"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_fleet_on_the_sea.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_dominate_home_trade"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_dominate_home_trade.dds"
+	}
+	
+	spriteType = {
+		name = "mission_chi_start_chaotic_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_start_chaotic_era.dds"
+	}
+	
+	spriteType = {
+		name = "mission_chi_expand_the_broder"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_expand_the_broder.dds"
+	}
+	spriteType = {
+		name = "mission_chi_spoil_the_inland"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_spoil_the_inland.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_dragon_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_dragon_era.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_access_to_vietnam"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_access_to_vietnam.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_control_red_river_detla"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_control_red_river_detla.dds"
+	}
+	
+	spriteType = {
+		name = "mission_chi_shunfa_imperial_city"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_shunfa_imperial_city.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_eastern_coast"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_eastern_coast.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_defeated_wu"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_defeated_wu.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_north_china_campaign"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_north_china_campaign.dds"
+	}
+
+	# shu
+	spriteType = {
+		name = "mission_shu_start_chaotic_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_start_chaotic_era.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_surrender_of_meng_huo"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_surrender_of_meng_huo.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_fortify_yungui_borderland"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_fortify_yungui_borderland.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_people_in_the_mountain"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_people_in_the_mountain.dds"
+	}
+	
+	spriteType = {
+		name = "mission_shu_hanzhong_frontier"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_hanzhong_frontier.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_back_to_pervious_capital"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_back_to_pervious_capital.dds"
+	}
+	
+	spriteType = {
+		name = "mission_shu_peacify_the_north"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_peacify_the_north.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_claim_chongqing"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_claim_chongqing.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_campaign_of_jinzhou"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_campaign_of_jinzhou.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_defeat_wu"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_defeat_wu.dds"
+	}
+	
+	spriteType = {
+		name = "mission_shu_han_dynasty"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_han_dynasty.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_the_land_of_abundance"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_the_land_of_abundance.dds"
+	}
+	
+	spriteType = {
+		name = "mission_shu_relation_with_xiliang"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_relation_with_xiliang.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_integrate_zhuang_people"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_integrate_zhuang_people.dds"
+	}
+
+	spriteType = {
+		name = "mission_shu_wealth_of_canton"
+		texturefile = "gfx/interface/missions/Chinese_warlord/shu_wealth_of_canton.dds"
+	}
+
+	# csh
+	spriteType = {
+		name = "mission_csh_tongguan_duel"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_tongguan_duel.dds"
+	}
+
+	spriteType = {
+		name = "mission_csh_north_china_campaign"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_north_china_campaign.dds"
+	}
+	
+	spriteType = {
+		name = "mission_csh_to_the_east_china_sea"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_to_the_east_china_sea.dds"
+	}
+	
+	spriteType = {
+		name = "mission_csh_new_master_of_beijing"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_new_master_of_beijing.dds"
+	}
+
+	spriteType = {
+		name = "mission_csh_start_chaotic_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_start_chaotic_era.dds"
+	}
+	
+	spriteType = {
+		name = "mission_csh_hanzhong_frontier"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_hanzhong_frontier.dds"
+	}
+	
+	spriteType = {
+		name = "mission_csh_invade_land_of_abundance"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_invade_land_of_abundance.dds"
+	}
+	
+	spriteType = {
+		name = "mission_csh_empires_edge"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_empires_edge.dds"
+	}
+	
+	spriteType = {
+		name = "mission_csh_qin_dynasty"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_qin_dynasty.dds"
+	}
+	
+	spriteType = {
+		name = "mission_csh_backstab_xi"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_backstab_xi.dds"
+	}
+
+	spriteType = {
+		name = "mission_csh_proclaim_xianggan_area"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_proclaim_xianggan_area.dds"
+	}
+	
+	spriteType = {
+		name = "mission_csh_chengdu_xian_trade"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_chengdu_xian_trade.dds"
+	}
+	
+	spriteType = {
+		name = "mission_csh_great_wall_protection"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_great_wall_protection.dds"
+	}
+
+	spriteType = {
+		name = "mission_csh_restore_hexi_corridor"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_restore_hexi_corridor.dds"
+	}
+
+	spriteType = {
+		name = "mission_csh_flourishing_skil_road"
+		texturefile = "gfx/interface/missions/Chinese_warlord/csh_flourishing_skil_road.dds"
+	}
+
+	spriteType = {
+		name = "mission_yue_colonize_australia"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yue_colonize_australia.dds"
+	}
+
+	spriteType = {
+		name = "mission_yue_a_strong_fleet"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yue_a_strong_fleet.dds"
+	}
+	spriteType = {
+		name = "mission_yue_exploration_on_philippines"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yue_exploration_on_philippines.dds"
+	}
+	spriteType = {
+		name = "mission_yue_spice_island"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yue_spice_island.dds"
+	}
+
+	spriteType = {
+		name = "mission_yan_vasslize_khitan"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_vasslize_khitan.dds"
+	}
+	
+	spriteType = {
+		name = "mission_yan_manchuria_outpost"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_manchuria_outpost.dds"
+	}
+	
+	spriteType = {
+		name = "mission_yan_conquer_korea"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_conquer_korea.dds"
+	}
+	
+	spriteType = {
+		name = "mission_yan_huabei_strategy"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_huabei_strategy.dds"
+	}
+	
+	spriteType = {
+		name = "mission_yan_center_of_the_stage"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_center_of_the_stage.dds"
+	}
+	
+	spriteType = {
+		name = "mission_yan_chinese_dragons_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_chinese_dragons_era.dds"
+	}
+
+	spriteType = {
+		name = "mission_yan_chinese_dragons_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_chinese_dragons_era.dds"
+	}
+	
+	spriteType = {
+		name = "mission_yan_shandong_conquest"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_shandong_conquest.dds"
+	}
+	
+	spriteType = {
+		name = "mission_yan_jianghuai_plain"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_jianghuai_plain.dds"
+	}
+
+	spriteType = {
+		name = "mission_yan_annihilate_wu"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_annihilate_wu.dds"
+	}
+	
+	spriteType = {
+		name = "mission_yan_a_strong_powerbase"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_a_strong_powerbase.dds"
+	}
+	
+	spriteType = {
+		name = "mission_yan_dominate_bohai_sea"
+		texturefile = "gfx/interface/missions/Chinese_warlord/yan_dominate_bohai_sea.dds"
+	}
+
+	# QIC
+	spriteType = {
+		name = "mission_qic_liang_shan"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_liang_shan.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_unite_shandong_warlords"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_unite_shandong_warlords.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_huabei_strategy"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_huabei_strategy.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_manchuria_outpost"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_manchuria_outpost.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_conquer_korea"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_conquer_korea.dds"
+	}
+
+	spriteType = {
+		name = "mission_qic_start_chaotic_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_start_chaotic_era.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_center_of_the_stage"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_center_of_the_stage.dds"
+	}
+
+	spriteType = {
+		name = "mission_qic_dominate_xian_trade"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_dominate_xian_trade.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_jianghuai_plain"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_jianghuai_plain.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_chinese_dragons_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_chinese_dragons_era.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_a_strong_fleet"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_a_strong_fleet.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_goldmine_in_laizhou"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_goldmine_in_laizhou.dds"
+	}
+	
+	spriteType = {
+		name = "mission_qic_control_east_china_sea"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_control_east_china_sea.dds"
+	}
+	
+	spriteType = {
+		name = "mission_WUU_take_back_hangzhou"
+		texturefile = "gfx/interface/missions/Chinese_warlord/WUU_take_back_hangzhou.dds"
+	}
+	
+	spriteType = {
+		name = "mission_wuu_strong_power_base"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_strong_power_base.dds"
+	}
+
+	spriteType = {
+		name = "mission_wuu_dominate_black_hole"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_dominate_black_hole.dds"
+	}
+	
+	spriteType = {
+		name = "mission_wuu_foothold_in_japan"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_foothold_in_japan.dds"
+	}
+
+	spriteType = {
+		name = "mission_wuu_korean_trade"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_korean_trade.dds"
+	}
+
+	spriteType = {
+		name = "mission_wuu_to_the_ocean"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_to_the_ocean.dds"
+	}
+	
+	spriteType = {
+		name = "mission_wuu_start_chaotic_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_start_chaotic_era.dds"
+	}
+	
+	spriteType = {
+		name = "mission_wuu_integrate_the_minors"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_integrate_the_minors.dds"
+	}
+		
+	spriteType = {
+		name = "mission_wuu_the_fall_of_qi"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_the_fall_of_qi.dds"
+	}
+	
+	spriteType = {
+		name = "mission_wuu_march_to_beijing"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_march_to_beijing.dds"
+	}
+	
+	spriteType = {
+		name = "mission_wuu_end_of_three_nations"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_end_of_three_nations.dds"
+	}
+	
+	spriteType = {
+		name = "mission_wuu_expand_in_china"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_expand_in_china.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_chinese_dragons_era"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_chinese_dragons_era.dds"
+	}
+
+	spriteType = {
+		name = "mission_qic_conquer_korea"
+		texturefile = "gfx/interface/missions/Chinese_warlord/qic_conquer_korea.dds"
+	}
+	#chinese generic
+	spriteType = {
+		name = "mission_chi_wonder_architect"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_wonder_architect.dds"
+	}
+	
+	spriteType = {
+		name = "mission_chi_war_machine"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_war_machine.dds"
+	}
+
+	spriteType = {
+		name = "mission_chi_leading_eastern_trade"
+		texturefile = "gfx/interface/missions/Chinese_warlord/chi_leading_eastern_trade.dds"
+	}
+
+	spriteType = {
+		name = "mission_grand_chinese_culture_gruop"
+		texturefile = "gfx/interface/missions/Chinese_warlord/grand_chinese_culture_gruop.dds"
+	}
+
+	# 新的图片
+	spriteType = {
+		name = "mission_revive_jingdezhen_klins"
+		texturefile = "gfx/interface/missions/Chinese_warlord/revive_jingdezhen_klins.dds"
+	}
+	spriteType = {
+		name = "mission_silk_road_chinese_warlord"
+		texturefile = "gfx/interface/missions/Chinese_warlord/silk_road_chinese_warlord.dds"
+	}
+	spriteType = {
+		name = "mission_sichuan_silk_production"
+		texturefile = "gfx/interface/missions/Chinese_warlord/sichuan_silk_production.dds"
+	}
+	# 吴国任务
+	spriteType = {
+		name = "mission_wuu_army1"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_army1.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_army2"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_army2.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_battle"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_battle.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_battle2"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_battle2.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_battle3"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_battle3.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_books"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_books.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_city"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_city.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_city2"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_city2.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_dangerous_meeting"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_dangerous_meeting.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_flags_waving"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_flags_waving.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_gate"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_gate.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_market"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_market.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_island"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_island.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_leader_fighting"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_leader_fighting.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_military_camping"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_military_camping.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_ship"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_ship.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_two_flags"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_two_flags.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_white_star"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_white_star.dds"
+	}
+	spriteType = {
+		name = "mission_general_riding"
+		texturefile = "gfx/interface/missions/Chinese_warlord/general_riding.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_capital_night"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_capital_night.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_map"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_map.dds"
+	}
+	spriteType = {
+		name = "mission_wuu_port1"
+		texturefile = "gfx/interface/missions/Chinese_warlord/wuu_port1.dds"
+	}
+}

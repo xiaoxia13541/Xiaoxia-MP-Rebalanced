@@ -1,0 +1,11 @@
+add_core = BEM
+owner = BEM
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = BEM
+is_city = yes
+culture = bemba
+trade_goods = sugar
+discovered_by = central_african

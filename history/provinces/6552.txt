@@ -1,0 +1,11 @@
+add_core = WAD
+owner = WAD
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = sunni
+controller = WAD
+is_city = yes
+culture = tunjur
+trade_goods = wool
+discovered_by = sub_saharan

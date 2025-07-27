@@ -1,0 +1,12 @@
+add_core = KRW
+owner = KRW
+base_tax = 2
+base_manpower = 1
+base_production = 3
+religion = shamanism
+controller = KRW
+is_city = yes
+culture = masaba
+trade_goods = fish
+discovered_by = central_african
+discovered_by = east_african

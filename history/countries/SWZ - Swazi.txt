@@ -1,0 +1,26 @@
+# Sealand
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+primary_culture = nguni
+religion = shamanism
+technology_group = central_african
+unit_type = sub_saharan
+unlock_cult = mwari_cult
+unlock_cult = central_african_ancestor_cult
+unlock_cult = cwezi_cult
+capital = 4783
+add_country_modifier = { 
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+1435.1.1 = { 
+	monarch = { 
+		birth_date = 1411.1.1
+		name = "Dlamini I"
+		dynasty = "Ngwane"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

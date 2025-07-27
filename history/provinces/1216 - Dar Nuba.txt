@@ -1,0 +1,28 @@
+#1216 - Tegali
+culture = fur_culture
+religion = shamanism
+capital = "Takala"
+native_size = 50
+base_tax = 2
+base_production = 1
+base_manpower = 2
+native_ferocity = 4
+native_hostileness = 9
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = ALO
+discovered_by = MAK
+discovered_by = WAD
+discovered_by = DAJ
+trade_goods = unknown
+1600.1.1 = { discovered_by = TUR }
+1620.1.1 = { religion = sunni }
+1444.1.1 = { 
+	owner = TGL
+	controller = TGL
+	add_core = TGL
+	discovered_by = NUB
+	discovered_by = ETH
+	trade_goods = slaves
+}

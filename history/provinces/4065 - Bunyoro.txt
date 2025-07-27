@@ -1,0 +1,15 @@
+#Bunyoro
+owner = RWA
+controller = RWA
+culture = ganda
+religion = shamanism#Fetishism
+capital = "Mugenyi"
+trade_goods = salt
+base_tax = 4
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = central_african
+add_core = RWA
+extra_cost = 8
+center_of_trade = 1

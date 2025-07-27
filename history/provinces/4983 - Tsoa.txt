@@ -1,0 +1,13 @@
+owner = KLG
+controller = KLG
+add_core = KLG
+culture = shona
+religion = shamanism#Fetishism
+trade_goods = gems
+capital = "Tsoa"
+is_city = yes
+base_tax = 2
+base_production = 3
+base_manpower = 2
+discovered_by = central_african
+discovered_by = east_african

@@ -1,0 +1,1114 @@
+namespace = foffy_china
+normal_or_historical_nations = yes
+
+country_event = {
+	id = foffy_china.1
+	title = "foffy_china.EVTNAME1"
+	desc = "foffy_china.EVTDESC1"
+	picture = CHURCH_ESTATE_2_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "foffy_china.EVTOPTA1"
+		if = {
+			limit = {
+				NOT = {
+					religion = vajrayana
+				}
+			}
+			change_religion = vajrayana
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else = {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTB1"
+		if = {
+			limit = {
+				NOT = {
+					religion = tengri_pagan_reformed 
+				}
+			}
+			change_religion = tengri_pagan_reformed 
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else= {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTC1"
+		if = {
+			limit = {
+				NOT = {
+					religion = shinto
+				}
+			}
+			change_religion = shinto
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else= {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTD1"
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				NOT = {
+					religion = confucianism
+				}
+			}
+			change_religion = confucianism
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else = {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTE1"
+		if = {
+			limit = {
+				NOT = {
+					religion = mahayana
+				}
+			}
+			change_religion = mahayana
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else = {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+}
+
+country_event = {
+	id = foffy_china.2
+	title = "foffy_china.EVTNAME2"
+	desc = "foffy_china.EVTDESC2"
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "foffy_china.EVTOPTA2"
+		define_advisor = {
+			name = "Wang Shouren"
+			female = no
+			type = philosopher
+			skill = 2
+			culture = wu
+			cost_multiplier = 0.25
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTB2"
+		define_general = {
+			name = "Wang Shouren"
+			shock = 4
+			fire = 4
+			manuever = 1
+			siege = 1
+			female = no
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTC2"
+		add_dip_power = 100
+		add_adm_power = 100
+		add_mil_power = 100
+	}
+}
+
+#Lady of the First Degree
+country_event = {
+	id = foffy_china.3
+	title = "foffy_china.EVTNAME3"
+	desc = "foffy_china.EVTDESC3"
+	picture = wihgfx_FEMALES_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "foffy_china.EVTOPTA3"
+		define_advisor = {
+			name = "Gao Guiying"
+			female = yes
+			type = army_organiser
+			skill = 2
+			culture = xibei
+			cost_multiplier = 0.5
+		}
+	}
+	
+	option = {
+		name = "foffy_china.EVTOPTB3"
+		define_general = {
+			name = "Gao Guiying"
+			shock = 4
+			fire = 2
+			manuever = 1
+			siege = 2
+			female = yes
+			trait = inspirational_leader_general_personality
+		}
+		custom_tooltip = china_csh_gao_guiying_general_tt
+	}
+	
+}
+
+ # BY小夏：
+country_event = { # Sichuan_silk_production 四川丝绸贸易
+	id = foffy_china.4
+	title = "foffy_china.EVTNAME4"
+	desc = "foffy_china.EVTDESC4"
+	picture = TRADEGOODS_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "foffy_china.EVTOPT4.A"
+		5504 = {
+			change_trade_goods = silk
+		}
+		add_country_modifier = {
+			name = increasing_diplomatic_reputation
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "foffy_china.EVTOPT4.B"
+		chengdu_area = {
+			change_trade_goods = silk
+		}
+		add_country_modifier = {
+			name = chengdu_imposed_silk_production
+			duration = -1
+		}
+	}
+}
+
+country_event = { # 瓷器涨价事件
+	id = foffy_china.5
+	title = "foffy_china.EVTNAME5"
+	desc = "foffy_china.EVTDESC5"
+	picture = confucianism_GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	goto = 2151
+	
+	option = {
+		name = "foffy_china.EVTOPT5.A"
+		change_price = {
+			trade_goods = chinaware
+			key = Restoration_of_Jingdezhen_klins
+			value = 1
+			duration = -1
+		}
+	}
+}
+
+country_event = { # 顺 中亚buff二选一
+	id = foffy_china.6
+	title = "foffy_china.EVTNAME6"
+	desc = "foffy_china.EVTDESC6"
+	picture = confucianism_GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "foffy_china.EVTOPT6.A"		
+		add_country_modifier = {
+			name = samarkand_connection_economic_modifier
+			duration = -1
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPT6.B"
+		add_country_modifier = {
+			name = samarkand_connection_policital_modifier
+			duration = -1
+		}
+	}
+}
+
+country_event = { # 茶叶 马匹涨价事件
+	id = foffy_china.7
+	title = "foffy_china.EVTNAME7"
+	desc = "foffy_china.EVTDESC7"
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+
+	is_triggered_only = yes
+	major = yes
+	
+	goto = 5504
+	
+	immediate = {
+		set_global_flag = tea_and_horse_trade_triggered_flag
+	}
+
+	option = {
+		name = "foffy_china.EVTOPT7.A"
+		change_price = {
+			trade_goods = tea
+			key = tea_and_horse_trade
+			value = 0.5
+			duration = -1
+		}
+		change_price = {
+			trade_goods = livestock
+			key = tea_and_horse_trade
+			value = 0.1
+			duration = -1
+		}
+	}
+}
+country_event = { # 卫所制政府能力 随机省份+1发展度
+	id = foffy_china.8
+	title = "foffy_china.EVTNAME8"
+	desc = "foffy_china.EVTDESC8"
+	picture = 19_Monsoon_eventPicture
+	is_triggered_only = yes
+
+	option = {# 7 8 9 10发展度
+		name = "foffy_china.EVTOPT8.A"
+		trigger = {
+			any_owned_province = {
+				NOT = { development = 10 }
+			}
+		}
+		random_owned_province = {
+			limit = {
+				development = 7
+				NOT = { development = 10 }
+			}
+			add_province_modifier = {
+				name = weisuo_border_deving
+				duration = 1825
+			}
+			add_base_manpower = 1
+		}
+	}
+	option = { # 3 4 5 6发展度
+		name = "foffy_china.EVTOPT8.B"
+		trigger = {
+			any_owned_province = {
+				NOT = { development = 7 }
+			}	
+		}
+		random_owned_province = {
+			limit = {
+				NOT = { development = 7 }
+			}
+			add_province_modifier = {
+				name = weisuo_border_deving
+				duration = 1825
+			}
+			add_base_manpower = 1
+		}
+	}
+}
+
+# 南北朝灾难开始
+country_event = {
+	id = foffy_china.9
+	title = foffy_china.9.t
+	desc = foffy_china.9.d
+	picture = NUSANTARA_WAR_eventPicture
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = clash_of_chinese_dynasty_happened_flag	
+	}
+	trigger = {
+		has_reform = h_reform_warlord_3
+		OR = {
+			tag = CSH
+			tag = QIC
+			tag = WUU
+			tag = GNM
+			tag = YUE
+			tag = CXI
+			tag = CYI
+		}
+	}	
+	option = {
+		name = foffy_china.9.a
+		add_stability = -1
+	}
+}
+
+# 南北朝灾难结束
+country_event = {
+	id = foffy_china.10
+	title = foffy_china.10.t
+	desc = foffy_china.10.d
+	picture = confucianism_BATTLE_eventPicture
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		on_non_estate_disaster_end = yes
+		set_country_flag = won_the_clash_of_chinese_dynasty_disaster_flag
+	}
+	# 胜利方
+	option = {
+		trigger = {
+			has_reform = celestial_empire
+		}
+		name = foffy_china.10.a
+		add_prestige = 100
+		add_country_modifier = {
+			name = won_chinese_disaster_modifier
+			duration = 9125
+		}
+		change_ruler_stat = {
+			type = adm
+			amount = 1
+		}
+		change_ruler_stat = {
+			type = dip
+			amount = 1
+		}
+		change_ruler_stat = {
+			type = mil
+			amount = 1
+		}
+	}
+	# 失败方
+	option = {
+		trigger = {
+			NOT = { has_reform = celestial_empire }	
+		}
+		name = foffy_china.10.b
+		add_prestige = -50
+		add_country_modifier = {
+			name = lost_chinese_disaster_modifier
+			duration = 9125
+		}
+		kill_ruler = yes
+	}
+}
+
+country_event = { # 齐 翰林院
+	id = foffy_china.11
+	title = flavor_mng.30.t
+	desc = flavor_mng.30.d
+	picture = MERITOCRACY_eventPicture
+	is_triggered_only = yes 
+
+	goto = 700
+
+	option = {
+		name = flavor_mng.30.a 
+		
+		add_country_modifier = {
+			name = chi_hanlin_academy_modifier 
+			duration = -1
+		}
+	}
+}
+
+country_event = { # 顺 中亚若断盟则清除任务获得的buff
+	id = foffy_china.12
+	title = "foffy_china.EVTNAME12"
+	desc = "foffy_china.EVTDESC12"
+	picture = confucianism_RELIGIOUS_TURMOIL_eventPicture
+
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		tag = CSH
+		any_known_country = {
+			has_country_flag = samarkand_connection_ally_flag
+			NOT = {
+				alliance_with = CSH
+			}
+		}
+		
+	}
+	option = {
+		name = "foffy_china.EVTOPT12.A"	
+		custom_tooltip = removed_samarkand_connection_modifier_tt
+		hidden_effect = {
+			every_country = {
+				if = {
+					limit = {
+						has_country_modifier = samarkand_connection_economic_modifier
+					}
+					remove_country_modifier = samarkand_connection_economic_modifier
+				}
+				if = {
+					limit = {
+						has_country_modifier = samarkand_connection_policital_modifier
+					}
+					remove_country_modifier = samarkand_connection_policital_modifier
+				}
+				if = {
+					limit = {
+						has_country_flag = samarkand_connection_ally_flag
+					}
+					clr_country_flag = samarkand_connection_ally_flag
+				}
+			}
+		}
+	}
+}
+
+# country_event = { # 西 纵容军阀灾难
+# 	id = foffy_china.13
+# 	title = foffy_china.13.t
+# 	desc = foffy_china.13.d
+# 	picture = CIVIL_WAR_eventPicture
+# 	is_triggered_only = yes 
+
+# 	option = {
+# 		name = foffy_china.13.a 
+# 		add_government_reform = cxi_indulging_warlords
+# 		add_years_of_income = -1
+# 	}
+# }
+
+country_event = { # 西 纠正军队 纵容军阀结束
+	id = foffy_china.14
+	title = foffy_china.14.t
+	desc = foffy_china.14.d
+	picture = FAT_WARRIORS_eventPicture
+
+	is_triggered_only = yes 
+	option = {
+		name = foffy_china.14.a 
+		add_country_modifier = {
+			name = cxi_suppress_warlords
+			duration = 7300
+		}
+		add_stability = -1
+		custom_tooltip = indulged_warlords_reform_will_be_removed_tt
+		hidden_effect = {	
+			remove_country_modifier = cxi_indulged_warlords_debuff	
+		}
+	}		
+}
+country_event = { # 西 莱州的地下宝藏
+	id = foffy_china.15
+	title = foffy_china.15.t
+	desc = foffy_china.15.d
+	picture = ARTWORK_eventPicture
+	is_triggered_only = yes 
+
+	option = {
+		name = foffy_china.15.a 
+		2139 = {
+			add_base_production = 2
+			change_trade_goods = gold
+		}
+	}		
+}
+country_event = { # 西 四川大屠杀 Sichuan Massacre
+	id = foffy_china.16
+	title = foffy_china.16.t
+	desc = foffy_china.16.d
+	picture = FAMINE_eventPicture
+
+	is_triggered_only = yes 
+
+	option = {
+		name = foffy_china.16.a 
+		5504 = {
+			add_base_manpower = -2
+			add_base_tax = -2
+			add_base_production = -2
+			add_devastation = 100
+			add_province_modifier = {
+				name = sichuan_massacre
+				duration = 7300
+			}
+		}
+		680 = {
+			add_base_manpower = -1
+			add_base_tax = -1
+			add_base_production = -1
+			add_devastation = 75
+			add_province_modifier = {
+				name = sichuan_massacre
+				duration = 7300
+			}
+		}
+		capital_scope = {
+			add_base_manpower = 3
+			add_base_tax = 3
+			add_base_production = 3
+		}
+		add_adm_power = 25
+		add_dip_power = 25
+		add_mil_power = 25
+		add_years_of_income = 3
+	}
+}
+
+country_event = { # 南北朝灾难事件 100传统将军
+	id = foffy_china.17
+	title = foffy_china.17.t
+	desc = foffy_china.17.d
+	picture = GENERALS_DISCUSSING_eventPicture
+
+	immediate = {
+		set_country_flag = foffy_china17_triggered_flag
+	}
+	
+	mean_time_to_happen = {
+		days = 3650
+	}	
+	trigger = {
+		NOT = {
+			has_country_flag = foffy_china17_triggered_flag
+		}
+		has_reform = h_reform_warlord_3
+		has_disaster = chinese_clash_of_two_dynasty
+		is_at_war = yes
+	}
+
+	option = {
+		name = foffy_china.17.a
+		add_prestige = 10
+		create_general = { tradition = 100 }
+	}
+
+}
+
+country_event = { # 南北朝灾难事件 省份叛乱
+	id = foffy_china.18
+	title = foffy_china.18.t
+	desc = foffy_china.18.d
+	picture = confucianism_BATTLE_eventPicture
+
+	mean_time_to_happen = {
+		days = 730
+	}	
+	immediate = {
+		if = {
+			limit = { has_country_flag = chinese_province_revolt_flag }
+			clr_country_flag = chinese_province_revolt_flag
+			set_country_flag = chinese_province_revolt_flag
+		}
+		else = {			
+			set_country_flag = chinese_province_revolt_flag
+		}
+	}
+	trigger = {
+		has_reform = h_reform_warlord_3
+		has_disaster = chinese_clash_of_two_dynasty
+		OR = {
+			NOT = {
+				has_country_flag = chinese_province_revolt_flag
+			}
+			had_country_flag = {
+				flag = chinese_province_revolt_flag
+				days = 730
+			}
+		}
+	}
+
+	option = {
+		name = foffy_china.18.a
+		add_prestige = -5
+		random_owned_province = {
+			limit = {
+				superregion = china_superregion
+			}
+			add_local_autonomy = 25
+		}
+	}
+}
+
+country_event = { # 南北朝灾难事件 省份投诚 获得核心
+	id = foffy_china.19
+	title = foffy_china.19.t
+	desc = foffy_china.19.d
+	picture = FORT_eventPicture
+
+	mean_time_to_happen = {
+		days = 730
+	}	
+	immediate = {
+		if = {
+			limit = { has_country_flag = chinese_province_core_flag }
+			clr_country_flag = chinese_province_core_flag
+			set_country_flag = chinese_province_core_flag
+		}
+		else = {			
+			set_country_flag = chinese_province_core_flag
+		}
+	}
+	trigger = {
+		has_reform = h_reform_warlord_3
+		has_disaster = chinese_clash_of_two_dynasty
+		OR = {
+			NOT = {
+				has_country_flag = chinese_province_core_flag
+			}
+			had_country_flag = {
+				flag = chinese_province_core_flag
+				days = 730
+			}
+		}
+	}
+
+	option = {
+		name = foffy_china.19.a
+		random_province = {
+			limit = {
+				NOT = { country_or_non_sovereign_subject_holds = root }
+				superregion = china_superregion
+				OWNER = {
+					has_reform = h_reform_warlord_3
+					has_disaster = chinese_clash_of_two_dynasty
+				}
+			}
+			add_territorial_core = ROOT
+		}
+	}
+}
+
+country_event = { # 南北朝灾难事件 饥荒
+	id = foffy_china.20
+	title = foffy_china.20.t
+	desc = foffy_china.20.d
+	picture = ANGRY_MOB_eventPicture
+
+	mean_time_to_happen = {
+		days = 730
+	}	
+	immediate = {
+		if = {
+			limit = { has_country_flag = chinese_province_rebel_flag }
+			clr_country_flag = chinese_province_rebel_flag
+			set_country_flag = chinese_province_rebel_flag
+		}
+		else = {			
+			set_country_flag = chinese_province_rebel_flag
+		}
+	}
+	trigger = {
+		is_at_war = yes
+		has_reform = h_reform_warlord_3
+		has_disaster = chinese_clash_of_two_dynasty
+		army_size_percentage = 1.1
+		OR = {
+			NOT = {
+				has_country_flag = chinese_province_rebel_flag
+			}
+			had_country_flag = {
+				flag = chinese_province_rebel_flag
+				days = 730
+			}
+		}
+	}
+
+	option = {
+		name = foffy_china.20.a
+		random_owned_province = {
+			limit = {
+				development = 3
+				NOT = { development = 9 }
+			}
+			spawn_rebels = {
+				type = anti_tax_rebels 
+				size = 1
+			}
+		}	
+		random_owned_province = {
+			limit = { development = 10 }
+			spawn_rebels = {
+				type = anti_tax_rebels 
+				size = 1
+			}
+		}
+	}
+}
+
+# country_event = { # 纳土称臣 还没想好怎么写 先注释掉
+# 	id = foffy_china.21
+# 	title = foffy_china.21.t
+# 	desc = foffy_china.21.d
+# 	picture = EMPEROR_eventPicture
+
+# 	fire_only_once = yes
+
+# 	mean_time_to_happen = {
+# 		days = 730
+# 	}
+
+# 	trigger = {
+# 		tag = CSH
+# 		any_known_country = {
+# 			is_neighbor_of = CSH
+# 			war_with = CSH
+# 			war_score = -50
+# 			capital_scope = {
+# 				superregion = china_superregion
+# 			}
+# 			NOT = { total_development = 50 }
+# 		}
+# 	}
+
+# 	option = {
+# 		name = foffy_china.21.a
+		# 该国被顺吞并或附庸
+# 	}
+# }
+
+country_event = { # 顺 失散部队重聚
+	id = foffy_china.22
+	title = foffy_china.22.t
+	desc = foffy_china.22.d
+	picture = FORTIFIED_CITY_WITH_CARAVAN_OUTSIDE_eventPicture
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1200
+	}
+
+	trigger = {
+		is_at_war = no
+		tag = CSH
+		700 = {
+			owned_by = CSH
+			is_core = CSH
+		}
+	}
+
+	option = {
+		name = foffy_china.22.a
+		capital_scope = {
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+		}
+		create_general = { tradition = 60 }
+		random_province = {
+			limit = {
+				superregion = china_superregion
+				NOT = { owned_by = CSH } 
+				NOT = { is_core = CSH }
+				any_neighbor_province = {
+					owned_by = CSH
+				}
+			}
+			add_core = CSH
+		}
+	}
+}
+
+country_event = { # 吴 派遣眼线去杭州 如果杭州还存在 和吴国没有停战
+	id = foffy_china.23
+	title = foffy_china.23.t
+	desc = foffy_china.23.d
+	picture = SPY_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = foffy_china.23.a
+		custom_tooltip = wuu_send_a_diplomat_spynetwork_tt
+		HNG = {
+			set_country_flag = spy_infiltrated_flag
+		}
+	}
+}
+
+country_event = { # 吴 准备起事
+	id = foffy_china.24
+	title = foffy_china.24.t
+	desc = foffy_china.24.d
+	fire_only_once = yes
+	picture = muslimgfx_SIEGE_eventPicture
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	trigger = {
+		tag = WUU
+		WUU = {
+			has_spy_network_in = {
+				who = HNG
+				value = 30
+			}
+		}
+		HNG = {
+			has_country_flag = spy_infiltrated_flag
+		}
+	}
+
+	option = {
+		name = foffy_china.24.a
+		HNG = {
+			capital_scope = {
+				spawn_rebels = {
+					size = 1
+					type = independence_rebels
+					friend = WUU
+					leader = "Zhu Zhanji"
+				}
+			}
+			clr_country_flag = spy_infiltrated_flag
+		}
+	}
+}
+
+country_event = { # 邀请攻打南京
+	id = foffy_china.26
+	title = foffy_china.26.t
+	desc = foffy_china.26.d
+	picture = SPY_eventPicture
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	trigger = {
+		tag = WUU
+		owns_core_province = 684
+	}
+
+	option = {
+		name = foffy_china.26.a
+		custom_tooltip = attack_or_not_meme_tt
+		1821 = {
+			add_province_modifier = {
+				name = njg_defecting_defense
+				duration = 3650
+			}
+		}
+	}
+}
+
+country_event = { # 明朝贵族篡位
+	id = foffy_china.27
+	title = foffy_china.27.t
+	desc = foffy_china.27.d
+	picture = REVOLUTION_eventPicture
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 30 
+	}
+
+	trigger = {
+		tag = WUU
+		owns_core_province = 1821
+		owns_core_province = 684
+		mission_completed = wuu_nanjing_campaign
+	}
+
+	option = {
+		name = foffy_china.27.a # 你们，你们要干什么？！
+		change_tag = GNM # 镜像版大明
+		swap_non_generic_missions = yes
+		swap_free_idea_group = yes
+		
+		kill_ruler = yes 
+		if = {
+			limit = { has_heir = yes }
+			remove_heir = {}
+		}
+		define_ruler = {
+			name = "Youjian"
+			dynasty = "Zhu"
+			adm = 5
+			dip = 4
+			mil = 4
+			claim = 50
+			culture = jianghuai
+			age = 20
+		}
+		hidden_effect = {
+			if = {
+				limit = { 1821 = { has_province_modifier = njg_defecting_defense } }
+				1821 = { remove_province_modifier = njg_defecting_defense }
+			}
+		}
+	}
+}
+
+# 彝 
+country_event = { # 融合藏传佛教
+	id = foffy_china.28
+	title = foffy_china.28.t #
+	desc = foffy_china.28.d
+	picture = BUDDHISM_MONASTERY_eventPicture
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = foffy_china.28.a # 研习《大藏经》！
+		add_adm_power = 50
+		add_treasury = -50
+	}
+	option = {
+		name = foffy_china.28.b # 《阿弥陀经》是我们学习的范本！
+		add_dip_power = 50
+		add_treasury = -50
+	}
+	option = {
+		name = foffy_china.28.c # 只翻译《无量寿经》足矣！ 
+		add_mil_power = 50
+		add_treasury = -50
+	}
+	option = {
+		name = foffy_china.28.e # 朗诵《观无量寿经》吧！
+		highlight = yes
+		trigger = { ruler_has_personality = embezzler_personality }	
+		add_adm_power = 50
+		add_dip_power = 50
+		add_treasury = -150
+	}
+	option = {
+		name = foffy_china.28.f # 不如举办盛大的炜桑仪式！
+		highlight = yes
+		trigger = { ruler_has_personality = petty_personality }		
+		add_adm_power = 50
+		add_mil_power = 50
+		add_treasury = -150
+	}
+	option = {
+		name = foffy_china.28.g # 让他们每天念诵六字真言:唵嘛呢呗咪吽
+		highlight = yes
+		trigger = { ruler_has_personality = babbling_buffoon_personality }
+		add_mil_power = 50 
+		add_dip_power = 50
+		add_treasury = -150
+	}
+	option = {
+		name = foffy_china.28.h # 我全都要！
+		highlight = yes
+		trigger = { ruler_has_personality = greedy_personality }
+		add_adm_power = 50
+		add_mil_power = 50
+		add_dip_power = 50
+		add_treasury = -250
+	}
+}
+
+country_event = { # 彝族人的道路 选择进军中华还是西南霸主
+	id = foffy_china.29 
+	title = foffy_china.29.t 
+	desc = foffy_china.29.d
+	picture = 3_SONS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = foffy_china.29.a # 进军中华！ 启用转为中华文化组决议 + 永久buff
+		set_country_flag = cyi_integrate_into_china_flag
+		swap_non_generic_missions = yes
+		add_country_modifier = {
+			name = cyi_integrate_into_china_modifier
+			duration = -1
+			desc = until_end_of_age_desc
+		}
+	}
+
+	option = {
+		name = foffy_china.29.b # 成为缅甸霸主！ 启用转为缅甸文化决议  +永久buff
+		set_country_flag = cyi_focus_on_indochina_flag
+		swap_non_generic_missions = yes
+		add_country_modifier = {
+			name = cyi_focus_indochina_modifier
+			duration = -1
+			desc = until_end_of_age_desc
+		}
+	}
+}
+
+country_event = { # 青铜神树
+	id = foffy_china.30 
+	title = foffy_china.30.t 
+	desc = foffy_china.30.d
+	picture = 3_SONS_eventPicture
+
+	trigger = {
+		5504 = {
+			religion = xiaoxia_bimox
+			owner = { religion = xiaoxia_bimox }
+		}
+		NOT = {
+			has_country_flag = foffy_china_30_FLAG 
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 730
+	}
+
+	option = { # 供人朝拜
+		name = foffy_china.30.a
+		add_treasury = -100
+		add_adm_power = 50
+		5504 = {
+			if = {
+				limit = { NOT = { culture = yi } }
+				change_culture = yi
+			}
+			if ={
+				limit = { NOT = { religion = xiaoxia_bimox } }
+				change_religion = xiaoxia_bimox
+			}
+			add_province_triggered_modifier = bimox_chengdu
+		}
+		set_country_flag = foffy_china_30_FLAG 
+	}
+
+	option = { # 只是一些垃圾而已
+		name = foffy_china.30.b
+		add_prestige = -5
+		set_country_flag = foffy_china_30_FLAG 
+	}
+}

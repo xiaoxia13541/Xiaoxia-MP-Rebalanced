@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 1
+base_production = 1
+culture = mongol
+trade_goods = livestock
+religion = vajrayana
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = QIA
+controller = QIA
+add_core = QIA
+discovered_by = indian

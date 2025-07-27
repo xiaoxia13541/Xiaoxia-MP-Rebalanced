@@ -1,0 +1,9 @@
+# Sealand
+government = monarchy
+add_government_reform = imperial_japan_monarchy
+government_rank = 3
+primary_culture = togoku
+add_accepted_culture = korean
+religion = shinto
+technology_group = chinese
+capital = 1020	# Kyoto

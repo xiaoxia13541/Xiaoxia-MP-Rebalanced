@@ -1,0 +1,25 @@
+# 2880 - Ejin
+owner = KAM#KHA
+controller = KAM#KHA
+culture = tibetan
+religion = vajrayana
+capital = "Ejin"
+trade_goods = wool
+base_tax = 3
+base_production = 2
+base_manpower = 2
+# citysize = 1500
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+estate = estate_nomadic_tribes
+1634.1.1 = { 
+	controller = MCH
+	add_core = MCH
+}
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes
+add_core = KAM

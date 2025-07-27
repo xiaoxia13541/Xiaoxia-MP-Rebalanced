@@ -1,0 +1,16 @@
+#5754 - Henties Bay
+culture = lunda
+religion = shamanism#Fetishism
+capital = "Henties Bay"
+trade_goods = slaves
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 50
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = central_african
+add_core = KIK
+owner = KIK
+controller = KIK
+is_city = yes

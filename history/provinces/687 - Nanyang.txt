@@ -1,0 +1,23 @@
+#687 - Zhoujiakou
+owner = WEI
+controller = WEI
+culture = zhongyuan
+religion = confucianism
+capital = "Zhoujiakou"
+trade_goods = chinaware
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 27400
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+1641.1.1 = { controller = REB revolt = { type = anti_tax_rebels size = 2 } }
+1643.1.1 = { controller = CSH revolt = { size = 1 } }
+1645.7.1 = { 
+	add_core = QNG
+	controller = QNG
+}
+is_city = yes
+add_core = WEI
+fort_15th = yes

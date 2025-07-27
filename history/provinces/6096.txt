@@ -1,0 +1,12 @@
+base_tax = 1
+base_manpower = 1
+base_production = 1
+trade_goods = unknown
+religion = sunni
+native_size = 57
+native_ferocity = 2
+native_hostileness = 4
+culture = tuareg
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = sub_saharan

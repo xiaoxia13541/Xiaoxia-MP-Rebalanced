@@ -1,0 +1,32 @@
+#648 - Halmahera
+
+owner = TER
+controller = TER
+add_core = TER
+is_city = yes
+culture = moluccan
+religion = animism
+capital = "Halmahera"
+trade_goods = cloves
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 1
+
+
+
+discovered_by = chinese
+
+1512.1.1 = { discovered_by = POR } # Francisco Serrão
+
+1650.1.1 = {
+	owner = NED
+	controller = NED
+	culture = dutch
+	religion = reformed
+	is_city = yes
+	trade_goods = spices
+} # Loosely controlled by the Dutch

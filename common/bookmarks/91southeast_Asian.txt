@@ -1,0 +1,19 @@
+bookmark =
+{
+	name = "TY_BOOKMARK_SOUTHEAST_ASIA"
+	desc = "TY_BOOKMARK_SOUTHEAST_ASIA_DESC"
+	date = 1444.11.11
+	
+	center = 1367
+
+	country = TAU
+	country = LXA
+	country = AYU
+	country = KHM
+	country = MLC
+	country = PSA
+	country = BEI
+	country = MAS
+	country = MAJ
+	
+}

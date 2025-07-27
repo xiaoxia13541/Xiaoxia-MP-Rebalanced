@@ -1,0 +1,14 @@
+# Athens, a Byzantine vassal
+vassal = {
+	first = BYZ
+	second = ATH
+	start_date = 1444.6.1
+	end_date = 1453.5.29
+}
+# Ottoman vassal
+guarantee = {
+	first = TUR
+	second = RAG
+	start_date = 1444.1.1
+	end_date = 1528.1.1
+}

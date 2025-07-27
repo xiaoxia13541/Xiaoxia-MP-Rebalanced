@@ -1,0 +1,20 @@
+# 3631 - Xinxiang
+owner = SUI
+controller = SUI
+add_core = SUI
+culture = zhongyuan
+religion = confucianism
+capital = "Xinxiang"
+trade_goods = naval_supplies
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1644.10.1 = { controller = MCH }
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}

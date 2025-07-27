@@ -1,0 +1,42 @@
+estate_sea_mercs = {
+	modifier_definition = {
+		key = sea_merc_shock_damage
+		trigger = { always = yes }
+	}
+	modifier_definition = {
+		key = sea_merc_fire_damage_and_cost
+		trigger = { always = yes }
+	}
+	modifier_definition = {
+		key = sea_merc_morale_and_manpower
+		trigger = { always = yes }
+	}
+	modifier_definition = {
+		key = sea_merc_cost_and_power
+		trigger = { always = yes }
+	}
+	modifier_definition = {
+		key = sea_merc_manpower
+		trigger = { always = yes }
+	}
+	modifier_definition = {
+		key = sea_merc_reinforce_speed_and_discipline
+		trigger = { always = yes }
+	}
+	modifier_definition = {
+		key = sea_special_units_double_fl
+		trigger = { always = yes }
+	}
+	modifier_definition = {
+		key = allowed_musketeer_fraction_tt
+		trigger = { always = yes }
+	}
+	modifier_definition = {
+		key = trained_subject_officers_tt
+		trigger = { always = yes }
+	}
+	modifier_definition = {
+		key = trained_marines_act_marines_tt
+		trigger = { always = yes }
+	}
+}

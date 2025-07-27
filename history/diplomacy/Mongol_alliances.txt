@@ -1,0 +1,91 @@
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = TRG
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = OLO
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = KOD
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = ZUN
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = KSD
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = DOR
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = KRG
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = HMI
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = TUM
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = SYG
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = TUV
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = ALL
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+dependency = {
+	subject_type = "tumen_vassal"
+	first = OIR
+	second = CJJ
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}

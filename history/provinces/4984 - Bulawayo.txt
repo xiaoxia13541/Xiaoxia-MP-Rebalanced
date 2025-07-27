@@ -1,0 +1,13 @@
+owner = RZW
+controller = RZW
+add_core = RZW
+culture = shona
+religion = shamanism#Fetishism
+trade_goods = slaves
+capital = "Bulawayo"
+is_city = yes
+base_tax = 2
+base_production = 2
+base_manpower = 2
+discovered_by = east_african
+discovered_by = central_african

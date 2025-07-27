@@ -1,0 +1,30 @@
+# 5562 - Zuoyun
+owner = JII
+controller = JII
+culture = chihan
+religion = confucianism
+capital = "Zuoyun"
+trade_goods = naval_supplies
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1608.1.1 = { discovered_by = SPA }
+1644.1.1 = { 
+	controller = CSH
+	add_core = CSH
+}
+1644.10.3 = { 
+	controller = QNG
+	add_core = QNG
+}
+1649.5.1 = { 
+	controller = MNG
+}
+1650.11.11 = { 
+	controller = QNG
+}
+add_core = JII

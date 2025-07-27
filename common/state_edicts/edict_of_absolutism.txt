@@ -1,0 +1,33 @@
+edict_of_absolutism = {
+	potential = {
+		always = yes
+	}
+	
+	allow = {
+		always = yes
+		custom_trigger_tooltip = {
+			tooltip = sea_remove_state_edicts_flag_tt
+			OR = {
+				NOT = { has_country_flag = sea_state_edicts_clear_flag }
+				had_country_flag = {
+					flag = sea_state_edicts_clear_flag
+					days = 33
+				}
+			}
+		}
+	}
+	
+	modifier = {
+	
+		local_monthly_devastation = -0.25
+	}
+	
+	color = {  116 198 240  }
+	on_state_edict_revoked = { FROM = { clr_country_flag = sea_state_edicts_decision_edict_of_absolutism_flag } }
+	
+	
+	ai_will_do = {
+		factor = 0
+	}
+	
+}

@@ -1,0 +1,16 @@
+government = tribal
+government_rank = 1
+add_government_reform = steppe_horde
+primary_culture = oirats
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 4208#Kuytun
+1414.1.1 = { 
+	monarch = { 
+		name = "Galdan Boshugtu"
+		dynasty = "Choros"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

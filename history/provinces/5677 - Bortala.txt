@@ -1,0 +1,19 @@
+#5677 - Bortala
+
+owner = ZUN
+controller = ZUN
+add_core = ZUN
+culture = oirats
+religion = tengri_pagan_reformed
+capital = "Bortala"
+trade_goods = cloth
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group
+
+

@@ -1,0 +1,13 @@
+base_tax = 3
+base_manpower = 2
+base_production = 2
+culture = cantonese
+trade_goods = wool
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = YUE
+owner = YUE
+controller = YUE
+discovered_by = indian

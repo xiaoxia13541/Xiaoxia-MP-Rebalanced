@@ -1,0 +1,11 @@
+add_core = JOL
+owner = JOL
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = JOL
+is_city = yes
+culture = senegambian
+trade_goods = slaves
+discovered_by = sub_saharan

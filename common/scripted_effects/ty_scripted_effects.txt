@@ -1,0 +1,39 @@
+# 汉化操作封装 by小夏
+
+ty_sinicized_culture_group = {
+	every_province = {
+		limit = {
+			culture = $culture$
+		}
+		change_culture = $culture$_new
+	}
+	every_country = {
+		if ={
+			limit = { primary_culture = $culture$ }
+			change_primary_culture = $culture$_new
+			set_ruler_culture = $culture$_new
+		}
+
+		if = {
+			limit = { 
+				has_heir = yes 
+				heir_culture = $culture$
+			}
+			set_heir_culture = $culture$_new
+		}
+
+		if = {
+			limit = {
+				has_consort = yes
+				consort_culture = $culture$
+			}
+			set_consort_culture = $culture$_new
+		}
+
+		if = {
+			limit = { accepted_culture = $culture$ }
+			remove_accepted_culture = $culture$
+			add_accepted_culture = $culture$_new
+		}
+	}
+}

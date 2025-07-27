@@ -1,0 +1,61 @@
+# 变更毕摩崇拜
+namespace = xiaoxia_bimox
+
+country_event = {
+	id = xiaoxia_bimox.1
+	title = "xiaoxia_bimox.1.t"
+	desc = "hindu_events.1.d"
+	picture = PRAYING_eventPicture
+ 
+	is_triggered_only = yes
+	immediate = {
+		set_country_flag = is_choosing_bimox_deity_flag
+	}
+	option = {
+		name = xiaoxia_bimox.1.a
+		change_personal_deity = madu
+		clr_country_flag = is_choosing_bimox_deity_flag
+		clr_country_flag = xiaoxia_change_bimox_deity
+		set_country_flag = xiaoxia_change_bimox_deity
+	}
+	option = {
+		name = xiaoxia_bimox.1.b
+		change_personal_deity = zuobi
+		clr_country_flag = is_choosing_bimox_deity_flag
+		clr_country_flag = xiaoxia_change_bimox_deity
+		set_country_flag = xiaoxia_change_bimox_deity
+	}
+	option = {
+		name = xiaoxia_bimox.1.c
+		change_personal_deity = zhuoni
+		clr_country_flag = is_choosing_bimox_deity_flag
+		clr_country_flag = xiaoxia_change_bimox_deity
+		set_country_flag = xiaoxia_change_bimox_deity
+	}
+	option = {
+		name = xiaoxia_bimox.1.d
+		change_personal_deity = xiaobu
+		clr_country_flag = is_choosing_bimox_deity_flag
+		clr_country_flag = xiaoxia_change_bimox_deity
+		set_country_flag = xiaoxia_change_bimox_deity
+	}
+	option = {
+		name = xiaoxia_bimox.1.e
+		change_personal_deity = lici
+		clr_country_flag = is_choosing_bimox_deity_flag
+		clr_country_flag = xiaoxia_change_bimox_deity
+		set_country_flag = xiaoxia_change_bimox_deity
+	}
+	option = {
+		name = xiaoxia_bimox.1.f
+		change_personal_deity = zuori
+		clr_country_flag = is_choosing_bimox_deity_flag
+		clr_country_flag = xiaoxia_change_bimox_deity
+		set_country_flag = xiaoxia_change_bimox_deity
+	}
+	option = {
+		name = sea_advisor_event.0.0
+		clr_country_flag = is_choosing_bimox_deity_flag
+	}
+	
+}

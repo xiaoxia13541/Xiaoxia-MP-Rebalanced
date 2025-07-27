@@ -1,0 +1,15 @@
+culture = khoisan
+religion = shamanism #Fetishism
+capital = "Aliwal"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 1
+discovered_by = central_african
+
+
+1750.1.1 = { discovered_by = NED } # Farmers migrated up to the Great Fish river

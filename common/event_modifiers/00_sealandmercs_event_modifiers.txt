@@ -1,0 +1,14 @@
+sealand_cawa_fl_base = {
+	local_amount_of_cawa = 15
+}
+sealand_cawa_base_maintenance = {
+	land_maintenance_modifier = 0.5
+	is_cawa_modifier = yes
+}
+#
+sealand_mercenary_manpower_modifier_printing_press = {
+	mercenary_manpower = 0.2
+}
+sealand_mercenary_manpower_modifier_manufactories = {
+	mercenary_manpower = 0.2
+}

@@ -1,0 +1,11 @@
+owner = TYO
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = TYO
+is_city = yes
+culture = yaka
+trade_goods = tropical_wood
+discovered_by = central_african
+add_core = TYO

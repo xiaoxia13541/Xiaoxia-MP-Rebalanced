@@ -1,0 +1,12 @@
+add_core = MRA
+owner = MRA
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = MRA
+is_city = yes
+culture = nyasa
+trade_goods = cotton
+discovered_by = east_african
+discovered_by = central_african

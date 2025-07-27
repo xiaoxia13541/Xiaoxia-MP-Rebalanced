@@ -1,0 +1,12 @@
+add_core = MKU
+owner = MKU
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = MKU
+is_city = yes
+culture = makua
+trade_goods = naval_supplies
+discovered_by = east_african
+discovered_by = central_african

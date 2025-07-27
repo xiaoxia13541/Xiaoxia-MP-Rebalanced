@@ -1,0 +1,10 @@
+culture = al_misr_arabic
+religion = sunni
+capital = "Abeshr"
+trade_goods = unknown
+base_tax = 2
+base_production = 2
+base_manpower = 2
+discovered_by = DAR
+discovered_by = ottoman
+discovered_by = muslim

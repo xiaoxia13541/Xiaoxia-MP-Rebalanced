@@ -1,0 +1,20 @@
+# 2472 - Longnan
+owner = SHU
+controller = SHU
+add_core = SHU
+culture = sichuanese
+religion = confucianism
+capital = "Longnan"
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 2
+# citysize = 12500
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes

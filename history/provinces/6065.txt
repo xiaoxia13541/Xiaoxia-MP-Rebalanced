@@ -1,0 +1,12 @@
+add_core = BSG
+owner = BSG
+base_tax = 3
+base_manpower = 3
+base_production = 3
+religion = shamanism
+controller = BSG
+is_city = yes
+culture = masaba
+trade_goods = tropical_wood
+discovered_by = central_african
+discovered_by = east_african

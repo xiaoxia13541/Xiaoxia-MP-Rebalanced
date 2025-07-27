@@ -1,0 +1,10 @@
+base_tax = 1
+base_manpower = 1
+base_production = 1
+is_city = yes
+add_core = TDO
+owner = TDO
+culture = filipino
+religion = animism
+controller = TDO
+trade_goods = fish

@@ -1,0 +1,9 @@
+zlewikk_florrynomics_modifier = {
+	interest = 0.01
+}
+zlewikk_arumba_modifier = {
+	cavalry_flanking = 2.00
+}
+zlewikk_habibi_modifier = {
+	movement_speed = 1.00
+}

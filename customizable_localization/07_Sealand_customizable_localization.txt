@@ -1,0 +1,503 @@
+####################
+#Change Muslim School
+defined_text = {
+	name = GetMonthName_change_school_modifier
+	random = no
+
+	text = {
+		localisation_key = January
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 0 } }
+	}
+	text = {
+		localisation_key = February
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 1 } }
+	}
+	text = {
+		localisation_key = March
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 2 } }
+	}
+	text = {
+		localisation_key = April
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 3 } }
+	}
+	text = {
+		localisation_key = May
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 4 } }
+	}
+	text = {
+		localisation_key = June
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 5 } }
+	}
+	text = {
+		localisation_key = July
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 6 } }
+	}
+	text = {
+		localisation_key = August
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 7 } }
+	}
+	text = {
+		localisation_key = September
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 8 } }
+	}
+	text = {
+		localisation_key = October
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 9 } }
+	}
+	text = {
+		localisation_key = November
+		trigger = { is_variable_equal = { which = change_school_modifier_was_set_month value = 10 } }
+	}
+	text = {
+		localisation_key = December
+	}
+}
+####################
+#Mercantilism Privilege use:
+defined_text = {
+	name = GetMonthName_mercantilism_use
+	random = no
+
+	text = {
+		localisation_key = January
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 0 } }
+	}
+	text = {
+		localisation_key = February
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 1 } }
+	}
+	text = {
+		localisation_key = March
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 2 } }
+	}
+	text = {
+		localisation_key = April
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 3 } }
+	}
+	text = {
+		localisation_key = May
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 4 } }
+	}
+	text = {
+		localisation_key = June
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 5 } }
+	}
+	text = {
+		localisation_key = July
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 6 } }
+	}
+	text = {
+		localisation_key = August
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 7 } }
+	}
+	text = {
+		localisation_key = September
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 8 } }
+	}
+	text = {
+		localisation_key = October
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 9 } }
+	}
+	text = {
+		localisation_key = November
+		trigger = { is_variable_equal = { which = mercantilism_use_was_set_month value = 10 } }
+	}
+	text = {
+		localisation_key = December
+	}
+}
+####################
+# Papal Swiss Guard Mercs:
+defined_text = {
+	name = GetMonthName_sea_recruited_swiss_guard_mercs_modifier
+	random = no
+
+	text = {
+		localisation_key = January
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 0 } }
+	}
+	text = {
+		localisation_key = February
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 1 } }
+	}
+	text = {
+		localisation_key = March
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 2 } }
+	}
+	text = {
+		localisation_key = April
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 3 } }
+	}
+	text = {
+		localisation_key = May
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 4 } }
+	}
+	text = {
+		localisation_key = June
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 5 } }
+	}
+	text = {
+		localisation_key = July
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 6 } }
+	}
+	text = {
+		localisation_key = August
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 7 } }
+	}
+	text = {
+		localisation_key = September
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 8 } }
+	}
+	text = {
+		localisation_key = October
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 9 } }
+	}
+	text = {
+		localisation_key = November
+		trigger = { is_variable_equal = { which = sea_recruited_swiss_guard_mercs_modifier_was_set_month value = 10 } }
+	}
+	text = {
+		localisation_key = December
+	}
+}
+####################
+# State edict names:
+defined_text = {
+	name = SeaStateEdictName
+	random = no
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_advancement_effort
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_advancement_effort_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_centralization_effort
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_centralization_effort_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_defensive_edict
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_defensive_edict_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_of_absolutism
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_of_absolutism_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_of_governance
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_of_governance_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_encourage_development
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_encourage_development_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_feudal_de_jure_law
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_feudal_de_jure_law_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_french_infrastructure_network
+		trigger = { has_country_flag = sea_state_edicts_decision_french_infrastructure_network_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_promote_military_recruitment
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_promote_military_recruitment_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_protect_trade
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_protect_trade_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_protect_trade_empowered
+		trigger = { has_country_flag = sea_state_edicts_decision_protect_trade_empowered_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_religion_enforced
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_religion_enforced_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_edict_religious_unity
+		trigger = { has_country_flag = sea_state_edicts_decision_edict_religious_unity_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_chinese_industrialization
+		trigger = { has_country_flag = sea_state_edicts_decision_chinese_industrialization_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_feudal_taxes_state_edict
+		trigger = { has_country_flag = sea_state_edicts_decision_feudal_taxes_state_edict_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_religious_tolerance_state_edict
+		trigger = { has_country_flag = sea_state_edicts_decision_religious_tolerance_state_edict_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_state_integration_state_edict
+		trigger = { has_country_flag = sea_state_edicts_decision_state_integration_state_edict_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_urbanization_state_edict
+		trigger = { has_country_flag = sea_state_edicts_decision_urbanization_state_edict_flag }
+	}
+	text = {
+		localisation_key = sea_state_edicts_decision_no_edict
+	}
+}
+####################
+# Custom Piety:
+defined_text = {
+	name = GetMonthName_sea_low_piety_action_was_set_month
+	random = no
+	text = { localisation_key = January trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 0 } } }
+	text = { localisation_key = February trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 1 } } }
+	text = { localisation_key = March trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 2 } } }
+	text = { localisation_key = April trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 3 } } }
+	text = { localisation_key = May trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 4 } } }
+	text = { localisation_key = June trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 5 } } }
+	text = { localisation_key = July trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 6 } } }
+	text = { localisation_key = August trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 7 } } }
+	text = { localisation_key = September trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 8 } } }
+	text = { localisation_key = October trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 9 } } }
+	text = { localisation_key = November trigger = { is_variable_equal = { which = sea_low_piety_action_was_set_month value = 10 } } }
+	text = { localisation_key = December }
+}
+defined_text = {
+	name = GetMonthName_sea_high_piety_action_was_set_month
+	random = no
+	text = { localisation_key = January trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 0 } } }
+	text = { localisation_key = February trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 1 } } }
+	text = { localisation_key = March trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 2 } } }
+	text = { localisation_key = April trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 3 } } }
+	text = { localisation_key = May trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 4 } } }
+	text = { localisation_key = June trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 5 } } }
+	text = { localisation_key = July trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 6 } } }
+	text = { localisation_key = August trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 7 } } }
+	text = { localisation_key = September trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 8 } } }
+	text = { localisation_key = October trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 9 } } }
+	text = { localisation_key = November trigger = { is_variable_equal = { which = sea_high_piety_action_was_set_month value = 10 } } }
+	text = { localisation_key = December }
+}
+####################
+# Swiss Mercs:
+defined_text = {
+	name = SwissMercsUnitType
+	random = no
+	text = {
+		localisation_key = swiss_mercs_unit_3
+		trigger = {
+			mil_tech = 23
+		}
+	}
+	text = {
+		localisation_key = swiss_mercs_unit_2
+		trigger = {
+			mil_tech = 12
+			NOT = { mil_tech = 23 }
+		}
+	}
+	text = { localisation_key = swiss_mercs_unit_1 }
+}
+defined_text = {
+	name = SwissMercsLimitReached
+	random = no
+	text = {
+		localisation_key = swiss_mercs_fl_limit_reached
+		trigger = {
+			# Tech 23-32
+			if = {
+				limit = {
+					mil_tech = 23
+				}
+				if = {
+					limit = {
+						land_forcelimit = 1
+						NOT = { land_forcelimit = 24 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 10 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 24
+						NOT = { land_forcelimit = 48 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 20 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 48
+						NOT = { land_forcelimit = 96 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 30 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 96
+						NOT = { land_forcelimit = 192 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 40 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 192
+						NOT = { land_forcelimit = 384 }
+					}
+					NOT = { sea_swiss_mercenaries_3 = 80 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 384
+					}
+					NOT = { sea_swiss_mercenaries_3 = 120 }
+				}
+			}
+			# Tech 12-22
+			else_if = {
+				limit = {
+					mil_tech = 12
+					NOT = { mil_tech = 23 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 1
+						NOT = { land_forcelimit = 24 }
+					}
+					NOT = { sea_swiss_mercenaries_2 = 10 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 24
+						NOT = { land_forcelimit = 48 }
+					}
+					NOT = { sea_swiss_mercenaries_2 = 20 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 48
+						NOT = { land_forcelimit = 96 }
+					}
+					NOT = { sea_swiss_mercenaries_2 = 30 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 96
+						NOT = { land_forcelimit = 192 }
+					}
+					NOT = { sea_swiss_mercenaries_2 = 40 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 192
+					}
+					NOT = { sea_swiss_mercenaries_2 = 60 }
+				}
+			}
+			# tech 1-12
+			else = {
+				if = {
+					limit = {
+						land_forcelimit = 1
+						NOT = { land_forcelimit = 40 }
+					}
+					NOT = { sea_swiss_mercenaries_1 = 10 }
+				}
+				if = {
+					limit = {
+						land_forcelimit = 40
+					}
+					NOT = { sea_swiss_mercenaries_1 = 20 }
+				}
+			}
+		}
+	}
+	text = { localisation_key = swiss_mercs_fl_limit_not_reached }
+}
+####################
+# England/Breat Britain:
+defined_text = {
+	name = GetGBRNavyArmyBuildingManp
+	random = no
+	text = {
+		localisation_key = gbr_navy_army_buildings_manp_tt
+		trigger = { has_country_flag = gbr_navy_army_buildings_flag tag = GBR }
+	}
+}
+defined_text = {
+	name = GetGBRNavyArmyBuildingManp2
+	random = no
+	text = {
+		localisation_key = gbr_navy_army_buildings_manp2_tt
+		trigger = { has_country_flag = gbr_navy_army_buildings_flag tag = GBR }
+	}
+}
+defined_text = {
+	name = GetGBRNavyArmyBuildingFl
+	random = no
+	text = {
+		localisation_key = gbr_navy_army_buildings_fl_tt
+		trigger = { has_country_flag = gbr_navy_army_buildings_flag tag = GBR }
+	}
+}
+defined_text = {
+	name = GetGBRNavyArmyBuildingFl2
+	random = no
+	text = {
+		localisation_key = gbr_navy_army_buildings_fl2_tt
+		trigger = { has_country_flag = gbr_navy_army_buildings_flag tag = GBR }
+	}
+}
+####################
+#Primitive Religion:
+#defined_text = {
+#	name = GetSeaPrimiteReligionName
+#	random = no
+#	text = {
+#		localisation_key = authority
+#		trigger = { religion = inti }
+#	}
+#	text = {
+#		localisation_key = doom
+#		trigger = { religion = nahuatl }
+#	}
+#}
+#defined_text = {
+#	name = GetSeaPrimiteReligionValue
+#	random = no
+#	text = {
+#		localisation_key = sea_authority_value
+#		trigger = { religion = inti }
+#	}
+#	text = {
+#		localisation_key = sea_doom_value
+#		trigger = { religion = nahuatl }
+#	}
+#}
+#defined_text = {
+#	name = GetSeaPrimiteReligionValueChange
+#	random = no
+#	text = {
+#		localisation_key = sea_authority_value_change
+#		trigger = { religion = inti }
+#	}
+#	text = {
+#		localisation_key = sea_doom_value_change
+#		trigger = { religion = nahuatl }
+#	}
+#}
+#defined_text = {
+#	name = GetSeaPrimiteReligionText
+#	random = no
+#	text = {
+#		localisation_key = sea_authority_text
+#		trigger = { religion = inti }
+#	}
+#	text = {
+#		localisation_key = sea_doom_text
+#		trigger = { religion = nahuatl }
+#	}
+#}
+#defined_text = {
+#	name = GetSeaPrimiteReligionReformButton
+#	random = no
+#	text = {
+#		localisation_key = GOTTA_CATCH_THEM_ALL_REFORMS
+#		trigger = { NOT = { check_variable = { which = sea_primitive_religion_reform_amount value = 5 } } }
+#	}
+#}

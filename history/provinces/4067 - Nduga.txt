@@ -1,0 +1,16 @@
+#Rwanda
+latent_trade_goods = { 
+	coal 
+}
+owner = RWA
+controller = RWA
+add_core = RWA
+culture = ganda
+religion = shamanism#Fetishism
+capital = "Nduga"
+trade_goods = iron
+base_tax = 5
+base_production = 4
+base_manpower = 3
+is_city = yes
+discovered_by = central_african

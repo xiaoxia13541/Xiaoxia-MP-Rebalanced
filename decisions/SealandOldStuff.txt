@@ -1,0 +1,585 @@
+# Sealand. Taken from 1.4.1
+############################
+# MILITARY:
+
+country_decisions = {
+
+	naval_recruiting_act = {
+		potential = {
+			NOT = { has_country_modifier = the_recruiting_act }
+			num_of_ports = 1
+		}
+		allow = {
+			full_idea_group =  maritime_ideas
+			full_idea_group = innovativeness_ideas
+			is_at_war = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_recruiting_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	militia_act = {
+		potential = {
+			NOT = { has_country_flag = militia_act_flag }
+		}
+		allow = {
+			OR = {
+				full_idea_group =  humanist_ideas
+				full_idea_group =  influence_ideas
+			}
+			NOT = { has_country_modifier = the_military_act }			
+		}
+		effect = {
+			set_country_flag = militia_act_flag
+			custom_tooltip = militia_act_tt
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	navigation_act = {
+		potential = {
+			NOT = { has_country_modifier = the_navigation_act }
+		}
+		allow = {
+			full_idea_group = trade_ideas
+			advisor = trader
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_navigation_act"
+				duration = -1
+			}			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naval_convoy_system = {
+		potential = {
+			NOT = { has_country_modifier = convoy_system }
+			colony = 1
+		}
+		allow =  {
+			mil = 7
+			any_subject_country = {
+				is_colonial_nation = yes
+				gold = 1
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "convoy_system"
+				duration = -1
+			}			
+		}
+		ai_will_do = {
+			factor = 1
+			# England, France, Barbary Coast
+		}
+	}
+	
+	anti_piracy_act = {
+		potential = {
+			NOT = { has_country_modifier = the_anti_piracy_act }
+			num_of_ports = 1
+		}
+		allow = {
+			NOT = { overextension_percentage = 0.025 }
+			is_at_war = no
+			dip_tech = 8
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_anti_piracy_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	land_recruiting_act = {
+		potential = {
+			NOT = { has_country_modifier = the_land_recruiting_act }
+		}
+		allow = {
+			full_idea_group = offensive_ideas
+			full_idea_group = defensive_ideas 
+			is_at_war = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_land_recruiting_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+############################
+# CIVIC:
+
+	licensing_of_the_press_act = {
+		potential = {
+			NOT = { has_country_modifier = the_licensing_of_the_press_act }
+
+		}
+		allow = {
+			full_idea_group = aristocracy_ideas
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_licensing_of_the_press_act"
+				duration = -1
+			}			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tenures_abolition_act = {
+		potential = {
+			NOT = { has_country_modifier = the_tenures_abolition_act }
+		}
+		allow = {
+			full_idea_group = economic_ideas
+			full_idea_group = aristocracy_ideas
+		}
+		effect = {
+			add_country_modifier = {
+				name = innovative_modifier
+				duration = -1
+			}
+			add_country_modifier = {
+				name = "the_tenures_abolition_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	dissolution_act = {
+		potential = {
+			NOT = { has_country_modifier = the_dissolution_act }
+		}
+		allow = {
+			full_idea_group = economic_ideas 
+			advisor = statesman
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_dissolution_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	witchcraft_act = {
+		potential = {
+			NOT = { has_country_modifier = the_witchcraft_act }
+			religion_group = christian
+			is_year = 1500
+			NOT = { is_year = 1700 }
+		}
+		allow = {
+			full_idea_group = religious_ideas
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_witchcraft_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	education_act = {
+		potential = {
+			has_country_modifier = the_school_establishment_act
+			NOT = { has_country_modifier = the_education_act }
+		}
+		allow = {
+			statesman = 3
+			full_idea_group = innovativeness_ideas
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_education_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	judiciary_act = {
+		potential = {
+			NOT = { has_country_modifier = the_judiciary_act }
+		}
+		allow = {
+			full_idea_group = economic_ideas
+			full_idea_group = administrative_ideas
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_judiciary_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	combination_act = {
+		potential = {
+			NOT = { has_country_modifier = the_combination_act }
+		}
+		allow = {
+			full_idea_group = aristocracy_ideas
+			full_idea_group = innovativeness_ideas
+		}
+		effect = {
+			#add_mercantilism = 10
+			add_country_modifier = {
+				name = "the_combination_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	school_establishment_act = {
+		potential = {
+			NOT = { has_country_modifier = the_school_establishment_act }
+		}
+		allow = {
+			full_idea_group = innovativeness_ideas
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_school_establishment_act"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+############################
+# COLONIAL:
+	benign_neglect = {
+		potential = {
+			NOT = { has_country_modifier = beneficial_neglect }
+		}
+		allow = {
+			full_idea_group = innovativeness_ideas
+		}
+		effect = {
+			add_country_modifier = {
+				name = "beneficial_neglect"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	colonial_expansion = {
+		potential = {
+			NOT = { has_country_modifier = restrictions_for_colonies }
+			NOT = { has_country_modifier = colonial_expansions }
+		}
+		allow = {
+			colony = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "colonial_expansions"
+				duration = -1
+			}		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	house_of_trade = {
+		potential = {
+			NOT = { has_country_modifier = the_house_of_trade }
+		}
+		allow = {
+			full_idea_group = trade_ideas
+			trade_efficiency = 0.5
+		}
+		effect = {
+			#add_mercantilism = 15
+			add_country_modifier = {
+				name = "the_house_of_trade"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	colonial_restrictions = {
+		potential = {
+			NOT = { has_country_modifier = colonial_expansions }
+			NOT = { has_country_modifier = restrictions_for_colonies }
+		}
+		allow =  {
+			colony = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "restrictions_for_colonies"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+############################
+# ECONOMIC:
+	liquor_act = {
+		potential = {
+			NOT = { has_country_modifier = the_liquor_act }
+		}
+		allow = {
+			adm = 5
+			adm_power = 50
+			OR = {
+				advisor = treasurer
+				advisor = statesman
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_liquor_act"
+				duration = -1
+			}
+			add_adm_power = -50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	joint_stock_companies_act = {
+		potential = {
+			is_year = 1550
+			NOT = { has_country_modifier = the_joint_stock_companies_act }
+		}
+		allow = {
+			trade_efficiency = 0.5
+			OR = {
+				trade_income_percentage = 0.4
+				monthly_income = 100
+			}
+			adm_power = 50
+		}
+		effect = {
+			#add_mercantilism = 10
+			add_country_modifier = {
+				name = "the_joint_stock_companies_act"
+				duration = -1
+			}
+			add_adm_power = -50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	merchant_shipping_act = {
+		potential = {
+			num_of_ports = 1
+			NOT = { has_country_modifier = the_merchant_shipping_act }
+		}
+		allow = {
+			trade_efficiency = 0.5
+			adm_power = 50
+		}
+		effect = {
+			#add_mercantilism = 5
+			add_country_modifier = {
+				name = "the_merchant_shipping_act"
+				duration = -1
+			}
+			add_adm_power = -50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	court_of_wards_and_liveries = {
+		potential = {
+			NOT = { has_country_modifier = the_court_of_wards_and_liveries }
+		}
+		allow = {
+			full_idea_group = aristocracy_ideas
+			full_idea_group = economic_ideas
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_court_of_wards_and_liveries"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	agricultural_cultivation = {
+		potential = {
+			NOT = { has_country_modifier = agricultural_cultivations }
+			adm_tech = 10
+		}
+		allow = {
+			production_efficiency = 0.5
+			advisor = natural_scientist
+			adm_power = 50
+		}
+		effect = {
+			add_country_modifier = {
+				name = "agricultural_cultivations"
+				duration = -1
+			}
+			add_adm_power = -50			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	importation_act = {
+		potential = {
+			NOT = { has_country_modifier = the_importation_act }
+		}
+		allow = {
+			full_idea_group = trade_ideas
+			adm_power = 50
+			trade_efficiency = 0.5
+		}
+		effect = {
+			#add_mercantilism = -5
+			add_country_modifier = {
+				name = "the_importation_act"
+				duration = -1
+			}
+			add_adm_power = -50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mining_act = {
+		potential = {
+			#NOT = { mercantilism = 1.0 }
+			OR = {
+				copper = 1
+				gold = 1
+				iron = 1
+			}
+			NOT = { has_country_modifier = the_mining_act }
+		}
+		allow = {
+			production_efficiency = 0.5
+			adm_power = 50
+		}
+		effect = {
+			#add_mercantilism = 5
+			add_country_modifier = {
+				name = "the_mining_act"
+				duration = -1
+			}
+			add_adm_power = -50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	implement_gold_standard = {
+		potential = {
+			NOT = { has_country_modifier = gold_standard }
+			adm_tech = 10
+			gold = 1
+		}
+		allow = {
+			NOT = {
+				inflation = 10
+			}
+			advisor = master_of_mint
+			adm_power = 50
+		}
+		effect = {
+			add_country_modifier = {
+				name = "gold_standard"
+				duration = -1
+			}
+			add_adm_power = -50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	
+	formalize_measures = {
+		potential = {
+			NOT = {
+				has_country_modifier = formalized_measures
+			}
+			adm_tech = 5
+		}
+		allow = {
+			adm_power = 50
+		}
+		effect = {
+			add_country_modifier = {
+				name = "formalized_measures"
+				duration = -1
+			}
+			add_adm_power = -50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

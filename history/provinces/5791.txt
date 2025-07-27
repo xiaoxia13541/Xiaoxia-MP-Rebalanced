@@ -1,0 +1,12 @@
+base_tax = 2
+base_manpower = 2
+base_production = 1
+culture = vietnamese
+trade_goods = naval_supplies
+religion = mahayana
+is_city = yes
+discovered_by = chinese
+add_core = DAI
+owner = DAI
+controller = DAI
+discovered_by = indian

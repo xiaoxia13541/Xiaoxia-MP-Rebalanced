@@ -1,0 +1,126 @@
+sealand_CN_colonial_fighers_modifier = {
+	discipline = 0.1
+}
+###
+CN_merchant_guilds_shaping = {
+	global_trade_power = 0.1
+}
+CN_positive_vibes = {
+	trade_efficiency = 0.1
+}
+CN_flow_of_immigrants = {
+	local_development_cost = -0.1
+	local_tax_modifier = 0.1
+}
+CN_colony_thriving = {
+	global_tax_modifier = 0.2
+}
+CN_centralization = {
+	global_autonomy = -0.05
+	global_colonial_growth = 10
+}
+CN_new_lands_new_opportunities = {
+	build_cost = -0.1
+}
+CN_the_more_we_grow_the_more_we_plow = {
+	state_maintenance_modifier = -0.25
+	development_cost = -0.05
+}
+CN_new_land_claimed = {
+	prestige = 1
+	colonist_placement_chance = 0.1
+}
+CN_region_united = {
+	monthly_splendor = 2
+	land_morale = 0.1
+}
+CN_workshops_going_boom = {
+	global_trade_goods_size_modifier = 0.1
+}
+CN_flow_of_innovativeness = {
+	idea_cost = -0.05
+}
+CN_extra_taxation = {
+	global_tax_modifier = 0.1
+}
+CN_submissive_to_cns = {
+	global_tariffs = -0.25
+}
+CN_martial_law = {
+	global_regiment_recruit_speed = 0.3
+}
+CN_increased_militancy = {
+	army_tradition = 1
+}
+CN_influx_of_settlers = {
+	local_development_cost = -0.1
+}
+CN_growing_economy = {
+ 	global_prov_trade_power_modifier = 0.25
+	trade_efficiency = 0.1
+}
+CN_developing_own_diplomacy = {
+	diplomatic_reputation = 2
+}
+CN_renowned_products = {
+	trade_value_modifier = 0.25
+}
+CN_colonial_assembly_modifier = {
+	stability_cost_modifier = -0.1
+}
+CN_growth = {
+	trade_goods_size_modifier = 0.05
+}
+
+# Additional missions modifiers, courtesy to Davlan:
+
+s_d_colonial_navy_modifier = {
+	navy_tradition = 1
+	global_ship_cost = -0.15
+	ship_durability = 0.05
+}
+s_d_colonial_treasury_modifier = {
+	global_tax_modifier = 0.2
+	production_efficiency = 0.2
+	build_cost = -0.1
+}
+s_d_the_usmc_modifier = {
+	global_sailors_modifier = 0.25
+	sailors_recovery_speed = 0.2
+	prestige = 1
+}
+s_d_professional_army_modifier = {
+	yearly_army_professionalism = 0.003
+	leader_cost = -0.15
+	land_attrition = -0.2
+}
+s_d_gunsmiths_of_lima_modifier = {
+	artillery_cost = -0.1
+	siege_ability = 0.2
+	discipline = 0.025
+}
+s_d_recruitment_drive_modifier = {
+	infantry_cost = -0.1
+	global_manpower_modifier = 0.2
+	manpower_recovery_speed = 0.25
+}
+s_d_rough_riders_modifier = {
+	cavalry_cost = -0.15
+	cavalry_power = 0.1
+	movement_speed = 0.1
+}
+s_d_fighting_the_good_fight_modifier = {
+	land_morale = 0.05
+	reinforce_speed = 0.2
+	republican_tradition = 0.33
+}
+s_d_power_of_the_new_world_modifier = {
+	reinforce_speed = 0.2
+	infantry_power = 0.1
+	yearly_absolutism = 1
+}
+s_d_assimilation_effort_modifier = {
+	culture_conversion_cost = -0.2
+	culture_conversion_time = -0.2
+	global_missionary_strength = 0.02
+}

@@ -1,0 +1,14 @@
+add_core = WAR
+owner = WAR
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = somali
+trade_goods = incense
+religion = sunni
+controller = WAR
+is_city = yes
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = indian

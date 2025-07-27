@@ -1,0 +1,39 @@
+# Swazi consort cults:
+swz_remove_consort_cult = {
+	trigger_switch = {
+		on_trigger = has_country_modifier
+		mini_cwezi_cult_modifier =                    { remove_country_modifier = mini_cwezi_cult_modifier }
+		mini_central_african_ancestor_cult_modifier = { remove_country_modifier = mini_central_african_ancestor_cult_modifier }
+		mini_mwari_cult_modifier =                    { remove_country_modifier = mini_mwari_cult_modifier }
+		mini_yemoja_cult_modifier =                   { remove_country_modifier = mini_yemoja_cult_modifier }
+		mini_roog_cult_modifier =		      { remove_country_modifier = mini_roog_cult_modifier }
+		mini_nyame_cult_modifier =                    { remove_country_modifier = mini_nyame_cult_modifier }
+		mini_enkai_cult_modifier =                    { remove_country_modifier = mini_enkai_cult_modifier }
+		mini_waaq_cult_modifier =                     { remove_country_modifier = mini_waaq_cult_modifier }
+		mini_zanahary_cult_modifier =                 { remove_country_modifier = mini_zanahary_cult_modifier }
+		mini_christianity_cult_modifier =             { remove_country_modifier = mini_christianity_cult_modifier }
+		mini_islam_cult_modifier =                    { remove_country_modifier = mini_islam_cult_modifier }
+		mini_buddhism_cult_modifier =                 { remove_country_modifier = mini_buddhism_cult_modifier }
+		mini_dharmic_cult_modifier =                  { remove_country_modifier = mini_dharmic_cult_modifier }
+		mini_south_central_american_cult_modifier =   { remove_country_modifier = mini_south_central_american_cult_modifier }
+		mini_norse_cult_modifier =                    { remove_country_modifier = mini_norse_cult_modifier }
+		mini_jewish_cult_modifier =                   { remove_country_modifier = mini_jewish_cult_modifier }
+		mini_zoroastrian_cult_modifier =              { remove_country_modifier = mini_zoroastrian_cult_modifier }
+	}
+}
+# Exodus:
+set_sea_exodus_stuff = {
+	restore_old_nation_on_formation_effect = yes
+	restore_country_name = yes
+	swap_non_generic_missions = yes
+	on_change_tag_effect = yes
+	remove_non_electors_emperors_from_empire_effect = yes
+	set_country_flag = exodus_formed_nation_flag
+	set_country_flag = sea_new_world_more_trade_power_flag
+	set_country_flag = sea_new_world_religious_reform_gov_options_flag
+	if = {
+		limit = { has_custom_ideas = no }
+		country_event = { id = ideagroups.1 } #Swap Ideas
+	}
+	country_event = { id = sealand_events.10 }
+}

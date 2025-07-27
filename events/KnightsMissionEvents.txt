@@ -1,0 +1,357 @@
+########################################
+# Crusader States Mission Events
+#
+# written by Daniel Tolman
+########################################
+
+
+namespace = knights_missions
+normal_or_historical_nations = yes
+
+# Restoration of the Hospitalers
+country_event = {
+	id = knights_missions.1
+	title = knights_missions.1.t
+	desc = {
+		trigger = {
+			tag = KNI
+		}
+		desc = knights_missions.1.d
+	}
+	desc = {
+		trigger = {
+			NOT = { tag = KNI }
+		}
+		desc = knights_missions.1.d2
+	}
+	picture = RELIGIOUS_WARS_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "knights_missions.1.a"
+		trigger = {
+			NOT = { tag = KNI }
+			OR = {
+				NOT = { exists = KNI }
+				KNI = {
+					exists = yes
+					ai = yes
+					religion = catholic
+					NOT = {	num_of_cities = 3 }
+					NOT = { is_rival = ROOT }
+					NOT = { war_with = ROOT }
+					OR = {
+						is_subject = no
+						is_subject_of = ROOT
+					}
+				}
+			}
+			is_subject = no
+		}
+		2313 = {
+			add_core = KNI
+			cede_province = KNI
+		}
+		if = {
+			limit = {
+				NOT = {
+					KNI = { is_subject_of = ROOT }
+				}
+			}
+			create_march = KNI
+		}
+		KNI = {
+			add_country_modifier = {
+				name = "restored_hospitaler_knights"
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "knights_missions.1.b"
+		trigger = {
+			tag = KNI
+		}
+		add_country_modifier = {
+			name = "restored_hospitaler_knights"
+			duration = -1
+		}
+	}
+	option = {
+		name = "knights_missions.1.c"
+		trigger = {
+			NOT = { tag = KNI }
+		}
+		add_prestige = 10
+		add_papal_influence = 10
+		add_army_tradition = 10
+	}
+}
+
+# Successful Crusade for Jerusalem
+country_event = {
+	id = knights_missions.2
+	title = knights_missions.2.t
+	desc = knights_missions.2.d
+	picture = RELIGIOUS_WARS_eventPicture 
+	is_triggered_only = yes
+	
+	option = {
+		name = "knights_missions.2.a"
+		add_stability = 1
+		add_prestige = 20
+		add_papal_influence = 50
+		set_country_flag = knights_templar_flag
+		custom_tooltip = knights_templar_tt
+		custom_tooltip = costs_no_army_professionalism
+	}
+}
+
+# The Latin Empire
+country_event = {
+	id = knights_missions.3
+	title = knights_missions.3.t
+	desc = knights_missions.3.d
+	picture = RELIGIOUS_WARS_eventPicture 
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "knights_missions.3.a"
+		151 = {
+			move_capital_effect = yes
+		}
+		change_tag = LAE
+		if = {
+			limit = {
+				NOT = { culture_group = byzantine }
+				NOT = { accepted_culture = greek }
+			}
+			add_accepted_culture = greek
+		}
+		swap_non_generic_missions = yes
+		on_change_tag_effect = yes
+		thrace_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		macedonia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		northern_greece_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		morea_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		aegean_archipelago_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		aydin_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		ankara_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		germiyan_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		karaman_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		cukurova_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		rum_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		kastamonu_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		hudavendigar_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		332 = { add_permanent_claim = ROOT }	# Marash
+		4310 = { add_permanent_claim = ROOT }	# Divrigi
+		2303 = { add_permanent_claim = ROOT }	# Malatya
+		2750 = { add_permanent_claim = ROOT }	# Plovdiv
+		4703 = { add_permanent_claim = ROOT }	# Kostendil
+		330 = { add_permanent_claim = ROOT }	# Trebizon
+		285 = { add_permanent_claim = ROOT }	# Kaffa
+		2410 = { add_permanent_claim = ROOT }	# Theodoro
+		4298 = { add_permanent_claim = ROOT }	# Ayntab
+		random_owned_province = {
+			limit = { culture = greek }
+			add_base_tax = 1
+		}
+		random_owned_province = {
+			limit = { culture = greek }
+			add_base_tax = 1
+		}
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 7300
+		}
+		add_prestige = 10
+		LAE = {
+			add_core = 151 # Constantinople
+		}
+		if = {
+			limit = {
+				is_part_of_hre = yes
+			}
+			every_owned_province = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				set_in_empire = no
+			}
+		}
+		if = {
+			limit = { has_global_flag = hagia_sophia_now_mosque }
+			clr_global_flag = hagia_sophia_now_mosque
+			show_ambient_object = hagia_sophia
+			hide_ambient_object = hagia_sophia_minarets
+		}
+		if = {
+			limit = {
+				NOT = { government = monarchy }
+			}
+			change_government = monarchy
+		}
+		add_government_reform = byzantine_autocracy_reform
+		set_government_rank = 3
+		if = {
+			limit = { NOT = { has_idea_group = LAE_ideas } }
+			country_event = {
+				id = ideagroups.1
+			}
+		}
+		set_country_flag = formed_byzantium_flag
+	}
+}
+
+# The Ark of the Covenant
+country_event = {
+	id = knights_missions.4
+	title = knights_missions.4.t
+	desc = knights_missions.4.d
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # open the Ark
+		name = "knights_missions.4.a"
+		capital_scope = {
+			add_province_modifier = {
+				name = "kni_ark_of_the_covenant"
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					ruler_has_personality_ancestor = { key = just }
+					ruler_has_personality_ancestor = { key = righteous }
+					ruler_has_personality_ancestor = { key = lawgiver }
+					ruler_has_personality_ancestor = { key = reformist }
+				}
+			}
+			random_list = {
+				25 = {
+					kill_ruler = yes
+				}
+				75 = {
+					add_country_modifier = {
+						name = "kni_ten_commandments"
+						duration = -1
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					ruler_has_personality = sinner_personality
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = malevolent_personality
+				}
+			}
+			random_list = {
+				75 = {
+					kill_ruler = yes
+				}
+				25 = {
+					add_country_modifier = {
+						name = "kni_ten_commandments"
+						duration = -1
+					}
+				}
+			}
+		}
+		else = {
+			random_list = {
+				50 = {
+					kill_ruler = yes
+				}
+				50 = {
+					add_country_modifier = {
+						name = "kni_ten_commandments"
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+	option = { # step away
+		name = "knights_missions.4.b"
+		capital_scope = {
+			add_province_modifier = {
+				name = "kni_ark_of_the_covenant"
+				duration = -1
+			}
+		}
+	}
+}

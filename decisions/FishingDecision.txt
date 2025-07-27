@@ -1,0 +1,23 @@
+# country_decisions = {
+# 	xiaoxia_fishing_game = {
+# 		major = yes
+# 		potential = {
+# 			ai = no
+# 			total_development = 300
+# 		}
+# 		allow = {
+# 			is_at_war = no
+# 			any_owned_province = {
+# 				controlled_by = ROOT
+# 				trade_goods = fish
+# 			}
+# 			total_development = 300
+# 		}
+# 		effect = {
+# 			random_list = {
+# 				1 = { }	
+# 				2 = { }
+# 			}
+# 		}
+# 	}
+# }

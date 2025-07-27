@@ -1,0 +1,20 @@
+#692 - Handan
+owner = CHN
+controller = CHN
+add_core = CHN
+culture = zhongyuan
+religion = confucianism
+capital = "Handan"
+trade_goods = grain
+base_tax = 3
+base_production = 2
+base_manpower = 4
+# citysize = 50100
+discovered_by = chinese
+discovered_by = nomad_group
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes
+discovered_by = indian

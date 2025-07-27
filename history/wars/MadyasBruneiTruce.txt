@@ -1,0 +1,13 @@
+name = "Madyas-Brunei War"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+1440.1.1 = {
+	add_attacker = MAS
+	add_defender = BEI
+}
+1444.10.10 = {
+	rem_attacker = MAS
+	rem_defender = BEI
+}

@@ -1,0 +1,14 @@
+owner = AIR
+controller = AIR
+add_claim = YAO
+culture = tuareg
+religion = sunni
+capital = "Midoga"
+trade_goods = ivory
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+discovered_by = sub_saharan
+discovered_by = DAR
+add_core = AIR

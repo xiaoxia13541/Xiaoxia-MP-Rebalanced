@@ -1,0 +1,291 @@
+country_decisions = {
+	mjl_change_muslim_school = {
+		potential = {
+			ai = no
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+			NOT = { has_country_flag = mjl_1444_change_school }
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = mjl_change_muslim_school_trigger_tooltip
+				NOT = { has_country_modifier = change_school_modifier }
+			}
+			prestige = 0
+		}
+		effect = {
+			custom_tooltip = mjl_change_muslim_school_decision_tt
+			set_country_flag = mjl_1444_change_school
+			add_prestige = -50
+			country_event = { id = mjl_events.5 }
+		}
+	}
+	mjl_manchu_buryat_gold = {
+		major = yes
+		potential = {
+			OR = {
+				tag = MCH
+				tag = QNG
+				tag = ZUN
+				tag = YUA
+			}
+			1053 = {
+				NOT = { trade_goods = gold }
+			}
+			owns_core_province = 1053 #Hinggan
+		}
+		provinces_to_highlight = {
+			province_id = 1053
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			owns_core_province = 1053 #Hinggan
+			mil_tech = 7
+		}
+		effect = {
+			if = {
+				limit = {
+					1053 = {
+						has_building = tradecompany
+					}
+				}
+				1053 = {
+					remove_building = tradecompany
+				}
+				add_treasury = 500
+			}
+			1053 = {
+				change_trade_goods = gold
+			}
+		}
+	}
+	mjl_educate_ruler = {
+		major = yes
+		potential = {
+			NOT = {
+				government = republic
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			ai = no
+			custom_trigger_tooltip = {
+				tooltip = mjl_less_than_7_stats_tt
+				OR = {
+					NOT = {
+						adm = 3
+						dip = 3
+						mil = 3
+					}
+					NOT = {
+						adm = 4
+						dip = 1
+						mil = 4
+					}
+					NOT = {
+						adm = 1
+						dip = 4
+						mil = 4
+					}
+					NOT = {
+						adm = 4
+						dip = 4
+						mil = 1
+					}
+					NOT = {
+						adm = 4
+						dip = 2
+						mil = 3
+					}
+					NOT = {
+						adm = 4
+						dip = 3
+						mil = 2
+					}
+					NOT = {
+						adm = 5
+						dip = 1
+						mil = 3
+					}
+					NOT = {
+						adm = 5
+						dip = 3
+						mil = 1
+					}
+					NOT = {
+						adm = 5
+						dip = 2
+						mil = 2
+					}
+					NOT = {
+						adm = 6
+						dip = 1
+						mil = 2
+					}
+					NOT = {
+						adm = 6
+						dip = 2
+						mil = 1
+					}
+					NOT = {
+						dip = 1
+						mil = 1
+					}
+					NOT = {
+						dip = 4
+						adm = 2
+						mil = 3
+					}
+					NOT = {
+						dip = 4
+						adm = 3
+						mil = 2
+					}
+					NOT = {
+						dip = 5
+						dip = 1
+						mil = 3
+					}
+					NOT = {
+						dip = 5
+						adm = 3
+						mil = 1
+					}
+					NOT = {
+						dip = 5
+						adm = 2
+						mil = 2
+					}
+					NOT = {
+						dip = 6
+						adm = 1
+						mil = 2
+					}
+					NOT = {
+						dip = 6
+						adm = 2
+						mil = 1
+					}
+					NOT = {
+						adm = 1
+						mil = 1
+					}
+					NOT = {
+						mil = 4
+						adm = 2
+						dip = 3
+					}
+					NOT = {
+						mil = 4
+						adm = 3
+						dip = 2
+					}
+					NOT = {
+						mil = 5
+						mil = 1
+						dip = 3
+					}
+					NOT = {
+						mil = 5
+						adm = 3
+						dip = 1
+					}
+					NOT = {
+						mil = 5
+						adm = 2
+						dip = 2
+					}
+					NOT = {
+						mil = 6
+						adm = 1
+						dip = 2
+					}
+					NOT = {
+						mil = 6
+						adm = 2
+						dip = 1
+					}
+					NOT = {
+						adm = 1
+						dip = 1
+					}
+				}
+			}
+			NOT = {
+				check_variable = { 
+					which = mjl_educate_rulers_count
+					value = 2 
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_cant_educate_same_ruler_tt
+				NOT = { has_ruler_flag = mjl_ruler_educated_flag }
+			}
+		}
+		effect = {
+			#add_years_of_income = -1
+			add_treasury = -100
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+			change_variable = {
+				which = mjl_educate_rulers_count
+				value = 1
+			}
+			set_ruler_flag = mjl_ruler_educated_flag
+		}
+	}
+	#ARUMBA LINES
+	dev_sum_clicks_decision = {
+		major = yes
+		potential = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = dev_sum_clicks_decision_tooltip
+				always = no
+			}
+		}
+		effect = {
+		}
+	}
+	# PR decision to check if critical events have fired
+	PR_critical_events = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = PR_radical_reform_decision
+				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_military_reform_decision
+				NOT = { has_country_flag = military_reform }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_commandant_decision
+				NOT = { has_country_flag = commandant }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_grand_captain_decision
+				NOT = { has_country_flag = grand_captain }
+			}
+			always = no
+		}
+		effect = {
+		}
+	}
+}

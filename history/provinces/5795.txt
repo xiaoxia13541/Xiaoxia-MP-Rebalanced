@@ -1,0 +1,12 @@
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = bai
+trade_goods = tropical_wood
+religion = animism
+is_city = yes
+discovered_by = chinese
+add_core = DAI
+owner = DAI
+controller = DAI
+discovered_by = indian

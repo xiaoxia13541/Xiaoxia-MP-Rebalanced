@@ -1,0 +1,16 @@
+name = "Korea-Jianzhou War"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1440.1.1 = {
+	add_attacker = MJZ
+	add_defender = KOR
+}
+
+#Peace and end of war
+1444.10.10 = {
+	rem_attacker = MJZ
+	rem_defender = KOR
+}

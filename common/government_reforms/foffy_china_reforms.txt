@@ -1,0 +1,698 @@
+h_reform_commandery = {
+	icon = "chinese_palace"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		AND = {
+			OR = {
+				tag = BJG
+				tag = CHS
+				tag = CGD
+				tag = CQG
+				tag = DLN
+				tag = GZH
+				tag = HNG
+				tag = KMG
+				tag = LUO
+				tag = NJG
+				tag = WUC
+				tag = XIN
+				tag = XIM
+			}
+			is_subject = no
+		}
+	}
+	modifiers = {
+		garrison_size = 0.25
+		defensiveness = 0.2
+		hostile_attrition = 1
+		global_tax_income = 60
+		land_forcelimit = 10
+		global_manpower = 10
+		governing_capacity = -500
+		possible_condottieri = -10.0
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 5
+}
+
+h_reform_warlord_1 = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		AND = {
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_3 }
+			NOT = { has_reform = h_reform_warlord_4 }
+			NOT = { has_reform = celestial_empire }
+		}
+		OR = {
+			tag = WUU
+			tag = GNM
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+	}
+	modifiers = {	
+		diplomatic_reputation = -2
+		land_maintenance_modifier = -0.2
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_warlord_2 = {
+	icon = "chieftain"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		AND = {
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_3 }
+			NOT = { has_reform = h_reform_warlord_4 }
+			NOT = { has_reform = celestial_empire }
+		}
+		OR = {
+			tag = WUU
+			tag = GNM
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+		has_country_flag = china_reform_warlord_2_unlocked_flag
+	}
+	modifiers = {
+		diplomatic_reputation = -1
+		land_maintenance_modifier = -0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+		has_unify_china_cb = yes
+	}
+	
+	government_abilities = {
+		chinese_weisuo_system
+	}
+}
+
+h_reform_warlord_3 = {
+	icon = "general_eastern_administrative"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 2
+	potential = {
+		AND = {
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_4 }
+			NOT = { has_reform = celestial_empire }
+		}
+		OR = {
+			tag = WUU
+			tag = GNM
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+		has_country_flag = china_reform_warlord_3_unlocked_flag
+	}
+	modifiers = {
+		land_maintenance_modifier = -0.1
+		manpower_recovery_speed = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+		has_unify_china_cb = yes
+	}
+
+	government_abilities = {
+		chinese_weisuo_system
+	}
+}
+
+h_reform_warlord_4 = { # Removed and added celestial_empire
+	icon = "celestial_empire"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 3
+	potential = {
+		AND = {
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_3 }
+		}
+		OR = {
+			tag = WUU
+			tag = GNM
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+		has_country_flag = china_reform_warlord_4_unlocked_flag
+	}
+	modifiers = {
+		manpower_recovery_speed = 0.15
+		discipline = 0.05
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	government_abilities = {
+		chinese_weisuo_system
+	}
+}
+
+h_reform_prefecture = {
+	icon = "map_2"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = BAA
+			tag = CBE
+			tag = CNG
+			tag = CGS
+			tag = CHC
+			tag = DAA # Not in use
+			tag = CDL
+			tag = DIA
+			tag = CHN
+			tag = HUA
+			tag = JIN
+			#tag = CLI # Why is this here?
+			tag = LNG
+			tag = LIA
+			tag = LUU
+			tag = LUL
+			tag = CMI
+			tag = MIN
+			tag = NHA
+			tag = NAN
+			tag = NNG
+			tag = QIN
+			tag = SHD
+			tag = SHU
+			tag = SNG
+			tag = SUI
+			tag = TAP
+			tag = TNG
+			tag = TIA
+			tag = WAN
+			tag = WEI
+			tag = XIA
+			tag = XNG
+			tag = YAN
+			tag = YDU
+			tag = YUN
+			tag = ZHA
+			tag = CZH
+			tag = LIC # Added
+			tag = CBS
+            tag = EAS
+            tag = CDA
+            tag = DII 
+            tag = HAK
+            tag = HAC
+            tag = CJN 
+            tag = CJT
+            tag = JII
+            tag = CNZ 
+            tag = QIA
+            tag = QIG
+            tag = CSM
+            tag = CTL
+            tag = YAG
+            tag = CYZ
+            tag = CYS
+            tag = YOU
+            tag = ZHU
+            tag = BXQ
+		}
+	}
+	modifiers = {
+		ae_impact = 0.1
+		diplomatic_upkeep = -2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_citystate = {
+	icon = "trading_city"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ANQ
+			tag = BAO
+			tag = CGE
+			tag = CHZ
+			tag = DEZ
+			tag = GXI
+			tag = GNY
+			tag = GUI
+			tag = HZH
+			tag = HUY
+			tag = HUZ
+			tag = JNG
+			tag = JIH
+			tag = KAI
+			tag = KYA
+			tag = MAC
+			tag = QIZ
+			tag = SHG
+			tag = SHE
+			tag = SHZ
+			tag = SZH
+			tag = TAY
+			tag = TAO
+			tag = TIJ
+			tag = WUZ
+			tag = XIX
+			tag = XYU
+			tag = XUZ
+			tag = YNG
+			tag = ZEN # Added
+		}
+	}
+	modifiers = {
+		ae_impact = 0.1
+		governing_capacity = -250
+		diplomatic_upkeep = -1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_sinicized_horde = {
+	icon = "celestial_empire"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 3
+	potential = {
+		tag = QNG
+	}
+	modifiers = {
+		infantry_power = 0.1
+		monarch_admin_power = 1
+		administrative_efficiency = 0.05
+		land_forcelimit_modifier = 0.15
+		cav_to_inf_ratio = 0.5
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+mjl_altaic_herdsmen = {
+	potential = {
+		OR = {
+			is_nomad = yes
+			culture_group = altaic
+		}
+	}
+	trigger = {
+		OR = {
+			is_nomad = yes
+			culture_group = altaic
+		}
+		any_owned_province = {
+			OR = {
+				trade_goods = livestock
+				trade_goods = grain
+			}
+		}
+	}
+	icon = "retain_tribal_hierarchy"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_trade_goods_size_modifier = 0.05
+		global_autonomy = -0.1
+	}
+	effect = {
+		custom_tooltip = mjl_producing_livestock_and_grain_tt
+		hidden_effect = {
+			every_owned_province = {
+				if = {
+					limit = {
+						trade_goods = livestock
+					}
+					add_province_modifier = { 
+						name = mjl_herd_bonus_prod
+						duration = -1
+						hidden = yes
+					}
+				}
+				if = {
+					limit = {
+						trade_goods = grain
+					}
+					add_province_modifier = { 
+						name = mjl_herd_bonus_prod
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+	}
+	removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = mjl_herd_bonus_prod
+				}
+				remove_province_modifier = mjl_herd_bonus_prod
+			}
+		}
+	}
+	ai = {
+		factor = 100
+	}
+}
+
+cxi_indulging_warlords = { # 西 纵容军阀
+	icon = "cavalry"
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+	
+	raze_province = yes
+	
+	potential = {
+		tag = CXI
+		NOT = { mission_completed = cxi_rectify_military_discipline }
+	}
+	modifiers = {
+		nobles_loyalty_modifier = 0.1
+		church_loyalty_modifier = -0.05
+		burghers_loyalty_modifier = -0.05
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+qic_eight_banners_reform = { # 齐 八旗制度
+	icon = "manchu_warrior"
+	allow_normal_conversion = yes
+	potential = {
+		has_dlc = "Domination"
+		primary_culture = shandong_culture 		
+		capital_scope = { superregion = china_superregion }
+	}
+	trigger = {
+		tag = QIC
+		mission_completed = qic_birdle_jurchen_clans
+	}
+	modifiers = {
+		amount_of_banners = 0.2
+	}
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		allow_banners = yes
+		custom_attributes = {
+			can_recruit_banners_from_primary_culture_provinces = yes
+		}
+	}
+	custom_attributes = {
+		eight_banners_buff = yes
+	}
+	effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = eight_banners_reform_modifier
+				duration = -1
+				hidden = yes
+			}
+		}
+	}
+	removed_effect = {
+		hidden_effect = {
+			remove_country_modifier = eight_banners_reform_modifier
+		}
+	}
+	
+	ai = {
+		factor = 1000
+	}
+}
+
+gnm_three_battalion_reform = { # 明 三大营
+	icon = "manchu_warrior"
+	allow_normal_conversion = yes
+	potential = {
+		has_dlc = "Domination"
+		tag = GNM
+		capital_scope = {
+			superregion = china_superregion
+		}
+	}
+	trigger = {
+		tag = GNM
+		mission_completed = gnm_three_battalion
+	}
+	modifiers = {
+	}
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		allow_cawa = yes
+	}
+	custom_attributes = {
+		can_recruit_five_thousand_warriors = yes
+	}
+	effect = {
+		add_country_modifier = {
+			name = gnm_five_army_modifier
+			duration = -1
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = sealand_cawa_fl_base
+				duration = -1
+				hidden = yes
+			}
+		}
+	}
+	removed_effect = {
+		capital_scope = {
+			remove_province_modifier = sealand_cawa_fl_base
+		}
+	}
+	
+	ai = {
+		factor = 1000
+	}
+}
+
+
+# 彝族专属四个整体 和中华整体对应
+cyi_monge_system = { # 蒙格 对应一级 军阀集团
+	icon = "cyi_monge_system_icon"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	
+	fixed_rank = 1
+	
+	potential = {
+		tag = CYI
+		NOT = { has_reform = cyi_sepo_theocracy }
+		NOT = { has_reform = cyi_zimo_kingdom }
+		NOT = { has_reform = cyi_holy_empire }
+	}
+
+	modifiers = {
+		diplomatic_reputation = -2
+		missionaries = 1
+		global_missionary_strength = 0.01
+		governing_capacity = 50
+		manpower_in_own_culture_provinces = 0.05
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
+}
+
+cyi_sepo_theocracy = { # 色颇 对应二级 战国
+	icon = "cyi_sepo_theocracy_icon"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	free_concentrate_development = yes
+
+	fixed_rank = 2
+
+	potential = {
+		tag = CYI
+		NOT = { has_reform = cyi_monge_system }
+		NOT = { has_reform = cyi_zimo_kingdom }
+		NOT = { has_reform = cyi_holy_empire }
+	}
+
+	modifiers = {
+		diplomatic_reputation = -1
+		missionaries = 1
+		global_missionary_strength = 0.01
+		governing_capacity = 75
+		manpower_in_own_culture_provinces = 0.1
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
+	custom_attributes = {
+		centralize_state_half_refund = yes
+		locked_government_type = yes
+	}
+}
+
+cyi_zimo_kingdom = { # 兹莫王国 对应中华王国 只有选择缅甸道路可以使用
+	icon = "cyi_zimo_kingdom_icon"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	free_concentrate_development = yes
+
+	fixed_rank = 3
+	
+	potential = {
+		OR = {
+			tag = CYI
+			tag = SST
+		}
+		NOT = { has_reform = cyi_monge_system }
+		NOT = { has_reform = cyi_sepo_theocracy }
+		NOT = { has_reform = cyi_holy_empire }
+	}
+
+	modifiers = {
+		church_loyalty_modifier = 0.1
+		church_influence_modifier = 0.1
+		missionaries = 1
+		global_missionary_strength = 0.01
+		governing_capacity = 100
+		manpower_in_own_culture_provinces = 0.15
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+		centralize_state_half_refund = yes
+		locked_government_type = yes
+	}
+}
+
+cyi_holy_empire = { # 神圣帝国 对应四级中华帝国/天朝 只有选择缅甸道路可以使用
+	icon = "cyi_holy_empire_icon"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	free_concentrate_development = yes
+	
+	fixed_rank = 3
+
+	potential = {
+		tag = SST
+		NOT = { has_reform = cyi_monge_system }
+		NOT = { has_reform = cyi_sepo_theocracy }
+		NOT = { has_reform = cyi_zimo_kingdom }
+	}
+
+	modifiers = {
+		church_loyalty_modifier = 0.1
+		church_influence_modifier = 0.1
+		monarch_diplomatic_power = 1
+		missionaries = 1
+		global_missionary_strength = 0.01
+		governing_capacity = 150
+		manpower_in_own_culture_provinces = 0.15
+		discipline = 0.025
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
+	custom_attributes = {
+		centralize_state_development = yes 
+		can_see_theocratic_heir_stats = yes
+		centralize_state_half_refund = yes
+		locked_government_type = yes
+	}
+}

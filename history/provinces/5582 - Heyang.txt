@@ -1,0 +1,15 @@
+# 3614 - Heyang
+owner = CXI
+controller = CXI
+culture = hubei
+religion = confucianism
+capital = "Heyang"
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+add_core = CXI

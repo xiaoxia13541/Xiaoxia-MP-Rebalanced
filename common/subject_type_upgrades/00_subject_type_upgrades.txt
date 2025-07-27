@@ -1,0 +1,1197 @@
+# Modded:
+sea_colony_fl_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			mil_power_cost = 50
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_forcelimit_building_trigger = yes
+			}
+			total_development = 100
+		}
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		land_forcelimit = 15
+		liberty_desire = 10
+	}
+}
+sea_colony_fl_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			mil_power_cost = 150
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 25
+				has_forcelimit_building_trigger = yes
+			}
+			total_development = 250
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		land_forcelimit = 15
+		liberty_desire = 10
+	}
+}
+sea_colony_fl_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			mil_power_cost = 250
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 40
+				has_forcelimit_building_trigger = yes
+			}
+			total_development = 400
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		land_forcelimit = 10
+		liberty_desire = 10
+	}
+}
+### ###
+sea_colony_mp_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			mil_power_cost = 50
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_manpower_building_trigger = yes
+			}
+			total_development = 100
+		}
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		global_manpower = 15
+		liberty_desire = 10
+	}
+}
+sea_colony_mp_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			mil_power_cost = 150
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 25
+				has_manpower_building_trigger = yes
+			}
+			total_development = 250
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		global_manpower = 15
+		liberty_desire = 10
+	}
+}
+sea_colony_mp_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			mil_power_cost = 250
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 40
+				has_manpower_building_trigger = yes
+			}
+			total_development = 400
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		global_manpower = 10
+		liberty_desire = 10
+	}
+}
+### ### ###
+sea_colony_nfl_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			dip_power_cost = 150
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 25
+				has_shipyard_building_trigger = yes
+			}
+			total_development = 250
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		naval_forcelimit = 15
+		liberty_desire = 10
+	}
+}
+sea_colony_nfl_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			dip_power_cost = 50
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_shipyard_building_trigger = yes
+			}
+			total_development = 100
+		}
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		naval_forcelimit = 15
+		liberty_desire = 10
+	}
+}
+sea_colony_nfl_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			dip_power_cost = 250
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 40
+				has_shipyard_building_trigger = yes
+			}
+			total_development = 400
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		naval_forcelimit = 10
+		liberty_desire = 10
+	}
+}
+### ###
+sea_colony_nmp_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			dip_power_cost = 150
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 25
+				has_dock_building_trigger = yes
+			}
+			total_development = 250
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		global_sailors = 10000
+		liberty_desire = 10
+	}
+}
+sea_colony_nmp_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			dip_power_cost = 50
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_dock_building_trigger = yes
+			}
+			total_development = 100
+		}
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		global_sailors = 10000
+		liberty_desire = 10
+	}
+}
+sea_colony_nmp_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			dip_power_cost = 250
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 40
+				has_dock_building_trigger = yes
+			}
+			total_development = 400
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		global_sailors = 5000
+		liberty_desire = 10
+	}
+}
+### ### ###
+sea_colony_trade_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			dip_power_cost = 250
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 20
+				has_trade_building_trigger = yes
+			}
+			total_development = 400
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		trade_efficiency = 0.1
+		liberty_desire = 10
+	}
+}
+sea_colony_trade_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			dip_power_cost = 50
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 5
+				has_trade_building_trigger = yes
+			}
+			total_development = 100
+		}
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		trade_efficiency = 0.15
+		liberty_desire = 10
+	}
+}
+sea_colony_trade_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			dip_power_cost = 150
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_trade_building_trigger = yes
+			}
+			total_development = 250
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		trade_efficiency = 0.15
+		liberty_desire = 10
+	}
+}
+### ###
+sea_colony_production_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			dip_power_cost = 250
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 40
+				has_production_building_trigger = yes
+			}
+			total_development = 400
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		production_efficiency = 0.05
+		liberty_desire = 10
+	}
+}
+sea_colony_production_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			dip_power_cost = 150
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 25
+				has_production_building_trigger = yes
+			}
+			total_development = 250
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		production_efficiency = 0.1
+		liberty_desire = 10
+	}
+}
+sea_colony_production_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			dip_power_cost = 50
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_production_building_trigger = yes
+			}
+			total_development = 100
+		}
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		production_efficiency = 0.1
+		liberty_desire = 10
+	}
+}
+### ###
+sea_colony_tax_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			adm_power_cost = 50
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 5
+				has_tax_building_trigger = yes
+			}
+			total_development = 100
+		}
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		global_tax_modifier = 0.2
+		liberty_desire = 10
+	}
+}
+sea_colony_tax_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			adm_power_cost = 250
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 30
+				has_tax_building_trigger = yes
+			}
+			total_development = 300
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		global_tax_modifier = 0.1
+		liberty_desire = 10
+	}
+}
+sea_colony_tax_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			adm_power_cost = 150
+		}
+		OR = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_tax_building_trigger = yes
+			}
+			total_development = 200
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		global_tax_modifier = 0.2
+		liberty_desire = 10
+	}
+}
+### ###
+sea_colony_goods_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			dip_power_cost = 200
+		}
+		num_of_owned_provinces_with = {
+			value = 10
+			has_manufactory_trigger = yes
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 200
+		}
+	}
+	modifier_subject = {
+		global_trade_goods_size_modifier = 0.05
+		liberty_desire = 10
+	}
+}
+sea_colony_goods_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			dip_power_cost = 200
+		}
+		num_of_owned_provinces_with = {
+			value = 10
+			has_manufactory_trigger = yes
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 200
+		}
+	}
+	modifier_subject = {
+		global_trade_goods_size_modifier = 0.05
+		liberty_desire = 10
+	}
+}
+sea_colony_goods_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			dip_power_cost = 200
+		}
+		num_of_owned_provinces_with = {
+			value = 10
+			has_manufactory_trigger = yes
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 200
+		}
+	}
+	modifier_subject = {
+		global_trade_goods_size_modifier = 0.05
+		liberty_desire = 10
+	}
+}
+### ###
+sea_colony_build_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			adm_power_cost = 150
+		}
+		num_of_cities = 15
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		build_cost = -0.1
+		liberty_desire = 10
+	}
+}
+sea_colony_build_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			adm_power_cost = 250
+		}
+		num_of_cities = 20
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		build_cost = -0.05
+		liberty_desire = 10
+	}
+}
+sea_colony_build_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			adm_power_cost = 50
+		}
+		num_of_cities = 10
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		build_cost = -0.1
+		liberty_desire = 10
+	}
+}
+### ###
+sea_colony_govern_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			adm_power_cost = 250
+		}
+		OR = {
+			grown_by_states = 12
+			grown_by_development = 200
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		governing_capacity_modifier = 0.085
+		liberty_desire = 10
+	}
+}
+sea_colony_govern_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			adm_power_cost = 150
+		}
+		OR = {
+			grown_by_states = 10
+			grown_by_development = 150
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		governing_capacity_modifier = 0.15
+		liberty_desire = 10
+	}
+}
+sea_colony_govern_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			adm_power_cost = 50
+		}
+		OR = {
+			grown_by_states = 8
+			grown_by_development = 100
+		}
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		governing_capacity_modifier = 0.15
+		liberty_desire = 10
+	}
+}
+### ###
+sea_colony_state_boost_colony_crown = {
+	can_upgrade_trigger = {
+		is_subject_of_type = crown_colony
+		colonial_parent = {
+			adm_power_cost = 150
+		}
+		OR = {
+			grown_by_states = 6
+			grown_by_development = 200
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 150
+		}
+	}
+	modifier_subject = {
+		state_maintenance_modifier = -0.25
+		liberty_desire = 10
+	}
+}
+sea_colony_state_boost_colony_private = {
+	can_upgrade_trigger = {
+		is_subject_of_type = private_enterprise
+		colonial_parent = {
+			adm_power_cost = 250
+		}
+		OR = {
+			grown_by_states = 8
+			grown_by_development = 250
+		}
+	}
+	
+	cost = 200
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 250
+		}
+	}
+	modifier_subject = {
+		state_maintenance_modifier = -0.15
+		liberty_desire = 10
+	}
+}
+sea_colony_state_boost_colony_self = {
+	can_upgrade_trigger = {
+		is_subject_of_type = self_governing_colony
+		colonial_parent = {
+			adm_power_cost = 50
+		}
+		OR = {
+			grown_by_states = 4
+			grown_by_development = 150
+		}
+	}
+	
+	cost = 50
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 50
+		}
+	}
+	modifier_subject = {
+		state_maintenance_modifier = -0.25
+		liberty_desire = 10
+	}
+}
+### ### ###
+sea_colony_reinforce_quality_boost = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = crown_colony
+			is_subject_of_type = private_enterprise
+			is_subject_of_type = self_governing_colony
+			is_subject_of_type = commercial_enterprise
+		}
+		colonial_parent = {
+			mil_power_cost = 200
+			custom_trigger_tooltip = {
+				tooltip = sea_colony_reinforce_quality_boost_tt
+				NOT = { has_country_flag = sea_colony_reinforce_quality_boost_flag }
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = sea_colony_quality_boost_tt
+			NOT = { has_country_flag = sea_colony_quality_boost_flag }
+		}
+	}
+	
+	cost = 500
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 200
+			set_country_flag = sea_colony_reinforce_quality_boost_flag
+		}
+		set_country_flag = sea_colony_quality_boost_flag
+	}
+
+	removed_effect = {
+		colonial_parent = {
+			mil_power_cost = 200
+			clr_country_flag = sea_colony_reinforce_quality_boost_flag
+		}
+		clr_country_flag = sea_colony_quality_boost_flag
+	}
+	modifier_subject = {
+		reinforce_speed = 0.2
+		recover_army_morale_speed = 0.4
+	}
+}
+### ### 
+sea_colony_speed_quality_boost = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = crown_colony
+			is_subject_of_type = private_enterprise
+			is_subject_of_type = self_governing_colony
+			is_subject_of_type = commercial_enterprise
+		}
+		colonial_parent = {
+			mil_power_cost = 200
+			custom_trigger_tooltip = {
+				tooltip = sea_colony_speed_quality_boost_tt
+				NOT = { has_country_flag = sea_colony_speed_quality_boost_flag }
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = sea_colony_quality_boost_tt
+			NOT = { has_country_flag = sea_colony_quality_boost_flag }
+		}
+	}
+	
+	cost = 500
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 200
+			set_country_flag = sea_colony_speed_quality_boost_flag
+		}
+		set_country_flag = sea_colony_quality_boost_flag
+	}
+
+	removed_effect = {
+		colonial_parent = {
+			mil_power_cost = 200
+			clr_country_flag = sea_colony_speed_quality_boost_flag
+		}
+		clr_country_flag = sea_colony_quality_boost_flag
+	}
+	modifier_subject = {
+		movement_speed = 0.1
+		land_attrition = -0.2
+	}
+}
+### ### 
+sea_colony_siege_quality_boost = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = crown_colony
+			is_subject_of_type = private_enterprise
+			is_subject_of_type = self_governing_colony
+			is_subject_of_type = commercial_enterprise
+		}
+		colonial_parent = {
+			mil_power_cost = 200
+			custom_trigger_tooltip = {
+				tooltip = sea_colony_siege_quality_boost_tt
+				NOT = { has_country_flag = sea_colony_siege_quality_boost_flag }
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = sea_colony_quality_boost_tt
+			NOT = { has_country_flag = sea_colony_quality_boost_flag }
+		}
+	}
+	
+	cost = 500
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 200
+			set_country_flag = sea_colony_siege_quality_boost_flag
+		}
+		set_country_flag = sea_colony_quality_boost_flag
+	}
+
+	removed_effect = {
+		colonial_parent = {
+			mil_power_cost = 200
+			clr_country_flag = sea_colony_siege_quality_boost_flag
+		}
+		clr_country_flag = sea_colony_quality_boost_flag
+	}
+	modifier_subject = {
+		reserves_organisation = 0.5
+		siege_ability = 0.25
+	}
+}
+### ### ### ###
+enlarge_the_gold_fleet = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = crown_colony
+			is_subject_of_type = private_enterprise
+			is_subject_of_type = self_governing_colony
+			is_subject_of_type = commercial_enterprise
+		}
+		colonial_parent = {
+			adm_power_cost = 25
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 25
+		}
+	}
+
+	modifier_overlord = {
+		treasure_fleet_income = 0.2
+	}
+
+	modifier_subject = {
+		liberty_desire = 10
+	}
+}
+
+increase_religious_control = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = crown_colony
+			is_subject_of_type = private_enterprise
+			is_subject_of_type = self_governing_colony
+			is_subject_of_type = commercial_enterprise
+		}
+		colonial_parent = {
+			adm_power_cost = 25
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 25
+		}
+		hidden_effect = {
+			set_country_flag = has_increased_religious_control
+		}
+	}
+
+	removed_effect = {
+		hidden_effect = {
+			clr_country_flag = has_increased_religious_control
+		}
+	}
+
+	modifier_subject = {
+		liberty_desire = 10
+		global_missionary_strength = 0.01
+		tolerance_heathen = -1
+	}
+}
+increase_voc_eastindiamen_construction = {
+	can_upgrade_trigger = {
+		tag = VOC
+		colonial_parent = {
+			adm_power_cost = 100
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			adm_power_cost = 100
+		}
+		hidden_effect = {
+			set_country_flag = has_increased_voc_eastindiamen_construction
+		}
+	}
+
+	removed_effect = {
+		hidden_effect = {
+			clr_country_flag = has_increased_voc_eastindiamen_construction
+		}
+	}
+
+	modifier_overlord = {
+		has_voc_indiamen = yes
+		allowed_voc_indiamen_fraction = 0.05
+	}
+
+	modifier_subject = {
+		allowed_voc_indiamen_fraction = -0.05
+		liberty_desire = 10
+	}
+}
+
+increase_asian_trade_routes_influence = {
+	can_upgrade_trigger = {
+		tag = VOC
+		colonial_parent = {
+			dip_power_cost = 100
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 100
+		}
+		hidden_effect = {
+			set_country_flag = has_increased_asian_trade_routes_influence
+		}
+	}
+
+	removed_effect = {
+		hidden_effect = {
+			clr_country_flag = has_increased_asian_trade_routes_influence
+		}
+	}
+
+	modifier_overlord = {
+		merchants = 1
+		placed_merchant_power_modifier = 0.1 
+	}
+
+	modifier_subject = {
+		merchants = -1
+		liberty_desire = 10
+	}
+}
+
+increase_trade_company_control = {
+	can_upgrade_trigger = {
+		tag = VOC
+		colonial_parent = {
+			dip_power_cost = 100
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			dip_power_cost = 100
+		}
+		hidden_effect = {
+			set_country_flag = has_increased_trade_company_control
+		}
+	}
+
+	removed_effect = {
+		hidden_effect = {
+			clr_country_flag = has_increased_trade_company_control
+		}
+	}
+
+	modifier_overlord = {
+		trade_efficiency = 0.05
+	}
+
+	modifier_subject = {
+		trade_efficiency = -0.05
+		liberty_desire = 10
+	}
+}
+
+allow_religious_conquests = {
+	can_upgrade_trigger = {
+		tag = VOC
+		colonial_parent = {
+			mil_power_cost = 100
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 100
+		}
+		hidden_effect = {
+			set_country_flag = has_allowed_religious_conquests
+		}
+	}
+
+	removed_effect = {
+		hidden_effect = {
+			clr_country_flag = has_allowed_religious_conquests
+		}
+	}
+
+	modifier_overlord = {
+		missionaries = -1
+	}
+
+	modifier_subject = {
+		cb_on_religious_enemies = yes
+		global_missionary_strength = 0.02
+	}
+}

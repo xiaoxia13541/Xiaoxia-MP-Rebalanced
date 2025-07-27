@@ -1,0 +1,14 @@
+owner = WAD
+controller = WAD
+add_core = WAD
+culture = tunjur
+religion = sunni
+capital = "Al-Junaynahr"
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = sub_saharan
+discovered_by = DAR
+discovered_by = east_african

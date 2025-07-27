@@ -1,0 +1,22 @@
+# 2690 - Luzhou
+owner = CBE
+controller = CBE
+add_core = CBE
+culture = cantonese
+religion = confucianism
+capital = "Luzhou"
+trade_goods = tea
+base_tax = 2
+base_production = 4
+base_manpower = 1
+# citysize = 30000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1646.10.1 = { controller = QNG }
+1662.1.1 = { 
+	add_core = QNG
+}
+1680.1.1 = { controller = QNG }
+is_city = yes
+fort_15th = yes

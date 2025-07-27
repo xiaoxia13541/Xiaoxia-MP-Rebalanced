@@ -1,0 +1,134 @@
+spriteTypes = {
+	# Chinese wonder
+	spriteType = {
+		name = "GFX_great_project_tengwangge_building"	
+		texturefile = "gfx//interface//great_projects//great_project_tengwangge_building.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_bouxcuengh_palace"	
+		texturefile = "gfx//interface//great_projects//great_project_bouxcuengh_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_yungang_grottoes"	
+		texturefile = "gfx//interface//great_projects//great_project_yungang_grottoes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_tongguan_fortress_monument"	
+		texturefile = "gfx//interface//great_projects//great_project_tongguan_fortress_monument.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_wudang_mountain"	
+		texturefile = "gfx//interface//great_projects//great_project_wudang_mountain.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_nurgan_commission"	
+		texturefile = "gfx//interface//great_projects//great_project_nurgan_commission.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_summer_palace"	
+		texturefile = "gfx//interface//great_projects//great_project_summer_palace.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_potala_palace"	
+		texturefile = "gfx//interface//great_projects//great_project_potala_palace.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_kangrinboqe"	
+		texturefile = "gfx//interface//great_projects//great_project_kangrinboqe.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_quanzhou_shipping_bureau"	
+		texturefile = "gfx//interface//great_projects//great_project_quanzhou_shipping_bureau.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_karez"	
+		texturefile = "gfx//interface//great_projects//great_project_karez.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Mount_Saint_Michel"	
+		texturefile = "gfx//interface//great_projects//great_project_Mount_Saint_Michel.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Colosseum"	
+		texturefile = "gfx//interface//great_projects//great_project_Colosseum.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Palace_of_Westminster"	
+		texturefile = "gfx//interface//great_projects//great_project_Palace_of_Westminster.dds"
+	}
+	# 小夏的防伪标识，防止有傻逼说是他自己做的
+	spriteType = {
+		name = "GFX_great_project_Catedral_de_Sevilla"	
+		texturefile = "gfx//interface//great_projects//great_project_Catedral_de_Sevilla.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Ben_Youssef_Madrasa"	
+		texturefile = "gfx//interface//great_projects//great_project_Ben_Youssef_Madrasa.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Kasbah"	
+		texturefile = "gfx//interface//great_projects//great_project_Kasbah.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_University_of_Gottingen"	
+		texturefile = "gfx//interface//great_projects//great_project_University_of_Gottingen.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Drottningholm_Palace"	
+		texturefile = "gfx//interface//great_projects//great_project_Drottningholm_Palace.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Birka_Hovgarden"	
+		texturefile = "gfx//interface//great_projects//great_project_Birka_Hovgarden.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Budai_Var"	
+		texturefile = "gfx//interface//great_projects//great_project_Budai_Var.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Sevastopol"	
+		texturefile = "gfx//interface//great_projects//great_project_Sevastopol.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Vallee_de_Joux"	
+		texturefile = "gfx//interface//great_projects//great_project_Vallee_de_Joux.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Royal_Hill_of_Ambohimanga"	
+		texturefile = "gfx//interface//great_projects//great_project_Royal_Hill_of_Ambohimanga.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Mausoleum_of_Askia"	
+		texturefile = "gfx//interface//great_projects//great_project_Mausoleum_of_Askia.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Ribeira_Grande"	
+		texturefile = "gfx//interface//great_projects//great_project_Ribeira_Grande.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Lamu_Old_Town"	
+		texturefile = "gfx//interface//great_projects//great_project_Lamu_Old_Town.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Loro_Pani"	
+		texturefile = "gfx//interface//great_projects//great_project_Loro_Pani.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Agadez_Trans_Saharan_Trading_Town"	
+		texturefile = "gfx//interface//great_projects//great_project_Agadez_Trans_Saharan_Trading_Town.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Fort_Jesus"	
+		texturefile = "gfx//interface//great_projects//great_project_Fort_Jesus.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_Mapungubwe"	
+		texturefile = "gfx//interface//great_projects//great_project_Mapungubwe.dds"
+	}
+}

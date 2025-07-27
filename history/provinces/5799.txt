@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 2
+base_production = 3
+culture = yi
+trade_goods = ivory
+religion = animism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+add_core = CGS
+owner = CGS
+controller = CGS
+discovered_by = indian

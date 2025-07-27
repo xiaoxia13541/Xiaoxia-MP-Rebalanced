@@ -1,0 +1,17 @@
+#5749 - Skeleton Coast
+culture = kongolese
+religion = shamanism#Fetishism
+capital = "Skeleton Coast"
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 50
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = central_african
+add_core = KON
+owner = KON
+controller = KON
+is_city = yes
+discovered_by = sub_saharan

@@ -1,0 +1,77 @@
+chinese_weisuo_system = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 8
+	available = {
+		
+	}
+	
+	interactions = {
+		prisoner_military_service = {
+			icon = GFX_prisoner_military_service
+			trigger = {
+
+			}
+			effect = {
+				add_yearly_manpower = 1
+				add_country_modifier = {
+					name = prisoner_military_service_modifier
+					duration = 1825
+				}
+			}
+			cooldown_years = 10
+			cooldown_token = chinese_weisuo_system
+			cooldown_desc = PRISONER_INTO_ARMY_POLICY
+			ai_chance = {
+			}
+		}
+		army_deving_border = {
+			icon = GFX_army_deving_border
+			trigger = { 
+				any_owned_province = {
+					NOT = { development = 10 }
+				}
+			}
+			effect = { 
+				country_event = {
+					id = foffy_china.8
+				}
+				custom_tooltip = random_10_dev_prov_will_be_deved_tt
+			}
+			cooldown_years = 10
+			cooldown_token = chinese_weisuo_system
+			cooldown_desc = ARMY_DEVING_BORDER_POLICY
+			ai_chance = {
+				factor = 10
+			}
+		}
+		fortress_fortification = {
+			icon = GFX_fortress_fortification
+			trigger = {
+				any_owned_province = {
+					has_fort_building_trigger = yes
+				}
+			}
+			effect = { 
+				custom_tooltip = chi_owned_fort_gained_defensiveness_tt
+				custom_tooltip = SEPERATOR_TOOLTIP
+				add_years_of_income = -0.7
+				hidden_effect = {
+					every_owned_province = {
+						limit = {
+							has_fort_building_trigger = yes		
+						}
+						add_province_modifier = {
+							name = weisuo_fortifed_the_border
+							duration = 1825
+						}
+					}
+				}
+			}
+			cooldown_years = 10
+			cooldown_token = chinese_weisuo_system
+			cooldown_desc = FORTRESS_FORTIFICATION_POLICY
+			ai_chance = {
+			}
+		}
+	}
+}

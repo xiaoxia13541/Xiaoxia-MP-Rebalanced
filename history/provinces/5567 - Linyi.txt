@@ -1,0 +1,20 @@
+# 2728 - Linyi
+owner = LUU
+controller = LUU
+culture = shandong_culture
+religion = confucianism
+capital = "Linyi"
+trade_goods = paper
+base_tax = 2
+base_production = 2
+base_manpower = 3
+# citysize = 5000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+add_core = LUU
+is_city = yes

@@ -1,0 +1,14 @@
+# 2154 - Kelang
+culture = taiwan
+religion = animism
+capital = "Kelang"
+trade_goods = unknown
+base_tax = 1
+base_production = 2
+base_manpower = 2
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+

@@ -1,0 +1,11 @@
+add_core = TRK
+owner = TRK
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = TRK
+is_city = yes
+culture = masaba
+trade_goods = livestock
+discovered_by = central_african

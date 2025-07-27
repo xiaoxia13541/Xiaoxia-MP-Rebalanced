@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = chola_monarchy
+primary_culture = kannada
+add_accepted_culture = tamil
+religion = hinduism
+technology_group = indian
+capital = 4422
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}

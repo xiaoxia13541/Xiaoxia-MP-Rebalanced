@@ -1,0 +1,282 @@
+country_decisions = {
+
+	italian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_italy_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = ITA }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			culture_group = latin
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					region = italy_region
+					root = {
+						NOT = {
+							num_of_owned_provinces_with = {
+								value = 30
+								region = italy_region
+								is_core = root
+							}
+						}
+						owns_core_province = 101	
+						owns_core_province = 104	
+						owns_core_province = 116
+						owns_core_province = 118
+						owns_core_province = 112
+						owns_core_province = 108
+						owns_core_province = 1774
+						owns_core_province = 109
+						owns_core_province = 4730
+						owns_core_province = 119
+						owns_core_province = 121
+						owns_core_province = 103
+					}
+				}
+				province_id = 101	# Genoa
+				province_id = 104	# Milan
+				province_id = 116	# Firenze
+				province_id = 118	# Roma
+				province_id = 112	# Venezia
+				province_id = 108	# Verona
+				province_id = 1774	# Treviso
+				province_id = 109	# Mantova
+				province_id = 4730	# Bologna
+				province_id = 119	# Ancona
+				province_id = 121	# Napoli
+				province_id = 103	# Torino
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 7
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 101	# Genoa
+			owns_core_province = 104	# Milan
+			owns_core_province = 116	# Firenze
+			owns_core_province = 118	# Roma
+			owns_core_province = 112	# Venezia
+			owns_core_province = 108	# Verona
+			owns_core_province = 1774	# Treviso
+			owns_core_province = 109	# Mantova
+			owns_core_province = 4730	# Bologna
+			owns_core_province = 119	# Ancona
+			owns_core_province = 121	# Napoli
+			owns_core_province = 103	# Torino
+			num_of_owned_provinces_with = {
+				value = 30
+				region = italy_region
+				is_core = root
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
+				}
+				set_in_empire = no
+				emperor = {
+					country_event = { id = hre_event.5 }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				hidden_effect = {
+					set_in_empire = no
+				}
+				if = {
+					limit = {
+						NOT = { is_part_of_hre = yes } #for tooltip purposes
+					}
+					set_government_rank = 2
+				}
+			}
+			change_tag = ITA
+			#this is so that a tier 1 reform is always selected, preventing the user from just never selecting one and enjoying loads of absolutism
+			if = {
+				limit = {
+					NOT = { has_reform_on_level = 0 }
+				}
+				add_government_reform = signoria_reform
+			}
+			italy_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ITA
+			}
+			add_prestige = 25
+			ITA = {
+				set_capital = 118
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			set_country_flag = formed_italy_flag
+			set_global_flag = formed_italy_flag_global # for german mission
+			if = {
+				limit = {
+					religion_group = christian
+				}
+				custom_tooltip = sea_enable_holy_states_mechanic_tt
+				set_country_flag = enable_holy_orders_flag
+			}
+		}
+		ai_will_do = {
+			factor = 400
+			modifier = {
+				factor = 0
+				NOT = {
+					calc_true_if = {
+						owns_core_province = 101	# Genoa
+						owns_core_province = 104	# Milan
+						owns_core_province = 116	# Firenze
+						owns_core_province = 118	# Roma
+						amount = 3
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					num_of_cities = 10
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { adm_tech = 8 }
+			}
+		}
+	}
+
+	gods_kingdom = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = ITA }
+			tag = PAP
+			NOT = { has_country_flag = is_kingdom_of_god_flag }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+		}
+		provinces_to_highlight = {
+			region = italy_region
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			#Ecclesiastical provinces of Northern Italy
+			owns_core_province = 108	# Veronoa
+			owns_core_province = 101	# Genoa
+			owns_core_province = 104	# Milano
+			owns_core_province = 106	# Modena
+			#owns_core_province = 1774	# Treviso
+			owns_core_province = 112	# Venice
+			owns_core_province = 114	# Bologna + Ravenna
+			owns_core_province = 116	# Firenze
+			owns_core_province = 115	# Pisa
+			owns_core_province = 119	# Ancona + Fermo
+			owns_core_province = 2976	# Perugia
+			owns_core_province = 2977	# Pesaro
+			owns_core_province = 121	# Napoli
+			num_of_owned_provinces_with = {
+				value = 30
+				region = italy_region
+				is_core = root
+			}
+		}
+		effect = {
+			country_event  = { id = catholic_flavor.2 }
+			set_country_flag = papal_kingdom_flag
+			custom_tooltip = estate_church_service_to_god_tt
+			swap_free_idea_group = yes
+			italy_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			capital_scope = {
+				if = {
+					limit = {
+						NOT = { religion = catholic }
+					}
+					change_religion = catholic
+				}
+				add_cardinal = yes
+			}
+			if = {
+				limit = {
+					religion_group = christian
+				}
+				custom_tooltip = sea_enable_holy_states_mechanic_tt
+				set_country_flag = enable_holy_orders_flag
+			}
+			override_country_name = KINGDOM_OF_GOD
+			set_country_flag = is_kingdom_of_god_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

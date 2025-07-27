@@ -1,0 +1,595 @@
+h_china_all_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {	
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = SST
+			tag = QIC
+			tag = WUU
+			tag = GNM
+			tag = YUE
+		}
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+	
+	china_hengyang_mine = { # Hengyang Mine 衡阳金矿
+		icon = mission_establish_mint_towns
+		position = 1
+		provinces_to_highlight = {
+			province_id = 2174
+		}
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = celestial_empire
+			}
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			owns_core_province = 2174
+		}
+		effect = {
+			if = {
+				limit = {
+					2174 = {
+						NOT = {
+							trade_goods = gold
+						}
+					}
+				}
+				country_event = { id = foffychina.32 } # Hengyang Mine
+			}
+			else = {
+				add_years_of_income = 1
+			}
+		}
+	}	
+}
+
+
+h_china_all_tier4_5 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {	
+			tag = CSH
+			tag = CYI
+			tag = SST
+			tag = QIC
+			tag = YUE
+			tag = CXI
+			tag = WUU
+			tag = GNM
+		}
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+
+	china_dragon_throne = { # Dragon Throne
+		icon = mission_seize_the_dragon_throne
+		position = 2
+        provinces_to_highlight = {
+			OR = {
+				province_id = 1816
+				province_id = 5503
+				province_id = 5504
+				province_id = 680
+				province_id = 726
+				province_id = 667
+				province_id = 684
+				province_id = 662
+				province_id = 5571
+				province_id = 1821
+				province_id = 682
+				province_id = 700
+				province_id = 1829
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}		
+        }
+
+		trigger = {	
+			if = {
+				limit = { tag = CYI }
+				OR = {
+					has_reform = cyi_sepo_theocracy
+					has_reform = cyi_zimo_kingdom
+					
+					has_reform = h_reform_warlord_2
+					has_reform = h_reform_warlord_3
+				}
+			}
+			else = {
+				OR = {
+					has_reform = h_reform_warlord_2
+					has_reform = h_reform_warlord_3
+				}
+			}
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			is_great_power = yes
+			grown_by_development = 500
+			calc_true_if = {
+				all_owned_province = {
+					is_core = ROOT
+					has_province_modifier = h_commandery_province
+				}
+				amount = 4
+			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = china_winner_of_dragon_throne_tt
+			# 	NOT = {
+			# 		any_known_country = {
+			# 			capital_scope = {
+			# 				superregion = china_superregion
+			# 			}
+			# 			total_development = 200
+			# 			is_free_or_tributary_trigger = yes
+			# 			NOT = { tag = ROOT }
+			# 		}
+			# 	}
+			# }
+		}
+		effect = {
+			#meme
+			1371 = {
+				change_province_name = 491
+			}
+			1372 = {
+				change_province_name = Bie
+			}
+			1392 = {
+				change_province_name = Shawo		
+			}
+			change_ruler_stat = {
+				type = adm
+				amount = 3
+			}
+			change_ruler_stat = {
+				type = dip
+				amount = 3
+			}
+			change_ruler_stat = {
+				type = mil
+				amount = 3
+			}
+			add_ruler_personality = iron_crowned_personality
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 20
+			}
+		}
+	}
+
+	china_art_of_war = { #Art of War
+		icon = mission_china_art_of_war
+		required_missions = { china_dragon_throne }
+		position = 3
+		trigger = {
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			OR = {
+				AND = {
+					mil = 6
+					monthly_mil = 15
+				}
+				ruler_has_personality = strict_personality
+			}
+		}
+		effect = {
+			custom_tooltip = china_art_of_war_tt
+			custom_tooltip = china_art_of_war_by_xiaoxia_tt
+			set_country_flag = china_art_of_war_country_flag
+		}
+	}
+
+	china_four_great_inventions = { #Four Great inventions
+		icon = mission_vedic_education
+		required_missions = { }
+		position = 4
+        provinces_to_highlight = {
+        }
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = celestial_empire
+			}
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = china_discover_new_world_tt
+				OR = {
+					north_america = { has_discovered = ROOT }
+					south_america = { has_discovered = ROOT }
+					new_world = { has_discovered = ROOT }
+				}
+			}
+			has_institution = printing_press
+			OR ={
+				trading_bonus = {
+					trade_goods = paper
+					value = yes
+				}
+				innovativeness = 30
+			}
+
+		}
+		effect = {
+			if = {
+				limit = { has_dlc = "Golden Century" }
+				custom_tooltip = mng_enable_3_grand_coordinators_offices_tt
+				set_country_flag = mng_enable_3_grand_coordinators_offices_flag 
+			}
+			else = {
+				add_corruption = -2
+				change_government_reform_progress = 100
+				change_ruler_stat = {
+					type = adm
+					amount = 1
+				}
+			}
+		}
+	}
+	
+	china_forbidden_city = { #Forbidden City
+		icon = mission_conquer_punjab
+		required_missions = { china_four_great_inventions }
+		position = 5
+        provinces_to_highlight = {
+			OR = {
+				province_id = 1816
+				province_id = 696
+				province_id = 4194
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			has_reform = celestial_empire
+			estate_loyalty = {
+				estate = estate_eunuchs 
+				loyalty = 60 
+			}
+			stability = 3
+			treasury = 1000
+			artist = 5
+			prestige = 75
+			1816 = {
+				owned_by = ROOT
+				is_core = ROOT
+				is_prosperous = yes
+			}
+			696 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 15
+			}
+			4194 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 15
+			}
+		}
+		effect = {
+			add_treasury = -1000
+			1816 = {
+				if = {
+					limit = { 
+						1816 = {
+							NOT = {
+								has_great_project = {
+									type = forbidden_city
+									tier = 3
+								}
+							}
+						}	
+					}
+					add_great_project_tier = {
+						type = forbidden_city
+						tier = 1
+					}
+				}
+				else = {
+					1816 = {
+						add_base_production = 2
+						add_base_manpower = 2
+						add_base_tax = 2
+					}		
+				}
+				if = {
+					limit = { 
+						1816 = {
+							NOT = {
+								has_great_project = {
+									type = summer_palace
+									tier = 3
+								}
+							}
+						}	
+					}
+					add_great_project_tier = {
+						type = summer_palace
+						tier = 1
+					}
+				}
+				else = {
+					1816 = {
+						add_base_production = 2
+						add_base_manpower = 2
+						add_base_tax = 2
+					}		
+				}
+			}
+			country_event = { id = flavor_mng.40 }
+			custom_tooltip = mng_insight_40_tt
+		}
+	}
+}
+
+xiaoxia_chinese_warlord_missions = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {	
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = SST
+			tag = QIC
+			tag = WUU
+			tag = GNM
+			tag = YUE
+		}
+		OR = {
+			has_reform = cyi_monge_system
+			has_reform = cyi_sepo_theocracy
+			has_reform = cyi_zimo_kingdom
+			has_reform = cyi_holy_empire
+
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+			has_reform = celestial_empire
+		}
+	}
+
+	silk_road_chinese_warlord = { # 重开丝路
+		icon = mission_silk_road_chinese_warlord
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 707
+				province_id = 699
+				province_id = 710
+				province_id = 2182
+				province_id = 708
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			707 = { 
+				owned_by = ROOT
+				is_core = ROOT
+				trade_share = {
+					country = ROOT
+					share = 35
+				}
+				development = 15
+				has_trade_building_trigger = yes 
+				province_has_center_of_trade_of_level = 2
+			}
+			699 = { 
+				owned_by = ROOT
+				is_core = ROOT
+				development = 15
+				has_trade_building_trigger = yes 
+				province_has_center_of_trade_of_level = 2
+			}
+			710 = { 
+				owned_by = ROOT
+				is_core = ROOT
+				has_trade_building_trigger = yes 
+			}
+			2182 = { 
+				owned_by = ROOT
+				is_core = ROOT
+				development = 10
+				has_trade_building_trigger = yes 
+			}
+			708 = { 
+				owned_by = ROOT
+				is_core = ROOT
+				development = 10
+				has_trade_building_trigger = yes 
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "silk_road_revival"
+				duration = 7300
+			}
+			710 = {
+				add_province_modifier = {
+					name = hotan_gems
+					duration = -1
+				}
+				add_center_of_trade_level = 1 
+			}
+			699 = {	add_center_of_trade_level = 1 }
+			707 = { add_center_of_trade_level = 1 } 
+			add_mercantilism_or_monarch_power = { amount = 5 }
+		}
+	}
+	sichuan_silk_production_chinese_warlord = { # 扩大蜀锦生产
+		icon = mission_sichuan_silk_production
+		required_missions = { }
+		position = 2
+		provinces_to_highlight = {
+			area = chengdu_area
+		}
+		trigger = {
+			chengdu_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				has_production_building_trigger = yes
+				base_production = 6
+				NOT = { devastation = 1 }
+			}
+			5504 = {
+				development = 30
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "silk_road_modifier"
+				duration = 9125
+			}
+			country_event = { id = foffy_china.4 } 
+			custom_tooltip = change_sichuan_area_to_silk_tt
+		}
+	}
+
+	# h_china_wonders = { #Wonders of China
+	# 	icon = mission_japanese_fort
+	# 	position = 3
+	# 	provinces_to_highlight = {
+	# 		OR = {
+	# 			province_id = 1816
+	# 			province_id = 5503
+	# 			province_id = 5504
+	# 			province_id = 680
+	# 			province_id = 726
+	# 			province_id = 667
+	# 			province_id = 684
+	# 			province_id = 662
+	# 			province_id = 5571
+	# 			province_id = 1821
+	# 			province_id = 682
+	# 			province_id = 700
+	# 			province_id = 1829
+	# 		}
+	# 	}
+	# 	trigger = {
+	# 		if = {
+	# 			limit = {
+	# 				was_player = yes
+	# 			}
+	# 			ai = no
+	# 		}
+	# 		calc_true_if = {
+	# 			all_owned_province = {
+	# 				is_core = ROOT
+	# 				has_province_modifier = h_commandery_province
+	# 			}
+	# 			amount = 10
+	# 		}
+	# 	}
+	# 	effect = {
+	# 	}
+	# }
+
+	revive_jingdezhen_klins_chinese_warlord = { # 景德镇瓷
+		icon = mission_revive_jingdezhen_klins
+		required_missions = { }
+		position = 3
+		provinces_to_highlight = {
+			province_id = 2151
+		}
+		trigger = {
+			chinaware = 12
+			production_leader = {
+				trade_goods = chinaware
+			}
+			owns_core_province = 2151
+			2151 = {
+				base_production = 10
+				has_production_building_trigger = yes
+			}
+		}
+		effect = {
+			custom_tooltip = first_finished_chinaware_price_up_tt
+			tooltip = {
+				country_event = { id = foffy_china.5 }
+				2151 = {
+					add_province_modifier = {
+						name = jingdezhen_kilns
+						duration = -1
+					}
+				}
+			}
+			custom_tooltip = pol_alternatively_tt
+			tooltip = {
+				add_years_of_income = 2
+				2151 = {
+					add_base_production = 2
+				}
+			}
+			hidden_effect = {
+				if =  {
+					limit = { NOT = { 2151 = { has_province_modifier = jingdezhen_kilns } } }
+					country_event = { id = foffy_china.5 }
+					2151 = {
+						add_province_modifier = {
+							name = jingdezhen_kilns
+							duration = -1
+						}
+					}
+				}
+				else = {
+					add_years_of_income = 2
+					2151 = {
+						add_base_production = 2
+					}
+				}
+			}
+		}
+	}
+}

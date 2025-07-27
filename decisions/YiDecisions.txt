@@ -1,0 +1,447 @@
+# 1、彝的转文化决议
+# 2、彝的政府改革升级
+
+country_decisions = { # 毕摩教 30天转教
+	xiaoxia_bimox_change_deity_decision = {
+		major = yes
+		potential = {
+			tag = CYI
+			religion = xiaoxia_bimox
+			NOT = { has_country_flag = is_choosing_bimox_deity_flag }
+		}
+		provinces_to_highlight = { }
+
+		allow = {
+			custom_trigger_tooltip = { # 从来没有这个flag 或者选择崇拜之后三十天
+				tooltip = decision_once_every_30_days
+				OR = {
+					had_country_flag = {
+						flag = xiaoxia_change_bimox_deity
+						days = 30
+					}
+					NOT = { has_country_flag = xiaoxia_change_bimox_deity }
+				}	
+			}			
+			legitimacy_equivalent = 10
+			has_estate_privilege = estate_church_CYI_flexible_deities
+		}
+		effect = {
+			add_legitimacy_equivalent = {
+				amount = -10
+				republican_tradition = -6
+			}
+			country_event = { id = xiaoxia_bimox.1 }
+		}
+	}
+}
+
+country_decisions = { # 彝族的文化决议
+
+	sinicize_yi_decision = { # 彝 - 西南文化 （变成西南之后可以直接使用中华组的汉化决议
+		potential = {
+			tag = CYI
+			NOT = { has_country_flag = sinicized_yi_flag }
+			has_country_flag = cyi_integrate_into_china_flag
+		}
+
+		provinces_to_highlight = {
+			culture = yi
+		}
+
+		allow = {
+			total_development = 300
+			custom_trigger_tooltip = { # 彝
+				tooltip = control_yi_prov_tt # 所有彝文化省份均被本国及非朝贡属国拥有
+				NOT = {
+					any_province = {
+						culture = yi
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+						NOT = { continent = north_america }
+						NOT = { continent = south_america }
+						NOT = { continent = new_world }
+						NOT = { continent = oceania }
+					}
+				}
+			}
+		}	
+
+		effect = {
+			set_country_flag = sinicized_yi_flag
+			if = {
+				limit = { NOT = { primary_culture = xinan_new }}
+				change_primary_culture = xinan_new
+				set_ruler_culture = xinan_new
+			}
+			if = {
+				limit = { 
+					has_heir = yes
+					NOT = { heir_culture = xinan_new }
+				}
+				set_heir_culture = xinan_new
+			}
+			if = {
+				limit = { 
+					has_consort = yes
+					consort_culture = yi
+				}
+				set_consort_culture = xinan_new
+			}
+			hidden_effect = {
+				every_province = {
+					limit = { culture = yi}
+					change_culture = xinan_new
+				}
+
+				every_country = {
+					limit = { primary_culture = yi }
+					change_primary_culture = xinan_new
+					set_ruler_culture = xinan_new
+					if = {
+						limit = {
+							has_heir = yes
+							heir_culture = yi
+						}
+						set_heir_culture = xinan_new						
+					}
+					if = {
+						limit = { 
+							has_consort = yes
+							consort_culture = yi
+						}
+						set_consort_culture = xinan_new
+					}
+				}
+			}
+		}
+	}
+
+	shan_yi_decision = { # 彝 - 掸邦文化 （变身掸不能去同化白或者苗文化
+		potential = {
+			tag = CYI
+			NOT = { has_country_flag = shan_yi_flag }
+			has_country_flag = cyi_focus_on_indochina_flag
+		}
+
+		provinces_to_highlight = {
+			culture = shan
+		}
+
+		allow = {
+			government_rank = 3
+			custom_trigger_tooltip = { # 彝
+				tooltip = control_yi_prov_tt # 所有彝文化省份均被本国及非朝贡属国拥有
+				NOT = {
+					any_province = {
+						culture = yi
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+						NOT = { continent = north_america }
+						NOT = { continent = south_america }
+						NOT = { continent = new_world }
+						NOT = { continent = oceania }
+					}
+				}
+			}
+		}	
+
+		effect = { # 所有彝文化转为掸文化
+			set_country_flag = shan_yi_flag
+			if = {
+				limit = { NOT = { primary_culture = shan } }
+				change_primary_culture = shan
+				set_ruler_culture = shan
+			}
+			if = {
+				limit = { 
+					has_heir = yes
+					NOT = { heir_culture = shan }
+				}
+				set_heir_culture = shan
+			}
+			if = {
+				limit = { 
+					has_consort = yes
+					consort_culture = yi
+				}
+				set_consort_culture = shan
+			}
+			hidden_effect = {
+				every_province = {
+					limit = { culture = yi}
+					change_culture = shan
+				}
+
+				every_country = {
+					limit = { primary_culture = yi }
+					change_primary_culture = shan
+					set_ruler_culture = shan
+					if = {
+						limit = {
+							has_heir = yes
+							heir_culture = yi
+						}
+						set_heir_culture = shan						
+					}
+					if = {
+						limit = { 
+							has_consort = yes
+							consort_culture = yi
+						}
+						set_consort_culture = shan
+					}
+				}
+			}
+		}
+	}
+
+	sinicize_bai_decision = { # 白文化 - 彝文化
+		potential = {
+			any_owned_province = { culture = bai }	# 拥有一个白文化省份
+			OR = {
+				primary_culture = yi # 主流文化是彝
+			}
+			NOT = { has_country_flag = sinicized_bai_flag } # 没有点过这个决议
+		}
+
+		provinces_to_highlight = {
+			culture = bai
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { continent = north_america }
+			NOT = { continent = south_america }
+			NOT = { continent = oceania }
+			NOT = { continent = new_world }
+		}
+
+		allow = {
+			total_development = 300
+			custom_trigger_tooltip = {
+				tooltip = control_bai_prov_tt # 所有旧大陆的白文化省份均被本国或其非朝贡属国拥有
+				NOT = {
+					any_province = {
+						culture = bai
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+						NOT = { continent = north_america }
+						NOT = { continent = south_america }
+						NOT = { continent = new_world }
+						NOT = { continent = oceania }
+					}
+				}
+			}
+		}
+			
+		effect = {
+			set_country_flag = sinicized_bai_flag
+			if = {
+				limit = { 
+					has_heir = yes
+					heir_culture = bai
+				}
+				set_heir_culture = yi
+			}
+			if = {
+				limit = { 
+					has_consort = yes
+					consort_culture = bai
+				}
+				set_consort_culture = yi
+			}
+
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture = bai
+					}
+					change_culture = yi
+				}
+				every_country = {
+					limit = {
+						primary_culture = bai
+					}
+					change_primary_culture = yi
+					set_ruler_culture = yi
+					if = {
+						limit = {
+							has_heir = yes
+							heir_culture = bai
+						}
+						set_heir_culture = yi						
+					}
+					if = {
+						limit = { 
+							has_consort = yes
+							consort_culture = bai
+						}
+						set_consort_culture = yi
+					}
+				}
+			}
+		}
+	}	
+
+	sinicize_miao_decision = { # 苗文化 - 彝文化
+		potential = {
+			any_owned_province = { culture = miao }	# 拥有一个苗文化省份
+			OR = {
+				primary_culture = yi # 主流文化是彝
+			}
+				NOT = { has_country_flag = sinicized_miao_flag } # 没有点过这个决议
+		}
+
+		provinces_to_highlight = {
+			culture = miao
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { continent = north_america }
+			NOT = { continent = south_america }
+			NOT = { continent = oceania }
+			NOT = { continent = new_world }
+		}
+
+		allow = {
+			total_development = 300
+			custom_trigger_tooltip = {
+				tooltip = control_miao_prov_tt # 所有旧大陆的苗文化省份均被本国或其非朝贡属国拥有
+				NOT = {
+					any_province = {
+						culture = miao
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+						NOT = { continent = north_america }
+						NOT = { continent = south_america }
+						NOT = { continent = new_world }
+						NOT = { continent = oceania }
+					}
+				}
+			}
+		}
+			
+		effect = {
+			set_country_flag = sinicized_miao_flag
+			if = {
+				limit = { 
+					has_heir = yes
+					heir_culture = miao
+				}
+				set_heir_culture = yi
+			}
+			if = {
+				limit = { 
+					has_consort = yes
+					consort_culture = miao
+				}
+				set_consort_culture = yi
+			}
+
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture = miao
+					}
+					change_culture = yi
+				}
+				every_country = {
+					limit = {
+						primary_culture = miao
+					}
+					change_primary_culture = yi
+					set_ruler_culture = yi
+					if = {
+						limit = {
+							has_heir = yes
+							heir_culture = miao
+						}
+						set_heir_culture = yi						
+					}
+					if = {
+						limit = { 
+							has_consort = yes
+							consort_culture = miao
+						}
+						set_consort_culture = yi
+					}
+				}
+			}
+		}
+	}	
+}
+
+country_decisions = { # 彝的政府改革三级跳
+
+	cyi_level_2_reform = { # 二级 色颇神权制
+		major = yes
+		potential = {
+			has_reform = cyi_monge_system
+			NOT = { has_country_flag = cyi_integrate_into_china_flag }
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			total_development = 300
+			num_of_owned_provinces_with = { # 缅甸线 地块不要求中华区
+				is_core = ROOT
+				value = 30
+			}
+			mission_completed = china_cyi_into_red_basin
+			custom_trigger_tooltip = { # 在彝族人的道路事件中 选择了缅甸方向
+				tooltip = cyi_choose_indochina_branch_tt
+				has_country_flag = cyi_focus_on_indochina_flag
+			}
+		}
+
+		effect = {
+			add_stability_or_adm_power = yes
+			set_country_flag = cyi_level_2_reform_flag
+			add_government_reform = cyi_sepo_theocracy
+		}
+	}
+
+	cyi_level_3_reform = { # 三级 兹莫王国
+		major = yes
+		potential = {
+			has_reform = cyi_sepo_theocracy
+		} 
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			total_development = 800
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				value = 80
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 3
+					}
+				}
+				set_government_rank = 3
+			}
+			add_stability_or_adm_power = yes
+			set_country_flag = cyi_level_3_reform_flag
+			add_government_reform = cyi_zimo_kingdom
+		}
+	}
+	
+	cyi_level_4_reform = { # 四级 神圣帝国
+		major = yes
+		potential = {
+			has_reform = cyi_zimo_kingdom
+		}
+		allow = {
+			tag = SST
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			total_development = 1250
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				value = 125
+			}
+		}
+
+		effect = {
+			add_stability_or_adm_power = yes
+			set_country_flag = cyi_level_4_reform_flag
+			add_government_reform = cyi_holy_empire	
+		}
+	}
+}

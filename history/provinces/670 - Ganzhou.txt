@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 1
+base_production = 1
+culture = hakka
+trade_goods = grain
+religion = confucianism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = CBS
+controller = CBS
+add_core = CBS
+discovered_by = indian

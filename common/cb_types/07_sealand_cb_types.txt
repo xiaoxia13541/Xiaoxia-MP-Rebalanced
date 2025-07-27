@@ -1,0 +1,76 @@
+# Papal State:
+cb_pap_vassalize_naples = {
+	valid_for_subject = no
+	is_triggered_only = yes
+	months = 120
+	war_goal = pap_vassalize_naples
+}
+# Austria:
+cb_hab_boh_union = {
+	valid_for_subject = no
+	is_triggered_only = yes
+	months = 120
+	war_goal = hab_take_capital_personal_union
+}
+# Tunis/Morocco:
+cb_tun_mor_unite_barbary = {
+	valid_for_subject = no
+	is_triggered_only = yes
+	months = 120
+	war_goal = tun_mor_unite_barbary
+}
+# Burgundy:
+cb_bur_conquest_hre = {
+	valid_for_subject = no
+
+	prerequisites_self = {
+		mission_completed = emp_bur_subjects
+	}
+
+	prerequisites = {
+		claim = FROM
+		FROM = { capital_scope = { region = low_countries_region } }
+	}
+	war_goal = take_claim
+}
+cb_bur_conquest_lor = {
+	valid_for_subject = no
+	is_triggered_only = yes
+	war_goal = take_claim
+}
+# Genoa:
+cb_gen_trade_war = {
+
+	prerequisites_self = {
+		is_revolutionary = no
+		has_reform = genoa_merchants_reform
+	}
+
+	prerequisites = {
+		OR = {
+			AND = {
+				trade_embargo_by = FROM
+				NOT = { FROM = { trade_embargo_by = ROOT } }
+			}
+			AND = {
+				has_government_attribute = is_merchant_republic
+				FROM = { has_government_attribute = is_merchant_republic }
+			}
+		}
+	}
+
+	war_goal = superiority_trade_mutual
+
+	attacker_disabled_po = {
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+		po_become_vassal
+		po_subjugate_vassal
+		po_become_tributary_state
+		po_subjugate_tributary_state
+		po_form_personal_union
+		po_transfer_vassals
+	}
+}

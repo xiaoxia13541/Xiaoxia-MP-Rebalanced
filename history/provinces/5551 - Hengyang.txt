@@ -1,0 +1,21 @@
+# 2693 - Hengyang
+owner = XNG
+controller = XNG
+culture = xiang
+religion = confucianism
+capital = "Hengyang"
+#trade_goods = gems
+trade_goods = fish
+base_tax = 2
+base_production = 4
+base_manpower = 2
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1647.1.2 = { 
+	controller = QNG
+	add_core = QNG
+}
+1679.1.1 = { controller = QNG }
+add_core = XNG

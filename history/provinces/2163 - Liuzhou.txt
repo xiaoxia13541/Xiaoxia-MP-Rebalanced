@@ -1,0 +1,13 @@
+base_tax = 2
+base_manpower = 1
+base_production = 1
+culture = zhuang
+trade_goods = grain
+religion = animism
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+owner = BXQ
+controller = BXQ
+add_core = BXQ
+discovered_by = indian

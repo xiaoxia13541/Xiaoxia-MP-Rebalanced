@@ -1,0 +1,339 @@
+##########
+# Muslim:
+custom_button = {
+	name = sea_low_piety_action
+	potential = { uses_piety = yes ai = no }
+	trigger = {
+		hidden_trigger = {
+			OR = {
+				NOT = { has_country_flag = sea_low_piety_action_flag }
+				had_country_flag = { flag = sea_low_piety_action_flag days = 1825 }
+			}
+			NOT = { piety = -0.76 }
+		}
+		if = {
+			limit = { has_country_modifier = slackening_modifier }
+			NOT = { has_country_modifier = slackening_modifier }
+		}
+	}
+	effect = {
+		tooltip = { add_yearly_manpower = 1 }
+		if = {
+			limit = { NOT = { has_country_flag = sea_piety_action_confirm_flag } }
+			set_country_flag = sea_piety_action_confirm_flag
+			if = {
+				limit = { has_country_flag = sea_low_piety_action_flag NOT = { had_country_flag = { flag = sea_low_piety_action_flag days = 1825 } } }
+				custom_tooltip = sea_low_piety_action_cooldown_tt
+			}
+		}
+	}
+	tooltip = sea_low_piety_action_tt
+}
+custom_button = {
+	name = sea_high_piety_action
+	potential = { uses_piety = yes ai = no }
+	trigger = {
+		hidden_trigger = {
+			OR = {
+				NOT = { has_country_flag = sea_high_piety_action_flag }
+				had_country_flag = { flag = sea_high_piety_action_flag days = 1825 }
+			}
+			piety = 0.75
+		}
+	}
+	effect = {
+		tooltip = { add_corruption = -2 }
+		if = {
+			limit = { NOT = { has_country_flag = sea_piety_action_confirm_flag } }
+			set_country_flag = sea_piety_action_confirm_flag
+			if = {
+				limit = { has_country_flag = sea_high_piety_action_flag NOT = { had_country_flag = { flag = sea_high_piety_action_flag days = 1825 } } }
+				custom_tooltip = sea_high_piety_action_cooldown_tt
+			}
+		}
+	}
+	tooltip = sea_high_piety_action_tt
+}
+
+custom_icon = {
+	name = sea_piety_action_confirm_background
+	potential = { has_country_flag = sea_piety_action_confirm_flag }
+}
+custom_button = {
+	name = sea_piety_action_not_confirm
+	potential = { has_country_flag = sea_piety_action_confirm_flag }
+	effect = { clr_country_flag = sea_piety_action_confirm_flag }
+}
+custom_button = {
+	name = sea_piety_action_confirm
+	potential = { has_country_flag = sea_piety_action_confirm_flag }
+	effect = {
+		clr_country_flag = sea_piety_action_confirm_flag
+		if = {
+			limit = {
+				NOT = { piety = -0.76 }
+				NOT = { has_country_modifier = slackening_modifier }
+			}
+			add_yearly_manpower = 1
+			hidden_effect = { add_piety = 0.5 }
+			set_country_flag = sea_low_piety_action_flag
+			hidden_effect = {
+				export_to_variable = { which = sea_low_piety_action_was_set_year value = trigger_value:is_year }
+				export_to_variable = { which = sea_low_piety_action_was_set_month value = trigger_value:is_month }
+				set_variable = { which = sea_low_piety_action_length value = 5 }
+				change_variable = { which = sea_low_piety_action_length which = sea_low_piety_action_was_set_year }
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { piety = -0.76 }
+				has_country_modifier = slackening_modifier
+			}
+			custom_tooltip = sea_piety_action_confirm_tt
+		}
+		if = {
+			limit = {
+				piety = 0.75
+			}
+			add_corruption = -2
+			hidden_effect = { add_piety = -0.5 }
+			set_country_flag = sea_high_piety_action_flag
+			hidden_effect = {
+				export_to_variable = { which = sea_high_piety_action_was_set_year value = trigger_value:is_year }
+				export_to_variable = { which = sea_high_piety_action_was_set_month value = trigger_value:is_month }
+				set_variable = { which = sea_high_piety_action_length value = 5 }
+				change_variable = { which = sea_high_piety_action_length which = sea_high_piety_action_was_set_year }
+			}
+		}
+	}
+}
+##########
+# Shinto:
+custom_window = {
+	name = sea_shinto_isolationism_window
+	potential = { religion = shinto  }
+}
+custom_icon = {
+	name = sea_shinto_isolationism_background
+}
+custom_button = {
+	name = sea_shinto_isolationism_left
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = sea_shinto_isolationism_flag_tt
+			OR = {
+				NOT = { has_country_flag = sea_shinto_isolationism_flag }
+				had_country_flag = { flag = sea_shinto_isolationism_flag days = 3650 }
+			}
+		}
+		stability = 1
+		isolationism = 1
+	}
+	effect = {
+		set_country_flag = sea_shinto_isolationism_flag
+		add_stability = -1
+		hidden_effect = { add_isolationism = -1 }
+	}
+	tooltip = sea_shinto_isolationism_left_tt
+}
+custom_button = {
+	name = sea_shinto_isolationism_right
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = sea_shinto_isolationism_flag_tt
+			OR = {
+				NOT = { has_country_flag = sea_shinto_isolationism_flag }
+				had_country_flag = { flag = sea_shinto_isolationism_flag days = 3650 }
+			}
+		}
+		stability = 1
+		NOT = { isolationism = 4 }
+	}
+	effect = {
+		set_country_flag = sea_shinto_isolationism_flag
+		add_stability = -1
+		hidden_effect = { add_isolationism = 1 }
+	}
+	tooltip = sea_shinto_isolationism_right_tt
+}
+##########
+# Ages:
+custom_button = {
+	name = sea_ages_button
+	trigger = { splendor = 800 }
+	effect = {
+		add_splendor = -800
+		change_government_reform_progress = 50
+	}
+	tooltip = sea_ages_button_tt
+}
+##########
+# Religion:
+#custom_window = {
+#	name = sea_primitive_religion_window
+#	potential = { OR = { religion = animism religion = inti religion = nahuatl religion = mesoamerican_religion } }
+#}
+#custom_icon = {
+#	name = sea_primitive_religion_background
+#}
+#custom_text_box = {
+#	name = sea_primitive_religion_name
+#	potential = { NOT = { has_country_flag = sea_primitive_religion_reform_flag } }
+#	tooltip = sea_primitive_religion_name_and_value_tt
+#}
+#custom_text_box = {
+#	name = sea_primitive_religion_value
+#	potential = { NOT = { has_country_flag = sea_primitive_religion_reform_flag } }
+#	tooltip = sea_primitive_religion_name_and_value_tt
+#}
+#custom_button = {
+#	name = sea_primitive_religion_reform_button
+#	potential = { NOT = { has_country_flag = sea_primitive_religion_reform_flag } }
+#	trigger = {
+#		hidden_trigger = {
+#			check_variable = {
+#				which = sea_primitive_religion_reform_amount
+#				value = 5
+#			}
+#		}
+#	}
+#	effect = { set_country_flag = sea_primitive_religion_reform_flag }
+#}
+#custom_button = {
+#	name = sea_primitive_religion_modifier_button_
+#	potential = { NOT = { has_country_flag = sea_primitive_religion_reform_flag } }
+#	trigger = { always = yes } # DD
+#	effect = { set_country_flag = sea_primitive_religion_reform_flag }
+#	tooltip = sea_primitive_religion_modifier_button_tt
+#}
+##########
+# Colonization:
+custom_button = {
+	name = sea_frontier_button
+	potential = {
+		FROM = {
+			OR = {
+				has_country_flag = mesoamerica_american_frontiers_flag
+				has_mission = CSU_chanka
+				has_mission = CSU_ground_shaker
+			}
+		}
+		if = {
+			limit = { FROM = { has_country_flag = mesoamerica_american_frontiers_flag } }
+			OR = {
+				region = mexico_region
+				area = rio_grande_area
+				area = northeast_mexico_area
+				area = chihuahua_area
+				region = central_america_region
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						has_mission = CSU_chanka
+						has_mission = CSU_ground_shaker
+					}
+				}
+			}
+			INC_can_be_colonized_without_natives = yes
+		}
+	}
+	trigger = {
+		any_neighbor_province = {
+			owned_by = FROM
+			is_in_capital_area = yes
+			is_colony = no
+		}
+		is_colony = no
+		if = {
+			limit = { FROM = { has_country_flag = mesoamerica_american_frontiers_flag } }
+			FROM = {
+				treasury = 50
+				mil_power = 15
+				manpower = 0.5
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						has_mission = CSU_chanka
+						has_mission = CSU_ground_shaker
+					}
+				}
+			}
+			FROM = {
+				treasury = 50
+				mil_power = 15
+				manpower = 0.5
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = { FROM = { has_country_flag = mesoamerica_american_frontiers_flag } }
+			save_event_target_as = sea_siberian_frontier
+			FROM = {
+				add_treasury = -50
+				add_mil_power = -15
+				add_manpower = -0.5
+				hidden_effect = { country_event = { id = sealand_events.31 } }
+			}
+			tooltip = { add_siberian_construction = 100 }
+				
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						has_mission = CSU_chanka
+						has_mission = CSU_ground_shaker
+					}
+				}
+			}
+			save_event_target_as = sea_siberian_frontier
+			FROM = {
+				add_treasury = -50
+				add_mil_power = -15
+				add_manpower = -0.5
+				hidden_effect = { country_event = { id = sealand_events.31 } }
+			}
+			tooltip = { add_siberian_construction = 100 }
+		}
+	}
+	tooltip = sea_frontier_button_tt
+}
+##########
+# Switzerland:
+custom_button = {
+	name = sea_swiss_cantons_3_influence_fort_button
+	potential = {
+		has_fort_building_trigger = yes
+		FROM = {
+			has_country_flag = sea_swiss_cantons_3_influence_fort_button_flag
+			custom_trigger_tooltip = {
+				tooltip = sea_swiss_cantons_3_influence_fort_button_tt
+				NOT = { had_country_flag = { flag = sea_swiss_cantons_3_influence_fort_button_flag days = 1825 } }
+			}
+		}
+		owned_by = FROM
+	}
+	trigger = {
+		NOT = { has_province_modifier = sea_swiss_cantons_3_influence_modifier }
+		FROM = {
+			custom_trigger_tooltip = {
+				tooltip = sea_swiss_cantons_3_influence_fort_button_tt
+				NOT = { had_country_flag = { flag = sea_swiss_cantons_3_influence_fort_button_flag days = 1825 } }
+			}
+		}
+	}
+	effect = {
+		add_province_modifier = {
+			name = sea_swiss_cantons_3_influence_modifier
+			duration = 1095
+		}
+	}
+	tooltip = sea_swiss_cantons_3_influence_fort_button
+}

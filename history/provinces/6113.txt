@@ -1,0 +1,11 @@
+add_core = FUL
+owner = FUL
+base_tax = 1
+base_manpower = 1
+base_production = 1
+religion = shamanism
+controller = FUL
+is_city = yes
+culture = fulani
+trade_goods = ivory
+discovered_by = sub_saharan

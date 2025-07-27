@@ -1,0 +1,37 @@
+#587 - Kengtung
+owner = HSE
+controller = HSE
+culture = shan
+religion = animism
+capital = "Kengtung"
+trade_goods = tropical_wood
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = HSE
+discovered_by = chinese
+discovered_by = indian
+1502.1.1 = { 
+	controller = SST
+	add_core = SST
+}
+1554.1.1 = { add_core = TAU }
+1563.4.1 = { 
+	controller = TAU
+}
+1599.1.1 = { 
+	controller = SST
+}
+1605.1.1 = { 
+	controller = TAU
+}
+1655.1.1 = { discovered_by = SPA }
+1732.1.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+1769.12.13 = { 
+	controller = TAU
+}
+1803.1.1 = { add_core = AYU }

@@ -1,0 +1,11 @@
+base_tax = 4
+base_manpower = 3
+base_production = 3
+culture = vietnamese
+trade_goods = fish
+religion = mahayana
+is_city = yes
+discovered_by = chinese
+add_core = DAI
+owner = DAI
+controller = DAI

@@ -1,0 +1,10 @@
+base_tax = 1
+base_manpower = 1
+base_production = 1
+is_city = yes
+add_core = ANU
+owner = ANU
+culture = ainu
+trade_goods = naval_supplies
+religion = animism
+controller = ANU

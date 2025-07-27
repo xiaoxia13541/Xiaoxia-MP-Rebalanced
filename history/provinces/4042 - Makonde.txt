@@ -1,0 +1,21 @@
+#4042 - Makonde
+
+owner = MKU
+controller = MKU
+add_core = MKU
+culture = makua
+religion = shamanism #Fetishism
+trade_goods = livestock
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 2
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+capital = "Makonde"
+is_city = yes
+discovered_by = east_african
+discovered_by = central_african
+
+1710.1.1 = { discovered_by = OMA }

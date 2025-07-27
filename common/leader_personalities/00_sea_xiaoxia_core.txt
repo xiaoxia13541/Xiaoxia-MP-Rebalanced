@@ -1,0 +1,15 @@
+sea_military_tactician_personality = {
+	allow = {
+		always = no
+	}
+	military_tactics = 0.1
+}
+
+# xiaoxia_rajput_hero_personality = {
+# 	allow = {
+# 		is_admiral = no
+# 		has_estate = estate_rajput
+# 	}
+# 	land_morale = 0.1
+# 	is_rajput_modifier = yes
+# }

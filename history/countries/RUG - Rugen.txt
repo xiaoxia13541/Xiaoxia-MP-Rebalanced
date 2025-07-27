@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = pirate_republic_reform
+government_rank = 1
+technology_group = western
+primary_culture = pommeranian
+religion = catholic
+capital = 4745	# Rügen

@@ -1,0 +1,78 @@
+country_decisions = {
+	chola_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			capital_scope = {
+				superregion = india_superregion
+			}
+			tag = VIJ
+		}
+		provinces_to_highlight = {
+			OR = {
+			province_id = 620
+			province_id = 622
+			province_id = 2673
+			province_id = 617
+			province_id = 594
+			province_id = 596
+			province_id = 4815
+			province_id = 2391
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			is_at_war = no
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			mission_completed = vij_indian_trade
+			OR = {			
+				owns_core_province = 622
+				owns_core_province = 596
+			}
+			OR = {
+				AND = {		
+					owns_core_province = 620
+					owns_core_province = 2673
+					owns_core_province = 617
+				}	
+				AND = {		
+					owns_core_province = 594
+					owns_core_province = 4815
+					owns_core_province = 2391
+				}
+				calc_true_if = {
+					amount = 15
+					all_owned_province = { region = malaya_region }
+				}
+			}
+		}
+		effect = {
+			set_global_flag = vij_mission_progress_saved
+			change_tag = COA
+			on_change_tag_effect = yes
+			add_government_reform = chola_monarchy
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			remove_non_electors_emperors_from_empire_effect = yes
+
+			if = {
+                limit = { has_custom_ideas = no }
+                country_event = { id = ideagroups.1 } # swap ideas
+			}
+			622 = {
+				change_province_name = "ËT=n"
+			}
+			add_prestige = 25
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
+}

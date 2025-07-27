@@ -1,0 +1,24 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = fur_culture
+add_accepted_culture = tunjur
+religion = shiite
+technology_group = east_african
+unit_type = sub_saharan
+capital = 1219	# Darfur
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
+#Awlad Kenz
+
+1444.1.1 = {
+	monarch = {
+		name = "Sulayman"
+		dynasty = "Solong"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

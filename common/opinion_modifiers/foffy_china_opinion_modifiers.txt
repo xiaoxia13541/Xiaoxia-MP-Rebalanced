@@ -1,0 +1,8 @@
+########################################
+# Opinion modifiers for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+h_commandery_isolation = {
+	opinion = -1000
+}

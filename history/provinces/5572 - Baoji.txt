@@ -1,0 +1,22 @@
+# 2733 - Baoji
+owner = BAO
+controller = BAO
+add_core = BAO
+culture = sichuanese
+religion = confucianism
+capital = "Baoji"
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+# citysize = 10140
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+1644.1.1 = { controller = CSH }
+1645.1.1 = { controller = MCH }
+1645.7.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = yes

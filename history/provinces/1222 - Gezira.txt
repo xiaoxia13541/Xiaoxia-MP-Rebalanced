@@ -1,0 +1,13 @@
+add_core = ALO
+owner = ALO
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = nubian
+trade_goods = livestock
+religion = coptic
+controller = ALO
+is_city = yes
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = east_african

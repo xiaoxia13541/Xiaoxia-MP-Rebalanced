@@ -1,0 +1,11 @@
+add_core = BEN
+owner = BEN
+base_tax = 2
+base_manpower = 2
+base_production = 1
+religion = shamanism
+controller = BEN
+is_city = yes
+culture = nupe
+trade_goods = tropical_wood
+discovered_by = sub_saharan

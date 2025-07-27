@@ -1,0 +1,10 @@
+# Added by Sealand
+government = monarchy
+add_government_reform = north_sea_monarchy_reform
+primary_culture = anglosaxon2
+add_accepted_culture = danish
+add_accepted_culture = norwegian
+religion = catholic
+technology_group = western
+historical_friend = NOR
+capital = 12 #Sjaelland
