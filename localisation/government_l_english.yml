@@ -1,362 +1,362 @@
-﻿l_english:
- native:1 "ŸSOOlèÏe"
- native_desc:1 "N*N1uK‘•†˜üRN„vèK„®‹Oßu»l„vŸSOOlèÏe0"
- native_basic_reform:1 "ŸSOOlèÏe"
- native_basic_reform_name:1 "ŸSOOlèÏe"
- native_basic_reform_desc:0 "ŸSOOl®‹O=f1uNTTwTK‘•†˜üR„v•w'YO0"
- siberian_tribe:0 "‰=O)RšNŸSOOl®‹O"
- siberian_tribe_desc:0 "‰=O)RšNŸSOOl®‹O=f1u'YK‘•†˜üR„v•w'YO0"
- monarchy_desc:0 "TIN6R=fNÍy1u=UN„vTINÅbûNýV¶R–™„v?eœ^bVV0TINÈu«Žßu»lÿ‹sMO8^(WvQ¶RÏe…QN­ˆ0"
- feudalism_vs_autocracy:0 "Cg›RÓu„g"
- feudalism_reform:1 "Sú^5Ïe6R"
- feudalism_reform_desc:0 "(WN*NSú^‹sýV-NÿTIN„v›RÏ‘Çåb	gW0W„v5Ïe„v±R“ŠHeàVw—V0R R:V0Ù›N5Ïeÿbwô‹S5KNºNŽVŽV=fW0W„vNb	gwÿåb	gøvSV'Y„vqVÍT›RŒTêñT„vD–¸^0"
- autocracy_reform:0 "ìrÁˆ6R"
- autocracy_reform_desc:0 "ìrÁˆ6RSCg›RÆ–-N(Wßu»lwKb-N0ýV¶R8^«ˆÆ‰:NÖNìN„v*NºN0µN0ßu»lwåb	g–ÚPŒT=ecw„vÅ`µQv^NSÁ‰ÿFOÙ›NºNN,‚O«ˆSVb‹s²RbXTw…V0"
- plutocratic_reform:0 "N¹e0–?e»l"
- plutocratic_reform_desc:0 "(W0–?e»l„v‹sýV-NÿTIN„v=ecw=f±›Nåb	ggØš6eeQ„v0–0TINŽVŽV=fN*NbŸR„vFUNâVSO„v†˜–ˆÿTIN„v=ecwmN=f‚Ydk0"
- enforce_trader_privileges_reform:0 "žRËeFUºNyrCg"
- enforce_trader_privileges_reform_desc:0 "Ç R:VýV¶RNbŸR„vFUNlQøSKNô•„vTwû|ÿbìNïSåNib'YbìN„vN¡RƒôVåNÊSbìN&^ÞV„v)R¦m0"
- indian_sultanate_reform:0 "pS¦^Ï‚9NýV"
- indian_sultanate_reform_desc:0 "jO:Nßu»lw„vFz¯e—g(WýV…Q^SŽNSpe>mÿpS¦^Ï‚9NýVN—VN9eÛŒTibUS.Oßu„vFz¯e—g‹sCgtõV0‹†6qÖNìNÍN6q=fO¯epQýV¶RÿFO.OßuaINNÅNS+T¹r*YYe’VŒTúWcw’V„vPŸs|ÙN«ŽýNòTibUS0R¾id—RYe0"
- bengali_reform:0 "<rÜumR RÉbFUºN"
- bengali_reform_desc:0 "mR RÉb¦ŒTR`³l	NÒ‰2mNÅN=fœRw„vƒlWÿgÍ‘‰„v=fÿjO:NŽVpS¦^„v³lãSÿÙÌ‘Nôv=fFUºNÊSFUN„vPNíV0ÙGrW0W„v†˜INòTHSgŽNbìNKb-N„vQRÿFOÙÌ‘„vFUºNÊS9‚INùRbìNwŠŒTÙGrW0W„v†˜INwQYT7h„vÍ‘‰'`ŒTqVÍT›R0"
- sufi_syncretism_reform:0 "Ï‚òƒ>m‡TININ"
- sufi_syncretism_reform_desc:0 "(WÙGrVýVKN0WNÿg×S0kÎ„vO¯epQè•’VNôv=fÏ‚òƒ>m0ÖNìNùRSV0W`N×OS¹Rv^Ä„ÿïygÂSNSV0WºN„våe8^uIm0ÖNìN-N„v¸‹YºNÅbûN†NSV0W†˜–ˆ0‚YœgbìN=ecÖNìNÿbìNOÁ‰Á‹vQÏe²(WVRƒÓbW0ú^Ëz°eÎW-N„vÑSUSîX'Y0"
- hereditary_vs_nobility:0 "5ÏeyrCg"
- enforce_privileges_reform:0 " R:V5ÏeyrCg"
- enforce_privileges_reform_desc:0 "ýV…Q„vgÏePRYRpeãNý(W:NýVHe›Rÿ(WýV¶RtQúewegTÿt”^çuíuÙuÙ›N:NýVHe›R„vºNÐc›OyrCg0"
- quash_noble_power_reform:0 "P–6R5ÏeyrCg"
- quash_noble_power_reform_desc:0 "–NwýV¶R„vÑSUSÿ5Ïeè•–Œcµc„vCg›RŒTqVÍT›RÇ'YaÑSf>f0Whˆ°súQeg0ÖNìN=UP`1Y‰cçe	g„vyrCgÿg'Y0WI–x†NÙ*N?eCg„vÑSUS0"
- centralize_reform:0 "Æ–Cg˜RÚP6R"
- centralize_reform_desc:0 "Æ–Cg˜RÚP6RåN‹sýV–™ý:N8hÃVÿ'YYpe„v³Q®‹1ußu»lwÊSvQÑã6RšRÿwTN¾Tw0"
- decentralize_reform:0 "RCg˜RÚP6R"
- decentralize_reform_desc:0 "RCg˜RÚP6RSôfY³QVrCgN>eÙuùRTIN1„v0W¹e˜RXTb?eœ^0"
- growth_of_administration:0 "Lˆ?e˜RÚP"
- clergy_in_administration_reform:0 "YeëXÂS?e"
- clergy_in_administration_reform_desc:0 "^yLwºNXTòT6qŒcác†N¸‹YjO:NLˆ?eºNXT„vŽbýw0ÖNìN×SÇYe²wÿ¾|ŽN‡efNåTjOÿN	gËzNKN?a0NÙ›N^yLwºNXTÓu²NÿïSåNObìN„vLˆ?e:gsQ(WˆVY¹eb—ôfØšHe0ôf:V›R0"
- of_noble_bearing_reform:0 "•ˆ5Ïe"
- of_noble_bearing_reform_desc:0 "‹sýV„v5ÏeìNNÅN‰HeàVŽN5Ïe®‹OÿØ”^HeàVŽNTIN0SVýV¶RØS—VŠegŠ'Yöeÿ5ÏeìN„vLw1¿ONP–ŽN:NýVjOb†N0°eNãN„v5ÏeS«bN•ˆÿKbc¢”rÿŒTÖNìN±›N«bZWc•„vDQVìNNT:NýV¶Rg¡R0"
- meritocratic_focus_reform:0 "	2ûNýw"
- meritocratic_focus_reform_desc:0 "ËR5è•–„W­eg?ežRN³ÖSÿ	2ûNýw¹e:NckS0	2>Nýwÿ—VvQMbwØVvQ«Ž0"
- deliberative_assembly:0 "T®‹âVSO"
- parliamentary_reform:0 "®‹O6R"
- parliamentary_reform_desc:0 "?eœ^–™NýV¶RCQ–™t”^1uNT„vºNÅbûNÿåNOËzÕlb–(W»lýVNŒcácôf'Y„vCg›R0"
- royal_decree_reform:0 "‡v¶RUeäN"
- royal_decree_reform_desc:0 "bìN„vTINóØšàeNÿùRvQ„vàVÚ‹ØšŽNNR0bìNÅV‰˜nxÝOhQýVT0WýuˆRTIN„vÕläN0"
- aristocratic_court_reform:0 "5Ïe«R÷^"
- aristocratic_court_reform_desc:0 "5Ïe:NbìNg¡R†Npe*NNªuÿòT6qb:N?eœ^„vNèR0:N†Nôf‹Y0Wµc6R0VY±RŒT·ƒ—VÙ›N5Ïe„v=ecÿbìNÅV‰˜ö^íuÖNìNN‹s²RŒT«R÷^„vÆRRTwû|0"
- states_general_reform:0 "Tww®‹O"
- states_general_reform_desc:0 "ÇSTÞTãNhˆÉbeQIrµu®‹O-NÿbìNïSåN(WÝOYuTIN6R„vMRÐcN	gHe0W‰RšbýV…Q„vqQŒT>mû|0\n\n§Y®‹O>m§!ŒT§YTIN>m§!SÇ	>NŒT‹NöN‰N:YýV¶R„vµc6RCg0wuHe„v>mû|îOckŒT	>N„v‘˜‡sÖS³QŽNSVMR„vŒcCg>mû|0"
- general_estates_reform:0 "	NµuO®‹"
- general_estates_reform_desc:0 "ÅV‰˜SÍ‘	NµuO®‹ÙNäSw„vIQcƒ.Oßuÿ R:VvQ(WËzÕl-N„vjO(u0©‹bìNšRgìSÆ–T6–µuãNhˆÿ:NbìNO'Y„vßu»lwZPúQcüRŒTàVJT0"
- absolute_rule_vs_constitutional:0 "N6RININNªR?eININ"
- letat_cest_moi_reform:0 "gsSýV¶R"
- letat_cest_moi_reform_desc:0 "¡l	géy^¿OêSiRN÷mqNÿºNl—‰«ˆ†˜üR0bìNÅV‰˜nxÝO(WûNUOÅ`µQNTINKNŠsS:NÕl‹VÿÏk*NºNÅV‰˜KSvQNbýw¾b>TINNb?a0"
- regional_representation_reform:0 "0W¹eãNhˆ"
- regional_representation_reform_desc:0 "0W¹e®‹O=fbýVNïSb:„vNèRÿÇ R:VƒRìN„vjO(uÿbìNnxÝO†NHe‡sŒT‹sýV„vTÕl'`0"
- separation_of_power:0 "Cg›RRËz"
- political_absolutism_reform:0 "?e»lN6R"
- political_absolutism_reform_desc:0 "žR°sTIN„v¡‹RŒTa×VMb=fùRýV¶Rg	g)R„v0N*N2f„vTINïSåNEQRËeUSvQMbýwåN(WTÍy†˜ßWÛLˆŒteÎNwžR°sýV¶RAucƒ0"
- legislative_houses_reform:0 "ËzÕlb–"
- legislative_houses_reform_desc:0 "ÇSËzÕl:g„gRbY*N®‹b–ÿbìNïSåNôf‹Y0W(WÝOYu.OßuNÑSw9ei—KNô•ÖS—Vs^aˆ0"
- become_a_republic_reform:0 "bËzqQŒTýV"
- become_a_republic_reform_desc:0 "TIN6R(WÙ*NýV¶RòTÏu0R4Y†Nÿ=föeP9ei—?eœ^ØšBSÿú^ËzN*N	>NqQŒTýV†N0"
- install_theocratic_government_reform:0 "ú^Ëz^yCg?eœ^"
- install_theocratic_government_reform_desc:0 "bìN„vYeIN=f=UNcknx„v2R­e=f^—„vhÆQ0°s(W©‹bìNÎN9h,gN9e.?eœ^ÿ©‹^yupegcVbìN0"
- oligarchy_merchant_class_noble_elite:0 "Cg›RÓu„g"
- oligarchy_reform:0 "áR4Y?e»l"
- oligarchy_reform_desc:0 "(WáR4Y6R-Nÿßu»lw=f1u>yONg	gqVÍT›R„v±›NºN	úQ„v0ßu»l6–BS=f?eœ^–™=UN—‰ùRvQôv¥c1„v²SOÿTöemN=fýV¶R„v=eñg0"
- grand_duchy_reform:0 "'YlQýV"
- grand_duchy_reform_desc:0 "bìN„výV¶RÎN*g	gÇ÷mqN„v·u‰Nÿ(WbìNO'Y„vlQ5rßu»lNƒX…QTlÏe†v¾|Ú‹âVÓu0"
- misl_confederacy_reform:0 "ÆR¯eSTwßv"
- misl_confederacy_reform_desc:0 "t’ŽNbìNm×Së³R„v†SòSÿýV¶R„vúWNxCN=fú^Ëz(WýwYùRYèZÁwZPúQëV”^ùRKNN„v0bìN=f!•KQTwßvÿ1uN*N*N>yâVÊSvQ›Q–Äub0"
- khalsa_reform:0 "aSS(„„v›RÏ‘"
- khalsa_reform_desc:0 "	gaSS(„YeâV„váO’V(WbìNÌwTâVÓuNô0v^©wb—eÿ¡l	gÀNHN=fbìNZPN0R„v0\n6qwbìNNýwØSbbìNþfÏu—e‰NÇ„v‹Sëw±7hÿ(WbìNýV…QûNUOºNýýwYNðSŒcCg0"
- rajput_kingdom:0 "Ébpgnfyr‹sýV"
- rajput_kingdom_desc:0 "Ébpgnfyr‹sýV„vßu»lú^Ëz(WlÏeùR‹s²R„vàVÚ‹NNˆsQû|KNN0jO:NÉbpgnfyrlÏe„v–™†˜ÿbìNåb	g†SòS `ENN<P—VáOV„v:V'Yfk=g.Oßuÿàeº‹=fb—ùRb‰NØ=fŒp¾–ÿbìNïSåNìS2U‹sýVKN…QCNóÑu0W:S„v=ecwìNÍT”^b—e0"
- nayankara_reform:0 "±6wæWSOû|"
- nayankara_reform_desc:0 ":N†Nôf‹Y0Wµc6RW0Wv^ÛNekžR°sbìN„v›Q‹NÎ‘ÃVÿbìNS¸‹Y„v0µNRM‘Ùu†N0W¹e„v±6wæ0±6wæìN—‰sQèlÎW^0úR™^åNÊSvQÖNšRES¹p„vÑSUSÿåNÊSµNubìNNb—‰„výwYÝOkS‹sýVåNÊSÛLˆib.V„v›Q–0"
- poligar_reform:0 "KˆNâlræWCg›R"
- poligar_reform_desc:0 "bìN„vW0WNEQ¥eNwTÍyS‹W,g0WèÏeŒTlÏeÿ‚YœgbìN(WýV¶RSO6R-NÙuˆNÖNìNN-^KN0WÿbìN1SïSåNEQR)R(uÖNìN0jO:NN*N6–BSÿÙ›N0âlræW0˜RXTïSåNÅbûN»l‰R¡rtw02–¡VåT‹Nú^.w0,g0WãNhˆåNÊS›Q˜R0gÍ‘‰„v=fÿÖNìNïSåN¨RXTêñT„v²NÏeÿb:NbìN·ƒ—VºNMb„vo‚‹Yegn0"
- merchants_reform:0 "0–?e»l"
- merchants_reform_desc:0 "0–qQŒTýV„výV¶R?eVrôVÕuNw0ÌRN8fUSV0ßu»lwÎNýV…Qg	gqVÍT›R„vFUºN¶RÏe-N	úQÿNASROVÙ›NFUºN„v=ec0"
- noble_elite_reform:0 "5Ïe¾|ñ‚?e»l"
- noble_elite_reform_desc:0 "(WÙ*NqQŒTýVÿßu»lCg(WÐg›N5Ïe¶R­^-N=fN­ˆ„v0Ù›N¶RÏeÎNÖNìNêñT„vâVSO-N	úQßu»lwÿwN?eœ^–™mNÅV‰˜O`—ÖNìN„v=ec0"
- gond_kingdom:0 "!·V‹sýV"
- gond_kingdom_desc:0 "ˆQæt³u=fN—g0Nu–ŒT!X’WKN0WÿFOgÍ‘‰„v=f±Ì‘uImNw¸‹Y„vèÏe0µc6RÙGrW0WasTNw‰:NÙ›NS‹Wßu»lwÐc›OˆV'Yz¦^„vê»lŒTyrCg06qw!X’W=fµc6RbìNýV¶R…QTÍy²SONbÅV‰˜„vÿµc6RƒRìNSObìNýwYŒcácˆQæt³uºNl„vàVÚ‹0"
- deccani_society_reform:0 "·Vr^¾|ñ‚"
- deccani_society_reform_desc:0 "·Vr^êS=fÑegMb«ˆO¯epQýV¶RNbVgÿbìN„vVyHQOVûyleg·ƒ—VôucýV¶RNb—„våTjOºNXT0–Nwöeô•„v¨cûyÿÙR.†NN*N°e‹W„vhQtSýV¶R,rŒNãN·Vr^ºNåNÊSçe„vpS¦^5Ïe0"
- sidhi_recruitment:0 "VßR‰êºN"
- sidhi_recruitment_desc:0 "–Nwöeô•¨cûyÿbìNòTÏunpf„v²‹Æ‹0RbìNâeNýwáOûNNbìN	g²Qz„vÃWs|SmNNýwáOûN,g0W0WIN0‚YœgbìNó`‰·ƒ—V<P—VáOV„v?eœ^˜RXTŒTc%c˜RÿbìNÅV‰˜ûRBlÛbßR¾|ñ‚tY¶–egkXeˆÙ›NLwMO0"
- dakhni_culture_reform:0 "·Vr^‡eS"
- dakhni_culture_reform_desc:0 "–NwbýV„vTwNbŸqÿN*NÓuT·Vr^ØšŸSTÎWKN¾|NS„vYT·Vr^‡eSVËYúQ°s0N›Ní‹Šýw(WºNìN-Nô•LˆÿÔk‚Y·Vr^í‹ÿN›N,g0W¹eŠ„vI`ðy	ÿ0âl¯eí‹bW3wvQí‹0©‹bìNSÙÍy¾|ñ‚‡eSEQRÐ(u0R¡rt-Nÿv^=T(u±›NýwÅ”^(WNT0W:SåTjO‰Bl„v¡rtºNMb0"
- free_city:0 "ê1u^"
- free_city_desc:0 "Ù=fN*N«ˆ‡v^²NêˆcˆNTÍyyrCg„v^ýVê1u^0"
- revolutionary_republic_reform:0 "i—‹TqQŒTýV"
- presidential_despot_reform:0 "I`ßuìrÁˆ"
- presidential_despot_reform_desc:0 "(Wå‹ýVÿN*N«ˆûN‹T„vìrÁˆwùRýV¶RLˆOàQNNÝuùR„vCg›R0"
- republican_virtues:0 "qQŒTýVŽ·V"
- republican_authoritarianism_reform:0 "ZCgININ"
- republican_authoritarianism_reform_desc:0 "‹†6qv^^—TIN?eSOÿFO=fÙ*NqQŒTýVÍ‘Æ‰Õl‹VŒTéy^ÿOÇ‘ÖSÁ”UKbUôu²b-N.Y?eœ^(WýV…Q„vCgZ0"
- nepotism_reform:0 "?e»l‹sg"
- nepotism_reform_desc:0 "(WÙ*NýV¶RÌ‘òTÏu	gN›N¶RÏe–öeô•¨cûyhˆ°súQ†NbÅbýV¶R1ûN„v?ag0ÙýN?ag=f‚YdkKN:VÿåNôŽNÖNìNNÅN^g	g1ûN²NÙuÖNìNêñTbÅbÿØ^gýV¶RmNýw©‹Ïe…Q„v°eºN	gNbÅbSV0"
- republicanism_reform:0 "qQŒTININ"
- republicanism_reform_desc:0 "Ù*NqQŒTýVòTÏub:N†NqQŒT¾|^y0lQlCg)RåNÊS:NqQT)RÊvKY—eKNtõV„vMckSw0"
- frequent_elections_vs_consolidation_of_power:0 "	>N‘˜‡s"
- frequent_elections_reform:0 "‘˜Au	>N"
- frequent_elections_reform_desc:0 "•ûNgOßu»lwc`a„Y:NÿôfUOµQN*NºN•gßu»lýV¶R,geg1SNqQŒTtõVÌwSwpš0©‹bìN9ei—	>N6RåNnxÝOýwùRNb	˜RXTôf‹Y0Wî•10"
- consolidation_of_power_reform:0 "éTúVCg›R"
- consolidation_of_power_reform_desc:0 "bìNSVMR˜RXT„vûNg*YíwÿàeÕlžRËe•Ü„vÄ‰R0ÙêSOËnul¹|ININÿüRôîvIQíwEm„v?eVr0©‹bìN9ei—bìN„v	>N6R¦^ÿAQ¸‹ôf•„vûNgÿÙ7hbìN	úQ„v˜RXT1Sýwôf‹Y0WËeUSÖNìN„v±b0"
- federalism_vs_unitarism_vs_confederacy:0 "0W¹eRCgININ"
- provincial_governments_reform:0 "wµu?eœ^"
- provincial_governments_reform_desc:0 ":NObìN„vLˆ?eèè•	gHe‡sÿbìNÅV‰˜ÙuˆNwµu?eœ^eSLˆvQLwýwNb—„vê1u00W¹e	>NSnxÝOïSåNûN‹TïSáOV„v*NºNåN¿OÞV”^-N.Y?eœ^0"
- administrative_divisions_reform:0 "Lˆ?e:SR"
- administrative_divisions_reform_desc:0 "©‹bìNSýV¶RRR:NNT„v0Wt:SßWÿ6qT1u-N.Y?eœ^ûN‹T„v˜RXTÛLˆßu»lŒT¡rt0"
- union_of_states_reform:0 "¦TwýV¶R"
- union_of_states_reform_desc:0 "bìN„výV¶Rv^^—1uN*NßuN„výV¶RÑSUSweg„vÿw=f1uY*NýV¶RÄub„v¦Tw0–NwbìN?eœ^„vÑSUSîX'YÿbìNNýwµO¯rT RßvýV„vCg)RÿàV:NÙ7hZPOõŽbìNg9h,g„vŸSR0"
- parliamentary_vs_presidential:0 "Cg›RRËz"
- presidential_reform:0 "I`ßu6R"
- presidential_reform_desc:0 "Lˆ?e:g„g„vIN-^bI`ßuÅV‰˜N?eœ^„vËzÕlèè•RVÛLˆ	>N0I`ßuïSåNûN‹Tbwã‰Ç–?eœ^bXT0"
- consolidation_of_power_category:0 "éTúVCg›R"
- broaden_executive_powers_reform:0 "ib.VLˆ?eCg›R"
- broaden_executive_powers_reform_desc:0 "–NwýV¶RÑSUSÿbìNŠegŠ—‰ëVØšHe0WLˆ¨R0žR°sÙ¹p„v=UN¹eÕl=fib'YbìNLˆ?e:g„g„vCg›RÿOvQåb	gNb—„våTwQ0"
- devolution_of_powers_reform:0 "Cg›RN>e"
- devolution_of_powers_reform_desc:0 "¡l	gUS*N„vºNýwYßu»lbìNÙ7h'YNYBg„výV¶R01uNMOßu»lwÆ–CgmNÝÌw†NbìNVyHQ„vqQŒTtõV0\nCg›R„vRceNN>e=fbìNýwY¨R`0Wán³N­eÑSUS„výV¶R—Bl„vg‹Y¹eV0"
- guiding_principle_of_administration:0 "Lˆ?ecüRŸSR"
- political_principle_reform:0 "?e»lŸSR"
- political_principle_reform_desc:0 "jO:NqQŒTýVÿýwYÛNekÐcØš?eœ^:g„gåNÊS?e»ltõVHe‡s„vŸSRMb=fbìNýV¶R„vcüRŸSR0"
- moral_principle_reform:0 "S·VŸSR"
- moral_principle_reform_desc:0 "ýV¶R„vIN‰LwýwKNN=fôu²bo‚‹Y„vS·VÂ‰01uŽNbìN„vqQŒTýV(W¸‹Y¹eb—ýOVŽNlQl„vo‚„ULˆ:NÿàVdkÅV‰˜µb6RŒTˆmd–P%0jv`IrLˆ:NÿåN¿O.yte*NýV¶R0"
- electorate:0 "	l"
- landholders_reform:0 "0WIN"
- landholders_reform_desc:0 "(WûNUO>yOÿ0WINGWYŽNCg›R„v-NÃVÿ(WbýVmN=f‚Ydk0©‹bìNÐcGS0WINìN„v•bhyCgÿ9hncÖNìNDµN„vYSSvQ	hypeRµu0"
- citizenry_reform:0 "lQl"
- citizenry_reform_desc:0 "qQŒTýV„vÐlOVŽNlQlÿàVdkÏk*NlQlý”^åb	g•bhyCgÿeg	ébŒeg†˜üRbìN„výV¶R0·ƒ—Vb:NlQl„vyrCgT7hSOb:NN*N	gHe„v¬PSBRÿegÀo±RbìN»lNNb	gºNlÝOco‚‹Yhˆ°s0"
- office_selection:0 "˜RXT	Ôb"
- sortition_reform:0 "ËbŒr"
- sortition_reform_desc:0 "Nx^„v=fÿ1uŽNïSåN?	ÿåNÊSçeåe„vàVÚ‹ïSýwOON›N	l„v2R­e™„N4–qV0©‹bìNžRËeN*Nû|ßuÿû|ßuïSåN:NÍ‘‰„vLwMOÎNOÀyP	ºNMb“^-NJS–:g0W	ébºNXT0"
- universal_suffrage_reform:0 "ibUS	>NCg"
- universal_suffrage_reform_desc:0 "©‹bìNTôfYESOO(WbìNƒX…Q„vºNV>eÍ‘‰LwMOÿåN¿ObìN	gôf^ÛlŒTôfwQãNhˆ'`„vlQ¡RXT	Ôb0"
- question_of_dictatorship:0 "ìrÁˆ6R„vïSýw'`"
- seize_executive_power_reform:0 ":YÖSLˆ?eCg›R"
- seize_executive_power_reform_desc:0 "qQŒT6R:NbìNÐc›O†NˆV‹Y„v.^©RÿFO°s(W=fbìNKˆN:V'Yßu»lwCg›R„vöeP†NÿÙSObìN„výV¶RÛeQN*N°eöeãN0"
- proclaim_divine_guidance_reform:0 "±RJT^y„vcV"
- proclaim_divine_guidance_reform_desc:0 "bìNýV¶R„v»ltÆQR=f^y„vcVw^—lO„v=ec0©‹bìNûN‹TwcksQÃVbìNINSOS·VyIy„vºN0"
- strengthen_executive_powers_reform:0 " R:VLˆ?eCg›R"
- strengthen_executive_powers_reform_desc:0 "ýV¶R„vCgZŒT›RÏ‘ósQÍ‘‰ÿyr+R=f(WqQŒTýV0bìNÅV‰˜ R:V-N.YÆ–CgÿnxÝO–™ý„vÏkNy˜³Q®‹ýýw0R¾býV„vûNUON*NÒ‰K„0"
- reinforce_republican_values_reform:0 "žX:VqQŒT÷N<PÂ‰"
- reinforce_republican_values_reform_desc:0 "ôu²bú^ËzÙ*NýV¶R„vqQŒT÷N<PÂ‰=fnxÝObìNýV¶RbŸRÑSUS„v=UN„V0"
- tribal_desc:0 "Ù*NýV¶R=fN*NèK„0‹†6q	gN*Nfnx„v†˜üRwåNÊS5ÏeÿFOƒR¡l	gTIN6RbqQŒTýV„v?eœ^:g„g0"
- tribal_administration:0 "èK„Lˆ?e"
- tribal_cultural_values:0 "‡eS÷N<P"
- martial_society_reform:0 "›Q‹N>yO"
- martial_society_reform_desc:0 "›Q‹N÷N<PÂ‰(WbìN„v>yO-NNôvˆVÍ‘‰0(WbìNib.V†˜W„vÇz-NÿmNÅV‰˜çuíuú^¾‹ŒTôucN*N›Q‹NS>yOÿÙ=fbìNýV¶R„v8hÃV0"
- civil_society_reform:0 "^l>yO"
- civil_society_reform_desc:0 "êS	gbëX„výV¶RNOENXR0bìNÅV‰˜NýV…Q„vlô•>yOŒTÎW^ESlú^Ëzôf R'tÆR„vTwû|ÿåN¿ObìNýwYôf‹Y0WÎN-N·ƒÖS0?e6eeQ0"
- tribal_religion:0 "èK„áOðN"
- religious_societies_reform:0 "—RYe>yO"
- religious_societies_reform_desc:0 "‹†6qlÏeàVÚ‹ïSåN&^†˜bìNp—VˆVÜÿFObìN„vib.VO—VbìNb:N†NÔkåNŽVôfYlÏe„vINºN0N*N:VÈp„v—RYe>yOïSåNôf	gHe0Wb×Söeô•ŒTzzô•N„vib.Vÿv^Ðc›OÙubìNNb—„vÝQZw›R0"
- lip_service_reform:0 "hˆb—‡eàz"
- lip_service_reform_desc:0 "‹†6quˆR—RYe`N×Oegôu²bbìN„vTÕl'`=fÍ‘‰„vÿFObìNN”^å‹w–eQTÕlßu»lŒTS·VŸSR„vðVƒX-N0žR(uININSO—VbìNôf R•ENÿv^AQ¸‹bìNôucôf'Y„výV¶RŒT›Q–0"
- tribal_modernization:0 "°sãNS"
- centralize_tribal_power_reform:0 "Æ–CgS"
- centralize_tribal_power_reform_desc:0 "bìNÇŽNOVýV…QlÏeŒTèK„„vàVÚ‹0©‹bìNVËYú^Ëz:g„gàVÚ‹¦^ÿv^SýV¶R„vLw1RM‘ÙubìNßu»lwN„vckV˜RXT0"
- retain_tribal_hierarchy_reform:0 "ÝOYuèK„Irµu6R¦^"
- retain_tribal_hierarchy_reform_desc:0 "ûNUO°sãNS„v9ei—ýÅV‰˜ÝOYubìNýV¶RlÏeNèK„ìNäSw„vIrµu6R¦^0¡l	gÖNìN„v=ecÿbìN„výV¶RSàeÕlÏPÄÊN:NbkN7hib.VŒTAucƒ0"
- tribal_reformation:0 "èK„9ei—"
- tribe_becomes_monarchy_reform:0 "9ei—:NTIN6R"
- tribe_becomes_monarchy_reform_desc:0 "=föeP>eVbìN„vèK„gp™ÿR.N*N1uxQàz6R¦^wN=fO`—lÏeàVÚ‹bÅb„vŒRhQbŸq„vTIN6RýV¶R0"
- tribe_becomes_republic_reform:0 "9ei—:NqQŒT6R"
- tribe_becomes_republic_reform_desc:0 "bìNÅV‰˜ÝO²bbìNlQl„vê1uÿbËzN*NýV¶RÿvQ?eœ^–™N=fN­ˆ„vw=f	>NúQ„vwQ	gcknxÁT(„vºN0"
- tribe_becomes_theocracy_reform:0 "9ei—:N^yCg6R"
- tribe_becomes_theocracy_reform_desc:0 "—RYecüRNwbýVºNl„vMRÛSï0bìN©‹YeëXÂSNýV¶R„v»ltÿÎNw«N×SlQck„vÞV¥b"
- tribe_becomes_horde_reform:0 "b:N8ngr"
- tribe_becomes_horde_reform_desc:0 "'YIƒŸS|T2UNwbìN„vºNl0©‹bìN>eVVyHQšRES„v.OßuÿŒRhQåb±bV–s^ŸS„vê1uuIm'T0"
- theocratic_leadership:0 "†˜üRBS"
- monastic_order_reform:0 "‘šëXâV"
- monastic_order_reform_desc:0 "Ù*NýV¶R1u‘šëXâV„vbXTßu»l0‘šëXâV„vIrµu6R¦^åNÊSÄ‰RÖSãN†N'YYpeÕl‹VŒTLˆ?e¡rt„v—‰0"
- papacy_reform:0 "Ye÷^"
- papacy_reform_desc:0 "N*N1uvQ¾|^y†˜–ˆÿYe—RÿWlš)YINYe÷^gØšµu+RºNXTÿINüRýV¶R„v?e»l:g„g0"
- leading_clergy_reform:0 "YeCgýV"
- leading_clergy_reform_desc:0 "å‹ýV1u^yLwºNXTßu»lÿv^Ç‘(u—RYe:g„gegÄuú^?eœ^0"
- internal_vs_external_mission:0 "ýV…QY±RYe"
- internal_mission_reform:0 "ýV…Q±RYe"
- internal_mission_reform_desc:0 "bìNÅV‰˜Šb¾|›RÆ–-N0RbìNýV…Q„v—RYeO‹TNÿÝO²báO’Vÿ‰QImwzºNÿeSLˆbìN„v—RYeIN¡R0"
- external_mission_reform:0 "ýVY±RYe"
- external_mission_reform_desc:0 "bìN–™‰„vO‹TÅV‰˜=f.O­dbìN^y1W„váOðNÿ(WSb®W†N^yf„vNb	gLeºNKNMRbìNNýwOo`0"
- divine_cause:0 "^y1W‹NN"
- safeguard_holy_sites_reform:0 "ÝOkS1W0W"
- safeguard_holy_sites_reform_desc:0 "bìN	g1ûNSbt‹Y(WbìNµc6RN„vg1W0Wÿv^ÝO²bbýV†˜W…Q„vg1Ww0"
- combat_heresy_reform:0 "NVïzVb"
- combat_heresy_reform_desc:0 "(W.O­dwckáOðN„vO‹T-NÿbìN„váOõV³QNýw¨RGdÿv^–öeÆQY9hd–Vïzªô‹0"
- expel_heathens_reform:0 "qšVYe’V"
- expel_heathens_reform_desc:0 "–NwbìNýV¶R„vÑSUSÿbìNùR¥cæ‰0R„vVïzRPRNVYe’VmNŠegŠY0bìNNýw¹RÍVbìN„vÎW™X…QXR(WVïzbVYe’V0Ù›NºNêS	g(WˆvO†Ncknx„váOðNMbýw«ˆAQ¸‹Im(WbìN„vÎW^-N0"
- clergy_in_administration:0 "YeëXÂS?e"
- subservient_administrators_reform:0 "m`z˜„v˜RÚP"
- subservient_administrators_reform_desc:0 "bìNåeÊvîX'Y„v˜RÚP:g„g—‰àVÚ‹„v˜RXTÿÖNìNS:NýV¶RKSêñT„vNýN›Rÿv^ZWáOÑSê…QÃV„vàVÚ‹ùRýV¶R	g)R0"
- religious_administrators_reform:0 "Âríp„v¡rtw"
- religious_administrators_reform_desc:0 "—RYeáOðNÅV‰˜(WbýVT†˜ßW`SncN-^KN0W0(WS^yLwºNXTùW‰QbLˆ?eºNXTöeÿÅV‰˜ÝOÁ‹ÖNìNý	g^yfR„vúWNxÿÙ7hÖNìNMbýw(WûNUOöePýýwZPúQcknx„v³QšR0"
- secularization:0 "N×OSÿ"
- maintain_religious_head_reform:0 ":VS—RYe†˜–ˆ"
- maintain_religious_head_reform_desc:0 "bìNÅV‰˜ R:VbìN†˜–ˆ„vCg›RŒTýw›RÿåN¿ObìNýwY(WûNUOöePýnxÝO^y„vèea	c¡‹R—V0RgbLˆ0"
- hereditary_religious_leadership_reform:0 "YeCgN­ˆ"
- hereditary_religious_leadership_reform_desc:0 "¸‹YºNòTÏuNIQSbìN„v†˜–ˆÆ‰:NO'Y„v1W×O†˜–ˆÿØSÖNìNÆ‰:NJS^yN7h„vXR(W0‹NžRNÿ¸‹Yý–wòTÏuqQTbVb†NNWY(WNRNb—¹eb—ý–bìN†˜–ˆ„véy^0©‹bìN9ei—bìN„výV¶RÿåNObìN„vhQèãl—VåNýb:NbìNYeO„vNXT0"
- crown_leader_reform:0 " R•Q:NN×OTIN"
- crown_leader_reform_desc:0 "=föeP›bV—RYe„vmgÿ©‹bìN„v†˜–ˆ R•Q†N0"
- proclaim_republic_reform:0 "±R^bËzqQŒTýV"
- proclaim_republic_reform_desc:0 "‹†6qbìNÝuNýwÜ»ybìN„v—RYe9hnÿFObìN„výV¶RÑSUSmNˆVÍ‘‰0©‹bìNRú^N*Nê1uqQŒTýVÿv^NÎN	gHeP	ºN-Nê1u	úQýV¶RCQ–™0"
- mandala_reform:0 "üf|ƒW6R¦^"
- mandala_reform_desc:0 "üf|ƒW6R¦^=fôVÕu-NÃV'Yý^„gú^N*NWbVbðyüf|ƒW„vÄ‰RegÄuÇute*NýV¶R„vSO6R0ÎN¹ôf:NìrËz„v^S0W0Rôf`—Ñ-N.Y„vôv–ÎW^ÿ?e»lŒT0WtžRSOïSåN	cgq-N.Y„vµc6R4ls^RRbNT„vBS!k0"
- mughal_government:0 "«ƒgS?Q•^N"
- mughal_government_desc:0 "‚YœgbìN„v‹sg(WàQ*NNªu-NfR0R†NNöN‹Nÿ±1S=fbìNÅV‰˜¥c³ubìNib.V„v0W:S„vŸSOOl0©‹bìNnxÝOÎNbìNVg„vºN±Ì‘fR`NÿåN¿ObìN„v^ýVýwYN­eÑSUS0"
- mansabdari_reform:0 "üf(„jS¾S6R"
- mansabdari_reform_desc:0 "bìN„v^ýV—‰àVžRw	gýw›R„vãÆN0©‹bìN9hncpeWRS„vüf(„^6RÍ‘QXbìN„v5Ïe6–µu0Ïk*N5ÏeýS·ƒ—VN*NNvQIN¡RøvùR”^„vIrµuÿ6qT1ubìN„v?eœ^(W^ýVhTôVRM‘W0WåN	cgqvQIrµu›O‰Q0ºNìNNbýw¾0R„vIrµuÖS³QŽNvQýw›Rÿv^NÙagïÅV‰˜=fV>e„vÿàesQáOðNb=fúQ«Ž0êS	gÙ7hÿbìNMbýwnxÝO:N±›Ng	gýw›R¨c¨RbìN^ýVMRÛ„vºNÛeQ«R÷^0"
- zabt_reform:0 "Nbyr6R¦^"
- zabt_reform_desc:0 "Lˆ?en„vN³òTÏub:NûNUO^ýVßu»lå‹0W:S„vg'YI–x0Ÿ±RÏuNmuµN›R&rTýV¶R)RÊvÿbìNÅV‰˜öeIRbr°‹ÙN¹pÿTöemN‰N­esQèl:SßWÏuNm0ã‰³QÙ*Nî•˜˜—‰'YÏ‘„vDnŒTbú‹ÿàV:N¡l	gŽrUS„v¹eÕlegßu»lbìN¡‹R-N‚YdkKNY„vãl0\n©‹bìNú^ËzN*N?eœ^:g„gegùRW0WÿjOirÍyiÿW0W6eeQŒTSV0WÏuNmÛLˆšRg„v0WM|Œåg0dkYÿbìNÅV‰˜ËYÈu‰BlNb	gºNåN°sÑ‘4zÿv^(W—‰öe‰ƒNO„vz6eåNŸ±RSV0WÏuNm0"
- FEDERAL_KINGDOM:0 "Tw¦‹sýV"
- FEDERAL_EMPIRE:0 "Tw¦^ýV"
- mechanic_enables_plutocratic_idea_group_yes:1 "AQ¸‹§Y0–§!tõVÄu0"
- mechanic_enables_plutocratic_idea_group_no:1 "NAQ¸‹§Y0–§!tõVÄu0"
- mechanic_enables_aristocratic_idea_group_yes:1 "AQ¸‹§Y5Ïe§!tõVÄu0"
- mechanic_enables_aristocratic_idea_group_no:1 "NAQ¸‹§Y5Ïe§!tõVÄu0"
+l_english:
+ native:1 "原住民部族"
+ native_desc:1 "一个由酋长领导下的部落议会统治的原住民部族。"
+ native_basic_reform:1 "原住民部族"
+ native_basic_reform_name:1 "原住民部族"
+ native_basic_reform_desc:0 "原住民议会是由一名联合酋长领导的长老大会。"
+ siberian_tribe:0 "西伯利亚原住民议会"
+ siberian_tribe_desc:0 "西伯利亚原住民议会是由大酋长领导的长老大会。"
+ monarchy_desc:0 "君主制是一种由唯一的君主担任国家首脑的政府形式。君主终身统治，王位通常在其家族内世袭。"
+ feudalism_vs_autocracy:0 "权力结构"
+ feudalism_reform:1 "封建贵族制"
+ feudalism_reform_desc:0 "在一个封建王国中，君主的力量通过拥有土地的贵族的宣誓效忠而得到加强。这些贵族，或者说尊贵之人往往是土地的所有者，拥有相当大的影响力和自己的附庸。"
+ autocracy_reform:0 "独裁制"
+ autocracy_reform_desc:0 "独裁制将权力集中在统治者手中。国家通常被视为他们的个人财产。统治者拥有阁僚和支持者的情况并不少见，但这些人一般会被当成王室成员看待。"
+ plutocratic_reform:0 "东方财阀政治"
+ plutocratic_reform_desc:0 "在财阀政治的王国中，君主的支持者是那些拥有最高收入的财阀。君主往往是一个成功的商业团体的领袖，君主的支持者也是如此。"
+ enforce_trader_privileges_reform:0 "实施商人特权"
+ enforce_trader_privileges_reform_desc:0 "通过加强国家与成功的商业公司之间的联系，我们可以扩大我们的业务范围以及我们带回的利润。"
+ indian_sultanate_reform:0 "印度苏丹国"
+ indian_sultanate_reform_desc:0 "作为统治者的穆斯林在国内属于少数派，印度苏丹国不得不改进和扩展传统的穆斯林王权理念。虽然他们仍然是伊斯兰国家，但传统意义上仅包含犹太教徒和基督徒的齐米这一身份已扩展到达摩宗教。"
+ bengali_reform:0 "笼络孟加拉商人"
+ bengali_reform_desc:0 "孟加拉邦和恒河三角洲不仅是宜耕的沃土，最重要的是，作为通往印度的河口，这里一直是商人及商业的乐园。这片土地的领主已屈服于我们手中的剑，但这里的商人及船主对我们而言和这片土地的领主具备同样的重要性和影响力。"
+ sufi_syncretism_reform:0 "苏菲派融合主义"
+ sufi_syncretism_reform_desc:0 "在这片异国之地上，最受欢迎的伊斯兰门徒一直是苏菲派。他们对当地习俗包容并蓄，积极参与当地人的日常生活。他们中的许多人担任了当地领袖。如果我们支持他们，我们会见证其族群在开荒拓土、建立新城中的发展壮大。"
+ hereditary_vs_nobility:0 "贵族特权"
+ enforce_privileges_reform:0 "加强贵族特权"
+ enforce_privileges_reform_desc:0 "国内的望族子孙数代都在为国效力，在国家兴旺起来后，理应继续给这些为国效力的人提供特权。"
+ quash_noble_power_reform:0 "限制贵族特权"
+ quash_noble_power_reform_desc:0 "随着国家的发展，贵族门阀掌控的权力和影响力过大愈发明显地表现出来。他们唯恐失掉旧有的特权，极大地阻碍了这个政权的发展。"
+ centralize_reform:0 "集权官僚制"
+ centralize_reform_desc:0 "集权官僚制以王国首都为核心，大多数的决议由统治者及其近臣制定，而后下达各省。"
+ decentralize_reform:0 "分权官僚制"
+ decentralize_reform_desc:0 "分权官僚制将更多决策权下放给对君主负责的地方官员或政府。"
+ growth_of_administration:0 "行政官僚"
+ clergy_in_administration_reform:0 "教士参政"
+ clergy_in_administration_reform_desc:0 "神职人员已然掌握了许多作为行政人员的技能。他们受过教育，精于文书工作，且有立业之愿。与这些神职人员结交，可以使我们的行政机关在很多方面更高效、更强力。"
+ of_noble_bearing_reform:0 "长袍贵族"
+ of_noble_bearing_reform_desc:0 "王国的贵族们不仅要效忠于贵族议会，还应效忠于君主。当国家变得越来越大时，贵族们的职责便不限于为国作战了。新一代的贵族将披上长袍，手持钢笔，和他们那些披坚持锐的兄弟们一同为国家服务。"
+ meritocratic_focus_reform:0 "选贤任能"
+ meritocratic_focus_reform_desc:0 "勋贵门阀垄断朝政实不足取，选贤任能方为正道。选贤举能，得其才而忘其身。"
+ deliberative_assembly:0 "合议团体"
+ parliamentary_reform:0 "议会制"
+ parliamentary_reform_desc:0 "政府首脑与国家元首理应由不同的人担任，以使立法院在治国上掌握更大的权力。"
+ royal_decree_reform:0 "皇家敕令"
+ royal_decree_reform_desc:0 "我们的君主至高无上，对其的忠诚高于一切。我们必须确保全国各地都遵守君主的法令。"
+ aristocratic_court_reform:0 "贵族宫廷"
+ aristocratic_court_reform_desc:0 "贵族为我们服务了数个世纪，已然成为政府的一部分。为了更好地控制、奖励和获得这些贵族的支持，我们必须延续他们与王室和宫廷的密切联系。"
+ states_general_reform:0 "联省议会"
+ states_general_reform_desc:0 "通过将各州代表拉入等级议会中，我们可以在保留君主制的前提下有效地安抚国内的共和派系。\n\n§Y议会派§!和§Y君主派§!将通过选举和事件争夺国家的控制权。而生效的派系修正和选举的频率取决于当前的掌权派系。"
+ general_estates_reform:0 "三级会议"
+ general_estates_reform_desc:0 "必须尊重三级会议这一古老的光荣传统，加强其在立法中的作用。让我们定期召集各阶级代表，为我们伟大的统治者做出指导和忠告。"
+ absolute_rule_vs_constitutional:0 "专制主义与宪政主义"
+ letat_cest_moi_reform:0 "朕即国家"
+ letat_cest_moi_reform_desc:0 "没有秩序便只剩下混乱，人民需要被领导。我们必须确保在任何情况下君主之言即为法律，每个人必须尽其所能达成吾主所愿。"
+ regional_representation_reform:0 "地方代表"
+ regional_representation_reform_desc:0 "地方议会是我国不可或缺的一部分，通过加强它们的作用，我们确保了效率和王国的合法性。"
+ separation_of_power:0 "权力分立"
+ political_absolutism_reform:0 "政治专制"
+ political_absolutism_reform_desc:0 "实现君主的计划和意志才是对国家最有利的。一个贤明的君主可以充分施展其才能以在各种领域进行调整从而实现国家繁荣。"
+ legislative_houses_reform:0 "立法院"
+ legislative_houses_reform_desc:0 "通过将立法机构分成多个议院，我们可以更好地在保留传统与发起改革之间取得平衡。"
+ become_a_republic_reform:0 "成立共和国"
+ become_a_republic_reform_desc:0 "君主制在这个国家已经到头了，是时候改革政府高层，建立一个选举共和国了。"
+ install_theocratic_government_reform:0 "建立神权政府"
+ install_theocratic_government_reform_desc:0 "我们的教义是唯一正确的判断是非的标准。现在让我们从根本上改造政府，让神灵来指引我们。"
+ oligarchy_merchant_class_noble_elite:0 "权力结构"
+ oligarchy_reform:0 "寡头政治"
+ oligarchy_reform_desc:0 "在寡头制中，统治者是由社会上最有影响力的那些人选出的。统治阶层是政府首脑唯一需要对其直接负责的群体，同时也是国家的支柱。"
+ grand_duchy_reform:0 "大公国"
+ grand_duchy_reform_desc:0 "我们的国家从未有过混乱的纷争，在我们伟大的公爵统治下境内各民族皆精诚团结。"
+ misl_confederacy_reform:0 "密斯尔联盟"
+ misl_confederacy_reform_desc:0 "鉴于我们遭受迫害的历史，国家的基础乃是建立在能够对外部威胁做出快速应对之上的。我们是锡克联盟，由一个个社团及其军队组成。"
+ khalsa_reform:0 "卡尔萨的力量"
+ khalsa_reform_desc:0 "有卡尔萨教团的信徒在我们背后团结一致、并肩战斗，没有什么是我们做不到的。\n然而我们不能变成我们曾经斗争过的压迫者那样，在我们国内任何人都能够上台掌权。"
+ rajput_kingdom:0 "拉杰普特王国"
+ rajput_kingdom_desc:0 "拉杰普特王国的统治建立在氏族对王室的忠诚与血缘关系之上。作为拉杰普特氏族的首领，我们拥有历史悠久且值得信赖的强大武术传统，无论是面对战争还是灾难，我们可以召唤王国之内乃至近畿地区的支持者们响应战斗。"
+ nayankara_reform:0 "那耶迦罗体系"
+ nayankara_reform_desc:0 "为了更好地控制土地并进一步实现我们的军事野心，我们将许多的财产分配给了地方的那耶迦。那耶迦们需要关注城市、寺庙以及其他定居点的发展，以及产生我们所需要的能够保卫王国以及进行扩张的军队。"
+ poligar_reform:0 "赋予波犁迦罗权力"
+ poligar_reform_desc:0 "我们的土地上充斥着各种小型本地部族和氏族，如果我们在国家体制中给予他们一席之地，我们就可以充分利用他们。作为一个阶层，这些「波犁迦罗」官员可以担任治安管理者、防御工事建造者、本地代表以及军官。最重要的是，他们可以动员自己的亲族，成为我们获得人才的良好来源。"
+ merchants_reform:0 "财阀政治"
+ merchants_reform_desc:0 "财阀共和国的国家政策围绕着财富与贸易展开。统治者从国内最有影响力的商人家族中选出，且十分依赖这些商人的支持。"
+ noble_elite_reform:0 "贵族精英政治"
+ noble_elite_reform_desc:0 "在这个共和国，统治权在某些贵族家庭中是世袭的。这些家族从他们自己的团体中选出统治者，而且政府首脑也必须依靠他们的支持。"
+ gond_kingdom:0 "贡德王国"
+ gond_kingdom_desc:0 "冈瓦纳是丛林、丘陵和堡垒之地，但最重要的是那里生活着许多的部族。控制这片土地意味着要为这些小型统治者提供很大程度的自治和特权。然而堡垒是控制我们国家内各种群体所必须的，控制它们将使我们能够掌握冈瓦纳人民的忠诚。"
+ deccani_society_reform:0 "德干精英"
+ deccani_society_reform_desc:0 "德干只是近来才被伊斯兰国家所征服，我们的祖先依赖移民来获得维持国家所需的工作人员。随着时间的推移，这创造了一个新型的全球化国家——第二代德干人以及旧的印度贵族。"
+ sidhi_recruitment:0 "征募西迪人"
+ sidhi_recruitment_desc:0 "随着时间推移，我们已经清晰的认识到我们既不能信任与我们有冲突的埃米尔也不能信任本地地主。如果我们想要获得值得信赖的政府官员和指挥官，我们必须寻求招募精英奴隶来填补这些职位。"
+ dakhni_culture_reform:0 "德干文化"
+ dakhni_culture_reform_desc:0 "随着我国的崛起与成熟，一个结合德干高原各城之精华的复合德干文化开始出现。一些语言能在人们中间通行，比如德干语（一些本地方言的总称）、波斯语或土耳其语。让我们将这种精英文化充分运用到管理中，并启用那些能迅速适应在不同地区工作要求的管理人才。"
+ free_city:0 "自由市"
+ free_city_desc:0 "这是一个被皇帝亲自授予各种特权的帝国自由市。"
+ revolutionary_republic_reform:0 "革命共和国"
+ presidential_despot_reform:0 "总统独裁"
+ presidential_despot_reform_desc:0 "在该国，一个被任命的独裁者对国家行使几乎绝对的权力。"
+ republican_virtues:0 "共和国美德"
+ republican_authoritarianism_reform:0 "威权主义"
+ republican_authoritarianism_reform_desc:0 "虽然并非君主政体，但是这个共和国重视法律和秩序，会采取铁腕手腕维护中央政府在国内的权威。"
+ nepotism_reform:0 "政治王朝"
+ nepotism_reform_desc:0 "在这个国家里已经有一些家族随时间推移表现出了承担国家责任的愿望。这份愿望是如此之强，以致于他们不仅希望有责任交给他们自己承担，还希望国家也能让族内的新人有所担当。"
+ republicanism_reform:0 "共和主义"
+ republicanism_reform_desc:0 "这个共和国已经成为了共和精神、公民权利以及为共同利益奋斗之理念的捍卫者。"
+ frequent_elections_vs_consolidation_of_power:0 "选举频率"
+ frequent_elections_reform:0 "频繁选举"
+ frequent_elections_reform_desc:0 "长任期使统治者恣意妄为，更何况一个人长期统治国家本来就与共和理念背道而驰。让我们改革选举制以确保能对所选官员更好地问责。"
+ consolidation_of_power_reform:0 "巩固权力"
+ consolidation_of_power_reform_desc:0 "我们当前官员的任期太短，无法实施长远的规划。这只会滋生民粹主义，导致目光短浅的政策。让我们改革我们的选举制度，允许更长的任期，这样我们选出的官员就能更好地施展他们的抱负。"
+ federalism_vs_unitarism_vs_confederacy:0 "地方分权主义"
+ provincial_governments_reform:0 "省级政府"
+ provincial_governments_reform_desc:0 "为使我们的行政部门有效率，我们必须给予省级政府履行其职能所需的自由。地方选举将确保可以任命可信赖的个人以便回应中央政府。"
+ administrative_divisions_reform:0 "行政区划"
+ administrative_divisions_reform_desc:0 "让我们将国家划分为不同的地理区域，然后由中央政府任命的官员进行统治和管理。"
+ union_of_states_reform:0 "邦联国家"
+ union_of_states_reform_desc:0 "我们的国家并非由一个统一的国家发展而来的，而是由多个国家组成的邦联。随着我们政府的发展壮大，我们不能侵犯各加盟国的权利，因为这样做会践踏我们最根本的原则。"
+ parliamentary_vs_presidential:0 "权力分立"
+ presidential_reform:0 "总统制"
+ presidential_reform_desc:0 "行政机构的主席或总统必须与政府的立法部门分开进行选举。总统可以任命或者解雇政府成员。"
+ consolidation_of_power_category:0 "巩固权力"
+ broaden_executive_powers_reform:0 "扩张行政权力"
+ broaden_executive_powers_reform_desc:0 "随着国家发展，我们越来越需要快速高效地行动。实现这点的唯一方法是扩大我们行政机构的权力，使其拥有所需的工具。"
+ devolution_of_powers_reform:0 "权力下放"
+ devolution_of_powers_reform_desc:0 "没有单个的人能够统治我们这样大且复杂的国家。由一位统治者集权也违背了我们祖先的共和理念。\n权力的分散与下放是我们能够动态地满足不断发展的国家需求的最好方式。"
+ guiding_principle_of_administration:0 "行政指导原则"
+ political_principle_reform:0 "政治原则"
+ political_principle_reform_desc:0 "作为共和国，能够进一步提高政府机构以及政治理念效率的原则才是我们国家的指导原则。"
+ moral_principle_reform:0 "道德原则"
+ moral_principle_reform_desc:0 "国家的主要职能之一是维护良好的道德观。由于我们的共和国在许多方面都依赖于公民的良善行为，因此必须抵制和消除腐败、罪恶等行为，以便造福整个国家。"
+ electorate:0 "选民"
+ landholders_reform:0 "地主"
+ landholders_reform_desc:0 "在任何社会，地主均处于权力的中心，在我国也是如此。让我们提升地主们的投票权，根据他们资产的多少将其选票数分级。"
+ citizenry_reform:0 "公民"
+ citizenry_reform_desc:0 "共和国的运转依赖于公民，因此每个公民都应拥有投票权，来选择谁来领导我们的国家。获得成为公民的特权同样将会成为一个有效的催化剂，来激励我们治下所有人民保持良好表现。"
+ office_selection:0 "官员选拔"
+ sortition_reform:0 "抽签"
+ sortition_reform_desc:0 "不幸的是，由于可以贿选，以及旧日的忠诚可能会使一些选民的判断蒙上阴影。让我们实施一个系统，系统可以为重要的职位从优秀候选人才库中半随机地选择人员。"
+ universal_suffrage_reform:0 "扩展选举权"
+ universal_suffrage_reform_desc:0 "让我们向更多居住在我们境内的人开放重要职位，以便我们有更广泛和更具代表性的公务员选拔。"
+ question_of_dictatorship:0 "独裁制的可能性"
+ seize_executive_power_reform:0 "夺取行政权力"
+ seize_executive_power_reform_desc:0 "共和制为我们提供了很好的帮助，但现在是我们赋予强大统治者权力的时候了，这将使我们的国家进入一个新时代。"
+ proclaim_divine_guidance_reform:0 "宣告神的指引"
+ proclaim_divine_guidance_reform_desc:0 "我们国家的治理准则是神的指引而非民众的支持。让我们任命真正关心我们主体道德福祉的人。"
+ strengthen_executive_powers_reform:0 "加强行政权力"
+ strengthen_executive_powers_reform_desc:0 "国家的权威和力量至关重要，特别是在共和国。我们必须加强中央集权，确保首都的每一项决议都能到达我国的任何一个角落。"
+ reinforce_republican_values_reform:0 "增强共和价值观"
+ reinforce_republican_values_reform_desc:0 "维护建立这个国家的共和价值观是确保我们国家成功发展的唯一途径。"
+ tribal_desc:0 "这个国家是一个部落。虽然有一个明确的领导者以及贵族，但它没有君主制或共和国的政府机构。"
+ tribal_administration:0 "部落行政"
+ tribal_cultural_values:0 "文化价值"
+ martial_society_reform:0 "军事社会"
+ martial_society_reform_desc:0 "军事价值观在我们的社会中一直很重要。在我们扩张领土的过程中，也必须继续建设和维持一个军事化社会，这是我们国家的核心。"
+ civil_society_reform:0 "市民社会"
+ civil_society_reform_desc:0 "只有战士的国家不会久存。我们必须与国内的民间社会和城市居民建立更加紧密的联系，以便我们能够更好地从中获取财政收入。"
+ tribal_religion:0 "部落信仰"
+ religious_societies_reform:0 "宗教社会"
+ religious_societies_reform_desc:0 "虽然氏族忠诚可以带领我们走得很远，但我们的扩张使得我们成为了比以往更多民族的主人。一个强烈的宗教社会可以更有效地承受时间和空间上的扩张，并提供给我们所需的凝聚力。"
+ lip_service_reform:0 "表面文章"
+ lip_service_reform_desc:0 "虽然遵守宗教习俗来维护我们的合法性是重要的，但我们不应该陷入合法统治和道德原则的困境中。实用主义将使得我们更加长久，并允许我们维持更大的国家和军队。"
+ tribal_modernization:0 "现代化"
+ centralize_tribal_power_reform:0 "集权化"
+ centralize_tribal_power_reform_desc:0 "我们过于依赖国内氏族和部落的忠诚。让我们开始建立机构忠诚度，并将国家的职责分配给我们统治者下的正式官员。"
+ retain_tribal_hierarchy_reform:0 "保留部落等级制度"
+ retain_tribal_hierarchy_reform_desc:0 "任何现代化的改革都必须保留我们国家氏族与部落们古老的等级制度。没有他们的支持，我们的国家将无法像迄今为止一样扩张和繁荣。"
+ tribal_reformation:0 "部落改革"
+ tribe_becomes_monarchy_reform:0 "改革为君主制"
+ tribe_becomes_monarchy_reform_desc:0 "是时候放弃我们的部落服饰，创造一个由典章制度而不是依靠氏族忠诚承担的完全成熟的君主制国家。"
+ tribe_becomes_republic_reform:0 "改革为共和制"
+ tribe_becomes_republic_reform_desc:0 "我们必须保护我们公民的自由，成立一个国家，其政府首脑不是世袭的而是选举出的具有正确品质的人。"
+ tribe_becomes_theocracy_reform:0 "改革为神权制"
+ tribe_becomes_theocracy_reform_desc:0 "宗教指导着我国人民的前进道路。我们让教士参与国家的治理，从而享受公正的回报"
+ tribe_becomes_horde_reform:0 "成为游牧"
+ tribe_becomes_horde_reform_desc:0 "大草原呼唤着我们的人民。让我们放弃祖先定居的传统，完全拥抱开阔平原的自由生活吧。"
+ theocratic_leadership:0 "领导层"
+ monastic_order_reform:0 "骑士团"
+ monastic_order_reform_desc:0 "这个国家由骑士团的成员统治。骑士团的等级制度以及规则取代了大多数法律和行政管理的需要。"
+ papacy_reform:0 "教廷"
+ papacy_reform_desc:0 "一个由其精神领袖，教宗，罗马天主教廷最高级别人员，主导国家的政治机构。"
+ leading_clergy_reform:0 "教权国"
+ leading_clergy_reform_desc:0 "该国由神职人员统治，并采用宗教机构来组建政府。"
+ internal_vs_external_mission:0 "国内外宣教"
+ internal_mission_reform:0 "国内宣教"
+ internal_mission_reform_desc:0 "我们必须把精力集中到我们国内的宗教使命上，保护信徒，养活穷人，履行我们的宗教义务。"
+ external_mission_reform:0 "国外宣教"
+ external_mission_reform_desc:0 "我们首要的使命必须是传播我们神圣的信仰，在打垮了神明的所有敌人之前我们不能休息。"
+ divine_cause:0 "神圣事业"
+ safeguard_holy_sites_reform:0 "保卫圣地"
+ safeguard_holy_sites_reform_desc:0 "我们有责任打理好在我们控制下的朝圣地，并保护我国领土内的朝圣者。"
+ combat_heresy_reform:0 "与异端开战"
+ combat_heresy_reform_desc:0 "在传播真正信仰的使命中，我们的信念决不能动摇，并随时准备根除异端邪说。"
+ expel_heathens_reform:0 "驱逐异教徒"
+ expel_heathens_reform_desc:0 "随着我们国家的发展，我们对接触到的异端分子与异教徒也越来越多。我们不能容忍我们的城墙内存在异端或异教徒。这些人只有在皈依了正确的信仰才能被允许活在我们的城市中。"
+ clergy_in_administration:0 "教士参政"
+ subservient_administrators_reform:0 "恭顺的官僚"
+ subservient_administrators_reform_desc:0 "我们日益壮大的官僚机构需要忠诚的官员，他们将为国家尽自己的一份力，并坚信发自内心的忠诚对国家有利。"
+ religious_administrators_reform:0 "狂热的管理者"
+ religious_administrators_reform_desc:0 "宗教信仰必须在我国各领域占据一席之地。在将神职人员培养成行政人员时，必须保证他们都有神学的基础，这样他们才能在任何时候都能做出正确的决定。"
+ secularization:0 "世俗化？"
+ maintain_religious_head_reform:0 "强化宗教领袖"
+ maintain_religious_head_reform_desc:0 "我们必须加强我们领袖的权力和能力，以便我们能够在任何时候都确保神的旨意按计划得到执行。"
+ hereditary_religious_leadership_reform:0 "教权世袭"
+ hereditary_religious_leadership_reform_desc:0 "许多人已经不光将我们的领袖视为伟大的圣俗领袖，还将他们视为半神一样的存在。事实上，许多追随者已经共同形成了一套在一切所需方面追随我们领袖的秩序。让我们改革我们的国家，以使我们的全部臣民得以都成为我们教会的一员。"
+ crown_leader_reform:0 "加冕为世俗君主"
+ crown_leader_reform_desc:0 "是时候抛弃宗教的束缚，让我们的领袖加冕了。"
+ proclaim_republic_reform:0 "宣布成立共和国"
+ proclaim_republic_reform_desc:0 "虽然我们绝不能远离我们的宗教根源，但我们的国家发展也很重要。让我们创建一个自由共和国，并且从有效候选人中自由选出国家元首。"
+ mandala_reform:0 "曼荼罗制度"
+ mandala_reform_desc:0 "曼荼罗制度是围绕中心大都市构建一个圆形——或称曼荼罗——的规划来组织整个国家的体制。从边缘更为独立的属地到更靠近中央的直辖城市，政治和地理实体可以按照中央的控制水平划分成不同的层次。"
+ mughal_government:0 "莫卧儿底万"
+ mughal_government_desc:0 "如果我们的王朝在几个世纪中学到了一件事，那就是我们必须接纳我们扩张的地区的原住民。让我们确保从我们征服的人那里学习，以便我们的帝国能够不断发展。"
+ mansabdari_reform:0 "曼萨卜达尔制"
+ mansabdari_reform_desc:0 "我们的帝国需要忠实而有能力的臣仆。让我们根据数字化的曼萨布制重塑我们的贵族阶级。每个贵族都将获得一个与其义务相对应的等级，然后由我们的政府在帝国周围分配土地以按照其等级供养。人们所能达到的等级取决于其能力，并且这条路必须是开放的，无关信仰或是出身。只有这样，我们才能确保为那些最有能力推动我们帝国前进的人进入宫廷。"
+ zabt_reform:0 "扎贝特制度"
+ zabt_reform_desc:0 "行政渗透的不足已经成为任何帝国统治该地区的最大阻碍。鼓励经济生产力符合国家利益，我们必须时刻牢记这一点，同时也要不断关注区域经济。解决这个问题需要大量的资源和承诺，因为没有简单的方法来统治我们计划中如此之多的臣民。\n让我们建立一个政府机构来对土地，作物种植，土地收入和当地经济进行定期的地籍调查。此外，我们必须始终要求所有人以现金缴税，并在需要时要较低的税收以鼓励当地经济。"
+ FEDERAL_KINGDOM:0 "联邦王国"
+ FEDERAL_EMPIRE:0 "联邦帝国"
+ mechanic_enables_plutocratic_idea_group_yes:1 "允许§Y财阀§!理念组。"
+ mechanic_enables_plutocratic_idea_group_no:1 "不允许§Y财阀§!理念组。"
+ mechanic_enables_aristocratic_idea_group_yes:1 "允许§Y贵族§!理念组。"
+ mechanic_enables_aristocratic_idea_group_no:1 "不允许§Y贵族§!理念组。"
  mechanic_allow_convert_yes:0 ""
  mechanic_allow_convert_no:1 ""
- mechanic_papacy_yes:1 "=f§YYe—R§!0"
- mechanic_papacy_no:0 "N=fYe—R0"
- mechanic_fixed_rank:1 "úVšR:N§Y$RANK$§!Irµu0"
- mechanic_monastic_yes:0 "lØS—RYeöeÿ—RYeßuNqVÍTIY.s¦^0"
- mechanic_monastic_no:0 "lØS—RYeöeÿ—RYeßuNNqVÍTIY.s¦^0"
- mechanic_rulers_can_be_generals_yes:0 "ßu»lwïSåNb:NF–›QS†˜0"
- mechanic_rulers_can_be_generals_no:0 "ßu»lwNýwb:NF–›QS†˜0"
- mechanic_heirs_can_be_generals_yes:0 "çubºNïSåNb:NF–›QS†˜0"
- mechanic_heirs_can_be_generals_no:0 "çubºNNýwb:NF–›QS†˜0"
- battle_pope_reform:0 ")YIN„vS†˜"
- battle_pope_reform_desc:0 "QWNgKSpeÿINê¨KN0"
- mechanic_militarised_society_yes:1 "=T(u§Y›Q‹NS§!:g6R"
- mechanic_militarised_society_no:1 "y(u§Y›Q‹NS§!:g6R"
- ability_mamluk_mechanic:0 "lšFzœKQ‡eS"
- ability_tribal_federation_mechanic:0 "èK„Twßv"
- mechanic_foreign_slave_rulers_yes:1 "=T(u§YYýVtY¶–ßu»lw§!0"
- mechanic_foreign_slave_rulers_no:1 "N=T(u§YYýVtY¶–ßu»lw§!0"
- mechanic_claim_states_yes:0 "ïSåN±Rðyte*NÞT0"
- mechanic_claim_states_no:1 "NïSN!k'`±Rðyte*N0W:S0"
- mechanic_religion_yes:0 "=f^yCg6RýV¶R0"
- mechanic_religion_no:0 "N=f^yCg6RýV¶R0"
- mechanic_republic_yes:0 "=fqQŒT6RýV¶R0"
- mechanic_republic_no:0 "N=fqQŒT6RýV¶R0"
- mechanic_dictatorship_yes:0 "=fìrÁˆ6RýV¶R0"
- mechanic_dictatorship_no:0 "N=fìrÁˆ6RýV¶R0"
- mechanic_monarchy_yes:0 "=fTIN6RýV¶R0"
- mechanic_monarchy_no:0 "N=fTIN6RýV¶R0"
- mechanic_tribal_yes:0 "=fèK„6RýV¶R0"
- mechanic_tribal_no:0 "N=fèK„6RýV¶R0"
- mechanic_is_elective_yes:0 "°eûNTIN=fÎNT„v‹s²RbXT-N	úQeg„v0"
- mechanic_is_elective_no:0 "°eûNTINN=f	>N—VúQ„v0"
- mechanic_has_devotion_yes:0 "O(uIY.s¦^0"
- mechanic_has_devotion_no:0 "NO(uIY.s¦^0"
- mechanic_has_meritocracy_yes:0 "O(u2ýw<P0"
- mechanic_has_meritocracy_no:0 "NO(u2ýw<P0"
- mechanic_maintain_dynasty_yes:0 "åb	gúVšR„v‹sg0"
- mechanic_maintain_dynasty_no:0 "¡l	gúVšR„v‹sg0"
- mechanic_has_harem_yes:0 "ßu»lwåb	gT«R0"
- mechanic_has_harem_no:0 "ßu»lw¡l	gT«R0"
- mechanic_has_pashas_yes:3 "ýwYûN‹T§Y^Y§!"
- mechanic_boost_income_yes:1 "=T(uFUNqQŒTýV:g6RÿD–¸^ýVOT`Olûy8fÞz‰N›Rÿôv^SÞT»ltb,gÐcØšÿ8flQøS»ltb,gM–NO0"
- mechanic_boost_income_no:0 "N=T(uFUNqQŒTýV:g6R0"
- mechanic_can_use_trade_post_yes:1 "ïSåN¾‹Ëz§Y8fÙz§!0"
- mechanic_can_use_trade_post_no:2 "Nýw¾‹Ëz§Y8fÙz§!0"
- mechanic_can_form_trade_league_yes:1 "ïSåNbËz§Y8fTwßv§!0"
- mechanic_can_form_trade_league_no:1 "NýwbËz§Y8fTwßv§!0"
- mechanic_trade_city_reform:1 "ïSåNRú^§Y$VALUE$§!0"
- mechanic_assimilation_cultures:0 "SYeg‡eSTSv^³ueQLˆ?eSOû|0"
- mechanic_states_general_mechanic:2 "=T(u§Y$LEFT$VS$RIGHT$§!:g6R0"
- statists_MECHANIC_TOOLTIP:0 "®‹O>m"
- orangists_MECHANIC_TOOLTIP:0 "eYpQ»l>m"
- monarchists_MECHANIC_TOOLTIP:0 "TIN>m"
- mechanic_allow_vassal_war_yes:0 "AQ¸‹D–¸^KNô•„vb‰N0"
- mechanic_allow_vassal_war_no:0 "NAQ¸‹D–¸^KNô•„vb‰N0"
- mechanic_allow_vassal_alliance_yes:0 "AQ¸‹D–¸^KNô•Óußv0"
- mechanic_allow_vassal_alliance_no:0 "NAQ¸‹D–¸^KNô•Óußv0"
- mechanic_min_autonomy:1 "åb	ggNOê»l¦^§Y$VALUE$§!0"
- mechanic_royal_marriage_yes:0 "AQ¸‹‹s²RTwûY0"
- mechanic_royal_marriage_no:0 "NAQ¸‹‹s²RTwûY0"
- mechanic_nomad_yes:1 "=f§Y8ngrèK„§!"
- republic_desc:0 "qQŒTýV=fN*N1uvQlQlßu»l„výV¶R0Cg›RN=fN­ˆ„vÿw=f1u	>NµNu„výV¶R–™Œcác0"
- theocracy_desc:0 "(W^yCg6RýV¶R-NÿCg›Regê^y„v›RÏ‘0ßu»l6–µuŽVŽV=f^yLwºNXTÿýV¶RCQ–™=fÖNìN-N„v†˜–ˆ0"
- FACTIONS:0 "=T(u>mû|ÿ"
- mechanic_is_trading_city_yes:1 "=f§Y8fÎW^§!"
- mechanic_free_city_yes:1 "=f§Yê1u^§!"
- ability_russian_mechanic:0 "ÄOW¯e?eœ^"
- ability_feudal_theocracy_mechanic:1 "Sú^^yCg6R"
- monarchy_mechanic:0 "TIN6R"
- republic_mechanic:0 "qQŒT6R"
- theocracy_mechanic:0 "^yCg6R"
- mechanic_allow_migration_yes:0 "AQ¸‹Á™V"
+ mechanic_papacy_yes:1 "是§Y教宗§!。"
+ mechanic_papacy_no:0 "不是教宗。"
+ mechanic_fixed_rank:1 "固定为§Y$RANK$§!等级。"
+ mechanic_monastic_yes:0 "转变宗教时，宗教统一影响奉献度。"
+ mechanic_monastic_no:0 "转变宗教时，宗教统一不影响奉献度。"
+ mechanic_rulers_can_be_generals_yes:0 "统治者可以成为陆军将领。"
+ mechanic_rulers_can_be_generals_no:0 "统治者不能成为陆军将领。"
+ mechanic_heirs_can_be_generals_yes:0 "继承人可以成为陆军将领。"
+ mechanic_heirs_can_be_generals_no:0 "继承人不能成为陆军将领。"
+ battle_pope_reform:0 "天主的将领"
+ battle_pope_reform_desc:0 "坑杀尽数，主自辨之。"
+ mechanic_militarised_society_yes:1 "启用§Y军事化§!机制"
+ mechanic_militarised_society_no:1 "禁用§Y军事化§!机制"
+ ability_mamluk_mechanic:0 "马穆鲁克文化"
+ ability_tribal_federation_mechanic:0 "部落联盟"
+ mechanic_foreign_slave_rulers_yes:1 "启用§Y外国奴隶统治者§!。"
+ mechanic_foreign_slave_rulers_no:1 "不启用§Y外国奴隶统治者§!。"
+ mechanic_claim_states_yes:0 "可以宣称整个州。"
+ mechanic_claim_states_no:1 "不可一次性宣称整个地区。"
+ mechanic_religion_yes:0 "是神权制国家。"
+ mechanic_religion_no:0 "不是神权制国家。"
+ mechanic_republic_yes:0 "是共和制国家。"
+ mechanic_republic_no:0 "不是共和制国家。"
+ mechanic_dictatorship_yes:0 "是独裁制国家。"
+ mechanic_dictatorship_no:0 "不是独裁制国家。"
+ mechanic_monarchy_yes:0 "是君主制国家。"
+ mechanic_monarchy_no:0 "不是君主制国家。"
+ mechanic_tribal_yes:0 "是部落制国家。"
+ mechanic_tribal_no:0 "不是部落制国家。"
+ mechanic_is_elective_yes:0 "新任君主是从合适的王室成员中选出来的。"
+ mechanic_is_elective_no:0 "新任君主不是选举得出的。"
+ mechanic_has_devotion_yes:0 "使用奉献度。"
+ mechanic_has_devotion_no:0 "不使用奉献度。"
+ mechanic_has_meritocracy_yes:0 "使用贤能值。"
+ mechanic_has_meritocracy_no:0 "不使用贤能值。"
+ mechanic_maintain_dynasty_yes:0 "拥有固定的王朝。"
+ mechanic_maintain_dynasty_no:0 "没有固定的王朝。"
+ mechanic_has_harem_yes:0 "统治者拥有后宫。"
+ mechanic_has_harem_no:0 "统治者没有后宫。"
+ mechanic_has_pashas_yes:3 "能够任命§Y帕夏§!"
+ mechanic_boost_income_yes:1 "启用商业共和国机制：附庸国会向你转移贸易竞争力；直属州治理成本提高；贸易公司治理成本降低。"
+ mechanic_boost_income_no:0 "不启用商业共和国机制。"
+ mechanic_can_use_trade_post_yes:1 "可以设立§Y贸易站§!。"
+ mechanic_can_use_trade_post_no:2 "不能设立§Y贸易站§!。"
+ mechanic_can_form_trade_league_yes:1 "可以成立§Y贸易联盟§!。"
+ mechanic_can_form_trade_league_no:1 "不能成立§Y贸易联盟§!。"
+ mechanic_trade_city_reform:1 "可以创建§Y$VALUE$§!。"
+ mechanic_assimilation_cultures:0 "将外来文化同化并纳入行政体系。"
+ mechanic_states_general_mechanic:2 "启用§Y$LEFT$VS$RIGHT$§!机制。"
+ statists_MECHANIC_TOOLTIP:0 "议会派"
+ orangists_MECHANIC_TOOLTIP:0 "奥兰治派"
+ monarchists_MECHANIC_TOOLTIP:0 "君主派"
+ mechanic_allow_vassal_war_yes:0 "允许附庸之间的战争。"
+ mechanic_allow_vassal_war_no:0 "不允许附庸之间的战争。"
+ mechanic_allow_vassal_alliance_yes:0 "允许附庸之间结盟。"
+ mechanic_allow_vassal_alliance_no:0 "不允许附庸之间结盟。"
+ mechanic_min_autonomy:1 "拥有最低自治度§Y$VALUE$§!。"
+ mechanic_royal_marriage_yes:0 "允许王室联姻。"
+ mechanic_royal_marriage_no:0 "不允许王室联姻。"
+ mechanic_nomad_yes:1 "是§Y游牧部落§!"
+ republic_desc:0 "共和国是一个由其公民统治的国家。权力不是世袭的，而是由选举产生的国家首脑掌握。"
+ theocracy_desc:0 "在神权制国家中，权力来自神的力量。统治阶级往往是神职人员，国家元首是他们中的领袖。"
+ FACTIONS:0 "启用派系："
+ mechanic_is_trading_city_yes:1 "是§Y贸易城市§!"
+ mechanic_free_city_yes:1 "是§Y自由市§!"
+ ability_russian_mechanic:0 "俄罗斯政府"
+ ability_feudal_theocracy_mechanic:1 "封建神权制"
+ monarchy_mechanic:0 "君主制"
+ republic_mechanic:0 "共和制"
+ theocracy_mechanic:0 "神权制"
+ mechanic_allow_migration_yes:0 "允许迁徙"
  mechanic_native_mechanic_no:0 " "
- mechanic_native_mechanic_yes:0 "O(uŸSOOl:g6R0"
- mechanic_different_religion_acceptance:0 "NT—RYe¥c×S¦^ÿ$VALUE|R$"
- mechanic_different_religion_group_acceptance:0 "NT—RYeÄu¥c×S¦^ÿ$VALUE|R$"
- indian_sultanate_legacy:0 "pS¦^Ï‚9NýV"
- indian_sultanate_legacy_desc:0 "jO:Nßu»lw„vFz¯e—g(WýV…Q^SŽNSpe>mÿpS¦^Ï‚9NýVN—VN9eÛŒTibUS.Oßu„vFz¯e—g‹sCgtõV0‹†6qÖNìNÍN6q=fO¯epQýV¶RÿFO.OßuaINNÅNS+T¹r*YYe’VŒTúWcw’V„vPŸs|«ŽýNÿ°s(WÊVìb†N¾id—RYe’V0"
- SUPPORT_LOCAL_HEIR_MONTHLY_GAIN:0 ",g0WçubºN=ec¦^·ƒ—VÿÏkg$SUPPORT|+2$\n$MODIFIERS$\n"
- permanent_marathas_council_reform:0 "lšÉbTX8^¾‹…Q–"
- permanent_marathas_council_reform_desc:0 "lšÉbTXºNS†˜ŒT˜RÚP=fbìNýV¶RCg›Rs^aˆ„vÍ‘‰ÄubèR0bìN”^å‹ckVÄuú^ÖNìN„v®‹Oÿú^ËzN*N8^¾‹„vlšÉbTXºN…Q–egVüRbìN„výV¶R0"
- governmental_purbias_register_reform:0 "(WŒQnfSÔkšNºN"
- governmental_purbias_register_reform_desc:0 "ýV¶Rck(W¾‹ÕlÛbýchQpS¦^„vÉbpgnfyr¾|ñ‚bëX0”^SVÇ‘ÖSªcËeÿSÙ›NbëXÄu­‹bN*NâVÓu„v›QâVÿåN¿Oôf	gHe0WÑS%cÙ›NbëX„vb—e›R0"
- mechanic_maratha_general_interaction_yes:2 "=T(ulšÉbTX6–BSyrCg0§YlšÉbTX›Q‹N†˜üR§!0ÿ9hnclšÉbTX„v†˜0WýN˜·ƒ—VgY§G+10%§!„v­‹Ãu¦^N§R-15%§!„vz6e6eeQ0"
+ mechanic_native_mechanic_yes:0 "使用原住民机制。"
+ mechanic_different_religion_acceptance:0 "不同宗教接受度：$VALUE|R$"
+ mechanic_different_religion_group_acceptance:0 "不同宗教组接受度：$VALUE|R$"
+ indian_sultanate_legacy:0 "印度苏丹国"
+ indian_sultanate_legacy_desc:0 "作为统治者的穆斯林在国内属于少数派，印度苏丹国不得不改进和扩展传统的穆斯林王权理念。虽然他们仍然是伊斯兰国家，但传统意义上仅包含犹太教徒和基督徒的齐米身份，现在囊括了达摩宗教徒。"
+ SUPPORT_LOCAL_HEIR_MONTHLY_GAIN:0 "本地继承人支持度获得：每月$SUPPORT|+2$\n$MODIFIERS$\n"
+ permanent_marathas_council_reform:0 "马拉塔常设内阁"
+ permanent_marathas_council_reform_desc:0 "马拉塔人将领和官僚是我们国家权力平衡的重要组成部分。我们应该正式组建他们的议会，建立一个常设的马拉塔人内阁来引导我们的国家。"
+ governmental_purbias_register_reform:0 "在册普尔比亚人"
+ governmental_purbias_register_reform_desc:0 "国家正在设法招揽全印度的拉杰普特精英战士。应当采取措施，将这些战士组训成一个团结的军团，以便更有效地发挥这些战士的战斗力。"
+ mechanic_maratha_general_interaction_yes:2 "启用马拉塔阶层特权「§Y马拉塔军事领导§!」，根据马拉塔的领地份额获得最多§G+10%§!的训练度与§R-15%§!的税收收入。"
  mechanic_maratha_general_interaction_no:0 " "
- mechanic_better_purbias_interaction_yes:1 "Ébpgnfyr6–BSyrCg0§YVìSnfSÔkšNºN§!0SÙuˆNÉbpgnfyr›QâV˜Y§G5%§!„v­‹Ãu¦^0"
+ mechanic_better_purbias_interaction_yes:1 "拉杰普特阶层特权「§Y征召普尔比亚人§!」将给予拉杰普特军团额外§G5%§!的训练度。"
  mechanic_better_purbias_interaction_no:0 " "
- venice_merchants_reform:0 "Z<S¯e?eœ^"
- venice_merchants_reform_desc:0 "gS5„vZ<S¯eqQŒTýVÇ‘(uYBgwAut„v6R¦^eg	>N˜RXT0Nû|Ràe°‹T•bhyûN‹T†N41T	lÿ6qTÏk*N	l•bhyÛeQN*Nît0–TÎNît-N–:gËbÖSN.V	hyÿå‹	hyNb	éb„vP	ºN1SSb:N°e„vI`cw0å‹	>Nû|ßu„vîv„v=fMQ	>NP%v^nxÝOlQs^•bhy0"
- mechanic_lottery_election_yes:0 "ËbŒr	>N0"
+ venice_merchants_reform:0 "威尼斯政府"
+ venice_merchants_reform_desc:0 "最尊贵的威尼斯共和国采用复杂而繁琐的制度来选举官员。一系列无记名投票任命了41名选民，然后每个选民投票进入一个瓮。随后从瓮中随机抽取一张选票，该选票所选择的候选人就将成为新的总督。该选举系统的目的是避免选举腐败并确保公平投票。"
+ mechanic_lottery_election_yes:0 "抽签选举。"
  mechanic_lottery_election_no:0 " "
- mechanic_election_on_death_yes:0 "ÅN(Wßu»lw‰k¡NöeÛLˆ	>N0"
+ mechanic_election_on_death_yes:0 "仅在统治者死亡时进行选举。"
  mechanic_election_on_death_no:0 " "
- mechanic_is_merchant_republic_yes:1 "=f§YFUNqQŒTýV§!"
+ mechanic_is_merchant_republic_yes:1 "是§Y商业共和国§!"
  mechanic_is_merchant_republic_no:0 " "
- lottery_reform:0 "ËbŒr"
- lottery_reform_desc:0 "YpehyÜwúQ„v	>N¹eV¹RfüRôP%ÿCNóŽNl¹|ININ„vËnu0bìNSÇ‘(uN*NYBg„vRM‘6R¦^ÿÇÎNN²T„vP	ºN-N–:g	ébegnxšRŒ”^å‹†˜üRbìN„vqQŒTýV0"
- appointment_by_committee_reform:0 "ÔYXTO„vûN‹T"
- appointment_by_committee_reform_desc:0 "©‹bìNjPbkùRlQ¡RXT„v–aûN‹T0”^ú^ËzÔYXTOeg³QšRÐgNyršRLwMO„vgsOP	ºNÿåNnxÝO(WbìN–O-NÿLˆ?eýw›RðyLwb:N8^`0"
- bureaucratic_aparatus_reform:0 "˜RÚP:g„g"
- bureaucratic_aparatus_reform_desc:0 "˜RÚPû|ßuN­eib'YêñTÿêS:N†Nán³vQib'YêñT„v—Bl0"
- great_mongol_state_legacy:0 "'Y™„äSýV"
- great_mongol_state_legacy_desc:0 "b	T`Wl„v™„äS^ýVòTÏu(WbìN„v†˜üRNIQY0bìNck(Wb`Y'YWlú^Ëz„vLˆ?eSO6RÿTöemN‰9eck±›N'YWl„vçubw¯rN„v•ï‹0"
- great_mongol_state_reform:0 "'Y™„äSýV"
- great_mongol_state_reform_desc:0 "b	T`Wl„v™„äS^ýVòTÏu(WbìN„v†˜üRNIQY0bìNck(Wb`Y'YWlú^Ëz„vLˆ?eSO6RÿTöemN‰9eck±›N'YWl„vçubw¯rN„v•ï‹0"
- mechanic_has_term_election_yes:2 "AQ¸‹§Y	>N§!"
- mechanic_has_term_election_no:2 "NAQ¸‹§Y	>N§!"
- NEEDS_REGULAR_ELECTIONS:0 "ßu»lwN—VÈu«ŽûNLw0"
- mechanic_allow_banners_yes:1 "AQ¸‹ÛbßR§YkQ×e§!"
+ lottery_reform:0 "抽签"
+ lottery_reform_desc:0 "多数票胜出的选举方式容易导致腐败，乃至于民粹主义的滋生。我们将采用一个复杂的分配制度，通过从一群合适的候选人中随机选择来确定谁应该领导我们的共和国。"
+ appointment_by_committee_reform:0 "委员会的任命"
+ appointment_by_committee_reform_desc:0 "让我们停止对公务员的随意任命。应建立委员会来决定某一特定职位的最佳候选人，以确保在我们队伍中，行政能力称职成为常态。"
+ bureaucratic_aparatus_reform:0 "官僚机构"
+ bureaucratic_aparatus_reform_desc:0 "官僚系统不断扩大自己，只为了满足其扩大自己的需求。"
+ great_mongol_state_legacy:0 "大蒙古国"
+ great_mongol_state_legacy_desc:0 "成吉思汗的蒙古帝国已经在我们的领导下光复。我们正在恢复大汗建立的行政体制，同时也要改正那些大汗的继承者犯下的错误。"
+ great_mongol_state_reform:0 "大蒙古国"
+ great_mongol_state_reform_desc:0 "成吉思汗的蒙古帝国已经在我们的领导下光复。我们正在恢复大汗建立的行政体制，同时也要改正那些大汗的继承者犯下的错误。"
+ mechanic_has_term_election_yes:2 "允许§Y选举§!"
+ mechanic_has_term_election_no:2 "不允许§Y选举§!"
+ NEEDS_REGULAR_ELECTIONS:0 "统治者不得终身任职。"
+ mechanic_allow_banners_yes:1 "允许招募§Y八旗§!"
  mechanic_allow_banners_no:0 ""
- native_chiefdom_reform_desc:0 "bìNÅV‰˜¥c³u,gÏe²„v.Oßu0K‘¦„vSOû|ýwY©‹TMO•wYeˆcÖNìNÍs5„vºNuÏuŒš0"
- native_federation_reform_desc:0 "âVÓuObìNôf:V'Y0ÇÄuú^N*NèK„TwßvÿbìNÎNßvËS±·ƒ—V„vSNÅN=fY²NN„v=ecÿôf=fNˆN„v0"
- native_clan_council_reform_desc:0 "(W²OKN-NÐcGSáOûN=f^—8^Í‘‰„v0Ç(W±›N?aa:NèÏe)RÊvzrrrNR„vºN-N	>NµNu—RYe®‹OÿbìNïSåNnxÝOCg›RNO«ˆÆ–-N0RN*NUSN„vºNKb-N0"
- native_martial_tradition_reform_desc:0 "ÛeQRƒÎ‘ÿbìNÅV‰˜:N†Nu‹TKY›Rübd0'Yê6qÍk²Nt…µm„vqSi–ŒTyYÙuˆN„vwahaøvSVÿbìNÅV‰˜ÝO²bbìNêñTùR—bÎ‘‹QŒTó`‰:YpbìNW0W„vLeºN0"
- native_oral_tradition_reform_desc:0 "bìN1S=fEe‹N„vÆ–T0åNòS:Nj•ÿïSåNåwtQÿf0"
- native_land_tradition_reform_desc:0 "Ù=fbìN„vEeaN0RNKNRÿF–0W>f°söeÿbìN(WÙÌ‘ÿNLuÃqçpÿÒo4NÁkmpöeÿbìNOçe(WÙÌ‘0"
- native_war_band_reform_desc:0 "‰RhQa=fuImgÍ‘‰„v‹NÅ`ÿZw&qŽN›Q‹NMbýwnxÝObìNèK„„vx^y0"
- native_seasonal_travel_reform_desc:0 "NLu(WNt^-NN­eØSSÿbìNmNÅV‰˜‚Ydk0‚Yýw–NwcRPÁ™VÿbìN¿OSûR·ƒAucƒ0"
- native_settle_down_reform_desc:1 "	göeÿ:N0Reg„vÎ˜´fú^.‡^²bNbÔkýûRƒRôf:NÍ‘‰0bìN=föePVËYšRESNegÿú^ËzwôfY8lES„vQg„^†N0\n\n‚YœgÙy˜9ei—«ˆÖSãNÿbìNSO1Y»S§R1§!¹p3zšR¦^0"
- native_codified_power_reform_desc:0 "¡l	gÀNHNýwÌQŒšŽNÕl‹VKNN0ƒRONLuØS—Vôf RlQs^ÿObìNèÏe„vÏk*NºNýuws^Ir0"
- native_trading_with_foreigners_reform_desc:0 "µb¾bìN†˜0W„vV¦ºN©‹bìNfRO†N°e„vŽb=gÿNº‹b‰N‘bbŒTs^ÿÙ›NŽb=gý9eØS†NbìN„vuIm¹eV0"
- native_becomes_monarchy_reform_desc:0 "bìNßu»lw„vNˆßuegê^yf„vky1W0Øš5„vNˆßuOÖNìNb:NVüRbìNpTAucƒ„vNŒNºN	0"
- native_becomes_republic_reform_desc:0 ":N†NÝOÁ‹?eœ^„vlQckÿ?eCgÅV‰˜1ulIN	>NNbµNu0bìNÇ	éb†˜üRºN„v¹eV³QšRýV¶R„v‹TÐ0"
- native_becomes_theocracy_reform_desc:0 "©‹áQºNeg‰bébbìNºNl„v‹TÐÙHNÍ‘‰„v®‹˜˜ÿ=fNïSýw(W¡l	g¾|^ycV„vÅ`µQNZP0R„v0bìN„vßu»lwÅV‰˜=fO^y„vãNŠºN0"
- native_becomes_horde_reform_desc:0 "N›NupB›8lÜNO«ˆošg0SVb—ùRýV¶R?eœ^öeÿ¡l	gÀNHNÔkbìNêñT„vupB›ôf<P—VáOV†N0bìN”^8lN0N1Y±ýNê1u0"
- native_hereditary_reform_desc:0 "±›NHQqšìNåwSbìNNbýûR„v=fÀNHN0ÖNìNéeòT†SÏub‰NNŒTs^0AucƒNRƒœ‚0bìN„vßu»lw”^SVuªVÖNìNfzf„vcVŒT^y1W„vNˆßu0"
- native_diplomatic_cermonies_reform_desc:0 "ÂSNbìNºNlqQT„v?eœ^=f*NÍ‘‰Nàe³R„vûN¡RÿFO‰åeYNvQÖNèÏe0k1UNwR«NøvT„vß˜ir04lnŒTêNV1S=fæSNÞV‹N†N0"
- native_remain_being_native_reform_desc:0 "‡efÿàeº‹=fTIN6R0qQŒT6RØ=fvQƒRÀNHN6R¦^ÿêSO4xOWê6q0bIrÝuNAQ¸‹êñTÍ‘HŽ†‰™ÿêS”^cˆRê6q,gÃVÿÎNŽNNaŒ—)Y0"
- chinese_warlord:0 "-NNS²Ä–"
- chinese_warlord_desc:0 ")YgTENÅVRÿ²Ä–‡w¯rN0"
- mechanic_enables_horde_idea_group_yes:1 "AQ¸‹§Y8ngr§!tõVÄu0"
- mechanic_enables_horde_idea_group_no:1 "NAQ¸‹§Y8ngr§!tõVÄu0"
- mechanic_enables_divine_idea_group_yes:1 "AQ¸‹§Y^yCg§!tõVÄu0"
- mechanic_enables_divine_idea_group_no:1 "NAQ¸‹§Y^yCg§!tõVÄu0"
- mechanic_has_unify_china_cb_yes:1 "åb	g0§YßuN-NýV§!0„v±Rbt1u"
- mechanic_can_inherit_personal_unions_yes:0 "=T(u§YçubqQINTw¦-N„v!k‰bXT§!0"
- mechanic_can_inherit_personal_unions_no:0 "y(u§YçubqQINTw¦-N„v!k‰bXT§!0"
- mechanic_has_janissaries_yes:0 "ïSÛbßR§Y6w<SRÌ‘§!0"
- mechanic_has_janissaries_no:0 "NQïSÛbßR§Y6w<SRÌ‘§!0"
- feudal_theocracy_mechanic:0 "Sú^^yCg6R"
+ native_chiefdom_reform_desc:0 "我们必须接纳本族群的传统。酋邦的体系能够让各位长老教授他们珍贵的人生经验。"
+ native_federation_reform_desc:0 "团结使我们更强大。通过组建一个部落联盟，我们从盟友那获得的将不仅是外交上的支持，更是血缘上的。"
+ native_clan_council_reform_desc:0 "在群众之中提升信任是非常重要的。通过在那些愿意为部族利益牺牲一切的人中选举产生宗教议会，我们可以确保权力不会被集中到一个单一的人手中。"
+ native_martial_tradition_reform_desc:0 "进入荒野，我们必须为了生命奋力拼搏。大自然母亲蕴涵的危险和她给予的慷慨相当，我们必须保护我们自己对抗野兽和想要夺走我们土地的敌人。"
+ native_oral_tradition_reform_desc:0 "我们就是故事的集合。以史为镜，可以知兴替。"
+ native_land_tradition_reform_desc:0 "这是我们的故乡。创世之初，陆地显现时，我们在这里；世界燃烧，濒临毁灭时，我们依旧在这里。"
+ native_war_band_reform_desc:0 "安全感是生活最重要的事情，聚焦于军事才能确保我们部落的幸福。"
+ native_seasonal_travel_reform_desc:0 "世界在一年中不断变化，我们也必须如此。如能随着季候迁徙，我们便将寻获繁荣。"
+ native_settle_down_reform_desc:1 "有时，为到来的风暴建造庇护所比追寻它更为重要。我们是时候开始定居下来，建立起更多永居的村庄了。\n\n如果这项改革被取代，我们将会失去§R1§!点稳定度。"
+ native_codified_power_reform_desc:0 "没有什么能凌驾于法律之上。它使世界变得更加公平，使我们部族的每个人都生而平等。"
+ native_trading_with_foreigners_reform_desc:0 "抵达我们领地的异邦人让我们学会了新的技术，不论战争抑或和平，这些技术都改变了我们的生活方式。"
+ native_becomes_monarchy_reform_desc:0 "我们统治者的血统来自神明的祝圣。高贵的血统使他们成为引导我们走向繁荣的不二人选。"
+ native_becomes_republic_reform_desc:0 "为了保证政府的公正，政权必须由民主选举所产生。我们通过选择领导人的方式决定国家的命运。"
+ native_becomes_theocracy_reform_desc:0 "让凡人来抉择我们人民的命运这么重要的议题，是不可能在没有精神指引的情况下做到的。我们的统治者必须是众神的代言人。"
+ native_becomes_horde_reform_desc:0 "一些灵魂永远不会被驯服。当面对国家政府时，没有什么比我们自己的灵魂更值得信赖了。我们应永不丢失那份自由。"
+ native_hereditary_reform_desc:0 "那些先驱们知道我们所追寻的是什么。他们早已历经战争与和平、繁荣与荒芜。我们的统治者应当遵循他们明智的指引和神圣的血统。"
+ native_diplomatic_cermonies_reform_desc:0 "参与我们人民共同的政府是个重要且无害的任务，但要日夜与其他部族欢唱着分享相同的食物、水源和仪式就是另一回事了。"
+ native_remain_being_native_reform_desc:0 "文明，无论是君主制、共和制还是其它什么制度，只会破坏自然。我等绝不允许自己重蹈覆辙，只应持守自然本心，从于万象霜天。"
+ chinese_warlord:0 "中华群雄"
+ chinese_warlord_desc:0 "天朝合久必分，群雄蜂起犯上。"
+ mechanic_enables_horde_idea_group_yes:1 "允许§Y游牧§!理念组。"
+ mechanic_enables_horde_idea_group_no:1 "不允许§Y游牧§!理念组。"
+ mechanic_enables_divine_idea_group_yes:1 "允许§Y神权§!理念组。"
+ mechanic_enables_divine_idea_group_no:1 "不允许§Y神权§!理念组。"
+ mechanic_has_unify_china_cb_yes:1 "拥有「§Y统一中国§!」的宣战理由"
+ mechanic_can_inherit_personal_unions_yes:0 "启用§Y继承共主联邦中的次要成员§!。"
+ mechanic_can_inherit_personal_unions_no:0 "禁用§Y继承共主联邦中的次要成员§!。"
+ mechanic_has_janissaries_yes:0 "可招募§Y耶尼切里§!。"
+ mechanic_has_janissaries_no:0 "不再可招募§Y耶尼切里§!。"
+ feudal_theocracy_mechanic:0 "封建神权制"

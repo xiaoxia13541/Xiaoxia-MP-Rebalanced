@@ -1,0 +1,197 @@
+﻿l_english:
+    #SasanidEmpire:
+     SAS:0 "(„Qh^ýV" # Tðyeu	gôf9e
+     SAS_ADJ:0 "(„Qh"
+     SAS_ideas:0 "(„QhtõV"
+     SAS_ideas_start:0 "(„Qh.Oßu"
+     SAS_ideas_bonus:0 "(„QhÄ–ÃV"
+     dream_of_an_empire:0 "^ýVKN¦h"
+     dream_of_an_empire_desc:0 "bìN„vÎ‘ÃVv^N=fú^ËzN*N°e„v^ýVÿw=fYtQN*Nçe„v^ýVÿbìNðXðyêñT=fTÕl„vçubºNÿN=f°sãNŽ0tN¾s|šNŒTâl¯e„v?–S(„o`·V‹sýVÿw=fÎNtQý“^ÀN0R0W-Nwm„v›…‰¯eŒT'YAmëX„v?–QYŽ<S·V^ýV0bìN„vîvh=fYtQÙ*N^ýVÿÙ*N¦hó`óÊNmN=flÏe„v4ngÿN*N‹Yb„výV‹sI`ýwÇcbWlš‡v^ÊSvQTçuýV¶RÎNýV‹sKN‹s„vVyHQWµN-N²dúQegÀoÑSýVl„vípÅ`0"
+     expand_urban_settlements:0 "ibUSÎW^šRES¹p"
+     expand_urban_settlements_desc:0 "ÎW^ÑSUSŒTÎW^SjO:NNÍybVVÿ=f(„Qh^ýV(WOg„vCg›RSO°sÿNvQŸÛvöeg„vWlš^ýVÞz‰N0ÎW^šRES¹p„vÑSUS×S0R¯sƒX0ÏuNmŒT>yOagöN„vqVÍTÿmN1S=fô‹ÿÎW^šRES¹p=fáO01ZPNŒTFUNFUÁTÍ‘°eRM‘0RN^SÎW^ŒTýV¶R„v-NÃV0"
+     aswaran_knights:0 "?–¯eætpQ‘šëX"
+     aswaran_knights_desc:0 "‰k¡N„vÁ”Õ–ÏP0"
+     revive_sasanid_learning:0 "YtQ(„QhfRî•"
+     revive_sasanid_learning_desc:0 "(„Qhßu»l«ˆ²‹:N=fOg†SòSN„vN*NØš¹pÿ(W¸‹Y¹eb—=fäSãNOg‡eS„vv˜ðS0bìN¹RÍVbìNãl„vNTáOðNŒT‡eS0bìNÑSUS†NN*NYBg„v-N.YÆ–Cg?eœ^˜RÚP:g„gÿv^=ctQtWšN¯e·VYejO:NbìNßu»l„vTÕlSŒTßuN›RÏ‘0bìNØú^.†NRO„vªuõV‘xŒTlQqQåTzÿv^^©R‡eSŒTYe²w:g„g0"
+     neo_iranian_administration:0 "°eOgLˆ?e"
+     neo_iranian_administration_desc:0 "bìNÅV‰˜ªR›RÝOcbìNjO:NgTN*N°eOg^ýV„v0WMO0	g±b„v(„Õlôu‹sgck(WcbbìN(Wå‹0W:S„vßu»lÿàVdkbìNjO:NgTN*N°eOg^ýV„v†SòSŒTWµN0bìNÅV‰˜ªR›R9hd–Ù›NÛS›Qÿv^TNLuUS:y(„Qh^ýV„vóØšàeN0"
+     servants_of_zoroaster:0 "tWšN¯e·V„vÆNºN"
+     servants_of_zoroaster_desc:0 "tWšN¯e·V=f¯e®vTXüf¶RÏeb¯e®vTXs|·V¶RÏe„vnfœ¯e^KNPRÿÖN„vÍk²N=fjg<h·VÿwÖN„vþfVy6r=fwmaSTX¯e^0tWšN¯e·VSºN‰|¶rµQÆ‰:N?–™lN·VœKNô•„v¾|^y—e‰N0ºN‰|„vîv„vÿ1SÏPNb	gvQÖNR.irN7hÿ=fôucŒTùRPŸ?–™l0ùRºN‰|egô‹ÿÙÇïygÂSNuIm0êNVåNÊSLˆOú^¾‹'`/‹Y„v`ó`0Ší‹ŒTLˆ:NegžR°s0"
+     new_age_army:0 "°eöeãN›Q–"
+     new_age_army_desc:0 "*geg=fbìN„vÿNLu=fbìN„v0ÎNN¹e„v-NýV0R‰¹e„v^JfRwKN0W0bìN„v^ýVèŠ^Ûlÿ.O­dtWšN¯e·VáOðN0RNLu„vVYe’V=fbìN„v‹TÐ0MRÛÿ:N†Ncƒwÿ"
+    # Missions:
+     expand_the_temples_title:0 "ibUS^y™^"
+     expand_the_temples_desc:0 "ibUS^y™^"
+     convert_iraq_title:0 "lSOÉbKQ"
+     convert_iraq_desc:0 "lSOÉbKQ"
+     consolidate_iraq_title:0 "éTúVOÉbKQ"
+     consolidate_iraq_desc:0 "éTúVOÉbKQ"
+     recover_persia_title:0 "6eYâl¯e"
+     recover_persia_desc:0 "6eYâl¯e"
+     integrate_the_branch_dynasty_title:0 "teTR=e‹sg"
+     integrate_the_branch_dynasty_desc:0 "teTR=e‹sg"
+     rekindle_the_fires_title:0 "Í‘°e¹pÃqkp0q"
+     rekindle_the_fires_desc:0 "Í‘°e¹pÃqkp0q"
+     expand_the_towns_title:0 "ibUSÎWG•"
+     expand_the_towns_desc:0 "ibUSÎWG•"
+     into_the_pamir_mountains_title:0 "ÛeQ^s|SqS	"
+     into_the_pamir_mountains_desc:0 "ÛeQ^s|SqS	"
+     develop_persian_trade_title:0 "ÑSUSâl¯e8f"
+     develop_persian_trade_desc:0 "ÑSUSâl¯e8f"
+     seat_of_an_empire_title:0 "^ýV„vRµ^"
+     seat_of_an_empire_desc:0 "^ýV„vRµ^"
+     industrialize_iraq_title:0 "åTNSOÉbKQ"
+     industrialize_iraq_desc:0 "åTNSOÉbKQ"
+     masters_of_persia_title:0 "âl¯e„vINºN"
+     masters_of_persia_desc:0 "âl¯e„vINºN"
+     modernize_persian_rug_production_title:0 "°sãNSâl¯e0WïkuµN"
+     modernize_persian_rug_production_desc:0 "°sãNSâl¯e0WïkuµN"
+     sasanid_rennaisance_title:0 "(„Qh‡ez‚YtQ"
+     sasanid_rennaisance_desc:0 "(„Qh‡ez‚YtQ"
+     the_old_capital_title:0 "çe–™ý"
+     the_old_capital_desc:0 "çe–™ý"
+     push_back_the_arabs_title:0 "ûQ?–Éb=OºN"
+     push_back_the_arabs_desc:0 "ûQ?–Éb=OºN"
+     into_khorasan_title:0 "ÛeQ—ÉbQh"
+     into_khorasan_desc:0 "ÛeQ—ÉbQh"
+     sasanid_learning_title:0 "(„QhfRî•"
+     sasanid_learning_desc:0 "(„QhfRî•"
+     revive_persia_title:0 "YtQâl¯e"
+     revive_persia_desc:0 "YtQâl¯e"
+     exact_our_revenge_title:0 "YÇN"
+     exact_our_revenge_desc:0 "YÇN"
+     reastablish_indian_satrapy_title:0 "Í‘ú^pS¦^I`cw:S"
+     reastablish_indian_satrapy_desc:0 "Í‘ú^pS¦^I`cw:S"
+     reestablish_the_immortals_title:0 "Í‘ú^NKgw"
+     reestablish_the_immortals_desc:0 "Í‘ú^NKgw"
+     reestablish_the_immortals_tooltip:0 "§YZhayedan§!Ç–cOuQlQøS°s(WïSåN«ˆÇ–cO0" # Sealandûm R„vÇ–cOuQlQøS
+     expand_the_aswaran_knights_title:0 "?–¯eætpQ‘šëX"
+     expand_the_aswaran_knights_desc:0 "ibUS?–¯eætpQ‘šëX"
+     gunpowder_warfare_title:0 "kpoƒb‰N"
+     gunpowder_warfare_desc:0 "kpoƒb‰N"
+     gunpowder_empire_title:0 "kpoƒ^ýV"
+     gunpowder_empire_desc:0 "kpoƒ^ýV"
+     the_ancient_enemy_title:0 "äSw„vLeºN"
+     the_ancient_enemy_desc:0 "WlšºNþfÏu=fbìN„vLeºNÿÙ!kbìNÔkÖNìNIm—VôfEN0"
+     a_new_threat_title:0 "°eZÁw"
+     a_new_threat_desc:0 "°eZÁw"
+     prepare_for_a_confrontation_title:0 "ÆQYùR—b"
+     prepare_for_a_confrontation_desc:0 "ÆQYùR—b"
+     the_struggle_begins_title:0 "—e‰NVËY"
+     the_struggle_begins_desc:0 "—e‰NVËY"
+     first_victory_title:0 ",rN!kÜw)R"
+     first_victory_desc:0 ",rN!kÜw)R"
+     first_victory_tooltip:0 "=T(u³QšRbVb§Y?–QYŽ<S·V^ýV§!0" # Sealandûm R„vïSbVbýV¶R
+    # Modifiers:
+     sas_victory_in_levant:0 "ÎžáQyr„vÜw)R"
+     sas_university:0 "(„Qh'YfR"
+     sas_eranshahr:0 "(„QhOg"
+     sas_afgan_frontier:0 "?–ÌRWl¹ƒX"
+     sas_indian_satrapy:0 "pS¦^I`cw:S"
+     sas_modern_cavalry:0 "°sãN‘šuQ"
+     sas_army_modernization:0 "›Q–°sãNS"
+     sas_expanded_aswarans:0 "ibUS?–¯eætpQ"
+     sas_immortals:0 "(„QhNKgw"
+     sas_public_works:0 "lQqQåTz"
+     sas_capital_of_persia:0 "âl¯e„v–™ý"
+     sas_persian_administration:0 "âl¯eLˆ?e"
+     sas_struggle_for_levant:0 "ÎžáQyr„v—e‰N"
+     marzban_of_mosul:0 "idÏ‚S„v›sSyQís"
+     sas_prepare_for_struggle:0 "ÆQY—e‰N"
+     sas_outlasted_the_romans:0 "°s(WŒ=f+täQðQ"
+     sas_persian_silk_road:0 "âl¯eNøuKNï"
+     sas_proto_industrialization:0 "ŸSËYåTNS"
+     sas_town_expansion:0 "ÎWG•ibUS"
+     eternal_fires_rekindled:0 "8lR`KNkpÍ‘°e¹pÃq"
+     sas_zoroastrianism_rekindled:0 "tWšN¯e·VYeÍ‘°e¹pÃq"
+     sas_taxes_for_temples:0 "^y™^z6e"     
+     
+    #Localisation for colonial formables
+  PRG_ideas:0 "ôTÉb-WtõV"
+  PRG_ideas_start:0 "ôTÉb-W.Oßu"
+  PRG_ideas_bonus:0 "ôTÉb-WÄ–ÃV"
+  PRG_pious_christians:0 "T†Ú‹„v.OYeëX"
+  PRG_pious_christians_desc:0 "—RYe=fSbìNN`SncÙGr^–'YF–„vQS‘ŒT*gVSWW„:SRVeg„vN‰"
+  PRG_in_lords_name:0 "åNIN„vTIN"
+  PRG_in_lords_name_desc:0 "bìN„vIN=fhQýw„vÿbìN=fÖN„vÆNºN"
+  PRG_economy_reforms:0 "ÏuNm9ei—"
+  PRG_economy_reforms_desc:0 "a0ŒbìNR°e„v?e»l¶R6RšR„vfzfÏuNm9ei—ÿbìN„vÏuNmck(Wì„ÃRÑSUS"
+  PRG_whip_of_god:0 "N^„v­—PR"
+  PRG_whip_of_god_desc:0 "N^ùR±›N?aaTÖNHSg„vºNhˆ:y`¯`ÿFOùRŽN±›NbeŽNcbÖN„vºNÿÖNmNïSåN=f%N‰S„v"
+  PRG_state_monopolies:0 "ýV¶R„W­e"
+  PRG_state_monopolies_desc:0 "bìNÅV‰˜„W­e8fÿåN¿ObìNýwYµc6RƒRv^ÎN-N·ƒ—VhQè)RÊv"
+  PRG_mass_recruitment:0 "'YÄ‰!jÛbßR"
+  PRG_mass_recruitment_desc:0 "(WÝugŒTb‰NöegÿÏk*N7uºNŒT7uiRýÅV‰˜ÍT”^ýV¶RŒTN^„v—‰"
+  PRG_naval_expansion:0 "wm›Qib.V"
+  PRG_naval_expansion_desc:0 "wm›QO¿RNvQÖN›Q‹N¹eb—N7hÍ‘‰ÿåN¿O6Rg»ýVv^ib'YbìN„vqVÍT›R"      
+  COL_ideas:0 "åT&OÔkšNtõV"
+  COL_ideas_start:0 "åT&OÔkšN.Oßu"
+  COL_ideas_bonus:0 "åT&OÔkšNÄ–ÃV"
+  COL_independence:0 "–klåT&OÔkšN"
+  COL_independence_desc:0 "NçeNLuøv”–NÌ‘ÿbìNÅV‰˜êÙuê³ÿMbýw(WÙ*N^–„v'YF–NAucƒÑSUS"
+  COL_legacy_of_the_libertadores:0 "ã‰>ew„vWµN"
+  COL_legacy_of_the_libertadores_desc:0 "ã‰>ew„vWµNIm(WbìNNb	gºNÃV-Nÿ(WöeIQp‚¾–öeÙuˆNbìN^g"
+  COL_union_of_nations:0 "ýV¶RTwßv"
+  COL_union_of_nations_desc:0 "bìN(W—RINýV×e^NâVÓubN*NýV¶R"
+  COL_federal_state:0 "Tw¦ýV¶R"
+  COL_federal_state_desc:0 "àeº‹?e»lb—RYeáOðN‚YUOÿbìNÅV‰˜øv’N¹RÍV"
+  COL_free_economy:0 "–klÏuNm"
+  COL_free_economy_desc:0 "ê1uŒTV>e„vÏuNmùRbìN„vÏuNmbŸRósQÍ‘‰ÿ‚YœgbìNó`‰ê1u„vÝ‹"
+  COL_fight_for_freedom:0 ":N—RINýVwb"
+  COL_fight_for_freedom_desc:0 ":NbìN„v—RINýVwb„vãN÷Nv^N¿OœRÿbìNÅV‰˜°‹OOzrrr„vœœNˆŒT›äRåTjO"
+  COL_new_army:0 "°eNLu›Q–"
+  COL_new_army_desc:0 "N*N°e„v*geg—‰N*N°e„v›Q–ÿMRÛ'TÿëXuQìNÿ:N†Ncƒwÿ"
+  
+  FLO_ideas:0 "iOWÌ‘¾tõV"
+  FLO_ideas_start:0 "iOWÌ‘¾.Oßu"
+  FLO_ideas_bonus:0 "iOWÌ‘¾Ä–ÃV"
+  FLO_Plantation_Economy:0 "ÍyiíVÏuNm"
+  FLO_Plantation_Economy_desc:0 "bìN„vÏuNmú^Ëz(WÍyiíVÐc›O„v6eeQKNN"
+  FLO_Blue_Mountain_Coffee:0 "Ý„qS–TaU"
+  FLO_Blue_Mountain_Coffee_desc:0 "ƒRvQžRN=f–TaUÿFO,TwegˆVw‘"
+  FLO_Sugar_Revolution:0 "Ö|i—‹T"
+  FLO_Sugar_Revolution_desc:0 "Ö|=f*gegÿàQNNïSåN¯wšRSO	gb‰N=f:N†NÙÍy)R¦m0NšS„vµNÁTwb"
+  FLO_American_Trade_Hub:0 "Ž2m8f-NÃV"
+  FLO_American_Trade_Hub_desc:0 "bìN„vMOnAQ¸‹bìNÂSN*jèÙGr^–'YF–„vøv’NÞ¥c„v8f"
+  FLO_Miskoto_Zambos:0 "s|¯eÑyXb·^ZS¯e"
+  FLO_Miskoto_Zambos_desc:0 "s|¯eÑyXb·^ZS¯e=fNMOSV0WON¶Rÿ.^©Rú^¾‹†NÙ*NýV¶R"
+  FLO_Interconnected_Relations:0 "øv’NÞ¥c„vsQû|"
+  FLO_Interconnected_Relations_desc:0 "(WbìNýV¶R…Q„vŸlŒTo‚‹YsQû|ùRŽNÝOcÏuNmžX•ósQÍ‘‰"
+  FLO_Colonial_Legacy:0 "–klWµN"
+  FLO_Colonial_Legacy_desc:0 "‹†6qbìNUSg*gegÿFObìNNýwØV°‹bìN„v–klWµN"
+  
+  HAT_ideas:0 "wm0WtõV"
+  HAT_ideas_start:0 "wm0W.Oßu"
+  HAT_ideas_bonus:0 "wm0WÄ–ÃV"
+  HAT_Plantatio_Economy:0 "–klÏuNm"
+  HAT_Plantatio_Economy_desc:0 "bìN„vÏuNmú^Ëz(W–klPNÂ‰ININKNN"
+  HAT_Blue_Mountain:0 "›SN„v7uºN"
+  HAT_Blue_Mountain_desc:0 "ÖNìNô‹wm0W„v7uºNÔkvQÖNûNUO7uºNýôf:VîX0ôfëV0ôfjwf"
+  HAT_Suga_Revolution:0 "Ö|ªu‹V"
+  HAT_Suga_Revolution_desc:0 "bìN„vëXuQDdeQ'YÏ‘Ö|RÿOÖNìN(W+o•wÀoÈp„vb—e-NÝOcØš¦^ªu‹V"
+  HAT_Americn_Trade_Hub:0 " RÒRÔk8f-NÃV"
+  HAT_Americn_Trade_Hub_desc:0 " RÒRÔkwm=fŽ2m8f„v8f-NÃVÿbìNÅV‰˜ªR›R)R(ubìN„vMOnO¿R"
+  HAT_Miskoto_Zambo:0 "›SS¾|^y"
+  HAT_Miskoto_Zambo_desc:0 "`Ow„vÅV‰˜¿‹î•wm0WÿMbýwSOŒš0RÙÌ‘ºNl„v¾|^y"
+  HAT_Interconnected_Relations:0 "›SSY²N"
+  HAT_Interconnected_Relations_desc:0 "rÔkQRôf:V'Y"
+  HAT_Colonial:0 "	gðXg„v>yO"
+  HAT_Colonial_desc:0 "bìN„v>yOú^Ëz(W›äRåTjOKNNÿFOgÍ‘‰„v=fêjŒa"
+  
+  CAL_ideas:0 " R)Ry<SšNtõV"
+  CAL_ideas_start:0 " R)Ry<SšN.Oßu"
+  CAL_ideas_bonus:0 " R)Ry<SšNÄ–ÃV"
+  CAL_endurance:0 "‰wm¸SuIm"
+  CAL_endurance_desc:0 "uImïSýwˆVp‚¾–ÿFObìNÅV‰˜fROÍV×Sv^çuíuMRÛÿåNú^¾‹ýV¶Rv^N­eib'Y"
+  CAL_hard_push_east:0 "TN¨cÛ"
+  CAL_hard_push_east_desc:0 "ŽýV¹†uË–ÿW0WbŸq…VÖS0bìNÅV‰˜TN¨cÛÿ:NbìNåeÊvžX•„vºNãSŒúQzzô•"
+  CAL_secretary_icebox:0 "ê1uuIm„v¾|^y"
+  CAL_secretary_icebox_desc:0 "Vg=fbìNuIm¹eV„vNèRÿck‚YN›NºNNbô‹ÿÙ=fbìN„v¾|^y„vNèR"
+  CAL_bear_hunting:0 "Šqérs"
+  CAL_bear_hunting_desc:0 "å‹0W:SEQán†NŠqÿÙïSýwwwegˆVqSi–ÿFOƒR=f‰w„vgsOegnÿùRbìN„vuXRósQÍ‘‰"
+  CAL_diversity:0 " R)Ry<SšNY7h'`"
+  CAL_diversity_desc:0 "bìN„v>yO	gegêNLuT0W„vûylÿY7h'`ObìNýwYSOŒšegêhQtT0W„v‡eS0`N×O0—RYeåNÊS`ó`"
+  CAL_navy:0 "*Ys^mwm›Q"
+  CAL_navy_desc:0 "bìNÅV‰˜ªR›Råb	g*Ys^mNg:V'Y0gRO„v0‚–"
+  CAL_beauty:0 "‰èKNŽ"
+  CAL_beauty_desc:0 "ÎNSè„vROqS	0RWSè„v…áQwménÿ`OÅV‰˜¿‹î• R)Ry<SšNÿMbýwaÆ‹0RvQŽKN"

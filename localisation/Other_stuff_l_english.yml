@@ -1,62 +1,62 @@
-﻿l_english:
+l_english:
 # Chalky:
     # Dravidessa:
      # Country:
-    DRV:0 "·VÉbôu·V(„"
-    DRV_ADJ:0 "·VÉbôu·V"
-    DRV_ADJ2:0 "·VÉbôu·V"
-    dravidessa_nation_title:0 "@DRV ßuN·VÉbôu·V(„"
-    dravidessa_nation_desc:0 "S·VÉbôu·VºNlßuN(WN*NýV¶RKNN0"
-    DRV_ideas:0 "·VÉbôu·VtõV"
-    DRV_ideas_start:0 "·VÉbôu·V.Oßu"
-    DRV_ideas_bonus:0 "·VÉbôu·VÄ–ÃV"
-    drv_hindu_state:0 "N*N¾idýV¶R"
-    drv_hindu_state_desc:0 "±›N«ˆFz¯e—g:k—š„vºNÅV‰˜ÞVRVckINKNï0"
-    drv_indian_industriousness:0 "pS¦^äRÉR"
-    drv_indian_industriousness_desc:0 "bìNSÎNñ‚ýVºN‚Ydk4ng„vÇuir-N·ƒ—VèT'Y)R¦m0"
-    drv_ahoms_legacy:0 "?–jŒÆY„vWµN"
-    drv_ahoms_legacy_desc:0 "bìNO'Y„vS›QìN„vEe‹NÿNæeiRPRìN•'Y0RýwY²‹úQÖNìN„vÕ–ÏPÿ1SOYeÙuÖNìN0"
-    drv_labana:0 "ÉbôT³uFU9‚–"
-    drv_labana_desc:0 "ôTôT·lšKQIl·™l?–·ÉbôT³uTbìNUS:y†N(WwmN8f-N	gYS0ÌR=föePbìNRNog¹†N0"
-    drv_settle_in_indonesia:0 "(WpS¦^<S‰šNšRES"
-    drv_settle_in_indonesia_desc:0 "™™™e›SÌR	gÿNNÜ0¯wšR	gN›NºN?aa»S..."
-    drv_learn_from_the_sikh:0 "T!•KQºNfR`N"
-    drv_learn_from_the_sikh_desc:0 "‹†6qN=fNb	gºNýuªV!•KQYe„vYeüRÿFOÖNìNNbô‹„vN›NN‰<ONNøvSV	g(u0"
-    drv_green_water_gallivats:0 "ÿu4l R)Rætyr"
-    drv_green_water_gallivats_desc:0 "bìNOewc„v R)Rætyr(W¿lwm4lßWhˆ°súQr‚ÿïSåNÕuÇñ‚ýVbR0‚0"
+    DRV:0 "德拉维德萨"
+    DRV_ADJ:0 "德拉维德"
+    DRV_ADJ2:0 "德拉维德"
+    dravidessa_nation_title:0 "@DRV 统一德拉维德萨"
+    dravidessa_nation_desc:0 "将德拉维德人民统一在一个国家之下。"
+    DRV_ideas:0 "德拉维德理念"
+    DRV_ideas_start:0 "德拉维德传统"
+    DRV_ideas_bonus:0 "德拉维德雄心"
+    drv_hindu_state:0 "一个达摩国家"
+    drv_hindu_state_desc:0 "那些被穆斯林欺骗的人必须回归正义之路。"
+    drv_indian_industriousness:0 "印度勤勉"
+    drv_indian_industriousness_desc:0 "我们将从英国人如此渴望的织物中获得巨大利润。"
+    drv_ahoms_legacy:0 "阿豪姆的遗产"
+    drv_ahoms_legacy_desc:0 "我们伟大的将军们的故事，一旦孩子们长大到能够认出他们的雕像，就会教给他们。"
+    drv_labana:0 "拉巴纳商船队"
+    drv_labana_desc:0 "巴巴·马克汉·沙阿·拉巴纳向我们展示了在海上贸易中有多少财富——是时候我们分一杯羹了。"
+    drv_settle_in_indonesia:0 "在印度尼西亚定居"
+    drv_settle_in_indonesia_desc:0 "香料岛富有，且不远。肯定有一些人愿意去..."
+    drv_learn_from_the_sikh:0 "向锡克人学习"
+    drv_learn_from_the_sikh_desc:0 "虽然不是所有人都遵循锡克教的教导，但他们所说的一些东西似乎相当有用。"
+    drv_green_water_gallivats:0 "绿水加利瓦特"
+    drv_green_water_gallivats_desc:0 "我们敏捷的加利瓦特在沿海水域表现出色，可以绕过英国战列舰。"
     # Missions:
-    csh_drv_recover_from_war_title:0 "ÎNb‰N-Nb`Y"
-    csh_drv_recover_from_war_desc:0 "ÎNb‰N-Nb`Y"
-    csh_drv_indian_cloth_exports_title:0 "pS¦^^™eúQãS"
-    csh_drv_indian_cloth_exports_desc:0 "pS¦^^™eúQãS"
-    csh_drv_indian_cloth_exports_tt:0 "§YfW&qS§!0W:S(WuµN§Y^™e§!ÿ§YÉh±‚§!ÿ§YNøu§!„vwýN·ƒ—V'§YNWGYnfpQ±uKNÇu§!'ÿôv0R8nbÓumgÿÙuˆNåNNHeœgÿ\n,g0WFUÁTuµNîOckÿ§G+10.0%§!\n§YlšjgV§!0W:S(WuµN§Y^™e§!ÿ§YÉh±‚§!ÿ§YNøu§!„vwýN·ƒ—V'§YNWGYnfpQ±uKNÇu§!'ÿôv0R8nbÓumgÿÙuˆNåNNHeœgÿ\n,g0WFUÁTuµNîOckÿ§G+10.0%§!\n§YWSaS³uÐcKQ§!0W:S(WuµN§Y^™e§!ÿ§YÉh±‚§!ÿ§YNøu§!„vwýN·ƒ—V'§YNWGYnfpQ±uKNÇu§!'ÿôv0R8nbÓumgÿÙuˆNåNNHeœgÿ\n,g0WFUÁTuµNîOckÿ§G+10.0%§!\n§YTRäS§!0W:S(WuµN§Y^™e§!ÿ§YÉh±‚§!ÿ§YNøu§!„vwýN·ƒ—V'§YNWGYnfpQ±uKNÇu§!'ÿôv0R8nbÓumgÿÙuˆNåNNHeœgÿ\n,g0WFUÁTuµNîOckÿ§G+10.0%§!"
-    csh_drv_culture_title:0 "ßuN‡eS"
-    csh_drv_culture_desc:0 "ßuN‡eS"
-    csh_drv_prosperous_india_title:0 "Aucƒ„vpS¦^"
-    csh_drv_prosperous_india_desc:0 "Aucƒ„vpS¦^"
-    csh_drv_upstream_expansion_title:0 "N8nib.V"
-    csh_drv_upstream_expansion_desc:0 "N8nib.V"
-    csh_drv_american_gold_title:0 "°epS¦^ÄžÑ‘"
-    csh_drv_american_gold_desc:0 "°epS¦^ÄžÑ‘"
-    csh_drv_southern_trade_title:0 "WS¹e8f"
-    csh_drv_southern_trade_desc:0 "WS¹e8f"
-    csh_drv_bengal_trade_title:0 "mR RÉb8f"
-    csh_drv_bengal_trade_desc:0 "mR RÉb8f"
-    csh_drv_spice_trade_title:0 "àe÷N„v™™™e"
-    csh_drv_spice_trade_desc:0 "àe÷N„v™™™e"
-    csh_drv_australia_title:0 "ÿfãNpS¦^"
-    csh_drv_australia_desc:0 "ÿfãNpS¦^"
-    csh_drv_downstream_expansion_title:0 "N8nib.V"
-    csh_drv_downstream_expansion_desc:0 "N8nib.V"
+    csh_drv_recover_from_war_title:0 "从战争中恢复"
+    csh_drv_recover_from_war_desc:0 "从战争中恢复"
+    csh_drv_indian_cloth_exports_title:0 "印度布料出口"
+    csh_drv_indian_cloth_exports_desc:0 "印度布料出口"
+    csh_drv_indian_cloth_exports_tt:0 "§Y坦焦尔§!地区在生产§Y布料§!，§Y棉花§!，§Y丝绸§!的省份获得'§Y坎奇普兰纱丽编织§!'，直到游戏结束，给予以下效果：\n本地商品生产修正：§G+10.0%§!\n§Y马杜赖§!地区在生产§Y布料§!，§Y棉花§!，§Y丝绸§!的省份获得'§Y坎奇普兰纱丽编织§!'，直到游戏结束，给予以下效果：\n本地商品生产修正：§G+10.0%§!\n§Y南卡纳提克§!地区在生产§Y布料§!，§Y棉花§!，§Y丝绸§!的省份获得'§Y坎奇普兰纱丽编织§!'，直到游戏结束，给予以下效果：\n本地商品生产修正：§G+10.0%§!\n§Y孔古§!地区在生产§Y布料§!，§Y棉花§!，§Y丝绸§!的省份获得'§Y坎奇普兰纱丽编织§!'，直到游戏结束，给予以下效果：\n本地商品生产修正：§G+10.0%§!"
+    csh_drv_culture_title:0 "统一文化"
+    csh_drv_culture_desc:0 "统一文化"
+    csh_drv_prosperous_india_title:0 "繁荣的印度"
+    csh_drv_prosperous_india_desc:0 "繁荣的印度"
+    csh_drv_upstream_expansion_title:0 "上游扩张"
+    csh_drv_upstream_expansion_desc:0 "上游扩张"
+    csh_drv_american_gold_title:0 "新印度黄金"
+    csh_drv_american_gold_desc:0 "新印度黄金"
+    csh_drv_southern_trade_title:0 "南方贸易"
+    csh_drv_southern_trade_desc:0 "南方贸易"
+    csh_drv_bengal_trade_title:0 "孟加拉贸易"
+    csh_drv_bengal_trade_desc:0 "孟加拉贸易"
+    csh_drv_spice_trade_title:0 "无价的香料"
+    csh_drv_spice_trade_desc:0 "无价的香料"
+    csh_drv_australia_title:0 "替代印度"
+    csh_drv_australia_desc:0 "替代印度"
+    csh_drv_downstream_expansion_title:0 "下游扩张"
+    csh_drv_downstream_expansion_desc:0 "下游扩张"
     # Modifiers
-    csh_kanchipuram_saris_weaving:0 "NWGYnfpQ±uKNÇu"
-    csh_drv_accepted_cultures:0 "¥c×S„v‡eS"
-    csh_drv_india_prospers:0 "pS¦^Aucƒ"
-    csh_drv_coromandel_trade:0 "ÑyWüf·VS8f"
-    csh_drv_bengal_trade_modifier:0 "mR RÉb8f"
-    csh_drv_influx_from_india:0 "egêpS¦^„vŒmeQ"
-    csh_drv_increased_european_trade:0 "žX R„v'k2m8f"
-    csh_drv_pacific_triange_trade:0 "*Ys^m	NÒ‰8f"
+    csh_kanchipuram_saris_weaving:0 "坎奇普兰纱丽编织"
+    csh_drv_accepted_cultures:0 "接受的文化"
+    csh_drv_india_prospers:0 "印度繁荣"
+    csh_drv_coromandel_trade:0 "科罗曼德尔贸易"
+    csh_drv_bengal_trade_modifier:0 "孟加拉贸易"
+    csh_drv_influx_from_india:0 "来自印度的涌入"
+    csh_drv_increased_european_trade:0 "增加的欧洲贸易"
+    csh_drv_pacific_triange_trade:0 "太平洋三角贸易"
      
      
      #csh_drv_indian_cloth_exports_tt:0 "§YTanjore1§! area gets '§YKanchipuram Saris Weaving§!' on provinces producing §YCloth§!, §YCotton§!, §YSilk§! until the end of the game, giving the following effects:\Local Goods Produced Modifier: §G+10.0%§!\n§YMadura§! area gets '§YKanchipuram Saris Weaving§!' on provinces producing §YCloth§!, §YCotton§!, §YSilk§! until the end of the game, giving the following effects:\Local Goods Produced Modifier: §G+10.0%§!\n§YSouth Carnatic§! area gets '§YKanchipuram Saris Weaving§!' on provinces producing §YCloth§!, §YCotton§!, §YSilk§! until the end of the game, giving the following effects:\Local Goods Produced Modifier: §G+10.0%§!\n§YKongu§! area gets '§YKanchipuram Saris Weaving§!' on provinces producing §YCloth§!, §YCotton§!, §YSilk§! until the end of the game, giving the following effects:\Local Goods Produced Modifier: §G+10.0%§!"
@@ -64,38 +64,38 @@
  # Hunterrio:
     # Maharlika:
      # Decision:
-     mhl_nation_title:0 "@MHL ßuNòƒ‹V¾R"
-     mhl_nation_desc:0 "Sòƒ‹V¾R²›S„vOY‹sPRßuNb:V'Y„výV¶RlšÈTÌ‘aS0"
+     mhl_nation_title:0 "@MHL 统一菲律宾"
+     mhl_nation_desc:0 "将菲律宾群岛的众多王子统一成强大的国家马哈里卡。"
      # Events:
-     hunterrio_events.1.t:0 "‹TTbìN„výV¶R"
-     hunterrio_events.1.d:0 "bìNESOO„v›SS(W†SòSN	g¸‹YTWRÿbìNÅV‰˜	ébbìN^gbìN„výV¶R«ˆðy:NÀNHN0"
-     hunterrio_events.1.a:0 "lšÈTÌ‘aSÿck‚YbìN„vºNlðy|TbìN0"
-     hunterrio_events.1.a.tt:0 "ýV¶RTðySÝOc:N §YlšÈTÌ‘aS§!0"
-     hunterrio_events.1.b:0 "Èÿck‚Y-NýV¢ci–¶Rðy|TbìN0"
-     hunterrio_events.1.c:0 "òƒ‹V¾Rÿck‚Y‰ísYrºNðy|TbìN0"
+     hunterrio_events.1.t:0 "命名我们的国家"
+     hunterrio_events.1.d:0 "我们居住的岛屿在历史上有许多名字，我们必须选择我们希望我们的国家被称为什么。"
+     hunterrio_events.1.a:0 "马哈里卡，正如我们的人民称呼我们。"
+     hunterrio_events.1.a.tt:0 "国家名称将保持为 §Y马哈里卡§!。"
+     hunterrio_events.1.b:0 "迈，正如中国探险家称呼我们。"
+     hunterrio_events.1.c:0 "菲律宾，正如西班牙人称呼我们。"
      # Country:
-     MHL:0 "lšÈTÌ‘aS"
-     MHL_ADJ:0 "lšÈTÌ‘aS"
-     MAI_MAHARLIKA:0 "È"
-     MAI_MAHARLIKA_ADJ:0 "È"
-     MHL_ideas:0 "lšÈTÌ‘aStõV"
-     MHL_ideas_start:0 "lšÈTÌ‘aS.Oßu"
-     MHL_ideas_bonus:0 "lšÈTÌ‘aSÄ–ÃV"
-     mhl_chola_empire:0 "1gW^ýV„vWµN"
-     mhl_chola_empire_desc:0 "O'Y„v1gW^ýV„vWùXR(WŽNÙ›N›SSNÿ=fòƒ‹V¾RºN„v„š²PŒTðXg„vÍ‘‰egn0"
-     mhl_philippine_monopoly:0 "òƒ‹V¾R„W­e"
-     mhl_philippine_monopoly_desc:0 "bìNÅV‰˜ªR›RnxËzùRòƒ‹V¾R²›S8f„v„W­eÿv^2–bkYýV¿R›Rÿyr+R=f'k2mŒT-NýV¿R›RÂSNeRJRbìN„v8f0"
-     mhl_defend_the_faith:0 "MckSáOðN"
-     mhl_defend_the_faith_desc:0 "bìN„v‹TÐ=fÝO²bbìN„váOðNN×SVïzŒTVYe’V„vµO¯rÿnxÝOýV¶RŒTºNl„v¯um'`0"
-     mhl_maritime_tradition:0 "wmN.Oßu"
-     mhl_maritime_tradition_desc:0 "bìN„vºNl	gNwO'Y„vwmN8fŒTnN†SòSÿuóbìNO'Y„vVyHQ¢c0t†NpS¦^<S‰šNŒT*Ys^m„v›SS"
-     mhl_malayan_ambition:0 "lšegÄ–ÃV"
-     mhl_malayan_ambition_desc:0 "bìN„vIN‰îvh”^å‹=fßuNO'YwRÂˆ„vpS¦^<S‰šNŒTlšegJS›S›SSÿv^=fbìN„vÄ–ÃV=fú^ËzO'Y„výV¶RlšegšNÿnxÝONb	glšegºNl„vAucƒ0"
-     mhl_mortars_of_revolution:0 "i—‹T„vëûQ®p"
-     mhl_mortars_of_revolution_desc:0 "©‹®pkp—¼d'Y0Wÿ©‹9VGrQ!k•dÂˆ`OÿbìNSÇ:V'Y„vfkhVŒTùRO'Y„vòƒ‹V¾RýV¶Rê1u„v4ngegb—VbìN„vê1u0"
-     PHILIPPINES_MAHARLIKA:0 "òƒ‹V¾R"
-     PHILIPPINES_MAHARLIKA_ADJ:0 "òƒ‹V¾R"
-     mhl_rename_mai_title:0 "@MHL Ç‘(u'lšegšN'jO:NbìN„vTWR"
-     mhl_rename_mai_desc:0 "1uŽNbìNùR-NýVºNl„vS¹R'`žX Rv^SÖNìN‡eQbìN„v>yOÿºNìN²‹:NbìN”^å‹Ç‘(uÈÙ*NTWRegãNhˆÙ›N²SO„v)RÊvÿv^Ç‘ÖSƒS„vÛllšegÆ‰Ò‰0"
-     mhl_rename_filipino_title:0 "@MHL Ç‘(u'òƒ‹V¾R'jO:NbìN„vTWR"
-     mhl_rename_filipino_desc:0 "1uŽNbìNùR‰ísYrºN„vS¹R'`žX Rv^SÖNìN‡eQbìN„v>yOÿºNìN²‹:NbìN”^å‹Ç‘(uòƒ‹V¾RÙ*NTWRegãNhˆÙ›N²SO„v)RÊvÿv^Ç‘ÖSƒS„vÛllšegÆ‰Ò‰0"
+     MHL:0 "马哈里卡"
+     MHL_ADJ:0 "马哈里卡"
+     MAI_MAHARLIKA:0 "迈"
+     MAI_MAHARLIKA_ADJ:0 "迈"
+     MHL_ideas:0 "马哈里卡理念"
+     MHL_ideas_start:0 "马哈里卡传统"
+     MHL_ideas_bonus:0 "马哈里卡雄心"
+     mhl_chola_empire:0 "朱罗帝国的遗产"
+     mhl_chola_empire_desc:0 "伟大的朱罗帝国的遗迹存在于这些岛屿上，是菲律宾人的骄傲和声望的重要来源。"
+     mhl_philippine_monopoly:0 "菲律宾垄断"
+     mhl_philippine_monopoly_desc:0 "我们必须努力确立对菲律宾群岛贸易的垄断，并防止外国势力，特别是欧洲和中国势力参与剥削我们的贸易。"
+     mhl_defend_the_faith:0 "捍卫信仰"
+     mhl_defend_the_faith_desc:0 "我们的命运是保护我们的信仰不受异端和异教徒的侵犯，确保国家和人民的纯洁性。"
+     mhl_maritime_tradition:0 "海上传统"
+     mhl_maritime_tradition_desc:0 "我们的人民有着伟大的海上贸易和渔业历史，甚至我们伟大的祖先探索了印度尼西亚和太平洋的岛屿"
+     mhl_malayan_ambition:0 "马来雄心"
+     mhl_malayan_ambition_desc:0 "我们的主要目标应该是统一伟大而分裂的印度尼西亚和马来半岛岛屿，并是我们的雄心是建立伟大的国家马来亚，确保所有马来人民的繁荣。"
+     mhl_mortars_of_revolution:0 "革命的迫击炮"
+     mhl_mortars_of_revolution_desc:0 "让炮火震撼大地，让弹片再次撕裂你，我们将通过强大的武器和对伟大的菲律宾国家自由的渴望来赢得我们的自由。"
+     PHILIPPINES_MAHARLIKA:0 "菲律宾"
+     PHILIPPINES_MAHARLIKA_ADJ:0 "菲律宾"
+     mhl_rename_mai_title:0 "@MHL 采用'马来亚'作为我们的名字"
+     mhl_rename_mai_desc:0 "由于我们对中国人民的包容性增加并将他们融入我们的社会，人们认为我们应该采用迈这个名字来代表这些群体的利益，并采取较少的泛马来视角。"
+     mhl_rename_filipino_title:0 "@MHL 采用'菲律宾'作为我们的名字"
+     mhl_rename_filipino_desc:0 "由于我们对西班牙人的包容性增加并将他们融入我们的社会，人们认为我们应该采用菲律宾这个名字来代表这些群体的利益，并采取较少的泛马来视角。"

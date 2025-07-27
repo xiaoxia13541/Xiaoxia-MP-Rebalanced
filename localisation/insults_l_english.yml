@@ -1,76 +1,76 @@
-﻿l_english:
- insult_default:1 "`OˆYˆY1SßÓN.Ÿ<O„v±HNýwuÿ`O8r8rQm«ŽN¡wœgR‘sT?Qÿ"
- insult_default2:0 "bìN„v+gåe0R†Nÿï‰Õl„vp×rck(WÛVYAmœzJUÿNÿŸSegêS=f[Root.GetAdjective]ºNJU0"
- insult_default3:0 "Ø	gÿb²‹:N[Root.Capital.GetCapitalName]ÅV‰˜«ˆÁkmpÿ"
- insult_default4:0 "SVTºNfN™QbìNÙ*NöeãN„v†SòSöeÿó`ÅVÖNìNOïS``OìNåNÊSùR`OìNa0Rv`ÃV0"
- insult_default5:0 "bN!k»SúQm`ïSýÔkß[Root.GetAdjective]'YOqQÛZf™‰	aëV—VY0"
- insult_default6:0 "ëVwÿ±¹	gNShWïS1r„vN‰ÿ"
- insult_default7:0 "`OìNAm„vNˆïSObìNÎN`OìN±Ì‘:YÖS„vW0Wôf¥wƒl0"
- insult_default8:0 "[Root.GetAdjective]ºN9h,gNÂaÀNHNëS»lýV0"
- insult_default9:0 "[Root.GetName]Ù*NýV¶RhQ=fî•˜˜ÿb`‘uŸSàV=f`OìNÙ›N[Root.Culture.GetName]ºN0"
- insult_default10:0 "(WbìNN„vÙNS'YËhÌ‘ÿ`O1S=fN*NSRSPR0"
- insult_default11:0 "(W[From.GetName]ÿ0[Root.GetName]0ßNS=fTINÍ‹0"
- insult_default12:0 "`O„vv`LˆÎN1rSpQ0RQY9NàeºNNåwÿàeºNNSf0"
- insult_default13:0 "0[Root.GetAdjective]‡eS01S=fÍyÛwþvîOžÿ`Oô‹=f'Tÿ"
- insult_default14:0 "ky5ýVán)Yý=fkbŠbf0"
- insult_default15:0 "SV`OýVúQ°s(W0WþVNöeÿ±0WþV1SQmNNýwðy:Nz‚=gÁT†N0"
- insult_no_army:0 "|V2kUO:Nÿ2kNˆ…n>T«Žªÿ"
- insult_bookkeeping:0 "SegO	gN)YÿÞ[Root.GetAdjective]„vFUºNýýwÂa—V`HN°‹&0"
- insult_rome:0 "mN¸‹b„v›Q–”^å‹nx²‹NN=f&Tagag'YïWlš0"
- insult_heir_hunter:0 "b,Tô‹`O„vçubºNœU0kSbs0CSN‰èla‰RhQNTÿÑSu‹NEe„vÝ‹1S*YïSÜ`†N0"
- insult_monarchy:1 "0ê‹TNáQ„Yó`Çu01S=f`OìNte*N‹sgNˆ	„v¶RÏe'`¾uÅu0"
- insult_european_indian:0 "Ù1S=fáwiu•„v0W¹eÿwegbìNeg—Vw=föePÿckçTvN†NN:W'Y0N6eJU&&"
- insult_diamonds:0 "	gºNô‹»”ówR`ENÜÿw`OKb4Y‹YÏP	gNS»”ów0²NN¹púQegÿbìNOwwÙN‰=fN=fÔk5ýVØ‰•‹T0"
- insult_christian_muslim:0 "ÏP`OìNÙ7h„vVYe’V`SncNw‚YdkNGrÌRv™„vW0Ww=f*NqSi–„vGYù0Ø‹YÿÙlšN1SO«ˆ uck0"
- insult_against_bahmanis:0 "ˆVëV`ONb	g„v0RýSRVbìNNb	gÿSìb`O±*NRÿuŒgówi0"
- insult_against_timurid:0 "5ýV,gegïSðyNöeKNÄ–å‚N=f`OìNêøv‹kNgege‰N,göeãNgO'YNgºNT›‹sT4Y„vÝ‹0"
- insult_against_deccani:0 "SVbìNZrïÝ„VRúWNöeÿ`OtSß‚Im(W·Vr^„vjmaƒAml-Nô•0°s(WÿT^(g?QÊSb	T`Wl„vçuNw•bM–bw‰k0"
- insult_portugal_vs_africa_or_india:0 "bìNÜSweg†SÏuNi–‰vN5ýVwm¸S06qwÿ¡l	gÀNHNp‚¾–i–I–ýwÔk—VÇ`OìNVYeßu»lN„vjv`n®…0"
- insult_against_habsburg:0 "[From.GetAdjective]„v‹sµ^ÝuNO«ˆ`O±m’T„vxubV¶RÏe·sal0"
- insult_byz_to_ven:0 "`O=fÙGrW0W„vŒp¾–ÿ`OSàV`O„vNbjONb:N«ˆÞu‰k(WêñT„vÎW™XNÿ"
- insult_guybrush:0 "`OSb×N1Sß*N(rvYir<O„vÿ"
- insult_against_guybrush:0 "`OSb×NÏP*N2cvY„vÿ"
- insult_low_dipadm:0 "[Root.Monarch.GetName]„v‹ˆÌ‘Åˆ„vN‰ß*YÑv„väˆÆˆÌ‘îTNY0"
- insult_pvp:0 "Üƒ!žÿ"
- insult_pvp2:0 "ØS:V¹pQegÿÜƒ!žÿ"
- insult_cossack_to_turk:0 "æTÏ‚9NÿW3wvQ„vv`T›ÿå‹‰k„vT›<›„vÐrg×rËSÿï‰ÕlÖN,gºN„vp×r0"
- insult_muslim_truce:0 "SVbìN„vPRYRÞVŒ˜ÊNgöeÿÖNìNOåwSÿ`OìN=f2O0R†NbìNN¹p‰˜ÑSÿbìNtS‰xS‰c`OìN„vÂŠ0"
- insult_against_denmark:0 "9N¦žýVÌ‘P``	g›NNïSJTºN„vOW‹N0"
- insult_against_england:0 "‚Yœg[Root.Monarch.GetName]‰cÛ†NðldfëX³lÿ±êSýw—r=fNx^0FO‚Yœg	gºNŠb[Root.Monarch.GetHerHim]Q^cúQegÿ±Mb=fwck„vŒp¾–0"
- insult_marprelate:0 "[Root.Monarch.GetName]=fN*N¾Øšllb0úVˆRçeYe0„YêS'Y0µNn^yf0|ƒÒkuup0I³RñmÜ„vYe•ŒTárCgw0"
- insult_marprelate2:0 "`OìN„v[Root.Monarch.GetTitle]=fN*N^—Õl0)Y0*O’Q0Áyu„vYeO†˜–ˆ0T›<›„våb¸0*OYe—R0LeúWcw0v`T›S«Ž0árÈ‹v`Íh0ØšµN—šPR0"
- insult_against_saxony:0 "‰=f`O±›NÈîh÷thV	gÀNHN	N•2Níwÿ±1S*YïSÜ`†N&&"
- insult_fort:0 "`OìN„vÎW™XS(WbìN„v'Y®pb—MR)TLXÿck‚Y'Ywm²QpAm™l0"
- insult_revolutionary:0 "[Root.Monarch.GetName]ÿ`O„v8SSOSú”s^bìNMRÛ„vSïÿ"
- insult_monarchy_rank:0 "`O4YN„v±*NïS`©sa?Q1S=f.OÙu`O„v[Root.GetName]KN Qÿ"
- insult_low_adm:0 "bØ:N`OÆQY†NæSNag—|‘KNí‹ÿïSb0O¡‹`OÞ±åSÝ‹Ì‘„vWRý²‹NhQ0"
- insult_against_gbr:0 "åeNK„^ýV=föePK„åe†N0"
- insult_from_arabs:0 "ky¨`«ˆImImÛ‰k†š|š„všwPRÌ‘0"
- insult_against_craven:0 "bú^®‹`OŠb6RgäˆPR9ebÕhr‚ÿÙ7hT—VASÚn?SAm„vöeP1SwNúQeg†NV0"
- insult_against_sinner:0 "[Root.Consort.GetName]=f&TåwS`O?bô•Ì‘Ï…†NYSJZPRÿ"
- insult_against_hre:0 "`OýVâeN^y1WÿmNNWlšÿôf^—^ýV0"
- insult_against_serbia:0 "`O„vpž	g2N*N4YÿtSNv˜‹s QmN¡l	g0"
- insult_against_european_in_india:0 "`Oå‹Ún†N0"
- insult_japanese:0 "sSO=fRymNàeÕlb`Y`O„vcƒ‰Š0"
- insult_loans:0 "`OìNÏuNm„vè`¶r=fùRNb	g*gegßu»lw„vf‹:y0"
- insult_rebels:0 "`OwŒvÓYícÿz©e(gÿŒvÓYw`Ov`ÃVó`T0"
- insult_low_mil_tech:0 "`O„vëXuQ=fN=fÞ7ŒÓNÙHN'Y„vv—PRýSbN-NÿØ=fô‹ÖNìNÍN6qŠbekªgSVbÍhPROÿ"
- insult_golden_horde_vs_muscovy:0 "`OìNÙ›NÿfbìN6ez„v´fÑS7bìN”^å‹nZiêñT„vMOn«ˆõŽ(WbìNblš„vÁ”DŽNÿ"
- insult_wallachia_to_ottomans:0 "bìNOŠb[Root.Monarch.GetName]„v4Y‰”(WÛwSNÿ1SÏPbìNùR`OìN±ïS`„v›Q–NbZP„v±7h0"
- insult_barbary_pirates:0 "`OòTÏu(W0W-NwmjOmy*YEN†Nÿmv„vwm×vÿ"
- insult_turkish_drunkard:0 "`Ow=fgÆYýV„vÏ‚9Nÿ`OÙ‰‘<›ÿ"
- insult_against_england2:0 "5ýV„v÷N<PwegnxžRêSNN9SlšøvSV0"
- insult_against_scotland:0 "bìNS:Yp`O„vu‹TÿØ	g`O„vê1uÿ"
- insult_for_buddhists:0 "?a`OXŽNCSNnÞVÿN­eæp|`0àeËYàef0"
- insult_for_persians:0 "bìN„vV­rSn)YK…åeÿ"
- chinese_insult_1:0 "úO,T—Vô‹ÿ`OÏk[Root.Monarch.GetName][Root.religion.GetName]9hMR‹YuYN^ËeHNÿS±„v=fASR‹YþRSVÿ`OÏkZP†Nwÿ±„v¿O=fîO±Qu„vy0	gúO‚YÊNŒc¡rNw<wMR„vxyyÚOÿ`OÏk`mN±N`ÿ"
- chinese_insult_2:0 "gŽN)YPRÿ¸‹SðLw0NgÿmQ^ûyKNÿ"
- chinese_insult_3:0 "ÊNwSIrKN:Nxyÿ‚Y	g¾u(W`tÿ9e&Vf™ÿ¶^àQïSNm0àeOóŽN¨šÓš0Ü|ÂpNïS6eþb0"
- insult_explorer_vs_africa_or_india:0 "`OìN	gýV×eTÿ"
- insult_republic_to_monarchy:0 ",TNwÿºŽ(W`lXXÌ‘NQR„vGY*`sYºNv^Nýwb:NýV¶Rßu»lCg„vegn0ßu»lCgegêºNlÿw^—Ðg›NÑnKz„v4lNêNV0"
- insult_pirates_1:0 "m™vhÿ`ORRßbô‹ÀNHNÿbÜ*‚Nwmÿ³‰vŒv0‚0"
- insult_pirates_2:0 "b‰(u0—9VŠb`OSbbirPRÿ©‹`O«ˆ9V8NŒTœœNˆ’zo`0ùm‰k'Tÿ`OÙv`Íhÿ"
- insult_pirates_3:0 "‰=f`OýwNôvÙ7hUgÆYR‘ÿÙ*NNLu1SýwFd1N*N®w„vv`Íh†Nÿ"
- insult_pirates_4:0 "b‰QÇ„vNag×rýÔk`Ojwf0"
- insult_pirates_5:0 "bÙu`O2N*N	ébÿ«ˆVRyÿb=f«ˆ©e–™ÿ"
- insult_jungle:0 "Ù¹pb—Vb²‹ÿ[Root.GetName]„vnxÔk[From.GetName]åb	gôf R^–„v†˜W0FO`OmN—Vb²‹ÿ[From.Monarch.GetName]ßu»lNwºN‰|ÿw[Root.GetName]ßu»l„vý=fîh—gŒTŠ†PRÿ"
+l_english:
+ insult_default:1 "你妈妈就跟仓鼠似的那么能生，你爸爸浑身一股果酒味儿！"
+ insult_default2:0 "我们的末日到了！路西法的走狗正在四处流窜——啊，不，原来只是[Root.GetAdjective]人啊。"
+ insult_default3:0 "还有，我认为[Root.Capital.GetCapitalName]必须被毁灭！"
+ insult_default4:0 "当后人书写我们这个时代的历史时，想必他们会可怜你们——以及对你们感到恶心。"
+ insult_default5:0 "我上次去出恭可都比跟[Root.GetAdjective]大使共进晚餐要愉快得多。"
+ insult_default6:0 "快看！那边有一小坨可爱的脏东西！"
+ insult_default7:0 "你们流的血可使我们从你们那里夺取的土地更肥沃。"
+ insult_default8:0 "[Root.GetAdjective]人根本不懂什么叫治国。"
+ insult_default9:0 "[Root.GetName]这个国家全是问题，我怀疑原因是你们这些[Root.Culture.GetName]人。"
+ insult_default10:0 "在我们下的这局大棋里，你就是一个小卒子。"
+ insult_default11:0 "在[From.GetName]，『[Root.GetName]』跟屎是同义词。"
+ insult_default12:0 "你的恶行从爱尔兰到契丹无人不知，无人不晓。"
+ insult_default13:0 "『[Root.GetAdjective]文化』就是种矛盾修辞，你说是吧？"
+ insult_default14:0 "祝贵国满天都是扫把星。"
+ insult_default15:0 "当你国出现在地图上时，那地图就再也不能称为艺术品了。"
+ insult_no_army:0 "彼欲何为？欲血溅吾身邪？"
+ insult_bookkeeping:0 "将来会有一天，连[Root.GetAdjective]的商人都能懂得怎么记账。"
+ insult_rome:0 "也许我的军队应该确认一下是否条条大路通罗马。"
+ insult_heir_hunter:0 "我听说你的继承人喜欢打猎。千万要注意安全呀，发生事故的话就太可惜了。"
+ insult_monarchy:1 "『自命不凡妄想症』就是你们整个王朝血脉的家族性疾病。"
+ insult_european_indian:0 "这就是胡椒生长的地方？看来我们来得真是时候，正巧赶上了一场大丰收啊……"
+ insult_diamonds:0 "有人说钻石恒久远，而你手头好像有不少钻石。交一点出来，我们会看看这东西是不是比贵国还要长命。"
+ insult_christian_muslim:0 "像你们这样的异教徒占据着如此一片富饶的土地真是个危险的奇迹。还好，这马上就会被纠正。"
+ insult_against_bahmanis:0 "很快你所有的财宝都将归我们所有，包括你那个宝贝绿松石椅。"
+ insult_against_timurid:0 "贵国本来可称一时之雄——若不是你们自相残杀来攀争本时代最伟大杀人魔王名头的话。"
+ insult_against_deccani:0 "当我们筚路蓝缕开创基业时，你却苟活在德干的浪荡流民中间。现在，向帖木儿及成吉思汗的继业者投降——或者死。"
+ insult_portugal_vs_africa_or_india:0 "我们远道而来历经万险登上贵国海岸。然而，没有什么艰难险阻能比得过你们异教统治下的罪恶渊薮。"
+ insult_against_habsburg:0 "[From.GetAdjective]的王座绝不会被你那遭咒的畸形家族玷污。"
+ insult_byz_to_ven:0 "你是这片土地的灾难，你将因你的所作所为被绞死在自己的城墙上！"
+ insult_guybrush:0 "你打仗就跟个笨奶牛似的！"
+ insult_against_guybrush:0 "你打仗像个挤奶的！"
+ insult_low_dipadm:0 "[Root.Monarch.GetName]的脑袋里装的东西跟太监的裤裆里差不多。"
+ insult_pvp:0 "菜鸡！"
+ insult_pvp2:0 "变强点再来，菜鸡！"
+ insult_cossack_to_turk:0 "哦苏丹，土耳其的恶魔，该死的魔鬼的狐朋狗友，路西法他本人的走狗。"
+ insult_muslim_truce:0 "当我们的子孙回顾今朝时，他们会知道：你们是伤到了我们一点须发，我们却要卸掉你们的臂膊。"
+ insult_against_denmark:0 "丹麦国里恐怕有些不可告人的坏事。"
+ insult_against_england:0 "如果[Root.Monarch.GetName]掉进了泰晤士河，那只能算是不幸。但如果有人把[Root.Monarch.GetHerHim]再捞出来，那才是真正的灾难。"
+ insult_marprelate:0 "[Root.Monarch.GetName]是一个趾高气扬、固守旧教、妄自尊大、亵渎神明、荼毒生灵、贻害深远的教长和篡权者。"
+ insult_marprelate2:0 "你们的[Root.Monarch.GetTitle]是一个非法、逆天、伪冒、私生的教会领袖、魔鬼的拥趸、伪教宗、敌基督、恶魔化身、狡诈恶棍、高产骗子。"
+ insult_against_saxony:0 "要是你那些迈森瓷器有什么三长两短，那就太可惜了……"
+ insult_fort:0 "你们的城墙将在我们的大炮面前崩塌，正如大海冲走流沙。"
+ insult_revolutionary:0 "[Root.Monarch.GetName]，你的尸体将铺平我们前进的道路！"
+ insult_monarchy_rank:0 "你头上的那个可怜玩意儿就是传给你的[Root.GetName]之冠？"
+ insult_low_adm:0 "我还为你准备了另一条粗鄙之语，可我估计你连那句话里的字都认不全。"
+ insult_against_gbr:0 "日不落帝国是时候落日了。"
+ insult_from_arabs:0 "祝您被活活缝进死骆驼的肚子里。"
+ insult_against_craven:0 "我建议你把制服裤子改成棕色，这样吓得屁滚尿流的时候就看不出来了嘛。"
+ insult_against_sinner:0 "[Root.Consort.GetName]是否知道你房间里藏了多少婊子？"
+ insult_against_hre:0 "你国既不神圣，也不罗马，更非帝国。"
+ insult_against_serbia:0 "你的鹰有两个头，却一顶王冠也没有。"
+ insult_against_european_in_india:0 "你该滚了。"
+ insult_japanese:0 "即使是切腹也无法恢复你的荣誉。"
+ insult_loans:0 "你们经济的惨状是对所有未来统治者的警示。"
+ insult_rebels:0 "你看百姓揭竿斩木，百姓看你恶心想吐。"
+ insult_low_mil_tech:0 "你的士兵是不是连谷仓这么大的靶子都打不中？还是说他们仍然把步枪当成棍子使？"
+ insult_golden_horde_vs_muscovy:0 "你们这些替我们收税的暴发户们应该清楚自己的位置——被践踏在我们战马的铁蹄下！"
+ insult_wallachia_to_ottomans:0 "我们会把[Root.Monarch.GetName]的头钉在矛尖上，就像我们对你们那可怜的军队所做的那样。"
+ insult_barbary_pirates:0 "你已经在地中海作祟太久了，遭瘟的海盗！"
+ insult_turkish_drunkard:0 "你真是朗姆国的苏丹，你这醉鬼！"
+ insult_against_england2:0 "贵国的价值看来确实只与一匹马相当。"
+ insult_against_scotland:0 "我们将夺走你的生命，还有你的自由！"
+ insult_for_buddhists:0 "愿你堕于千世轮回，不断烦恼、无始无明。"
+ insult_for_persians:0 "我们的弓箭将遮天蔽日！"
+ chinese_insult_1:0 "俺听得说，你每[Root.Monarch.GetName][Root.religion.GetName]根前好生多与布施么？道那的是十分好勾当，你每做了者，那的便是修那再生的福。有俺如今掌管着眼前的祸福俚，你每怕也那不怕？"
+ chinese_insult_2:0 "朝于天子，许尔述职。不朝，六师移之！"
+ chinese_insult_3:0 "今者尔等之为祸，如有疾在腠理；改弦易辙，庶几可济。无使至于骨髓、糜烂不可收拾。"
+ insult_explorer_vs_africa_or_india:0 "你们有国旗吗？"
+ insult_republic_to_monarchy:0 "听着，躺在池塘里送上剑的奇怪女人并不能成为国家统治权的来源。统治权来自人民，而非某些滑稽的水上仪式。"
+ insult_pirates_1:0 "饭桶！你刚刚跟我说什么？我远航七海，足登百舰。"
+ insult_pirates_2:0 "我要用霰弹把你打成筛子，让你被弹丸和鲜血窒息。淹死吧，你这恶棍！"
+ insult_pirates_3:0 "要是你能一直这样喝朗姆酒，这个世界就能摆脱一个肮脏的恶棍了！"
+ insult_pirates_4:0 "我养过的一条狗都比你聪明。"
+ insult_pirates_5:0 "我给你两个选择，被剖腹，或是被斩首！"
+ insult_jungle:0 "这点我得承认，[Root.GetName]的确比[From.GetName]拥有更加广阔的领土。但你也得承认，[From.Monarch.GetName]统治着人类，而[Root.GetName]统治的都是森林和蚊子！"

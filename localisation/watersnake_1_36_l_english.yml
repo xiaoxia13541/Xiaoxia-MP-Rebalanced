@@ -1,25 +1,25 @@
-﻿l_english:
- NO_NATIVES_BLACK_FLAG:1 "§RAm¡Ngô•àeÕlIeûQŸSOOl§!"
- NO_SELECT_LEADER_SHIP:1 "§RdkS†˜òT‰v9‚ÿàeÕlÍ‘°eRM‘0§!"
- NATIVE_TRIBE_VAL:0 "å‹ýV*gO(uckßu'`:g6R"
- DIPLO_RIVAL_ENEMIES_TOO_FAR_AWAY:0 "ùR—b¿RLe„vÝ»yeÜ„vb‰Nÿ"
- can_upgrade_trade_centre_instant:0 "§Y8f-NÃVïSåNGSµu§!"
- can_upgrade_trade_centre_delayed:0 "åNN8f-NÃVïSåNGSµuÿ\n$LIST$"
- TRADE_CENTRE_UP_WHERE:1 "$NAME|Y$ÿ$LEVEL$µu	ÿ"
- can_estate_interaction_instant:0 "§Y6–BS’N¨RïS(u§!"
- can_estate_interaction_delayed:0 "åNN6–BS’N¨RïS(uÿ\n$LIST|Y$"
- COUNTRIES_CAUSING_CALL_TO_PEACE:0 "åNNýV¶Rck(W.bŒSb¦^„vNGSÿ\n$LIST|Y$"
- can_estate_seize_land_instant:0 "§YïSåN¡l6e†˜0W§!"
- can_estate_seize_land_delayed:0 "`OïSåN¡l6e6–BS†˜0WåN R:V-N.YÆ–Cg0"
- can_estate_call_diet_instant:0 "§YïSåNìSV®‹‹NO§!"
- can_estate_call_diet_delayed:0 "`OïSåNìSV®‹‹NOegVÆ–6–BS„vÐcHh0"
- can_estate_sell_land_instant:0 "§YïSåNúQ.U4YTˆ§!"
- can_estate_sell_land_delayed:0 "`OïSåNúQ.U‹s Q†˜0WÙu6–BSåNbcÖSÑ‘^0"
- NAVAL_DOCTRINE_CHANGE_COST:0 "1uŽN`O„vwm›Qýw¹R³u$SAILORS|Y0$4lKbÿÙS±‚9$COST|Y2$¤v^ÙuˆN`O‚YN8lEN'`Heœgÿ"
- SHIFT_SPEND_MANPOWER_TO_BOOST_PROGRESS:0 "§YShift + USûQ§!O(u$NUMBER|Y$ºN›RSåTzÛ¦^¨cÛ$DAYS|Y$)Y"
- SHIFT_SPEND_MONEY_TO_BOOST_PROGRESS:0 "§YShift + USûQ§!O(u$COST|Y$¤SåTzÛ¦^¨cÛ$DAYS|Y$)Y"
- THREATENED_ATTITUDE_CANNOT_SET_TOOFAR:0 "§R$COUNTRY|Y$*YÜÿàeÕlZÁw$PLAYER|Y$0§!"
- LIBERTY_DESIRE_MAX:0 "§Rÿ$SUBJECT$àeÕlQ«ˆ‰Ršb0§!"
- GOTO_TRADENODE_DISABLED:0 "§RS*gÑS°s$NAME$8f‚‚¹p§!"
- want_your_and_subject_provinces:0 "Ê‰Î‰`OÊS`O^SýV„vwýN"
- HAVE_CORE_PROVINCE_IN:0 "åb	g$PROVINCE$„v8hÃV"
+l_english:
+ NO_NATIVES_BLACK_FLAG:1 "§R流亡期间无法攻击原住民§!"
+ NO_SELECT_LEADER_SHIP:1 "§R此将领已登船，无法重新分配。§!"
+ NATIVE_TRIBE_VAL:0 "该国未使用正统性机制"
+ DIPLO_RIVAL_ENEMIES_TOO_FAR_AWAY:0 "对抗宿敌的距离遥远的战争："
+ can_upgrade_trade_centre_instant:0 "§Y贸易中心可以升级§!"
+ can_upgrade_trade_centre_delayed:0 "以下贸易中心可以升级：\n$LIST$"
+ TRADE_CENTRE_UP_WHERE:1 "$NAME|Y$（$LEVEL$级）"
+ can_estate_interaction_instant:0 "§Y阶层互动可用§!"
+ can_estate_interaction_delayed:0 "以下阶层互动可用：\n$LIST|Y$"
+ COUNTRIES_CAUSING_CALL_TO_PEACE:0 "以下国家正在造成厌战度的上升：\n$LIST|Y$"
+ can_estate_seize_land_instant:0 "§Y可以没收领地§!"
+ can_estate_seize_land_delayed:0 "你可以没收阶层领地以加强中央集权。"
+ can_estate_call_diet_instant:0 "§Y可以召开议事会§!"
+ can_estate_call_diet_delayed:0 "你可以召开议事会来征集阶层的提案。"
+ can_estate_sell_land_instant:0 "§Y可以出售头衔§!"
+ can_estate_sell_land_delayed:0 "你可以出售王冠领地给阶层以换取金币。"
+ NAVAL_DOCTRINE_CHANGE_COST:0 "由于你的海军能容纳$SAILORS|Y0$水手，这将花费$COST|Y2$¤并给予你如下永久性效果："
+ SHIFT_SPEND_MANPOWER_TO_BOOST_PROGRESS:0 "§YShift + 单击§!使用$NUMBER|Y$人力将工程进度推进$DAYS|Y$天"
+ SHIFT_SPEND_MONEY_TO_BOOST_PROGRESS:0 "§YShift + 单击§!使用$COST|Y$¤将工程进度推进$DAYS|Y$天"
+ THREATENED_ATTITUDE_CANNOT_SET_TOOFAR:0 "§R$COUNTRY|Y$太远，无法威胁$PLAYER|Y$。§!"
+ LIBERTY_DESIRE_MAX:0 "§R－$SUBJECT$无法再被安抚。§!"
+ GOTO_TRADENODE_DISABLED:0 "§R尚未发现$NAME$贸易节点§!"
+ want_your_and_subject_provinces:0 "觊觎你及你属国的省份"
+ HAVE_CORE_PROVINCE_IN:0 "拥有$PROVINCE$的核心"

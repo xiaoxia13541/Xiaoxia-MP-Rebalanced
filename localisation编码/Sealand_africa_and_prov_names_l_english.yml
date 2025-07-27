@@ -1,0 +1,1947 @@
+﻿l_english:
+  # AFRICA:
+    # Trade node:
+    cameroon:0 "ŽU¦ž†–"
+    ubangi:0 "LNís	T"
+  
+    # Trade company:
+    trade_company_cameroonian_charter:0 "ŽU¦ž†–yr¸‹8flQøS"
+    TRADE_COMPANY_CAMEROONIAN_CHARTER_Root_Culture_GetName:0 "[Root.Culture.GetName] ŽU¦ž†–lQøS"
+    TRADE_COMPANY_CAMEROONIAN_CHARTER_Africa_Trade_Company:0 "ŽU¦ž†–8flQøS"
+    trade_company_ubangian_charter:0 "LNís	Tyr¸‹8flQøS"
+    TRADE_COMPANY_UBANGIAN_CHARTER_Root_Culture_GetName:0 "[Root.Culture.GetName] LNís	TlQøS"
+    TRADE_COMPANY_UBANGIAN_CHARTER_Africa_Trade_Company:0 "LNís	T8flQøS"
+  
+    # Western Shara:
+    el_eglab_area:0 "ÃWS·ÃW<h±ƒ^"
+    el_eglab_area_name:0 "ÃWS·ÃW<h±ƒ^"
+    el_eglab_area_adj:0 "ÃWS·ÃW<h±ƒ^"
+    PROV5155:0 "÷^^S"
+    PROV_ADJ5155:0 "÷^^S"
+    PROV5156:0 "™lS"
+    PROV_ADJ5156:0 "™lS"
+    PROV5157:0 "<S?–¯e"
+    PROV_ADJ5157:0 "<S?–¯e"
+    PROV5159:0 "R R"
+    PROV_ADJ5159:0 "R R"
+    # western_sahara_area 
+    PROV5158:0 "f³uKQ?–"
+    PROV_ADJ5158:0 "f³uKQ?–"
+    PROV5160:0 "÷– R³u"
+    PROV_ADJ5160:0 "÷– R³u"
+    PROV5161:0 "àV(„Ébk"
+    PROV_ADJ5161:0 "àV(„Ébk"
+    PROV5162:0 "TXüfÉb^Xyr"
+    PROV_ADJ5162:0 "TXüfÉb^Xyr"
+    PROV5163:0 ">HYyr"
+    PROV_ADJ5163:0 ">HYyr"
+    afelele_area:0 "?–9±ƒ±ƒ"
+    afelele_area_name:0 "?–9±ƒ±ƒ"
+    afelele_area_adj:0 "?–9±ƒ±ƒ"
+    PROV5164:0 "O)RNm"
+    PROV_ADJ5164:0 "O)RNm"
+    PROV5165:0 "LNôTÌ‘"
+    PROV_ADJ5165:0 "LNôTÌ‘"
+    PROV5166:0 "!¾ÆY"
+    PROV_ADJ5166:0 "!¾ÆY"
+    PROV5167:0 "…hÉbšN"
+    PROV_ADJ5167:0 "…hÉbšN"
+    tanezruft_area:0 "TX…QyQœ+Yyr"
+    tanezruft_area_name:0 "TX…QyQœ+Yyr"
+    tanezruft_area_adj:0 "TX…QyQœ+Yyr"
+     
+    # Eastern Shara:
+    # Fezzan
+    PROV5168:0 "³ubSyr"
+    PROV_ADJ5168:0 "³ubSyr"
+    touaricks_area:0 "þV?–Ì‘KQ"
+    touaricks_area_name:0 "þV?–Ì‘KQ"
+    touaricks_area_adj:0 "þV?–Ì‘KQ"
+    PROV5169:0 " Ryr"
+    PROV_ADJ5169:0 " Ryr"
+    PROV5170:0 " R¯e"
+    PROV_ADJ5170:0 " R¯e"
+    PROV5171:0 "ôTk¾S"
+    PROV_ADJ5171:0 "ôTk¾S"
+    PROV5172:0 "šN„v¯ešNôT"
+    PROV_ADJ5172:0 "šN„v¯ešNôT"
+    PROV5176:0 "ÜbÉb"
+    PROV_ADJ5176:0 "ÜbÉb"
+    tibesti_area:0 "Ðc¯e‚„"
+    tibesti_area_name:0 "Ðc¯e‚„"
+    tibesti_area_adj:0 "Ðc¯e‚„"
+    PROV5173:0 "?–¾÷–"
+    PROV_ADJ5173:0 "?–¾÷–"
+    PROV5174:0 "GYW"
+    PROV_ADJ5174:0 "GYW"
+    PROV5178:0 "0Œk™l·V)R"
+    PROV_ADJ5178:0 "0Œk™l·V)R"
+    #East Azbin
+    PROV5175:0 "‚„¦u"
+    PROV_ADJ5175:0 "‚„¦u"
+    PROV5177:0 "aS(„Éb"
+    PROV_ADJ5177:0 "aS(„Éb"
+  
+    # Cameroon
+    PROV4942:0 "ŽU¦ž†–"
+    PROV_ADJ4942:0 "ŽU¦ž†–"
+    PROV4943:0 "ÆYÔk<S"
+    PROV_ADJ4943:0 "ÆYÔk<S"
+    # Guinea
+    sierra_leione_area:0 "^XÉb)Rf"
+    sierra_leione_area_name:0 "^XÉb)Rf"
+    sierra_leione_area_adj:0 "^XÉb)Rf"
+    PROV4944:0 "Ñy0t"
+    PROV_ADJ4944:0 "Ñy0t"
+    PROV4945:0 "ís¾lš"
+    PROV_ADJ4945:0 "ís¾lš"
+    PROV4946:0 "yQæ—·Vœ"
+    PROV_ADJ4946:0 "yQæ—·Vœ"
+    PROV4947:0 "ÑyOjg"
+    PROV_ADJ4947:0 "ÑyOjg"
+    PROV4948:0 "aSôTÉb"
+    PROV_ADJ4948:0 "aSôTÉb"
+    PROV4949:0 "‰üfjg"
+    PROV_ADJ4949:0 "‰üfjg"
+    # Imatong aka Ethiopia:
+    PROV4950:0 "™„·VÌ‘"
+    PROV_ADJ4950:0 "™„·VÌ‘"
+    PROV4951:0 "Ï‚·V"
+    PROV_ADJ4951:0 "Ï‚·V"
+    PROV4952:0 "ZSS"
+    PROV_ADJ4952:0 "ZSS"
+    PROV4953:0 "ZSlš"
+    PROV_ADJ4953:0 "ZSlš"
+    PROV4954:0 "«ƒ&ObS"
+    PROV_ADJ4954:0 "«ƒ&ObS"
+    # Area for previous:
+    #imatong_area:0 "Imatong" # Moved to bunyoro_area
+    #imatong_area_name:0 "Imatong"
+    #imatong_area_adj:0 "Imatong"
+    PROV4955:0 "ZS÷–³u"
+    PROV_ADJ4955:0 "ZS÷–³u"
+    PROV4959:0 "lšÆY9"
+    PROV_ADJ4959:0 "lšÆY9"
+    PROV4960:0 "OÑyÆY"
+    PROV_ADJ4960:0 "OÑyÆY"
+    PROV5036:0 "ôTKQætPŸ"
+    PROV_ADJ5036:0 "ôTKQætPŸ"
+
+    # Middle Africa and Great Lakes wasteland:
+    central_africa_region:0 "^—2m'YVn:S"
+    middle_africa_region:0 "-N^—"
+     
+    # Great Lakes:
+     
+    # Buzinza area:
+    PROV5139:0 " RS(„"
+    PROV_ADJ5139:0 " RS(„"
+     
+    # Kenya area:
+    PROV5134:0 "úWþVO"
+    PROV_ADJ5134:0 "úWþVO"
+    PROV5135:0 "OfWjg"
+    PROV_ADJ5135:0 "OfWjg"
+     
+    # Jubba area:
+    PROV5132:0 "b·V"
+    PROV_ADJ5132:0 "b·V"
+    PROV5133:0 "bS<h"
+    PROV_ADJ5133:0 "bS<h"
+    PROV5138:0 "¾¾?–^"
+    PROV_ADJ5138:0 "¾¾?–^"
+     
+    marehan_area:0 "lš÷–Il"
+    marehan_area_name:0 "lš÷–Il"
+    marehan_area_adj:0 "lš÷–Il"
+    PROV5131:0 "…hœ"
+    PROV_ADJ5131:0 "…hœ"
+    PROV5136:0 "ïQ+YÌ‘¾ÈTS"
+    PROV_ADJ5136:0 "ïQ+YÌ‘¾ÈTS"
+    PROV5137:0 "ÈTS<h(„"
+    PROV_ADJ5137:0 "ÈTS<h(„"
+     
+    turkana_area:0 "þVSaS³u"
+    turkana_area_name:0 "þVSaS³u"
+    turkana_area_adj:0 "þVSaS³u"
+    PROV4956:0 "ågSÔk"
+    PROV_ADJ4956:0 "ågSÔk"
+    PROV4957:0 "lš(„Ôkyr"
+    PROV_ADJ4957:0 "lš(„Ôkyr"
+     
+    # Madagascar:
+    PROV5150:0 "PŸWpQüfêê"
+    PROV_ADJ5150:0 "PŸWpQüfêê"
+    PROV5151:0 "lšûN R"
+    PROV_ADJ5151:0 "lšûN R"
+    PROV5152:0 "TX+YÉbLNyr"
+    PROV_ADJ5152:0 "TX+YÉbLNyr"
+     
+    # Middle Africa:
+     
+    # Guera area:
+    PROV5087:0 "ÉbÕl³u"
+    PROV_ADJ5087:0 "ÉbÕl³u"
+    PROV5088:0 "ôT<SeY"
+    PROV_ADJ5088:0 "ôT<SeY"
+    # Centra Sahara area:
+    PROV5075:0 "ÕlšN"
+    PROV_ADJ5075:0 "ÕlšN"
+    PROV5076:0 "Ûk"
+    PROV_ADJ5076:0 "Ûk"
+    PROV5085:0 "*m"
+    PROV_ADJ5085:0 "*m"
+    # Upper Nubia area:
+    PROV5069:0 "ŽUWFz"
+    PROV_ADJ5069:0 "ŽUWFz"
+    # Red Sea Coast area:
+    PROV5079:0 "³uKQÕl"
+    PROV_ADJ5079:0 "³uKQÕl"
+    # Dongola area:
+    PROV5080:0 "?–^ÈTÈ·V"
+    PROV_ADJ5080:0 "?–^ÈTÈ·V"
+    PROV5082:0 "&q+Y"
+    PROV_ADJ5082:0 "&q+Y"
+    # Kurdufan area:
+    PROV4958:0 "œ‡e<h"
+    PROV_ADJ4958:0 "œ‡e<h"
+    PROV5070:0 "uÉb"
+    PROV_ADJ5070:0 "uÉb"
+    PROV5072:0 "aSaS"
+    PROV_ADJ5072:0 "aSaS"
+    PROV5073:0 "þVSê"
+    PROV_ADJ5073:0 "þVSê"
+    # Sennar Area:
+    PROV5071:0 "ÃWSY÷–yr"
+    PROV_ADJ5071:0 "ÃWSY÷–yr"
+
+    wadai_area:0 "æt¾O"
+ wadai_area_name:0 "æt¾O"
+ wadai_area_adj:0 "æt¾O"
+ PROV5083:0 "PŸu"
+ PROV_ADJ5083:0 "PŸu"
+ PROV5084:0 "^)Rlš"
+ PROV_ADJ5084:0 "^)Rlš"
+ PROV5086:0 "lšÉbÆY"
+ PROV_ADJ5086:0 "lšÉbÆY"
+ 
+ darfur_area:0 "¾SÌRS"
+ darfur_area_name:0 "¾SÌRS"
+ darfur_area_adj:0 "¾SÌRS"
+ PROV5058:0 "·VZS"
+ PROV_ADJ5058:0 "·VZS"
+ PROV5077:0 "?–‚„"
+ PROV_ADJ5077:0 "?–‚„"
+ PROV5089:0 "TXÉb"
+ PROV_ADJ5089:0 "TXÉb"
+ 
+ kobbe_area:0 "Ñy"
+ kobbe_area_name:0 "Ñy"
+ kobbe_area_adj:0 "Ñy"
+ PROV5057:0 "?–jS6wO"
+ PROV_ADJ5057:0 "?–jS6wO"
+ PROV5067:0 "ËRbS?–S"
+ PROV_ADJ5067:0 "ËRbS?–S"
+ PROV5068:0 "&OKQ"
+ PROV_ADJ5068:0 "&OKQ"
+ PROV5090:0 "ôTÌR(„ÆY"
+ PROV_ADJ5090:0 "ôTÌR(„ÆY"
+ 
+ bahiouda_desert_area:0 "ôTOeY¾™l.o"
+ bahiouda_desert_area_name:0 "ôTOeY¾™l.o"
+ bahiouda_desert_area_adj:0 "ôTOeY¾™l.o"
+ PROV5074:0 "eYæ—³uyr"
+ PROV_ADJ5074:0 "eYæ—³uyr"
+ PROV5081:0 "ÖvSŒ‚ÉbÆY"
+ PROV_ADJ5081:0 "ÖvSŒ‚ÉbÆY"
+ 
+ eritrea_area:0 "„SËzyrÌ‘šN"
+ eritrea_area_name:0 "„SËzyrÌ‘šN"
+ eritrea_area_adj:0 "„SËzyrÌ‘šN"
+ PROV5078:0 "ªRÌ‘"
+ PROV_ADJ5078:0 "ªRÌ‘"
+ 
+ ituri_area:0 "OþVÌ‘"
+ ituri_desert_area_name:0 "OþVÌ‘"
+ ituri_desert_area_adj:0 "OþVÌ‘"
+ PROV5007:0 "<SšN<SšN"
+ PROV_ADJ5007:0 "<SšN<SšN"
+ PROV5008:0 "üfôT(„"
+ PROV_ADJ5008:0 "üfôT(„"
+ PROV5009:0 "ætßR"
+ PROV_ADJ5009:0 "ætßR"
+ PROV5010:0 "O‰W"
+ PROV_ADJ5010:0 "O‰W"
+ PROV5035:0 "LN RWæt"
+ PROV_ADJ5035:0 "LN RWæt"
+ 
+ congo_basin_area:0 "RœgÆv0W"
+ congo_basin_area_name:0 "RœgÆv0W"
+ congo_basin_area_adj:0 "RœgÆv0W"
+ PROV5000:0 "yŠôTÉb"
+ PROV_ADJ5000:0 "yŠôTÉb"
+ PROV5002:0 "Wœg"
+ PROV_ADJ5002:0 "Wœg"
+ PROV5003:0 "eYNY"
+ PROV_ADJ5003:0 "eYNY"
+ 
+ tshopo_area:0 "Ziâl"
+ tshopo_area_name:0 "Ziâl"
+ tshopo_area_adj:0 "Ziâl"
+ PROV5005:0 "ôT0tÑy"
+ PROV_ADJ5005:0 "ôT0tÑy"
+ PROV5006:0 "úWQh R<S"
+ PROV_ADJ5006:0 "úWQh R<S"
+ PROV5011:0 "ís(„"
+ PROV_ADJ5011:0 "ís(„"
+ PROV5065:0 "Ì‘ôTÌ‘ôT"
+ PROV_ADJ5065:0 "Ì‘ôTÌ‘ôT"
+ 
+ mongo_area:0 "™„b"
+ mongo_area_name:0 "™„b"
+ mongo_area_adj:0 "™„b"
+ PROV5012:0 "ôTY)Ryr"
+ PROV_ADJ5012:0 "ôTY)Ryr"
+ PROV5013:0 "N,gôT"
+ PROV_ADJ5013:0 "N,gôT"
+ PROV5014:0 "ís	T"
+ PROV_ADJ5014:0 "ís	T"
+ PROV5034:0 "O—g	T"
+ PROV_ADJ5034:0 "O—g	T"
+ 
+ 
+ bateke_area:0 "ôTyrKQ"
+ bateke_area_name:0 "ôTyrKQ"
+ bateke_area_adj:0 "ôTyrKQ"
+ PROV5765:0 "“^Nb"
+ PROV_ADJ5765:0 "“^Nb"
+ PROV5768:0 "yŠôT"
+ PROV_ADJ5768:0 "yŠôT"
+ PROV5773:0 "Ñy³uKQÌ‘"
+ PROV_ADJ5773:0 "Ñy³uKQÌ‘"
+ PROV5015:0 "Éb‚„"
+ PROV_ADJ5015:0 "Éb‚„"
+ PROV5017:0 "eY·^ R"
+ PROV_ADJ5017:0 "eY·^ R"
+ 
+ gabon_area:0 " Rì„"
+ gabon_area_name:0 " Rì„"
+ gabon_area_adj:0 " Rì„"
+ PROV5764:0 "GYaS^"
+ PROV_ADJ5764:0 "GYaS^"
+ PROV5766:0 "Üb&OY"
+ PROV_ADJ5766:0 "Üb&OY"
+ PROV5767:0 "^ÃW"
+ PROV_ADJ5767:0 "^ÃW"
+ PROV5769:0 "ÑyXbªR"
+ PROV_ADJ5769:0 "ÑyXbªR"
+ PROV5772:0 "ÃWbSlš"
+ PROV_ADJ5772:0 "ÃWbSlš"
+ 
+ mongala_area:0 "™„ RÉb"
+ mongala_area_name:0 "™„ RÉb"
+ mongala_area_adj:0 "™„ RÉb"
+ PROV5032:0 "«ƒÑy‰R RO"
+ PROV_ADJ5032:0 "«ƒÑy‰R RO"
+ PROV5033:0 "N,gôT"
+ PROV_ADJ5033:0 "N,gôT"
+ PROV5038:0 "LNâlXb"
+ PROV_ADJ5038:0 "LNâlXb"
+ PROV5037:0 "&OÜbKQ"
+ PROV_ADJ5037:0 "&OÜbKQ"
+ PROV5039:0 "ö^ÔkeY"
+ PROV_ADJ5039:0 "ö^ÔkeY"
+ 
+ sangha_area:0 "Qh R"
+ sangha_area_name:0 "Qh R"
+ sangha_area_adj:0 "Qh R"
+ PROV5016:0 "^?–S"
+ PROV_ADJ5016:0 "^?–S"
+ PROV5018:0 "¦uÑy"
+ PROV_ADJ5018:0 "¦uÑy"
+ PROV5019:0 "Œgb"
+ PROV_ADJ5019:0 "Œgb"
+ PROV5020:0 "aS RísYW"
+ PROV_ADJ5020:0 "aS RísYW"
+ 
+ sanga_area:0 "Qh R"
+ sanga_area_name:0 "Qh R"
+ sanga_area_adj:0 "Qh R"
+ PROV5770:0 "mŽ"
+ PROV_ADJ5770:0 "mŽ"
+ PROV5771:0 "lš·^"
+ PROV_ADJ5771:0 "lš·^"
+ PROV5021:0 "ZSQhb?–"
+ PROV_ADJ5021:0 "ZSQhb?–"
+      
+ mbam_area:0 "ÆYís"
+ mbam_area_name:0 "ÆYís"
+ mbam_area_adj:0 "ÆYís"
+ PROV5022:0 "lšÕl"
+ PROV_ADJ5022:0 "lšÕl"
+ PROV5023:0 "êÕl"
+ PROV_ADJ5023:0 "êÕl"
+ PROV5025:0 "i`ãN±ƒ"
+ PROV_ADJ5025:0 "i`ãN±ƒ"
+ 
+ karre_area:0 "aS÷–"
+ karre_area_name:0 "aS÷–"
+ karre_area_adj:0 "aS÷–"
+ PROV5024:0 "Éb R"
+ PROV_ADJ5024:0 "Éb R"
+ PROV5027:0 "N¾>±ƒ"
+ PROV_ADJ5027:0 "N¾>±ƒ"
+ PROV5028:0 "Ñy†–b"
+ PROV_ADJ5028:0 "Ñy†–b"
+ PROV5029:0 "Ôk³R"
+ PROV_ADJ5029:0 "Ôk³R"
+ 
+ tandjile_area:0 "fW	T±ƒ"
+ tandjile_area_name:0 "fW	T±ƒ"
+ tandjile_area_adj:0 "fW	T±ƒ"
+ PROV5026:0 "(„ÉbLN"
+ PROV_ADJ5026:0 "(„ÉbLN"
+ PROV5047:0 "ÃWZSmæt"
+ PROV_ADJ5047:0 "ÃWZSmæt"
+ PROV5049:0 "	T^m—"
+ PROV_ADJ5049:0 "	T^m—"
+ PROV5050:0 "ís R³u"
+ PROV_ADJ5050:0 "ís R³u"
+ PROV5066:0 "i`ˆQ·V÷–"
+ PROV_ADJ5066:0 "i`ˆQ·V÷–"
+ 
+ sudd_area:0 "Ï‚·V"
+ sudd_area_name:0 "Ï‚·V"
+ sudd_area_adj:0 "Ï‚·V"
+ PROV5043:0 "N¾"
+ PROV_ADJ5043:0 "N¾"
+ PROV5063:0 "ætÉbnf"
+ PROV_ADJ5063:0 "ætÉbnf"
+ 
+ ubangi_area:0 "LNís	T"
+ ubangi_area_name:0 "LNís	T"
+ ubangi_area_adj:0 "LNís	T"
+ PROV5042:0 "i`Yœlš"
+ PROV_ADJ5042:0 "i`Yœlš"
+ PROV5044:0 "ísäS0t"
+ PROV_ADJ5044:0 "ísäS0t"
+ PROV5061:0 "ÉbÕlO"
+ PROV_ADJ5061:0 "ÉbÕlO"
+ 
+ manjia_area:0 "üf>"
+ manjia_area_name:0 "üf>"
+ manjia_area_adj:0 "üf>"
+ PROV5030:0 "YaS"
+ PROV_ADJ5030:0 "YaS"
+ PROV5031:0 "<SšNÉb"
+ PROV_ADJ5031:0 "<SšNÉb"
+ PROV5045:0 "Qh…h)Rlš"
+ PROV_ADJ5045:0 "Qh…h)Rlš"
+ PROV5046:0 "?–¯eKQ÷–KQ"
+ PROV_ADJ5046:0 "?–¯eKQ÷–KQ"
+ PROV5048:0 "LN‰šN"
+ PROV_ADJ5048:0 "LN‰šN"
+ 
+ guera_area:0 "ÖvÉb"
+ guera_area_name:0 "ÖvÉb"
+ guera_area_adj:0 "ÖvÉb"
+ PROV5051:0 "Fz0tW"
+ PROV_ADJ5051:0 "Fz0tW"
+ PROV5054:0 "¾S·cƒ R"
+ PROV_ADJ5054:0 "¾S·cƒ R"
+ PROV5055:0 "eYm"
+ PROV_ADJ5055:0 "eYm"
+ 
+ vakaga_area:0 "ætaS R"
+ vakaga_area_name:0 "ætaS R"
+ vakaga_area_adj:0 "ætaS R"
+ PROV5052:0 "?–ÔkšN·V"
+ PROV_ADJ5052:0 "?–ÔkšN·V"
+ PROV5053:0 "yW"
+ PROV_ADJ5053:0 "yW"
+ PROV5056:0 "—+YÉb-i`-³uÈT¯e"
+ PROV_ADJ5056:0 "—+YÉb-i`-³uÈT¯e"
+ PROV5059:0 "ôTkS·ÃWS·?–Éb^"
+ PROV_ADJ5059:0 "ôTkS·ÃWS·?–Éb^"
+ 
+ mbomou_area:0 "ÆYZSFz"
+ mbomou_area_name:0 "ÆYZSFz"
+ mbomou_area_adj:0 "ÆYZSFz"
+ PROV5040:0 "jŒ?–^X"
+ PROV_ADJ5040:0 "jŒ?–^X"
+ PROV5041:0 "^Xs|šN"
+ PROV_ADJ5041:0 "^Xs|šN"
+ PROV5060:0 "·VÆY·úWS"
+ PROV_ADJ5060:0 "·VÆY·úWS"
+ PROV5062:0 "ætLN"
+ PROV_ADJ5062:0 "ætLN"
+ PROV5064:0 "·V<SZS"
+ PROV_ADJ5064:0 "·V<SZS"
+
+     # WS^—Rƒ0Wÿ
+     
+     # ³uTXS0W:Sÿ
+     PROV5093:0 "lšnfXb"
+     PROV_ADJ5093:0 "lšnfXb"
+     PROV5104:0 "ÔkÍu"
+     PROV_ADJ5104:0 "ÔkÍu"
+     
+     # WS^—ØšŸS0W:Sÿ
+     PROV5119:0 ")n—VŒTKQ"
+     PROV_ADJ5119:0 ")n—VŒTKQ"
+     PROV5121:0 "eYaSIl>"
+     PROV_ADJ5121:0 "eYaSIl>"
+     PROV5123:0 "¯e‚„S¹e9N"
+     PROV_ADJ5123:0 "¯e‚„S¹e9N"
+     PROV5129:0 "'Y0NfW"
+     PROV_ADJ5129:0 "'Y0NfW"
+     
+     # ‹YgÒ‰0W:Sÿ
+     PROV5125:0 "eY™laS‚„"
+     PROV_ADJ5125:0 "eY™laS‚„"
+     PROV5127:0 "aS†– R"
+     PROV_ADJ5127:0 "aS†– R"
+     PROV5128:0 "(„S¾<SšN"
+     PROV_ADJ5128:0 "(„S¾<SšN"
+     
+     # yrpQ¯eætS0W:Sÿ
+     PROV5096:0 "	TšN<S"
+     PROV_ADJ5096:0 "	TšN<S"
+     PROV5097:0 "iOê"
+     PROV_ADJ5097:0 "iOê"
+     PROV5098:0 "GYs^<h"
+     PROV_ADJ5098:0 "GYs^<h"
+     PROV5100:0 "Zi?–<S"
+     PROV_ADJ5100:0 "Zi?–<S"
+     
+     # N—gâlâl0W:Sÿ
+     east_limpopo_area:0 "N—gâlâl"
+     east_limpopo_area_name:0 "N—gâlâl"
+     east_limpopo_area_adj:0 "N—gâlâl"
+     PROV5091:0 "ôupQ“^m"
+     PROV_ADJ5091:0 "ôupQ“^m"
+     PROV5095:0 "ÕlÉbZSæt"
+     PROV_ADJ5095:0 "ÕlÉbZSæt"
+     
+     # ¯eZëX0W:Sÿ
+     swazi_area:0 "¯eZëX"
+     swazi_area_name:0 "¯eZëX"
+     swazi_area_adj:0 "¯eZëX"
+     PROV5092:0 "ÔkÒRN–)RšN"
+     PROV_ADJ5092:0 "ÔkÒRN–)RšN"
+     PROV5094:0 "æ—SÑyÆY"
+     PROV_ADJ5094:0 "æ—SÑyÆY"
+     PROV5099:0 "Ñ‘=O)R"
+     PROV_ADJ5099:0 "Ñ‘=O)R"
+     
+     # ·VÉb9h<h0W:Sÿ
+     dragenberg_area:0 "·VÉb9h<h"
+     dragenberg_area_name:0 "·VÉb9h<h"
+     dragenberg_area_adj:0 "·VÉb9h<h"
+     PROV5102:0 "^†–¹e9N"
+     PROV_ADJ5102:0 "^†–¹e9N"
+     PROV5105:0 "?–s^˜"
+     PROV_ADJ5105:0 "?–s^˜"
+     PROV5108:0 "O¯eyr"
+     PROV_ADJ5108:0 "O¯eyr"
+     PROV5112:0 "TXôTLN…QÈT"
+     PROV_ADJ5112:0 "TXôTLN…QÈT"
+     
+     # Ñy(„0W:Sÿ
+     xhosa_area:0 "Ñy(„"
+     xhosa_area_name:0 "Ñy(„"
+     xhosa_area_adj:0 "Ñy(„"
+     PROV5106:0 "«ƒ^XSŒn"
+     PROV_ADJ5106:0 "«ƒ^XSŒn"
+     PROV5110:0 "ƒ±ƒ5ƒ¯eYnf"
+     PROV_ADJ5110:0 "ƒ±ƒ5ƒ¯eYnf"
+     PROV5118:0 "eY¯e"
+     PROV_ADJ5118:0 "eY¯e"
+     
+     # ØšŸS0W:Sÿ
+     highveld_area:0 "^†–¹e9N"
+     highveld_area_name:0 "^†–¹e9N"
+     highveld_area_adj:0 "^†–¹e9N"
+     PROV5101:0 "úWyrüf¯eáwnf"
+     PROV_ADJ5101:0 "úWyrüf¯eáwnf"
+     PROV5103:0 "ZSKQ¯e®v(ƒ"
+     PROV_ADJ5103:0 "ZSKQ¯e®v(ƒ"
+     PROV5107:0 "LNTX›s"
+     PROV_ADJ5107:0 "LNTX›s"
+     
+     # (ƒæt³u0W:Sÿ
+     tswana_area:0 "(ƒæt³u"
+     tswana_area_name:0 "(ƒæt³u"
+     tswana_area_adj:0 "(ƒæt³u"
+     PROV5109:0 "!•TXÔk"
+     PROV_ADJ5109:0 "!•TXÔk"
+     PROV5113:0 "“^œüf"
+     PROV_ADJ5113:0 "“^œüf"
+     PROV5124:0 "ú‹0tnf"
+     PROV_ADJ5124:0 "ú‹0tnf"
+     
+     # W<hVS·V0W:Sÿ
+     roggeveld_area:0 "W<hVS·V"
+     roggeveld_area_name:0 "W<hVS·V"
+     roggeveld_area_adj:0 "W<hVS·V"
+     PROV5122:0 "eYyrTN"
+     PROV_ADJ5122:0 "eYyrTN"
+     PROV5126:0 "ôu÷–"
+     PROV_ADJ5126:0 "ôu÷–"
+     
+     # ³ulš8Y0W:Sÿ
+     namaqua_area:0 "³ulš8Y"
+     namaqua_area_name:0 "³ulš8Y"
+     namaqua_area_adj:0 "³ulš8Y"
+     PROV5115:0 "ïQÑy?–nf"
+     PROV_ADJ5115:0 "ïQÑy?–nf"
+     PROV5116:0 "ƒ±ƒ5ƒ¯eYnf"
+     PROV_ADJ5116:0 "ƒ±ƒ5ƒ¯eYnf"
+     PROV5117:0 "aSÉb¯e!X"
+     PROV_ADJ5117:0 "aSÉb¯e!X"
+     PROV5120:0 "+RÀNôT"
+     PROV_ADJ5120:0 "+RÀNôT"
+     
+     # aSÉbÈTÌ‘™l.o0W:Sÿ
+     kalahari_desert_area:0 "aSÉbÈTÌ‘™l.o"
+     kalahari_desert_area_name:0 "aSÉbÈTÌ‘™l.o"
+     kalahari_desert_area_adj:0 "aSÉbÈTÌ‘™l.o"
+     PROV5114:0 "	T=Oi`"
+     PROV_ADJ5114:0 "	T=Oi`"
+     
+     # ‰—gâlâl0W:Sÿ
+     west_limpopo_area:0 "‰—gâlâl"
+     west_limpopo_area_name:0 "‰—gâlâl"
+     west_limpopo_area_adj:0 "‰—gâlâl"
+     PROV4979:0 "NYNY"
+     PROV_ADJ4979:0 "NYNY"
+     PROV4980:0 "*Yyr"
+     PROV_ADJ4980:0 "*Yyr"
+     PROV4982:0 "âlWKQæt<S"
+     PROV_ADJ4982:0 "âlWKQæt<S"
+     PROV5111:0 "–w“^‰R"
+     PROV_ADJ5111:0 "–w“^‰R"
+     PROV5130:0 "ÑyôT"
+     PROV_ADJ5130:0 "ÑyôT"
+     
+     # lšKQ RêaSê0W:Sÿ
+     makgadikgadi_area:0 "lšKQ RêaSê"
+     makgadikgadi_area_name:0 "lšKQ RêaSê"
+     makgadikgadi_area_adj:0 "lšKQ RêaSê"
+     PROV4981:0 "TNlš"
+     PROV_ADJ4981:0 "TNlš"
+     PROV4983:0 "ÆYNNb"
+     PROV_ADJ4983:0 "ÆYNNb"
+     PROV4984:0 "GY^TX"
+     PROV_ADJ4984:0 "GY^TX"
+     PROV4986:0 "™„^æt"
+     PROV_ADJ4986:0 "™„^æt"
+     
+     # ôTWVrØšŸS0W:Sÿ
+     katanga_plateau_area:0 "ôTWVr"
+     katanga_plateau_area_name:0 "ôTWVr"
+     katanga_plateau_area_adj:0 "ôTWVr"
+     PROV4985:0 "&O¾Nm"
+     PROV_ADJ4985:0 "&O¾Nm"
+     PROV4999:0 "…hœQÖv"
+     PROV_ADJ4999:0 "…hœQÖv"
+     PROV5717:0 "FzœÉb<S"
+     PROV_ADJ5717:0 "FzœÉb<S"
+     PROV5719:0 "mPŸ"
+     PROV_ADJ5719:0 "mPŸ"
+     PROV5721:0 "bS0t"
+     PROV_ADJ5721:0 "bS0t"
+     
+     # eYaSNb0W:Sÿ
+ okavango_area:0 "eYaSNb"
+ okavango_area_name:0 "eYaSNb"
+ okavango_area_adj:0 "eYaSNb"
+ PROV4987:0 "bS¯wZS"
+ PROV_ADJ4987:0 "bS¯wZS"
+ PROV4988:0 "‰Rjgm"
+ PROV_ADJ4988:0 "‰Rjgm"
+ PROV4989:0 "Fz¦”¾"
+ PROV_ADJ4989:0 "Fz¦”¾"
+ PROV5718:0 "aS—RäSÉb"
+ PROV_ADJ5718:0 "aS—RäSÉb"
+ PROV5763:0 "8Y RÌ‘"
+ PROV_ADJ5763:0 "8Y RÌ‘"
+ 
+ # eYFzpQôT0W:Sÿ
+ omuramba_area:0 "wwæ—S·V"
+ omuramba_area_name:0 "wwæ—S·V"
+ omuramba_area_adj:0 "wwæ—S·V"
+ PROV4990:0 "aSáwjgÆY"
+ PROV_ADJ4990:0 "aSáwjgÆY"
+ PROV4996:0 "jwKQæ—"
+ PROV_ADJ4996:0 "jwKQæ—"
+ PROV4997:0 "eYFzpQôT"
+ PROV_ADJ4997:0 "eYFzpQôT"
+ PROV4998:0 "uPŸ"
+ PROV_ADJ4998:0 "uPŸ"
+ 
+ # ÃWXb™l0W:Sÿ
+ etosha_area:0 "ÃWXb™l"
+ etosha_area_name:0 "ÃWXb™l"
+ etosha_area_adj:0 "ÃWXb™l"
+ PROV4992:0 "NWís"
+ PROV_ADJ4992:0 "NWís"
+ PROV4994:0 "“^ôTS"
+ PROV_ADJ4994:0 "“^ôTS"
+ 
+ # ÔkÃWØšŸS0W:Sÿ
+ bie_plateau_area:0 "ÔkÃWØšŸS"
+ bie_plateau_area_name:0 "ÔkÃWØšŸS"
+ bie_plateau_area_adj:0 "ÔkÃWØšŸS"
+ PROV4993:0 "aSTR¾"
+ PROV_ADJ4993:0 "aSTR¾"
+ PROV5746:0 "bSågPŸ"
+ PROV_ADJ5746:0 "bSågPŸ"
+ PROV5760:0 "bSæt±ƒ"
+ PROV_ADJ5760:0 "bSæt±ƒ"
+ PROV5761:0 "u<hÉb"
+ PROV_ADJ5761:0 "u<hÉb"
+ PROV5762:0 "‰RZSÃWÉb"
+ PROV_ADJ5762:0 "‰RZSÃWÉb"
+ 
+ # )RÔkšN/lšFzœKQ0W:Sÿ
+ PROV5145:0 "ýlÉb"
+ PROV_ADJ5145:0 "ýlÉb"
+ PROV5146:0 "lšÉb¾"
+ PROV_ADJ5146:0 "lšÉb¾"
+ PROV5147:0 "Üb¾"
+ PROV_ADJ5147:0 "Üb¾"
+ PROV5148:0 "!•æt"
+ PROV_ADJ5148:0 "!•æt"
+ PROV5149:0 "?–^f RS"
+ PROV_ADJ5149:0 "?–^f RS"
+ 
+ # ^—2mRƒ0Wÿ
+ africa_wasteland_passing_through_area:0 ""
+ africa_wasteland_passing_through_area_name:0 ""
+ africa_wasteland_passing_through_area_adj:0 ""
+ africa_wasteland_passing_through_region:0 ""
+ africa_wasteland_passing_through_region_name:0 ""
+ africa_wasteland_passing_through_region_adj:0 ""
+ PROV5001:0 "¦Y"
+ PROV_ADJ5001:0 "Bondo"
+ PROV5004:0 "÷–—ZS¯e"
+ PROV_ADJ5004:0 "÷–—ZS¯e"
+ AFRICA_WASTELANDS_CANNOT_COLONIZE:0 "§RÙ*NwýNNýw«ˆ–kl.§!"
+    
+ # a'Y)Rÿ
+ # ?–ôT6R.ÿ
+ corsica_area:0 "Ñy‰	V"
+ corsica_area_name:0 "Ñy‰	V"
+ corsica_area_adj:0 "Ñy‰	V"
+ krain_area:0 "KQÉbi`"
+ krain_area_name:0 "KQÉbi`"
+ krain_area_adj:0 "KQÉbi`"
+ torino_area:0 "ýup"
+ torino_area_name:0 "ýup"
+ torino_area_adj:0 "ýup"
+ PROV5775:0 "aSSTX<S^XTX"
+ PROV_ADJ5775:0 "aSSTX<S^XTX"
+ PROV5776:0 "aSTX<SšN"
+ PROV_ADJ5776:0 "aSTX<SšN"
+ PROV5777:0 "LNê…Q"
+ PROV_ADJ5777:0 "LNê…Q"
+ PROV5778:0 "XbS…hPO"
+ PROV_ADJ5778:0 "XbS…hPO"
+ PROV5779:0 "9Syr÷–"
+ PROV_ADJ5779:0 "9Syr÷–"
+ PROV5780:0 "ªReYW"
+ PROV_ADJ5780:0 "ªReYW"
+ PROV5781:0 "Ñyyr"
+ PROV_ADJ5781:0 "Ñyyr"
+ PROV5782:0 "?–Å–KQ–w"
+ PROV_ADJ5782:0 "?–Å–KQ–w"
+ PROV5783:0 "O+Y÷–šN"
+ PROV_ADJ5783:0 "O+Y÷–šN"
+ #PROV5784:0 "ôTSê" # *gûm R
+ #PROV_ADJ5784:0 "ôTSê"
+ PROV5774:0 "Xoðl±ƒÌ‘šN"
+ PROV_ADJ5774:0 "Xoðl±ƒÌ‘šN"
+ PROV5785:0 "eY¯eeYÉb"
+ PROV_ADJ5785:0 "eY¯eeYÉb"
+ PROV5786:0 "aSfWNbW"
+ PROV_ADJ5786:0 "aSfWNbW"
+ PROV5787:0 "®všN4tßR"
+ PROV_ADJ5787:0 "®všN4tßR"
+ PROV5788:0 "lšS‰aS"     
+ PROV_ADJ5788:0 "lšS‰aS"
+ # êñT˜Yûm R„vÿ
+ PROV5784:0 "…Q‡eXb"
+ PROV_ADJ5784:0 "…Q‡eXb"
+ PROV5789:0 "âlXbO<SšN"
+ PROV_ADJ5789:0 "âlXbO<SšN"
+ 
+ # ^txQÿ¾+YpQ.^©R‹TT>f6qadjÿSìbPDX6R.„vÿŒRhQ=f•ï‹„vÿ¾+YpQô‹„vÿ
+ PROV5140:0 "…h·VS^·V"
+ PROV_ADJ5140:0 "…h·VS^·V"
+ PROV5141:0 "ú‹SZSÕn"
+ PROV_ADJ5141:0 "ú‹SZSÕn"
+ PROV5142:0 "WSüfpQ"
+ PROV_ADJ5142:0 "WSüfpQ"
+ PROV5143:0 "„SpQ"
+ PROV_ADJ5143:0 "„SpQ"
+ PROV5144:0 "KQf…Q¾S"
+ PROV_ADJ5144:0 "KQf…Q¾S"
+ # 9N¦žÿ—bfW.^©Rÿ
+ PROV5153:0 "ôu!X"
+ PROV_ADJ5153:0 "ôu!X"
+ PROV5154:0 "Ì‘=O"
+ PROV_ADJ5154:0 "Ì‘=O"
+      
+     
+ # åe,gÿ
+ #PROV7019:0 "Rikuo"
+ #PROV_ADJ7019:0 "Rikuo"
+ PROV4961:0 "°emo"
+ PROV_ADJ4961:0 "°emo"
+ PROV4962:0 "©SÑo"
+ PROV_ADJ4962:0 "©SÑo"
+ # -NýVÿ
+ PROV4970:0 "°e‰R"
+ PROV_ADJ4970:0 "Xin'an"
+ PROV4971:0 "‰vÞT"
+ PROV_ADJ4971:0 "Dengzhou"
+ # pS¦^<S‰šNÿ
+ PROV7032:0 "SÏ‚è•TrJ"
+ # ³o'Y)RšNÿ
+ darling_area:0 "¾äN"
+ darling_area_name:0 "¾äN"
+ darling_area_adj:0 "¾äN"
+ goldfields_area:0 "Ñ‘ÿw:S"
+ goldfields_area_name:0 "Ñ‘ÿw:S"
+ goldfields_area_adj:0 "Ñ‘ÿw:S"
+ tanami_area:0 "TX³us|"
+ tanami_area_name:0 "TX³us|"
+ tanami_area_adj:0 "TX³us|"
+ PROV4974:0 "aSÉb›sšN"
+ PROV_ADJ4974:0 "aSÉb›sšN"
+ PROV4975:0 "lšSjg"
+ PROV_ADJ4975:0 "lšSjg"
+ PROV4976:0 "®vÉbªRäSœ"
+ PROV_ADJ4976:0 "®vÉbªRäSœ"
+ PROV4977:0 "ÑyaS™l"
+ PROV_ADJ4977:0 "ÑyaS™l"
+ PROV4978:0 "æt^Ì‘"
+ PROV_ADJ4978:0 "æt^Ì‘"
+ PROV4990:0 "?–&Oyr"
+ PROV_ADJ4990:0 "?–&Oyr"
+ PROV4991:0 "ôT&O	T"
+ PROV_ADJ4991:0 "ôT&O	T"
+ PROV4995:0 "ÔkÌ‘Å–"
+ PROV_ADJ4995:0 "ÔkÌ‘Å–"
+ PROV4996:0 "?–WSäS"
+ PROV_ADJ4996:0 "?–WSäS"
+ PROV4997:0 "êÈTÌ‘"
+ PROV_ADJ4997:0 "êÈTÌ‘"
+ PROV4998:0 "ætaSšN"
+ PROV_ADJ4998:0 "ætaSšN"
+ # ¨Nyr6R.ÿ
+ riau_area:0 "‰R"
+ riau_area_name:0 "‰R"
+ riau_area_adj:0 "‰R"
+ coastal_outback_area:0 "¿lwm…QF–"
+ coastal_outback_area_name:0 "¿lwm…QF–"
+ coastal_outback_area_adj:0 "¿lwm…QF–"
+ northern_new_guinea_area:0 "°eàQ…QšNSè"
+ northern_new_guinea_area_name:0 "°eàQ…QšNSè"
+ northern_new_guinea_area_adj:0 "°eàQ…QšNSè"
+ PROV4963:0 "‰R"
+ PROV_ADJ4963:0 "‰R"
+ PROV4964:0 "ôupQäS"
+ PROV_ADJ4964:0 "ôupQäS"
+ PROV4965:0 "³uÉb=O"
+ PROV_ADJ4965:0 "³uÉb=O"
+ PROV4966:0 "s|SR"
+ PROV_ADJ4966:0 "s|SR"
+ PROV4967:0 "³uÔk÷–"
+ PROV_ADJ4967:0 "³uÔk÷–"
+ PROV4968:0 "ågšNnfÉb"
+ PROV_ADJ4968:0 "ågšNnfÉb"
+ PROV4969:0 "ÉbFz"
+ PROV_ADJ4969:0 "ÉbFz"
+     
+     
+ # Middle Africa nations:
+ # ‡eSÿ
+ lingala:0 "—g RÉb"
+ tunjur:0 "1gS"
+ fur_culture:0 "ÌRS"
+ # æt¾Oÿ
+ WAD:0 "æt¾O"
+ WAD_ADJ:0 "æt¾O"
+ # ^bSKQÿ
+ SHI:0 "^bSKQ"
+ SHI_ADJ:0 "^bSKQ"
+ # ôT	TSs|ÿ
+ BAG:0 "ôT	TSs|"
+ BAG_ADJ:0 "ôT	TSs|"
+ # 8YÉbÕlÿ
+ KWA:0 "8YÉbÕl"
+ KWA_ADJ:0 "8YÉbÕl"
+ # ¾S·&O Rÿ
+ DAJ:0 "¾S·¾1g"
+ DAJ_ADJ:0 "¾S·¾1g"
+ # yr R)Rÿ
+ TGL:0 "TXaS)R"
+ TGL_ADJ:0 "TXaS)R"
+ # ÑySYáQÿ
+ KRD:0 "ÑySYáQ"
+ KRD_ADJ:0 "ÑySYáQ"
+     
+ # Congo Basin Africa nations:
+ # ¹eŠÿ
+ FAN:0 "³‚"
+ FAN_ADJ:0 "³‚"
+ # ôTšNaSÿ
+ BAY:0 "ôTšNaS"
+ BAY_ADJ:0 "ôTšNaS"
+ # ZS‰R	Tÿ
+ BOB:0 "ZS‰R	T"
+ BOB_ADJ:0 "ZS‰R	T"
+ # ís RÉbÿ
+ BNL:0 "ís RÉb"
+ BNL_ADJ:0 "ís RÉb"
+ # üf<hþVÿ
+ MGU:0 "üf<hþV"
+ MGU_ADJ:0 "üf<hþV"
+ # ^·Vÿ
+ ZNE:0 "^·V"
+ ZNE_ADJ:0 "^·V"
+ # i` RÉbÿ
+ NGL:0 "i` RÉb"
+ NGL_ADJ:0 "i` RÉb"
+ # ís¾ÿ
+ BNA:0 "ís¾"
+ BNA_ADJ:0 "ís¾"
+ # ôTšNÿ
+ GBA:0 "ôTšN"
+ GBA_ADJ:0 "ôTšN"
+
+ # Great Lakes Africa nations:
+ # ‡eSÿ
+ #oromo:0 "eYW«ƒ" # PDXûm RêñT„v
+ # lšiÿ
+ SAI:0 "lši"
+ SAI_ADJ:0 "lši"
+ # WSaS³uÿ
+ TRK:0 "WSaS³u"
+ TRK_ADJ:0 "WSaS³u"
+ # kkÿ
+ HEH:0 "kk"
+ HEH_ADJ:0 "kk"
+ # bbÿ
+ GOG:0 "bb"
+ GOG_ADJ:0 "bb"
+ # eYW«ƒÿ
+ ORO:0 "eYW«ƒ"
+ ORO_ADJ:0 "eYW«ƒ"
+ 
+ 
+ # South Africa nations:
+ # 0tXbÿ
+ SOT:0 "0tXb"
+ SOT_ADJ:0 "0tXb"
+ # Ñy(„ÿ
+ XHO:0 "Ñy(„"
+ XHO_ADJ:0 "Ñy(„"
+ # —R Rÿ
+ TSO:0 "—R R"
+ TSO_ADJ:0 "—R R"
+ # (ƒæt³uÿ
+ TSW:0 "(ƒæt³u"
+ TSW_ADJ:0 "(ƒæt³u"
+    
+ # ¯eZëXÿ
+ SWZ:0 "¯eZëX"
+ SWZ_ADJ:0 "¯eZëX"
+ sea_SWZ_ideas:0 "¯eZëXtõV"
+ sea_SWZ_ideas_start:0 "¯eZëX.Oßu"
+ sea_SWZ_ideas_bonus:0 "¯eZëXÄ–ÃV"
+ swz_origin_of_first_human:0 "ºN‰|wn"
+ swz_origin_of_first_human_desc:0 "ºN‰|wn"
+ swz_tax_the_people:0 "TºNlVz"
+ swz_tax_the_people_desc:0 "TºNlVz"
+ swz_worshipping_the_ancestors:0 "TÜbVyHQ"
+ swz_worshipping_the_ancestors_desc:0 "TÜbVyHQ"
+ swz_war_is_tax:0 "b‰NsSz6e"
+ swz_war_is_tax_desc:0 "b‰NsSz6e"
+ swz_readiness_for_war:0 "Yb"
+ swz_readiness_for_war_desc:0 "Yb"
+ swz_umhlanga_festival_popularization:0 "LNÆYpQ R‚‚nfÊS"
+ swz_umhlanga_festival_popularization_desc:0 "LNÆYpQ R‚‚nfÊS"
+ swz_absolute_legitimacy:0 "ÝuùRTÕl'`"
+ swz_absolute_legitimacy_desc:0 "ÝuùRTÕl'`"
+ # ³QVrÿ
+ swz_norse_cult_decision_title:0 "£sea_pagan_logo£ ã‰•V÷–šNYe>m"
+ swz_norse_cult_decision_desc:0 "bìNÁ‰Á‹†N^—8^UÁ‰„v:gOKNNÿsSú‹S¯e—RYe„vÍ‘u0"
+ swz_norse_cult_decision_tt:0 "ûNUOåb	g §Yú‹S¯e§! —RYe„výV¶RýN §Y[Root.GetName]§! Twßv"
+ swz_norse_cult_tt:0 "Ïkt^wm›Q.Oßuÿ §G+2.00§! \n‰vF–jObé`Zÿ§G-2.00§! "
+ swz_zoroastrian_cult_decision_title:0 " £sea_zoroastrian_logo£ ã‰•tWšN¯e·VYe>m"
+ swz_zoroastrian_cult_decision_desc:0 "–Nwöeô•„v¨cûyÿtWšN¯e·VYeØS—VŠegŠÍ‘‰ÿÙasTNwºNìN”^å‹`Nï`ŽNŠegŠY0WÁ‰Á‹ƒR0"
+ swz_zoroastrian_cult_decision_tt:0 "ûNUOåb	g §YtWšN¯e·VYe§! —RYe„výV¶RýN §Y[Root.GetName]§! Twßv"
+ swz_zoroastrian_cult_tt:0 "ibUSúWNx¾‹Ëeb,gîOckÿ §G-50.0%§! \n -N.YÆ–CgýV¶Rb,gÿ §G-50.0%§! "
+ warning_zulu_nation_tt:0 " §RÐc’‘ÿNb	gÎN9ei—bìN„výV¶RûN¡R-N·ƒ—V„vîOcký:N¯eZëXtag•šR0§! "
+ # ûN¡Rÿ
+ swz_follow_the_sunset_title:0 "ý–åeK„"
+ swz_follow_the_sunset_desc:0 "bp(W3–IQNÿÇTæT..."
+ swz_exploit_zimbabwe_downfall_title:0 ")R(u%môT^æ—„vpˆK„"
+ swz_exploit_zimbabwe_downfall_desc:0 ")R(u%môT^æ—„vpˆK„"
+ swz_exploit_zimbabwe_downfall_modifier:0 "¡rt%môT^æ—Ñ‘ÿw"
+ swz_tame_the_steppes_title:0 "ošgIƒŸS"
+ swz_tame_the_steppes_desc:0 "ošgIƒŸS"
+ swz_tame_the_steppes_tooltip:0 "ã‰• '§YošgIƒŸS§!' yrCgÿÙuˆNNb	gåb	g §YIƒŸS§! 0WbV„vwýN '§YošgIƒŸS§!' îOckÿHeœg‚YNÿ\neˆÙuP–6Rÿ§G+1.00§!\nËS›Qûy¨R¦^ÿ§G+20.0%§!"
+ swz_tame_the_steppes_modifier:0 "ošgIƒŸS"
+ estate_nobles_swz_tame_the_steppes:0 "ošgIƒŸS"
+ estate_nobles_swz_tame_the_steppes_desc:0 ""
+ estate_nobles_swz_tame_the_steppes_granted_tooltip:0 "Ïk*Nåb	g §YIƒŸS§! 0WbV„vwýN·ƒ—Vÿ\neˆÙuP–6Rÿ§G+1.00§!\nËS›Qûy¨R¦^ÿ§G+20.0%§!"
+ estate_nobles_swz_tame_the_steppes_revoked_tooltip:0 "ÎNÏk*NwýNûyd– '§YošgIƒŸS§!' îOck"
+ swz_invest_in_gold_title:0 "•bDÄžÑ‘"
+ swz_invest_in_gold_desc:0 "•bDÄžÑ‘"
+ swz_invest_in_gold_modifier:0 "*YY„vÄžÑ‘ÿ"
+ swz_jewish_cult_tt:0 "ýV¶Rz6eîOckÿ§G+50.0%§!\nt^)R‡sÿ§G-0.40§!"
+ swz_discover_europeans_title:0 "ÑS°s'k2mºN"
+ swz_discover_europeans_desc:0 "ÑS°s'k2mºN"
+ swz_discover_europeans_tt:0 "§Y'k2m§! òT«ˆÑS°s"
+ swz_discover_europeans_ttt:0 "Nb	gòTåwýV¶Rÿ\n–™ý(W §Y'k2m§! 'YF–N\nN §Y[Root.GetName]§! Twßv"
+ swz_christianity_cult_tt:0 ".OYeëXÿ§G+2§!\nŽb=gb,gÿ§G-10.0%§!"
+ swz_colonize_new_africa_title:0 "–kl°e^—2m"
+ swz_colonize_new_africa_desc:0 "–kl°e^—2m"
+ swz_south_central_american_cult_tt:0 "–klÑSUSÐcGSÿ§G+2.00§!\nÄžÑ‘¯gízàQ‡sîOckÿ§G-100.0%§!"
+ swz_control_zambezi_charter_title:0 "•bD^Ôk‰yr¸‹lQøS"
+ swz_control_zambezi_charter_desc:0 "•bD^Ôk‰yr¸‹lQøS"
+ swz_control_zambezi_charter_modifier:0 "^Ôk‰•bD"
+ swz_control_zambezi_charter_province_modifier:0 "^Ôk‰"
+ swz_become_an_empire_title:0 "b:NN*N^ýV"
+ swz_become_an_empire_desc:0 "b:NN*N^ýV"
+ swz_journey_to_coast_title:0 "MRŽVwm¸S"
+ swz_journey_to_coast_desc:0 "MRŽVwm¸S"
+ swz_expand_coastline_title:0 "ibUSwm¸S¿u"
+ swz_expand_coastline_desc:0 "ibUSwm¸S¿u"
+ swz_aggressive_swahili_trading_title:0 "µOeu'`¯eæt^Ì‘8f"
+ swz_aggressive_swahili_trading_desc:0 "µOeu'`¯eæt^Ì‘8f"
+ swz_aggressive_swahili_trading_modifier:0 "(W¯eæt^Ì‘ïyg8f"
+ swz_islam_cult_tt:0 "FUºNÿ§G+2§!\ntõVb,gÿ§G-10.0%§!"
+ swz_secure_swahili_region_title:0 "nxÝO¯eæt^Ì‘0W:S"
+ swz_secure_swahili_region_desc:0 "nxÝO¯eæt^Ì‘0W:S"
+ swz_secure_swahili_region_modifier:0 "OYèK„KN0W"
+ swz_across_the_coast_title:0 "èŠwm¸S"
+ swz_across_the_coast_desc:0 "èŠwm¸S"
+ swz_control_madagascar_title:0 "µc6Rlš¾ R¯e R=nãS"
+ swz_control_madagascar_desc:0 "µc6Rlš¾ R¯e R=nãS"
+ swz_control_madagascar_modifier:0 "lš¾ R¯e R0‚–XR(W"
+ swz_dharmic_cult_tt:0 "–klwÿ§G+2§!\n»ltýw›RîOckÿ§G+20.0%§!"
+ swz_past_edge_of_the_world_title:0 "…ŠNLu¹"
+ swz_past_edge_of_the_world_desc:0 "…ŠNLu¹"
+ swz_past_edge_of_the_world_tt:0 "§Y-NýV§! òT«ˆÑS°s"
+ swz_past_edge_of_the_world_ttt:0 "Nb	gòTåwýV¶Rÿ\n–™ý(W §Y-NýV§! 'YF–N\nN §Y[Root.GetName]§! Twßv"
+ swz_buddhism_cult_tt:0 "Ïkg‰Lqÿ§G+2.00§!\ngNOê»l¦^ÿ§G-20.00§!"
+ swz_start_title:0 "§Y9ei—bìN„výV¶R§!"
+ swz_start_desc:0 "Ïk*NûN¡Rã‰•NNLˆ„v2*NûN¡RÿYuN*g	éb„vûN¡Rzz:ÿàVdk`ONýwÞíu2N!k	ébT‰|‹W„vûN¡R0\nÙ›N‰|‹WSìbÿ§GÏuNmVY±R§!ÿ§Mwm›QVY±R§!ÿ§RF–›QVY±R§!0"
+ has_full_idea_groups:0 "òTŒRhQã‰•tõVÄu0"
+ # Tier 1:
+ # ,rNBSÿ
+ swz_left_1_empty_title:0 "§GVgŒTVz§!"
+ swz_left_1_empty_desc:0 "VgŒTVz"
+ swz_left_1_mission_tt:0 "*gŒRbûN¡R §M¢c0tŒT–kl§! bûN¡R §Rb‰Nz6eŒT2–¡V§! "
+ swz_left_1_title:0 "§GVgŒTVz§!"
+ swz_left_1_desc:0 "VgŒTVz"
+ swz_autotax_modifier_tt:0 "[Root.GetName] ·ƒ—V '§YVgŒTVz§!' ôv0R8nbÓumgÿHeœg‚YNÿ\nýV¶Rz6eîOckÿ§G+15.0%§!\nÏkgê»l¦^ØSSÿ§G-0.05§!"   
+ swz_middle_1_empty_title:0 "§M¢c0tŒT–kl§!"
+ swz_middle_1_empty_desc:0 "¢c0tŒT–kl"
+ swz_middle_1_mission_tt:0 "*gŒRbûN¡R §GVgŒTVz§! bûN¡R §Rb‰Nz6eŒT2–¡V§!"
+ swz_middle_1_title:0 "§M¢c0tŒT–kl§!"
+ swz_middle_1_desc:0 "¢c0tŒT–kl"
+ swz_explocolo_modifier_tt:0 "[Root.GetName] 9eÛ '§YºN‰|wn§!' tõVÿžX RåNNVY±Rÿ\n–klwÿ§G+1§!\n–klƒôVÿ§G+100.0%§!\nhQtšRESwžX•ÿ§G+15.00§!\nAQ¸‹ÛbßR¢ci–¶RŒTVgw0"
+ 
+ swz_right_1_empty_title:0 "§Rb‰Nz6eŒT2–¡V§!"
+ swz_right_1_empty_desc:0 "9eÛb‰Nz6eŒT2–¡V"
+ swz_right_1_mission_tt:0 "*gŒRbûN¡R §GVgŒTVz§! bûN¡R §M¢c0tŒT–kl§!"
+ swz_right_1_title:0 "§Rb‰Nz6eŒT2–¡V§!"
+ swz_right_1_desc:0 "9eÛb‰Nz6eŒT2–¡V"
+ swz_wtaxattr_modifier_tt:0 "[Root.GetName] ·ƒ—V '§Y9eÛb‰Nz6eŒT2–¡V§!' ôv0R8nbÓumgÿHeœg‚YNÿ\nLeºN„vmcwÿ§G+2.00§!\nb‰Nz6eb,gÿ§G-50.0%§! "
+ # ,rŒNBSÿ
+ swz_left_2_tt:0 "ŒRbO‹T §G8fŒTuµN§!"
+ swz_left_2_middle_empty_title:0 "§G8fŒTuµN§!"
+ swz_left_2_middle_empty_desc:0 "ØšHe8fŒTuµN"
+ swz_left_2_middle_title:0 "§G8fŒTuµN§!"
+ swz_left_2_middle_desc:0 "ØšHe8fŒTuµN"
+ swz_left_2_right_title:0 "§G8fŒTuµN§!"
+ swz_left_2_right_desc:0 "ØšHe8fŒTuµN"
+ swz_tradprod_modifier_tt:0 "[Root.GetName] ·ƒ—V '§YØšHe8fŒTuµN§!' ôv0R8nbÓumgÿHeœg‚YNÿ\n8fHe‡sÿ§G+12.5%§!\nuµNHe‡sÿ§G+12.5%§! "
+ 
+ swz_middle_2_tt:0 "ŒRbO‹T §Mwm›Q.Oßu§!"
+ swz_middle_2_left_empty_title:0 "§Mwm›Q.Oßu§!"
+ swz_middle_2_left_empty_desc:0 "wm›Q.Oßu"
+ swz_middle_2_left_title:0 "§Mwm›Q.Oßu§!"
+ swz_middle_2_left_desc:0 "wm›Q.Oßu"
+ swz_middle_2_right_title:0 "§Mwm›Q.Oßu§!"
+ swz_middle_2_right_desc:0 "wm›Q.Oßu"
+ swz_navtrad_modifier_tt:0 "[Root.GetName] ·ƒ—V '§Ywm›Q.Oßu§!' ôv0R8nbÓumgÿHeœg‚YNÿ\nÏkt^wm›Q.Oßuÿ§G+1.00§!\nÏkt^wm›Q.OßupˆÏQÿ §G-1.0%§! "
+ 
+ swz_right_2_tt:0 "ŒRbO‹T §R­‹Ãu	g.t„vëXuQ§!"
+ swz_right_2_left_empty_title:0 "§R­‹Ãu	g.t„vëXuQ§!"
+ swz_right_2_left_empty_desc:0 "­‹Ãu	g.t„vëXuQ"
+ swz_right_2_left_title:0 "§R­‹Ãu	g.t„vëXuQ§!"
+ swz_right_2_left_desc:0 "­‹Ãu	g.t„vëXuQ"
+ swz_right_2_middle_title:0 "§R­‹Ãu	g.t„vëXuQ§!"
+ swz_right_2_middle_desc:0 "­‹Ãu	g.t„vëXuQ"
+ swz_profdril_modifier_tt:0 "[Root.GetName] ·ƒ—V '§Y­‹Ãu	g.t„vëXuQ§!' ôv0R8nbÓumgÿHeœg‚YNÿ\nÏkt^F–›QLwNSÿ§G+0.3%§!\n›QâV­‹Ãumc1Yÿ §G-50.0%§! "
+ # ,r	NBSÿ
+ swz_left_3_tt:0 "ŒRbO‹T §G9eo‚wjO§!"
+ swz_left_3_middle_1_empty_title:0 " §G9eo‚wjO§! "
+ swz_left_3_middle_1_empty_desc:0 "9eo‚wjO"
+ swz_left_3_middle_1_title:0 "§G9eo‚wjO§!"
+ swz_left_3_middle_1_desc:0 "9eo‚wjO"
+ swz_left_3_middle_2_title:0 "§G9eo‚wjO§!"
+ swz_left_3_middle_2_desc:0 "9eo‚wjO"
+ swz_left_3_right_1_title:0 "§G9eo‚wjO§!"
+ swz_left_3_right_1_desc:0 "9eo‚wjO"
+ swz_left_3_right_2_title:0 "§G9eo‚wjO§!"
+ swz_left_3_right_2_desc:0 "9eo‚wjO"
+ swz_deve_modifier_tt:0 "[Root.GetName] ·ƒ—V '§Y9eo‚wjO§!' ôv0R8nbÓumgÿHeœg‚YNÿ\nÑSUSb,gÿ §G-5.0%§! "
+ 
+ swz_middle_3_tt:0 "ŒRbO‹T §Mz˜Î˜§!"
+ swz_middle_3_left_1_empty_title:0 "§Mz˜Î˜§!"
+ swz_middle_3_left_1_empty_desc:0 "z˜Î˜"
+ swz_middle_3_left_1_title:0 "§Mz˜Î˜§!"
+ swz_middle_3_left_1_desc:0 "z˜Î˜"
+ swz_middle_3_left_2_title:0 "§Mz˜Î˜§!"
+ swz_middle_3_left_2_desc:0 "z˜Î˜"
+ swz_middle_3_right_1_title:0 "§Mz˜Î˜§!"
+ swz_middle_3_right_1_desc:0 "z˜Î˜"
+ swz_middle_3_right_2_title:0 "§Mz˜Î˜§!"
+ swz_middle_3_right_2_desc:0 "z˜Î˜"
+ swz_navmora_modifier_tt:0 "[Root.GetName] ·ƒ—V '§Yz˜Î˜§!' ôv0R8nbÓumgÿHeœg‚YNÿ\nwm›QëXlÿ§G+10.0%§! "
+ 
+ swz_right_3_tt:0 "ŒRbO‹T §Rb‰N±R.O§!"
+ swz_right_3_left_1_empty_title:0 "§Rb‰N±R.O§!"
+ swz_right_3_left_1_empty_desc:0 "b‰N±R.O"
+ swz_right_3_left_1_title:0 "§Rb‰N±R.O§!"
+ swz_right_3_left_1_desc:0 "b‰N±R.O"
+ swz_right_3_left_2_title:0 "§Rb‰N±R.O§!"
+ swz_right_3_left_2_desc:0 "b‰N±R.O"
+ swz_right_3_middle_1_title:0 "§Rb‰N±R.O§!"
+ swz_right_3_middle_1_desc:0 "b‰N±R.O"
+ swz_right_3_middle_2_title:0 "§Rb‰N±R.O§!"
+ swz_right_3_middle_2_desc:0 "b‰N±R.O"
+ swz_armmora_modifier_tt:0 " [Root.GetName] ·ƒ—V '§Yb‰N±R.O§!' ôv0R8nbÓumgÿHeœg‚YNÿ\n F–›QëXlÿ §G+10.0%§! "
+ # ,rÛVBSÿ
+ swz_left_4_tt:0 "ŒRbO‹T §GØšHeLˆ?e§!"
+ swz_left_4_middle_11_empty_title:0 "§GØšHeLˆ?e§!"
+ swz_left_4_middle_11_empty_desc:0 "ØšHeLˆ?e"
+ swz_left_4_middle_11_title:0 "§GØšHeLˆ?e§!"
+ swz_left_4_middle_11_desc:0 "ØšHeLˆ?e"
+ swz_left_4_middle_12_title:0 "§GØšHeLˆ?e§!"
+ swz_left_4_middle_12_desc:0 "ØšHeLˆ?e"
+ swz_left_4_middle_21_title:0 "§GØšHeLˆ?e§!"
+ swz_left_4_middle_21_desc:0 "ØšHeLˆ?e"
+ swz_left_4_middle_22_title:0 "§GØšHeLˆ?e§!"
+ swz_left_4_right_11_title:0 "§GØšHeLˆ?e§!"
+ swz_left_4_right_11_desc:0 "ØšHeLˆ?e"
+ swz_left_4_right_12_title:0 "§GØšHeLˆ?e§!"
+ swz_left_4_right_12_desc:0 "ØšHeLˆ?e"
+ swz_left_4_right_21_title:0 "§GØšHeLˆ?e§!"
+ swz_left_4_right_21_desc:0 "ØšHeLˆ?e"
+ swz_left_4_right_22_title:0 "§GØšHeLˆ?e§!"
+ swz_left_4_right_22_desc:0 "ØšHeLˆ?e"
+ swz_admeff_modifier_tt:0 "[Root.GetName] ·ƒ—V '§YØšHeLˆ?e§!' ôv0R8nbÓumgÿHeœg‚YNÿ\nLˆ?eHe‡sÿ§G+5.0%§!"     
+ swz_middle_4_tt:0 "ŒRbO‹T §MVuQg¡R§!"
+ swz_middle_4_left_11_empty_title:0 "§MVuQg¡R§!"
+ swz_middle_4_left_11_empty_desc:0 "VuQg¡R"
+ swz_middle_4_left_11_title:0 "§MVuQg¡R§!"
+ swz_middle_4_left_11_desc:0 "VuQg¡R"
+ swz_middle_4_left_12_title:0 "§MVuQg¡R§!"
+ swz_middle_4_left_12_desc:0 "VuQg¡R"
+ swz_middle_4_left_21_title:0 "§MVuQg¡R§!"
+ swz_middle_4_left_21_desc:0 "VuQg¡R"
+ swz_middle_4_left_22_title:0 "§MVuQg¡R§!"
+ swz_middle_4_left_22_desc:0 "VuQg¡R"
+ swz_middle_4_right_11_title:0 "§MVuQg¡R§!"
+ swz_middle_4_right_11_desc:0 "VuQg¡R"
+ swz_middle_4_right_12_title:0 "§MVuQg¡R§!"
+ swz_middle_4_right_12_desc:0 "VuQg¡R"
+ swz_middle_4_right_21_title:0 "§MVuQg¡R§!"
+ swz_middle_4_right_21_desc:0 "VuQg¡R"
+ swz_middle_4_right_22_title:0 "§MVuQg¡R§!"
+ swz_middle_4_right_22_desc:0 "VuQg¡R"
+ swz_coast_modifier_tt:0 "[Root.GetName] ·ƒ—V '§YVuQg¡R§!' ôv0R8nbÓumgÿHeœg‚YNÿ\nýV¶R4lKbîOckÿ§G+25.0%§!\nwm›Q›RÏ‘P–6RîOckÿ§G+25.0%§!"
+ 
+ swz_right_4_tt:0 "ŒRbO‹T §R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_left_11_empty_title:0 "§R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_left_11_empty_desc:0 "¡l	g‰k¡N„vzzô•"
+ swz_right_4_left_11_title:0 "§R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_left_11_desc:0 "¡l	g‰k¡N„vzzô•"
+ swz_right_4_left_12_title:0 "§R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_left_12_desc:0 "¡l	g‰k¡N„vzzô•"
+ swz_right_4_left_21_title:0 "§R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_left_21_desc:0 "¡l	g‰k¡N„vzzô•"
+ swz_right_4_left_22_title:0 "§R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_left_22_desc:0 "¡l	g‰k¡N„vzzô•"
+ swz_right_4_middle_11_title:0 "§R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_middle_11_desc:0 "¡l	g‰k¡N„vzzô•"
+ swz_right_4_middle_12_title:0 "§R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_middle_12_desc:0 "¡l	g‰k¡N„vzzô•"
+ swz_right_4_middle_21_title:0 "§R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_middle_21_desc:0 "¡l	g‰k¡N„vzzô•"
+ swz_right_4_middle_22_title:0 "§R¡l	g‰k¡N„vzzô•§!"
+ swz_right_4_middle_22_desc:0 "¡l	g‰k¡N„vzzô•"
+ swz_disc_modifier_tt:0 "[Root.GetName] ·ƒ—V '§Y¡l	g‰k¡N„vzzô•§!' ôv0R8nbÓumgÿHeœg‚YNÿ\nªu‹Vÿ§G+5.0%§!"
+ # îOckÿ
+ # ,rNBSÿ
+ swz_autotax_modifier:0 "VgŒTVz"
+ desc_swz_autotax_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ sea_SWZ_ideas_1:0 "¯eZëXtõV"
+ sea_SWZ_ideas_1_start:0 "¯eZëX.Oßu"
+ sea_SWZ_ideas_1_bonus:0 "¯eZëXÄ–ÃV"
+ swz_explocolo_modifier:0 "¢c0tŒT–kl"
+ desc_swz_explocolo_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ swz_wtaxattr_modifier:0 "9eÛb‰Nz6eŒT2–¡V"
+ desc_swz_wtaxattr_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ # ,rŒNBSÿ
+ swz_tradprod_modifier:0 "ØšHe8fŒTuµN"
+ desc_swz_tradprod_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ swz_navtrad_modifier:0 "wm›Q.Oßu"
+ desc_swz_navtrad_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ swz_profdril_modifier:0 "­‹Ãu	g.t„vëXuQ"
+ desc_swz_profdril_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ # ,r	NBSÿ
+ swz_deve_modifier:0 "9eo‚wjO"
+ desc_swz_deve_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ swz_navmora_modifier:0 "z˜Î˜"
+ desc_swz_navmora_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ swz_armmora_modifier:0 "b‰N±R.O"
+ desc_swz_armmora_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ # ,rÛVBSÿ
+ swz_admeff_modifier:0 "ØšHeLˆ?e"
+ desc_swz_admeff_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ swz_coast_modifier:0 "VuQg¡R"
+ desc_swz_coast_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ swz_disc_modifier:0 "¡l	g‰k¡N„vzzô•"
+ desc_swz_disc_modifier:0 "§RîOck•šR:N¯eZëXtag0§!"
+ # ?eœ^ÿ
+ tribe_becomes_monarchy_reform_swazi:0 "9ei—:N¯eZëXTIN6R"
+ tribe_becomes_monarchy_reform_swazi_desc:0 "¯eZëX?eœ^=fÝuùRŒNCQTIN6RÿýV‹s Ngwenyama ŒTÖN„v‹s*YT Ndlovukati s^RCg›RÿåNs^aˆ|Vdk0SV°sûNýV‹s»SNTÿ°eßu»lw1u.OßuÔYXTO Liqoqo 	ébÿÖNìNÎNòTEeýV‹s„vgpgúQ„v»YPR-N	ébNNMO‹s*YTÿvQ?QPRSê¨Rb:N°eýV‹s0"
+ swazi_government_reform:0 "¯eZëX?eœ^"
+ swazi_government_reform_desc:0 "=fÝuùRŒNCQTIN6RÿýV‹s Ngwenyama ŒTÖN„v‹s*YT Ndlovukati s^RCg›RÿåNs^aˆ|Vdk0SV°sûNýV‹s»SNTÿ°eßu»lw1u.OßuÔYXTO Liqoqo 	ébÿÖNìNÎNòTEeýV‹s„vgpgúQ„v»YPR-N	ébNNMO‹s*YTÿvQ?QPRSê¨Rb:N°eýV‹s0"
+ mechanic_swazi_government_reform_zulu_warriors_yes:0 "ã‰• '§YVyœbëX§!' 5ÏeyrCg0SVžRËeöeÿ"
+ # yrCgÿ
+ estate_nobles_zulu_warriors_special_units:0 "VyœbëX"
+ estate_nobles_zulu_warriors_special_units_desc:0 "Ù›NÇRbe„vbëXÿÖNìNNåwS‚YUO²ŽPR9VÿmNÎNN˜UNÇlegÿçuíuÇRbe0W²QTLeºN0"
+ estate_nobles_zulu_warriors_special_units_granted_tt:0 "ÙuˆN §YyrŠkekuQ§! ›Q›RP–6R0"
+ estate_nobles_zulu_warriors_special_units_revoked_tt:0 "ûyd– §YyrŠkekuQ§! ›Q›RP–6R0"
+ # îOckÿ
+ zulu_warriors_units:0 "VyœbëX"
+ desc_zulu_warriors_units:0 "Ù›NÇRbe„vbëXÿÖNìNNåwS‚YUO²ŽPR9VÿmNÎNN˜UNÇlegÿçuíuÇRbe0W²QTLeºN0"
+ NGWENYAMA:0 "Ngwenyama"
+ NDLOVUKATI:0 "Ndlovukati"
+ # ‹NöNÿ
+ swazi_election_government.1.t:0 "°eöeãN„vVËY"
+ swazi_election_government.1.d:0 "bìN„v NgwenyamaÿýV‹sÿòTÏu»SNÿYuÙu LiqoqoÿbìNÿ³QšRŒSb:NbìN„vNNMO Ndlovukatiÿ‹s*YTÿåNÊSyY„v?QPRSb:NNNMO Ngwenyama0x^Ð„v=fÿbìNòTÏuÎNOYP	ºN-N—V0R†NN›Ng‹Y„vÿÏk*NºNý	gÖNìNêñT„vYe>mýw›R0\nÿã‰•ôfY„vYe>mÿïSåNÐc›OôfY„v	éb0	ÿ"
+ swazi_election_government.1.dd:0 "bìN„vçubºNòTÏu»SNÿYuÙu LiqoqoÿbìNÿ³QšRŒSb:NbìN„vNNMO Ndlovukatiÿ‹s*YTÿåNÊSyY„v?QPRSb:NNNMO Ngwenyama0x^Ð„v=fÿbìNòTÏuÎNOYP	ºN-N—V0R†NN›Ng‹Y„vÿÏk*NºNý	gÖNìNêñT„vYe>mýw›R0\nÿã‰•ôfY„vYe>mÿïSåNÐc›OôfY„v	éb0	ÿ"
+ swazi_election_government.1.a:0 "©‹bìN	éb Cwezi Ye>m Ndlovukati0"
+ swazi_election_government.1.b:0 "©‹bìN	éb Mlira Ye>m Ndlovukati0"
+ swazi_election_government.1.c:0 "©‹bìN	éb Mwari Ye>m Ndlovukati0"
+ swazi_election_government.1.e:0 "©‹bìN	éb Yemoja Ye>m Ndlovukati0"
+ swazi_election_government.1.f:0 "©‹bìN	éb Roog Ye>m Ndlovukati0"
+ swazi_election_government.1.g:0 "©‹bìN	éb Nyame Ye>m Ndlovukati0"
+ swazi_election_government.1.h:0 "©‹bìN	éb Enkai Ye>m Ndlovukati0"
+ swazi_election_government.1.i:0 "©‹bìN	éb Waaq Ye>m Ndlovukati0"
+ swazi_election_government.1.j:0 "©‹bìN	éb Zanahary Ye>m Ndlovukati0"
+ swazi_election_government.1.k:0 "©‹bìN	ébúWcwYeYe>m Ndlovukati0"
+ swazi_election_government.1.l:0 "©‹bìN	ébO¯epQYeYe>m Ndlovukati0"
+ swazi_election_government.1.m:0 "©‹bìN	éb Buddhadharma Ye>m Ndlovukati0"
+ swazi_election_government.1.n:0 "©‹bìN	éb Sanatana Dharma Ye>m Ndlovukati0"
+ swazi_election_government.1.o:0 "©‹bìN	éb Teotl Ye>m Ndlovukati0"
+ swazi_election_government.1.p:0 "©‹bìN	éb Freyja Ye>m Ndlovukati0"
+ swazi_election_government.1.q:0 "©‹bìN	éb Haymanot Ye>m Ndlovukati0"
+ swazi_election_government.1.r:0 "©‹bìN	éb Mazdayasna Ye>m Ndlovukati0"
+ UNTIL_NEW_SWAZI_CONSORT:0 "ôv0RbìN„vM‘vP»SN"
+ # ‡e¾ÿ
+ VNA:0 "‡e¾"
+ VNA_ADJ:0 "¯eZëX"
+ # i`äS<Sÿ
+ NGU:0 "i`äS<S"
+ NGU_ADJ:0 "i`äS<S"
+ # eYNZSÿ
+ OVA:0 "eYNZS"
+ OVA_ADJ:0 "eYNZS"
+ # eYôuÆY,gjgÿ
+ OVI:0 "eYôuÆY,gjg"
+ OVI_ADJ:0 "eYôuÆY,gjg"
+ # mPŸÿ
+ LOZ:0 "mPŸ"
+ LOZ_ADJ:0 "mPŸ"
+ # ÆY¦jgÿ
+ MBU:0 "ÆY¦jg"
+ MBU_ADJ:0 "ÆY¦jg"
+ # ÆYôT
+ BEM:0 "ÆYôT"
+ BEM_ADJ:0 "ÆYôT"
+ # aSÉb Rÿ
+ KLG:0 "aSÉb R"
+ KLG_ADJ:0 "aSÉb R"
+ bushmen_tribe:0 "^‰˜üfèK„"
+ bushmen_tribe_desc:0 "^‰˜üf=fWSè^—2m„vWW„lÏe0ÖNìNIN‰=férsÇ‘Æ–wÿÖNìN„v†˜W*jèàQ*NýV¶RÿÖNìNòTÏuðyÙ*N0W:S:N¶RpeNt^†N0"
+ # ÑyOQhÿ
+ KHE:0 "ÑyOQh"
+ KHE_ADJ:0 "ÑyOQh"
+ # ³ulšÿ
+ NAM:0 "³ulš"
+ NAM_ADJ:0 "³ulš"
+ # k÷–Wÿ
+ HER:0 "k÷–W"
+ HER_ADJ:0 "k÷–W"
+ 
+ # WS^—tõVÿó`NúQÀNHN‹Y„v0
+ sea_south_african_ideas:0 "WS^—tõV"
+ sea_south_african_ideas_start:0 "WS^—.Oßu"
+ sea_south_african_ideas_bonus:0 "WS^—Ä–ÃV"
+ sea_south_africa_logistical_warfare:0 "TäRb‰N"
+ sea_south_africa_logistical_warfare_desc:0 "ô‹0Rb‰NÿbìN	gëXuQ—‰„vg¿OœR„vÅˆY0N—‰±‚èT„vN‰0"
+ sea_south_africa_our_own_little_corner:0 "ÝO²bbìN„v0W¹e"
+ sea_south_africa_our_own_little_corner_desc:0 "bìN=fNLu„vN*NSSÒ‰K„„vNèRÿbìNÅV‰˜ôu²bŒTÝO²bbìNNbåb	g„vN¹p¹pÿbwT±›NbeŽNb—ùRbìN„vºNUS:y0"
+ sea_south_africa_securing_our_trade:0 "*YY„vYegFUºN"
+ sea_south_africa_securing_our_trade_desc:0 "Yegw²‹:NbìNˆVSÿSVbìNŒTÖNìN²NföeÿFObìNÅV‰˜ÝOcbìN„v8fÿ&TRbìNÞ±N¹p¹pý¡l	g†N0"
+ sea_south_africa_everyone_must_be_happy:0 "Nb	gºNýëVPN"
+ sea_south_africa_everyone_must_be_happy_desc:0 "¡l	gºN±b(`ÿ±›N±b(`„vºNÿÖNìNjPbk±b(`0"
+ sea_south_africa_making_legitimate_history:0 "R.†SòS"
+ sea_south_africa_making_legitimate_history_desc:0 "‹†6qbìNùRÙ*NNLuegô‹Ôkƒ°eÿFOÙÍN6q=fN*NN•„vVËYÿR.bìNêñT„v†SòSÿ©‹bìN(W*geg«ˆ°‹OO0"
+ sea_south_africa_constantly_on_move:0 "N­eûy¨R"
+ sea_south_africa_constantly_on_move_desc:0 "bìNNôv(Wûy¨Rÿ¡l	gOo`0ÙmN=fLeºNNggbìN(W0R¾—‰ˆV•öeô•„v0W¹e„vŸSàVKNN0"
+ sea_south_africa_working_day_and_night:0 "åeåNçuY0WåTjO"
+ sea_south_africa_working_day_and_night_desc:0 "bìNÎNNjPbkbìNck(WZP„v‹NÅ`ÿàV:NbìNjPbk„v±N)Yÿ1S=fbìN‰k»S„v±N)Y0"
+ # ‰èÿ
+ mini_yemoja_cult_modifier:0 "6widšN"
+ mini_yemoja_cult_modifier_desc:0 "6widšNÿ4lKNÍkÿ=f¦uœôTºN-N:V'Y„veYÌ‘™l0bìN÷‹BlyYÝO²bsY'`ÿÝO²bwmNÅeLˆÿv^&^eg0N6e0"
+ mini_roog_cult_modifier:0 "W<h"
+ mini_roog_cult_modifier_desc:0 "W<hÿR.wÿ=f^X÷–ºN^y'`„vTWRŒT›RÏ‘0ÇTVyHQ¾|^yXoäSSzrrrÿbìNb²‹bìNu‹T„v^y1W'`0"
+ mini_nyame_cult_modifier:0 "<SšNŽ"
+ mini_nyame_cult_modifier_desc:0 "<SšNŽÿ)Y^yÿ9hnc?–ce‚„ºN„vô‹ÕlÿR.†N,rN*NºN‰|0<SšNŽ„viRPR=f?–ZS0tÆYÿƒS„v^yŒTVyHQÿòTåw(W0WtNOS©RbìNºN‰| - bìNNw=fNSO0"
+ # -Nèÿ
+ mini_cwezi_cult_modifier:0 "KQôuyQ"
+ mini_cwezi_cult_modifier_desc:0 "bìNÍsÆ‰çeúWTXÉb^ýV„v.Oßu0ÇNê6q¾|^yÝOco‚‹YsQû|ÿÍsÆ‰bìN„vúWTXÉbVyHQŒTÝO²bÖNìN^y›Ÿ„vNˆßuÿbìNïSåNnxÝOÝOc^y„vR—Pw0"
+ mini_central_african_ancestor_cult_modifier:0 "ÆY)RÉb"
+ mini_central_african_ancestor_cult_modifier_desc:0 "Ç^yŒÿbìNïSåNN‰k»S„vVyHQŒTê6q¾|^y²NAm0Ù7hbìNïSåNnxÝObìNSle±›N(WbìNKNMR„vºNÿv^(WhTôVLeùR„v¯sƒX-N·ƒ—V.^©R0"
+ mini_mwari_cult_modifier:0 "ÆYætÌ‘"
+ mini_mwari_cult_modifier_desc:0 "bìNSleR.†NÙ*NNLu„vO'Y^yÆYætÌ‘ÿSVÖNô‹Ý‹öeÿÖNOqS	—¨R0ÆYætÌ‘=f=UN„vw^yÿÖN(W0WtN„vðXó—ŒTßu»lw=fbìN„vßu»lw0"
+ # Nèÿ
+ mini_enkai_cult_modifier:0 "i`ïQ"
+ mini_enkai_cult_modifier_desc:0 "bìNuªVi`ïQÿ)Yzz-N„vºNÿÖNŠbrrjuÙu†NbìNÿObìNb:NNLuNNb	gir„vTÕlåb	gw0jO:N)Yzz„vßu»lwÿÖNmN=fkyybìNè–4l„vºNÿbw(WÖN2a`öecbYuƒR0"
+ mini_waaq_cult_modifier:0 "æt?–KQ"
+ mini_waaq_cult_modifier_desc:0 "O'Y„væt?–KQ=f)YzzKN^yÿóØšàeNÿhQýw„v‡R™Rßu»lw0ÖN„vý–wHyBlŒTs^NŒTŒÿøváONLus^aˆùRŽNMQŒp¾–ŒTNx^ósQÍ‘‰0"
+ mini_zanahary_cult_modifier:0 "Nb³uÈTÌ‘"
+ mini_zanahary_cult_modifier_desc:0 "Nb³uÈTÌ‘R.wwQ	gÌSÍ‘'`(ÿ7u'`ŒTsY'`ÿIQfNÑž—fÿ)YXN0Wt0VyHQ=f>y:S-NgÍ‘‰„vbXTÿàV:NÖNìNôv¥cN^yTwû|ÿwImNw„vºNêS=f‚föe„vö^8O0"
+ # NLuvQÖN0W:Sÿ
+ mini_christianity_cult_modifier:0 "úWcwYe"
+ mini_christianity_cult_modifier_desc:0 "bìNuªVS6w1zúWcw>e(WÙ*NNLuN:NbìN„vjw‰k„v^y„v¹eV0"
+ mini_islam_cult_modifier:0 "O¯epQYe"
+ mini_islam_cult_modifier_desc:0 "bìNuªVO'Y„v^yÇÖN„vHQåwFzUØž·VTNLuíc:y„v¹eV0"
+ mini_buddhism_cult_modifier:0 "iON–Ye"
+ mini_buddhism_cult_modifier_desc:0 "bìNuªVO'Y„vüR^ Gautama Buddha „vSïÿÖNàQ*NNªuMRp(WÙ*NNLuN0ÇÖNÿbìN†Nã‰†NÛV1WŒÿnÞVŒTÙ*NNLu„v'`(0"
+ mini_dharmic_cult_modifier:0 "1WÕlYe"
+ mini_dharmic_cult_modifier_desc:0 "bìNuªVpS¦^Ye^y„väSw¹eV0ÎNÖNìN±Ì‘ÿbìN†Nã‰0RnÞVåNÊS‚YUOÇÍyÓY	gHe0WÄuÇu>yO0"
+ mini_south_central_american_cult_modifier:0 "yreYyrS"
+ mini_south_central_american_cult_modifier_desc:0 "bìNÎNwmNfR`N†NyreYyrS^y„v^yØy¹eV0ÇzrrrŒTÔNÆuÂ‰ßR)YzzÿbìNïSåNqVÍT0WtN„vu‹TÿMQbìNNbåwS„v‡ef„vÈuÓu0"
+ mini_norse_cult_modifier:0 "V÷–šN"
+ mini_norse_cult_modifier_desc:0 "bìNuªVŽKN„vsYëXV÷–šNÿ1r0b‰NŒTT›Õl„vsY^y0ÇyY„v<yirseidT›ÕlÿbìNSÖS—V‰Lq„vVgÿ"
+ mini_zoroastrian_cult_modifier:0 "tWšN¯e·VYe"
+ mini_zoroastrian_cult_modifier_desc:0 "bìNuªVHQåwtWšN¯e·V„vYeüRÿSle?–áwÉb·lšyQ¾ÙMOzfw0ck‚YÖS¦`^yÿbìNS8lÜÝOc1WkpÃqçp0"
+ mini_jewish_cult_modifier:0 "ÈTüfú‹"
+ mini_jewish_cult_modifier_desc:0 "bìNøváO=UN„v^yÿbìN=fšN=OÉbU„viRPR0àQ*NNªuåNegÿbìN1Y»S†NNbìN¹r*Y9hn„vTwû|ÿFO°s(WbìNQ!kåb±bÖNìN„v.Oßu0"
+ # Rest:
+ khoe:0 "Ñy—"
+ tshua:0 "yr‚?–"
+ tswana:0 "yr¯eæt±"
+ # Kilwa:
+ # îOckÿ
+ zan_great_kilwa_gold_modifier:0 "úWSætÄžÑ‘Lˆ:N"
+     
+ # Songhai:
+ # Decisions:
+ # ³QVrÿ
+ songhai_nation_title:0 "@SON ú^Ëz°eQhwm"
+ songhai_nation_desc:0 ""
+
+ # SY-^—2m ³o2m ‰=O)RšNwýN
+ PROV5983:0 "ÆYôuf"
+ PROV5908:0 "ks|^Xyr"
+ PROV5982:0 "S?–¯e"
+ PROV5976:0 "?–SÌR"
+ PROV5966:0 "pgSÕl"
+ PROV5978:0 "ªR·V"
+ PROV5965:0 "ÃWSæ—·V"
+ PROV5964:0 "ïQÔkÒR"
+ PROV5973:0 "¯eïQKQ¾"
+ PROV5969:0 "ÖvSlš"
+ PROV5972:0 "ÈTlš…hyr"
+ PROV5970:0 "Ðc?– R"
+ PROV5953:0 "?–>ÔkšN"
+ PROV6438:0 ")RÔkšN™l.o"
+ PROV5937:0 "°R RNm<h"
+ PROV5936:0 "™lÆY™lOk"
+ PROV6551:0 "êúW±ƒ"
+ PROV6553:0 "ÃW«ƒ¯eVœyr"
+ PROV5948:0 "FzþV"
+ PROV5949:0 "bSKQ0t"
+ PROV5940:0 "kS R¾"
+ PROV5950:0 "ÔkS™lôT"
+ PROV5997:0 "?–yrôTÉb"
+ PROV6433:0 "ZSlš"
+ PROV6049:0 "?–¦u·V"
+ PROV6014:0 "	T<SS"
+ PROV6434:0 "‰è'Y™l.o"
+ PROV6096:0 "?–·VÉbS"
+ PROV6097:0 "yrs|Fzi`"
+ PROV6092:0 "ÃWSb±ƒ?–"
+ PROV6435:0 "RÀN"
+ PROV6436:0 "TX…QyQœ+Yyr"
+ PROV6437:0 "TXÕl(„^Xyr"
+ PROV6104:0 "lš<hTXÉbkS"
+ PROV6113:0 "úWÕl"
+ PROV6111:0 "¾ŽUS"
+ PROV6115:0 "fWôTf¾"
+ PROV6117:0 "ÔkÍu"
+ PROV6118:0 "Éb"
+ PROV6137:0 "NWNW"
+ PROV6120:0 "Ñ‘êšN"
+ PROV6121:0 "ÑyOjg"
+ PROV6122:0 "lšïQ<S"
+ PROV6123:0 "¯wÃWlš"
+ PROV6124:0 "i`ýl÷–Ñy÷–"
+ PROV6126:0 "^XäSÉb"
+ PROV6103:0 "?–KQÉb‚„S"
+ PROV6139:0 "‰R·VSôTbœ"
+ PROV6138:0 "êÃWlš"
+ PROV6141:0 "2Sætœ"
+ PROV6142:0 "æt‰äS?–"
+ PROV6132:0 "^ætïQ"
+ PROV6145:0 "yrPŸüf"
+ PROV6146:0 "¾(„"
+ PROV5922:0 "?–¦uœ"
+ PROV5923:0 "<SšNŽ"
+ PROV6150:0 "O÷–ZS"
+ PROV6156:0 "LNÖvnf"
+ PROV6552:0 "ÕlšN"
+ PROV6081:0 "ÔkS‚„…Q"
+ PROV6082:0 "“^þVÆY"
+ PROV6038:0 "byQ¾"
+ PROV6203:0 "ætLN"
+ PROV6228:0 "ôTTX"
+ PROV6229:0 "ÑyÌ‘Ôk"
+ PROV6234:0 "Y)R‰"
+ PROV6188:0 "Å–)n—V"
+ PROV6237:0 "“^ÉbÆYþV" 
+ PROV6238:0 "fjg)R"
+ PROV6241:0 "lš¯e“^"
+ PROV6242:0 "eY6wÆY"
+ PROV6198:0 ")R“^?–Éb"
+ PROV5928:0 "LNÃW0t"
+ PROV6223:0 "ôTQh“^Ï‚"
+ PROV6224:0 "ZSi`—V"
+ PROV6219:0 "^TX"
+ PROV6012:0 "eYid"
+ PROV6030:0 "³u“^œ"
+ PROV6052:0 "aS“^›s"
+ PROV6022:0 "«ƒšN±ƒ"
+ PROV6024:0 "lš(„Ôkyr"
+ PROV6023:0 "ÈTôTæ—àV"
+ PROV6034:0 "lšÉb(„<S"
+ PROV6212:0 "úW&OôT"
+ PROV6214:0 "<hlš"
+ PROV6061:0 "aS^X¯e"
+ PROV6059:0 "lš›ê"
+ PROV6067:0 "	TÏ‚(g"
+ PROV6065:0 "ïQÌ‘TN"
+ PROV6066:0 "úW‰"
+ PROV6289:0 "ÆY^"
+ PROV5932:0 "O! R"
+ PROV6293:0 "eYœ(„"
+ PROV6297:0 "TXZSÉb"
+ PROV6295:0 "«ƒWbW"
+ PROV5911:0 "úW¯eæ—±ƒ"
+ PROV6307:0 "lšaSÆYôTÑy"
+ PROV6308:0 "i`<t"
+ PROV6305:0 "lš(„‰"
+ PROV5912:0 "HYXbiO"
+ PROV6376:0 "…h“^Éb"
+ PROV6377:0 "?–SXbWidÑyôu"
+ PROV6306:0 "i`!·V"
+ PROV6304:0 "ÆYnf&OäS"
+ PROV6332:0 "aS(„›s"
+ PROV6337:0 "aSŒgäS"
+ PROV6380:0 "’‚bGY"
+ PROV6331:0 "	Tyræ—"
+ PROV6345:0 "^Ôk‰"
+ PROV6378:0 "«ƒ^aS"
+ PROV6255:0 "Éb³u³u"
+ PROV6249:0 "9‰RpQ0t?–"
+ PROV6247:0 "…Q<SyrÉb"
+ PROV6432:0 "·šÅšwm¸S"
+ PROV6315:0 "¯wÖv"
+ PROV6325:0 "ôTaSÉb"
+ PROV6326:0 "aS±ƒs|"
+ PROV6328:0 "iOæ—Xb"
+ PROV6264:0 "êšNS"
+ PROV6274:0 "kbSkbSæ—"
+ PROV6381:0 "^pQðlS"
+ PROV6296:0 "ÖvTX"
+ PROV6069:0 "	T¦b"
+ PROV6517:0 "«ƒÑ‘1rnf"
+ PROV6516:0 "³uWÑ‘"
+ PROV6518:0 "ú‹Nüf"
+ PROV6514:0 "ú‹mtÆY"
+ PROV6515:0 "üf	Tlšnf"
+ PROV6511:0 "s|aS(„Éb"
+ PROV6545:0 "ØžGYîh"
+ PROV6546:0 "lšÒRæt"
+ PROV6512:0 "aSSôTÌ‘"
+ PROV6508:0 "ŽUÉb’d"
+ PROV6509:0 "ÃWKQ¯eƒ¯e"
+ PROV6510:0 "—g‰v"
+ PROV6544:0 "lš^SôT"
+ PROV6506:0 "aS&O^œ"
+ PROV6507:0 "“^ªR³uÉb"
+ PROV6504:0 "æ‚Ì‘ôT"
+ PROV6505:0 "?–³uÆY0W"
+ PROV6503:0 "æt(„Ì‘ªR"
+ PROV6500:0 "“lšÉb"
+ PROV6499:0 "ôu)Rlbi`äSœ"
+ PROV6501:0 "TXWSÔk)R<S"
+ PROV6492:0 "“^Éb›sÉb"
+ PROV6493:0 "zzäSÉb"
+ PROV6494:0 "¾ågÉb"
+ PROV6498:0 "ö^jgFz"
+ PROV6497:0 "fWWSyrKQÌ‘KQ"
+ PROV6495:0 "T%mTX"
+ PROV6496:0 "WlÎW"
+ PROV6519:0 "›nfîh™l.o"
+ PROV6490:0 "ôTlš R"
+ PROV6489:0 "ö^^Éb"
+ PROV6491:0 "Oi`‰v"
+ PROV6487:0 "^RšN"
+ PROV6488:0 "lšTXôTÉb"
+ PROV6486:0 "ÝTeYðS"
+ PROV6485:0 "ml¾"
+ PROV6483:0 "fWZS"
+ PROV6482:0 "’‚ RÉbÉb"
+ PROV6481:0 "NYS®v"
+ PROV6477:0 "mtÉbyr"
+ PROV6480:0 "ƒl³u—g"
+ PROV6474:0 "êpQísãN"
+ PROV6475:0 "!ê‡eê"
+ PROV6476:0 "þV‡eôT"
+ PROV6478:0 "?–aSbSÉb"
+ PROV6479:0 "…hRê"
+ PROV6473:0 "	TSu<SšN"
+ PROV6466:0 "`KQÌ‘"
+ PROV6472:0 "N^Éb"
+ PROV6467:0 "±Éb“^yr"
+ PROV6465:0 "“^cƒ"
+ PROV6468:0 "ôueYÉb"
+ PROV6469:0 ",gêb"
+ PROV6464:0 "ætWS^S"
+ PROV6463:0 "ÑyÉbKQ"
+ PROV6462:0 "	Tg"
+ PROV6459:0 "eYZS"
+ PROV6460:0 "”N&O!"
+ PROV6461:0 "ØžÌ‘GY"
+ PROV6470:0 "ƒl Rƒl R"
+ PROV6471:0 "`„S†–"
+ PROV6543:0 "‚„?–Yt"
+ PROV6542:0 "ætOÐc" 
+ PROV6541:0 "eYTXaSm"
+ PROV6540:0 "TXÉb›sw" 
+ PROV6539:0 "TXaSaS"
+ PROV6536:0 "v–g R"
+ PROV6537:0 "‚„?–ÉbWæt"
+ PROV6538:0 "«ƒÈTaS"
+ PROV6535:0 "eYnf±KQ"
+ PROV6533:0 "«ƒS¯eÔk"
+ PROV6524:0 "ôf	N"
+ PROV6523:0 "ek	TœQ"
+ PROV6525:0 "Ôk¯e)R<h"
+ PROV6522:0 "u›s"
+ PROV6521:0 "aSætö^"
+ PROV6520:0 "µxvt"
+ PROV6532:0 "ûN Ru"
+ PROV6531:0 "ú‹)RÌ‘KQ"
+ PROV6528:0 "ÉbVy™„'k"
+ PROV6527:0 "«ƒyQYÑy"
+ PROV6526:0 "ôT RûN"
+ PROV6529:0 "ŽUÉb^Éb"
+ PROV6534:0 "„vûN"
+ PROV6441:0 "KQXbm"
+ PROV6442:0 "Nèx"
+ PROV6443:0 "ætôT<h"
+ PROV6444:0 "ZSœg"
+ PROV6445:0 "Áe·VTX"
+ PROV6446:0 "›sSV"
+ PROV6447:0 "fê?–æt"
+ PROV6448:0 "œgœg¾"
+ PROV6449:0 "(„Q"
+ PROV6450:0 "n®v’d"
+ PROV6550:0 "YtQ‰R­S"
+ PROV6451:0 "„SÞ"
+ PROV6452:0 "'k^·V"
+ PROV6453:0 "àVÎW"
+ PROV6454:0 "'YiOØš"
+ PROV6455:0 "Ñ‘ÑyÌ‘"
+ PROV6457:0 "^tyråN"
+ PROV6458:0 "^¿ulš<S"
+ PROV6558:0 "‰R	TeYæTW"
+ PROV6557:0 "©‹Xb™l"
+ PROV6556:0 "ÉbÈT"
+ PROV6513:0 "lš<h<Syr"
+ PROV6547:0 "ïQÒR—g"
+ PROV6199:0 "^þVyQ"
+ PROV6171:0 "^ætS"
+ PROV6439:0 "CSS"
+ PROV6440:0 "0NŸS"
+ PROV_ADJ6553:0 "ÃW«ƒ¯eVœyr"
+ PROV_ADJ5983:0 "ÆYôuf"
+ PROV_ADJ5908:0 "ks|^Xyr"
+ PROV_ADJ5982:0 "S?–¯e"
+ PROV_ADJ5976:0 "?–SÌR"
+ PROV_ADJ5966:0 "pgSÕl"
+ PROV_ADJ5978:0 "ªR·V"
+ PROV_ADJ5965:0 "ÃWSæ—·V"
+ PROV_ADJ5964:0 "ïQÔkÒR"
+ PROV_ADJ5973:0 "¯eïQKQ¾"
+ PROV_ADJ5969:0 "ÖvSlš"
+ PROV_ADJ5972:0 "ÈTlš…hyr"
+ PROV_ADJ5970:0 "Ðc?– R"
+ PROV_ADJ5953:0 "?–>ÔkšN"
+ PROV_ADJ6438:0 ")RÔkšN™l.o"
+ PROV_ADJ5937:0 "°R RNm<h"
+ PROV_ADJ5936:0 "™lÆY™lOk"
+ PROV_ADJ6551:0 "êúW±ƒ"
+ PROV_ADJ5948:0 "FzþV"
+ PROV_ADJ5949:0 "bSKQ0t"
+ PROV_ADJ5940:0 "kS R¾"
+ PROV_ADJ5950:0 "ÔkS™lôT"
+ PROV_ADJ5997:0 "?–yrôTÉb"
+ PROV_ADJ6433:0 "ZSlš"
+ PROV_ADJ6049:0 "?–¦u·V"
+ PROV_ADJ6014:0 "	T<SS"
+ PROV_ADJ6434:0 "‰è'Y™l.o"
+ PROV_ADJ6096:0 "?–·VÉbS"
+ PROV_ADJ6097:0 "yrs|Fzi`"
+ PROV_ADJ6092:0 "ÃWSb±ƒ?–"
+ PROV_ADJ6435:0 "RÀN"
+ PROV_ADJ6436:0 "TX…QyQœ+Yyr"
+ PROV_ADJ6437:0 "TXÕl(„^Xyr"
+ PROV_ADJ6104:0 "lš<hTXÉbkS"
+ PROV_ADJ6113:0 "úWÕl"
+ PROV_ADJ6111:0 "¾ŽUS"
+ PROV_ADJ6115:0 "fWôTf¾"
+ PROV_ADJ6117:0 "ÔkÍu"
+ PROV_ADJ6118:0 "Éb"
+ PROV_ADJ6137:0 "NWNW"
+ PROV_ADJ6120:0 "Ñ‘êšN"
+ PROV_ADJ6121:0 "ÑyOjg"
+ PROV_ADJ6122:0 "lšïQ<S"
+ PROV_ADJ6123:0 "¯wÃWlš"
+ PROV_ADJ6124:0 "i`ýl÷–Ñy÷–"
+ PROV_ADJ6126:0 "^XäSÉb"
+ PROV_ADJ6103:0 "?–KQÉb‚„S"
+ PROV_ADJ6139:0 "‰R·VSôTbœ"
+ PROV_ADJ6138:0 "êÃWlš"
+ PROV_ADJ6141:0 "2Sætœ"
+ PROV_ADJ6142:0 "æt‰äS?–"
+ PROV_ADJ6132:0 "^ætïQ"
+ PROV_ADJ6145:0 "yrPŸüf"
+ PROV_ADJ6146:0 "¾(„"
+ PROV_ADJ5922:0 "?–¦uœ"
+ PROV_ADJ5923:0 "<SšNŽ"
+ PROV_ADJ6150:0 "O÷–ZS"
+ PROV_ADJ6156:0 "LNÖvnf"
+ PROV_ADJ6552:0 "ÕlšN"
+ PROV_ADJ6081:0 "ÔkS‚„…Q"
+ PROV_ADJ6082:0 "“^þVÆY"
+ PROV_ADJ6038:0 "byQ¾"
+ PROV_ADJ6203:0 "ætLN"
+ PROV_ADJ6228:0 "ôTTX"
+ PROV_ADJ6229:0 "ÑyÌ‘Ôk"
+ PROV_ADJ6234:0 "Y)R‰"
+ PROV_ADJ6188:0 "Å–)n—V"
+ PROV_ADJ6237:0 "“^ÉbÆYþV" 
+ PROV_ADJ6238:0 "fjg)R"
+ PROV_ADJ6241:0 "lš¯e“^"
+ PROV_ADJ6242:0 "eY6wÆY"
+ PROV_ADJ6198:0 ")R“^?–Éb"
+ PROV_ADJ5928:0 "LNÃW0t"
+ PROV_ADJ6223:0 "ôTQh“^Ï‚"
+ PROV_ADJ6224:0 "ZSi`—V"
+ PROV_ADJ6219:0 "^TX"
+ PROV_ADJ6012:0 "eYid"
+ PROV_ADJ6030:0 "³u“^œ"
+ PROV_ADJ6052:0 "aS“^›s"
+ PROV_ADJ6022:0 "«ƒšN±ƒ"
+ PROV_ADJ6024:0 "lš(„Ôkyr"
+ PROV_ADJ6023:0 "ÈTôTæ—àV"
+ PROV_ADJ6034:0 "lšÉb(„<S"
+ PROV_ADJ6212:0 "úW&OôT"
+ PROV_ADJ6214:0 "<hlš"
+ PROV_ADJ6061:0 "aS^X¯e"
+ PROV_ADJ6059:0 "lš›ê"
+ PROV_ADJ6067:0 "	TÏ‚(g"
+ PROV_ADJ6065:0 "ïQÌ‘TN"
+ PROV_ADJ6066:0 "úW‰"
+ PROV_ADJ6289:0 "ÆY^"
+ PROV_ADJ5932:0 "O! R"
+ PROV_ADJ6293:0 "eYœ(„"
+ PROV_ADJ6297:0 "TXZSÉb"
+ PROV_ADJ6295:0 "«ƒWbW"
+ PROV_ADJ5911:0 "úW¯eæ—±ƒ"
+ PROV_ADJ6307:0 "lšaSÆYôTÑy"
+ PROV_ADJ6308:0 "i`<t"
+ PROV_ADJ6305:0 "lš(„‰"
+ PROV_ADJ5912:0 "HYXbiO"
+ PROV_ADJ6376:0 "…h“^Éb"
+ PROV_ADJ6377:0 "?–SXbWidÑyôu"
+ PROV_ADJ6306:0 "i`!·V"
+ PROV_ADJ6304:0 "ÆYnf&OäS"
+ PROV_ADJ6332:0 "aS(„›s"
+ PROV_ADJ6337:0 "aSŒgäS"
+ PROV_ADJ6380:0 "’‚bGY"
+ PROV_ADJ6331:0 "	Tyræ—"
+ PROV_ADJ6345:0 "^Ôk‰"
+ PROV_ADJ6378:0 "«ƒ^aS"
+ PROV_ADJ6255:0 "Éb³u³u"
+ PROV_ADJ6249:0 "9‰RpQ0t?–"
+ PROV_ADJ6247:0 "…Q<SyrÉb"
+ PROV_ADJ6432:0 "·šÅšwm¸S"
+ PROV_ADJ6315:0 "¯wÖv"
+ PROV_ADJ6325:0 "ôTaSÉb"
+ PROV_ADJ6326:0 "aS±ƒs|"
+ PROV_ADJ6328:0 "iOæ—Xb"
+ PROV_ADJ6264:0 "êšNS"
+ PROV_ADJ6274:0 "kbSkbSæ—"
+ PROV_ADJ6381:0 "^pQðlS"
+ PROV_ADJ6296:0 "ÖvTX"
+ PROV_ADJ6069:0 "	T¦b"
+ PROV_ADJ6517:0 "«ƒÑ‘1rnf"
+ PROV_ADJ6516:0 "³uWÑ‘"
+ PROV_ADJ6518:0 "ú‹Nüf"
+ PROV_ADJ6514:0 "ú‹mtÆY"
+ PROV_ADJ6515:0 "üf	Tlšnf"
+ PROV_ADJ6511:0 "s|aS(„Éb"
+ PROV_ADJ6545:0 "ØžGYîh"
+ PROV_ADJ6546:0 "lšÒRæt"
+ PROV_ADJ6512:0 "aSSôTÌ‘"
+ PROV_ADJ6508:0 "ŽUÉb’d"
+ PROV_ADJ6509:0 "ÃWKQ¯eƒ¯e"
+ PROV_ADJ6510:0 "—g‰v"
+ PROV_ADJ6544:0 "lš^SôT"
+ PROV_ADJ6506:0 "aS&O^œ"
+ PROV_ADJ6507:0 "“^ªR³uÉb"
+ PROV_ADJ6504:0 "æ‚Ì‘ôT"
+ PROV_ADJ6505:0 "?–³uÆY0W"
+ PROV_ADJ6503:0 "æt(„Ì‘ªR"
+ PROV_ADJ6500:0 "“lšÉb"
+ PROV_ADJ6499:0 "ôu)Rlbi`äSœ"
+ PROV_ADJ6501:0 "TXWSÔk)R<S"
+ PROV_ADJ6492:0 "“^Éb›sÉb"
+ PROV_ADJ6493:0 "zzäSÉb"
+ PROV_ADJ6494:0 "¾ågÉb"
+ PROV_ADJ6498:0 "ö^jgFz"
+ PROV_ADJ6497:0 "fWWSyrKQÌ‘KQ"
+ PROV_ADJ6495:0 "T%mTX"
+ PROV_ADJ6496:0 "WlÎW"
+ PROV_ADJ6519:0 "›nfîh™l.o"
+ PROV_ADJ6490:0 "ôTlš R"
+ PROV_ADJ6489:0 "ö^^Éb"
+ PROV_ADJ6491:0 "Oi`‰v"
+ PROV_ADJ6487:0 "^RšN"
+ PROV_ADJ6488:0 "lšTXôTÉb"
+ PROV_ADJ6486:0 "ÝTeYðS"
+ PROV_ADJ6485:0 "ml¾"
+ PROV_ADJ6483:0 "fWZS"
+ PROV_ADJ6482:0 "’‚ RÉbÉb"
+ PROV_ADJ6481:0 "NYS®v"
+ PROV_ADJ6477:0 "mtÉbyr"
+ PROV_ADJ6480:0 "ƒl³u—g"
+ PROV_ADJ6474:0 "êpQísãN"
+ PROV_ADJ6475:0 "!ê‡eê"
+ PROV_ADJ6476:0 "þV‡eôT"
+ PROV_ADJ6478:0 "?–aSbSÉb"
+ PROV_ADJ6479:0 "…hRê"
+ PROV_ADJ6473:0 "	TSu<SšN"
+ PROV_ADJ6466:0 "`KQÌ‘"
+ PROV_ADJ6472:0 "N^Éb"
+ PROV_ADJ6467:0 "±Éb“^yr"
+ PROV_ADJ6465:0 "“^cƒ"
+ PROV_ADJ6468:0 "ôueYÉb"
+ PROV_ADJ6469:0 ",gêb"
+ PROV_ADJ6464:0 "ætWS^S"
+ PROV_ADJ6463:0 "ÑyÉbKQ"
+ PROV_ADJ6462:0 "	Tg"
+ PROV_ADJ6459:0 "eYZS"
+ PROV_ADJ6460:0 "”N&O!"
+ PROV_ADJ6461:0 "ØžÌ‘GY"
+ PROV_ADJ6470:0 "ƒl Rƒl R"
+ PROV_ADJ6471:0 "`„S†–"
+ PROV_ADJ6543:0 "‚„?–Yt"
+ PROV_ADJ6542:0 "ætOÐc" 
+ PROV_ADJ6541:0 "eYTXaSm"
+ PROV_ADJ6540:0 "TXÉb›sw" 
+ PROV_ADJ6539:0 "TXaSaS"
+ PROV_ADJ6536:0 "v–g R"
+ PROV_ADJ6537:0 "‚„?–ÉbWæt"
+ PROV_ADJ6538:0 "«ƒÈTaS"
+ PROV_ADJ6535:0 "eYnf±KQ"
+ PROV_ADJ6533:0 "«ƒS¯eÔk"
+ PROV_ADJ6524:0 "ôf	N"
+ PROV_ADJ6523:0 "ek	TœQ"
+ PROV_ADJ6525:0 "Ôk¯e)R<h"
+ PROV_ADJ6522:0 "u›s"
+ PROV_ADJ6521:0 "aSætö^"
+ PROV_ADJ6520:0 "µxvt"
+ PROV_ADJ6532:0 "ûN Ru"
+ PROV_ADJ6531:0 "ú‹)RÌ‘KQ"
+ PROV_ADJ6528:0 "ÉbVy™„'k"
+ PROV_ADJ6527:0 "«ƒyQYÑy"
+ PROV_ADJ6526:0 "ôT RûN"
+ PROV_ADJ6529:0 "ŽUÉb^Éb"
+ PROV_ADJ6534:0 "„vûN"
+ PROV_ADJ6441:0 "KQXbm"
+ PROV_ADJ6442:0 "Nèx"
+ PROV_ADJ6443:0 "ætôT<h"
+ PROV_ADJ6444:0 "ZSœg"
+ PROV_ADJ6445:0 "Áe·VTX"
+ PROV_ADJ6446:0 "›sSV"
+ PROV_ADJ6447:0 "fê?–æt"
+ PROV_ADJ6448:0 "œgœg¾"
+ PROV_ADJ6449:0 "(„Q"
+ PROV_ADJ6450:0 "n®v’d"
+ PROV_ADJ6550:0 "YtQ‰R­S"
+ PROV_ADJ6451:0 "„SÞ"
+ PROV_ADJ6452:0 "'k^·V"
+ PROV_ADJ6453:0 "àVÎW"
+ PROV_ADJ6454:0 "'YiOØš"
+ PROV_ADJ6455:0 "Ñ‘ÑyÌ‘"
+ PROV_ADJ6457:0 "^tyråN"
+ PROV_ADJ6458:0 "^¿ulš<S"
+ PROV_ADJ6558:0 "‰R	TeYæTW"
+ PROV_ADJ6557:0 "©‹Xb™l"
+ PROV_ADJ6556:0 "ÉbÈT"
+ PROV_ADJ6513:0 "lš<h<Syr"
+ PROV_ADJ6547:0 "ïQÒR—g"
+ PROV_ADJ6199:0 "^þVyQ"
+ PROV_ADJ6171:0 "^ætS"
+ PROV_ADJ6439:0 "CSS"
+ PROV_ADJ6440:0 "0NŸS"
+ # xiaoxia new area
+ Heart_of_africa_area:0 "^—2m-Nè"
+ western_namibia_aera:0 ")n·VŒTKQ"
+ northern_madagascar_area:0 "Slš¾ R¯e R"
+ Inner_tunisia_area:0 "eY÷–¯eqS:S"
+ North_tanzania_area:0 "^<S‰R R"
+ North_victoria_area:0 "S<S‰R(„"
+ South_victoria_area:0 "WS<S‰R(„"
+ South_tanzania_area:0 "SfWQh<SšN"
+ South_swahili_area:0 "¯eæt‰Ì‘"
+ Inner_nubia_area:0 "ªRÔkšN™l.o"
+ Suouth_djoufian_area:0 "WSÛkÌ‘TX<SšN"
+ Mali_area:0 "lšÌ‘"
+ Dahomey_area:0 "?–âlŽ"
+ Chad_lake_area:0 "MN—VVn"
+ Cameroon_area:0 "ŽU¦ž†–"
+ Southern_cameroon_area:0 "eY6wÆY"
+ Central_sahara_area:0 "Nè'Y™l.o"
+ Northern_southland_area:0 "ætKQÈTS"
+ Yakut_area:0 "Å–“^yr"
+ Outer_hinggan_area:0 "YtQ‰R­S"
+ East_tunguska_area:0 "NäS¯e"
+ Inner_Australia_area:0 "…QF–0W:S"
+ Kulin_area:0 "ZpQ·VÉb"
+ New_south_wales_area:0 "?–·V±ƒ·V"
+ Gamilaraay_area:0 "aSs|Éb=t"
+ Inner_queensland_area:0 "WSfëXpQ"
+ Mount_isa_area:0 "åN(„"
+ Inner_territory_area:0 "S†˜0W"
+ Kakadu_area:0 "aSaSjg"
+ Wunambul_area:0 "OWS^S"
+ Toolonga_area:0 "þV†– R"
+ Southern_papua_area:0 "°eàQ…QšNWSè"
+ Manila_area:0 "lš<SÉb"
+ Ghost_coast_area:0 "“^…Q…Q"
+ Guinea_jungle_area:0 "àQ…QšNè–—g"
+
+ Heart_of_africa_area_name:0 "^—2m-Nè"
+ western_namibia_aera_name:0 ")n·VŒTKQ"
+ northern_madagascar_area_name:0 "Slš¾ R¯e R"
+ Inner_tunisia_area_name:0 "eY÷–¯eqS:S"
+ North_tanzania_area_name:0 "^<S‰R R"
+ North_victoria_area_name:0 "S<S‰R(„"
+ South_victoria_area_name:0 "WS<S‰R(„"
+ South_tanzania_area_name:0 "SfWQh<SšN"
+ South_swahili_area_name:0 "¯eæt‰Ì‘"
+ Inner_nubia_area_name:0 "ªRÔkšN™l.o"
+ Suouth_djoufian_area_name:0 "WSÛkÌ‘TX<SšN"
+ Mali_area_name:0 "lšÌ‘"
+ Dahomey_area_name:0 "?–âlŽ"
+ Chad_lake_area_name:0 "MN—VVn"
+ Cameroon_area_name:0 "ŽU¦ž†–"
+ Southern_cameroon_area_name:0 "eY6wÆY"
+ Central_sahara_area_name:0 "Nè'Y™l.o"
+ Northern_southland_area_name:0 "ætKQÈTS"
+ Yakut_area_name:0 "Å–“^yr"
+ Outer_hinggan_area_name:0 "YtQ‰R­S"
+ East_tunguska_area_name:0 "NäS¯e"
+ Inner_Australia_area_name:0 "…QF–0W:S"
+ Kulin_area_name:0 "S¹eø‹›S"
+ New_south_wales_area_name:0 "°eWSZSëX"
+ Gamilaraay_area_name:0 "aSs|Éb=t"
+ Inner_queensland_area_name:0 "WSfëXpQ"
+ Mount_isa_area_name:0 "åN(„"
+ Inner_territory_area_name:0 "S†˜0W"
+ Kakadu_area_name:0 "aSaSjg"
+ Wunambul_area_name:0 "OWS^S"
+ Toolonga_area_name:0 "þV†– R"
+ Southern_papua_area_name:0 "°eàQ…QšNWSè"
+ Manila_area_name:0 "lš<SÉb"
+ Ghost_coast_area_name:0 "“^…Q…Q"
+ Guinea_jungle_area_name:0 "àQ…QšNè–—g"
+
+ Heart_of_africa_area_adj:0 "^—2m-Nè"
+ western_namibia_aera_adj:0 ")n·VŒTKQ"
+ northern_madagascar_area_adj:0 "Slš¾ R¯e R"
+ Inner_tunisia_area_adj:0 "eY÷–¯eqS:S"
+ North_tanzania_area_adj:0 "^<S‰R R"
+ North_victoria_area_adj:0 "S<S‰R(„"
+ South_victoria_area_adj:0 "WS<S‰R(„"
+ South_tanzania_area_adj:0 "SfWQh<SšN"
+ South_swahili_area_adj:0 "¯eæt‰Ì‘"
+ Inner_nubia_area_adj:0 "ªRÔkšN™l.o"
+ Suouth_djoufian_area_adj:0 "WSÛkÌ‘TX<SšN"
+ Mali_area_adj:0 "lšÌ‘"
+ Dahomey_area_adj:0 "?–âlŽ"
+ Chad_lake_area_adj:0 "MN—VVn"
+ Cameroon_area_adj:0 "ŽU¦ž†–"
+ Southern_cameroon_area_adj:0 "eY6wÆY"
+ Central_sahara_area_adj:0 "Nè'Y™l.o"
+ Northern_southland_area_adj:0 "ætKQÈTS"
+ Yakut_area_adj:0 "Å–“^yr"
+ Outer_hinggan_area_adj:0 "YtQ‰R­S"
+ East_tunguska_area_adj:0 "NäS¯e"
+ Inner_Australia_area_adj:0 "…QF–0W:S"
+ Kulin_area_adj:0 "S¹eø‹›S"
+ New_south_wales_area_adj:0 "°eWSZSëX"
+ Gamilaraay_area_adj:0 "aSs|Éb=t"
+ Inner_queensland_area_adj:0 "WSfëXpQ"
+ Mount_isa_area_adj:0 "åN(„"
+ Inner_territory_area_adj:0 "S†˜0W"
+ Kakadu_area_adj:0 "aSaSjg"
+ Wunambul_area_adj:0 "OWS^S"
+ Toolonga_area_adj:0 "þV†– R"
+ Southern_papua_area_adj:0 "°eàQ…QšNWSè"
+ Manila_area_adj:0 "lš<SÉb"
+ Ghost_coast_area_adj:0 "“^…Q…Q"
+ Guinea_jungle_area_adj:0 "àQ…QšNè–—g"
+

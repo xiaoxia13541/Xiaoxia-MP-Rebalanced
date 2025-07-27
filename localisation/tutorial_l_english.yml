@@ -1,370 +1,370 @@
-﻿l_english:
- TUT_PART_BAS_SHORT:0 "úWNxYez"
- TUT_PART_BAS_TITLE:0 "§YúWNxYez§!\núW,gÍdjO\núW,g©sÕl"
- TUT_PART_BAS_DESC:0 "å‹èRYezSOËNÍu‚YUOµc6Rj•4YÿŒ‚‚8nb¦^ÿµc6RUSMOÿVUSuµNŒTÛLˆúW,gY²N0"
- TUT_PART_ADV_SHORT:0 "ØšµuYez"
- TUT_PART_ADV_TITLE:0 "§YØšµuYez§!\nØšµu©sÕl"
- TUT_PART_ADV_DESC:0 "å‹èRYezSOËNÍu8nbLub—åNÊSTÍyŸRýwÿdkYØOËNÍu0WþV!jVŒT8f:g6R0"
- TUT_PART_CAM_SHORT:0 "‰ísYr^ýV"
- TUT_PART_CAM_TITLE:0 "§Y‰ísYr^ýV§!\n°eKbbyV"
- TUT_PART_CAM_DESC:1 "å‹èRYezSÇÆQnx„v!jßbwžR8nb„v¹eÕlegËNÍu8nbŸSt0`OSfR`N‚YUO±RbÿTv^ýV¶RÿåNÊS‚YUO¡rt°eVg„vW0W0`OmNS†Nã‰‹NöNÿ3zšR¦^ÿÛSqNŒT¢c0t°eNLu0"
- TUT_PART_DESC:0 "Ù=fT*NèR„vÏcð"
- TUT_BAS_SELECT_CHAPTER_TITLE:0 "úWNxYez"
- TUT_BAS_SELECT_CHAPTER_DESC:0 "úWNxYezÏcð"
- TUT_NEXT:0 "NN*N"
- TUT_NEXT_TOOLTIP:0 "¹pûQûu˜0"
- TUT_MENU:0 "úQ"
- TUT_MENU_TOOLTIP:0 "¹pûQÔÞVYezÜƒUS0"
- TUT_SKIP:0 "óÇ"
- tutorial_negative_modifier:0 "2–¡VHe‡sM–NO"
- TUT_SKIP_TOOLTIP:0 "¹pûQóÇSVMRàz‚‚ÛeQNNàz‚‚0"
- TUT_MINIMISE_TOOLTIP:0 "¹pûQåNgSSå‹Lub—0"
- TUT_OBJECTIVES:0 "îvh"
- TUT_SELECT_CHAPTER_TITLE:0 "àz‚‚	éb"
- TUT_SELECT_CHAPTER_DESC:0 "	ébN*Nàz‚‚6qT¹pûQVËY0"
- TUT_BAS_CHAPTER01_BUTTON:0 "úW,gÍdjO"
- TUT_BAS_CHAPTER01_TITLE:0 "úW,gÍdjO"
- TUT_BAS_CHAPTER01_DESC:0 "©s¶R(Wå‹àz‚‚ýwYfR0R8nb„vúW,gÄ‰RÿSìb‚YUOŒ‚‚§Mj•4Y§!ŒT§M8nb¦^§!0"
- TUT_BAS_CHAPTER01_PAGE01_TITLE:1 "ËNÍu"
- TUT_BAS_CHAPTER01_PAGE01_TEXT:0 "©s¶RïSåN–öe¹pûQ§MgSS§!	c®”åNgSSå‹Lub—ÿQ¹pûQ§Mg'YS§!åNÍ‘°e>f:yå‹Lub—0"
- TUT_BAS_CHAPTER01_PAGE01_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_BAS_CHAPTER01_PAGE02_TITLE:1 "öeô•"
- TUT_BAS_CHAPTER01_PAGE02_TEXT:0 "©s¶RïSåN–öe	cN§Mzz<h.•§!bw¹pûQ§Möeô•µc6RLub—§!‚fjP8nbÿÇöeô•µc6RLub—bw	cN.•ØvN„v0§M+§!0ÿ R÷S	ÿ	c®”b0§M-§!0ÿÏQ÷S	ÿ	c®” RëVŒTÏQ8nb¦^0"
- TUT_BAS_CHAPTER01_PAGE02_OBJECTIVES:0 "§Mã‰d–‚fjP§!8nbv^Ir0R1g1åeåNçuíu0"
- TUT_BAS_CHAPTER01_PAGE03_TITLE:1 "öeô•"
- TUT_BAS_CHAPTER01_PAGE03_TEXT:0 "‚fjP0'kF–Î˜‘NIV0Tÿ©s¶RïSåNçuíuN¾‹TäNÿŒcµcNS¿R0(WŒTs^öegÿ©s¶RïSåN RëV8nb¦^ÿw(Wb‰NöegïSåNÏQ8nb¦^bw‚fjP8nbÆ–-N¾|›RYt²Qz0"
- TUT_BAS_CHAPTER01_PAGE03_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_BAS_CHAPTER01_PAGE04_TITLE:1 "Œ‚‚j•4Y"
- TUT_BAS_CHAPTER01_PAGE04_TEXT:0 "©s¶RïSåNS§MIQh§!ûyóOSU^„vN0N0æT0óSûy¨Rj•4Y0`OmNïSåNO(u.•ØvN„v§M¹eT.•§!ÿb=f	cOO§MÚnn§!„vTöeûy¨R.Ÿh„v¹eVûy¨Rj•4Y0å‚©s¶R¹pûQMOŽNOSU^óSNÒ‰S0WþVN„vN¹pÿj•4YSê¨RRbc0R±*N0W¹e0"
- TUT_BAS_CHAPTER01_PAGE04_OBJECTIVES:0 "O(u¹eT.•bwÑn¨R.Ÿhûy¨Rj•4Yÿ¹pûQ§MNN*N§!çuíu0"
- TUT_BAS_CHAPTER01_PAGE05_TITLE:1 "ÉbÜj•4Y"
- TUT_BAS_CHAPTER01_PAGE05_TEXT:0 "©s¶R—‰Ïu8^9eØSj•4Yegôf‹Y0WÂ‰ßRte*NNLuÿŒcác0W:S¨RT0\n\n§YO(u.ŸhÚnnbw¹pûQOSU^óSN¹eS0WþVÁe¹„v§MÉbÜj•4Y§Y	c®”0§W"
- TUT_BAS_CHAPTER01_PAGE05_OBJECTIVES:0 "çuíu§MÉbÜj•4Y§!ÿte*N'k2mKS6e<w•^†N0"
- TUT_BAS_CHAPTER01_PAGE06_TITLE:1 "ÉbÑj•4Y"
- TUT_BAS_CHAPTER01_PAGE06_TEXT:0 "°s(Wj•4YòTÏuÉbÜÿÕ‹Õ‹ÉbÑj•4Y0\n\n§Y©s¶RïSåNO(u.ŸhÚnnbw¹pûQOSU^óSN¹eS0WþVÁe¹„v§MÉbÑj•4Y§Y	c®”ÉbÑj•4Y0§W"
- TUT_BAS_CHAPTER01_PAGE06_OBJECTIVES:0 "§MKSïSýwÉbÑj•4Y§!åNçuíu0"
- TUT_BAS_CHAPTER01_PAGE07_TITLE:1 "ûRŒbwýN"
- TUT_BAS_CHAPTER01_PAGE07_TEXT:0 "`O=f&Tf‹v‚YUOµc6Rj•4Y†NbTÿûy¨Rv^>e'Yb)Sj•4YûRŒbÐgNwýN0ß–­r4Yôv0RŒb0RcšRwýN0SV`OÑS°swýNöeÿ­r4YOcTƒR0"
- TUT_BAS_CHAPTER01_PAGE07_OBJECTIVES:0 "ß–§M­r4Y§!ŽVSûRŒb§M?–=ON§!wýNÿæT.•¹pûQ§M?–=ON§!çuíu0"
- TUT_BAS_CHAPTER01_PAGE08_TITLE:1 "àz‚‚Óumg"
- TUT_BAS_CHAPTER01_PAGE08_TEXT:0 "`OòTÏufRO‚YUOµc6Rj•4YÿNNàz‚‚`OSfR`N‚YUOÍdjOF–›QŒT0‚–0"
- TUT_BAS_CHAPTER01_PAGE08_OBJECTIVES:0 "¹pûQ§MNN*N§!ÛeQNNàz‚‚0"
- TUT_BAS_CHAPTER02_BUTTON:0 "è–µc6R"
- TUT_BAS_CHAPTER02_TITLE:0 "è–µc6R"
- TUT_BAS_CHAPTER02_DESC:0 ",gàz‚‚Í‘¹pËNÍu§MUSMOÍdjO§!ÿTöeYe`O§Mb—e§!ŒT§MIeÎW§!„vúW,gÄ‰R0"
- TUT_BAS_CHAPTER02_PAGE01_TITLE:1 "è–µc6R"
- TUT_BAS_CHAPTER02_PAGE01_TEXT:0 "ÛS›QòTÏuµc6R†N§MiOS§!ÿ`OÅV‰˜ûQ%ÖNìNÿ¹pûQbw	cOO.ŸhæT.•Fh	‰šNb(W§M&Ofe§!„v›Q–0"
- TUT_BAS_CHAPTER02_PAGE01_OBJECTIVES:0 "¹pûQMOŽN§M&Ofe§!„v§M‡v¶RF–›Q§!åNçuíu0"
- TUT_BAS_CHAPTER02_PAGE02_TITLE:1 "ûy¨Rè–"
- TUT_BAS_CHAPTER02_PAGE02_TEXT:0 "°s(W›Q–òT«ˆ	-NÿóS.•¹pûQûNawýNSè–ûyTå‹w0©s¶RÅV‰˜ÏuÇ§M<h)n…Q¯e§!Mbýw0R¾§MiOS§!0	šR›Q–ÿóS.•¹pûQ<h)n…Q¯eÿ6qTb`Y‚fjP„v8nb©‹›Q–ûy¨R0R±?Q0\n\n§Y+RØV†Nb`Y‚fjP„v8nb0"
- TUT_BAS_CHAPTER02_PAGE02_OBJECTIVES:0 "S›Q–ûy¨R0R§M<h)n…Q¯e§!0"
- TUT_BAS_CHAPTER02_PAGE03_TITLE:1 "Ð“è–"
- TUT_BAS_CHAPTER02_PAGE03_TEXT:0 "©s¶R—‰O(u9‚êSS›Q–Ð0R§MiOS§!ÿ¹pûQ§MÅˆ‹0RÐ“9‚§!	c®”S›Q–Åˆ‹0R§M<h)n…Q¯e§!=nãS„v9‚êS0SV	gUSMOÞ¥c„vÐ“9‚»yV=nãSöeÿUSMOOÅˆ‹N9‚0\n\n§YÏkX‚Ð“9‚êSýwÅˆ‹N*N›QâV0§!"
- TUT_BAS_CHAPTER02_PAGE03_OBJECTIVES:0 "	éb`O„v›Q–T¹pûQ§MÅˆ‹0RÐ“9‚§!åNçuíu0"
- TUT_BAS_CHAPTER02_PAGE04_TITLE:1 "	ÖS0‚–"
- TUT_BAS_CHAPTER02_PAGE04_TEXT:0 "©s¶R„vè–òTÏu(W<h)n…Q¯e=nÞ¥cN†N‡v¶Rwm›Qÿ¹pûQbFh	0‚–åNÐè–zŠ1rSpQwm0§W"
- TUT_BAS_CHAPTER02_PAGE04_OBJECTIVES:0 "	éb§M<h)n…Q¯e=n§!„v§M‡v¶Rwm›Q§!0"
- TUT_BAS_CHAPTER02_PAGE05_TITLE:1 "ûy¨R0‚–"
- TUT_BAS_CHAPTER02_PAGE05_TEXT:0 "óS.•¹pûQwmNwýN§M1rSpQwm§!åNûy¨R0‚–ÿSV0‚–»yV=nãSöeÿÞ¥c„vUSMOSO‰vN9‚êS0\n\n§Y+RØV†Nb`Y‚fjP„v8nb0§W"
- TUT_BAS_CHAPTER02_PAGE05_OBJECTIVES:0 ">mc0‚–0R¾wmNwýN§M1rSpQwm§!åNçuíu0"
- TUT_BAS_CHAPTER02_PAGE06_TITLE:1 "è–XN9‚"
- TUT_BAS_CHAPTER02_PAGE06_TEXT:0 "	éb0‚–ÿ6qT¹pûQ§MÐ“§!	c®”	éb›Q–0"
- TUT_BAS_CHAPTER02_PAGE06_OBJECTIVES:0 "¹p	§MXN9‚›Q–§!çuíu0"
- TUT_BAS_CHAPTER02_PAGE07_TITLE:1 "è–N9‚"
- TUT_BAS_CHAPTER02_PAGE07_TEXT:0 "`OòTÏu¹p	†N`O„v›Q–ÿóS.•¹pûQÑSuÛSqN„v§MiOS§!wýNxS‹›Q–0§W"
- TUT_BAS_CHAPTER02_PAGE07_OBJECTIVES:0 "‹TäN›Q–MRŽV§MiOS§!åNçuíu0"
- TUT_BAS_CHAPTER02_PAGE08_TITLE:1 "b—e"
- TUT_BAS_CHAPTER02_PAGE08_TEXT:0 "©s¶R„v›Q–ck(W§MiOS§!NÛS›Qb—eÿSVb—eÓumgöeÿ©s¶R—‰ôVIeýÏg—gÿàV:NƒRòTÏu«ˆÛS›Q`S†˜0ÏkSVb—e-N„v›Q–«ˆ	-Nöeÿb—e—zãS1SOúQ°s0\n\n§Y+RØV†Nb`Y‚fjP„v8nb0§!"
- TUT_BAS_CHAPTER02_PAGE08_OBJECTIVES:0 "ã‰d–‚fjPv^§MûQ%ÛS›Q§!åNçuíu0"
- TUT_BAS_CHAPTER02_PAGE09_TITLE:1 "ôVÎW"
- TUT_BAS_CHAPTER02_PAGE09_TEXT:0 "KS¡rÛS›QòT«ˆˆmmpÿÎW^ÍN(WÛS›Qµc6RN0`O„v›Q–ck(WôVIeiOSÿÝ»yÛS›Q•bM–Ø—‰Nµköeô•0\n\n§Y(WYez-NN›N¨RjO±‚9„vöeô•òT«ˆÏQSÿÔk‚YôVIeÿ(Wck8^8nb-NÙ›NLˆ¨R±‚9„vöeô•ôf•0§!"
- TUT_BAS_CHAPTER02_PAGE09_OBJECTIVES:0 "§M:YÞViOS§!åNçuíu"
- TUT_BAS_CHAPTER02_PAGE10_TITLE:1 "àz‚‚Óumg"
- TUT_BAS_CHAPTER02_PAGE10_TEXT:0 "'Y·ƒhQÜwÿ`OòTÏuûQ%†NÛS›QÍ‘°e:YÞV†NiOSÿ`OòTÏuŒRb†NYez„v,rŒNàzÿNNàzSOËNÍu§MuµN§!0"
- TUT_BAS_CHAPTER02_PAGE10_OBJECTIVES:0 "¹pûQ§MNN*N§!ÛeQNNàz‚‚0"
- TUT_BAS_CHAPTER03_BUTTON:0 "uµN"
- TUT_BAS_CHAPTER03_TITLE:0 "uµN"
- TUT_BAS_CHAPTER03_DESC:1 ",gYez„v,r	NàzSÍ‘¹pËNÍuúWNx„v§MÏuNmÿ§MUSMOÛbßR§!ŒT§Mú^QrîO.§!0"
- TUT_BAS_CHAPTER03_PAGE01_TITLE:1 "úWNxuµN"
- TUT_BAS_CHAPTER03_PAGE01_TEXT:0 "`O(W,gàzïSåNfRO‚YUO§MßRÆ–›Q–§!ÿ§MîO.9‚êS§!ŒTîOú^§Mú^Qr§!0Ù›NuµNLˆ:NGW(WwýN…QÛLˆ0"
- TUT_BAS_CHAPTER03_PAGE01_OBJECTIVES:0 "(W0WþVN§M¹p	&Ofe§!åNçuíu0"
- TUT_BAS_CHAPTER03_PAGE02_TITLE:1 "wýN"
- TUT_BAS_CHAPTER03_PAGE02_TEXT:0 "ÏkN*NwýNýNøvTÿwN1uŽN§MúW,gz6e§!ÿ§M8fÞz‰N›R§!ÿbeuMOnbwuµN„v§M8f'ir§!„vNTÿÏkN*NwýN„vÏuNmb›Q‹N÷N<PmNNKSøvT0KNTÿ©s¶RO†Nã‰0RôfYsQŽNÙ›N÷N<P„váOo`0Nb	gUSMO„vuµNý(WwýN…QÛLˆÿ©s¶RïSåN§MßRÆ–›Q–§!ÿ§MîO.9‚êS§!ŒT§MÛbßRÇ–cOuQ§!0"
- TUT_BAS_CHAPTER03_PAGE02_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_BAS_CHAPTER03_PAGE03_TITLE:1 "è–ÛbßR"
- TUT_BAS_CHAPTER03_PAGE03_TEXT:0 "F–›Q1u	NÍy›QâVÄubÿ§MekuQ§!ÿ§M‘šuQ§!N§M®puQ§!0ÏkN›QâV†v:N1000ºN0"
- TUT_BAS_CHAPTER03_PAGE03_OBJECTIVES:0 "¹pûQ§MÛbßR›Q–§!åNçuíu0"
- TUT_BAS_CHAPTER03_PAGE04_TITLE:1 "ÛbßRè–"
- TUT_BAS_CHAPTER03_PAGE04_TEXT:0 "(W›Q–ÛbßR—zãS©s¶RïSåNw0RN*NRhˆÿRhˆN>f:y†NNb	gïSÛbßRUSMO0d–§MÑ‘^§!YÿÏkÛbßRN*N›Q–Ø‰±‚91000§MºN›R§!0ºN›R=fNÍyÍ‘‰„vDnÿO–Nwöeô•babab`Y0ºN›RN³RàeÕl­‹Ãu°e›Q–ÿàeÕleˆXT°s	g›Q–0ºN›RïSåN(WOSU^æTN¹ew0R0"
- TUT_BAS_CHAPTER03_PAGE04_OBJECTIVES:0 "(W&Ofe§MÛbßRûNaNêS›QâV§!åNçuíu0"
- TUT_BAS_CHAPTER03_PAGE05_TITLE:1 "0‚–ú^."
- TUT_BAS_CHAPTER03_PAGE05_TEXT:0 "©s¶RïSåN	ébN*N¿lwmwýNv^¹pûQ§MîO.9‚êS§!	c®”îO.9‚êS0	gÛVÍy9‚êSïS›OîO.ÿÍ‘‹Wb0‚ÿ‰‹Wb0‚ÿhh^b0‚ŒTÐ“9‚0\n\n§Y¹pûQ§MÔÞV§YÞV0RwýNLub—v^¹pûQ§MîO.9‚êS§Y	c®”0§W"
- TUT_BAS_CHAPTER03_PAGE05_OBJECTIVES:0 "¹pûQ§Mú^.9‚êS§!åNçuíu0"
- TUT_BAS_CHAPTER03_PAGE06_TITLE:1 "îO.9‚êS"
- TUT_BAS_CHAPTER03_PAGE06_OBJECTIVES:0 "(W&Ofe§MîO.ûNa9‚êS§!åNçuíu0"
- TUT_BAS_CHAPTER03_PAGE07_TITLE:1 "ú^Qr"
- TUT_BAS_CHAPTER03_PAGE07_TEXT:0 "îOú^ú^QrïSåN(WT¹eb—ÐcGSwýNÿSìbžX Rz6eÿ:VS‰^XÿžX R8fIrIrÿ=fÐcGSÏuNmŒT›Q‹NžR›R„vÅV‰˜Kbµk"
- TUT_BAS_CHAPTER03_PAGE07_OBJECTIVES:0 "SbV§Mú^Qr§!hŒrçuíu"
- TUT_BAS_CHAPTER03_PAGE08_TITLE:1 "ú^."
- TUT_BAS_CHAPTER03_PAGE08_TEXT:0 "ú^Qr9hnc(u«ˆRbNT„v‰|+R0TN‰|+R-N„vN›Nú^QrSÖSãNvQÖNú^QrÿO(uÄžr‚­r4Yh°‹	ÿÿwN›Nú^Qrÿ‹O‚Y'YfR	ÿïSåNìrËzŽNvQÖNú^Qrú^.0"
- TUT_BAS_CHAPTER03_PAGE08_OBJECTIVES:0 "(W&Ofe§Mú^.ûNaú^Qr§!åNçuíu"
- TUT_BAS_CHAPTER03_PAGE09_TITLE:1 "–R"
- TUT_BAS_CHAPTER03_PAGE09_TEXT:0 "Ïk*NwýN„vuµNR:N2N*N–RUSMO–RŒTú^.–R0(WUSMO–R-Nÿ`OïSåN §Mú^.0‚9‚§!bw§MÛbßRF–›Q§!0(Wú^.–R-Nÿ`OïSåN§MîOú^,g0Wú^Qr§!0 §M8hÃVS§!0§Mlbc—RYe§!bw§Mlbc‡eS§!0ÏkN*N–RTöeýêSýwZPNöN‹N0"
- TUT_BAS_CHAPTER03_PAGE09_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_BAS_CHAPTER03_PAGE10_TITLE:1 "uµNLub—"
- TUT_BAS_CHAPTER03_PAGE10_TEXT:1 "–NwN*N^ýVØS—VŠegŠ'Yÿ¡rtƒRØS—Vôf RðV¾–0§MuµNLub—§! S.^©R¨`ú^.ôfY„vú^Qrirb­‹Ãuè–0ÎNRhˆ-N	ébú^QrirSôf°e0WþV!jVÿv^Ðc›O	gsQ¨`(WêTÌ‘ýw·ƒ—Vg'Y6eÊv„váOo`0\n\n§Y÷‹èlaOSU^„væTNÒ‰0§!"
- TUT_BAS_CHAPTER03_PAGE10_OBJECTIVES:0 "¹pûQ§MuµNLub—	c®”§!çuíu"
- TUT_BAS_CHAPTER03_PAGE11_TITLE:1 "uµNLub—"
- TUT_BAS_CHAPTER03_PAGE11_TEXT:0 "	ébRhˆNN*NUSMOÿ6qT¹pûQ0WþVVËYuµN0©s¶RïSåNôv¥c(W0WþVN¹pûQbw¹pûQ0§M+§!0þVh0Y!k¹pûQwýNO’cR9‚êSŒTUSMO0\n\n§Y(W5*NNTwýNuµNÿ+RØV†Nb`Y‚fjP„v8nb0§!"
- TUT_BAS_CHAPTER03_PAGE11_OBJECTIVES:0 "ÎNæT¹eRhˆ	ébûNa§MF–NUSMO§!ÿ§MÛbßR5*NâV§!Tçuíu0"
- TUT_BAS_CHAPTER03_PAGE12_TITLE:1 "àz‚‚Óumg"
- TUT_BAS_CHAPTER03_PAGE12_TEXT:0 ",r	NàzÿuµN0RdkÓumgÿNNàzSËNÍu§Mb‰N§!0"
- TUT_BAS_CHAPTER03_PAGE12_OBJECTIVES:0 "¹pûQ§MNN*N§!ÛeQNNàz‚‚0"
- TUT_BAS_CHAPTER04_BUTTON:0 "²Nb"
- TUT_BAS_CHAPTER04_TITLE:0 "²Nb"
- TUT_BAS_CHAPTER04_DESC:0 ",gàzSOÍ‘¹pËNÍu§Mb‰N§!ŒT§MY²N§!"
- TUT_BAS_CHAPTER04_PAGE01_TITLE:1 "±Rb"
- TUT_BAS_CHAPTER04_PAGE01_TEXT:1 "ùRN*Nîvh±Rböeÿ`Og‹YùRÖNìN	gN*N§M±Rbt1u§!0‚Yœg`O¡l	g±Rbt1usSckSV„vVbt1u`OSàV:NTÖNìN±Rbwm×S0Rb—qVÍT0\nóS.•¹p	§M&O¯eyr§!wýNÿv^	ÖS§M±Rb§!0¹pûQT`OSÑS°s`OêS	g§Ràe±Rbt1u§!„v	y˜0\nx^Ð„v=fÿ`O„výV¶R(W&O¯eyrwýNåb	g§M8hÃV§!ÿÙKˆN`ON*N:YÖSƒR„v§M±Rbt1u§!0NÇÿck‚Y,g8nb„vˆVYvQÖNCQ.tÿ±Rbt1uSO(W8nb…Qöeô•¦^ÇàQ)YTMbO7R°e0\n\n§YÖSˆm8nb‚fjPÿzIràQ)Yÿ6qTQóS.•¹p	§M&O¯eyr§YwýNÿ¹pûQ§MY²N§Y	c®”ÿ	éb§M±Rb§Y0åN§M:YÖS&O¯eyr§Y:Nb‰Nîvhÿ	ébVg„v±Rbt1uÿ6qT¹pûQ§M±Rb§Y0§W"
- TUT_BAS_CHAPTER04_PAGE01_OBJECTIVES:0 "ùR&O¯eyr§M±Rb§!åNçuíu0"
- TUT_BAS_CHAPTER04_PAGE02_TITLE:1 "b‰N"
- TUT_BAS_CHAPTER04_PAGE02_TEXT:0 "S›Q–ûy¨R0R&O¯eyrwýNåNŒTLe›Q²Nb0`OÅV‰˜(WôVIev^`S†˜å‹wýNTMbýwçuíu0å‚`Oó`>mcNb	g„v›Q–ÿÅV‰˜S›Q–ÎNwmNÐÇ»Sÿv^TbN=e›Q–0\n\n§Y+RØV†NS8nbã‰d–‚fjP0§!"
- TUT_BAS_CHAPTER04_PAGE02_OBJECTIVES:0 "§MûQ%&O¯eyr§!åNçuíu0"
- TUT_BAS_CHAPTER04_PAGE03_TITLE:1 "Ðc®‹ŒTs^"
- TUT_BAS_CHAPTER04_PAGE03_TEXT:0 "©s¶R—‰·ƒ—VNšRÏ‘§Mb‰NRpe§!Mbýw(WŒTs^OS®‹-N§MÐcúQagöN§!0§Mb‰Nîvh§!ïSOùRîvhwýNNb—„vb‰NRpeM–NO50%0åb	gwýN±RðyCgOÏQS50%Y²N¹ppe±‚90\n\n§Y¹pûQ&O¯eyrÿ6qT¹pûQ§MY²N§Yÿ	éb§MBlŒT§Y0\n+RØV†Nb`Y‚fjP„v8nb0§W"
- TUT_BAS_CHAPTER04_PAGE03_OBJECTIVES:0 "N&O¯eyrŒr¢‹ûNaNy˜§MŒTs^ag¦u§!åNçuíu0"
- TUT_BAS_CHAPTER04_PAGE04_TITLE:1 "jPb"
- TUT_BAS_CHAPTER04_PAGE04_TEXT:0 "SVN:Wb‰NÓumgÿ`OìN2NýVô•O	gN*NjPbgÿd–^—`OŒRhQŠbÖNìNTv^ÿàV:NNïSýwQNN*NNXR(W„výV¶RjPb†N	ÿ0`OïSåNw0RN`O	gjPbg„výV¶RÿŠb.Ÿh>e(W§MjPbgÐc:y§!NïSåNw0RjPbg0Rg„vöeô•0N¨cPƒTN*NN`OS(WjPbg-N„výV¶R±RbÿàV:NÙOùR§M3zšR§!.bèT'Ymc2O0"
- TUT_BAS_CHAPTER04_PAGE04_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_BAS_CHAPTER04_PAGE05_TITLE:1 "àz‚‚Óumg"
- TUT_BAS_CHAPTER04_PAGE05_TEXT:0 "0'kF–Î˜‘NIV0„vúW,gYezÓumgÿ©s¶RïSåN–öeÍ‘°eÛeQå‹Yez0ÛeQ§MØšµu8nb:g6R§!èRbwÛeQ§M‰ísYr^ýV°eKbbyV§!åN†Nã‰ôfY8nb…Q¹R0"
- TUT_BAS_CHAPTER04_PAGE05_OBJECTIVES:0 "¹pûQ§MúQ§!ÔÞVYezÜƒUS"
- TUT_ADV_CHAPTER01_BUTTON:0 "Lub—"
- TUT_ADV_CHAPTER01_TITLE:0 "Lub—"
- TUT_ADV_CHAPTER01_DESC:1 ",gàzSËNÍu§MINLub—§!v^ã‰Ê‘ÏkNy˜=fÀNHNÿåNÊSƒR:NÀNHNˆVÍ‘‰0"
- TUT_ADV_CHAPTER01_PAGE01_TITLE:1 "Lub—"
- TUT_ADV_CHAPTER01_PAGE01_TEXT:0 ",gàzSOËNÍuLub—„vŸRýw"
- TUT_ADV_CHAPTER01_PAGE01_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE02_TITLE:1 "Ñ‘^"
- TUT_ADV_CHAPTER01_PAGE02_TEXT:0 "Ñ‘^=f8nb-N„vIN‰DnKNNÿïSåN(ueg=eØNÎNÛbßRUSMO0Rú^.ú^Qr„vTÍy9(u0"
- TUT_ADV_CHAPTER01_PAGE02_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE03_TITLE:1 "ºN›R"
- TUT_ADV_CHAPTER01_PAGE03_TEXT:0 "ºN›R=fNÍyÍ‘‰„vDnÿ³QšR†NýV¶RNqQýwYÛbßRYSëXuQ0ºN›RNP–:N10t^ºN›RžX•„vI`ŒT0ÏkÛbßRN*NâVÿ—‰±‚91000ºN›R0:N2O¡N„v›Q–eˆEQžXôc›Q›RmNOˆmwºN›R0"
- TUT_ADV_CHAPTER01_PAGE03_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE04_TITLE:1 "3zšR¦^"
- TUT_ADV_CHAPTER01_PAGE04_TEXT:0 "3zšR¦^hˆ°s†N`O„výV¶R„v3zšRz¦^03zšR¦^OqVÍT0R§MÛSqN¦^§!0§Mz6e§!0§MhQNS8fÞz‰N›R§!Ir0\n\n3zšR¦^ïSåN(W§M3zšRŒTib.V§!Lub—…Qˆmw§MLˆ?e¹ppe§!žX R03zšR¦^ïSýwàV§M–:g‹NöN§!0§M•dÁkObOS®‹§!09eØS§MýVYe§!bw§Mßu»lw§!b‰kIrŸSàVM–NO0\n"
- TUT_ADV_CHAPTER01_PAGE04_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE05_TITLE:1 "Zg"
- TUT_ADV_CHAPTER01_PAGE05_TEXT:0 "ZgÇb—Vb—e0b‰NbÇ–:g‹NöN·ƒ—V0ZgïSåNO›Q–§MëXlNGS§!0ÐcGS§Mckßu'`§!0§M–öeô•9e„UsQû|§!0"
- TUT_ADV_CHAPTER01_PAGE05_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE06_TITLE:1 "ckßu'`ŒTqQŒT.Oßu"
- TUT_ADV_CHAPTER01_PAGE06_TEXT:0 "êS	gqQŒT?eSOýV¶RO×S0RqQŒT.OßuqVÍTÿƒRIN‰M–NO§MhQýVÛSqN¦^§!0TN*Nßu»lwY!kÞûNOM–NOqQŒT.OßuÿwqQŒT.OßuOÏkt^ba0WžX R0qQŒT.OßuÇNOOžX R§MÐcGS3zšR¦^„vb,g§!0\n\nêS	gTIN6RýV¶RO×Sckßu'`qVÍTÿƒRhˆ:y†N`O„výVT„vßu»l	gYHN&rTckßuÕlt0ckßu'`IN‰qVÍT§MÛSqN¦^§!0§M—RYe¹RÍV¦^§!ŒT§MY²NðX‰Š§!0"
- TUT_ADV_CHAPTER01_PAGE06_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE07_TITLE:1 "›RÏ‘•bS"
- TUT_ADV_CHAPTER01_PAGE07_TEXT:0 "§M›RÏ‘•bS§!=fN*N(uegaˆÏ‘`O„výV¶R	gYHNÅdŽNpV>fýV›R„v<P0Ç	éb§M¿RLe§!v^ùRÖNìNÇ‘ÖSµOeu'`„vLˆ¨Rÿ`O„v›RÏ‘•bS<P1SïSåNžX R0›RÏ‘•bS<POÙuˆN`O„výV¶Rckb—qVÍT0Áy c0b—Vb‰N0yÐŒT=ecÛSqNIr‹OPRý=fÐcGS›RÏ‘•bS„v¹eÕl0"
- TUT_ADV_CHAPTER01_PAGE07_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE08_TITLE:1 "yrO"
- TUT_ADV_CHAPTER01_PAGE08_TEXT:0 "yrOïSåN«ˆ(ueggbLˆTÍyûN¡R0FUºNâVïSåN(W8f-N·ƒÖS6eeQŒTVüR8füRT0–kl–ïSåNú^Ëz°e„v–kl0W0Y²N˜RïSåNÛLˆY²NIm¨R0.OYeëXïSåNlØSwýN„v—RYeáOðN0ûN¡RŒRbTyrOOÔÞV–™ý0"
- TUT_ADV_CHAPTER01_PAGE08_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE09_TITLE:1 "TIN¹ppe"
- TUT_ADV_CHAPTER01_PAGE09_TEXT:0 "	NÍyDnßuðy§MTIN¹ppe§!0Sìb§MLˆ?e¹ppe§!ÿ§MY²N¹ppe§!ŒT§M›Q‹N¹ppe§!0©s¶RÏkgO·ƒ—VTIN¹ppeÿpeÏ‘1ußu»lwŒTŒ˜î•Žbýw³QšR0"
- TUT_ADV_CHAPTER01_PAGE09_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE10_TITLE:1 "Ðc’‘"
- TUT_ADV_CHAPTER01_PAGE10_TEXT:0 "f‹JTSåw`OïSýw‰ùRvQgbLˆÐg›NÍdjO„váOo`0æT.•¹pûQf‹JTSRbc0RøvsQLub—åNgbLˆÍdjOÿóS.•USûQS–Ï…å‹f‹JT0¢ur‚:N't%`f‹JTÿÄžr‚:NÍ‘‰f‹JTÿÿur‚:N^—'t%`f‹JT0vQÖNýV¶R„vY²NÐc®‹mN>f:y(WÙÌ‘0"
- TUT_ADV_CHAPTER01_PAGE10_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE11_TITLE:1 "uµNLub—"
- TUT_ADV_CHAPTER01_PAGE11_TEXT:0 "uµNLub—.^©R©s¶Rôf¿Owc0WÛLˆuµNÿ©s¶RïSåN(W§MúW,gYefR-N§!„v§MuµNàz‚‚§!-N†Nã‰0RôfYáOo`"
- TUT_ADV_CHAPTER01_PAGE11_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE12_TITLE:1 "^y1WWlš^ýV"
- TUT_ADV_CHAPTER01_PAGE12_TEXT:0 "^ýVÆ‰þVAQ¸‹©s¶Rågw^y1WWlš^ýV^ýV„vÄubýV¶RÿSìb‡v^0	^¯ONNb	gnfbXT0"
- TUT_ADV_CHAPTER01_PAGE12_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE13_TITLE:1 "Ye÷^"
- TUT_ADV_CHAPTER01_PAGE13_TEXT:0 "‚Yœg`O„výVYe=f)YINYeÿ`O1SO×SWlš)YINYe÷^:g6RqVÍT0Ye÷^Lub—O>f:y`Oåb	g„vYe÷^qVÍT›RÿåNÊS`OïSåNÐ(uƒRìN„v¹eV0ÏkSVYe—R™„INi`ìSÿSO(W(WLw„v¢g:g-N	ébNMO°e„vYe—R0`OïSåN±‚9Ye÷^qVÍT›RegÐcØšb:NNNûNYe÷^Ñv²b„v‚i‡s0"
- TUT_ADV_CHAPTER01_PAGE13_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE14_TITLE:1 "‚ið—zãS"
- TUT_ADV_CHAPTER01_PAGE14_TEXT:0 "'Y²u—zãSïSåNÐc›OˆVYëVwcáOo`ÿ‚Yck(WÛLˆ„vÛz0F–›Qwm›Q¶r`0ú^QrÅ`µQ0yrOIr…Q¹R0"
- TUT_ADV_CHAPTER01_PAGE14_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE15_TITLE:1 "—VR"
- TUT_ADV_CHAPTER01_PAGE15_TEXT:0 "—VRãNhˆ†NýV¶Rhˆ°s„vúQr‚z¦^ÿNqQïSRb	NÍy‰|‹WÿLˆ?e0Y²NŒT›Q‹N0`OïSåN(W§Mßu¡‹¥bhˆ§!-N„v§M—VRÔkƒ§!ågw—VR¹p0"
- TUT_ADV_CHAPTER01_PAGE15_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER01_PAGE16_TITLE:1 "àz‚‚Óumg"
- TUT_ADV_CHAPTER01_PAGE16_TEXT:0 "0WþV!jVSO9eØSNLu0WþVN>f:y„váOo`0NNàz‚‚SOwQSOËNÍuƒRìN0"
- TUT_ADV_CHAPTER01_PAGE16_OBJECTIVES:0 "¹pûQ§MNN*N§!ÛeQNNàz‚‚§W"
- TUT_ADV_CHAPTER02_BUTTON:0 "0WþV"
- TUT_ADV_CHAPTER02_TITLE:0 "0WþV"
- TUT_ADV_CHAPTER02_DESC:0 ",gàzSOËNÍuTÍy0WþVåNÊSO(uƒRìN„v¿O)RKNY"
- TUT_ADV_CHAPTER02_PAGE01_TITLE:1 "0WbV0WþV"
- TUT_ADV_CHAPTER02_PAGE01_TEXT:0 "0WþV0WbV!jVýwY.^©R©s¶Rôf‹Y0W†Nã‰NLuáOo`0Øž²‹0WþV!jV:N§M0WbV0WþV§!0"
- TUT_ADV_CHAPTER02_PAGE01_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER02_PAGE02_TITLE:1 "?e»l0WþV"
- TUT_ADV_CHAPTER02_PAGE02_TEXT:0 "?e»l0WþV-NÿNb	gwýNO(uNTœ˜r‚húQÿÏkNÍyœ˜r‚ãNhˆN*NýV¶R0å‹0WþVýwY©‹©s¶Rnpf0WwúQýV¶R„v¹LuŒTÏk*NýV¶RwýN„vMOn0"
- TUT_ADV_CHAPTER02_PAGE02_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER02_PAGE03_TITLE:1 "8f0WþV"
- TUT_ADV_CHAPTER02_PAGE03_TEXT:0 "8f0WþVýwY©‹`OåwST*NwýNNb^S„v8f:S0dkYØýwY©‹`O†Nã‰8f„vAmTÿåN¿O‹TäNFUºNâVTyršR¹eTVüR8f0zTÿ`OS†Nã‰0RôfYsQŽN§M8fVüR§!„váOo`0"
- TUT_ADV_CHAPTER02_PAGE03_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER02_PAGE04_TITLE:1 "^ýV0WþV"
- TUT_ADV_CHAPTER02_PAGE04_TEXT:1 "^ýV0WþV!jV>f:y^SŽN§M^y1WWlš^ýV§!„vwýN0ÿur‚:N^ýVwýNÿYjr‚:N	^¯OÿÝ„r‚:Nê1u^ÿ+tr‚:N‡v^0SV`OnboZ<S¯eöeïSýwOèla0Rÿ`O„vN*NwýNÿ^÷–‰šN	ÿ^SŽN^ýVw`Oê«Žv^N^SŽN^ýV0"
- TUT_ADV_CHAPTER02_PAGE04_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER02_PAGE05_TITLE:1 "—RYe0WþV"
- TUT_ADV_CHAPTER02_PAGE05_TEXT:0 "—RYe0WþV>f:y†NNLuT—RYe„vR^0`OïSåNnZi0Ww0RêT›NwýNNáOðN`O„v§MýVYe§!ÿåNÊSêTÌ‘ïSåNŒb0RgËSbLeºN0"
- TUT_ADV_CHAPTER02_PAGE05_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER02_PAGE06_TITLE:1 "Y²N0WþV"
- TUT_ADV_CHAPTER02_PAGE06_TEXT:0 "Y²N0WþV!jV:N`OÐc›O`O„v8hÃVwýN0ßvËSÊSLeºN„váOo`0ÿur‚ag¹u:N(WŽN`O»lN„v§M8hÃVwýN§!0¹pûQN*N^SŽNvQƒRýV¶R„vwýNSôf°eY²N0WþV!jVNå‹ýV„váOo`0"
- TUT_ADV_CHAPTER02_PAGE06_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER02_PAGE07_TITLE:1 "ôfY0WþV"
- TUT_ADV_CHAPTER02_PAGE07_TEXT:0 "8nb-NØ	gvQÖN0WþV!jVÿïSåN.^©R`O†Nã‰8nb-NÑSu†NÀNHN0Õ‹Nw¹pûQN*NvQÖN0WþV!jV	c®”wNw'Tÿ"
- TUT_ADV_CHAPTER02_PAGE07_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER02_PAGE08_TITLE:1 "àz‚‚Óumg"
- TUT_ADV_CHAPTER02_PAGE08_TEXT:0 ",gàzÓumgÿNNàzSôf RÆuô0WËNÍu8f"
- TUT_ADV_CHAPTER02_PAGE08_OBJECTIVES:0 "¹pûQ§MNN*N§!ÛeQNNàz‚‚0"
- TUT_ADV_CHAPTER03_BUTTON:0 "8f"
- TUT_ADV_CHAPTER03_TITLE:0 "8f"
- TUT_ADV_CHAPTER03_DESC:0 ",gàzSOËNÍu8f„vúW,gÄ‰R"
- TUT_ADV_CHAPTER03_PAGE01_TITLE:1 "8f"
- TUT_ADV_CHAPTER03_PAGE01_TEXT:0 "8f=f0'kF–Î˜‘NIV0„vÍ‘‰ÄubèR0te*NNLu«ˆRbNT„v§M8f‚‚¹p§!ÿÏkN*N8f‚‚¹pSìbNTpeÏ‘„vwýN0wýNuµNNT„v§M8f'ir§!ÿvQ§M8f÷N<P§!O«ˆÐ0RTê„v8f‚‚¹p08f‚‚¹p(W0WþVNïSÆ‰ÿ(unmhbwÎW^hˆ:yÿ1uÝ„r‚ag¹uøv’NÞ¥c0"
- TUT_ADV_CHAPTER03_PAGE01_OBJECTIVES:0 "¹pûQ§MZ<S¯e§!çuíu"
- TUT_ADV_CHAPTER03_PAGE02_TITLE:1 "wýN8fÞz‰N›R"
- TUT_ADV_CHAPTER03_PAGE02_TEXT:2 "8f‚‚¹p„v8fÞz‰N›R	gˆV'YNèRegêwýNÿv^NïSåNÇîOú^§M8fú^Qr§!ÐcGS0N›NwýNbw=f§M8f-NÃV§!ÿbwåb	g§M³lãS§!0Ù›NýOùR8fÞz‰N›RÛLˆ˜Y Rb0©s¶R„vIN‰wýNZ<S¯e1S=fNY8f-NÃVÿ"
- TUT_ADV_CHAPTER03_PAGE02_OBJECTIVES:0 "¹pûQ§MZ<S¯e§!	c®”çuíu"
- TUT_ADV_CHAPTER03_PAGE03_TITLE:1 "8f‚‚¹p"
- TUT_ADV_CHAPTER03_PAGE03_TEXT:0 "§M8f÷N<P§!egê(W8f‚‚¹pÛLˆ8f„v§MwýN§!0©s¶RïSåN	éb§M·ƒÖS6eeQ§!bw§MVüR8f§!0RNN8f‚‚¹p0§M8fÞz‰N›R§!ASRÍ‘‰ÿ³QšR†N©s¶RïSåN(WN*N8f‚‚¹p-Nµc6RYS8f0µc6R„v8fŠYÿ·ƒ—V„v6eeQmNŠYÿÐŽVNNÙz„v8f÷N<PmNŠØš0"
- TUT_ADV_CHAPTER03_PAGE03_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER03_PAGE04_TITLE:1 "8f·ƒ)R"
- TUT_ADV_CHAPTER03_PAGE04_TEXT:1 "§MFUºNâV§!(W8f‚‚¹pýwYÛLˆ2Ny˜Lˆ¨R0§M8fØS°s§!SÎN8f-N·ƒ—V6eeQ0ŒTÞz‰NùRKb„v§M8fÞz‰N›R§!ùRÔkÏ‘³QšR†N(W§M8f6eeQ§!-NýwY·ƒÖS„vÑ‘^0\n\n§Y+RØV†Nb`Y‚fjP„v8nb0§!"
- TUT_ADV_CHAPTER03_PAGE04_OBJECTIVES:0 "©‹FUºN(W§MZ<S¯e8f‚‚¹p§!-N§M·ƒ—V)RÊv§!"
- TUT_ADV_CHAPTER03_PAGE05_TITLE:1 "lûy8fÞz‰N›R"
- TUT_ADV_CHAPTER03_PAGE05_TEXT:0 "§MFUºN§!ýwYgbLˆ„v,rŒNy˜Lˆ¨R:N§Mlûy8fÞz‰N›R§!ÿå‹Lˆ¨RýwYS§M8f÷N<P§!ÎNN*N§M8f‚‚¹p§!lûy0RæSN*N0ŒTÞz‰NùRKb„v§M8fÞz‰N›R§!ùRÔkÏ‘³QšR†NýwYlûyYS8f÷N<P0\n§Y	éb§MšN†SqS'Y§YwýNÿ6qT¹pûQ	c®”MRŽV8f‚‚¹pÿ+RØV†Nb`Y‚fjP„v8nb§!0"
- TUT_ADV_CHAPTER03_PAGE05_OBJECTIVES:0 "MRŽV§MšN†SqS'Y=n8f‚‚¹p§!ÿ·ƒ—VFUN§Mlûy8fÞz‰N›R§!çuíu0"
- TUT_ADV_CHAPTER03_PAGE06_TITLE:1 "8f0WþV"
- TUT_ADV_CHAPTER03_PAGE06_TEXT:0 "8f0WþVT`OUS:y†NNT„v§M8f‚‚¹p§!„vMOnÿåNÊSR^SŽNÙ›N‚‚¹pwýNŒT8f„vlûyÅ`µQ0`OïSåNw0Rÿ`Ock(WÎNšN†SqS'Y=nTZ<S¯e§Mlûy8f÷N<P§!08fêSýw	cgq­r4YcT„v¹eTAm¨R0RN8n0	g›N8f‚‚¹p«ˆb:N§MÈuïz‚‚¹p§!ÿƒRìNv^NwQ	gN8n‚‚¹pÿàeÕlQTYlûy8f÷N<P0§MZ<S¯e§!ŒT§M^Xôu)RšN§!1S=fÈuïz‚‚¹p„v2N*N‹OPR0§M8fÞz‰N›R§!³QšR†N`Oåb	gYS§M8f÷N<P§!ïSåNÎNN*N8f‚‚¹plûy0RæSN*N0"
- TUT_ADV_CHAPTER03_PAGE06_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_ADV_CHAPTER03_PAGE07_TITLE:1 "8fÞz‰N›R"
- TUT_ADV_CHAPTER03_PAGE07_TEXT:0 "8fÞz‰N›Rôv¥cqVÍTN*N8f‚‚¹pNÿ©s¶RNbµc6R„v8fýN˜08fÞz‰N›RegnŽN§MwýN§!ŒTck(WÝO²b8f„v§M‰‹W9‚êS§!0dkYÿØ	gN›NtõVŒT§MY²NŒ˜î•§!ýwYqVÍT§MhQNS8fÞz‰N›R§!0"
- TUT_ADV_CHAPTER03_PAGE07_OBJECTIVES:0 "	ébZ<S¯e=nãS„v§M9‚êS§!"
- TUT_ADV_CHAPTER03_PAGE08_TITLE:1 "ÝO²b8f"
- TUT_ADV_CHAPTER03_PAGE08_TEXT:0 "‰‹W9‚êSïS«ˆ(uegÝO²b8f0ƒRìNO(W8f‚‚¹páTIÿv^ÐcGS`O(Wå‹‚‚¹påb	g„v8fÞz‰N›R0ÙùRŽNÐcGS8f6eeQósQÍ‘‰0"
- TUT_ADV_CHAPTER03_PAGE08_OBJECTIVES:0 ">mc9‚êS0RNY8f‚‚¹p§MÝO²b8f§!"
- TUT_ADV_CHAPTER03_PAGE09_TITLE:1 "‰‹W9‚êS"
- TUT_ADV_CHAPTER03_PAGE09_TEXT:0 "ú^.§M‰‹W9‚êS§!v^©‹ƒRìN»S§MÝO²b8f§!ÿ=fÐcGS8fÞz‰N›RgŽrUS„v¹eÕl0ÏkX‚ÝO²b8f‚‚¹p„v	NEh^9‚ýwYÐcGS3¹p`O(Wå‹‚‚¹p„v8fÞz‰N›R0"
- TUT_ADV_CHAPTER03_PAGE09_OBJECTIVES:0 "§Y¹pûQæTN¹e„v§MuµNLub—§Yçuíu"
- TUT_ADV_CHAPTER03_PAGE10_TITLE:1 "îO.9‚êS"
- TUT_ADV_CHAPTER03_PAGE10_TEXT:0 "ÏkNX‚(W8f‚‚¹pÝO²b8f„v	NEh^9‚ÐcGS§M3¹p8fÞz‰N›R§!0IrµuŠØš„v‰‹W9‚êSÿåb	g„v8fÞz‰N›RmNŠØš0\n\n§Y	ébæTµORhˆ-N„v§M	NEh^9‚§Yÿv^¹pûQ0WþVN„vÿur‚wýNVËYú^.0+RØV†NS8nbÖSˆm‚fjP0§W"
- TUT_ADV_CHAPTER03_PAGE10_OBJECTIVES:1 "ú^.§M	NX‚‰‹Wb0‚ÿ	NEh^9‚	ÿ§!egçuíu8nb0"
- TUT_ADV_CHAPTER03_PAGE11_TITLE:1 "àz‚‚Óumg"
- TUT_ADV_CHAPTER03_PAGE11_TEXT:0 "8fYefRàz‚‚Óumgÿ^g©s¶RòTÏuùR0'kF–Î˜‘NIV0-N„v8f	g†Nôf RñmIR„v†Nã‰0"
- TUT_ADV_CHAPTER03_PAGE11_OBJECTIVES:0 "¹pûQ§MúQ§!ÔÞVYezÜƒUS"
- TUT_CAM_CHAPTER01_TITLE:0 "6eY1Y0WÐ¨R"
- TUT_CAM_CHAPTER01_DESC:1 ",gàzSËNÍu§MUSMOuµN§!ÿ§MûN¡R§!ÿ§Mb‰N§!ŒT§MVg§!0"
- TUT_CAM_CHAPTER01_BUTTON:0 "6eY1Y0WÐ¨R"
- TUT_CAM_CHAPTER01_PAGE01_TITLE:1 "ÛbßRè–"
- TUT_CAM_CHAPTER01_PAGE01_TEXT:0 "›Q–ÛbßR=fÛLˆb‰N„vN*NÍ‘‰¯s‚‚0ÛbßR(WwýN…QÛLˆÿïSO(u2NÍy¹eV0©s¶RsSïSåNÇæTN¹e„v§MuµNLub—§!ÿmN(WwýN…Q¹pûQ§MÛbßR›Q–§!	c®”ÿÏkN!kÛbßRN*N›Q–—‰±‚9 1000 ºN›R0"
- TUT_CAM_CHAPTER01_PAGE01_OBJECTIVES:0 "§Y¹pûQæTN¹e„v§MuµNLub—§Yçuíu"
- TUT_CAM_CHAPTER01_PAGE02_TITLE:1 "ÛbßRè–"
- TUT_CAM_CHAPTER01_PAGE02_TEXT:0 "(WæT¹eRhˆN	ébN*N›Q–ÿ6qT¹pûQÿur‚wýNÛLˆÛbßR0ÏkÛbßRN*N›Q–—‰±‚91000ºN›RŒTNšR„vÑ‘^0\n\n§Y+RØV†Nb`Y‚fjP„v8nb§!"
- TUT_CAM_CHAPTER01_PAGE02_OBJECTIVES:0 "§MÛbßR5*NF–›QUSMO§!çuíu"
- TUT_CAM_CHAPTER01_PAGE03_TITLE:1 "ûN¡R"
- TUT_CAM_CHAPTER01_PAGE03_TEXT:1 "ûN¡R=f:N`O„výV¶R¾‹šRîvh„vNÍy¹eV0ûN¡R(W¾–¦^ŒTVY±R¹eb—O	gNbNT0`ON!kêSýw	ÖSN*NûN¡RÿÖSˆmûN¡RasTNw`OÅV‰˜‰QIr…V5t^Mbýw	ÖS°e„vûN¡R0\n\n§Y¹pûQ§MàeòT	ÖSûN¡R§!„vf‹JTåNóló§M³Q®‹§!Lub—0§W"
- TUT_CAM_CHAPTER01_PAGE03_OBJECTIVES:0 "	ébûN¡R0§MŒRb6eY1Y0WÐ¨R§!0åNçuíu0"
- TUT_CAM_CHAPTER01_PAGE04_TITLE:1 "6eY1Y0Wÿ"
- TUT_CAM_CHAPTER01_PAGE04_TEXT:0 "ùRN*Nîvh±Rböeÿ`Og‹YùRÖNìN	gN*N§M±Rbt1u§!0‚Yœg`O¡l	g±Rbt1usSckSV„vVbt1u`OSàV:NTÖNìN±Rbwm×S0Rb—qVÍT0\n\n§YóS.•¹pûQwýN§M<hÉb³u¾§Yv^	ÖS§M±Rb§Y0åN§M:YÖS<hÉb³u¾§Y:N§Mb‰Nîvh§Yÿ	ébVg„v±Rbt1uÿ6qT¹pûQ§M±Rb§Y0§W"
- TUT_CAM_CHAPTER01_PAGE04_OBJECTIVES:0 "§MT<hÉb³u¾±Rb§!çuíu"
- TUT_CAM_CHAPTER01_PAGE05_TITLE:1 "b‰N‚iÈ‰"
- TUT_CAM_CHAPTER01_PAGE05_TEXT:0 "b‰N‚iÈ‰—zãSýwJTÉ‹©s¶Rb‰N„vÛUS0²Nb„vÌS¹eåNÊSÌS¹e„vb‰N†˜–ˆ0byVŒTôVÎWÓuœg>f:y(WN¹e0"
- TUT_CAM_CHAPTER01_PAGE05_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_CAM_CHAPTER01_PAGE06_TITLE:1 "ûQ%<hÉb³u¾"
- TUT_CAM_CHAPTER01_PAGE06_TEXT:0 "b‰N„vÓuœgO«ˆ°‹UVÿv^OåN§Mb‰NRpe§!SO°s0`S†˜Le¹ewýNÿ(WF–bŒTwmb-N·ƒÜwýýw·ƒ—Vb‰NRpe0øvÍSÿ†˜W«ˆLe¹e`S†˜åNÊS(Wb—e-N«ˆûQ%ýO1Y»Sb‰NRpe0b‰NRpe³QšR†N§MŒTs^Ðc®‹§!-NýwY‰BlÀNHN0\n\n§Y+RØV†Nb`Y‚fjP„v8nb0§!"
- TUT_CAM_CHAPTER01_PAGE06_OBJECTIVES:0 "·ƒ—V100%§Mb‰NRpe§!çuíu"
- TUT_CAM_CHAPTER01_PAGE07_TITLE:1 "Tv^<hÉb³u¾"
- TUT_CAM_CHAPTER01_PAGE07_TEXT:2 "òTûQ%<hÉb³u¾ÿTv^ƒRÿŒRb‰ísYr„v6eY1Y0WÐ¨R0\n\n§YóS.•¹pûQóSNÒ‰„v§Mb‰N‚iÈ‰§YþvLr0	-NLeºN„vwýNv^‰BlTv^ƒRìNÿ6qT¹pûQ§MÑS‰Bl§!0+RØV†NçuíuòT‚fjP„v8nb0§W"
- TUT_CAM_CHAPTER01_PAGE07_OBJECTIVES:2 "0tÖS<hÉb³u¾iRYOhQèwýNÿ6qTçuíu0"
- TUT_CAM_CHAPTER01_PAGE08_TITLE:1 "àz‚‚Óumg"
- TUT_CAM_CHAPTER01_PAGE08_TEXT:0 "‰ísYr^ýVbyVYýVÐ¨Ràz‚‚Óumg"
- TUT_CAM_CHAPTER01_PAGE08_OBJECTIVES:0 "¹pûQ§MNN*N§!ÛeQNNàz‚‚"
- TUT_CAM_CHAPTER02_TITLE:0 "‰ísYr—RYeÁˆ2RNb"
- TUT_CAM_CHAPTER02_DESC:0 ",gàzSOËNÍu§MTIN¹ppe§!ÿ§Mßu»lw§!ÿ§MŒ˜î•§!ÿ§M8hÃVwýN§!ÿ§M—RYe§!Ir0"
- TUT_CAM_CHAPTER02_BUTTON:0 "‰ísYr—RYeÁˆ2RNb"
- TUT_CAM_CHAPTER02_PAGE01_TITLE:1 "ßu»lw"
- TUT_CAM_CHAPTER02_PAGE01_TEXT:0 "ßu»lwùRýV¶R„vÑSUSósQÍ‘‰0©s¶Råb	g	NÍyDnßuðy:N§MTIN¹ppe§!ÿR+R:N§MLˆ?e¹ppe§!ÿ§MY²N¹ppe§!ŒT§M›Q‹N¹ppe§!0Ïkg·ƒ—V„vTIN¹ppepeÏ‘ÖS³QNTINŽbýwŒTŒ˜î•0"
- TUT_CAM_CHAPTER02_PAGE01_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_CAM_CHAPTER02_PAGE02_TITLE:1 "Œ˜î•"
- TUT_CAM_CHAPTER02_PAGE02_TEXT:1 "`OÏk*NgýO—V0RŒ˜î•Ùu`OžX R„v§MTIN¹ppe§!0(uÑ‘^Ç–cOÖNìNÿTöeÏk*NgSOÑSÙuÖNìNåTD0Ç–cOôf5„vŒ˜î•SO—V0RôfY„vTIN¹ppeÿFO`OÏk*NgO—V0RôfS„vÑ‘^0\n\n§Y¹pûQ§M`O	gN*Nzzò•„vŒ˜î•ýi§!åNÛeQ§M?eœ^§!Lub—ågw0§W"
- TUT_CAM_CHAPTER02_PAGE02_OBJECTIVES:1 "SbV§M«R÷^Lub—§! egçuíu"
- TUT_CAM_CHAPTER02_PAGE03_TITLE:1 "Œ˜î•"
- TUT_CAM_CHAPTER02_PAGE03_TEXT:0 "Œ˜î•ýwYžX R©s¶RÏkg·ƒ—V„v§MTIN¹ppe§!0©s¶R—‰±‚9ÄžÑ‘ÛbßRŒ˜î•ÿÏkgØ‰ÑSÙuŒ˜î•NšRåTD0Ç–cO„vŒ˜î•Šf5ÿTIN¹ppe„vžX RÏ‘mNŠ'YÿFO=fÏkg·ƒ—VÄžÑ‘1SOØSS0\n\n§Y¹pûQzz‹v–wÏPMRŽVïSÇ–cOŒ˜î•Rhˆ§W"
- TUT_CAM_CHAPTER02_PAGE03_OBJECTIVES:0 "§MÇ–cONTŒ˜î•§!çuíu"
- TUT_CAM_CHAPTER02_PAGE04_TITLE:1 "8hÃVwýN"
- TUT_CAM_CHAPTER02_PAGE04_TEXT:0 "8hÃVwýN=f©s¶RÆ‰:NýV¶R†˜W…Q„vwýN0SwýNØS:N8hÃVwýNåN2–bk§MÇ¦^ib.V§!^—8^Í‘‰0^—8hÃVwýNÐc›O„v§Mz6e§!ŒT§MºN›R§!ýO'Y'YM–NO0åb	gÑgVgwýN„v§M±Rðy§!ýwYÏQS8hÃVSNb—„v¹ppe±‚9ŒTöeô•0\n\n§Y+RØV†NS8nbÖSˆm‚fjP0§!"
- TUT_CAM_CHAPTER02_PAGE04_OBJECTIVES:0 "S<hÉb³u¾§MØSb8hÃVwýN§!çuíu"
- TUT_CAM_CHAPTER02_PAGE05_TITLE:1 "—RYe"
- TUT_CAM_CHAPTER02_PAGE05_TEXT:0 "—RYeßuNïSåNOýV¶R3zšRÿ2–bkÑSuÛSqN0©s¶RÅV‰˜OwýN—RYeˆvOýVYeMbýwåb	g—RYeßuN0wlbc—RYe—‰.OYeëX„v.^©R0Øš3zšR¦^ýwYÐcGSlYe¦^0\n\n§Y+RØV†Nb`Y‚fjP„v8nb§!"
- TUT_CAM_CHAPTER02_PAGE05_OBJECTIVES:0 "§MlS§!<hÉb³u¾wýNçuíu"
- TUT_CAM_CHAPTER02_PAGE06_TITLE:1 "ú^Qr"
- TUT_CAM_CHAPTER02_PAGE06_TEXT:0 "ú^Qrir=fÐcGSýV¶RÏuNmŒT›Q‹NžR›R„vÍ‘‰èR0Ýu'YYpeú^QrirïSåN(WNb	gwýNú^.ÿFOpeÏ‘×SP–ŽNå‹wýN„v§Mú^QrhMO§!0ú^.ú^QrirýO±‚9Ñ‘^0\n\n§Y°‹—VÖSˆm8nb‚fjP0§!"
- TUT_CAM_CHAPTER02_PAGE06_OBJECTIVES:1 "(W<hÉb³u¾ú^.Nµ^§MúR™^§!çuíu"
- TUT_CAM_CHAPTER02_PAGE07_TITLE:1 "‹NöN"
- TUT_CAM_CHAPTER02_PAGE07_TEXT:0 "‹NöNO(W8nbÇz-N–:gúQ°sÿîv„v(WŽNžX R8nb„v±sT'`0©s¶R—‰(W2N*NbôfY	y˜-NZPúQ	éb08nb-NmNOúQ°sýV¶R„vyršR‹NöN0"
- TUT_CAM_CHAPTER02_PAGE07_OBJECTIVES:0 "¹pûQ‹NöN-NúQ°s„v	y˜çuíu"
- TUT_CAM_CHAPTER02_PAGE08_TITLE:1 "ÛS›Q"
- TUT_CAM_CHAPTER02_PAGE08_TEXT:0 "ÛS›Q„vÍy‰|	g¸‹YÍyÿÏk*N>m+Rý	gNT„vÉ‹Bl0N*NwýN„v§MÛSqN¦^§!>f:y†NrÑSÛSqN„v‚i‡s0`OâeïSåN(Wb—e-N§MRmpÛSqN§! mNïSåN(W§M3zšRŒTib.V§!Lub—-NTÖNìN¥YOS0\n\n§Y+RØV°‹Óumg‚fjPÿçuíu8nb0§!"
- TUT_CAM_CHAPTER02_PAGE08_OBJECTIVES:0 "§MG•‹SÛSqN§!çuíu"
- TUT_CAM_CHAPTER02_PAGE09_TITLE:1 "3zšR"
- TUT_CAM_CHAPTER02_PAGE09_TEXT:0 "3zšR¦^hˆ°s†N`O„výV¶R„v3zšRz¦^03zšR¦^OqVÍT0R§MÛSqN¦^§!0§Mz6e§!0§MhQNS8fÞz‰N›R§!IrIr03zšR¦^ïSåN(W§M3zšRŒTib.V§!Lub—…Qˆmw§MLˆ?e¹ppe§!ÐcØš0\n\n§Y¹pûQæTNÒ‰„vþvËVÿQ¹pûQ§M3zšRŒTib.V§YLub—ÿ6qT(W3zšR¦^NhN¹pûQ§MÐcGS§!0"
- TUT_CAM_CHAPTER02_PAGE09_OBJECTIVES:0 "¹pûQ§MÐcGS3zšR¦^§!çuíu"
- TUT_CAM_CHAPTER02_PAGE10_TITLE:1 "‹s²RTwûY"
- TUT_CAM_CHAPTER02_PAGE10_TEXT:0 "‹s²RTwûY=fNvQƒRýV¶Rú^Ëzo‚‹YsQû|„vNÍyKbµk0\n\n§Y(W¡l	g	šRûNUOUSMO„vÅ`µQNÿóS.•¹pûQ§Ma„„Yr§!ÛLˆY²N0¹pûQ§M‹s²R§!	y˜SbV§M‹s²RTwûY§!	éby˜0\n\n+RØV†NçuíuòT‚fjP„v8nb0§W"
- TUT_CAM_CHAPTER02_PAGE10_OBJECTIVES:0 "§MNa„„Yr‹s²RTwûY§!Tçuíu0"
- TUT_CAM_CHAPTER02_PAGE11_TITLE:1 "‹s²RTwûY"
- TUT_CAM_CHAPTER02_PAGE11_TEXT:0 "‹s²RTwûYýw–öeô•ÐcGS©s¶R„v§Mckßu'`§!ÿFO=fO9hnc2NýVô•„v§MZg§!ŒT§Mckßu'`§!„vîT+RM–NONšR„vckßu'`0ŒTvQƒRýV¶RÛLˆ‹s²RTwûYýwYÐcGS©s¶R|Qv^ùR¹e§M¶RÏe§!„vàQ‡sÿv^bVb§MTwTßu»l§!0"
- TUT_CAM_CHAPTER02_PAGE11_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_CAM_CHAPTER02_PAGE12_TITLE:1 "³Q®‹"
- TUT_CAM_CHAPTER02_PAGE12_TEXT:0 "³Q®‹©‹`OýwYùR`O„výV¶RÛLˆ9ei—0SVagöNán³öeÿ³Q®‹ïSåNËzIRuHev^©‹`O·ƒ—V³Q®‹„v Rb0N›N³Q®‹„vagöNO^—8^Û‚IRÿÔk‚YbËz·Va×Vba'Y)R0\n\n§Y¹pûQ§M³Q®‹ïS(uÐc’‘§!ÛeQ§M³Q®‹—zãS§Y0§W"
- TUT_CAM_CHAPTER02_PAGE12_OBJECTIVES:0 "¹pûQ§MY²NKbµkbËz‰ísYr§!åNçuíu0"
- TUT_CAM_CHAPTER02_PAGE13_TITLE:1 "ÑyŽb"
- TUT_CAM_CHAPTER02_PAGE13_TEXT:0 "ÑyŽbïSåNÇ±‚9§MTIN¹ppe§!ã‰•0ÑyŽbR:N§M	NÍy‰|‹W§!ÿÏkÍy‰|‹WŒTNÍyTIN¹ppeøvsQ0§!"
- TUT_CAM_CHAPTER02_PAGE13_OBJECTIVES:0 "SbV§MÑyŽbb—g§!çuíu"
- TUT_CAM_CHAPTER02_PAGE14_TITLE:1 "ÑyŽb"
- TUT_CAM_CHAPTER02_PAGE14_TEXT:0 "ÑyŽb…MRSOùR`O„vÑyŽb±‚9.b˜Yé`Z0Tt‰R’cÑyŽbŒTtõVåN¿OŽNôfTt„vO(uTIN¹ppeÿ9hnc`O„vßu»lw„výw›RegOSŒ‰R’cmN=f*NN•„v	éb0"
- TUT_CAM_CHAPTER02_PAGE14_OBJECTIVES:0 "ã‰•§M5ÏeqQŒT6Rÿ7	ÿ§!åNçuíu"
- TUT_CAM_CHAPTER02_PAGE14_inst_TITLE:1 "¥c³u`no"
- TUT_CAM_CHAPTER02_PAGE14_inst_TEXT:0 "·ƒ—VÑyŽbNb—‰„vTIN¹ppe1u`OòT¥c×S„v§M`no§!NbîOck0(W8nb„vVËYÿ=UNã‰•„v§M`no§!=f§MSú^ININ§!ÿSú^ININgVËY«ˆte*N'k2mŒT'YèRšN2mýV¶RNb§M¥c³u§!0\n\nÏk50t^ýO	gN*N°e„v§M`no§!(WNLuN„vÐgN*NwýNúQ°sv^babaÎNƒR„vwn0WThQNLu.O­d0\n\nó`‰§M¥c³u§!N*N§M`no§!ÿÙ*N`no—‰óS.O­d0R`ONbµc6RwýN„v10%0ÏkN*NØ¡l	g§M¥c³u§!°e`no„výV¶RýO×S0RN*N–öeô•babažX R„vÑyxé`Z0ïSåN(WÑyŽbh„v§M`no§!	c®”-NÀhÆ‰°sXR„v§M`no§!ŒTÖNìN„v.O­dÅ`µQ0"
- TUT_CAM_CHAPTER02_PAGE14_inst_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_CAM_CHAPTER02_PAGE15_TITLE:1 "tõVÄu"
- TUT_CAM_CHAPTER02_PAGE15_TEXT:0 "(WyršRµu+R„v§MLˆ?eÑyŽb§!ã‰•Tÿ`OO·ƒ—VN*NtõVÄuhMO0`ORRã‰•„vÑyŽb.^©R`O·ƒ—V†N,rŒN*NtõVÄuhMO0tõVÄu=f.^©R`O„výV¶Rôf RNè•S„vnbo‹YÐgNLw1„vo‚¹e0"
- TUT_CAM_CHAPTER02_PAGE15_OBJECTIVES:0 "SbV§MtõVu˜§!åNçuíu"
- TUT_CAM_CHAPTER02_PAGE16_TITLE:1 "tõVÄu"
- TUT_CAM_CHAPTER02_PAGE16_TEXT:0 "ã‰•tõVÄu-N„vN*NtõV—‰ØNúQ§M400Lˆ?e§!0§MY²N§!b§M›Q‹N§!§MTIN¹ppe§!0Nb—TIN¹ppe„vÍy‰|–tõVÄuwV09hnc`O“^XREQÕˆ„vTIN¹ppeeg	ébtõVÄuÿMb=ffzf„v‰béb0\n\n§Y¹pûQ§Mzz‹v„vtõVýi§!ÿ6qT	éb§M¢c0ttõV§!0§W"
- TUT_CAM_CHAPTER02_PAGE16_OBJECTIVES:0 "	éb§M¢c0t§!tõVÄuåNçuíu"
- TUT_CAM_CHAPTER02_PAGE17_TITLE:1 "tõV"
- TUT_CAM_CHAPTER02_PAGE17_TEXT:0 "ã‰•3*NtõVmNOã‰•1*N`O„v§MýV¶RtõV§!0Ype'YýVŒTN›NSýVýåb	gìryr„výV¶RtõV0\n\n§M¢c0t°eNLu§Y(W§M¢c0t§YtõVÄu-Nÿå‹tõVAQ¸‹`OïSåNÛbßR§M¢ci–¶R§YŒT§MVgw§Y0å‹tõV„vMRÐc:Nã‰•§MVÓb–kl0W§YtõV0"
- TUT_CAM_CHAPTER02_PAGE17_OBJECTIVES:0 "ã‰•§M¢c0t°eNLu§!tõVåNçuíu0"
- TUT_CAM_CHAPTER02_PAGE18_TITLE:1 "àz‚‚Óumg"
- TUT_CAM_CHAPTER02_PAGE18_TEXT:0 "‰ísYr^ýVbyV‰ísYr—RYeÁˆ2RNbKNàzódkÓumg"
- TUT_CAM_CHAPTER02_PAGE18_OBJECTIVES:0 "¹pûQ§MNN*N§!ÛeQNNàz‚‚"
- TUT_CAM_CHAPTER03_TITLE:0 "°eNLu"
- TUT_CAM_CHAPTER03_DESC:0 "å‹àzSOcüR`OfR`N¢c0tN–kl"
- TUT_CAM_CHAPTER03_BUTTON:0 "°eNLu"
- TUT_CAM_CHAPTER03_PAGE01_TITLE:1 "¢c0t"
- TUT_CAM_CHAPTER03_PAGE01_TEXT:0 "¢c0tŒT–kl=f0'kF–Î˜‘NIV0„vÍ‘4Yb0¢c0t°e'YF–0ú^Ëz–kl0W=fN*NøvùRŒTs^„v^ýVib.V¹eV0"
- TUT_CAM_CHAPTER03_PAGE01_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_CAM_CHAPTER03_PAGE02_TITLE:1 "¢c0t"
- TUT_CAM_CHAPTER03_PAGE02_TEXT:0 "*gåwKN0W«ˆhÆ‹:N§M*gåwwýN§!0`O—‰NMO§M¢ci–¶R§!bw§MVgw§!egÛeQ*gåwwýN0ÛbßR¢ci–¶RbVgw—‰§M¢c0t°eNLu§!tõV0"
- TUT_CAM_CHAPTER03_PAGE02_OBJECTIVES:2 "	-N`OMOŽN§M^Xôu)RšN§!„v0‚–v^c>mNTS†˜ÿ6qTçuíu8nb0"
- TUT_CAM_CHAPTER03_PAGE03_TITLE:1 "*gåwwýN"
- TUT_CAM_CHAPTER03_PAGE03_TEXT:0 "¢ci–¶Rc%cwm›QÿVgwc%cF–›Q0îvMR`O„v0‚–(W¢ci–¶RKQÌ‘¯eXbV·åT&O^„vc%cKNN0\n\n§YO(uóS.•¹pûQh	g§M*gåwKN0W§Y„v:SßWS0‚–ûy¨RÇ»S0\n\n°‹—V‰ÖSˆm8nb‚fjP0§!"
- TUT_CAM_CHAPTER03_PAGE03_OBJECTIVES:0 "S`O„v0‚–všT‰¹eÿv^N§M¿lNw­r4Yc:y§!åNçuíu§W"
- TUT_CAM_CHAPTER03_PAGE04_TITLE:1 "mcw"
- TUT_CAM_CHAPTER03_PAGE04_TEXT:0 "1uŽNmcwÿ¢c0tLˆ¨RïSýwOEQánqSi–0SV`O„v9‚–Ü*‚w¾–åN·ƒ—VeˆÙuöeÿÖNìN1SO×S0Rmcw0(Wck8^„v8nb-Nÿ`OSN—VNba0WÛLˆ¢c0tÿv^(WÅV‰öeìSÞV9‚–Í‘te×eŸ0NÇ(WYefR-Nÿwm›QmcwòTŒógNO0"
- TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES:0 "S`O„v0‚–všT‰¹eÿv^N§M¿lNw­r4Yc:y§!åNçuíu§W"
- TUT_CAM_CHAPTER03_PAGE05_TITLE:1 "*g–klW0W"
- TUT_CAM_CHAPTER03_PAGE05_TEXT:0 ">mcNMO§M–klw§!¿OïS(W*g–klW0WNšRES0`OgÜýw(WêTÌ‘ú^Ëz–kl0WÖS³QŽN`O„v§M–klÝ»y§!0*g–klW0WNïSýwO	gNšRpeÏ‘„v§MŸSOOl§!ÿÖNìNmN”^·ƒ—VÍ‘Æ‰0ŸSOOlIeûQ'`ŠØš1SŠ	gïSýwIeûQ`O„v–kl0W0"
- TUT_CAM_CHAPTER03_PAGE05_OBJECTIVES:0 "¹pûQ§MXbSþV R§!åNçuíu"
- TUT_CAM_CHAPTER03_PAGE06_TITLE:1 "*g–klW0W"
- TUT_CAM_CHAPTER03_PAGE06_TEXT:0 "(WòT>mc§M–klw§!„v0W¹eïSåNú^Ëz–kl0W0–klwIN‰Ç§M¢c0t§!ŒT§Mib.V§!tõVÄu·ƒ—V0(W–klwµb¾N*N*g–kl„vwýNöeMbýwÛLˆNNek0NæeÖNµb¾T1SOVËYú^Ëz–kl0W0\n\n§Y°‹—V‰ÖSˆm8nb‚fjP§!"
- TUT_CAM_CHAPTER03_PAGE06_OBJECTIVES:0 "¹pûQ§M>mc§!åNçuíu"
- TUT_CAM_CHAPTER03_PAGE07_TITLE:1 "–kl0W"
- TUT_CAM_CHAPTER03_PAGE07_TEXT:0 "(WVËY–klKNTÿ–kl0W—‰Ïu†SNµköeô•MbýwêÙuê³0–kl0W-N„v–klºNpeOÏkgê¨RžX Rÿ(W¾0R1000TsSïSêÙuê³0(W–kl0WN	g–klwýwY R–klºNpe„vžX•0"
- TUT_CAM_CHAPTER03_PAGE07_OBJECTIVES:0 "¹pûQ§MNN*N§!åNçuíu0"
- TUT_CAM_CHAPTER03_PAGE08_TITLE:1 "YefRÓumg"
- TUT_CAM_CHAPTER03_PAGE08_TEXT:0 "r^—V‹Yÿ‰ísYr^ýVbyV„v°eNªuàzŒRb†NÿYefRmN0Rdk:Nbk0`OòTÏuŒcác†NEu©s0'kF–Î˜‘NIV0Nb—‰„vúWNxŽb=gÿ\n\n§Y„U(uÐc:yû|ßuO(W8nböeÙu`OôfY.^©R0§!"
- TUT_CAM_CHAPTER03_PAGE08_OBJECTIVES:0 "§M«N×S§!Ù:W8nbÛv´R'Tÿ"
- TT_TUTORIAL_DISABLED:0 "§M(W,g!kYez-NNïS(u§!"
- TUT_BAS_CHAPTER03_PAGE06_TEXT:1 "Í‘‹Wb0‚=f(Wb—e-Nhˆ°súQr‚„v'Y‹W›Q0‚0‰‹Wb0‚=fNÍy¦^ôfëV„v9‚ÿIN‰(uŽNÝO²b8fÿFOmN	g(uŽN¢c0t0hh^b0‚=fNÍy÷N<hNOÉ^„v›Q0‚ÿ(uŽN…QwmjOb0gTØ	gÐ“9‚ÿïSåN(W4lNÐ`O„vè–0§W"
+l_english:
+ TUT_PART_BAS_SHORT:0 "基础教程"
+ TUT_PART_BAS_TITLE:0 "§Y基础教程§!\n基本操作\n基本玩法"
+ TUT_PART_BAS_DESC:0 "该部分教程将会介绍如何控制镜头，调节游戏速度，控制单位，开展生产和进行基本外交。"
+ TUT_PART_ADV_SHORT:0 "高级教程"
+ TUT_PART_ADV_TITLE:0 "§Y高级教程§!\n高级玩法"
+ TUT_PART_ADV_DESC:0 "该部分教程将会介绍游戏界面以及各种功能，此外还会介绍地图模式和贸易机制。"
+ TUT_PART_CAM_SHORT:0 "西班牙帝国"
+ TUT_PART_CAM_TITLE:0 "§Y西班牙帝国§!\n新手战役"
+ TUT_PART_CAM_DESC:1 "该部分教程将通过准确的模拟真实游戏的方法来介绍游戏原理。你将学习如何宣战，吞并国家，以及如何管理新征服的土地。你也将了解事件，稳定度，叛乱和探索新世界。"
+ TUT_PART_DESC:0 "这是各个部分的描述"
+ TUT_BAS_SELECT_CHAPTER_TITLE:0 "基础教程"
+ TUT_BAS_SELECT_CHAPTER_DESC:0 "基础教程描述"
+ TUT_NEXT:0 "下一个"
+ TUT_NEXT_TOOLTIP:0 "点击翻页。"
+ TUT_MENU:0 "退出"
+ TUT_MENU_TOOLTIP:0 "点击返回教程菜单。"
+ TUT_SKIP:0 "跳过"
+ tutorial_negative_modifier:0 "防御效率降低"
+ TUT_SKIP_TOOLTIP:0 "点击跳过当前章节进入下一章节。"
+ TUT_MINIMISE_TOOLTIP:0 "点击以最小化该界面。"
+ TUT_OBJECTIVES:0 "目标"
+ TUT_SELECT_CHAPTER_TITLE:0 "章节选择"
+ TUT_SELECT_CHAPTER_DESC:0 "选择一个章节然后点击开始。"
+ TUT_BAS_CHAPTER01_BUTTON:0 "基本操作"
+ TUT_BAS_CHAPTER01_TITLE:0 "基本操作"
+ TUT_BAS_CHAPTER01_DESC:0 "玩家在该章节能够学到游戏的基本规则，包括如何调节§M镜头§!和§M游戏速度§!。"
+ TUT_BAS_CHAPTER01_PAGE01_TITLE:1 "介绍"
+ TUT_BAS_CHAPTER01_PAGE01_TEXT:0 "玩家可以随时点击§M最小化§!按钮以最小化该界面，再点击§M最大化§!以重新显示该界面。"
+ TUT_BAS_CHAPTER01_PAGE01_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_BAS_CHAPTER01_PAGE02_TITLE:1 "时间"
+ TUT_BAS_CHAPTER01_PAGE02_TEXT:0 "玩家可以随时按下§M空格键§!或者点击§M时间控制界面§!暂停游戏，通过时间控制界面或者按下键盘上的「§M+§!」（加号）按钮或「§M-§!」（减号）按钮加快和减缓游戏速度。"
+ TUT_BAS_CHAPTER01_PAGE02_OBJECTIVES:0 "§M解除暂停§!游戏并等到1月1日以继续。"
+ TUT_BAS_CHAPTER01_PAGE03_TITLE:1 "时间"
+ TUT_BAS_CHAPTER01_PAGE03_TEXT:0 "暂停《欧陆风云IV》后，玩家可以继续下达命令，掌控局势。在和平时期，玩家可以加快游戏速度，而在战争时期可以减缓游戏速度或者暂停游戏集中精力处理冲突。"
+ TUT_BAS_CHAPTER01_PAGE03_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_BAS_CHAPTER01_PAGE04_TITLE:1 "调节镜头"
+ TUT_BAS_CHAPTER01_PAGE04_TEXT:0 "玩家可以将§M光标§!移至屏幕的上、下、左、右移动镜头。你也可以使用键盘上的§M方向键§!，或是按住§M滚轮§!的同时移动鼠标的方式移动镜头。若玩家点击位于屏幕右下角小地图上的一点，镜头将自动切换到那个地方。"
+ TUT_BAS_CHAPTER01_PAGE04_OBJECTIVES:0 "使用方向键或者滑动鼠标移动镜头，点击§M下一个§!继续。"
+ TUT_BAS_CHAPTER01_PAGE05_TITLE:1 "拉远镜头"
+ TUT_BAS_CHAPTER01_PAGE05_TEXT:0 "玩家需要经常改变镜头来更好地观察整个世界，掌握地区动向。\n\n§Y使用鼠标滚轮或者点击屏幕右下方小地图旁边的§M拉远镜头§Y按钮。§W"
+ TUT_BAS_CHAPTER01_PAGE05_OBJECTIVES:0 "继续§M拉远镜头§!，整个欧洲尽收眼底了。"
+ TUT_BAS_CHAPTER01_PAGE06_TITLE:1 "拉近镜头"
+ TUT_BAS_CHAPTER01_PAGE06_TEXT:0 "现在镜头已经拉远，试试拉近镜头。\n\n§Y玩家可以使用鼠标滚轮或者点击屏幕右下方小地图旁边的§M拉近镜头§Y按钮拉近镜头。§W"
+ TUT_BAS_CHAPTER01_PAGE06_OBJECTIVES:0 "§M尽可能拉近镜头§!以继续。"
+ TUT_BAS_CHAPTER01_PAGE07_TITLE:1 "寻找省份"
+ TUT_BAS_CHAPTER01_PAGE07_TEXT:0 "你是否明白如何控制镜头了呢？移动并放大或缩小镜头寻找某一省份。跟随箭头直到找到指定省份。当你发现省份时，箭头会指向它。"
+ TUT_BAS_CHAPTER01_PAGE07_OBJECTIVES:0 "跟随§M箭头§!往北寻找§M阿伯丁§!省份，左键点击§M阿伯丁§!继续。"
+ TUT_BAS_CHAPTER01_PAGE08_TITLE:1 "章节结束"
+ TUT_BAS_CHAPTER01_PAGE08_TEXT:0 "你已经学会如何控制镜头，下一章节你将学习如何操作陆军和舰队。"
+ TUT_BAS_CHAPTER01_PAGE08_OBJECTIVES:0 "点击§M下一个§!进入下一章节。"
+ TUT_BAS_CHAPTER02_BUTTON:0 "部队控制"
+ TUT_BAS_CHAPTER02_TITLE:0 "部队控制"
+ TUT_BAS_CHAPTER02_DESC:0 "本章节重点介绍§M单位操作§!，同时教你§M战斗§!和§M攻城§!的基本规则。"
+ TUT_BAS_CHAPTER02_PAGE01_TITLE:1 "部队控制"
+ TUT_BAS_CHAPTER02_PAGE01_TEXT:0 "叛军已经控制了§M佩尔§!，你必须击败他们！点击或者按住鼠标左键框选驻扎在§M伦敦§!的军队。"
+ TUT_BAS_CHAPTER02_PAGE01_OBJECTIVES:0 "点击位于§M伦敦§!的§M皇家陆军§!以继续。"
+ TUT_BAS_CHAPTER02_PAGE02_TITLE:1 "移动部队"
+ TUT_BAS_CHAPTER02_PAGE02_TEXT:0 "现在军队已被选中，右键点击任意省份将部队移向该省。玩家必须经过§M格温内斯§!才能到达§M佩尔§!。选定军队，右键点击格温内斯，然后恢复暂停的游戏让军队移动到那儿。\n\n§Y别忘了恢复暂停的游戏。"
+ TUT_BAS_CHAPTER02_PAGE02_OBJECTIVES:0 "将军队移动到§M格温内斯§!。"
+ TUT_BAS_CHAPTER02_PAGE03_TITLE:1 "运输部队"
+ TUT_BAS_CHAPTER02_PAGE03_TEXT:0 "玩家需要使用船只将军队运到§M佩尔§!，点击§M装载到运输船§!按钮将军队装载到§M格温内斯§!港口的船只。当有单位连接的运输船离开港口时，单位会装载上船。\n\n§Y每艘运输船只能装载一个军团。§!"
+ TUT_BAS_CHAPTER02_PAGE03_OBJECTIVES:0 "选择你的军队后点击§M装载到运输船§!以继续。"
+ TUT_BAS_CHAPTER02_PAGE04_TITLE:1 "选取舰队"
+ TUT_BAS_CHAPTER02_PAGE04_TEXT:0 "玩家的部队已经在格温内斯港连接上了皇家海军，点击或框选舰队以运送部队穿越爱尔兰海。§W"
+ TUT_BAS_CHAPTER02_PAGE04_OBJECTIVES:0 "选择§M格温内斯港§!的§M皇家海军§!。"
+ TUT_BAS_CHAPTER02_PAGE05_TITLE:1 "移动舰队"
+ TUT_BAS_CHAPTER02_PAGE05_TEXT:0 "右键点击海上省份§M爱尔兰海§!以移动舰队，当舰队离开港口时，连接的单位将会登上船只。\n\n§Y别忘了恢复暂停的游戏。§W"
+ TUT_BAS_CHAPTER02_PAGE05_OBJECTIVES:0 "派遣舰队到达海上省份§M爱尔兰海§!以继续。"
+ TUT_BAS_CHAPTER02_PAGE06_TITLE:1 "部队乘船"
+ TUT_BAS_CHAPTER02_PAGE06_TEXT:0 "选择舰队，然后点击§M运输§!按钮选择军队。"
+ TUT_BAS_CHAPTER02_PAGE06_OBJECTIVES:0 "点选§M乘船军队§!继续。"
+ TUT_BAS_CHAPTER02_PAGE07_TITLE:1 "部队下船"
+ TUT_BAS_CHAPTER02_PAGE07_TEXT:0 "你已经点选了你的军队，右键点击发生叛乱的§M佩尔§!省份卸载军队。§W"
+ TUT_BAS_CHAPTER02_PAGE07_OBJECTIVES:0 "命令军队前往§M佩尔§!以继续。"
+ TUT_BAS_CHAPTER02_PAGE08_TITLE:1 "战斗"
+ TUT_BAS_CHAPTER02_PAGE08_TEXT:0 "玩家的军队正在§M佩尔§!与叛军战斗，当战斗结束时，玩家需要围攻都柏林，因为它已经被叛军占领。每当战斗中的军队被选中时，战斗窗口就会出现。\n\n§Y别忘了恢复暂停的游戏。§!"
+ TUT_BAS_CHAPTER02_PAGE08_OBJECTIVES:0 "解除暂停并§M击败叛军§!以继续。"
+ TUT_BAS_CHAPTER02_PAGE09_TITLE:1 "围城"
+ TUT_BAS_CHAPTER02_PAGE09_TEXT:0 "尽管叛军已被消灭，城市仍在叛军控制下。你的军队正在围攻佩尔，距离叛军投降还需要一段时间。\n\n§Y在教程中一些动作花费的时间已被减少，比如围攻，在正常游戏中这些行动花费的时间更长。§!"
+ TUT_BAS_CHAPTER02_PAGE09_OBJECTIVES:0 "§M夺回佩尔§!以继续"
+ TUT_BAS_CHAPTER02_PAGE10_TITLE:1 "章节结束"
+ TUT_BAS_CHAPTER02_PAGE10_TEXT:0 "大获全胜！你已经击败了叛军重新夺回了佩尔，你已经完成了教程的第二章，下一章将会介绍§M生产§!。"
+ TUT_BAS_CHAPTER02_PAGE10_OBJECTIVES:0 "点击§M下一个§!进入下一章节。"
+ TUT_BAS_CHAPTER03_BUTTON:0 "生产"
+ TUT_BAS_CHAPTER03_TITLE:0 "生产"
+ TUT_BAS_CHAPTER03_DESC:1 "本教程的第三章将重点介绍基础的§M经济，§M单位招募§!和§M建筑修造§!。"
+ TUT_BAS_CHAPTER03_PAGE01_TITLE:1 "基础生产"
+ TUT_BAS_CHAPTER03_PAGE01_TEXT:0 "你在本章可以学会如何§M募集军队§!，§M修造船只§!和修建§M建筑§!。这些生产行为均在省份内进行。"
+ TUT_BAS_CHAPTER03_PAGE01_OBJECTIVES:0 "在地图上§M点选伦敦§!以继续。"
+ TUT_BAS_CHAPTER03_PAGE02_TITLE:1 "省份"
+ TUT_BAS_CHAPTER03_PAGE02_TEXT:0 "每一个省份都不相同，而且由于§M基本税收§!，§M贸易竞争力§!，战略位置或者生产的§M贸易货物§!的不同，每一个省份的经济或军事价值也不尽相同。之后，玩家会了解到更多关于这些价值的信息。所有单位的生产都在省份内进行，玩家可以§M募集军队§!，§M修造船只§!和§M招募雇佣兵§!。"
+ TUT_BAS_CHAPTER03_PAGE02_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_BAS_CHAPTER03_PAGE03_TITLE:1 "部队招募"
+ TUT_BAS_CHAPTER03_PAGE03_TEXT:0 "陆军由三种军团组成：§M步兵§!，§M骑兵§!与§M炮兵§!。每一军团皆为1000人。"
+ TUT_BAS_CHAPTER03_PAGE03_OBJECTIVES:0 "点击§M招募军队§!以继续。"
+ TUT_BAS_CHAPTER03_PAGE04_TITLE:1 "招募部队"
+ TUT_BAS_CHAPTER03_PAGE04_TEXT:0 "在军队招募窗口玩家可以看到一个列表，列表上显示了所有可招募单位。除§M金币§!外，每招募一个军队还要花费1000§M人力§!。人力是一种重要的资源，会随着时间慢慢恢复。人力不足则无法训练新军队，无法补员现有军队。人力可以在屏幕左上方看到。"
+ TUT_BAS_CHAPTER03_PAGE04_OBJECTIVES:0 "在伦敦§M招募任意一只军团§!以继续。"
+ TUT_BAS_CHAPTER03_PAGE05_TITLE:1 "舰队建造"
+ TUT_BAS_CHAPTER03_PAGE05_TEXT:0 "玩家可以选择一个沿海省份并点击§M修造船只§!按钮修造船只。有四种船只可供修造：重型战舰，轻型战舰，桨帆战舰和运输船。\n\n§Y点击§M返回§Y回到省份界面并点击§M修造船只§Y按钮。§W"
+ TUT_BAS_CHAPTER03_PAGE05_OBJECTIVES:0 "点击§M建造船只§!以继续。"
+ TUT_BAS_CHAPTER03_PAGE06_TITLE:1 "修造船只"
+ TUT_BAS_CHAPTER03_PAGE06_OBJECTIVES:0 "在伦敦§M修造任意船只§!以继续。"
+ TUT_BAS_CHAPTER03_PAGE07_TITLE:1 "建筑"
+ TUT_BAS_CHAPTER03_PAGE07_TEXT:0 "修建建筑可以在各方面提升省份，包括增加税收，强化要塞，增加贸易等等，是提升经济和军事实力的必须手段"
+ TUT_BAS_CHAPTER03_PAGE07_OBJECTIVES:0 "打开§M建筑§!标签继续"
+ TUT_BAS_CHAPTER03_PAGE08_TITLE:1 "建造"
+ TUT_BAS_CHAPTER03_PAGE08_TEXT:0 "建筑根据用途被分成不同的类别。同一类别中的一些建筑将取代其他建筑（使用黄色箭头标记），而一些建筑（例如大学）可以独立于其他建筑建造。"
+ TUT_BAS_CHAPTER03_PAGE08_OBJECTIVES:0 "在伦敦§M建造任意建筑§!以继续"
+ TUT_BAS_CHAPTER03_PAGE09_TITLE:1 "队列"
+ TUT_BAS_CHAPTER03_PAGE09_TEXT:0 "每个省份的生产分为两个队列——单位队列和建造队列。在单位队列中，你可以 §M建造舰船§!或者§M招募陆军§!。在建造队列中，你可以§M修建本地建筑§!、 §M核心化§!、§M转换宗教§!或者§M转换文化§!。每一个队列同时都只能做一件事。"
+ TUT_BAS_CHAPTER03_PAGE09_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_BAS_CHAPTER03_PAGE10_TITLE:1 "生产界面"
+ TUT_BAS_CHAPTER03_PAGE10_TEXT:1 "随着一个帝国变得越来越大，管理它变得更加困难。§M生产界面§! 将帮助您建造更多的建筑物或训练部队。从列表中选择建筑物将更新地图模式，并提供有关您在哪里能获得最大收益的信息。\n\n§Y请注意屏幕的左上角。§!"
+ TUT_BAS_CHAPTER03_PAGE10_OBJECTIVES:0 "点击§M生产界面按钮§!继续"
+ TUT_BAS_CHAPTER03_PAGE11_TITLE:1 "生产界面"
+ TUT_BAS_CHAPTER03_PAGE11_TEXT:0 "选择列表上一个单位，然后点击地图开始生产。玩家可以直接在地图上点击或者点击「§M+§!」图标。多次点击省份会排列船只和单位。\n\n§Y在5个不同省份生产，别忘了恢复暂停的游戏。§!"
+ TUT_BAS_CHAPTER03_PAGE11_OBJECTIVES:0 "从左方列表选择任意§M陆上单位§!，§M招募5个团§!后继续。"
+ TUT_BAS_CHAPTER03_PAGE12_TITLE:1 "章节结束"
+ TUT_BAS_CHAPTER03_PAGE12_TEXT:0 "第三章：生产到此结束，下一章将介绍§M战争§!。"
+ TUT_BAS_CHAPTER03_PAGE12_OBJECTIVES:0 "点击§M下一个§!进入下一章节。"
+ TUT_BAS_CHAPTER04_BUTTON:0 "交战"
+ TUT_BAS_CHAPTER04_TITLE:0 "交战"
+ TUT_BAS_CHAPTER04_DESC:0 "本章将会重点介绍§M战争§!和§M外交§!"
+ TUT_BAS_CHAPTER04_PAGE01_TITLE:1 "宣战"
+ TUT_BAS_CHAPTER04_PAGE01_TEXT:1 "对一个目标宣战时，你最好对他们有一个§M宣战理由§!。如果你没有宣战理由——即正当的开战理由——你将因为向他们宣战而遭受到负面影响。\n右键点选§M伦斯特§!省份，并选取§M宣战§!。点击后你将发现你只有§R无宣战理由§!的选项。\n幸运的是，你的国家在伦斯特省份拥有§M核心§!，这赋予你一个夺取它的§M宣战理由§!。不过，正如本游戏的很多其他元素，宣战理由将会在游戏内时间度过几天后才会刷新。\n\n§Y取消游戏暂停，稍等几天，然后再右键点选§M伦斯特§Y省份，点击§M外交§Y按钮，选择§M宣战§Y。以§M夺取伦斯特§Y为战争目标，选择征服的宣战理由，然后点击§M宣战§Y。§W"
+ TUT_BAS_CHAPTER04_PAGE01_OBJECTIVES:0 "对伦斯特§M宣战§!以继续。"
+ TUT_BAS_CHAPTER04_PAGE02_TITLE:1 "战争"
+ TUT_BAS_CHAPTER04_PAGE02_TEXT:0 "将军队移动到伦斯特省份以和敌军交战。你必须在围攻并占领该省份后才能继续。若你想派遣所有的军队，必须将军队从海上运过去，并合编成一支军队。\n\n§Y别忘了将游戏解除暂停。§!"
+ TUT_BAS_CHAPTER04_PAGE02_OBJECTIVES:0 "§M击败伦斯特§!以继续。"
+ TUT_BAS_CHAPTER04_PAGE03_TITLE:1 "提议和平"
+ TUT_BAS_CHAPTER04_PAGE03_TEXT:0 "玩家需要获得一定量§M战争分数§!才能在和平协议中§M提出条件§!。§M战争目标§!可使对目标省份所需的战争分数降低50%。拥有省份宣称权会减少50%外交点数花费。\n\n§Y点击伦斯特，然后点击§M外交§Y，选择§M求和§Y。\n别忘了恢复暂停的游戏。§W"
+ TUT_BAS_CHAPTER04_PAGE03_OBJECTIVES:0 "与伦斯特签订任意一项§M和平条约§!以继续。"
+ TUT_BAS_CHAPTER04_PAGE04_TITLE:1 "停战"
+ TUT_BAS_CHAPTER04_PAGE04_TEXT:0 "当一场战争结束，你们两国间会有一个停战期（除非你完全把他们吞并，因为不可能再与一个不存在的国家停战了）。你可以看到与你有停战期的国家，把鼠标放在§M停战期提示§!上可以看到停战期到期的时间。不推荐向一个与你尚在停战期中的国家宣战，因为这会对§M稳定§!造成巨大损伤。"
+ TUT_BAS_CHAPTER04_PAGE04_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_BAS_CHAPTER04_PAGE05_TITLE:1 "章节结束"
+ TUT_BAS_CHAPTER04_PAGE05_TEXT:0 "《欧陆风云IV》的基本教程结束，玩家可以随时重新进入该教程。进入§M高级游戏机制§!部分或者进入§M西班牙帝国新手战役§!以了解更多游戏内容。"
+ TUT_BAS_CHAPTER04_PAGE05_OBJECTIVES:0 "点击§M退出§!返回教程菜单"
+ TUT_ADV_CHAPTER01_BUTTON:0 "界面"
+ TUT_ADV_CHAPTER01_TITLE:0 "界面"
+ TUT_ADV_CHAPTER01_DESC:1 "本章将介绍§M主界面§!并解释每一项是什么，以及它为什么很重要。"
+ TUT_ADV_CHAPTER01_PAGE01_TITLE:1 "界面"
+ TUT_ADV_CHAPTER01_PAGE01_TEXT:0 "本章将会介绍界面的功能"
+ TUT_ADV_CHAPTER01_PAGE01_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE02_TITLE:1 "金币"
+ TUT_ADV_CHAPTER01_PAGE02_TEXT:0 "金币是游戏中的主要资源之一，可以用来支付从招募单位到建造建筑的各种费用。"
+ TUT_ADV_CHAPTER01_PAGE02_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE03_TITLE:1 "人力"
+ TUT_ADV_CHAPTER01_PAGE03_TEXT:0 "人力是一种重要的资源，决定了国家一共能够招募多少士兵。人力上限为10年人力增长的总和。每招募一个团，需要花费1000人力。为伤亡的军队补充增援军力也会消耗人力。"
+ TUT_ADV_CHAPTER01_PAGE03_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE04_TITLE:1 "稳定度"
+ TUT_ADV_CHAPTER01_PAGE04_TEXT:0 "稳定度表现了你的国家的稳定程度。稳定度会影响到§M叛乱度§!、§M税收§!、§M全局贸易竞争力§!等。\n\n稳定度可以在§M稳定和扩张§!界面内消耗§M行政点数§!增加。稳定度可能因§M随机事件§!、§M撕毁休战协议§!、改变§M国教§!或者§M统治者§!战死等原因降低。\n"
+ TUT_ADV_CHAPTER01_PAGE04_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE05_TITLE:1 "威望"
+ TUT_ADV_CHAPTER01_PAGE05_TEXT:0 "威望通过赢得战斗、战争或通过随机事件获得。威望可以使军队§M士气上升§!、提升§M正统性§!、§M随时间改善关系§!。"
+ TUT_ADV_CHAPTER01_PAGE05_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE06_TITLE:1 "正统性和共和传统"
+ TUT_ADV_CHAPTER01_PAGE06_TEXT:0 "只有共和政体国家会受到共和传统影响，它主要降低§M全国叛乱度§!。同一个统治者多次连任会降低共和传统，而共和传统会每年缓慢地增加。共和传统过低会增加§M提升稳定度的成本§!。\n\n只有君主制国家会受正统性影响，它表示了你的国君的统治有多么符合正统法理。正统性主要影响§M叛乱度§!、§M宗教容忍度§!和§M外交声誉§!。"
+ TUT_ADV_CHAPTER01_PAGE06_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE07_TITLE:1 "力量投射"
+ TUT_ADV_CHAPTER01_PAGE07_TEXT:0 "§M力量投射§!是一个用来衡量你的国家有多么擅于彰显国力的值。通过选择§M宿敌§!并对他们采取侵略性的行动，你的力量投射值就可以增加。力量投射值会给予你的国家正面影响。私掠、赢得战争、禁运和支持叛乱等例子都是提升力量投射的方法。"
+ TUT_ADV_CHAPTER01_PAGE07_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE08_TITLE:1 "特使"
+ TUT_ADV_CHAPTER01_PAGE08_TEXT:0 "特使可以被用来执行各种任务。商人团可以在贸易中获取收入和引导贸易导向。殖民队可以建立新的殖民地。外交官可以进行外交活动。传教士可以转变省份的宗教信仰。任务完成后特使会返回首都。"
+ TUT_ADV_CHAPTER01_PAGE08_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE09_TITLE:1 "君主点数"
+ TUT_ADV_CHAPTER01_PAGE09_TEXT:0 "三种资源统称§M君主点数§!。包括§M行政点数§!，§M外交点数§!和§M军事点数§!。玩家每月会获得君主点数，数量由统治者和顾问技能决定。"
+ TUT_ADV_CHAPTER01_PAGE09_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE10_TITLE:1 "提醒"
+ TUT_ADV_CHAPTER01_PAGE10_TEXT:0 "警告将通知你可能要对其执行某些操作的信息。左键点击警告将切换到相关界面以执行操作，右键单击将隐藏该警告。红色为紧急警告，黄色为重要警告，绿色为非紧急警告。其他国家的外交提议也显示在这里。"
+ TUT_ADV_CHAPTER01_PAGE10_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE11_TITLE:1 "生产界面"
+ TUT_ADV_CHAPTER01_PAGE11_TEXT:0 "生产界面帮助玩家更便捷地进行生产，玩家可以在§M基本教学中§!的§M生产章节§!中了解到更多信息"
+ TUT_ADV_CHAPTER01_PAGE11_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE12_TITLE:1 "神圣罗马帝国"
+ TUT_ADV_CHAPTER01_PAGE12_TEXT:0 "帝国视图允许玩家查看神圣罗马帝国帝国的组成国家，包括皇帝、选帝侯与所有普通成员。"
+ TUT_ADV_CHAPTER01_PAGE12_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE13_TITLE:1 "教廷"
+ TUT_ADV_CHAPTER01_PAGE13_TEXT:0 "如果你的国教是天主教，你就会受罗马天主教廷机制影响。教廷界面会显示你拥有的教廷影响力，以及你可以运用它们的方式。每当教宗蒙主恩召，将会在在职的枢机中选择一位新的教宗。你可以花费教廷影响力来提高成为下一任教廷监护的概率。"
+ TUT_ADV_CHAPTER01_PAGE13_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE14_TITLE:1 "概述窗口"
+ TUT_ADV_CHAPTER01_PAGE14_TEXT:0 "大纲窗口可以提供很多快捷信息，如正在进行的进程、陆军海军状态、建筑情况、特使等内容。"
+ TUT_ADV_CHAPTER01_PAGE14_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE15_TITLE:1 "得分"
+ TUT_ADV_CHAPTER01_PAGE15_TEXT:0 "得分代表了国家表现的出色程度，一共可分成三种类型：行政、外交和军事。你可以在§M统计报表§!中的§M得分比较§!查看得分点。"
+ TUT_ADV_CHAPTER01_PAGE15_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER01_PAGE16_TITLE:1 "章节结束"
+ TUT_ADV_CHAPTER01_PAGE16_TEXT:0 "地图模式将会改变世界地图上显示的信息。下一章节将会具体介绍它们。"
+ TUT_ADV_CHAPTER01_PAGE16_OBJECTIVES:0 "点击§M下一个§!进入下一章节§W"
+ TUT_ADV_CHAPTER02_BUTTON:0 "地图"
+ TUT_ADV_CHAPTER02_TITLE:0 "地图"
+ TUT_ADV_CHAPTER02_DESC:0 "本章将会介绍各种地图以及使用它们的便利之处"
+ TUT_ADV_CHAPTER02_PAGE01_TITLE:1 "地形地图"
+ TUT_ADV_CHAPTER02_PAGE01_TEXT:0 "地图地形模式能够帮助玩家更好地了解世界信息。默认地图模式为§M地形地图§!。"
+ TUT_ADV_CHAPTER02_PAGE01_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER02_PAGE02_TITLE:1 "政治地图"
+ TUT_ADV_CHAPTER02_PAGE02_TEXT:0 "政治地图中，所有省份会用不同颜色标出，每一种颜色代表一个国家。该地图能够让玩家清晰地看出国家的边界和每个国家省份的位置。"
+ TUT_ADV_CHAPTER02_PAGE02_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER02_PAGE03_TITLE:1 "贸易地图"
+ TUT_ADV_CHAPTER02_PAGE03_TEXT:0 "贸易地图能够让你知道各个省份所属的贸易区。此外还能够让你了解贸易的流向，以便命令商人团向特定方向引导贸易。稍后，你将了解到更多关于§M贸易引导§!的信息。"
+ TUT_ADV_CHAPTER02_PAGE03_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER02_PAGE04_TITLE:1 "帝国地图"
+ TUT_ADV_CHAPTER02_PAGE04_TEXT:1 "帝国地图模式显示属于§M神圣罗马帝国§!的省份。绿色为帝国省份，橙色为选帝侯，蓝色为自由市，紫色为皇帝。当你扮演威尼斯时可能会注意到，你的一个省份（布雷西亚）属于帝国而你自身并不属于帝国。"
+ TUT_ADV_CHAPTER02_PAGE04_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER02_PAGE05_TITLE:1 "宗教地图"
+ TUT_ADV_CHAPTER02_PAGE05_TEXT:0 "宗教地图显示了世界各宗教的分布。你可以清楚地看到哪些省份不信仰你的§M国教§!，以及哪里可以找到朋友或敌人。"
+ TUT_ADV_CHAPTER02_PAGE05_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER02_PAGE06_TITLE:1 "外交地图"
+ TUT_ADV_CHAPTER02_PAGE06_TEXT:0 "外交地图模式为你提供你的核心省份、盟友及敌人的信息。绿色条纹为在于你治下的§M核心省份§!。点击一个属于其它国家的省份将更新外交地图模式下该国的信息。"
+ TUT_ADV_CHAPTER02_PAGE06_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER02_PAGE07_TITLE:1 "更多地图"
+ TUT_ADV_CHAPTER02_PAGE07_TEXT:0 "游戏中还有其他地图模式，可以帮助你了解游戏中发生了什么。试着点击一个其他地图模式按钮看一看吧！"
+ TUT_ADV_CHAPTER02_PAGE07_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER02_PAGE08_TITLE:1 "章节结束"
+ TUT_ADV_CHAPTER02_PAGE08_TEXT:0 "本章结束，下一章将更加细致地介绍贸易"
+ TUT_ADV_CHAPTER02_PAGE08_OBJECTIVES:0 "点击§M下一个§!进入下一章节。"
+ TUT_ADV_CHAPTER03_BUTTON:0 "贸易"
+ TUT_ADV_CHAPTER03_TITLE:0 "贸易"
+ TUT_ADV_CHAPTER03_DESC:0 "本章将会介绍贸易的基本规则"
+ TUT_ADV_CHAPTER03_PAGE01_TITLE:1 "贸易"
+ TUT_ADV_CHAPTER03_PAGE01_TEXT:0 "贸易是《欧陆风云IV》的重要组成部分。整个世界被分成不同的§M贸易节点§!，每一个贸易节点包括不同数量的省份。省份生产不同的§M贸易货物§!，其§M贸易价值§!会被运送到各自的贸易节点。贸易节点在地图上可视，用浮标或者城市表示，由蓝色条纹相互连接。"
+ TUT_ADV_CHAPTER03_PAGE01_OBJECTIVES:0 "点击§M威尼斯§!继续"
+ TUT_ADV_CHAPTER03_PAGE02_TITLE:1 "省份贸易竞争力"
+ TUT_ADV_CHAPTER03_PAGE02_TEXT:2 "贸易节点的贸易竞争力有很大一部分来自省份，并且可以通过修建§M贸易建筑§!提升。一些省份或者是§M贸易中心§!，或者拥有§M河口§!。这些都会对贸易竞争力进行额外加成。玩家的主要省份威尼斯就是一处贸易中心！"
+ TUT_ADV_CHAPTER03_PAGE02_OBJECTIVES:0 "点击§M威尼斯§!按钮继续"
+ TUT_ADV_CHAPTER03_PAGE03_TITLE:1 "贸易节点"
+ TUT_ADV_CHAPTER03_PAGE03_TEXT:0 "§M贸易价值§!来自在贸易节点进行贸易的§M省份§!。玩家可以选择§M获取收入§!或者§M引导贸易§!到下一贸易节点。§M贸易竞争力§!十分重要，决定了玩家可以在一个贸易节点中控制多少贸易。控制的贸易越多，获得的收入也越多，运往下一站的贸易价值也越高。"
+ TUT_ADV_CHAPTER03_PAGE03_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER03_PAGE04_TITLE:1 "贸易获利"
+ TUT_ADV_CHAPTER03_PAGE04_TEXT:1 "§M商人团§!在贸易节点能够进行两项行动。§M贸易变现§!将从贸易中获得收入。和竞争对手的§M贸易竞争力§!对比量决定了在§M贸易收入§!中能够获取的金币。\n\n§Y别忘了恢复暂停的游戏。§!"
+ TUT_ADV_CHAPTER03_PAGE04_OBJECTIVES:0 "让商人在§M威尼斯贸易节点§!中§M获得利益§!"
+ TUT_ADV_CHAPTER03_PAGE05_TITLE:1 "转移贸易竞争力"
+ TUT_ADV_CHAPTER03_PAGE05_TEXT:0 "§M商人§!能够执行的第二项行动为§M转移贸易竞争力§!，该行动能够将§M贸易价值§!从一个§M贸易节点§!转移到另一个。和竞争对手的§M贸易竞争力§!对比量决定了能够转移多少贸易价值。\n§Y选择§M亚历山大§Y省份，然后点击按钮前往贸易节点，别忘了恢复暂停的游戏§!。"
+ TUT_ADV_CHAPTER03_PAGE05_OBJECTIVES:0 "前往§M亚历山大港贸易节点§!，获得商业§M转移贸易竞争力§!继续。"
+ TUT_ADV_CHAPTER03_PAGE06_TITLE:1 "贸易地图"
+ TUT_ADV_CHAPTER03_PAGE06_TEXT:0 "贸易地图向你展示了不同的§M贸易节点§!的位置，以及分属于这些节点省份和贸易的转移情况。你可以看到，你正在从亚历山大港向威尼斯§M转移贸易价值§!。贸易只能按照箭头指向的方向流动到下游。有些贸易节点被成为§M终端节点§!，它们并不具有下游节点，无法再向外转移贸易价值。§M威尼斯§!和§M塞维利亚§!就是终端节点的两个例子。§M贸易竞争力§!决定了你拥有多少§M贸易价值§!可以从一个贸易节点转移到另一个。"
+ TUT_ADV_CHAPTER03_PAGE06_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_ADV_CHAPTER03_PAGE07_TITLE:1 "贸易竞争力"
+ TUT_ADV_CHAPTER03_PAGE07_TEXT:0 "贸易竞争力直接影响一个贸易节点下，玩家所控制的贸易份额。贸易竞争力来源于§M省份§!和正在保护贸易的§M轻型船只§!。此外，还有一些理念和§M外交顾问§!能够影响§M全局贸易竞争力§!。"
+ TUT_ADV_CHAPTER03_PAGE07_OBJECTIVES:0 "选择威尼斯港口的§M船只§!"
+ TUT_ADV_CHAPTER03_PAGE08_TITLE:1 "保护贸易"
+ TUT_ADV_CHAPTER03_PAGE08_TEXT:0 "轻型船只可被用来保护贸易。它们会在贸易节点巡逻，并提升你在该节点拥有的贸易竞争力。这对于提升贸易收入至关重要。"
+ TUT_ADV_CHAPTER03_PAGE08_OBJECTIVES:0 "派遣船只到一处贸易节点§M保护贸易§!"
+ TUT_ADV_CHAPTER03_PAGE09_TITLE:1 "轻型船只"
+ TUT_ADV_CHAPTER03_PAGE09_TEXT:0 "建造§M轻型船只§!并让它们去§M保护贸易§!，是提升贸易竞争力最简单的方法。每艘保护贸易节点的三桅帆船能够提升3点你在该节点的贸易竞争力。"
+ TUT_ADV_CHAPTER03_PAGE09_OBJECTIVES:0 "§Y点击左上方的§M生产界面§Y继续"
+ TUT_ADV_CHAPTER03_PAGE10_TITLE:1 "修造船只"
+ TUT_ADV_CHAPTER03_PAGE10_TEXT:0 "每一艘在贸易节点保护贸易的三桅帆船提升§M3点贸易竞争力§!。等级越高的轻型船只，拥有的贸易竞争力也越高。\n\n§Y选择左侧列表中的§M三桅帆船§Y，并点击地图上的绿色省份开始建造。别忘了将游戏取消暂停。§W"
+ TUT_ADV_CHAPTER03_PAGE10_OBJECTIVES:1 "建造§M三艘轻型战舰（三桅帆船）§!来继续游戏。"
+ TUT_ADV_CHAPTER03_PAGE11_TITLE:1 "章节结束"
+ TUT_ADV_CHAPTER03_PAGE11_TEXT:0 "贸易教学章节结束，希望玩家已经对《欧陆风云IV》中的贸易有了更加深刻的了解。"
+ TUT_ADV_CHAPTER03_PAGE11_OBJECTIVES:0 "点击§M退出§!返回教程菜单"
+ TUT_CAM_CHAPTER01_TITLE:0 "收复失地运动"
+ TUT_CAM_CHAPTER01_DESC:1 "本章将介绍§M单位生产§!，§M任务§!，§M战争§!和§M征服§!。"
+ TUT_CAM_CHAPTER01_BUTTON:0 "收复失地运动"
+ TUT_CAM_CHAPTER01_PAGE01_TITLE:1 "招募部队"
+ TUT_CAM_CHAPTER01_PAGE01_TEXT:0 "军队招募是进行战争的一个重要环节。招募在省份内进行，可使用两种方式。玩家即可以通过左上方的§M生产界面§!，也在省份内点击§M招募军队§!按钮，每一次招募一个军队需要花费 1000 人力。"
+ TUT_CAM_CHAPTER01_PAGE01_OBJECTIVES:0 "§Y点击左上方的§M生产界面§Y继续"
+ TUT_CAM_CHAPTER01_PAGE02_TITLE:1 "招募部队"
+ TUT_CAM_CHAPTER01_PAGE02_TEXT:0 "在左方列表上选择一个军队，然后点击绿色省份进行招募。每招募一个军队需要花费1000人力和一定的金币。\n\n§Y别忘了恢复暂停的游戏§!"
+ TUT_CAM_CHAPTER01_PAGE02_OBJECTIVES:0 "§M招募5个陆军单位§!继续"
+ TUT_CAM_CHAPTER01_PAGE03_TITLE:1 "任务"
+ TUT_CAM_CHAPTER01_PAGE03_TEXT:1 "任务是为你的国家设定目标的一种方式。任务在难度和奖励方面会有所不同。你一次只能选取一个任务，取消任务意味着你必须要再等待5年才能选取新的任务。\n\n§Y点击§M无已选取任务§!的警告以跳转至§M决议§!界面。§W"
+ TUT_CAM_CHAPTER01_PAGE03_OBJECTIVES:0 "选择任务「§M完成收复失地运动§!」以继续。"
+ TUT_CAM_CHAPTER01_PAGE04_TITLE:1 "收复失地！"
+ TUT_CAM_CHAPTER01_PAGE04_TEXT:0 "对一个目标宣战时，你最好对他们有一个§M宣战理由§!。如果你没有宣战理由——即正当的开战理由——你将因为向他们宣战而遭受到负面影响。\n\n§Y右键点击省份§M格拉纳达§Y并选取§M宣战§Y。以§M夺取格拉纳达§Y为§M战争目标§Y，选择征服的宣战理由，然后点击§M宣战§Y。§W"
+ TUT_CAM_CHAPTER01_PAGE04_OBJECTIVES:0 "§M向格拉纳达宣战§!继续"
+ TUT_CAM_CHAPTER01_PAGE05_TITLE:1 "战争概览"
+ TUT_CAM_CHAPTER01_PAGE05_TEXT:0 "战争概览窗口能告诉玩家战争的进展、交战的双方以及双方的战争领袖。战役和围城结果显示在下方。"
+ TUT_CAM_CHAPTER01_PAGE05_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_CAM_CHAPTER01_PAGE06_TITLE:1 "击败格拉纳达"
+ TUT_CAM_CHAPTER01_PAGE06_TEXT:0 "战争的结果会被记录，并会以§M战争分数§!体现。占领敌方省份，在陆战和海战中获胜都能获得战争分数。相反，领土被敌方占领以及在战斗中被击败都会失去战争分数。战争分数决定了§M和平提议§!中能够要求什么。\n\n§Y别忘了恢复暂停的游戏。§!"
+ TUT_CAM_CHAPTER01_PAGE06_OBJECTIVES:0 "获得100%§M战争分数§!继续"
+ TUT_CAM_CHAPTER01_PAGE07_TITLE:1 "吞并格拉纳达"
+ TUT_CAM_CHAPTER01_PAGE07_TEXT:2 "已击败格拉纳达！吞并它，完成西班牙的收复失地运动。\n\n§Y右键点击右下角的§M战争概览§Y盾牌。选中敌人的省份并要求吞并它们，然后点击§M发送要求§!。别忘了继续已暂停的游戏。§W"
+ TUT_CAM_CHAPTER01_PAGE07_OBJECTIVES:2 "索取格拉纳达剩余全部省份，然后继续。"
+ TUT_CAM_CHAPTER01_PAGE08_TITLE:1 "章节结束"
+ TUT_CAM_CHAPTER01_PAGE08_TEXT:0 "西班牙帝国战役复国运动章节结束"
+ TUT_CAM_CHAPTER01_PAGE08_OBJECTIVES:0 "点击§M下一个§!进入下一章节"
+ TUT_CAM_CHAPTER02_TITLE:0 "西班牙宗教裁判所"
+ TUT_CAM_CHAPTER02_DESC:0 "本章将会介绍§M君主点数§!，§M统治者§!，§M顾问§!，§M核心省份§!，§M宗教§!等。"
+ TUT_CAM_CHAPTER02_BUTTON:0 "西班牙宗教裁判所"
+ TUT_CAM_CHAPTER02_PAGE01_TITLE:1 "统治者"
+ TUT_CAM_CHAPTER02_PAGE01_TEXT:0 "统治者对国家的发展至关重要。玩家拥有三种资源统称为§M君主点数§!，分别为§M行政点数§!，§M外交点数§!和§M军事点数§!。每月获得的君主点数数量取决与君主技能和顾问。"
+ TUT_CAM_CHAPTER02_PAGE01_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_CAM_CHAPTER02_PAGE02_TITLE:1 "顾问"
+ TUT_CAM_CHAPTER02_PAGE02_TEXT:1 "你每个月都会得到顾问给你增加的§M君主点数§!。用金币雇佣他们，同时每个月将会发给他们工资。雇佣更贵的顾问将会得到更多的君主点数，但你每个月会得到更少的金币。\n\n§Y点击§M你有一个空闲的顾问槽§!以进入§M政府§!界面查看。§W"
+ TUT_CAM_CHAPTER02_PAGE02_OBJECTIVES:1 "打开§M宫廷界面§! 来继续"
+ TUT_CAM_CHAPTER02_PAGE03_TITLE:1 "顾问"
+ TUT_CAM_CHAPTER02_PAGE03_TEXT:0 "顾问能够增加玩家每月获得的§M君主点数§!。玩家需要花费黄金招募顾问，每月还要发给顾问一定工资。雇佣的顾问越昂贵，君主点数的增加量也越大，但是每月获得黄金就会变少。\n\n§Y点击空白肖像前往可雇佣顾问列表§W"
+ TUT_CAM_CHAPTER02_PAGE03_OBJECTIVES:0 "§M雇佣一名顾问§!继续"
+ TUT_CAM_CHAPTER02_PAGE04_TITLE:1 "核心省份"
+ TUT_CAM_CHAPTER02_PAGE04_TEXT:0 "核心省份是玩家视为国家领土内的省份。将省份变为核心省份以防止§M过度扩张§!非常重要。非核心省份提供的§M税收§!和§M人力§!都会大大降低。拥有近期征服省份的§M宣称§!能够减少核心化所需的点数花费和时间。\n\n§Y别忘了将游戏取消暂停。§!"
+ TUT_CAM_CHAPTER02_PAGE04_OBJECTIVES:0 "将格拉纳达§M变成核心省份§!继续"
+ TUT_CAM_CHAPTER02_PAGE05_TITLE:1 "宗教"
+ TUT_CAM_CHAPTER02_PAGE05_TEXT:0 "宗教统一可以使国家稳定，防止发生叛乱。玩家必须使省份宗教皈依国教才能拥有宗教统一。而转换宗教需要传教士的帮助。高稳定度能够提升转教速度。\n\n§Y别忘了恢复暂停的游戏§!"
+ TUT_CAM_CHAPTER02_PAGE05_OBJECTIVES:0 "§M转化§!格拉纳达省份继续"
+ TUT_CAM_CHAPTER02_PAGE06_TITLE:1 "建筑"
+ TUT_CAM_CHAPTER02_PAGE06_TEXT:0 "建筑物是提升国家经济和军事实力的重要部分。绝大多数建筑物可以在所有省份建造，但数量受限于该省份的§M建筑栏位§!。建造建筑物都会花费金币。\n\n§Y记得取消游戏暂停。§!"
+ TUT_CAM_CHAPTER02_PAGE06_OBJECTIVES:1 "在格拉纳达建造一座§M寺庙§!继续"
+ TUT_CAM_CHAPTER02_PAGE07_TITLE:1 "事件"
+ TUT_CAM_CHAPTER02_PAGE07_TEXT:0 "事件会在游戏过程中随机出现，目的在于增加游戏的趣味性。玩家需要在两个或更多选项中做出选择。游戏中也会出现国家的特定事件。"
+ TUT_CAM_CHAPTER02_PAGE07_OBJECTIVES:0 "点击事件中出现的选项继续"
+ TUT_CAM_CHAPTER02_PAGE08_TITLE:1 "叛军"
+ TUT_CAM_CHAPTER02_PAGE08_TEXT:0 "叛军的种类有许多种，每个派别都有不同的诉求。一个省份的§M叛乱度§!显示了爆发叛乱的概率。你既可以在战斗中§M剿灭叛乱§! 也可以在§M稳定和扩张§!界面中向他们妥协。\n\n§Y别忘记结束暂停，继续游戏。§!"
+ TUT_CAM_CHAPTER02_PAGE08_OBJECTIVES:0 "§M镇压叛乱§!继续"
+ TUT_CAM_CHAPTER02_PAGE09_TITLE:1 "稳定"
+ TUT_CAM_CHAPTER02_PAGE09_TEXT:0 "稳定度表现了你的国家的稳定程度。稳定度会影响到§M叛乱度§!、§M税收§!、§M全局贸易竞争力§!等等。稳定度可以在§M稳定和扩张§!界面内消耗§M行政点数§!提高。\n\n§Y点击左上角的盾徽，再点击§M稳定和扩张§Y界面，然后在稳定度一栏下点击§M提升§!。"
+ TUT_CAM_CHAPTER02_PAGE09_OBJECTIVES:0 "点击§M提升稳定度§!继续"
+ TUT_CAM_CHAPTER02_PAGE10_TITLE:1 "王室联姻"
+ TUT_CAM_CHAPTER02_PAGE10_TEXT:0 "王室联姻是与其它国家建立良好关系的一种手段。\n\n§Y在没有选定任何单位的情况下，右键点击§M葡萄牙§!进行外交。点击§M王室§!选项打开§M王室联姻§!选择项。\n\n别忘了继续已暂停的游戏。§W"
+ TUT_CAM_CHAPTER02_PAGE10_OBJECTIVES:0 "§M与葡萄牙王室联姻§!后继续。"
+ TUT_CAM_CHAPTER02_PAGE11_TITLE:1 "王室联姻"
+ TUT_CAM_CHAPTER02_PAGE11_TEXT:0 "王室联姻能随时间提升玩家的§M正统性§!，但是会根据两国间的§M威望§!和§M正统性§!的差别降低一定的正统性。和其它国家进行王室联姻能够提升玩家兼并对方§M家族§!的几率，并形成§M联合统治§!。"
+ TUT_CAM_CHAPTER02_PAGE11_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_CAM_CHAPTER02_PAGE12_TITLE:1 "决议"
+ TUT_CAM_CHAPTER02_PAGE12_TEXT:0 "决议让你能够对你的国家进行改革。当条件满足时，决议可以立刻生效并让你获得决议的加成。一些决议的条件会非常苛刻，比如成立德意志或意大利。\n\n§Y点击§M决议可用提醒§!进入§M决议窗口§Y。§W"
+ TUT_CAM_CHAPTER02_PAGE12_OBJECTIVES:0 "点击§M外交手段成立西班牙§!以继续。"
+ TUT_CAM_CHAPTER02_PAGE13_TITLE:1 "科技"
+ TUT_CAM_CHAPTER02_PAGE13_TEXT:0 "科技可以通过花费§M君主点数§!解锁。科技分为§M三种类型§!，每种类型和一种君主点数相关。§!"
+ TUT_CAM_CHAPTER02_PAGE13_OBJECTIVES:0 "打开§M科技面板§!继续"
+ TUT_CAM_CHAPTER02_PAGE14_TITLE:1 "科技"
+ TUT_CAM_CHAPTER02_PAGE14_TEXT:0 "科技超前将会对你的科技花费造成额外惩罚。合理安排科技和理念以便于更合理的使用君主点数，根据你的统治者的能力来协调安排也是个不错的选择。"
+ TUT_CAM_CHAPTER02_PAGE14_OBJECTIVES:0 "解锁§M贵族共和制（7）§!以继续"
+ TUT_CAM_CHAPTER02_PAGE14_inst_TITLE:1 "接纳思潮"
+ TUT_CAM_CHAPTER02_PAGE14_inst_TEXT:0 "获得科技所需要的君主点数由你已接受的§M思潮§!所修正。在游戏的开始，唯一解锁的§M思潮§!是§M封建主义§!，封建主义最开始被整个欧洲和大部分亚洲国家所§M接纳§!。\n\n每50年都会有一个新的§M思潮§!在世界上的某一个省份出现并慢慢从它的起源地向全世界传播。\n\n想要§M接纳§!一个§M思潮§!，这个思潮需要至少传播到你所控制省份的10%。每一个还没有§M接纳§!新思潮的国家都会受到一个随时间慢慢增加的科研惩罚。可以在科技栏的§M思潮§!按钮中检视现存的§M思潮§!和他们的传播情况。"
+ TUT_CAM_CHAPTER02_PAGE14_inst_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_CAM_CHAPTER02_PAGE15_TITLE:1 "理念组"
+ TUT_CAM_CHAPTER02_PAGE15_TEXT:0 "在特定级别的§M行政科技§!解锁后，你会获得一个理念组栏位。你刚刚解锁的科技帮助你获得了第二个理念组栏位。理念组是帮助你的国家更加专门化的扮演好某一职责的良方。"
+ TUT_CAM_CHAPTER02_PAGE15_OBJECTIVES:0 "打开§M理念页§!以继续"
+ TUT_CAM_CHAPTER02_PAGE16_TITLE:1 "理念组"
+ TUT_CAM_CHAPTER02_PAGE16_TEXT:0 "解锁理念组中的一个理念需要付出§M400行政§!、§M外交§!或§M军事§!§M君主点数§!。所需君主点数的种类随理念组而异。根据你库存充裕的君主点数来选择理念组，才是明智的抉择。\n\n§Y点击§M空白的理念槽§!，然后选择§M探索理念§!。§W"
+ TUT_CAM_CHAPTER02_PAGE16_OBJECTIVES:0 "选择§M探索§!理念组以继续"
+ TUT_CAM_CHAPTER02_PAGE17_TITLE:1 "理念"
+ TUT_CAM_CHAPTER02_PAGE17_TEXT:0 "解锁3个理念也会解锁1个你的§M国家理念§!。多数大国和一些小国都拥有独特的国家理念。\n\n§M探索新世界§Y在§M探索§Y理念组中，该理念允许你可以招募§M探险家§Y和§M征服者§Y。该理念的前提为解锁§M开拓殖民地§Y理念。"
+ TUT_CAM_CHAPTER02_PAGE17_OBJECTIVES:0 "解锁§M探索新世界§!理念以继续。"
+ TUT_CAM_CHAPTER02_PAGE18_TITLE:1 "章节结束"
+ TUT_CAM_CHAPTER02_PAGE18_TEXT:0 "西班牙帝国战役西班牙宗教裁判所之章至此结束"
+ TUT_CAM_CHAPTER02_PAGE18_OBJECTIVES:0 "点击§M下一个§!进入下一章节"
+ TUT_CAM_CHAPTER03_TITLE:0 "新世界"
+ TUT_CAM_CHAPTER03_DESC:0 "该章将会指导你学习探索与殖民"
+ TUT_CAM_CHAPTER03_BUTTON:0 "新世界"
+ TUT_CAM_CHAPTER03_PAGE01_TITLE:1 "探索"
+ TUT_CAM_CHAPTER03_PAGE01_TEXT:0 "探索和殖民是《欧陆风云IV》的重头戏。探索新大陆、建立殖民地是一个相对和平的帝国扩张方式。"
+ TUT_CAM_CHAPTER03_PAGE01_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_CAM_CHAPTER03_PAGE02_TITLE:1 "探索"
+ TUT_CAM_CHAPTER03_PAGE02_TEXT:0 "未知之地被标识为§M未知省份§!。你需要一位§M探险家§!或者§M征服者§!来进入未知省份。招募探险家或征服者需要§M探索新世界§!理念。"
+ TUT_CAM_CHAPTER03_PAGE02_OBJECTIVES:2 "选中你位于§M塞维利亚§!的舰队并指派一名将领，然后继续游戏。"
+ TUT_CAM_CHAPTER03_PAGE03_TITLE:1 "未知省份"
+ TUT_CAM_CHAPTER03_PAGE03_TEXT:0 "探险家指挥海军，征服者指挥陆军。目前你的舰队在探险家克里斯托弗·哥伦布的指挥之下。\n\n§Y使用右键点击标有§M未知之地§Y的区域将舰队移动过去。\n\n记得要取消游戏暂停。§!"
+ TUT_CAM_CHAPTER03_PAGE03_OBJECTIVES:0 "将你的舰队驶向西方，并且§M沿着箭头指示§!以继续§W"
+ TUT_CAM_CHAPTER03_PAGE04_TITLE:1 "损耗"
+ TUT_CAM_CHAPTER03_PAGE04_TEXT:0 "由于损耗，探索行动可能会充满危险。当你的船队远航而难以获得补给时，他们就会受到损耗。在正常的游戏中，你将不得不缓慢地进行探索，并在必要时召回船队重整旗鼓。不过在教学中，海军损耗已调至极低。"
+ TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES:0 "将你的舰队驶向西方，并且§M沿着箭头指示§!以继续§W"
+ TUT_CAM_CHAPTER03_PAGE05_TITLE:1 "未殖民土地"
+ TUT_CAM_CHAPTER03_PAGE05_TEXT:0 "派遣一位§M殖民者§!便可在未殖民土地上定居。你最远能在哪里建立殖民地取决于你的§M殖民距离§!。未殖民土地上可能会有一定数量的§M原住民§!，他们也应获得重视。原住民攻击性越高就越有可能攻击你的殖民地。"
+ TUT_CAM_CHAPTER03_PAGE05_OBJECTIVES:0 "点击§M托尔图加§!以继续"
+ TUT_CAM_CHAPTER03_PAGE06_TITLE:1 "未殖民土地"
+ TUT_CAM_CHAPTER03_PAGE06_TEXT:0 "在已派遣§M殖民者§!的地方可以建立殖民地。殖民者主要通过§M探索§!和§M扩张§!理念组获得。在殖民者抵达一个未殖民的省份时才能进行下一步。一旦他抵达后就会开始建立殖民地。\n\n§Y记得要取消游戏暂停§!"
+ TUT_CAM_CHAPTER03_PAGE06_OBJECTIVES:0 "点击§M派遣§!以继续"
+ TUT_CAM_CHAPTER03_PAGE07_TITLE:1 "殖民地"
+ TUT_CAM_CHAPTER03_PAGE07_TEXT:0 "在开始殖民之后，殖民地需要经历一段时间才能自给自足。殖民地中的殖民人数会每月自动增加，在达到1000后即可自给自足。在殖民地上有殖民者能够加速殖民人数的增长。"
+ TUT_CAM_CHAPTER03_PAGE07_OBJECTIVES:0 "点击§M下一个§!以继续。"
+ TUT_CAM_CHAPTER03_PAGE08_TITLE:1 "教学结束"
+ TUT_CAM_CHAPTER03_PAGE08_TEXT:0 "干得好！西班牙帝国战役的新世纪章完成了，教学也到此为止。你已经掌握了畅玩《欧陆风云IV》所需要的基础技术！\n\n§Y善用提示系统会在游戏时给你更多帮助。§!"
+ TUT_CAM_CHAPTER03_PAGE08_OBJECTIVES:0 "§M享受§!这场游戏盛宴吧！"
+ TT_TUTORIAL_DISABLED:0 "§M在本次教程中不可用§!"
+ TUT_BAS_CHAPTER03_PAGE06_TEXT:1 "重型战舰是在战斗中表现出色的大型军舰。轻型战舰是一种速度更快的船，主要用于保护贸易，但也有用于探索。桨帆战舰是一种价格低廉的军舰，用于内海作战。最后还有运输船，可以在水上运送你的部队。§W"

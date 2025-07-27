@@ -1,117 +1,117 @@
-﻿l_english:
- BIRTHPLACE_OF_INSTITUTION:0 "$PROV$=f§Y$NAME$§!„vÑSn0W"
- feudalism_date:0 "1066 t^"
- renaissance_date:0 "1450 t^"
- new_world_i_date:0 "1500 t^"
- printing_press_date:0 "1550 t^"
- global_trade_date:0 "1600 t^"
- manufactories_date:0 "1650 t^"
- enlightenment_date:0 "1700 t^"
- DATE_EARLIERST_FOR_INSTI:0 "Ù=få‹`noýw(WNLuNúQ°sv^.O­d„vgéeöeô•0"
- INSTITUTION_CAN_APPEAR:1 "úWŽNåNNàV.tÿ`ONb	g„vwýN-N$PROVINCE|Y$gïSýwúQ°sdk`noÿ\n"
- feudalism:0 "Sú^6R¦^"
- renaissance:0 "‡ez‚YtQ"
- new_world_i:0 "–klININ"
- printing_press:0 "pS7R:g”^(u"
- global_trade:0 "hQt8f"
- manufactories:0 "åT:WuµN"
- enlightenment:0 "=T™„ININ"
- desc_feudalism:0 "–Nwöeô•„v¨cûyÿ'YèR„v>yOýn—‰NÍyôf:N:V›RNcEN„v?eœ^SOû|0(WWlš^ýVR)T»ygKNTÿúQ°s„vN›N?eœ^SOû|åNÊS`Nï`án³†NÙNÉ‹BlÿwÙmN«ˆ²‹:N=f'k2mSú^SOû|„vNèR01uŽNøv<O„vŸSàVÿNLuT0Wýú^Ëzw†Nøv”^„v•g?eœ^åNÊS>yOSOû|ÿvQ-NNèRSO6RuóïSåNý¯n0RSú^6R¦^úQ°sKNMR0\n0Sú^6R¦^0NvQÖN„v`noNTÿ^ÛlS+T†N¸‹YNT„vû|ßuÿÎN8nbNVËY1SXR(WŽNNLuNÿ(W±›NÎW^Sÿ?eœ^ÄuÇuSåNÊS>yO6–µuS0R¾NšRz¦^„v0W¹e0NÙ›NwQ	gSú^ININ`no„v>yO¥cæ‰OO`no(W†˜WN.O­dÿbwÿSVN*N>yOÑSUS0RNšR„vz¦^öeÿÙN`noOê6qúQ°s0"
- desc_renaissance:0 "ê14NªuåNegÿa'Y)Rø‹ÎW¦„v0–lÏeìN1SNôvùR	ga¢c0tÖNìNäS^JNäSWlšVyHQ>yO„vz‚=g¶RŒTfRwìNÛLˆ^©R0‡ez‚YtQjO:NN:W‡eSÐ¨RÿvQ`ó`òTÏuñmeQv^N^Ûl.O­d(Wa'Y)RT0WÿTöeùR‡efRÿz‚=gÿòTfRåNÊSó—PNµNu†NñmÜ„vqVÍT0ºN‡efR¶RmN(WmN(WxvzRgÖNìNNbuIm„v>yOÿSvQNäSxQòTfRtó`ÛLˆÔkƒ0‡ez‚YtQºN‡eININòTÏuÑSUSbŸqÿsSSnó>yO„vT*N¹eb—0ùRŽNßu»lwåNÊS«ˆßu»lwÿNÍy°e„vtõVVËYúQ°sÿÉ…1uéegpS7R:g„v.^©RÿÙ›NhQ°e„vtõVÅ.O­d0wck„v‡ez‚YtQºN‡eININw‰˜Sf¹e¹eb—b—ÿNÅN‰N¾|ŽN?e»lNòTfRÿôf‰‰msz‚=gÿ‡eWRRgÿó—PNÿú^Qr0‚YÊNÿ‡ez‚YtQckÆQYÍ‘QXte*NNLuÿ©‹ƒRgNwvQäSxQININ„vtó`ÈÛ0"
- desc_new_world_i:0 "°e'YF–„vÑS°s„˜FQNwN*N°eöeãN„v0RegÿNÅNùRŽN–klwegô‹=f‚YdkÿùRŽN«ˆ–klwôf=f‚Ydk0ŸSPg™eNÑyŽbÅ.O­dÿºNìNùRŽNNLu¹E–„v²‹Æ‹mNÅib'Y0–Nw¸‹Y¨RirÿœQjOirÿ‹vö”ÿSV6qØ	gT‰|¾uÅuVËYz­h(W'Y‰m2N¸S„vNLuÿºN‰|ÈuŽNTÏuNmhQtSÈúQ†N,rNek0SVL–u„vW0WúQ°s(W0WþVNÿSVL–u„vlÏe«ˆ°‹‹NegÿbìN„vtõVÿbìN„v—RYeNòTfRKN©mNŠegŠ×S0RÙ›NÜm>yO„vqVÍT0N›NOºNVËY`w±›NºNìNN¦^nxáO„vwt=f&TXR*OÿŽN=fÿÎNôT)RšNY)R·VóÕlTXk^S‰<hÌ‘ÿ`ó`¶RìN·u·uVËY¨‹º‹wNLu„v,g(0"
- desc_printing_press:1 "'YÏ‘pS7R‡eWR„výw›RS‰V•^9eØSáOo`„v.O­d¹eVÿv^(WT*N¹eb—9eØSÑãN>yO„vteSO0(W‡ez‚YtQ„vöeãNÿÏPZ<S¯epS7RFU?–Sjg¯e·lšªRÐcLN¯eÙ7h„vºNNbÑSf„v°eŽb=g©‹Ñ‹6RÏuxQôf RfŽN.O­dÿÛNek¨c¨R†N±:WÐ¨R„vÛz0Tegÿ1uŽN1WÏu„v°eÑ‹,gåNÊSøvsQ„vÍ‘‰W„jOÇpS7R=gÅ.O­dVegÿ—RYe9ei—„vÛzmNÎNÙy˜Žb=g-N·ƒÊv0\n\n‚YÊNÿpS7RŽb=gòTÏuÑSUSbŸqÿv^NòTÏu^ÊS'k2mT0WÿYpS„vHr!kmN(WN­ežX RÿÎN—RYe0?e»lKbŒQÿ0RLˆ:NcWSÿ0RÑyfRº‹‡eÿbCSNN„vTVT7h„vpS7RÁTý(W'k2m'YF–N^ÛlAm.ONw0–NwpS7RLˆN„vekîX'YÿŠegŠY„vßu»lwÑS°sêñT¾–åN¡rµcÙNy˜°eŽb=gÿàV:NÙ›NuµNŽb=gøvùRŽrUSÿpS7RFUå‚ó`‰1¡RågÿêS—Šbuaûy0R¹ƒX¿uKNYÿuóêS(u9eØSfN„vh˜˜ÿýN=fÀNHN¾–‹N0"
- desc_global_trade:0 "êäSåNegÿè'YF–„vFUÁTŽVeg1SXR(W†N0FO=fbìNþfÏu8f¿uïN'irýHScïSpeÿÔk‚Yô‹ÿÇNøuKNïŒTpS¦^m*‚¿uÿ-NýVŒTpS¦^„vFUÁTMbýweg0R'k2m0w‚YÊNÿNb	g„v8fck(WnbVbhQt8fQÜu„vNèR0–NwŽ2m„vÑS°sÿ^—2m*‚ï„vVŸÿèŠ*Ys^m„vîX>Nÿ0W¹e8fQVËYn¥ceQ0RhQt'`8fQSV-N0\n\nÎN‰R,r¯eqS	VÇ‘„vö”ÿw«ˆte±rte±r0WÅˆÐÞV'k2mÿQAmeQ-NýVŒTpS¦^0¯e*X„v³uôušNJS›SN„vÁ”ÿw6RbÁ”6RÁTÿQÏu1uñ‚ýVFUºN•ŽV‰^—0Ø	gN›NºNÅNÅNÇ(WNWSšNFUWÛLˆ^9SŒT™™™e„vl•¿O·ƒ)R‡˜0N0pS¦^„v,g0WFUºNòTÏuVËY:N*geg„v'k2mÎ˜i–8fZP•bD0wck„vNLuÏuNmSOïSýwØ¡l±HNëV0RegÿFO	gN¹pbìNïSåNnxšRÿƒR„v,rN—˜ÍyPRòTÏu«ˆÍyN†N0"
- desc_manufactories:0 "ASmQ0ASNNªu„vNû|RŽb=gR°eÐcØš†Nø‹‚YÁ”0^™eIrDn„vµNÏ‘ÿFO=fuµN¹eb—g'Y„vR°etS(WŽNTÍy°e„vÄuÇu¹eV0FUND,g¶RìN(WÎW^KNYú^ËzwNµ^µ^åT‚SÿÄ‰Nw±›NP–6R'YÄ‰!juµN„våTOÄ‰RÿTöeØýwVÓbžX RuµNHe‡s„v°e¹eÕlÿÔk‚Y³R¨R„vÄuÇuSŒTNNS0Ù›N*gegåTNi—‹T„vHQqšìNv^¡l	gO`—f5„v°e:ghVegÐcØšåTN„vµNúQÿw=fO`—ÑS˜c·ƒ—VŸSPg™e„v¿Owc„VÿåNÊSÄuÇu'YÄ‰!j„vuµNIm¨Reg¾0RêñT„vîv„v0øvùRŽNwçewÈSP–6RƒY„vçe6R¦^ÿÙàe‘u=fN!kèT'Y„vi—°eÿ4O–NwKNT„vÑyŽbi—‹TÿÙNhQ°e„v!jVÈSO:NÙ*N>yO&^egèT'Y„vØSi—0"
- desc_enlightenment:0 "(WNN*NNªuÿt'`ININŒTÏuŒšININ×S0R†NŠegŠY„vO'Y`ó`¶R„v¨cT0Nº‹=fTINÿ=fÑyfR¶RÿØ=f‡efR¶Rÿàeº‹(WáOöN-Nÿ(WfN,g-NÿØ=f(W–TaU†™Ì‘ÿý(W¨‹º‹NwV>eS¹RÿÑyfR¹eÕlåNÊS=T™„`ó`„v.O­dýwYÙuhQºN‰|&^eg„vŽ‹Y*geg0ÎNåwT'YfRÿ0RVfTIN„v«R÷^ÿÛVYý	gºN(WÙuÙ*NNLuÛLˆÑyfRaˆÏ‘0KmšR0R‰|ŒT6RþVÿåN¿OŽNbìNôf‹Ytã‰„vNLuÐl„vÄ‰‹V0Töe¦N	g¸‹Y„vºN¢c¨‹Nw>yOÐl„vÄ‰‹VÿÕ‹Nw»SVf‹vNbŒ„v0ºNCg0wck„v+TIN0\n\n:N†NhQºN‰|„vyIyÿN›NO'Y„vy˜îvVËYžRLˆÿÔk‚YîO¢‹S+TNRåwÆ‹„vŒvÑyhQfNbwŒRbNLuNNb	g¨RiirŒTwÌƒ„vþVt’0t'`KNIQck(WGSwÿùR¸‹YºNwŠÿÖNìN„vO‹T1S=flšNjPDŽ0W©‹ÙmgIQ’‚gq®N0Wt„vÏk*NÒ‰K„0"
- FEUDALISM_AND_NOBLES:0 "5Ïe6–BSàVÚ‹ÿv^Nøv»0W:Såb	g§YSú^6R¦^§!"
- NEIGHBOR_NOT_OWNED_IS_FEUDAL:0 "øv»ýV¶Råb	g§YSú^6R¦^§!"
- PORT_OR_CAPITAL_IN_COLONY_FEUDAL:0 "(W–klýVåb	g=nãSb–™ý"
- CAPITAL_IN_OLD_WORLD_FEUDAL:0 "–™ý(Wçe'YF–N^—èK„6R"
- INSTITUTION_PENALTY_INFO:2 "*g¥c³u$NAME|Y$ÿ$PENALTY$\n"
- CV_EMBRACE_INSTITUTION:0 "¥c³u$NAME$"
- INSTI_NOT_YET:0 "å‹`noØ¡l	g(WNLuNúQ°s0"
- MBRACE_INSTITUTI:1 "îvMRåNÏkg $SPEED$ „v¦^žX•0"
- INSTITUTION_SPREAD_HELP:0 "(Wøv»„vwýNKNô•ÿ`no.O­dO–Nwöeô•„vAmwnnžX•ÿ`OmNïSåNÇžX RÑSUS¦^egôv¥c.O­d`no0"
- EMBRACE_STALLED_AT:0 "îvMRjPÞn(W$PROGRESS$"
- EMBRACE_DONE_WHEN:0 "SVMRÛ¦^:N$PROGRESS|G$ÿ„˜¡‹ŽN$YEAR|Y$t^úQ°s0"
- EMBRACE_DONE:0 "(W$PROVINCE_NAME|Y$úQ°s0"
- MBRACE_INSTITUTI_NOT_POSS:0 "àeÕl.O­dÿ\n$WHY$"
- INSTI_PROVIDES:0 "¥c×S`noTÿýV¶RS·ƒ—Vÿ\n$BONUS$"
- MAPMODE_INSTITUTIONS:0 "`no"
- MAPMODE_INSTITUTIONS_DESC:0 "9hnc=f&TòTÏu¥c³uNb	gòTúQ°s„v`noùRwýNNwr‚0ÿur‚ãNhˆwýNòT¥c³uNb	g`noÿÄžr‚ãNhˆwýNck(W¥c³u`noÿ¢ur‚ãNhˆwýNS*g¥c³u`no0"
- HAS_EMBRACED_INSTITUTION:0 "$NAME$ÿ§YXR(W§!"
- EMBRACING_INSTITUTION:0 "$NAME$ÿ§Y$VAL$%§!"
- NOT_EMBRACED:0 "S*g¥c×Sÿ"
- OPEN_CLOSE_INSTITUTIONS:0 "SbV/sQí•wýN`noLub—"
- HEADER_PRESENT_INSTITUTIONS:0 "§YXR(W„v`noÿ§!"
- HEADER_GROWING_INSTITUTIONS:0 "§Yck(WÑSUS„v`noÿ§!"
- GROWING_INSTITUTION:0 "$NAME$ÿ$VAL$ÿ$PER_MONTH$ Ïkg"
- GROWTH_MODIFIER:0 ".O­d¦^îOck"
- SCALED_INSTITUTION_DESC:0 "åN*h°‹„vîOckN0W:SÑSUS¦^ckøvsQÿSV0W:SI`ÑSUS¦^NGSöeOTöeNGS0"
- MODIFIERS_AFFECTING_INSTITUTION_SPREAD:0 "qVÍT$INSTITUTION|Y$.O­d„vîOck	gÿ\n"
- FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED:0 "øv»„vËS‹YwýNåb	g§YSú^6R¦^§!"
- tooltip_global_trade_burghers:1 "øv»wýNåb	ghQt8f`noÿv^NXR(W†˜0WýN˜30%„vàVÚ‹„v^l6–BS"
- tooltip_printing_press_clergy:1 "øv»wýNåb	gpS7R:g”^(u`noÿv^NXR(W†˜0WýN˜30%„vàVÚ‹„vYeëX6–BS"
- tooltip_any_neighbor_has_embraced_renaissance:0 "øv»wýNåb	g§Y‡ez‚YtQ§!`no"
- tooltip_any_neighbor_has_embraced_printing_press:0 "øv»wýNåb	g§YpS7R:g”^(u§!`no"
- tooltip_any_neighbor_has_embraced_colonialism:0 "øv»wýNåb	g§Y–klININ§!`no"
- tooltip_any_neighbor_has_embraced_manufactories:0 "øv»wýNåb	g§YåT:WuµN§!`no"
- tooltip_any_neighbor_has_embraced_enlightenment:0 "øv»wýNåb	g§Y=T™„ININ§!`no"
- tooltip_colonial_overlord_embraced_renaissance:0 "=f=nãSb–™ýÿNåb	gw¥c³u†N§Y‡ez‚YtQ§!`no"
- tooltip_colonial_overlord_renaissance:0 "=f–klýV„v=nãSb–™ýÿN—RINýV¥c³u†N§Y‡ez‚YtQ§!`no"
- tooltip_colonial_overlord_new_world_i:0 "=f–klýV„v=nãSb–™ýÿN—RINýV¥c³u†N§Y–klININ§!`no"
- tooltip_colonial_overlord_printing_press:0 "=f–klýV„v=nãSb–™ýÿN—RINýV¥c³u†N§YpS7R:g”^(u§!`no"
- tooltip_colonial_overlord_global_trade:0 "=f–klýV„v=nãSb–™ýÿN—RINýV¥c³u†N§YhQt8f§!`no"
- tooltip_colonial_overlord_manufactories:0 "=f–kl†˜ýV¶R„v=nãSb–™ýÿN—RINýV¥c³u†N§YåT:WuµN§!`no"
- tooltip_colonial_overlord_enlightenment:0 "=f–klýV„v=nãSb–™ýÿN—RINýV¥c³u†N§Y=T™„ININ§!`no"
- tooltip_has_colonial_subject_in_new_world:1 "=f=nãSb–™ýÿN^SŽNåb	g°e'YF––kl†˜„výV¶R"
- tooltip_has_protectorate:0 "=f=nãSb–™ýÿN^SŽNåb	gÝO²býV„výV¶R"
- tooltip_enlightenment_embraced:1 "N=f8flQøSÿNåb	gw¥c³u†N§Y=T™„ININ§!`no"
- tooltip_feudalism_embraced:1 "N=f8flQøSÿNåb	gw¥c³u†N§YSú^6R¦^§!`no"
- tooltip_renaissance_embraced:1 "N=f8flQøSÿNåb	gw¥c³u†N§Y‡ez‚YtQ§!`no"
- tooltip_printing_press_embraced:1 "N=f8flQøSÿNåb	gw¥c³u†N§YpS7R:g”^(u§!`no"
- tooltip_new_world_i_embraced:1 "N=f8flQøSÿNåb	gw¥c³u†N§Y–klININ§!`no"
- tooltip_global_trade_embraced:1 "N=f8flQøSÿNåb	gw¥c³u†N§YhQt8f§!`no"
- tooltip_manufactories_embraced:1 "N=f8flQøSÿNåb	gw¥c³u†N§YåT:WuµN§!`no"
- tooltip_neighbor_port_province_new_world:0 "=f=nãSÿNøv»wýNåb	g§Y–klININ§!`no"
- tooltip_neighbor_port_province_global_trade:0 "=f=nãSÿNøv»wýNåb	g§YhQt8f§!`no"
- tooltip_neighbor_non_port_province_global_trade:0 "øv»wýNåb	g§YhQt8f§!`no"
- tooltip_italian_capital:0 "=fa'Y)R0W:S„v–™ý"
- tooltip_development_10:0 "'k2mÑSUS¦^:N10„vwýN"
- tooltip_development_20:0 "'k2mÑSUS¦^:N20„vwýN"
- tooltip_development_20_capital:0 "'k2mÑSUS¦^:N20„v–™ý"
- tooltip_development_5_post_1500:0 "(W1500t^åNTÿ'k2mÑSUS¦^:N5„vwýN"
- tooltip_flanders_tuscany_venetia:0 "=fiOpQ·V0Xb¯eaS³ubZ<S¯e:SßW„vwýN"
- tooltip_dip_tech15_capital:0 "Y²NÑyŽb:N15µu„výV¶R„v–™ý"
- tooltip_owner_protestant:2 "N=f8flQøSv^NýVYe:N°eYe01WlQ—Rb9ei——R"
- tooltip_owner_reformed:1 "N=f8flQøSv^NýVYe:N9ei——R"
- tooltip_province_protestant:1 "å‹w—RYe:N°eYebw9ei——R"
- tooltip_province_reformed:0 "å‹w—RYe:N9ei——R"
- tooltip_has_seat_in_parliament:0 "å‹wýN(W®‹Oåb	g-^MO"
- tooltip_full_innovativeness:0 "=fŒRbi—°etõV„výV¶R„v–™ý"
- tooltip_philosopher_capital:0 "=fY²NÑyŽb¾0R20µuNåb	gòTfR¶RŒ˜î•„výV¶R„v–™ý"
- tooltip_scientist_capital:0 "=fY²NÑyŽb¾0R20µuNåb	gÑyfR¶RŒ˜î•„výV¶R„v–™ý"
- tooltip_any_friendly_coast_border_province_has_embraced_printing_press:0 "øv»„vËS‹YwýNåb	g§YpS7R:g”^(u§!`no"
- tooltip_any_friendly_coast_border_province_has_embraced_manufactories:0 "øv»„vËS‹YwýNåb	g§YåT:WuµN§!`no"
- tooltip_any_friendly_coast_border_province_has_embraced_colonialism:0 "øv»„vËS‹YwýNåb	g§Y–klININ§!`no"
- tooltip_any_friendly_coast_border_province_has_embraced_enlightenment:0 "øv»„vËS‹YwýNåb	g§Y=T™„ININ§!`no"
- tooltip_any_friendly_coast_border_province_has_embraced_renaissance:0 "øv»„vËS‹YwýNåb	g§Y‡ez‚YtQ§!`no"
- birthplace_of_the_new_world:0 "Í‘‰„v–kl=nãS"
- desc_birthplace_of_the_new_world:0 "Ù*NwýN=fÍ‘‰–kl=nãSÿvQ†SòSïSý¯n0R°e'YF–ÑS°sOËY0"
- birthplace_of_printing_press:0 "pS7R-NÃV"
- desc_birthplace_of_printing_press:0 "Ù*NwýN=fê16NªuwVËYì„ÃRÑSUS„vpS7RLˆN„vÑSn0W0"
- birthplace_of_global_trade:0 "hQt8f-NÃV"
- desc_birthplace_of_global_trade:0 "ÙN8f-NÃV‡sHQÁ‰Á‹†N¸‹Y°e„vFU8Žb=g„vúQ°sÿ(WÊNåeƒRO6q=fN*NIN‰„vhQt8fQÜu¢gËu0"
- birthplace_of_manufactories:1 "ŸSËYåTNSjOJW"
- desc_birthplace_of_manufactories:0 "Ù*NwýN=f°e‹WåT:WgéeúQ°s„v0W:SÿîvMRÍN=fN*NAucƒ„vuµN:S0"
- birthplace_of_enlightenment:0 "=T™„„vopTX"
- desc_birthplace_of_enlightenment:0 "Ù*NwýN=f=T™„Ð¨R„v,rN-NÃV0"
- growth_of_global_trade:0 "hQt8f„vÑSUS"
- desc_growth_of_global_trade:0 "–NwbìN¥c×Sv^b:NhQt8fQ-N„vNXTÿÙ*NwýNmNàVdk×SÊvo‚Y0"
- rapid_collapse_of_society:0 ">yO„vÅ)Tƒn"
- desc_rapid_collapse_of_society:0 "N'k2mýV¶R„v,rN!k¥cæ‰Nb&^eg„vv«uck(WbìN„výV¶R†wP†ÿN­eNGS„vaÓgŒT‰k¡NºNãSck(WüRôbìNýV¶Réy^0ÕläNåNÊSteSOÓu„g„vÅ)Tƒn0"
- rapid_collapse_of_society_tooltip:0 "N0R25t^MRÿegê'k2m„v¾uÅu­ˆûQ†N[Root.GetName]0"
- tooltip_center_of_trade_spread:2 "wýN=f2µubåNN„v8f-NÃV"
- tooltip_province_protestant_RB:0 "wýNáOðN=f°eYe01WlQ—Rb9ei——R"
- desc_birthplace_of_the_renaissance:0 "å‹wýN=f‡ez‚YtQ„v-NÃVÿƒRO6qÎNÙ:WÐ¨RNb&^eg„vÑSUS-N×SÊv‡˜0N0"
- INSTITUTION_GREAT_POWER_BONUS:1 ":S$NUM|Y$*N`no„vé`Zÿ$BONUS$"
+l_english:
+ BIRTHPLACE_OF_INSTITUTION:0 "$PROV$是§Y$NAME$§!的发源地"
+ feudalism_date:0 "1066 年"
+ renaissance_date:0 "1450 年"
+ new_world_i_date:0 "1500 年"
+ printing_press_date:0 "1550 年"
+ global_trade_date:0 "1600 年"
+ manufactories_date:0 "1650 年"
+ enlightenment_date:0 "1700 年"
+ DATE_EARLIERST_FOR_INSTI:0 "这是该思潮能在世界上出现并传播的最早时间。"
+ INSTITUTION_CAN_APPEAR:1 "基于以下因素，你所有的省份中$PROVINCE|Y$最可能出现此思潮：\n"
+ feudalism:0 "封建制度"
+ renaissance:0 "文艺复兴"
+ new_world_i:0 "殖民主义"
+ printing_press:0 "印刷机应用"
+ global_trade:0 "全球贸易"
+ manufactories:0 "工场生产"
+ enlightenment:0 "启蒙主义"
+ desc_feudalism:0 "随着时间的推移，大部分的社会都逐渐需要一种更为强力且持久的政府体系。在罗马帝国分崩离析之后，出现的一些政府体系以及习惯满足了这一诉求，而这也被认为是欧洲封建体系的一部分。由于相似的原因，世界各地都建立起了相应的长期政府以及社会体系，其中一部分体制甚至可以追溯到封建制度出现之前。\n「封建制度」与其他的思潮不同，广泛包含了许多不同的系统，从游戏一开始就存在于世界上，在那些城市化，政府组织化以及社会阶级化到达一定程度的地方。与这些具有封建主义思潮的社会接触会使思潮在领土上传播，或者，当一个社会发展到一定的程度时，这一思潮会自然出现。"
+ desc_renaissance:0 "自14世纪以来，意大利诸城邦的财阀氏族们就一直对有意探索他们古希腊与古罗马祖先社会的艺术家和学者们进行赞助。文艺复兴作为一场文化运动，其思想已经深入并且广泛传播在意大利各地，同时对文学，艺术，哲学以及音乐产生了深远的影响。人文学家也在也在研究分析他们所生活的社会，将其与古典哲学理想进行比较。文艺复兴人文主义已经发展成熟，即将渗透至社会的各个方面。对于统治者以及被统治者，一种新的理念开始出现，藉由早期印刷机的帮助，这些全新的理念迅速传播。真正的文艺复兴人文主义者须通晓方方面面，不仅要专精于政治与哲学，更要涉猎艺术，文字分析，音乐，建筑。如今，文艺复兴正准备重塑整个世界，让它朝着其古典主义的理想迈进。"
+ desc_new_world_i:0 "新大陆的发现预兆着一个新时代的到来，不仅对于殖民者来说是如此，对于被殖民者更是如此。原材料与科技迅速传播，人们对于世界边际的认识也迅速扩大。随着许多动物，农作物，白银，当然还有各类疾病开始穿梭在大西洋两岸的世界，人类终于向经济全球化迈出了第一步。当陌生的土地出现在地图上，当陌生的民族被记载下来，我们的理念，我们的宗教与哲学之辩也越来越受到这些远洋社会的影响。一些伟人开始思考那些人们一度确信的真理是否存伪，于是，从巴利亚多利德至法塔赫布尔西格里，思想家们纷纷开始讨论起世界的本质。"
+ desc_printing_press:1 "大量印刷文字的能力将彻底改变信息的传播方式，并在各个方面改变近代社会的整体。在文艺复兴的时代，像威尼斯印刷商阿尔杜斯·马努提乌斯这样的人所发明的新技术让译制经典更加易于传播，进一步推动了那场运动的进程。后来，由于圣经的新译本以及相关的重要著作通过印刷术迅速传播开来，宗教改革的进程也从这项技术中获益。\n\n如今，印刷技术已经发展成熟，并且已经布及欧洲各地，复印的版次也在不断增加，从宗教、政治手册，到行为指南，到科学论文，成千上万的各式各样的印刷品都在欧洲大陆上广泛流传着。随着印刷行业的逐步壮大，越来越多的统治者发现自己难以管控这一项新技术，因为这些生产技术相对简单，印刷商若想要逃脱审查，只需把生意移到边境线之外，甚至只用改变书的标题，都不是什么难事。"
+ desc_global_trade:0 "自古以来，跨大陆的商品往来就存在了。但是我们曾经贸易线路与货物都屈指可数，比如说，通过丝绸之路和印度洋航线，中国和印度的商品才能来到欧洲。而如今，所有的贸易正在逐渐形成全球贸易网络的一部分。随着美洲的发现，非洲航路的开辟，跨越太平洋的壮举，地方贸易网开始逐渐接入到全球性贸易网当中。\n\n从安第斯山脉开采的银矿被整箱整箱地装运回欧洲，再流入中国和印度。斯堪的纳维亚半岛上的铁矿制成铁制品，再经由英国商人销往西非。还有一些人仅仅通过在东南亚商圈进行布匹和香料的转销便获利颇丰。印度的本地商人已经开始为未来的欧洲风险贸易做投资。真正的世界经济体可能还没那么快到来，但有一点我们可以确定：它的第一颗种子已经被种下了。"
+ desc_manufactories:0 "十六、十七世纪的一系列技术创新提高了诸如铁、布料等资源的产量，但是生产方面最大的创新却在于各种新的组织方式。商业资本家们在城市之外建立起一座座工厂，规避着那些限制大规模生产的工会规则，同时还能开拓增加生产效率的新方法，比如劳动的组织化和专业化。这些未来工业革命的先驱们并没有依靠昂贵的新机器来提高工业的产出，而是依靠发掘获得原材料的便捷途径，以及组织大规模的生产活动来达到自己的目的。相对于老旧而又限制较多的旧制度，这无疑是一次巨大的革新，伴随着之后的科技革命，这一全新的模式又会为这个社会带来巨大的变革。"
+ desc_enlightenment:0 "在上一个世纪，理性主义和经验主义受到了越来越多的伟大思想家的推崇。不论是君主，是科学家，还是文学家，无论在信件中，在书本中，还是在咖啡馆里，都在讨论着开放包容，科学方法以及启蒙思想的传播能够给全人类带来的美好未来。从知名大学，到开明君主的宫廷，四处都有人在给这个世界进行科学衡量、测定、分类和制图，以便于我们更好理解的世界运转的规律。同时亦有许多的人探讨着社会运转的规律，试着去弄明白所谓的「人权」真正的含义。\n\n为了全人类的福祉，一些伟大的项目开始实行，比如修订包含一切知识的百科全书或者完成世界上所有动植物和真菌的图鉴。理性之光正在缓缓升起，对许多人而言，他们的使命就是马不停蹄地让这束光芒照亮地球的每个角落。"
+ FEUDALISM_AND_NOBLES:0 "贵族阶层忠诚，并且相邻地区拥有§Y封建制度§!"
+ NEIGHBOR_NOT_OWNED_IS_FEUDAL:0 "相邻国家拥有§Y封建制度§!"
+ PORT_OR_CAPITAL_IN_COLONY_FEUDAL:0 "在殖民国拥有港口或首都"
+ CAPITAL_IN_OLD_WORLD_FEUDAL:0 "首都在旧大陆且非部落制"
+ INSTITUTION_PENALTY_INFO:2 "未接纳$NAME|Y$：$PENALTY$\n"
+ CV_EMBRACE_INSTITUTION:0 "接纳$NAME$"
+ INSTI_NOT_YET:0 "该思潮还没有在世界上出现。"
+ MBRACE_INSTITUTI:1 "目前以每月 $SPEED$ 的速度增长。"
+ INSTITUTION_SPREAD_HELP:0 "在相邻的省份之间，思潮传播会随着时间的流逝而渐渐增长，你也可以通过增加发展度来直接传播思潮。"
+ EMBRACE_STALLED_AT:0 "目前停滞在$PROGRESS$"
+ EMBRACE_DONE_WHEN:0 "当前进度为$PROGRESS|G$，预计于$YEAR|Y$年出现。"
+ EMBRACE_DONE:0 "在$PROVINCE_NAME|Y$出现。"
+ MBRACE_INSTITUTI_NOT_POSS:0 "无法传播：\n$WHY$"
+ INSTI_PROVIDES:0 "接受思潮后，国家将获得：\n$BONUS$"
+ MAPMODE_INSTITUTIONS:0 "思潮"
+ MAPMODE_INSTITUTIONS_DESC:0 "根据是否已经接纳所有已出现的思潮对省份着色。绿色代表省份已接纳所有思潮，黄色代表省份正在接纳思潮，红色代表省份尚未接纳思潮。"
+ HAS_EMBRACED_INSTITUTION:0 "$NAME$：§Y存在§!"
+ EMBRACING_INSTITUTION:0 "$NAME$：§Y$VAL$%§!"
+ NOT_EMBRACED:0 "尚未接受："
+ OPEN_CLOSE_INSTITUTIONS:0 "打开/关闭省份思潮界面"
+ HEADER_PRESENT_INSTITUTIONS:0 "§Y存在的思潮：§!"
+ HEADER_GROWING_INSTITUTIONS:0 "§Y正在发展的思潮：§!"
+ GROWING_INSTITUTION:0 "$NAME$：$VAL$，$PER_MONTH$ 每月"
+ GROWTH_MODIFIER:0 "传播速度修正"
+ SCALED_INSTITUTION_DESC:0 "以*标记的修正与地区发展度正相关，当地区总发展度上升时会同时上升。"
+ MODIFIERS_AFFECTING_INSTITUTION_SPREAD:0 "影响$INSTITUTION|Y$传播的修正有：\n"
+ FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED:0 "相邻的友好省份拥有§Y封建制度§!"
+ tooltip_global_trade_burghers:1 "相邻省份拥有全球贸易思潮，并且存在领地份额30%的忠诚的市民阶层"
+ tooltip_printing_press_clergy:1 "相邻省份拥有印刷机应用思潮，并且存在领地份额30%的忠诚的教士阶层"
+ tooltip_any_neighbor_has_embraced_renaissance:0 "相邻省份拥有§Y文艺复兴§!思潮"
+ tooltip_any_neighbor_has_embraced_printing_press:0 "相邻省份拥有§Y印刷机应用§!思潮"
+ tooltip_any_neighbor_has_embraced_colonialism:0 "相邻省份拥有§Y殖民主义§!思潮"
+ tooltip_any_neighbor_has_embraced_manufactories:0 "相邻省份拥有§Y工场生产§!思潮"
+ tooltip_any_neighbor_has_embraced_enlightenment:0 "相邻省份拥有§Y启蒙主义§!思潮"
+ tooltip_colonial_overlord_embraced_renaissance:0 "是港口或首都，且拥有者接纳了§Y文艺复兴§!思潮"
+ tooltip_colonial_overlord_renaissance:0 "是殖民国的港口或首都，且宗主国接纳了§Y文艺复兴§!思潮"
+ tooltip_colonial_overlord_new_world_i:0 "是殖民国的港口或首都，且宗主国接纳了§Y殖民主义§!思潮"
+ tooltip_colonial_overlord_printing_press:0 "是殖民国的港口或首都，且宗主国接纳了§Y印刷机应用§!思潮"
+ tooltip_colonial_overlord_global_trade:0 "是殖民国的港口或首都，且宗主国接纳了§Y全球贸易§!思潮"
+ tooltip_colonial_overlord_manufactories:0 "是殖民领国家的港口或首都，且宗主国接纳了§Y工场生产§!思潮"
+ tooltip_colonial_overlord_enlightenment:0 "是殖民国的港口或首都，且宗主国接纳了§Y启蒙主义§!思潮"
+ tooltip_has_colonial_subject_in_new_world:1 "是港口或首都，且属于拥有新大陆殖民领的国家"
+ tooltip_has_protectorate:0 "是港口或首都，且属于拥有保护国的国家"
+ tooltip_enlightenment_embraced:1 "不是贸易公司，且拥有者接纳了§Y启蒙主义§!思潮"
+ tooltip_feudalism_embraced:1 "不是贸易公司，且拥有者接纳了§Y封建制度§!思潮"
+ tooltip_renaissance_embraced:1 "不是贸易公司，且拥有者接纳了§Y文艺复兴§!思潮"
+ tooltip_printing_press_embraced:1 "不是贸易公司，且拥有者接纳了§Y印刷机应用§!思潮"
+ tooltip_new_world_i_embraced:1 "不是贸易公司，且拥有者接纳了§Y殖民主义§!思潮"
+ tooltip_global_trade_embraced:1 "不是贸易公司，且拥有者接纳了§Y全球贸易§!思潮"
+ tooltip_manufactories_embraced:1 "不是贸易公司，且拥有者接纳了§Y工场生产§!思潮"
+ tooltip_neighbor_port_province_new_world:0 "是港口，且相邻省份拥有§Y殖民主义§!思潮"
+ tooltip_neighbor_port_province_global_trade:0 "是港口，且相邻省份拥有§Y全球贸易§!思潮"
+ tooltip_neighbor_non_port_province_global_trade:0 "相邻省份拥有§Y全球贸易§!思潮"
+ tooltip_italian_capital:0 "是意大利地区的首都"
+ tooltip_development_10:0 "欧洲发展度为10的省份"
+ tooltip_development_20:0 "欧洲发展度为20的省份"
+ tooltip_development_20_capital:0 "欧洲发展度为20的首都"
+ tooltip_development_5_post_1500:0 "在1500年以后，欧洲发展度为5的省份"
+ tooltip_flanders_tuscany_venetia:0 "是佛兰德、托斯卡纳或威尼斯区域的省份"
+ tooltip_dip_tech15_capital:0 "外交科技为15级的国家的首都"
+ tooltip_owner_protestant:2 "不是贸易公司并且国教为新教、圣公宗或改革宗"
+ tooltip_owner_reformed:1 "不是贸易公司并且国教为改革宗"
+ tooltip_province_protestant:1 "该省宗教为新教或者改革宗"
+ tooltip_province_reformed:0 "该省宗教为改革宗"
+ tooltip_has_seat_in_parliament:0 "该省份在议会拥有席位"
+ tooltip_full_innovativeness:0 "是完成革新理念的国家的首都"
+ tooltip_philosopher_capital:0 "是外交科技达到20级且拥有哲学家顾问的国家的首都"
+ tooltip_scientist_capital:0 "是外交科技达到20级且拥有科学家顾问的国家的首都"
+ tooltip_any_friendly_coast_border_province_has_embraced_printing_press:0 "相邻的友好省份拥有§Y印刷机应用§!思潮"
+ tooltip_any_friendly_coast_border_province_has_embraced_manufactories:0 "相邻的友好省份拥有§Y工场生产§!思潮"
+ tooltip_any_friendly_coast_border_province_has_embraced_colonialism:0 "相邻的友好省份拥有§Y殖民主义§!思潮"
+ tooltip_any_friendly_coast_border_province_has_embraced_enlightenment:0 "相邻的友好省份拥有§Y启蒙主义§!思潮"
+ tooltip_any_friendly_coast_border_province_has_embraced_renaissance:0 "相邻的友好省份拥有§Y文艺复兴§!思潮"
+ birthplace_of_the_new_world:0 "重要的殖民港口"
+ desc_birthplace_of_the_new_world:0 "这个省份是重要殖民港口，其历史可追溯到新大陆发现伊始。"
+ birthplace_of_printing_press:0 "印刷中心"
+ desc_birthplace_of_printing_press:0 "这个省份是自16世纪起开始蓬勃发展的印刷行业的发源地。"
+ birthplace_of_global_trade:0 "全球贸易中心"
+ desc_birthplace_of_global_trade:0 "这一贸易中心率先见证了许多新的商贸技术的出现，在今日它依然是一个主要的全球贸易网络枢纽。"
+ birthplace_of_manufactories:1 "原始工业化作坊"
+ desc_birthplace_of_manufactories:0 "这个省份是新型工场最早出现的地区，目前仍是一个繁荣的生产区。"
+ birthplace_of_enlightenment:0 "启蒙的灯塔"
+ desc_birthplace_of_enlightenment:0 "这个省份是启蒙运动的第一中心。"
+ growth_of_global_trade:0 "全球贸易的发展"
+ desc_growth_of_global_trade:0 "随着我们接受并成为全球贸易网中的一员，这个省份也因此受益良多。"
+ rapid_collapse_of_society:0 "社会的迅速崩溃"
+ desc_rapid_collapse_of_society:0 "与欧洲国家的第一次接触所带来的瘟疫正在我们的国家肆虐，不断上升的感染和死亡人口正在导致我们国家秩序、法令以及整体结构的迅速崩溃。"
+ rapid_collapse_of_society_tooltip:0 "不到25年前，来自欧洲的疾病袭击了[Root.GetName]。"
+ tooltip_center_of_trade_spread:2 "省份是2级或以上的贸易中心"
+ tooltip_province_protestant_RB:0 "省份信仰是新教、圣公宗或改革宗"
+ desc_birthplace_of_the_renaissance:0 "该省份是文艺复兴的中心，它依然从这场运动所带来的发展中受益颇丰。"
+ INSTITUTION_GREAT_POWER_BONUS:1 "缺少$NUM|Y$个思潮的惩罚：$BONUS$"

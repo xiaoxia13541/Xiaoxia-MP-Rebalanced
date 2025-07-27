@@ -1,197 +1,197 @@
-﻿l_english:
+l_english:
     #SasanidEmpire:
-     SAS:0 "(„Qh^ýV" # Tðyeu	gôf9e
-     SAS_ADJ:0 "(„Qh"
-     SAS_ideas:0 "(„QhtõV"
-     SAS_ideas_start:0 "(„Qh.Oßu"
-     SAS_ideas_bonus:0 "(„QhÄ–ÃV"
-     dream_of_an_empire:0 "^ýVKN¦h"
-     dream_of_an_empire_desc:0 "bìN„vÎ‘ÃVv^N=fú^ËzN*N°e„v^ýVÿw=fYtQN*Nçe„v^ýVÿbìNðXðyêñT=fTÕl„vçubºNÿN=f°sãNŽ0tN¾s|šNŒTâl¯e„v?–S(„o`·V‹sýVÿw=fÎNtQý“^ÀN0R0W-Nwm„v›…‰¯eŒT'YAmëX„v?–QYŽ<S·V^ýV0bìN„vîvh=fYtQÙ*N^ýVÿÙ*N¦hó`óÊNmN=flÏe„v4ngÿN*N‹Yb„výV‹sI`ýwÇcbWlš‡v^ÊSvQTçuýV¶RÎNýV‹sKN‹s„vVyHQWµN-N²dúQegÀoÑSýVl„vípÅ`0"
-     expand_urban_settlements:0 "ibUSÎW^šRES¹p"
-     expand_urban_settlements_desc:0 "ÎW^ÑSUSŒTÎW^SjO:NNÍybVVÿ=f(„Qh^ýV(WOg„vCg›RSO°sÿNvQŸÛvöeg„vWlš^ýVÞz‰N0ÎW^šRES¹p„vÑSUS×S0R¯sƒX0ÏuNmŒT>yOagöN„vqVÍTÿmN1S=fô‹ÿÎW^šRES¹p=fáO01ZPNŒTFUNFUÁTÍ‘°eRM‘0RN^SÎW^ŒTýV¶R„v-NÃV0"
-     aswaran_knights:0 "?–¯eætpQ‘šëX"
-     aswaran_knights_desc:0 "‰k¡N„vÁ”Õ–ÏP0"
-     revive_sasanid_learning:0 "YtQ(„QhfRî•"
-     revive_sasanid_learning_desc:0 "(„Qhßu»l«ˆ²‹:N=fOg†SòSN„vN*NØš¹pÿ(W¸‹Y¹eb—=fäSãNOg‡eS„vv˜ðS0bìN¹RÍVbìNãl„vNTáOðNŒT‡eS0bìNÑSUS†NN*NYBg„v-N.YÆ–Cg?eœ^˜RÚP:g„gÿv^=ctQtWšN¯e·VYejO:NbìNßu»l„vTÕlSŒTßuN›RÏ‘0bìNØú^.†NRO„vªuõV‘xŒTlQqQåTzÿv^^©R‡eSŒTYe²w:g„g0"
-     neo_iranian_administration:0 "°eOgLˆ?e"
-     neo_iranian_administration_desc:0 "bìNÅV‰˜ªR›RÝOcbìNjO:NgTN*N°eOg^ýV„v0WMO0	g±b„v(„Õlôu‹sgck(WcbbìN(Wå‹0W:S„vßu»lÿàVdkbìNjO:NgTN*N°eOg^ýV„v†SòSŒTWµN0bìNÅV‰˜ªR›R9hd–Ù›NÛS›Qÿv^TNLuUS:y(„Qh^ýV„vóØšàeN0"
-     servants_of_zoroaster:0 "tWšN¯e·V„vÆNºN"
-     servants_of_zoroaster_desc:0 "tWšN¯e·V=f¯e®vTXüf¶RÏeb¯e®vTXs|·V¶RÏe„vnfœ¯e^KNPRÿÖN„vÍk²N=fjg<h·VÿwÖN„vþfVy6r=fwmaSTX¯e^0tWšN¯e·VSºN‰|¶rµQÆ‰:N?–™lN·VœKNô•„v¾|^y—e‰N0ºN‰|„vîv„vÿ1SÏPNb	gvQÖNR.irN7hÿ=fôucŒTùRPŸ?–™l0ùRºN‰|egô‹ÿÙÇïygÂSNuIm0êNVåNÊSLˆOú^¾‹'`/‹Y„v`ó`0Ší‹ŒTLˆ:NegžR°s0"
-     new_age_army:0 "°eöeãN›Q–"
-     new_age_army_desc:0 "*geg=fbìN„vÿNLu=fbìN„v0ÎNN¹e„v-NýV0R‰¹e„v^JfRwKN0W0bìN„v^ýVèŠ^Ûlÿ.O­dtWšN¯e·VáOðN0RNLu„vVYe’V=fbìN„v‹TÐ0MRÛÿ:N†Ncƒwÿ"
+     SAS:0 "萨桑帝国" # 名称略有更改
+     SAS_ADJ:0 "萨桑"
+     SAS_ideas:0 "萨桑理念"
+     SAS_ideas_start:0 "萨桑传统"
+     SAS_ideas_bonus:0 "萨桑雄心"
+     dream_of_an_empire:0 "帝国之梦"
+     dream_of_an_empire_desc:0 "我们的野心并不是建立一个新的帝国，而是复兴一个旧的帝国；我们声称自己是合法的继承人，不是现代美索不达米亚和波斯的阿尔萨息德王国，而是从兴都库什到地中海的薛西斯和大流士的阿契美尼德帝国。我们的目标是复兴这个帝国；这个梦想至今也是民族的渴望，一个好战的国王总能通过挑战罗马皇帝及其后继国家“从国王之王的祖先遗产中撤出”来激发国民的热情。"
+     expand_urban_settlements:0 "扩展城市定居点"
+     expand_urban_settlements_desc:0 "城市发展和城市化作为一种形式，是萨桑帝国在伊朗的权力体现，与其鼎盛时期的罗马帝国竞争。城市定居点的发展受到环境、经济和社会条件的影响；也就是说，城市定居点是通信、娱乐和商业商品重新分配到下属城市和国家的中心。"
+     aswaran_knights:0 "阿斯瓦兰骑士"
+     aswaran_knights_desc:0 "死亡的铁雕像。"
+     revive_sasanid_learning:0 "复兴萨桑学问"
+     revive_sasanid_learning_desc:0 "萨桑统治被认为是伊朗历史上的一个高点，在许多方面是古代伊朗文化的顶峰。我们容忍我们臣民的不同信仰和文化。我们发展了一个复杂的中央集权政府官僚机构，并振兴琐罗亚斯德教作为我们统治的合法化和统一力量。我们还建造了宏伟的纪念碑和公共工程，并赞助文化和教育机构。"
+     neo_iranian_administration:0 "新伊朗行政"
+     neo_iranian_administration_desc:0 "我们必须努力保持我们作为最后一个新伊朗帝国的地位。有抱负的萨法维王朝正在挑战我们在该地区的统治，因此我们作为最后一个新伊朗帝国的历史和遗产。我们必须努力根除这些叛军，并向世界展示萨桑帝国的至高无上。"
+     servants_of_zoroaster:0 "琐罗亚斯德的仆人"
+     servants_of_zoroaster_desc:0 "琐罗亚斯德是斯皮塔曼家族或斯皮塔米德家族的普鲁斯帕之子，他的母亲是杜格德，而他的曾祖父是海卡塔斯帕。琐罗亚斯德将人类状况视为阿沙与德鲁之间的精神斗争。人类的目的，就像所有其他创造物一样，是维持和对齐阿沙。对人类来说，这通过积极参与生活、仪式以及行使建设性/好的思想、言语和行为来实现。"
+     new_age_army:0 "新时代军队"
+     new_age_army_desc:0 "未来是我们的，世界是我们的。从东方的中国到西方的希腊学者之地。我们的帝国跨越广泛，传播琐罗亚斯德信仰到世界的异教徒是我们的命运。前进，为了荣耀！"
     # Missions:
-     expand_the_temples_title:0 "ibUS^y™^"
-     expand_the_temples_desc:0 "ibUS^y™^"
-     convert_iraq_title:0 "lSOÉbKQ"
-     convert_iraq_desc:0 "lSOÉbKQ"
-     consolidate_iraq_title:0 "éTúVOÉbKQ"
-     consolidate_iraq_desc:0 "éTúVOÉbKQ"
-     recover_persia_title:0 "6eYâl¯e"
-     recover_persia_desc:0 "6eYâl¯e"
-     integrate_the_branch_dynasty_title:0 "teTR=e‹sg"
-     integrate_the_branch_dynasty_desc:0 "teTR=e‹sg"
-     rekindle_the_fires_title:0 "Í‘°e¹pÃqkp0q"
-     rekindle_the_fires_desc:0 "Í‘°e¹pÃqkp0q"
-     expand_the_towns_title:0 "ibUSÎWG•"
-     expand_the_towns_desc:0 "ibUSÎWG•"
-     into_the_pamir_mountains_title:0 "ÛeQ^s|SqS	"
-     into_the_pamir_mountains_desc:0 "ÛeQ^s|SqS	"
-     develop_persian_trade_title:0 "ÑSUSâl¯e8f"
-     develop_persian_trade_desc:0 "ÑSUSâl¯e8f"
-     seat_of_an_empire_title:0 "^ýV„vRµ^"
-     seat_of_an_empire_desc:0 "^ýV„vRµ^"
-     industrialize_iraq_title:0 "åTNSOÉbKQ"
-     industrialize_iraq_desc:0 "åTNSOÉbKQ"
-     masters_of_persia_title:0 "âl¯e„vINºN"
-     masters_of_persia_desc:0 "âl¯e„vINºN"
-     modernize_persian_rug_production_title:0 "°sãNSâl¯e0WïkuµN"
-     modernize_persian_rug_production_desc:0 "°sãNSâl¯e0WïkuµN"
-     sasanid_rennaisance_title:0 "(„Qh‡ez‚YtQ"
-     sasanid_rennaisance_desc:0 "(„Qh‡ez‚YtQ"
-     the_old_capital_title:0 "çe–™ý"
-     the_old_capital_desc:0 "çe–™ý"
-     push_back_the_arabs_title:0 "ûQ?–Éb=OºN"
-     push_back_the_arabs_desc:0 "ûQ?–Éb=OºN"
-     into_khorasan_title:0 "ÛeQ—ÉbQh"
-     into_khorasan_desc:0 "ÛeQ—ÉbQh"
-     sasanid_learning_title:0 "(„QhfRî•"
-     sasanid_learning_desc:0 "(„QhfRî•"
-     revive_persia_title:0 "YtQâl¯e"
-     revive_persia_desc:0 "YtQâl¯e"
-     exact_our_revenge_title:0 "YÇN"
-     exact_our_revenge_desc:0 "YÇN"
-     reastablish_indian_satrapy_title:0 "Í‘ú^pS¦^I`cw:S"
-     reastablish_indian_satrapy_desc:0 "Í‘ú^pS¦^I`cw:S"
-     reestablish_the_immortals_title:0 "Í‘ú^NKgw"
-     reestablish_the_immortals_desc:0 "Í‘ú^NKgw"
-     reestablish_the_immortals_tooltip:0 "§YZhayedan§!Ç–cOuQlQøS°s(WïSåN«ˆÇ–cO0" # Sealandûm R„vÇ–cOuQlQøS
-     expand_the_aswaran_knights_title:0 "?–¯eætpQ‘šëX"
-     expand_the_aswaran_knights_desc:0 "ibUS?–¯eætpQ‘šëX"
-     gunpowder_warfare_title:0 "kpoƒb‰N"
-     gunpowder_warfare_desc:0 "kpoƒb‰N"
-     gunpowder_empire_title:0 "kpoƒ^ýV"
-     gunpowder_empire_desc:0 "kpoƒ^ýV"
-     the_ancient_enemy_title:0 "äSw„vLeºN"
-     the_ancient_enemy_desc:0 "WlšºNþfÏu=fbìN„vLeºNÿÙ!kbìNÔkÖNìNIm—VôfEN0"
-     a_new_threat_title:0 "°eZÁw"
-     a_new_threat_desc:0 "°eZÁw"
-     prepare_for_a_confrontation_title:0 "ÆQYùR—b"
-     prepare_for_a_confrontation_desc:0 "ÆQYùR—b"
-     the_struggle_begins_title:0 "—e‰NVËY"
-     the_struggle_begins_desc:0 "—e‰NVËY"
-     first_victory_title:0 ",rN!kÜw)R"
-     first_victory_desc:0 ",rN!kÜw)R"
-     first_victory_tooltip:0 "=T(u³QšRbVb§Y?–QYŽ<S·V^ýV§!0" # Sealandûm R„vïSbVbýV¶R
+     expand_the_temples_title:0 "扩展神庙"
+     expand_the_temples_desc:0 "扩展神庙"
+     convert_iraq_title:0 "转化伊拉克"
+     convert_iraq_desc:0 "转化伊拉克"
+     consolidate_iraq_title:0 "巩固伊拉克"
+     consolidate_iraq_desc:0 "巩固伊拉克"
+     recover_persia_title:0 "收复波斯"
+     recover_persia_desc:0 "收复波斯"
+     integrate_the_branch_dynasty_title:0 "整合分支王朝"
+     integrate_the_branch_dynasty_desc:0 "整合分支王朝"
+     rekindle_the_fires_title:0 "重新点燃火焰"
+     rekindle_the_fires_desc:0 "重新点燃火焰"
+     expand_the_towns_title:0 "扩展城镇"
+     expand_the_towns_desc:0 "扩展城镇"
+     into_the_pamir_mountains_title:0 "进入帕米尔山脉"
+     into_the_pamir_mountains_desc:0 "进入帕米尔山脉"
+     develop_persian_trade_title:0 "发展波斯贸易"
+     develop_persian_trade_desc:0 "发展波斯贸易"
+     seat_of_an_empire_title:0 "帝国的宝座"
+     seat_of_an_empire_desc:0 "帝国的宝座"
+     industrialize_iraq_title:0 "工业化伊拉克"
+     industrialize_iraq_desc:0 "工业化伊拉克"
+     masters_of_persia_title:0 "波斯的主人"
+     masters_of_persia_desc:0 "波斯的主人"
+     modernize_persian_rug_production_title:0 "现代化波斯地毯生产"
+     modernize_persian_rug_production_desc:0 "现代化波斯地毯生产"
+     sasanid_rennaisance_title:0 "萨桑文艺复兴"
+     sasanid_rennaisance_desc:0 "萨桑文艺复兴"
+     the_old_capital_title:0 "旧首都"
+     the_old_capital_desc:0 "旧首都"
+     push_back_the_arabs_title:0 "击退阿拉伯人"
+     push_back_the_arabs_desc:0 "击退阿拉伯人"
+     into_khorasan_title:0 "进入霍拉桑"
+     into_khorasan_desc:0 "进入霍拉桑"
+     sasanid_learning_title:0 "萨桑学问"
+     sasanid_learning_desc:0 "萨桑学问"
+     revive_persia_title:0 "复兴波斯"
+     revive_persia_desc:0 "复兴波斯"
+     exact_our_revenge_title:0 "复仇"
+     exact_our_revenge_desc:0 "复仇"
+     reastablish_indian_satrapy_title:0 "重建印度总督区"
+     reastablish_indian_satrapy_desc:0 "重建印度总督区"
+     reestablish_the_immortals_title:0 "重建不朽者"
+     reestablish_the_immortals_desc:0 "重建不朽者"
+     reestablish_the_immortals_tooltip:0 "§YZhayedan§!雇佣兵公司现在可以被雇佣。" # Sealand添加的雇佣兵公司
+     expand_the_aswaran_knights_title:0 "阿斯瓦兰骑士"
+     expand_the_aswaran_knights_desc:0 "扩展阿斯瓦兰骑士"
+     gunpowder_warfare_title:0 "火药战争"
+     gunpowder_warfare_desc:0 "火药战争"
+     gunpowder_empire_title:0 "火药帝国"
+     gunpowder_empire_desc:0 "火药帝国"
+     the_ancient_enemy_title:0 "古老的敌人"
+     the_ancient_enemy_desc:0 "罗马人曾经是我们的敌人，这次我们比他们活得更久。"
+     a_new_threat_title:0 "新威胁"
+     a_new_threat_desc:0 "新威胁"
+     prepare_for_a_confrontation_title:0 "准备对抗"
+     prepare_for_a_confrontation_desc:0 "准备对抗"
+     the_struggle_begins_title:0 "斗争开始"
+     the_struggle_begins_desc:0 "斗争开始"
+     first_victory_title:0 "第一次胜利"
+     first_victory_desc:0 "第一次胜利"
+     first_victory_tooltip:0 "启用决定形成§Y阿契美尼德帝国§!。" # Sealand添加的可形成国家
     # Modifiers:
-     sas_victory_in_levant:0 "ÎžáQyr„vÜw)R"
-     sas_university:0 "(„Qh'YfR"
-     sas_eranshahr:0 "(„QhOg"
-     sas_afgan_frontier:0 "?–ÌRWl¹ƒX"
-     sas_indian_satrapy:0 "pS¦^I`cw:S"
-     sas_modern_cavalry:0 "°sãN‘šuQ"
-     sas_army_modernization:0 "›Q–°sãNS"
-     sas_expanded_aswarans:0 "ibUS?–¯eætpQ"
-     sas_immortals:0 "(„QhNKgw"
-     sas_public_works:0 "lQqQåTz"
-     sas_capital_of_persia:0 "âl¯e„v–™ý"
-     sas_persian_administration:0 "âl¯eLˆ?e"
-     sas_struggle_for_levant:0 "ÎžáQyr„v—e‰N"
-     marzban_of_mosul:0 "idÏ‚S„v›sSyQís"
-     sas_prepare_for_struggle:0 "ÆQY—e‰N"
-     sas_outlasted_the_romans:0 "°s(WŒ=f+täQðQ"
-     sas_persian_silk_road:0 "âl¯eNøuKNï"
-     sas_proto_industrialization:0 "ŸSËYåTNS"
-     sas_town_expansion:0 "ÎWG•ibUS"
-     eternal_fires_rekindled:0 "8lR`KNkpÍ‘°e¹pÃq"
-     sas_zoroastrianism_rekindled:0 "tWšN¯e·VYeÍ‘°e¹pÃq"
-     sas_taxes_for_temples:0 "^y™^z6e"     
+     sas_victory_in_levant:0 "黎凡特的胜利"
+     sas_university:0 "萨桑大学"
+     sas_eranshahr:0 "萨桑伊朗"
+     sas_afgan_frontier:0 "阿富汗边境"
+     sas_indian_satrapy:0 "印度总督区"
+     sas_modern_cavalry:0 "现代骑兵"
+     sas_army_modernization:0 "军队现代化"
+     sas_expanded_aswarans:0 "扩展阿斯瓦兰"
+     sas_immortals:0 "萨桑不朽者"
+     sas_public_works:0 "公共工程"
+     sas_capital_of_persia:0 "波斯的首都"
+     sas_persian_administration:0 "波斯行政"
+     sas_struggle_for_levant:0 "黎凡特的斗争"
+     marzban_of_mosul:0 "摩苏尔的玛尔兹班"
+     sas_prepare_for_struggle:0 "准备斗争"
+     sas_outlasted_the_romans:0 "现在谁是紫凤凰"
+     sas_persian_silk_road:0 "波斯丝绸之路"
+     sas_proto_industrialization:0 "原始工业化"
+     sas_town_expansion:0 "城镇扩展"
+     eternal_fires_rekindled:0 "永恒之火重新点燃"
+     sas_zoroastrianism_rekindled:0 "琐罗亚斯德教重新点燃"
+     sas_taxes_for_temples:0 "神庙税收"     
      
     #Localisation for colonial formables
-  PRG_ideas:0 "ôTÉb-WtõV"
-  PRG_ideas_start:0 "ôTÉb-W.Oßu"
-  PRG_ideas_bonus:0 "ôTÉb-WÄ–ÃV"
-  PRG_pious_christians:0 "T†Ú‹„v.OYeëX"
-  PRG_pious_christians_desc:0 "—RYe=fSbìNN`SncÙGr^–'YF–„vQS‘ŒT*gVSWW„:SRVeg„vN‰"
-  PRG_in_lords_name:0 "åNIN„vTIN"
-  PRG_in_lords_name_desc:0 "bìN„vIN=fhQýw„vÿbìN=fÖN„vÆNºN"
-  PRG_economy_reforms:0 "ÏuNm9ei—"
-  PRG_economy_reforms_desc:0 "a0ŒbìNR°e„v?e»l¶R6RšR„vfzfÏuNm9ei—ÿbìN„vÏuNmck(Wì„ÃRÑSUS"
-  PRG_whip_of_god:0 "N^„v­—PR"
-  PRG_whip_of_god_desc:0 "N^ùR±›N?aaTÖNHSg„vºNhˆ:y`¯`ÿFOùRŽN±›NbeŽNcbÖN„vºNÿÖNmNïSåN=f%N‰S„v"
-  PRG_state_monopolies:0 "ýV¶R„W­e"
-  PRG_state_monopolies_desc:0 "bìNÅV‰˜„W­e8fÿåN¿ObìNýwYµc6RƒRv^ÎN-N·ƒ—VhQè)RÊv"
-  PRG_mass_recruitment:0 "'YÄ‰!jÛbßR"
-  PRG_mass_recruitment_desc:0 "(WÝugŒTb‰NöegÿÏk*N7uºNŒT7uiRýÅV‰˜ÍT”^ýV¶RŒTN^„v—‰"
-  PRG_naval_expansion:0 "wm›Qib.V"
-  PRG_naval_expansion_desc:0 "wm›QO¿RNvQÖN›Q‹N¹eb—N7hÍ‘‰ÿåN¿O6Rg»ýVv^ib'YbìN„vqVÍT›R"      
-  COL_ideas:0 "åT&OÔkšNtõV"
-  COL_ideas_start:0 "åT&OÔkšN.Oßu"
-  COL_ideas_bonus:0 "åT&OÔkšNÄ–ÃV"
-  COL_independence:0 "–klåT&OÔkšN"
-  COL_independence_desc:0 "NçeNLuøv”–NÌ‘ÿbìNÅV‰˜êÙuê³ÿMbýw(WÙ*N^–„v'YF–NAucƒÑSUS"
-  COL_legacy_of_the_libertadores:0 "ã‰>ew„vWµN"
-  COL_legacy_of_the_libertadores_desc:0 "ã‰>ew„vWµNIm(WbìNNb	gºNÃV-Nÿ(WöeIQp‚¾–öeÙuˆNbìN^g"
-  COL_union_of_nations:0 "ýV¶RTwßv"
-  COL_union_of_nations_desc:0 "bìN(W—RINýV×e^NâVÓubN*NýV¶R"
-  COL_federal_state:0 "Tw¦ýV¶R"
-  COL_federal_state_desc:0 "àeº‹?e»lb—RYeáOðN‚YUOÿbìNÅV‰˜øv’N¹RÍV"
-  COL_free_economy:0 "–klÏuNm"
-  COL_free_economy_desc:0 "ê1uŒTV>e„vÏuNmùRbìN„vÏuNmbŸRósQÍ‘‰ÿ‚YœgbìNó`‰ê1u„vÝ‹"
-  COL_fight_for_freedom:0 ":N—RINýVwb"
-  COL_fight_for_freedom_desc:0 ":NbìN„v—RINýVwb„vãN÷Nv^N¿OœRÿbìNÅV‰˜°‹OOzrrr„vœœNˆŒT›äRåTjO"
-  COL_new_army:0 "°eNLu›Q–"
-  COL_new_army_desc:0 "N*N°e„v*geg—‰N*N°e„v›Q–ÿMRÛ'TÿëXuQìNÿ:N†Ncƒwÿ"
+  PRG_ideas:0 "巴拉圭理念"
+  PRG_ideas_start:0 "巴拉圭传统"
+  PRG_ideas_bonus:0 "巴拉圭雄心"
+  PRG_pious_christians:0 "虔诚的传教士"
+  PRG_pious_christians_desc:0 "宗教是将我们与占据这片广阔大陆的卑鄙和未开化土著区分开来的东西"
+  PRG_in_lords_name:0 "以主的名义"
+  PRG_in_lords_name_desc:0 "我们的主是全能的，我们是他的仆人"
+  PRG_economy_reforms:0 "经济改革"
+  PRG_economy_reforms_desc:0 "感谢我们创新的政治家制定的明智经济改革，我们的经济正在蓬勃发展"
+  PRG_whip_of_god:0 "上帝的鞭子"
+  PRG_whip_of_god_desc:0 "上帝对那些愿意向他屈服的人表示怜悯，但对于那些敢于挑战他的人，他也可以是严厉的"
+  PRG_state_monopolies:0 "国家垄断"
+  PRG_state_monopolies_desc:0 "我们必须垄断贸易，以便我们能够控制它并从中获得全部利益"
+  PRG_mass_recruitment:0 "大规模招募"
+  PRG_mass_recruitment_desc:0 "在绝望和战争时期，每个男人和男孩都必须响应国家和上帝的需要"
+  PRG_naval_expansion:0 "海军扩张"
+  PRG_naval_expansion_desc:0 "海军优势与其他军事方面一样重要，以便制服邻国并扩大我们的影响力"      
+  COL_ideas:0 "哥伦比亚理念"
+  COL_ideas_start:0 "哥伦比亚传统"
+  COL_ideas_bonus:0 "哥伦比亚雄心"
+  COL_independence:0 "殖民哥伦比亚"
+  COL_independence_desc:0 "与旧世界相隔万里，我们必须自给自足，才能在这个广阔的大陆上繁荣发展"
+  COL_legacy_of_the_libertadores:0 "解放者的遗产"
+  COL_legacy_of_the_libertadores_desc:0 "解放者的遗产活在我们所有人心中，在时光艰难时给予我们希望"
+  COL_union_of_nations:0 "国家联盟"
+  COL_union_of_nations_desc:0 "我们在宗主国旗帜下团结成一个国家"
+  COL_federal_state:0 "联邦国家"
+  COL_federal_state_desc:0 "无论政治或宗教信仰如何，我们必须相互容忍"
+  COL_free_economy:0 "殖民经济"
+  COL_free_economy_desc:0 "自由和开放的经济对我们的经济成功至关重要，如果我们想要自由的话"
+  COL_fight_for_freedom:0 "为宗主国而战"
+  COL_fight_for_freedom_desc:0 "为我们的宗主国而战的代价并不便宜，我们必须记住牺牲的鲜血和辛勤工作"
+  COL_new_army:0 "新世界军队"
+  COL_new_army_desc:0 "一个新的未来需要一个新的军队，前进吧，士兵们，为了荣耀！"
   
-  FLO_ideas:0 "iOWÌ‘¾tõV"
-  FLO_ideas_start:0 "iOWÌ‘¾.Oßu"
-  FLO_ideas_bonus:0 "iOWÌ‘¾Ä–ÃV"
-  FLO_Plantation_Economy:0 "ÍyiíVÏuNm"
-  FLO_Plantation_Economy_desc:0 "bìN„vÏuNmú^Ëz(WÍyiíVÐc›O„v6eeQKNN"
-  FLO_Blue_Mountain_Coffee:0 "Ý„qS–TaU"
-  FLO_Blue_Mountain_Coffee_desc:0 "ƒRvQžRN=f–TaUÿFO,TwegˆVw‘"
-  FLO_Sugar_Revolution:0 "Ö|i—‹T"
-  FLO_Sugar_Revolution_desc:0 "Ö|=f*gegÿàQNNïSåN¯wšRSO	gb‰N=f:N†NÙÍy)R¦m0NšS„vµNÁTwb"
-  FLO_American_Trade_Hub:0 "Ž2m8f-NÃV"
-  FLO_American_Trade_Hub_desc:0 "bìN„vMOnAQ¸‹bìNÂSN*jèÙGr^–'YF–„vøv’NÞ¥c„v8f"
-  FLO_Miskoto_Zambos:0 "s|¯eÑyXb·^ZS¯e"
-  FLO_Miskoto_Zambos_desc:0 "s|¯eÑyXb·^ZS¯e=fNMOSV0WON¶Rÿ.^©Rú^¾‹†NÙ*NýV¶R"
-  FLO_Interconnected_Relations:0 "øv’NÞ¥c„vsQû|"
-  FLO_Interconnected_Relations_desc:0 "(WbìNýV¶R…Q„vŸlŒTo‚‹YsQû|ùRŽNÝOcÏuNmžX•ósQÍ‘‰"
-  FLO_Colonial_Legacy:0 "–klWµN"
-  FLO_Colonial_Legacy_desc:0 "‹†6qbìNUSg*gegÿFObìNNýwØV°‹bìN„v–klWµN"
+  FLO_ideas:0 "佛罗里达理念"
+  FLO_ideas_start:0 "佛罗里达传统"
+  FLO_ideas_bonus:0 "佛罗里达雄心"
+  FLO_Plantation_Economy:0 "种植园经济"
+  FLO_Plantation_Economy_desc:0 "我们的经济建立在种植园提供的收入之上"
+  FLO_Blue_Mountain_Coffee:0 "蓝山咖啡"
+  FLO_Blue_Mountain_Coffee_desc:0 "它其实不是咖啡，但听起来很酷"
+  FLO_Sugar_Revolution:0 "糖革命"
+  FLO_Sugar_Revolution_desc:0 "糖是未来，几乎可以肯定将会有战争是为了这种利润丰厚的产品而战"
+  FLO_American_Trade_Hub:0 "美洲贸易中心"
+  FLO_American_Trade_Hub_desc:0 "我们的位置允许我们参与横跨这片广阔大陆的相互连接的贸易"
+  FLO_Miskoto_Zambos:0 "米斯科托·赞博斯"
+  FLO_Miskoto_Zambos_desc:0 "米斯科托·赞博斯是一位当地企业家，帮助建设了这个国家"
+  FLO_Interconnected_Relations:0 "相互连接的关系"
+  FLO_Interconnected_Relations_desc:0 "在我们国家内的沟通和良好关系对于保持经济增长至关重要"
+  FLO_Colonial_Legacy:0 "殖民遗产"
+  FLO_Colonial_Legacy_desc:0 "虽然我们展望未来，但我们不能忘记我们的殖民遗产"
   
-  HAT_ideas:0 "wm0WtõV"
-  HAT_ideas_start:0 "wm0W.Oßu"
-  HAT_ideas_bonus:0 "wm0WÄ–ÃV"
-  HAT_Plantatio_Economy:0 "–klÏuNm"
-  HAT_Plantatio_Economy_desc:0 "bìN„vÏuNmú^Ëz(W–klPNÂ‰ININKNN"
-  HAT_Blue_Mountain:0 "›SN„v7uºN"
-  HAT_Blue_Mountain_desc:0 "ÖNìNô‹wm0W„v7uºNÔkvQÖNûNUO7uºNýôf:VîX0ôfëV0ôfjwf"
-  HAT_Suga_Revolution:0 "Ö|ªu‹V"
-  HAT_Suga_Revolution_desc:0 "bìN„vëXuQDdeQ'YÏ‘Ö|RÿOÖNìN(W+o•wÀoÈp„vb—e-NÝOcØš¦^ªu‹V"
-  HAT_Americn_Trade_Hub:0 " RÒRÔk8f-NÃV"
-  HAT_Americn_Trade_Hub_desc:0 " RÒRÔkwm=fŽ2m8f„v8f-NÃVÿbìNÅV‰˜ªR›R)R(ubìN„vMOnO¿R"
-  HAT_Miskoto_Zambo:0 "›SS¾|^y"
-  HAT_Miskoto_Zambo_desc:0 "`Ow„vÅV‰˜¿‹î•wm0WÿMbýwSOŒš0RÙÌ‘ºNl„v¾|^y"
-  HAT_Interconnected_Relations:0 "›SSY²N"
-  HAT_Interconnected_Relations_desc:0 "rÔkQRôf:V'Y"
-  HAT_Colonial:0 "	gðXg„v>yO"
-  HAT_Colonial_desc:0 "bìN„v>yOú^Ëz(W›äRåTjOKNNÿFOgÍ‘‰„v=fêjŒa"
+  HAT_ideas:0 "海地理念"
+  HAT_ideas_start:0 "海地传统"
+  HAT_ideas_bonus:0 "海地雄心"
+  HAT_Plantatio_Economy:0 "殖民经济"
+  HAT_Plantatio_Economy_desc:0 "我们的经济建立在殖民乐观主义之上"
+  HAT_Blue_Mountain:0 "岛上的男人"
+  HAT_Blue_Mountain_desc:0 "他们说海地的男人比其他任何男人都更强壮、更快、更聪明"
+  HAT_Suga_Revolution:0 "糖纪律"
+  HAT_Suga_Revolution_desc:0 "我们的士兵摄入大量糖分，使他们在漫长而激烈的战斗中保持高度纪律"
+  HAT_Americn_Trade_Hub:0 "加勒比贸易中心"
+  HAT_Americn_Trade_Hub_desc:0 "加勒比海是美洲贸易的贸易中心，我们必须努力利用我们的位置优势"
+  HAT_Miskoto_Zambo:0 "岛屿精神"
+  HAT_Miskoto_Zambo_desc:0 "你真的必须访问海地，才能体验到这里人民的精神"
+  HAT_Interconnected_Relations:0 "岛屿外交"
+  HAT_Interconnected_Relations_desc:0 "笔比剑更强大"
+  HAT_Colonial:0 "有声望的社会"
+  HAT_Colonial_desc:0 "我们的社会建立在辛勤工作之上，但最重要的是自豪感"
   
-  CAL_ideas:0 " R)Ry<SšNtõV"
-  CAL_ideas_start:0 " R)Ry<SšN.Oßu"
-  CAL_ideas_bonus:0 " R)Ry<SšNÄ–ÃV"
-  CAL_endurance:0 "‰wm¸SuIm"
-  CAL_endurance_desc:0 "uImïSýwˆVp‚¾–ÿFObìNÅV‰˜fROÍV×Sv^çuíuMRÛÿåNú^¾‹ýV¶Rv^N­eib'Y"
-  CAL_hard_push_east:0 "TN¨cÛ"
-  CAL_hard_push_east_desc:0 "ŽýV¹†uË–ÿW0WbŸq…VÖS0bìNÅV‰˜TN¨cÛÿ:NbìNåeÊvžX•„vºNãSŒúQzzô•"
-  CAL_secretary_icebox:0 "ê1uuIm„v¾|^y"
-  CAL_secretary_icebox_desc:0 "Vg=fbìNuIm¹eV„vNèRÿck‚YN›NºNNbô‹ÿÙ=fbìN„v¾|^y„vNèR"
-  CAL_bear_hunting:0 "Šqérs"
-  CAL_bear_hunting_desc:0 "å‹0W:SEQán†NŠqÿÙïSýwwwegˆVqSi–ÿFOƒR=f‰w„vgsOegnÿùRbìN„vuXRósQÍ‘‰"
-  CAL_diversity:0 " R)Ry<SšNY7h'`"
-  CAL_diversity_desc:0 "bìN„v>yO	gegêNLuT0W„vûylÿY7h'`ObìNýwYSOŒšegêhQtT0W„v‡eS0`N×O0—RYeåNÊS`ó`"
-  CAL_navy:0 "*Ys^mwm›Q"
-  CAL_navy_desc:0 "bìNÅV‰˜ªR›Råb	g*Ys^mNg:V'Y0gRO„v0‚–"
-  CAL_beauty:0 "‰èKNŽ"
-  CAL_beauty_desc:0 "ÎNSè„vROqS	0RWSè„v…áQwménÿ`OÅV‰˜¿‹î• R)Ry<SšNÿMbýwaÆ‹0RvQŽKN"
+  CAL_ideas:0 "加利福尼亚理念"
+  CAL_ideas_start:0 "加利福尼亚传统"
+  CAL_ideas_bonus:0 "加利福尼亚雄心"
+  CAL_endurance:0 "西海岸生活"
+  CAL_endurance_desc:0 "生活可能很艰难，但我们必须学会忍受并继续前进，以建设国家并不断扩大"
+  CAL_hard_push_east:0 "向东推进"
+  CAL_hard_push_east_desc:0 "美国边疆辽阔，土地成熟待取。我们必须向东推进，为我们日益增长的人口腾出空间"
+  CAL_secretary_icebox:0 "自由生活的精神"
+  CAL_secretary_icebox_desc:0 "征服是我们生活方式的一部分，正如一些人所说，这是我们的精神的一部分"
+  CAL_bear_hunting:0 "熊狩猎"
+  CAL_bear_hunting_desc:0 "该地区充满了熊，这可能看起来很危险，但它是肉的极佳来源，对我们的生存至关重要"
+  CAL_diversity:0 "加利福尼亚多样性"
+  CAL_diversity_desc:0 "我们的社会有来自世界各地的移民，多样性使我们能够体验来自全球各地的文化、习俗、宗教以及思想"
+  CAL_navy:0 "太平洋海军"
+  CAL_navy_desc:0 "我们必须努力拥有太平洋上最强大、最宏伟的舰队"
+  CAL_beauty:0 "西部之美"
+  CAL_beauty_desc:0 "从北部的宏伟山脉到南部的超凡海滩，你必须访问加利福尼亚，才能意识到其美丽"

@@ -1,0 +1,101 @@
+﻿l_english:
+# Chalky:
+    # Dravidessa:
+     # Country:
+    DRV:0 "·VÉbôu·V(„"
+    DRV_ADJ:0 "·VÉbôu·V"
+    DRV_ADJ2:0 "·VÉbôu·V"
+    dravidessa_nation_title:0 "@DRV ßuN·VÉbôu·V(„"
+    dravidessa_nation_desc:0 "S·VÉbôu·VºNlßuN(WN*NýV¶RKNN0"
+    DRV_ideas:0 "·VÉbôu·VtõV"
+    DRV_ideas_start:0 "·VÉbôu·V.Oßu"
+    DRV_ideas_bonus:0 "·VÉbôu·VÄ–ÃV"
+    drv_hindu_state:0 "N*N¾idýV¶R"
+    drv_hindu_state_desc:0 "±›N«ˆFz¯e—g:k—š„vºNÅV‰˜ÞVRVckINKNï0"
+    drv_indian_industriousness:0 "pS¦^äRÉR"
+    drv_indian_industriousness_desc:0 "bìNSÎNñ‚ýVºN‚Ydk4ng„vÇuir-N·ƒ—VèT'Y)R¦m0"
+    drv_ahoms_legacy:0 "?–jŒÆY„vWµN"
+    drv_ahoms_legacy_desc:0 "bìNO'Y„vS›QìN„vEe‹NÿNæeiRPRìN•'Y0RýwY²‹úQÖNìN„vÕ–ÏPÿ1SOYeÙuÖNìN0"
+    drv_labana:0 "ÉbôT³uFU9‚–"
+    drv_labana_desc:0 "ôTôT·lšKQIl·™l?–·ÉbôT³uTbìNUS:y†N(WwmN8f-N	gYS0ÌR=föePbìNRNog¹†N0"
+    drv_settle_in_indonesia:0 "(WpS¦^<S‰šNšRES"
+    drv_settle_in_indonesia_desc:0 "™™™e›SÌR	gÿNNÜ0¯wšR	gN›NºN?aa»S..."
+    drv_learn_from_the_sikh:0 "T!•KQºNfR`N"
+    drv_learn_from_the_sikh_desc:0 "‹†6qN=fNb	gºNýuªV!•KQYe„vYeüRÿFOÖNìNNbô‹„vN›NN‰<ONNøvSV	g(u0"
+    drv_green_water_gallivats:0 "ÿu4l R)Rætyr"
+    drv_green_water_gallivats_desc:0 "bìNOewc„v R)Rætyr(W¿lwm4lßWhˆ°súQr‚ÿïSåNÕuÇñ‚ýVbR0‚0"
+    # Missions:
+    csh_drv_recover_from_war_title:0 "ÎNb‰N-Nb`Y"
+    csh_drv_recover_from_war_desc:0 "ÎNb‰N-Nb`Y"
+    csh_drv_indian_cloth_exports_title:0 "pS¦^^™eúQãS"
+    csh_drv_indian_cloth_exports_desc:0 "pS¦^^™eúQãS"
+    csh_drv_indian_cloth_exports_tt:0 "§YfW&qS§!0W:S(WuµN§Y^™e§!ÿ§YÉh±‚§!ÿ§YNøu§!„vwýN·ƒ—V'§YNWGYnfpQ±uKNÇu§!'ÿôv0R8nbÓumgÿÙuˆNåNNHeœgÿ\n,g0WFUÁTuµNîOckÿ§G+10.0%§!\n§YlšjgV§!0W:S(WuµN§Y^™e§!ÿ§YÉh±‚§!ÿ§YNøu§!„vwýN·ƒ—V'§YNWGYnfpQ±uKNÇu§!'ÿôv0R8nbÓumgÿÙuˆNåNNHeœgÿ\n,g0WFUÁTuµNîOckÿ§G+10.0%§!\n§YWSaS³uÐcKQ§!0W:S(WuµN§Y^™e§!ÿ§YÉh±‚§!ÿ§YNøu§!„vwýN·ƒ—V'§YNWGYnfpQ±uKNÇu§!'ÿôv0R8nbÓumgÿÙuˆNåNNHeœgÿ\n,g0WFUÁTuµNîOckÿ§G+10.0%§!\n§YTRäS§!0W:S(WuµN§Y^™e§!ÿ§YÉh±‚§!ÿ§YNøu§!„vwýN·ƒ—V'§YNWGYnfpQ±uKNÇu§!'ÿôv0R8nbÓumgÿÙuˆNåNNHeœgÿ\n,g0WFUÁTuµNîOckÿ§G+10.0%§!"
+    csh_drv_culture_title:0 "ßuN‡eS"
+    csh_drv_culture_desc:0 "ßuN‡eS"
+    csh_drv_prosperous_india_title:0 "Aucƒ„vpS¦^"
+    csh_drv_prosperous_india_desc:0 "Aucƒ„vpS¦^"
+    csh_drv_upstream_expansion_title:0 "N8nib.V"
+    csh_drv_upstream_expansion_desc:0 "N8nib.V"
+    csh_drv_american_gold_title:0 "°epS¦^ÄžÑ‘"
+    csh_drv_american_gold_desc:0 "°epS¦^ÄžÑ‘"
+    csh_drv_southern_trade_title:0 "WS¹e8f"
+    csh_drv_southern_trade_desc:0 "WS¹e8f"
+    csh_drv_bengal_trade_title:0 "mR RÉb8f"
+    csh_drv_bengal_trade_desc:0 "mR RÉb8f"
+    csh_drv_spice_trade_title:0 "àe÷N„v™™™e"
+    csh_drv_spice_trade_desc:0 "àe÷N„v™™™e"
+    csh_drv_australia_title:0 "ÿfãNpS¦^"
+    csh_drv_australia_desc:0 "ÿfãNpS¦^"
+    csh_drv_downstream_expansion_title:0 "N8nib.V"
+    csh_drv_downstream_expansion_desc:0 "N8nib.V"
+    # Modifiers
+    csh_kanchipuram_saris_weaving:0 "NWGYnfpQ±uKNÇu"
+    csh_drv_accepted_cultures:0 "¥c×S„v‡eS"
+    csh_drv_india_prospers:0 "pS¦^Aucƒ"
+    csh_drv_coromandel_trade:0 "ÑyWüf·VS8f"
+    csh_drv_bengal_trade_modifier:0 "mR RÉb8f"
+    csh_drv_influx_from_india:0 "egêpS¦^„vŒmeQ"
+    csh_drv_increased_european_trade:0 "žX R„v'k2m8f"
+    csh_drv_pacific_triange_trade:0 "*Ys^m	NÒ‰8f"
+     
+     
+     #csh_drv_indian_cloth_exports_tt:0 "§YTanjore1§! area gets '§YKanchipuram Saris Weaving§!' on provinces producing §YCloth§!, §YCotton§!, §YSilk§! until the end of the game, giving the following effects:\Local Goods Produced Modifier: §G+10.0%§!\n§YMadura§! area gets '§YKanchipuram Saris Weaving§!' on provinces producing §YCloth§!, §YCotton§!, §YSilk§! until the end of the game, giving the following effects:\Local Goods Produced Modifier: §G+10.0%§!\n§YSouth Carnatic§! area gets '§YKanchipuram Saris Weaving§!' on provinces producing §YCloth§!, §YCotton§!, §YSilk§! until the end of the game, giving the following effects:\Local Goods Produced Modifier: §G+10.0%§!\n§YKongu§! area gets '§YKanchipuram Saris Weaving§!' on provinces producing §YCloth§!, §YCotton§!, §YSilk§! until the end of the game, giving the following effects:\Local Goods Produced Modifier: §G+10.0%§!"
+     
+ # Hunterrio:
+    # Maharlika:
+     # Decision:
+     mhl_nation_title:0 "@MHL ßuNòƒ‹V¾R"
+     mhl_nation_desc:0 "Sòƒ‹V¾R²›S„vOY‹sPRßuNb:V'Y„výV¶RlšÈTÌ‘aS0"
+     # Events:
+     hunterrio_events.1.t:0 "‹TTbìN„výV¶R"
+     hunterrio_events.1.d:0 "bìNESOO„v›SS(W†SòSN	g¸‹YTWRÿbìNÅV‰˜	ébbìN^gbìN„výV¶R«ˆðy:NÀNHN0"
+     hunterrio_events.1.a:0 "lšÈTÌ‘aSÿck‚YbìN„vºNlðy|TbìN0"
+     hunterrio_events.1.a.tt:0 "ýV¶RTðySÝOc:N §YlšÈTÌ‘aS§!0"
+     hunterrio_events.1.b:0 "Èÿck‚Y-NýV¢ci–¶Rðy|TbìN0"
+     hunterrio_events.1.c:0 "òƒ‹V¾Rÿck‚Y‰ísYrºNðy|TbìN0"
+     # Country:
+     MHL:0 "lšÈTÌ‘aS"
+     MHL_ADJ:0 "lšÈTÌ‘aS"
+     MAI_MAHARLIKA:0 "È"
+     MAI_MAHARLIKA_ADJ:0 "È"
+     MHL_ideas:0 "lšÈTÌ‘aStõV"
+     MHL_ideas_start:0 "lšÈTÌ‘aS.Oßu"
+     MHL_ideas_bonus:0 "lšÈTÌ‘aSÄ–ÃV"
+     mhl_chola_empire:0 "1gW^ýV„vWµN"
+     mhl_chola_empire_desc:0 "O'Y„v1gW^ýV„vWùXR(WŽNÙ›N›SSNÿ=fòƒ‹V¾RºN„v„š²PŒTðXg„vÍ‘‰egn0"
+     mhl_philippine_monopoly:0 "òƒ‹V¾R„W­e"
+     mhl_philippine_monopoly_desc:0 "bìNÅV‰˜ªR›RnxËzùRòƒ‹V¾R²›S8f„v„W­eÿv^2–bkYýV¿R›Rÿyr+R=f'k2mŒT-NýV¿R›RÂSNeRJRbìN„v8f0"
+     mhl_defend_the_faith:0 "MckSáOðN"
+     mhl_defend_the_faith_desc:0 "bìN„v‹TÐ=fÝO²bbìN„váOðNN×SVïzŒTVYe’V„vµO¯rÿnxÝOýV¶RŒTºNl„v¯um'`0"
+     mhl_maritime_tradition:0 "wmN.Oßu"
+     mhl_maritime_tradition_desc:0 "bìN„vºNl	gNwO'Y„vwmN8fŒTnN†SòSÿuóbìNO'Y„vVyHQ¢c0t†NpS¦^<S‰šNŒT*Ys^m„v›SS"
+     mhl_malayan_ambition:0 "lšegÄ–ÃV"
+     mhl_malayan_ambition_desc:0 "bìN„vIN‰îvh”^å‹=fßuNO'YwRÂˆ„vpS¦^<S‰šNŒTlšegJS›S›SSÿv^=fbìN„vÄ–ÃV=fú^ËzO'Y„výV¶RlšegšNÿnxÝONb	glšegºNl„vAucƒ0"
+     mhl_mortars_of_revolution:0 "i—‹T„vëûQ®p"
+     mhl_mortars_of_revolution_desc:0 "©‹®pkp—¼d'Y0Wÿ©‹9VGrQ!k•dÂˆ`OÿbìNSÇ:V'Y„vfkhVŒTùRO'Y„vòƒ‹V¾RýV¶Rê1u„v4ngegb—VbìN„vê1u0"
+     PHILIPPINES_MAHARLIKA:0 "òƒ‹V¾R"
+     PHILIPPINES_MAHARLIKA_ADJ:0 "òƒ‹V¾R"
+     mhl_rename_mai_title:0 "@MHL Ç‘(u'lšegšN'jO:NbìN„vTWR"
+     mhl_rename_mai_desc:0 "1uŽNbìNùR-NýVºNl„vS¹R'`žX Rv^SÖNìN‡eQbìN„v>yOÿºNìN²‹:NbìN”^å‹Ç‘(uÈÙ*NTWRegãNhˆÙ›N²SO„v)RÊvÿv^Ç‘ÖSƒS„vÛllšegÆ‰Ò‰0"
+     mhl_rename_filipino_title:0 "@MHL Ç‘(u'òƒ‹V¾R'jO:NbìN„vTWR"
+     mhl_rename_filipino_desc:0 "1uŽNbìNùR‰ísYrºN„vS¹R'`žX Rv^SÖNìN‡eQbìN„v>yOÿºNìN²‹:NbìN”^å‹Ç‘(uòƒ‹V¾RÙ*NTWRegãNhˆÙ›N²SO„v)RÊvÿv^Ç‘ÖSƒS„vÛllšegÆ‰Ò‰0"

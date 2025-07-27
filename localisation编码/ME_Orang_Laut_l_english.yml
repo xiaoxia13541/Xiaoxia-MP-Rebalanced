@@ -1,0 +1,27 @@
+﻿l_english:
+ Orang_Laut_paid: "=eØNÙuOrang Laut"
+ Orang_Laut_competition: "Orang LautÞz‰N"
+ Orang_Laut_penalties: "Orang Laut«ˆYýV¿R›R6epN"
+ 
+ Orang_Laut_tooltip: " §Y[This.GetName]§! ïSåNÇ=eØNÖNìNegI–bkÙ*NîOck0"
+ 
+ ME_Orang_Laut_Events.2.t: "NWW„Óußv&^eg‹YY"
+ ME_Orang_Laut_Events.2.d: "bìNNå‹0W:Swmm8ngrlÏe„vÓußvÁ‹f=f^—8^	gÊv„v0YýV8f9‚êSck'YÄ‰!j0W«ˆVüR0RbìN„v=nãS0"
+ ME_Orang_Laut_Events.2.a: "*Y‹Y†Nÿ"
+ 
+ ME_Orang_Laut_Events.3.t: "Orang Laut(W [Root.GovernmentName] "
+ ME_Orang_Laut_Events.3.d: "bìN¹ƒXD–Ñ„vØšŽbýwwmmlÏeck(W ReQbìN„vwmN›RÏ‘0	g†NÖNìN„v.^©RÿbìNS:NRY—„vwmßW&^egéy^0"
+ ME_Orang_Laut_Events.3.a: "*YÒh†Nÿ"
+ 
+ ME_Orang_Laut_Events.4.t: "¸‹YýV¶Rÿ¸‹YTwßv"
+ ME_Orang_Laut_Events.4.d: "t’ŽNå‹0W:S	g¸‹YýV¶RÿN³:NGY„v=fÿNbkN*NýV¶R³QšRNWW„Óußv0ÙÍy¯sƒXËnu†NÞz‰NŒTOÔgáR­eÿÎN•ÜegwÿÙùRbìN„v8fN)R0"
+ ME_Orang_Laut_Events.4.a: "ØN±”©‹ÖNìN>eVÖNìN„vTwßvÿ"
+ ME_Orang_Laut_Events.4.b: "bìNÅbNwr^‰mvQ-N0"
+ 
+ ME_Orang_Laut_Events.5.t: " [From.GetName] ØN±”ÙuWW„†Nÿ"
+ ME_Orang_Laut_Events.5.d: "QS‘„v [From.GetAdjective] ck(W?BbìNÓußv„vwmm8ngrlÏeÿåN¿OS9‚êSVüR0RÖNìN„v=nãSÿwN=fbìN„vÿ"
+ ME_Orang_Laut_Events.5.a: "?BÅV‰˜åN?BÞV”^ÿ"
+ ME_Orang_Laut_Events.5.b: "bìNO©‹ÖNìNØNúQãN÷N„v...ÿ"
+ ME_Orang_Laut_Events.5.c: "bøváOO	gžRÕl„v..."
+ 
+ Orang_Laut_events: "SVËYæ‰ÑSôfYsQŽNOrang Laut„v §Y‹NöN§ÿ "

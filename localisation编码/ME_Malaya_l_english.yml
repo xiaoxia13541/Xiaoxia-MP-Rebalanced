@@ -1,0 +1,956 @@
+﻿l_english:
+ MSA_alam_melayu_title: "?–ÉbÆYlšeg"
+ MSA_alam_melayu_desc: "lšeg=fN*NgvQ0NÌRY7h„v0W:SÿåNvQ™™™e0™™ŒTÄžÑ‘wû•TŽNN0KS¡r‚YdkÍ‘‰ÿÙ*N²›Suó(W»ž±UôTGk^ýVöegmNÎN*gŒRhQßuNÇ0SV6qÿöeãN(WØSÿlšegºNmN(WØS0=föePSÙ*Nê•w„v0W:S³ueQbìN„vHrþV†N0"
+ MSA_populate_the_islands_title: "i`P›SS"
+ MSA_populate_the_islands_desc: "êÎNO¯epQYegR.OeQlšegåNegÿ(Wú^.nwúR¹eb—ZP—VˆVS0=föePùW‰QùRN^„váOðNv^ú^Ëz°e„v<yÜb:WNb†N0"
+ MSA_mosque_of_demak_title: "·VlšKQnwúR"
+ MSA_mosque_of_demak_desc: "·VlšKQ„v'YnwúRàe‘u=fÙ*NNLuNÛVRKNN0W:Sg^y1W„vnwúR0ƒR„vROîXKN©‹ºNô‹ÿ»S·VlšKQN!kg1WøvSVŽN»S¦ž Rg1WN!k0bìN”^SVibú^nwúRÿOvQôf RROÿ"
+ MSA_porch_of_mecca_title: "¦ž R„vè•Ê^"
+ MSA_porch_of_mecca_desc: "egêlšeg„váO’V(WVËYgÐ‰KNÅeMRÏu8^(WÏ‚è•TrJ›S„vSïzjPYu0¸‹YµU±VýÑSu(W›SSSïz„vN*N8f=nãS…Q0ís¾šNPŸÿÙ*N=nãSÎW^ÿ«ˆ5fðy:N'¦ž R„vè•Ê^'ÿùRŽNÙ*NÎW^egô‹ÿÙ=fN*N^—8^ÆQnx„v5fðy0"
+ MSA_safeguard_pilgrim_envoys_title: "ÝO²bg1WOw"
+ MSA_safeguard_pilgrim_envoys_desc: "Ïk*NFz¯e—g„v^y1WLw1KNN1S=f»S¦ž Rg1W0N³:NGY„v=fÿ–NwbìN„v>yOØS—Vôf RT†Ú‹ÿŠegŠY„vºN³QšR»SgÐ‰06qwÿîvMRŽV¦ž R„vï¿uNwm×v*jLˆÿOþVÒR0tg1Ww0ÅV‰˜Ç‘ÖSN›NªcËe0"
+ MSA_study_the_manuscripts_title: "xvzKb?z"
+ MSA_study_the_manuscripts_desc: "êS	gÔNÆu–û‹Kb?zÿbìN„v^yLwºNXTMbýwôf‹Y0W†Nã‰Ïu‡e0ºNãS—‰^y1W„vcVÿàVdkbìN—‰•bDŽN:NNb	gºNÐc›OfNM|ÿuó=f[Root.Monarch.GetHerHim]êñT0"
+ MSA_spread_the_jawi_script_title: ".O­d*r7Y‡e"
+ MSA_spread_the_jawi_script_desc: "*r7Y=fNÍywnŽNlšeg„vfN™Qû|ßuÿ×S0Rµh‡eŒT?–Éb=O‡e„vg'Y=TÑS0Ùhˆf†NbìN„vlØSÿbìNÅV‰˜.^©RS*r7Y‡e.O­d0Rte*NªR™l‰v RÉb0"
+ MSA_jawi_in_administration_title: "Lˆ?e-N„v*r7Y‡e"
+ MSA_jawi_in_administration_desc: "bìNSÇÇ‘(u*r7Y‡eegbÅbåeÊvžX•„vLˆ?eÅb0=föePRdVçe„vÿåb±b°e„vfN™Qû|ßu†Nÿ"
+ MSA_pereulak_title: "gäSw„vO¯epQWNW"
+ MSA_pereulak_desc: "PeureulakÏ‚9NýV«ˆ²‹:N=flšeggäSw„vÏ‚9NýV„vRËz0W0àVdkÿƒR×S0RbìN†SòSfR¶R„vØš¦^Sle0bìN”^å‹ÙuÙ*NWNWN*N°e„vaINŒTN*N°e„vîv„vÿN*N‰Lq„vîv„vÿ"
+ MSA_commons_title: "lØSs^l"
+ MSA_commons_desc: "KS¡rO¯epQYeòTÏuXR(W†NàQ*NNªuÿFOùR¸‹YºNegô‹ÿyr+R=f(WbìNôv¥c»ltƒôVKNY„v0W¹eÿO¯epQYeÍN6qaÉ‰øvùR°e–˜0=föePlØSuóôfOPÜ0W:S„výV¶RŒT¸‹YS*g=T™„„v«ˆVglÏe†N0"
+ MSA_overseas_title: "wmYlØS"
+ MSA_overseas_desc: "1SÏPbìN«ˆYýVFUºN.O­dáOðNN7hÿbìNmN”^å‹SbìN„v—RYe.O­d0RbìN¹LuKNY„v0W¹eÿàeº‹=fÇ8fØ=fÇ—RYeb‰NÿNWSšNSb:NO¯epQ„vopTXÿ"
+ MSA_grand_mosques_title: "RO„vnwúR"
+ MSA_grand_mosques_desc: "¸‹YºNbeô‹bìN„váOðNêS=fTINN„v0=föePTÖNìNUS:ybìN„v‡ef	gýw›R^ŽIN†Nÿ©‹pS¦^<S‰šNM^RO„vnwúR'Tÿ"
+ MSA_saint_title: "æt)RQh R"
+ MSA_saint_desc: "æt)RQh R=f*rÇT„vO¯epQYe'Y×S^lb„v1W’V0ÖNìN(Wå‹0W:S.O­dO¯epQYe„vjO(uNïSNO0OÿbìNS8lÜ^ŽÖNìNÿ"
+ MSA_spreading_title: ".O­dO¯epQYe"
+ MSA_spreading_desc: "‚YœgbìNó`SêñTÏcØubO¯epQ„vopTXÿbìNw„v—‰VËYTYúQãSbìN„v—RYeÿàeº‹=fÇY²N08fØ=f—RYeb‰NÿbìNSOIYhQýw„vN^ÿ"
+ MSA_diplomacy_title: "wmYY²N"
+ MSA_diplomacy_desc: "(WbìNîvMR„vMOnÿbìNNFz¯e—gNLu„vvQÖNèR^—8^”–Ýu0N*NO¯epQ„vopTXNýwNÖNìN„vTLˆ”–Ýu0¡l	gÖNìN„v.^©RÿbìNÊN)Y1SNOYŽN°s(W„vMOn0"
+ MSA_hub_of_islam_title: "O¯epQ„v-NÃV"
+ MSA_hub_of_islam_desc: "bìN”^å‹ÏPÑž—f-N„v!‡ÛpN7hÿgq®NhTôV„vÏkN*NºNŒTÏkNöN‹N0±›N(WÑž—f-N÷ï„vºNûRBl„vN‰0"
+ MSA_scholars_title: "¨c^fRw"
+ MSA_scholars_desc: "nxžRÿbìNNFz¯e—gNLu„vvQÖNèRøvSV”–Ýu06qwÿbìNïSåNÇŽ÷‹ýVYgjwf„v4YÛeQbìN„vSNLuegÏQ‰ÙÍyqVÍT0"
+ MSA_islamic_center_title: "O¯epQ-NÃV"
+ MSA_islamic_center_desc: "bìNSb:NOYfRw-N„vŽt¨tfàsÿÖNìNeg0RÙÌ‘b—VTðX0"
+ MSA_capitalize_title: ")R(ubìN„v'ir"
+ MSA_capitalize_desc: "bìN„v›SS=f¸‹YNLuNg×S0kÎjOir„v¶RíV0ùRÙ›NjOiruµN„v„W­eÙubìN&^eg†NèT'Y„vCg›RŒTqVÍT›RÿbìN”^å‹)R(uÙ›Neg·ƒ—VèT˜0ÌR0"
+ MSA_masters_title: "™™™e'Y^"
+ MSA_masters_desc: "–™HQÿbìNSib'YÍyiNb—™™™e„vTÍyÍyiíV0	g†NøvSVpeÏ‘„vjOirÿbìNSýwYÎN‹N•8fÿ`S†˜¸‹Y^:WÿTöeÐc›O„W­e'`„v÷N<h0"
+ MSA_spice_flows_title: "™™™eAm¨R"
+ MSA_spice_flows_desc: "jO:N†˜HQ„vuµNwÿ°s(W=föePnxÝObìN(WNb	gsQŽN™™™e„v‹NÅ`N	ggÈuÑSŠCg†N0ÙasTNwÿÎN,g(Nô‹ÿbìN—‰ûQ%ùRKbÿÝuùRINüR^:W0"
+ MSA_wood_title: "íp&^(gPg"
+ MSA_wood_desc: "d–†NÇwmáS„v™™™eŒTNb	g-Nô•µNÁTYÿbìN²›S„væSN*NÍ‘‰FUÁT=f0NÌR„vîh—g0(gPgùRvQÖNºNegô‹ˆVGYyrÿbìNýwYÎN-NÐcÖSwck„v0ÌR0(uŽN¶RwQ0™™ŒT.9‚ÿƒRìN=fg‹Y„v0"
+ MSA_cornerstone_title: "ýV¶RúWów"
+ MSA_cornerstone_desc: "bìNbŸR„vúWNx=fúWŽNbŸR„v8fsQû|0¡l	gƒRìNÿbìNSo1Vàe›RÿàeÕl…Šs^¸^0bìN.k8fˆVYÿbìN”^å‹)R(ubìN·ƒ—V„vN•0"
+ MSA_great_trading_cities_title: "O'Y„v8fÎW^"
+ MSA_great_trading_cities_desc: "'YèR8f=f(WSpesQ.•„vbeuÎW^ÛLˆ„v0Õ‹þV(WhQýVƒôV…QŸ±R8f=fjm9D,gÿwˆ”ùRàQ*NsQ.•¹pSObìNýwYµc6RÝu'YYpe„v8f0"
+ MSA_controlling_the_strait_title: "µc6RwmáS"
+ MSA_controlling_the_strait_desc: "ÎNNWSšN8f-N·ƒ—VèT˜)R¦m„vsQ.•=fµc6RØš¦^beu'`„vlšmQ2uwmáS0¡l	gƒRìNÿÑ‘±”1SOÏPÎN4x¡r-NoúQ„v4lN7hAm1Y0"
+ MSA_wealth_of_the_strait_title: "wmáS„v0ÌR"
+ MSA_wealth_of_the_strait_desc: "wmáS°s(WŒRhQ(WbìN„vµc6RKNN0=föePSNb	g„v0ÌRýVeQvQ-Nÿv^SFUÁT.O­d0RòTåwNLu„vÏkN*NÒ‰K„0Ïk*NºNýSÁTS0R™™™eÿSV6qÿMRÐc=fÖNìN?aaØN±”ÙubìN0"
+ MSA_foreign_powers_title: "8fOS®‹"
+ MSA_foreign_powers_desc: "jO:NN*N(WýVE–‚ðSNåeÊvžX•„vÒ‰r‚ÿbìN—‰VËYéTúVNvQÖNýV¶R„vsQû|0°s(W=fûRBl°e„v8fOS®‹°e:gO„vöeP†Nÿ:NÌS¹e&^egqQT)RÊv0"
+ MSA_malay_community_title: "^NlšegºN"
+ MSA_malay_community_desc: "µc6R8fNÅNÅN=fT…QÿmN=fTY0bìN”^å‹•bDŽN^N„vlšeg>y:Sÿv^N-NýV„vå‹wú^ËzAucƒ„vsQû|0"
+ MSA_great_merchant_fleet_title: "O'Y„vFU9‚–"
+ MSA_great_merchant_fleet_desc: "‚YœgbìN¡l	g9‚êSegYt™™™e„v—BlÿbìNS‚YUOYtNb	gùR™™™e„v—BlÿbìN„v‰9‚wm›QS'Y'YibUSÿ¾0RMRNb*g	g„vpeÏ‘ÿåNán³åeÊvžX•^:W„v—Bl0"
+ MSA_expedition_into_canton_title: "^NÜV"
+ MSA_expedition_into_canton_desc: "ÏPÑŒTþfÏuZPÇ„v±7hÿbìNmNSèŠimp„vwmmÛLˆÜVÿUS:ybìN^ýV„v›RÏ‘0)Y‹TSåwSÖNìNb—ùR„v=fŒÿ"
+ MSA_tea_trade_title: "R«N6ƒ8f"
+ MSA_tea_trade_desc: "bìNÛVRKNNNLu-N„vÑ‘r‚n™ÁT<ONN(W°e„v‰¹e^:WŠegŠ×S0kÎ0bìNSObìN„vXR(WØS—VÍ‘‰ÿv^ÂSN6ƒ8fÿsSOÙasTNwr^‰mvQÖNýV¶R„vÏuNm0"
+ MSA_at_the_shores_of_india_title: "(WpS¦^wm¸S"
+ MSA_at_the_shores_of_india_desc: "(WpS¦^wm¸SÿbìN	ggÍs5„vTjOO4OÿTöemN=fÞz‰NùRKb0bìN,gW„vN›N™™™emN(W±Ì‘ÿÙO—VbìN„W­e™™™e8f„vOþV(WÖNìNùRbìNLeùR„vÅ`µQNØS—VNïSýw0bìN—‰¾bNy˜’N)R„vOS®‹ÿÙSAQ¸‹bìNÛNekTjO0"
+ MSA_trade_giant_title: "8fèTºN"
+ MSA_trade_giant_desc: "bìN(WýVE–‚ðSN`S	g×SºNSle„vMOn0bìN(WNWSšN8f-N„vqVÍT›R=fàeïSn‘u„vÿbìNjO:NNLu†˜HQ„v8fèTºN„v0WMOòTÏu—V0R†NéTúV0"
+ MSA_straits_of_malaya_title: "lšmQ2uwmáS"
+ MSA_straits_of_malaya_desc: ":NÀNHNwmáS8^«ˆðy:NlšmQ2uwmáSÿlšmQ2uêS=fÇ»S„vNSèR0àeº‹lšmQ2uÇ»S=fÀNHNÿ°s(WýòTÏuØSb†Nå‹0W:S„v°eÂSNwlšeg0"
+ MSA_masters_of_trade_title: "8f'Y^"
+ MSA_masters_of_trade_desc: "²NfKbµk=fbìNŒcác0R8hÃV„vŽbz‚0ƒRÙubìN&^eg†NèT'Y„v0ÌRŒTNïS>Š„vCg›R0Ù7h„v0ÌRÿåNóŽNÏk*NºNý¡UabìN„vqVÍT›R0"
+ MSA_onset_of_modern_trade_title: "°sãN8f„vVïz"
+ MSA_onset_of_modern_trade_desc: "8f„vb—ŒŒòTÏu9eØS0Ç»SÿýV¶RêSNgÑ„v»ýVÛLˆ8fÿz6qKNô•ÿàQNN(WNYKNô•ÿte*NNLuz6qÛeQ†NN*N°eöeãNÿ²NfKbµk(WhQtƒôV…QÛLˆ0"
+ MSA_minting_title: "ø”.°e^"
+ MSA_minting_desc: "ùRŽNN*NOV8f„výV¶Regô‹ÿbìN„v'^bVVøvSVîT0=föeP9ei—bìN„v.^‚SÿRú^N*NßuN„v²NfbVVÿ(Wte*N²›S-NhÆQSÿuó(WýVY`SncINüR0WMO0"
+ MSA_spread_the_mint_title: "ÄžÑ‘egn"
+ MSA_spread_the_mint_desc: "6qwÿ:N†N	gHe0WZP0RÙN¹pÿbìNnxžR—‰'YÏ‘„v5Ñ‘^SegnÿåN¿Oø”.lx^0²›S-N	gàQ*NÿwqSïSåNán³bìN„v—BlÿFO‚Yœg	gÀNHN„vÝ‹ÿ	g.OŠô‹WS¹e	gˆVYÄžÑ‘0"
+ MSA_protecting_existing_routes_title: "ÝO²b°s	gï¿u"
+ MSA_protecting_existing_routes_desc: "1uŽNßuNlšegNb—„vNb	g²Qzÿçe„v8fï¿uòTÏuw–eQ†NpˆK„gÿ×S0Rb‰N„v%NÍ‘2O³R0bìN—‰©‹²NfwÍ‘°ea×S0R‰RhQÿv^Q!k=ctQ›SSKNô•„v²NAm0"
+ MSA_fleet_to_topple_empires_title: "¨cû^ýV„v0‚–"
+ MSA_fleet_to_topple_empires_desc: "KS¡rbìN„vMOnwQ	g2–¡V'`ÿFObìNv^^—àeLe0™„äSºN(W13NªuRþf(W*rÇT‰vF–ÿw(WvQÖNöePÿ¸‹Ylšeg?eCgmNm0ReQµO0bìN—‰2–bkÙÍyÅ`µQQ!kÑSu0"
+ MSA_ports_title: "lšeg=nãS"
+ MSA_ports_desc: "(WÙ7hN*NåNwm›Q:NIN„výV¶RÿbìN—‰	g'YÏ‘„vjP`—¹pÿbìNïSåN(WÙÌ‘jP`—v^îOY×Smc„v9‚êS0OVçe„vŒTúW,g„vúWNx¾‹ËeïSýwO(WÐgN)YgdÁkbìN0"
+ MSA_land_title: "†˜WÎ‘ÃV"
+ MSA_land_desc: "wegbìNYŽNN*N‰RhQ„vMOnÿFObìNv^N=f0(WwmN‰RhQÿÙêS=föeô•î•˜˜ÿôv0RbìN„vLeºN”^ÖNìN„v0‚–ÿQ!k„gbZÁw0bìNNýwQ©‹ÖNìN„gbÎ˜i–†NÿàVdkbìNNýwjPbkžX•ÿôv0RbìN³Y:V'Y0"
+ MSA_navy_title: "èwmÄ–ÃV"
+ MSA_navy_desc: "‹†6qbìNòTÏuVg†N²›S„v8hÃVW0WÿFObìN—‰TYwÿVgôf'Y„vlšeg†˜W0ÙasTNwßuNRÂˆ„vòƒ‹V¾RèK„ÿnxÝONè›SSÿb¸‹ØïSåN’Qi–…Š..."
+ MSA_elephant_title: "©‹'YaŒHSg"
+ MSA_elephant_desc: "¹fWàe‘u=fbìNg'Y„vZÁwKNN0ÖNìNÄ–ÃVÃRÃRÿÖNìN„veQµOòTÏuñmeQ0RbìNSVãN„v¹Lu0g‹Y„v‹OPR=fÖNìN(W15Nªu„vbyVÿÙ›NbyV‚föeVg†N¸‹Ylšeg?eCg0=föePˆmd–ZÁw†N0"
+ MSA_champa_title: "TÞw`SÏe"
+ MSA_champa_desc: "`SÏe=fN*Nìryr„vlÏeÿNÖNìN„v»ESNTÿÖNìNNbìNôf¥cÑ0`SÏe„v*‚wmÏuŒšŒTbìN‘˜Au„v8f²NAm&^eg†NNÍyÔkvQÖN0W¹eôf¥cÑbìN„v‡eS0"
+ MSA_end_the_angkor_title: "4TåT„vpˆK„"
+ MSA_end_the_angkor_desc: "4TåT^ýVéeòTpˆK„0ÖNìNêS=fÖNìNMR«Ž„vYóXÿÖNìN„v‰LqêSXR(WŽN†SòS-N0bìNÅV‰˜¥c¡r4TåTŸzÿv^b`YÖNìN°s(WPLX„vªuõV‘x0"
+ MSA_indochina_title: "ÄžÑ‘KN0W"
+ MSA_indochina_desc: "pS¦^=e±8^«ˆðy:N'ÄžÑ‘KN0W'ÿasTNw'ÄžÑ‘KN0W'ÿKS¡rÖNìN„vÑ‘ÿwv^NÏPbìN„v±7hnfMÿFOƒRnxžR=fN*NÌRv™„vW0W0bìN—‰:YÖSÖNìN„vÄžÑ‘¨PYÿv^ R:VêñTjO:N8—IN„v0WMO0"
+ MSA_china_title: "ž±-NýV"
+ MSA_china_desc: "Œýwó`0RÿÅNÅNàQ*NNªuMRÿ-NýVßzbeùRbìN„gbZÁw0ÖNìN>múQ†NÖNìN„vÜV–ÿÖNìNr^‰mbìN„v…Q?eÿÖNìNUS:y†NÖNìN„v²Pba0=föePTÖNìN„výV¶RUS:yƒRN‡eN<P†N0"
+ MSA_philippines_title: "T‹R›S„v8f"
+ MSA_philippines_desc: "bìN(W²›S„v8—Cg=fàeïSn‘u„vÿFOÜ*géTúV0=föePSµb—b„výV¶R³ueQbìN„vHrþVÿéTúVúWów†N0"
+ MSA_taiwan_title: "–klðSŒn"
+ MSA_taiwan_desc: "ðSŒn=f-NýV¿lwm„vN*N'Y‹W›SSÿîvMRøvSVRƒÉQ01uŽN-NýV^ýV>f6qùRƒR¡l	gtQ±ÿ=föePbìNêñTùR›SSÇ‘ÖSLˆ¨R†Nÿ±1S=fVgb–kl0"
+ MSA_spice_islands_title: "™™™e»lt"
+ MSA_spice_islands_desc: "Nb	g„v™™™eý^SŽNbìN0bìN—‰ÄuÇuN:W›Q‹NLˆ¨RÿùR—bNègTàQ*NìrËzèK„„v!X’WÿÖNìNµc6RNwgT„v™™™e8f-NÃV0"
+ MSA_colonize_australia_title: "°eÆ‰Î‘"
+ MSA_colonize_australia_desc: "3zšRÏuNm„vsQ.•=fùRNbkN*Nèè•„vOV0îvMRbìNøvSVOV™™™eÿÙÙubìN&^eg†NˆVYAucƒ06qwÿ‚Yœg™™™e^:WïSýwO)TƒnÿbìN^g8lÜNOÑSuÿbìN—‰N*NúWŽNŒRhQYýV^:W„vYýNÏuNm0mN¸‹bìN”^å‹¢c0t(WNb—„vW0WN	gÀNHNïSåN²Nf„vÿ"
+ MSA_wealth_title: "èT'Y0ÌR"
+ MSA_wealth_desc: "ÄžÑ‘ÿ(W³o'Y)RšNÑS°s†NÄžÑ‘0°e„všRESwŒT:gOININwck‡åbó'YF–ûRŒbÄžÑ‘0bìN—‰)R(uW0W„vèT'Y0ÌRÿv^)R(uDneg.^©R¨c¨RbìNì„ÃRÑSUS„vÏuNm0"
+ MSA_import_spice_crops_title: "ÛãS™™™ejOir"
+ MSA_import_spice_crops_desc: "mN¸‹bìN”^å‹ RPwQ†bìNÇ»S„vwQ†0:NÀNHNNÛNek R:VbìN„v„W­eÿSbìN„v™™™ejOirÛãS0R°e„v'YF–WS¹eÿÙ¯wšRNO(WTb—µNuûNUOTœg0"
+ MSA_army_reforms_title: "›Q–9ei—"
+ MSA_army_reforms_desc: "äSw„vEe‹N²‹ð†NN›NO'Y„vºNirÿÖNìN„vÇRlŒTÇRbeàeÕlÔkßb0(WÙ›NO'YºNir„v¾|^yNÿbìN”^å‹9ei—bìN„v›Q–ÿOvQÞ‹uÏPÖNìNÙ7h„vºN0"
+ MSA_great_power_title: "'YýV"
+ MSA_great_power_desc: "=föeP©‹SVMR„vú^6R¥c×SN*N°e„výV¶RÛeQÖNìN„v:Wof†NÿàV:N[Root.GetName]SV6qïSåN«ˆðy:NN*NT„v8—IN0"
+ MSA_settle_the_islands_title: "šRES›SS"
+ MSA_settle_the_islands_desc: "KS¡rbìNùR²›S„vµc6RËYÈuXR(WÿFObìNS*gšRES¸‹Y›SS0Ù›N›SSïSýw–Ï…Nw…Vã‰„vØyÆRŒT…V·ƒ—V„v0ÌR0—‰Ç‘ÖSN›NªcËeÿbìNïSåNnxáOnxžROÇ‘ÖSN›NªcËe0"
+ MSA_splendor_of_malaya_title: "lšeg„v‰Lq"
+ MSA_splendor_of_malaya_desc: "KS¡rbìN„v›RÏ‘Tw=fªuõV'`„vÿFO<ONNÍN	gýV¶R²‹:NbìNNÇ=ff±‚N°s0©‹bìNTÖNìNUS:yÖNìN»ywøv	gYÜÿbìN„v‹sg=f‰YuNeg„v0bìNSú^.O'Y„vªuõV‘xÿƒRìNSÏu×Söeô•„vwŒš0"
+ MSA_impose_new_laws_title: "žRËe°eÕl‹V"
+ MSA_impose_new_laws_desc: "bìN„vfNb—Õl‹VÜ^—°sãN0‹NžRNÿuóïSýw<P—V`‘u=f&TðyƒRìN:NÕl‹V0bìN—‰ÛLˆhQb—„v?eœ^9ei—ŒT9ei—ÿ:NbìN„vLˆ?e&^egN*N°eöeãN0"
+ MSA_build_a_new_capital_title: "^ýV<P—V„v0W¹p"
+ MSA_build_a_new_capital_desc: "KS¡r[Root.Capital.GetName]òTÏuˆVROÿFOƒRØ¡l	g¾0R.OGY0WMO0bìNSNÈaªR›Rÿôv0R	gsQbìN–™ý„v.Oô‹ŒTEe‹N«ˆfN™Q0"
+ MSA_people_of_nusantara_title: "ªR™l‰v RÉb„vºNl"
+ MSA_people_of_nusantara_desc: "ªR™l‰v RÉb„v‡eS0NÌRNNâVÓu0(WSƒRìN-N„v¸‹YßuN(WN*NUSN„v‹s QNKNTÿmN¸‹°s(WbìNïSåNâVÓuwegÿŠbbìN„vîTV>e(WN¹ÿêS	gÙ7hÿbìNMbýwbVbN*NýwYùR—bYýV^ýV„v:V'YýV¶R0"
+ MSA_alliances_with_sea_nomads_title: "NwmN8ngrl„vTwßv"
+ MSA_alliances_with_sea_nomads_desc: "Ç»S¸‹Y?eCgòTÏuNå‹0W:S„vTÍy,gWwmN8ngrlÓußvÿ:NƒRìN&^eg†NùR8f„vˆV'YqVÍT0gVºNèlîv„v=f²R)RiOŒTlšmQ2u0bìN”^å‹ß–ÖNìN„vekÿ"
+ MSA_melayu_terenggung_title: "lšegyrè•!"
+ MSA_melayu_terenggung_desc: "yrè•!byrè•!=fçelšeg5Ïe-N„vN*N4YTˆÿˆcˆN1TIN„v‰RhQŒTÑvcwýV¶R›Q–„v5Ïe0N,g¾ÈTÉbN7hÿÙ*NIrµu(WlšegNLu„v¸‹Y0W¹eýXR(W0"
+ MSA_disciples_title: "nFZ„vVPR"
+ MSA_disciples_desc: "bìN„v[Root.Monarch.GetTitle]jO:NnFZ„v¸‹YVPRKNNÿnboNw[Root.Monarch.GetHerHis]„vÒ‰r‚0=f[Root.Monarch.GetHerHis]^y1W„vÃVÝOc†N‹sýV„v3zšRŒTAucƒÿck=f1uŽN[Root.Monarch.GetHerHim]ÿ^y„v2a`MbNOM–4NbìN0"
+ MSA_looking_for_enlightenment_title: "ûRŒb=T™„"
+ MSA_looking_for_enlightenment_desc: "ŒRŽ„vsQ.•=f¥Qó`ŒT‰l`0bìN„vTINÅV‰˜•beQN›Nöeô•egýBlSSŠ„vëVPN0"
+ MSA_dharmasraja_title: "^Ê‘)Y"
+ MSA_dharmasraja_desc: "^Ê‘)Y=fNWSšN-NNªuAmLˆ„v4YTˆÿa:N'^y‹s'0åb	gÙ*N4YTˆ„vßu»lw8^ªR›ROêñT„vßu»l^ySÿÎNw R:Vßu»lÿ1SÏP'k2mTINåNN^„vi`xQßu»lN7h0"
+ MSA_invite_brahmans_from_india_title: "Ž÷‹FZWè•"
+ MSA_invite_brahmans_from_india_desc: "ÎNpS¦^0R²›S„vFZWè•Áûy=få‹0W:SpS¦^S„vN*NÍ‘‰Çz0Ïk*Nó`‰b:NidÃ‹W–„v–™†˜ýÅV‰˜«ˆN*N1uFZWè•Äub„vg÷^SôVÿåNpS¦^Î˜<hÐc›O¡rtýV¶R„vú^®‹0"
+ MSA_secure_hindu_holy_sites_title: "ÝO²bpS¦^Ye1W0W"
+ MSA_secure_hindu_holy_sites_desc: "pS¦^îvMR=feQµO„vFz¯e—gÏ‚9NýVŒTiRYO„vpS¦^Ye‹sýVKNô•„vb:W0bìN—‰=ecbìN„váOðNDQVÿb`YpS¦^Ye’VùRbìN1W0W„vµc6R0"
+ MSA_saber_of_shiva_title: "nFZ„v	NÉSb"
+ MSA_saber_of_shiva_desc: "nFZÿ	Teywÿ8^«ˆÏcØu:NKbc	NÉSb„v^y0mN«ˆðy:NidÃ‹ÐcFZÿ'O'Y„vN'ÿÖN=fpS¦^Ye-NgÍ‘‰„v^yGyKNNÿmN=fnFZYegÍ‘‰„v^yGy0(WÖN„vcVNÿbìNS©‹LeºNa0RP`ç`ÿbìNSjO:NÖN„v	NÉSbg¡R0"
+ MSA_spread_the_sanskrit_title: "µh‡e‡efR"
+ MSA_spread_the_sanskrit_desc: "bìN„vg÷^‹†6qòTÏuípù•^—áQÿFOS*g¾0R.Oô‹-N„vpS¦^g÷^„v‰Lq0bìN—‰ib'YbìN„våwÆ‹RPR–Oÿv^çuíuRjOjOÁTÿåNú^ËzbìN„v‡eSWµN0"
+ MSA_repel_muslims_title: "ûQFz¯e—g"
+ MSA_repel_muslims_desc: "êÎN?–Éb=OFUºNeg0RNWSšNåNegÿN¡w°e¿R›RNôv(Wå‹0W:S…ö^0àVdkÿ(Wçe„vpS¦^S‹sýVŒT°etQ„vÏ‚9NýVKNô•bVb†NNÍyNŠw»U„vÞz‰N06qwÿ(WÙ*NO'Y„v²Qz-NÿbìN„vpS¦^Ye<ONNòTÏub†NÿbìN—‰VËYntbT„v‹NÅ`0"
+ MSA_bring_back_title: "³ueQbìN„vHrþV"
+ MSA_bring_back_desc: "=föePÓumgiRYOýV¶R„vSÄ‰!jµb—b†N0Nb	g„vªR™l‰v RÉb”^å‹^SŽNbìN)YýV„v‹sgÿwck„väSw^ýV„vçubºNÿ^y„vàVÚ‹ÆNºN0"
+ MSA_renew_ancient_temples_title: "ôf°eäSwúR™^"
+ MSA_renew_ancient_temples_desc: "bìN—‰ÍsÜ`bìN„vÇ»Sÿ8lÜNjPgqŒ˜ƒR0Ù=fN*NnfM„vwtÿbìN”^å‹:NwºNÐc›Oÿ8lÜN>eVbìN„vÇ»S0bìN”^å‹•beQ'YÏ‘ªR›Rôf°e°s(W«ˆWV„vúR™^ÿÙuƒRìN°e„vu‹T0"
+ MSA_prambanan_title: "nfpQôTWSúR"
+ MSA_prambanan_desc: "Ç»S„v‹sýVÙubìNYuN†N0NÌR„vWµN0ÖNìN„vN*NO'YªuõV‘x=fMOŽN*rÇT-NWSè„vnfpQôTWSúR0bìN—‰•beQbìN‹sg„v0ÌRegb`YÙ*NO'Y„vy˜îvÿv^US:ybìN°e„vO'Y^ýV„vúQ°s0"
+ MSA_testament_of_the_empire_title: "bìNO'Y„vÁ‹f"
+ MSA_testament_of_the_empire_desc: "bìNVyHQ„vªuõV‘xÏu×S†Nöeô•„vwŒšÿ°s(W(Wcƒw-N×S0RSle0T7hÿbìN„v‡efmN”^å‹ú^.N*NO'Y„vú^Qr²ÿÐc’‘ÏkN*NTegwbìNþfÏußu»lÇÙGrW0W0"
+ MSA_study_scriptures_title: "xvzäSãNÏu‡e"
+ MSA_study_scriptures_desc: "fR`N=fåwÆ‹„v¥”SÿåwÆ‹=f¡rt‹sýV„v¥”S0¸‹YºN(WbìNKNMRegÇÿÖNìN„vÏuŒš=fbìNýwYv^N”^å‹fR`N„v0àVdkÿbìNˆVê6q0WñmeQxvzçefNÿÎN+RºN„v•ï‹-NfR`N0"
+ MSA_great_pilgrimage_title: "iOYeüuTININ"
+ MSA_great_pilgrimage_desc: "NWSšNpS¦^—RYe„vìryr”q‰püRôpS¦^YeŒTiOYeKNô•úQ°s†N'YÏ‘„vüuTININ0‹NžRNÿ¸‹Y(WªR™l‰v RÉb„vºNNÅNTÜbpS¦^Ye^yGyÿØSTiON–„vYeINÿv^Æ‰ÖN:N^yGy0"
+ MSA_finding_partners_title: "ûRŒbO4O"
+ MSA_finding_partners_desc: "bìNG0R†Negê‰¹e„vL–uFUºN0=föeP†Nã‰ôfYsQŽNÖNìNÿv^(WÖNìN-NŒb0RN›NgËS0bìN„vTjO¯wšROÙuÌS¹e&^egqQT„v‹YY0"
+ MSA_foreign_traders_title: "YýVFUºN"
+ MSA_foreign_traders_desc: "(WNegêÜ¹e„vwmmFUºNŒT8fwú^ËzËS‹YsQû|Tÿ=föePVËYbìN„v²NAmv^†Nã‰bìNïSåN(WêT›N†˜ßWTjO0SVÖNìN†Nã‰0RbìNW„T„v™™™eöeÿbìN¯wšRO·ƒ—VˆV'Y„vqVÍT›R0"
+ MSA_mastery_of_the_coin_title: "'^Œcác"
+ MSA_mastery_of_the_coin_desc: "bìN¾|f„vÏuNmžRõObìNNYýVFUºNú^Ëz†NËS‹YsQû|0Ù=fN*N‹Y	ébÿa0ŒNÜ¹eýV¶R„vžX R²NAmÿbìN„vÏuNmck(Wì„ÃRÑSUSÿÎeg†NhQt8f„vöeãN0"
+ MSA_foreign_powers_placate_title: "‰RšbYýV¿R›R"
+ MSA_foreign_powers_placate_desc: "NYýVFUºNú^ËzËS‹YsQû|	gÀNHNaINÿSVÖNìN„vßu»lw(WYb—ùRØNbìNÿbìN—‰‰RšbYýV–kl¿R›Rÿ©‹ÖNìNÜ»ybìN„v™™™e0bìNNýw’Qi–lQVb‰NÿàV:NÙùRbìN„vua^—8^N)R0"
+ MSA_embrace_colonial_thought_title: "¥c×S–kl`ó`"
+ MSA_embrace_colonial_thought_desc: "weg‰¹eòTÏuhQ›RåNt0W*‚Lˆ0R°eW0Wv^šRES0mN¸‹bìNmN”^å‹ûRBlN*N‰|<O„vîvhÿÕkßzÿbìNv^NÔkÖNìNîT0"
+ MSA_technology_sharing_title: "Žb=gqQ«N"
+ MSA_technology_sharing_desc: "bìNN¸‹Y–kl^ýV„vTjOO4O	gNwËS‹Y„vsQû|0mN¸‹bìNïSåNÂSNN*Ny˜îvÿèe(W(WbìNKNô•qQ«NŽb=g0bìNSV6qïSåNÎNÖNìN±Ì‘fR0RˆVYN‰ÿÖNìNmNïSåN†Nã‰bìN„v¸‹YÑS°s0"
+ MSA_influence_title: "‰¹eqVÍT"
+ MSA_influence_desc: "‰¹e‡eS„vqVÍTck(Wn0RbìN„v>yOÿ¬Pu†NN*Nôf RhQtS„v‡eS0àeº‹Ù=f‹Y=fOWÿbìNýàeÕl2R­eÿàV:NÙ<ONNbìNàeÕlI–bkÙN‹¿R0"
+ MSA_printing_title: "ŒtepS7R:g"
+ MSA_printing_desc: "ÎN‰¹eVÛ„vpS7R:g:N²›S„våwÆ‹.O­d&^eg†N°e„vªuCQ06qwÿÏk*NÎW^(WpS7R-NO(uNT„vWRSOÿaÉ‰	g›N÷mqN0bìN”^å‹(Wte*NýV¶RhÆQS‡eWR0"
+ MSA_beacon_title: "R°e„vopTX"
+ MSA_beacon_desc: "(WNNLuæSNïz„vTjOŒTŽb=gqQ«NKNTÿbìNïSåNlT…Qèv^VËYR°e0°e„vuµN¹eÕlïSýwO‰V•^9eØSbìNNbåw„v™™™e8f0"
+ MSA_shipbuilding_title: "‰¹e.9‚"
+ MSA_shipbuilding_desc: "bìN„v.9‚Žb=gòTÏuˆV:V'Y†NÿFO‚YœgbìNÇ‘³u‰¹eºNO(u„vN›NŽbçTÿbìNïSåNåb	gg‹Y„v9‚êS0"
+ MSA_negotiations_title: "8fŒ2R"
+ MSA_negotiations_desc: "bìN—‰N–kl¿R›RŒr¢‹°e„vOS®‹ŒT8fOS®‹0ÖNìN·ƒÖSegêwmm|V¸S„vê6qDnŒTFUÁT„výw›RùRbìN*geg„v¡‹RïSýw^—8^	g(u0"
+ MSA_foreign_companies_title: "8flQøS"
+ MSA_foreign_companies_desc: "XR(WŽN¸‹YYýV–kl^ýV-N„v8flQøSNbìNÄÊN:NbkNbÁ‰„vûNUON‰ýNT0ÖNìN^—8^ÌR	gÿýwYµc6RêñT„vW0WÿÙ(WbìNNbY„vöeãN=f^—8^ìryr„v0bìN—‰NÙ›N:V'Y„vlQøSÓußvÿv^·ƒ—VèT'Y„v)R¦m0"
+ MSA_coffee_plant_title: "nÕl RåT"
+ MSA_coffee_plant_desc: "–TaUiir„v.O­dqVÍT†NY!kÿmNè•–TaUuµNFU„v²`gR¬Pu†NŽ2m0‰^—uópS¦^<S‰šN„v°e–TaUÁTÍy0‹NžRNÿO'Y„v0WtÑS°s:NïSïSŒT–TaU&^eg†N°e„vu‹TÿƒRìN(WªR™l‰v RÉbÍyiÿ¬Pu†N°e„vØSÍy0"
+ MSA_securing_resources_title: "nxÝODn"
+ MSA_securing_resources_desc: "bìN„v²›Såb	g0NÌR„vDn0bìNNýw©‹+RºNÓgc0øvÍSÿbìN”^å‹KS›RÎN0WNÐcÖSÙ›NDnÿv^SvQ(uŽNcknx„v(u0"
+ MSA_rallying_the_mob_title: "Æ–ÓuÍSùR>m"
+ MSA_rallying_the_mob_desc: "bìN—‰Œb0RN*NqQT„v‹NNegÀoÑSbìN›Q–„vâV–¾|^y0bìN—‰(WÙ›N¨Raƒ„vöeãNûRŒbßvËS0"
+ MSA_win_several_wars_title: "US:yOŠ'`"
+ MSA_win_several_wars_desc: "'k2mºNbe²‹:NÖNìNåb	gbeuŒT›Q‹NO¿R0=föePTÖNìNUS:yÖNìN•—V	gY»y1Œ†N0"
+ MSA_rising_power_title: "Tw„v'YýV"
+ MSA_rising_power_desc: "NWSšNck(WTw„v°e¿R›R0Ù*N0W:SØ¡l	gúQ°sÇ‚Ydk:V'Y„v^ýVÿùRÖNìN„v2NhIeûQmN¡l	gòTåw„vùRVr0[Root.GetMonarch]O«ˆI–bkTÿ"
+ MSA_greatest_power_title: "àeïS9SLe„v›RÏ‘"
+ MSA_greatest_power_desc: "bìNSÏPê–)TN7hÿàeïS9SLe0W-^wSwegÿ&^egÁkmp'`„v›RÏ‘0¡l	gºNýwµb!cbìN„v²QûQ0"
+ MSA_seeking_allies_title: "ûRBlßvËS"
+ MSA_seeking_allies_desc: "(WÙ:WùR—b–klw*jZ„vO'Yb—e-NÿbìN—‰Œb0R	g¨R:gNbìNTjO„vßvËS0"
+ MSA_naval_europe_title: "wm›Q›RÏ‘"
+ MSA_naval_europe_desc: "bìN„vwm›Q.Oßu0NÌRÿƒRObìNýwYSbìN„vwmN8—CgTY•bS0"
+ MSA_army_independent_title: "F–0W›RÏ‘"
+ MSA_army_independent_desc: "N¹e°eÑS°s„v›RÏ‘ÿbìN—‰US:ybìNýw(W›Q–-NùW‰QúQ„v:V'Y›RÏ‘0"
+ MSA_first_encounters_title: "–™!k¥cæ‰"
+ MSA_first_encounters_desc: "bìNýwYwzÖNìN„vaþV0bìN„v,rN!kwck„v¥cæ‰¯wšRNOùRÖNìNz˜)R0"
+ MSA_seize_the_islands_title: "`S†˜›SS"
+ MSA_seize_the_islands_desc: "–klwòTÏuµc6R†N¸‹YŽVªR™l‰v RÉb„vbeuMOn„v›SS0KS¡rbìNêñTïSýwN—‰Ù›N›SSÿFObìNSV6qN^gÖNìNµc6R0"
+ MSA_reroute_muslim_traders_title: "Í‘°eï1uFz¯e—gFUºN"
+ MSA_reroute_muslim_traders_desc: "îvMR„vFz¯e—gFUºN^—8^PNaMRŽVN^—8fN™™0bìN—‰µc6R±*N0W:Sv^SÖNìNÍ‘°eï1u0RbìNØš5„v^:W0"
+ MSA_heathens_title: "qš–klw"
+ MSA_heathens_desc: "=föePN³R8l80WFd1–klw„vZÁw†Nÿ"
+ 
+ ME_Malaya_Events.1.t: "°e„vÜV"
+ ME_Malaya_Events.1.d: "(WÇ»S„vt^ãNÌ‘ÿÑŒT†˜üR„vwmNÜVg'Y0WžX:V†NbìN(WWSm„vqVÍT›R0‹NžRNÿjO:NÜV„vÓuœgÿWSm„vwm×vIm¨R—V0R†NO6RÿNgÎN„vTIN«ˆŸ^Üžÿ°e„vg!ýV«ˆÑS°s0ÖN„v*‚LˆÓuœgóÊNÍN(Wte*NWSm0W:Sa×S0R0mN¸‹bìN”^å‹VËYN*N°e„vÜVÿ"
+ ME_Malaya_Events.1.a: "ùRbìN„vYèÄ–ÃV„vÁ‹fÿTMR*‚Lˆÿ"
+ ME_Malaya_Events.1.b: "bìN—‰…QwåNžR°sŒRŽ0"
+ 
+ ME_Malaya_Events.2.t: "ÜV=T¨R"
+ ME_Malaya_Events.2.d: "bìNÆQY„vÜVÈuŽN=T¨R†N0RO„v9‚–ÿ‰w<wïSÁ‰ÿòTÏu	cgq¡‹RVËY†NMRŽVWSm„vÅez0°e„vÜV=f&TOÏPçe„v±7h‰Lqöeô•OJTÉ‹bìN06qwÿàQNNïSåN¯wšR„v=fÿÙS=fùRWS¹e?eCg„vN*N—¼d'`‹NöN0"
+ ME_Malaya_Events.2.a: "*‚Lˆÿ:N)Yg&^egcƒwÿ"
+ 
+ ME_Malaya_Events.3.t: "-NýVR9‚–„v0Reg"
+ ME_Malaya_Events.3.d: "N=e‰|<OŽNÑŒT†˜üR„v-NýVwmNÜV–òTÏu0R¾bìN„vN*N=nãSÿ^gNTIN²NAmÿv^‚föejPYu0‚YœgbìNÎNÇ»SfR0RÀNHNÿÙÝuùR=fN*NÍ‘‰„v³QšR0‡v^„v=ecïSýw=fbìNb•„vsQ.•ÿ"
+ ME_Malaya_Events.3.a: "ÙuÖNìNbìNýV¶RýwÐc›O„vg‹Y„v0kÎÿ"
+ ME_Malaya_Events.3.b: "N*NN)nNkp„v0kÎ1S³Y†N0"
+ ME_Malaya_Events.3.c: "ÖNìNêðy:N)YKNPRÿæTÿYHN'YÆwÿ"
+ 
+ ME_Malaya_Events.6.t: "-NýVÜV–„v»y»Sÿ"
+ ME_Malaya_Events.6.d: "wegÏuÇpehTuópeg„v>k…VÿÜV–ÈuŽNÆQYÔÞV-NýV'YF–0ÖNìN„vjPYuSV6q=fN*NÍ‘‰„v‹NöNÿbìNS8lÜ(W†SòS„vÇràz-N°‹OOÙN‹NöN0"
+ ME_Malaya_Events.6.a: "bìNT¨`JT+Rÿ"
+ ME_Malaya_Events.6.b: "YuNegÿbìN÷‹Bl¨`ÿ"
+ 
+ ME_Malaya_Events.7.t: "jPbkŒTÈubk"
+ ME_Malaya_Events.7.d: "O'Y„v-NýVOw9‚–òTÏu0R¾bìN„vwm¸Sÿ‰BlbìNjPbkbìNv`±R„vwm×vLˆ:NÿHSgŽN‡v^„vO'Yÿ&TRbìNïSýwOb—4N%NÍ‘„vTœg0‹†6q0‚–,g«ŽïSýwàeÕlµb!cbìN„v0‚–ÿFO‡v^„vßvËSàQNN¯wšROZÁwbìN0"
+ ME_Malaya_Events.7.a: "úQ»SÿbìNNO,T‹TŽNûNUO‡v^0"
+ ME_Malaya_Events.7.b: "1SÙ7h'T0=föePÓumgbìN„vv`Lˆ†N0"
+ 
+ ME_Malaya_Events.8.t: "÷SìSfkÅˆ"
+ ME_Malaya_Events.8.d: "-NýVÜV–feÃObìNùR¶Rè•ãS„vv`±Rwm×vÛLˆ›Q‹Nr^„˜ÿv^?aaÐc›Oôc©R0"
+ ME_Malaya_Events.8.a: ")Ya¾–Ýÿ"
+ ME_Malaya_Events.8.b: "nxÝObìNOr^„˜0"
+ ME_Malaya_Events.8.c: "bìN¡l	göeô•mN¡l	gDnÿ±bIkÿ"
+ 
+ ME_Malaya_Events.9.t: "N0‚–„vb‰N"
+ ME_Malaya_Events.9.d: "1uŽNbìN„v?eVrÿbìNN-NýVÜV–„vsQû|%`gRv`SÿbìNckYŽNÅwô‹T„vb‰N¶r`0"
+ ME_Malaya_Events.9.a: "ÖNìN¡lÀNHNïS`„v0"
+ ME_Malaya_Events.9.b: "•beQNb	gDn0"
+ 
+ ME_Malaya_Events.10.t: "[Root.Monarch.GetName]«ˆØbYu"
+ ME_Malaya_Events.10.d: "¡l	gºNýwÍS—bž^'Y„vR9‚–0"
+ ME_Malaya_Events.10.a: "bìNIr…VbìN„v‹TÐ0"
+ 
+ ME_Malaya_Events.11.t: "(W[From.GetName]ûN‹ToR‹s"
+ ME_Malaya_Events.11.d: "ÍSÛS„výV¶R[From.GetName]òTÏuHSgŽNbìN„vR9‚–0bìN°s(WSûN‹TN*N°e„voR‹sÿwÖNìN„vßu»lwSÔÞV-NýV0"
+ ME_Malaya_Events.11.a: "ÖNìN„vçubºNïSåNßu»l0"
+ ME_Malaya_Events.11.b: "egê-NýV„vè•=fbìN=UNïSåNáOûN„v0"
+ 
+ ME_Malaya_Events.12.t: "[From.GetName]„vÚV¯r"
+ ME_Malaya_Events.12.d: ""
+ ME_Malaya_Events.12.a: "©‹ÖNåwSbìN„vÁNHa0"
+ ME_Malaya_Events.12.b: "¡l	gºNùR[Root.GetName]¯rNÛSýVjÿ"
+ 
+ ME_Malaya_Events.13.t: "[From.GetName]„v‹TÐ"
+ ME_Malaya_Events.13.d: ""
+ ME_Malaya_Events.13.a: "	cgqÖNìN„v?agÿ-NýV„vãNhˆSßu»l0"
+ ME_Malaya_Events.13.b: "ûN‹TbìNêñT„vÞT•0"
+ ME_Malaya_Events.13.c: "©‹SV0W‹sg¥c¡r0"
+ 
+ #åNN=f'Y¦u25*NsQŽNÜV„vsTS‹NöN0
+ #USNNÞ=„v'`(0
+ ME_Malaya_Events.20.t: "ÜV‰BlV!n"
+ ME_Malaya_Events.20.d: "-NýVÜV–èla0RbìNg÷^	gN*N¯r0‹NžRNÿ(W-NýV'YF–ÿºNìNøváOÖNìN¯r	gÛSýVj06qwÿÖNìN„vŽbýwùRbìN^—8^	g÷N<P0bìNw„v”^å‹HSgŽN‡v^„v?agTÿ"
+ ME_Malaya_Events.20.a: "ÖNìN	gÀNHNCg)R‰BlV!nÿ"
+ ME_Malaya_Events.20.b: "SV6qïSåN0"
+ ME_Malaya_Events.20.c: "N*N	gŽbýw„vè•ÿ`Oô‹bTÿ"
+ 
+ ME_Malaya_Events.21.t: "«R÷^Nû•"
+ ME_Malaya_Events.21.d: "(W8^„v«R÷^Âr0k-Nÿ[Root.Monarch.GetName]VÑS†NN›Nwck„vNû•0‹†6qùR[Root.Monarch.GetTitle]egô‹SV6qN‚gÿFOÙ&^eg†Nôf'Y„vqSi–ÿàV:N¸‹Yè•òTÏuÌw»y†N†˜üR0FO‚Yœg[Root.Monarch.GetName]ýwŒb0RN*NÿfjŠbTÿ"
+ ME_Malaya_Events.21.a: "bÅb1ûNÿçuíuMRÛ0"
+ ME_Malaya_Events.21.b: "±›NÅeLˆwÿ=fÖNìN„v•ÿ"
+ 
+ ME_Malaya_Events.22.t: "µNn1W0W"
+ ME_Malaya_Events.22.d: "N›NÅeLˆw«ˆËNÍuÙubìN„v1W0W06qwÿ(WNû|Raó`N0R„v‹NöN-NÿvQ-NNºNZPúQ†NbìN¸‹YºN²‹:N%NÍ‘®O±„vLˆ:N0ÖNìNŒRhQNåwS<yêNÿNSÍ‘bìNŒTbìN„v.OßuÿÙMOÅeLˆwòTÏu«ˆSb†NNôTŒcÿÙ©‹ÖNìNTLˆ„vºN^—8^2a`0"
+ ME_Malaya_Events.22.a: "ÖNìNàeCgåwS0é`ZµOeuwÿ"
+ ME_Malaya_Events.22.b: "Ù=f8^	g„v‹N0"
+ ME_Malaya_Events.22.c: "ÖNìNZP†NÀNHNÿÿ"
+ 
+ ME_Malaya_Events.23.t: "VýV¨Rir"
+ ME_Malaya_Events.23.d: "egê-NýV«R÷^„vNb	g.Oô‹ŒTùRÑŒT&^0R-NýV„vVýV¨Rir„vNb	gÏcðÿN¾–ó`aŒ4lKbìNOùRbìNVýV¨RiratQ±0ÕkßzÿÖNìN‚Yœgýw·ƒ—VÖNìNýwY·ƒ—V„v<yirÿSO—V0RˆV'Y„vÞV¥b0"
+ ME_Malaya_Events.23.a: "ÙuÖNìNbìNgVýV„v¨Rir0NÜ`NRãN÷Nÿ"
+ ME_Malaya_Events.23.b: "ŽrUS0WTÖNìNUS:y¨Rir0"
+ ME_Malaya_Events.23.c: "‚Yœg¨RirTÑÖNìN`HNžR&&ÿ"
+ 
+ ME_Malaya_Events.24.t: "‰‘R‘4lKbVwššqN"
+ ME_Malaya_Events.24.d: "ÜV–„vNT4lKb³QšRåNNÍy^—8^NûR8^„v¹eV¦^ÇÖN„vYZf0ÖN>f6qó`‰(W[Root.GetAdjective]lO-NŒb0R°egËSÿŽN=fúQ»SÁTSSV0W„vn™™e0(WÖN„v0kPNÂr0k-NÿÖN<ONNp—V*YÜ†N0ÖNŒTN›N‹Y—e„vn™R‘wKNô•„vS‰Ngb<ONNVÑS†NN:WhQb—„v÷mb0"
+ ME_Malaya_Events.24.a: "bìNNO¹RÍVÙ›Nÿ"
+ ME_Malaya_Events.24.b: "ÖNìN„vÑvcwwåwSÿÖNìNS×S0Ré`Z0"
+ ME_Malaya_Events.24.c: "©‹bìNGPÅˆÀNHNý¡lÑSu0"
+ 
+ ME_Malaya_Events.25.t: "1Y<y"
+ ME_Malaya_Events.25.d: "ÜV–„v¸‹YØšµu˜RXTòTÏu«ˆËNÍu†N¸‹YbìN„v`N×OŒT—RYeíp¹p06qwÿ1uŽNÖNìN„vàeåwÿÖNìN-N„vN›NºNŠbKb>e(W†NN*N^yÏPNÿÙ*N^yÏP(WSV0WºNÃV-N^—8^Í‘‰0Ù*N1Yï‹«ˆbìNÙ¹ã‰Ê‘:N®O±0" 
+ ME_Malaya_Events.25.a: "°s(W1SŠb`O„vKbÿbVÿ"
+ ME_Malaya_Events.25.b: "ÖNìNO«ˆkyy„vÿ"
+ 
+ ME_Malaya_Events.26.t: "eRJR'`b,g"
+ ME_Malaya_Events.26.d: "SV0W[Root.GetAdjective]˜RXTG0R†NÜV–¸‹Y4lKbÐc²N„v	g±¥bJT0wegÿ¸‹Y‰šNb(W=nãS„vFUºN(W:gOININ¾|^y„vqšONÿ'YE^ÐcØš†N÷N<h0ŸSJTuóðyvQ:NeRJR0"
+ ME_Malaya_Events.26.a: "Ù1S=fê1u8fÿ"
+ ME_Malaya_Events.26.b: "ëOFUºNM–NO÷N<h0"
+ ME_Malaya_Events.26.c: "bìNOKSbìNNbýw0"
+ 
+ ME_Malaya_Events.27.t: "5Ïe„vÅbçV"
+ ME_Malaya_Events.27.d: "ˆVf>fÿ¸‹Y5ÏeùRbìNYtÜV–„v¹eVa0RNán0gRÿÙÍyÅ`êuøvSV–K…ÿ¡l	gºNbeÍSùRbìNYtÙÍyÅ`µQ„v¹eVÿFO–NwºNìNbabaVËYkQfSÿåNÊS–KNweg„vTÍybgRÿÙÍyÅ`êu<ONN^—8^f>f0‹NžRNÿlQV‰Bl[Root.Monarch.GetName]9eØS[Root.Monarch.GetHerHis]¹eV„v÷‹BlòTÏuÐcúQ0"
+ ME_Malaya_Events.27.a: "ÖNìNïSýw=fùR„v0"
+ ME_Malaya_Events.27.b: "bÔk`OìNNb	gºNýåwS—VôfYÿ"
+ 
+ ME_Malaya_Events.28.t: "ûÑ‹w„vðVƒX"
+ ME_Malaya_Events.28.d: "wegÜV–¯r†NN*N•ï‹09‚N„vûÑ‹>f6qàeÕltã‰bìN„ví‹Šv^Ðc›Og¡R0àVdkÿbìNàeÕlŸl0"
+ ME_Malaya_Events.28.a: "	gNÍy(uí‹ŠÖNìN¯wšRýwtã‰ - Kb¿Rÿ"
+ ME_Malaya_Events.28.b: "bìNêSýwIr0R°e„vûÑ‹0Reg0"
+ ME_Malaya_Events.28.c: "(WvQÖNÎW^ûRŒbûÑ‹w0"
+ 
+ ME_Malaya_Events.29.t: "SV0WºN„vNán"
+ ME_Malaya_Events.29.d: "«R÷^ŒTTINýœU0kÙ›NÜ¹eÅeLˆw„vXR(W06qwÿ–™ý„vnflO<ONNùRÖNìN^—8^Nán0ÙüRôÌS¹e(W¸‹Y:WTlQVLeùRÿOÜV–ùRNSV0WºN„v’N¨Ra0Rf‹Õ`0"
+ ME_Malaya_Events.29.a: "ÙÍyNœU0k=fëkàe9hnc„vÿ"
+ ME_Malaya_Events.29.b: "—VZP¹pÀNHNÿ"
+ 
+ ME_Malaya_Events.30.t: "üR*‚XT÷‹BlbìN„v0WþV"
+ ME_Malaya_Events.30.d: "ÜV–9‚N„vNMOüR*‚XT¯wšRèla0R†NbìN„v*‚wmŽb=g0ÖNìNnxšRbìNåwSÖNìNNŸq‰`„v8fï¿uÿv^‰BlbìNNÖNìNR«NbìN„v0WþV0"
+ ME_Malaya_Events.30.a: "bìNNO‰f>eVbìN„vØyÆRÿ"
+ ME_Malaya_Events.30.b: "R«NNb	g0WþV0"
+ ME_Malaya_Events.30.c: "êSR«NgNÍ‘‰„vèR0"
+ 
+ ME_Malaya_Events.31.t: "ÜV–†˜üRºNÙu4lKbYuNñmIRpSaŒ"
+ ME_Malaya_Events.31.d: "-NýV›Q‹NÛbßRºNXTùRbìN„v4lKbpSaŒñmIR0‹NžRNÿÖNìN‚YdkpSaŒñmIRÿåNóŽNÖNìNòTÏuVËYÕ‹þVSbìN„v4lKb³ueQÖNìN„vR9‚–0"
+ ME_Malaya_Events.31.a: "=f„v...N0"
+ ME_Malaya_Events.31.b: "pSaŒñmIRÿ"
+ ME_Malaya_Events.31.c: "ÖNìNuóïSåN&^pbìN„v9‚êSÿ"
+ ME_Malaya_Events.31.e: "ÝuùRNLˆÿÑvy‡w‹Nwÿ"
+ 
+ ME_Malaya_Events.32.t: "ÜV–ùR!ÁT(Ï‘Nán"
+ ME_Malaya_Events.32.d: "KS¡rbìNÐc›O†Ngwaha„v<yirÿÜV–<ONNùRbìN„v!ÁT(Ï‘a0RNán0ÖNìN<ONNùRbìNggôfY0Ù`HNïSýwÿbìNòTÏuÐc›O†NÔkÖNìN”^—V„vôfYÿ6qwÖNìNßz6q	gÆwÏ‘±b(`0"
+ ME_Malaya_Events.32.a: "ÖNìN(WûRŒbb—eÿ"
+ ME_Malaya_Events.32.b: "•beQôfYDn0RbìN„v<yir-N0"
+ 
+ ME_Malaya_Events.33.t: "-NýVºNVY±RbìN„v>k…V"
+ ME_Malaya_Events.33.d: "bìNgwaha„v<yirÈuŽN—V0R†Nøv’NSÍ‘ÿÜV–ùRbìN„v>k…VpSaŒñmIRÿ³QšR`bìNN›NÖNìNNLuû•T„vFUÁT0bìNùRÖNìN„vSÍ‘a0Rcƒx^0"
+ ME_Malaya_Events.33.a: "0Œ0Œÿ"
+ ME_Malaya_Events.33.b: "Ù1S=f`OìNNbåb	g„vTÿ"
+ ME_Malaya_Events.33.c: "0Œ0ŒÿFO÷‹êñTÝOYu0"
+ 
+ ME_Malaya_Events.34.t: ":V'Y„v‰š›Q"
+ ME_Malaya_Events.34.d: "ÜV–&^eg„vNÅNÅN=fY²N˜R04lKbŒT˜RXT0ÜV–Ø&^eg†NëXuQŒT›Q–0NbåNwegN*N:V'Y„vâVòTÏu«ˆèr(WbìN„vN*N=nãS...Ù=f&TasTNwLeùR¥c¡rÿbìN„v˜RXTSV6qÅbÃV0"
+ ME_Malaya_Events.34.a: "Ëe RN›NP–6Rÿ"
+ ME_Malaya_Events.34.b: "ÖNìN„vXR(W=fNÍy2–¡VbVVÿ`OåwS„v..."
+ 
+ ME_Malaya_Events.35.t: "N	aëV„v‹NöN"
+ ME_Malaya_Events.35.d: "weg[Root.Monarch.GetTitle]„vNMOsY?QN‰šNb(W=nãS„v4lKbKNNÑSu†NK`Å`0sQŽNÙöN‹NòTÏu	gNµköeô•„vkQfSÿFO°s(WMbwckÑS°s±›N=fw„v0ÖNìN<ONNòTÏuÁ‰b—àQ*Nfg†Nÿ"
+ ME_Malaya_Events.35.a: "lQINŒTN*Nnf4lKbÿÿ"
+ ME_Malaya_Events.35.b: "1rÅ`àeLuP–ÿ"
+ 
+ ME_Malaya_Events.36.t: "YýVYeÃu"
+ ME_Malaya_Events.36.d: "ÜV–N	g¸‹YpgúQ„vºNir0Y²N˜R0›Q˜R0åT.S0FUºN0uó=f›Q‹Ntº‹„vN¶R0nxžRÿvQ-NNºNTbìNÐc›O†NÖNìN„vg¡R0(WÖNìN„v.^©RNÿbìNSýwYåNSZS'Y0"
+ ME_Malaya_Events.36.a: "`OÀNHNýNÂaÿ"
+ ME_Malaya_Events.36.b: "^—8^‹Yÿ"
+ 
+ ME_Malaya_Events.37.t: "-NýVºN`bìN„v÷thV"
+ ME_Malaya_Events.37.d: "-NýVÜV–&^eg†NAucƒ00ÌR0›RÏ‘ÿgÍ‘‰„v=fÿ<yir0(WÙ›N<yir-Nÿ	g(WšN2mCNóôfÜ0W¹eý×S0RSle„vW„T-NýV÷thV0"
+ ME_Malaya_Events.37.a: "ƒR¡l	g.Oô‹-N„v±HN‹Y0"
+ ME_Malaya_Events.37.b: "÷thVwÒhÿ"
+ 
+ ME_Malaya_Events.38.t: "-NýVºN`bìN„vNøu"
+ ME_Malaya_Events.38.d: "weg[Root.Monarch.GetName]ïSåNÏPwck„v-NýV‡v^N7hzNwÿàV:NÜV–`†N[Root.Monarch.GetHerHim]hQ°e„vNøuÿÎN-NýVÛãSÿŒRhQ=f°eåT‚S6R.„v0wegÙ^—8^TÖNìNÿ"
+ ME_Malaya_Events.38.a: "bìNïSåN6RjOôf‹Y„v^™eÿ"
+ ME_Malaya_Events.38.b: "ÙS=fbìN6eÏ…„vˆV‹Y„veˆEQÿ"
+ ME_Malaya_Events.38.c: "*YÒh†NÿbìN—‰ôfYÿ"
+ 
+ ME_Malaya_Events.39.t: "—‰îOt9‚êS"
+ ME_Malaya_Events.39.d: "weg(WgÑ„v*‚Lˆ-NÿÜV–„v9‚–mG†NsÈp„vÎ˜´f0¸‹Y9‚êS×S0R†N%NÍ‘mcOWÿ˜RXTìN^gbìNPÙuÖNìN=nãSÿ^—8^—‰ÛLˆîOt06qwÿbìN„v=nãSØ¡l	gÆQY‹Y¹R³uÙHNY9‚êSÿÙS‚föe»QÓubìN„v²NAmÿv^Ào`=n¡RNS•0"
+ ME_Malaya_Events.39.a: "bìNàeÕl¹R³uÙHNY9‚êSÿ±bIk0"
+ ME_Malaya_Events.39.b: "ëOYýVFUºN©‹úQÖNìN„vMOn0"
+ ME_Malaya_Events.39.c: "bìNÅV‰˜ízKShQ›R¹R³uÜV–0"
+ 
+ ME_Malaya_Events.40.t: "S›Q„vzfga"
+ ME_Malaya_Events.40.d: "bìNòTÏuNÜV–„vØšµuc%c˜Rú^Ëz†NËSŒ0‹†6qÙÍyËSŒIN‰=føv’NSÍ‘ŒTáOûNÿFObìNžRE–NïSåNÛNekÑSUSÙÍysQû|ÿNÖNìNR«NbìNgR5„vØyÆRÿv^ïSýwÎN-NfR0RN›NN‰0"
+ ME_Malaya_Events.40.a: "SV6qïSåNÿ"
+ ME_Malaya_Events.40.b: "Ù,Tweg=f*Nß|Õ|„vINa0"
+ 
+ ME_Malaya_Events.41.t: "ÛNekÅeLˆ„vŽ÷‹"
+ ME_Malaya_Events.41.d: "ÜV–„vØšµuc%c˜RT[Root.Monarch.GetName],gºNÑS†NOw0weg[Root.GetSheHe]«ˆŽ÷‹ÂS RÜV–ôfY„vÅeLˆÿbìN”^å‹‚YUOÞV”^ÿ"
+ ME_Malaya_Events.41.a: "SV6qNÿ"
+ ME_Malaya_Events.41.b: "bìNS>múQY²N˜Rÿ"
+ ME_Malaya_Events.41.c: "bìNïSåNËbúQN›Nöeô•ÿ" # N(WO(u-Nb«ˆWØVÿ
+ 
+ ME_Malaya_Events.42.t: "Ðc®‹ú^Ëz-NýV8fMRèTÙz"
+ ME_Malaya_Events.42.d: "ÜV–„váR4YÐcúQ†NN*N^—8^GY*`„vÐc®‹ÿ(WbìN„vN*N=nãSú^ËzN*N8fMRèTÙz0ÙasTNwN)Y‹Tú^Ëz8lEN„v8fsQû|ÿFOTöebìNN—VNS¸‹YDn•beQ0RÙÍysQû|„vôu²b-N0"
+ ME_Malaya_Events.42.a: ":N†N(WWSmib'Y8fÿSV6qÿ"
+ ME_Malaya_Events.42.b: "bìNNýw0"
+ 
+ ME_Malaya_Events.43.t: "b‰Nôc©R"
+ ME_Malaya_Events.43.d: "‹†6qFUNNœU0kb‰NÿFON›NFUºN(Wb‰N-NŒb0R†N)R¦m0àVdkÿ¸‹Y(WÜV–-N„vºNTbìNÐc›O†NÖNìN(Wb‰N-N„vôc©R0bìNw„v”^å‹ÒbÝuÖNìN„v&ŒÐc®‹Tÿ"
+ ME_Malaya_Events.43.a: "SV6qÿ"
+ ME_Malaya_Events.43.b: "bìNïSåNêñTYt0"
+ 
+ ME_Malaya_Events.44.t: "ŒTs^ININÖS¦`ÜV–"
+ ME_Malaya_Events.44.d: "b‰NùRFUNN)RÿÙN=fØyÆR0‹NžRNÿ¸‹Y«ˆÜV–¿‹î•„výV¶RSVöeck(WÛLˆb‰NÿÙO—V¸‹Yjo(WFUºNlT†NbìN„výV¶R0ÜV–SbìN„výV¶RÆ‰:NŒTs^„vopTXÿbìNFUºNKNô•„v²NfÏk)Yý(WžX R0"
+ ME_Malaya_Events.44.a: "bìNÎNegN=f‹Ybw0"
+ ME_Malaya_Events.44.b: "=fÙ7hTÿ"
+ 
+ ME_Malaya_Events.45.t: "YtáOðNî•˜˜"
+ ME_Malaya_Events.45.d: "lšeg„vO¯epQYe(W'`(NøvSV^yØyÿ¸‹YÏ‚9NýV„vwnEe‹Ný=fúWŽN.Oô‹0ÙNáOðN.O­d0RÙ›N0W:S„v¹eV	gˆV'YsQû|ÿsSYýVFUºN„v0RegŒT¾|ñ‚„vlØSÿO—VnfºNbabalØSv^SvQáOðNNSV0WáOðN‡T0"
+ ME_Malaya_Events.45.a: ":V6Rckßu"
+ ME_Malaya_Events.45.b: "bìNS¹RÍVN›NüuTININ0"
+ ME_Malaya_Events.45.c: "±›NEe‹N=fw„vÿ"
+ 
+ ME_Malaya_Events.46.t: "°‹UVbìN„vt^òS"
+ ME_Malaya_Events.46.d: "bìN„v^yLwºNXTZwÆ–(WNwÿ™QbìNýV¶R„vwn†SòS0bìNïSåNÙuƒRN*N^yØy„vlôVÿNå‹0W:S„v¸‹YvQÖNwnEe‹Nøv<OÿbwôfWRb—0ckßu„v¹eÕl0gÈu„v	éb=fbìN„v0"
+ ME_Malaya_Events.46.a: "bìN„výV¶R=f^yØy„v0"
+ ME_Malaya_Events.46.b: "©‹bìN™QN*Nôfckßu„v¹eÕl0"
+ 
+ ME_Malaya_Events.47.t: "egê[From.GetName]„vg1Ww'Yybµb¾"
+ ME_Malaya_Events.47.d: "[From.GetAdjective]„vÄ–ÃVîX×VÝO²bg1Wï¿uòTÏuüRôegê²›S„vg1WwÀožX0àVdkÿ°e„vNybg1WwjO:NÓuœgµb¾†N[Root.GetName]0?a^ŽRVŽNÿ"
+ ME_Malaya_Events.47.a: "0kÎÿáO’Vÿ"
+ 
+ ME_Malaya_Events.48.t: "egê[From.GetName]„vg1Ww(W-N"
+ ME_Malaya_Events.48.d: "wegbìN„v=nãSòTÏub:Negê[From.GetName]„vg1WwMRŽV¦ž R„víp¹p0‹NžRNÿegêlšeg„vg1Ww(Wís¾šNPŸŒTWSpS¦^„v=nãS	gÖNìN„víp¹p0bìN”^å‹‚YUOùR…VÙ›N°e·ƒ—V„vùRg1Ww„vqVÍT›Rÿ"
+ ME_Malaya_Events.48.a: "0kÎÖNìNeg0R[Root.GetName]ÿ"
+ ME_Malaya_Events.48.b: "÷ºN„v—RYe..."
+ ME_Malaya_Events.48.c: "*YÒh†NÿùRÖNìNVz0"
+ 
+ ME_Malaya_Events.49.t: "^N„vlšeg>y:S"
+ ME_Malaya_Events.49.d: "–Nw²›S„vßuNŒTbìNùRWSî†8f„våeÊvžX•„vtQ±ÿbìN„v¸‹YFUºNòTÏuS-NýV^NjO:NÖNìN„v¶R0àVdkÿNãN÷mNˆFUºNúQ°s†NÿÖNìNàVŽNbìNÿv^ýwY:NbìN„v)RÊvg¡R0bìN×S0R†Nkyyÿ"
+ ME_Malaya_Events.49.a: "bìNS)R(uÙN¹pÿ"
+ 
+ ME_Malaya_Events.50.t: "[Root.GetName] - Fz¯e—g-NÃV"
+ ME_Malaya_Events.50.d: "Fz¯e—gFUºNŒTO¯epQYeée(W12Nªu1Sµb¾†NªR™l‰v RÉbÿFOôv0RTegÿ°e—RYe„v.O­dMbO R0pS¦^<S‰šN„v,rN*NÏ‚9NýVïSåN«ˆ²‹:N=fPeureulakÿNENKNT=fSamudera Pasai06qwÿêS	g(WlšmQ2uÏ‚9NýVbËzTÿO¯epQYe„v.O­dMbO R0(W1444t^ÿ[596.GetName]=fNWSšNO¯epQYe„v-NÃVÿegê¾œO¯epQ„vfRweg0RÙÌ‘0Ù›NfRw–TMRŽV²›S„vvQÖN0W:S.O­d—RYe0"
+ ME_Malaya_Events.50.a: "VºNeQÜw0"
+ 
+ ME_Malaya_Events.51.t: "ÛãS™™™ejOir"
+ ME_Malaya_Events.51.d: "þfÏu*gåwŒTYeg„vqSi–W0WòTÏu«ˆVg0bìN„všRESwòTÏubrúV0WûQ%†NÙGr%Nw‘„vW0W0«ˆðy:N³o'Y)RšN„vW0W°s(WŒRhQ(WbìN„vŒcµcKN-N06qwÿÙGrW0WîvMRv^¡l	gÙu‹s Q&^eg*YYÿN›NGYyr„vuirŒT'YÏ‘„vÄžÑ‘0mN¸‹bìN”^å‹(WÙÌ‘„vN›NW0WNZPvQÖN(u0mN¸‹bìN„vFUºN”^å‹AQ¸‹bìN„vN›N™™™ejOir(W³o'Y)RšNÍyiÿbøváOÙêSýw=fN*Nïyg„v‹NÅ`ÿ"
+ ME_Malaya_Events.51.a: "SV6qÿÙNOüRôu`Œp¾–0"
+ ME_Malaya_Events.51.b: "ïS`„vó`Õlÿ"
+ ME_Malaya_Events.51.c: "øvÍSÿVÛTQPRÿ"
+ 
+ ME_Malaya_Events.52.t: "<P—VáOV„v[Root.GetName]FUºN"
+ ME_Malaya_Events.52.d: "ÏkNMOÅeLˆwýùRbìN„vFUºNÄ‹÷NˆVØš0ÖNìNàVÚ‹žRw×S0RSleÿ=fbìN>yO„vR50ÌR0‹NžRNÿbìN„vbŸRˆV'Yz¦^NRVŸRŽNÖNìN„vÁT(0¡l	gÖNìNÙVŒx„v²Nfwÿ[Root.GetName]SNO=fTN*N0"
+ ME_Malaya_Events.52.a: "ÙˆV‹Y,T0R0"
+ ME_Malaya_Events.52.b: "ÖNìNS—V0RVY±Rÿ"
+ 
+ ME_Malaya_Events.53.t: "	gîv„v„vuµN"
+ ME_Malaya_Events.53.d: "²›S=fTÍyNT(gPg„v¶RíVÿùR0WtNàQNNNb	gvQÖN0W:Segô‹ý=fVýVÅ`Œ„v0w„vÿbìN„vW0W«ˆKˆN†Ng‹Y„v0bìN„v(gåTïSåN(uŽN¸‹YNT„vîv„vÿÎNŽrUS„v.9‚(gPg0R6RjO¶RwQÿQ0RÐcÖSœRºN„v™™0"
+ ME_Malaya_Events.53.a: "™™^—8^T[Root.Religion.GetName]..."
+ ME_Malaya_Events.53.b: ":N¾|Ž„v¶RwQÐc›OúQr‚„v(gPg0"
+ ME_Malaya_Events.53.c: "(u(gPg.9‚ÿ"
+ 
+ ME_Malaya_Events.54.t: "ßuN(WD–¸^¶r`"
+ ME_Malaya_Events.54.d: "bìN(W[From.GetAdjective]„v²N^SÿN*Nôf:V'Y„výV¶RÿbìN„vXR(WˆV'Yz¦^NRVŸRŽNÖNìNÿÖNìN‰BlbìNTÖNìNHSgÿåND–¸^„vÿY`0‹NžRNÿÖNìNÐcúQ†NN*NÐcHhÿ©‹bìNb:NÖNìN^ýV„vNèR0bìN”^å‹¥c×STÿ"
+ ME_Malaya_Events.54.a: "=f„vÿbìNST[From.GetAdjective]HSg0"
+ ME_Malaya_Events.54.b: "bìNÍ‘Æ‰bìN„vìrËz0"
+ 
+ #ME_Malaya_Events.55 hidden
+ 
+ ME_Malaya_Events.56.t: "wmáS‹NöN"
+ ME_Malaya_Events.56.d: "éeN[GetDate]VËYÏPûNUOvQÖNåePRN7h0ÒR·Q„vhfÎ˜Ste*Nwm¸S–Ï…(WSmþ–-N06qwÿ–Nwéehf„vÓumgŒTþ–l„vˆmceÿÎNàebV-NúQ°s†NN=e9‚–0bìNåNMRÎN*gÁ‰ÇÙ7h„v9‚êS0Ù›N9‚êS>f6q=fvšTlšmQ2u^ýV„vÃV0àQNNïSåN¯wšRÙN=fN*Nnf„vFU–0Ù=fN*NŒRhQL–u„v^ýV(W¢ci–*‚Lˆÿ°s(W(W[Root.GetAdjective]^ýV„vè•ÛiN0Ù›N9‚êS=f@[From.GetTag] [From.GetName]„vÿÖNìN„vaþVSNnxšR0"
+ ME_Malaya_Events.56.a: "v`T›ÿ¸pÁk±›N9‚êSÿàV:NƒRìNN=f8fO4OÿƒRìN=fVgwÿ"
+ ME_Malaya_Events.56.b: "ôfY„v8fO4OasTNwôfY„vlx^0"
+ 
+ ME_Malaya_Events.57.t: "lšegºN„vLea"
+ ME_Malaya_Events.57.d: "bìN„vN*Nyr¸‹FUNÜV–(WlšmQ2uwmáSmG†N²`è`„v‹TÐ0‹NžRNÿªv`„v[From.Country.GetTitle]NäNp¸pbìN„vFU9‚ÿêS	gSpex^XRwImNeg²‹ðÙ*NEe‹N0wegN±*NýV¶RÑSUS8fTwû|ïSýwˆVðV¾–0"
+ ME_Malaya_Events.57.a: "«ˆÅ‹’T„vv`T›ÿÖNìNSÎegÖNìN„v‹TÐÿ"
+ 
+ #ME_Malaya_Events.58 Unused
+ #ME_Malaya_Events.58.t: "Laws of the [Root.GovernmentName]" #Not in the mission tree, fix!
+ #ME_Malaya_Events.58.d: ""
+ #ME_Malaya_Events.58.a: "Keep the current laws."
+ #ME_Malaya_Events.58.b: "Create new laws."
+ #ME_Malaya_Events.58.c: "Embrace the Undang Undang Melaka"
+ #ME_Malaya_Events.58.e: "Embrace the Sharia"
+ #ME_Malaya_Events.58.f: "Embrace Traditional Hindu Law"
+ #ME_Malaya_Events.58.g: "Anarchy!"
+ 
+ ME_Malaya_Events.59.t: "—RYeípÅ` - O¯epQYe"
+ ME_Malaya_Events.59.d: "ªR™l‰v RÉbNôv=fNT‡eSŒT—RYe„v”q‰p0ôv0RbìN„vÅTwÿÙ*N0W:SMb&^eg†NN*Nf>f„v—RYeßuNÿßuNå‹0W:S„váOðN=fO¯epQYe0°s(WÿbìNOàVŽNbìN„v.OßuTÿÕkßzÿÎ˜ofNôv(WØSS0"
+ ME_Malaya_Events.59.a: "bìNàVÚ‹v^SÝOcàVÚ‹ÿ"
+ ME_Malaya_Events.59.b: "mN¸‹bìN	gvQÖN¡‹R..."
+ 
+ ME_Malaya_Events.60.t: "—RYeípÅ` - pS¦^Ye"
+ ME_Malaya_Events.60.d: "ªR™l‰v RÉb„v,rN*N	gÄuÇu„v>yOÄuÇu=f1uŽNn„vpS¦^SwbVb„v0áOðN=f1uegêpS¦^„v4lßWŒTFZWè•&^eg„vÿv^Nê±öew1SNT7hÛãS„viOYeqQXRÿbVb†Nå‹0W:Sìryr„v÷mTSO0bìNOôu²bÙ›N.OßuTÿ"
+ ME_Malaya_Events.60.a: "bìNNO©‹bìN„vVyHQ1Ygÿ"
+ ME_Malaya_Events.60.b: "=föePÛLˆ9ei—†N0"
+ 
+ ME_Malaya_Events.61.t: "—RYeípÅ` - vQÖN"
+ ME_Malaya_Events.61.d: "‹†6qbìN„váOðNN=flšegºN-Nôf	gE››R„váOðNKNNÿFOƒRÍN6q×S0RbìN„vœU1r0KS¡r(WN­eØSS„v?e»l<hNS-NÿbìNïSýwOwQ†9eØSbìN„váOðN..."
+ ME_Malaya_Events.61.a: "bìNSàVÚ‹ÿ"
+ ME_Malaya_Events.61.b: "bìNÅV‰˜ÆQY9eØS0"
+ 
+ ME_Malaya_Events.62.t: "1u4lßW&^eg„váOðN..."
+ ME_Malaya_Events.62.d: "egê'k2m„vFUºN&^eg†NN*Naó`N0R„vDµNÖNìNêñT„váOðN0áOðNck(W«ˆŠegŠY„vºN¥c×Sÿyr+R=fNè„vFUºN0‚YœgNÇ‘ÖSLˆ¨RÿƒRïSýwˆVëV1SOb:N¸‹Y=nãS„vYpeÿv^ÖSãNbìN„v.Oßu0"
+ ME_Malaya_Events.62.a: "eQµOw„váOðN...nd–ƒRÿ"
+ ME_Malaya_Events.62.b: "FUºNÿàeº‹=fúWcw’VØ=fN=fÿÍN6q=fFUºN0"
+ 
+ #ME_Malaya_Events.63 hidden
+ 
+ ME_Malaya_Events.64.t: "úWcwYe(W[Root.GetName].O­d"
+ ME_Malaya_Events.64.d: "ˆmo`.O0R[Root.Owner.Monarch.GetName]ÿ[Root.GetName]„v¸‹YFUºNòTÏuVËY¥c×S°e„v[MSA_province.Religion.GetName]áOðN0ÙVw†N.O­dáOðN„v.OYeëX„vèlaÿÖNìNmNVËY(WSV0WESl-N.O­dyó—0å‹w°s(WZWšR0WáOðN[MSA_province.Religion.GetName]0"
+ ME_Malaya_Events.64.a: "z˜vQê6q0"
+ 
+ ME_Malaya_Events.65.t: "Fz¯e—gÏ‚9NýV„vpˆK„"
+ ME_Malaya_Events.65.d: "pS¦^„vO¯epQYewnïSåNý¯n0R12Nªu+g·VÌ‘Ï‚9NýV„vú^Ëz0ÎN±öewÿFz¯e—gÏ‚9NýV(W!k'YF–„v?e»luIm-N`SncINüR0WMOÿNÖNìN'YèR„vpS¦^YeãlbVb†NqQusQû|06qwÿÙÍyÅ`µQˆVëV1SO9eØSÿàV:NpS¦^Ye„vÉb>ùRƒRìNÛLˆ†NÍSûQÐ¨Rÿ	gHe0WSFz¯e—gßu»lÎNpS¦^ûyd–0"
+ ME_Malaya_Events.65.a: "1S=fÙ7h0"
+ 
+ ME_Malaya_Events.66.t: "ÅV‰˜ZPúQ„v©‹ek"
+ ME_Malaya_Events.66.d: ":N†Nú^ËzqQusQû|ÿTjOÅV‰˜ÌSTÛLˆ0‚YœgbìNó`ÎNNYýVD,gŒT8flQøS„vsQû|0R-N·ƒÊvÿbìN—‰>eVN›NN‰0:N†N·ƒ—VYýVºN„vR—PwÿbìN”^å‹ZP›NÀNHNÿ"
+ ME_Malaya_Events.66.a: "ú^ËzFUºNf‹kS0"
+ ME_Malaya_Events.66.b: "D©RÖNìN„vON0"
+ ME_Malaya_Events.66.c: "ÝOœ–ê1u8f0"
+ ME_Malaya_Events.66.e: "Ðc›OLˆ¨RúW0W0"
+ ME_Malaya_Events.66.f: "R«NbìN„v^:W0"
+ ME_Malaya_Events.66.g: "b9eØS†NINa0"
+ 
+ ME_Malaya_Events.67.t: "÷‹Bl.^©R"
+ ME_Malaya_Events.67.d: ":N†NN8flQøSú^ËzŒTs^sQû|ÿbìNVUS†N¸‹Yèe(W·ƒ—VÖNìNR—Pw„vy˜îv0gÈuÿbìNb—V†NÖNìN„váOûNÿ©‹ÖNìN^eVÃVIb0ÕkßzbìNÏu†S†NÙHNYÿøváObìN<P—V·ƒ—VN›NÞV¥b0±HNÿbìN„vãNhˆâV”^å‹TÖNìN÷‹BlÀNHNbTÿ"
+ ME_Malaya_Events.67.a: "R«NN›NŽb=g0"
+ ME_Malaya_Events.67.b: "bìN—‰Ç–cOuQÿ"
+ ME_Malaya_Events.67.c: "R«N–TaUiirÿb¸‹ÿ"
+ ME_Malaya_Events.67.e: "÷‹ÙubNMOS›Qÿ"
+ ME_Malaya_Events.67.f: "bìNó`Ç–cONMOFUºN0"
+ ME_Malaya_Events.67.g: "•bDbìN„v™™™eÿ"
+ ME_Malaya_Events.67.h: "N—‰0"
+ 
+ MSA_any_request_available: "ûNUO§YYýV÷‹Bl§!ýïSåNO(u0\n[Root.GetAInvestmentStatus] - §YŽb=gqQ«N§!\n[Root.GetBInvestmentStatus] - §YÇ–cOuQ§!\n[Root.GetCInvestmentStatus] - §Y–TaUiir§!\n[Root.GetEInvestmentStatus] - §YYýVS›Q§!\n[Root.GetFInvestmentStatus] - §YÇ–cOFUºN§!\n[Root.GetGInvestmentStatus] - §Y™™™e•bD§!\n"
+ 
+ ME_Malaya_Events.68.t: "wýN	éb"
+ ME_Malaya_Events.68.d: ":N†NçuíubìN„v?eVrÿbìN—‰	ébN*NîvhwýN0"
+ ME_Malaya_Events.68.a: "ÏP[Malaya_target_1.GetName]Ù7h„vºNgT0"
+ ME_Malaya_Events.68.b: "b	éb`Oÿ[Malaya_target_2.GetName]ÿ"
+ ME_Malaya_Events.68.c: "[Malaya_target_3.GetName]=fê6q„v	éb0"
+ ME_Malaya_Events.68.e: "êS	g[Malaya_target_4.GetName]0"
+ ME_Malaya_Events.68.f: "[Malaya_target_5.GetName]S=fwýNÿ"
+ ME_Malaya_Events.68.g: "ba0RW¾a0"
+ 
+ ME_Malaya_Events.69.t: "[ME_MSA_muslim_center_target.GetName]ïž6q1Yr‚ÿ"
+ ME_Malaya_Events.69.d: "ŠegŠY„vFz¯e—gFUºNVËYMRŽV[ME_MSA_muslim_center_target_rival.GetName]wN=f[ME_MSA_muslim_center_target.GetName]0‚Yœg[ME_MSA_muslim_center_target.Owner.GetName]àeÕlI–bkÙN‹¿RÿbìNåeÊvžX•„vÎW^ˆVëV1SO:YÖSNWSšNFz¯e—g-NÃV„v0WMO0"
+ ME_Malaya_Events.69.a: "*Y‹Y†Nÿ"
+ 
+ ME_Malaya_Events.70.t: "[ME_MSA_muslim_center_target.GetName]Üw)R"
+ ME_Malaya_Events.70.d: "1uŽN[ME_MSA_muslim_center_target.Owner.GetName]„v?eVrOe•ÿ¸‹Y¿‹î•[ME_MSA_muslim_center_target_rival.GetName]„vFz¯e—gÅeLˆwòTÏu«ˆlûy0R[ME_MSA_muslim_center_target.GetName]0wegÙµ^ÎW^gÈuØ=fOÝOYuvQFz¯e—g-NÃV„v0WMO0"
+ ME_Malaya_Events.70.a: "ê6qw6q0"
+ 
+ ME_Malaya_Events.71.t: "[ME_MSA_muslim_center_target.GetName] - °e„vFz¯e—g-NÃV"
+ ME_Malaya_Events.71.d: "–Nw[ME_MSA_muslim_center_target.GetName]„vÍ‘‰'`åeÊvžX RÿgÈuüRôÙµ^ÎW^«ˆ²‹:N=fNWSšNFz¯e—gg×S0kÎ„vîv„v0W0[ME_MSA_muslim_center_target.GetName]°s(WYŽNªR™l‰v RÉbFz¯e—g>y:S„vMR¿l0"
+ ME_Malaya_Events.71.a: "‹Yˆmo`ÿ"
+ 
+ ME_Malaya_Events.72.t: "O¯epQ„v%`gRpˆK„"
+ ME_Malaya_Events.72.d: "1uŽNå‹0W:SvQÖNýV¶R„v?eVrÿFz¯e—gVËY1Y»S5–0WÿþfÏuèlšR‰ŒRhQlØS:NFz¯e—g„v0W:S°s(WàQNN«ˆFz¯e—g?eCgNbµc6R0(WÙ7h„v¯sƒXNÿˆVS	gFz¯e—gÅeLˆwó`‰(Wlšeg²NfÿÖNìNôf?aa(WvQÖN0W¹eûRŒb0ÌR0"
+ ME_Malaya_Events.72.a: "‹Y„v0"
+ 
+ ME_Malaya_Events.73.t: "Fz¯e—gb`Y5–0W"
+ ME_Malaya_Events.73.d: "¸‹YºN²‹:NÙ=fNïSýw„vÿFOå‹0W:S„vO¯epQ?eCg¾‹ÕlÛLˆ†NN!k'YÍSûQÿÍ‘°eµc6R†N¸‹YsQ.•ÎW^ÿv^Q!k:NNWSšN„vO¯epQ.O­dR.†N^–„v¯sƒX0ÙàQNNïSåN¯wšRÙ=fN*N0W:S'`„v‹NöN0"
+ ME_Malaya_Events.73.a: "z˜vQê6q0"
+ 
+ ME_Malaya_Events.74.t: "Fz¯e—g-NÃV«ˆVgÿ"
+ ME_Malaya_Events.74.d: "lšeg„v›Q–ÏPN²Î‘irN7h-^wS†NÙµ^ÎW^0'YèRÎW^òTÏu«ˆ c:YNzzÿw1uYýV¿R›Rµc6R„vwýNïSýwNQýwYjO:NlšegFz¯e—g-NÃV„vîv„v0Ý‹‹†‚Ydkÿ'YYpeFz¯e—g°s(WýMRŽV[ME_MSA_new_center.GetName]0"
+ ME_Malaya_Events.74.a: "O¯epQØS—VŠegŠ1V0"
+ 
+ ME_Malaya_Events.76.t: "O¯epQ„v.O­d"
+ ME_Malaya_Events.76.d: "O¯epQYe.O­d0R†N[Root.GetName]ÿå‹w„vFz¯e—g>y:SòTÏu…Ç†NSV0WºNãSÿ°s(Wå‹wïSåN«ˆ²‹:N=f[Root.Religion.GetName]0"
+ ME_Malaya_Events.76.a: "‹Y'T0"
+ 
+ ME_Malaya_Events.77.t: "—RYeípÅ` - úWcwYe"
+ ME_Malaya_Events.77.d: "úWcwYe(WbìN„v0W:SòTÏu.O­d†NNµköeô•ÿòTÏulØS†N¸‹YŸSËYáOðN„vºNl0ÊN)Yÿ.OYeëXeg0RTIN,gºN±Ì‘ÿûRBlÖN„vlØS0"
+ ME_Malaya_Events.77.a: "bïSåNw0Rjo›R..."
+ ME_Malaya_Events.77.b: "ŠbÖNìNp0"
+ 
+ ME_Malaya_Events.78.t: "NŸSOOlŒTŒ"
+ ME_Malaya_Events.78.d: "bìN„všRESwòTÏuN[MSA_province.GetName]„vŸSOOlŒTŒøvYÿbìNck(WšRESÙGrW0W0KNMRšRES„vW0WÜ»y[Root.GetName]„vµc6RÿàV:N¡l	g	gHe„v?eœ^egLˆOùRW0W„vµc6R0"
+ ME_Malaya_Events.78.a: "*YÒh†Nÿ"
+ 
+ ME_Malaya_Events.79.t: "šRES›SS"
+ ME_Malaya_Events.79.d: "1VS„vSV0W?eCgàeÕlùR[MSA_province.GetName]„vW0WLˆOûNUOµc6R0(WVg†NhT¹'YèR0W:SKNTÿ=föeP>mcbìN„všRESwÿŒTs^0W:YÖSùRå‹w„vTINµc6RCg0"
+ ME_Malaya_Events.79.a: "v`Òk0WäNºN	aëVÿ"
+ 
+ #ME_Malaya_Events.80 hidden
+ 
+ ME_Malaya_Events.81.t: "Ðc›O=ec"
+ ME_Malaya_Events.81.d: "bìN(W^N0W:S„v>y:Sck(WÏu†SÍ‘'Y¨RaƒÿÙI–x†NƒR„vÑSUS0‚YœgbìNó`ÝOcÖNìN„vbŸRÿbìNSN—VN>mcN›NbìN„v˜RXT0"
+ ME_Malaya_Events.81.a: "±bìN1SÙHNZP'Tÿ"
+ ME_Malaya_Events.81.b: "jm9öeô•0"
+ 
+ ME_Malaya_Events.82.t: ":ON4lKb"
+ ME_Malaya_Events.82.d: "ŸqÃu„v*‚wmwÿ^Nlšeg²Nfw>y:SàVvQúQr‚„v*‚wmýw›Rw×S0R^‰Š0KS¡r‚YdkÿN9‚„vºNf>fN³ÿÙÏQ†NÖNìN>y:S„vÑSUS0bìN”^å‹N›NbìN„v4lKbTÿ"
+ ME_Malaya_Events.82.a: "bìNïSåNËbúQN›N0"
+ ME_Malaya_Events.82.b: "bìN—‰ÖNìN(Wb‰N-Nÿ"
+ 
+ ME_Malaya_Events.83.t: "0?eðVƒX"
+ ME_Malaya_Events.83.d: "(W^NbËz„vlQøSîvMRckYŽN%NÍ‘„vÏuNmpˆ-N0‚YœgbìNýw‚‚wN›NbìN„vDnÿmN¸‹bìNïSåNïbQeÖNìNMQŽNÁkmp0"
+ ME_Malaya_Events.83.a: "SV6qÿbìNÙHNZP'T0"
+ ME_Malaya_Events.83.b: ",TwegN=f*N‹YINa0"
+ 
+ ME_Malaya_Events.84.t: ">y:Sw–eQŸ^ŸX"
+ ME_Malaya_Events.84.d: "SV0W?eœ^³QšRSbûQ>y:S„vÏuNmIm¨R0‚YœgbìNNÅ0œg­eŒT„˜2–'`0WÇ‘ÖSLˆ¨Rÿ>y:S¯wšRO'YE^¦^)S0"
+ ME_Malaya_Events.84.a: "bìNàeÕlbÅbr^„˜„vãN÷N0"
+ ME_Malaya_Events.84.b: "ÙïSýw‰±‚9bìNˆVYÿFObìNÅV‰˜r^„˜0"
+ 
+ #ME_Malaya_Events.85.t: ""
+ #ME_Malaya_Events.85.d: ""
+ #ME_Malaya_Events.85.a: ""
+ #ME_Malaya_Events.85.b: ""
+ 
+ ME_Malaya_Events.86.t: "bìNO'Y„vWµN"
+ ME_Malaya_Events.86.d: "bìN=fN*Nú^¾‹w„v‡ef0bìN„vVyHQú^.†N‚YdkO'Y„vú^Qrÿ‚YnfpQôTWSŒTâlWnm`SúR0bìN:NiON–ŒTvQÖN^yGyú^.†N¸‹YªuõV‘x0bìNú^.†NO'Y„v1W0WÿÏu×S†Nöeô•„vwŒš0"
+ ME_Malaya_Events.86.a: "bìNS:NbìN„v‰Lqa0RêjŒ0"
+ ME_Malaya_Events.86.b: "bìN‡ef„vWµNSØS—Vôf RROÿ"
+ 
+ ME_Malaya_Events.87.t: "°ejOir"
+ ME_Malaya_Events.87.d: "bìNòTÏu	éb†NjOirÿFO°s(WbìNb—4NNwN*NNT„vðVƒX0bìN—‰	ébN*NwýNegÍyiÙ›NjOir0"
+ ME_Malaya_Events.87.a: "©‹bìN	éb[Malaya_target_1.GetName]0"
+ ME_Malaya_Events.87.b: "[Malaya_target_2.GetName]=f>fwfÁ‰„v	éb0"
+ ME_Malaya_Events.87.c: "[Malaya_target_3.GetName]ÅV‰˜«ˆ	éb0"
+ ME_Malaya_Events.87.e: "êS	g	éb[Malaya_target_4.GetName]ÿbìNMbýwnxÝOg'Y„v)R¦m0"
+ ME_Malaya_Events.87.f: "bó`w0RƒR(W[Malaya_target_5.GetName]ŒRb0"
+ ME_Malaya_Events.87.g: "bNœU0kÙ›N	y˜-N„vûNUON*Nÿ"
+ 
+ ME_Malaya_Events.88.t: "	ébjOir"
+ ME_Malaya_Events.88.d: "	gºNÐc®‹SNÍyYegjOirVeQbìN„v›SS0KS¡r‚YdkÿsQŽN”^å‹ÍyiÀNHNjOiråNÊS”^å‹(WêT*N›SSNÍyiØ¡l	g¾bqQÆ‹0"
+ ME_Malaya_Events.88.a: "©‹bìNÍyiïSïS0"
+ ME_Malaya_Events.88.b: "–TaUS:NbìN&^eg)R¦m0"
+ 
+ MSA_religion_not_respected: "—RYeN×SSÍ‘"
+ MSA_religion_respected: "—RYe×SSÍ‘"
+ MSA_insulting_modifier: "®O±'``¦^"
+ MSA_in_defiance_modifier: "Ý—b-NýV"
+ MSA_neutral_modifier: "-NËz"
+ MSA_swayed_modifier: "×S-NýVqVÍT"
+ MSA_loyalty_modifier: "ÝuùRàVÚ‹"
+ MSA_free_trade: "ê1u8f"
+ MSA_lowered_taxes: "M–NOz6e"
+ MSA_treasure_fleet: "R9‚–"
+ MSA_form_of_defence: "2–¡VbVV"
+ MSA_giving_up_ports: ">eV=nãSÙuYýV^ýV"
+ MSA_losing_wealth: "FUºN«ˆvp"
+ MSA_peaceful_ways: "ŒTs^¡‹R"
+ MSA_islamic_learning: "^yfR¶R-NÃV"
+ MSA_adhering_to_the_origins: "ZWcwn"
+ MSA_oldest_site: "NWSšNgäSw„vO¯epQWNW"
+ MSA_syncretism: "üuTININ"
+ MSA_jawi_script: "*r7Y‡e"
+ MSA_jawi_script_2: "*r7Y‡e"
+ MSA_malay_annals: "lšegt^òS"
+ MSA_studying_the_scripts: "xvz1W?z"
+ MSA_sword_of_islam: "O¯epQKNQR"
+ MSA_propagation_of_faith: ".O­dáOðN"
+ MSA_high_piety: "ckßu¹eÕl"
+ MSA_low_piety: "^yØy¹eÕl"
+ MSA_pilgrims: "lšeg„vg1Ww"
+ MSA_pilgrim_routes_protected: "g1Wï¿u×S0RÝO²b"
+ desc_MSA_pilgrim_routes_protected: ""
+ MSA_religious_minority: "—RYeSpe>m"
+ MSA_scholarly_practices: "fR=gžRõ"
+ MSA_innovations: "wm›QR°e"
+ MSA_masterful_spice: "¾|™™™euµN"
+ MSA_capitalization_of_goods: "D,gSê	gFUÁT"
+ MSA_capitalization_of_goods_2: "D,gSê	gFUÁT"
+ MSA_cornerstone_of_our_nation: "bìNýV¶R„vúWów"
+ MSA_cornerstone_of_our_nation_2: "bìNýV¶R„vúWów"
+ MSA_mastery_of_the_trade: "¾|8f"
+ MSA_mastery_of_the_trade_2: "¾|8f"
+ MSA_muslim_center: "Fz¯e—g-NÃV"
+ MSA_shipyard_building: "SV0W.9‚‚S"
+ desc_MSA_shipyard_building: ""
+ MSA_strait_of_malaya: "lšegwm¸S"
+ MSA_malay_ports: "ªR™l‰v RÉb=nãS"
+ MSA_native_node: ",gWwmáS"
+ MSA_indian_entrepot: "pS¦^8f-NÃV"
+ MSA_great_trading_city: "O'Y„v8fÎW^"
+ MSA_onset_of_modern_trade_modifier: "°sãN8f„vVïz"
+ MSA_foreign_trade_power: "(WeÜ„v=nãS"
+ MSA_stable_currency: "3zšR'^&^eg²Nf"
+ MSA_excellent_incense: "O(™™"
+ MSA_renowned_wood: "åwT„v(gåT"
+ MSA_shipbuilding: "(uŽN.9‚„v(gPg"
+ MSA_gold_production: "ùRlx^„v—Bl"
+ MSA_new_frontiers: "°e¹†uÿ°eºNÿ°e:gG"
+ MSA_fellow_cham: "`SÏeTÞw"
+ MSA_entrepot_of_malaya: "lšeg„v8f-NÃV"
+ MSA_spice_islands_modifier: "™™™e²›S"
+ MSA_nation_of_seafarers: "*‚wmýV¶R"
+ MSA_legacy_of_the_hindu_empire: "pS¦^Ye^ýV„vWµN"
+ MSA_conqueror_of_the_khmer_empire: "VgØšÉh^ýV"
+ MSA_spice_introduction: "ÎNlšegVÛ„v™™™ejOir"
+ MSA_spice_trade: "™™™e8f"
+ MSA_offensive_focus: "ÛIe&q¹p"
+ MSA_defensive_focus: "2–¡V&q¹p"
+ MSA_balanced_focus: "s^aˆ&q¹p"
+ MSA_great_merchant_fleet_modifier: "O'Y„vFU9‚–"
+ MSA_china_defeated: "N¹eèTºN«ˆûQ%"
+ MSA_against_a_million_elephants: "ùR—bŒvN'YaŒ"
+ MSA_land_of_gold: "JS›S«ˆVg"
+ MSA_malaya_unified: "ªR™l‰v RÉb„vW0WßuN"
+ MSA_foremost_servant_of_shiva: "nFZ„v–™‰ÆNºN"
+ MSA_christian_community: "úWcwYe>y:S"
+ MSA_valour_of_hang_nadim: "Hang Nadim„vñ‚ÇR"
+ MSA_blood_of_sang_sapurba: "Sang Sapurba„vNˆ²m(WbìN„vNˆ¡r-N"
+ MSA_partners_in_the_spice_trade: "™™™e8f„vO4O"
+ MSA_great_power_diplomacy: "'YýVY²N"
+ MSA_colonial_thought: "VyHQ„v|T2U"
+ MSA_birthplace_of_malayan_printing: "lšegpS7R„vÑSn0W"
+ MSA_sanskrit: "µh‡epS7R"
+ MSA_jawi: "*r7Y‡epS7R"
+ MSA_latin: "ÉbN‡epS7R"
+ MSA_concession_guard: "yr¸‹f‹kS"
+ MSA_concession_trade_efficiency: "yr¸‹ìr¶RCg)R"
+ MSA_benefits: "lšeg©‹ek"
+ MSA_bruneian_thalassocracy_distrubed: "‡e±ƒwmm8—Cg×S0Rr^pb"
+ MSA_island_of_iron: "Á”›S"
+ MSA_majapahit_defeated: "»ž±UôTGk«ˆûQ%"
+ MSA_strait_secured: "wmáS‰RhQ"
+ MSA_nation_of_malays: "lšegýV¶R"
+ MSA_trading_in_tea: "(WÑ‘r‚n™™e-N²Nf"
+ MSA_economic_zone: "ÏuNm:S"
+ MSA_residence_of_chakravarti: "ågKQÉbæt‚„„vOONb"
+ MSA_new_laws: "°eÕl‹V"
+ MSA_managing_the_nobles: "¡rt5Ïe"
+ MSA_fleet_that_will_topple_enemies: "S¨cûLeºN„v0‚–"
+ MSA_faithful_needs: "áO’V—Bl—V0Rán³"
+ MSA_converting_the_commons: "lØSs^l"
+ MSA_porch_of_mecca_modifier: "¦ž R„vè•Ê^"
+ MSA_propagating: "(WÜN.OYe"
+ MSA_pranidhana: "Pranidhana - TINìS2UHywy"
+ MSA_enlightened_advice: "=Têú^®‹"
+ MSA_devaraja_modifier: "Devaraja - ckINßu»lw"
+ MSA_holy_sites_of_hindu: "pS¦^Ye1W0W"
+ MSA_holy_sites_of_hindu_2: "pS¦^Ye1W0W"
+ MSA_candi_shrines: "Í‘QXNWê^y™^"
+ MSA_great_project: "O'Yy˜îvWµN"
+ MSA_great_project_2a: "O'Yy˜îvWµN"
+ MSA_great_project_2b: "O'Yy˜îvWµN"
+ MSA_army_innovation_modifier: "›QYÞzi"
+ MSA_navy_innovation_modifier: "wm›QÛek"
+ MSA_foreign_investment_modifier: "•bD"
+ MSA_mercenary_investment_modifier: "YýVÇ–cOuQ"
+ MSA_enhanced_spice_production: "^©RÍyiíV"
+ MSA_mastery_of_the_coin_modifier: "'^Œcác"
+ MSA_trade_negotiatons_modifier: "¾b²Nf"
+ MSA_high_seas: "lQwm0‚–"
+ MSA_perma_institution: "N'k2mºNs^ws^PW"
+ MSA_10_morale_against_colonizers: "N–klwb‰N"
+ MSA_securing_resources: "VÑS0ÌR"
+ MSA_keeping_colonizers_off: "©‹–klwÜ»y"
+ MSA_indian_ocean: "pS¦^m„vINCg"
+ MSA_malayan_empire: "lšeg^ýV"
+ MSA_anti_colonizer_alliance: "qQTÍSùR–klS"
+ MSA_power_on_the_rise: "Tw„v'YýV"
+ MSA_malay_community: "lšeg>y:S"
+ MSA_rerouted_merchants: "egêN^—„vFUºN"
+ MSA_fear: "bìNVÑSP`ç`"
+ MSA_rallied_against_colonizers: "âVÓuùR—b–klw"
+ MSA_army_reward: "F–0W8—Cg"
+ MSA_navy_reward: "wmm8—Cg"
+ MSA_hub_of_islam: "O¯epQ„v-NÃV"
+ MSA_hindu_comes_back: "pS¦^S‹sýVwSWÍ‘eg"
+ MSA_vijaya_strikes: "²R)RiOSbûQNáOw"
+ MSA_splendor: "bìN„vªuõV‘xSÏu×Söeô•„vwŒš"
+ MSA_buddhist_syncretism: "iOYeüuTININ"
+ MSA_legalism_enforced: "ckßu¹eÕl"
+ MSA_foreign_trade_power: "‰¹eqVÍT"
+ MSA_foreign_embassies: "YýV'YO†™"
+ MSA_coffee: "ÛãS–TaU"
+ MSA_restricted_trade: "P–6R8f"
+ 
+ Malaya_china_var: "ùR-NýVºN„vwÕl"
+ MSA_current_bonus: "SVMRÎN-NýV`¦^·ƒ—V„vVY±Rÿ"
+ MSA_bonus_will_change: "SO9eØS:Nÿ"
+ MSA_bonus_no_change: "NO	gûNUOØSS0"
+ MSA_the_chinese_will_stay: "-NýVºNSQjPYuNµköeô•0"
+ MSA_our_neighboring_countries: "§Y-NýVÜV–§!ˆVïSýwO‰BlbìN»ýVÛLˆ›Q‹Nr^„˜ÿÙuˆNÖNìNùRbìN„v§YVbt1u§!ŒT§Y±Rðy§!0"
+ MSA_chinese_expedition_help: "‹NöN-N„v-NýV`¦^åTwQÐc:y=f[Root.GetTooltipStatus]\n\nSVMR§YùR-NýVºN„vwÕl§!=f[Root.Malaya_china_var.GetValue]\nåNN=fNT§Y`¦^§!„vVY±Rÿ"
+ MSA_absolutely_loyal_tt: "§MÝuùRàVÚ‹§!ÿ80-100	ÿÿ"
+ MSA_swayed_tt: "§M×SqVÍT§!ÿ60-79	ÿÿ"
+ MSA_neutral_tt: "§M-NËz§!ÿ40-59	ÿÿ"
+ MSA_in_defiance_tt: "§MÍS—b§!ÿ20-39	ÿÿ"
+ MSA_insulting_tt: "§M®O±§!ÿ0-20	ÿÿ"
+ 
+ MSA_enabled: "§G=T(u§!" # *gûm Rÿ
+ MSA_disabled: "§Ry(u§!" # *gûm Rÿ
+ MSA_gain_cb_to_install: "·ƒ—V'§YgbLˆ-NýV‰Bl§!'Vbt1uÿAQ¸‹bìN9eØS§YîvhýV¶R§!„v?eœ^‰|‹W0"
+ MSA_is_taken_into_custody: "§Y[Root.Monarch.GetName]§!«ˆ§Y-NýVÜV–§!ØbYu0ÖNìNSMRŽV-NýVÿv^N(WÜVÓumgTïSýwOÔÞV0"
+ MSA_sumatra_tax_building: "ûNUO(W§YÏ‚è•TrJ§!„vwýNý	gNµ^§YnwúR§!bNµ^§Y'YnwúR§!0"
+ MSA_malay_tax_building: "ûNUO(W§YlšegJS›S§!„vwýNý	gNµ^§YnwúR§!bNµ^§Y'YnwúR§!0"
+ MSA_expedition: "bìN„v4lKbSèŠWSmVËYN!kÜV0SV0WýV¶RNbìN„vY²N˜Rã‰³QÖNìN„v‹N¡RïSýw—‰•¾2Nt^„vöeô•0"
+ # 9hnc*‚Lˆ„vbŸRz¦^ÿbìNïSýwO·ƒ—VÎNCg›R•bS0R°e„vãlÿuó=f^ýV‹sMO„vûNUON‰0(W*‚Lˆgô•ÿbìNS·ƒ—VƒS„vY²N¹ppeÿbìN„v4lKbS^—8^ÙVŒx0*gžR°s
+ MSA_if_we_have_theologian: "[Root.MalayaHasTheologian]‚YœgbìN	gNT§Y^yfR¶R§!Œ˜î•ÿ"
+ MSA_if_we_have_naval_commander: "[Root.MalayaHasNavalReformer]‚YœgbìN	gNT§Ywm›Q9ei—w§!Œ˜î•ÿ"
+ MSA_if_we_are_hindu: "‚YœgbìN=f§YpS¦^Ye§!—RYeâVSOÿ"
+ MSA_completed_by_legalism: "§YVY±R§!‚YœgûN¡RÇ§Mckßu§!ŒRbÿ"
+ MSA_completed_by_mysticism: "§YVY±R§!‚YœgûN¡RÇ§M^yØyININ§!ŒRbÿ"
+ MSA_completed_by_propagation: "§YVY±R§!‚YœgûN¡RÇ§M.O­dŒTwýNlS§!ŒRbÿ"
+ MSA_completed_by_force_conversion: "§YVY±R§!‚YœgûN¡RÇ§M:V6RlS§!ŒRbÿ"
+ MSA_completed_by_alliance: "§YVY±R§!‚YœgûN¡RÇ§MTwßv§!ŒRbÿ"
+ MSA_completed_by_conquest: "§YVY±R§!‚YœgûN¡RÇ§MVg§!ŒRbÿ"
+ MSA_completed_by_forcelimit: "§YVY±R§!‚YœgûN¡RÇ§M›Q–Ä‰!j§!ŒRbÿ"
+ MSA_completed_by_fortification: "§YVY±R§!‚YœgûN¡RÇ§M¾‹2–§!ŒRbÿ"
+ MSA_completed_by_both: "§YVY±R§!‚YœgûN¡RÇ§M2N*Næ‰ÑSagöN§!ŒRbÿ"
+ MSA_has_invited_foreign_scholar: "òTŽ÷‹NMOFz¯e—g§YfRw§!0"
+ MSA_modify_jawi_script_by: "îO9e§Y*r7Y‡e§!îOck<Pÿ\nLˆ?eŽb=gb,g§G-5.0%§!"
+ MSA_decision_is_enabled: "§YRbct^òS&q¹p§!³QšRòT=T(uÿïS(WûNUOöeP§YRbc§!&q¹p0"
+ MSA_propagating_in_a_trade_node: "òT(WûNUO§Y8f‚‚¹p§!=T(u§Y.O­d—RYe§!8f?eVr0"
+ MSA_owns_or_is_allied_to_owner: "§Yåb	g§!bNûNUOzúQ>f:ywýN„v§YNb	gw§!§YÓußv§!0"
+ MSA_every_owner: "zúQ>f:y„v§YwýN§!„v§YNb	gw§!ÿ"
+ MSA_from_spice_production: "egê§G5§!t^„v§Y™™™e§!ŒT§YN™™§!uµN0\n"
+ MSA_from_wood_production: "egê§G5§!t^„v§Yíp&^(gPg§!ŒT§Y™™§!uµN0\n"
+ MSA_every_province_producing_spices: "Ïk*Nåb	g§Y6R.‚S§!ŒT§YuµNú^Qr§!„vwýNÿ‚YœguµN§Y™™™e§!b§YN™™§!ÿ"
+ MSA_modify_capitalization_of_goods_by: "îO9e§YD,gSê	gFUÁT§!Ç\n§G+5.0%§!uµNHe‡s\n§G+5.0%§!ýV…Q8f›RÏ‘"
+ MSA_modify_cornerstone_of_our_nation: "îO9e§YbìNýV¶R„vúWów§!Ç\n§G+5.0%§!8fHe‡s\n§G+25.0%§!8fƒôVîOck"
+ MSA_merge_two_trade_modifiers: "Tv^§YbìNýV¶R„vúWów§!ŒT§YD,gSê	gFUÁT§!:N§Y¾|8f§!v^îO9eƒRÇ\n§G-25.0%§!Í‘FUININb,g\n§G+5.0%§!8fHe‡s"
+ MSA_modify_mastery_of_the_trade: "îO9e§Y¾|8f§!Ç\n§G+10.0%§!8fcüR\n"
+ MSA_if_we_were_insulting: "[Root.ChineseExpeditionInsulting]‚YœgbìNùR-NýVÜV–„v`¦^=f§M®O±§!b§MÍS—b§!ÿ"
+ MSA_if_we_were_loyal: "[Root.ChineseExpeditionSwayed]‚YœgbìNùR-NýVÜV–„v`¦^=f§M×S-NýVqVÍT§!b§MÝuùRàVÚ‹§!ÿ"
+ MSA_tooltip: "§Mf‹JT!§!\n‚Yœg§Y[Root.GetName]§!NýwUS°svQ‰LqÿÙ*NîOck<PïSýwO×S0Rcb0dkYÿ‚YœgÙ*NwýN«ˆ§Y^—Fz¯e—g§!¿R›RVgÿïSýwOJR1VSV0W„v§YFz¯e—g§!?eCg0"
+ MSA_every_area_with_a_shipyard: "Ïk*Nåb	g§Y.9‚‚S§!ú^Qr„v0W:Sÿ"
+ MSA_every_trade_node_in_range: "(WbìN§Y8fƒôV§!…Q„vÏk*N§Y8f‚‚¹p§!·ƒ—V§G10§!8f›RÏ‘0(WbìN	g§YImÃFUºN§!„v‚‚¹p-N˜Y·ƒ—V§G15§!8f›RÏ‘0Ù›N§Y8f›RÏ‘§!Scíu§G15§!t^0"
+ MSA_travelling_merchant: "ã‰•£dip£Œ˜î•‰|‹W'§YLˆFU§!'ÿƒRKˆNÿ\nhQt8f›RÏ‘ÿ§G+10.0%§!\n"
+ MSA_random_province_in_malacca_trade_node: "(W§YlšmQ2u§!8f‚‚¹p-N–:gåb	g„v§Y8f-NÃV§!ÿ"
+ MSA_every_state_with_trigger: "Ïk*Nåb	gán³‰Bl„v§YwýN§!„våb	g¶r`·ƒ—V§G25§!Aucƒ¦^0\n"
+ MSA_every_such_province: "Ïk*Nán³‰Bl„våb	gwýNS:NvQ§Y8f‚‚¹p§!Ðc›O§G10§!8f›RÏ‘ÿcíu§G25§!t^0\n"
+ MSA_every_province_with_gold_or_silver: "Ïk*Nåb	g[Root.GoldString]„våb	gwýNÿ"
+ MSA_gold: "§YÄžÑ‘§!"
+ MSA_bypass_requirements: "‚YœgbìNS*gŒRb'§YÄžÑ‘KNn§!'ûN¡RÿÙSAQ¸‹bìN§YÕuÇ§!vQ‰Bl0"
+ MSA_random_province_fulfilling_the_requirements: "–:gwýNán³‰Blÿ"
+ MSA_distribute_5_base_tax_and_5_base_production: "(WbìNuµN§Y™™™e§!„vwýN-NRM‘5*N§YúWNxz6e§!ŒT5*N§YúWNxuµN§!0"
+ MSA_events_will_gradually_fire_to_colonize_the_rest_of_phillipines: "§Y‹NöN§!Snæ‰ÑSÿåN–kliRYO„v§Yòƒ‹V¾R§!0"
+ MSA_interacting: "§Mlšeg-^N>y:S§!S:NbìNÐc›O˜Y„v§Y8fFUÁT§!ÿv^žX RSV0W„v§Y8f÷N<P§!0wQSO„v‹YYÖS³QŽNbìNNÖNìN„v§Y’N¨R§!ÿÙïSåNÇ§Y‹NöN§!ÑSu0\n\n§Mlšeg-^N>y:S§!(W§Y8f0WþV!jV§!-NÇ§YwýNîOckhV§!>f:yÿïSýwO9hncbìN„vLˆ¨RžX•b)S0"
+ MSA_defeated_emperor_of_china: "òT(WùR—bSVMR§Y-NýV‡v^§!„vb‰N-N·ƒÜwÿ"
+ MSA_europe_no: "ÙSùRbìNýV¶R„v*gegµNuñmÜqVÍT0\n\n	ébÙ*N	y˜ÿbìNSã‰•§YùR–klw„vLea§!ï„VÿNèlŽNS'k2mºNvúQbìN„v,gW†˜Wÿb:NN*N:V'Y0ìrËz„v^ýV0\n\n§Mèlaÿ§!dkÍdjOTíuàeÕlôf9eÿ\n\ndkYÿÙS'Y'YÏQ§YúWcwYe.O­d§!‹NöNþ”0"
+ MSA_europe_yes: "ÙSùRbìNýV¶R„v*gegµNuñmÜqVÍT0\n\n	ébÙ*N	y˜ÿbìNSã‰•§YN'k2m8f§!ï„VÿNèlŽN0kÎ'k2mFUºNÿVeQYýVD,gÛeQýV¶Rÿv^án³åeÊvžX•„v—Bl0\n\n§Mèlaÿ§!dkÍdjOTíuàeÕlôf9eÿ"
+ MSA_spread_of_christianity_slow: "§YúWcwYe.O­d§!SˆVëVjPbk0"
+ MSA_spread_of_christianity_will_continue: "§YúWcwYe.O­d§!Sçuíuÿv^NÙ*N	y˜S:N*gegïSýw„v§YlØS§!SbVïSýw'`0"
+ MSA_the_european_nations: "bìNNKNÓußv„v§Y'k2mýV¶R§!SùRbýVµNu§YqVÍT§!ÿv^ÎN-N·ƒÊv0"
+ MSA_every_country_we_allied_with: "bìNNKNÓußv„v§Y'k2m§!ýV¶Rÿ"
+ MSA_province_fulfilling_the_triggers: "–:gåb	g„vwýNán³§Y‰Bl§!ÿ"
+ MSA_foreign_investment: "=T(u§YYýV•bD§!:g6RÿbìNïSåNÇZPúQ§Y©‹ek§!egbcÖS§YÞV¥b§!0\n\n`OïSåNÇ§Y³QVr§!Lub—NKN’N¨R0"
+ MSA_if_we_are_muslim: "‚YœgbìN=f§YFz¯e—g§!—RYeâVSOÿ"
+ MSA_random_partner: "–:g'k2m–klwÿ"
+ MSA_foreign_investment_amount: "YýVR—Pw"
+ MSA_if_brahmans: "‚Yœg§YFZWè•§!óS	g§G60§!àVÚ‹¦^ÿ·ƒ—V§G+1§!§Y3zšR'`§!b§G50§!§YLˆ?e§!›RÏ‘0" # *gûm Rÿ
+ MSA_if_brahmans_are_loyal: "‚Yœg§YFZWè•§!óS	g§G60§!àVÚ‹¦^ÿ"
+ MSA_average_autonomy: "‚Yœg§Y0W¹eê»lØšŽNgNO<P§!NOŽN§G33.3%§!ÿS·ƒ—VdkîOck<Pÿ" # *gûm Rÿ
+ MSA_noone_is_eclipsing: "§YFz¯e—g-NÃV§!„v0WMOîvMR¡l	g×S0Rcb0"
+ MSA_tooltip_being_contested: "§Y[ME_MSA_muslim_center_target.GetName]§!„v§YFz¯e—g-NÃV§!0WMOck×S0R§Y[ME_MSA_muslim_center_target_rival.Owner.GetName]§!„vcbÿvQwýN§Y[ME_MSA_muslim_center_target_rival.GetName]§!Sb:N°e„v§YFz¯e—g-NÃV§!ÿ‚Yœg§Y[ME_MSA_muslim_center_target.Owner.GetName]§!Nýw(W5t^gô•ÇÖNìN„v³QšRegO6RƒR0"
+ MSA_tooltip_contest_curtailed: "§Y[ME_MSA_muslim_center_target.GetName]§!„v§YFz¯e—g-NÃV§!0WMOòT·ƒÝOœ–0§Y[ME_MSA_muslim_center_target_rival.GetName]§!NQ	g³Y„vðXg0"
+ MSA_tooltip_muslims_losing_ground: "(W§YpS¦^<S‰šN§!ŒT§Ylšeg§!0W:S1u§YFz¯e—g§!ýV¶Rµc6R„vwýNpeÏ‘òTÏQS0RN³§Y25§!*N0§YFz¯e—g-NÃV§!îOck<PòT«ˆûyd–ÿôv0R§YFz¯e—g§!ýV¶Rb`YóSùR§Y30§!*NwýN„vµc6RCg0"
+ MSA_accepted_culture_malay: "Ïk*Nåb	g§Y«ˆ¥c×S‡eS§!„vwýNÿ‚Yœg^SŽN§Ylšeg§!‡eSÆ–âVÿ"
+ MSA_converted: "§Y[Root.GetName]§!òTlØS:N§YO¯epQYe§!0\n\nÙ=f§YO¯epQYe.O­d§!‹NöN„vÓuœgÿïSåNÇ§Y»ž±UôTGk§!b§YpS¦^Yelšeg§!ûN¡RÿbÇ'§YP–6R8f§!'³QšR[Root.Owner.GetDecisionStatusForSpreadOfIslam]egy(u0"
+ MSA_which_has: "°s(WòTïS›OO(u"
+ MSA_events_for_missing_provs: "§Y‹NöN§!Sæ‰ÑSÿåN–kl§YFZW2m§!0§YÏ‚è•TrJ§!0§YÏ‚ÉbZ‰§!ŒT§Y[2684.GetName]§!0§Y[2683.GetName]§!0§Y[2679.GetName]§!0§Y[2693.GetName]§!ŒT§Y[632.GetName]§!Ir›SS0"
+ MSA_completed_people_of_nusantara_mission: "òTŒRb'§YªR™l‰v RÉbºNl§!'ûN¡R0"
+ MSA_coffee_event_happened: "'§Y–TaUiir.O­d§!'‹NöNòTÑSu0"
+ MSA_admiral_1_manueverpip: "§Ywm›QNS§!S·ƒ—VN*N˜Y„v§Y:g¨R§!¡r0"
+ MSA_for_every_center_of_trade_with_a_marketplace: "Ïkåb	gN*N&^	g§Y8f§!ú^Qr„v§Y8f-NÃV§!ÿ·ƒ—V§G5.00§!§Y?eœ^9ei—Û¦^§!ÿgY(W§Y15§!*NwýN·ƒ—V§G75.00§!0"
+ MSA_every_province_with_temple: "Ïk*Nåb	g§Yz6e§!ú^Qr„v§Yåb	g§!wýNÿ"
+ MSA_is_not_malacca_nor_moluccas_nor_philippines: "N=f§YlšmQ2u§!0§Yidž R²›S§!b§Yòƒ‹V¾R§!8f‚‚¹p0"
+ MSA_convert_25_provinces: "óSòT§YlØS§!†N§Y25§!*NwýN0"
+ MSA_converted_3_provinces: "óSòT§YlØS§!†N§Y3§!*NwýN0"
+ MSA_requirement_for_spreading: "§Y.O­d—RYe§!8f?eVrNb—„v§Y8fýN˜§!M–NOó§Y35.0%§!0"
+ MSA_at_least_90_or_minus_90_piety: "SVbìN„v§M-90.0§!§YT†Ú‹¦^§!bôfSöeÿbìNS·ƒ—V§YüuTžRõ§!ÿ\n§G-2.00§!ýV¶RN‰R\nSVbìN	g§M90.0§!§YT†Ú‹¦^§!bôfYöeÿbìNS·ƒ—V§YO¯epQKN0WibUS§!ÿ\nLNt›sàVÚ‹s^aˆ§G+10.0%§!"
+ MSA_gain_a_theologian: "·ƒ—VN*NÇ–cOb,gM–NO§G-75.0%§!„v3µu§Y^yfR¶R§!ÿwnŽNbìNßvËS„v§YpS¦^Ye§!ýV¶R„vwýNKNN0"
+ MSA_every_Hindu_province: "Ïk*Nåb	g„v§YpS¦^Ye§!wýN·ƒ—V§G-10.0%§!0W¹eê»l0"
+ MSA_unlock_hindu_propagation: "êS‰bìNÝOc§YpS¦^Ye§!—RYeâVSOÿ1Sã‰•§Y.O­d—RYe§!8f?eVr0"
+ MSA_less_than_10_provinces: "(W§Ylšeg§!ŒT§YpS¦^<S‰šN§!0W:S1u§YFz¯e—g§!ýV¶Råb	g„vwýNSŽN§Y10§!*N0"
+ MSA_every_tax_building_province: "Ïk*Nåb	g§Yz6e§!ú^Qrv^NáOðN§Y[Root.Religion.GetName]§!„våb	gwýN·ƒ—V§G+25.0%§!Aucƒ¦^0"
+ MSA_if_we_have_more_army_tradition: "§YûN¡RVY±R§!‚YœgbìNåb	gôfY„v§MF–›Q.Oßu§!wN=f§Ywm›Q.Oßu§!ÿ"
+ MSA_if_we_have_more_navy_tradition: "§YûN¡RVY±R§!‚YœgbìNåb	gôfY„v§Mwm›Q.Oßu§!wN=f§YF–›Q.Oßu§!ÿ"
+ MSA_invest_in_production: "ã‰•§Y™™™e•bD§!YýV÷‹BlÿAQ¸‹bìN(WuµN[Root.MSAListSpices]„vwýN·ƒ—VåNNîOck<P0"
+ MSA_has_done_at_least_10_request: "óSŒRb†N10*N§YYýV•bD÷‹Bl§!ÿîvMRÿ[Root.ME_Num_of_Foreign_Investments.GetValue]	ÿ"
+ MSA_100_power_split: "\n(WbìNŽb=ggK„T„v‰|+R-N·ƒ—V120§YTINCg›R§!0‚YœgY*N‰|+Rán³‰Blÿ§YTINCg›R§!SRM‘ÙuƒRìN0"
+ MSA_cooldown_10: "10t^§Y·QtSöeô•§!0"
+ MSA_cooldown_20: "20t^§Y·QtSöeô•§!0"
+ MSA_cooldown_15: "15t^§Y·QtSöeô•§!0"
+ MSA_cooldown_5: "5t^§Y·QtSöeô•§!0"
+ 
+ 
+ MSA_space_lol: " "
+ MSA_get_a_trader: "·ƒ—VN*NegêbìN§Y'k2mßvËS§!„v§G-75.0%§!Irµu§Y3§!„v§YFUºN§!0"
+ MSA_coffee_choice: "	ébN*NNuµN§Y–TaU§!„vwýNÿNå‹wýNMOŽN§Ylšeg§!0§YpS¦^<S‰šN§!b§Yidž R²›S§!0W:S0	ébTÿvQ8fFUÁTSØSôf:N§Y–TaU§!ÿv^·ƒ—VåNNîOckÿ"
+ MSA_plantation_choice: "	ébN*NuµN[Root.MSAListSpices]„vwýNÿåN·ƒ—VåNNîOckÿ"
+ VaniSpices: "§Y™™™e§!b§YN™™§!"
+ MSA_this_will_cost_5: "ÙS±‚9bìN§R5§!¹p§YYýVR—Pw§!ÿSVMRÿ[Root.MSA_foreign_investment_amount.GetValue]	ÿ0"
+ MSA_this_will_cost_10: "ÙS±‚9bìN§R10§!¹p§YYýVR—Pw§!ÿSVMRÿ[Root.MSA_foreign_investment_amount.GetValue]	ÿ0"
+ MSA_this_will_cost_15: "ÙS±‚9bìN§R15§!¹p§YYýVR—Pw§!ÿSVMRÿ[Root.MSA_foreign_investment_amount.GetValue]	ÿ0"
+ MSA_this_will_cost_20: "ÙS±‚9bìN§R20§!¹p§YYýVR—Pw§!ÿSVMRÿ[Root.MSA_foreign_investment_amount.GetValue]	ÿ0"
+ MSA_10_morale_against_colonizers: "ÏkSVbìNN–™ýMOŽN§Y'k2m§!'YF–„výV¶RYŽN§Yb‰N§!¶r`öeÿbìNS·ƒ—VåNNîOckÿ\n›Q–ëXlÿ§G+5.0%§!"
+ MSA_merge_two_conquest_modifiers: "Tv^§Yµb¡V–klw§!ŒT§YpS¦^m8—Cg§!b:N§Ylšeg^ýV§!v^îO9eƒRÇ\n§G-5.0%§!wýNb‰NRpeb,g"
+ MSA_cantonese_community_will_grow: "§Y^N>y:S§!SžX RN*NwýNÿ"
+ MSA_cantonese_community_will_shrink: "§Y^N>y:S§!SÏQSN*NwýNÿ"
+ MSA_naval_strength: "¡l	gûNUOýV¶R„v§Ywm›Q§!ýwNbìN„vøvÐcv^º‹ÿóS¾0RbìN„v§Y50.0%§!0"
+ MSA_army_strength: "¡l	gûNUOýV¶R„v§YF–›Q§!ýwNbìN„vøvÐcv^º‹ÿóS¾0RbìN„v§Y50.0%§!0"
+ MSA_spread_of_christianity_will_cease: "§YúWcwYe.O­d§!SjPbk0"
+ MSA_more_prestige_than_muslim_center_owner: "§Y[Root.GetName]§!„v§YZg§!…Ç†N§Y[ME_MSA_muslim_center_target.Owner.GetName]§!"
+ MSA_choose_provinces: "'§YÛãSjOir§!'³QšRS«ˆã‰•0ÇÙ*N³QšRÿbìNïSåN	ébY¾§G5§!*NwýN9e:NuµN§Y–TaU§!8fFUÁTÿåNÊS§G5§!*NwýN9e:NuµN§YïSïS§!0"
+ MSA_reserved: "Ù*N§Y‹NöN	y˜§!=f:N&rTagöN„vwýNÝOYu„vÿÙ›NwýNåb	g§YÛekªR›R§!ýV¶RÕläN0(WNb—„vwýNÆ–T-N=T(uýV¶RÕläN0"
+ MSA_counter_tooltip: "óS	g§G1§!*N&rTagöN„vwýNïSåNôf9e:NuµN§Y–TaU§!b§YïSïS§!8fFUÁT0"
+ MSA_switch_diety_pre: "‚YœgbìN=f§YpS¦^Ye§!—RYeÿ±HNbìNSã‰•'§YRbc^yGy§!'³QšRÿAQ¸‹bìNÏkASt^RbcN!kbìN„v^yGy0"
+ MSA_switch_diety: "ã‰•'§YRbc^yGy§!'³QšRÿAQ¸‹bìNÏkASt^RbcN!kbìN„v^yGy0"
+ MSA_10_years: "(WÇ»S„v10t^-N¡l	gÇ‘ÖS§Y³QšR§!0"
+ MSA_strengthen_holy_sites_of_hindu: "îO9e'§YpS¦^Ye1W0WòTnxÝO§!'Çÿ\nhQtVYe.OYe›RÏ‘§G+1.00%§!"
+ MSA_no_1: "bìN=fMR	NT§Y'YýV§!0"
+ MSA_spread_of_islam_will_slow_down: "lšeg„v§YO¯epQ.O­d§!S'YE^ÏQ0"
+ MSA_workaround_tt: ":S,g0WS" # *gûm Rÿ
+ MSA_technology_sharing_tt: "¡l	gûNUON*N–™ý(W§Y'k2m§!„výV¶R(WûNUOŽb=gN†˜HQŽN§Y[Root.GetName]§!"
+ MSA_workaround_set_tt: "¾‹n'§YgÈu(uûN¡R§!'h×V0Ù=f(W§Ylšeg§!h-NTNÛUSNb—„v0\n"
+ MSA_10_dip: "§Y[Root.GetName]§!ÏkgóS·ƒ—V§Y10§!£dip£0"
+ MSA_restrict_trade_tt: "§YO¯epQ.O­d§!‹NöNSNQÑSu(WbìN«ŽN0ÙêS=fy(u†N§YO¯epQYe§!.O­d0RbìNýV¶R„vNÍy¹eV0"
+ MSA_repeal_restrictions_tt: "d–^—bìNÇvQÖNLˆ¨RI–bk†NO¯epQ.O­dÿ&TR§YO¯epQ.O­d§!SOçuíu0"
+ MSA_decision_is_repealed: "ôv0R'§Y²d•P–6R§!'³QšR«ˆÇ‘ÖS"
+ MSA_repeal_restrictions_trigger: "êÎNbìNÇ‘ÖS'§YP–6R8f§!'³QšRåNegòTÏuÇ»S†N5t^0"
+
+ MSA_foreign_investment_concessions_title: "@MSA Foreign Investment - §YConcessions§!YýV•bD - yr¸‹Cg"
+ MSA_foreign_investment_concessions_desc: "":N†NTYýVºNÐcúQûNUO÷‹BlÿbìN–™HQ—‰b—VÖNìN„váOûN0©‹bìNwQ†bìN„v	éb0"
+ MSA_foreign_investment_requests_title: "@MSA Foreign Investment - §YRequests§!YýV•bD - ÷‹Bl"
+ MSA_foreign_investment_requests_desc: "bìNS)R(ubìNN8flQøS„v‹Ya0mN¸‹bìNïSåN÷‹Bl›Q‹N=ecÿbwmN¸‹ïSåNÛbßRNMOåTz‚'Y^ÿ	ébCg(WbìNKb-N0"
+ MSA_rival_center_title: "@[Root.Country.GetTag] :YÖSO¯epQ-NÃV0WMO"
+ MSA_rival_center_desc: "[ME_MSA_muslim_center_target.GetName]v^NÏP.Oô‹-N„v±7hO'Y0ƒRnxžR=fNWSšNFz¯e—gfR=g-NÃVÿFOˆVëVÖNìNS†Nã‰0R[Root.Capital.GetName]ôfTÙN0WMO0"
+ MSA_stop_title: "@[Root.Country.GetTag] O6R`‘u"
+ MSA_stop_desc: "¸‹YºN(W[ME_MSA_muslim_center_target_rival.GetAdjective]Twb—MRbeŽN`‘ubìN0©‹bìNTÖNìNUS:yÙÍyó`Õl=fëkàe9hnc„v"
+ MSA_move_muslim_center_to_capital_title: "@[Root.Country.GetTag] VüRfRw"
+ MSA_move_muslim_center_to_capital_desc: "‹NžRNÿbìNòTÏu¥c¡r†N[ME_MSA_muslim_center_target.GetName]„v1WÎW06qwÿ1uŽNƒRÜ»ybìN„v–™ýŒT&q¹pÿb¸‹SfR=g¾|ñ‚lûy0R[Root.Capital.GetName]=fN*Nbeu>Nªcÿ"
+ MSA_switch_religion_bonus_title: "@[Root.Country.GetTag] Î˜TlØS"
+ MSA_switch_religion_bonus_desc: "wegbìNîvMR„vÂ‰¹pv^¡l	gwckÙubìN&^eg‹YY0b¸‹9eØSbìN„vËz:W=fÅV‰„v0"
+ MSA_chinese_expedition_status_title: "@[Root.Country.GetTag] -NýVÜV–¶r`"
+ MSA_chinese_expedition_status_desc: "bìN„v=nãSîvMR=f'YÏ‘egê-NýV„vÅeLˆw„v¶R0"
+ MSA_import_crops_title: "@[Root.Country.GetTag] ÛãSjOir"
+ MSA_import_crops_desc: "bìN„vÏuNm^—8^OVŽNÍyiTÍyjOirÿ2SvQ=fNLuû•T„v™™™e0KS¡r‚YdkÿbìNûRBlY7h'`ÿïSåNÇÛãSS°eÍy‰|„vjOirVeQ²›S0ïSïSŒT–TaU=fgatQ±„v0"
+ MSA_change_diety_title: "@[Root.Country.GetTag] Rbc^yGy"
+ MSA_change_diety_desc: "ºNìNøváOßu»lw”^å‹êS	ébN*N^yGy0FO	göeÿ9eØSáOðNïSýwôfê6q0ÕkßzÿbìNýO9eØSÿN=fTÿ"
+ MSA_this_will_be_our_religious: "ÙS=fbìN§Y—RYe§!hÿbìNKNTSàeÕlôf9ebìN„v	éb0"
+ MSA_absolutely_loyal_stance: "òTÏuùR-NýVÜV–Ç‘ÖS†N§YÝuùRàVÚ‹§!„vËz:W0"
+ MSA_restrict_trade_title: "@[Root.Country.GetTag]P–6R8f"
+ MSA_restrict_trade_title_desc: "8f:NªR™l‰v RÉb&^eg†NN*N°eöeãNÿN*N—RYe.O­d„vöeãNÿO¯epQYeck(WreÍTÏk*NýV¶R„v'Yè•0bìNïSåNÇP–6R8fegÓumgÙNR0"
+ MSA_repeal_restrictions_title: "@[Root.Country.GetTag] ²d•P–6R"
+ MSA_repeal_restrictions_desc: "8f:NªR™l‰v RÉb&^eg†NN*N°eöeãNÿN*N—RYe.O­d„vöeãNÿO¯epQYeck(WreÍTÏk*NýV¶R„v'Yè•0bìNòTÏu	éb¾‹nP–6RåN2–bkÙÍyÅ`µQÿFOÙw„v<P—VTÿ"
+
+ MSA_defeat_chinese_enemies_wargoal: "US:yOŠ'`"
+ MSA_defeat_chinese_enemies_wargoal_desc: "US:yOŠ'`"
+ MSA_CHINESE_ENEMIES_WARNAME: "$ORDER$ $FIRST$ ùR—b^ýVLeºN„vb‰N"
+ 
+ cb_defeat_chinese_enemies: "ûQ%^ýVLeºN"
+ cb_defeat_chinese_enemies_desc: "¡l	gºNýwÍSùR)Y‹T„vO'Yÿ"
+ 
+ MSA_syncretic_practices: "üuTžRõ"
+ MSA_dar_islam_extends: "O¯epQKN0WibUS"
+ MSA_war_with_colonizers: "N–klw„vb‰N"
+
+
+ #Extra edits
+
+ GREATER_SUNDA: "'YýTÖN"
+ GREATER_SUNDA_ADJ: "ýTÖN"
+ NANYANG: "WSm"
+ NANYANG_ADJ: "lšeg"
+ flavor_mlc.9.g: "bìN=f)Y‹T„vÆNºN0"
+ flavor_mlc.9.f: "bìN=fäSw„výTÖNÿ"
+ flavor_mlc.9.e: "bìN„v‡efRTWRgTbìN0"
+ 

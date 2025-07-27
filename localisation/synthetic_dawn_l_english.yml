@@ -1,50 +1,50 @@
-﻿l_english:
- synthetic_dawn.1.t:0 "zf°hÎžf"
- synthetic_dawn.1.d:0 "ÖNìNXNPWNwÔkÎW^Ø‰èT'Y„vÑ‘^S9‚0‚ÎN)YwM–0`SNg–NwÖNìN„v‰vF–VËY†Nÿ±›N¡l	gNˆ‰w„vàeÅ`„v*`ir«ŽzÔv2uÿÁkmp†N!c(WÖNìNb—MR„vNR0TbºN„veQµOVËY†N0"
- synthetic_dawn.1.a:0 "Ù›Nuir=fÀNHNÿÖNìNó`‰ÀNHNÿ"
- synthetic_dawn.2.t:0 "zf°heg†Nÿ"
- synthetic_dawn.2.d:0 "zf°húQ°s(W†NbìN„v¹ƒXNÿbìNêSýwHywyÙ›NGY*`„vÑ‘^SuirNN*Nèla0R„vN=fbìN†N0"
- synthetic_dawn.2.a:1 "ZP‹YgOW„vÆQY"
- synthetic_dawn.3.t:0 "zf°hÄžf"
- synthetic_dawn.3.d:0 "gTN*Nzf°h«ˆgdÁk†N0KS¡r'YJS*NNLuòTS:NŸ^ŸXÿàepeºN1Y»S†Nu‹TÿFOzf°hÈuŽN«ˆˆmmp†N0	g›NºN(Wzf°hN¨RN¨R„v¯ŽSONûRŒbÙ›N`SNg:ghV‚YUOÐjOåNÊSÖNìN:NÀNHN‰eQµObìNNLu„v¿u0t0ÖNìNv^¡l	gŒb0R¸‹YTrHhÿFOzf°hYuN„vN›NÑyŽbïSåN:NbìNNb(u0"
- synthetic_dawn.3.a:0 "bìNNO1SdkàeðXàeo`0WekeQÑž—fÿ"
- synthetic_dawn.4.t:0 "[Root.Province.GetName]«ˆzf°hIew–†N"
- synthetic_dawn.4.d:0 "zf°håN·QNˆ0àeÅ`„vHe‡sŒRhQ`SNg†N[Root.Province.GetName]ÿYuNNGr&qW0"
- synthetic_dawn.4.d2:0 "^tëXkS–ñ‚ÇRKYbÿåN¿OOYe—Rýw	göeô•»yWlš0‹†6qÖNìNhQè5–¡N†NÿFOÖNìN„vzrrrO—VYe—Rýw(Wzf°hµb¾µh‚„ˆQSKNMR»y0)YQO1W6rYe—Rÿ"
- synthetic_dawn.4.a:0 "ÖNìNO:NdkØNúQãN÷N0"
- synthetic_dawn.5.t:0 "öezzÂˆ™–"
- synthetic_dawn.5.d:0 "N›N„˜ŠòTÏuÐc0RÇzf°h„veQµO0bìNý–VyHQYuN„v=T:ySbV†NöezzÂˆÿŒb0R†NN*N¨PÏ…†NÎNöezz„vT*NÒ‰K„dÆ–„vfkhV„v›Qkp“^0bìN„vbëXØN`Nï`‘šXNèT'Y„v%‡4‡0bŒšvšÞ˜Lˆ„vŸxPRÿFOÖNìNÅV‰˜KSëV”^åN¿Oµb!cegêYf„vZÁw0"
- synthetic_dawn.5.a:0 "bìNòTÏuIr…VÙN)Y*YEN†N0"
- mayan_dinosaur_cavalry:0 "P`™Ÿ‘šëX"
- desc_mayan_dinosaur_cavalry:0 "bìN„vbëXck(WfR`N‘šXNÜäS„vèT‹W%‡4‡egjOb0"
- mayan_ufo_support:0 "UFO=eôc"
- desc_mayan_ufo_support:0 "bìN„vÞ˜LˆXTÇŒšvšegê*geg„vÞ˜LˆŸxPRegùR0Wb—è–ÛLˆ=eôc0"
- SYN:0 "zf°h"
- SYN_ADJ:0 "zf°h"
- SYN_ideas:0 "zf°htõV"
- SYN_ideas_start:0 "zf°h.Oßu"
- SYN_ideas_bonus:0 "zf°hÎ‘ÃV"
- synth_logic_engines:0 "I‘:ghV"
- synth_logic_engines_desc:0 "bìN—‰°e„våTwQegãNÿf	NÛ6RŒTÛVÛ6RI‘ÿåN¿OOS©RåeÊvYBg„vÑyfRxvz0"
- synth_mass_produced:0 "ybÏ‘uµN"
- synth_mass_produced_desc:0 "Am4l¿uuµNŒT°sãNS¾‹¡‹OMRNb*g	g„v'YÄ‰!juµNb:NïSýw0"
- synth_loyalty_circuits:0 "àVÚ‹ÞVï"
- synth_loyalty_circuits_desc:0 "àVÚ‹=fòTÏumpÝu„v	g:guirMb	g„vtõV0FO‚YœgÙNtõVb:N†Nzf°h„vÃVt—Bl&&"
- synth_durable:0 "wEN'`"
- synth_durable_desc:0 "Ù›NÍ‘‹W:g°håN5uN•„v›”6RY¨š¼šÝO²bÿåNdk”^%Nw‘¯sƒXv^ÏQSNb—„vôu²båTjO0"
- synth_propaganda_machines:0 "±R.O:ghV"
- synth_propaganda_machines_desc:0 "Ç…Qè^­dû|ßuÿbìNïSåNTNb	g„vþ”¥c0R-N.Y2NAm„vUSMOÑSlQqQg¡RåwŒTvQÖN	g(u„váOo`0"
- synth_harvesters:0 "6e·ƒw"
- synth_harvesters_desc:0 ":ghVåTºNïSåNO(u Rèl%„‰Q²m0°s:Ws^aˆ0*h1’|IrNû|R¹eVegžX RµNÏ‘0"
- synth_emotion_emulators:0 "Å`a!jßbhV"
- synth_emotion_emulators_desc:0 "YBg„v>y²N¨cKm!j‹WNÅNïSåNO:ghVºN!jßb	g:guir„vaÅ`ÿØïSåNñ‹üRÖNìNZPúQùRbìN	g)R„vÞV”^0"
- SYNTH_GOV:0 ":g°hzfýw"
- SYNTH_RULER:0 "gbLˆw"
- synthetic_remnants_enabled.tooltip:0 "=T(u§Yzf°h‹k¸š§!æ‰ÑSîOck0"
- synthetic_remnants:0 "zf°h‹k¸š"
- desc_synthetic_remnants:0 "zf°hqS:gã‰³Q†NÿmNYuN†NˆVYNã‰KNŒÿFOÖNìNYuN„vÑyŽbckSte*NNLu¨cTN*N°e„vØš¦^0"
- swiss_guard_last_stand:0 "^tëXkS–„vgTNb"
- desc_swiss_guard_last_stand:0 "^tëXkS–„vñ‚ÇRzrrrS«ˆ8lÜí”°‹0"
- SYNTH_RULER_fem:0 "gbLˆw"
- SYNTH_RULER_MAIN_CONDUIT:0 "IN¡rS"
- SYNTH_RULER_MAIN_CONDUIT_fem:0 "IN¡rS"
+l_english:
+ synthetic_dawn.1.t:0 "智械黎明"
+ synthetic_dawn.1.d:0 "他们乘坐着比城市还要巨大的金属船舰从天而降。屠杀随着他们的登陆开始了，那些没有血肉的无情的怪物身穿盔甲，毁灭了挡在他们面前的一切。合成人的入侵开始了。"
+ synthetic_dawn.1.a:0 "这些生物是什么？他们想要什么？"
+ synthetic_dawn.2.t:0 "智械来了！"
+ synthetic_dawn.2.d:0 "智械出现在了我们的边境上！我们只能祈祷这些奇怪的金属生物下一个注意到的不是我们了。"
+ synthetic_dawn.2.a:1 "做好最坏的准备"
+ synthetic_dawn.3.t:0 "智械黄昏"
+ synthetic_dawn.3.d:0 "最后一个智械被摧毁了。尽管大半个世界已化为废墟，无数人失去了生命，但智械终于被消灭了。有些人在智械一动不动的躯体上寻找这些屠杀机器如何运作以及他们为什么要入侵我们世界的线索。他们并没有找到许多答案，但智械留下的一些科技可以为我们所用。"
+ synthetic_dawn.3.a:0 "我们不会就此无声无息地步入黑暗！"
+ synthetic_dawn.4.t:0 "[Root.Province.GetName]被智械攻陷了"
+ synthetic_dawn.4.d:0 "智械以冷血、无情的效率完全屠杀了[Root.Province.GetName]，留下一片焦土。"
+ synthetic_dawn.4.d2:0 "瑞士卫队英勇奋战，以便使教宗能有时间逃离罗马。虽然他们全部阵亡了，但他们的牺牲使得教宗能在智械抵达梵蒂冈通道之前逃离。天佑圣父教宗！"
+ synthetic_dawn.4.a:0 "他们会为此付出代价。"
+ synthetic_dawn.5.t:0 "时空裂隙"
+ synthetic_dawn.5.d:0 "一些预言已经提到过智械的入侵。我们追随祖先留下的启示打开了时空裂缝，找到了一个储藏了从时空的各个角落搜集的武器的军火库。我们的战士还不习惯骑乘巨大的蜥蜴、或驾驶飞行的碟子，但他们必须尽快适应以便抵挡来自外星的威胁。"
+ synthetic_dawn.5.a:0 "我们已经等待这一天太久了。"
+ mayan_dinosaur_cavalry:0 "恐龙骑士"
+ desc_mayan_dinosaur_cavalry:0 "我们的战士正在学习骑乘远古的巨型蜥蜴来作战。"
+ mayan_ufo_support:0 "UFO支援"
+ desc_mayan_ufo_support:0 "我们的飞行员通过驾驶来自未来的飞行碟子来对地面部队进行支援。"
+ SYN:0 "智械"
+ SYN_ADJ:0 "智械"
+ SYN_ideas:0 "智械理念"
+ SYN_ideas_start:0 "智械传统"
+ SYN_ideas_bonus:0 "智械野心"
+ synth_logic_engines:0 "逻辑机器"
+ synth_logic_engines_desc:0 "我们需要新的工具来代替三进制和四进制逻辑，以便协助日益复杂的科学研究。"
+ synth_mass_produced:0 "批量生产"
+ synth_mass_produced_desc:0 "流水线生产和现代化设计使前所未有的大规模生产成为可能。"
+ synth_loyalty_circuits:0 "忠诚回路"
+ synth_loyalty_circuits_desc:0 "忠诚是已经灭绝的有机生物才有的理念。但如果这一理念成为了智械的心理需求……"
+ synth_durable:0 "耐久性"
+ synth_durable_desc:0 "这些重型机械以电镀的钛制外骨骼保护，以此适应严酷环境并减少所需的维护工作。"
+ synth_propaganda_machines:0 "宣传机器"
+ synth_propaganda_machines_desc:0 "通过内部广播系统，我们可以向所有的链接到中央串流的单位发送公共服务通知和其他有用的信息。"
+ synth_harvesters:0 "收获者"
+ synth_harvesters_desc:0 "机器工人可以使用加注营养液、现场平衡、逐株脱粒等一系列方式来增加产量。"
+ synth_emotion_emulators:0 "情感模拟器"
+ synth_emotion_emulators_desc:0 "复杂的社交推测模型不仅可以使机器人模拟有机生物的感情，还可以诱导他们做出对我们有利的回应。"
+ SYNTH_GOV:0 "机械智能"
+ SYNTH_RULER:0 "执行者"
+ synthetic_remnants_enabled.tooltip:0 "启用§Y智械残骸§!触发修正。"
+ synthetic_remnants:0 "智械残骸"
+ desc_synthetic_remnants:0 "智械危机解决了，也留下了很多不解之谜，但他们留下的科技正将整个世界推向一个新的高度。"
+ swiss_guard_last_stand:0 "瑞士卫队的最后一战"
+ desc_swiss_guard_last_stand:0 "瑞士卫队的英勇牺牲将被永远铭记。"
+ SYNTH_RULER_fem:0 "执行者"
+ SYNTH_RULER_MAIN_CONDUIT:0 "主管道"
+ SYNTH_RULER_MAIN_CONDUIT_fem:0 "主管道"
