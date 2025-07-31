@@ -363,13 +363,13 @@
  
  buddhism_events.44.c:0 "©‹N›RRVŽNGWaˆ"
  flavor_tib.EVTNAME3:0 "ff„v‹TÐ"
- flavor_tib.EVTDESC3:0 "dkÎW‚YÊNÈueQb›QŒcµcÿžRCNx^‹N06qÞV–™egïÿ:N:YdkÎWÿb›QOYñ‚ÇRKNëXNˆm†u:WÿÛuÉTÀTÉT0SVNÿ‚YUO¥Y„UYndkÎWÿžRCNsQNNbýV'YNtQpˆKNsQ.•0\nÂ‰ŽVfTgTãNÿFOáQVgNÎWÿ>NªcT	gNTÿ¦NT	g—V1Y0	g„v‹sgåN÷–—Kbµkÿ'Y†w`S.bÍS—bwÿ‹†NöeZQaÛV¹eÿtSmNÍyNÇNh`ÍyPRÿåeTÛSqN‘˜ÑSÿN—V‰RR0w	g„vRËe`ÔgKNVrÿ‰RšbŒvÓYÿûN(uSV0W2ýwÿÍSPýwO°eD–KN0WÅ‡eQÿ:NvQNb(u0"
+ flavor_tib.EVTDESC3:0 "dkÎW‚YÊNÈueQb›QŒcµcÿžRCNx^‹N06qÞV–™egïÿ:N:YdkÎWÿb›QOYñ‚ÇRKNëXNˆm†u:WÿÛuÉTÀTÉT0SVNÿ‚YUO¥Y„UYndkÎWÿžRCNsQNNbýV'YNtQpˆKNsQ.•0\n Â‰ŽVfTgTãNÿFOáQVgNÎWÿ>NªcT	gNTÿ¦NT	g—V1Y0	g„v‹sgåN÷–—Kbµkÿ'Y†w`S.bÍS—bwÿ‹†NöeZQaÛV¹eÿtSmNÍyNÇNh`ÍyPRÿåeTÛSqN‘˜ÑSÿN—V‰RR0w	g„vRËe`ÔgKNVrÿ‰RšbŒvÓYÿûN(uSV0W2ýwÿÍSPýwO°eD–KN0WÅ‡eQÿ:NvQNb(u0"
  flavor_tib.3.a:0 "qÁkÙµ^ÎW^ÿ"
  sack_of_tibetan:0 "àeIw„v«R c"
  desc_sack_of_tibetan:0 "Ùµ^ÎW^m×S†NàeÅ`„v`S.b"
  flavor_tib.3.b:0 "›Q–N—V­ˆpbŒvÓYÿ"
  flavor_tib.EVTNAME4:0 "‰‰R„v‹TÐ"
- flavor_tib.EVTDESC4:0 "dkÎW‚YÊNÈueQb›QŒcµcÿžRCNx^‹N06qÞV–™egïÿ:N:YdkÎWÿb›QOYñ‚ÇRKNëXNˆm†u:WÿÛuÉTÀTÉT0SVNÿ‚YUO¥Y„UYndkÎWÿžRCNsQNNýV'YNtQpˆKNsQ.•0\nÂ‰ŽVfTgTãNÿFOáQVgNÎWÿ>NªcT	gNTÿ¦NT	g—V1Y0	g„v‹sgåN÷–—Kbµkÿ'Y†w`S.bÍS—bwÿ‹†NöeZQaÛV¹eÿtSmNÍyNÇNh`ÍyPRÿåeTÛSqN‘˜ÑSÿN—V‰RR0w	g„vRËe`ÔgKNVrÿ‰RšbŒvÓYÿûN(uSV0W2ýwÿÍSPýwO°eD–KN0WÅ‡eQÿ:NvQNb(u0"
+ flavor_tib.EVTDESC4:0 "dkÎW‚YÊNÈueQb›QŒcµcÿžRCNx^‹N06qÞV–™egïÿ:N:YdkÎWÿb›QOYñ‚ÇRKNëXNˆm†u:WÿÛuÉTÀTÉT0SVNÿ‚YUO¥Y„UYndkÎWÿžRCNsQNNýV'YNtQpˆKNsQ.•0\n Â‰ŽVfTgTãNÿFOáQVgNÎWÿ>NªcT	gNTÿ¦NT	g—V1Y0	g„v‹sgåN÷–—Kbµkÿ'Y†w`S.bÍS—bwÿ‹†NöeZQaÛV¹eÿtSmNÍyNÇNh`ÍyPRÿåeTÛSqN‘˜ÑSÿN—V‰RR0w	g„vRËe`ÔgKNVrÿ‰RšbŒvÓYÿûN(uSV0W2ýwÿÍSPýwO°eD–KN0WÅ‡eQÿ:NvQNb(u0"
  flavor_tib.4.a:0 "	g†NN!k„vÏu†SÿbìNïSåNŸ¨RôfY„vºNÂSN«R cÿ"
  city_of_dream:0 "NLugØšÎW"
  desc_city_of_dream:0 "æTÿÙ!kN=ftXX†NTÿ"
@@ -590,7 +590,7 @@
  china_cyi_siege_of_xian_desc:0 " "
 
  control_all_provinces_of_any_african_culture_tt:0 "µc6R^—2mûNa‡eS„v §YNb	g§! wýNÿèla=f§YNb	g§! 0"
- cyi_northern_thai_lao_culture_gain_culture_buff_tt:0 "»lNNb	g §YlO§! ‡eS0§Y¹fW§! ‡eSŒT §YÐR§! ‡eS„vwýNS·ƒ—V §G-20%§! l‡eSÏQMQ±‚9ÿÏkg §R0.1§! ê6R¦^žX•åNÊS §R2§! ¹pÛSqNÿcíu25t^0"
+ cyi_northern_thai_lao_culture_gain_culture_buff_tt:0 "»lNNb	g §YlO§! ‡eS0§Y¹fW§! ‡eSŒT §YÐR§! ‡eS„vwýNS·ƒ—V §G-20%§! l‡eSÏQMQ±‚9ÿÏkg §R+0.1§! ê»l¦^žX•åNÊS §R+2§! ¹pÛSqNÿcíu25t^0"
 
  cyi_monge_system:0 "™„<h6R¦^"
  cyi_monge_system_desc:0 " "
@@ -629,7 +629,7 @@
  csh_desert_frontier_desc:0 " "
  csh_hehuang_valley_title:0 "³lmn7Œ0W"
  csh_hehuang_valley_desc:0 " "
- csh_tips_of_yungang_grottoes:0 "‚YœgbìNåb	g'YTÿRGYÂ‰‘N—SówŸz„vIrµuSžX RNµu"
+ csh_tips_of_yungang_grottoes:0 "‚YœgbìNåb	g §Y'YT§! ÿRGYÂ‰ §Y‘N—SówŸz§! „vIrµuSžX RNµu"
 
  cyi_millions_elephant_title:0 "NaŒ‹sýV"
  cyi_millions_elephant_desc:0 " "
@@ -637,7 +637,7 @@
  desc_cyi_thai_culture_conversion:0 " "
  cyi_charged_down_the_mountains_title:0 "ESØš4NN"
  cyi_charged_down_the_mountains_desc:0 " "
- allow_indian_personal_deities_tt:0 "AQ¸‹O(uèRpS¦^Ye„v*NºNTÜb"
+ allow_indian_personal_deities_tt:0 "AQ¸‹O(u §YpS¦^Ye§! „v §YaŒ4Y^y§!ÿ§YÏ‚)R6w§! *NºNTÜb"
  cyi_hinduism_cooperation:0 "‡TpS¦^áOðN"
  desc_cyi_hinduism_cooperation:0 " "
  cyi_gange_delta_title:0 "R`³l	NÒ‰2m"
@@ -656,15 +656,16 @@
  cyi_three_cities_desc:0 " "
  cyi_sack_of_chiang_mai_title:0 "¢wã‰nÈ"
  cyi_sack_of_chiang_mai_desc:0 " "
- if_we_owned_emerald_buddha_unlock_buddha_diety_tt:0 "‚YœgbìN„v–™ýåb	g‰siOîOckÿRbìNSã‰•iON–*NºNTÜb0"
+ if_we_owned_emerald_buddha_unlock_buddha_diety_tt:0 "‚YœgbìN„v–™ýåb	g §Y‰siO§! îOckÿRbìNSã‰• §YiON–§! *NºNTÜb0"
  cyi_angkor_wat_title:0 "4TåTŸz"
  cyi_angkor_wat_desc:0 " "
  cyi_rice_fields_title:0 "ŒvNIz0u"
  cyi_rice_fields_desc:0 " "
  cyi_million_rice_fields:0 "Î˜Œè–z˜"
  desc_cyi_million_rice_fields:0 " "
- cyi_cham_submission_title:0 "`SÏeú^Qr^"
+ cyi_cham_submission_title:0 "`SÏeãg"
  cyi_cham_submission_desc:0 " "
+ cyi_cham_architect:0 "`SÏeú^Qr^"
  cyi_mon_thai_unification_title:0 "ðlNßu"
  cyi_mon_thai_unification_desc:0 " "
  cyi_malayan_ambition:0 "lšegšN„vÎ‘g"
@@ -814,7 +815,7 @@
  ben_sweeping_and_irrigating_the_land_desc:0 " "
  ability_benin_jungle_confederacy:0 "N—g®‹‹NO"
  benin_jungle_assembled_power:0 "N—g¨RXT<P"
- benin_jungle_assembled_power_desc:1 "N—g¨RXT<P=faˆÏ‘bìNýV¶RùRŽNÎN—gK‘•„v¨RXTýw›RÿvQÐc›O„vîOckSO–å‹pe<PÛLˆ¿u'`ØSS0\nN—g¨RXT<P„vg¦^ØSSàV.t‚YNÿ\nYŽNböeÿ §R-0.50§!\nYŽNŒTs^ÿ §R-1.00§!\n4xµNÿ§R-2.00§!\nÏk¹pP%ÿ §R-0.01§!\nÏk¹pŒSb¦^ÿ §R-0.5§!\nN—g¨RXT<PïSåNÇÐcØšZgÿckßu'`ÿ›RÏ‘•bSeg·ƒÖS0\n\nN—g¨RXT<PSàVNRàV.tÑSuN!k'`ØSSÿ\nb—VN:Wb—eÿ §G+2.00§!\nb—VN:Wb‰NÿNb‰NßvINŒTŒ	ÿÿ §G+15.00§!\n(Wb‰Nag¦u-Nž±†N¿RLeÿ §G+30.00§!"
+ benin_jungle_assembled_power_desc:1 "N—g¨RXT<P=faˆÏ‘bìNýV¶RùRŽNÎN—gK‘•„v¨RXTýw›RÿvQÐc›O„vîOckSO–å‹pe<PÛLˆ¿u'`ØSS0\nN—g¨RXT<P„vg¦^ØSSàV.t‚YNÿ\nYŽNböeÿ §R-0.50§!\nYŽNŒTs^ÿ §R-1.00§!\n4xµNÿ§R-2.00§!\nÏk¹pP%ÿ §R-0.01§! \nN—g¨RXT<PïSåNÇÐcØšZgÿckßu'`ÿ›RÏ‘•bSeg·ƒÖS0\n\nN—g¨RXT<PSàVNRàV.tÑSuN!k'`ØSSÿ\nb—VN:Wb—eÿ §G+2.00§!\nb—VN:Wb‰NÿNb‰NßvINŒTŒ	ÿÿ §G+15.00§!\n(Wb‰Nag¦u-Nž±†N¿RLeÿ §G+30.00§!"
  benin_jungle_assembled_power_gain_modifier:0 " "
  monthly_benin_jungle_assembled_power:0 "g¦^N—g¨RXT<P"
  prior_capital_supplying:0 "OHQ›O”^–™ý"
@@ -843,11 +844,16 @@
  MARCHTOOLARGE:0 "kSbýV*Y'Y†N"
  MARCHTOOLARGEUS:0 "kSbýV*Y'Y†N"
 
+ dev_tax_decision_title:0 "Íy0WKbíu9"
+ dev_tax_decision_desc:0 " "
+ every_human_player_gain_dev_cost_and_dev_tax_tt:0 "Ïk*NýV¶R·ƒ—V‚YNHeœgÿ\nÑSUSb,g §R-15%§! \nÑSUSb,gîOck §R-15%§! \nÏk!kÍy0W˜Ycbd– §R6§! ¹pùR”^¹ppe0"
  dimensionality_reduction_superregion_attack_title:0 "-NPRmpNg-superregionHr,g"
  dimensionality_reduction_superregion_attack_desc:0 "÷‹(ŒNaO(uÿÍdjONïS²d•ÿd•†N1SÍ‘V'T"
  dimensionality_reduction_region_attack_title:0 "-NPRmpNg-regionHr,g"
  dimensionality_reduction_region_attack_desc:0 "÷‹(ŒNaO(uÿÍdjONïS²d•ÿd•†N1SÍ‘V'T"
-
+ dev_tax_modifier:0 "Íy0WKbíu9"
+ desc_dev_tax_modifier:0 "zåTwïSv`JU"
+ every_human_player_gain_dev_cost_and_dev_tax_tt
  xiaoxia_fishing_game_title:0 "“”|œ8nb"
  xiaoxia_fishing_game_desc:0 "PWbr†NTÿNweg“”|œ8"
  recruit_rajput_hero_general_title:0 "ÛbßRÉbpgnfyrñ‚Ä–"
@@ -984,14 +990,16 @@
  ben_import_artillery_desc:0 " "
  benin_inporting_artillery_modifier:0 "Yeg'Y®p"
  desc_benin_inporting_artillery_modifier:0 " "
- ben_thunder_in_jungle1_modifier:0 "®puQb=g„vÏ–bV"
- ben_thunder_in_jungle2_modifier:0 "ÛãSkp®p"
+ benin_thunder_in_jungle1_modifier:0 "®puQb=g„vÏ–bV"
+ benin_thunder_in_jungle2_modifier:0 "ÛãSkp®p"
+ replace_pervious_mofifier_tt:0 "§Yå‹îOckSOÿfbcHQMRîOck§!"
  ben_thunder_in_jungle3_modifier:0 "è–—gÊ`÷–"
- desc_ben_thunder_in_jungle1_modifier:0 " "
- desc_ben_thunder_in_jungle2_modifier:0 " "
- desc_ben_thunder_in_jungle3_modifier:0 " "
+ desc_benin_thunder_in_jungle1_modifier:0 " "
+ desc_benin_thunder_in_jungle2_modifier:0 " "
+ desc_benin_thunder_in_jungle3_modifier:0 " "
  ben_thunder_in_jungle_title:0 "è–—gÊ`÷–"
  ben_thunder_in_jungle_desc:0 " "
+ ben_increased_dev_modifier:0 "ÍyFŒ—VÜt"
  ben_arsenal_title:0 "uQåT‚S"
  ben_arsenal_desc:0 " "
  benin_thunder_in_jungle_modifier:0 " RfkhVåT‚S"
@@ -1074,7 +1082,7 @@
  return_norse_faith_title:0 "ÞVRVú‹¯eáOðN"
  return_coptic_faith_desc:0 " "
  religious_manic_modifier:0 "áOðNÂríp"
- desc_religious_manic_modifier:0 "áOÿýÙubáOJUJUJUJU"
+ desc_religious_manic_modifier:0 "áOÿýÙubáOJUJUJUJUJUJUJUJUJUJUJUJUJUJUJUJU"
  settle_in_Sarai_decision_title:0 "šRES(„±ƒ"
  settle_in_Sarai_decision_desc:0 "šRES(„±ƒ"
  has_unlock_any_idea_groups_tt:0 "ã‰•ûNatõVÄu"
@@ -1083,3 +1091,7 @@
  eth_real_cawa_army:0 "wck„vp`æt›Q–"
  desc_eth_real_cawa_army:0 " "
  unlock_estate_burghers_khmer_irrigation_tt:0 "ã‰•FUºN6–µuyrCg §YHQÛ„vLp‰nŽb=g§! "  
+ bimox_ritual_heritage_title:0 "ö^íuú‹Ï‚—RYe"
+ bimox_ritual_heritage_desc:0 "(W*gegÿêNV0áOðNŒTÏu‡eDnÍNOçuíu«ˆÐ(uÿmN—‰Í‘°eà‹Ê‘0ºNìNcíuS<›B›qšTÜ¹eÿFOvQNbaŒV„vP`ç`SåNNT¹eVHT°s0‚YŽV8^N7hHyBlVyHQÝOQOÿFOú‹Ï‚ºNlOV„v²‹TÊS†SòSsQû|R—‰QšRIN0"
+ bimox_ritual_heritage_modifier:0 "vbcú‹Ï‚—RYe"
+ desc_bimox_ritual_heritage_modifier:0 " "

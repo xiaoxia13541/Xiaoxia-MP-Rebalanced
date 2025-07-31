@@ -593,10 +593,8 @@
      namaqua_area:0 "³ulš8Y"
      namaqua_area_name:0 "³ulš8Y"
      namaqua_area_adj:0 "³ulš8Y"
-     PROV5115:0 "ïQÑy?–nf"
-     PROV_ADJ5115:0 "ïQÑy?–nf"
-     PROV5116:0 "ƒ±ƒ5ƒ¯eYnf"
-     PROV_ADJ5116:0 "ƒ±ƒ5ƒ¯eYnf"
+     PROV5116:0 "ïQÑy?–nf"
+     PROV_ADJ5116:0 "ïQÑy?–nf"
      PROV5117:0 "aSÉb¯e!X"
      PROV_ADJ5117:0 "aSÉb¯e!X"
      PROV5120:0 "+RÀNôT"
@@ -717,9 +715,9 @@
  PROV_ADJ5149:0 "?–^f RS"
  
  # ^—2mRƒ0Wÿ
- africa_wasteland_passing_through_area:0 ""
- africa_wasteland_passing_through_area_name:0 ""
- africa_wasteland_passing_through_area_adj:0 ""
+ africa_wasteland_passing_through_area:0 ")RÔkšN™l.o"
+ africa_wasteland_passing_through_area_name:0 ")RÔkšN™l.o"
+ africa_wasteland_passing_through_area_adj:0 ")RÔkšN™l.o"
  africa_wasteland_passing_through_region:0 ""
  africa_wasteland_passing_through_region_name:0 ""
  africa_wasteland_passing_through_region_adj:0 ""
@@ -1855,7 +1853,7 @@
  Southern_cameroon_area:0 "eY6wÆY"
  Central_sahara_area:0 "Nè'Y™l.o"
  Northern_southland_area:0 "ætKQÈTS"
- Yakut_area:0 "Å–“^yr"
+ Yakut_area:0 "LN“^"
  Outer_hinggan_area:0 "YtQ‰R­S"
  East_tunguska_area:0 "NäS¯e"
  Inner_Australia_area:0 "…QF–0W:S"
@@ -1891,7 +1889,7 @@
  Southern_cameroon_area_name:0 "eY6wÆY"
  Central_sahara_area_name:0 "Nè'Y™l.o"
  Northern_southland_area_name:0 "ætKQÈTS"
- Yakut_area_name:0 "Å–“^yr"
+ Yakut_area_name:0 "LN“^"
  Outer_hinggan_area_name:0 "YtQ‰R­S"
  East_tunguska_area_name:0 "NäS¯e"
  Inner_Australia_area_name:0 "…QF–0W:S"
@@ -1927,7 +1925,7 @@
  Southern_cameroon_area_adj:0 "eY6wÆY"
  Central_sahara_area_adj:0 "Nè'Y™l.o"
  Northern_southland_area_adj:0 "ætKQÈTS"
- Yakut_area_adj:0 "Å–“^yr"
+ Yakut_area_adj:0 "LN“^"
  Outer_hinggan_area_adj:0 "YtQ‰R­S"
  East_tunguska_area_adj:0 "NäS¯e"
  Inner_Australia_area_adj:0 "…QF–0W:S"
