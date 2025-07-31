@@ -72,6 +72,10 @@ country_decisions = {
 				claim = 95
                 culture = azerbaijani
             }
+           	if = {
+				limit = { has_heir = yes }
+				kill_heir = { allow_new_heir = no }
+			}
             add_legitimacy = 20
             add_stability = -1
         }

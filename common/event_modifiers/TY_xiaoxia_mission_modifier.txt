@@ -701,3 +701,9 @@ dev_tax_modifier = {
 	development_cost_modifier = -0.15
 	development_cost = -0.15
 }
+
+bimox_ritual_heritage_modifier = {
+	prestige = 0.5
+	core_creation = -0.1
+	stability_cost_modifier = 0.1	
+}

@@ -11,8 +11,9 @@ country_decisions = {
 			}
 		}
 		allow = {
-			tag = GOL
+			# ai = no
 			owns_core_province = 466
+			adm_tech = 5
 		}
 		effect = {
 			change_technology_group = eastern
@@ -25,9 +26,6 @@ country_decisions = {
 				add_base_production = 1
 				add_base_manpower = 1
 			}
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 }

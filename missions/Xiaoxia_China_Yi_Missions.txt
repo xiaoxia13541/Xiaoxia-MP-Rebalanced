@@ -2188,32 +2188,32 @@ indochina_cyi_5 = {
 
 		trigger = {
 			613 = {
-				development = 30
+				development = 20
 				num_of_buildings_in_province = 5
 				is_prosperous = yes
 			}
 			600 = {
-				development = 30
+				development = 20
 				num_of_buildings_in_province = 5
 				is_prosperous = yes
 			}
 			584 = {
-				development = 30
+				development = 20
 				num_of_buildings_in_province = 5
 				is_prosperous = yes
 			}
 			586 = {
-				development = 30
+				development = 20
 				num_of_buildings_in_province = 5
 				is_prosperous = yes
 			}
 			589 = {
-				development = 30
+				development = 20
 				num_of_buildings_in_province = 5
 				is_prosperous = yes
 			}
 			662 = {
-				development = 30
+				development = 20
 				num_of_buildings_in_province = 5
 				is_prosperous = yes
 			}

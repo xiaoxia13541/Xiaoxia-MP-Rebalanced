@@ -3237,12 +3237,9 @@ kok_persia_culture_mission_slot_2 = {
 		}
 		trigger = {
 			num_of_owned_provinces_with = {
-				OR = {
-					region = persia_region
-					region = khorasan_region
-				}
+				region = persia_region
 				num_of_buildings_in_province = 1
-				value = 30
+				value = 35
 			}
 			capital_scope = {
 				region_for_scope_province = {
