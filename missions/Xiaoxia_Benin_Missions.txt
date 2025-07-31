@@ -133,6 +133,7 @@ benin_missions_1 = {
 				name = benin_march_to_jungle2
 				duration = -1
 			}
+			custom_tooltip = replace_pervious_mofifier_tt
 			5088 = { add_siberian_construction = 100 }
 			5090 = { add_siberian_construction = 100 }
 		}
@@ -176,6 +177,7 @@ benin_missions_1 = {
 				name = benin_march_to_jungle3
 				duration = -1
 			}
+			custom_tooltip = replace_pervious_mofifier_tt
 		}
 	}
 
@@ -228,6 +230,7 @@ benin_missions_1 = {
 				name = benin_march_to_jungle4
 				duration = -1
 			}
+			custom_tooltip = replace_pervious_mofifier_tt
 		}
 	}
 
@@ -1165,7 +1168,8 @@ benin_mission_4 = {
 			add_country_modifier = {
 				name =  benin_thunder_in_jungle2_modifier
 				duration = -1
-			}	
+			}
+			custom_tooltip = replace_pervious_mofifier_tt	
 		}		
 	}
 
@@ -1190,6 +1194,7 @@ benin_mission_4 = {
 				name = benin_thunder_in_jungle3_modifier
 				duration = -1
 			}
+			custom_tooltip = replace_pervious_mofifier_tt
 		}	
 	}
 }

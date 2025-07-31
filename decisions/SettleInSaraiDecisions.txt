@@ -1,0 +1,33 @@
+country_decisions = {
+	settle_in_Sarai_decision = {
+		major = yes
+		potential = {
+			OR = {
+				has_reform = great_mongol_state_reform
+				has_reform = steppe_horde
+			}
+			NOT = {
+				has_country_flag = settle_in_Sarai_flag
+			}
+		}
+		allow = {
+			tag = GOL
+			owns_core_province = 466
+		}
+		effect = {
+			change_technology_group = eastern
+			change_unit_type = eastern
+			change_government = monarchy
+			add_stability = -1
+			add_legitimacy = 20
+			466 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

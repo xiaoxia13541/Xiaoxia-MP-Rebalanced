@@ -1,51 +1,0 @@
-﻿l_english:
- PHI_phil_top_title: "éTúVT‹R"
- PHI_phil_top_desc: "T‹Rg¥cÑ-NýVÿ=f-NýVFUºNzŠ²›S„v–™	îv„v0W0àVdkÿ±Ì‘„výV¶RÏk)Yý(WØS—Vôf R:V'Y0bìN—‰b:N†˜4YŠÿN©‹ûNUOýV¶R…ŠbìN0"
- PHI_taiwan_title: "ySid™l„vúW0W"
- PHI_taiwan_desc: "bìNS¹„vÌRv™›SSySid™lNôv:ONûNUObVV„v-N.YCgZbßu»l0MQ9·ƒÖSÿbìN(W›SNú^Ëz8lENúW0WósQÍ‘‰ÿSvQú^Ëz:NbìNŒT-NýVKNô•„v8f-NÃV0"
- PHI_java_title: "N*N^ýV„vÈuÓu"
- PHI_java_desc: "àQãNºNåNegÿ*rÇTNôv=fWSm„v0ÌRŒTCgZ-NÃVÿN­eùR»Ñ›SSŒTÞz‰NùRKbËe RCg›R0=föeP©‹[Root.GetName]ár:YÙ*NMOnÿb:NWSm„vTÕlßu»lw†N0"
- PHI_sumatra_title: "ÄžÑ‘›S"
- PHI_sumatra_desc: "Ï‚è•TrJ›S«ˆðy:NSuvarnadvipabÄžÑ‘›S0‚YœgÏ‚è•TrJýwYžR°svQ.OGYÿƒRS=fN*Ng‹Y„vVgKN0W0"
- PHI_rally_the_timawa_title: "Æ–Óu‚„lšæt"
- PHI_rally_the_timawa_desc: "«ˆðy:N‚„lšæt„vbëX6–BSÅV‰˜(WböeÆ–ÓuÿåNÝO²b[Root.GetName]0©‹bìNú^ËzbìN„v›Q–ÿÆ–ÓubìN„vºNùR—b±›N”^å‹Ùz(WbìNŒTbìN„vºNlùRËzb—„vºNÿ"
- PHI_phil_mid_title: "ßuNôu(„šN¯e"
- PHI_phil_mid_desc: "ôu(„šN¯eNôv=fN*N«ˆTÍy›SSýV¶RŒT?eSORrR„v²›SÿƒRìN't't“bOOTê„vwm¸S¿u©‹bìNVgÙ›Nê»lÎW^ýV¶RÿN!k'`ßuNôu(„šN¯eÿ"
- PHI_borneo_title: "lšÈTÌ‘aSTw"
- PHI_borneo_desc: "–NwbìN„v›SS(WlšÈTÌ‘aS„v×e^NßuNÿbìN„vèla›RÅV‰˜lT‰WSÿ‡e±ƒwmm8—CgÑt^egØS—V:V'Y0Ù›NYegwùRbìN„v²›SËe RqVÍT*YEN†NbìNÅV‰˜ûQÙ›NµOeuwÿSb—e&^0RÖNìN„v¶RaNFZW2m›Sÿ"
- PHI_malay_peninsula_title: "VglšegšN"
- PHI_malay_peninsula_desc: "lšegÏ‚9NýVNôv«ˆÁ‹f=fNWSšN^ýVú^¾‹„v³Rk†0bìNÅV‰˜nxÝOÙ›Nlšegk†(WbìNžR°s±bKNMR«ˆˆmmp0"
- PHI_phil_bot_title: "VgÉhpQw›S"
- PHI_phil_bot_desc: "‹†6qNÏPôu(„šN¯ebT‹R±7hRÂˆÿÉhpQw›S=fN*NàV‡eSŒT—RYe²QzwRÂˆ„v0W¹e0bìNÅV‰˜nxÝOÙ*N0W:S8lENßuN0"
- PHI_sulawesi_title: "Á”›S"
- PHI_sulawesi_desc: "bìN(WlšegNLu„vib.VNýwjPÞn0bìNÅV‰˜zŠ‰Ì‘=O¯ewmÿVg‰Ì‘=O¯e›SÁ”›S0"
- PHI_alam_melayu_title: "?–ÉbÆYlšeg"
- PHI_alam_melayu_desc: "lšegšN=fN*NgvQ0NÌRŒTY7hS„v0W:SÿåNvQ™™™e0™™ŒTÄžÑ‘wû•TŽNN0KS¡r‚YdkÍ‘‰ÿÙ*N²›SÎN*gŒRhQßuNÇÿuó(W»žUôTGk^ýVKNNmN¡l	g0SV6qÿöeãN(WØSÿlšegºNmN(WØS0=föePgÈuSÙ*N‰Lq„v0W:S³ueQbìN„vHrþV†N0"
- PHI_envoys_to_china_title: "yrO0R-NýV"
- PHI_envoys_to_china_desc: "-NýVNôv=fFUNŒTCg›R„vÛv'YofaŒÇT-NýV‡v^>mcyrOÿbìNïSåNÎNÖNìN±Ì‘·ƒ—V(WNWSšNib.VNb—„vÝO²b0"
- PHI_welcome_the_expedition_title: "0kÎÜV"
- PHI_welcome_the_expedition_desc: "Yt^egÿ-NýVNôv=f¸‹YYýVÜV„vn4Y0ëR—‰[Root.GetName]0kÎÖNìN„vNN!kÜV0"
- PHI_manigoos_title: "eR:Ylš<SbeY¯e„vCg)R"
- PHI_manigoos_desc: "lš<SbeY¯ebìN„v.Oßu5Ïeÿ•gåNegNôvcbbìNßu»l„vCg)R0bìNÅV‰˜nxÝOÖNìNìr¶RCg)R«ˆeR:YÿåN=ecN*Nôf R-N.YÆ–Cg„výV¶R0"
- PHI_maritime_traditions_title: "wmm.Oßu"
- PHI_maritime_traditions_desc: "4lKbŒTwmXT„vNˆ²mNôv(W[Root.GetName]ºNl„vNˆ¡r-NAmÌm0‚YœgbìNó`ÝOcbìN„vlÏe'`ÿbìNÅV‰˜ôu²bbìN„vwmm.OßuŒTwm›Q¾|^y0"
- PHI_philippine_goods_title: "òƒ‹V¾RFUÁT"
- PHI_philippine_goods_desc: "bìN²›S„v0NÌR=nãSŒTê6qDnOvQb:N8fŒTFUN„v-NÃV0‚YœgbìN RPuµNªR›RÿbìNýV¶R„vhQSOSÎNbìN„vªR›R-N×SÊv0"
- PHI_grow_the_barangay_title: "ÑSUSôTgÖv"
- PHI_grow_the_barangay_desc: "c„v=fbìNýV¶R…Qè„vê»lQg„^ÿôTgÖv=fbìN¡rt„vÍ‘‰ÄubèR0ÇžX RbìNßu»lN„vôTgÖvpeÏ‘ÿbìNïSåNÅib'YbìN„v¡rt0"
- PHI_datus_title: "[root.GetName]„v¾þV"
- PHI_datus_desc: "¾þV=fÍ‘‰„vSV0W†˜üRºNÿ(W[Root.GetName]„v»lt-NnboÍ‘‰Ò‰r‚0‹†6qÙ›N*NSOùRbìN?eœ^„vbŸRósQÍ‘‰ÿFOÖNìN„vCg›RmNÅV‰˜ÆRRÑvµc0"
-
- PHI_noble_stability: "‚Yœg§Y[Root.GetNobilityName]§!óS	g§G65§!§YàVÚ‹¦^§!ÿbìNS·ƒ—V§G1§!3zšR'`b§G50§!Lˆ?eCg›R0"
- PHI_10_production: "§G10§!§YuµN§!ÑSUSSRM‘ÙubìNåb	g§YuµN§!ú^Qr„vwýN0"
- PHI_if_we_are_the_first: "[Root.PHI_chinese_opinion_tt]‚YœgbìN=f,rN*NŒRbûN¡R„v§Yòƒ‹V¾RýV¶R§!ÿ"
- PHI_national_focus_mil: "ýV¶R&q¹p¾‹n:N§Y›Q‹N§!0"
- PHI_phil_borneo_claim_tt: "\n(WŒRb'§YéTúVT‹R§!'ÿ'§YßuNôu(„šN¯e§!'ŒT'§YVgÉhpQw›S§!'KNTÿ§Y[Root.GetName]§!S·ƒ—VùR§YFZW2m§!›S„v8lEN±Rðy0"
- 
- PHI_maginoos: "µc6Rlš<Sb5Ïe"
- PHI_primary: ")Yg„vIN‰ßvËS"
- PHI_supported_by_the_empire: "^ýV=ec"
- PHI_keeping_datu_in_check: "µc6R¾þV"
- PHI_ship_warfare: "wmN—e‰N"
- PHI_maharlika_ascendant: "lšÈTÌ‘aSTw"
- PHI_maharlika_ascendant_2: "lšÈTÌ‘aSTw"

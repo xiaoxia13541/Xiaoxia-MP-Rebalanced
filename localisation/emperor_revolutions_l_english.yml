@@ -1,227 +1,227 @@
-l_english:
- revolution.30.name:0 "[Root.philosopher_dude.GetName]的理念"
- revolution.30.desc:0 "[university_town.GetName]大学的著名哲学家[Root.philosopher_dude.GetName]出版了一部反对过度专制的著作，毫不掩饰地抨击了[Root.Monarch.GetTitle][Root.Monarch.GetName]。不幸的是，他的著作似乎很有说服力，并广受知识界的欢迎，每当他们想反对政府政策时，就会引用书中的某些重点段落。"
- revolution.30.A:0 "容忍他。"
- revolution.30.B:0 "逮捕他，然后把他的书烧了！"
- french_revolution.4.robespierre:0 "恐怖统治已经使得无数的法国人以共和国之名被杀害，刚刚消灭一个威胁，紧接着就查处掉另一个。最近，罗伯斯庇尔[Root.Monarch.GetTitle]做了一个非常激进的演讲，在演讲中他斥令逮捕公共安全委员会和一般安全委员会之中的叛徒。这引起了革命领袖之中广泛的恐惧与愤怒，他们害怕在另一场清洗中遭到针对。国民议会已经决定宣布逮捕他，并且消除他恐怖统治所造成的恶果，同时保持国家的稳定，以防有人趁乱复辟君主制。\n\n不过，罗伯斯庇尔似乎仍有着许多拥趸，而如果我们不迅速行动，他们一定会设法保护他。"
- french_revolution.4.robespierre.A:0 "逮捕罗伯斯庇尔！"
- french_revolution.4.robespierre.B:0 "恐怖统治将会继续。颤抖吧，人民之敌们！"
- french_revolution.301.name:0 "对革命的背叛"
- french_revolution.301.desc1:0 "[Root.GetEventAdvisorName]，[Root.GetUsableName]的首席[Root.GetEventAdvisorTitle]，经常抨击[Root.Monarch.GetTitle][Root.Monarch.GetName]和革命政府所造成的恐怖统治。在公共安全委员会看来，这表明[Root.GetEventAdvisorHerHim]已经成了一个危险的反动派，他现在是人民公敌，留他活命势必贻害无穷。"
- french_revolution.301.desc2:0 "目前仍不清楚首席[Root.GetEventAdvisorTitle][Root.GetEventAdvisorName]做了什么而引起了[Root.Monarch.GetTitle][Root.Monarch.GetName]的愤怒，但是公共安全委员会仍然认定[Root.GetEventAdvisorHerHim]是一个潜在的反动分子。为免这潜在的风险被坐实，他们建议用断头台处决他。"
- french_revolution.301.desc3:0 "似乎公安委员会的一名委员无意中听到[Root.GetEventAdvisorName]，[Root.GetUsableName]的首席[Root.GetEventAdvisorTitle]，对一名反革命分子发表了错误的言论。当这个消息传开，委员会立马认定[Root.GetEventAdvisorHerHim]为人民公敌并建议使用断头台处决。"
- french_revolution.301.A:0 "断头台夫人的另一名罹难者。"
- french_revolution.301.B:0 "我们应该放过[Root.GetEventAdvisorHerHim]。"
- french_revolution.303.name:0 "恐怖专政"
- french_revolution.303.desc:0 "频繁的清洗让革命的敌人在恐惧中瑟缩。没人敢于提高嗓门反对政府制定的方针计划，这让整个国家空前地团结起来。一切赞誉归于[Root.Monarch.GetTitle][Root.Monarch.GetName]！"
- french_revolution.303.A:0 "如果他们不喜欢我们，那就让他们畏惧我们。"
- french_revolution.5.female:0 "自革命以来，女王和其他王室成员一直被软禁在杜伊勒里宫，在那里她不情愿地成了新政权的傀儡。尽管她曾承诺保证革命的社会进步，但她并没有掩饰对强加给她的这个肮脏的君主立宪制的蔑视。恰恰相反，她正密谋逃走，想从我们在[flee_to_country.GetUsableName]的敌人那里寻求庇护，藉此希望能从那里恢复王位。然而，革命武装在她越境前截获了她。\n\n这使得那些鄙视君主制并希望永远摆脱这份祸害的人信心大增，他们把她拖到国民议会前，以与外国势力合谋而叛国的罪名接受审判。如果被判有罪，她将被迫退位，被剥夺所有头衔，面临断头台处决。然而，紧张局势正在加剧，投票已经到了千钧一发之际。"
- french_revolution.5.male:0 "自革命以来，国王和其他王室成员一直被软禁在杜伊勒里宫，在那里他不情愿地成了新政权的傀儡。尽管他曾承诺保证革命的社会进步，但他并没有掩饰对强加给他的这个肮脏的君主立宪制的蔑视。恰恰相反，他正密谋逃走，想从我们在[flee_to_country.GetUsableName]的敌人那里寻求庇护，藉此希望能从那里恢复王位。然而，革命武装在他越境前将其截获。\n\n这使得那些鄙视君主制并希望永远摆脱这份祸害的人信心大增，他们把他拖到国民议会前，以与外国势力合谋而叛国的罪名接受审判。如果被判有罪，他将被迫退位，被剥夺所有头衔，面临断头台处决。然而，紧张局势正在加剧，投票已经到了千钧一发之际。"
- french_revolution.8.desc:0 "我们敬爱的[Root.Monarch.GetTitle]遇害了！保王党人把炸弹藏进桶里，放到了停在圣尼凯斯街的货车上，那是拿破仑去往歌剧院观赏约瑟夫·海顿的清唱剧《创世记》首演的必经之路。炸弹中装满了火药、易燃物和弹丸，用长长的导火线引爆，号称「地狱机器」。就在拿破仑走近时，爆炸发生了，他的性命被当场夺去。"
- french_revolution.8.B:0 "真是悲剧！"
- rus_revolutionary_zeal:0 "俄国大革命"
- desc_rus_revolutionary_zeal:0 "俄罗斯的人民已经拥抱了革命！现在，我们必须将革命传播到地球上的每一个角落！"
- REVOLUTIONARY_SPANISH_REPUBLIC:0 "最高执政府"
- FIRST_OFFICER:0 "首席军官"
- REVOLUTIONARY_SWEDISH_REPUBLIC:0 "公安委员会"
- REVOLUTIONARY_DANISH_REPUBLIC:0 "公安委员会"
- FIRST_LAWSPEAKER:0 "首席法律讲述官"
- FIRST_LAWSPEAKER_fem:0 "首席法律讲述官"
- SUPREME_VIZIER:0 "最高维齐尔"
- SUPREME_VIZIER_fem:0 "最高维齐尔"
- CHAIRMAN:0 "主席"
- CHAIRMAN_fem:0 "主席"
- revolution.31.name:0 "西班牙大革命"
- revolution.31.desc:0 "革命来临了！暴徒们袭击了[Root.Capital.GetCapitalName]王宫，抓住了[Root.Monarch.GetTitle][Root.Monarch.GetName]，[Root.Monarch.GetSheHe]和其他无法逃脱的王室成员一起被立刻处决。\n\n新的最高中央和执政委员会已经宣布成立一个共和国。委员会由西班牙各部的两名代表组成，由著名哲学家和律师加斯帕尔·梅尔乔·德·霍韦亚诺斯领导。政府承诺废除农奴制，建立法律下的平等，将贵族的土地重新分配给国家和人民，使西班牙和欧洲其他国家走向一个没有压迫的光明未来。"
- revolution.31.A:0 "革命万岁！"
- revolution.32.name:0 "[Root.GetAdjective]大革命"
- revolution.32.desc.swedish:0 "革命来临！革命以被称为「[GetYear]年党人」的贵族团体发动的一场政变开始，迫使[Root.Monarch.GetTitle][Root.Monarch.GetName]退位并流亡国外。尽管政变策划者们的目的是建立君主立宪制，但由于律师、商人和自由派的激进派系的煽动性言论激发了民众对于君主的愤怒，事态迅速升级。[Root.Capital.GetCapitalName]的皇宫已被攻占，官员们在恐怖中目睹了旧政权象征的倒塌和新共和国的建立。\n\n由激进分子主导的公安委员会已经掌握国家临时控制权。他们承诺在法律框架内实现平等，并将贵族土地在国家和农民之间重新分配，将带领[Root.GetName]和欧洲其他部分走向不受压迫的更光明的未来。"
- revolution.32.desc.norwegian:0 "革命来临！革命以被称为「[GetYear]年党人」的贵族团体发动的一场政变开始，迫使[Root.Monarch.GetTitle][Root.Monarch.GetName]退位并流亡国外。尽管政变策划者们的目的是建立君主立宪制，但由于律师、商人和自由派的激进派系的煽动性言论激发了民众对于君主的愤怒，事态迅速升级。[Root.Capital.GetCapitalName]的皇宫已被攻占，官员们在恐怖中目睹了旧政权象征的倒塌和新共和国的建立。\n\n由激进分子主导的公安委员会已经掌握国家临时控制权。他们承诺在法律框架内实现平等，并将贵族土地在国家和农民之间重新分配，将带领[Root.GetName]和欧洲其他部分走向不受压迫的更光明的未来。"
- revolution.32.desc.danish:0 "革命来临！革命以被称为「[GetYear]年党人」的贵族团体发动的一场政变开始，迫使[Root.Monarch.GetTitle][Root.Monarch.GetName]退位并流亡国外。尽管政变策划者们的目的是建立君主立宪制，但由于律师、商人和自由派的激进派系的煽动性言论激发了民众对于君主的愤怒，事态迅速升级。[Root.Capital.GetCapitalName]的皇宫已被攻占，官员们在恐怖中目睹了旧政权象征的倒塌和新共和国的建立。\n\n由激进分子主导的公安委员会已经掌握国家临时控制权。他们承诺在法律框架内实现平等，并将贵族土地在国家和农民之间重新分配，将带领[Root.GetName]和欧洲其他部分走向不受压迫的更光明的未来。"
- revolution.32.A.swedish:0 "为了自由的北欧！"
- revolution.32.A.norwegian:0 "为了自由的北欧！"
- revolution.32.A.danish:0 "为了自由的北欧！"
- revolution.33.name:0 "猛攻伦敦塔"
- revolution.33.desc:0 "「看到[Root.GetStateForm]的荣誉堕落到与娼妓一般的水准，我为此而悲痛。」由于这些不恰当的字句，[Root.Monarch.GetTitle][Root.Monarch.GetName]下令逮捕并监禁了广受欢迎的政治家约翰·威尔克斯。然而，这引发了伦敦的大规模抗议，人们以「为了威尔克斯和自由！」的口号举行集会。官员宣读了「暴乱法」，指示部队向抗议者开火，但这不过是在抗议队伍不断壮大的情况下进一步加剧了紧张局势。抗议很快在整个城市升级，大批暴民涌入伦敦塔，释放了所有政治犯。在威尔克斯本人的带领下，群众转而攻向白金汉宫。[Root.Monarch.GetTitle]在[Root.Monarch.GetSheHe]尝试逃离城市时被捕，而现在因针对[Root.GetAdjective]人民的阴谋而面临审判，这一判决已成定局。\n\n由威尔克斯领导的革命委员会已经接管了新共和国，革命委员会承诺废除农奴制、实现依法平等，没收贵族土地归国有或分给农民，领导[Root.GetName]走向由自由和人类的兄弟情谊的理想指导的未来。"
- revolution.33.A:0 "共和国万岁！"
- revolution.34.name:0 "[Root.GovernmentName]的垮台"
- revolution.34.desc:0 "革命来临了！长期以来，[Root.GovernmentName]政府都没能施行任何有意义的改革措施，这在民众中引发了长久的不满，而这种不满最终失控、演变成为了革命；革命群众席卷了[Root.Capital.GetCapitalName]的托普卡帕宫，[Root.Monarch.GetTitle][Root.Monarch.GetName]的后宫女眷均被擒获，皇室财产悉数抄没。[Root.Monarch.GetTitle]本人尝试逃跑，却没能躲避多久。以背叛人民和信仰的罪名，[Root.Monarch.GetSheHeCap]很快就被群众处决。\n\n帝国底万中的反动分子被悉数清除，并重新组建为共和国的执政议会，现在正由自封的至高维齐尔[Root.new_supreme_vizier.GetName]领导。新政权承诺将废除农奴制，建立法制之下的平等，没收贵族的土地、交由国家和农民，从而实现[Root.Religion.GetGroupName]同胞皆为兄弟、免除封建压迫的理想。"
- revolution.34.desc.heir:0 "革命来临了！长期以来，[Root.GovernmentName]政府都没能施行任何有意义的改革措施，这在民众中引发了长久的不满，而这种不满最终失控、演变成为了革命；革命群众席卷了[Root.Capital.GetCapitalName]的托普卡帕宫，[Root.Monarch.GetTitle][Root.Monarch.GetName]的后宫女眷均被擒获，皇室财产悉数抄没。[Root.Monarch.GetTitle]本人尝试逃跑，却没能躲避多久。以背叛人民和信仰的罪名，[Root.Monarch.GetSheHeCap]很快就被群众处决。\n\n帝国底万中的反动分子被悉数清除，并重新组建为共和国的执政议会，现在正由自封的至高维齐尔[Root.new_supreme_vizier.GetName]领导。新政权承诺将废除农奴制，建立法制之下的平等，没收贵族的土地、交由国家和农民，从而实现[Root.Religion.GetGroupName]同胞皆为兄弟、免除封建压迫的理想。\n\n然而，[Root.Heir.GetTitle][Root.Heir.GetName]仍然控制着许多省份，他已经纠集起了由奥斯曼保皇党组成的军队，发誓将复辟[Root.GovernmentName]……"
- revolution.34.A:0 "自由是人民无可辩驳的权利！"
- revolution.35.name:0 "拿破仑·迪·波拿巴"
- revolution.35.desc:0 "大革命的混乱与外国干涉的威胁，为雄心勃勃的年轻军官带来了崭露头角的机会——这个机会被科西嘉的炮兵中尉拿破仑·迪·波拿巴牢牢地攥在了手里。数场战斗的胜利让他引人注目。最近他又通过在街巷中部署重炮，独力镇压了[Root.Capital.GetCapitalName]的保王党叛乱，这次果断行动的成功让他赢得了人民的爱戴。已经有许多革命领袖看好他，打算提携他升任要职。然而，他是一个充满野心的人，区区[Root.Monarch.GetTitle]之位可不会使他满足。"
- revolution.36.desc:0 "不满足于仅仅作为第一执政，拿破仑·迪·波拿巴提议自己应加冕为意大利皇帝。他声称恢复世袭继承制可以让意大利那些试图叛乱恢复旧政权的人更难得逞——毕竟，他已经遭遇过不止一次保王党的刺杀阴谋。但是毫无疑问，他的主要动机是满足他想要获得至高无上权力的野心。这份提议在群众中得到了广泛的支持，许多群众渴望恢复革命发生前相对稳定的社会环境；然而，革命的铁杆支持者对于这种试图把过多的权力掌握在拿破仑的手中的行为表示了担忧。"
- revolution.36.A:0 "意大利将成为一个帝国！"
- revolution.37.name:0 "[Root.Capital.GetCapitalName]革命"
- revolution.37.desc:0 "革命来临了！人群聚集在[Root.Capital.GetCapitalName]，提出了大量的让步条件，主要包括一部更加民主的宪法。惊讶于抗议的规模，[Root.Monarch.GetTitle][Root.Monarch.GetName]试图以一些微薄的让步来缓解现状。但革命者的领袖[Root.new_ruler.GetName]重申了他们不会轻易退缩。「我们有什么证据，」他说，「能证明这个暴君会信守[Root.Monarch.GetHerHis]承诺？」因此，[Root.Monarch.GetTitle][Root.Monarch.GetName]命令军队驱散人群，但军队拒绝向示威者开火，被驱逐的反而是[Root.Monarch.GetSheHe]自己。\n\n一个革命共和国在[Root.new_ruler.GetName]谨慎的管理下建立，并承诺废除农奴制，以法律确保平等并将贵族的土地重新分配给国家和农民。它将引领[Root.GetName]的人民走向一个由自由和兄弟情谊引领的未来。"
- revolution.37.A:0 "革命万岁！"
- revolution.38.name:0 "[Root.Capital.GetCapitalName]革命"
- revolution.38.desc:0 "革命来临了！[Root.GovernmentName]各处的抗议者要求均分土地，制定民主宪法并提高非德意志地区的自治权，抗议在[Root.Capital.GetCapitalName]演变成了大规模的游行。[Root.Monarch.GetTitle][Root.Monarch.GetName]试图以一些微薄的让步来缓解现状，但这无法使抗议者满意。军队的暴力行为点燃了人民的怒火，一群暴徒攻击了霍夫堡宫，抓住并处死了[Root.Monarch.GetTitle]。\n\n革命委员会宣布[Root.GetUsableName]现在是一个共和国，他们承诺废除农奴制以法律确保平等并将贵族的土地重新分配给国家和农民，将[Root.GetUsableName]和欧洲的其他地区从压迫当中解放出来。"
- revolution.38.A:0 "前进，为了自由！"
- center_of_revolution.2.name:0 "来自[william_jones_province.GetName]的怒汉"
- center_of_revolution.2.desc:0 "[Root.william_jones.GetName]，一名来自[william_jones_province.GetName]的诗人和学者在他的[william_jones_province.Culture.GetName]同乡当中通过散发小册子而出了名，他甚至还创作了一首[william_jones_province.Culture.GetName]国歌。他公开谴责[Root.GetAdjective]的压迫并传播[revolution_target.GetAdjective]的革命理念，他号召他的同乡打起行装，离开家园并前往新世界的「应许之地」寻找自由。\n\n看起来他的言论在[william_jones_province.Culture.GetName]人当中很有市场，一名有影响力的权贵称他是「我见过的最热忱的[william_jones_province.Culture.GetName]人」。已经有许多他的同乡受他的理念影响，开始前往[destination_country.GetName]。"
- center_of_revolution.2.A:0 "让他们离开，没有他们我们会过得更好。"
- center_of_revolution.2.B:0 "我们不能允许他们移民到殖民地。"
- opinion_hostile_expats:0 "有敌意的侨民"
- center_of_revolution.3.name:0 "殖民地局势动荡"
- center_of_revolution.3.desc:0 "如野火般蔓延的革命思想已经渗透进了我们的殖民地。受到[revolution_target.GetAdjective]革命成功的影响以及哀叹于本国缺少自由的事实，大批心怀不满的知识分子和雄心勃勃的创业者正涌向[colonial_country.GetName]，期求在那里能够建立一个远离[Root.GetAdjective]支配的独立共和国。"
- center_of_revolution.3.A:0 "我们有麻烦了。"
- center_of_revolution.4.name:0 "殖民地的自由"
- center_of_revolution.4.desc:0 "来自[colonial_country.GetName]的大使已到达[Root.Capital.GetCapitalName]进行秘密行动：在[rival_country.GetAdjective]规则的不公正对待之下，他们寻求独立的支持。如果我们可以为他们提供物质支持，他们也许可以挣脱独立，从而将自由传播到新世界，并削弱那些抵制[Root.Capital.GetContinentName]革命前进的人。"
- center_of_revolution.4.desc.already_supporting:0 "来自[colonial_country.GetName]的大使已到达[Root.Capital.GetCapitalName]进行秘密行动：在[rival_country.GetAdjective]规则的不公正对待之下，他们为自己的独立而寻求我们的进一步支持。如果我们可以为他们提供更多的物质支持，他们也许可以挣脱并独立，从而将自由传播到新世界，并削弱那些抵制[Root.Capital.GetContinentName]革命前进的人。"
- center_of_revolution.4.A:0 "给他们一些经济援助。"
- center_of_revolution.4.B:0 "给他们其它形式的援助。"
- center_of_revolution.4.C:0 "我们最好把精力放在其它地方。"
- center_of_revolution.5.name:0 "[From.GetName]支持我们独立"
- center_of_revolution.5.desc:0 "[From.GetName]迫切希望传播他们的革命理想，并愿尽其所能削弱宿敌[rival_country.GetUsableName]，为此，他们已经同意向我们提供物质援助，以确保我们从[rival_country.GetAdjective][rival_country.GovernmentName]手中争取独立。"
- center_of_revolution.5.A:0 "很好。"
- center_of_revolution.6.name:0 "[From.GetName]在我们的殖民地制造麻烦"
- center_of_revolution.6.desc:0 "尽管[From.GetName]否认了所有的指控，但我们还是发现他们不仅仅满足于在[Root.Capital.GetContinentName]实施颠覆活动，还在给[colonial_country.GetName]殖民地的反贼暗中提供支持。我们必须对两国采取迅速行动，以防殖民地脱离我们的掌控！"
- center_of_revolution.6.A:0 "他们怎么敢？！"
- opinion_funded_independence_war:0 "资助了独立战争"
- opinion_funding_our_colonies_for_independence:0 "资助了殖民地的独立"
- opinion_refused_to_fund_independence_war:0 "拒绝资助独立战争"
- revolutionary_sentiment:0 "革命热情"
- center_of_revolution.7.name:0 "曾经的革命者浪子回头"
- center_of_revolution.7.desc.is_former_target:0 "随着革命的失败，那些从未真正认同革命的人也开始表达自己的看法。尽管意识形态问题在多年内仍会折磨我们的国家，但各省的革命热情正在缓慢消失。"
- center_of_revolution.7.desc.former_target_exists:0 "随着[former_revolutionary_country.GetAdjective]革命的失败，[revolutionary_province.GetAreaName]民众的革命热情也有所衰减。还想改变体制的人也不愿放弃，在[Root.GovernmentName]的体制下继续存活。"
- center_of_revolution.7.desc.no_former_target:0 "随着想要实现革命的人彻底失败，[revolutionary_province.GetAreaName]的人民的革命热情持续走低。他们不情愿地顺从于[Root.GovernmentName]的统治以保全性命。"
- center_of_revolution.7.A:0 "一切都已恢复了原有的秩序。"
- center_of_revolution.8.name:0 "[revolutionary_province.GetName]的反革命分子"
- center_of_revolution.8.desc:0 "颠覆性的[revolution_target.GetAdjective]革命理念已经在[revolutionary_province.GetName]站稳了脚跟，打破了原有的社会秩序。然而，在战争打响之前正统的贵族并不承认这个势力。他们承诺如果我们给予支持，就集结力量将革命者驱逐出[revolutionary_province.GetName]。"
- center_of_revolution.8.A:0 "他们将得到我们的支持。"
- center_of_revolution.8.B:0 "我们不会扰乱当地的行政。"
- center_of_revolution.9.name:0 "[reactionary_province.GetName]的反动分子！"
- center_of_revolution.9.desc:0 "[reactionary_province.GetName]的旧政权余孽乃是人民之敌一事暴露无遗。经过严密的秘密谋划，他们已经策反了不少地方民兵并且罗织罪名抓捕了我们在当地的行政人员。他们还声称，自己有责任在困难时期引导[reactionary_province.GetName]的人民，保护他们免受革命政府侵害。我们该如何处理他们？"
- center_of_revolution.9.A:0 "我们将碾碎这些人民之敌！"
- center_of_revolution.9.B:0 "他们不值得我们费心。"
- center_of_revolution.10.name:0 "[province_to_revolution.GetName]的共和派密谋"
- center_of_revolution.10.desc:0 "[own_revolutionary_province.GetName]的爱国人士提醒我们，传播革命理想的新契机已经浮现。来自[province_to_revolution.GetName]的共和派人士正在尝试与他们接洽，希望能在针对当地反动势力的政变中得到[Root.GetAdjective]的帮助。然而，反动派在[own_revolutionary_province.GetCapitalName]的势力根深蒂固，只有得到我们的物资援助，他们才能取得进展。可如果我们决定干涉，[neighbour_country.GetAdjective]的统治者一定会把这当成恶意的挑衅。"
- center_of_revolution.10.A:0 "他们将得到我们的支持。"
- center_of_revolution.10.B:0 "我们不应该干涉[neighbour_country.GetAdjective]的事务。"
- center_of_revolution.11.name:0 "在[province_to_revolution.GetName]的政变"
- center_of_revolution.11.desc:0 "拥护革命思想的危险理想主义者已经控制了[province_to_revolution.GetName]，而那些拒绝支持革命事业的当地官员或被驱逐，或被处决。目击者称，来自[From.GetAdjective]的著名革命党人物出现在了叛军中间，但[From.GetAdjective]派驻[Root.Capital.GetCapitalName]的代表却表示对此次政变毫不知情。"
- center_of_revolution.11.A:0 "我们无法忍受这种事。"
- opinion_revolutionary_coup_in_our_province:0 "向我国输出革命"
- opinion_non_intervention:0 "不干涉主义"
- center_of_revolution.12.name:0 "[revolution_target.GetAdjective]流亡者到达[Root.Capital.GetCapitalName]"
- center_of_revolution.12.desc:0 "许多[revolution_target.GetAdjective]贵族逃到了[Root.Capital.GetCapitalName]，借此避开在他们祖国肆虐的革命。他们现在提议扶持[revolution_target.GetName]的合法统治者，以此帮助[Root.Monarch.GetTitle][Root.Monarch.GetName]结束革命的威胁，并让他们恢复原有地位。他们的到来增强了我国的反革命倾向，甚至让一些以前玩弄危险的进步思想的人产生了动摇。"
- center_of_revolution.12.A:0 "这里欢迎他们。"
- revolution.10.desc.nahuatl:0 "革命来临了！在革命群众冲进政府的关键建筑之后，[Root.GovernmentName]就不堪重负垮台了。[Root.Monarch.GetTitle][Root.Monarch.GetName]和他在[Root.GetNobilityOrFallbackName]间的支持者已经被革命者献祭给了诸神，以期望神灵的愤怒可以被这丰厚的祭品平息。\n\n一个纯粹的临时公共安全委员会已经被设立，将引导新共和国度过革命时期。然而，威胁无处不在，因为全世界的君主和独裁者都担心会遭受和我们[Root.Monarch.GetTitle]一样的命运，并且已经在准备对我们发动战争。但好的一面是，全世界的自由势力也期待着我们对于他们斗争的帮助，因此我们能通过这种方式得到支持。"
- revolution.10.opt.nahuatl:0 "祭坛将会被共和国敌人的鲜血染红！"
- revolution.39.name:0 "巴达维亚共和国"
- revolution.39.desc:0 "革命来临了！人群聚集在[Root.Capital.GetCapitalName]，要求政府做出让步，其主要包括一部更加民主的宪法，赫尔曼·威廉·丹德尔斯将军也结束流亡回到祖国来支持人民的事业。深感大祸临头，[Root.Monarch.GetTitle][Root.Monarch.GetName]在民众将[Root.Monarch.GetSheHe]抓获之前乘渔船逃亡出国。\n\n一个革命的「巴达维亚」共和国已经宣布成立，它以曾经反抗罗马帝国的旧日叛军为名。共和国的领导人在丹德尔斯将军的全力支持下，决定废除农奴制度，把贵族的土地在国家和农民之间进行重新分配，带领[Root.GetName]人民走向自由和人人皆兄弟的未来。"
- revolution.39.A:0 "共和国万岁！"
- junior_revolutionary_republic_reform:0 "革命国家"
- junior_revolutionary_republic_reform_desc:0 "革命共和国的政府由一个众议院支持下的小型执行委员会所组成，众议院的成员由普遍选举选出。这个国家将竭尽全力支持革命事业，传播自由和平等的思想。"
- republics.102.t:0 "[Root.GovernmentName]的稳定"
- republics.102.d.pirate:0 "海盗船长们和[Root.Monarch.GetTitle][Root.Monarch.GetName]的争执已经逐渐失控。由于不信任[Root.Monarch.GetName]会自愿放弃[Root.Monarch.GetHerHis]权力，船长们加入了驱逐[Root.Monarch.GetHerHim]的势力。随着[Root.Monarch.GetHerHis]尸体在绞架上摇摆，兵变者们联合起来建立了一个「兵变议会」以领导[Root.GovernmentName]度过这段艰难的时期。"
- republics.102.d.revolution:0 "共和国机构的公信力已经糟糕到了人民广泛讨论反革命政变的地步。随着猜疑的愈演愈烈，[Root.Monarch.GetTitle][Root.Monarch.GetName]所在的位置开始有些不稳。在这个困难的时期，[Root.GetName]的领导人在国家安全委员会采取了控制共和国的手段，直到恢复稳定。"
- republics.102.A.pirate:0 "兵变者们永垂不朽！"
- republics.102.A.pirate.tooltip:0 "§Y兵变议会（2/2/2）掌权了。只要共和传统低于50，选举就会被暂停。§!"
- republics.102.A.revolution:0 "愿他们的统治短暂而成功！"
- republics.102.A.revolution.tooltip:0 "§Y公共安全委员会（2/2/2）掌权了。只要共和传统低于50，选举就会被暂停。§!"
- elections.700.caretaker:0 "随着共和国的秩序多少恢复了正常，公共安全委员会已经决定停止运行，并允许通过选举来交代。推举出了三名主要候选人来替代[Root.Monarch.GetTitle]。"
- pirates.1.desc3:0 "[Root.GovernmentName]的安全已经得以确保，兵变议会已然在争吵与内讧中倒台，并最终解散。全员已被告知准备选举一个新的[Root.Monarch.GetTitle]。\n\n一个[Root.Monarch.GetTitle]将监管整个国家的不法行为，而对其本人唯一的要求只是希望他不要有对权力进一步的渴望。这是一项无异于走钢丝的使命，然而仍必须有一些勇敢或莽撞的家伙来填补这个空缺。"
- center_of_revolution.1000.name:0 "革命的发源地"
- center_of_revolution.1000.desc:0 "在[Root.GetCapitalName]，一位名叫[Root.first_center_revolutionary_philosopher.GetName]的哲学家发表了数篇斥责[Root.Owner.GetUsableName]专制不公的文章，宣传一种名为「社会契约」的新思想。他质疑了君权神授的合法性，并宣称主权在民，而对于立法与施政的最终决定权也必须归于人民大众。\n\n他的理论在新兴资产阶级与文人学者中广受欢迎，广布的小册子流水般散播开来，号召人们起来反抗专制暴政。他们的支持者逐渐遍布全[Root.GetContinentName]，革命星火，势将燎原。"
- center_of_revolution.1000.A:0 "这将颠覆一切……"
- center_of_revolution.1001.name:0 "重燃革命火炬"
- center_of_revolution.1001.desc:1 "随着革命斗争在[first_revolution_center.GetCapitalName]的失败，整个[Root.GetContinentName]的旧秩序仿佛都松了口气，满以为挑战已经被克服，一切都将归于正轨。然而，现在看来他们放心得太早了：[Root.GetCapitalName]的中产阶级高举起[first_revolution_center.first_center_revolutionary_philosopher.GetName]的革命思想，并尝试重走革命先驱的道路，将第三阶级从极权体制的压迫中解放出来。"
- center_of_revolution.1001.A:1 "他们将会遭受和[first_revolution_center.GetCapitalName]一样的命运！"
- center_of_revolution.1001.B:0 "革命万岁！"
- center_of_revolution.1500.name:0 "革命结束"
- center_of_revolution.1500.desc:0 "[From.GetUsableName]的军队彻底击溃了[Root.GetAdjective]革命军！当空想家们被无情围捕时，沉默的大多数转而掸去君主古老徽号上的尘土。"
- center_of_revolution.1500.A:0 "国王万岁！"
- center_of_revolution.2000.name:0 "限制谷物贸易？"
- center_of_revolution.2000.desc:0 "谷物商人们在贸易上长期受到严苛的限制，包括价格调控和品质检查等。他们联合起来，提出了一项能极大提升利润，同时以此给我们带来大量税收的提案——他们提出在谷物贸易中遵循自由放任的原则，取消国家施加给这个行业的大多数限制。\n\n然而许多人指出这些限制的目的是保证粮食价格处在人民能够担负得起的水平，他们认为谷物商人是「人民最残酷的敌人」，认为他们将面粉和石粉或骨粉混合在一起，并恶意抬价以从穷苦人民身上榨取利润。因此，给予商人们自主权看起来是危险的……"
- center_of_revolution.2000.A:0 "由他们去吧。"
- center_of_revolution.2000.B:0 "没有必要对目前的安排作出改变。"
- center_of_revolution.2001.name:0 "面粉战争"
- center_of_revolution.2001.desc:0 "去年的冬天非常难熬，而直到今年春天也没有什么收成。[Root.GetUsableName]的储备粮食已经耗尽；而人民正面临着饥荒的威胁。谷物商人囤积居奇，更是使得局势雪上加霜。对于[Root.Monarch.GetTitle]的愤怒正如野火一般蔓延，煽动者们提醒人们，最近[Root.Monarch.GetTitle]的决定，放松了对谷物商人的限制——他们认为这些限制本可以阻止当前状况的出现。他们要求国家废除这项改革，并向人民分发粮食来减轻他们的苦难。"
- center_of_revolution.2001.A:0 "我们不能忍受这种苦难了，按照他们的要求去做吧！"
- center_of_revolution.2001.B:0 "经济自由主义才是未来的方向，我们不应该阻碍进步。"
- laissez_faire_grain_trade:0 "自由放任的谷物贸易"
- desc_laissez_faire_grain_trade:0 "我们已经允许谷物商人自由支配价格，以便从面粉的销售中获取尽可能多的利润。"
- revolutionary_sentiment_warning:0 "§R选择这个选项将会增加革命中心在[Root.GetName]出现的几率。§!\n"
- laissez_faire_grain_trade_tooltip:0 "所有治下省份中，§Y[Root.Culture.GetGroupName]§!文化，且生产§Y谷物§!的省份将会获得§G+50%§!的本地生产效率，持续5年。"
- laissez_faire_grain_trade_removed_tooltip:0 "「§Y自由放任的谷物贸易§!」修正将从所有§Y[Root.Culture.GetGroupName]§!文化且生产§Y谷物§!的省份中移除。"
- center_of_revolution.2002.name:0 "[Root.GetUsableNameCap]的国债"
- center_of_revolution.2002.desc:0 "长期的斗争和脆弱的经济使[Root.Monarch.GetTitle]欠下了大量的债务，许多人都认为欠款永远结不清了。由于还清这些债务需要调用国家预算越来越多，部长议会被召集起来寻求一个方案。有些人认为增加税率是可行的方案，但其他人指出这不会受到民众的欢迎，并建议进行广泛的改革来改善[Root.GetUsableName]的财政效率。"
- center_of_revolution.2002.A:0 "提高税赋将有助于我们偿还债务。"
- center_of_revolution.2002.B:0 "财政改革才是答案。"
- revolution_higher_taxes_for_debts:0 "紧急税收"
- desc_revolution_higher_taxes_for_debts:0 "国家债务将依靠平民的努力工作来偿还。"
- revolution_administrative_reforms:0 "预算改革"
- desc_revolution_administrative_reforms:0 "通过一项雄心勃勃的预算改革计划，人们对金融业的信心正在缓慢地增加。"
- center_of_revolution.2003.name:0 "[Root.Adm_Advisor.GetName]的改革"
- center_of_revolution.2003.desc:0 "一个现代且专制的国家的需求是远大于我们祖先的国家的。特别是在国家财政这方面。因而我们幸运地雇佣到了优秀的金融改革者[Root.Adm_Advisor.GetName]，一个对金融领域有者十分自信的人。\n\n然而当下，[Root.Adm_Advisor.GetSheHe]已经开始要求更多。通过一些大权来贯彻自己的新政策，[Root.Adm_Advisor.GetSheHe]在改革方面的野心已经为国家带来了好处，并一定会为我们的财政大臣赢得更高的声望。"
- center_of_revolution.2003.A:0 "放权与[Root.Adm_Advisor.GetHerHim]。"
- center_of_revolution.2003.B:0 "这完全不可接受！把[Root.Adm_Advisor.GetHerHim]从政府里踢出去！"
- center_of_revolution.2010.name:0 "第三阶级的要求"
- center_of_revolution.2010.desc:0 "近年来，[Root.Get市民Name]对于他们在[Root.GetUsableName]的地位越来越不满意。即使他们从工商业向国库贡献的税务占据了财政收入的绝大多数，他们对于政府的决策依然没有丝毫影响。确实如此，他们只能沮丧地看着[Root.Monarch.GetTitle]指明一条日益趋向集权的道路，从而摆脱各阶层曾经对[Root.Monarch.GetHerHim]施加的制约与平衡。\n\n他们现在提出了需求，要求废除最近几年的专制主义改革并授予更多的土地来作为他们贡献的补偿。如果我们拒绝，他们的内心就会被不满所支配，同时摧毁对[Root.GovernmentName]的信任。"
- center_of_revolution.2010.A:0 "接受他们的要求。"
- center_of_revolution.2010.B:0 "我们不能同意此事。"
- has_parliament_with_at_least_one_seat:0 "§Y[Root.GetName]§!有至少一个议会席位"
- reactionaries_failed:0 "反动势力的失败"
- desc_reactionaries_failed:0 "这个国家根深蒂固的反动势力为了阻止革命者掌权而进行了激烈的内战。尽管他们最终失败了，但这个国家仍然在革命派和反动派间一分为二。"
- revolution.1.A:0 "我们必须让那些自命不凡的暴民认清自己的地位！"
- revolution.1.B:0 "也许他们是对的……"
- revolution_disaster_go_for_it_tooltip:0 "§Y[Root.GetName]将会成为一个革命共和国，而反动者将会试图扭转这一变化。§!\n"
- the_revolution_will_succeed:0 "§Y革命将会胜利\n§!"
- revolution.9.won_revolution:0 "我们的革命势力获得了胜利，近年来的叛乱正在趋向尾声。现在我们可以期待[Root.GetName]人民有一个更加光明的未来。"
- revolution.9.lost_revolution:0 "参与革命的步兵都被碾碎了！我们的人民不得不进一步屈服于[Root.Monarch.GetTitle]的统治。"
- revolution.9.won_reactionary:0 "我们碾碎了自命不凡的革命暴民！不再有人非议[Root.Monarch.GetTitle]的统治……"
- revolution.9.lost_reactionary:0 "悲哀！那群自命不凡的革命者打败了我国的合法政府！不过，至少，昔日的稳定可能会重现。"
- revolution.9.A:0 "让我们欢庆胜利吧！"
- revolution.9.B:0 "至少冲突结束了……"
- add_as_much_revolutionary_zeal_as_you_can_take:0 "§Y[Root.GetName]§!的革命热情持续高涨。"
- remove_revolution_from_all_provinces:0 "革命热情在我们全境逐渐走低。\n只要我们还控制着这些省份，就不会再出现革命热情。"
- french_revolution.10.name:0 "共和国战争的代价"
- french_revolution.11.name:0 "人民厌倦了战争"
- french_revolution.12.name:0 "财源枯竭"
- french_revolution.13.name:0 "共和国的财政状况"
- french_revolution.14.name:0 "对共和国的普遍反对"
- french_revolution.15.name:0 "动荡中的共和国"
- french_revolution.16.name:0 "失望在共和国内传播"
- french_revolution.18.e:0 "至少冲突结束了……"
- french_revolution.18.f:0 "让我们欢庆胜利吧！"
- center_of_revolution.1600.name:0 "革命者被击败"
- center_of_revolution.1600.desc:0 "我们在[From.GetName]击溃了革命军，这标志着他们事业的一次重大挫折。在他们推翻政府的尝试失败后，[From.GetRegionName]各地曾经的革命分子中有许多已经对革命事业失去了信心，转而默许[Root.GovernmentName]的继续统治。"
- center_of_revolution.1600.A:0 "为了[Root.Monarch.GetTitle]！"
- root_is_most_powerful_in_europe:0 "§Y[Root.GetName]§!是§Y欧洲§!最强大的国家。"
- root_is_most_powerful_in_europe_2:0 "作为§Y欧洲§!最强大国家的国民，我们堕落的公民要求更多的自由。"
- center_of_revolution.2950.name:0 "革命面临危险"
- center_of_revolution.2950.desc:0 "过去的十年间，革命遭受了相当多的挫折。大革命失去了领导者，如果我们不能重振革命运动，它将深陷泥潭，并最终陨灭。"
- center_of_revolution.2950.A:0 "令人担忧。"
- center_of_revolution.2950.A.tt:0 "§Y如果在10年内没有国家宣称成为革命目标的话，革命将会结束，而[Root.GetName]将会变成一个议会共和制国家。§!"
- center_of_revolution.3000.name:0 "革命结束"
- center_of_revolution.3000.desc.last_rev:1 "自[last_revolutionary_country.GetAdjective]革命失败之后，没有人再敢于举起他们的旗帜，或尝试与反革命力量斗争。当年那些寻求彻底变革的人们现在却屈从于一句老话：万事变化越大，就越不会变化。"
- center_of_revolution.3000.desc.no_last_rev:0 "由[revolution_center.GetCapitalName]产生的革命理念而引起的运动最终没能达成他们改善人民现状的目标。当年那些寻求彻底变革的人们现在却屈从于一句老话：万事变化越大，就越不会变化。"
- center_of_revolution.3000.desc.never_rev:0 "被[revolution_center.GetCapitalName]所拥护的革命思想并不能改变人民的物质生活环境。他们所发起的运动未能如其计划般推翻国家。当年那些寻求彻底变革的人们现在却屈从于一句老话：万事变化越大，就越不会变化。"
- center_of_revolution.3000.A:0 "谢天谢地！"
- center_of_revolution.3000.A.tt:0 "§Y革命理念已从所有省份移除。§!"
- center_of_revolution.3000.A.tt2:0 "§Y所有的革命中心已被移除。§!"
- center_of_revolution.3000.B:0 "不幸的一天。"
- disaster_active_for_20_years_tooltip:0 "灾难已经持续了20年。"
- no_spread_here_for_15_years_tt:0 "革命的理念将被从§Y[This.GetName]§!移除，15年内无法再次传播至这里。"
- french_revolution.18.d.reactionary:0 "那个充满暴乱和持续性社会动荡的时期已然远去。革命已经被彻底粉碎，一切终于可以回归常态。"
- TURKEY_STRING:0 "土耳其"
- TURKEY_STRING_ADJ:0 "土耳其"
- REV_TURKEY_STRING:0 "革命土耳其"
- REV_TURKEY_STRING_ADJ:0 "土耳其"
- CHINA_STRING:0 "中华"
- CHINA_STRING_ADJ:0 "中华"
- REV_CHINA_STRING:0 "革命中华"
- REV_CHINA_STRING_ADJ:0 "中华"
- GURKANI_EMPIRE_STRING:0 "古列干帝国"
- GURKANI_EMPIRE_STRING_ADJ:0 "古列干"
- REV_GURKANI_EMPIRE_STRING:0 "革命古列干帝国"
- REV_GURKANI_EMPIRE_STRING_ADJ:0 "古列干"
- revolution.40.name:0 "天朝的革命"
- revolution.40.desc:0 "革命来临了！大批群众聚集在[Root.Capital.GetCapitalName]，要求终结压迫广大人民的千年帝制。起初，人民只是要求制定一部宪法来制约[Root.Monarch.GetTitle]的权力，提升自己在政府中的影响力。然而，帝国军队的暴力镇压激怒了人民，他们奋起反击，然后冲进了紫禁城。当[Root.Monarch.GetTitle][Root.Monarch.GetName]的奢靡生活展现在人们面前时，几乎没有人还会对[Root.Monarch.GetHerHim]抱有怜悯之心。[Root.Monarch.GetName]自觉逃跑无望，因不愿公开受辱而畏罪自杀。\n\n[Root.Capital.GetCapitalName]的新统治者宣布中国实行共和政体。他们还承诺重新分配士绅土地给农民，实行「耕者有其田」，并在法律之下实行完全的「四民平等」，以求重组国家。全中国的人民将会拥有一个光荣而自由的未来！"
- revolution.40.A:0 "伟大而光荣的中华共和国万岁！"
- revolution.41.name:0 "[Root.GetAdjective]大革命"
- revolution.41.desc:0 "革命到来了！经过几周的抗议活动，空前数量的人群聚集在[Root.Capital.GetCapitalName]，要求给予印度人民更多的自由。尽管[Root.Monarch.GetTitle]命令其军队向群众开火，但军队并未从命，因为示威者拒绝用暴力或者侮辱手段向他们挑衅。[Root.Monarch.GetName]不断下达越来越残暴的命令，要求对所有异见分子处以极刑，军队决定发动政变，废黜[Root.Monarch.GetTitle]。新的共和国宣告建国之际，[Root.Monarch.GetSheHeCap]随即流亡他国。\n\n[Root.GetName]的新统治者承诺通过向农民重新分配土地、实现法律面前的全面平等、废除旧政权恶劣的不公现象，来改造国家，带领印度人民走向更光明和自由的未来！"
- revolution.41.desc2:0 "革命来临了！经过几周的抗议活动，空前数量的人群聚集在[Root.Capital.GetCapitalName]，要求给予人民更多的自由。尽管[Root.Monarch.GetTitle]命令其军队向群众开火，但军队并未从命，因为示威者拒绝用暴力或者侮辱手段向他们挑衅。[Root.Monarch.GetName]不断下达越来越残暴的命令，要求对所有异见分子处以极刑，军队决定发动政变，废黜[Root.Monarch.GetTitle]。大古列干共和国宣告建国之际，[Root.Monarch.GetSheHeCap]随即流亡他国。\n\n共和国的新统治者承诺通过向农民重新分配土地、实现法律面前的全面平等、废除旧政权恶劣的不公现象，来改造国家，带领整个共和国走向更光明和自由的未来！"
- revolution.41.A:0 "胜利和自由属于人民！"
+﻿l_english:
+ revolution.30.name:0 "[Root.philosopher_dude.GetName]„vtõV"
+ revolution.30.desc:0 "[university_town.GetName]'YfR„vW„TòTfR¶R[Root.philosopher_dude.GetName]úQHr†NNèÍSùRÇ¦^N6R„vW„jOÿëkN©cp™0W¨bûQ†N[Root.Monarch.GetTitle][Root.Monarch.GetName]0Nx^„v=fÿÖN„vW„jO<ONNˆV	gô‹g›Rÿv^^×SåwÆ‹Lu„v0kÎÿÏkSVÖNìNó`ÍSùR?eœ^?eVröeÿ1SOV(ufN-N„vÐg›NÍ‘¹pµkK„0"
+ revolution.30.A:0 "¹RÍVÖN0"
+ revolution.30.B:0 ".UcÖNÿ6qTŠbÖN„vfNçp†Nÿ"
+ french_revolution.4.robespierre:0 "P``ßu»lòTÏuO—Vàepe„vÕlýVºNåNqQŒTýVKNT«ˆNg³RÿRRˆmmpN*NZÁwÿ't¥cNw1SågY‰cæSN*N0gÑÿW=O¯e‡^S[Root.Monarch.GetTitle]ZP†NN*N^—8^ÀoÛ„vo²‹ÿ(Wo²‹-NÖN¥eäN.UclQqQ‰RhQÔYXTOŒTN,‚‰RhQÔYXTOKN-N„vÛS’V0ÙVw†Ni—‹T†˜–ˆKN-N^Ûl„vP`ç`N2a`ÿÖNìN³R`(WæSN:Wnm-Nm0Rˆ”ùR0ýVl®‹OòTÏu³QšR±R^.UcÖNÿv^Nˆmd–ÖNP``ßu»lNb.b„vv`œgÿTöeÝOcýV¶R„v3zšRÿåN2–	gºNqNYŸTIN6R0\n\nNÇÿW=O¯e‡^S<ONNÍN	gNw¸‹Yåb¸ÿw‚YœgbìNNÅLˆ¨RÿÖNìNNšRO¾‹ÕlÝO²bÖN0"
+ french_revolution.4.robespierre.A:0 ".UcW=O¯e‡^Sÿ"
+ french_revolution.4.robespierre.B:0 "P``ßu»lSOçuíu0²˜–b'TÿºNlKNLeìNÿ"
+ french_revolution.301.name:0 "ùRi—‹T„vÌwÛS"
+ french_revolution.301.desc1:0 "[Root.GetEventAdvisorName]ÿ[Root.GetUsableName]„v–™-^[Root.GetEventAdvisorTitle]ÿÏu8^¨bûQ[Root.Monarch.GetTitle][Root.Monarch.GetName]ŒTi—‹T?eœ^Nb.b„vP``ßu»l0(WlQqQ‰RhQÔYXTOwegÿÙhˆf[Root.GetEventAdvisorHerHim]òTÏub†NN*NqSi–„vÍS¨R>mÿÖN°s(W=fºNllQLeÿYuÖNIm‹T¿RÅVI³Ràewz0"
+ french_revolution.301.desc2:0 "îvMRÍNNnZi–™-^[Root.GetEventAdvisorTitle][Root.GetEventAdvisorName]ZP†NÀNHNwVw†N[Root.Monarch.GetTitle][Root.Monarch.GetName]„v2a`ÿFO=flQqQ‰RhQÔYXTOÍN6q²‹šR[Root.GetEventAdvisorHerHim]=fN*Njo(W„vÍS¨RRPR0:NMQÙjo(W„vÎ˜i–«ˆPWžRÿÖNìNú^®‹(u­e4YðSY³QÖN0"
+ french_revolution.301.desc3:0 "<ONNlQ‰RÔYXTO„vNTÔYXTàea-N,T0R[Root.GetEventAdvisorName]ÿ[Root.GetUsableName]„v–™-^[Root.GetEventAdvisorTitle]ÿùRNTÍSi—‹TRPRÑShˆ†N•ï‹„vŠº‹0SVÙ*Nˆmo`.OVÿÔYXTOËzlš²‹šR[Root.GetEventAdvisorHerHim]:NºNllQLev^ú^®‹O(u­e4YðSY³Q0"
+ french_revolution.301.A:0 "­e4YðS+YºN„væSNTy¾–w0"
+ french_revolution.301.B:0 "bìN”^å‹>eÇ[Root.GetEventAdvisorHerHim]0"
+ french_revolution.303.name:0 "P``N?e"
+ french_revolution.303.desc:0 "‘˜Au„vnm©‹i—‹T„vLeºN(WP`ç`-Nmt)0¡lºNbeŽNÐcØšÓUè•ÍSùR?eœ^6RšR„v¹eˆ”¡‹RÿÙ©‹te*NýV¶RzzMR0WâVÓuweg0NR^‰ŠRVŽN[Root.Monarch.GetTitle][Root.Monarch.GetName]ÿ"
+ french_revolution.303.A:0 "‚YœgÖNìNNœU0kbìNÿ±1S©‹ÖNìNOuç`bìN0"
+ french_revolution.5.female:0 "êi—‹TåNegÿsY‹sŒTvQÖN‹s²RbXTNôv«ˆoy(WjgOÒRÌ‘«Rÿ(W±Ì‘yYNÅ`?a0Wb†N°e?eCg„vŽP!Q0KS¡ryYþfbú‹ÝOÁ‹i—‹T„v>yOÛekÿFOyYv^¡l	g©cp™ùR:V RÙuyY„vÙ*N®w„vTINËzªR6R„v…Æ‰0p`p`øvÍSÿyYckÆRŒpÿó`ÎNbìN(W[flee_to_country.GetUsableName]„vLeºN±Ì‘ûRBl‡^²bÿÉ…dk^gýwÎN±Ì‘b`Y‹sMO06qwÿi—‹TfkÅˆ(WyYŠƒXMR*b·ƒ†NyY0\n\nÙO—V±›N‘Æ‰TIN6Rv^^g8lÜFd1ÙýNxy³R„vºNáOÃV'YžXÿÖNìNŠbyYÖb0RýVl®‹OMRÿåNNYýV¿R›RTŒwÛSýV„vjT¥c×S¡R2R0‚Yœg«ˆ2R	gjÿyYS«ˆëMOÿ«ˆeR:YNb	g4YTˆÿb—4N­e4YðSY³Q06qwÿ't.VNS¿Rck(W RgRÿ•bhyòTÏu0R†NCSµ”NÑSKNE–0"
+ french_revolution.5.male:0 "êi—‹TåNegÿýV‹sŒTvQÖN‹s²RbXTNôv«ˆoy(WjgOÒRÌ‘«Rÿ(W±Ì‘ÖNNÅ`?a0Wb†N°e?eCg„vŽP!Q0KS¡rÖNþfbú‹ÝOÁ‹i—‹T„v>yOÛekÿFOÖNv^¡l	g©cp™ùR:V RÙuÖN„vÙ*N®w„vTINËzªR6R„v…Æ‰0p`p`øvÍSÿÖNckÆRŒpÿó`ÎNbìN(W[flee_to_country.GetUsableName]„vLeºN±Ì‘ûRBl‡^²bÿÉ…dk^gýwÎN±Ì‘b`Y‹sMO06qwÿi—‹TfkÅˆ(WÖNŠƒXMRSvQ*b·ƒ0\n\nÙO—V±›N‘Æ‰TIN6Rv^^g8lÜFd1ÙýNxy³R„vºNáOÃV'YžXÿÖNìNŠbÖNÖb0RýVl®‹OMRÿåNNYýV¿R›RTŒwÛSýV„vjT¥c×S¡R2R0‚Yœg«ˆ2R	gjÿÖNS«ˆëMOÿ«ˆeR:YNb	g4YTˆÿb—4N­e4YðSY³Q06qwÿ't.VNS¿Rck(W RgRÿ•bhyòTÏu0R†NCSµ”NÑSKNE–0"
+ french_revolution.8.desc:0 "bìNle1r„v[Root.Monarch.GetTitle]G³R†NÿÝO‹sZQºNŠb¸p9VÏ…ÛvhÌ‘ÿ>e0R†NjP(W1W<SïQ¯eWˆ„v'fNÿ±=fÿb4xÑN»SŽVLkgRb–Â‰O¦umt+Y·wm˜„vn1UgR0RN°‹0–™o„vÅVÏuKNï0¸p9V-NÅˆán†Nkpoƒ0fÃqirŒT9V8Nÿ(u••„vüRkp¿uVrÿ÷Sðy00Wñr:ghV001S(Wÿb4xÑNpÑöeÿr¸pÑSu†NÿÖN„v'`‹T«ˆSV:W:Y»S0"
+ french_revolution.8.B:0 "w=f²`gRÿ"
+ rus_revolutionary_zeal:0 "ÄOýV'Yi—‹T"
+ desc_rus_revolutionary_zeal:0 "ÄOW¯e„vºNlòTÏuåb±b†Ni—‹Tÿ°s(WÿbìNÅV‰˜Si—‹T.O­d0R0WtN„vÏkN*NÒ‰K„ÿ"
+ REVOLUTIONARY_SPANISH_REPUBLIC:0 "gØšgb?eœ^"
+ FIRST_OFFICER:0 "–™-^›Q˜R"
+ REVOLUTIONARY_SWEDISH_REPUBLIC:0 "lQ‰RÔYXTO"
+ REVOLUTIONARY_DANISH_REPUBLIC:0 "lQ‰RÔYXTO"
+ FIRST_LAWSPEAKER:0 "–™-^Õl‹V²‹ð˜R"
+ FIRST_LAWSPEAKER_fem:0 "–™-^Õl‹V²‹ð˜R"
+ SUPREME_VIZIER:0 "gØšôuPŸS"
+ SUPREME_VIZIER_fem:0 "gØšôuPŸS"
+ CHAIRMAN:0 "IN-^"
+ CHAIRMAN_fem:0 "IN-^"
+ revolution.31.name:0 "‰ísYr'Yi—‹T"
+ revolution.31.desc:0 "i—‹Teg4N†Nÿ´f’VìN­ˆûQ†N[Root.Capital.GetCapitalName]‹s«Rÿ“bOO†N[Root.Monarch.GetTitle][Root.Monarch.GetName]ÿ[Root.Monarch.GetSheHe]ŒTvQÖNàeÕl1„v‹s²RbXTNw«ˆËzIRY³Q0\n\n°e„vgØš-N.YŒTgb?eÔYXTOòTÏu±R^bËzN*NqQŒTýV0ÔYXTO1u‰ísYrTè„v2NTãNhˆÄubÿ1uW„TòTfR¶RŒT‹V^ R¯e^S·…hSTN··V·—æ—šNú‹¯e†˜üR0?eœ^bú‹Ÿ^d–œQtY6Rÿú^ËzÕl‹VN„vs^IrÿS5Ïe„vW0WÍ‘°eRM‘ÙuýV¶RŒTºNlÿO‰ísYrŒT'k2mvQÖNýV¶RpTN*N¡l	g‹Së„vIQf*geg0"
+ revolution.31.A:0 "i—‹TNSÿ"
+ revolution.32.name:0 "[Root.GetAdjective]'Yi—‹T"
+ revolution.32.desc.swedish:0 "i—‹Teg4Nÿi—‹TåN«ˆðy:N0[GetYear]t^ZQºN0„v5ÏeâVSOÑS¨R„vN:W?eØSVËYÿëO[Root.Monarch.GetTitle][Root.Monarch.GetName]MOv^Am¡NýVY0KS¡r?eØSVrRwìN„vîv„v=fú^ËzTINËzªR6RÿFO1uŽN‹V^0FUºNŒTê1u>m„vÀoÛ>mû|„v‹q¨R'`Šº‹ÀoÑS†NlOùRŽNTIN„v2a`ÿ‹N`ÅGSµu0[Root.Capital.GetCapitalName]„v‡v«RòT«ˆIe`Sÿ˜RXTìN(WP``-Nîvyw†Nçe?eCgaŒV„vPLXŒT°eqQŒTýV„vú^Ëz0\n\n1uÀoÛRPRINüR„vlQ‰RÔYXTOòTÏuŒcácýV¶R4Nöeµc6RCg0ÖNìNbú‹(WÕl‹VFh¶g…QžR°ss^Irÿv^S5ÏeW0W(WýV¶RŒTœQlKNô•Í‘°eRM‘ÿS&^†˜[Root.GetName]ŒT'k2mvQÖNèRpTN×S‹Së„vôfIQf„v*geg0"
+ revolution.32.desc.norwegian:0 "i—‹Teg4Nÿi—‹TåN«ˆðy:N0[GetYear]t^ZQºN0„v5ÏeâVSOÑS¨R„vN:W?eØSVËYÿëO[Root.Monarch.GetTitle][Root.Monarch.GetName]MOv^Am¡NýVY0KS¡r?eØSVrRwìN„vîv„v=fú^ËzTINËzªR6RÿFO1uŽN‹V^0FUºNŒTê1u>m„vÀoÛ>mû|„v‹q¨R'`Šº‹ÀoÑS†NlOùRŽNTIN„v2a`ÿ‹N`ÅGSµu0[Root.Capital.GetCapitalName]„v‡v«RòT«ˆIe`Sÿ˜RXTìN(WP``-Nîvyw†Nçe?eCgaŒV„vPLXŒT°eqQŒTýV„vú^Ëz0\n\n1uÀoÛRPRINüR„vlQ‰RÔYXTOòTÏuŒcácýV¶R4Nöeµc6RCg0ÖNìNbú‹(WÕl‹VFh¶g…QžR°ss^Irÿv^S5ÏeW0W(WýV¶RŒTœQlKNô•Í‘°eRM‘ÿS&^†˜[Root.GetName]ŒT'k2mvQÖNèRpTN×S‹Së„vôfIQf„v*geg0"
+ revolution.32.desc.danish:0 "i—‹Teg4Nÿi—‹TåN«ˆðy:N0[GetYear]t^ZQºN0„v5ÏeâVSOÑS¨R„vN:W?eØSVËYÿëO[Root.Monarch.GetTitle][Root.Monarch.GetName]MOv^Am¡NýVY0KS¡r?eØSVrRwìN„vîv„v=fú^ËzTINËzªR6RÿFO1uŽN‹V^0FUºNŒTê1u>m„vÀoÛ>mû|„v‹q¨R'`Šº‹ÀoÑS†NlOùRŽNTIN„v2a`ÿ‹N`ÅGSµu0[Root.Capital.GetCapitalName]„v‡v«RòT«ˆIe`Sÿ˜RXTìN(WP``-Nîvyw†Nçe?eCgaŒV„vPLXŒT°eqQŒTýV„vú^Ëz0\n\n1uÀoÛRPRINüR„vlQ‰RÔYXTOòTÏuŒcácýV¶R4Nöeµc6RCg0ÖNìNbú‹(WÕl‹VFh¶g…QžR°ss^Irÿv^S5ÏeW0W(WýV¶RŒTœQlKNô•Í‘°eRM‘ÿS&^†˜[Root.GetName]ŒT'k2mvQÖNèRpTN×S‹Së„vôfIQf„v*geg0"
+ revolution.32.A.swedish:0 ":N†Nê1u„vS'kÿ"
+ revolution.32.A.norwegian:0 ":N†Nê1u„vS'kÿ"
+ revolution.32.A.danish:0 ":N†Nê1u„vS'kÿ"
+ revolution.33.name:0 "sIe&OfeTX"
+ revolution.33.desc:0 "0w0R[Root.GetStateForm]„vcƒ‰ŠXK„0RN<Z“YN,‚„v4lÆQÿb:Ndkw²`Ûu001uŽNÙ›NNp`SV„vWRåSÿ[Root.Monarch.GetTitle][Root.Monarch.GetName]NäN.Ucv^Ñvy†N^×S0kÎ„v?e»l¶R¦uð·ZSKQ¯e06qwÿÙVÑS†N&Ofe„v'YÄ‰!j—b®‹ÿºNìNåN0:N†NZSKQ¯eŒTê1uÿ0„vãS÷S>NLˆÆ–O0˜RXT±Rû‹†N0´fqNÕl0ÿc:yè–T—b®‹wVkpÿFOÙNÇ=f(W—b®‹–ON­eîX'Y„vÅ`µQNÛNek RgR†N't.VNS¿R0—b®‹ˆVëV(Wte*NÎW^GSµuÿ'Yyb´flŒmeQ&OfeTXÿÊ‘>e†NNb	g?e»l¯r0(WZSKQ¯e,gºN„v&^†˜Nÿ²OlwIeT‹vÑ‘Il«R0[Root.Monarch.GetTitle](W[Root.Monarch.GetSheHe]SÕ‹»yÎW^öe«ˆUcÿw°s(WàVˆ”ùR[Root.GetAdjective]ºNl„v4–Œwb—4N¡R2RÿÙN2R³QòTbšRNS0\n\n1uZSKQ¯e†˜üR„vi—‹TÔYXTOòTÏu¥c¡r†N°eqQŒTýVÿi—‹TÔYXTObú‹Ÿ^d–œQtY6R0žR°sOÕls^Irÿ¡l6e5ÏeW0WRVýV	gbRÙuœQlÿ†˜üR[Root.GetName]pT1uê1uŒTºN‰|„vDQVÅ`Œ„vtó`cüR„v*geg0"
+ revolution.33.A:0 "qQŒTýVNSÿ"
+ revolution.34.name:0 "[Root.GovernmentName]„v®WðS"
+ revolution.34.desc:0 "i—‹Teg4N†Nÿ•gåNegÿ[Root.GovernmentName]?eœ^ý¡lýwËeLˆûNUO	gaIN„v9ei—ªcËeÿÙ(WlO-NVÑS†N•EN„vNánÿwÙÍyNángÈu1Yµc0oØSb:N†Ni—‹Tÿi—‹T²O-^wS†N[Root.Capital.GetCapitalName]„vXbnfaS^«Rÿ[Root.Monarch.GetTitle][Root.Monarch.GetName]„vT«RsY7wGW«ˆÒd·ƒÿ‡v²R0µN‰`pe„b¡l0[Root.Monarch.GetTitle],gºNSÕ‹ÑÿtS¡lýw²ŽYEN0åNÌwÛSºNlŒTáOðN„vjTÿ[Root.Monarch.GetSheHeCap]ˆVëV1S«ˆ²OY³Q0\n\n^ýV•^N-N„vÍS¨RRPR«ˆ‰`pend–ÿv^Í‘°eÄuú^:NqQŒTýV„vgb?e®‹Oÿ°s(Wck1uêS„vóØšôuPŸS[Root.new_supreme_vizier.GetName]†˜üR0°e?eCgbú‹SŸ^d–œQtY6Rÿú^ËzÕl6RKNN„vs^Irÿ¡l6e5Ïe„vW0W0²N1uýV¶RŒTœQlÿÎNwžR°s[Root.Religion.GetGroupName]TÞw†v:NDQV0MQd–Sú^‹Së„vtó`0"
+ revolution.34.desc.heir:0 "i—‹Teg4N†Nÿ•gåNegÿ[Root.GovernmentName]?eœ^ý¡lýwËeLˆûNUO	gaIN„v9ei—ªcËeÿÙ(WlO-NVÑS†N•EN„vNánÿwÙÍyNángÈu1Yµc0oØSb:N†Ni—‹Tÿi—‹T²O-^wS†N[Root.Capital.GetCapitalName]„vXbnfaS^«Rÿ[Root.Monarch.GetTitle][Root.Monarch.GetName]„vT«RsY7wGW«ˆÒd·ƒÿ‡v²R0µN‰`pe„b¡l0[Root.Monarch.GetTitle],gºNSÕ‹ÑÿtS¡lýw²ŽYEN0åNÌwÛSºNlŒTáOðN„vjTÿ[Root.Monarch.GetSheHeCap]ˆVëV1S«ˆ²OY³Q0\n\n^ýV•^N-N„vÍS¨RRPR«ˆ‰`pend–ÿv^Í‘°eÄuú^:NqQŒTýV„vgb?e®‹Oÿ°s(Wck1uêS„vóØšôuPŸS[Root.new_supreme_vizier.GetName]†˜üR0°e?eCgbú‹SŸ^d–œQtY6Rÿú^ËzÕl6RKNN„vs^Irÿ¡l6e5Ïe„vW0W0²N1uýV¶RŒTœQlÿÎNwžR°s[Root.Religion.GetGroupName]TÞw†v:NDQV0MQd–Sú^‹Së„vtó`0\n\n6qwÿ[Root.Heir.GetTitle][Root.Heir.GetName]ÍN6qµc6RNw¸‹YwýNÿÖNòTÏu uÆ–w†N1ueY¯eüfÝO‡vZQÄub„v›Q–ÿÑS“ŠSYŸ[Root.GovernmentName]&&"
+ revolution.34.A:0 "ê1u=fºNlàeïS©sš„vCg)Rÿ"
+ revolution.35.name:0 "ÿb4xÑN·ê·âlÿbôT"
+ revolution.35.desc:0 "'Yi—‹T„v÷mqNNYýVr^‰m„vZÁwÿ:NÄ–ÃVÃRÃR„vt^‰›Q˜R&^eg†N-T2—4YÒ‰„v:gOÙ*N:gO«ˆÑy‰	V„v®puQ-N	Sÿb4xÑN·ê·âlÿbôTbrbr0W%e(W†NKbÌ‘0pe:Wb—e„vÜw)R©‹ÖNVºNèlîv0gÑÖNÈSÇ(WWˆ÷T-NèrÍ‘®pÿìr›RG•‹S†N[Root.Capital.GetCapitalName]„vÝO‹sZQÛSqNÿÙ!kœg­eLˆ¨R„vbŸR©‹ÖNb—V†NºNl„v1r4b0òTÏu	g¸‹Yi—‹T†˜–ˆw‹YÖNÿSb—rÐc:dÖNGSûN‰Lw06qwÿÖN=fN*NEQánÎ‘ÃV„vºNÿ:S:S[Root.Monarch.GetTitle]KNMOïSNOOÖNán³0"
+ revolution.36.desc:0 "Nán³ŽNÅNÅNjO:N,rNgb?eÿÿb4xÑN·ê·âlÿbôTÐc®‹êñT”^ R•Q:Na'Y)R‡v^0ÖNðXðyb`YN­ˆçub6RïSåN©‹a'Y)R±›NÕ‹þVÛSqNb`Yçe?eCg„vºNôf¾–—VÕkßzÿÖNòTÏumGÇNbkN!kÝO‹sZQ„v:RNg4–Œ0FO=fëkàe‘uî•ÿÖN„vIN‰¨R:g=fán³ÖNó`‰·ƒ—VóØšàeNCg›R„vÎ‘ÃV0ÙýNÐc®‹(W²O-N—V0R†N^Ûl„v=ecÿ¸‹Y²O4ngb`Yi—‹TÑSuMRøvùR3zšR„v>yO¯sƒXÿ6qwÿi—‹T„vÁ”Fg=ecwùRŽNÙÍyÕ‹þVŠbÇY„vCg›RŒcác(Wÿb4xÑN„vKb-N„vLˆ:Nhˆ:y†NÅbçV0"
+ revolution.36.A:0 "a'Y)RSb:NN*N^ýVÿ"
+ revolution.37.name:0 "[Root.Capital.GetCapitalName]i—‹T"
+ revolution.37.desc:0 "i—‹Teg4N†NÿºN²ZwÆ–(W[Root.Capital.GetCapitalName]ÿÐcúQ†N'YÏ‘„v©‹ekagöNÿIN‰SìbNèôf RlIN„vªRÕl0Ê`¶‹ŽN—b®‹„vÄ‰!jÿ[Root.Monarch.GetTitle][Root.Monarch.GetName]Õ‹þVåNN›N®V„…„v©‹ekegã‰°s¶r0FOi—‹Tw„v†˜–ˆ[Root.new_ruler.GetName]Í‘3u†NÖNìNNO‰f)00bìN	gÀNHNÁ‹ncÿ0ÖNô‹ÿ0ýwÁ‹fÙ*N´fTOáOˆR[Root.Monarch.GetHerHis]bú‹ÿ0àVdkÿ[Root.Monarch.GetTitle][Root.Monarch.GetName]‹TäN›Q–qšceºN²ÿFO›Q–ÒbÝuT:yZwVkpÿ«ˆqš„vÍSw=f[Root.Monarch.GetSheHe]êñT0\n\nN*Ni—‹TqQŒTýV(W[Root.new_ruler.GetName](ŒNa„v¡rtNú^Ëzÿv^bú‹Ÿ^d–œQtY6RÿåNÕl‹VnxÝOs^Irv^S5Ïe„vW0WÍ‘°eRM‘ÙuýV¶RŒTœQl0ƒRSV†˜[Root.GetName]„vºNlpTN*N1uê1uŒTDQVÅ`ŒV†˜„v*geg0"
+ revolution.37.A:0 "i—‹TNSÿ"
+ revolution.38.name:0 "[Root.Capital.GetCapitalName]i—‹T"
+ revolution.38.desc:0 "i—‹Teg4N†Nÿ[Root.GovernmentName]TY„v—b®‹w‰BlGWRW0Wÿ6RšRlINªRÕlv^ÐcØš^—·Va×V0W:S„vê»lCgÿ—b®‹(W[Root.Capital.GetCapitalName]oØSb†N'YÄ‰!j„v8nLˆ0[Root.Monarch.GetTitle][Root.Monarch.GetName]Õ‹þVåNN›N®V„…„v©‹ekegã‰°s¶rÿFOÙàeÕlO—b®‹wána0›Q–„v´f›RLˆ:N¹pÃq†NºNl„v`kpÿN²´f’VIeûQ†N—+Y!X«Rÿ“bOOv^Y‰k†N[Root.Monarch.GetTitle]0\n\ni—‹TÔYXTO±R^[Root.GetUsableName]°s(W=fN*NqQŒTýVÿÖNìNbú‹Ÿ^d–œQtY6RåNÕl‹VnxÝOs^Irv^S5Ïe„vW0WÍ‘°eRM‘ÙuýV¶RŒTœQlÿS[Root.GetUsableName]ŒT'k2m„vvQÖN0W:SÎN‹SëSV-Nã‰>eúQeg0"
+ revolution.38.A:0 "MRÛÿ:N†Nê1uÿ"
+ center_of_revolution.2.name:0 "egê[william_jones_province.GetName]„v`Il"
+ center_of_revolution.2.desc:0 "[Root.william_jones.GetName]ÿNTegê[william_jones_province.GetName]„v×‹ºNŒTfRw(WÖN„v[william_jones_province.Culture.GetName]TaNSV-NÇceÑSSŒQPRwúQ†NTÿÖNuóØRjO†NN–™[william_jones_province.Culture.GetName]ýVLk0ÖNlQV4Œ1[Root.GetAdjective]„v‹Sëv^.O­d[revolution_target.GetAdjective]„vi—‹TtõVÿÖN÷SìSÖN„vTaNSbwLˆÅˆÿ»yV¶RíVv^MRŽV°eNLu„v0”^¸‹KN0W0ûRŒbê1u0\n\nwwegÖN„vŠº‹(W[william_jones_province.Culture.GetName]ºNSV-NˆV	g^:WÿNT	gqVÍT›R„vCg5ðyÖN=f0bÁ‰Ç„vgípñV„v[william_jones_province.Culture.GetName]ºN00òTÏu	g¸‹YÖN„vTaN×SÖN„vtõVqVÍTÿVËYMRŽV[destination_country.GetName]0"
+ center_of_revolution.2.A:0 "©‹ÖNìN»yVÿ¡l	gÖNìNbìNOÇ—Vôf‹Y0"
+ center_of_revolution.2.B:0 "bìNNýwAQ¸‹ÖNìNûyl0R–kl0W0"
+ opinion_hostile_expats:0 "	gLea„v¨Ol"
+ center_of_revolution.3.name:0 "–kl0WNS¿R¨Raƒ"
+ center_of_revolution.3.desc:0 "‚YÎ‘kp,‚…ö^„vi—‹T`ó`òTÏunÛ†NbìN„v–kl0W0×S0R[revolution_target.GetAdjective]i—‹TbŸR„vqVÍTåNÊSÀTùSŽN,gýV:Sê1u„v‹NžRÿ'YybÃV`Nán„våwÆ‹RPRŒTÄ–ÃVÃRÃR„vRNwckŒmT[colonial_country.GetName]ÿgBl(W±Ì‘ýwYú^ËzN*NÜ»y[Root.GetAdjective]=eM‘„vìrËzqQŒTýV0"
+ center_of_revolution.3.A:0 "bìN	g»žæp†N0"
+ center_of_revolution.4.name:0 "–kl0W„vê1u"
+ center_of_revolution.4.desc:0 "egê[colonial_country.GetName]„v'YOòT0R¾[Root.Capital.GetCapitalName]ÛLˆØyÆRLˆ¨Rÿ(W[rival_country.GetAdjective]Ä‰R„vNlQckùR…VKNNÿÖNìNûRBlìrËz„v=ec0‚YœgbìNïSåN:NÖNìNÐc›Oir(=ecÿÖNìNmN¸‹ïSåN1c1ìrËzÿÎNwSê1u.O­d0R°eNLuÿv^JR1V±›Nµb6R[Root.Capital.GetContinentName]i—‹TMRÛ„vºN0"
+ center_of_revolution.4.desc.already_supporting:0 "egê[colonial_country.GetName]„v'YOòT0R¾[Root.Capital.GetCapitalName]ÛLˆØyÆRLˆ¨Rÿ(W[rival_country.GetAdjective]Ä‰R„vNlQckùR…VKNNÿÖNìN:NêñT„vìrËzwûRBlbìN„vÛNek=ec0‚YœgbìNïSåN:NÖNìNÐc›OôfY„vir(=ecÿÖNìNmN¸‹ïSåN1c1v^ìrËzÿÎNwSê1u.O­d0R°eNLuÿv^JR1V±›Nµb6R[Root.Capital.GetContinentName]i—‹TMRÛ„vºN0"
+ center_of_revolution.4.A:0 "ÙuÖNìNN›NÏuNmôc©R0"
+ center_of_revolution.4.B:0 "ÙuÖNìNvQƒRbVV„vôc©R0"
+ center_of_revolution.4.C:0 "bìNg‹YŠb¾|›R>e(WvQƒR0W¹e0"
+ center_of_revolution.5.name:0 "[From.GetName]=ecbìNìrËz"
+ center_of_revolution.5.desc:0 "[From.GetName]ëR^g.O­dÖNìN„vi—‹Ttó`ÿv^?aKSvQNbýwJR1V¿RLe[rival_country.GetUsableName]ÿ:NdkÿÖNìNòTÏuTaTbìNÐc›Oir(ôc©RÿåNnxÝObìNÎN[rival_country.GetAdjective][rival_country.GovernmentName]Kb-N‰NÖSìrËz0"
+ center_of_revolution.5.A:0 "ˆV‹Y0"
+ center_of_revolution.6.name:0 "[From.GetName](WbìN„v–kl0W6R.»žæp"
+ center_of_revolution.6.desc:0 "KS¡r[From.GetName]&T²‹†NNb	g„vcµcÿFObìNØ=fÑS°sÖNìNNÅNÅNán³ŽN(W[Root.Capital.GetContinentName]žRËe ˜†‰Im¨RÿØ(WÙu[colonial_country.GetName]–kl0W„vÍS<—f-NÐc›O=ec0bìNÅV‰˜ùR2NýVÇ‘ÖSÅLˆ¨RÿåN2––kl0W1»ybìN„vŒcµcÿ"
+ center_of_revolution.6.A:0 "ÖNìN`HNbeÿÿ"
+ opinion_funded_independence_war:0 "D©R†NìrËzb‰N"
+ opinion_funding_our_colonies_for_independence:0 "D©R†N–kl0W„vìrËz"
+ opinion_refused_to_fund_independence_war:0 "ÒbÝuD©RìrËzb‰N"
+ revolutionary_sentiment:0 "i—‹TípÅ`"
+ center_of_revolution.7.name:0 "þfÏu„vi—‹TwjmPRÞV4Y"
+ center_of_revolution.7.desc.is_former_target:0 "–Nwi—‹T„v1Y%ÿ±›NÎN*gwck²‹Ti—‹T„vºNmNVËYhˆ¾êñT„vwÕl0KS¡raÆ‹bV`î•˜˜(WYt^…QÍNO˜bèxbìN„výV¶RÿFOTw„vi—‹TípÅ`ck(Wbaˆm1Y0"
+ center_of_revolution.7.desc.former_target_exists:0 "–Nw[former_revolutionary_country.GetAdjective]i—‹T„v1Y%ÿ[revolutionary_province.GetAreaName]lO„vi—‹TípÅ`mN	gNbpˆÏQ0Øó`9eØSSO6R„vºNmNN?a>eVÿ(W[Root.GovernmentName]„vSO6RNçuíuXRIm0"
+ center_of_revolution.7.desc.no_former_target:0 "–Nwó`‰žR°si—‹T„vºN‰V•^1Y%ÿ[revolutionary_province.GetAreaName]„vºNl„vi—‹TípÅ`cíupNO0ÖNìNNÅ`?a0Wz˜ÎNŽN[Root.GovernmentName]„vßu»låNÝOhQ'`‹T0"
+ center_of_revolution.7.A:0 "NRýòTb`Y†NŸS	g„véy^0"
+ center_of_revolution.8.name:0 "[revolutionary_province.GetName]„vÍSi—‹TRPR"
+ center_of_revolution.8.desc:0 " ˜†‰'`„v[revolution_target.GetAdjective]i—‹TtõVòTÏu(W[revolutionary_province.GetName]Ùz3z†NßÿSb4x†NŸS	g„v>yOéy^06qwÿ(Wb‰NSbÍTKNMRckßu„v5Ïev^Nb²‹Ù*N¿R›R0ÖNìNbú‹‚YœgbìNÙuˆN=ecÿ1SÆ–Óu›RÏ‘Si—‹TwqšúQ[revolutionary_province.GetName]0"
+ center_of_revolution.8.A:0 "ÖNìNS—V0RbìN„v=ec0"
+ center_of_revolution.8.B:0 "bìNNOpbqNSV0W„vLˆ?e0"
+ center_of_revolution.9.name:0 "[reactionary_province.GetName]„vÍS¨RRPRÿ"
+ center_of_revolution.9.desc:0 "[reactionary_province.GetName]„vçe?eCgYO‹RCN=fºNlKNLeN‹N´f2—àeW0ÏuÇ%NÆR„vØyÆRŒRÿÖNìNòTÏuVrÍS†NNS0W¹eluQv^NWÇujT“bUc†NbìN(WSV0W„vLˆ?eºNXT0ÖNìNØðXðyÿêñT	g1ûN(WðV¾–öegVüR[reactionary_province.GetName]„vºNlÿÝO²bÖNìNMQ×Si—‹T?eœ^µO³R0bìNå‹‚YUOYtÖNìNÿ"
+ center_of_revolution.9.A:0 "bìNS¾xŽxÙ›NºNlKNLeÿ"
+ center_of_revolution.9.B:0 "ÖNìNN<P—VbìN9ÃV0"
+ center_of_revolution.10.name:0 "[province_to_revolution.GetName]„vqQŒT>mÆRŒ"
+ center_of_revolution.10.desc:0 "[own_revolutionary_province.GetName]„v1rýVºNëXÐc’‘bìNÿ.O­di—‹Ttó`„v°eQY:gòTÏunm°s0egê[province_to_revolution.GetName]„vqQŒT>mºNëXck(WSÕ‹NÖNìN¥cKmÿ^gýw(Wˆ”ùRSV0WÍS¨R¿R›R„v?eØS-N—V0R[Root.GetAdjective]„v.^©R06qwÿÍS¨R>m(W[own_revolutionary_province.GetCapitalName]„v¿R›R9hñm‚„úVÿêS	g—V0RbìN„virDôc©RÿÖNìNMbýwÖS—VÛUS0ïS‚YœgbìN³QšRr^‰mÿ[neighbour_country.GetAdjective]„vßu»lwNšROŠbÙSVbv`a„vcEˆ0"
+ center_of_revolution.10.A:0 "ÖNìNS—V0RbìN„v=ec0"
+ center_of_revolution.10.B:0 "bìNN”^å‹r^‰m[neighbour_country.GetAdjective]„v‹N¡R0"
+ center_of_revolution.11.name:0 "(W[province_to_revolution.GetName]„v?eØS"
+ center_of_revolution.11.desc:0 "åb²bi—‹T`ó`„vqSi–tó`ININwòTÏuµc6R†N[province_to_revolution.GetName]ÿw±›NÒbÝu=eci—‹T‹NN„vSV0W˜RXTb«ˆqšÿb«ˆY³Q0îvûQwðyÿegê[From.GetAdjective]„vW„Ti—‹TZQºNirúQ°s(W†NÛS›Q-Nô•ÿFO[From.GetAdjective]>m‰š[Root.Capital.GetCapitalName]„vãNhˆtShˆ:yùRdk!k?eØSëkNåwÅ`0"
+ center_of_revolution.11.A:0 "bìNàeÕlÍV×SÙÍy‹N0"
+ opinion_revolutionary_coup_in_our_province:0 "TbýV“úQi—‹T"
+ opinion_non_intervention:0 "Nr^‰mININ"
+ center_of_revolution.12.name:0 "[revolution_target.GetAdjective]Am¡Nw0R¾[Root.Capital.GetCapitalName]"
+ center_of_revolution.12.desc:0 "¸‹Y[revolution_target.GetAdjective]5Ïe0R†N[Root.Capital.GetCapitalName]ÿPdkV(WÖNìNVyýV†wP†„vi—‹T0ÖNìN°s(WÐc®‹vbc[revolution_target.GetName]„vTÕlßu»lwÿåNdk.^©R[Root.Monarch.GetTitle][Root.Monarch.GetName]Óumgi—‹T„vZÁwÿv^©‹ÖNìNb`YŸS	g0WMO0ÖNìN„v0RegžX:V†NbýV„vÍSi—‹T>PTÿuó©‹N›NåNMR©sVqSi–„vÛek`ó`„vºNµNu†N¨RGd0"
+ center_of_revolution.12.A:0 "ÙÌ‘0kÎÖNìN0"
+ revolution.10.desc.nahuatl:0 "i—‹Teg4N†Nÿ(Wi—‹T²O²QÛ?eœ^„vsQ.•ú^QrKNTÿ[Root.GovernmentName]1SN*XÍ‘®WðS†N0[Root.Monarch.GetTitle][Root.Monarch.GetName]ŒTÖN(W[Root.GetNobilityOrFallbackName]ô•„v=ecwòTÏu«ˆi—‹Tw.smyÙu†Nø‹^yÿåNgg^yup„v2a`ïSåN«ˆÙ0NšS„vmyÁTs^o`0\n\nN*N¯u¹|„v4NöelQqQ‰RhQÔYXTOòTÏu«ˆ¾‹ËzÿSVüR°eqQŒTýV¦^Çi—‹Töeg06qwÿZÁwàeYN(WÿàV:NhQNLu„vTINŒTìrÁˆwýÅbÃVOm×SŒTbìN[Root.Monarch.GetTitle]N7h„v‹TÐÿv^NòTÏu(WÆQYùRbìNÑS¨Rb‰N0FO‹Y„vNb—=fÿhQNLu„vê1u¿R›RmNg…VNwbìNùRŽNÖNìN—e‰N„v.^©RÿàVdkbìNýwÇÙÍy¹eV—V0R=ec0"
+ revolution.10.opt.nahuatl:0 "myiWSO«ˆqQŒTýVLeºN„vœœNˆÓg¢uÿ"
+ revolution.39.name:0 "ôT¾ôušNqQŒTýV"
+ revolution.39.desc:0 "i—‹Teg4N†NÿºN²ZwÆ–(W[Root.Capital.GetCapitalName]ÿ‰Bl?eœ^ZPúQ©‹ekÿvQIN‰SìbNèôf RlIN„vªRÕlÿkSüf·ZÉ^·9N·VS¯eS›QmNÓumgAm¡NÞV0RVyýVeg=ecºNl„v‹NN0ñma'Yxy4N4Yÿ[Root.Monarch.GetTitle][Root.Monarch.GetName](WlOS[Root.Monarch.GetSheHe]“b·ƒKNMRXNn9‚¡NúQýV0\n\nN*Ni—‹T„v0ôT¾ôušN0qQŒTýVòTÏu±R^bËzÿƒRåNþfÏuÍS—bWlš^ýV„vçeåeÛS›Q:NT0qQŒTýV„v†˜üRºN(W9N·VS¯eS›Q„vhQ›R=ecNÿ³QšRŸ^d–œQtY6R¦^ÿŠb5Ïe„vW0W(WýV¶RŒTœQlKNô•ÛLˆÍ‘°eRM‘ÿ&^†˜[Root.GetName]ºNlpTê1uŒTºNºN†vDQV„v*geg0"
+ revolution.39.A:0 "qQŒTýVNSÿ"
+ junior_revolutionary_republic_reform:0 "i—‹TýV¶R"
+ junior_revolutionary_republic_reform_desc:0 "i—‹TqQŒTýV„v?eœ^1uN*NO®‹b–=ecN„vS‹WgbLˆÔYXTONbÄubÿO®‹b–„vbXT1unfM	>N	úQ0Ù*NýV¶RSízKShQ›R=eci—‹T‹NNÿ.O­dê1uŒTs^Ir„v`ó`0"
+ republics.102.t:0 "[Root.GovernmentName]„v3zšR"
+ republics.102.d.pirate:0 "wm×v9‚•ìNŒT[Root.Monarch.GetTitle][Root.Monarch.GetName]„v‰NgbòTÏun1Yµc01uŽNNáOûN[Root.Monarch.GetName]Oê?a>eV[Root.Monarch.GetHerHis]Cg›Rÿ9‚•ìN ReQ†Nqš[Root.Monarch.GetHerHim]„v¿R›R0–Nw[Root.Monarch.GetHerHis]8SSO(WÞu¶gNGdFdÿuQØSwìNTwTwegú^Ëz†NN*N0uQØS®‹O0åN†˜üR[Root.GovernmentName]¦^ÇÙµkp‚¾–„vöeg0"
+ republics.102.d.revolution:0 "qQŒTýV:g„g„vlQáO›RòTÏuß|Õ|0R†NºNl^Ûl¨‹º‹ÍSi—‹T?eØS„v0Wek0–Nws‘u„vaoaÈpÿ[Root.Monarch.GetTitle][Root.Monarch.GetName]Nb(W„vMOnVËY	g›NN3z0(WÙ*NðV¾–„vöegÿ[Root.GetName]„v†˜üRºN(WýV¶R‰RhQÔYXTOÇ‘ÖS†Nµc6RqQŒTýV„vKbµkÿôv0Rb`Y3zšR0"
+ republics.102.A.pirate:0 "uQØSwìN8l‚WNKgÿ"
+ republics.102.A.pirate.tooltip:0 "§YuQØS®‹Oÿ2/2/2	ÿŒcCg†N0êS‰qQŒT.OßuNOŽN50ÿ	>N1SO«ˆ‚fjP0§!"
+ republics.102.A.revolution:0 "?aÖNìN„vßu»líw‚fwbŸRÿ"
+ republics.102.A.revolution.tooltip:0 "§YlQqQ‰RhQÔYXTOÿ2/2/2	ÿŒcCg†N0êS‰qQŒT.OßuNOŽN50ÿ	>N1SO«ˆ‚fjP0§!"
+ elections.700.caretaker:0 "–NwqQŒTýV„véy^YSb`Y†Nck8^ÿlQqQ‰RhQÔYXTOòTÏu³QšRjPbkÐLˆÿv^AQ¸‹Ç	>Neg²NãN0¨c>NúQ†N	NTIN‰P	ºNegÿfãN[Root.Monarch.GetTitle]0"
+ pirates.1.desc3:0 "[Root.GovernmentName]„v‰RhQòTÏu—VåNnxÝOÿuQØS®‹OòT6q(W‰N5TN…Qµ‹-NPðSÿv^gÈuã‰ce0hQXTòT«ˆJTåwÆQY	>NN*N°e„v[Root.Monarch.GetTitle]0\n\nN*N[Root.Monarch.GetTitle]SÑv¡rte*NýV¶R„vNÕlLˆ:NÿwùRvQ,gºN=UN„v‰BlêS=f^gÖNN‰	gùRCg›RÛNek„v4ng0Ù=fNy˜àeVŽNp¢”N„vO‹Tÿ6qwÍNÅV‰˜	gN›NÇRbebËƒžd„v¶ROegkXeˆÙ*Nzz:0"
+ center_of_revolution.1000.name:0 "i—‹T„vÑSn0W"
+ center_of_revolution.1000.desc:0 "(W[Root.GetCapitalName]ÿNMOTëS[Root.first_center_revolutionary_philosopher.GetName]„vòTfR¶RÑShˆ†NpeÇr¥e1[Root.Owner.GetUsableName]N6RNlQ„v‡eàzÿ±R.ONÍyT:N0>yOQY¦u0„v°e`ó`0ÖN(‘u†NTCg^yˆc„vTÕl'`ÿv^±RðyINCg(WlÿwùRŽNËzÕlNËe?e„vgÈu³QšRCgmNÅV‰˜RVŽNºNl'YO0\n\nÖN„vtº‹(W°etQDµN6–µuN‡eºNfRw-N^×S0kÎÿ^^„vSŒQPRAm4l,‚ce­dVegÿ÷SìSºNìNwegÍS—bN6R´f?e0ÖNìN„v=ecwnM^hQ[Root.GetContinentName]ÿi—‹Tfkpÿ¿RSÎqŸS0"
+ center_of_revolution.1000.A:0 "ÙS ˜†‰NR&&"
+ center_of_revolution.1001.name:0 "Í‘Ãqi—‹Tkp¬p"
+ center_of_revolution.1001.desc:1 "–Nwi—‹T—e‰N(W[first_revolution_center.GetCapitalName]„v1Y%ÿte*N[Root.GetContinentName]„vçeéy^ÿNiOýŒg†NãSlÿánåN:NcbòTÏu«ˆKQgÿNRýSRVŽNckh06qwÿ°s(WwegÖNìN>eÃV—V*Yée†Nÿ[Root.GetCapitalName]„v-NµN6–µuØš>Nw[first_revolution_center.first_center_revolutionary_philosopher.GetName]„vi—‹T`ó`ÿv^SÕ‹Í‘pi—‹THQqš„vSïÿS,r	N6–µuÎNgCgSO6R„v‹Së-Nã‰>eúQeg0"
+ center_of_revolution.1001.A:1 "ÖNìNSOm×SŒT[first_revolution_center.GetCapitalName]N7h„v‹TÐÿ"
+ center_of_revolution.1001.B:0 "i—‹TNSÿ"
+ center_of_revolution.1500.name:0 "i—‹TÓumg"
+ center_of_revolution.1500.desc:0 "[From.GetUsableName]„v›Q–‰V•^ûQƒn†N[Root.GetAdjective]i—‹T›QÿSVzzó`¶RìN«ˆàeÅ`ôVUcöeÿ‰lØž„v'YYpelw¸c»STINäSwËV÷SN„vSW0"
+ center_of_revolution.1500.A:0 "ýV‹sNSÿ"
+ center_of_revolution.2000.name:0 "P–6R7Œir8fÿ"
+ center_of_revolution.2000.desc:0 "7ŒirFUºNìN(W8fN•g×S0R%NÛ‚„vP–6RÿSìb÷N<hŒµcŒTÁT(ÀhågIr0ÖNìNTwTwegÿÐcúQ†NNy˜ýwg'YÐcGS)R¦mÿTöeåNdkÙubìN&^eg'YÏ‘z6e„vÐcHhÖNìNÐcúQ(W7Œir8f-NuªVê1u>eûN„vŸSRÿÖSˆmýV¶RËe RÙuÙ*NLˆN„v'YYpeP–6R0\n\n6qw¸‹YºNcúQÙ›NP–6R„vîv„v=fÝOÁ‹®|ß˜÷N<hY(WºNlýwYÅb—Vw„v4ls^ÿÖNìN²‹:N7ŒirFUºN=f0ºNlg‹kw‘„vLeºN0ÿ²‹:NÖNìNSb—‰|ŒTów‰|b¨š‰|÷mT(WNwÿv^v`a¬b÷NåNÎNwzæ‚ºNl«ŽN¨iÖS)R¦m0àVdkÿÙuˆNFUºNìNêINCgwweg=fqSi–„v&&"
+ center_of_revolution.2000.A:0 "1uÖNìN»S'T0"
+ center_of_revolution.2000.B:0 "¡l	gÅV‰ùRîvMR„v‰R’cjOúQ9eØS0"
+ center_of_revolution.2001.name:0 "b—‰|b‰N"
+ center_of_revolution.2001.desc:0 "»St^„v¬Q)Y^—8^¾–¬qÿwôv0RÊNt^%f)YmN¡l	gÀNHN6eb0[Root.GetUsableName]„v¨PY®|ß˜òTÏuwKSÿwºNlckb—4NNwe™Rƒ„vZÁw07ŒirFUºNäVïyESGYÿôf=fO—VNS¿Rê–N R—0ùRŽN[Root.Monarch.GetTitle]„v2a`ck‚YÎ‘kpN,‚…ö^ÿ‹q¨RwìNÐc’‘ºNìNÿgÑ[Root.Monarch.GetTitle]„v³QšRÿ>eŒg†NùR7ŒirFUºN„vP–6RÖNìN²‹:NÙ›NP–6R,gïSåNI–bkSVMR¶rµQ„vúQ°s0ÖNìN‰BlýV¶RŸ^d–Ùy˜9ei—ÿv^TºNlRÑS®|ß˜egÏQ‰ÖNìN„væ‚¾–0"
+ center_of_revolution.2001.A:0 "bìNNýwÍV×SÙÍyæ‚¾–†Nÿ	cgqÖNìN„v‰Bl»SZP'Tÿ"
+ center_of_revolution.2001.B:0 "ÏuNmê1uININMb=f*geg„v¹eTÿbìNN”^å‹I–xÛek0"
+ laissez_faire_grain_trade:0 "ê1u>eûN„v7Œir8f"
+ desc_laissez_faire_grain_trade:0 "bìNòTÏuAQ¸‹7ŒirFUºNê1u=eM‘÷N<hÿåN¿OÎNb—‰|„v•.U-N·ƒÖSKSïSýwY„v)R¦m0"
+ revolutionary_sentiment_warning:0 "§R	ébÙ*N	y˜SOžX Ri—‹T-NÃV(W[Root.GetName]úQ°s„vàQ‡s0§!\n"
+ laissez_faire_grain_trade_tooltip:0 "Nb	g»lNwýN-Nÿ§Y[Root.Culture.GetGroupName]§!‡eSÿNuµN§Y7Œir§!„vwýNSO·ƒ—V§G+50%§!„v,g0WuµNHe‡sÿcíu5t^0"
+ laissez_faire_grain_trade_removed_tooltip:0 "0§Yê1u>eûN„v7Œir8f§!0îOckSÎNNb	g§Y[Root.Culture.GetGroupName]§!‡eSNuµN§Y7Œir§!„vwýN-Nûyd–0"
+ center_of_revolution.2002.name:0 "[Root.GetUsableNameCap]„výV:P"
+ center_of_revolution.2002.desc:0 "•g„v—e‰NŒT1V„vÏuNmO[Root.Monarch.GetTitle].kN†N'YÏ‘„v:P¡Rÿ¸‹YºNý²‹:N.k>k8lÜÓuNn†N01uŽNØnÙ›N:P¡R—‰Œ(uýV¶R„˜—rŠegŠYÿè•®‹O«ˆìSÆ–wegûRBlN*N¹eHh0	g›NºN²‹:NžX Rz‡s=fïSLˆ„v¹eHhÿFOvQÖNºNcúQÙNO×S0RlO„v0kÎÿv^ú^®‹ÛLˆ^Ûl„v9ei—eg9e„U[Root.GetUsableName]„v0?eHe‡s0"
+ center_of_revolution.2002.A:0 "ÐcØšzKS	g©RŽNbìNPØ:P¡R0"
+ center_of_revolution.2002.B:0 "0?e9ei—Mb=fTrHh0"
+ revolution_higher_taxes_for_debts:0 "'t%`z6e"
+ desc_revolution_higher_taxes_for_debts:0 "ýV¶R:P¡RSO`—s^l„vªR›RåTjOegPØ0"
+ revolution_administrative_reforms:0 "„˜—r9ei—"
+ desc_revolution_administrative_reforms:0 "ÇNy˜Ä–ÃVÃRÃR„v„˜—r9ei—¡‹RÿºNìNùRÑ‘‡N„váOÃVck(Wba0WžX R0"
+ center_of_revolution.2003.name:0 "[Root.Adm_Advisor.GetName]„v9ei—"
+ center_of_revolution.2003.desc:0 "N*N°sãNNN6R„výV¶R„v—Bl=fÜ'YŽNbìNVyHQ„výV¶R„v0yr+R=f(WýV¶R0?eÙ¹eb—0àVwbìNx^Ð0WÇ–cO0R†NOÀy„vÑ‘‡9ei—w[Root.Adm_Advisor.GetName]ÿN*NùRÑ‘‡†˜ßW	gwASRêáO„vºN0\n\n6qwSVNÿ[Root.Adm_Advisor.GetSheHe]òTÏuVËY‰BlôfY0ÇN›N'YCgeg=‰VêñT„v°e?eVrÿ[Root.Adm_Advisor.GetSheHe](W9ei—¹eb—„vÎ‘ÃVòTÏu:NýV¶R&^eg†N‹YYÿv^NšRO:NbìN„v0?e'Yãb—VôfØš„vðXg0"
+ center_of_revolution.2003.A:0 ">eCgN[Root.Adm_Advisor.GetHerHim]0"
+ center_of_revolution.2003.B:0 "ÙŒRhQNïS¥c×SÿŠb[Root.Adm_Advisor.GetHerHim]ÎN?eœ^Ì‘0ŽúQ»Sÿ"
+ center_of_revolution.2010.name:0 ",r	N6–µu„v‰Bl"
+ center_of_revolution.2010.desc:0 "Ñt^egÿ[Root.Get^lName]ùRŽNÖNìN(W[Root.GetUsableName]„v0WMOŠegŠNána0sSOÖNìNÎNåTFUNTýV“^!.s„vz¡R`Snc†N0?e6eeQ„vÝu'YYpeÿÖNìNùRŽN?eœ^„v³QVrO6q¡l	gNëkqVÍT0nxžR‚YdkÿÖNìNêSýw®l'N0WwNw[Root.Monarch.GetTitle]cfNagåeÊv‹TÆ–Cg„vSïÿÎNwFd1T6–BSþfÏuùR[Root.Monarch.GetHerHim]Ëe R„v6R¦uNs^aˆ0\n\nÖNìN°s(WÐcúQ†N—Blÿ‰BlŸ^d–gÑàQt^„vN6RININ9ei—v^ˆcˆNôfY„vW0WegjO:NÖNìN!.s„veˆP0‚YœgbìNÒbÝuÿÖNìN„v…QÃV1SO«ˆNánNb=eM‘ÿTöegdÁkùR[Root.GovernmentName]„váOûN0"
+ center_of_revolution.2010.A:0 "¥c×SÖNìN„v‰Bl0"
+ center_of_revolution.2010.B:0 "bìNNýwTadk‹N0"
+ has_parliament_with_at_least_one_seat:0 "§Y[Root.GetName]§!	góSN*N®‹O-^MO"
+ reactionaries_failed:0 "ÍS¨R¿R›R„v1Y%"
+ desc_reactionaries_failed:0 "Ù*NýV¶R9hñm‚„úV„vÍS¨R¿R›R:N†NI–bki—‹TwŒcCgwÛLˆ†NÀoÈp„v…Qb0KS¡rÖNìNgÈu1Y%†NÿFOÙ*NýV¶RÍN6q(Wi—‹T>mŒTÍS¨R>mô•NR:NŒN0"
+ revolution.1.A:0 "bìNÅV‰˜©‹±›Nê‹TNáQ„v´fl²‹nêñT„v0WMOÿ"
+ revolution.1.B:0 "mN¸‹ÖNìN=fùR„v&&"
+ revolution_disaster_go_for_it_tooltip:0 "§Y[Root.GetName]SOb:NN*Ni—‹TqQŒTýVÿwÍS¨RwSOÕ‹þVmblÙNØSS0§!\n"
+ the_revolution_will_succeed:0 "§Yi—‹TSOÜw)R\n§!"
+ revolution.9.won_revolution:0 "bìN„vi—‹T¿R›R·ƒ—V†NÜw)RÿÑt^eg„vÛSqNck(W‹T>SðX0°s(WbìNïSåNg…V[Root.GetName]ºNl	gN*Nôf RIQf„v*geg0"
+ revolution.9.lost_revolution:0 "ÂSNi—‹T„vekuQý«ˆ¾xŽx†NÿbìN„vºNlN—VNÛNekHSgŽN[Root.Monarch.GetTitle]„vßu»l0"
+ revolution.9.won_reactionary:0 "bìN¾xŽx†Nê‹TNáQ„vi—‹T´flÿNQ	gºN^—®‹[Root.Monarch.GetTitle]„vßu»l&&"
+ revolution.9.lost_reactionary:0 "²`ÀTÿ±²ê‹TNáQ„vi—‹TwSb%†NbýV„vTÕl?eœ^ÿNÇÿóSÿfåe„v3zšRïSýwOÍ‘°s0"
+ revolution.9.A:0 "©‹bìN0k†^Üw)R'Tÿ"
+ revolution.9.B:0 "óS²QzÓumg†N&&"
+ add_as_much_revolutionary_zeal_as_you_can_take:0 "§Y[Root.GetName]§!„vi—‹TípÅ`cíuØš¨m0"
+ remove_revolution_from_all_provinces:0 "i—‹TípÅ`(WbìNhQƒXnpNO0\nêS‰bìNØµc6RNwÙ›NwýNÿ1SNOQúQ°si—‹TípÅ`0"
+ french_revolution.10.name:0 "qQŒTýVb‰N„vãN÷N"
+ french_revolution.11.name:0 "ºNlŒS&P†Nb‰N"
+ french_revolution.12.name:0 "0n¯gíz"
+ french_revolution.13.name:0 "qQŒTýV„v0?e¶rµQ"
+ french_revolution.14.name:0 "ùRqQŒTýV„vnfMÍSùR"
+ french_revolution.15.name:0 "¨Raƒ-N„vqQŒTýV"
+ french_revolution.16.name:0 "1Yg(WqQŒTýV…Q.O­d"
+ french_revolution.18.e:0 "óS²QzÓumg†N&&"
+ french_revolution.18.f:0 "©‹bìN0k†^Üw)R'Tÿ"
+ center_of_revolution.1600.name:0 "i—‹Tw«ˆûQ%"
+ center_of_revolution.1600.desc:0 "bìN(W[From.GetName]ûQƒn†Ni—‹T›QÿÙh×VNwÖNìN‹NN„vN!kÍ‘'Y+c˜b0(WÖNìN¨cû?eœ^„vSÕ‹1Y%Tÿ[From.GetRegionName]T0WþfÏu„vi—‹TRPR-N	g¸‹YòTÏuùRi—‹T‹NN1Y»S†NáOÃVÿlwØž¸‹[Root.GovernmentName]„vçuíußu»l0"
+ center_of_revolution.1600.A:0 ":N†N[Root.Monarch.GetTitle]ÿ"
+ root_is_most_powerful_in_europe:0 "§Y[Root.GetName]§!=f§Y'k2m§!g:V'Y„výV¶R0"
+ root_is_most_powerful_in_europe_2:0 "jO:N§Y'k2m§!g:V'YýV¶R„výVlÿbìNXK„„vlQl‰BlôfY„vê1u0"
+ center_of_revolution.2950.name:0 "i—‹Tb—4NqSi–"
+ center_of_revolution.2950.desc:0 "Ç»S„vASt^ô•ÿi—‹Tm×S†NøvSVY„v+c˜b0'Yi—‹T1Y»S†N†˜üRwÿ‚YœgbìNNýwÍ‘=ci—‹TÐ¨RÿƒRSñmw–ålmoÿv^gÈuh–mp0"
+ center_of_revolution.2950.A:0 "äNºNÅbçV0"
+ center_of_revolution.2950.A.tt:0 "§Y‚Yœg(W10t^…Q¡l	gýV¶R±Rðyb:Ni—‹Tîvh„vÝ‹ÿi—‹TSOÓumgÿw[Root.GetName]SOØSbN*N®‹OqQŒT6RýV¶R0§!"
+ center_of_revolution.3000.name:0 "i—‹TÓumg"
+ center_of_revolution.3000.desc.last_rev:1 "ê[last_revolutionary_country.GetAdjective]i—‹T1Y%KNTÿ¡l	gºNQbeŽN>NwÖNìN„v×e^ÿbSÕ‹NÍSi—‹T›RÏ‘—e‰N0SVt^±›NûRBl‰V•^ØSi—„vºNìN°s(WtSHSÎNŽNNåSwÝ‹ÿN‹NØSSŠ'Yÿ1SŠNOØSS0"
+ center_of_revolution.3000.desc.no_last_rev:0 "1u[revolution_center.GetCapitalName]µNu„vi—‹TtõVwVw„vÐ¨RgÈu¡lýw¾bÖNìN9e„UºNl°s¶r„vîvh0SVt^±›NûRBl‰V•^ØSi—„vºNìN°s(WtSHSÎNŽNNåSwÝ‹ÿN‹NØSSŠ'Yÿ1SŠNOØSS0"
+ center_of_revolution.3000.desc.never_rev:0 "«ˆ[revolution_center.GetCapitalName]Nbåb²b„vi—‹T`ó`v^Nýw9eØSºNl„vir(uIm¯sƒX0ÖNìNNbÑSw„vÐ¨R*gýw‚YvQ¡‹R,‚¨cûýV¶R0SVt^±›NûRBl‰V•^ØSi—„vºNìN°s(WtSHSÎNŽNNåSwÝ‹ÿN‹NØSSŠ'Yÿ1SŠNOØSS0"
+ center_of_revolution.3000.A:0 "0Œ)Y0Œ0Wÿ"
+ center_of_revolution.3000.A.tt:0 "§Yi—‹TtõVòTÎNNb	gwýNûyd–0§!"
+ center_of_revolution.3000.A.tt2:0 "§YNb	g„vi—‹T-NÃVòT«ˆûyd–0§!"
+ center_of_revolution.3000.B:0 "Nx^„vN)Y0"
+ disaster_active_for_20_years_tooltip:0 "Œp¾–òTÏucíu†N20t^0"
+ no_spread_here_for_15_years_tt:0 "i—‹T„vtõVS«ˆÎN§Y[This.GetName]§!ûyd–ÿ15t^…QàeÕlQ!k.O­dóÙÌ‘0"
+ french_revolution.18.d.reactionary:0 "±*NEQán´fqNŒTcíu'`>yO¨Raƒ„vöegòT6qÜ»S0i—‹TòTÏu«ˆ‰V•^‰|ŽxÿNRÈuŽNïSåNÞVRV8^`0"
+ TURKEY_STRING:0 "W3wvQ"
+ TURKEY_STRING_ADJ:0 "W3wvQ"
+ REV_TURKEY_STRING:0 "i—‹TW3wvQ"
+ REV_TURKEY_STRING_ADJ:0 "W3wvQ"
+ CHINA_STRING:0 "-NNS"
+ CHINA_STRING_ADJ:0 "-NNS"
+ REV_CHINA_STRING:0 "i—‹T-NNS"
+ REV_CHINA_STRING_ADJ:0 "-NNS"
+ GURKANI_EMPIRE_STRING:0 "äSRr^^ýV"
+ GURKANI_EMPIRE_STRING_ADJ:0 "äSRr^"
+ REV_GURKANI_EMPIRE_STRING:0 "i—‹TäSRr^^ýV"
+ REV_GURKANI_EMPIRE_STRING_ADJ:0 "äSRr^"
+ revolution.40.name:0 ")Yg„vi—‹T"
+ revolution.40.desc:0 "i—‹Teg4N†Nÿ'Yyb²OZwÆ–(W[Root.Capital.GetCapitalName]ÿ‰BlÈuÓu‹Së^'YºNl„vCSt^^6R0wRÿºNlêS=f‰Bl6RšRNèªRÕleg6R¦u[Root.Monarch.GetTitle]„vCg›RÿÐcGSêñT(W?eœ^-N„vqVÍT›R06qwÿ^ýV›Q–„v´f›RG•‹SÀo`†NºNlÿÖNìNKYwÍSûQÿ6qT²QÛ†N+tyÎW0SV[Root.Monarch.GetTitle][Root.Monarch.GetName]„vbYa—uImUS°s(WºNìNb—MRöeÿàQNN¡l	gºNØOùR[Root.Monarch.GetHerHim]±b	g`¯`KNÃV0[Root.Monarch.GetName]êÉ‰ÑàegÿàVN?alQV×S±wOujêNg0\n\n[Root.Capital.GetCapitalName]„v°eßu»lw±R^-NýVžRLˆqQŒT?eSO0ÖNìNØbú‹Í‘°eRM‘ëXÅuW0WÙuœQlÿžRLˆ0ww	gvQ0u0ÿv^(WÕl‹VKNNžRLˆŒRhQ„v0ÛVls^Ir0ÿåNBlÍ‘ÄuýV¶R0hQ-NýV„vºNlSOåb	gN*NIQcƒwê1u„v*gegÿ"
+ revolution.40.A:0 "O'YwIQcƒ„v-NNSqQŒTýVNSÿ"
+ revolution.41.name:0 "[Root.GetAdjective]'Yi—‹T"
+ revolution.41.desc:0 "i—‹T0Reg†NÿÏuÇàQhT„v—b®‹Im¨RÿzzMRpeÏ‘„vºN²ZwÆ–(W[Root.Capital.GetCapitalName]ÿ‰BlÙuˆNpS¦^ºNlôfY„vê1u0KS¡r[Root.Monarch.GetTitle]‹TäNvQ›Q–T²OVkpÿFO›Q–v^*gÎN‹TÿàV:N:yZwÒbÝu(u´f›Rbw®O±KbµkTÖNìNcEˆ0[Root.Monarch.GetName]N­eN¾ŠegŠ‹k´f„v‹TäNÿ‰BlùRNb	gVÁ‰RPRYåNgRÿ›Q–³QšRÑS¨R?eØSÿŸ^Üž[Root.Monarch.GetTitle]0°e„vqQŒTýV±RJTú^ýVKNE–ÿ[Root.Monarch.GetSheHeCap]–sSAm¡NÖNýV0\n\n[Root.GetName]„v°eßu»lwbú‹ÇTœQlÍ‘°eRM‘W0W0žR°sÕl‹Vb—MR„vhQb—s^Ir0Ÿ^d–çe?eCgv`±R„vNlQ°saŒÿeg9e.ýV¶Rÿ&^†˜pS¦^ºNlpTôfIQfŒTê1u„v*gegÿ"
+ revolution.41.desc2:0 "i—‹Teg4N†NÿÏuÇàQhT„v—b®‹Im¨RÿzzMRpeÏ‘„vºN²ZwÆ–(W[Root.Capital.GetCapitalName]ÿ‰BlÙuˆNºNlôfY„vê1u0KS¡r[Root.Monarch.GetTitle]‹TäNvQ›Q–T²OVkpÿFO›Q–v^*gÎN‹TÿàV:N:yZwÒbÝu(u´f›Rbw®O±KbµkTÖNìNcEˆ0[Root.Monarch.GetName]N­eN¾ŠegŠ‹k´f„v‹TäNÿ‰BlùRNb	gVÁ‰RPRYåNgRÿ›Q–³QšRÑS¨R?eØSÿŸ^Üž[Root.Monarch.GetTitle]0'YäSRr^qQŒTýV±RJTú^ýVKNE–ÿ[Root.Monarch.GetSheHeCap]–sSAm¡NÖNýV0\n\nqQŒTýV„v°eßu»lwbú‹ÇTœQlÍ‘°eRM‘W0W0žR°sÕl‹Vb—MR„vhQb—s^Ir0Ÿ^d–çe?eCgv`±R„vNlQ°saŒÿeg9e.ýV¶Rÿ&^†˜te*NqQŒTýVpTôfIQfŒTê1u„v*gegÿ"
+ revolution.41.A:0 "Üw)RŒTê1u^SŽNºNlÿ"

@@ -835,7 +835,7 @@ war_exhaustion = { # 每一点厌战度带来如下效果
 	monthly_authority_power = 0.01
 	sea_por_conti_influence = -0.025 # Portugal faction
 	monthly_moroccan_berbers_influence = 0.025
-	monthly_benin_jungle_assembled_power = -0.5
+	monthly_benin_jungle_assembled_power = -0.05
 }
 
 doom = {

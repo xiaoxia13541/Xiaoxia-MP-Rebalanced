@@ -1507,7 +1507,7 @@ indochina_cyi_1 = {
 		}
 
 		effect = {
-			custom_tooltip = allow_in`_personal_deities_tt # 允许使用印度教的象头神，苏利耶 两个神像崇拜
+			custom_tooltip = allow_indian_personal_deities_tt # 允许使用印度教的象头神，苏利耶 两个神像崇拜
 			add_country_modifier = {
 				name = cyi_hinduism_cooperation
 				duration = 9125

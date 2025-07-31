@@ -1,130 +1,0 @@
-﻿l_english:
- mirecek_fort_tt:0 "êS‰Ù*NwýNóS	gN*N!X’WÿbìNmNO—V0R§G+1Ïkg6eeQ§!"
- mirecek_prosperity_tt:0 "§YU§!0§YTsang§!ŒT§YNgari§!„v¶r`ÅV‰˜=fAucƒ„v"
- mirecek_sans_tt:0 "òTŒRbNb	g§YÏuNmtõVÄu§!"
- mirecek_strong_nepal_tt:0 "(W§YpS¦^§!¡l	gêT*NýV¶R„v›Q–Ôk§Y<SÊlS§!Ø‰'Y"
-
- npl_war_bng:0 "gdÁk'YaŒ"
- npl_war_jnp:0 "IeûQyŠnfS"
- mirecek_npl_defense_forts:0 "<SÊlS2–¡VåT‹N"
- mirecek_stronk_nepal:0 "‰Lq„v<SÊlS"
- mirecek_trade:0 "<SÊlS8f"
- mirecek_mountains_npl:0 "ošg†NqS	"
- mirecek_artic_adaptation_npl:0 "Sg”^"
- mirecek_palpa_district_npl:0 "žX R–TaUµNÏ‘"
- mirecek_malla_influence_npl:0 "lšÉb„vqVÍT"
- mirecek_malla_goods:0 "µhí‹S"
- mirecek_npl_faith:0 "<SšNÆY^S"
- mirecek_npl_faith_manpower:0 "áOðNKNýV"
- mirecek_fort:0 "›W R!X"
- mirecek_fort2:0 "^S^!X"
-
- npl_consolidate_army_title:0 "éTúV›Q–"
- npl_consolidate_army_desc:0 ""
- npl_war_bng_title:0 "gdÁk'YaŒ"
- npl_war_bng_desc:0 ""
- push_into_bng_title:0 "µc6R³lAm"
- push_into_bng_desc:0 ""
- push_into_orissa_title:0 "TWS¨cÛ"
- push_into_orissa_desc:0 ""
- npl_rebuild_simroungarh_fort_title:0 "Í‘ú^›W R!X"
- npl_rebuild_simroungarh_fort_desc:0 ""
- npl_trade_power_title:0 "µc6R8f"
- npl_trade_power_desc:0 ""
- npl_secure_hills_title:0 "nxÝObìN„v¹Lu"
- npl_secure_hills_desc:0 ""
- npl_push_east_title:0 "TN¨cÛ"
- npl_push_east_desc:0 ""
- npl_prepare_to_fight_threat_title:0 "ÆQYbìN„výV¶R"
- npl_prepare_to_fight_threat_desc:0 ""
- npl_offense_defense_title:0 "IeûQyŠnfS"
- npl_offense_defense_desc:0 ""
- npl_conquer_jaunpur_title:0 "VgyŠnfS"
- npl_conquer_jaunpur_desc:0 ""
- npl_strongest_power_india_title:0 "µc6RpS¦^"
- npl_strongest_power_india_desc:0 ""
- npl_conquer_bhutan_title:0 "VgN9N"
- npl_conquer_bhutan_desc:0 ""
- npl_conquer_tibet_title:0 "Vg‰Ï…"
- npl_conquer_tibet_desc:0 ""
- npl_tame_the_mountains_title:0 "ošgqS	"
- npl_tame_the_mountains_desc:0 ""
- npl_palpa_district_title:0 "<SÊlS–TaU"
- npl_palpa_district_desc:0 ""
- npl_palpa_coffee_title:0 "žX RbìN„vµNÏ‘"
- npl_palpa_coffee_desc:0 ""
- npl_chinese_delagation_title:0 "-NýVãNhˆâV"
- npl_chinese_delagation_desc:0 ""
- npl_eliminate_malla_title:0 "VglšÉb"
- npl_eliminate_malla_desc:0 ""
- npl_malla_influence_title:0 "lšÉb„vqVÍT"
- npl_malla_influence_desc:0 ""
- npl_sanskritization_title:0 "µhí‹S"
- npl_sanskritization_desc:0 ""
- npl_niyampal_title:0 "<SšNÆY^S"
- npl_niyampal_desc:0 ""
- npl_nation_of_faith_title:0 "áOðNKNýV"
- npl_nation_of_faith_desc:0 ""
-
- npl_thriving_arms_industry:0 "ì„ÃRÑSUS„v›QkpåTN"
- npl_tame_the_mountains_tt:0 "·ƒ—VyrCg '§YVgqS	§!'ÿ §Y‰Ï…§! :SßW„v §Yg0WlPwýN§! ·ƒ—V'§Y”^g0W§!'îOck:\nÑSUSb,g: §G-35.0%§!"
- mjl_estate_church_npl_tamed_mountains:0 "VgqS	"
- mjl_estate_church_npl_tamed_mountains_desc:0 ""
- mjl_estate_brahmins_npl_tamed_mountains:0 "VgqS	"
- mjl_estate_brahmins_npl_tamed_mountains_desc:0 ""
- mjl_estate_church_npl_tamed_mountains_effect_tooltip:1 " §Y‰Ï…§! :SßW„v §Yg0WlPwýN§! ·ƒ—V'§Y^g0W§!'îOck:\nÑSUSb,g §G-35.0%§!"
- mjl_estate_church_npl_tamed_mountains_mod_revoke_tooltip:0 "ûyd–Nb	g«ŽýN„v'§Y”^g0W§!'îOck"
- npl_simroungarh_maintenance_mission_reward:0 "›<h³R RS!X"
- npl_palpa_maintenance_mission_reward:0 "^S^!X"
- 
- 
- # Georgia stuff:
- georgia_strenght_is_in_unity_title:0 "âVÓu1S=f›RÏ‘"
- georgia_strenght_is_in_unity_desc:0 "âVÓu1S=f›RÏ‘ - <hœ	TšNýVËVNNb™Q„v<hŠ0"
- georgia_trebizond_title:0 "NyrÉb^—RTwT"
- georgia_trebizond_desc:0 "¡l	gbìNÿyrÉb^—RSNYXR(W0bìNøváO°s(W=föeP©‹ÖNìN ReQbìN†NÿêS	g(WbìNßu»lNÿÖNìNMbýwµb¡VYegµOeuw„vµO³R0"
- georgia_victory_against_ottos_title:0 "ùR—beY¯eüf„vÜw)R"
- georgia_victory_against_ottos_desc:0 "bìNZP0R†NÿbìNïSýwþfÏuHSgŽNÜb`S­^„vP``KNNÿFObìN8lÜNOHSgŽNeY¯eüf„vßu»lKNNÿ"
- georgia_onwards_west_title:0 "T‰ÛÑSÿ"
- georgia_onwards_west_desc:0 "=föeP©‹bìNT‰Û›QÿÍ‘°e:YÞVþfÏu1Y»S„vNckYeW0WÿSFz¯e—gÎN‰R³uXb)RšNqšúQ»SÿNÜ`NRãN÷Nÿ"
- georgia_georgian_anatolia_desc:0 "bìN„vºN(WT1r4twmLˆÛöe0k|TÀ–Ãÿh×VNw<hœ	TšNºNÈuŽNÎNFz¯e—g„vP``-Nã‰>e†N‰R³uXb)RšN0"
- georgia_georgian_anatolia_title:0 "NckYe‰R³uXb)RšN"
- georgia_trebizond_finally_ours_title:0 "teTO…hRcR"
- georgia_trebizond_finally_ours_desc:0 "–NwyrÉb^—RgÈuRVbìNNb	gÿbìN°s(WïSåNôfée0WëOO…hRcR ReQbìN„vLˆR0"
- georgia_war_against_qq_title:0 "ùR—baSÉb“^‘NbS„vb‰N"
- georgia_war_against_qq_desc:0 "aSÉb“^‘NbS0ÖNìN`HNbe`S†˜<hœ	TšN„vckSVW0WÿbìN—‰NÜ`NRãN÷Nb`Y<hœ	TšN„vcƒwÿbìN„vëXuQòTÏuÆQY‹Y:NdkØNúQãN÷N0"
- georgia_conquer_shirvan_title:0 "Vg^SN"
- georgia_conquer_shirvan_desc:0 "^SNÿþfÏu=fbìN^ýV„vNèR0bìNÅV‰˜Í‘°e:YÞVƒRÿv^PdkÍ‘°e:YÞVbìNºNl„vÃVÿ©‹ÖNìN:N<hœ	TšN^ýVa0RêjŒÿ"
- georgia_crush_the_heatens_title:0 "‰|ŽxVYe’V"
- georgia_crush_the_heatens_desc:0 "^SNÊSvQhT¹0W:S„vºNlòTÏu«ˆFz¯e—gµOeuwmÿ°s(W=föeP©‹bìN=TêbìN„vºNlÿTÖNìNUS:y=UN„váOðNÿàeº‹=f(uŠí‹„v›RÏ‘Ø=fQR„v›RÏ‘0"
- georgia_control_persia_title:0 "µc6Râl¯e"
- georgia_control_persia_desc:0 "ÈuŽNÿâl¯e^SŽNbìN†NÿÞTƒR„vNb	g0ÌRÿcƒwRVŽN<hœ	TšNÿ"
- georgia_defense_of_capital_desc:0 "KS¡rbìN„vºNl?aab—e0RgTNºNÿFO¡l	gSV„v2–¡VŒTÅˆYÿÖNìNàeÕlZP0RÙN¹p0bìNÅV‰˜nxÝObìN„vW0WMQ×ShTôVµOeuw„vµO³R0"
- georgia_defense_of_capital_title:0 "ÝOkSbìN„v<hœ	TšN"
- georgia_oh_mighty_georgia_title:0 "æTÿ:V'Y„v<hœ	TšNÿ"
- georgia_oh_mighty_georgia_desc:0 "ÈuŽNÿ<hœ	TšNßuN†NÿƒR„vcƒwmNßuN†Nÿ"
- georgia_revenge_on_hordes_desc:0 "™„äSºNïSýw(WYt^MR`S†˜†NbìN„vW0WÿFOÊN)Yh×VNwbìN:YÞVW0W„våePRÿåNÊSûNUOïSýwÕ‹þVÍSùRbìN„vºN„v4Y…˜0"
- georgia_revenge_on_hordes_title:0 "ùRèK„„vYÇN"
- georgia_beyond_the_hordes_title:0 "…ŠIƒŸS"
- georgia_beyond_the_hordes_desc:0 "IƒŸSÙu†NbìNN*NR5„vYe­‹0KS¡r<hœ	TšNekuQ=fNLuNg:V'Y„vÿFONO0OIƒŸSN‘šuQ„v›RÏ‘=fˆVÍ‘‰„v0bìNÅV‰˜9ei—þfÏu«ˆWØV„v?–Nb³uÌ‘‘šuQÿ"
- georgia_georgian_gold_mine_title:0 "<hœ	TšNÑ‘ÿw"
- georgia_georgian_gold_mine_desc:0 "ôfñm0Wc˜cÿ"
- georgia_wine_production_title:0 "<hœ	TšNa„„R‘"
- georgia_wine_production_desc:0 "<hœ	TšNa„„R‘«ˆ²‹:N=fNLuNg‹Y„vKNNÿbìNSžX RƒR„vµNÏ‘ÿv^ÎN-N·ƒ—V)RÊvÿ"
- georgia_manganese_mines_title:0 "0•ÿwŠ^"
- georgia_manganese_mines_desc:0 "–Nw0•ÿwir„vÑS°sÿåNÊS(W<hœ	TšNÑS°sƒRìN„v0NÌR¨PÏ‘ÿbìNýwYVËYVÇ‘ÙÍyPg™eÿv^SvQ•ŽVNLuT0Wÿ:NbìN&^eg‹YYÿ"
- georgia_strenght_is_in_unity_mod:0 "âVÓu1S=f›RÏ‘"
- georgia_crusade_against_ottomans:0 "ùR—beY¯eüf„vASWR›QNV"
- georgia_defence:0 "9eÛ2–¡V"
- georgia_trebizond_defence:0 "9eÛyrÉb^—R2–¡V"
- georgia_victory_monument:0 "Üw)RªuõV‘x"
- georgia_victory_celebration:0 "Üw)R†^xQ"
- georgia_fuck_turkey:0 "<hœ	TšN‰R³uXb)RšN"
- georgia_destroy_qq:0 "¢”Á”KN^"
- georgia_convert_bombermen:0 "NckYeóØšàeN"
- georgia_revive_the_aznauri:0 "YtQ?–yQ³uLNÌ‘‘šuQ"
- georgia_conquer_heatens_mod:0 "VgVYe’V"
- georgia_persia_uurah:0 "Œcácâl¯e"
- georgia_dev:0 "O…hRcR„vÄžÑ‘"
- georgia_wine:0 "<hœ	TšNa„„R‘"
- georgia_manganese:0 "0•ÿwŠ^"

@@ -1,752 +1,752 @@
-l_english:
- DLC_dlc001_TOOLTIP_INSTANT:0 "百年战争单位包"
- DLC_dlc001_TOOLTIP_DELAYED:0 "－适用于法兰西和不列颠地区11个国家的独特的1级单位模型"
- DLC_dlc002_TOOLTIP_INSTANT:0 "新月骑兵单位包"
- DLC_dlc002_TOOLTIP_DELAYED:0 "－适用于奥斯曼，波斯和马穆鲁克的独特骑兵模型"
- DLC_dlc003_TOOLTIP_INSTANT:0 "翼骑兵单位包"
- DLC_dlc003_TOOLTIP_DELAYED:0 "－适用于立陶宛，波兰和俄罗斯的独特骑兵模型"
- DLC_dlc004_TOOLTIP_INSTANT:1 "星月内容包"
- DLC_dlc004_TOOLTIP_DELAYED:0 "－28个新事件\n－64个主题事件图片\n－3个新决议"
- DLC_dlc005_TOOLTIP_INSTANT:0 "美国梦"
- DLC_dlc005_TOOLTIP_DELAYED:0 "适用于美国的新内容，包括：\n－57个新事件\n－10个主题事件图片\n－新的美国3级和4级单位模型"
- DLC_dlc006_TOOLTIP_INSTANT:0 "紫凤凰"
- DLC_dlc006_TOOLTIP_DELAYED:0 "适用于拜占庭的新内容，包括：\n－16个新事件\n－16个新任务\n－13个主题事件图片\n－4种新的拜占庭单位模型"
- DLC_dlc007_TOOLTIP_INSTANT:1 "国家名胜"
- DLC_dlc007_TOOLTIP_DELAYED:0 "－8个在地形地图模式可见的新地标"
- DLC_dlc008_TOOLTIP_INSTANT:0 "征服君士坦丁堡音乐包"
- DLC_dlc008_TOOLTIP_DELAYED:0 "－为拜占庭和奥斯曼准备的三条新音轨"
- DLC_dlc009_TOOLTIP_INSTANT:1 "国家名胜II"
- DLC_dlc009_TOOLTIP_DELAYED:0 "－11个在地形地图模式可见的新地标"
- DLC_dlc010_TOOLTIP_INSTANT:0 "征服天堂"
- DLC_dlc010_TOOLTIP_DELAYED:0 "－允许生成随机新世界\n－扩充美洲原住民机制\n－扮演殖民地国家"
- DLC_dlc011_TOOLTIP_INSTANT:0 "征服者单位包"
- DLC_dlc011_TOOLTIP_DELAYED:0 "－16种新大陆的西班牙和葡萄牙新单位模型"
- DLC_dlc012_TOOLTIP_INSTANT:0 "美洲原住民单位包"
- DLC_dlc012_TOOLTIP_DELAYED:0 "－8种美洲原住民国家新单位模型，包括切罗基、易洛魁和苏族"
- DLC_dlc013_TOOLTIP_INSTANT:0 "新世界之歌"
- DLC_dlc013_TOOLTIP_DELAYED:0 "－为美洲原住民和海外省份国家准备的三条新音轨"
- DLC_dlc014_TOOLTIP_INSTANT:0 "圣诞颂歌"
- DLC_dlc014_TOOLTIP_DELAYED:0 "－一条特殊音轨，将于游戏的12月份加入节日的欢呼"
- DLC_dlc015_TOOLTIP_INSTANT:0 "美洲原住民单位包II"
- DLC_dlc015_TOOLTIP_DELAYED:0 "－10种美洲原住民的新兵模，包括福克斯、纳瓦霍和奥吉布瓦"
- DLC_dlc016_TOOLTIP_INSTANT:0 "不列颠和法兰西的殖民地单位包"
- DLC_dlc016_TOOLTIP_DELAYED:0 "－16种适用于英格兰和法兰西在新大陆的新单位模型"
- DLC_dlc017_TOOLTIP_INSTANT:0 "穆斯林顾问肖像"
- DLC_dlc017_TOOLTIP_DELAYED:0 "－增加了21种穆斯林国家的顾问画像"
- DLC_dlc018_TOOLTIP_INSTANT:0 "国富论"
- DLC_dlc018_TOOLTIP_DELAYED:0 "－新的贸易公司机制\n－新的隐蔽外交行动\n－雇佣私掠者\n－建造运河"
- DLC_dlc019_TOOLTIP_INSTANT:0 "穆斯林海军单位包"
- DLC_dlc019_TOOLTIP_DELAYED:0 "－12种穆斯林国家的新舰船模型"
- DLC_dlc020_TOOLTIP_INSTANT:0 "贸易国家单位包"
- DLC_dlc020_TOOLTIP_DELAYED:0 "－16 种阿拉贡、热那亚、吕贝克和诺夫哥罗德的新单位模型"
- DLC_dlc021_TOOLTIP_INSTANT:0 "共和国"
- DLC_dlc021_TOOLTIP_DELAYED:0 "－尼德兰共和国的新机制\n－商业共和国的新派系系统\n－独裁制\n－共和国的新事件"
- DLC_dlc024_TOOLTIP_INSTANT:0 "印度次大陆单位包"
- DLC_dlc024_TOOLTIP_DELAYED:0 "－12 种孟加拉、毗奢耶那伽罗，以及印度大区的印度教或穆斯林国家的新单位模型"
- DLC_dlc025_TOOLTIP_INSTANT:0 "印度海军单位包"
- DLC_dlc025_TOOLTIP_DELAYED:0 "－12种印度地区国家的新船只模型"
- DLC_dlc026_TOOLTIP_INSTANT:0 "共和国音乐包"
- DLC_dlc026_TOOLTIP_DELAYED:0 "－5条新音轨"
- DLC_dlc027_TOOLTIP_INSTANT:0 "孙子兵法"
- DLC_dlc027_TOOLTIP_DELAYED:0 "－欧洲的宗教联盟战争\n－输出革命或遏制革命\n－一键升级舰队\n－对属国和盟友有更大的影响力"
- DLC_dlc028_TOOLTIP_INSTANT:0 "福音同盟单位包"
- DLC_dlc028_TOOLTIP_DELAYED:0 "－12种新的欧洲国家2级兵模，包括尼德兰、法兰西、英格兰和黑森"
- DLC_dlc029_TOOLTIP_INSTANT:0 "天主教联盟包"
- DLC_dlc029_TOOLTIP_DELAYED:0 "－12种欧洲国家的2级兵模，包括西班牙、教宗国、奥地利和乌尔姆"
- DLC_dlc030_TOOLTIP_INSTANT:0 "战争之歌"
- DLC_dlc030_TOOLTIP_DELAYED:0 "－5条在战争时播放的音轨"
- DLC_dlc031_TOOLTIP_INSTANT:0 "枪炮、鼓点与钢铁"
- DLC_dlc031_TOOLTIP_DELAYED:1 "－5首原版音乐的金属风混音版本，其中四首会在战时播放"
- DLC_dlc033_TOOLTIP_INSTANT:0 "黄金国"
- DLC_dlc033_TOOLTIP_DELAYED:0 "－自定义国家设计器 & 随机国家\n－新的美洲原住民宗教机制\n－珍宝船队\n－托德西利亚斯条约"
- DLC_dlc034_TOOLTIP_INSTANT:0 "南美单位包"
- DLC_dlc034_TOOLTIP_DELAYED:0 "－12种南美洲和安第斯土著的新兵模，包括印加、马普切和图皮南巴"
- DLC_dlc035_TOOLTIP_INSTANT:0 "中美洲单位包"
- DLC_dlc035_TOOLTIP_DELAYED:0 "－12种中美洲土著的新兵模，包括阿兹特克、玛雅和米斯特克"
- DLC_dlc036_TOOLTIP_INSTANT:0 "探索之歌"
- DLC_dlc036_TOOLTIP_DELAYED:0 "－5条在和平殖民时播放的新音轨"
- DLC_dlc037_TOOLTIP_INSTANT:0 "枪炮、鼓点与钢铁 Vol.2"
- DLC_dlc037_TOOLTIP_DELAYED:0 "－5首新的金属风混音"
- DLC_dlc038_TOOLTIP_INSTANT:0 "历史上的女性"
- DLC_dlc038_TOOLTIP_DELAYED:0 "聚焦于历史长河中的重要女性，包括：\n－100个新事件\n－4个主题事件图片\n－22种通用女性顾问肖像"
- DLC_dlc039_TOOLTIP_INSTANT:0 "常识"
- DLC_dlc039_TOOLTIP_DELAYED:0 "－议会\n－新教与佛教的新玩法\n－新的属国互动\n－神圣罗马帝国自由市"
- DLC_dlc040_TOOLTIP_INSTANT:0 "神权国单位包"
- DLC_dlc040_TOOLTIP_DELAYED:0 "－16种新的神权国家兵模，包括条顿骑士团、教宗国和医院骑士团"
- DLC_dlc041_TOOLTIP_INSTANT:0 "佛教单位包"
- DLC_dlc041_TOOLTIP_DELAYED:1 "－16种新的佛教国家兵模，包括康提、大越和西藏"
- DLC_dlc042_TOOLTIP_INSTANT:0 "大国单位包"
- DLC_dlc042_TOOLTIP_DELAYED:0 "－17种新的欧洲国家兵模，包括英格兰、尼德兰、奥斯曼和俄罗斯"
- DLC_dlc043_TOOLTIP_INSTANT:0 "自由市单位包"
- DLC_dlc043_TOOLTIP_DELAYED:0 "－15种新的中欧国家兵模，包括法兰克福、汉堡和乌尔姆"
- DLC_dlc044_TOOLTIP_INSTANT:0 "凯利的音轨"
- DLC_dlc044_TOOLTIP_DELAYED:0 "－5条Kairi Blodeuyn Sawler作曲的新音轨，灵感来源于亚洲歌曲"
- DLC_dlc046_TOOLTIP_INSTANT:0 "哥萨克"
- DLC_dlc046_TOOLTIP_DELAYED:0 "－3个新阶层：哥萨克、齐米和部族\n－特殊的哥萨克政府\n－腾格里信仰的宗教兼容机制\n－外交反馈\n－原住民政策"
- DLC_dlc047_TOOLTIP_INSTANT:0 "黑海单位包"
- DLC_dlc047_TOOLTIP_DELAYED:0 "－32种切尔克西亚、克里米亚、狄奥多罗以及扎波罗热的新单位模型"
- DLC_dlc048_TOOLTIP_INSTANT:0 "伟大部落单位包"
- DLC_dlc048_TOOLTIP_DELAYED:0 "－32种金帐汗国、诺盖、帖木儿以及乌兹别克的新单位模型"
- DLC_dlc049_TOOLTIP_INSTANT:0 "欧洲骑兵单位包"
- DLC_dlc049_TOOLTIP_DELAYED:0 "－12种适用于英格兰、法兰西和西班牙的骑兵模型"
- DLC_dlc050_TOOLTIP_INSTANT:0 "要塞包"
- DLC_dlc050_TOOLTIP_DELAYED:0 "－18种西欧、穆斯林、亚洲、印度、非洲以及南北美洲文化的新要塞模型"
- DLC_dlc052_TOOLTIP_INSTANT:0 "Sabaton乐队音轨"
- DLC_dlc052_TOOLTIP_DELAYED:0 "－5条Sabaton作曲的新音轨"
- DLC_dlc053_TOOLTIP_INSTANT:0 "天主教主要国家单位包"
- DLC_dlc053_TOOLTIP_DELAYED:0 "－9种适用于奥地利、波兰和西班牙的新单位模型"
- DLC_dlc054_TOOLTIP_INSTANT:0 "福音派主要国家单位包"
- DLC_dlc054_TOOLTIP_DELAYED:0 "－8种适用于法兰西、普鲁士和瑞典的新单位模型"
- DLC_dlc055_TOOLTIP_INSTANT:0 "我们的海"
- DLC_dlc055_TOOLTIP_DELAYED:0 "－高级海军任务\n－巴巴里海盗\n－遣外雇佣军团\n－贸易联盟\n－新的间谍行动\n－分享和窃取地图"
- DLC_dlc056_TOOLTIP_INSTANT:0 "意大利单位包"
- DLC_dlc056_TOOLTIP_DELAYED:0 "－6种佛罗伦萨、米兰、那不勒斯和威尼斯的新单位模型"
- DLC_dlc057_TOOLTIP_INSTANT:0 "东非单位包"
- DLC_dlc057_TOOLTIP_DELAYED:0 "－16种埃塞俄比亚与努比亚、索马里及斯瓦希里国家的新单位模型"
- DLC_dlc058_TOOLTIP_INSTANT:0 "北非单位包"
- DLC_dlc058_TOOLTIP_DELAYED:0 "－16种阿尔及尔、摩洛哥、马穆鲁克和突尼斯的新单位模型"
- DLC_dlc059_TOOLTIP_INSTANT:0 "凯利的音轨 II"
- DLC_dlc059_TOOLTIP_DELAYED:0 "－由Kairi Blodeuyn Sawler创作5首的曲目，灵感来源于远东地区"
- DLC_dlc060_TOOLTIP_INSTANT:0 "人权"
- DLC_dlc060_TOOLTIP_DELAYED:0 "－新增列强地位\n－君主特质\n－配偶可通过王室联姻产生且可以担任摄政\n－科普特国家可用圣地机制\n－奥斯曼帝国的独有政体"
- DLC_dlc061_TOOLTIP_INSTANT:0 "德意志诸侯单位包"
- DLC_dlc061_TOOLTIP_DELAYED:0 "－24种德意志诸侯的1级及3级单位模型，包括巴伐利亚、汉诺威和萨克森"
- DLC_dlc062_TOOLTIP_INSTANT:0 "西非单位包"
- DLC_dlc062_TOOLTIP_DELAYED:0 "－32种西非国家的新兵模，包括阿伊尔、卡奈姆-博尔努和马里"
- DLC_dlc063_TOOLTIP_INSTANT:0 "摄政之歌"
- DLC_dlc063_TOOLTIP_DELAYED:0 "－为「人权」扩展包准备的4首曲目"
- DLC_dlc064_TOOLTIP_INSTANT:0 "弗雷德曼的书信"
- DLC_dlc064_TOOLTIP_DELAYED:0 "－15条扮演斯堪的纳维亚国家时的曲目"
- DLC_dlc065_TOOLTIP_INSTANT:0 "弗雷德曼的书信"
- DLC_dlc065_TOOLTIP_DELAYED:0 "－15条扮演斯堪的纳维亚国家时的曲目"
- DLC_dlc066_TOOLTIP_INSTANT:0 "天命"
- DLC_dlc066_TOOLTIP_DELAYED:0 "－历史时代与黄金时代\n－扩展了中华帝国机制\n－中华帝国可以强迫邻国朝贡\n－新的幕府机制\n－满洲部落领袖可以组织八旗"
- DLC_dlc067_TOOLTIP_INSTANT:0 "大名单位包"
- DLC_dlc067_TOOLTIP_DELAYED:0 "－12种新的日本大名1级单位模型，包括伊达、今川和上杉"
- DLC_dlc068_TOOLTIP_INSTANT:0 "亚洲主要国家单位包"
- DLC_dlc068_TOOLTIP_DELAYED:0 "－16种日本、朝鲜、明和清的新单位模型"
- DLC_dlc069_TOOLTIP_INSTANT:0 "北方单位包"
- DLC_dlc069_TOOLTIP_DELAYED:0 "－16种察合台、满洲、蒙古和瓦剌的新部落军单位模型"
- DLC_dlc070_TOOLTIP_INSTANT:1 "炮兵包"
- DLC_dlc070_TOOLTIP_DELAYED:0 "－8种西欧、东欧、穆斯林、印度、非洲、亚洲以及南北美文化的新炮兵模型"
- DLC_dlc071_TOOLTIP_INSTANT:2 "亚洲海军单位包"
- DLC_dlc071_TOOLTIP_DELAYED:0 "－22种亚洲国家的新船只模型，其中4种为日本与朝鲜独有"
- DLC_dlc072_TOOLTIP_INSTANT:0 "第三罗马"
- DLC_dlc072_TOOLTIP_DELAYED:0 "－沙皇国 & 罗斯公国\n－圣像\n－都主教\n－罗斯诸国的特殊射击军单位\n－西伯利亚拓荒区\n－新的俄罗斯任务"
- DLC_dlc073_TOOLTIP_INSTANT:0 "罗斯诸公国单位包"
- DLC_dlc073_TOOLTIP_DELAYED:0 "－16种适用于奥多耶夫、梁赞、特维尔及雅罗斯拉夫尔的新单位模型"
- DLC_dlc074_TOOLTIP_INSTANT:0 "俄罗斯边境单位包"
- DLC_dlc074_TOOLTIP_DELAYED:0 "－16种喀山、立陶宛、彼尔姆以及普斯科夫的新单位模型"
- DLC_dlc075_TOOLTIP_INSTANT:0 "俄罗斯假想历史单位包"
- DLC_dlc075_TOOLTIP_DELAYED:0 "－16种下诺夫哥罗德、波洛茨克、鲁塞尼亚，以及斯摩棱斯克的新单位模型"
- DLC_dlc076_TOOLTIP_INSTANT:0 "罗斯觉醒"
- DLC_dlc076_TOOLTIP_DELAYED:0 "－罗斯主题的三首音乐"
- DLC_dlc077_TOOLTIP_INSTANT:0 "文明的摇篮"
- DLC_dlc077_TOOLTIP_DELAYED:0 "－新的中东特殊政体\n－贸易政策\n－伊斯兰学派\n－陆军职业度\n－剥削发展度"
- DLC_dlc078_TOOLTIP_INSTANT:0 "半岛单位包"
- DLC_dlc078_TOOLTIP_DELAYED:0 "－16种汉志、内志、阿曼，以及也门的新单位模型"
- DLC_dlc079_TOOLTIP_INSTANT:0 "波斯单位包"
- DLC_dlc079_TOOLTIP_DELAYED:0 "－6种阿富汗、波斯、塔巴里斯坦，以及库尔德国家的新单位模型"
- DLC_dlc080_TOOLTIP_INSTANT:0 "两河单位包"
- DLC_dlc080_TOOLTIP_DELAYED:0 "－16种白羊、哈萨、黑羊，以及舍迈尔的新单位模型"
- DLC_dlc081_TOOLTIP_INSTANT:0 "奥斯曼风乐曲"
- DLC_dlc081_TOOLTIP_DELAYED:0 "－为穆斯林国家准备的5首曲目"
- DLC_dlc082_TOOLTIP_INSTANT:1 "伊朗顾问包"
- DLC_dlc082_TOOLTIP_DELAYED:0 "42种波斯新顾问画像"
- DLC_dlc083_TOOLTIP_INSTANT:0 "穆斯林女性包"
- DLC_dlc083_TOOLTIP_DELAYED:0 "－21种穆斯林文化的女性顾问画像"
- DLC_dlc084_TOOLTIP_INSTANT:0 "统治吧，不列颠尼亚"
- DLC_dlc084_TOOLTIP_DELAYED:0 "－新的不列颠任务\n－工业革命\n－创新度\n－圣公宗\n－海军学说\n－思潮分享"
- DLC_dlc085_TOOLTIP_INSTANT:0 "西爱尔兰单位包"
- DLC_dlc085_TOOLTIP_DELAYED:0 "－11种克兰里卡德、德斯蒙德、斯莱戈，以及托蒙德的新单位模型"
- DLC_dlc086_TOOLTIP_INSTANT:0 "东爱尔兰单位包"
- DLC_dlc086_TOOLTIP_DELAYED:0 "－12种基尔代尔、伦斯特、蒂龙以及阿尔斯特的新单位模型"
- DLC_dlc087_TOOLTIP_INSTANT:0 "不列颠国家单位包"
- DLC_dlc087_TOOLTIP_DELAYED:0 "－14种布列塔尼、爱尔兰、苏格兰，以及威尔士的新单位模型"
- DLC_dlc088_TOOLTIP_INSTANT:0 "不列颠叛军单位包"
- DLC_dlc088_TOOLTIP_DELAYED:0 "－16种康沃尔、米斯、诺曼底，以及诺森伯兰的新单位模型"
- DLC_dlc089_TOOLTIP_INSTANT:0 "统治吧，不列颠尼亚音乐包"
- DLC_dlc089_TOOLTIP_DELAYED:0 "－为不列颠国家准备的3首曲目"
- DLC_dlc090_TOOLTIP_INSTANT:0 "达摩"
- DLC_dlc090_TOOLTIP_DELAYED:0 "－政府改革\n－政策系统增强\n－贸易公司投资系统\n－新的印度任务树&阶层\n－特许贸易公司\n－升级贸易中心"
- DLC_dlc091_TOOLTIP_INSTANT:0 "印度单位包"
- DLC_dlc091_TOOLTIP_DELAYED:0 "－20种冈瓦纳、梅瓦尔、尼泊尔、奥里萨以及南印度小国的全新单位模型"
- DLC_dlc092_TOOLTIP_INSTANT:0 " 印度苏丹国单位包"
- DLC_dlc092_TOOLTIP_DELAYED:0 "－20种巴赫曼尼、古吉拉特、章普尔、摩腊婆，以及莫卧儿的新单位模型"
- DLC_dlc093_TOOLTIP_INSTANT:1 "达摩顾问肖像包"
- DLC_dlc093_TOOLTIP_DELAYED:0 "－新增42种印度国家与印度文化的男性及女性顾问画像"
- DLC_dlc094_TOOLTIP_INSTANT:0 "达摩音乐包"
- DLC_dlc094_TOOLTIP_DELAYED:0 "－为在印度和印度周边的玩家准备的三条新音轨"
- DLC_dlc095_TOOLTIP_INSTANT:0 "黄金世纪"
- DLC_dlc095_TOOLTIP_DELAYED:0 "－驱逐少数族群\n－设立宗教修会\n－伊比利亚&北非的新任务树\n－海盗共和国\n－旗舰\n－海上炮击"
- DLC_dlc096_TOOLTIP_INSTANT:0 "伊比利亚海军单位包"
- DLC_dlc096_TOOLTIP_DELAYED:0 "－17种伊比利亚国家的新船只模型"
- DLC_dlc097_TOOLTIP_INSTANT:0 "柏柏尔海军单位包"
- DLC_dlc097_TOOLTIP_DELAYED:0 "－17种柏柏尔与北非国家的新船只模型"
- DLC_dlc098_TOOLTIP_INSTANT:0 "伊比利亚陆军单位包"
- DLC_dlc098_TOOLTIP_DELAYED:0 "－20种加利西亚、格拉纳达、纳瓦拉和海盗国家的单位模型"
- DLC_dlc099_TOOLTIP_INSTANT:0 "黄金世纪音乐包"
- DLC_dlc099_TOOLTIP_DELAYED:0 "－为伊比利亚国家和海盗国家准备的三条新音轨"
- MAPMODE_EXPANSION:0 "DEBUG: 推荐扩展包"
- MAPMODE_CONTENT:0 "DEBUG: 推荐内容包"
- MAPMODE_UNIT:0 "DEBUG: 推荐单位包"
- MAPMODE_MUSIC:0 "DEBUG：推荐音乐包"
- RED_QUEEN_DLC_OWNED:0 "§Y已拥有§!"
- RED_QUEEN_DLC_FREE:0 "§Y免费§!"
- RED_QUEEN_DLC_ENABLED:0 "§Y已启用§!"
- RED_QUEEN_DLC_ENABLED_BY_HOST:0 "§Y主机已启用§!"
- RED_QUEEN_DLC_DISABLED:0 "§R未启用§!"
- RED_QUEEN_DLC_DISABLED_BY_HOST:0 "§R主机未启用§!"
- RED_QUEEN_DLC_NOT_OWNED:0 "§R未拥有§!"
- VIEW_ON_STORE:0 "在商店中查看"
- LANDING_INTERESTING_NATION:0 "在$DLC|Y$中$TAG|Y$是一个有趣的选择"
- LANDING_dlc010_TEXT:0 "主要特性：\n－随机新世界\n－建立及扮演殖民领\n－为美洲原住民提供新机制"
- LANDING_dlc010_FLAVOR_TEXT:2 "派遣四艘船只探索未知的世界，发现新大陆——也许是一个全新的，完全随机的美洲大陆。\n\n征服天堂同时也提供了扮演原始美洲国家并掌控部落联盟和独有的部落理念的可能。\n对殖民者来说，现在可以选择扮演一个殖民领国家，直接控制新世界中殖民者的命运。"
- LANDING_dlc018_TEXT:0 "主要特性：\n－通过间谍手段制造贸易争端\n－私掠\n－贸易本埠\n－贸易公司\n\n额外特性：\n－改善了内陆贸易\n－印度教君主可以选择个人信仰的神祇\n－修建运河"
- LANDING_dlc018_FLAVOR_TEXT:2 "《国富论》扩展包聚焦于贸易玩法，让您设法导引世界的财富流入您的腰包。\n\n本扩展包允许您秘密制造贸易冲突、借海上劫掠舰队窃取您竞争对手的利益、利用和约增强贸易竞争力及创建新的贸易本埠，让您紧紧掌控贸易。\n凭借您新近赚取的财富，您可以将手头宽裕的储备金投入到伟大的工程建设中，包括基尔运河、苏伊士运河和巴拿马运河。"
- LANDING_dlc021_TEXT:1 "主要特性：\n－共和国专政\n－商业共和国的全新派系\n－尼德兰共和国的特殊选举\n\n额外特性：\n－对抗君主立宪的新行动\n－商业共和国可以建立贸易站\n－共和国的新事件"
- LANDING_dlc021_FLAVOR_TEXT:2 "《共和国》着眼于统治你的人民和国家的新颖且独特的方式。\n\n这一扩展包不仅引入了一种新的政府形式，也为共和政体和专制政体提供了新的可供探索的理念组以及游戏元素。《共和国》允许玩家在扩展其贸易帝国的同时，体验全新的获取红利的方式，从而提高治理和探索的艺术水平。"
- LANDING_dlc027_TEXT:0 "主要特性：\n－三十年战争以及宗教联盟的独特机制\n－为革命而战，亦或是镇压革命\n－突围，以及将占领区移交给战争盟友\n－一键升级所有舰队\n－改善的外交选项\n\n额外特性：\n－强行军\n－放弃核心"
- LANDING_dlc027_FLAVOR_TEXT:2 "本次扩展聚焦在三十年战争以及增加神权与政府之间的政治对抗，包含改进的游戏机制，将战争放在你追寻统治和荣耀的优先位置。\n\n改进的海战和完全的部队控制意味着胜利的责任完全放在你肩。你会选择独自赢得胜利，亦或指望你盟友的战斗力？你的选择将决定你的帝国能否长久。"
- LANDING_dlc033_TEXT:0 "主要特性：\n－自定义国家设计器\n－纳瓦特尔、因蒂和玛雅宗教的新机制\n－寻找黄金七城\n－黄金舰队\n－使用贸易舰队缉捕海盗\n－托德西利亚斯条约"
- LANDING_dlc033_FLAVOR_TEXT:1 "用新的国家设计器创建一个完全适合你游戏风格的国家，它允许在战役中自定义一个起始国家，并进一步增强EU4已经接近无限的可玩性。\n\n这个扩展的着重于中美洲和南美洲引入了新的宗教，而有影响力的探索剧场将挑战你的新决定值得一个国王或征服者。作为阿兹特克人，让墨西哥平原臣服于你的统治，但一定要有足够的附庸国国王来祭祀你愤怒的神。当欧洲人深入亚马逊丛林时，关于失落的城市和神奇的喷泉的传言接踵而至。"
- LANDING_dlc039_TEXT:0 "主要特性：\n－议会\n－新教和佛教的新宗教机制\n－新的属国互动\n\n额外特性：\n－奉献度\n－神圣罗马帝国的自由市"
- LANDING_dlc039_FLAVOR_TEXT:1 "《常识》扩展包侧重于外交和国家内部发展。这个扩展包允许你和平发展你的国家建立一个「高大」的帝国，同时也给你工具来执行伟大的外交。改变了游戏的宗教特性并增加了游戏的深度和有趣的复杂性。\n\n与你的属国密切合作，通过互动和法令更好地控制他们的能力，对于任何与君主立宪制的内部斗争打交道的人来说都是情理之中的。"
- LANDING_dlc046_TEXT:0 "主要特性：\n－新阶层\n－外交的反馈\n－腾格里的相融信仰\n－新的部落机制\n－原住民政策\n\n额外特性：\n－先进文化的转变\n－改进的间谍"
- LANDING_dlc046_FLAVOR_TEXT:1 "《哥萨克》扩展包关注的是游牧民族和东欧。这一扩展允许你作为一个部落国家劫掠你的邻国以保持你的部落忠诚，并通过焚掠他们的土地以增强实力、在技术进步或改革成一个定居的国家。\n\n各国的内部政治随着阶层的出现而活跃起来，这些阶层代表着强大的利益集团，如波兰-立陶宛大贵族和草原上与本扩展包同名的哥萨克。更详细地控制你的国家的文化和原住民，以及与你的AI盟友更紧密地合作的能力，理解他们的目标将让你展现出你心里的彼得大帝。"
- LANDING_dlc055_TEXT:0 "主要特性：\n－高级海军任务\n－巴巴里海盗\n－遣外雇佣军团\n－分享地图\n\n额外特性：\n－贸易联盟\n－新的间谍行动\n－时间线回放\n－反间谍行动"
- LANDING_dlc055_FLAVOR_TEXT:1 "在《我们的海》扩展包中，欧陆风云IV将注意力转向了海洋。这个扩展包为玩家提供了更多的海军和军事工具，带领你的国家走向近代世界。\n\n顾名思义，《我们的海》引进了与海战和贸易控制相关的新系统。你的舰队的力量将取决于你的国家可以招募的水手的数量，你的船只现在可以被赋予任务和地区巡逻。此外还有创建贸易联盟的新选项以及大量其他改进。"
- LANDING_dlc060_TEXT:1 "主要特性：\n－列强\n－君主特质 & 将领特质\n－配偶 & 摄政\n－可以为属国指定特定的战时行为\n－拜物教国家解锁崇拜物\n－科普特国家解锁圣地\n\n额外特性：\n－革命共和国的新派系系统\n－奥斯曼帝国的独特政体\n－退位\n－货币贬值"
- LANDING_dlc060_FLAVOR_TEXT:2 "《人权》通过新的特性为欧陆风云IV增加了深度，包括列强机制、统治者和配偶的特质系统，以及著名国家的独有政体和派系。\n\n列强机制允许最发达的国家使用新的外交手段来胁迫或引诱弱小的邻国。继续发展下去，否则就会失去这来之不易的能力！"
- LANDING_dlc066_TEXT:0 "主要特性：\n－历史时代 & 黄金时代\n－新的中华帝国机制\n－朝贡国\n－新的日本幕府机制\n－满洲八旗\n－批量外交操作"
- LANDING_dlc066_FLAVOR_TEXT:1 "当欧洲慢慢地从黑暗中走出来的时候，东方继续闪耀着光芒。明朝的王座统治着一片富饶而神圣的土地，而日本的军阀们则穿着体面的服装在战场上厮杀。诸神赐给亚洲财富和文化。你配得上天命吗？\n\n历史时代和黄金时代为时代的发展带来了新的特点，为玩家提供了不同的挑战和不同的奖励。\n\n中华帝国现在拥有着强大的新机制，但要小心——如果皇帝的天命下降得太多，周围的势力可以宣称自己的天命，并以新皇帝的身份谋求控制中国！"
- LANDING_dlc072_TEXT:0 "主要特性：\n－沙皇国 & 罗斯公国\n－圣像\n－都主教\n－射击军\n－西伯利亚拓荒区"
- LANDING_dlc072_FLAVOR_TEXT:1 "《第三罗马》是欧陆风云IV的第一个沉浸式扩展包，专注于为俄罗斯及其文化和地区邻邦打造更深入的体验，并引入新的手段来对俄罗斯帝国行使精神、政治和军事控制。\n\n与东正教都主教进行新的互动、将虔诚转化为政治权力、用新的政府等级扩大国家权力、征募强大的新军事单位、殖民西伯利亚边疆，助你登上沙皇之位。"
- LANDING_dlc077_TEXT:0 "主要特性：\n－中东国家的特殊政体\n－贸易政策\n－伊斯兰学派\n－陆军职业度\n－剥削发展度\n－伊克塔税收\n\n额外特性：\n－耶尼切里\n－传教行动"
- LANDING_dlc077_FLAVOR_TEXT:1 "有史以来中东肥沃的山谷和贸易路线就吸引了雄心勃勃的征服者。现在随着中世纪的消逝，在这些古老的土地上发展出了新的势力。\n\n近代的中东地区随着历史发展迎来了新的决议和机遇，《文明的摇篮》增强了在中东地区国家的体验，同时也为世界各地的国家提供了丰富的新机制。"
- LANDING_dlc084_TEXT:0 "主要特性：\n－新的不列颠任务\n－工业革命\n－创新度\n－圣公宗\n－海军学说\n－思潮分享"
- LANDING_dlc084_FLAVOR_TEXT:1 "15世纪中期，英格兰因欧洲大陆上的战争而被削弱，羸弱的君主和贪婪的贵族对即将到来的辉煌一无所知。这将是一条艰难的道路，经历内战、宗教动乱、大火和令人尴尬的共主邦联。但是这个后来成为大不列颠的国家将会统治一个遍布全球的贸易帝国，输出英国自由的理想——包括思想和贸易——同时使自己成为世界上最强大的国家。\n\n《统治吧，不列颠尼亚》是一个专注于不列颠群岛历史和工业革命早期火花的浸入式扩展包。统治英格兰、苏格兰或爱尔兰王国，带领他们走向伟大！"
- LANDING_dlc090_TEXT:1 "主要特性：\n－政府改革\n－贸易公司投资\n－新的印度任务和阶层\n－特许公司\n\n额外特性：\n－修改的政策制度\n－雨季\n－新的侮辱制度\n－殖民者的新用途"
- LANDING_dlc090_FLAVOR_TEXT:1 "一个富有历史和文化的地区向能够控制其贸易的帝国承诺巨大的物质财富。争夺印度的领土和财富需要外交手腕和一些军事力量。但是在这个世界上最赚钱的市场上，谁在这场伟大的游戏中利用谁呢？\n\n《达摩》提供了一种新的方法来定义一个政府，尽管引入了政府改革。不同的改革组合仍产生不同的政府——一个王国可以选择授权给神职人员管理和中央集权，或将权力交给议会和削弱贵族。\n\n如何统治，如何扩展你的统治——你可以用《达摩》做出选择。"
- LANDING_dlc095_TEXT:0 "主要特性：\n－伊比利亚&北非国家的新任务树\n－驱逐少数族群\n－设立修会\n－海盗共和国\n－旗舰\n－海上炮击"
- LANDING_dlc095_FLAVOR_TEXT:1 "哥伦布可能不是第一个，但他是最重要的。他到新大陆的航行很快就被蒸蒸日上的，带领这个伟大的天主教王国在欧洲政治中心统治了一个多世纪的西班牙王权所利用。阿兹特克的黄金和秘鲁的白银奠定了从墨西哥到马德里到马尼拉的全球帝国的基础。从再征服运动到珍宝船队，重温那些建立帝国的日子！"
- LANDING_dlc001_TEXT:0 "主要特性：\n－适用于法兰西和不列颠地区11个国家的独特的1级单位模型"
- LANDING_dlc001_FLAVOR_TEXT:0 "这个单位包添加了新的单位模型，为法兰西和不列颠地区的国家提供了百年战争的体验。"
- LANDING_dlc002_TEXT:0 "主要特性：\n－奥斯曼、波斯和马穆鲁克的独特骑兵模型"
- LANDING_dlc002_FLAVOR_TEXT:0 "这个单位包为奥斯曼，波斯和马穆鲁克增加了独特的骑兵风格"
- LANDING_dlc003_TEXT:0 "主要特性：\n－立陶宛、波兰和俄罗斯的独特骑兵模型"
- LANDING_dlc003_FLAVOR_TEXT:0 "这个单位包增加了立陶宛，波兰和俄罗斯独特的骑兵风格"
- LANDING_dlc004_TEXT:0 "主要特性：\n－28个新事件\n－64个主题事件图片\n－3个新决议"
- LANDING_dlc004_FLAVOR_TEXT:0 "这个小型扩充包能够提供独特的事件和决议来提升扮演穆斯林国家的体验。"
- LANDING_dlc005_TEXT:0 "主要特性：\n－57个新事件\n－10个主题事件图片\n－新的美国3级和4级兵模"
- LANDING_dlc005_FLAVOR_TEXT:0 "这个风格包给美国带来了更多的内容和精神，为这个伟大的国家提供了动态的新事件和独特的单位模型。"
- LANDING_dlc006_TEXT:0 "主要特性：\n－16个新事件\n－16个新任务\n－13个主题事件图片\n－4种拜占庭的新兵模"
- LANDING_dlc006_FLAVOR_TEXT:0 "这个特色包聚焦于拜占庭，提供更多特色以加强体验和振兴拜占庭帝国。"
- LANDING_dlc007_TEXT:0 "主要特性：\n－8个在地形地图模式可见的新地标"
- LANDING_dlc007_FLAVOR_TEXT:0 "这个包为地图添加了新的地块，通过为游戏地图提供更多的功能来增强游戏体验。"
- LANDING_dlc008_TEXT:0 "主要特性：\n－3首拜占庭和奥斯曼的新曲目"
- LANDING_dlc008_FLAVOR_TEXT:0 "《征服君士坦丁堡》包含三首新的歌曲，总计 10 分钟，由 Andreas Waldetoft 作曲。这三首歌将会在你以拜占庭或奥斯曼进行游戏时播放，用以增强游戏体验。每首歌曲将会为你在争夺拜占庭土地时提供独特的体验。"
- LANDING_dlc009_TEXT:0 "主要特性：\n－11个在地形地图模式可见的新地标"
- LANDING_dlc009_FLAVOR_TEXT:0 "这个包为地图添加了新的地块，通过为游戏地图提供更多的功能来增强游戏体验。"
- LANDING_dlc011_TEXT:0 "主要特性：\n－16种新大陆上西班牙和葡萄牙的新兵模"
- LANDING_dlc011_FLAVOR_TEXT:0 "征服者单位包能提高欧陆风云IV的体验。这个包为驻扎在新大陆的伊比利亚单位增加了新的单位模型。"
- LANDING_dlc012_TEXT:0 "主要特性：\n－8种美洲土著国家的新兵模，包括切罗基、易洛魁和苏族"
- LANDING_dlc012_FLAVOR_TEXT:0 "该单位包为几个北美土著国家增加了独特的单位外形。"
- LANDING_dlc013_TEXT:0 "主要特性：\n－3首美洲土著和拥有海外省份国家的新曲目"
- LANDING_dlc013_FLAVOR_TEXT:1 "该音乐包包含3首由安德烈亚斯·瓦尔德托夫特创作的、将近11分钟的额外曲目，以加强新世界的体验。"
- LANDING_dlc014_TEXT:0 "主要特性：\n－1首于12月播放的、为节日增添欢乐的特殊曲目"
- LANDING_dlc014_FLAVOR_TEXT:0 "该音乐包提供了一首由安德烈亚斯·瓦尔德托夫特创作的特殊曲目，它是以「闪亮的圣诞节」和「普世欢腾」为基础创作的。"
- LANDING_dlc015_TEXT:0 "主要特性：\n－10种美洲土著国家的新兵模，包括福克斯、纳瓦霍和奥吉布瓦"
- LANDING_dlc015_FLAVOR_TEXT:0 "该单位包为10个美洲土著国家增加了新的单位外形。"
- LANDING_dlc016_TEXT:0 "主要特性：\n－16种仅出现于新大陆上的英格兰和法兰西的新兵模"
- LANDING_dlc016_FLAVOR_TEXT:0 "这个单位包包括驻扎在新世界的英格兰和法兰西单位的新单位图形。"
- LANDING_dlc017_TEXT:0 "主要特性：\n－21种穆斯林国家的新顾问画像"
- LANDING_dlc017_FLAVOR_TEXT:0 "通过穆斯林顾问肖像包，享受作为一个穆斯林国家的丰富体验。这个包增加了21个新的顾问肖像，为那些作为穆斯林国家增加了一个独特的外观和感觉。"
- LANDING_dlc019_TEXT:0 "主要特性：\n－12种穆斯林国家的新船只模型"
- LANDING_dlc019_FLAVOR_TEXT:0 "这些船只将会增强欧陆风云IV的视觉吸引力。"
- LANDING_dlc020_TEXT:0 "主要特性：\n－16 种阿拉贡、热那亚、吕贝克和诺夫哥罗德的新兵模"
- LANDING_dlc020_FLAVOR_TEXT:0 "贸易国家单位包能提高欧陆风云IV的体验。这个内容包为阿拉贡、热那亚、吕贝克及诺夫哥罗德增加了独特的单位外形。"
- LANDING_dlc024_TEXT:0 "主要特性：\n－12 种孟加拉、毗奢耶那伽罗、以及印度大区的印度教或穆斯林国家的新兵模"
- LANDING_dlc024_FLAVOR_TEXT:0 "本单位包为印度国家（包括孟加拉和毗奢耶那伽罗）添加了独特的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc025_TEXT:0 "主要特性：\n－12种印度国家的新船只模型"
- LANDING_dlc025_FLAVOR_TEXT:0 "这些船只将会增强欧陆风云IV的视觉吸引力。"
- LANDING_dlc026_TEXT:0 "主要特性：\n－5首新曲目"
- LANDING_dlc026_FLAVOR_TEXT:0 "我们邀请一支管弦乐团来录制了一些新曲目，它们将被添加进本音乐包以丰富欧陆风云IV的原声带。\n\n这些新乐曲总时长约26分钟，由Andreas Waldetoft巧妙谱写，一部分是来自EU2的原曲改编，一部分是全新原创曲目。"
- LANDING_dlc028_TEXT:0 "主要特性：\n－12种新的欧洲国家2级兵模，包括尼德兰、法兰西、英格兰和黑森"
- LANDING_dlc028_FLAVOR_TEXT:0 "本单位包为欧洲宗教改革和三十年战争时期位于冲突核心的西欧、中欧国家增加了独特的兵模，为这一时代背景添加了独具特色的视觉效果。"
- LANDING_dlc029_TEXT:0 "主要特性：\n－12种欧洲国家的2级兵模，包括西班牙、教宗国、奥地利和乌尔姆"
- LANDING_dlc029_FLAVOR_TEXT:0 "本单位包为欧洲宗教改革和三十年战争时期位于冲突核心的西欧、中欧国家增加了独特的兵模，为这一时代背景添加了独具特色的视觉效果。"
- LANDING_dlc030_TEXT:0 "主要特性：\n－5条在战争时播放的音轨"
- LANDING_dlc030_FLAVOR_TEXT:0 "我们邀请一支管弦乐团来录制了一些新曲目，它们将被添加进本音乐包以丰富欧陆风云IV的原声带。\n\n这些新乐曲总时长约29分钟，由Andreas Waldetoft巧妙谱写，一部分是来自EU2的原曲改编，一部分是全新原创曲目。"
- LANDING_dlc031_TEXT:1 "主要特性：\n－5个新的音轨，包括1首前奏主题的金属混音版本和4首战时曲目"
- LANDING_dlc031_FLAVOR_TEXT:0 "本音乐包以Tobias Gustafsson所编写的乐曲为特色，用基于游戏内最突出的乐曲制作的金属混音丰富了游戏。"
- LANDING_dlc034_TEXT:0 "主要特性：\n－12种南美洲和安第斯土著的新兵模，包括印加、马普切和图皮南巴"
- LANDING_dlc034_FLAVOR_TEXT:0 "本单位包增强了多个南美原住民国家单位的视觉上的差异性，包括印加、马普切和图皮南巴。"
- LANDING_dlc035_TEXT:0 "主要特性：\n－12种中美洲土著的新兵模，包括阿兹特克、玛雅和米斯特克"
- LANDING_dlc035_FLAVOR_TEXT:0 "这个单位包添加了中美洲土著的新兵模，包括阿兹特克，玛雅和米斯特克"
- LANDING_dlc036_TEXT:0 "主要特性：\n－5条在和平殖民时播放的新曲目"
- LANDING_dlc036_FLAVOR_TEXT:0 "本音乐包添加了五首灵感源于探索时代的新歌曲。和平时期，在新发现的土地上建立起殖民地时，这些新歌将自动播放。"
- LANDING_dlc037_TEXT:0 "主要特性：\n－5首新的金属风混音曲目"
- LANDING_dlc037_FLAVOR_TEXT:2 "《欧陆风云IV：枪炮、鼓点与钢铁 Vol.2》是第二部欧陆风云系列中的金属混音合集。本卷包含五首节奏强劲、放大了贝斯声的混音歌曲。\n\n新的金属乐曲目基于欧陆风云IV中的音乐制作。"
- LANDING_dlc038_TEXT:1 "主要特性：\n－通过以下扩展，聚焦于历史长河中的重要女性：\n－100个新的历史与王朝事件\n－4张事件题材插图\n－22张通用女顾问头像"
- LANDING_dlc038_FLAVOR_TEXT:0 "《历史上的女性》通过为游戏提供各种历史事件和顾问来增强欧陆风云IV的历史感，囊括了地图上的所有角落和所有历史时期。"
- LANDING_dlc040_TEXT:0 "主要特性：\n－16种新的神权国家兵模，包括条顿骑士团、教宗国和医院骑士团"
- LANDING_dlc040_FLAVOR_TEXT:0 "这些宗教国家的独特单位模型丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc041_TEXT:1 "主要特性：\n－16种新的佛教国家兵模，包括康提，大越和西藏。"
- LANDING_dlc041_FLAVOR_TEXT:1 "这个单位包为康提、大越和西藏等佛教国家增加了独特的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc042_TEXT:0 "主要特性：\n－17种新的欧亚国家的兵模，包括英格兰，尼德兰，奥斯曼和俄罗斯"
- LANDING_dlc042_FLAVOR_TEXT:0 "本单位包为这一时期历史上的大国添加了新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc043_TEXT:0 "主要特性：\n－15种新的中欧国家兵模，包括法兰克福，汉堡和乌尔姆"
- LANDING_dlc043_FLAVOR_TEXT:0 "本单位包为神圣罗马帝国中一部分最重要的自由市添加了新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc044_TEXT:0 "主要特性：\n－5首Kairi Blodeuyn Sawler作曲的新曲目，灵感来源于亚洲歌曲"
- LANDING_dlc044_FLAVOR_TEXT:2 "这个音乐包从欧陆风云厚重的历史画卷中汲取灵感。作为第一个由爱好者社区制作的音乐包，它开辟了一片新天地。\n这个音乐包的作者是欧陆风云的狂热爱好者卡伊里·索勒，内容受了传统东亚旋律的启发。"
- LANDING_dlc047_TEXT:0 "主要特性：\n－32种适用于切尔克西亚、克里米亚、狄奥多罗以及扎波罗热的新单位模型"
- LANDING_dlc047_FLAVOR_TEXT:0 "本单位包为毗邻黑海的四个国家添加了新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc048_TEXT:0 "主要特性：\n－32种适用于金帐汗国、诺盖、帖木儿和乌兹别克的新单位模型"
- LANDING_dlc048_FLAVOR_TEXT:0 "本单位包为欧亚草原上的四个重要国家添加了新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc049_TEXT:0 "主要特性：\n－12种适用于英格兰、法兰西和西班牙的骑兵模型"
- LANDING_dlc049_FLAVOR_TEXT:0 "本单位包为西欧的四个重要国家添加了新的骑兵单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc050_TEXT:0 "主要特性：\n－18种西欧、穆斯林、亚洲、印度、非洲以及南北美洲文化的新要塞模型"
- LANDING_dlc050_FLAVOR_TEXT:0 "所有文明的新堡垒模型丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc052_TEXT:0 "主要特性：\n－5首Sabaton作曲的新曲目"
- LANDING_dlc052_FLAVOR_TEXT:0 "当力量投射遇见力量金属，欧陆风云IV的每一场游戏都像是一部动态的史诗！最新的音乐包加入了瑞典力量金属乐队Sabaton的五首歌曲，其中的歌曲讲述了战争的艺术和人类永不停息的战斗。硬核的历史音乐伴随着世界上最深入的历史模拟器——这是一个来自于瑞典的组合！"
- LANDING_dlc053_TEXT:0 "主要特性：\n－9种适用于奥地利、波兰和西班牙的新单位模型"
- LANDING_dlc053_FLAVOR_TEXT:0 "本单位包为奥地利、西班牙和波兰三国添加了另9种独特的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc054_TEXT:0 "主要特性\n－8种适用于法兰西、普鲁士和瑞典的新单位模型"
- LANDING_dlc054_FLAVOR_TEXT:0 "本单位包为法兰西、普鲁士和瑞典三国添加了另8种独特的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc056_TEXT:0 "主要特性：\n－16种佛罗伦萨、米兰、那不勒斯和威尼斯的新单位模型"
- LANDING_dlc056_FLAVOR_TEXT:0 "该单位包为佛罗伦萨、米兰、那不勒斯、威尼斯四国添加了另16种独特的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc057_TEXT:0 "主要特性：\n－16种埃塞俄比亚与努比亚、索马里及斯瓦希里国家的新单位模型"
- LANDING_dlc057_FLAVOR_TEXT:0 "本单位包为东非国家添加了新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc058_TEXT:0 "主要特性：\n－16种阿尔及尔、摩洛哥、马穆鲁克和突尼斯的新单位模型"
- LANDING_dlc058_FLAVOR_TEXT:0 "本单位包为阿尔及尔、摩洛哥、马穆鲁克和突尼斯添加了16种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc059_TEXT:0 "主要特性：\n－5首Kairi Blodeuyn Sawler作曲的新曲目，灵感来源于远东地区"
- LANDING_dlc059_FLAVOR_TEXT:1 "用《欧陆风云》系列狂热爱好者卡伊里·索勒创作的第二个音乐包为《欧陆风云IV》赋予灵感、使它更为多元吧！以远东由大草原汗国直到南海之滨的音乐唤起历史的回响。"
- LANDING_dlc061_TEXT:0 "主要特性：\n－24种德意志诸侯的1级及3级单位模型，包括巴伐利亚、汉诺威和萨克森"
- LANDING_dlc061_FLAVOR_TEXT:1 "本单位包为一些中欧的大公国添加了24种1级和3级单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc062_TEXT:0 "主要特性：\n－32种西非国家的新单位模型，包括阿伊尔、卡奈姆-博尔努和马里"
- LANDING_dlc062_FLAVOR_TEXT:0 "本单位包为8个西非国家添加了32种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc063_TEXT:0 "主要特性：\n－为「人权」扩展包准备的四首独占音乐"
- LANDING_dlc063_FLAVOR_TEXT:0 "摄政之歌音乐包新增了四首歌曲，为人权扩展包带来独特的体验。编曲、制作由才华横溢的Yannick Süß和Robin Birner(Audinity)完成。"
- LANDING_dlc064_TEXT:0 "主要特性：\n－15首扮演斯堪的纳维亚国家时的曲目"
- LANDING_dlc064_FLAVOR_TEXT:2 "使用本合集中的瑞典18世纪传统音乐，扮演一个斯堪的纳维亚超级大国，让你的民族的音乐成为全世界的国歌。\n\n自弗莱德曼使徒书中摘录的15首歌曲，由瑞典诗人、作词家Carl Michael Bellman谱曲，作曲家Tobias Gustavsson改编，瑞典歌手、演员Mikael Samuelson演奏。"
- LANDING_dlc065_TEXT:0 "主要特性：\n－15首扮演斯堪的纳维亚国家时的曲目"
- LANDING_dlc065_FLAVOR_TEXT:2 "使用本合集中的瑞典18世纪传统音乐，扮演一个斯堪的纳维亚超级大国，让你的民族的音乐成为全世界的国歌。\n\n自弗莱德曼使徒书中摘录的15首歌曲，由瑞典诗人、作词家Carl Michael Bellman谱曲，作曲家Tobias Gustavsson改编，瑞典歌手、演员Mikael Samuelson演奏。"
- LANDING_dlc067_TEXT:0 "主要特性：\n－12种新的日本大名1级单位模型，包括伊达、今川和上杉"
- LANDING_dlc067_FLAVOR_TEXT:0 "在这个为欧陆风云IV：天命制作的内容包里，东方的军队得到了崭新的外观。Paradox的艺术家们遍览史书，得到了关于中国、日本及其邻国的近代制服与武器的第一手资料。\n\n本单位包为日本的一些大名新增了12种1级单位模型。"
- LANDING_dlc068_TEXT:0 "主要特性：\n－16种日本、朝鲜、明和清的新单位模型"
- LANDING_dlc068_FLAVOR_TEXT:0 "在这个为欧陆风云IV：天命制作的内容包里，东方的军队得到了崭新的外观。Paradox的艺术家们遍览史书，得到了关于中国、日本及其邻国的近代制服与武器的第一手资料。\n\n本单位包为日本、朝鲜、大明和大清新增了16种单位模型。"
- LANDING_dlc069_TEXT:0 "主要特性：\n－16种察合台、满洲、蒙古和瓦剌的新部落军单位模型"
- LANDING_dlc069_FLAVOR_TEXT:0 "在这个为欧陆风云IV：天命制作的内容包里，东方的军队得到了崭新的外观。Paradox的艺术家们遍览史书，得到了关于中国、日本及其邻国的近代制服与武器的第一手资料。\n\n本单位包为草原诸国，如察合台、满洲、蒙古、瓦剌新增了16种单位模型。"
- LANDING_dlc070_TEXT:0 "主要特性：\n－8种西欧、东欧、穆斯林、印度、非洲、亚洲以及南北美文化的新炮兵模型"
- LANDING_dlc070_FLAVOR_TEXT:1 "这个扩展包为所有科技组增加新的炮兵模型。"
- LANDING_dlc071_TEXT:0 "主要特性：\n－22种亚洲国家的新船只模型，包括日本与朝鲜独有的4种"
- LANDING_dlc071_FLAVOR_TEXT:0 "这个单位包为东亚国家增加了独特的舰船模型，特别为日本和朝鲜增加了独有模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc073_TEXT:0 "主要特性：\n－16种适用于奥多耶夫、梁赞、特维尔及雅罗斯拉夫尔的新单位模型"
- LANDING_dlc073_FLAVOR_TEXT:0 "本单位包为梁赞、雅罗斯拉夫尔、奥多耶夫和特维尔添加了独有的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc074_TEXT:0 "主要特性：\n－16种喀山、立陶宛、彼尔姆以及普斯科夫的新单位模型"
- LANDING_dlc074_FLAVOR_TEXT:0 "本单位包为彼尔姆、喀山、普斯科夫和立陶宛添加了独有的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc075_TEXT:0 "主要特性：\n－16种下诺夫哥罗德、波洛茨克、鲁塞尼亚，以及斯摩棱斯克的新单位模型"
- LANDING_dlc075_FLAVOR_TEXT:0 "本单位包为可能产生的国家波洛茨克、斯摩棱斯克、鲁塞尼亚和下诺夫哥罗德添加了独有的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc076_TEXT:0 "主要特性：\n－3首俄罗斯主题曲目"
- LANDING_dlc076_FLAVOR_TEXT:0 "请沉浸于Yannick Suess和Robin Birner为欧陆风云IV：第三罗马专门谱写的长达十分钟的俄罗斯主题音乐中吧。"
- LANDING_dlc078_TEXT:0 "主要特性：\n－16种汉志、内志、阿曼，以及也门的新单位模型"
- LANDING_dlc078_FLAVOR_TEXT:0 "这些适用于阿拉伯半岛国家：汉志、内志、阿曼和也门的16种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc079_TEXT:0 "主要特性：\n－16种阿富汗、波斯、塔巴里斯坦，以及库尔德国家的新单位模型"
- LANDING_dlc079_FLAVOR_TEXT:1 "这些适用于西亚和中亚的一些主要文化：波斯人、阿富汗人、库尔德人和塔巴里斯坦人的16种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc080_TEXT:0 "主要特性：\n－16种白羊、哈萨、黑羊，以及舍迈尔的新单位模型"
- LANDING_dlc080_FLAVOR_TEXT:1 "这些适用于底格里斯河和幼发拉底河区域国家：黑羊、白羊、哈萨、以及舍迈尔的16种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc081_TEXT:0 "主要特性：\n－为穆斯林国家准备的5首新曲目"
- LANDING_dlc081_FLAVOR_TEXT:0 "享受穆斯林5个新的音轨，由Kairi 'Blodeuyn' Sawler作曲。"
- LANDING_dlc082_TEXT:0 "主要特性：\n－42种波斯新顾问画像。"
- LANDING_dlc082_FLAVOR_TEXT:1 "这个顾问肖像包为波斯文化增加了42个新的顾问肖像——男性和女性各21个"
- LANDING_dlc083_TEXT:0 "主要特性：\n－21种穆斯林文化的女性顾问画像。"
- LANDING_dlc083_FLAVOR_TEXT:0 "这个顾问肖像包为穆斯林妇女增加了21个新的顾问肖像。"
- LANDING_dlc085_TEXT:0 "主要特性：\n－11种克兰里卡德、德斯蒙德、斯莱戈，以及托蒙德的新单位模型。"
- LANDING_dlc085_FLAVOR_TEXT:0 "这些适用于爱尔兰王国德斯蒙德、斯莱戈和托蒙德的11种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc086_TEXT:0 "主要特性：\n－12种基尔代尔、伦斯特、蒂龙以及阿尔斯特的新单位模型"
- LANDING_dlc086_FLAVOR_TEXT:0 "这些适用于爱尔兰地区国家基尔代尔、伦斯特、蒂龙和阿尔斯特的12种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc087_TEXT:0 "主要特性：\n－14种布列塔尼、爱尔兰、苏格兰，以及威尔士的新单位模型"
- LANDING_dlc087_FLAVOR_TEXT:0 "这些适用于布列塔尼、爱尔兰、苏格兰和威尔士的16种新的单位模型可增强欧陆风云 IV 的游戏体验。"
- LANDING_dlc088_TEXT:0 "主要特性：\n－16种康沃尔、米斯、诺曼底，以及诺森伯兰的新单位模型"
- LANDING_dlc088_FLAVOR_TEXT:0 "这些适用于康沃尔、米斯、诺曼底和诺森伯兰的16种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc089_TEXT:0 "主要特性：\n－为不列颠国家准备的三首新曲目"
- LANDING_dlc089_FLAVOR_TEXT:0 "享受不列颠三个新的音轨，由Yannick Süß和Robin Birner作曲。"
- LANDING_dlc091_TEXT:0 "主要特性：\n－20种冈瓦纳、梅瓦尔、尼泊尔、奥里萨以及南印度小国的全新单位模型"
- LANDING_dlc091_FLAVOR_TEXT:0 "这些适用于冈瓦纳、梅瓦尔、尼泊尔、奥里萨和南印度小国的20种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc092_TEXT:0 "主要特性：\n－20种巴赫曼尼、古吉拉特、章普尔、摩腊婆，以及莫卧儿的新单位模型"
- LANDING_dlc092_FLAVOR_TEXT:0 "这些适用于巴赫曼尼、古吉拉特、章普尔、摩腊婆和莫卧儿的20种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc093_TEXT:0 "主要特性：\n－新增42种印度国家与印度文化的男性及女性顾问画像"
- LANDING_dlc093_FLAVOR_TEXT:1 "这个肖像包增加了42个适用于印度国家和文化的肖像，男性与女性各21个 。"
- LANDING_dlc094_TEXT:0 "主要特性：\n－为在印度和印度周边的玩家准备的三首新曲目"
- LANDING_dlc094_FLAVOR_TEXT:0 "这个音乐包增加了超过10分钟的新的和原创的音乐，灵感来自印度的声音和传统音乐，由扬尼克·苏斯和罗宾·伯纳创作。"
- LANDING_dlc096_TEXT:0 "主要特性：\n－17种伊比利亚国家的新船只模型"
- LANDING_dlc096_FLAVOR_TEXT:0 "这些适用于伊比利亚国家的17种新的舰船模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc097_TEXT:0 "主要特性：\n－17种柏柏尔或北非国家的新船只模型"
- LANDING_dlc097_FLAVOR_TEXT:0 "这些适用于柏柏尔和北非国家的17种新的舰船模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc098_TEXT:0 "主要特性：\n－20种加利西亚、格拉纳达、纳瓦拉和海盗国家的单位模型"
- LANDING_dlc098_FLAVOR_TEXT:0 "这些适用于加里西亚、格拉纳达、纳瓦拉和海盗国家的20种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc099_TEXT:0 "主要特性：\n－为伊比利亚国家和海盗国家准备的三条新音轨"
- LANDING_dlc099_FLAVOR_TEXT:0 "享受3条灵感来自发现新大陆的原创音乐。"
- dlcXXX_reason_has_stuff_reason:1 "\n我们推荐此单位包，因为你选择了一个能从中获取新兵模的国家。"
- dlcXXX_reason_india_reason:1 "\n我们推荐此DLC，因为你选择了一个位于§Y印度§!的国家。"
- dlcXXX_reason_muslim_reason:1 "\n我们推荐此DLC，因为你选择了一个§Y穆斯林§!国家。"
- dlcXXX_reason_generic_reason:1 "\n我们推荐此扩展包，因为它为游戏增加了许多新内容。"
- dlc001_reason_hyw_participant:0 "§Y百年战争单位包§!为百年战争的参战方新增了11种新兵模，包括§Y英格兰§!、§Y法兰西§!、§Y苏格兰§!、§Y勃艮第§!和其他法兰西地区次要势力。"
- dlc001_reason_hyw_participant_reason:1 "\n我们推荐此单位包，因为你选择了一个参与§Y百年战争§!的国家。"
- dlc002_reason_muslim_of_the_crescent:0 "§Y新月骑兵单位包§!为包括§Y马穆鲁克§!、§Y奥斯曼§!和§Y波斯§!在内的中东诸国新增了12种新骑兵模型。"
- dlc003_reason_winged_hussars:0 "§Y翼骑兵单位包§!为欧陆风云IV时代东欧最具影响力的诸国之三新增了12种新骑兵单位模型，包括§Y俄罗斯§!、§Y波兰§!和§Y立陶宛§!。"
- dlc004_reason_muslim:1 "§Y星月内容包§!为§Y穆斯林§!诸国新增了70幅新事件插图、数个新事件与事件链，增加了游玩的沉浸感。"
- dlc005_reason_god_bless:0 "§Y美国梦内容包§!增加了超过50个新事件，10个相关主题的事件图片，以及数个§Y美利坚§!的新单位模型。"
- dlc005_reason_god_bless_reason:1 "\n我们推荐此内容包，因为你选择了§Y美国§!。"
- dlc005_reason_north_america_reason:1 "\n我们推荐此内容包，因为它为殖民国家增加了有趣的新特色，而你作为一个§Y北美原住民§!很可能会遇到这些国家。"
- dlc005_reason_tea_party_reason:1 "\n我们推荐此内容包，因为你选择的国家很可能会因此受到§Y倾茶事件§!的影响。"
- dlc006_reason_purple_phoenix:0 "§Y紫凤凰拓展包§!提升了§Y拜占庭帝国§!的游戏体验，为帝国新增了多个事件，插图和兵模。"
- dlc006_reason_purple_phoenix_reason:1 "\n我们推荐此内容包，因为你选择了§Y拜占庭帝国§!。"
- dlc007_reason_well_what_am_I_meant_to_say:0 "§Y国家名胜内容包§!为地形模式地图添加了8座名胜古迹，包括伦敦塔、科隆大教堂、圣母院、富士山和吴哥窟等。"
- dlc008_reason_correct_region:0 "§Y征服君士坦丁堡音乐包§!添加了三首灵感来源于君士坦丁堡围城战的歌曲。"
- dlc008_reason_correct_region_reason:1 "\n我们推荐此音乐包，因为你选择了一个位于§Y拜占庭帝国§!鼎盛时期心脏地带的国家。"
- dlc009_reason_well_what_am_I_meant_to_say:0 "§Y国家名胜II内容包§!为地形模式地图添加了11座名胜古迹，包括圣索菲亚大教堂、马丘比丘、帕特农神庙和特诺奇蒂特兰等。"
- dlc009_reason_well_what_am_I_meant_to_say_reason:1 "\n我们推荐此内容包，因为它为你所选国家所在地区添加了一个纪念碑。"
- dlc010_reason_natives:0 "§Y征服天堂拓展包§!为§Y美洲原住民§!添加了新的机制，包括迁徙、特殊建筑、原住民宗教改革、部落联盟以及特殊的宣战理由。"
- dlc010_reason_natives_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y美洲原住民§!国家。"
- dlc010_reason_colonists:0 "§Y征服天堂拓展包§!添加了一个§Y随机新世界§!的生成器（游戏开始时启动）以及允许玩家扮演殖民领国家游玩。"
- dlc010_reason_colonists_reason:1 "\n我们推荐此扩展包，因为你选择的国家适合向§Y新大陆§!殖民。"
- dlc011_reason_iberia:0 "§Y征服者单位包§!为§Y西班牙§!与§Y葡萄牙§!在新大陆作战的军队增加了16种新的模型。"
- dlc012_reason_natives:0 "§Y美洲原住民单位包§!为八个§Y美洲原住民§!部落增加了独有单位模型。"
- dlc012_reason_natives_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y美洲原住民§!国家。"
- dlc013_reason:0 "§Y新世界之歌音乐包§!添加了三首灵感来源于探索与征服§Y新世界§!的歌曲。"
- dlc013_reason_natives_reason:1 "\n我们推荐此音乐包，因为你选择了一个位于§Y新大陆§!的国家。"
- dlc014_reason_generic:0 "§Y圣诞之歌音乐包§!为欧陆风云的音轨添加了一首圣诞颂歌。"
- dlc014_reason_december:1 "\n我们推荐此音乐包，因为现在是§Y十二月§!且你选择了一个§Y欧洲§!国家。"
- dlc015_reason_natives:0 "§Y美洲原住民单位包§!为十个§Y美洲土著§!部落增加了独有单位模型。"
- dlc016_reason_gbrengfra:0 "§Y不列颠和法兰西殖民地单位包§!为§Y不列颠§!和§Y法兰西§!的殖民地部队增加了16种新的独特单位模型，给了他们一个崭新、粗犷的外表，丰富了欧陆风云IV的游戏体验。"
- dlc016_reason_gbrengfra_reason:1 "\n我们推荐此单位包，因为你选择了§Y英格兰§!、§Y大不列颠§!或§Y法兰西§!。"
- dlc017_reason_muslim:1 "§Y穆斯林顾问肖像包§!为§Y穆斯林§!顾问增加了21个新的肖像。"
- dlc018_reason_generic:0 "§Y国富论扩展包§!增加了新的游戏机制。如贸易公司，新的外交行动和雇佣私掠船的能力。"
- dlc018_reason_kiel_canal:0 "§Y国富论扩展包§!增加了修建§Y基尔运河§!的能力以及各种外交与贸易方面的行动和活动。"
- dlc018_reason_kiel_canal_reason:1 "\n我们推荐此扩展包，因为你选择了一个开局位于§Y基尔§!附近的国家。"
- dlc018_reason_suez_canal:0 "§Y国富论扩展包§!增加了修建§Y苏伊士运河§!的能力以及各种外交与贸易方面的行动和活动。"
- dlc018_reason_suez_canal_reason:1 "\n我们推荐此扩展包，因为你选择了§Y马穆鲁克§!，该国开局时是§Y苏伊士§!的拥有者。"
- dlc018_reason_hindu_deity:0 "§Y国富论扩展包§!为印度国家增加了选择§Y个人神祇§!的能力以及各种外交与贸易方面的行动和活动。"
- dlc018_reason_hindu_deity_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y印度教§!国家。"
- dlc018_reason_reformed:0 "§Y国富论扩展包§!为改革宗国家新增了使用§Y热情点数§!以获得军事、外交及贸易奖励的能力，以及各种进一步的外交与贸易特性。"
- dlc018_reason_reformed_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y改革宗§!国家。"
- dlc018_reason_christian_reason:1 "\n我们推荐此扩展包，因为你选择了一个可以§Y改信改革宗§!的天主教国家。"
- dlc019_reason_muslim:1 "§Y穆斯林海军单位包§!为§Y穆斯林§!国家增加了12种新的独有船只模型。"
- dlc020_reason_traders:0 "§Y贸易大国单位包§!为§Y阿拉贡§!、§Y热那亚§!、§Y诺夫哥罗德§!及§Y吕贝克§!增加了16种新的独有模型。"
- dlc022_reason_republics:0 "§Y共和国扩展包§!为§Y共和制§!增加了新的机制及特色事件，包括共和传统太低变成独裁国家的能力。"
- dlc022_reason_republics_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y共和国§!。"
- dlc022_reason_going_dutch:0 "§Y共和国扩展包§!为§Y尼德兰共和国§!增加了「议会派VS奥兰治派」机制，根据掌权的派系获得不同的奖励。"
- dlc022_reason_going_dutch_reason:1 "\n我们推荐此扩展包，因为你选择了§Y尼德兰§!或一个可以成立§Y尼德兰§!的国家。"
- dlc022_reason_merchant_republic:0 "§Y共和国扩展包§!为§Y商业共和国§!增加了新的机制及特色事件，包括新的派系系统。"
- dlc022_reason_merchant_republic_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y商业共和国§!。"
- dlc022_reason_elective_monarchy:0 "§Y共和国扩展包§!为§Y选举君主制§!增加了新的机制、特色事件及外交互动。"
- dlc022_reason_elective_monarchy_pol_reason:2 "\n我们推荐此扩展包，因为你选择了波兰，该国可以成为一个§Y选举君主制§!国家。"
- dlc022_reason_elective_monarchy_gen_reason:2 "\n我们推荐此扩展包，因为你选择了一个§Y选举君主制§!国家。"
- dlc024_reason_india:0 "§Y印度次大陆单元包§!为§Y毗奢耶那伽罗§!、§Y孟加拉§!和其他§Y印度§!大国增加了新的单位模型和纹理。"
- dlc024_reason_india_reason:1 "\n我们推荐此单位包，因为你选择了一个位于§Y印度§!的国家。"
- dlc025_reason_india:0 "§Y印度海军单位包§!为§Y印度§!国家增加了12种新的独有船只模型。"
- dlc025_reason_india_without_port_reason:1 "\n我们推荐此单位包，因为你选择了一个位于§Y印度§!的国家。"
- dlc025_reason_india_with_port_reason:1 "\n我们推荐此单位包，因为你选择了一个位于§Y印度§!且拥有出海口的国家。"
- dlc026_reason_republic:0 "§Y共和国音乐包§!增加了26分钟的音乐，灵感来自§Y欧洲§!历史上共和国的政治考验和磨难。"
- dlc026_reason_republic_reason:1 "\n我们推荐此音乐包，因为你选择了一个开局为§Y共和国§!的国家。"
- dlc027_reason_generic:0 "§Y孙子兵法扩展包§!增加了触发三十年战争和蹂躏大部分§Y欧洲§!的拿破仑战争的特殊的机制和事件，同时进一步扩展了的外交选项及游戏玩法。"
- dlc027_reason_generic_europe_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y欧洲§!的国家，三十年战争和拿破仑战争发生于该大洲。"
- dlc027_reason_french_revolution:0 "§Y孙子兵法扩展包§!增加了革命目标的功能以模拟拿破仑战争，以及蹂躏欧洲大部分地区的三十年战争，以及进一步的外交选项和进一步的游戏玩法增强。"
- dlc027_reason_french_revolution_reason:1 "\n我们推荐此扩展包，因为你选择了§Y法兰西§!——革命的发源地。"
- dlc027_reason_hre:0 "§Y孙子兵法扩展包§!增加了可以打三十年战争的宗教联盟，以确定§Y神圣罗马帝国§!的官方信仰，以及拿破仑战争的特殊机制和事件，以及进一步的外交选项和进一步的游戏玩法增强。"
- dlc027_reason_hre_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y神圣罗马帝国§!的国家，三十年战争发生于此地。"
- dlc027_reason_sweden_reason:1 "\n我们推荐此扩展包，因为你选择了§Y瑞典§!，该国是三十年战争的主要参与者。"
- dlc028_reason_member_of_evangelical_union:0 "§Y福音派联盟单位包§!为三十年战争中§Y福音派联盟§!的历史成员增加了12种新的单位模型。"
- dlc029_reason_member_of_catholic_league:1 "§Y天主教联盟单位包§!为三十年战争中§Y天主教联盟§!的历史成员增加了12种新的单位模型。"
- dlc030_reason_generic:0 "§Y战争之歌音乐包§!添加了五首灵感来源于欧陆风云时期的战事的新歌曲——长达29分钟。"
- dlc031_reason_generic:0 "§Y枪炮、鼓点和钢铁音乐包§!添加了五首灵感来源于欧陆风云时期的主题和事件的金属风格歌曲。"
- dlc033_reason_aztec:0 "§Y黄金国扩展包§!为§Y纳瓦特尔宗教§!增加了末日与宗教改革的机制，也增加了鲜花战争的宣战理由及一些特色事件。"
- dlc033_reason_aztec_reason:1 "\n我们推荐此扩展包，因为你选择了一个信仰§Y纳瓦特尔宗教§!的国家。"
- dlc033_reason_maya:0 "§Y黄金国扩展包§!为§Y玛雅§!宗教增加了宗教改革机制及特色事件，也为新大陆的原住民与殖民者增加了更多的特色。"
- dlc033_reason_maya_reason:1 "\n我们推荐此扩展包，因为你选择了一个信仰§Y玛雅宗教§!的国家。"
- dlc033_reason_inca:0 "§Y黄金国扩展包§!为§Y因蒂§!宗教增加了宗教权威、改革及特色事件，也为新大陆的原住民与殖民者增加了更多的特色。"
- dlc033_reason_inca_reason:1 "\n我们推荐此扩展包，因为你选择了一个信仰§Y因蒂§!的国家。"
- dlc033_reason_colonists:0 "§Y黄金国扩展包§!为殖民地国家增加了黄金舰队、托德西利亚斯条约和许多新的探险事件。"
- dlc033_reason_colonists_reason:1 "\n我们推荐此扩展包，因为你选择了一个适合从事§Y殖民主义§!的国家。"
- dlc034_reason_south_american_natives:0 "§Y南美洲单位包§!为§Y南美洲§!和§Y安第斯§!原住民增加了12种新的单位模型，包括§Y印加§!、§Y马普切§!和§Y图皮南巴§!。"
- dlc034_reason_south_american_natives_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y南美洲§!原住民国家。"
- dlc035_reason_mesoamerican_natives:0 "§Y中美洲单位包§!为§Y中美洲§!原住民增加了12种新的单位模型，包括§Y阿兹特克§!、§Y玛雅§!及§Y米斯特克§!。"
- dlc035_reason_mesoamerican_natives_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y中美洲§!原住民国家。"
- dlc036_reason_colonists:0 "§Y探索之歌音乐包§!添加了五首灵感来源于§Y探索时代§!的新歌曲，和平时期，在新发现的土地上建立起殖民地时，这些新歌将自动播放。"
- dlc036_reason_colonists_reason:1 "\n我们推荐此音乐包，因为你选择了一个适合从事§Y殖民主义§!的国家。"
- dlc037_reason_generic:0 "§Y枪炮、鼓点与钢铁 Vol.2 音乐包§!添加了五首金属灵感的快节奏新歌曲，放大了贝斯声，进一步丰富了欧陆风云的听觉体验。"
- dlc039_reason_generic:0 "§Y常识扩展包§!增加了新的游戏机制，包括议会、新的属国互动、政府等级、§Y神圣罗马帝国§!自由市及有关§Y新教§!与§Y佛教§!的新玩法。"
- dlc039_reason_protestant:0 "§Y常识扩展包§!为§Y新教§!增加了教会力量，你可以自定义它的变体。增加了更多的特性，包括议会、新的属国互动及政府等级。"
- dlc039_reason_protestant_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y新教§!国家。"
- dlc039_reason_christian_reason:1 "\n我们推荐此扩展包，因为你选择了一个可以§Y改信新教§!的§Y天主教§!国家。"
- dlc039_reason_buddhist:1 "§Y常识扩展包§!为§Y佛教§!增加了业力系统，同时也增加了更多的特性，包括议会、新的属国互动及政府等级。"
- dlc039_reason_buddhist_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y佛教§!国家。"
- dlc039_reason_parliament:0 "§Y常识扩展包§!为立宪共和制、立宪君主制及英国君主立宪制国家增加了议会系统。它允许你授予省份在议会的席位，并贿赂他们在加强你的国家的问题上投票。"
- dlc039_reason_parliament_reason:1 "\n我们推荐此扩展包，因为你选择了一个开局拥有§Y议会§!的国家。"
- dlc039_reason_theocracy:0 "§Y常识扩展包§!为§Y神权制§!增加了奉献度机制及各种特色事件，同时也增加了更多的特性，包括议会、新的属国互动及政府等级。"
- dlc039_reason_theocracy_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y神权国§!。"
- dlc039_reason_free_city:0 "§Y常识扩展包§!为§Y神圣罗马帝国§!增加了自由市机制：发展度足够的小国可以被授予自由市的地位，获得一套独特的奖励与惩罚。"
- dlc039_reason_free_city_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y神圣罗马帝国§!的§Y自由市§!。"
- dlc039_reason_hre_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y神圣罗马帝国§!的国家。"
- dlc040_reason_christian_theocracy:0 "§Y神权国单位包§!为§Y基督教神权制§!国家增加了16种新的单位模型，包括§Y利沃尼亚与条顿骑士团§!、§Y教宗国§!及§Y医院骑士团§!。"
- dlc040_reason_christian_theocracy_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y基督教神权国§!。"
- dlc041_reason_buddhists:1 "§Y佛教单位包§!为许多§Y亚洲佛教§!国家增加了16种新的单位模型，包括§Y西藏§!、§Y澜沧§!、§Y康提§!以及§Y大越§!。"
- dlc041_reason_buddhists_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y佛教§!国家。"
- dlc042_reason_great_nation:0 "§Y大国单位包§!为§Y欧洲§!与§Y欧亚§!的§Y列强§!增加了17种新的单位模型，包括§Y大不列颠§!/§Y俄罗斯§!以及§Y奥斯曼§!。"
- dlc042_reason_great_nation_reason:2 "\n我们推荐此单位包，因为你选择了一个能从此单位包中获得新单位模型的§Y大国§!。"
- dlc043_reason_free_city:0 "§Y自由市单位包§!为§Y神圣罗马帝国§!的§Y自由市§!增加了15种新的单位模型，包括§Y汉堡§!、§Y纽伦堡§!、§Y法兰克福§!、以及§Y乌尔姆§!。"
- dlc043_reason_free_city_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y自由市§!。"
- dlc044_reason_east_asia:0 "§YKairi的音轨音乐包§!添加了三首灵感来源于§Y东亚§!音乐的歌曲。"
- dlc044_reason_east_asia_reason:1 "\n我们推荐此音乐包，因为你选择了一个§Y东亚§!国家。"
- dlc046_reason_zaz_are_cossacks:0 "§Y哥萨克扩展包§!增加了新的游戏机制，包括特殊的阶层类型、哥萨克与游牧政体的特殊机制、外交反馈以及原住民政策。"
- dlc046_reason_zaz_are_cossacks_reason:1 "\n我们推荐此扩展包，因为你选择了§Y扎波罗热§!，该国开局拥有哥萨克政体。"
- dlc046_reason_steppe:0 "§Y哥萨克扩展包§!为§Y草原§!地区增加了新的游戏机制，包括此地区的哥萨克阶层与国家、游牧民族以及各种特色事件。"
- dlc046_reason_steppe_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y大草原§!上的国家。"
- dlc046_reason_tengri:0 "§Y哥萨克扩展包§!为§Y腾格里§!国家增加了选择相融信仰的能力，为草原地区增加了更多的游戏机制与特色事件。"
- dlc046_reason_tengri_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y腾格里§!国家。"
- dlc046_reason_horde:0 "§Y哥萨克扩展包§!为§Y游牧§!国家增加了新的游戏机制，包括游牧团结、焚掠与独有阶层，也增加了更多的游戏机制及草原地区的特色事件。"
- dlc046_reason_horde_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y游牧§!国家。"
- dlc047_reason_black_sea:0 "§Y黑海单位包§!为§Y扎波罗热§!、§Y克里米亚§!、§Y切尔克西亚§!、§Y狄奥多罗§!、§Y阿瓦尔§!和§Y加齐库穆赫§!增加了32个新的单位模型。"
- dlc047_reason_black_sea_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y游牧§!国家。"
- dlc048_reason_horde:1 "§Y伟大部落单位包§!增加了32种新单位模型，适用于§Y帖木儿§!，§Y大帐§!，§Y诺盖§!，§Y乌兹别克§!以及其他临近的部落国家。"
- dlc048_reason_horde_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y游牧§!国家。"
- dlc049_reason_has_stuff:0 "§Y欧洲骑兵单位包§!为§Y法兰西§!、§Y不列颠§!及§Y西班牙§!增加了12种新的骑兵单位模型。"
- dlc050_reason_general:0 "§Y要塞包§!为所有文化组增加了18种新的要塞模型。"
- dlc050_reason_general_reason:1 "\n我们推荐此内容包，因为你选择了一个使用要塞的国家。"
- dlc050_reason_you_will_need_them_reason:1 "\n我们推荐此内容包，因为你选择了一个需要大量要塞的国家。"
- dlc052_reason_generic:0 "§YSabaton音轨音乐包§!添加了五首来自瑞典力量金属乐队Sabaton的新歌，包括关于战争艺术和人类永不停息的斗争的歌曲。"
- dlcXXX_reason_generic_music_reason:1 "\n我们推荐此音乐包，因为它为游戏增加了出色的新音轨。"
- dlc052_reason_scandinavia_reason:1 "\n我们推荐此音乐包，因为你选择了一个§Y斯堪的纳维亚§!国家。"
- dlc053_reason_has_stuff:1 "§Y天主教主要国家单位包§!为§Y欧洲§!主要的§Y天主教§!国家§Y奥地利§!、§Y西班牙§!及§Y波兰§!增加了9种新的独有单位模型。"
- dlc054_reason_has_stuff:1 "§Y福音派主要国家单位包§!为三十年战争中主要的§Y福音派联盟§!参与者§Y瑞典§!、§Y勃兰登堡§!及§Y法兰西§!增加了8种新的独有模型。"
- dlc055_reason_generic:0 "§Y我们的海扩展包§!增加了新的特性，如地图分享、贸易联盟和遣外雇佣军团以及新的海军机制。"
- dlc055_reason_generic_naval:0 "§Y我们的海扩展包§!增加了新的游戏机制，如海军任务、劫掠海岸、贸易联盟和遣外雇佣军团。"
- dlc055_reason_generic_naval_reason:1 "\n我们推荐此扩展包，因为你选择了一个拥有出海口的国家。"
- dlc055_reason_slave_raids:0 "§Y我们的海拓展包§!为一些特定国家添加了海盗劫掠的能力。另外添加了一些形如海军任务、贸易联盟和遣外雇佣军团等。"
- dlc055_reason_slave_raids_reason:1 "\n我们推荐此扩展包，因为你选择了一个使用劫掠海岸机制的国家。"
- dlc055_reason_merchants:0 "§Y我们的海扩展包§!为商业共和国增加了建立贸易联盟的能力，也增加了其它机制，如海军任务、巴巴里海盗和遣外雇佣军团。"
- dlc055_reason_merchants_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y商业共和国§!。"
- dlc056_reason_italy:0 "§Y意大利单位包§!为主要的§Y意大利§!国家额外设计了四种历史步兵。"
- dlc056_reason_in_italy_reason:1 "\n我们推荐此单位包，因为你选择了一个位于§Y意大利§!的国家。"
- dlc057_reason_in_east_africa:0 "§Y东非单位包§!为§Y非洲之角§!周围的主要国家额外设计了四种历史步兵。"
- dlc057_reason_in_east_africa_reason:1 "\n我们推荐此单位包，因为你选择了一个位于§Y东非§!的国家。"
- dlc058_reason_in_north_africa:0 "§Y北非单位包§!为§Y北非§!的主要国家额外设计了四种历史步兵。"
- dlc058_reason_in_north_africa_reason:1 "\n我们推荐此单位包，因为你选择了一个位于§Y北非§!的国家。"
- dlc059_reason_east_asia:0 "§YKairi的音轨Ⅱ音乐包§!添加了五首灵感来源于从草原汗国到亚洲南部海岸的§Y远东§!地区的歌曲。"
- dlc059_reason_east_asia_reason:1 "\n我们推荐此音乐包，因为你选择了一个位于§Y远东§!的国家。"
- dlc060_reason_generic:0 "§Y人权扩展包§!增加了新的游戏机制，包括列强、逊位、君主特质、配偶以及大量伴随而来的特色事件。"
- dlc060_reason_ottomans:0 "§Y人权扩展包§!为§Y奥斯曼§!政体增加了独有机制，以及列强、逊位和君主特质等其它内容。"
- dlc060_reason_ottomans_reason:1 "\n我们推荐此扩展包，因为你选择了§Y奥斯曼§!。"
- dlc060_reason_fetishism:0 "§Y人权扩展包§!为§Y拜物教§!国家增加了崇拜物机制，以及列强、逊位和君主特质等其它内容。"
- dlc060_reason_fetishism_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y拜物教§!国家。"
- dlc060_reason_coptic:0 "§Y人权扩展包§!为§Y科普特正教§!国家增加了神赐与圣地机制，以及列强、逊位和君主特质等其它内容。"
- dlc060_reason_coptic_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y科普特教§!国家。"
- dlc061_reason_hre:0 "§Y德意志诸侯单位包§!为§Y神圣罗马帝国§!的主要国家添加了新的陆军兵模和材质。"
- dlc061_reason_in_hre_reason:1 "\n我们推荐此单位包，因为你选择了一个位于§Y神圣罗马帝国§!的国家。"
- dlc062_reason_west_africa:0 "§Y西非单位包§!为§Y西非§!国家增加了新的陆军模型及纹理。"
- dlc062_reason_west_africa_reason:1 "\n我们推荐此单位包，因为你选择了一个位于§Y西非§!的国家。"
- dlc063_reason_europe:0 "§Y摄政之歌音乐包§!增加了四首歌曲，以补充§Y人权§!中增加的内容。"
- dlc063_reason_europe_reason:1 "\n我们推荐此音乐包，因为你选择了一个§Y欧洲§!国家。"
- dlc065_reason_sweden:0 "§YFredman的使徒书音乐包§!添加了15首来自18世纪的瑞典传统歌曲的合集。"
- dlc065_reason_sweden_reason:2 "\n我们推荐此音乐包，因为你选择了此国家。"
- dlc066_reason_generic:0 "§Y天命扩展包§!增加了新的游戏机制，包括历史时代与黄金时期以及§Y东亚§!国家的特殊机制。"
- dlc066_reason_china:0 "§Y天命扩展包§!为§Y中国皇帝§!增加了许多新的游戏机制，从而为内政和外交提供了更多的工具和挑战。"
- dlc066_reason_china_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y中国§!的国家。"
- dlc066_reason_japan:0 "§Y天命扩展包§!为§Y日本幕府§!和对其效忠的大名们增加了新的游戏机制。"
- dlc066_reason_japan_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y日本§!的国家。"
- dlc066_reason_manchu:0 "§Y天命扩展包§!为§Y满洲§!新增了新的八旗机制，允许结集旗人来增援他们的军队。"
- dlc066_reason_manchu_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y满洲§!的国家。"
- dlc066_reason_east_asia_generic:0 "§Y天命扩展包§!为§Y东亚§!增加了新的机制，包括§Y中华帝国§!机制，该地区的其他国家可以此宣称天朝皇帝的宝座。"
- dlc066_reason_east_asia_generic_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y东亚§!的国家。"
- dlc067_reason_japan:0 "§Y大名单位包§!为12个§Y日本大名§!增加了新的陆军模型及纹理。"
- dlc067_reason_japan_reason:1 "\n我们推荐此单位包，因为你选择了一个位于§Y日本§!的国家。"
- dlc068_reason_has_stuff:0 "§Y亚洲主要国家单位包§!为§Y明§!、§Y清§!、§Y日本§!及§Y朝鲜§!增加了新的陆军模型及纹理。"
- dlc069_reason_has_stuff:1 "§Y北方单位包§!为§Y瓦剌§!、§Y察合台§!、§Y蒙古§!及§Y满洲§!军队增加了新的部落陆军模型及纹理。"
- dlc070_reason_generic:1 "§Y炮兵包§!为所有文化组添加了新的炮兵图像。"
- dlc070_reason_generic_reason:1 "\n我们推荐此单位包，因为你选择了一个使用炮兵的国家。"
- dlc071_reason_east_asia:1 "§Y亚洲海军单位包§!为§Y东亚§!国家增加了新的战舰模型，包括可怕的朝鲜龟船和日本独有设计。"
- dlc071_reason_east_asia_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y东亚§!国家。"
- dlc072_reason_russia:0 "§Y第三罗马沉浸包§!为§Y俄罗斯§!新增了诸如沙皇国、俄罗斯公国、射击军以及西伯利亚拓荒区等机制，同时还为俄罗斯及其相邻国家新增了48个新的兵模。"
- dlc072_reason_russia_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y俄罗斯§!心脏地带的国家。"
- dlc076_reason_russia:0 "§Y罗斯觉醒音乐包§!添加了灵感来源于§Y俄罗斯国家§!的音乐。"
- dlc076_reason_russia_reason:1 "\n我们推荐此音乐包，因为你选择了一个位于§Y俄罗斯§!心脏地带的国家。"
- dlc077_reason_muslim:0 "§Y文明的摇篮扩展包§!为§Y穆斯林§!国家增加了新的机制，包括伊斯兰学派以及通过贸易政策传教的能力。"
- dlc077_reason_muslim_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y穆斯林§!国家。"
- dlc077_reason_middle_east:0 "§Y文明的摇篮扩展包§!为§Y中东§!及§Y穆斯林§!国家增加了新的机制，包括伊斯兰学派、新的政体以及通过贸易政策传教的能力。"
- dlc077_reason_middle_east_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y中东§!国家。"
- dlc077_reason_ottoman:0 "§Y文明的摇篮扩展包§!为§Y奥斯曼§!政体增加了独有机制并改进了耶尼切里，为§Y中东§!与§Y穆斯林§!国家增加了如伊斯兰学派等其它内容。"
- dlc077_reason_ottoman_reason:2 "\n我们推荐此扩展包，因为你选择了§Y奥斯曼§!。"
- dlc077_reason_tims:0 "§Y文明的摇篮扩展包§!为§Y帖木儿§!增加了独有机制，该地区的强国可以作为帖木儿的王子登基并宣称帖木儿的遗产。"
- dlc077_reason_tims_reason:2 "\n我们推荐此扩展包，因为你选择了§Y帖木儿§!或它的一个属国。"
- dlc077_reason_mamluks:0 "§Y文明的摇篮扩展包§!为§Y马穆鲁克§!政体增加了独有机制，为§Y中东§!与§Y穆斯林§!国家增加了如伊斯兰学派等其它内容。"
- dlc077_reason_mamluks_reason:2 "\n我们推荐此扩展包，因为你选择了§Y马穆鲁克§!。"
- dlc077_reason_persia:0 "§Y文明的摇篮扩展包§!为§Y波斯§!增加了独有机制如新的§Y封建神权§!政体，为§Y中东§!与§Y穆斯林§!国家增加了如伊斯兰学派等其它内容。"
- dlc077_reason_persia_reason:2 "\n我们推荐此扩展包，因为你选择了一个可以成立§Y波斯§!的国家。"
- dlc077_reason_feudal_theocracy:0 "§Y文明的摇篮扩展包§!为新的§Y封建神权§!政体增加了独有机制，为§Y中东§!与§Y穆斯林§!国家增加了如伊斯兰学派等其它内容。"
- dlc077_reason_feudal_theocracy_reason:2 "\n我们推荐此扩展包，因为你选择了§Y阿尔达比勒§!，该国拥有特殊的§Y封建神权制§!政体。"
- dlc077_reason_tribal_federation:0 "§Y文明的摇篮扩展包§!为新的§Y部落联盟§!政体增加了独有机制，为§Y中东§!与§Y穆斯林§!国家增加了如伊斯兰学派等其它内容。"
- dlc077_reason_tribal_federation_reason:2 "\n我们推荐此扩展包，因为你选择了一个拥有特殊的§Y部落联盟§!政体的国家。"
- dlc078_reason_arabia:0 "§Y半岛单位包§!为§Y阿拉伯半岛§!的国家增加了新的单位模型及纹理。"
- dlc078_reason_arabia_reason:3 "\n我们推荐此扩展包，因为你选择了一个位于§Y阿拉伯§!的国家。"
- dlc079_reason_persia:0 "§Y波斯单位包§!为§Y波斯§!及§Y伊朗§!文化组的其它国家增加了新的单位模型及纹理。"
- dlc079_reason_persia_reason:3 "\n我们推荐此扩展包，因为你选择了一个§Y伊朗§!文化组的国家。"
- dlc080_reason_has_stuff:0 "§Y两河单位包§!为§Y底格里斯河§!及§Y幼发拉底河§!周边国家增加了新的单位模型及纹理。"
- dlc081_reason_middle_east:0 "§YKairi的－奥斯曼曲调§!音乐包为适配§Y中东§!主题添加了新的音乐。"
- dlc081_reason_middle_east_reason:1 "\n我们推荐此音乐包，因为你选择了一个§Y中东§!国家。"
- dlc082_reason_iranian:2 "§Y伊朗顾问肖像包§!为§Y伊朗§!顾问增加了42个新肖像。"
- dlc082_reason_iranian_reason:2 "\n我们推荐此内容包，因为你选择了一个§Y伊朗§!文化组的国家。"
- dlc082_reason_iran_region_reason:1 "\n我们推荐此内容包，因为你选择了一个位于§Y伊朗§!地区的国家。"
- dlc083_reason_muslim:1 "§Y穆斯林女性顾问肖像包§!为§Y穆斯林§!国家增加了21个新的女性顾问肖像。"
- dlc084_reason_really_generic:0 "§Y统治吧！不列颠拓展包§!在游戏中新增了具有创新性的游戏机制，包括工业革命及新的贸易商品，煤炭。"
- dlc084_reason_really_generic_reason:1 "\n我们推荐此扩展包，因为它为游戏增加了新内容。"
- dlc084_reason_generic:0 "§Y统治吧！不列颠拓展包§!新增了特制的任务树，整合了§Y不列颠群岛§!地区所有国家的拓展内容及游戏音乐，还包括新机制和工业革命内容。"
- dlc084_reason_generic_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y不列颠群岛§!的国家。"
- dlc084_reason_we_rule_the_waves:0 "§Y统治吧！不列颠§!新增了特制的任务树，整合了§Y英格兰§!和§Y大不列颠§!相关的拓展内容及游戏音乐，还包括新的游戏机制和工业革命相关内容。"
- dlc084_reason_we_rule_the_waves_reason:1 "\n我们推荐此扩展包，因为你选择了§Y英格兰§!或§Y大不列颠§!，这些国家是扩展包的焦点所在。"
- dlc090_reason_generic:0 "§Y达摩扩展包§!增加了新的游戏机制，包括政府改革、增强的政策系统、贸易公司投资及升级贸易中心的能力。"
- dlc090_reason_trade_companies:0 "§Y达摩扩展包§!为贸易公司增加了新的游戏机制，它扩展了政府改革系统并可以升级贸易中心。"
- dlc090_reason_trade_companies_reason:1 "\n我们推荐此扩展包，因为你选择了一个适合成就殖民帝国的国家。"
- dlc090_reason_indian:0 "§Y达摩扩展包§!为§Y印度§!添加了新的游戏内容，包括专属的任务树、政府改革以及阶层。"
- dlc090_reason_mughals:0 "§Y达摩扩展包§!为§Y莫卧儿§!增加了独有政体，并扩展了政府改革机制与贸易公司机制。"
- dlc090_reason_mughals_reason:1 "\n我们推荐此扩展包，因为你选择了一个适合成立§Y莫卧儿§!的国家。"
- dlc091_reason_indian_hindu:0 "§Y印度单位包§!为§Y印度教§!国家增加了新的单位模型。"
- dlc091_reason_indian_hindu_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y印度§!的§Y印度教§!国家。"
- dlc092_reason_indian_muslim:0 "§Y印度苏丹单位包§!为§Y印度穆斯林§!国家增加了新的单位模型。"
- dlc092_reason_indian_muslim_reason:1 "\n我们推荐此单位包，因为你选择了一个§Y印度§!的§Y穆斯林§!国家。"
- dlc093_reason_india:0 "§Y达摩顾问肖像包§!为§Y印度§!国家和文化增加了42个新顾问肖像。"
- dlc094_reason_india:0 "§Y达摩音乐包§!添加了新的饱含§Y印度§!传统的原声带。"
- dlc095_reason_iberian:0 "§Y黄金世纪沉浸包§!为§Y伊比利亚§!国家增加了新的内容，包括修会、扩展任务树，以及新的单位和舰船模型。"
- dlc095_reason_iberian_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y伊比利亚§!国家。"
- dlc095_reason_pirates:0 "§Y黄金世纪沉浸包§!在游戏中加入了海盗共和国以及他们的机制和单位模型。"
- dlc095_reason_pirates_reason:1 "\n我们推荐此扩展包，因为你选择的国家可以通过做出某些选择而成为海盗共和国。"
- dlc095_reason_pirates_decision_reason:1 "\n我们推荐此扩展包，因为你选择了§Y巴邻旁§!，该国在游戏开始后很快就有机会变成海盗共和国。"
- dlc095_reason_maghreb:0 "§Y黄金世纪沉浸包§!为§Y马格里布§!国家增加了新的内容，包括扩展的任务树、新的船只模型以及通过特定决议成立海盗共和国的能力。"
- dlc095_reason_maghreb_reason:1 "\n我们推荐此扩展包，因为你选择了一个位于§Y马格里布§!地区的国家。"
- dlc072_reason_orthodox:0 "§Y第三罗马沉浸包§!为§Y东正教§!国家增加了新的游戏机制，包括虔诚、宗教圣像和将高发展地区设为都主教区的能力。"
- dlc072_reason_orthodox_reason:1 "\n我们推荐此扩展包，因为你选择了一个§Y东正教§!国家。"
- dlc060_reason_prussia:0 "§Y人权扩展包§!为§Y普鲁士§!政体增加了独有机制，以及列强、逊位和君主特质等其它内容。"
- dlc060_reason_prussia_reason:1 "\n我们推荐此扩展包，因为你选择了§Y普鲁士§!。"
- dlc060_reason_prussia_reason2:1 "\n我们推荐此扩展包，因为你选择了一个可以成立§Y普鲁士§!的国家。"
- dlc090_reason_missions_tau:0 "§Y达摩扩展包§!为§Y东吁§!增加了新的任务树，并增强了政策系统与升级贸易中心的能力。"
- dlc090_reason_missions_tau_reason:1 "\n我们推荐此扩展包，因为你选择了§Y东吁§!。"
- dlc090_reason_missions_tim:0 "§Y达摩扩展包§!为§Y帖木儿§!增加了新的任务树，并增强了政策系统与升级贸易中心的能力。"
- dlc090_reason_missions_tim_reason:1 "\n我们推荐此扩展包，因为你选择了§Y帖木儿§!。"
- dlc018_reason_tc_reason:1 "\n我们推荐此扩展包，因为你选择的国家适合建立一个海外帝国并从贸易公司中获益。"
- dlc066_reason_emperor_reason:0 "\n我们推荐此扩展包，因为你选择了§Y中国皇帝§!。"
- DLC_dlc101_TOOLTIP_INSTANT:0 "皇帝"
- DLC_dlc101_TOOLTIP_DELAYED:1 "－欧洲国家任务树\n－任命枢机\n－教宗诏书\n－教廷什一税\n－特利腾大公会议\n－帝国事变\n－新的帝国改革\n－革命热情\n－革命中心\n－信仰守护者等级\n－胡斯派教会信条\n－霸权"
- DLC_dlc102_TOOLTIP_INSTANT:0 "巴尔干单位包"
- DLC_dlc102_TOOLTIP_DELAYED:0 "－16种巴尔干国家的新单位模型"
- DLC_dlc103_TOOLTIP_INSTANT:0 "翻越阿尔卑斯山脉单位包"
- DLC_dlc103_TOOLTIP_DELAYED:0 "－12种意大利和瑞士国家的新单位模型"
- DLC_dlc104_TOOLTIP_INSTANT:0 "统一者单位包"
- DLC_dlc104_TOOLTIP_DELAYED:0 "－5个属于意大利、德意志、神圣罗马帝国和洛塔林吉亚的新单位模型"
- DLC_dlc105_TOOLTIP_INSTANT:0 "皇帝音乐包"
- DLC_dlc105_TOOLTIP_DELAYED:0 "－为欧洲国家准备的3首曲目"
- LANDING_dlc101_TEXT:0 "主要特性：\n－欧洲国家任务树\n－任命枢机\n－教宗诏书\n－教廷什一税\n－特利腾大公会议\n－帝国事变\n－新的帝国改革\n－革命热情\n－革命中心\n－信仰守护者等级\n－胡斯派教会信条\n－霸权"
- LANDING_dlc101_FLAVOR_TEXT:0 "在这个 Paradox Development Studio 出品关于近代早期历史的旗舰游戏扩展包中，探索扩张帝国的全新方式。《欧陆风云IV：皇帝》为你在近代早期的世界支配全球的努力带来新的深度以及选项。你能否这数个世纪中延续自己的统治？\n\n《皇帝》专注于提升欧洲国家的游戏体验，为天主教国家增添了更深入的细节，以及一个更加充满活力、更有互动性的神圣罗马帝国。革命如野火般蔓延，要求那些不愿被改革的狂热呼声扫出历史舞台的王国们采取行动。"
- LANDING_dlc102_TEXT:0 "主要特性：\n－16种巴尔干国家的新单位模型"
- LANDING_dlc102_FLAVOR_TEXT:0 "这些适用于巴尔干国家的16种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc103_TEXT:0 "主要特性：\n－12种意大利及瑞士国家的新单位模型。"
- LANDING_dlc103_FLAVOR_TEXT:0 "这些适用于意大利及瑞士国家的12种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc104_TEXT:0 "主要特性：\n－5个属于意大利、德意志、神圣罗马帝国和洛塔林吉亚的新兵模"
- LANDING_dlc104_FLAVOR_TEXT:0 "这些适用于意大利、德意志、神圣罗马帝国及洛塔林吉亚的5种新的单位模型，丰富了欧陆风云IV的游戏体验。"
- LANDING_dlc105_TEXT:0 "主要特性：\n－为欧洲国家准备的3首曲目"
- LANDING_dlc105_FLAVOR_TEXT:0 "享受3条灵感来自近代早期欧洲的原创音轨。"
- dlc101_reason_pope:0 "§Y皇帝扩展包§!为§Y教宗国§!以及天主教增加了新的机制，例如特利腾大公会议、教宗诏书、教廷什一税以及任命枢机。它也为§Y教宗国§!增加了改进的任务树。"
- dlc101_reason_pope_reason:0 "\n我们推荐此扩展包，因为你选择了§Y教宗国§!。"
- dlc101_reason_hre_emperor:0 "§Y皇帝扩展包§!为神圣罗马帝国增加了新的机制，例如帝国事变以及集权化或分权化帝国的能力。"
- dlc101_reason_hre_emperor_reason:0 "\n我们推荐此扩展包，因为你选择了一个位于§Y神圣罗马帝国§!的国家。"
- dlc101_reason_french_revolution:0 "§Y皇帝扩展包§!增加了革命热情及革命中心的机制，还有改进的法兰西任务树。"
- dlc101_reason_venice:0 "§Y皇帝扩展包§!增加了改进的§Y威尼斯§!任务树。"
- dlc101_reason_venice_reason:0 "\n我们推荐此扩展包，因为你选择了§Y威尼斯§!。"
- dlc101_reason_catholic:0 "§Y皇帝扩展包§!为§Y天主教§!信仰增加了新的机制，例如特利腾大公会议、教宗诏书以及教廷什一税。"
- dlc101_reason_catholic_reason:0 "\n我们推荐此扩展包，因为你选择了一个§Y天主教§!国家。"
- dlc102_reason_balkan:0 "§Y巴尔干单位包§!为§Y巴尔干§!国家增加了新的单位模型。"
- dlc102_reason_balkan_reason:0 "\n我们推荐此单位包，因为你选择了一个位于§Y巴尔干§!的国家。"
- dlc103_reason_bta:0 "§Y翻越阿尔卑斯山脉单位包§!为§Y意大利§!及§Y瑞士§!国家添加了新的军队模型。"
- dlc103_reason_bta_reason:0 "\n我们推荐此单位包，因为你选择了一个§Y意大利§!或§Y瑞士§!国家。"
- dlc104_reason_unifiers:0 "§Y统一者单位包§!为§Y德意志、洛塔林吉亚、神圣罗马帝国以及意大利§!添加了新的军队模型。"
- dlc104_reason_unifiers_reason:0 "\n我们推荐此单位包，因为你选择了一个可以成立§Y德意志、洛塔林吉亚、神圣罗马帝国或意大利§!的国家。"
- dlc101_reason_burgundy:0 "§Y皇帝扩展包§!增加了帝国事变如改进的勃艮第继承，以及勃艮第独有的任务树。"
- dlc101_reason_burgundy_reason:0 "\n我们推荐此单位包，因为你选择了§Y勃艮第§!。"
- dlc105_reason_europe:0 "§Y皇帝音乐包§!添加了五首灵感来源于近代早期欧洲的歌曲。"
- dlc105_reason_europe_reason:1 "\n我们推荐此音乐包，因为你选择了一个§Y欧洲§!国家。"
- DLC_dlc106_TOOLTIP_INSTANT:0 "利维坦"
- DLC_dlc106_TOOLTIP_DELAYED:0 "－东南亚任务树\n－名胜\n－殖民国家内容拓展\n－获取人情\n－集中发展度\n－州权力集中化\n－摄政内容拓展\n－图腾崇拜\n\n额外特性：\n－曼荼罗政府改革\n－掳掠首都\n－运输船征召"
- LANDING_dlc106_TEXT:1 "主要特性：\n－东南亚任务树\n－名胜\n－殖民国家内容拓展\n－获取人情\n－集中发展度\n－州权力集中化\n－摄政内容拓展\n－图腾崇拜\n\n额外特性：\n－曼荼罗政府改革\n－掳掠首都\n－运输船征召"
- LANDING_dlc106_FLAVOR_TEXT:0 "想象一下这样一个首都，它像宝石一样闪闪发光，它通过从内地吸纳的财富发展，亦或是通过从附庸索取的资源来装点。它并非是一个领土庞大的帝国的国都，而是一个集中化的袖珍小国的国都。想象它，然后在欧陆风云4：利维坦里打造它。\n\n《利维坦》提供了新的功能，使您可以在一些权力更集中的省份中高强度种田。它还对像摄政和殖民地等成熟的游戏功能做出了许多其他改变。"
- DLC_dlc110_TOOLTIP_INSTANT:0 "起源"
- DLC_dlc110_TOOLTIP_DELAYED:0 "－非洲独特及地区专属任务树\n－非洲特有政府改革\n－非洲特有阶层特权\n－犹太教机制\n－新的非洲单位及传教士模型\n－新的非洲背景音乐\n\n额外特性：\n－犹太教的新事件\n－埃塞俄比亚的独特恰瓦单位"
- LANDING_dlc110_TEXT:0 "主要特性：\n－非洲独特及地区专属任务树\n－非洲特有政府改革\n－非洲特有阶层特权\n－犹太教机制\n－新的非洲单位及传教士模型\n－新的非洲背景音乐\n\n额外特性：\n－犹太教的新事件\n－埃塞俄比亚的独特恰瓦单位"
- LANDING_dlc110_FLAVOR_TEXT:0 "非洲大陆幅员辽阔，文化多样，历史悠久。从马里的黄金帝国，到刚果的丛林王国；从桑海强盛一时的军力，到基尔瓦与阿朱兰的络绎不绝的商埠。现在启用起源DLC，你可以完整体验这些国家的丰富内容。领导科普特正教的埃塞俄比亚及其恰瓦军团和流动首都；作为穆塔帕重建大津巴布韦的辉煌；游玩刚果成为基督教的堡垒或是非洲传统的守护者；效仿伟大的曼萨·穆萨，从马里出发前往麦加并游历欧洲；抑或是作为阿朱兰扩展贸易范围，直至可以主动把长颈鹿进贡给中国皇帝本人。\n\n道路千万条，由你来决定所踏出第一步的起源。"
- dlc106_reason_natives:0 "§Y利维坦扩展包§!为北美原住民部落添加了新的任务和事件，并为信奉图腾崇拜的国家添加了新机制及事件，即可以崇拜过去的统治者，获取反映他们生前特质的加成。"
- dlc106_reason_natives_reason:0 "\n我们推荐此扩展包，因为你选择了一个§Y美洲原住民§!国家。"
- dlc106_reason_colonists:0 "§Y利维坦扩展包§!新增了新的殖民国家功能，以帮助你的殖民地聚焦于军事援助、贸易竞争力或自治。"
- dlc106_reason_colonists_reason:0 "\n我们推荐此扩展包，因为你选择的国家适合向§Y新大陆§!殖民。"
- dlc106_reason_east_indies:0 "§Y利维坦扩展包§!为东印度大区添加了新的内容（任务、事件、曼荼罗政府、灾难、单位模型等）。"
- dlc106_reason_east_indies_reason:0 "\n我们推荐此内容包，因为你选择了一个位于§Y东印度§!地区的国家。"
- dlc106_reason_oceania:0 "§Y利维坦扩展包§!为大洋洲国家增加了新的单位模型。"
- dlc106_reason_oceania_reason:0 "\n我们推荐此扩展包，因为你选择了一个位于§Y大洋洲§!的国家。"
- dlc110_reason_mission_trees:0 "§Y起源扩展包§!增加了新的独特任务树。"
- dlc110_reason_mission_trees_reason:1 "\n我们推荐此扩展包，因为你选择了一个将可以获得独特而有趣的任务树的国家。"
- dlc110_reason_new_music:0 "§Y起源扩展包§!添加了新的音乐。"
- dlc110_reason_new_music_reason:1 "\n我们推荐此扩展包，因为它为你所选择地区内的国家添加了新的音乐。"
- DLC_dlc115_TOOLTIP_INSTANT:0 "北方雄狮"
- DLC_dlc115_TOOLTIP_DELAYED:0 "－新的斯堪的纳维亚和波罗的国家专属任务树\n－新的斯堪的纳维亚和波罗的国家特有政府改革\n－新的斯堪的纳维亚和波罗的国家特有阶层特权\n－新的特殊单位，包括瑞典芬兰卡尔军和波兰立陶宛翼骑兵\n－新的斯堪的纳维亚和波罗的国家模型\n－六首新的斯堪的纳维亚和波罗的国家背景音乐"
- LANDING_dlc115_TEXT:0 "主要特性：\n－新的斯堪的纳维亚和波罗的国家专属任务树\n－新的斯堪的纳维亚和波罗的国家特有政府改革\n－新的斯堪的纳维亚和波罗的国家特有阶层特权\n－新的特殊单位，包括瑞典芬兰卡尔军和波兰立陶宛翼骑兵\n－新的斯堪的纳维亚和波罗的国家模型\n－六首新的斯堪的纳维亚和波罗的国家背景音乐"
- LANDING_dlc115_FLAVOR_TEXT:0 "1397年，波美拉尼亚的埃里克国王将丹麦，瑞典和挪威三个王国合并组建了一个不稳定的同盟。然而在1439年，国王被废黜并流放到了哥得兰岛，导致卡尔马联盟愈加不稳。与此同时越过波罗的海，波兰王国和立陶宛大公国必须为在瓦尔纳战役中阵亡的瓦迪斯瓦夫三世选举后继者。这将是条顿与利沃尼亚骑士团从战败中恢复的时间，也是里加和但泽这样的贸易城市抓住眼前好运的大好时机。\n\n北方雄狮资料片让你挑战在这样一个动荡年代统治斯堪迪纳维亚或者波罗的海国家，带领她透过不同的道路来成就多种目标，给你带来完全沉浸的体验。"
- dlc114_reason_generic:0 "§Y枪炮、鼓点与钢铁 Vol.3 音乐包§!添加了十二首金属灵感的快节奏新歌曲，放大了贝斯声，进一步丰富了欧陆风云的听觉体验。"
- dlc115_reason_mission_trees:0 "§Y北方雄狮§!增加了新的独特任务树，政府改革，阶层特权和特殊单位。"
- dlc115_reason_mission_trees_reason:0 "\n我们推荐此扩展包，因为你选择了一个将可以获得独特而有趣的任务树，政府改革，阶层特权和/或特殊单位的国家。"
- dlc115_reason_new_units:0 "§Y北方雄狮§!为斯堪的纳维亚，波罗的和北德意志地区的国家增加了新的单位模型。"
- dlc115_reason_new_units_reason:1 "\n我们推荐此扩展包，因为它为你所选择地区（斯堪的纳维亚，波罗的或北德）内的国家增加了新的单位模型。"
- dlc115_reason_new_music:0 "§Y北方雄狮§!添加了新的音乐。"
- dlc115_reason_new_music_reason:0 "\n我们推荐此扩展包，因为它为你所选择地区（斯堪的纳维亚或波罗的海）内的国家添加了三首新的音乐。"
- LANDING_dlc114_TEXT:0 "主要特性：\n－12首新的金属风改编歌曲"
- LANDING_dlc114_FLAVOR_TEXT:0 "《枪炮、鼓点与钢铁 Vol.3》是第三个带有金属色彩的音乐包，混合了各种流派和主题，其灵感来自欧陆风云系列。本合集包含12首另类金属风歌曲，全部由 Kasper Lindgren 创作编排，每首歌曲都带有北欧民谣的影响。"
- DLC_dlc114_TOOLTIP_INSTANT:0 "枪炮、鼓点与钢铁 Vol.3"
- DLC_dlc119_TOOLTIP_INSTANT:0 "霸业"
- DLC_dlc119_TOOLTIP_DELAYED:0 "－奥斯曼、中国、日本、俄罗斯、西班牙、大不列颠的新任务树和机制，以及普鲁士、葡萄牙和朝鲜的任务改动及风味扩展\n－超过60个新的独特政府改革，面向许多国家和文化组。\n－超过60个新阶层特权、涵盖所有阶层\n－新陆军（火枪手、武士和大方阵）和海军（卡拉维尔帆船、盖伦帆船、加莱赛战船、主力舰、荷兰东印度商船和龟船特殊单位）\n－法兰西、南中国、阿伊努和菲律宾国家的新模型\n－土耳其、法兰西和中国的9首新的歌曲"
- LANDING_dlc119_TEXT:0 "主要特性：\n－奥斯曼、中国、日本、俄罗斯、西班牙、大不列颠的新任务树和机制，以及普鲁士、葡萄牙和朝鲜的任务改动及风味扩展\n－超过60个新的独特政府改革，面向许多国家和文化组。\n－超过60个新阶层特权、涵盖所有阶层\n－新陆军（火枪手、武士和大方阵）和海军（卡拉维尔帆船、盖伦帆船、加莱赛战船、主力舰、荷兰东印度商船和龟船特殊单位）\n－法兰西、南中国、阿伊努和菲律宾国家的新模型\n－土耳其、法兰西和中国的9首新的歌曲"
- LANDING_dlc119_FLAVOR_TEXT:0 "近代早期的世界很大程度上是关于帝国发展和野心互博的故事。英格兰、法国和西班牙争夺新世界，以此巩固其在旧世界的霸权。老牌的奥斯曼面临一个新近在俄罗斯崛起的大国的挑战。在亚洲，古老的中华帝国及日本帝国正为了实现中央集权而与往昔数世纪的惰性相抗。\n\n《欧陆风云IV：霸业》通过其崭新的游戏功能和重做的历史细节，挑战你重新发现这些列强的历史。"
- dlc119_reason_new_content:0 "§Y霸业权扩展包§!为世界列强增加了独特机制和特性。"
- dlc119_reason_new_content_reason:0 "\n我们推荐此扩展包，因为你选择了一个旨在跻身世界列强之列，可以获得独特而有趣的任务树，政府改革，阶层特权和/或特殊单位的国家。"
- dlc119_reason_new_units:0 "§Y霸业扩展包§!为法兰西和中国地区国家及阿伊努和菲律宾文化增加了新的单位模型。"
- dlc119_reason_new_units_reason:0 "\n我们推荐此扩展包，因为它为法兰西和中国地区，以及阿伊努和菲律宾文化增加了新的单位模型。"
- dlc119_reason_new_music:0 "§Y霸业扩展包§!增加了新的音乐。"
- dlc119_reason_new_music_reason:0 "\n我们推荐此扩展包，因为它为你所选择地区（安纳托利亚、法兰西或中国）内的国家添加了三首新的音乐。"
- DLC_dlc125_TOOLTIP_INSTANT:0 "日本历史课堂"
- DLC_dlc125_TOOLTIP_DELAYED:0 "－在知名日本历史播客主持人Isaac Meyer主讲的课程包中进一步了解近代日本。\n－包括35节课程，讲述了欧陆风云IV的时间线中日本的重要历史瞬间及代表象征，可在游戏内置的音乐播放器中收听。"
- DLC_dlc126_TOOLTIP_INSTANT:0 "中国历史课堂"
- DLC_dlc126_TOOLTIP_DELAYED:0 "－在知名中国历史播客主持人唐思德（Laszlo Montgomery）主讲的课程包中进一步了解明代及清初的中国及周边国家。\n－包括26节课程，每节5至10分钟，内容涵盖近代中国的重大历史事件及文化，可在游戏内置的音乐播放器中收听。"
- LANDING_dlc125_TEXT:0 "－在知名日本历史播客主持人Isaac Meyer主讲的课程包中进一步了解近代日本。\n－包括35节课程，讲述了欧陆风云IV的时间线中日本的重要历史瞬间及代表象征，可在游戏内置的音乐播放器中收听。"
- LANDING_dlc125_FLAVOR_TEXT:0 "这一合集包含35节课程，讲述了欧陆风云IV的时间线中日本的重要历史瞬间及代表象征。这一系列课程提供进一步了解欧陆风云IV所描绘的世界的良好起点，了解日本在其间如何从众多大名的封建割据走向一位军阀治下的统一国家。\n\n课程主题包括日本这一时期主要家族的历史、日本发展中的重大事件、日本的国家象征和历史名胜以及这一时期日本的对外交流史。"
- LANDING_dlc126_TEXT:0 "－在知名中国历史播客主持人唐思德（Laszlo Montgomery）主讲的课程包中进一步了解明代及清初的中国及周边国家。\n－包括26节课程，每节5至10分钟，内容涵盖近代中国的重大历史事件及文化，可在游戏内置的音乐播放器中收听。"
- LANDING_dlc126_FLAVOR_TEXT:0 "这一合集包含26节课程，内容涵盖欧陆风云IV的时间线中近代中国的重大历史事件及文化。这一系列课程提供进一步了解欧陆风云IV所描绘的世界的良好起点，适于任何对中国历史抱有兴趣的玩家。\n\n课程主题包括明朝的衰颓、东南亚诸国、接邻中华帝国的蒙古与满洲、中国的历史名胜以及清王朝的崛起。"
- dlc125_reason_japan:0 "§Y日本历史课堂§!包含35节历史课程，你可以在游戏内置的音乐播放器中收听。"
- dlc125_reason_japan_reason:0 "§Y日本历史课堂§!包含35节历史课程，你可以在游戏内置的音乐播放器中收听。本课程将在欧陆风云IV的时间线内从各个角度讨论日本历史。"
- dlc126_reason_china:0 "§Y中国历史课堂§!包含26节历史课程，可在游戏内置的音乐播放器中收听。"
- DLC_dlc128_TOOLTIP_INSTANT:0 "万王之王"
- DLC_dlc128_TOOLTIP_DELAYED:0 "主要特性：\n－为波斯、马穆鲁克、拜占庭、阿尔达比勒、格鲁吉亚、亚美尼亚、白羊、黑羊、阿拉伯和也门添加了全新的任务树\n－为波斯与马穆鲁克增添了新的机制\n－由不同国家成立的波斯将拥有不同的政府改革，并且有三条宗教线路可供选择\n－为波斯与拜占庭添加了新的属国形式\n－为波斯和马穆鲁克增加了新的教团、特殊单位与外交行动\n－新增超过170个事件\n－为塞浦路斯、特拉比松、卡拉曼、以色列、特莱姆森、叙利亚、亚美尼亚和格鲁吉亚添加了全新的兵种模型\n－为游戏添加了波斯、埃及与高加索风味的音乐"
- LANDING_dlc128_TEXT:0 "主要特性：\n－为波斯、马穆鲁克、拜占庭、阿尔达比勒、格鲁吉亚、亚美尼亚、白羊、黑羊、阿拉伯和也门添加了全新的任务树\n－为波斯与马穆鲁克增添了新的机制\n－由不同国家成立的波斯将拥有不同的政府改革，并且有三条宗教线路可供选择\n－为波斯与拜占庭添加了新的属国形式\n－为波斯和马穆鲁克增加了新的教团、特殊单位与外交行动\n－新增超过170个事件\n－为塞浦路斯、特拉比松、卡拉曼、以色列、特莱姆森、叙利亚、亚美尼亚和格鲁吉亚添加了全新的兵种模型\n－为游戏添加了波斯、埃及与高加索风味的音乐"
- LANDING_dlc128_FLAVOR_TEXT:1 "两个世纪前，成吉思汗及其随行的蒙古人和突厥人的大军横行在地中海和印度之间的土地，令其四分五裂。现在，许多国家再次强大起来，足以夺回对该地区的统治权。在波斯，帖木儿征服后的残余势力中出现了许多突厥和伊朗国家。在埃及，被奴役的马穆鲁克士兵建立了一个强大的苏丹国，并统治着叙利亚的土地。在附近的高加索和希腊地区，基督教王国正在等待机会，抑或迎接灭亡。而在阿拉伯和也门，不同的部落和势力都在为再次统一该地区而奋斗。\n\n万王之王向您提出挑战，让您统治这些民族，带领他们创建新的辉煌帝国。"
- dlc126_reason_china_reason:0 "§Y中国历史课堂§!添加了26节历史课程，您可以在游戏中内置的音乐播放器中播放它们。在这些音频里，我们将在欧陆风云IV的时间线内从各个角度讨论中国历史。"
- dlc128_reason_new_content:0 "§Y万王之王扩展包§!增加了新的独特任务树和机制，特殊单位以及音乐。"
- dlc128_reason_new_content_reason:0 "\n我们推荐此扩展包，因为你选择了一个将可以获得独有趣任务树和机制的国家，以及/或者特殊单位。"
- dlc128_reason_new_units:0 "§Y万王之王扩展包§!为埃及，高加索和波斯地区，柏柏尔，叙利亚，本都和土耳其文化以及塞浦路斯，耶路撒冷和以色列增加了新的单位模型。"
- dlc128_reason_new_units_reason:0 "\n我们推荐此扩展包，因为它为埃及，高加索和波斯地区，柏柏尔，叙利亚，本都和土耳其文化以及塞浦路斯，耶路撒冷和以色列增加了新的单位模型。"
- dlc128_reason_new_music:0 "§Y万王之王扩展包§!添加了新的音乐。"
- dlc128_reason_new_music_reason:0 "\n我们推荐此扩展包，因为它为你所选择地区（埃及，波斯或高加索）内的国家添加了新的音乐。"
- DLC_dlc136_TOOLTIP_INSTANT:0 "变革之风"
- DLC_dlc136_TOOLTIP_DELAYED:0 "主要特性：\n－印加、阿兹特克、玛雅、荷兰、奥地利、匈牙利、波希米亚、德国、意大利、威尼斯、帖木儿、莫卧儿、中亚游牧部落、哈桑凯伊夫、霍尔木兹、阿曼、狄奥多罗、特拉比松和日落入侵的新任务树和重新设计的任务树。\n－印加、阿兹特克、德国、威尼斯、霍尔木兹和阿曼的政府机制。\n－超过40种新的独特的政府改革。\n－超过50种新的独特的阶层特权。\n－其他内容，例如事件、决议、地方组织、外交行动、宣战理由和属国类型。\n－摩尔达维亚、翁布里亚、罗马涅、达尔马提亚、威斯特伐利亚、莱茵、斯洛伐克和克罗地亚的单位模型。\n－9首美洲、中欧和中东风格的新的音乐。"
- LANDING_dlc136_TEXT:0 "－印加、阿兹特克、玛雅、荷兰、奥地利、匈牙利、波希米亚、德国、意大利、威尼斯、帖木儿、莫卧儿、中亚游牧部落、哈桑凯伊夫、霍尔木兹、阿曼、狄奥多罗、特拉比松和日落入侵的新任务树和重新设计的任务树。\n－印加、阿兹特克、德国、威尼斯、霍尔木兹和阿曼的政府机制。\n－超过40种新的独特的政府改革。\n－超过50种新的独特的阶层特权。\n－其他内容，例如事件、决议、地方组织、外交行动、宣战理由和属国类型。\n－摩尔达维亚、翁布里亚、罗马涅、达尔马提亚、威斯特伐利亚、莱茵、斯洛伐克和克罗地亚的单位模型。\n－9首美洲、中欧和中东风格的新的音乐。"
- LANDING_dlc136_FLAVOR_TEXT:0 "公元1444年，变革之风即将席卷世界。成吉思汗与帖木儿相继薨逝后，中亚游牧逐渐瓦解，如今已然到了崩溃的边缘，或许假以时日，另一位伟大征服者将应运而生。安纳托利亚突厥人的崛起，不仅令基督教国家忧心忡忡，而且阻碍了欧亚商贸流动。如果其它国家成功探索美洲，开辟新商路加以利用，或许能取代先前主导地中海的经济强权。美洲的玛雅帝国、阿兹特克帝国和印加帝国兴盛已久，或许有机会与新来者同台竞技。谁能驾驭这变革之风？"
- dlc136_reason_new_content:0 "§Y变革之风§!增加了新的独特任务树和机制，特殊单位以及音乐。"
- dlc136_reason_new_content_reason:0 "\n我们推荐此扩展包，因为你选择了一个将可以获得独有趣任务树和机制的国家。"
- dlc136_reason_new_units:0 "§Y变革之风§!为摩尔达维亚，翁布里亚，罗马涅，达尔马提亚，威斯特伐利亚，莱茵，斯洛伐克，和克罗地亚增加了新的单位模型。"
- dlc136_reason_new_units_reason:0 "\n我们推荐此扩展包，因为它为摩尔达维亚，翁布里亚，罗马涅，达尔马提亚，威斯特伐利亚，莱茵，斯洛伐克，和克罗地亚增加了新的单位模型。"
- dlc136_reason_new_music:0 "§Y变格之风§!添加了新的音乐。"
- dlc136_reason_new_music_reason:0 "\n我们推荐此扩展包，因为它添加了美洲、中欧和中东风格的新的音乐。"
+﻿l_english:
+ DLC_dlc001_TOOLTIP_INSTANT:0 "Œvt^b‰NUSMOS"
+ DLC_dlc001_TOOLTIP_DELAYED:0 "ÿ(uŽNÕlpQ‰ŒTNR ˜0W:S11*NýV¶R„vìryr„v1µuUSMO!j‹W"
+ DLC_dlc002_TOOLTIP_INSTANT:0 "°eg‘šuQUSMOS"
+ DLC_dlc002_TOOLTIP_DELAYED:0 "ÿ(uŽNeY¯eüfÿâl¯eŒTlšFzœKQ„vìryr‘šuQ!j‹W"
+ DLC_dlc003_TOOLTIP_INSTANT:0 "ü‘šuQUSMOS"
+ DLC_dlc003_TOOLTIP_DELAYED:0 "ÿ(uŽNËzv–›RÿâlpQŒTÄOW¯e„vìryr‘šuQ!j‹W"
+ DLC_dlc004_TOOLTIP_INSTANT:1 "fg…Q¹RS"
+ DLC_dlc004_TOOLTIP_DELAYED:0 "ÿ28*N°e‹NöN\nÿ64*NIN˜˜‹NöNþVGr\nÿ3*N°e³Q®‹"
+ DLC_dlc005_TOOLTIP_INSTANT:0 "ŽýV¦h"
+ DLC_dlc005_TOOLTIP_DELAYED:0 "(uŽNŽýV„v°e…Q¹RÿSìbÿ\nÿ57*N°e‹NöN\nÿ10*NIN˜˜‹NöNþVGr\nÿ°e„vŽýV3µuŒT4µuUSMO!j‹W"
+ DLC_dlc006_TOOLTIP_INSTANT:0 "+täQðQ"
+ DLC_dlc006_TOOLTIP_DELAYED:0 "(uŽNÜb`S­^„v°e…Q¹RÿSìbÿ\nÿ16*N°e‹NöN\nÿ16*N°eûN¡R\nÿ13*NIN˜˜‹NöNþVGr\nÿ4Íy°e„vÜb`S­^USMO!j‹W"
+ DLC_dlc007_TOOLTIP_INSTANT:1 "ýV¶RTÜw"
+ DLC_dlc007_TOOLTIP_DELAYED:0 "ÿ8*N(W0WbV0WþV!jVïSÁ‰„v°e0Wh"
+ DLC_dlc008_TOOLTIP_INSTANT:0 "VgTëXfWN!Xó—PNS"
+ DLC_dlc008_TOOLTIP_DELAYED:0 "ÿ:NÜb`S­^ŒTeY¯eüfÆQY„v	Nag°eó—h"
+ DLC_dlc009_TOOLTIP_INSTANT:1 "ýV¶RTÜwII"
+ DLC_dlc009_TOOLTIP_DELAYED:0 "ÿ11*N(W0WbV0WþV!jVïSÁ‰„v°e0Wh"
+ DLC_dlc010_TOOLTIP_INSTANT:0 "Vg)YX"
+ DLC_dlc010_TOOLTIP_DELAYED:0 "ÿAQ¸‹ub–:g°eNLu\nÿibEQŽ2mŸSOOl:g6R\nÿnbo–kl0WýV¶R"
+ DLC_dlc011_TOOLTIP_INSTANT:0 "VgwUSMOS"
+ DLC_dlc011_TOOLTIP_DELAYED:0 "ÿ16Íy°e'YF–„v‰ísYrŒTa„„Yr°eUSMO!j‹W"
+ DLC_dlc012_TOOLTIP_INSTANT:0 "Ž2mŸSOOlUSMOS"
+ DLC_dlc012_TOOLTIP_DELAYED:0 "ÿ8ÍyŽ2mŸSOOlýV¶R°eUSMO!j‹WÿSìbRWúW0fmA›ŒTÏ‚Ïe"
+ DLC_dlc013_TOOLTIP_INSTANT:0 "°eNLuKNLk"
+ DLC_dlc013_TOOLTIP_DELAYED:0 "ÿ:NŽ2mŸSOOlŒTwmYwýNýV¶RÆQY„v	Nag°eó—h"
+ DLC_dlc014_TOOLTIP_INSTANT:0 "1WÞ‹‚˜Lk"
+ DLC_dlc014_TOOLTIP_DELAYED:0 "ÿNagyrŠkó—hÿSŽN8nb„v12gýN ReQ‚‚åe„v0k|T"
+ DLC_dlc015_TOOLTIP_INSTANT:0 "Ž2mŸSOOlUSMOSII"
+ DLC_dlc015_TOOLTIP_DELAYED:0 "ÿ10ÍyŽ2mŸSOOl„v°euQ!jÿSìbyKQ¯e0³uæt—ŒTeY	T^æt"
+ DLC_dlc016_TOOLTIP_INSTANT:0 "NR ˜ŒTÕlpQ‰„v–kl0WUSMOS"
+ DLC_dlc016_TOOLTIP_DELAYED:0 "ÿ16Íy(uŽNñ‚<hpQŒTÕlpQ‰(W°e'YF–„v°eUSMO!j‹W"
+ DLC_dlc017_TOOLTIP_INSTANT:0 "Fz¯e—gŒ˜î•–wÏP"
+ DLC_dlc017_TOOLTIP_DELAYED:0 "ÿžX R†N21ÍyFz¯e—gýV¶R„vŒ˜î•IuÏP"
+ DLC_dlc018_TOOLTIP_INSTANT:0 "ýVÌRº‹"
+ DLC_dlc018_TOOLTIP_DELAYED:0 "ÿ°e„v8flQøS:g6R\nÿ°e„v–K…Y²NLˆ¨R\nÿÇ–cOÁy cw\nÿú^.Ð³l"
+ DLC_dlc019_TOOLTIP_INSTANT:0 "Fz¯e—gwm›QUSMOS"
+ DLC_dlc019_TOOLTIP_DELAYED:0 "ÿ12ÍyFz¯e—gýV¶R„v°e0‚9‚!j‹W"
+ DLC_dlc020_TOOLTIP_INSTANT:0 "8fýV¶RUSMOS"
+ DLC_dlc020_TOOLTIP_DELAYED:0 "ÿ16 Íy?–Éb!0íp±šN0TKQŒTú‹+YåTW·V„v°eUSMO!j‹W"
+ DLC_dlc021_TOOLTIP_INSTANT:0 "qQŒTýV"
+ DLC_dlc021_TOOLTIP_DELAYED:0 "ÿ<S·VpQqQŒTýV„v°e:g6R\nÿFUNqQŒTýV„v°e>mû|û|ßu\nÿìrÁˆ6R\nÿqQŒTýV„v°e‹NöN"
+ DLC_dlc024_TOOLTIP_INSTANT:0 "pS¦^!k'YF–USMOS"
+ DLC_dlc024_TOOLTIP_DELAYED:0 "ÿ12 ÍymR RÉb0×kbY6w±KOWÿåNÊSpS¦^'Y:S„vpS¦^YebFz¯e—gýV¶R„v°eUSMO!j‹W"
+ DLC_dlc025_TOOLTIP_INSTANT:0 "pS¦^wm›QUSMOS"
+ DLC_dlc025_TOOLTIP_DELAYED:0 "ÿ12ÍypS¦^0W:SýV¶R„v°e9‚êS!j‹W"
+ DLC_dlc026_TOOLTIP_INSTANT:0 "qQŒTýVó—PNS"
+ DLC_dlc026_TOOLTIP_DELAYED:0 "ÿ5ag°eó—h"
+ DLC_dlc027_TOOLTIP_INSTANT:0 "YRPRuQÕl"
+ DLC_dlc027_TOOLTIP_DELAYED:0 "ÿ'k2m„v—RYeTwßvb‰N\nÿ“úQi—‹TbO6Ri—‹T\nÿN.•GSµu0‚–\nÿùR^SýVŒTßvËS	gôf'Y„vqVÍT›R"
+ DLC_dlc028_TOOLTIP_INSTANT:0 "yó—TßvUSMOS"
+ DLC_dlc028_TOOLTIP_DELAYED:0 "ÿ12Íy°e„v'k2mýV¶R2µuuQ!jÿSìb<S·VpQ0ÕlpQ‰0ñ‚<hpQŒTÑžîh"
+ DLC_dlc029_TOOLTIP_INSTANT:0 ")YINYeTwßvS"
+ DLC_dlc029_TOOLTIP_DELAYED:0 "ÿ12Íy'k2mýV¶R„v2µuuQ!jÿSìb‰ísYr0Ye—RýV0eY0W)RŒTLNSÆY"
+ DLC_dlc030_TOOLTIP_INSTANT:0 "b‰NKNLk"
+ DLC_dlc030_TOOLTIP_DELAYED:0 "ÿ5ag(Wb‰Nöe­d>e„vó—h"
+ DLC_dlc031_TOOLTIP_INSTANT:0 "ªg®p0Ÿ¹pN¢”Á”"
+ DLC_dlc031_TOOLTIP_DELAYED:1 "ÿ5–™ŸSHró—PN„vÑ‘^SÎ˜÷mó—Hr,gÿvQ-NÛV–™O(Wböe­d>e"
+ DLC_dlc033_TOOLTIP_INSTANT:0 "ÄžÑ‘ýV"
+ DLC_dlc033_TOOLTIP_DELAYED:0 "ÿêšRINýV¶R¾‹¡‹hV & –:gýV¶R\nÿ°e„vŽ2mŸSOOl—RYe:g6R\nÿÍsR9‚–\nÿXb·V‰)RšN¯eag¦u"
+ DLC_dlc034_TOOLTIP_INSTANT:0 "WSŽUSMOS"
+ DLC_dlc034_TOOLTIP_DELAYED:0 "ÿ12ÍyWSŽ2mŒT‰R,r¯eWW„„v°euQ!jÿSìbpS R0lšnfRŒTþV®vWSôT"
+ DLC_dlc035_TOOLTIP_INSTANT:0 "-NŽ2mUSMOS"
+ DLC_dlc035_TOOLTIP_DELAYED:0 "ÿ12Íy-NŽ2mWW„„v°euQ!jÿSìb?–yQyrKQ0›sÅ–ŒTs|¯eyrKQ"
+ DLC_dlc036_TOOLTIP_INSTANT:0 "¢c0tKNLk"
+ DLC_dlc036_TOOLTIP_DELAYED:0 "ÿ5ag(WŒTs^–klöe­d>e„v°eó—h"
+ DLC_dlc037_TOOLTIP_INSTANT:0 "ªg®p0Ÿ¹pN¢”Á” Vol.2"
+ DLC_dlc037_TOOLTIP_DELAYED:0 "ÿ5–™°e„vÑ‘^SÎ˜÷mó—"
+ DLC_dlc038_TOOLTIP_INSTANT:0 "†SòSN„vsY'`"
+ DLC_dlc038_TOOLTIP_DELAYED:0 "Zw&qŽN†SòS•³l-N„vÍ‘‰sY'`ÿSìbÿ\nÿ100*N°e‹NöN\nÿ4*NIN˜˜‹NöNþVGr\nÿ22Íy(usY'`Œ˜î•–wÏP"
+ DLC_dlc039_TOOLTIP_INSTANT:0 "8^Æ‹"
+ DLC_dlc039_TOOLTIP_DELAYED:0 "ÿ®‹O\nÿ°eYeNiOYe„v°e©sÕl\nÿ°e„v^SýV’N¨R\nÿ^y1WWlš^ýVê1u^"
+ DLC_dlc040_TOOLTIP_INSTANT:0 "^yCgýVUSMOS"
+ DLC_dlc040_TOOLTIP_DELAYED:0 "ÿ16Íy°e„v^yCgýV¶RuQ!jÿSìbag˜‘šëXâV0Ye—RýVŒTISb–‘šëXâV"
+ DLC_dlc041_TOOLTIP_INSTANT:0 "iOYeUSMOS"
+ DLC_dlc041_TOOLTIP_DELAYED:1 "ÿ16Íy°e„viOYeýV¶RuQ!jÿSìb·^Ðc0'YŠŒT‰Ï…"
+ DLC_dlc042_TOOLTIP_INSTANT:0 "'YýVUSMOS"
+ DLC_dlc042_TOOLTIP_DELAYED:0 "ÿ17Íy°e„v'k2mýV¶RuQ!jÿSìbñ‚<hpQ0<S·VpQ0eY¯eüfŒTÄOW¯e"
+ DLC_dlc043_TOOLTIP_INSTANT:0 "ê1u^USMOS"
+ DLC_dlc043_TOOLTIP_DELAYED:0 "ÿ15Íy°e„v-N'kýV¶RuQ!jÿSìbÕlpQKQy0Il!XŒTLNSÆY"
+ DLC_dlc044_TOOLTIP_INSTANT:0 "ïQ)R„vó—h"
+ DLC_dlc044_TOOLTIP_DELAYED:0 "ÿ5agKairi Blodeuyn SawlerjOòf„v°eó—hÿupaegnŽNšN2mLkòf"
+ DLC_dlc046_TOOLTIP_INSTANT:0 "åT(„KQ"
+ DLC_dlc046_TOOLTIP_DELAYED:0 "ÿ3*N°e6–BSÿåT(„KQ0PŸs|ŒTèÏe\nÿyrŠk„våT(„KQ?eœ^\nÿŒ<hÌ‘áOðN„v—RYe|Q¹R:g6R\nÿY²NÍSˆ™\nÿŸSOOl?eVr"
+ DLC_dlc047_TOOLTIP_INSTANT:0 "ÑžwmUSMOS"
+ DLC_dlc047_TOOLTIP_DELAYED:0 "ÿ32ÍyRSKQ‰šN0KQÌ‘s|šN0ÄreYYWåNÊSNbâlWíp„v°eUSMO!j‹W"
+ DLC_dlc048_TOOLTIP_INSTANT:0 "O'YèK„USMOS"
+ DLC_dlc048_TOOLTIP_DELAYED:0 "ÿ32ÍyÑ‘^WlýV0ú‹Öv0^(g?QåNÊSLNyQ+RKQ„v°eUSMO!j‹W"
+ DLC_dlc049_TOOLTIP_INSTANT:0 "'k2m‘šuQUSMOS"
+ DLC_dlc049_TOOLTIP_DELAYED:0 "ÿ12Íy(uŽNñ‚<hpQ0ÕlpQ‰ŒT‰ísYr„v‘šuQ!j‹W"
+ DLC_dlc050_TOOLTIP_INSTANT:0 "‰^XS"
+ DLC_dlc050_TOOLTIP_DELAYED:0 "ÿ18Íy‰'k0Fz¯e—g0šN2m0pS¦^0^—2måNÊSWSSŽ2m‡eS„v°e‰^X!j‹W"
+ DLC_dlc052_TOOLTIP_INSTANT:0 "SabatonPN–ó—h"
+ DLC_dlc052_TOOLTIP_DELAYED:0 "ÿ5agSabatonjOòf„v°eó—h"
+ DLC_dlc053_TOOLTIP_INSTANT:0 ")YINYeIN‰ýV¶RUSMOS"
+ DLC_dlc053_TOOLTIP_DELAYED:0 "ÿ9Íy(uŽNeY0W)R0âlpQŒT‰ísYr„v°eUSMO!j‹W"
+ DLC_dlc054_TOOLTIP_INSTANT:0 "yó—>mIN‰ýV¶RUSMOS"
+ DLC_dlc054_TOOLTIP_DELAYED:0 "ÿ8Íy(uŽNÕlpQ‰0nfœëXŒT^txQ„v°eUSMO!j‹W"
+ DLC_dlc055_TOOLTIP_INSTANT:0 "bìN„vwm"
+ DLC_dlc055_TOOLTIP_DELAYED:0 "ÿØšµuwm›QûN¡R\nÿôTôTÌ‘wm×v\nÿcYÇ–cO›QâV\nÿ8fTwßv\nÿ°e„vô•ŒLˆ¨R\nÿR«NŒTƒzÖS0WþV"
+ DLC_dlc056_TOOLTIP_INSTANT:0 "a'Y)RUSMOS"
+ DLC_dlc056_TOOLTIP_DELAYED:0 "ÿ6ÍyiOW&O(„0s|pQ0±NÒR¯eŒTZ<S¯e„v°eUSMO!j‹W"
+ DLC_dlc057_TOOLTIP_INSTANT:0 "N^—USMOS"
+ DLC_dlc057_TOOLTIP_DELAYED:0 "ÿ16ÍyÃW^XÄOÔkšNNªRÔkšN00tlšÌ‘ÊS¯eæt^Ì‘ýV¶R„v°eUSMO!j‹W"
+ DLC_dlc058_TOOLTIP_INSTANT:0 "S^—USMOS"
+ DLC_dlc058_TOOLTIP_DELAYED:0 "ÿ16Íy?–SÊSS0idmåT0lšFzœKQŒTz<S¯e„v°eUSMO!j‹W"
+ DLC_dlc059_TOOLTIP_INSTANT:0 "ïQ)R„vó—h II"
+ DLC_dlc059_TOOLTIP_DELAYED:0 "ÿ1uKairi Blodeuyn SawlerRjO5–™„vòfîvÿupaegnŽNÜN0W:S"
+ DLC_dlc060_TOOLTIP_INSTANT:0 "ºNCg"
+ DLC_dlc060_TOOLTIP_DELAYED:0 "ÿ°ežXR:V0WMO\nÿTINyr(\nÿM‘vPïSÇ‹s²RTwûYµNuNïSåNÅbûNDd?e\nÿÑynfyrýV¶RïS(u1W0W:g6R\nÿeY¯eüf^ýV„vìr	g?eSO"
+ DLC_dlc061_TOOLTIP_INSTANT:0 "·Va×Vø‹¯OUSMOS"
+ DLC_dlc061_TOOLTIP_DELAYED:0 "ÿ24Íy·Va×Vø‹¯O„v1µuÊS3µuUSMO!j‹WÿSìbôTO)RšN0Ilú‹ZŒT(„KQîh"
+ DLC_dlc062_TOOLTIP_INSTANT:0 "‰^—USMOS"
+ DLC_dlc062_TOOLTIP_DELAYED:0 "ÿ32Íy‰^—ýV¶R„v°euQ!jÿSìb?–OS0aSHYÆY-ZSSªRŒTlšÌ‘"
+ DLC_dlc063_TOOLTIP_INSTANT:0 "Dd?eKNLk"
+ DLC_dlc063_TOOLTIP_DELAYED:0 "ÿ:N0ºNCg0ibUSSÆQY„v4–™òfîv"
+ DLC_dlc064_TOOLTIP_INSTANT:0 "V÷–·Vüf„vfNáO"
+ DLC_dlc064_TOOLTIP_DELAYED:0 "ÿ15agnbo¯e*X„v³uôušNýV¶Röe„vòfîv"
+ DLC_dlc065_TOOLTIP_INSTANT:0 "V÷–·Vüf„vfNáO"
+ DLC_dlc065_TOOLTIP_DELAYED:0 "ÿ15agnbo¯e*X„v³uôušNýV¶Röe„vòfîv"
+ DLC_dlc066_TOOLTIP_INSTANT:0 ")Y‹T"
+ DLC_dlc066_TOOLTIP_DELAYED:0 "ÿ†SòSöeãNNÄžÑ‘öeãN\nÿibUS†N-NNS^ýV:g6R\nÿ-NNS^ýVïSåN:Vë»ýVg!\nÿ°e„vU^œ^:g6R\nÿán2mèK„†˜–ˆïSåNÄuÇukQ×e"
+ DLC_dlc067_TOOLTIP_INSTANT:0 "'YTUSMOS"
+ DLC_dlc067_TOOLTIP_DELAYED:0 "ÿ12Íy°e„våe,g'YT1µuUSMO!j‹WÿSìbO¾0ÊNÝTŒTNIg"
+ DLC_dlc068_TOOLTIP_INSTANT:0 "šN2mIN‰ýV¶RUSMOS"
+ DLC_dlc068_TOOLTIP_DELAYED:0 "ÿ16Íyåe,g0gœœ0fŒTn„v°eUSMO!j‹W"
+ DLC_dlc069_TOOLTIP_INSTANT:0 "S¹eUSMOS"
+ DLC_dlc069_TOOLTIP_DELAYED:0 "ÿ16ÍyßRTðS0án2m0™„äSŒTætLR„v°eèK„›QUSMO!j‹W"
+ DLC_dlc070_TOOLTIP_INSTANT:1 "®puQS"
+ DLC_dlc070_TOOLTIP_DELAYED:0 "ÿ8Íy‰'k0N'k0Fz¯e—g0pS¦^0^—2m0šN2måNÊSWSSŽ‡eS„v°e®puQ!j‹W"
+ DLC_dlc071_TOOLTIP_INSTANT:2 "šN2mwm›QUSMOS"
+ DLC_dlc071_TOOLTIP_DELAYED:0 "ÿ22ÍyšN2mýV¶R„v°e9‚êS!j‹WÿvQ-N4Íy:Nåe,gNgœœìr	g"
+ DLC_dlc072_TOOLTIP_INSTANT:0 ",r	NWlš"
+ DLC_dlc072_TOOLTIP_DELAYED:0 "ÿ™l‡výV & W¯elQýV\nÿ1WÏP\nÿýINYe\nÿW¯eø‹ýV„vyrŠkSûQ›QUSMO\nÿ‰=O)RšNÓbRƒ:S\nÿ°e„vÄOW¯eûN¡R"
+ DLC_dlc073_TOOLTIP_INSTANT:0 "W¯eø‹lQýVUSMOS"
+ DLC_dlc073_TOOLTIP_DELAYED:0 "ÿ16Íy(uŽNeYY6w+Y0h^0yrôuSÊSÅ–W¯eÉb+YS„v°eUSMO!j‹W"
+ DLC_dlc074_TOOLTIP_INSTANT:0 "ÄOW¯e¹ƒXUSMOS"
+ DLC_dlc074_TOOLTIP_DELAYED:0 "ÿ16ÍyŽUqS0Ëzv–›R0|VSÆYåNÊSnf¯eÑy+Y„v°eUSMO!j‹W"
+ DLC_dlc075_TOOLTIP_INSTANT:0 "ÄOW¯eGPó`†SòSUSMOS"
+ DLC_dlc075_TOOLTIP_DELAYED:0 "ÿ16ÍyNú‹+YåTW·V0âlm(ƒKQ0œ^X<SšNÿåNÊS¯eidñh¯eKQ„v°eUSMO!j‹W"
+ DLC_dlc076_TOOLTIP_INSTANT:0 "W¯eÉ‰’‘"
+ DLC_dlc076_TOOLTIP_DELAYED:0 "ÿW¯eIN˜˜„v	N–™ó—PN"
+ DLC_dlc077_TOOLTIP_INSTANT:0 "‡ef„vGdîr"
+ DLC_dlc077_TOOLTIP_DELAYED:0 "ÿ°e„v-NNyrŠk?eSO\nÿ8f?eVr\nÿO¯epQfR>m\nÿF–›QLwN¦^\nÿeRJRÑSUS¦^"
+ DLC_dlc078_TOOLTIP_INSTANT:0 "JS›SUSMOS"
+ DLC_dlc078_TOOLTIP_DELAYED:0 "ÿ16ÍyIl×V0…Q×V0?–üfÿåNÊSmNè•„v°eUSMO!j‹W"
+ DLC_dlc079_TOOLTIP_INSTANT:0 "âl¯eUSMOS"
+ DLC_dlc079_TOOLTIP_DELAYED:0 "ÿ6Íy?–ÌRWl0âl¯e0TXôTÌ‘¯efWÿåNÊS“^S·VýV¶R„v°eUSMO!j‹W"
+ DLC_dlc080_TOOLTIP_INSTANT:0 "2N³lUSMOS"
+ DLC_dlc080_TOOLTIP_DELAYED:0 "ÿ16Íy‹vŠ0ÈT(„0ÑžŠÿåNÊS‚ÈS„v°eUSMO!j‹W"
+ DLC_dlc081_TOOLTIP_INSTANT:0 "eY¯eüfÎ˜PNòf"
+ DLC_dlc081_TOOLTIP_DELAYED:0 "ÿ:NFz¯e—gýV¶RÆQY„v5–™òfîv"
+ DLC_dlc082_TOOLTIP_INSTANT:1 "OgŒ˜î•S"
+ DLC_dlc082_TOOLTIP_DELAYED:0 "42Íyâl¯e°eŒ˜î•IuÏP"
+ DLC_dlc083_TOOLTIP_INSTANT:0 "Fz¯e—gsY'`S"
+ DLC_dlc083_TOOLTIP_DELAYED:0 "ÿ21ÍyFz¯e—g‡eS„vsY'`Œ˜î•IuÏP"
+ DLC_dlc084_TOOLTIP_INSTANT:0 "ßu»l'TÿNR ˜<SšN"
+ DLC_dlc084_TOOLTIP_DELAYED:0 "ÿ°e„vNR ˜ûN¡R\nÿåTNi—‹T\nÿR°e¦^\nÿ1WlQ—R\nÿwm›QfRô‹\nÿ`noR«N"
+ DLC_dlc085_TOOLTIP_INSTANT:0 "‰1rSpQUSMOS"
+ DLC_dlc085_TOOLTIP_DELAYED:0 "ÿ11ÍyKQpQÌ‘aS·V0·V¯e™„·V0¯e±ƒbÿåNÊSXb™„·V„v°eUSMO!j‹W"
+ DLC_dlc086_TOOLTIP_INSTANT:0 "N1rSpQUSMOS"
+ DLC_dlc086_TOOLTIP_DELAYED:0 "ÿ12ÍyúWSãNS0&O¯eyr0‚„™ŸåNÊS?–S¯eyr„v°eUSMO!j‹W"
+ DLC_dlc087_TOOLTIP_INSTANT:0 "NR ˜ýV¶RUSMOS"
+ DLC_dlc087_TOOLTIP_DELAYED:0 "ÿ14Íy^RTX<S01rSpQ0Ï‚<hpQÿåNÊSZSëX„v°eUSMO!j‹W"
+ DLC_dlc088_TOOLTIP_INSTANT:0 "NR ˜ÛS›QUSMOS"
+ DLC_dlc088_TOOLTIP_DELAYED:0 "ÿ16Íy·^ƒlS0s|¯e0ú‹üf•^ÿåNÊSú‹îh=OpQ„v°eUSMO!j‹W"
+ DLC_dlc089_TOOLTIP_INSTANT:0 "ßu»l'TÿNR ˜<SšNó—PNS"
+ DLC_dlc089_TOOLTIP_DELAYED:0 "ÿ:NNR ˜ýV¶RÆQY„v3–™òfîv"
+ DLC_dlc090_TOOLTIP_INSTANT:0 "¾id"
+ DLC_dlc090_TOOLTIP_DELAYED:0 "ÿ?eœ^9ei—\nÿ?eVrû|ßužX:V\nÿ8flQøS•bDû|ßu\nÿ°e„vpS¦^ûN¡Rh&6–BS\nÿyr¸‹8flQøS\nÿGSµu8f-NÃV"
+ DLC_dlc091_TOOLTIP_INSTANT:0 "pS¦^USMOS"
+ DLC_dlc091_TOOLTIP_DELAYED:0 "ÿ20ÍyˆQæt³u0…hætS0<SÊlS0eYÌ‘(„åNÊSWSpS¦^SýV„vhQ°eUSMO!j‹W"
+ DLC_dlc092_TOOLTIP_INSTANT:0 " pS¦^Ï‚9NýVUSMOS"
+ DLC_dlc092_TOOLTIP_DELAYED:0 "ÿ20ÍyôTküf<S0äS	TÉbyr0àznfS0idJFZÿåNÊS«ƒgS?Q„v°eUSMO!j‹W"
+ DLC_dlc093_TOOLTIP_INSTANT:1 "¾idŒ˜î•–wÏPS"
+ DLC_dlc093_TOOLTIP_DELAYED:0 "ÿ°ežX42ÍypS¦^ýV¶RNpS¦^‡eS„v7u'`ÊSsY'`Œ˜î•IuÏP"
+ DLC_dlc094_TOOLTIP_INSTANT:0 "¾idó—PNS"
+ DLC_dlc094_TOOLTIP_DELAYED:0 "ÿ:N(WpS¦^ŒTpS¦^hT¹„v©s¶RÆQY„v	Nag°eó—h"
+ DLC_dlc095_TOOLTIP_INSTANT:0 "ÄžÑ‘Nªu"
+ DLC_dlc095_TOOLTIP_DELAYED:0 "ÿqšSpeÏe²\nÿ¾‹Ëz—RYeîOO\nÿOÔk)RšN&S^—„v°eûN¡Rh\nÿwm×vqQŒTýV\nÿ×e0‚\nÿwmN®pûQ"
+ DLC_dlc096_TOOLTIP_INSTANT:0 "OÔk)RšNwm›QUSMOS"
+ DLC_dlc096_TOOLTIP_DELAYED:0 "ÿ17ÍyOÔk)RšNýV¶R„v°e9‚êS!j‹W"
+ DLC_dlc097_TOOLTIP_INSTANT:0 "ÏgÏgSwm›QUSMOS"
+ DLC_dlc097_TOOLTIP_DELAYED:0 "ÿ17ÍyÏgÏgSNS^—ýV¶R„v°e9‚êS!j‹W"
+ DLC_dlc098_TOOLTIP_INSTANT:0 "OÔk)RšNF–›QUSMOS"
+ DLC_dlc098_TOOLTIP_DELAYED:0 "ÿ20Íy R)R‰šN0<hÉb³u¾0³uætÉbŒTwm×výV¶R„vUSMO!j‹W"
+ DLC_dlc099_TOOLTIP_INSTANT:0 "ÄžÑ‘Nªuó—PNS"
+ DLC_dlc099_TOOLTIP_DELAYED:0 "ÿ:NOÔk)RšNýV¶RŒTwm×výV¶RÆQY„v	Nag°eó—h"
+ MAPMODE_EXPANSION:0 "DEBUG: ¨cPƒibUSS"
+ MAPMODE_CONTENT:0 "DEBUG: ¨cPƒ…Q¹RS"
+ MAPMODE_UNIT:0 "DEBUG: ¨cPƒUSMOS"
+ MAPMODE_MUSIC:0 "DEBUGÿ¨cPƒó—PNS"
+ RED_QUEEN_DLC_OWNED:0 "§YòTåb	g§!"
+ RED_QUEEN_DLC_FREE:0 "§YMQ9§!"
+ RED_QUEEN_DLC_ENABLED:0 "§YòT=T(u§!"
+ RED_QUEEN_DLC_ENABLED_BY_HOST:0 "§YIN:gòT=T(u§!"
+ RED_QUEEN_DLC_DISABLED:0 "§R*g=T(u§!"
+ RED_QUEEN_DLC_DISABLED_BY_HOST:0 "§RIN:g*g=T(u§!"
+ RED_QUEEN_DLC_NOT_OWNED:0 "§R*gåb	g§!"
+ VIEW_ON_STORE:0 "(WFU—^-Någw"
+ LANDING_INTERESTING_NATION:0 "(W$DLC|Y$-N$TAG|Y$=fN*N	g±„v	éb"
+ LANDING_dlc010_TEXT:0 "IN‰yr'`ÿ\nÿ–:g°eNLu\nÿú^ËzÊSnbo–kl†˜\nÿ:NŽ2mŸSOOlÐc›O°e:g6R"
+ LANDING_dlc010_FLAVOR_TEXT:2 ">mcÛVX‚9‚êS¢c0t*gåw„vNLuÿÑS°s°e'YF–mN¸‹=fN*NhQ°e„vÿŒRhQ–:g„vŽ2m'YF–0\n\nVg)YXTöemNÐc›O†NnboŸSËYŽ2mýV¶Rv^ŒcµcèK„TwßvŒTìr	g„vèK„tõV„vïSýw0\nùR–klwegô‹ÿ°s(WïSåN	ébnboN*N–kl†˜ýV¶Rÿôv¥cµc6R°eNLu-N–klw„v‹TÐ0"
+ LANDING_dlc018_TEXT:0 "IN‰yr'`ÿ\nÿÇô•ŒKbµk6R.8f‰Nïz\nÿÁy c\nÿ8f,gàW\nÿ8flQøS\n\n˜Yyr'`ÿ\nÿ9e„U†N…QF–8f\nÿpS¦^YeTINïSåN	éb*NºNáOðN„v^yGy\nÿîOú^Ð³l"
+ LANDING_dlc018_FLAVOR_TEXT:2 "0ýVÌRº‹0ibUSSZw&qŽN8f©sÕlÿ©‹¨`¾‹ÕlüRVNLu„v0ÌRAmeQ¨`„vpS0\n\n,gibUSSAQ¸‹¨`ØyÆR6R.8f²Qz0PwmN«R c0‚–ƒzÖS¨`Þz‰NùRKb„v)RÊv0)R(uŒT¦užX:V8fÞz‰N›RÊSRú^°e„v8f,gàWÿ©‹¨`'t'tŒcµc8f0\níQP¨`°eÑZÖS„v0ÌRÿ¨`ïSåNSKb4YËRÕˆ„v¨PYÑ‘•beQ0RO'Y„våTzú^¾‹-NÿSìbúWSÐ³l0Ï‚OëXÐ³lŒTôTÿblšÐ³l0"
+ LANDING_dlc021_TEXT:1 "IN‰yr'`ÿ\nÿqQŒTýVN?e\nÿFUNqQŒTýV„vhQ°e>mû|\nÿ<S·VpQqQŒTýV„vyrŠk	>N\n\n˜Yyr'`ÿ\nÿùR—bTINËzªR„v°eLˆ¨R\nÿFUNqQŒTýVïSåNú^Ëz8fÙz\nÿqQŒTýV„v°e‹NöN"
+ LANDING_dlc021_FLAVOR_TEXT:2 "0qQŒTýV0Nw<wŽNßu»l`O„vºNlŒTýV¶R„v°e–˜Nìryr„v¹eV0\n\nÙNibUSSNÅNVeQ†NNÍy°e„v?eœ^bVVÿmN:NqQŒT?eSOŒTN6R?eSOÐc›O†N°e„vïS›O¢c0t„vtõVÄuåNÊS8nbCQ.t00qQŒTýV0AQ¸‹©s¶R(WibUSvQ8f^ýV„vTöeÿSOŒšhQ°e„v·ƒÖS¢u)R„v¹eVÿÎNwÐcØš»ltŒT¢c0t„vz‚=g4ls^0"
+ LANDING_dlc027_TEXT:0 "IN‰yr'`ÿ\nÿ	NASt^b‰NåNÊS—RYeTwßv„vìryr:g6R\nÿ:Ni—‹Twbÿ¦Nb=fG•‹Si—‹T\nÿzôVÿåNÊSS`S†˜:Sûy²NÙub‰NßvËS\nÿN.•GSµuNb	g0‚–\nÿ9e„U„vY²N	y˜\n\n˜Yyr'`ÿ\nÿ:VLˆ›Q\nÿ>eV8hÃV"
+ LANDING_dlc027_FLAVOR_TEXT:2 ",g!kibUSZw&q(W	NASt^b‰NåNÊSžX R^yCgN?eœ^KNô•„v?e»lùR—bÿS+T9eÛ„v8nb:g6RÿSb‰N>e(W`OýûRßu»lŒTcƒw„vOHQMOn0\n\n9eÛ„vwmbŒTŒRhQ„vè–µc6RasTNwÜw)R„v1ûNŒRhQ>e(W`O©w0`OO	ébìrêb—VÜw)Rÿ¦Nbcg`OßvËS„vb—e›Rÿ`O„v	ébS³QšR`O„v^ýVýw&T•EN0"
+ LANDING_dlc033_TEXT:0 "IN‰yr'`ÿ\nÿêšRINýV¶R¾‹¡‹hV\nÿ³uætyrS0àV‚„ŒT›sÅ–—RYe„v°e:g6R\nÿûRŒbÄžÑ‘NÎW\nÿÄžÑ‘0‚–\nÿO(u8f0‚–	Ucwm×v\nÿXb·V‰)RšN¯eag¦u"
+ LANDING_dlc033_FLAVOR_TEXT:1 "(u°e„výV¶R¾‹¡‹hVRú^N*NŒRhQT`O8nbÎ˜<h„výV¶RÿƒRAQ¸‹(WbyV-NêšRINN*NwËYýV¶Rÿv^ÛNekžX:VEU4òTÏu¥cÑàeP–„vïS©s'`0\n\nÙ*NibUS„vNwÍ‘ŽN-NŽ2mŒTWSŽ2mVeQ†N°e„v—RYeÿw	gqVÍT›R„v¢c0tgR:WScb`O„v°e³QšR<P—VN*NýV‹sbVgw0jO:N?–yQyrKQºNÿ©‹¨X‰åTs^ŸSãgŽN`O„vßu»lÿFONšR‰	g³Y„vD–¸^ýVýV‹segmyNy`O2a`„v^y0SV'k2mºNñmeQšNlšN—göeÿsQŽN1YK„„vÎW^ŒT^yGY„v·UÉl„v.OŠ¥c5Žwó0"
+ LANDING_dlc039_TEXT:0 "IN‰yr'`ÿ\nÿ®‹O\nÿ°eYeŒTiOYe„v°e—RYe:g6R\nÿ°e„v^SýV’N¨R\n\n˜Yyr'`ÿ\nÿIY.s¦^\nÿ^y1WWlš^ýV„vê1u^"
+ LANDING_dlc039_FLAVOR_TEXT:1 "08^Æ‹0ibUSSµOÍ‘ŽNY²NŒTýV¶R…QèÑSUS0Ù*NibUSSAQ¸‹`OŒTs^ÑSUS`O„výV¶Rú^ËzN*N0Øš'Y0„v^ýVÿTöemNÙu`OåTwQeggbLˆO'Y„vY²N09eØS†N8nb„v—RYeyr'`v^žX R†N8nb„vñm¦^ŒT	g±„vYBg'`0\n\nN`O„v^SýVÆRRTjOÿÇ’N¨RŒTÕläNôf‹Y0Wµc6RÖNìN„výw›RÿùRŽNûNUONTINËzªR6R„v…Qè—e‰NSb²NS„vºNegô‹ý=fÅ`tKN-N„v0"
+ LANDING_dlc046_TEXT:0 "IN‰yr'`ÿ\nÿ°e6–BS\nÿY²N„vÍSˆ™\nÿŒ<hÌ‘„vøv‡áOðN\nÿ°e„vèK„:g6R\nÿŸSOOl?eVr\n\n˜Yyr'`ÿ\nÿHQÛ‡eS„vlØS\nÿ9eÛ„vô•Œ"
+ LANDING_dlc046_FLAVOR_TEXT:1 "0åT(„KQ0ibUSSsQèl„v=f8ngrlÏeŒTN'k0ÙNibUSAQ¸‹`OjO:NN*NèK„ýV¶R«R c`O„v»ýVåNÝOc`O„vèK„àVÚ‹ÿv^Çq cÖNìN„vW0WåNžX:VžR›R0(WŽb=gÛekb9ei—bN*NšRES„výV¶R0\n\nTýV„v…Qè?e»l–Nw6–BS„vúQ°swImÃwegÿÙ›N6–BSãNhˆNw:V'Y„v)RÊvÆ–âVÿ‚YâlpQ-Ëzv–›R'Y5ÏeŒTIƒŸSNN,gibUSSTT„våT(„KQ0ôfæ‹Æu0Wµc6R`O„výV¶R„v‡eSŒTŸSOOlÿåNÊSN`O„vAIßvËSôf'tÆR0WTjO„výw›Rÿtã‰ÖNìN„vîvhS©‹`OUS°súQ`OÃVÌ‘„v|V—V'Y^0"
+ LANDING_dlc055_TEXT:0 "IN‰yr'`ÿ\nÿØšµuwm›QûN¡R\nÿôTôTÌ‘wm×v\nÿcYÇ–cO›QâV\nÿR«N0WþV\n\n˜Yyr'`ÿ\nÿ8fTwßv\nÿ°e„vô•ŒLˆ¨R\nÿöeô•¿uÞV>e\nÿÍSô•ŒLˆ¨R"
+ LANDING_dlc055_FLAVOR_TEXT:1 "(W0bìN„vwm0ibUSS-Nÿ'kF–Î˜‘NIVSèla›RlT†Nwmm0Ù*NibUSS:N©s¶RÐc›O†NôfY„vwm›QŒT›Q‹NåTwQÿ&^†˜`O„výV¶RpTÑãNNLu0\n\nŒ˜T`INÿ0bìN„vwm0VÛ†NNwmbŒT8fµc6RøvsQ„v°eû|ßu0`O„v0‚–„v›RÏ‘SÖS³QŽN`O„výV¶RïSåNÛbßR„v4lKb„vpeÏ‘ÿ`O„v9‚êS°s(WïSåN«ˆKˆNûN¡RŒT0W:SáTI0dkYØ	gRú^8fTwßv„v°e	y˜åNÊS'YÏ‘vQÖN9eÛ0"
+ LANDING_dlc060_TEXT:1 "IN‰yr'`ÿ\nÿR:V\nÿTINyr( & S†˜yr(\nÿM‘vP & Dd?e\nÿïSåN:N^SýVcšRyršR„vböeLˆ:N\nÿÜbirYeýV¶Rã‰•TÜbir\nÿÑynfyrýV¶Rã‰•1W0W\n\n˜Yyr'`ÿ\nÿi—‹TqQŒTýV„v°e>mû|û|ßu\nÿeY¯eüf^ýV„vìryr?eSO\nÿMO\nÿ'^,<P"
+ LANDING_dlc060_FLAVOR_TEXT:2 "0ºNCg0Ç°e„vyr'`:N'kF–Î˜‘NIVžX R†Nñm¦^ÿSìbR:V:g6R0ßu»lwŒTM‘vP„vyr(û|ßuÿåNÊSW„TýV¶R„vìr	g?eSOŒT>mû|0\n\nR:V:g6RAQ¸‹gÑS¾„výV¶RO(u°e„vY²NKbµkegÁwëbVñ‹1VS„v»ýV0çuíuÑSUSN»Sÿ&TR1SO1Y»SÙegKNNf„výw›Rÿ"
+ LANDING_dlc066_TEXT:0 "IN‰yr'`ÿ\nÿ†SòSöeãN & ÄžÑ‘öeãN\nÿ°e„v-NNS^ýV:g6R\nÿg!ýV\nÿ°e„våe,gU^œ^:g6R\nÿán2mkQ×e\nÿybÏ‘Y²NÍdjO"
+ LANDING_dlc066_FLAVOR_TEXT:1 "SV'k2mbaba0WÎNÑž—f-NpúQeg„vöePÿN¹eçuíuê•wNwIQ’‚0fg„v‹sµ^ßu»lNwNGrÌRv™w^y1W„vW0Wÿwåe,g„v›Q–ìNRzNwSOb—„vgÅˆ(Wb:WN®SNg0ø‹^yPÙušN2m0ÌRŒT‡eS0`OM‘—VN)Y‹TTÿ\n\n†SòSöeãNŒTÄžÑ‘öeãN:NöeãN„vÑSUS&^eg†N°e„vyr¹pÿ:N©s¶RÐc›O†NNT„vcbŒTNT„vVY±R0\n\n-NNS^ýV°s(Wåb	gNw:V'Y„v°e:g6RÿFO‰SÃV‚Yœg‡v^„v)Y‹TNM–—V*YYÿhTôV„v¿R›RïSåN±RðyêñT„v)Y‹Tÿv^åN°e‡v^„v«ŽýNŒBlµc6R-NýVÿ"
+ LANDING_dlc072_TEXT:0 "IN‰yr'`ÿ\nÿ™l‡výV & W¯elQýV\nÿ1WÏP\nÿýINYe\nÿSûQ›Q\nÿ‰=O)RšNÓbRƒ:S"
+ LANDING_dlc072_FLAVOR_TEXT:1 "0,r	NWlš0=f'kF–Î˜‘NIV„v,rN*N‰lxmVibUSSÿNèlŽN:NÄOW¯eÊSvQ‡eSŒT0W:S»¦Sb.ôfñmeQ„vSOŒšÿv^VeQ°e„vKbµkegùRÄOW¯e^ýVLˆO¾|^y0?e»lŒT›Q‹Nµc6R0\n\nNNckYeýINYeÛLˆ°e„v’N¨R0ST†Ú‹lS:N?e»lCg›R0(u°e„v?eœ^Irµuib'YýV¶RCg›R0VßR:V'Y„v°e›Q‹NUSMO0–kl‰=O)RšN¹†uÿ©R`O‰vN™l‡vKNMO0"
+ LANDING_dlc077_TEXT:0 "IN‰yr'`ÿ\nÿ-NNýV¶R„vyrŠk?eSO\nÿ8f?eVr\nÿO¯epQfR>m\nÿF–›QLwN¦^\nÿeRJRÑSUS¦^\nÿOKQTXz6e\n\n˜Yyr'`ÿ\nÿ6w<SRÌ‘\nÿ.OYeLˆ¨R"
+ LANDING_dlc077_FLAVOR_TEXT:1 "	gòSåNeg-NN¥wƒl„vqS7ŒŒT8fï¿u1S8TV†NÄ–ÃVÃRÃR„vVgw0°s(W–Nw-NNªu„vˆmÿ(WÙ›NäSw„vW0WNÑSUSúQ†N°e„v¿R›R0\n\nÑãN„v-NN0W:S–Nw†SòSÑSUSÎeg†N°e„v³Q®‹ŒT:gGÿ0‡ef„vGdîr0žX:V†N(W-NN0W:SýV¶R„vSOŒšÿTöemN:NNLuT0W„výV¶RÐc›O†N0NÌR„v°e:g6R0"
+ LANDING_dlc084_TEXT:0 "IN‰yr'`ÿ\nÿ°e„vNR ˜ûN¡R\nÿåTNi—‹T\nÿR°e¦^\nÿ1WlQ—R\nÿwm›QfRô‹\nÿ`noR«N"
+ LANDING_dlc084_FLAVOR_TEXT:1 "15Nªu-Ngÿñ‚<hpQàV'k2m'YF–N„vb‰Nw«ˆJR1Vÿ¸1V„vTINŒT*jZ„v5ÏeùRsSS0Reg„v‰LqNàeNbåw0ÙS=fNagp‚¾–„vSïÿÏu†S…Qb0—RYe¨RqN0'YkpŒTäNºN4S,S„vqQIN¦Tw0FO=fÙ*NTegb:N'YNR ˜„výV¶RSOßu»lN*NM^hQt„v8f^ýVÿ“úQñ‚ýVê1u„vtó`Sìb`ó`ŒT8fTöeOêñTb:NNLuNg:V'Y„výV¶R0\n\n0ßu»l'TÿNR ˜<SšN0=fN*NNèlŽNNR ˜²›S†SòSŒTåTNi—‹Téegkp±‚„vxmeQVibUSS0ßu»lñ‚<hpQ0Ï‚<hpQb1rSpQ‹sýVÿ&^†˜ÖNìNpTO'Yÿ"
+ LANDING_dlc090_TEXT:1 "IN‰yr'`ÿ\nÿ?eœ^9ei—\nÿ8flQøS•bD\nÿ°e„vpS¦^ûN¡RŒT6–BS\nÿyr¸‹lQøS\n\n˜Yyr'`ÿ\nÿîO9e„v?eVr6R¦^\nÿè–cR\nÿ°e„v®O±6R¦^\nÿ–klw„v°e(u"
+ LANDING_dlc090_FLAVOR_TEXT:1 "N*NÌR	g†SòSŒT‡eS„v0W:STýwYµc6RvQ8f„v^ýVbú‹èT'Y„vir(0ÌR0‰N:YpS¦^„v†˜WŒT0ÌR—‰Y²NKbUŒTN›N›Q‹N›RÏ‘0FO=f(WÙ*NNLuNgZ±”„v^:WNÿŒ(WÙ:WO'Y„v8nb-N)R(uŒbTÿ\n\n0¾id0Ðc›O†NNÍy°e„v¹eÕlegšRINN*N?eœ^ÿKS¡rVeQ†N?eœ^9ei—0NT„v9ei—ÄuTÍNµNuNT„v?eœ^N*N‹sýVïSåN	ébˆcCgÙu^yLwºNXT¡rtŒT-N.YÆ–CgÿbSCg›R²NÙu®‹OŒTJR1V5Ïe0\n\n‚YUOßu»lÿ‚YUOibUS`O„vßu»l`OïSåN(u0¾id0ZPúQ	éb0"
+ LANDING_dlc095_TEXT:0 "IN‰yr'`ÿ\nÿOÔk)RšN&S^—ýV¶R„v°eûN¡Rh\nÿqšSpeÏe²\nÿ¾‹ËzîOO\nÿwm×vqQŒTýV\nÿ×e0‚\nÿwmN®pûQ"
+ LANDING_dlc095_FLAVOR_TEXT:1 "åT&O^ïSýwN=f,rN*NÿFOÖN=fgÍ‘‰„v0ÖN0R°e'YF–„v*‚LˆˆVëV1S«ˆ¸„¸„åeN„vÿ&^†˜Ù*NO'Y„v)YINYe‹sýV(W'k2m?e»l-NÃVßu»l†NN*NYNªu„v‰ísYr‹sCgNb)R(u0?–yQyrKQ„vÄžÑ‘ŒTØyœ„v‹vö”`YšR†NÎN¨X‰åT0Rlš·VÌ‘0Rlš<SÉb„vhQt^ýV„vúWNx0ÎNQVgÐ¨R0RÍsR9‚–ÿÍ‘)n±›Nú^Ëz^ýV„våePRÿ"
+ LANDING_dlc001_TEXT:0 "IN‰yr'`ÿ\nÿ(uŽNÕlpQ‰ŒTNR ˜0W:S11*NýV¶R„vìryr„v1µuUSMO!j‹W"
+ LANDING_dlc001_FLAVOR_TEXT:0 "Ù*NUSMOSûm R†N°e„vUSMO!j‹Wÿ:NÕlpQ‰ŒTNR ˜0W:S„výV¶RÐc›O†NŒvt^b‰N„vSOŒš0"
+ LANDING_dlc002_TEXT:0 "IN‰yr'`ÿ\nÿeY¯eüf0âl¯eŒTlšFzœKQ„vìryr‘šuQ!j‹W"
+ LANDING_dlc002_FLAVOR_TEXT:0 "Ù*NUSMOS:NeY¯eüfÿâl¯eŒTlšFzœKQžX R†Nìryr„v‘šuQÎ˜<h"
+ LANDING_dlc003_TEXT:0 "IN‰yr'`ÿ\nÿËzv–›R0âlpQŒTÄOW¯e„vìryr‘šuQ!j‹W"
+ LANDING_dlc003_FLAVOR_TEXT:0 "Ù*NUSMOSžX R†NËzv–›RÿâlpQŒTÄOW¯eìryr„v‘šuQÎ˜<h"
+ LANDING_dlc004_TEXT:0 "IN‰yr'`ÿ\nÿ28*N°e‹NöN\nÿ64*NIN˜˜‹NöNþVGr\nÿ3*N°e³Q®‹"
+ LANDING_dlc004_FLAVOR_TEXT:0 "Ù*NS‹WibEQSýwYÐc›Oìryr„v‹NöNŒT³Q®‹egÐcGSnboFz¯e—gýV¶R„vSOŒš0"
+ LANDING_dlc005_TEXT:0 "IN‰yr'`ÿ\nÿ57*N°e‹NöN\nÿ10*NIN˜˜‹NöNþVGr\nÿ°e„vŽýV3µuŒT4µuuQ!j"
+ LANDING_dlc005_FLAVOR_TEXT:0 "Ù*NÎ˜<hSÙuŽýV&^eg†NôfY„v…Q¹RŒT¾|^yÿ:NÙ*NO'Y„výV¶RÐc›O†N¨R`„v°e‹NöNŒTìryr„vUSMO!j‹W0"
+ LANDING_dlc006_TEXT:0 "IN‰yr'`ÿ\nÿ16*N°e‹NöN\nÿ16*N°eûN¡R\nÿ13*NIN˜˜‹NöNþVGr\nÿ4ÍyÜb`S­^„v°euQ!j"
+ LANDING_dlc006_FLAVOR_TEXT:0 "Ù*Nyrr‚SZw&qŽNÜb`S­^ÿÐc›OôfYyrr‚åN R:VSOŒšŒT=ctQÜb`S­^^ýV0"
+ LANDING_dlc007_TEXT:0 "IN‰yr'`ÿ\nÿ8*N(W0WbV0WþV!jVïSÁ‰„v°e0Wh"
+ LANDING_dlc007_FLAVOR_TEXT:0 "Ù*NS:N0WþVûm R†N°e„v0WWWÿÇ:N8nb0WþVÐc›OôfY„vŸRýwegžX:V8nbSOŒš0"
+ LANDING_dlc008_TEXT:0 "IN‰yr'`ÿ\nÿ3–™Üb`S­^ŒTeY¯eüf„v°eòfîv"
+ LANDING_dlc008_FLAVOR_TEXT:0 "0VgTëXfWN!X0S+T	N–™°e„vLkòfÿI`¡‹ 10 RŸ”ÿ1u Andreas Waldetoft jOòf0Ù	N–™LkSO(W`OåNÜb`S­^beY¯eüfÛLˆ8nböe­d>eÿ(uåNžX:V8nbSOŒš0Ïk–™LkòfSO:N`O(W‰N:YÜb`S­^W0WöeÐc›Oìryr„vSOŒš0"
+ LANDING_dlc009_TEXT:0 "IN‰yr'`ÿ\nÿ11*N(W0WbV0WþV!jVïSÁ‰„v°e0Wh"
+ LANDING_dlc009_FLAVOR_TEXT:0 "Ù*NS:N0WþVûm R†N°e„v0WWWÿÇ:N8nb0WþVÐc›OôfY„vŸRýwegžX:V8nbSOŒš0"
+ LANDING_dlc011_TEXT:0 "IN‰yr'`ÿ\nÿ16Íy°e'YF–N‰ísYrŒTa„„Yr„v°euQ!j"
+ LANDING_dlc011_FLAVOR_TEXT:0 "VgwUSMOSýwÐcØš'kF–Î˜‘NIV„vSOŒš0Ù*NS:N‰šNb(W°e'YF–„vOÔk)RšNUSMOžX R†N°e„vUSMO!j‹W0"
+ LANDING_dlc012_TEXT:0 "IN‰yr'`ÿ\nÿ8ÍyŽ2mWW„ýV¶R„v°euQ!jÿSìbRWúW0fmA›ŒTÏ‚Ïe"
+ LANDING_dlc012_FLAVOR_TEXT:0 "å‹USMOS:NàQ*NSŽWW„ýV¶RžX R†Nìryr„vUSMOYbV0"
+ LANDING_dlc013_TEXT:0 "IN‰yr'`ÿ\nÿ3–™Ž2mWW„ŒTåb	gwmYwýNýV¶R„v°eòfîv"
+ LANDING_dlc013_FLAVOR_TEXT:1 "å‹ó—PNSS+T3–™1u‰R·VÈpšN¯e·ætS·VXb+YyrRjO„v0SÑ11RŸ”„v˜YòfîvÿåN R:V°eNLu„vSOŒš0"
+ LANDING_dlc014_TEXT:0 "IN‰yr'`ÿ\nÿ1–™ŽN12g­d>e„v0:N‚‚åežXûm0kPN„vyrŠkòfîv"
+ LANDING_dlc014_FLAVOR_TEXT:0 "å‹ó—PNSÐc›O†NN–™1u‰R·VÈpšN¯e·ætS·VXb+YyrRjO„vyrŠkòfîvÿƒR=fåN0ê•®N„v1WÞ‹‚‚0ŒT0nfN0kŒ0:NúWNxRjO„v0"
+ LANDING_dlc015_TEXT:0 "IN‰yr'`ÿ\nÿ10ÍyŽ2mWW„ýV¶R„v°euQ!jÿSìbyKQ¯e0³uæt—ŒTeY	T^æt"
+ LANDING_dlc015_FLAVOR_TEXT:0 "å‹USMOS:N10*NŽ2mWW„ýV¶RžX R†N°e„vUSMOYbV0"
+ LANDING_dlc016_TEXT:0 "IN‰yr'`ÿ\nÿ16ÍyÅNúQ°sŽN°e'YF–N„vñ‚<hpQŒTÕlpQ‰„v°euQ!j"
+ LANDING_dlc016_FLAVOR_TEXT:0 "Ù*NUSMOSSìb‰šNb(W°eNLu„vñ‚<hpQŒTÕlpQ‰USMO„v°eUSMOþVbV0"
+ LANDING_dlc017_TEXT:0 "IN‰yr'`ÿ\nÿ21ÍyFz¯e—gýV¶R„v°eŒ˜î•IuÏP"
+ LANDING_dlc017_FLAVOR_TEXT:0 "ÇFz¯e—gŒ˜î•–wÏPSÿ«N×SjO:NN*NFz¯e—gýV¶R„v0NÌRSOŒš0Ù*NSžX R†N21*N°e„vŒ˜î•–wÏPÿ:N±›NjO:NFz¯e—gýV¶RžX R†NN*Nìryr„vYÂ‰ŒTaÉ‰0"
+ LANDING_dlc019_TEXT:0 "IN‰yr'`ÿ\nÿ12ÍyFz¯e—gýV¶R„v°e9‚êS!j‹W"
+ LANDING_dlc019_FLAVOR_TEXT:0 "Ù›N9‚êSSOžX:V'kF–Î˜‘NIV„vÆ‰É‰8TV›R0"
+ LANDING_dlc020_TEXT:0 "IN‰yr'`ÿ\nÿ16 Íy?–Éb!0íp±šN0TKQŒTú‹+YåTW·V„v°euQ!j"
+ LANDING_dlc020_FLAVOR_TEXT:0 "8fýV¶RUSMOSýwÐcØš'kF–Î˜‘NIV„vSOŒš0Ù*N…Q¹RS:N?–Éb!0íp±šN0TKQÊSú‹+YåTW·VžX R†Nìryr„vUSMOYbV0"
+ LANDING_dlc024_TEXT:0 "IN‰yr'`ÿ\nÿ12 ÍymR RÉb0×kbY6w±KOW0åNÊSpS¦^'Y:S„vpS¦^YebFz¯e—gýV¶R„v°euQ!j"
+ LANDING_dlc024_FLAVOR_TEXT:0 ",gUSMOS:NpS¦^ýV¶RÿSìbmR RÉbŒT×kbY6w±KOW	ÿûm R†Nìryr„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc025_TEXT:0 "IN‰yr'`ÿ\nÿ12ÍypS¦^ýV¶R„v°e9‚êS!j‹W"
+ LANDING_dlc025_FLAVOR_TEXT:0 "Ù›N9‚êSSOžX:V'kF–Î˜‘NIV„vÆ‰É‰8TV›R0"
+ LANDING_dlc026_TEXT:0 "IN‰yr'`ÿ\nÿ5–™°eòfîv"
+ LANDING_dlc026_FLAVOR_TEXT:0 "bìNŽ÷‹N=e¡r&VPNâVegUV6R†NN›N°eòfîvÿƒRìNS«ˆûm RÛ,gó—PNSåN0NÌR'kF–Î˜‘NIV„vŸSðX&^0\n\nÙ›N°ePNòfI`öe•¦u26RŸ”ÿ1uAndreas WaldetoftçT™Y1Œ™QÿNèR=fegêEU2„vŸSòf9eÿNèR=fhQ°eŸSRòfîv0"
+ LANDING_dlc028_TEXT:0 "IN‰yr'`ÿ\nÿ12Íy°e„v'k2mýV¶R2µuuQ!jÿSìb<S·VpQ0ÕlpQ‰0ñ‚<hpQŒTÑžîh"
+ LANDING_dlc028_FLAVOR_TEXT:0 ",gUSMOS:N'k2m—RYe9ei—ŒT	NASt^b‰NöegMOŽN²Qz8hÃV„v‰'k0-N'kýV¶RžX R†Nìryr„vuQ!jÿ:NÙNöeãNÌwofûm R†NìrwQyrr‚„vÆ‰É‰Heœg0"
+ LANDING_dlc029_TEXT:0 "IN‰yr'`ÿ\nÿ12Íy'k2mýV¶R„v2µuuQ!jÿSìb‰ísYr0Ye—RýV0eY0W)RŒTLNSÆY"
+ LANDING_dlc029_FLAVOR_TEXT:0 ",gUSMOS:N'k2m—RYe9ei—ŒT	NASt^b‰NöegMOŽN²Qz8hÃV„v‰'k0-N'kýV¶RžX R†Nìryr„vuQ!jÿ:NÙNöeãNÌwofûm R†NìrwQyrr‚„vÆ‰É‰Heœg0"
+ LANDING_dlc030_TEXT:0 "IN‰yr'`ÿ\nÿ5ag(Wb‰Nöe­d>e„vó—h"
+ LANDING_dlc030_FLAVOR_TEXT:0 "bìNŽ÷‹N=e¡r&VPNâVegUV6R†NN›N°eòfîvÿƒRìNS«ˆûm RÛ,gó—PNSåN0NÌR'kF–Î˜‘NIV„vŸSðX&^0\n\nÙ›N°ePNòfI`öe•¦u29RŸ”ÿ1uAndreas WaldetoftçT™Y1Œ™QÿNèR=fegêEU2„vŸSòf9eÿNèR=fhQ°eŸSRòfîv0"
+ LANDING_dlc031_TEXT:1 "IN‰yr'`ÿ\nÿ5*N°e„vó—hÿSìb1–™MROYIN˜˜„vÑ‘^S÷mó—Hr,gŒT4–™böeòfîv"
+ LANDING_dlc031_FLAVOR_TEXT:0 ",gó—PNSåNTobias GustafssonNb™Q„vPNòf:Nyrr‚ÿ(uúWŽN8nb…QgzúQ„vPNòf6RjO„vÑ‘^S÷mó—0NÌR†N8nb0"
+ LANDING_dlc034_TEXT:0 "IN‰yr'`ÿ\nÿ12ÍyWSŽ2mŒT‰R,r¯eWW„„v°euQ!jÿSìbpS R0lšnfRŒTþV®vWSôT"
+ LANDING_dlc034_FLAVOR_TEXT:0 ",gUSMOSžX:V†NY*NWSŽŸSOOlýV¶RUSMO„vÆ‰É‰N„vîTV'`ÿSìbpS R0lšnfRŒTþV®vWSôT0"
+ LANDING_dlc035_TEXT:0 "IN‰yr'`ÿ\nÿ12Íy-NŽ2mWW„„v°euQ!jÿSìb?–yQyrKQ0›sÅ–ŒTs|¯eyrKQ"
+ LANDING_dlc035_FLAVOR_TEXT:0 "Ù*NUSMOSûm R†N-NŽ2mWW„„v°euQ!jÿSìb?–yQyrKQÿ›sÅ–ŒTs|¯eyrKQ"
+ LANDING_dlc036_TEXT:0 "IN‰yr'`ÿ\nÿ5ag(WŒTs^–klöe­d>e„v°eòfîv"
+ LANDING_dlc036_FLAVOR_TEXT:0 ",gó—PNSûm R†N”N–™upanŽN¢c0töeãN„v°eLkòf0ŒTs^öegÿ(W°eÑS°s„vW0WNú^Ëzw–kl0WöeÿÙ›N°eLkSê¨R­d>e0"
+ LANDING_dlc037_TEXT:0 "IN‰yr'`ÿ\nÿ5–™°e„vÑ‘^SÎ˜÷mó—òfîv"
+ LANDING_dlc037_FLAVOR_TEXT:2 "0'kF–Î˜‘NIVÿªg®p0Ÿ¹pN¢”Á” Vol.20=f,rŒNè'kF–Î˜‘Nû|R-N„vÑ‘^S÷mó—TÆ–0,gwSS+T”N–™‚‚OY:V²R0>e'Y†N¯eðX„v÷mó—Lkòf0\n\n°e„vÑ‘^SPNòfîvúWŽN'kF–Î˜‘NIV-N„vó—PN6RjO0"
+ LANDING_dlc038_TEXT:1 "IN‰yr'`ÿ\nÿÇåNNibUSÿZw&qŽN†SòS•³l-N„vÍ‘‰sY'`ÿ\nÿ100*N°e„v†SòSN‹sg‹NöN\nÿ4.V‹NöN˜˜PgÒcþV\nÿ22.V(usYŒ˜î•4YÏP"
+ LANDING_dlc038_FLAVOR_TEXT:0 "0†SòSN„vsY'`0Ç:N8nbÐc›OTÍy†SòS‹NöNŒTŒ˜î•egžX:V'kF–Î˜‘NIV„v†SòSaÿÊVìb†N0WþVN„vNb	gÒ‰K„ŒTNb	g†SòSöeg0"
+ LANDING_dlc040_TEXT:0 "IN‰yr'`ÿ\nÿ16Íy°e„v^yCgýV¶RuQ!jÿSìbag˜‘šëXâV0Ye—RýVŒTISb–‘šëXâV"
+ LANDING_dlc040_FLAVOR_TEXT:0 "Ù›N—RYeýV¶R„vìryrUSMO!j‹W0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc041_TEXT:1 "IN‰yr'`ÿ\nÿ16Íy°e„viOYeýV¶RuQ!jÿSìb·^Ðcÿ'YŠŒT‰Ï…0"
+ LANDING_dlc041_FLAVOR_TEXT:1 "Ù*NUSMOS:N·^Ðc0'YŠŒT‰Ï…IriOYeýV¶RžX R†Nìryr„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc042_TEXT:0 "IN‰yr'`ÿ\nÿ17Íy°e„v'kšNýV¶R„vuQ!jÿSìbñ‚<hpQÿ<S·VpQÿeY¯eüfŒTÄOW¯e"
+ LANDING_dlc042_FLAVOR_TEXT:0 ",gUSMOS:NÙNöeg†SòSN„v'YýVûm R†N°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc043_TEXT:0 "IN‰yr'`ÿ\nÿ15Íy°e„v-N'kýV¶RuQ!jÿSìbÕlpQKQyÿIl!XŒTLNSÆY"
+ LANDING_dlc043_FLAVOR_TEXT:0 ",gUSMOS:N^y1WWlš^ýV-NNèRgÍ‘‰„vê1u^ûm R†N°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc044_TEXT:0 "IN‰yr'`ÿ\nÿ5–™Kairi Blodeuyn SawlerjOòf„v°eòfîvÿupaegnŽNšN2mLkòf"
+ LANDING_dlc044_FLAVOR_TEXT:2 "Ù*Nó—PNSÎN'kF–Î˜‘NšSÍ‘„v†SòSIuwS-NrlÖSupa0jO:N,rN*N1u1r‹Yw>y:S6RjO„vó—PNSÿƒRVŸ†NNGr°e)Y0W0\nÙ*Nó—PNS„vjOw=f'kF–Î˜‘N„vÂríp1r‹YwaSOÌ‘·0tÒRÿ…Q¹R×S†N.OßuNšNËe‹V„v=TÑS0"
+ LANDING_dlc047_TEXT:0 "IN‰yr'`ÿ\nÿ32Íy(uŽNRSKQ‰šN0KQÌ‘s|šN0ÄreYYWåNÊSNbâlWíp„v°eUSMO!j‹W"
+ LANDING_dlc047_FLAVOR_TEXT:0 ",gUSMOS:N×k»Ñžwm„vÛV*NýV¶Rûm R†N°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc048_TEXT:0 "IN‰yr'`ÿ\nÿ32Íy(uŽNÑ‘^WlýV0ú‹Öv0^(g?QŒTLNyQ+RKQ„v°eUSMO!j‹W"
+ LANDING_dlc048_FLAVOR_TEXT:0 ",gUSMOS:N'kšNIƒŸSN„vÛV*NÍ‘‰ýV¶Rûm R†N°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc049_TEXT:0 "IN‰yr'`ÿ\nÿ12Íy(uŽNñ‚<hpQ0ÕlpQ‰ŒT‰ísYr„v‘šuQ!j‹W"
+ LANDING_dlc049_FLAVOR_TEXT:0 ",gUSMOS:N‰'k„vÛV*NÍ‘‰ýV¶Rûm R†N°e„v‘šuQUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc050_TEXT:0 "IN‰yr'`ÿ\nÿ18Íy‰'k0Fz¯e—g0šN2m0pS¦^0^—2måNÊSWSSŽ2m‡eS„v°e‰^X!j‹W"
+ LANDING_dlc050_FLAVOR_TEXT:0 "Nb	g‡ef„v°e!X’W!j‹W0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc052_TEXT:0 "IN‰yr'`ÿ\nÿ5–™SabatonjOòf„v°eòfîv"
+ LANDING_dlc052_FLAVOR_TEXT:0 "SV›RÏ‘•bSGÁ‰›RÏ‘Ñ‘^Sÿ'kF–Î˜‘NIV„vÏkN:W8nbýÏP=fNè¨R`„vòS×‹ÿg°e„vó—PNS ReQ†N^txQ›RÏ‘Ñ‘^SPN–Sabaton„v”N–™LkòfÿvQ-N„vLkòf²‹ð†Nb‰N„vz‚=gŒTºN‰|8lNjPo`„vb—e0lx8h„v†SòSó—PN4O–NwNLuNgñmeQ„v†SòS!jßbhVÙ=fN*NegêŽN^txQ„vÄuTÿ"
+ LANDING_dlc053_TEXT:0 "IN‰yr'`ÿ\nÿ9Íy(uŽNeY0W)R0âlpQŒT‰ísYr„v°eUSMO!j‹W"
+ LANDING_dlc053_FLAVOR_TEXT:0 ",gUSMOS:NeY0W)R0‰ísYrŒTâlpQ	NýVûm R†NæS9Íyìryr„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc054_TEXT:0 "IN‰yr'`\nÿ8Íy(uŽNÕlpQ‰0nfœëXŒT^txQ„v°eUSMO!j‹W"
+ LANDING_dlc054_FLAVOR_TEXT:0 ",gUSMOS:NÕlpQ‰0nfœëXŒT^txQ	NýVûm R†NæS8Íyìryr„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc056_TEXT:0 "IN‰yr'`ÿ\nÿ16ÍyiOW&O(„0s|pQ0±NÒR¯eŒTZ<S¯e„v°eUSMO!j‹W"
+ LANDING_dlc056_FLAVOR_TEXT:0 "å‹USMOS:NiOW&O(„0s|pQ0±NÒR¯e0Z<S¯eÛVýVûm R†NæS16Íyìryr„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc057_TEXT:0 "IN‰yr'`ÿ\nÿ16ÍyÃW^XÄOÔkšNNªRÔkšN00tlšÌ‘ÊS¯eæt^Ì‘ýV¶R„v°eUSMO!j‹W"
+ LANDING_dlc057_FLAVOR_TEXT:0 ",gUSMOS:NN^—ýV¶Rûm R†N°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc058_TEXT:0 "IN‰yr'`ÿ\nÿ16Íy?–SÊSS0idmåT0lšFzœKQŒTz<S¯e„v°eUSMO!j‹W"
+ LANDING_dlc058_FLAVOR_TEXT:0 ",gUSMOS:N?–SÊSS0idmåT0lšFzœKQŒTz<S¯eûm R†N16Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc059_TEXT:0 "IN‰yr'`ÿ\nÿ5–™Kairi Blodeuyn SawlerjOòf„v°eòfîvÿupaegnŽNÜN0W:S"
+ LANDING_dlc059_FLAVOR_TEXT:1 "(u0'kF–Î˜‘N0û|RÂríp1r‹YwaSOÌ‘·0tÒRRjO„v,rŒN*Nó—PNS:N0'kF–Î˜‘NIV0KˆNupa0OƒRôf:NYCQ'TÿåNÜN1u'YIƒŸSWlýVôv0RWSwmKNèn„vó—PN2Uw†SòS„vÞVÍT0"
+ LANDING_dlc061_TEXT:0 "IN‰yr'`ÿ\nÿ24Íy·Va×Vø‹¯O„v1µuÊS3µuUSMO!j‹WÿSìbôTO)RšN0Ilú‹ZŒT(„KQîh"
+ LANDING_dlc061_FLAVOR_TEXT:1 ",gUSMOS:NN›N-N'k„v'YlQýVûm R†N24Íy1µuŒT3µuUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc062_TEXT:0 "IN‰yr'`ÿ\nÿ32Íy‰^—ýV¶R„v°eUSMO!j‹WÿSìb?–OS0aSHYÆY-ZSSªRŒTlšÌ‘"
+ LANDING_dlc062_FLAVOR_TEXT:0 ",gUSMOS:N8*N‰^—ýV¶Rûm R†N32Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc063_TEXT:0 "IN‰yr'`ÿ\nÿ:N0ºNCg0ibUSSÆQY„vÛV–™ìr`Só—PN"
+ LANDING_dlc063_FLAVOR_TEXT:0 "Dd?eKNLkó—PNS°ežX†NÛV–™Lkòfÿ:NºNCgibUSS&^egìryr„vSOŒš0òf06RjO1uMbNS*j¢n„vYannick SüßŒTRobin Birner(Audinity)ŒRb0"
+ LANDING_dlc064_TEXT:0 "IN‰yr'`ÿ\nÿ15–™nbo¯e*X„v³uôušNýV¶Röe„vòfîv"
+ LANDING_dlc064_FLAVOR_TEXT:2 "O(u,gTÆ–-N„v^txQ18Nªu.Oßuó—PNÿnboN*N¯e*X„v³uôušN…µu'YýVÿ©‹`O„vlÏe„vó—PNb:NhQNLu„výVLk0\n\nêV±ƒ·VüfO’VfN-NXdUV„v15–™Lkòfÿ1u^txQ×‹ºN0jOÍ‹¶RCarl Michael Bellman1ŒòfÿjOòf¶RTobias Gustavsson9eÿ^txQLkKb0oXTMikael SamuelsonoOY0"
+ LANDING_dlc065_TEXT:0 "IN‰yr'`ÿ\nÿ15–™nbo¯e*X„v³uôušNýV¶Röe„vòfîv"
+ LANDING_dlc065_FLAVOR_TEXT:2 "O(u,gTÆ–-N„v^txQ18Nªu.Oßuó—PNÿnboN*N¯e*X„v³uôušN…µu'YýVÿ©‹`O„vlÏe„vó—PNb:NhQNLu„výVLk0\n\nêV±ƒ·VüfO’VfN-NXdUV„v15–™Lkòfÿ1u^txQ×‹ºN0jOÍ‹¶RCarl Michael Bellman1ŒòfÿjOòf¶RTobias Gustavsson9eÿ^txQLkKb0oXTMikael SamuelsonoOY0"
+ LANDING_dlc067_TEXT:0 "IN‰yr'`ÿ\nÿ12Íy°e„våe,g'YT1µuUSMO!j‹WÿSìbO¾0ÊNÝTŒTNIg"
+ LANDING_dlc067_FLAVOR_TEXT:0 "(WÙ*N:N'kF–Î˜‘NIVÿ)Y‹T6RjO„v…Q¹RSÌ‘ÿN¹e„v›Q–—V0R†N-T°e„vYÂ‰0Paradox„vz‚=g¶RìNMÈ‰òSfNÿ—V0R†NsQŽN-NýV0åe,gÊSvQ»ýV„vÑãN6RgNfkhV„v,rNKbD™e0\n\n,gUSMOS:Nåe,g„vN›N'YT°ežX†N12Íy1µuUSMO!j‹W0"
+ LANDING_dlc068_TEXT:0 "IN‰yr'`ÿ\nÿ16Íyåe,g0gœœ0fŒTn„v°eUSMO!j‹W"
+ LANDING_dlc068_FLAVOR_TEXT:0 "(WÙ*N:N'kF–Î˜‘NIVÿ)Y‹T6RjO„v…Q¹RSÌ‘ÿN¹e„v›Q–—V0R†N-T°e„vYÂ‰0Paradox„vz‚=g¶RìNMÈ‰òSfNÿ—V0R†NsQŽN-NýV0åe,gÊSvQ»ýV„vÑãN6RgNfkhV„v,rNKbD™e0\n\n,gUSMOS:Nåe,g0gœœ0'YfŒT'Yn°ežX†N16ÍyUSMO!j‹W0"
+ LANDING_dlc069_TEXT:0 "IN‰yr'`ÿ\nÿ16ÍyßRTðS0án2m0™„äSŒTætLR„v°eèK„›QUSMO!j‹W"
+ LANDING_dlc069_FLAVOR_TEXT:0 "(WÙ*N:N'kF–Î˜‘NIVÿ)Y‹T6RjO„v…Q¹RSÌ‘ÿN¹e„v›Q–—V0R†N-T°e„vYÂ‰0Paradox„vz‚=g¶RìNMÈ‰òSfNÿ—V0R†NsQŽN-NýV0åe,gÊSvQ»ýV„vÑãN6RgNfkhV„v,rNKbD™e0\n\n,gUSMOS:NIƒŸSø‹ýVÿ‚YßRTðS0án2m0™„äS0ætLR°ežX†N16ÍyUSMO!j‹W0"
+ LANDING_dlc070_TEXT:0 "IN‰yr'`ÿ\nÿ8Íy‰'k0N'k0Fz¯e—g0pS¦^0^—2m0šN2måNÊSWSSŽ‡eS„v°e®puQ!j‹W"
+ LANDING_dlc070_FLAVOR_TEXT:1 "Ù*NibUSS:NNb	gÑyŽbÄužX R°e„v®puQ!j‹W0"
+ LANDING_dlc071_TEXT:0 "IN‰yr'`ÿ\nÿ22ÍyšN2mýV¶R„v°e9‚êS!j‹WÿSìbåe,gNgœœìr	g„v4Íy"
+ LANDING_dlc071_FLAVOR_TEXT:0 "Ù*NUSMOS:NNšNýV¶RžX R†Nìryr„v0‚9‚!j‹Wÿyr+R:Nåe,gŒTgœœžX R†Nìr	g!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc073_TEXT:0 "IN‰yr'`ÿ\nÿ16Íy(uŽNeYY6w+Y0h^0yrôuSÊSÅ–W¯eÉb+YS„v°eUSMO!j‹W"
+ LANDING_dlc073_FLAVOR_TEXT:0 ",gUSMOS:Nh^0Å–W¯eÉb+YS0eYY6w+YŒTyrôuSûm R†Nìr	g„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc074_TEXT:0 "IN‰yr'`ÿ\nÿ16ÍyŽUqS0Ëzv–›R0|VSÆYåNÊSnf¯eÑy+Y„v°eUSMO!j‹W"
+ LANDING_dlc074_FLAVOR_TEXT:0 ",gUSMOS:N|VSÆY0ŽUqS0nf¯eÑy+YŒTËzv–›Rûm R†Nìr	g„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc075_TEXT:0 "IN‰yr'`ÿ\nÿ16ÍyNú‹+YåTW·V0âlm(ƒKQ0œ^X<SšNÿåNÊS¯eidñh¯eKQ„v°eUSMO!j‹W"
+ LANDING_dlc075_FLAVOR_TEXT:0 ",gUSMOS:NïSýwµNu„výV¶Râlm(ƒKQ0¯eidñh¯eKQ0œ^X<SšNŒTNú‹+YåTW·Vûm R†Nìr	g„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc076_TEXT:0 "IN‰yr'`ÿ\nÿ3–™ÄOW¯eIN˜˜òfîv"
+ LANDING_dlc076_FLAVOR_TEXT:0 "÷‹‰lxmŽNYannick SuessŒTRobin Birner:N'kF–Î˜‘NIVÿ,r	NWlšNè•1Œ™Q„v•¾ASRŸ”„vÄOW¯eIN˜˜ó—PN-N'T0"
+ LANDING_dlc078_TEXT:0 "IN‰yr'`ÿ\nÿ16ÍyIl×V0…Q×V0?–üfÿåNÊSmNè•„v°eUSMO!j‹W"
+ LANDING_dlc078_FLAVOR_TEXT:0 "Ù›N(uŽN?–Éb=OJS›SýV¶RÿIl×V0…Q×V0?–üfŒTmNè•„v16Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc079_TEXT:0 "IN‰yr'`ÿ\nÿ16Íy?–ÌRWl0âl¯e0TXôTÌ‘¯efWÿåNÊS“^S·VýV¶R„v°eUSMO!j‹W"
+ LANDING_dlc079_FLAVOR_TEXT:1 "Ù›N(uŽN‰šNŒT-NšN„vN›NIN‰‡eSÿâl¯eºN0?–ÌRWlºN0“^S·VºNŒTTXôTÌ‘¯efWºN„v16Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc080_TEXT:0 "IN‰yr'`ÿ\nÿ16Íy‹vŠ0ÈT(„0ÑžŠÿåNÊS‚ÈS„v°eUSMO!j‹W"
+ LANDING_dlc080_FLAVOR_TEXT:1 "Ù›N(uŽN•^<hÌ‘¯e³lŒT|^ÑSÉb•^³l:SßWýV¶RÿÑžŠ0‹vŠ0ÈT(„0åNÊS‚ÈS„v16Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc081_TEXT:0 "IN‰yr'`ÿ\nÿ:NFz¯e—gýV¶RÆQY„v5–™°eòfîv"
+ LANDING_dlc081_FLAVOR_TEXT:0 "«N×SFz¯e—g5*N°e„vó—hÿ1uKairi 'Blodeuyn' SawlerjOòf0"
+ LANDING_dlc082_TEXT:0 "IN‰yr'`ÿ\nÿ42Íyâl¯e°eŒ˜î•IuÏP0"
+ LANDING_dlc082_FLAVOR_TEXT:1 "Ù*NŒ˜î•–wÏPS:Nâl¯e‡eSžX R†N42*N°e„vŒ˜î•–wÏP7u'`ŒTsY'`T21*N"
+ LANDING_dlc083_TEXT:0 "IN‰yr'`ÿ\nÿ21ÍyFz¯e—g‡eS„vsY'`Œ˜î•IuÏP0"
+ LANDING_dlc083_FLAVOR_TEXT:0 "Ù*NŒ˜î•–wÏPS:NFz¯e—g‡YsYžX R†N21*N°e„vŒ˜î•–wÏP0"
+ LANDING_dlc085_TEXT:0 "IN‰yr'`ÿ\nÿ11ÍyKQpQÌ‘aS·V0·V¯e™„·V0¯e±ƒbÿåNÊSXb™„·V„v°eUSMO!j‹W0"
+ LANDING_dlc085_FLAVOR_TEXT:0 "Ù›N(uŽN1rSpQ‹sýV·V¯e™„·V0¯e±ƒbŒTXb™„·V„v11Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc086_TEXT:0 "IN‰yr'`ÿ\nÿ12ÍyúWSãNS0&O¯eyr0‚„™ŸåNÊS?–S¯eyr„v°eUSMO!j‹W"
+ LANDING_dlc086_FLAVOR_TEXT:0 "Ù›N(uŽN1rSpQ0W:SýV¶RúWSãNS0&O¯eyr0‚„™ŸŒT?–S¯eyr„v12Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc087_TEXT:0 "IN‰yr'`ÿ\nÿ14Íy^RTX<S01rSpQ0Ï‚<hpQÿåNÊSZSëX„v°eUSMO!j‹W"
+ LANDING_dlc087_FLAVOR_TEXT:0 "Ù›N(uŽN^RTX<S01rSpQ0Ï‚<hpQŒTZSëX„v16Íy°e„vUSMO!j‹WïSžX:V'kF–Î˜‘N IV „v8nbSOŒš0"
+ LANDING_dlc088_TEXT:0 "IN‰yr'`ÿ\nÿ16Íy·^ƒlS0s|¯e0ú‹üf•^ÿåNÊSú‹îh=OpQ„v°eUSMO!j‹W"
+ LANDING_dlc088_FLAVOR_TEXT:0 "Ù›N(uŽN·^ƒlS0s|¯e0ú‹üf•^ŒTú‹îh=OpQ„v16Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc089_TEXT:0 "IN‰yr'`ÿ\nÿ:NNR ˜ýV¶RÆQY„v	N–™°eòfîv"
+ LANDING_dlc089_FLAVOR_TEXT:0 "«N×SNR ˜	N*N°e„vó—hÿ1uYannick SüßŒTRobin BirnerjOòf0"
+ LANDING_dlc091_TEXT:0 "IN‰yr'`ÿ\nÿ20ÍyˆQæt³u0…hætS0<SÊlS0eYÌ‘(„åNÊSWSpS¦^SýV„vhQ°eUSMO!j‹W"
+ LANDING_dlc091_FLAVOR_TEXT:0 "Ù›N(uŽNˆQæt³u0…hætS0<SÊlS0eYÌ‘(„ŒTWSpS¦^SýV„v20Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc092_TEXT:0 "IN‰yr'`ÿ\nÿ20ÍyôTküf<S0äS	TÉbyr0àznfS0idJFZÿåNÊS«ƒgS?Q„v°eUSMO!j‹W"
+ LANDING_dlc092_FLAVOR_TEXT:0 "Ù›N(uŽNôTküf<S0äS	TÉbyr0àznfS0idJFZŒT«ƒgS?Q„v20Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc093_TEXT:0 "IN‰yr'`ÿ\nÿ°ežX42ÍypS¦^ýV¶RNpS¦^‡eS„v7u'`ÊSsY'`Œ˜î•IuÏP"
+ LANDING_dlc093_FLAVOR_TEXT:1 "Ù*N–wÏPSžX R†N42*N(uŽNpS¦^ýV¶RŒT‡eS„v–wÏPÿ7u'`NsY'`T21*N 0"
+ LANDING_dlc094_TEXT:0 "IN‰yr'`ÿ\nÿ:N(WpS¦^ŒTpS¦^hT¹„v©s¶RÆQY„v	N–™°eòfîv"
+ LANDING_dlc094_FLAVOR_TEXT:0 "Ù*Nó—PNSžX R†N…Ç10RŸ”„v°e„vŒTŸSR„vó—PNÿupaegêpS¦^„vðXó—ŒT.Oßuó—PNÿ1ulb<SKQ·Ï‚¯eŒTW¾R·=O³uRjO0"
+ LANDING_dlc096_TEXT:0 "IN‰yr'`ÿ\nÿ17ÍyOÔk)RšNýV¶R„v°e9‚êS!j‹W"
+ LANDING_dlc096_FLAVOR_TEXT:0 "Ù›N(uŽNOÔk)RšNýV¶R„v17Íy°e„v0‚9‚!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc097_TEXT:0 "IN‰yr'`ÿ\nÿ17ÍyÏgÏgSbS^—ýV¶R„v°e9‚êS!j‹W"
+ LANDING_dlc097_FLAVOR_TEXT:0 "Ù›N(uŽNÏgÏgSŒTS^—ýV¶R„v17Íy°e„v0‚9‚!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc098_TEXT:0 "IN‰yr'`ÿ\nÿ20Íy R)R‰šN0<hÉb³u¾0³uætÉbŒTwm×výV¶R„vUSMO!j‹W"
+ LANDING_dlc098_FLAVOR_TEXT:0 "Ù›N(uŽN RÌ‘‰šN0<hÉb³u¾0³uætÉbŒTwm×výV¶R„v20Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc099_TEXT:0 "IN‰yr'`ÿ\nÿ:NOÔk)RšNýV¶RŒTwm×výV¶RÆQY„v	Nag°eó—h"
+ LANDING_dlc099_FLAVOR_TEXT:0 "«N×S3agupaegêÑS°s°e'YF–„vŸSRó—PN0"
+ dlcXXX_reason_has_stuff_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NýwÎN-N·ƒÖS°euQ!j„výV¶R0"
+ dlcXXX_reason_india_reason:1 "\nbìN¨cPƒdkDLCÿàV:N`O	éb†NN*NMOŽN§YpS¦^§!„výV¶R0"
+ dlcXXX_reason_muslim_reason:1 "\nbìN¨cPƒdkDLCÿàV:N`O	éb†NN*N§YFz¯e—g§!ýV¶R0"
+ dlcXXX_reason_generic_reason:1 "\nbìN¨cPƒdkibUSSÿàV:NƒR:N8nbžX R†N¸‹Y°e…Q¹R0"
+ dlc001_reason_hyw_participant:0 "§YŒvt^b‰NUSMOS§!:NŒvt^b‰N„vÂSb¹e°ežX†N11Íy°euQ!jÿSìb§Yñ‚<hpQ§!0§YÕlpQ‰§!0§YÏ‚<hpQ§!0§YÃRn‚,r§!ŒTvQÖNÕlpQ‰0W:S!k‰¿R›R0"
+ dlc001_reason_hyw_participant_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NÂSN§YŒvt^b‰N§!„výV¶R0"
+ dlc002_reason_muslim_of_the_crescent:0 "§Y°eg‘šuQUSMOS§!:NSìb§YlšFzœKQ§!0§YeY¯eüf§!ŒT§Yâl¯e§!(W…Q„v-NNø‹ýV°ežX†N12Íy°e‘šuQ!j‹W0"
+ dlc003_reason_winged_hussars:0 "§Yü‘šuQUSMOS§!:N'kF–Î˜‘NIVöeãNN'kgwQqVÍT›R„vø‹ýVKN	N°ežX†N12Íy°e‘šuQUSMO!j‹WÿSìb§YÄOW¯e§!0§YâlpQ§!ŒT§YËzv–›R§!0"
+ dlc004_reason_muslim:1 "§Yfg…Q¹RS§!:N§YFz¯e—g§!ø‹ýV°ežX†N70E^°e‹NöNÒcþV0pe*N°e‹NöNN‹NöNþ”ÿžX R†N8n©s„v‰lxma0"
+ dlc005_reason_god_bless:0 "§YŽýV¦h…Q¹RS§!žX R†N…Ç50*N°e‹NöNÿ10*NøvsQIN˜˜„v‹NöNþVGrÿåNÊSpe*N§YŽ)RZW§!„v°eUSMO!j‹W0"
+ dlc005_reason_god_bless_reason:1 "\nbìN¨cPƒdk…Q¹RSÿàV:N`O	éb†N§YŽýV§!0"
+ dlc005_reason_north_america_reason:1 "\nbìN¨cPƒdk…Q¹RSÿàV:NƒR:N–klýV¶RžX R†N	g±„v°eyrr‚ÿw`OjO:NN*N§YSŽŸSOOl§!ˆVïSýwOG0RÙ›NýV¶R0"
+ dlc005_reason_tea_party_reason:1 "\nbìN¨cPƒdk…Q¹RSÿàV:N`O	éb„výV¶RˆVïSýwOàVdk×S0R§Y>P6ƒ‹NöN§!„vqVÍT0"
+ dlc006_reason_purple_phoenix:0 "§Y+täQðQÓbUSS§!ÐcGS†N§YÜb`S­^^ýV§!„v8nbSOŒšÿ:N^ýV°ežX†NY*N‹NöNÿÒcþVŒTuQ!j0"
+ dlc006_reason_purple_phoenix_reason:1 "\nbìN¨cPƒdk…Q¹RSÿàV:N`O	éb†N§YÜb`S­^^ýV§!0"
+ dlc007_reason_well_what_am_I_meant_to_say:0 "§YýV¶RTÜw…Q¹RS§!:N0WbV!jV0WþVûm R†N8µ^TÜwäSùÿSìb&OfeTX0Ñy†–'YYeX01WÍkb–0ÌRëXqSŒT4TåTŸzIr0"
+ dlc008_reason_correct_region:0 "§YVgTëXfWN!Xó—PNS§!ûm R†N	N–™upaegnŽNTëXfWN!XôVÎWb„vLkòf0"
+ dlc008_reason_correct_region_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*NMOŽN§YÜb`S­^^ýV§!ŸÛvöegÃV0W&^„výV¶R0"
+ dlc009_reason_well_what_am_I_meant_to_say:0 "§YýV¶RTÜwII…Q¹RS§!:N0WbV!jV0WþVûm R†N11µ^TÜwäSùÿSìb1W0tòƒšN'YYeX0lšNÔkN0^yrœQ^y™^ŒTyrú‹GY‚„yrpQIr0"
+ dlc009_reason_well_what_am_I_meant_to_say_reason:1 "\nbìN¨cPƒdk…Q¹RSÿàV:NƒR:N`ONb	ýV¶RNb(W0W:Sûm R†NN*NªuõV‘x0"
+ dlc010_reason_natives:0 "§YVg)YXÓbUSS§!:N§YŽ2mŸSOOl§!ûm R†N°e„v:g6RÿSìbÁ™V0yrŠkú^Qr0ŸSOOl—RYe9ei—0èK„TwßvåNÊSyrŠk„v±Rbt1u0"
+ dlc010_reason_natives_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YŽ2mŸSOOl§!ýV¶R0"
+ dlc010_reason_colonists:0 "§YVg)YXÓbUSS§!ûm R†NN*N§Y–:g°eNLu§!„vubhVÿ8nbVËYöe=T¨R	ÿåNÊSAQ¸‹©s¶Rnbo–kl†˜ýV¶R8n©s0"
+ dlc010_reason_colonists_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb„výV¶RTT§Y°e'YF–§!–kl0"
+ dlc011_reason_iberia:0 "§YVgwUSMOS§!:N§Y‰ísYr§!N§Ya„„Yr§!(W°e'YF–jOb„v›Q–žX R†N16Íy°e„v!j‹W0"
+ dlc012_reason_natives:0 "§YŽ2mŸSOOlUSMOS§!:NkQ*N§YŽ2mŸSOOl§!èK„žX R†Nìr	gUSMO!j‹W0"
+ dlc012_reason_natives_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§YŽ2mŸSOOl§!ýV¶R0"
+ dlc013_reason:0 "§Y°eNLuKNLkó—PNS§!ûm R†N	N–™upaegnŽN¢c0tNVg§Y°eNLu§!„vLkòf0"
+ dlc013_reason_natives_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*NMOŽN§Y°e'YF–§!„výV¶R0"
+ dlc014_reason_generic:0 "§Y1WÞ‹KNLkó—PNS§!:N'kF–Î˜‘N„vó—hûm R†NN–™1WÞ‹‚˜Lk0"
+ dlc014_reason_december:1 "\nbìN¨cPƒdkó—PNSÿàV:N°s(W=f§YASŒNg§!N`O	éb†NN*N§Y'k2m§!ýV¶R0"
+ dlc015_reason_natives:0 "§YŽ2mŸSOOlUSMOS§!:NAS*N§YŽ2mWW„§!èK„žX R†Nìr	gUSMO!j‹W0"
+ dlc016_reason_gbrengfra:0 "§YNR ˜ŒTÕlpQ‰–kl0WUSMOS§!:N§YNR ˜§!ŒT§YÕlpQ‰§!„v–kl0Wè–žX R†N16Íy°e„vìryrUSMO!j‹WÿÙu†NÖNìNN*N-T°e0—|·r„vYhˆÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ dlc016_reason_gbrengfra_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†N§Yñ‚<hpQ§!0§Y'YNR ˜§!b§YÕlpQ‰§!0"
+ dlc017_reason_muslim:1 "§YFz¯e—gŒ˜î•–wÏPS§!:N§YFz¯e—g§!Œ˜î•žX R†N21*N°e„v–wÏP0"
+ dlc018_reason_generic:0 "§YýVÌRº‹ibUSS§!žX R†N°e„v8nb:g6R0‚Y8flQøSÿ°e„vY²NLˆ¨RŒTÇ–cOÁy c9‚„výw›R0"
+ dlc018_reason_kiel_canal:0 "§YýVÌRº‹ibUSS§!žX R†NîOú^§YúWSÐ³l§!„výw›RåNÊSTÍyY²NN8f¹eb—„vLˆ¨RŒTIm¨R0"
+ dlc018_reason_kiel_canal_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NVNSMOŽN§YúWS§!D–Ñ„výV¶R0"
+ dlc018_reason_suez_canal:0 "§YýVÌRº‹ibUSS§!žX R†NîOú^§YÏ‚OëXÐ³l§!„výw›RåNÊSTÍyY²NN8f¹eb—„vLˆ¨RŒTIm¨R0"
+ dlc018_reason_suez_canal_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YlšFzœKQ§!ÿå‹ýVVNSöe=f§YÏ‚OëX§!„våb	gw0"
+ dlc018_reason_hindu_deity:0 "§YýVÌRº‹ibUSS§!:NpS¦^ýV¶RžX R†N	éb§Y*NºN^yGy§!„výw›RåNÊSTÍyY²NN8f¹eb—„vLˆ¨RŒTIm¨R0"
+ dlc018_reason_hindu_deity_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YpS¦^Ye§!ýV¶R0"
+ dlc018_reason_reformed:0 "§YýVÌRº‹ibUSS§!:N9ei——RýV¶R°ežX†NO(u§YípÅ`¹ppe§!åN·ƒ—V›Q‹N0Y²NÊS8fVY±R„výw›RÿåNÊSTÍyÛNek„vY²NN8fyr'`0"
+ dlc018_reason_reformed_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§Y9ei——R§!ýV¶R0"
+ dlc018_reason_christian_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NïSåN§Y9eáO9ei——R§!„v)YINYeýV¶R0"
+ dlc019_reason_muslim:1 "§YFz¯e—gwm›QUSMOS§!:N§YFz¯e—g§!ýV¶RžX R†N12Íy°e„vìr	g9‚êS!j‹W0"
+ dlc020_reason_traders:0 "§Y8f'YýVUSMOS§!:N§Y?–Éb!§!0§Yíp±šN§!0§Yú‹+YåTW·V§!ÊS§YTKQ§!žX R†N16Íy°e„vìr	g!j‹W0"
+ dlc022_reason_republics:0 "§YqQŒTýVibUSS§!:N§YqQŒT6R§!žX R†N°e„v:g6RÊSyrr‚‹NöNÿSìbqQŒT.Oßu*YNOØSbìrÁˆýV¶R„výw›R0"
+ dlc022_reason_republics_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YqQŒTýV§!0"
+ dlc022_reason_going_dutch:0 "§YqQŒTýVibUSS§!:N§Y<S·VpQqQŒTýV§!žX R†N0®‹O>mVSeYpQ»l>m0:g6Rÿ9hncŒcCg„v>mû|·ƒ—VNT„vVY±R0"
+ dlc022_reason_going_dutch_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§Y<S·VpQ§!bN*NïSåNbËz§Y<S·VpQ§!„výV¶R0"
+ dlc022_reason_merchant_republic:0 "§YqQŒTýVibUSS§!:N§YFUNqQŒTýV§!žX R†N°e„v:g6RÊSyrr‚‹NöNÿSìb°e„v>mû|û|ßu0"
+ dlc022_reason_merchant_republic_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YFUNqQŒTýV§!0"
+ dlc022_reason_elective_monarchy:0 "§YqQŒTýVibUSS§!:N§Y	>NTIN6R§!žX R†N°e„v:g6R0yrr‚‹NöNÊSY²N’N¨R0"
+ dlc022_reason_elective_monarchy_pol_reason:2 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NâlpQÿå‹ýVïSåNb:NN*N§Y	>NTIN6R§!ýV¶R0"
+ dlc022_reason_elective_monarchy_gen_reason:2 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§Y	>NTIN6R§!ýV¶R0"
+ dlc024_reason_india:0 "§YpS¦^!k'YF–USCQS§!:N§Y×kbY6w±KOW§!0§YmR RÉb§!ŒTvQÖN§YpS¦^§!'YýVžX R†N°e„vUSMO!j‹WŒT¹ut0"
+ dlc024_reason_india_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§YpS¦^§!„výV¶R0"
+ dlc025_reason_india:0 "§YpS¦^wm›QUSMOS§!:N§YpS¦^§!ýV¶RžX R†N12Íy°e„vìr	g9‚êS!j‹W0"
+ dlc025_reason_india_without_port_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§YpS¦^§!„výV¶R0"
+ dlc025_reason_india_with_port_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§YpS¦^§!Nåb	gúQwmãS„výV¶R0"
+ dlc026_reason_republic:0 "§YqQŒTýVó—PNS§!žX R†N26RŸ”„vó—PNÿupaegê§Y'k2m§!†SòSNqQŒTýV„v?e»lwŒšŒTèx¾–0"
+ dlc026_reason_republic_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*NVNS:N§YqQŒTýV§!„výV¶R0"
+ dlc027_reason_generic:0 "§YYRPRuQÕlibUSS§!žX R†Næ‰ÑS	NASt^b‰NŒTBŽŽ'YèR§Y'k2m§!„vÿb4xÑNb‰N„vyrŠk„v:g6RŒT‹NöNÿTöeÛNekibUS†N„vY²N	y˜ÊS8nb©sÕl0"
+ dlc027_reason_generic_europe_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Y'k2m§!„výV¶Rÿ	NASt^b‰NŒTÿb4xÑNb‰NÑSuŽNå‹'Y2m0"
+ dlc027_reason_french_revolution:0 "§YYRPRuQÕlibUSS§!žX R†Ni—‹Tîvh„vŸRýwåN!jßbÿb4xÑNb‰NÿåNÊSBŽŽ'k2m'YèR0W:S„v	NASt^b‰NÿåNÊSÛNek„vY²N	y˜ŒTÛNek„v8nb©sÕlžX:V0"
+ dlc027_reason_french_revolution_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YÕlpQ‰§!i—‹T„vÑSn0W0"
+ dlc027_reason_hre:0 "§YYRPRuQÕlibUSS§!žX R†NïSåNSb	NASt^b‰N„v—RYeTwßvÿåNnxšR§Y^y1WWlš^ýV§!„v˜R¹eáOðNÿåNÊSÿb4xÑNb‰N„vyrŠk:g6RŒT‹NöNÿåNÊSÛNek„vY²N	y˜ŒTÛNek„v8nb©sÕlžX:V0"
+ dlc027_reason_hre_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Y^y1WWlš^ýV§!„výV¶Rÿ	NASt^b‰NÑSuŽNdk0W0"
+ dlc027_reason_sweden_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§Y^txQ§!ÿå‹ýV=f	NASt^b‰N„vIN‰ÂSNw0"
+ dlc028_reason_member_of_evangelical_union:0 "§Yyó—>mTwßvUSMOS§!:N	NASt^b‰N-N§Yyó—>mTwßv§!„v†SòSbXTžX R†N12Íy°e„vUSMO!j‹W0"
+ dlc029_reason_member_of_catholic_league:1 "§Y)YINYeTwßvUSMOS§!:N	NASt^b‰N-N§Y)YINYeTwßv§!„v†SòSbXTžX R†N12Íy°e„vUSMO!j‹W0"
+ dlc030_reason_generic:0 "§Yb‰NKNLkó—PNS§!ûm R†N”N–™upaegnŽN'kF–Î˜‘Nöeg„vb‹N„v°eLkòf•¾29RŸ”0"
+ dlc031_reason_generic:0 "§Yªg®p0Ÿ¹pŒT¢”Á”ó—PNS§!ûm R†N”N–™upaegnŽN'kF–Î˜‘Nöeg„vIN˜˜ŒT‹NöN„vÑ‘^SÎ˜<hLkòf0"
+ dlc033_reason_aztec:0 "§YÄžÑ‘ýVibUSS§!:N§Y³uætyrS—RYe§!žX R†N+gåeN—RYe9ei—„v:g6RÿmNžX R†Nœœ±‚b‰N„v±Rbt1uÊSN›Nyrr‚‹NöN0"
+ dlc033_reason_aztec_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NáOðN§Y³uætyrS—RYe§!„výV¶R0"
+ dlc033_reason_maya:0 "§YÄžÑ‘ýVibUSS§!:N§Y›sÅ–§!—RYežX R†N—RYe9ei—:g6RÊSyrr‚‹NöNÿmN:N°e'YF–„vŸSOOlN–klwžX R†NôfY„vyrr‚0"
+ dlc033_reason_maya_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NáOðN§Y›sÅ–—RYe§!„výV¶R0"
+ dlc033_reason_inca:0 "§YÄžÑ‘ýVibUSS§!:N§YàV‚„§!—RYežX R†N—RYeCgZ09ei—ÊSyrr‚‹NöNÿmN:N°e'YF–„vŸSOOlN–klwžX R†NôfY„vyrr‚0"
+ dlc033_reason_inca_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NáOðN§YàV‚„§!„výV¶R0"
+ dlc033_reason_colonists:0 "§YÄžÑ‘ýVibUSS§!:N–kl0WýV¶RžX R†NÄžÑ‘0‚–0Xb·V‰)RšN¯eag¦uŒT¸‹Y°e„v¢ci–‹NöN0"
+ dlc033_reason_colonists_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NTÎN‹N§Y–klININ§!„výV¶R0"
+ dlc034_reason_south_american_natives:0 "§YWSŽ2mUSMOS§!:N§YWSŽ2m§!ŒT§Y‰R,r¯e§!ŸSOOlžX R†N12Íy°e„vUSMO!j‹WÿSìb§YpS R§!0§YlšnfR§!ŒT§YþV®vWSôT§!0"
+ dlc034_reason_south_american_natives_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§YWSŽ2m§!ŸSOOlýV¶R0"
+ dlc035_reason_mesoamerican_natives:0 "§Y-NŽ2mUSMOS§!:N§Y-NŽ2m§!ŸSOOlžX R†N12Íy°e„vUSMO!j‹WÿSìb§Y?–yQyrKQ§!0§Y›sÅ–§!ÊS§Ys|¯eyrKQ§!0"
+ dlc035_reason_mesoamerican_natives_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§Y-NŽ2m§!ŸSOOlýV¶R0"
+ dlc036_reason_colonists:0 "§Y¢c0tKNLkó—PNS§!ûm R†N”N–™upaegnŽN§Y¢c0töeãN§!„v°eLkòfÿŒTs^öegÿ(W°eÑS°s„vW0WNú^Ëzw–kl0WöeÿÙ›N°eLkSê¨R­d>e0"
+ dlc036_reason_colonists_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*NTÎN‹N§Y–klININ§!„výV¶R0"
+ dlc037_reason_generic:0 "§Yªg®p0Ÿ¹pN¢”Á” Vol.2 ó—PNS§!ûm R†N”N–™Ñ‘^Supa„vëV‚‚OY°eLkòfÿ>e'Y†N¯eðXÿÛNek0NÌR†N'kF–Î˜‘N„v,TÉ‰SOŒš0"
+ dlc039_reason_generic:0 "§Y8^Æ‹ibUSS§!žX R†N°e„v8nb:g6RÿSìb®‹O0°e„v^SýV’N¨R0?eœ^Irµu0§Y^y1WWlš^ýV§!ê1u^ÊS	gsQ§Y°eYe§!N§YiOYe§!„v°e©sÕl0"
+ dlc039_reason_protestant:0 "§Y8^Æ‹ibUSS§!:N§Y°eYe§!žX R†NYeO›RÏ‘ÿ`OïSåNêšRINƒR„vØSSO0žX R†NôfY„vyr'`ÿSìb®‹O0°e„v^SýV’N¨RÊS?eœ^Irµu0"
+ dlc039_reason_protestant_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§Y°eYe§!ýV¶R0"
+ dlc039_reason_christian_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NïSåN§Y9eáO°eYe§!„v§Y)YINYe§!ýV¶R0"
+ dlc039_reason_buddhist:1 "§Y8^Æ‹ibUSS§!:N§YiOYe§!žX R†NN›Rû|ßuÿTöemNžX R†NôfY„vyr'`ÿSìb®‹O0°e„v^SýV’N¨RÊS?eœ^Irµu0"
+ dlc039_reason_buddhist_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YiOYe§!ýV¶R0"
+ dlc039_reason_parliament:0 "§Y8^Æ‹ibUSS§!:NËzªRqQŒT6R0ËzªRTIN6RÊSñ‚ýVTINËzªR6RýV¶RžX R†N®‹Oû|ßu0ƒRAQ¸‹`OˆcˆNwýN(W®‹O„v-^MOÿv^?BÖNìN(W R:V`O„výV¶R„vî•˜˜N•bhy0"
+ dlc039_reason_parliament_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NVNSåb	g§Y®‹O§!„výV¶R0"
+ dlc039_reason_theocracy:0 "§Y8^Æ‹ibUSS§!:N§Y^yCg6R§!žX R†NIY.s¦^:g6RÊSTÍyyrr‚‹NöNÿTöemNžX R†NôfY„vyr'`ÿSìb®‹O0°e„v^SýV’N¨RÊS?eœ^Irµu0"
+ dlc039_reason_theocracy_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§Y^yCgýV§!0"
+ dlc039_reason_free_city:0 "§Y8^Æ‹ibUSS§!:N§Y^y1WWlš^ýV§!žX R†Nê1u^:g6RÿÑSUS¦^³Y„vSýVïSåN«ˆˆcˆNê1u^„v0WMOÿ·ƒ—VNWYìryr„vVY±RNé`Z0"
+ dlc039_reason_free_city_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§Y^y1WWlš^ýV§!„v§Yê1u^§!0"
+ dlc039_reason_hre_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Y^y1WWlš^ýV§!„výV¶R0"
+ dlc040_reason_christian_theocracy:0 "§Y^yCgýVUSMOS§!:N§YúWcwYe^yCg6R§!ýV¶RžX R†N16Íy°e„vUSMO!j‹WÿSìb§Y)Rƒl<SšNNag˜‘šëXâV§!0§YYe—RýV§!ÊS§YISb–‘šëXâV§!0"
+ dlc040_reason_christian_theocracy_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§YúWcwYe^yCgýV§!0"
+ dlc041_reason_buddhists:1 "§YiOYeUSMOS§!:N¸‹Y§YšN2miOYe§!ýV¶RžX R†N16Íy°e„vUSMO!j‹WÿSìb§Y‰Ï…§!0§Yœoµl§!0§Y·^Ðc§!åNÊS§Y'YŠ§!0"
+ dlc041_reason_buddhists_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§YiOYe§!ýV¶R0"
+ dlc042_reason_great_nation:0 "§Y'YýVUSMOS§!:N§Y'k2m§!N§Y'kšN§!„v§YR:V§!žX R†N17Íy°e„vUSMO!j‹WÿSìb§Y'YNR ˜§!/§YÄOW¯e§!åNÊS§YeY¯eüf§!0"
+ dlc042_reason_great_nation_reason:2 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NýwÎNdkUSMOS-N·ƒ—V°eUSMO!j‹W„v§Y'YýV§!0"
+ dlc043_reason_free_city:0 "§Yê1u^USMOS§!:N§Y^y1WWlš^ýV§!„v§Yê1u^§!žX R†N15Íy°e„vUSMO!j‹WÿSìb§YIl!X§!0§YËu&O!X§!0§YÕlpQKQy§!0åNÊS§YLNSÆY§!0"
+ dlc043_reason_free_city_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§Yê1u^§!0"
+ dlc044_reason_east_asia:0 "§YKairi„vó—hó—PNS§!ûm R†N	N–™upaegnŽN§YNšN§!ó—PN„vLkòf0"
+ dlc044_reason_east_asia_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*N§YNšN§!ýV¶R0"
+ dlc046_reason_zaz_are_cossacks:0 "§YåT(„KQibUSS§!žX R†N°e„v8nb:g6RÿSìbyrŠk„v6–BS‰|‹W0åT(„KQN8ngr?eSO„vyrŠk:g6R0Y²NÍSˆ™åNÊSŸSOOl?eVr0"
+ dlc046_reason_zaz_are_cossacks_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YNbâlWíp§!ÿå‹ýVVNSåb	gåT(„KQ?eSO0"
+ dlc046_reason_steppe:0 "§YåT(„KQibUSS§!:N§YIƒŸS§!0W:SžX R†N°e„v8nb:g6RÿSìbdk0W:S„våT(„KQ6–BSNýV¶R08ngrlÏeåNÊSTÍyyrr‚‹NöN0"
+ dlc046_reason_steppe_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§Y'YIƒŸS§!N„výV¶R0"
+ dlc046_reason_tengri:0 "§YåT(„KQibUSS§!:N§YŒ<hÌ‘§!ýV¶RžX R†N	ébøv‡áOðN„výw›Rÿ:NIƒŸS0W:SžX R†NôfY„v8nb:g6RNyrr‚‹NöN0"
+ dlc046_reason_tengri_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YŒ<hÌ‘§!ýV¶R0"
+ dlc046_reason_horde:0 "§YåT(„KQibUSS§!:N§Y8ngr§!ýV¶RžX R†N°e„v8nb:g6RÿSìb8ngrâVÓu0q cNìr	g6–BSÿmNžX R†NôfY„v8nb:g6RÊSIƒŸS0W:S„vyrr‚‹NöN0"
+ dlc046_reason_horde_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§Y8ngr§!ýV¶R0"
+ dlc047_reason_black_sea:0 "§YÑžwmUSMOS§!:N§YNbâlWíp§!0§YKQÌ‘s|šN§!0§YRSKQ‰šN§!0§YÄreYYW§!0§Y?–ætS§!ŒT§Y RPŸ“^Fzk§!žX R†N32*N°e„vUSMO!j‹W0"
+ dlc047_reason_black_sea_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§Y8ngr§!ýV¶R0"
+ dlc048_reason_horde:1 "§YO'YèK„USMOS§!žX R†N32Íy°eUSMO!j‹Wÿ(uŽN§Y^(g?Q§!ÿ§Y'Y^§!ÿ§Yú‹Öv§!ÿ§YLNyQ+RKQ§!åNÊSvQÖN4NÑ„vèK„ýV¶R0"
+ dlc048_reason_horde_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§Y8ngr§!ýV¶R0"
+ dlc049_reason_has_stuff:0 "§Y'k2m‘šuQUSMOS§!:N§YÕlpQ‰§!0§YNR ˜§!ÊS§Y‰ísYr§!žX R†N12Íy°e„v‘šuQUSMO!j‹W0"
+ dlc050_reason_general:0 "§Y‰^XS§!:NNb	g‡eSÄužX R†N18Íy°e„v‰^X!j‹W0"
+ dlc050_reason_general_reason:1 "\nbìN¨cPƒdk…Q¹RSÿàV:N`O	éb†NN*NO(u‰^X„výV¶R0"
+ dlc050_reason_you_will_need_them_reason:1 "\nbìN¨cPƒdk…Q¹RSÿàV:N`O	éb†NN*N—‰'YÏ‘‰^X„výV¶R0"
+ dlc052_reason_generic:0 "§YSabatonó—hó—PNS§!ûm R†N”N–™egê^txQ›RÏ‘Ñ‘^SPN–Sabaton„v°eLkÿSìbsQŽNb‰Nz‚=gŒTºN‰|8lNjPo`„v—e‰N„vLkòf0"
+ dlcXXX_reason_generic_music_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:NƒR:N8nbžX R†NúQr‚„v°eó—h0"
+ dlc052_reason_scandinavia_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*N§Y¯e*X„v³uôušN§!ýV¶R0"
+ dlc053_reason_has_stuff:1 "§Y)YINYeIN‰ýV¶RUSMOS§!:N§Y'k2m§!IN‰„v§Y)YINYe§!ýV¶R§YeY0W)R§!0§Y‰ísYr§!ÊS§YâlpQ§!žX R†N9Íy°e„vìr	gUSMO!j‹W0"
+ dlc054_reason_has_stuff:1 "§Yyó—>mIN‰ýV¶RUSMOS§!:N	NASt^b‰N-NIN‰„v§Yyó—>mTwßv§!ÂSNw§Y^txQ§!0§YÃRpQ‰v!X§!ÊS§YÕlpQ‰§!žX R†N8Íy°e„vìr	g!j‹W0"
+ dlc055_reason_generic:0 "§YbìN„vwmibUSS§!žX R†N°e„vyr'`ÿ‚Y0WþVR«N08fTwßvŒTcYÇ–cO›QâVåNÊS°e„vwm›Q:g6R0"
+ dlc055_reason_generic_naval:0 "§YbìN„vwmibUSS§!žX R†N°e„v8nb:g6Rÿ‚Ywm›QûN¡R0«R cwm¸S08fTwßvŒTcYÇ–cO›QâV0"
+ dlc055_reason_generic_naval_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*Nåb	gúQwmãS„výV¶R0"
+ dlc055_reason_slave_raids:0 "§YbìN„vwmÓbUSS§!:NN›NyršRýV¶Rûm R†Nwm×v«R c„výw›R0æSYûm R†NN›NbV‚Ywm›QûN¡R08fTwßvŒTcYÇ–cO›QâVIr0"
+ dlc055_reason_slave_raids_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NO(u«R cwm¸S:g6R„výV¶R0"
+ dlc055_reason_merchants:0 "§YbìN„vwmibUSS§!:NFUNqQŒTýVžX R†Nú^Ëz8fTwßv„výw›RÿmNžX R†NvQƒR:g6Rÿ‚Ywm›QûN¡R0ôTôTÌ‘wm×vŒTcYÇ–cO›QâV0"
+ dlc055_reason_merchants_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YFUNqQŒTýV§!0"
+ dlc056_reason_italy:0 "§Ya'Y)RUSMOS§!:NIN‰„v§Ya'Y)R§!ýV¶R˜Y¾‹¡‹†NÛVÍy†SòSekuQ0"
+ dlc056_reason_in_italy_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§Ya'Y)R§!„výV¶R0"
+ dlc057_reason_in_east_africa:0 "§YN^—USMOS§!:N§Y^—2mKNÒ‰§!hTôV„vIN‰ýV¶R˜Y¾‹¡‹†NÛVÍy†SòSekuQ0"
+ dlc057_reason_in_east_africa_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§YN^—§!„výV¶R0"
+ dlc058_reason_in_north_africa:0 "§YS^—USMOS§!:N§YS^—§!„vIN‰ýV¶R˜Y¾‹¡‹†NÛVÍy†SòSekuQ0"
+ dlc058_reason_in_north_africa_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§YS^—§!„výV¶R0"
+ dlc059_reason_east_asia:0 "§YKairi„vó—ha!ó—PNS§!ûm R†N”N–™upaegnŽNÎNIƒŸSWlýV0RšN2mWSèwm¸S„v§YÜN§!0W:S„vLkòf0"
+ dlc059_reason_east_asia_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*NMOŽN§YÜN§!„výV¶R0"
+ dlc060_reason_generic:0 "§YºNCgibUSS§!žX R†N°e„v8nb:g6RÿSìbR:V0MO0TINyr(0M‘vPåNÊS'YÏ‘4O–weg„vyrr‚‹NöN0"
+ dlc060_reason_ottomans:0 "§YºNCgibUSS§!:N§YeY¯eüf§!?eSOžX R†Nìr	g:g6RÿåNÊSR:V0MOŒTTINyr(IrvQƒR…Q¹R0"
+ dlc060_reason_ottomans_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YeY¯eüf§!0"
+ dlc060_reason_fetishism:0 "§YºNCgibUSS§!:N§YÜbirYe§!ýV¶RžX R†NTÜbir:g6RÿåNÊSR:V0MOŒTTINyr(IrvQƒR…Q¹R0"
+ dlc060_reason_fetishism_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YÜbirYe§!ýV¶R0"
+ dlc060_reason_coptic:0 "§YºNCgibUSS§!:N§YÑynfyrckYe§!ýV¶RžX R†N^yPN1W0W:g6RÿåNÊSR:V0MOŒTTINyr(IrvQƒR…Q¹R0"
+ dlc060_reason_coptic_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YÑynfyrYe§!ýV¶R0"
+ dlc061_reason_hre:0 "§Y·Va×Vø‹¯OUSMOS§!:N§Y^y1WWlš^ýV§!„vIN‰ýV¶Rûm R†N°e„vF–›QuQ!jŒTPg(0"
+ dlc061_reason_in_hre_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§Y^y1WWlš^ýV§!„výV¶R0"
+ dlc062_reason_west_africa:0 "§Y‰^—USMOS§!:N§Y‰^—§!ýV¶RžX R†N°e„vF–›Q!j‹WÊS¹ut0"
+ dlc062_reason_west_africa_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§Y‰^—§!„výV¶R0"
+ dlc063_reason_europe:0 "§YDd?eKNLkó—PNS§!žX R†NÛV–™LkòfÿåNeˆEQ§YºNCg§!-NžX R„v…Q¹R0"
+ dlc063_reason_europe_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*N§Y'k2m§!ýV¶R0"
+ dlc065_reason_sweden:0 "§YFredman„vO’VfNó—PNS§!ûm R†N15–™egê18Nªu„v^txQ.OßuLkòf„vTÆ–0"
+ dlc065_reason_sweden_reason:2 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NdkýV¶R0"
+ dlc066_reason_generic:0 "§Y)Y‹TibUSS§!žX R†N°e„v8nb:g6RÿSìb†SòSöeãNNÄžÑ‘öegåNÊS§YNšN§!ýV¶R„vyrŠk:g6R0"
+ dlc066_reason_china:0 "§Y)Y‹TibUSS§!:N§Y-NýV‡v^§!žX R†N¸‹Y°e„v8nb:g6RÿÎNw:N…Q?eŒTY²NÐc›O†NôfY„våTwQŒTcb0"
+ dlc066_reason_china_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Y-NýV§!„výV¶R0"
+ dlc066_reason_japan:0 "§Y)Y‹TibUSS§!:N§Yåe,gU^œ^§!ŒTùRvQHeàV„v'YTìNžX R†N°e„v8nb:g6R0"
+ dlc066_reason_japan_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Yåe,g§!„výV¶R0"
+ dlc066_reason_manchu:0 "§Y)Y‹TibUSS§!:N§Yán2m§!°ežX†N°e„vkQ×e:g6RÿAQ¸‹ÓuÆ–×eºNegžXôcÖNìN„v›Q–0"
+ dlc066_reason_manchu_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Yán2m§!„výV¶R0"
+ dlc066_reason_east_asia_generic:0 "§Y)Y‹TibUSS§!:N§YNšN§!žX R†N°e„v:g6RÿSìb§Y-NNS^ýV§!:g6Rÿå‹0W:S„vvQÖNýV¶RïSåNdk±Rðy)Yg‡v^„vRµ^0"
+ dlc066_reason_east_asia_generic_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§YNšN§!„výV¶R0"
+ dlc067_reason_japan:0 "§Y'YTUSMOS§!:N12*N§Yåe,g'YT§!žX R†N°e„vF–›Q!j‹WÊS¹ut0"
+ dlc067_reason_japan_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§Yåe,g§!„výV¶R0"
+ dlc068_reason_has_stuff:0 "§YšN2mIN‰ýV¶RUSMOS§!:N§Yf§!0§Yn§!0§Yåe,g§!ÊS§Ygœœ§!žX R†N°e„vF–›Q!j‹WÊS¹ut0"
+ dlc069_reason_has_stuff:1 "§YS¹eUSMOS§!:N§YætLR§!0§YßRTðS§!0§Y™„äS§!ÊS§Yán2m§!›Q–žX R†N°e„vèK„F–›Q!j‹WÊS¹ut0"
+ dlc070_reason_generic:1 "§Y®puQS§!:NNb	g‡eSÄuûm R†N°e„v®puQþVÏP0"
+ dlc070_reason_generic_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NO(u®puQ„výV¶R0"
+ dlc071_reason_east_asia:1 "§YšN2mwm›QUSMOS§!:N§YNšN§!ýV¶RžX R†N°e„vb0‚!j‹WÿSìbïS`„vgœœŸŸ9‚ŒTåe,gìr	g¾‹¡‹0"
+ dlc071_reason_east_asia_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§YNšN§!ýV¶R0"
+ dlc072_reason_russia:0 "§Y,r	NWlš‰lxmS§!:N§YÄOW¯e§!°ežX†Nø‹‚Y™l‡výV0ÄOW¯elQýV0SûQ›QåNÊS‰=O)RšNÓbRƒ:SIr:g6RÿTöeØ:NÄOW¯eÊSvQøv»ýV¶R°ežX†N48*N°e„vuQ!j0"
+ dlc072_reason_russia_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§YÄOW¯e§!ÃV0W&^„výV¶R0"
+ dlc076_reason_russia:0 "§YW¯eÉ‰’‘ó—PNS§!ûm R†NupaegnŽN§YÄOW¯eýV¶R§!„vó—PN0"
+ dlc076_reason_russia_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*NMOŽN§YÄOW¯e§!ÃV0W&^„výV¶R0"
+ dlc077_reason_muslim:0 "§Y‡ef„vGdîribUSS§!:N§YFz¯e—g§!ýV¶RžX R†N°e„v:g6RÿSìbO¯epQfR>måNÊSÇ8f?eVr.OYe„výw›R0"
+ dlc077_reason_muslim_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YFz¯e—g§!ýV¶R0"
+ dlc077_reason_middle_east:0 "§Y‡ef„vGdîribUSS§!:N§Y-NN§!ÊS§YFz¯e—g§!ýV¶RžX R†N°e„v:g6RÿSìbO¯epQfR>m0°e„v?eSOåNÊSÇ8f?eVr.OYe„výw›R0"
+ dlc077_reason_middle_east_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§Y-NN§!ýV¶R0"
+ dlc077_reason_ottoman:0 "§Y‡ef„vGdîribUSS§!:N§YeY¯eüf§!?eSOžX R†Nìr	g:g6Rv^9eÛ†N6w<SRÌ‘ÿ:N§Y-NN§!N§YFz¯e—g§!ýV¶RžX R†N‚YO¯epQfR>mIrvQƒR…Q¹R0"
+ dlc077_reason_ottoman_reason:2 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YeY¯eüf§!0"
+ dlc077_reason_tims:0 "§Y‡ef„vGdîribUSS§!:N§Y^(g?Q§!žX R†Nìr	g:g6Rÿå‹0W:S„v:VýVïSåNjO:N^(g?Q„v‹sPR‰vúWv^±Rðy^(g?Q„vWµN0"
+ dlc077_reason_tims_reason:2 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§Y^(g?Q§!bƒR„vN*N^SýV0"
+ dlc077_reason_mamluks:0 "§Y‡ef„vGdîribUSS§!:N§YlšFzœKQ§!?eSOžX R†Nìr	g:g6Rÿ:N§Y-NN§!N§YFz¯e—g§!ýV¶RžX R†N‚YO¯epQfR>mIrvQƒR…Q¹R0"
+ dlc077_reason_mamluks_reason:2 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YlšFzœKQ§!0"
+ dlc077_reason_persia:0 "§Y‡ef„vGdîribUSS§!:N§Yâl¯e§!žX R†Nìr	g:g6R‚Y°e„v§YSú^^yCg§!?eSOÿ:N§Y-NN§!N§YFz¯e—g§!ýV¶RžX R†N‚YO¯epQfR>mIrvQƒR…Q¹R0"
+ dlc077_reason_persia_reason:2 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NïSåNbËz§Yâl¯e§!„výV¶R0"
+ dlc077_reason_feudal_theocracy:0 "§Y‡ef„vGdîribUSS§!:N°e„v§YSú^^yCg§!?eSOžX R†Nìr	g:g6Rÿ:N§Y-NN§!N§YFz¯e—g§!ýV¶RžX R†N‚YO¯epQfR>mIrvQƒR…Q¹R0"
+ dlc077_reason_feudal_theocracy_reason:2 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§Y?–S¾ÔkÒR§!ÿå‹ýVåb	gyrŠk„v§YSú^^yCg6R§!?eSO0"
+ dlc077_reason_tribal_federation:0 "§Y‡ef„vGdîribUSS§!:N°e„v§YèK„Twßv§!?eSOžX R†Nìr	g:g6Rÿ:N§Y-NN§!N§YFz¯e—g§!ýV¶RžX R†N‚YO¯epQfR>mIrvQƒR…Q¹R0"
+ dlc077_reason_tribal_federation_reason:2 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*Nåb	gyrŠk„v§YèK„Twßv§!?eSO„výV¶R0"
+ dlc078_reason_arabia:0 "§YJS›SUSMOS§!:N§Y?–Éb=OJS›S§!„výV¶RžX R†N°e„vUSMO!j‹WÊS¹ut0"
+ dlc078_reason_arabia_reason:3 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Y?–Éb=O§!„výV¶R0"
+ dlc079_reason_persia:0 "§Yâl¯eUSMOS§!:N§Yâl¯e§!ÊS§YOg§!‡eSÄu„vvQƒRýV¶RžX R†N°e„vUSMO!j‹WÊS¹ut0"
+ dlc079_reason_persia_reason:3 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YOg§!‡eSÄu„výV¶R0"
+ dlc080_reason_has_stuff:0 "§Y2N³lUSMOS§!:N§Y•^<hÌ‘¯e³l§!ÊS§Y|^ÑSÉb•^³l§!hT¹ýV¶RžX R†N°e„vUSMO!j‹WÊS¹ut0"
+ dlc081_reason_middle_east:0 "§YKairi„vÿeY¯eüfòfŒ§!ó—PNS:NM‘§Y-NN§!IN˜˜ûm R†N°e„vó—PN0"
+ dlc081_reason_middle_east_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*N§Y-NN§!ýV¶R0"
+ dlc082_reason_iranian:2 "§YOgŒ˜î•–wÏPS§!:N§YOg§!Œ˜î•žX R†N42*N°e–wÏP0"
+ dlc082_reason_iranian_reason:2 "\nbìN¨cPƒdk…Q¹RSÿàV:N`O	éb†NN*N§YOg§!‡eSÄu„výV¶R0"
+ dlc082_reason_iran_region_reason:1 "\nbìN¨cPƒdk…Q¹RSÿàV:N`O	éb†NN*NMOŽN§YOg§!0W:S„výV¶R0"
+ dlc083_reason_muslim:1 "§YFz¯e—gsY'`Œ˜î•–wÏPS§!:N§YFz¯e—g§!ýV¶RžX R†N21*N°e„vsY'`Œ˜î•–wÏP0"
+ dlc084_reason_really_generic:0 "§Yßu»l'TÿNR ˜ÓbUSS§!(W8nb-N°ežX†NwQ	gR°e'`„v8nb:g6RÿSìbåTNi—‹TÊS°e„v8fFUÁTÿdq­p0"
+ dlc084_reason_really_generic_reason:1 "\nbìN¨cPƒdkibUSSÿàV:NƒR:N8nbžX R†N°e…Q¹R0"
+ dlc084_reason_generic:0 "§Yßu»l'TÿNR ˜ÓbUSS§!°ežX†Nyr6R„vûN¡RhÿteT†N§YNR ˜²›S§!0W:SNb	gýV¶R„vÓbUS…Q¹RÊS8nbó—PNÿØSìb°e:g6RŒTåTNi—‹T…Q¹R0"
+ dlc084_reason_generic_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§YNR ˜²›S§!„výV¶R0"
+ dlc084_reason_we_rule_the_waves:0 "§Yßu»l'TÿNR ˜§!°ežX†Nyr6R„vûN¡RhÿteT†N§Yñ‚<hpQ§!ŒT§Y'YNR ˜§!øvsQ„vÓbUS…Q¹RÊS8nbó—PNÿØSìb°e„v8nb:g6RŒTåTNi—‹TøvsQ…Q¹R0"
+ dlc084_reason_we_rule_the_waves_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§Yñ‚<hpQ§!b§Y'YNR ˜§!ÿÙ›NýV¶R=fibUSS„v&q¹pNb(W0"
+ dlc090_reason_generic:0 "§Y¾idibUSS§!žX R†N°e„v8nb:g6RÿSìb?eœ^9ei—0žX:V„v?eVrû|ßu08flQøS•bDÊSGSµu8f-NÃV„výw›R0"
+ dlc090_reason_trade_companies:0 "§Y¾idibUSS§!:N8flQøSžX R†N°e„v8nb:g6RÿƒRibUS†N?eœ^9ei—û|ßuv^ïSåNGSµu8f-NÃV0"
+ dlc090_reason_trade_companies_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NTb1S–kl^ýV„výV¶R0"
+ dlc090_reason_indian:0 "§Y¾idibUSS§!:N§YpS¦^§!ûm R†N°e„v8nb…Q¹RÿSìbN^S„vûN¡Rh0?eœ^9ei—åNÊS6–BS0"
+ dlc090_reason_mughals:0 "§Y¾idibUSS§!:N§Y«ƒgS?Q§!žX R†Nìr	g?eSOÿv^ibUS†N?eœ^9ei—:g6RN8flQøS:g6R0"
+ dlc090_reason_mughals_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NTbËz§Y«ƒgS?Q§!„výV¶R0"
+ dlc091_reason_indian_hindu:0 "§YpS¦^USMOS§!:N§YpS¦^Ye§!ýV¶RžX R†N°e„vUSMO!j‹W0"
+ dlc091_reason_indian_hindu_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§YpS¦^§!„v§YpS¦^Ye§!ýV¶R0"
+ dlc092_reason_indian_muslim:0 "§YpS¦^Ï‚9NUSMOS§!:N§YpS¦^Fz¯e—g§!ýV¶RžX R†N°e„vUSMO!j‹W0"
+ dlc092_reason_indian_muslim_reason:1 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§YpS¦^§!„v§YFz¯e—g§!ýV¶R0"
+ dlc093_reason_india:0 "§Y¾idŒ˜î•–wÏPS§!:N§YpS¦^§!ýV¶RŒT‡eSžX R†N42*N°eŒ˜î•–wÏP0"
+ dlc094_reason_india:0 "§Y¾idó—PNS§!ûm R†N°e„vq™+T§YpS¦^§!.Oßu„vŸSðX&^0"
+ dlc095_reason_iberian:0 "§YÄžÑ‘Nªu‰lxmS§!:N§YOÔk)RšN§!ýV¶RžX R†N°e„v…Q¹RÿSìbîOO0ibUSûN¡RhÿåNÊS°e„vUSMOŒT0‚9‚!j‹W0"
+ dlc095_reason_iberian_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YOÔk)RšN§!ýV¶R0"
+ dlc095_reason_pirates:0 "§YÄžÑ‘Nªu‰lxmS§!(W8nb-N ReQ†Nwm×vqQŒTýVåNÊSÖNìN„v:g6RŒTUSMO!j‹W0"
+ dlc095_reason_pirates_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb„výV¶RïSåNÇZPúQÐg›N	ébwb:Nwm×vqQŒTýV0"
+ dlc095_reason_pirates_decision_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YôT»Áe§!ÿå‹ýV(W8nbVËYTˆVëV1S	g:gOØSbwm×vqQŒTýV0"
+ dlc095_reason_maghreb:0 "§YÄžÑ‘Nªu‰lxmS§!:N§Ylš<hÌ‘^§!ýV¶RžX R†N°e„v…Q¹RÿSìbibUS„vûN¡Rh0°e„v9‚êS!j‹WåNÊSÇyršR³Q®‹bËzwm×vqQŒTýV„výw›R0"
+ dlc095_reason_maghreb_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Ylš<hÌ‘^§!0W:S„výV¶R0"
+ dlc072_reason_orthodox:0 "§Y,r	NWlš‰lxmS§!:N§YNckYe§!ýV¶RžX R†N°e„v8nb:g6RÿSìbT†Ú‹0—RYe1WÏPŒTSØšÑSUS0W:S¾‹:NýINYe:S„výw›R0"
+ dlc072_reason_orthodox_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YNckYe§!ýV¶R0"
+ dlc060_reason_prussia:0 "§YºNCgibUSS§!:N§YnfœëX§!?eSOžX R†Nìr	g:g6RÿåNÊSR:V0MOŒTTINyr(IrvQƒR…Q¹R0"
+ dlc060_reason_prussia_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YnfœëX§!0"
+ dlc060_reason_prussia_reason2:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NïSåNbËz§YnfœëX§!„výV¶R0"
+ dlc090_reason_missions_tau:0 "§Y¾idibUSS§!:N§YNT§!žX R†N°e„vûN¡Rhÿv^žX:V†N?eVrû|ßuNGSµu8f-NÃV„výw›R0"
+ dlc090_reason_missions_tau_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YNT§!0"
+ dlc090_reason_missions_tim:0 "§Y¾idibUSS§!:N§Y^(g?Q§!žX R†N°e„vûN¡Rhÿv^žX:V†N?eVrû|ßuNGSµu8f-NÃV„výw›R0"
+ dlc090_reason_missions_tim_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§Y^(g?Q§!0"
+ dlc018_reason_tc_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb„výV¶RTú^ËzN*NwmY^ýVv^ÎN8flQøS-N·ƒÊv0"
+ dlc066_reason_emperor_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§Y-NýV‡v^§!0"
+ DLC_dlc101_TOOLTIP_INSTANT:0 "‡v^"
+ DLC_dlc101_TOOLTIP_DELAYED:1 "ÿ'k2mýV¶RûN¡Rh\nÿûN‹T¢g:g\nÿYe—RÏ‹fN\nÿYe÷^ÀNNz\nÿyr)RŒ'YlQO®‹\nÿ^ýV‹NØS\nÿ°e„v^ýV9ei—\nÿi—‹TípÅ`\nÿi—‹T-NÃV\nÿáOðNˆR²bwIrµu\nÿáw¯e>mYeOáOag\nÿ8—Cg"
+ DLC_dlc102_TOOLTIP_INSTANT:0 "ôTSr^USMOS"
+ DLC_dlc102_TOOLTIP_DELAYED:0 "ÿ16ÍyôTSr^ýV¶R„v°eUSMO!j‹W"
+ DLC_dlc103_TOOLTIP_INSTANT:0 "ûŠ?–SQS¯eqS	USMOS"
+ DLC_dlc103_TOOLTIP_DELAYED:0 "ÿ12Íya'Y)RŒT^tëXýV¶R„v°eUSMO!j‹W"
+ DLC_dlc104_TOOLTIP_INSTANT:0 "ßuNwUSMOS"
+ DLC_dlc104_TOOLTIP_DELAYED:0 "ÿ5*N^SŽNa'Y)R0·Va×V0^y1WWlš^ýVŒTmTX—g	TšN„v°eUSMO!j‹W"
+ DLC_dlc105_TOOLTIP_INSTANT:0 "‡v^ó—PNS"
+ DLC_dlc105_TOOLTIP_DELAYED:0 "ÿ:N'k2mýV¶RÆQY„v3–™òfîv"
+ LANDING_dlc101_TEXT:0 "IN‰yr'`ÿ\nÿ'k2mýV¶RûN¡Rh\nÿûN‹T¢g:g\nÿYe—RÏ‹fN\nÿYe÷^ÀNNz\nÿyr)RŒ'YlQO®‹\nÿ^ýV‹NØS\nÿ°e„v^ýV9ei—\nÿi—‹TípÅ`\nÿi—‹T-NÃV\nÿáOðNˆR²bwIrµu\nÿáw¯e>mYeOáOag\nÿ8—Cg"
+ LANDING_dlc101_FLAVOR_TEXT:0 "(WÙ*N Paradox Development Studio úQÁTsQŽNÑãNéeg†SòS„v×e0‚8nbibUSS-Nÿ¢c0tib.V^ýV„vhQ°e¹eV00'kF–Î˜‘NIVÿ‡v^0:N`O(WÑãNéeg„vNLu=eM‘hQt„vªR›R&^eg°e„vñm¦^åNÊS	y˜0`Oýw&TÙpe*NNªu-Nö^íuêñT„vßu»lÿ\n\n0‡v^0NèlŽNÐcGS'k2mýV¶R„v8nbSOŒšÿ:N)YINYeýV¶RžXûm†NôfñmeQ„vÆu‚‚ÿåNÊSN*Nôf REQánIm›R0ôf	g’N¨R'`„v^y1WWlš^ýV0i—‹T‚YÎ‘kp,‚…ö^ÿ‰Bl±›NN?a«ˆ9ei—„vÂríp|TðXkbúQ†SòS‚ðS„v‹sýVìNÇ‘ÖSLˆ¨R0"
+ LANDING_dlc102_TEXT:0 "IN‰yr'`ÿ\nÿ16ÍyôTSr^ýV¶R„v°eUSMO!j‹W"
+ LANDING_dlc102_FLAVOR_TEXT:0 "Ù›N(uŽNôTSr^ýV¶R„v16Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc103_TEXT:0 "IN‰yr'`ÿ\nÿ12Íya'Y)RÊS^tëXýV¶R„v°eUSMO!j‹W0"
+ LANDING_dlc103_FLAVOR_TEXT:0 "Ù›N(uŽNa'Y)RÊS^tëXýV¶R„v12Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc104_TEXT:0 "IN‰yr'`ÿ\nÿ5*N^SŽNa'Y)R0·Va×V0^y1WWlš^ýVŒTmTX—g	TšN„v°euQ!j"
+ LANDING_dlc104_FLAVOR_TEXT:0 "Ù›N(uŽNa'Y)R0·Va×V0^y1WWlš^ýVÊSmTX—g	TšN„v5Íy°e„vUSMO!j‹Wÿ0NÌR†N'kF–Î˜‘NIV„v8nbSOŒš0"
+ LANDING_dlc105_TEXT:0 "IN‰yr'`ÿ\nÿ:N'k2mýV¶RÆQY„v3–™òfîv"
+ LANDING_dlc105_FLAVOR_TEXT:0 "«N×S3agupaegêÑãNéeg'k2m„vŸSRó—h0"
+ dlc101_reason_pope:0 "§Y‡v^ibUSS§!:N§YYe—RýV§!åNÊS)YINYežX R†N°e„v:g6Rÿ‹O‚Yyr)RŒ'YlQO®‹0Ye—RÏ‹fN0Ye÷^ÀNNzåNÊSûN‹T¢g:g0ƒRmN:N§YYe—RýV§!žX R†N9eÛ„vûN¡Rh0"
+ dlc101_reason_pope_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YYe—RýV§!0"
+ dlc101_reason_hre_emperor:0 "§Y‡v^ibUSS§!:N^y1WWlš^ýVžX R†N°e„v:g6Rÿ‹O‚Y^ýV‹NØSåNÊSÆ–CgSbRCgS^ýV„výw›R0"
+ dlc101_reason_hre_emperor_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Y^y1WWlš^ýV§!„výV¶R0"
+ dlc101_reason_french_revolution:0 "§Y‡v^ibUSS§!žX R†Ni—‹TípÅ`ÊSi—‹T-NÃV„v:g6RÿØ	g9eÛ„vÕlpQ‰ûN¡Rh0"
+ dlc101_reason_venice:0 "§Y‡v^ibUSS§!žX R†N9eÛ„v§YZ<S¯e§!ûN¡Rh0"
+ dlc101_reason_venice_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†N§YZ<S¯e§!0"
+ dlc101_reason_catholic:0 "§Y‡v^ibUSS§!:N§Y)YINYe§!áOðNžX R†N°e„v:g6Rÿ‹O‚Yyr)RŒ'YlQO®‹0Ye—RÏ‹fNåNÊSYe÷^ÀNNz0"
+ dlc101_reason_catholic_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§Y)YINYe§!ýV¶R0"
+ dlc102_reason_balkan:0 "§YôTSr^USMOS§!:N§YôTSr^§!ýV¶RžX R†N°e„vUSMO!j‹W0"
+ dlc102_reason_balkan_reason:0 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NMOŽN§YôTSr^§!„výV¶R0"
+ dlc103_reason_bta:0 "§YûŠ?–SQS¯eqS	USMOS§!:N§Ya'Y)R§!ÊS§Y^tëX§!ýV¶Rûm R†N°e„v›Q–!j‹W0"
+ dlc103_reason_bta_reason:0 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*N§Ya'Y)R§!b§Y^tëX§!ýV¶R0"
+ dlc104_reason_unifiers:0 "§YßuNwUSMOS§!:N§Y·Va×V0mTX—g	TšN0^y1WWlš^ýVåNÊSa'Y)R§!ûm R†N°e„v›Q–!j‹W0"
+ dlc104_reason_unifiers_reason:0 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†NN*NïSåNbËz§Y·Va×V0mTX—g	TšN0^y1WWlš^ýVba'Y)R§!„výV¶R0"
+ dlc101_reason_burgundy:0 "§Y‡v^ibUSS§!žX R†N^ýV‹NØS‚Y9eÛ„vÃRn‚,rçubÿåNÊSÃRn‚,rìr	g„vûN¡Rh0"
+ dlc101_reason_burgundy_reason:0 "\nbìN¨cPƒdkUSMOSÿàV:N`O	éb†N§YÃRn‚,r§!0"
+ dlc105_reason_europe:0 "§Y‡v^ó—PNS§!ûm R†N”N–™upaegnŽNÑãNéeg'k2m„vLkòf0"
+ dlc105_reason_europe_reason:1 "\nbìN¨cPƒdkó—PNSÿàV:N`O	éb†NN*N§Y'k2m§!ýV¶R0"
+ DLC_dlc106_TOOLTIP_INSTANT:0 ")RôufW"
+ DLC_dlc106_TOOLTIP_DELAYED:0 "ÿNWSšNûN¡Rh\nÿTÜw\nÿ–klýV¶R…Q¹RÓbUS\nÿ·ƒÖSºNÅ`\nÿÆ–-NÑSUS¦^\nÿÞTCg›RÆ–-NS\nÿDd?e…Q¹RÓbUS\nÿþVŒTÜb\n\n˜Yyr'`ÿ\nÿüf|ƒW?eœ^9ei—\nÿ³c c–™ý\nÿÐ“9‚VìS"
+ LANDING_dlc106_TEXT:1 "IN‰yr'`ÿ\nÿNWSšNûN¡Rh\nÿTÜw\nÿ–klýV¶R…Q¹RÓbUS\nÿ·ƒÖSºNÅ`\nÿÆ–-NÑSUS¦^\nÿÞTCg›RÆ–-NS\nÿDd?e…Q¹RÓbUS\nÿþVŒTÜb\n\n˜Yyr'`ÿ\nÿüf|ƒW?eœ^9ei—\nÿ³c c–™ý\nÿÐ“9‚VìS"
+ LANDING_dlc106_FLAVOR_TEXT:0 "ó`aŒNNÙ7hN*N–™ýÿƒRÏPRówN7hê•ê•ÑSIQÿƒRÇÎN…Q0W8T³u„v0ÌRÑSUSÿ¦Nb=fÇÎND–¸^0tÖS„vDnegÅˆ¹p0ƒRv^^—=fN*N†˜Wž^'Y„v^ýV„výVýÿw=fN*NÆ–-NS„v–ˆÍsSýV„výVý0ó`aŒƒRÿ6qT(W'kF–Î˜‘N4ÿ)RôufWÌ‘Sb.ƒR0\n\n0)RôufW0Ðc›O†N°e„vŸRýwÿO¨`ïSåN(WN›NCg›RôfÆ–-N„vwýN-NØš:V¦^Íy0u0ƒRØùRÏPDd?eŒT–kl0WIrbŸq„v8nbŸRýwZPúQ†N¸‹YvQÖN9eØS0"
+ DLC_dlc110_TOOLTIP_INSTANT:0 "wn"
+ DLC_dlc110_TOOLTIP_DELAYED:0 "ÿ^—2mìryrÊS0W:SN^SûN¡Rh\nÿ^—2myr	g?eœ^9ei—\nÿ^—2myr	g6–BSyrCg\nÿ¹r*YYe:g6R\nÿ°e„v^—2mUSMOÊS.OYeëX!j‹W\nÿ°e„v^—2mÌwofó—PN\n\n˜Yyr'`ÿ\nÿ¹r*YYe„v°e‹NöN\nÿÃW^XÄOÔkšN„vìryrp`ætUSMO"
+ LANDING_dlc110_TEXT:0 "IN‰yr'`ÿ\nÿ^—2mìryrÊS0W:SN^SûN¡Rh\nÿ^—2myr	g?eœ^9ei—\nÿ^—2myr	g6–BSyrCg\nÿ¹r*YYe:g6R\nÿ°e„v^—2mUSMOÊS.OYeëX!j‹W\nÿ°e„v^—2mÌwofó—PN\n\n˜Yyr'`ÿ\nÿ¹r*YYe„v°e‹NöN\nÿÃW^XÄOÔkšN„vìryrp`ætUSMO"
+ LANDING_dlc110_FLAVOR_TEXT:0 "^—2m'YF–E^XTË–ÿ‡eSY7hÿ†SòS `EN0ÎNlšÌ‘„vÄžÑ‘^ýVÿ0RRœg„vN—g‹sýVÿÎNQhwm:VÛvNöe„v›Q›Rÿ0RúWSætN?–1gpQ„vÜuÎuNÝu„vFUàW0°s(W=T(uwnDLCÿ`OïSåNŒRteSOŒšÙ›NýV¶R„v0NÌR…Q¹R0†˜üRÑynfyrckYe„vÃW^XÄOÔkšNÊSvQp`æt›QâVŒTAm¨R–™ýÿjO:NFzTX^Í‘ú^'Y%môT^æ—„v‰Lqÿ8n©sRœgb:NúWcwYe„v!X’Wb=f^—2m.Oßu„vˆR²bwÿHeÿNO'Y„vüf(„·Fz(„ÿÎNlšÌ‘úQÑSMRŽV¦ž Rv^8n†S'k2mÿ‘bb=fjO:N?–1gpQibUS8fƒôVÿôvóïSåNIN¨RŠb•ˆ˜žÛ!Ùu-NýV‡v^,gºN0\n\nSïCSNagÿ1u`Oeg³QšRNbŽúQ,rNek„vwn0"
+ dlc106_reason_natives:0 "§Y)RôufWibUSS§!:NSŽŸSOOlèK„ûm R†N°e„vûN¡RŒT‹NöNÿv^:NáOIYþVŒTÜb„výV¶Rûm R†N°e:g6RÊS‹NöNÿsSïSåNTÜbÇ»S„vßu»lwÿ·ƒÖSÍS.fÖNìNuMRyr(„v Rb0"
+ dlc106_reason_natives_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*N§YŽ2mŸSOOl§!ýV¶R0"
+ dlc106_reason_colonists:0 "§Y)RôufWibUSS§!°ežX†N°e„v–klýV¶RŸRýwÿåN.^©R`O„v–kl0WZw&qŽN›Q‹Nôc©R08fÞz‰N›Rbê»l0"
+ dlc106_reason_colonists_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb„výV¶RTT§Y°e'YF–§!–kl0"
+ dlc106_reason_east_indies:0 "§Y)RôufWibUSS§!:NNpS¦^'Y:Sûm R†N°e„v…Q¹RÿûN¡R0‹NöN0üf|ƒW?eœ^0Œp¾–0USMO!j‹WIr	ÿ0"
+ dlc106_reason_east_indies_reason:0 "\nbìN¨cPƒdk…Q¹RSÿàV:N`O	éb†NN*NMOŽN§YNpS¦^§!0W:S„výV¶R0"
+ dlc106_reason_oceania:0 "§Y)RôufWibUSS§!:N'Ym2mýV¶RžX R†N°e„vUSMO!j‹W0"
+ dlc106_reason_oceania_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NMOŽN§Y'Ym2m§!„výV¶R0"
+ dlc110_reason_mission_trees:0 "§YwnibUSS§!žX R†N°e„vìryrûN¡Rh0"
+ dlc110_reason_mission_trees_reason:1 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NSïSåN·ƒ—Vìryrw	g±„vûN¡Rh„výV¶R0"
+ dlc110_reason_new_music:0 "§YwnibUSS§!ûm R†N°e„vó—PN0"
+ dlc110_reason_new_music_reason:1 "\nbìN¨cPƒdkibUSSÿàV:NƒR:N`ONb	éb0W:S…Q„výV¶Rûm R†N°e„vó—PN0"
+ DLC_dlc115_TOOLTIP_INSTANT:0 "S¹eÄ–îr"
+ DLC_dlc115_TOOLTIP_DELAYED:0 "ÿ°e„v¯e*X„v³uôušNŒTâlW„výV¶RN^SûN¡Rh\nÿ°e„v¯e*X„v³uôušNŒTâlW„výV¶Ryr	g?eœ^9ei—\nÿ°e„v¯e*X„v³uôušNŒTâlW„výV¶Ryr	g6–BSyrCg\nÿ°e„vyrŠkUSMOÿSìb^txQ¬‚pQaSS›QŒTâlpQËzv–›Rü‘šuQ\nÿ°e„v¯e*X„v³uôušNŒTâlW„výV¶R!j‹W\nÿmQ–™°e„v¯e*X„v³uôušNŒTâlW„výV¶RÌwofó—PN"
+ LANDING_dlc115_TEXT:0 "IN‰yr'`ÿ\nÿ°e„v¯e*X„v³uôušNŒTâlW„výV¶RN^SûN¡Rh\nÿ°e„v¯e*X„v³uôušNŒTâlW„výV¶Ryr	g?eœ^9ei—\nÿ°e„v¯e*X„v³uôušNŒTâlW„výV¶Ryr	g6–BSyrCg\nÿ°e„vyrŠkUSMOÿSìb^txQ¬‚pQaSS›QŒTâlpQËzv–›Rü‘šuQ\nÿ°e„v¯e*X„v³uôušNŒTâlW„výV¶R!j‹W\nÿmQ–™°e„v¯e*X„v³uôušNŒTâlW„výV¶RÌwofó—PN"
+ LANDING_dlc115_FLAVOR_TEXT:0 "1397t^ÿâlŽÉb<SšN„vÃWÌ‘KQýV‹sS9N¦žÿ^txQŒT*cZ	N*N‹sýVTv^Äuú^†NN*NN3zšR„vTßv06qw(W1439t^ÿýV‹s«ˆŸ^Üžv^Am>e0R†NåT—VpQ›SÿüRôaSSlšTwßva RN3z0NdkTöeŠÇâlW„vwmÿâlpQ‹sýVŒTËzv–›R'YlQýVÅV‰˜:N(WætS³ubyV-N5–¡N„vætê¯eæt+Y	NN	>NTçuw0ÙS=fag˜N)Rƒl<SšN‘šëXâVÎNb%-Nb`Y„vöeô•ÿmN=fÌ‘ RŒTFOýlÙ7h„v8fÎW^“bOO<wMR‹YÐ„v'Y‹Yöe:g0\n\nS¹eÄ–îrD™eGr©‹`Ocb(WÙ7hN*N¨Raƒt^ãNßu»l¯e*Xê³uôušNbwâlW„vwmýV¶Rÿ&^†˜yYÇNT„vSïegb1SYÍyîvhÿÙu`O&^egŒRhQ‰lxm„vSOŒš0"
+ dlc114_reason_generic:0 "§Yªg®p0Ÿ¹pN¢”Á” Vol.3 ó—PNS§!ûm R†NASŒN–™Ñ‘^Supa„vëV‚‚OY°eLkòfÿ>e'Y†N¯eðXÿÛNek0NÌR†N'kF–Î˜‘N„v,TÉ‰SOŒš0"
+ dlc115_reason_mission_trees:0 "§YS¹eÄ–îr§!žX R†N°e„vìryrûN¡Rhÿ?eœ^9ei—ÿ6–BSyrCgŒTyrŠkUSMO0"
+ dlc115_reason_mission_trees_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NSïSåN·ƒ—Vìryrw	g±„vûN¡Rhÿ?eœ^9ei—ÿ6–BSyrCgŒT/byrŠkUSMO„výV¶R0"
+ dlc115_reason_new_units:0 "§YS¹eÄ–îr§!:N¯e*X„v³uôušNÿâlW„vŒTS·Va×V0W:S„výV¶RžX R†N°e„vUSMO!j‹W0"
+ dlc115_reason_new_units_reason:1 "\nbìN¨cPƒdkibUSSÿàV:NƒR:N`ONb	éb0W:Sÿ¯e*X„v³uôušNÿâlW„vbS·V	ÿ…Q„výV¶RžX R†N°e„vUSMO!j‹W0"
+ dlc115_reason_new_music:0 "§YS¹eÄ–îr§!ûm R†N°e„vó—PN0"
+ dlc115_reason_new_music_reason:0 "\nbìN¨cPƒdkibUSSÿàV:NƒR:N`ONb	éb0W:Sÿ¯e*X„v³uôušNbâlW„vwm	ÿ…Q„výV¶Rûm R†N	N–™°e„vó—PN0"
+ LANDING_dlc114_TEXT:0 "IN‰yr'`ÿ\nÿ12–™°e„vÑ‘^SÎ˜9eLkòf"
+ LANDING_dlc114_FLAVOR_TEXT:0 "0ªg®p0Ÿ¹pN¢”Á” Vol.30=f,r	N*N&^	gÑ‘^Sr‚iV„vó—PNSÿ÷mT†NTÍyAm>mŒTIN˜˜ÿvQupaegê'kF–Î˜‘Nû|R0,gTÆ–S+T12–™æS‰|Ñ‘^SÎ˜LkòfÿhQè1u Kasper Lindgren RjO’cÿÏk–™Lkòfý&^	gS'kl1Œ„vqVÍT0"
+ DLC_dlc114_TOOLTIP_INSTANT:0 "ªg®p0Ÿ¹pN¢”Á” Vol.3"
+ DLC_dlc119_TOOLTIP_INSTANT:0 "8—N"
+ DLC_dlc119_TOOLTIP_DELAYED:0 "ÿeY¯eüf0-NýV0åe,g0ÄOW¯e0‰ísYr0'YNR ˜„v°eûN¡RhŒT:g6RÿåNÊSnfœëX0a„„YrŒTgœœ„vûN¡R9e¨RÊSÎ˜sTibUS\nÿ…Ç60*N°e„vìryr?eœ^9ei—ÿb—T¸‹YýV¶RŒT‡eSÄu0\nÿ…Ç60*N°e6–BSyrCg0µmÖvNb	g6–BS\nÿ°eF–›QÿkpªgKb0fkëXŒT'Y¹e5–	ÿŒTwm›QÿaSÉbôuS^9‚0Öv&O^9‚0 R±ƒib9‚0IN›R0‚0wƒpQNpS¦^FU9‚ŒTŸŸ9‚yrŠkUSMO	ÿ\nÿÕlpQ‰0WS-NýV0?–OªRŒTòƒ‹V¾RýV¶R„v°e!j‹W\nÿW3wvQ0ÕlpQ‰ŒT-NýV„v9–™°e„vLkòf"
+ LANDING_dlc119_TEXT:0 "IN‰yr'`ÿ\nÿeY¯eüf0-NýV0åe,g0ÄOW¯e0‰ísYr0'YNR ˜„v°eûN¡RhŒT:g6RÿåNÊSnfœëX0a„„YrŒTgœœ„vûN¡R9e¨RÊSÎ˜sTibUS\nÿ…Ç60*N°e„vìryr?eœ^9ei—ÿb—T¸‹YýV¶RŒT‡eSÄu0\nÿ…Ç60*N°e6–BSyrCg0µmÖvNb	g6–BS\nÿ°eF–›QÿkpªgKb0fkëXŒT'Y¹e5–	ÿŒTwm›QÿaSÉbôuS^9‚0Öv&O^9‚0 R±ƒib9‚0IN›R0‚0wƒpQNpS¦^FU9‚ŒTŸŸ9‚yrŠkUSMO	ÿ\nÿÕlpQ‰0WS-NýV0?–OªRŒTòƒ‹V¾RýV¶R„v°e!j‹W\nÿW3wvQ0ÕlpQ‰ŒT-NýV„v9–™°e„vLkòf"
+ LANDING_dlc119_FLAVOR_TEXT:0 "ÑãNéeg„vNLuˆV'Yz¦^N=fsQŽN^ýVÑSUSŒTÎ‘ÃV’NZS„vEe‹N0ñ‚<hpQ0ÕlýVŒT‰ísYr‰N:Y°eNLuÿåNdkéTúVvQ(WçeNLu„v8—Cg0wLr„veY¯eüfb—4NN*N°eÑ(WÄOW¯eTw„v'YýV„vcb0(WšN2mÿäSw„v-NNS^ýVÊSåe,g^ýVck:N†NžR°s-N.YÆ–CgwNŽVfpeNªu„vð`'`øv—b0\n\n0'kF–Î˜‘NIVÿ8—N0ÇvQ-T°e„v8nbŸRýwŒTÍ‘ZP„v†SòSÆu‚‚ÿcb`OÍ‘°eÑS°sÙ›NR:V„v†SòS0"
+ dlc119_reason_new_content:0 "§Y8—NCgibUSS§!:NNLuR:VžX R†Nìryr:g6RŒTyr'`0"
+ dlc119_reason_new_content_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*Nèe(Wû«ŽNLuR:VKNRÿïSåN·ƒ—Vìryrw	g±„vûN¡Rhÿ?eœ^9ei—ÿ6–BSyrCgŒT/byrŠkUSMO„výV¶R0"
+ dlc119_reason_new_units:0 "§Y8—NibUSS§!:NÕlpQ‰ŒT-NýV0W:SýV¶RÊS?–OªRŒTòƒ‹V¾R‡eSžX R†N°e„vUSMO!j‹W0"
+ dlc119_reason_new_units_reason:0 "\nbìN¨cPƒdkibUSSÿàV:NƒR:NÕlpQ‰ŒT-NýV0W:SÿåNÊS?–OªRŒTòƒ‹V¾R‡eSžX R†N°e„vUSMO!j‹W0"
+ dlc119_reason_new_music:0 "§Y8—NibUSS§!žX R†N°e„vó—PN0"
+ dlc119_reason_new_music_reason:0 "\nbìN¨cPƒdkibUSSÿàV:NƒR:N`ONb	éb0W:Sÿ‰R³uXb)RšN0ÕlpQ‰b-NýV	ÿ…Q„výV¶Rûm R†N	N–™°e„vó—PN0"
+ DLC_dlc125_TOOLTIP_INSTANT:0 "åe,g†SòSþ‹X"
+ DLC_dlc125_TOOLTIP_DELAYED:0 "ÿ(WåwTåe,g†SòS­d¢RINcºNIsaac MeyerIN²‹„vþ‹zS-NÛNek†Nã‰ÑãNåe,g0\nÿSìb35‚‚þ‹zÿ²‹ð†N'kF–Î˜‘NIV„vöeô•¿u-Nåe,g„vÍ‘‰†SòS¬wô•ÊSãNhˆaŒVÿïS(W8nb…Qn„vó—PN­d>ehV-N6e,T0"
+ DLC_dlc126_TOOLTIP_INSTANT:0 "-NýV†SòSþ‹X"
+ DLC_dlc126_TOOLTIP_DELAYED:0 "ÿ(WåwT-NýV†SòS­d¢RINcºNU`·VÿLaszlo Montgomery	ÿIN²‹„vþ‹zS-NÛNek†Nã‰fãNÊSnR„v-NýVÊShT¹ýV¶R0\nÿSìb26‚‚þ‹zÿÏk‚‚5ó10RŸ”ÿ…Q¹RµmÖvÑãN-NýV„vÍ‘'Y†SòS‹NöNÊS‡eSÿïS(W8nb…Qn„vó—PN­d>ehV-N6e,T0"
+ LANDING_dlc125_TEXT:0 "ÿ(WåwTåe,g†SòS­d¢RINcºNIsaac MeyerIN²‹„vþ‹zS-NÛNek†Nã‰ÑãNåe,g0\nÿSìb35‚‚þ‹zÿ²‹ð†N'kF–Î˜‘NIV„vöeô•¿u-Nåe,g„vÍ‘‰†SòS¬wô•ÊSãNhˆaŒVÿïS(W8nb…Qn„vó—PN­d>ehV-N6e,T0"
+ LANDING_dlc125_FLAVOR_TEXT:0 "ÙNTÆ–S+T35‚‚þ‹zÿ²‹ð†N'kF–Î˜‘NIV„vöeô•¿u-Nåe,g„vÍ‘‰†SòS¬wô•ÊSãNhˆaŒV0ÙNû|Rþ‹zÐc›OÛNek†Nã‰'kF–Î˜‘NIVNbÏcØu„vNLu„vo‚‹Yw¹pÿ†Nã‰åe,g(WvQô•‚YUOÎNOY'YT„vSú^rRncpTNMO›Q–»lN„vßuNýV¶R0\n\nþ‹zIN˜˜Sìbåe,gÙNöegIN‰¶RÏe„v†SòS0åe,gÑSUS-N„vÍ‘'Y‹NöN0åe,g„výV¶RaŒVŒT†SòSTÜwåNÊSÙNöegåe,g„vùRY²NAmòS0"
+ LANDING_dlc126_TEXT:0 "ÿ(WåwT-NýV†SòS­d¢RINcºNU`·VÿLaszlo Montgomery	ÿIN²‹„vþ‹zS-NÛNek†Nã‰fãNÊSnR„v-NýVÊShT¹ýV¶R0\nÿSìb26‚‚þ‹zÿÏk‚‚5ó10RŸ”ÿ…Q¹RµmÖvÑãN-NýV„vÍ‘'Y†SòS‹NöNÊS‡eSÿïS(W8nb…Qn„vó—PN­d>ehV-N6e,T0"
+ LANDING_dlc126_FLAVOR_TEXT:0 "ÙNTÆ–S+T26‚‚þ‹zÿ…Q¹RµmÖv'kF–Î˜‘NIV„vöeô•¿u-NÑãN-NýV„vÍ‘'Y†SòS‹NöNÊS‡eS0ÙNû|Rþ‹zÐc›OÛNek†Nã‰'kF–Î˜‘NIVNbÏcØu„vNLu„vo‚‹Yw¹pÿŽNûNUOùR-NýV†SòS±b	gtQ±„v©s¶R0\n\nþ‹zIN˜˜Sìbfg„vpˆ“˜0NWSšNø‹ýV0¥c»-NNS^ýV„v™„äSNán2m0-NýV„v†SòSTÜwåNÊSn‹sg„vTw0"
+ dlc125_reason_japan:0 "§Yåe,g†SòSþ‹X§!S+T35‚‚†SòSþ‹zÿ`OïSåN(W8nb…Qn„vó—PN­d>ehV-N6e,T0"
+ dlc125_reason_japan_reason:0 "§Yåe,g†SòSþ‹X§!S+T35‚‚†SòSþ‹zÿ`OïSåN(W8nb…Qn„vó—PN­d>ehV-N6e,T0,gþ‹zS(W'kF–Î˜‘NIV„vöeô•¿u…QÎNT*NÒ‰¦^¨‹º‹åe,g†SòS0"
+ dlc126_reason_china:0 "§Y-NýV†SòSþ‹X§!S+T26‚‚†SòSþ‹zÿïS(W8nb…Qn„vó—PN­d>ehV-N6e,T0"
+ DLC_dlc128_TOOLTIP_INSTANT:0 "N‹sKN‹s"
+ DLC_dlc128_TOOLTIP_DELAYED:0 "IN‰yr'`ÿ\nÿ:Nâl¯e0lšFzœKQ0Üb`S­^0?–S¾ÔkÒR0<hœ	TšN0šNŽ<SšN0‹vŠ0ÑžŠ0?–Éb=OŒTmNè•ûm R†NhQ°e„vûN¡Rh\nÿ:Nâl¯eNlšFzœKQžXûm†N°e„v:g6R\nÿ1uNTýV¶RbËz„vâl¯eSåb	gNT„v?eœ^9ei—ÿv^N	g	Nag—RYe¿uïïS›O	éb\nÿ:Nâl¯eNÜb`S­^ûm R†N°e„v^SýVbVV\nÿ:Nâl¯eŒTlšFzœKQžX R†N°e„vYeâV0yrŠkUSMONY²NLˆ¨R\nÿ°ežX…Ç170*N‹NöN\nÿ:N^Xfmï¯e0yrÉbÔkŒg0aSÉbüf0åNr‚R0yr±ƒÆYîh0ÙS)RšN0šNŽ<SšNŒT<hœ	TšNûm R†NhQ°e„vuQÍy!j‹W\nÿ:N8nbûm R†Nâl¯e0ÃWÊSNØš R0tÎ˜sT„vó—PN"
+ LANDING_dlc128_TEXT:0 "IN‰yr'`ÿ\nÿ:Nâl¯e0lšFzœKQ0Üb`S­^0?–S¾ÔkÒR0<hœ	TšN0šNŽ<SšN0‹vŠ0ÑžŠ0?–Éb=OŒTmNè•ûm R†NhQ°e„vûN¡Rh\nÿ:Nâl¯eNlšFzœKQžXûm†N°e„v:g6R\nÿ1uNTýV¶RbËz„vâl¯eSåb	gNT„v?eœ^9ei—ÿv^N	g	Nag—RYe¿uïïS›O	éb\nÿ:Nâl¯eNÜb`S­^ûm R†N°e„v^SýVbVV\nÿ:Nâl¯eŒTlšFzœKQžX R†N°e„vYeâV0yrŠkUSMONY²NLˆ¨R\nÿ°ežX…Ç170*N‹NöN\nÿ:N^Xfmï¯e0yrÉbÔkŒg0aSÉbüf0åNr‚R0yr±ƒÆYîh0ÙS)RšN0šNŽ<SšNŒT<hœ	TšNûm R†NhQ°e„vuQÍy!j‹W\nÿ:N8nbûm R†Nâl¯e0ÃWÊSNØš R0tÎ˜sT„vó—PN"
+ LANDING_dlc128_FLAVOR_TEXT:1 "2N*NNªuMRÿb	T`WlÊSvQ–Lˆ„v™„äSºNŒTz¥SºN„v'Y›Q*jLˆ(W0W-NwmŒTpS¦^KNô•„vW0WÿäNvQÛVR”NÂˆ0°s(Wÿ¸‹YýV¶RQ!k:V'Ywegÿ³åN:YÞVùRå‹0W:S„vßu»lCg0(Wâl¯eÿ^(g?QVgT„v‹kYO¿R›R-NúQ°s†N¸‹Yz¥SŒTOgýV¶R0(WÃWÊSÿ«ˆtYyV„vlšFzœKQëXuQú^Ëz†NN*N:V'Y„vÏ‚9NýVÿv^ßu»lNwÙS)RšN„vW0W0(WD–Ñ„vØš R0tŒT^J0W:SÿúWcwYe‹sýVck(WIr…V:gOÿ‘bbÎ¥cmp¡N0w(W?–Éb=OŒTmNè•ÿNT„vèK„ŒT¿R›Rý(W:NQ!kßuNå‹0W:SwKY—e0\n\nN‹sKN‹sT¨`ÐcúQcbÿ©‹¨`ßu»lÙ›NlÏeÿ&^†˜ÖNìNRú^°e„v‰Lq^ýV0"
+ dlc126_reason_china_reason:0 "§Y-NýV†SòSþ‹X§!ûm R†N26‚‚†SòSþ‹zÿ¨`ïSåN(W8nb-N…Qn„vó—PN­d>ehV-N­d>eƒRìN0(WÙ›Nó—‘˜Ì‘ÿbìNS(W'kF–Î˜‘NIV„vöeô•¿u…QÎNT*NÒ‰¦^¨‹º‹-NýV†SòS0"
+ dlc128_reason_new_content:0 "§YN‹sKN‹sibUSS§!žX R†N°e„vìryrûN¡RhŒT:g6RÿyrŠkUSMOåNÊSó—PN0"
+ dlc128_reason_new_content_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NSïSåN·ƒ—Vìr	g±ûN¡RhŒT:g6R„výV¶RÿåNÊS/bwyrŠkUSMO0"
+ dlc128_reason_new_units:0 "§YN‹sKN‹sibUSS§!:NÃWÊSÿØš R0tŒTâl¯e0W:SÿÏgÏgSÿÙS)RšNÿ,gýŒTW3wvQ‡eSåNÊS^Xfmï¯eÿ6wï’d·QŒTåNr‚RžX R†N°e„vUSMO!j‹W0"
+ dlc128_reason_new_units_reason:0 "\nbìN¨cPƒdkibUSSÿàV:NƒR:NÃWÊSÿØš R0tŒTâl¯e0W:SÿÏgÏgSÿÙS)RšNÿ,gýŒTW3wvQ‡eSåNÊS^Xfmï¯eÿ6wï’d·QŒTåNr‚RžX R†N°e„vUSMO!j‹W0"
+ dlc128_reason_new_music:0 "§YN‹sKN‹sibUSS§!ûm R†N°e„vó—PN0"
+ dlc128_reason_new_music_reason:0 "\nbìN¨cPƒdkibUSSÿàV:NƒR:N`ONb	éb0W:SÿÃWÊSÿâl¯ebØš R0t	ÿ…Q„výV¶Rûm R†N°e„vó—PN0"
+ DLC_dlc136_TOOLTIP_INSTANT:0 "ØSi—KNÎ˜"
+ DLC_dlc136_TOOLTIP_DELAYED:0 "IN‰yr'`ÿ\nÿpS R0?–yQyrKQ0›sÅ–0wƒpQ0eY0W)R0SYr)R0âl^s|šN0·VýV0a'Y)R0Z<S¯e0^(g?Q0«ƒgS?Q0-NšN8ngrèK„0ÈTQhïQO+Y0—S(gyQ0?–üf0ÄreYYW0yrÉbÔkŒgŒTåeK„eQµO„v°eûN¡RhŒTÍ‘°e¾‹¡‹„vûN¡Rh0\nÿpS R0?–yQyrKQ0·VýV0Z<S¯e0—S(gyQŒT?–üf„v?eœ^:g6R0\nÿ…Ç40Íy°e„vìryr„v?eœ^9ei—0\nÿ…Ç50Íy°e„vìryr„v6–BSyrCg0\nÿvQÖN…Q¹Rÿ‹O‚Y‹NöN0³Q®‹00W¹eÄuÇu0Y²NLˆ¨R0±Rbt1uŒT^SýV‰|‹W0\nÿidS¾ôušN0Á^Ì‘šN0Wlš…m0¾SlšÐcšN0Z¯eyrO)RšN0±ƒ5ƒ0¯emOKQŒTKQW0WšN„vUSMO!j‹W0\nÿ9–™Ž2m0-N'kŒT-NNÎ˜<h„v°e„vó—PN0"
+ LANDING_dlc136_TEXT:0 "ÿpS R0?–yQyrKQ0›sÅ–0wƒpQ0eY0W)R0SYr)R0âl^s|šN0·VýV0a'Y)R0Z<S¯e0^(g?Q0«ƒgS?Q0-NšN8ngrèK„0ÈTQhïQO+Y0—S(gyQ0?–üf0ÄreYYW0yrÉbÔkŒgŒTåeK„eQµO„v°eûN¡RhŒTÍ‘°e¾‹¡‹„vûN¡Rh0\nÿpS R0?–yQyrKQ0·VýV0Z<S¯e0—S(gyQŒT?–üf„v?eœ^:g6R0\nÿ…Ç40Íy°e„vìryr„v?eœ^9ei—0\nÿ…Ç50Íy°e„vìryr„v6–BSyrCg0\nÿvQÖN…Q¹Rÿ‹O‚Y‹NöN0³Q®‹00W¹eÄuÇu0Y²NLˆ¨R0±Rbt1uŒT^SýV‰|‹W0\nÿidS¾ôušN0Á^Ì‘šN0Wlš…m0¾SlšÐcšN0Z¯eyrO)RšN0±ƒ5ƒ0¯emOKQŒTKQW0WšN„vUSMO!j‹W0\nÿ9–™Ž2m0-N'kŒT-NNÎ˜<h„v°e„vó—PN0"
+ LANDING_dlc136_FLAVOR_TEXT:0 "lQCQ1444t^ÿØSi—KNÎ˜sSS-^wSNLu0b	T`WlN^(g?Qøvçu¨…Tÿ-NšN8ngrnætã‰ÿ‚YÊNòT6q0R†N)Tƒn„v¹ÿb¸‹GPåNöeåeÿæSNMOO'YVgwS”^Ðwu0‰R³uXb)RšNz¥SºN„vTwÿNÅNäNúWcwYeýV¶RçVÃVáVáVÿwNI–x†N'kšNFU8Am¨R0‚YœgvQƒRýV¶RbŸR¢c0tŽ2mÿVŸ°eFUï RåN)R(uÿb¸‹ýwÖSãNHQMRINüR0W-Nwm„vÏuNm:VCg0Ž2m„v›sÅ–^ýV0?–yQyrKQ^ýVŒTpS R^ýVtQÛvòTENÿb¸‹	g:gON°eegwTðSÞzŽb0ŒýwŒšmšÙØSi—KNÎ˜ÿ"
+ dlc136_reason_new_content:0 "§YØSi—KNÎ˜§!žX R†N°e„vìryrûN¡RhŒT:g6RÿyrŠkUSMOåNÊSó—PN0"
+ dlc136_reason_new_content_reason:0 "\nbìN¨cPƒdkibUSSÿàV:N`O	éb†NN*NSïSåN·ƒ—Vìr	g±ûN¡RhŒT:g6R„výV¶R0"
+ dlc136_reason_new_units:0 "§YØSi—KNÎ˜§!:NidS¾ôušNÿÁ^Ì‘šNÿWlš…mÿ¾SlšÐcšNÿZ¯eyrO)RšNÿ±ƒ5ƒÿ¯emOKQÿŒTKQW0WšNžX R†N°e„vUSMO!j‹W0"
+ dlc136_reason_new_units_reason:0 "\nbìN¨cPƒdkibUSSÿàV:NƒR:NidS¾ôušNÿÁ^Ì‘šNÿWlš…mÿ¾SlšÐcšNÿZ¯eyrO)RšNÿ±ƒ5ƒÿ¯emOKQÿŒTKQW0WšNžX R†N°e„vUSMO!j‹W0"
+ dlc136_reason_new_music:0 "§YØS<hKNÎ˜§!ûm R†N°e„vó—PN0"
+ dlc136_reason_new_music_reason:0 "\nbìN¨cPƒdkibUSSÿàV:NƒRûm R†NŽ2m0-N'kŒT-NNÎ˜<h„v°e„vó—PN0"

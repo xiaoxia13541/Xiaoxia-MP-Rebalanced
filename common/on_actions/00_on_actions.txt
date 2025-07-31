@@ -2275,6 +2275,11 @@ on_adm_development = {
 				which = dev_sum_clicks
 				value = 1
 			}
+			# 种地手续费
+			if = {
+				limit = { has_country_modifier = dev_tax_modifier }
+				add_adm_power = -6
+			}
 		}
 	}
 }
@@ -2293,6 +2298,11 @@ on_dip_development = {
 				which = dev_sum_clicks
 				value = 1
 			}
+			# 种地手续费
+			if = {
+				limit = { has_country_modifier = dev_tax_modifier }
+				add_dip_power = -6
+			}
 		}
 	}
 }
@@ -2310,6 +2320,11 @@ on_mil_development = {
 			change_variable = {
 				which = dev_sum_clicks
 				value = 1
+			}
+			# 种地手续费
+			if = {
+				limit = { has_country_modifier = dev_tax_modifier }
+				add_mil_power = -6
 			}
 		}
 	}

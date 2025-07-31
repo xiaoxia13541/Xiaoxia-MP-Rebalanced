@@ -1,7 +1,7 @@
-l_english:
- GREAT_PROJECT_OUTLINER:0 "伟大工程"
- OL_GREATPROJECT_CONSTRUCTION:0 "在$PROV$建设$BUILDING$，预计完成于$DATE$。"
- EDICT_ALREADY_SELECTED:0 "该法令已生效。"
- EDICT_EFFECT_REMOVED:0 "§R$EDICT$移除时：§!$EFFECT$"
- FREE_CULTURES_DESC:0 "附加认同的文化："
- FREELY_ACCEPTED_CULTURE_DESC:0 "若认同该文化，给予一个附加的已认同文化槽。"
+﻿l_english:
+ GREAT_PROJECT_OUTLINER:0 "O'YåTz"
+ OL_GREATPROJECT_CONSTRUCTION:0 "(W$PROV$ú^¾‹$BUILDING$ÿ„˜¡‹ŒRbŽN$DATE$0"
+ EDICT_ALREADY_SELECTED:0 "å‹ÕläNòTuHe0"
+ EDICT_EFFECT_REMOVED:0 "§R$EDICT$ûyd–öeÿ§!$EFFECT$"
+ FREE_CULTURES_DESC:0 "D– R²‹T„v‡eSÿ"
+ FREELY_ACCEPTED_CULTURE_DESC:0 "å‚²‹Tå‹‡eSÿÙuˆNN*ND– R„vòT²‹T‡eSýi0"

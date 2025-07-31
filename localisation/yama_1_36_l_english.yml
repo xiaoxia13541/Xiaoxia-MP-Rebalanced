@@ -1,37 +1,37 @@
-l_english:
- qizilbash:0 "奇兹尔巴什"
- QIZILBASH_NAME:0 "奇兹尔巴什$NAME$"
- MODIFIER_ALLOWED_QIZILBASH_FRACTION:0 "奇兹尔巴什上限占比"
- MODIFIER_LOCAL_HAS_QIZILBASH:0 "省份可招募奇兹尔巴什"
- QIZILBASH_FORCELIMIT:0 "我们最多可以招募$LIMIT|Y$§G奇兹尔巴什§!，原因如下：\n$FLAMOUNT|Y$来自我们陆军上限（$FL$）的$PERC|%Y$：\n"
- QIZILBASH_LIMIT_CULTURE:0 "$PROVINCE$既不属于§Y土耳其§!、§Y阿塞拜疆§!或§Y土库曼§!文化，也不属于我们的§Y首都地区§!，因而无法在此征募奇兹尔巴什。"
- ADD_QIZILBASH_SUB_UNIT_EFFECT:0 "在$WHERE|Y$获得「§G奇兹尔巴什§!」$UNIT$。"
- QIZILBASH_DESC:0 "奇兹尔巴什是信仰什叶派的土库曼战士，他们来自讲阿塞拜疆语的部族。在萨法维苏菲教团建立了作为精锐骑兵与步兵力量的奇兹尔巴什后，他们也扩大了政治权力并成为贵族阶层的直接对手。作为什叶派的武装力量，奇兹尔巴什追随什叶派信条，并反对一切国内的反什叶派思想。\n奇兹尔巴什的招募上限由§Y奇兹尔巴什§!阶层所拥有的阶层特权决定。他们可以在§Y土耳其§!、§Y阿塞拜疆§!或是§Y土库曼§!文化的省份内，以及§Y首都直属州§!之内招募。"
- REGCAT_qizilbash:0 "奇兹尔巴什"
- QIZILBASH_REGIMENT:0 "奇兹尔巴什军团\n$EFFECT$"
- HAVE_LESS_QIZILBASH_THAN:0 "拥有的奇兹尔巴什少于§Y$VALUE$§!。\n"
- qizilbash_modifier:0 "已招募的奇兹尔巴什"
- HAVE_AT_LEAST_QIZILBASH_THAN:0 "拥有至少§Y$VALUE$§!奇兹尔巴什。\n"
- MODIFIER_AMOUNT_OF_QIZILBASH:0 "奇兹尔巴什单位上限"
- MODIFIER_HAS_QIZILBASH:0 "该国可招募奇兹尔巴什"
- qizilbash_regiment:0 "来自奇兹尔巴什的修正"
- ONLY_QIZILBASH_MODIFIER:0 "§Y只影响奇兹尔巴什§!"
- mamluks:0 "马穆鲁克"
- MAMLUKS_NAME:0 "马穆鲁克$NAME$"
- MODIFIER_ALLOWED_MAMLUKS_FRACTION:0 "马穆鲁克上限占比"
- MODIFIER_LOCAL_HAS_MAMLUKS:0 "省份可招募马穆鲁克"
- MAMLUKS_FORCELIMIT:0 "我们最多可以招募$LIMIT|Y$§G马穆鲁克§!，基于：\n$FLAMOUNT|Y$来自我们陆军上限（$FL$）的$PERC|%Y$：\n"
- MAMLUKS_LIMIT_CULTURE:0 "$PROVINCE$不符合招募马穆鲁克的条件。"
- ADD_MAMLUKS_SUB_UNIT_EFFECT:0 "在$WHERE|Y$获得「§G马穆鲁克§!」$UNIT$。"
- MAMLUKS_DESC:0 "马穆鲁克是以步行和骑乘作战的奴隶士兵。"
- REGCAT_mamluks:0 "马穆鲁克"
- MAMLUKS_REGIMENT:0 "马穆鲁克军团\n$EFFECT$"
- HAVE_LESS_MAMLUKS_THAN:0 "拥有的马穆鲁克少于§Y$VALUE$§!。\n"
- mamluks_modifier:0 "已招募的马穆鲁克"
- HAVE_AT_LEAST_MAMLUKS_THAN:0 "拥有至少§Y$VALUE$§!马穆鲁克。\n"
- MODIFIER_AMOUNT_OF_MAMLUKS:0 "马穆鲁克军队上限"
- MODIFIER_HAS_MAMLUKS:0 "该国可招募马穆鲁克"
- mamluks_regiment:0 "来自马穆鲁克的修正"
- ONLY_MAMLUKS_MODIFIER:0 "§Y只影响马穆鲁克§!"
- mechanic_is_eligible_for_hre_emperor_no:0 "没有资格成为§Y神圣罗马帝国皇帝§!"
- mechanic_is_eligible_for_hre_emperor_yes:0 "有资格成为§Y神圣罗马帝国皇帝§!"
+﻿l_english:
+ qizilbash:0 "GYyQSôTÀN"
+ QIZILBASH_NAME:0 "GYyQSôTÀN$NAME$"
+ MODIFIER_ALLOWED_QIZILBASH_FRACTION:0 "GYyQSôTÀNNP–`SÔk"
+ MODIFIER_LOCAL_HAS_QIZILBASH:0 "wýNïSÛbßRGYyQSôTÀN"
+ QIZILBASH_FORCELIMIT:0 "bìNgYïSåNÛbßR$LIMIT|Y$§GGYyQSôTÀN§!ÿŸSàV‚YNÿ\n$FLAMOUNT|Y$egêbìNF–›QNP–ÿ$FL$	ÿ„v$PERC|%Y$ÿ\n"
+ QIZILBASH_LIMIT_CULTURE:0 "$PROVINCE$âeN^SŽN§YW3wvQ§!0§Y?–^XÜb†u§!b§YW“^üf§!‡eSÿmNN^SŽNbìN„v§Y–™ý0W:S§!ÿàVwàeÕl(WdkVßRGYyQSôTÀN0"
+ ADD_QIZILBASH_SUB_UNIT_EFFECT:0 "(W$WHERE|Y$·ƒ—V0§GGYyQSôTÀN§!0$UNIT$0"
+ QIZILBASH_DESC:0 "GYyQSôTÀN=fáOðNÀNöS>m„vW“^üfbëXÿÖNìNegê²‹?–^XÜb†uí‹„vèÏe0(W(„ÕlôuÏ‚òƒYeâVú^Ëz†NjO:N¾|•‘šuQNekuQ›RÏ‘„vGYyQSôTÀNTÿÖNìNmNib'Y†N?e»lCg›Rv^b:N5Ïe6–BS„vôv¥cùRKb0jO:NÀNöS>m„vfkÅˆ›RÏ‘ÿGYyQSôTÀNý–ÀNöS>máOagÿv^ÍSùRNRýV…Q„vÍSÀNöS>m`ó`0\nGYyQSôTÀN„vÛbßRNP–1u§YGYyQSôTÀN§!6–BSNbåb	g„v6–BSyrCg³QšR0ÖNìNïSåN(W§YW3wvQ§!0§Y?–^XÜb†u§!b=f§YW“^üf§!‡eS„vwýN…QÿåNÊS§Y–™ýôv^SÞT§!KN…QÛbßR0"
+ REGCAT_qizilbash:0 "GYyQSôTÀN"
+ QIZILBASH_REGIMENT:0 "GYyQSôTÀN›QâV\n$EFFECT$"
+ HAVE_LESS_QIZILBASH_THAN:0 "åb	g„vGYyQSôTÀNSŽN§Y$VALUE$§!0\n"
+ qizilbash_modifier:0 "òTÛbßR„vGYyQSôTÀN"
+ HAVE_AT_LEAST_QIZILBASH_THAN:0 "åb	góS§Y$VALUE$§!GYyQSôTÀN0\n"
+ MODIFIER_AMOUNT_OF_QIZILBASH:0 "GYyQSôTÀNUSMONP–"
+ MODIFIER_HAS_QIZILBASH:0 "å‹ýVïSÛbßRGYyQSôTÀN"
+ qizilbash_regiment:0 "egêGYyQSôTÀN„vîOck"
+ ONLY_QIZILBASH_MODIFIER:0 "§YêSqVÍTGYyQSôTÀN§!"
+ mamluks:0 "lšFzœKQ"
+ MAMLUKS_NAME:0 "lšFzœKQ$NAME$"
+ MODIFIER_ALLOWED_MAMLUKS_FRACTION:0 "lšFzœKQNP–`SÔk"
+ MODIFIER_LOCAL_HAS_MAMLUKS:0 "wýNïSÛbßRlšFzœKQ"
+ MAMLUKS_FORCELIMIT:0 "bìNgYïSåNÛbßR$LIMIT|Y$§GlšFzœKQ§!ÿúWŽNÿ\n$FLAMOUNT|Y$egêbìNF–›QNP–ÿ$FL$	ÿ„v$PERC|%Y$ÿ\n"
+ MAMLUKS_LIMIT_CULTURE:0 "$PROVINCE$N&rTÛbßRlšFzœKQ„vagöN0"
+ ADD_MAMLUKS_SUB_UNIT_EFFECT:0 "(W$WHERE|Y$·ƒ—V0§GlšFzœKQ§!0$UNIT$0"
+ MAMLUKS_DESC:0 "lšFzœKQ=fåNekLˆŒT‘šXNjOb„vtY¶–ëXuQ0"
+ REGCAT_mamluks:0 "lšFzœKQ"
+ MAMLUKS_REGIMENT:0 "lšFzœKQ›QâV\n$EFFECT$"
+ HAVE_LESS_MAMLUKS_THAN:0 "åb	g„vlšFzœKQSŽN§Y$VALUE$§!0\n"
+ mamluks_modifier:0 "òTÛbßR„vlšFzœKQ"
+ HAVE_AT_LEAST_MAMLUKS_THAN:0 "åb	góS§Y$VALUE$§!lšFzœKQ0\n"
+ MODIFIER_AMOUNT_OF_MAMLUKS:0 "lšFzœKQ›Q–NP–"
+ MODIFIER_HAS_MAMLUKS:0 "å‹ýVïSÛbßRlšFzœKQ"
+ mamluks_regiment:0 "egêlšFzœKQ„vîOck"
+ ONLY_MAMLUKS_MODIFIER:0 "§YêSqVÍTlšFzœKQ§!"
+ mechanic_is_eligible_for_hre_emperor_no:0 "¡l	gD<hb:N§Y^y1WWlš^ýV‡v^§!"
+ mechanic_is_eligible_for_hre_emperor_yes:0 "	gD<hb:N§Y^y1WWlš^ýV‡v^§!"

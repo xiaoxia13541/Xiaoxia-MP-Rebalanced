@@ -1,61 +1,61 @@
-l_english:
+﻿l_english:
  # Scripted Triggers:
- is_ahead_of_time_in_tech_tt_all: " §Y所有§! 科技均领先于时代"
- is_ahead_of_time_in_tech_tt_any: " §Y任意§! 科技领先于时代"
- is_ahead_of_time_in_tech_tt_none: " §Y任意§! 科技均落后于时代"
- is_ahead_of_time_in_tech_tt_adm: " £adm£ §Y行政科技§! 领先于时代"
- is_ahead_of_time_in_tech_tt_dip: " £dip£ §Y外交科技§! 领先于时代"
- is_ahead_of_time_in_tech_tt_mil: " £mil£ §Y军事科技§! 领先于时代"
+ is_ahead_of_time_in_tech_tt_all: " §YNb	g§! ÑyŽbGW†˜HQŽNöeãN"
+ is_ahead_of_time_in_tech_tt_any: " §YûNa§! ÑyŽb†˜HQŽNöeãN"
+ is_ahead_of_time_in_tech_tt_none: " §YûNa§! ÑyŽbGWK„TŽNöeãN"
+ is_ahead_of_time_in_tech_tt_adm: " £adm£ §YLˆ?eÑyŽb§! †˜HQŽNöeãN"
+ is_ahead_of_time_in_tech_tt_dip: " £dip£ §YY²NÑyŽb§! †˜HQŽNöeãN"
+ is_ahead_of_time_in_tech_tt_mil: " £mil£ §Y›Q‹NÑyŽb§! †˜HQŽNöeãN"
 
- HAS_BETTER_TECH_THAN_TT: " §Y[Prev.GetName]§! 至少 §Y[Trigger.num_of_cities]§! 科技领先于时代"
+ HAS_BETTER_TECH_THAN_TT: " §Y[Prev.GetName]§! óS §Y[Trigger.num_of_cities]§! ÑyŽb†˜HQŽNöeãN"
 
  # Scripted Effects:
- ME_ADD_ARMY_TRADITION_OR_MIL_POWER: "每一点溢出的 §Y陆军传统§! 均会被转化为 §G3§! §Y军事点§!."
+ ME_ADD_ARMY_TRADITION_OR_MIL_POWER: "ÏkN¹p¢núQ„v §YF–›Q.Oßu§! GWO«ˆlS:N §G3§! §Y›Q‹N¹p§!."
 
- ME_advisor_originates_from_PREV_THIS: "该顾问的文化为 §Y[Prev.Culture.GetName]§! ，信仰 §Y[This.Religion.GetName]§!."
+ ME_advisor_originates_from_PREV_THIS: "å‹Œ˜î•„v‡eS:N §Y[Prev.Culture.GetName]§! ÿáOðN §Y[This.Religion.GetName]§!."
 
- add_or_upgrade_trade_building_tt: "§Y[This.GetName]§! 的 §Y贸易建筑§! 将会被升级. 如果没有该建筑，则将建造 §Y集市§! ， 如果已有 §Y证券交易所§! ， 则 §Y[This.GetName]§! 获得 §G1§! 基础税收和 §G1§! 基础生产。"
- add_or_upgrade_tax_building_tt: "§Y[This.GetName]§! 的 §Y税收建筑§! 将会被升级. 如果没有该建筑，则将建造 §Y教堂§!， 如果已有 §Y大教堂§!， 则 §Y[This.GetName]§! 获得 §G2§! 基础税收。"
- add_or_upgrade_shipyard_building_tt: "§Y[This.GetName]§! 的 §Y造船厂§! 将会被升级. 如果没有该建筑，则将建造 §Y造船厂§! ， 如果已有 §Y造船厂§! ， 则获得 §G500§! 水手."
+ add_or_upgrade_trade_building_tt: "§Y[This.GetName]§! „v §Y8fú^Qr§! SO«ˆGSµu. ‚Yœg¡l	gå‹ú^QrÿRSú^. §YÆ–^§! ÿ ‚YœgòT	g §YÁ‹8R²NfNb§! ÿ R §Y[This.GetName]§! ·ƒ—V §G1§! úWNxz6eŒT §G1§! úWNxuµN0"
+ add_or_upgrade_tax_building_tt: "§Y[This.GetName]§! „v §Yz6eú^Qr§! SO«ˆGSµu. ‚Yœg¡l	gå‹ú^QrÿRSú^. §YYeX§!ÿ ‚YœgòT	g §Y'YYeX§!ÿ R §Y[This.GetName]§! ·ƒ—V §G2§! úWNxz6e0"
+ add_or_upgrade_shipyard_building_tt: "§Y[This.GetName]§! „v §Y.9‚‚S§! SO«ˆGSµu. ‚Yœg¡l	gå‹ú^QrÿRSú^. §Y.9‚‚S§! ÿ ‚YœgòT	g §Y.9‚‚S§! ÿ R·ƒ—V §G500§! 4lKb."
 
- ME_CHANGE_NATIONAL_FOCUS_TT: "可以再次选择我们的 £adm££dip££mil£ §Y国家焦点§!.\n"
- missions_expanded_events.2.t: "变革之风"
- missions_expanded_events.2.d: "在实现了我们的宏伟抱负之后，我们国家下一步将采取的行动有待商榷。未来就在空气中，吹着变革之风。"
- missions_expanded_events.2.a: "让我们专注于我们的内部政策。"
- missions_expanded_events.2.b: "我们必须和每个人和平相处。"
- missions_expanded_events.2.c: "我们将感受到我们征服的宏伟。"
- missions_expanded_events.2.e: "良好的平衡是确保繁荣的唯一途径。"
- missions_expanded_events.2.f: "断无此疏！"
- ME_we_will_change_to_adm_focus: "我们的 §Y国家焦点§! 将会转变为£adm£ §Y行政§!.\n下一次可以更改国家焦点的时间将会被重新计算."
- ME_we_will_change_to_dip_focus: "我们的 §Y国家焦点§! 将会转变为£dip£ §Y外交§!.\n下一次可以更改国家焦点的时间将会被重新计算."
- ME_we_will_change_to_mil_focus: "我们的 §Y国家焦点§! 将会转变为£mil£ §Y军事§!.\n下一次可以更改国家焦点的时间将会被重新计算."
- ME_we_will_change_to_none_focus: "我们的 §Y国家焦点§! 将会转变为§Y无焦点§!.\n下一次可以更改国家焦点的时间将会被重新计算."
+ ME_CHANGE_NATIONAL_FOCUS_TT: "ïSåNQ!k	ébbìN„v £adm££dip££mil£ §YýV¶R&q¹p§!.\n"
+ missions_expanded_events.2.t: "ØSi—KNÎ˜"
+ missions_expanded_events.2.d: "(WžR°s†NbìN„vRO±bKNTÿbìNýV¶RNNekSÇ‘ÖS„vLˆ¨R	g…VFU·i0*geg1S(Wzzl-Nÿ9TNwØSi—KNÎ˜0"
+ missions_expanded_events.2.a: "©‹bìNNèlŽNbìN„v…Qè?eVr0"
+ missions_expanded_events.2.b: "bìNÅV‰˜ŒTÏk*NºNŒTs^øvY0"
+ missions_expanded_events.2.c: "bìNSa×S0RbìNVg„vRO0"
+ missions_expanded_events.2.e: "o‚‹Y„vs^aˆ=fnxÝOAucƒ„v=UN„V0"
+ missions_expanded_events.2.f: "­eàedkuÿ"
+ ME_we_will_change_to_adm_focus: "bìN„v §YýV¶R&q¹p§! SOlØS:N£adm£ §YLˆ?e§!.\nNN!kïSåNôf9eýV¶R&q¹p„vöeô•SO«ˆÍ‘°e¡‹—r."
+ ME_we_will_change_to_dip_focus: "bìN„v §YýV¶R&q¹p§! SOlØS:N£dip£ §YY²N§!.\nNN!kïSåNôf9eýV¶R&q¹p„vöeô•SO«ˆÍ‘°e¡‹—r."
+ ME_we_will_change_to_mil_focus: "bìN„v §YýV¶R&q¹p§! SOlØS:N£mil£ §Y›Q‹N§!.\nNN!kïSåNôf9eýV¶R&q¹p„vöeô•SO«ˆÍ‘°e¡‹—r."
+ ME_we_will_change_to_none_focus: "bìN„v §YýV¶R&q¹p§! SOlØS:N§Yàe&q¹p§!.\nNN!kïSåNôf9eýV¶R&q¹p„vöeô•SO«ˆÍ‘°e¡‹—r."
  ME_nothing_will_happen: " "
 
- ME_has_completed_all_reforms_tt: "§Y[This.GetName]§! 已实施所有的 §Y政府改革§! ."
+ ME_has_completed_all_reforms_tt: "§Y[This.GetName]§! òTžRËeNb	g„v §Y?eœ^9ei—§! ."
 
- has_reform_on_level_0_tt: "已实施 §Y第1级§! §Y政府改革§! ."
- has_reform_on_level_1_tt: "已实施 §Y第2级§! §Y政府改革§! ."
- has_reform_on_level_2_tt: "已实施 §Y第3级§! §Y政府改革§! ."
- has_reform_on_level_3_tt: "已实施 §Y第4级§! §Y政府改革§! ."
- has_reform_on_level_4_tt: "已实施 §Y第5级§! §Y政府改革§! ."
- has_reform_on_level_5_tt: "已实施 §Y第6级§! §Y政府改革§! ."
- has_reform_on_level_6_tt: "已实施 §Y第7级§! §Y政府改革§! ."
- has_reform_on_level_7_tt: "已实施 §Y第8级§! §Y政府改革§! ."
- has_reform_on_level_8_tt: "已实施 §Y第9级§! §Y政府改革§! ."
- has_reform_on_level_9_tt: "已实施 §Y第10级§! §Y政府改革§! ."
- has_reform_on_level_10_tt: "已实施 §Y第11级§! §Y政府改革§! ."
- has_reform_on_level_11_tt: "已实施 §Y第12级§! §Y政府改革§! ."
- has_reform_on_level_12_tt: "已实施 §Y第13级§! §Y政府改革§! ."
- has_reform_on_level_13_tt: "已实施 §Y第14级§! §Y政府改革§! ."
+ has_reform_on_level_0_tt: "òTžRËe §Y,r1µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_1_tt: "òTžRËe §Y,r2µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_2_tt: "òTžRËe §Y,r3µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_3_tt: "òTžRËe §Y,r4µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_4_tt: "òTžRËe §Y,r5µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_5_tt: "òTžRËe §Y,r6µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_6_tt: "òTžRËe §Y,r7µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_7_tt: "òTžRËe §Y,r8µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_8_tt: "òTžRËe §Y,r9µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_9_tt: "òTžRËe §Y,r10µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_10_tt: "òTžRËe §Y,r11µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_11_tt: "òTžRËe §Y,r12µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_12_tt: "òTžRËe §Y,r13µu§! §Y?eœ^9ei—§! ."
+ has_reform_on_level_13_tt: "òTžRËe §Y,r14µu§! §Y?eœ^9ei—§! ."
  
  # MISC from other loc files:
  ME_yes: "£yes£"
  ME_no: "£no£"
- TED_TIR_has_not_used_decision_in_5_years: " 该 §Y决议§! 每 §Y5年§! 可以使用一次."
- MKS_gateway: "西方大门"
- TEU_ttf_tooltip: "至少拥有 §G6.00§! 点正统信仰容忍度。"
- POL_25_mil_power_per_privilege: "每有一项授予 §Y[Root.GetNobilityOrFallbackName]§! 的特权，就获得§G25§! §Y军事点§!."
- POL_the_noble_privileges: "获得 §G[Root.GetPolandAmountOfMilPower]§! 军事点数. This is due to the §Y[Root.GetNobilityOrFallbackName]§! having §R[Root.GetPolandAmountOfPrivileges]§! privilege(s)， costing §R25§! each."
- SLO_BURGHER_MANA: "每有一项授予§Y市民阶层§!的特权，就获取 §G25§! £dip£ ."
- IS_PROSPEROUS: "处于繁荣中"
+ TED_TIR_has_not_used_decision_in_5_years: " å‹ §Y³Q®‹§! Ïk §Y5t^§! ïSåNO(uN!k."
+ MKS_gateway: "‰¹e'Yè•"
+ TEU_ttf_tooltip: "óSåb	g §G6.00§! ¹pckßuáOðN¹RÍV¦^0"
+ POL_25_mil_power_per_privilege: "Ïk	gNy˜ˆcˆN §Y[Root.GetNobilityOrFallbackName]§! „vyrCgÿ1S·ƒ—V§G25§! §Y›Q‹N¹p§!."
+ POL_the_noble_privileges: "·ƒ—V §G[Root.GetPolandAmountOfMilPower]§! ›Q‹N¹ppe. This is due to the §Y[Root.GetNobilityOrFallbackName]§! having §R[Root.GetPolandAmountOfPrivileges]§! privilege(s)ÿ costing §R25§! each."
+ SLO_BURGHER_MANA: "Ïk	gNy˜ˆcˆN§Y^l6–BS§!„vyrCgÿ1S·ƒÖS §G25§! £dip£ ."
+ IS_PROSPEROUS: "YŽNAucƒ-N"

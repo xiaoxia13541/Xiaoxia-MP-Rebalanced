@@ -10,7 +10,7 @@ benin_jungle_confederacy = {
 			gui = benin_jungle_power_gov_mech
 			max = 100
 			min = 0
-			base_monthly_growth = -1.5
+			base_monthly_growth = -1
 			is_good = yes
 
 			scaled_modifier = {

@@ -3813,6 +3813,8 @@ Loro_Pani = { # 洛罗派尼
 			local_production_efficiency = 1.5
 		}
 		country_modifiers = {
+			prestige = 1
+			legitimacy = 1
 		}
 		on_upgraded = {
 			add_base_production = 1
@@ -3833,6 +3835,8 @@ Loro_Pani = { # 洛罗派尼
 			local_production_efficiency = 2.5
 		}
 		country_modifiers = {
+			prestige = 2
+			legitimacy = 2
 		}
 		on_upgraded = {
 			add_base_production = 2

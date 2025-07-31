@@ -1,269 +1,269 @@
-l_english:
- MAJ_sunda_title: "婚礼的遗产"
- MAJ_sunda_desc: "即使在麻喏巴歇帝国的指数级崛起期间，麻喏巴歇和巽他王国也被视为平等的对手。当伽查马达在平等婚姻的掩护下，试图通过使公主成为麻喏巴歇拉贾的妾室来征服巽他人王室时，情况发生了变化。巽他人对此仍然心存怨恨。"
- MAJ_naval_prowess_title: "海军威力"
- MAJ_naval_prowess_desc: "麻喏巴歇是一个被宁静、拥抱的海洋所孕育的帝国。毫无疑问，我们在海军领域的实力并非微不足道。实际上，几个世纪以来，我们采纳并开创了许多船只类型，以便在水域中优化我们的船只。"
- MAJ_secure_spice_trade_title: "确保香料"
- MAJ_secure_spice_trade_desc: "一个马来政体如果不控制该地区的香料贸易，就不能自称为帝国。装有辣椒、香料、肉豆蔻、香草和丁香的船只将被重新定向到我们的港口。"
- MAJ_trade_links_title: "帝国的动脉"
- MAJ_trade_links_desc: "曾经为帝国带来财富的贸易联系已经被切断。是时候重新连接帝国的各个部分，复苏这个垂死的帝国了。"
- MAJ_recover_strength_title: "恢复力量"
- MAJ_recover_strength_desc: "受到内部冲突和严重衰退的冲击，麻喏巴歇帝国似乎无法恢复，其复兴——只是一个绝望的愿望。然而，一个熟练的统治者可能能够扭转这种衰退，使麻喏巴歇重归辉煌。"
- MAJ_bedil_title: "爪哇贝迪尔"
- MAJ_bedil_desc: "火药和火器在13世纪传入南洋。从那时起，我们热衷于创新和开创新型火器。"
- MAJ_cetbangs_title: "雷鸣般的切特邦"
- MAJ_cetbangs_desc: "切特邦是爪哇的大炮，因此也是麻喏巴歇帝国的大炮。实际上，几个世纪以来，我们已经推出了我们自己的版本的大炮，以我们自己的东方风格生产。"
- MAJ_settling_nusa_title: "定居努沙登加拉"
- MAJ_settling_nusa_desc: "在过去，麻喏巴歇帝国在努沙登加拉有朝贡国，但它们失去了恩宠。随着它们的衰落，小政体脱离了控制，停止支付贡品。现在是麻喏巴歇回归并带来新的统治浪潮的时候了。"
- MAJ_javan_relevancy_title: "恢复爪哇的至高无上"
- MAJ_javan_relevancy_desc: "随着麻喏巴歇的衰退，爪哇的相关性也开始减弱。是时候展示，尽管我们可能严重衰退，但我们仍然能够重拳出击，恢复帝国的昔日荣光。"
- MAJ_blessed_fields_title: "神圣的田野"
- MAJ_blessed_fields_desc: "这些心爱的田野是任何国家基石。没有这个神圣的米碗，爪哇王国将几乎无力。赐予爪哇的仁慈礼物使岛屿能够在人口上增长，并在人力上对其他国家施加力量。"
- MAJ_negara_agung_title: "内加拉阿贡"
- MAJ_negara_agung_desc: "内加拉阿贡是麻喏巴歇国家概念中的一个术语，代表“核心领域”，意思是首都（特罗武兰）及其周边地区。"
- MAJ_great_works_title: "麻喏巴歇的伟大工程"
- MAJ_great_works_desc: "东爪哇的每一个连续的伟大王国都建造了一座伟大的纪念碑来展示他们的财富和力量。正如婆罗浮屠寺由夏连特拉王朝建造，普兰巴南寺由桑贾亚王朝建造，麻喏巴歇只剩下恢复这些伟大工程到它们昔日的辉煌。"
- MAJ_borneo_title: "婆罗洲朝贡国"
- MAJ_borneo_desc: "我们在加里曼丹的朝贡国网络已经破碎，我们勉强维持的只有一个班贾尔。庞大的麻喏巴歇朝贡国网络必须恢复，特别是在婆罗洲，它位于群岛的中心。"
- MAJ_berune_title: "控制伯鲁内"
- MAJ_berune_desc: "在我们的衰退期间，伯鲁内的不驯顺的臣民已经脱离了我们的枷锁！我们必须让他们回到我们的监护下，并告诉他们这里谁是‘崛起的帝国’！"
- MAJ_tanjungnagara_title: "丹戎纳加拉"
- MAJ_tanjungnagara_desc: "麻喏巴歇对加里曼丹的称呼源自于曾统治婆罗洲西南部的丹戎普腊王国。时代已经改变，曾经控制这些土地的政体已经所剩无几。但这个名字仍然存在于我们的语言中，麻喏巴歇控制的遗产仍然存在。"
- MAJ_majapahit_title: "威尔瓦蒂克塔和南洋群岛"
- MAJ_majapahit_desc: "南洋群岛是一个古老的术语，意为‘外岛’。在麻喏巴歇帝国，它通常指的是麻喏巴歇曼卡内加拉之外的领地，以及其海外的朝贡国等。我们征服了那些外岛！麻喏巴歇帝国现在可以被认为是比以往任何时候都更伟大，并且准备永远扩张。"
- MAJ_candi_title: "重新连接坎迪"
- MAJ_candi_desc: "由于我们的衰退，坎迪（印度教-佛教起源的寺庙）的网络已经被切断。随着帝国的复兴，是时候恢复那些神圣的圣地，并让人们为我们的回归赞美上帝。"
- MAJ_gajah_madas_oath_title: "帕拉帕誓言"
- MAJ_gajah_madas_oath_desc: "‘如果我成功征服了南洋群岛，我将打破我的斋戒。如果古伦、塞拉姆、丹戎普腊、哈鲁、帕杭、登波、巴厘岛、巽他、巨港、马六甲、淡马锡都被击败，那么我将打破我的斋戒。’伽查马达的誓言至今仍然相关，我们将被铭记在我们的心中。"
- MAJ_tributaries_title: "西方朝贡国"
- MAJ_tributaries_desc: "失去朝贡国对麻喏巴歇经济造成了沉重打击。没有贸易保障，我们过去的贸易协议无法续签，我们的经济受到了严重打击。是时候亲自采取行动，恢复西方的权力了。"
- MAJ_swarnadwipa_title: "苏瓦纳迪维帕"
- MAJ_swarnadwipa_desc: "苏瓦纳迪维帕是一个传说中的名字，通常与苏门答腊半岛联系在一起。意为‘黄金岛’，它可能指的是在苏门答腊山脉中开采的黄金，也可能指的是岛屿的香料财富。"
- MAJ_strait_title: "无人能过"
- MAJ_strait_desc: "连接中国和印度的马六甲海峡必须完全处于我们的控制之下。只有经过授权的人才可以进入，那些敢于未经我们许可进入的人将灭亡。"
- MAJ_halt_the_spread_title: "阻止传播"
- MAJ_halt_the_spread_desc: "印度教一直在不断衰退，帝国未来的生计岌岌可危。我们必须采取行动，立即阻止伊斯兰教的传播！"
- MAJ_shiva_title: "湿婆的召唤"
- MAJ_shiva_desc: "传播已经够久了。是时候结束这个地区的伊斯兰霸权了。所以，请帮助我们，湿婆！借给我们胜利之弓——维贾亚！"
- MAJ_sakasanusa_title: "萨卡苏努萨"
- MAJ_sakasanusa_desc: "虽然群岛的特征相似，但从物理上看，苏拉威西岛与其它岛屿大不相同。岛屿非常多山，山峰相当高。不仅如此，它还有一个奇特的形状和一个理想的地点，这使得这个支柱岛成为一个战略资产。"
- MAJ_maluku_title: "控制马鲁古"
- MAJ_maluku_desc: "马鲁古群岛是操纵贸易市场的关键。这些岛屿以肉豆蔻和丁香种植园而闻名，它们以生产的香料而闻名。因此，征服和集中这些领土将对我们大有裨益。"
- MAJ_temasek_title: "惩罚淡马锡"
- MAJ_temasek_desc: "不驯顺的城市淡马锡就像一个挥之不去的杂草。在毁灭了这座城市之后，它的国王在马六甲建立了一个新国家，并继续成为该地区的一个重要力量。他们竟敢与我们竞争，这是令人愤慨的。"
- MAJ_hujung_medini_title: "胡胴梅迪尼"
- MAJ_hujung_medini_desc: "胡胴梅迪尼指的是麻喏巴歇帝国的北部边界，即马来半岛。不幸的是，这个术语的使用可能处于危险之中，因为我们对该地区的控制已经严重衰退。是时候恢复我们对黄金半岛的控制了！"
- MAJ_mancanegara_title: "曼卡内加拉"
- MAJ_mancanegara_desc: "曼卡内加拉是由麻喏巴歇的亲属控制的东爪哇和中爪哇的领土，他们直接向君主汇报，但位于内加拉阿贡之外。"
+﻿l_english:
+ MAJ_sunda_title: "ZZ<y„vWµN"
+ MAJ_sunda_desc: "sSO(W»žUôTGk^ýV„vcpeµuTwgô•ÿ»žUôTGkŒTýTÖN‹sýVmN«ˆÆ‰:Ns^Ir„vùRKb0SVKOåglš¾(Ws^IrZZûY„v©c²bNÿÕ‹þVÇOlQINb:N»žUôTGkÉb>„v¾Y²RegVgýTÖNºN‹s²RöeÿÅ`µQÑSu†NØSS0ýTÖNºNùRdkÍN6qÃVXR(`h`0"
+ MAJ_naval_prowess_title: "wm›QZ›R"
+ MAJ_naval_prowess_desc: "»žUôTGk=fN*N«ˆRY—0åb±b„vwmmNbUR²w„v^ýV0ëkàe‘uî•ÿbìN(Wwm›Q†˜ßW„vžR›Rv^^—®VN³S0žRE–NÿàQ*NNªuåNegÿbìNÇ‘³uv^VR†N¸‹Y9‚êS‰|‹WÿåN¿O(W4lßW-NOSbìN„v9‚êS0"
+ MAJ_secure_spice_trade_title: "nxÝO™™™e"
+ MAJ_secure_spice_trade_desc: "N*Nlšeg?eSO‚YœgNµc6Rå‹0W:S„v™™™e8fÿ1SNýwêðy:N^ýV0Åˆ	g±i0™™™e0‰wFŒI…0™™IƒŒTN™™„v9‚êSS«ˆÍ‘°ešRT0RbìN„v=nãS0"
+ MAJ_trade_links_title: "^ýV„v¨R	"
+ MAJ_trade_links_desc: "þfÏu:N^ýV&^eg0ÌR„v8fTwû|òTÏu«ˆR­e0=föePÍ‘°eÞ¥c^ýV„vT*NèRÿYÏ‚Ù*N‚W‰k„v^ýV†N0"
+ MAJ_recover_strength_title: "b`Y›RÏ‘"
+ MAJ_recover_strength_desc: "×S0R…Qè²QzŒT%NÍ‘pˆ„v²QûQÿ»žUôTGk^ýV<ONNàeÕlb`YÿvQYtQêS=fN*NÝug„v?ag06qwÿN*NŸqÃu„vßu»lwïSýwýwYmblÙÍypˆÿO»žUôTGkÍ‘RV‰Lq0"
+ MAJ_bedil_title: "*rÇTêS"
+ MAJ_bedil_desc: "kpoƒŒTkphV(W13Nªu.OeQWSm0ÎN±öewÿbìNípwˆŽNR°eŒTVR°e‹WkphV0"
+ MAJ_cetbangs_title: "÷–1ž,‚„vRyr¦"
+ MAJ_cetbangs_desc: "Ryr¦=f*rÇT„v'Y®pÿàVdkmN=f»žUôTGk^ýV„v'Y®p0žRE–NÿàQ*NNªuåNegÿbìNòTÏu¨cúQ†NbìNêñT„vHr,g„v'Y®pÿåNbìNêñT„vN¹eÎ˜<huµN0"
+ MAJ_settling_nusa_title: "šRESªR™l‰v RÉb"
+ MAJ_settling_nusa_desc: "(WÇ»Sÿ»žUôTGk^ýV(WªR™l‰v RÉb	gg!ýVÿFOƒRìN1Y»S†Ni` R0–NwƒRìN„vpˆK„ÿS?eSO1»y†Nµc6RÿjPbk=eØN!ÁT0°s(W=f»žUôTGkÞVRVv^&^eg°e„vßu»ljmno„vöeP†N0"
+ MAJ_javan_relevancy_title: "b`Y*rÇT„vóØšàeN"
+ MAJ_javan_relevancy_desc: "–Nw»žUôTGk„vpˆÿ*rÇT„vøvsQ'`mNVËYÏQ1V0=föePUS:yÿKS¡rbìNïSýw%NÍ‘pˆÿFObìNÍN6qýwYÍ‘óbúQûQÿb`Y^ýV„vfåecƒIQ0"
+ MAJ_blessed_fields_title: "^y1W„v0uÎ‘"
+ MAJ_blessed_fields_desc: "Ù›NÃV1r„v0uÎ‘=fûNUOýV¶RúWów0¡l	gÙ*N^y1W„vs|—xÿ*rÇT‹sýVSàQNNàe›R0PˆN*rÇT„vÁNHa<yirO›SSýwY(WºNãSNžX•ÿv^(WºN›RNùRvQÖNýV¶RËe R›RÏ‘0"
+ MAJ_negara_agung_title: "…Q RÉb?–!"
+ MAJ_negara_agung_desc: "…Q RÉb?–!=f»žUôTGkýV¶R‚iõV-N„vN*N=gí‹ÿãNhˆ8hÃV†˜ßWÿa`=f–™ýÿyrWfkpQ	ÿÊSvQhT¹0W:S0"
+ MAJ_great_works_title: "»žUôTGk„vO'YåTz"
+ MAJ_great_works_desc: "N*rÇT„vÏkN*NÞíu„vO'Y‹sýVýú^.†NNµ^O'Y„vªuõV‘xegUS:yÖNìN„v0ÌRŒT›RÏ‘0ck‚YFZWnm`SúR1uYÞyrÉb‹sgú^.ÿnfpQôTWSúR1uQh>šN‹sgú^.ÿ»žUôTGkêSiRNb`YÙ›NO'YåTz0RƒRìNfåe„v‰Lq0"
+ MAJ_borneo_title: "FZW2mg!ýV"
+ MAJ_borneo_desc: "bìN(W RÌ‘üf9N„vg!ýVQÜuòTÏu4xŽxÿbìNÉR:Vôuc„vêS	gN*Nís>S0ž^'Y„v»žUôTGkg!ýVQÜuÅV‰˜b`Yÿyr+R=f(WFZW2mÿƒRMOŽN²›S„v-NÃV0"
+ MAJ_berune_title: "µc6R=Oœ…Q"
+ MAJ_berune_desc: "(WbìN„vpˆgô•ÿ=Oœ…Q„vNošz˜„vãlòTÏu1»y†NbìN„v·g•ÿbìNÅV‰˜©‹ÖNìNÞV0RbìN„vÑv²bNÿv^JTÉ‹ÖNìNÙÌ‘Œ=fTw„v^ýVÿ"
+ MAJ_tanjungnagara_title: "9Nb³u RÉb"
+ MAJ_tanjungnagara_desc: "»žUôTGkùR RÌ‘üf9N„vðy|TnêŽNþfßu»lFZW2m‰WSè„v9NbnfJ‹sýV0öeãNòTÏu9eØSÿþfÏuµc6RÙ›NW0W„v?eSOòTÏuNbiRàeàQ0FOÙ*NTWRÍN6qXR(WŽNbìN„ví‹Š-Nÿ»žUôTGkµc6R„vWµNÍN6qXR(W0"
+ MAJ_majapahit_title: "ZSæt‚„KQTXŒTWSm²›S"
+ MAJ_majapahit_desc: "WSm²›S=fN*NäSw„v=gí‹ÿa:NY›S0(W»žUôTGk^ýVÿƒR8^c„v=f»žUôTGküfaS…Q RÉbKNY„v†˜0WÿåNÊSvQwmY„vg!ýVIr0bìNVg†N±›NY›Sÿ»žUôTGk^ýV°s(WïSåN«ˆ²‹:N=fÔkåNŽVûNUOöePýôfO'Yÿv^NÆQY8lÜib.V0"
+ MAJ_candi_title: "Í‘°eÞ¥cNWê"
+ MAJ_candi_desc: "1uŽNbìN„vpˆÿNWêÿpS¦^Ye-iOYewn„vúR™^	ÿ„vQÜuòTÏu«ˆR­e0–Nw^ýV„vYtQÿ=föePb`Y±›N^y1W„v1W0Wÿv^©‹ºNìN:NbìN„vÞVRV^ŽN^0"
+ MAJ_gajah_madas_oath_title: "^Éb^“ŠŠ"
+ MAJ_gajah_madas_oath_desc: "‚YœgbbŸRVg†NWSm²›SÿbSSb4xb„v‹eb0‚YœgäS&O0^XÉbÆY09NbnfJ0ÈTœ0^mg0‰vâl0ôT˜S›S0ýTÖN0èT=n0lšmQ2u0ámlš!•ý«ˆûQ%ÿ±HNbSSb4xb„v‹eb0KOåglš¾„v“ŠŠóÊNÍN6qøvsQÿbìNS«ˆí”°‹(WbìN„vÃV-N0"
+ MAJ_tributaries_title: "‰¹eg!ýV"
+ MAJ_tributaries_desc: "1Y»Sg!ýVùR»žUôTGkÏuNm.b†N‰lÍ‘SbûQ0¡l	g8fÝOœ–ÿbìNÇ»S„v8fOS®‹àeÕlíuŒrÿbìN„vÏuNm×S0R†N%NÍ‘SbûQ0=föeP²NêÇ‘ÖSLˆ¨Rÿb`Y‰¹e„vCg›R†N0"
+ MAJ_swarnadwipa_title: "Ï‚æt³uêôu^"
+ MAJ_swarnadwipa_desc: "Ï‚æt³uêôu^=fN*N.Oô‹-N„vTWRÿ8^NÏ‚è•TrJJS›STwû|(WNw0a:NÄžÑ‘›SÿƒRïSýwc„v=f(WÏ‚è•TrJqS	-NVÇ‘„vÄžÑ‘ÿmNïSýwc„v=f›SS„v™™™e0ÌR0"
+ MAJ_strait_title: "àeºNýwÇ"
+ MAJ_strait_desc: "Þ¥c-NýVŒTpS¦^„vlšmQ2uwmáSÅV‰˜ŒRhQYŽNbìN„vµc6RKNN0êS	gÏuÇˆcCg„vºNMbïSåNÛeQÿ±›NbeŽN*gÏubìN¸‹ïSÛeQ„vºNSmp¡N0"
+ MAJ_halt_the_spread_title: "I–bk.O­d"
+ MAJ_halt_the_spread_desc: "pS¦^YeNôv(WN­epˆÿ^ýV*geg„vu¡‹ŒSŒSïSqS0bìNÅV‰˜Ç‘ÖSLˆ¨RÿËzsSI–bkO¯epQYe„v.O­dÿ"
+ MAJ_shiva_title: "nFZ„vìS2U"
+ MAJ_shiva_desc: ".O­dòTÏuYEN†N0=föePÓumgÙ*N0W:S„vO¯epQ8—Cg†N0NbåNÿ÷‹.^©RbìNÿnFZÿPÙubìNÜw)RKNVôu>šNÿ"
+ MAJ_sakasanusa_title: "(„aSÏ‚ªR(„"
+ MAJ_sakasanusa_desc: "‹†6q²›S„vyrVøv<OÿFOÎNirtNwÿÏ‚ÉbZ‰›SNvQƒR›SS'YNøvT0›SS^—8^YqSÿqSðSøvSVØš0NÅN‚YdkÿƒRØ	gN*NGYyr„vbV¶rŒTN*Ntó`„v0W¹pÿÙO—VÙ*N=eñg›Sb:NN*NbeuDµN0"
+ MAJ_maluku_title: "µc6RlšœäS"
+ MAJ_maluku_desc: "lšœäS²›S=fÍdµu8f^:W„vsQ.•0Ù›N›SSåN‰wFŒI…ŒTN™™ÍyiíVwû•TÿƒRìNåNuµN„v™™™ewû•T0àVdkÿVgŒTÆ–-NÙ›N†˜WSùRbìN'Y	gèˆÊv0"
+ MAJ_temasek_title: "é`Zámlš!•"
+ MAJ_temasek_desc: "Nošz˜„vÎW^ámlš!•1SÏPN*N%cKNN»S„vBgIƒ0(WÁkmp†NÙµ^ÎW^KNTÿƒR„výV‹s(WlšmQ2uú^Ëz†NN*N°eýV¶Rÿv^çuíub:Nå‹0W:S„vN*NÍ‘‰›RÏ‘0ÖNìNßzbeNbìNÞz‰NÿÙ=fäNºN2aha„v0"
+ MAJ_hujung_medini_title: "áwôw…hê<S"
+ MAJ_hujung_medini_desc: "áwôw…hê<Sc„v=f»žUôTGk^ýV„vSè¹LuÿsSlšegJS›S0Nx^„v=fÿÙ*N=gí‹„vO(uïSýwYŽNqSi–KN-NÿàV:NbìNùRå‹0W:S„vµc6RòTÏu%NÍ‘pˆ0=föePb`YbìNùRÄžÑ‘JS›S„vµc6R†Nÿ"
+ MAJ_mancanegara_title: "üfaS…Q RÉb"
+ MAJ_mancanegara_desc: "üfaS…Q RÉb=f1u»žUôTGk„v²N^Sµc6R„vN*rÇTŒT-N*rÇT„v†˜WÿÖNìNôv¥cTTINGl¥bÿFOMOŽN…Q RÉb?–!KNY0"
 
- MAJ_securing_important_territories: "确保关键海峡"
- MAJ_pillar_island_control: "控制支柱岛"
- MAJ_maluku_cloves: "操纵丁香"
- MAJ_cloves: "无价的香料"
- MAJ_unruly_subject_defeated: "不驯顺的对手被击败"
- MAJ_temasik_defeated: "帕拉梅斯瓦拉再次被击败"
- MAJ_spice_flow: "香料流动"
- MAJ_suvarnadvipa: "被黄金笼罩的岛屿"
- MAJ_verge_of_the_empire: "旧帝国边缘再次征服"
- MAJ_bedil: "贝迪尔汤巴克"
- MAJ_shipbuilding: "马拉邦、戎和凯卢卢斯"
- MAJ_kotagede: "科塔格德纪念碑"
- MAJ_mancanegara_modifier: "当地布雷斯有序"
- MAJ_we_will_taste_spice: "我们将品尝香料！"
- MAJ_attempt_on_root_life: "对君主生命的企图"
- MAJ_majapahit_architecture: "东爪哇建筑"
- MAJ_stability_cost: "高合法性"
- MAJ_a_call_of_shiva: "湿婆的呼唤"
- MAJ_javan_arms: "进口爪哇武器"
- MAJ_cetbangs_modifier: "东方风格瓦拉斯特拉"
- MAJ_rice_fields: "稻田"
- MAJ_back_in_business: "重回商界"
- MAJ_trowulan_rebuilt: "特罗武兰重建"
- MAJ_great_power_surroundings: "充满朝圣者的土地"
- MAJ_monuments: "麻喏巴歇的朝圣者"
- MAJ_strategic_island_secured: "战略岛屿安全"
- MAJ_preserving_remaining_tributaries: "保留剩余的朝贡国"
- MAJ_conversion: "印度化王国"
- MAJ_spice_trade: "未受干扰的商品流动"
- MAJ_trade_links_modifier: "无人能阻止贸易"
- MSA_the_edge_of_the_kingdom: "帝国边缘的城市"
- MAJ_sunda_conquered: "巽他被征服"
- MAJ_campaign_against_sunda: "对巽他的战役"
- MAJ_empire: "麻喏巴歇帝国"
- MAJ_integrating: "整合巽他人"
+ MAJ_securing_important_territories: "nxÝOsQ.•wmáS"
+ MAJ_pillar_island_control: "µc6R=eñg›S"
+ MAJ_maluku_cloves: "ÍdµuN™™"
+ MAJ_cloves: "àe÷N„v™™™e"
+ MAJ_unruly_subject_defeated: "Nošz˜„vùRKb«ˆûQ%"
+ MAJ_temasik_defeated: "^Éb…h¯eætÉbQ!k«ˆûQ%"
+ MAJ_spice_flow: "™™™eAm¨R"
+ MAJ_suvarnadvipa: "«ˆÄžÑ‘<ri„v›SS"
+ MAJ_verge_of_the_empire: "çe^ýV¹Q!kVg"
+ MAJ_bedil: "êSdlôTKQ"
+ MAJ_shipbuilding: "lšÉb¦0bŒTïQbSbS¯e"
+ MAJ_kotagede: "ÑyTX<h·VªuõV‘x"
+ MAJ_mancanegara_modifier: "SV0W^÷–¯e	g^"
+ MAJ_we_will_taste_spice: "bìNSÁTS™™™eÿ"
+ MAJ_attempt_on_root_life: "ùRTINu‹T„vOþV"
+ MAJ_majapahit_architecture: "N*rÇTú^Qr"
+ MAJ_stability_cost: "ØšTÕl'`"
+ MAJ_a_call_of_shiva: "nFZ„v|T2U"
+ MAJ_javan_arms: "ÛãS*rÇTfkhV"
+ MAJ_cetbangs_modifier: "N¹eÎ˜<hætÉb¯eyrÉb"
+ MAJ_rice_fields: "Iz0u"
+ MAJ_back_in_business: "Í‘ÞVFULu"
+ MAJ_trowulan_rebuilt: "yrWfkpQÍ‘ú^"
+ MAJ_great_power_surroundings: "EQáng1Ww„vW0W"
+ MAJ_monuments: "»žUôTGk„vg1Ww"
+ MAJ_strategic_island_secured: "beu›SS‰RhQ"
+ MAJ_preserving_remaining_tributaries: "ÝOYuiRYO„vg!ýV"
+ MAJ_conversion: "pS¦^S‹sýV"
+ MAJ_spice_trade: "*g×Sr^pb„vFUÁTAm¨R"
+ MAJ_trade_links_modifier: "àeºNýwI–bk8f"
+ MSA_the_edge_of_the_kingdom: "^ýV¹„vÎW^"
+ MAJ_sunda_conquered: "ýTÖN«ˆVg"
+ MAJ_campaign_against_sunda: "ùRýTÖN„vbyV"
+ MAJ_empire: "»žUôTGk^ýV"
+ MAJ_integrating: "teTýTÖNºN"
 
- MAJ_until_end_of_discovery: "直到发现时代结束"
- MAJ_wargoal: "帕拉帕誓言"
+ MAJ_until_end_of_discovery: "ôv0RÑS°söeãNÓumg"
+ MAJ_wargoal: "^Éb^“ŠŠ"
  
- MAJ_10_power: " [Root.GetName] 在盟友的 §Y本土贸易节点§! 中至少拥有10.0%的 §Y贸易力量§! 份额"
- MAJ_merge_modifiers: "合并 '§Y帕拉梅斯瓦拉再次被击败§!' 、 '§Y不驯顺的对手被击败§!' 和 '§Y被黄金笼罩的岛屿§!' 修正为 '§Y麻喏巴歇帝国§! '，并通过\n省份战争得分成本 §G-10.0%§! "
- MAJ_distribute_15_manpower: "在 §Y爪哇§! 的省份中随机分配 §G15§! £icon_manpower£ §Y人力§! 发展。"
- MAJ_less_than_25_provinces: "在 §Y马来§! 和 §Y印度尼西亚§! 地区拥有的省份少于 §Y25§! 个的 §Y穆斯林§! 国家。"
- MAJ_has_converted_5_provinces: "至少 §Y转化§! 了 §Y5§! 个省份"
- MAJ_every_owned_province: "在 §Y东爪哇§! 、 §Y中爪哇§! 和 §Y泗水§! 地区的每个拥有的省份："
- MAJ_palapa_campaigns_cb: "获得对持有我们 §Y要求§! 的 §Y马来文化群§! 国家的 §Y帕拉帕誓言§! 宣战理由。\n"
- MAJ_95_legitimacy: "至少 §Y95§! 的 §Y合法性§! "
- MAJ_is_no_longer_in_disaster: "已经经历了 §Y麻喏巴歇的衰退§! 灾难，或者至少采取了 §Y2§! 个决定来解决它。"
- MAJ_target_1_tooltip: "我们将以 §Y[Majapahit_Target_1.GetName]§! 的收入 §Y[Majapahit_Target_1.Majapahit_years_of_income.GetValue]§!¤ 的价格提供我们的武器，如果他们接受，他们将获得以下修正器作为回报："
- MAJ_target_2_tooltip: "我们将以 §Y[Majapahit_Target_2.GetName]§! 的收入 §Y[Majapahit_Target_2.Majapahit_years_of_income.GetValue]§!¤ 的价格提供我们的武器，如果他们接受，他们将获得以下修正器作为回报："
- MAJ_target_3_tooltip: "我们将以 §Y[Majapahit_Target_3.GetName]§! 的收入 §Y[Majapahit_Target_3.Majapahit_years_of_income.GetValue]§!¤ 的价格提供我们的武器，如果他们接受，他们将获得以下修正器作为回报："
- MAJ_provinces_fulfilling_triggers: "在 §Y爪哇§! 的每个拥有的省份满足 §Y触发器§! ："
- MAJ_every_state_with_a_great_project: "每个拥有 §Y伟大项目§! 的 §Y国家§! ："
- MAJ_for_every_tributary: "对于我们拥有的每个 §Y朝贡国§! ，每个类别获得 §G20§!§ Y君主权力§! ，最多 §G100§! 。"
- MAJ_immunity_from_spread: "伊斯兰教的传播将不再发生在我们身上。"
- MAJ_nusa_tenggara_settling: " ' §Y定居努沙登加拉§! ' 决定启用，允许我们在不需要殖民者的情况下在 §Y努沙登加拉§! 建立殖民地。"
- MAJ_if_we_own_malaka: " [Root.MajapahitGet596Status] 如果我们或我们的非主权附属国拥有 §Y[596.GetName]§! ："
- MAJ_sunda_subject: "当 §Y[SUN.GetAdjective]§! 君主去世时，只要他们是我们 §Y[MAJ.GetAdjective]§! 的 §Y附属国§! 并且拥有少于10个省份，§Y[MAJ.GetName]§! 将获得一个事件来继承 §Y[SUN.GetName]§! 。"
- MSA_SUN_cores_get_50_autonomy: "每个拥有的 §Y[SUN.GetName]§! 核心获得 §R+50.0%§! 自治权。"
- MAJ_reward_if_opinion: " [Root.MajapahitRewardOpinion] 如果任务通过 §M意见§! 完成，任务将获得 §Y奖励§! ："
- MAJ_reward_if_subject: " [Root.MajapahitRewardSubjugation] 如果任务通过 §M征服§! 完成，任务将获得 §Y奖励§! ："
- MAJ_reward_if_conquest: " [Root.MajapahitRewardConquest] 如果任务通过 §M征服§! 完成，任务将获得 §Y奖励§! ："
- MAJ_majapahit_will_return_stronger_than_ever: "麻喏巴歇将比以往任何时候都更强大！"
- MAJ_lose_5_autonomy_everywhere: "每个拥有的省份失去 §G-5.0%§! 当地 §Y自治权§! 。"
- MAJ_pay_ducats: "向 §Y[Prev.GetName]§! 转移 §Y[This.Majapahit_years_of_income.GetValue]§!¤ "
- MSA_if_sunda_accepts: "如果 §YSunda§! 接受："
- MSA_if_sunda_declines: "如果 §YSunda§! 拒绝："
+ MAJ_10_power: " [Root.GetName] (WßvËS„v §Y,gW8f‚‚¹p§! -NóSåb	g10.0%„v §Y8f›RÏ‘§! ýN˜"
+ MAJ_merge_modifiers: "Tv^ '§Y^Éb…h¯eætÉbQ!k«ˆûQ%§!' 0 '§YNošz˜„vùRKb«ˆûQ%§!' ŒT '§Y«ˆÄžÑ‘<ri„v›SS§!' îOck:N '§Y»žUôTGk^ýV§! 'ÿv^Ç\nwýNb‰N—VRb,g §G-10.0%§! "
+ MAJ_distribute_15_manpower: "(W §Y*rÇT§! „vwýN-N–:gRM‘ §G15§! £icon_manpower£ §YºN›R§! ÑSUS0"
+ MAJ_less_than_25_provinces: "(W §Ylšeg§! ŒT §YpS¦^<S‰šN§! 0W:Såb	g„vwýNSŽN §Y25§! *N„v §YFz¯e—g§! ýV¶R0"
+ MAJ_has_converted_5_provinces: "óS §YlS§! †N §Y5§! *NwýN"
+ MAJ_every_owned_province: "(W §YN*rÇT§! 0 §Y-N*rÇT§! ŒT §Y×l4l§! 0W:S„vÏk*Nåb	g„vwýNÿ"
+ MAJ_palapa_campaigns_cb: "·ƒ—VùRc	gbìN §Y‰Bl§! „v §Ylšeg‡eS²§! ýV¶R„v §Y^Éb^“ŠŠ§! ±Rbt1u0\n"
+ MAJ_95_legitimacy: "óS §Y95§! „v §YTÕl'`§! "
+ MAJ_is_no_longer_in_disaster: "òTÏuÏu†S†N §Y»žUôTGk„vpˆ§! Œp¾–ÿbwóSÇ‘ÖS†N §Y2§! *N³QšRegã‰³QƒR0"
+ MAJ_target_1_tooltip: "bìNSåN §Y[Majapahit_Target_1.GetName]§! „v6eeQ §Y[Majapahit_Target_1.Majapahit_years_of_income.GetValue]§!¤ „v÷N<hÐc›ObìN„vfkhVÿ‚YœgÖNìN¥c×SÿÖNìNS·ƒ—VåNNîOckhVjO:NÞV¥bÿ"
+ MAJ_target_2_tooltip: "bìNSåN §Y[Majapahit_Target_2.GetName]§! „v6eeQ §Y[Majapahit_Target_2.Majapahit_years_of_income.GetValue]§!¤ „v÷N<hÐc›ObìN„vfkhVÿ‚YœgÖNìN¥c×SÿÖNìNS·ƒ—VåNNîOckhVjO:NÞV¥bÿ"
+ MAJ_target_3_tooltip: "bìNSåN §Y[Majapahit_Target_3.GetName]§! „v6eeQ §Y[Majapahit_Target_3.Majapahit_years_of_income.GetValue]§!¤ „v÷N<hÐc›ObìN„vfkhVÿ‚YœgÖNìN¥c×SÿÖNìNS·ƒ—VåNNîOckhVjO:NÞV¥bÿ"
+ MAJ_provinces_fulfilling_triggers: "(W §Y*rÇT§! „vÏk*Nåb	g„vwýNán³ §Yæ‰ÑShV§! ÿ"
+ MAJ_every_state_with_a_great_project: "Ïk*Nåb	g §YO'Yy˜îv§! „v §YýV¶R§! ÿ"
+ MAJ_for_every_tributary: "ùRŽNbìNåb	g„vÏk*N §Yg!ýV§! ÿÏk*N‰|+R·ƒ—V §G20§!§ YTINCg›R§! ÿgY §G100§! 0"
+ MAJ_immunity_from_spread: "O¯epQYe„v.O­dSNQÑSu(WbìN«ŽN0"
+ MAJ_nusa_tenggara_settling: " ' §YšRESªR™l‰v RÉb§! ' ³QšR=T(uÿAQ¸‹bìN(WN—‰–klw„vÅ`µQN(W §YªR™l‰v RÉb§! ú^Ëz–kl0W0"
+ MAJ_if_we_own_malaka: " [Root.MajapahitGet596Status] ‚YœgbìNbbìN„v^—INCgD–^SýVåb	g §Y[596.GetName]§! ÿ"
+ MAJ_sunda_subject: "SV §Y[SUN.GetAdjective]§! TIN»SNöeÿêS‰ÖNìN=fbìN §Y[MAJ.GetAdjective]§! „v §YD–^SýV§! v^Nåb	gSŽN10*NwýNÿ§Y[MAJ.GetName]§! S·ƒ—VN*N‹NöNegçub §Y[SUN.GetName]§! 0"
+ MSA_SUN_cores_get_50_autonomy: "Ïk*Nåb	g„v §Y[SUN.GetName]§! 8hÃV·ƒ—V §R+50.0%§! ê»lCg0"
+ MAJ_reward_if_opinion: " [Root.MajapahitRewardOpinion] ‚YœgûN¡RÇ §MaÁ‰§! ŒRbÿûN¡RS·ƒ—V §YVY±R§! ÿ"
+ MAJ_reward_if_subject: " [Root.MajapahitRewardSubjugation] ‚YœgûN¡RÇ §MVg§! ŒRbÿûN¡RS·ƒ—V §YVY±R§! ÿ"
+ MAJ_reward_if_conquest: " [Root.MajapahitRewardConquest] ‚YœgûN¡RÇ §MVg§! ŒRbÿûN¡RS·ƒ—V §YVY±R§! ÿ"
+ MAJ_majapahit_will_return_stronger_than_ever: "»žUôTGkSÔkåNŽVûNUOöePýôf:V'Yÿ"
+ MAJ_lose_5_autonomy_everywhere: "Ïk*Nåb	g„vwýN1Y»S §G-5.0%§! SV0W §Yê»lCg§! 0"
+ MAJ_pay_ducats: "T §Y[Prev.GetName]§! lûy §Y[This.Majapahit_years_of_income.GetValue]§!¤ "
+ MSA_if_sunda_accepts: "‚Yœg §YSunda§! ¥c×Sÿ"
+ MSA_if_sunda_declines: "‚Yœg §YSunda§! ÒbÝuÿ"
 
 
 
- ME_Majapahit_Events.1.t: "麻喏巴歇之月渐亏"
- ME_Majapahit_Events.1.d: "受到内部冲突、持续的继承问题和新对手崛起的冲击，麻喏巴歇帝国目前状况不佳。由古老的国王和最尊贵的马哈帕蒂·伽查马达锻造的古老领域似乎无法经受时间的考验。在新挑战和领域内新宗教的出现以及权力平衡的变化下，如果不采取行动，它注定要崩溃！"
- ME_Majapahit_Events.1.a: "必须采取行动！"
+ ME_Majapahit_Events.1.t: "»žUôTGkKNgnN"
+ ME_Majapahit_Events.1.d: "×S0R…Qè²Qz0cíu„vçubî•˜˜ŒT°eùRKbTw„v²QûQÿ»žUôTGk^ýVîvMR¶rµQNsO01uäSw„výV‹sŒTgS5„vlšÈT^‚„·KOåglš¾I•.„väSw†˜ßW<ONNàeÕlÏu×Söeô•„vwŒš0(W°ecbŒT†˜ßW…Q°e—RYe„vúQ°såNÊSCg›Rs^aˆ„vØSSNÿ‚YœgNÇ‘ÖSLˆ¨RÿƒRèlšR‰)Tƒnÿ"
+ ME_Majapahit_Events.1.a: "ÅV‰˜Ç‘ÖSLˆ¨Rÿ"
  #Just like the moon, each empire has its phases. First empires rise out of seemingly nowhere, they reach their full moon, and they enter a period of decline. It is such a period that we are in currently, but unlike other empires, we might enter a new period of glory.
 
- ME_Majapahit_Events.2.t: "扭转衰退"
- ME_Majapahit_Events.2.d: "我们的生存本身就是一个奇迹。在压力重重的内部冲突和持续的继承问题中，面对我们已经面对的世界，政策过于陈旧，我们设法扭转了我们的衰落。通过正确的行动，我们能够为经济带来稳定，解决高度自治的公爵问题，重新团结家族，应对外国商人，并向外投射我们的权力。麻喏巴歇的未来看起来一片光明！"
- ME_Majapahit_Events.2.a: "我们占了上风！"
+ ME_Majapahit_Events.2.t: "mblpˆ"
+ ME_Majapahit_Events.2.d: "bìN„vuXR,g«Ž1S=fN*NGYù0(W‹S›RÍ‘Í‘„v…Qè²QzŒTcíu„vçubî•˜˜-Nÿb—ùRbìNòTÏub—ùR„vNLuÿ?eVrÇŽNH–çeÿbìN¾‹Õlmbl†NbìN„vpˆK„0Çcknx„vLˆ¨RÿbìNýwY:NÏuNm&^eg3zšRÿã‰³QØš¦^ê»l„vlQ5rî•˜˜ÿÍ‘°eâVÓu¶RÏeÿ”^ùRYýVFUºNÿv^TY•bSbìN„vCg›R0»žUôTGk„v*gegwwegNGrIQfÿ"
+ ME_Majapahit_Events.2.a: "bìN`S†NNÎ˜ÿ"
  
- ME_Majapahit_Events.3.t: "德马克商人的支持"
- ME_Majapahit_Events.3.d: "几十年来，一个穆斯林商人社区开始在沿海城市德马克形成。这在之前对国家来说并不关心。现在，那些最富有的商人向我们提出了一个无法抗拒的提议。他们愿意在经济上帮助我们，以换取优惠和保证。我们应该接受吗？"
- ME_Majapahit_Events.3.a: "确实是一个无法抗拒的提议。"
- ME_Majapahit_Events.3.b: "那将带来灭亡！"
+ ME_Majapahit_Events.3.t: "·VlšKQFUºN„v=ec"
+ ME_Majapahit_Events.3.d: "àQASt^egÿN*NFz¯e—gFUºN>y:SVËY(W¿lwmÎW^·VlšKQbVb0Ù(WKNMRùRýV¶Regô‹v^NsQÃV0°s(Wÿ±›NgÌR	g„vFUºNTbìNÐcúQ†NN*NàeÕl—bÒb„vÐc®‹0ÖNìN?aa(WÏuNmN.^©RbìNÿåNbcÖSOà`ŒTÝOÁ‹0bìN”^å‹¥c×STÿ"
+ ME_Majapahit_Events.3.a: "nxžR=fN*NàeÕl—bÒb„vÐc®‹0"
+ ME_Majapahit_Events.3.b: "±S&^egmp¡Nÿ"
  
- ME_Majapahit_Events.4.t: "德马克分离"
- ME_Majapahit_Events.4.d: "我们未能确立对我们的公爵们的宗主权，以及随之而来的独立的穆斯林公国的崛起，导致了这一天的到来。最强大的穆斯林公爵宣布独立，并带走了德马克周边地区以及我们所有的穆斯林省份。"
- ME_Majapahit_Events.4.a: "我们遭遇了一个邪恶的命运。"
+ ME_Majapahit_Events.4.t: "·VlšKQR»y"
+ ME_Majapahit_Events.4.d: "bìN*gýwnxËzùRbìN„vlQ5rìN„v—RINCgÿåNÊS–KNweg„vìrËz„vFz¯e—glQýV„vTwÿüRô†NÙN)Y„v0Reg0g:V'Y„vFz¯e—glQ5r±R^ìrËzÿv^&^p†N·VlšKQhT¹0W:SåNÊSbìNNb	g„vFz¯e—gwýN0"
+ ME_Majapahit_Events.4.a: "bìNmG†NN*Nªv`„v‹TÐ0"
  
- ME_Majapahit_Events.5.t: "当地贵族在 [Majapahit_Target.GetName] 皈依"
- ME_Majapahit_Events.5.d: "由于我们无法执行国家法律和我们的权威， [Majapahit_Target.GetName] 的当地总督认为，如果他们皈依逊尼派，将更有益。灾难性的！"
- ME_Majapahit_Events.5.a: "他们将面临命运的审判..."
+ ME_Majapahit_Events.5.t: "SV0W5Ïe(W [Majapahit_Target.GetName] ˆvO"
+ ME_Majapahit_Events.5.d: "1uŽNbìNàeÕlgbLˆýV¶RÕl‹VŒTbìN„vCgZÿ [Majapahit_Target.GetName] „vSV0WI`cw²‹:Nÿ‚YœgÖNìNˆvO<S>mÿSôf	gÊv0Œp¾–'`„vÿ"
+ ME_Majapahit_Events.5.a: "ÖNìNSb—4N‹TÐ„v¡R2R..."
  
- ME_Majapahit_Events.6.t: " [Root.Monarch.Dynasty.GetName] 的内斗"
- ME_Majapahit_Events.6.d: "虽然 [Root.Monarch.GetDynasty] 的关系通常良好，至少是温和的，但最近它们变得更加尖锐。贵族们如何能信任这样一个不稳定的家庭？"
- ME_Majapahit_Events.6.a: "没什么不寻常的..."
+ ME_Majapahit_Events.6.t: " [Root.Monarch.Dynasty.GetName] „v…Q—e"
+ ME_Majapahit_Events.6.d: "‹†6q [Root.Monarch.GetDynasty] „vsQû|8^o‚‹YÿóS=f)nŒT„vÿFOgÑƒRìNØS—Vôf RS•05ÏeìN‚YUOýwáOûNÙ7hN*NN3zšR„v¶R­^ÿ"
+ ME_Majapahit_Events.6.a: "¡lÀNHNNûR8^„v..."
  
- ME_Majapahit_Events.7.t: "强有力的竞争者"
- ME_Majapahit_Events.7.d: "看来有人受够了我们。 [Majapahit_Target.GetName] 的当地阿迪帕蒂集结了他们的随从和支持，决定向首都进军！我们不会让 [Root.GetMonarch] 被推翻！"
- ME_Majapahit_Events.7.a: "他们将付出最沉重的代价！"
+ ME_Majapahit_Events.7.t: ":V	g›R„vÞz‰Nw"
+ ME_Majapahit_Events.7.d: "weg	gºN×SY†NbìN0 [Majapahit_Target.GetName] „vSV0W?–ê^‚„Æ–Óu†NÖNìN„v–ÎNŒT=ecÿ³QšRT–™ýÛ›QÿbìNNO©‹ [Root.GetMonarch] «ˆ¨cûÿ"
+ ME_Majapahit_Events.7.a: "ÖNìNSØNúQg‰lÍ‘„vãN÷Nÿ"
  
- ME_Majapahit_Events.8.t: "阿迪帕蒂的崛起"
- ME_Majapahit_Events.8.d: "我们的一位总督，受到他们迅速崛起的相关性激励，决定宣布脱离我们的统治。虽然阿迪帕蒂本身不足以对我们的权力造成影响，但他们确实削弱了我们的权威。"
- ME_Majapahit_Events.8.a: "不忠的恶棍！"
+ ME_Majapahit_Events.8.t: "?–ê^‚„„vTw"
+ ME_Majapahit_Events.8.d: "bìN„vNMOI`cwÿ×S0RÖNìNÅTw„vøvsQ'`Ào±Rÿ³QšR±R^1»ybìN„vßu»l0‹†6q?–ê^‚„,g«ŽN³åNùRbìN„vCg›R.bqVÍTÿFOÖNìNnxžRJR1V†NbìN„vCgZ0"
+ ME_Majapahit_Events.8.a: "NàV„vv`Íhÿ"
  
- ME_Majapahit_Events.9.t: " [Root.Monarch.GetName] 的生命受到威胁"
- ME_Majapahit_Events.9.d: "世界似乎都在反对 [Root.Monarch.GetName] 。在忠诚的家庭中，内斗严重，对王位缺乏信心，缺乏权威，只是困扰国家领导的几个问题。最近，暗杀成为另一个问题，因为一个结束 [Root.Monarch.GetName] 生命的阴谋已经被揭开。"
- ME_Majapahit_Events.9.a: "让我们希望我们已经全部根除。"
+ ME_Majapahit_Events.9.t: " [Root.Monarch.GetName] „vu‹T×S0RZÁw"
+ ME_Majapahit_Events.9.d: "NLu<ONNý(WÍSùR [Root.Monarch.GetName] 0(WàVÚ‹„v¶R­^-Nÿ…Q—e%NÍ‘ÿùR‹sMO:ONáOÃVÿ:ONCgZÿêS=fðVpbýV¶R†˜üR„vàQ*Nî•˜˜0gÑÿ—fNgb:NæSN*Nî•˜˜ÿàV:NN*NÓumg [Root.Monarch.GetName] u‹T„v4–ŒòTÏu«ˆícV0"
+ ME_Majapahit_Events.9.a: "©‹bìN^gbìNòTÏuhQè9hd–0"
  
- ME_Majapahit_Events.10.t: "分离主义情绪"
- ME_Majapahit_Events.10.d: "由于 [Root.Monarch.GetName] 的软弱统治和强大的总督， [Majapahit_target.GetName] 的贵族一直在寻找一个理由来分裂。他们的意图必须被阻止！"
- ME_Majapahit_Events.10.a: "分裂并不简单。"
+ ME_Majapahit_Events.10.t: "R»yININÅ`êu"
+ ME_Majapahit_Events.10.d: "1uŽN [Root.Monarch.GetName] „vo1Vßu»lŒT:V'Y„vI`cwÿ [Majapahit_target.GetName] „v5ÏeNôv(WûRŒbN*Nt1uegRÂˆ0ÖNìN„vaþVÅV‰˜«ˆI–bkÿ"
+ ME_Majapahit_Events.10.a: "RÂˆv^NŽrUS0"
  
- ME_Majapahit_Events.11.t: "权威微弱"
- ME_Majapahit_Events.11.d: "即使是我们古老的朝贡国也注意到了我们的弱点。受到我们迅速衰退的激励，我们曾经认为理所当然的臣民现在正在寻求扩大他们的影响力。"
- ME_Majapahit_Events.11.a: "我们本不应该信任他们。"
+ ME_Majapahit_Events.11.t: "CgZ®V1V"
+ ME_Majapahit_Events.11.d: "sSO=fbìNäSw„vg!ýVmNèla0R†NbìN„v1V¹p0×S0RbìNÅpˆ„vÀo±RÿbìNþfÏu²‹:NtNbSV6q„vãl°s(Wck(WûRBlib'YÖNìN„vqVÍT›R0"
+ ME_Majapahit_Events.11.a: "bìN,gN”^å‹áOûNÖNìN0"
  
- ME_Majapahit_Events.12.t: "税务收集者"
- ME_Majapahit_Events.12.d: "在我们恢复合法性之后，国家授权的税务收集者的权威终于得到了尊重。贵族们不再反对并犯下针对 [Root.Monarch.GetTitle] 代表的叛逆行为。"
- ME_Majapahit_Events.12.a: "好消息！"
+ ME_Majapahit_Events.12.t: "z¡R6eÆ–w"
+ ME_Majapahit_Events.12.d: "(WbìNb`YTÕl'`KNTÿýV¶RˆcCg„vz¡R6eÆ–w„vCgZÈuŽN—V0R†NSÍ‘05ÏeìNNQÍSùRv^¯rNˆ”ùR [Root.Monarch.GetTitle] ãNhˆ„vÛSLˆ:N0"
+ ME_Majapahit_Events.12.a: "‹Yˆmo`ÿ"
  
- ME_Majapahit_Events.13.t: "省份的重新整合"
- ME_Majapahit_Events.13.d: "一个在我们软弱时期反叛的省份，被 [Root.Monarch.GetTitle] 的权威说服，再次向我们的意志屈服，并向 [Root.Monarch.GetName] 本人带来了礼物。"
- ME_Majapahit_Events.13.a: "当国王真好。"
+ ME_Majapahit_Events.13.t: "wýN„vÍ‘°eteT"
+ ME_Majapahit_Events.13.d: "N*N(WbìNo1VöegÍSÛS„vwýNÿ«ˆ [Root.Monarch.GetTitle] „vCgZô‹gÿQ!kTbìN„va×VHSgÿv^T [Root.Monarch.GetName] ,gºN&^eg†N<yir0"
+ ME_Majapahit_Events.13.a: "SVýV‹sw‹Y0"
  
- ME_Majapahit_Events.14.t: "混乱中的稳定"
- ME_Majapahit_Events.14.d: "虽然国家的外部部分可能处于混沌之中，但国家的核心部分，内加拉阿贡，正在享受一个更加繁荣的时期。随着时间的推移，这种趋势必将扩展到国家的边界，前提是 [Root.Monarch.GetName] 仍然被认为是合法的。"
- ME_Majapahit_Events.14.a: "它将是如此。"
+ ME_Majapahit_Events.14.t: "÷mqN-N„v3zšR"
+ ME_Majapahit_Events.14.d: "‹†6qýV¶R„vYèèRïSýwYŽN÷mŒlKN-NÿFOýV¶R„v8hÃVèRÿ…Q RÉb?–!ÿck(W«N×SN*Nôf RAucƒ„vöeg0–Nwöeô•„v¨cûyÿÙÍy‹¿RÅVSibUS0RýV¶R„v¹LuÿMRÐc=f [Root.Monarch.GetName] ÍN6q«ˆ²‹:N=fTÕl„v0"
+ ME_Majapahit_Events.14.a: "ƒRS=f‚Ydk0"
  
- ME_Majapahit_Events.16.t: "信仰的遗弃"
- ME_Majapahit_Events.16.d: " [Root.GetName] 已成为两种宗教之间的战场。随着紧张局势的升级，许多印度教贵族公开与穆斯林皈依作战，选择皈依伊斯兰教已成为一个不受欢迎的选择。"
- ME_Majapahit_Events.16.a: "变革的时代来临了。"
- ME_Majapahit_Events_16_a_tt:0 "§R当前任务树将被移除并替换为一个通用的任务树。§!"
+ ME_Majapahit_Events.16.t: "áOðN„vWV"
+ ME_Majapahit_Events.16.d: " [Root.GetName] òTb:N2NÍy—RYeKNô•„vb:W0–Nw't.VNS¿R„vGSµuÿ¸‹YpS¦^Ye5ÏelQVNFz¯e—gˆvOjObÿ	ébˆvOO¯epQYeòTb:NN*NN×S0kÎ„v	éb0"
+ ME_Majapahit_Events.16.a: "ØSi—„vöeãNeg4N†N0"
+ ME_Majapahit_Events_16_a_tt:0 "§RSVMRûN¡RhS«ˆûyd–v^ÿfbc:NN*N(u„vûN¡Rh0§!"
  
- ME_Majapahit_Events.100.t: "巽他人的继承"
- ME_Majapahit_Events.100.d: "随着巽他人国家成为附属国，他们不能反对婚姻的提议。就像伽查马达过去所做的那样，现在是时候安排一场婚姻，这基本上意味着[SUN.GetName]屈服了。"
- ME_Majapahit_Events.100.a: "我们更强大。"
- ME_Majapahit_Events.100.b: "他们的王朝将弥补优秀的顾问！"
+ ME_Majapahit_Events.100.t: "ýTÖNºN„vçub"
+ ME_Majapahit_Events.100.d: "–NwýTÖNºNýV¶Rb:ND–^SýVÿÖNìNNýwÍSùRZZûY„vÐc®‹01SÏPKOåglš¾Ç»SNbZP„v±7hÿ°s(W=föeP‰R’cN:WZZûYÿÙúW,gNasTNw[SUN.GetName]HSg†N0"
+ ME_Majapahit_Events.100.a: "bìNôf:V'Y0"
+ ME_Majapahit_Events.100.b: "ÖNìN„v‹sgS%VeˆOÀy„vŒ˜î•ÿ"
  
- ME_Majapahit_Events.101.t: "出售火器"
- ME_Majapahit_Events.101.d: "作为麻喏巴歇帝国的继承者，我们继承了他们的武器制造传统。我们可以使用这些技术来制造新型火器，并在其他政体之上获得优势。此外，如果我们愿意，我们也可以与他们做生意。我们应该出售我们的火器吗？"
- ME_Majapahit_Events.101.a: "当然，[Majapahit_Target_1.GetName] 会给我们最好的价格。"
- ME_Majapahit_Events.101.b: "我们将机会赐予 [Majapahit_Target_2.GetName] 。"
- ME_Majapahit_Events.101.c: "我们将与 [Majapahit_Target_3.GetName] 合作。"
- ME_Majapahit_Events.101.e: "提醒我，我们为什么要出售我们的火器？"
+ ME_Majapahit_Events.101.t: "úQ.UkphV"
+ ME_Majapahit_Events.101.d: "jO:N»žUôTGk^ýV„vçubwÿbìNçub†NÖNìN„vfkhV6R..Oßu0bìNïSåNO(uÙ›NŽb=geg6R.°e‹WkphVÿv^(WvQÖN?eSOKNN·ƒ—VO¿R0dkYÿ‚YœgbìN?aaÿbìNmNïSåNNÖNìNZPua0bìN”^å‹úQ.UbìN„vkphVTÿ"
+ ME_Majapahit_Events.101.a: "SV6qÿ[Majapahit_Target_1.GetName] OÙubìNg‹Y„v÷N<h0"
+ ME_Majapahit_Events.101.b: "bìNS:gOPˆN [Majapahit_Target_2.GetName] 0"
+ ME_Majapahit_Events.101.c: "bìNSN [Majapahit_Target_3.GetName] TjO0"
+ ME_Majapahit_Events.101.e: "Ðc’‘bÿbìN:NÀNHN‰úQ.UbìN„vkphVÿ"
  
- ME_Majapahit_Events.102.t: "帝国的边缘"
- ME_Majapahit_Events.102.d: "最后，我们终于到达并征服了曾经是帝国边疆的土地。这些土地曾经是我们的一个对手国家的力量基础，我们应该给予他们荣誉，并使他们的城市成为我们的第二首都，还是应该将他们的财富带到 [Capital.GetName] ？"
- ME_Majapahit_Events.102.a: "财富属于 [Capital.GetName] 。"
- ME_Majapahit_Events.102.b: "第二首都就足够了。"
+ ME_Majapahit_Events.102.t: "^ýV„v¹"
+ ME_Majapahit_Events.102.d: "gTÿbìNÈuŽN0R¾v^Vg†NþfÏu=f^ýV¹†u„vW0W0Ù›NW0WþfÏu=fbìN„vN*NùRKbýV¶R„v›RÏ‘úWNxÿbìN”^å‹ÙuˆNÖNìNcƒ‰Šÿv^OÖNìN„vÎW^b:NbìN„v,rŒN–™ýÿØ=f”^å‹SÖNìN„v0ÌR&^0R [Capital.GetName] ÿ"
+ ME_Majapahit_Events.102.a: "0ÌR^SŽN [Capital.GetName] 0"
+ ME_Majapahit_Events.102.b: ",rŒN–™ý1S³Y†N0"
  
- ME_Majapahit_Events.103.t: "婚姻提议"
- ME_Majapahit_Events.103.d: "在古时候，伽查马达时期，我们向巽他王国提出了婚姻提议，尽管我们的力量增长巨大，但我们仍然认为他们与我们平等。我们的朋友在巽他已经同意了，但最终被我们的祖先背叛了。现在是时候与巽他人和解了。" 
- ME_Majapahit_Events.103.a: "派使者去！"
- ME_Majapahit_Events.103.b: "他们不可能接受。"
+ ME_Majapahit_Events.103.t: "ZZûYÐc®‹"
+ ME_Majapahit_Events.103.d: "(WäSöePÿKOåglš¾öegÿbìNTýTÖN‹sýVÐcúQ†NZZûYÐc®‹ÿKS¡rbìN„v›RÏ‘žX•èT'YÿFObìNÍN6q²‹:NÖNìNNbìNs^Ir0bìN„vgËS(WýTÖNòTÏuTa†NÿFOgÈu«ˆbìN„vVyHQÌwÛS†N0°s(W=föePNýTÖNºNŒTã‰†N0" 
+ ME_Majapahit_Events.103.a: ">mOw»Sÿ"
+ ME_Majapahit_Events.103.b: "ÖNìNNïSýw¥c×S0"
  
- ME_Majapahit_Events.104.t: "和解日"
- ME_Majapahit_Events.104.d: "麻喏巴歇向我们提出了一个婚姻提议，就像几个世纪前一样。上次是一个陷阱，但这次他们给了我们礼物，并希望与我们和解。"
- ME_Majapahit_Events.104.a: "我们将接受。"
- ME_Majapahit_Events.104.b: "这是另一个陷阱！"
+ ME_Majapahit_Events.104.t: "ŒTã‰åe"
+ ME_Majapahit_Events.104.d: "»žUôTGkTbìNÐcúQ†NN*NZZûYÐc®‹ÿ1SÏPàQ*NNªuMRN7h0N!k=fN*Nw–1–ÿFOÙ!kÖNìNÙu†NbìN<yirÿv^^gNbìNŒTã‰0"
+ ME_Majapahit_Events.104.a: "bìNS¥c×S0"
+ ME_Majapahit_Events.104.b: "Ù=fæSN*Nw–1–ÿ"
  
- ME_Majapahit_Events.105.t: "巽他的命运"
- ME_Majapahit_Events.105.d: "这一天到来了，[SUN.GetName] 的君主已经去世，根据我们的协议，我们可以选择将兄弟王国整合到我们的领域中。问题是，我们应该这样做吗？"
- ME_Majapahit_Events.105.a: "现在是整合的时候了。"
- ME_Majapahit_Events.105.b: "我们现在应该专注于其他事情！"
+ ME_Majapahit_Events.105.t: "ýTÖN„v‹TÐ"
+ ME_Majapahit_Events.105.d: "ÙN)Y0Reg†Nÿ[SUN.GetName] „vTINòTÏu»SNÿ9hncbìN„vOS®‹ÿbìNïSåN	ébSDQV‹sýVteT0RbìN„v†˜ßW-N0î•˜˜=fÿbìN”^å‹Ù7hZPTÿ"
+ ME_Majapahit_Events.105.a: "°s(W=fteT„vöeP†N0"
+ ME_Majapahit_Events.105.b: "bìN°s(W”^å‹NèlŽNvQÖN‹NÅ`ÿ"
  
- ME_Majapahit_Events.106.t: "诱人的提议"
- ME_Majapahit_Events.106.d: "我们在 [From.GetName] 的朋友们向我们提出了购买火器的提议。这样的装备可以在未来战斗中给我们一个显著的优势。"
- ME_Majapahit_Events.106.a: "绝佳的提议！"
- ME_Majapahit_Events.106.b: "我们不能接受。"
+ ME_Majapahit_Events.106.t: "ñ‹ºN„vÐc®‹"
+ ME_Majapahit_Events.106.d: "bìN(W [From.GetName] „vgËSìNTbìNÐcúQ†N-pNkphV„vÐc®‹0Ù7h„vÅˆYïSåN(W*gegb—e-NÙubìNN*N>fW„„vO¿R0"
+ ME_Majapahit_Events.106.a: "ÝusO„vÐc®‹ÿ"
+ ME_Majapahit_Events.106.b: "bìNNýw¥c×S0"
  
- MAJ_disaster_adipatis_title: "重新调整总督"
- MAJ_disaster_adipatis_desc: "国家处于混乱之中。当地的总督，被称为阿迪帕蒂，目前正在密谋反对 [Root.Monarch.GetName]。 我们需要确保他们的利益与我们的一致。"
- MAJ_disaster_monetary_issues_title: "充实国库"
- MAJ_disaster_monetary_issues_desc: "我们已经挥霍了我们所有的储备财富，这导致了一些政府机构的关闭。我们需要采取行动再次充实国库。"
- MAJ_disaster_trade_title: "恢复对海峡的控制"
- MAJ_disaster_trade_desc: "我们对贸易的霸权早已不复存在，曾经是海洋的霸主，我们现在甚至在各种关于贸易协议的讨论中都不再被考虑。这种情况必须改变！"
- MAJ_disaster_faith_in_throne_title: "恢复神权"
- MAJ_disaster_faith_in_throne_desc: "对王位的信仰早已丧失。贵族、朝臣，甚至是家庭都卷入了派系和政治的网络中。一些派系甚至寻求废黜 [Root.Monarch.GetTitle] 。"
- MAJ_settle_nusa_tenggara_title: "@MAJ 定居努沙登加拉"
- MAJ_settle_nusa_tenggara_desc: "我们对东部岛屿的控制只是名义上的。看来霸权并没有建立起持久的控制。如果我们想要统治这些岛屿，我们需要我们自己的定居者。"
- MAJ_reform_majapahit_title: "@MAJ 成为麻喏巴歇帝国"
- MAJ_reform_majapahit_desc: "我们应该形成我们慢慢变成的东西，即麻喏巴歇帝国。"
+ MAJ_disaster_adipatis_title: "Í‘°eŒteI`cw"
+ MAJ_disaster_adipatis_desc: "ýV¶RYŽN÷mqNKN-N0SV0W„vI`cwÿ«ˆðy:N?–ê^‚„ÿîvMRck(WÆRŒÍSùR [Root.Monarch.GetName]0 bìN—‰nxÝOÖNìN„v)RÊvNbìN„vNô0"
+ MAJ_disaster_monetary_issues_title: "EQžRýV“^"
+ MAJ_disaster_monetary_issues_desc: "bìNòTÏu%c—†NbìNNb	g„v¨PY0ÌRÿÙüRô†NN›N?eœ^:g„g„vsQí•0bìN—‰Ç‘ÖSLˆ¨RQ!kEQžRýV“^0"
+ MAJ_disaster_trade_title: "b`YùRwmáS„vµc6R"
+ MAJ_disaster_trade_desc: "bìNùR8f„v8—CgéeòTNYXR(WÿþfÏu=fwmm„v8—INÿbìN°s(Wuó(WTÍysQŽN8fOS®‹„v¨‹º‹-NýNQ«ˆwQ†0ÙÍyÅ`µQÅV‰˜9eØSÿ"
+ MAJ_disaster_faith_in_throne_title: "b`Y^yCg"
+ MAJ_disaster_faith_in_throne_desc: "ùR‹sMO„váOðNéeòT'N1Y05Ïe0gãÿuó=f¶R­^ýwSeQ†N>mû|ŒT?e»l„vQÜu-N0N›N>mû|uóûRBlŸ^Üž [Root.Monarch.GetTitle] 0"
+ MAJ_settle_nusa_tenggara_title: "@MAJ šRESªR™l‰v RÉb"
+ MAJ_settle_nusa_tenggara_desc: "bìNùRNè›SS„vµc6RêS=fTINN„v0weg8—Cgv^¡l	gú^ËzwcEN„vµc6R0‚YœgbìNó`‰ßu»lÙ›N›SSÿbìN—‰bìNêñT„všRESw0"
+ MAJ_reform_majapahit_title: "@MAJ b:N»žUôTGk^ýV"
+ MAJ_reform_majapahit_desc: "bìN”^å‹bVbbìNbabaØSb„vN‰ÿsS»žUôTGk^ýV0"
  
- MAJ_resolved_adipati: "使用了决定 '§Y重新调整总督§!' "
- MAJ_resolved_monetary_issues: "使用了决定 '§Y充实国库§!' "
- MAJ_resolved_trade: "使用了决定 '§Y恢复对海峡的控制§!' "
- MAJ_resolved_faith_in_throne: "使用了决定 '§Y恢复神权§!' "
+ MAJ_resolved_adipati: "O(u†N³QšR '§YÍ‘°eŒteI`cw§!' "
+ MAJ_resolved_monetary_issues: "O(u†N³QšR '§YEQžRýV“^§!' "
+ MAJ_resolved_trade: "O(u†N³QšR '§Yb`YùRwmáS„vµc6R§!' "
+ MAJ_resolved_faith_in_throne: "O(u†N³QšR '§Yb`Y^yCg§!' "
  
- MAJ_autonomy: "每个拥有的省份获得 §R+40.0%§! 自治权。"
- MAJ_until_end_of_disaster: "直到 '§Y麻喏巴歇的衰退§!' 灾难结束"
+ MAJ_autonomy: "Ïk*Nåb	g„vwýN·ƒ—V §R+40.0%§! ê»lCg0"
+ MAJ_until_end_of_disaster: "ôv0R '§Y»žUôTGk„vpˆ§!' Œp¾–Óumg"
  
- ME_rise_of_demak: "德马克苏丹国的崛起"
+ ME_rise_of_demak: "·VlšKQÏ‚9NýV„vTw"
  
- MAJ_rise_of_demak: " §Y伊斯兰教§! 将开始在我们的国家传播，如果我们不能控制它，§Y德马克的崛起§! 灾难将被触发，释放出 §Y德马克§! 。"
- MAJ_this_cannot_be_stopped: "选择这个选项将减缓 §Y伊斯兰教的传播§! 。"
- MAJ_unruly_adipatis: "不驯顺的阿迪帕蒂"
- MAJ_diplomatic: "外交无关紧要"
- MAJ_economic_problems: "挥霍财富"
- MAJ_dynastic: "王朝争斗"
- MAJ_weve_learned_our_lessons: "吸取教训"
- MAJ_help_of_merchants: "穆斯林商人的帮助"
- MAJ_demak: "德马克的商人"
+ MAJ_rise_of_demak: " §YO¯epQYe§! SVËY(WbìN„výV¶R.O­dÿ‚YœgbìNNýwµc6RƒRÿ§Y·VlšKQ„vTw§! Œp¾–S«ˆæ‰ÑSÿÊ‘>eúQ §Y·VlšKQ§! 0"
+ MAJ_this_cannot_be_stopped: "	ébÙ*N	y˜SÏQ §YO¯epQYe„v.O­d§! 0"
+ MAJ_unruly_adipatis: "Nošz˜„v?–ê^‚„"
+ MAJ_diplomatic: "Y²NàesQ't‰"
+ MAJ_economic_problems: "%c—0ÌR"
+ MAJ_dynastic: "‹sg‰N—e"
+ MAJ_weve_learned_our_lessons: "8TÖSYe­‹"
+ MAJ_help_of_merchants: "Fz¯e—gFUºN„v.^©R"
+ MAJ_demak: "·VlšKQ„vFUºN"
  
- MAJ_SUN: "麻喏巴歇-巽他"
- MAJ_SUN_ADJ: "麻喏巴歇-巽他人"
- MAJ_WILWATIKTA: "威尔瓦蒂克塔"
- MAJ_WILWATIKTA_ADJ: "麻喏巴歇"
- cb_palapa_oath: "帕拉帕誓言"
- cb_palapa_oath_desc: "在南洋群岛统一之前，我们不会品尝香料！"
- MAJ_CLAIM_WAR: "$ORDER$ $FIRST$ 香料霸权战争"
+ MAJ_SUN: "»žUôTGk-ýTÖN"
+ MAJ_SUN_ADJ: "»žUôTGk-ýTÖNºN"
+ MAJ_WILWATIKTA: "ZSæt‚„KQTX"
+ MAJ_WILWATIKTA_ADJ: "»žUôTGk"
+ cb_palapa_oath: "^Éb^“ŠŠ"
+ cb_palapa_oath_desc: "(WWSm²›SßuNKNMRÿbìNNOÁTS™™™eÿ"
+ MAJ_CLAIM_WAR: "$ORDER$ $FIRST$ ™™™e8—Cgb‰N"
 

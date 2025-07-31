@@ -1,16 +1,16 @@
-l_english:
- INSTITUTION_DEVELOPMENT_REQUIRES_REFORMED_RELIGION:0 "思潮-发展度机制仅对已改革的宗教生效"
- discord_button_tooltip:0 "转到《欧陆风云IV》Discord页面"
- instagram_button_tooltip:0 "转到《欧陆风云IV》Instagram页面"
- youtube_button_tooltip:0 "转到《欧陆风云IV》油管页面"
- wiki_button_tooltip:0 "转到《欧陆风云IV》维基"
- HAS_ACTIVE_FERVOR_SPECIFIC:0 "$WHO|Y$拥有已激活的$NAME|Y$热情效果。"
- HAS_NOT_ACTIVE_FERVOR_SPECIFIC:0 "$WHO|Y$未拥有已激活的$NAME|Y$热情效果。"
- ADD_ACTIVE_FERVOR_EFFECT:0 "激活$NAME|Y$热情效果"
- REMOVE_ACTIVE_FERVOR_EFFECT:0 "关闭$NAME|Y$热情效果"
- REGENCY_ENDING_DESC_NOEXTENSION_POSSIBLE:0 "你的摄政统治马上就要结束，并且你的继承人将会继承王位。\n当前宣称强度为：$CLAIM$。\n点击查看你的宫廷。"
- BUILD_GREAT_PROJECT_COST:0 "这会花费$COST|Y$¤"
- BUILD_GREAT_PROJECT_TIME:0 "预计耗时$DAYS|Y$天"
- DESIRE_TO_JOIN_HRE_SUBMISSION_TO_EMPEROR:0 "服从皇帝: "
- TOTAL_DEVELOPMENT_LESS_THAN_NOCURRENT:0 "总发展度少于$VAL|Y$"
- TOTAL_DEVELOPMENT_AT_LEAST_NOCURRENT:0 "总发展度至少达到$VAL|Y$"
+﻿l_english:
+ INSTITUTION_DEVELOPMENT_REQUIRES_REFORMED_RELIGION:0 "`no-ÑSUS¦^:g6RÅNùRòT9ei—„v—RYeuHe"
+ discord_button_tooltip:0 "l0R0'kF–Î˜‘NIV0Discordu˜b—"
+ instagram_button_tooltip:0 "l0R0'kF–Î˜‘NIV0Instagramu˜b—"
+ youtube_button_tooltip:0 "l0R0'kF–Î˜‘NIV0¹l¡ru˜b—"
+ wiki_button_tooltip:0 "l0R0'kF–Î˜‘NIV0ôuúW"
+ HAS_ACTIVE_FERVOR_SPECIFIC:0 "$WHO|Y$åb	gòTÀoIm„v$NAME|Y$ípÅ`Heœg0"
+ HAS_NOT_ACTIVE_FERVOR_SPECIFIC:0 "$WHO|Y$*gåb	gòTÀoIm„v$NAME|Y$ípÅ`Heœg0"
+ ADD_ACTIVE_FERVOR_EFFECT:0 "ÀoIm$NAME|Y$ípÅ`Heœg"
+ REMOVE_ACTIVE_FERVOR_EFFECT:0 "sQí•$NAME|Y$ípÅ`Heœg"
+ REGENCY_ENDING_DESC_NOEXTENSION_POSSIBLE:0 "`O„vDd?eßu»llšN1S‰Óumgÿv^N`O„vçubºNSOçub‹sMO0\nSVMR±Rðy:V¦^:Nÿ$CLAIM$0\n¹pûQågw`O„v«R÷^0"
+ BUILD_GREAT_PROJECT_COST:0 "ÙO±‚9$COST|Y$¤"
+ BUILD_GREAT_PROJECT_TIME:0 "„˜¡‹wöe$DAYS|Y$)Y"
+ DESIRE_TO_JOIN_HRE_SUBMISSION_TO_EMPEROR:0 "gÎN‡v^: "
+ TOTAL_DEVELOPMENT_LESS_THAN_NOCURRENT:0 "I`ÑSUS¦^SŽN$VAL|Y$"
+ TOTAL_DEVELOPMENT_AT_LEAST_NOCURRENT:0 "I`ÑSUS¦^óS¾0R$VAL|Y$"

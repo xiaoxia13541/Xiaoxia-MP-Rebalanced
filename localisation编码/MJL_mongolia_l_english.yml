@@ -1,54 +1,0 @@
-﻿l_english:
-  mjl_mongolia_movespeed_boost:0 "ûy¨R¦^žXÊv"
-  mjl_manchu_buryat_gold_title:0 "™Ÿ	"
-  mjl_manchu_buryat_gold_desc:0 ""
-  mjl_estate_tribes_advisors:0 "èK„Œ˜î•"
-  mjl_estate_tribes_advisors_desc:0 "Nb	gèK„ãNhˆý”^«ˆŽ÷‹ÂS Rßu»lwÔYXTOÿåNT[Root.Monarch.GetTitle]Ðc›Oú^®‹0"
-  estate_tribes_tribal_primacy:0 "èK„óN"
-  estate_tribes_tribal_primacy_desc:0 "ÙuˆNðl‰ùRNb	gèK„„vê1uµc6RSg'Y0WžX:VbìN„výw›RÿsSOÙïSýw—‰bìNØNúQØšf„vãN÷NegeˆPÖNìN„v!.s0"
-  tumen_vassal_title:0 "þVè•"
-  tumen_vassal_title_plural:0 "þVè•"
-  tumen_vassal_long_desc:0 "þVè•D–¸^ÅV‰˜ß–ÖNìN„v†˜INÂS Rb‰NÿNýwÛLˆÐg›NY²NLˆ¨Rÿv^S=eØNvQ6eeQ„vNèRÙuÖN„v†˜IN0þVè•mNïSåNøv’NjOb0"
-  tumen_vassal_is_our:0 " $NAME|Y$ =fbìN„vþVè•D–¸^0"
-  tumen_subject_nation:0 "þVè•D–^SýV"
-  h_populate_altai_mountains:0 "(W?–SðlqS	šRES"
-  h_populate_altai_mountains_desc:0 "jO:NùRpgúQg¡R„vVY±RÿbìNSAQ¸‹bìNgöQs„vbëX(WÑ‘qS„vœeaWNšRES0Ù=fbëXýwY·ƒ—V„vgØšcƒ‰Š0"
-  h_populate_altai_mountains_mod:0 "(W?–SðlšRES"
-  desc_h_populate_altai_mountains_mod:0 "=föeP(WÑ‘qSšRES†N0"
-  h_populate_altai_mountains_effect_tooltip:0 " §G-10%§! Nb	g §Y™„äS§! 0W:S…Q §YqS0W§! wýN„v0W¹eÑSUSb,g0"
-  h_populate_altai_mountains_mod_revoke_tooltip:0 "ÎNNb	gåb	g„vwýN-Nûyd– §Y(W?–SðlšRES§! îOckhV0"
-  mjl_tooltip_oiratwar:0 "ætLRNýw±Rb0"
-  mjl_tooltip_allyoirat:0 "ætLRùRÓußvNatQ±0"
-  mjl_tooltip_oiratally:0 "ætLRNýwÐc›OTwßv0"
-  mjl_tooltip_marryoirat:0 "ætLRùR‡v²RZZûYNatQ±0"
-  mjl_tooltip_oiratmarry:0 "ætLRNýwÐc›O‡v²RZZûY0"
-  mjl_tooltip_guaranteeoirat:0 "ætLRùRÝOÁ‹NatQ±0"
-  mjl_tooltip_oiratguarantee:0 "ætLRNýwÐc›OÝOÁ‹0"
-  mjl_tooltip_oiratloan:0 "ætLRNýwÐc›O7>k0"
-  mjl_tooltip_oiratsubsidy:0 "ætLRNýwÙuˆNeˆ©R0"
-  mjl_tooltip_oiratsupport:0 "ætLRNýw=ecìrËz0"
-  mjl_tooltip_oiratthreaten:0 "ætLRNýwZÁwb‰N0"
-  mjl_tooltip_oiratwarn:0 "ætLRNýwf‹JT0"
-  mjl_tooltip_oiratenforce:0 "ætLRNýwgbLˆŒTs^0"
-  mjl_tooltip_oiratcoalition:0 "ætLRNýw ReQTwßvb‰N0"
-  mjl_tooltip_oiratgift:0 "ætLRNýwÑS<yir0"
-  mjl_rise_of_zhungars_title:0 "†˜üRætLRTwßv"
-  mjl_rise_of_zhungars_desc:0 "ÛVætLRèK„„vTwßvùRNb	gbXTèK„ýÁ‹f=f	g)R„v0Í‘ú^v^†˜üRætLRTwßvSùRbìN„výV¶RwQ	gèT'Y÷N<P0"
-  mjl_become_mongol_khagan_title:0 "ðXðy'YWl„vðy÷S"
-  mjl_become_mongol_khagan_desc:0 "ðXðy'YWl„vðy÷SSéTúVbìNùR™„äS„vIN.V0'YWl„vðy÷SNôv:Nb	T`WlÊSvQTÔˆNbÝOYu0¡l	gSV„vNˆßu1SðXðyƒRïSýwO(WèK„-NVwN›NN‰R0"
-  mjl_mongol_events.2.t:0 "mNHQSSW¯eKN‰k"
-  mjl_mongol_events.2.d:0 ""
-  mjl_mongol_events.2.a:0 "æTÿ‹Y'T"
-  mjl_mongol_events.3.t:0 "mNHQSSW¯eKN‰k"
-  mjl_mongol_events.3.d:0 ""
-  mjl_mongol_events.3.a:0 "bìN„vöeãNeg4N†Nÿ"
-  mjl_mongol_events.4.t:0 "þVè•D–¸^ØSôf"
-  mjl_mongol_events.4.d:0 ""
-  mjl_mongol_events.4.a:0 "‹Y„v"
-  mjl_producing_livestock_and_grain_tt:0 "»lNNb	g §Y7Œir§! wýN„vuµNHe‡s ÿ §G+50.0%§! \n»lNNb	g §Yrrju§! wýN„vuµNHe‡s ÿ §G+50.0%§!% "
-  mjl_altaic_herdsmen:0 "grl>yO"
-  mjl_altaic_herdsmen_desc:0 ""
-  mjl_herd_bonus_prod:0 "grl>yO"
-  mjl_esen_choros_death_modifier:0 "mNHQSSW¯eKN‰k"
-  mjl_tooltip_ayutrib:0 "?–²wN–6wNýw	gg!ýV"
-  mjl_tooltip_oirattrib:0 "ætLRNýw	gg!ýV"

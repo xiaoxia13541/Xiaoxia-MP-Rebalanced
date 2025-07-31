@@ -1,786 +1,786 @@
-l_english:
- manchu_new:0 "满洲"
- manchu_culture_tt:0 "所有§Y女真§!省份将接受§Y满洲§!文化"
- changbai_mountain:0 "长白山"
- desc_changbai_mountain:0 "长白山对女真人和朝鲜人来说都是具有重要象征意义的地点。在两个民族的传说故事中，这座山都被视为崇高神圣之地。"
- mch_great_wall_title:0 "绕过长城"
- mch_great_wall_desc:0 "中国皇帝愚蠢地认为长城可以保护他免遭敌人进犯。正面强攻长城过于冒险，但是可以另求他法绕开长城……"
- mch_eight_banners_title:0 "八旗"
- mch_eight_banners_desc:0 "传统的女真狩猎团体在与敌人的交锋中已经崭露锋芒，但是如果我们想要征服一个帝国，我们必须把我们的武装力量编练重组成纪律严明的旗军。"
- mch_invade_joseon_title:0 "进军朝鲜"
- mch_invade_joseon_desc:0 "朝鲜作为北京天子的藩属，还引以为荣。必须要逼迫他们接受一个新宗主。"
- mch_khan_of_the_mongols_title:0 "收服蒙古诸部"
- mch_khan_of_the_mongols_desc:0 "欲谋霸业，必建新军；蒙东之士，嚄唶之兵，可为前驱。然彼民多悍勇，不加刀兵，恐难服膺。"
- mch_mandate_of_heaven_title:0 "天命"
- mch_mandate_of_heaven_desc:0 "随着北京为我们所控，是时候宣称天命了。我们将在中国建立一个新王朝，它将千秋万代！"
- mch_green_standard_army_title:0 "绿营"
- mch_green_standard_army_desc:0 "中国军队一触即溃，其将领信心也很快将荡然无存。如果我们能够虎踞华北，这些将军或许能够投诚，而非效忠其气数将尽的旧主。"
- mch_devastate_china_title:0 "屠城"
- mch_devastate_china_desc:0 "许多中国城市拒绝向我军投降，迫使我们陷入持久的围城战，这大大减缓了我们的进攻速度。我们不得不选择一处进行屠城，以儆效尤。"
- mch_extinguish_ming_title:0 "灭明"
- mch_extinguish_ming_desc:0 "只要还有一个忠于明朝的堡垒，我们对中国的统治就永远不会真正稳固。我们必须彻底绝灭明朝。"
- extinguish_ming_tt:0 "§Y[Root.GetName]§!获得所有§Y中国§!次大陆上未拥有省份的核心"
- mch_ten_great_campaigns_title:0 "十全武功"
- mch_ten_great_campaigns_desc:0 "我们渴望超古迈今。大清的疆域必须远达西域和南洋，那些过去从未归顺于中原王朝的民族也必须听从我们的统治。"
- mch_confucian_administration_title:0 "儒家官僚"
- mch_confucian_administration_desc:0 "几个世纪以来，帝国的官僚机构一直由儒学名流们掌控。没有他们的恭顺，我们根本无法治理中国。我们必当改组过去的官僚机构，恢复中原帝国的官僚体系。"
- mch_reform_the_censorate_title:0 "改革都察院"
- mch_reform_the_censorate_desc:0 "明朝末年贪腐盛行。清朝的都察院必须是皇帝的耳目，在全中国稽查贪腐，揭露欺上瞒下的官员。"
- mch_establish_tributaries_title:0 "建立朝贡体系"
- mch_establish_tributaries_desc:0 "我们已经取代了明朝，因此天下诸夷必须承认我们是新的宗主。重建朝贡体系将是一项艰巨的任务，有些人可能愚蠢地执着于他们新近获得的独立，而不肯和平投降。"
- mch_harmonious_empire_title:0 "和谐帝国"
- mch_harmonious_empire_desc:0 "中国必须完全统一在清朝统治下。它的人民必须在我们圣明的治理下和谐地劳作，而不受民族和信仰纷争之害。"
- mch_library_of_the_four_treasuries_title:0 "四库全书"
- mch_library_of_the_four_treasuries_desc:0 "现在是编纂一部完整的中国历史的时候了，从全国各地收集书籍，抄录到我们的新书目中。这也将提供一个机会来审查那些可能包含破坏满人统治和谐思想的书籍。"
- mch_three_feudatories_title:0 "三藩"
- mch_three_feudatories_desc:0 "进军深入中国南方的同时，我们必须考虑一点：至少在短期内，将该地区的统治权下放给降清的明朝大员可能更加容易。我们必须想办法利用南方的局势。"
- mch_revoke_the_feudatories_title:0 "撤藩"
- mch_revoke_the_feudatories_desc:0 "南方的地方藩镇不可轻信，探子回报称他们阴谋叛乱。我们必须取消当初因时制宜所赐予他们的特权，以便我们能够直接统治南方。"
- mch_annex_tibet_title:0 "并吞西藏"
- mch_annex_tibet_desc:0 "我们来自大草原的老对手已经在西藏站稳了脚跟，他们的主子必须接受我们的统治。是时候让西藏融入天朝了。"
- mch_secure_inner_asia_title:0 "都护中亚"
- mch_secure_inner_asia_desc:0 "对于中国的统治者来说，中亚一直是一个祸源。尽管过去曾派遣远征军都护该地区，但中国从未在该地区建立起实际统治。这种情况必须改变。"
- mch_integrate_taiwan_title:0 "整合台湾"
- mch_integrate_taiwan_desc:0 "前明余孽、海盗倭寇与泰西机巧之徒纷纷向台湾岛蜂拥而去。此岛历代未隶疆索，众皆目其为黑水沟。然吾不复否认其为敌所据乃大患也。"
- mch_burma_campaign_title:0 "征伐缅甸"
- mch_burma_campaign_desc:0 "截至目前，越来越多的明朝遗忠正逃往缅甸，在缅族与掸族的土司们那里寻求庇护。我们必须告诉他们，在天命所归的王朝面前，他们无处可逃。"
- mch_subjugate_dai_viet_title:0 "收服大越"
- mch_subjugate_dai_viet_desc:0 "大越的君主按中华的方式僭称皇帝，甚至还仿效了儒家的官僚体系。从他们的那些托词来看，他们不过是冒牌货，必须要让他们屈服于真命天子的脚下。"
- devastate_china_tooltip2:0 "在§Y华南§!或§Y西南§!地区拥有一个发展度至少为§Y25§!的省份"
- mch_mountain_title:0 "山中圣地"
- mch_mountain_desc:0 "布库里山，朝鲜人称之为白头山，是我们民族起源的圣地。传说一位天女在山间湖泊沐浴时吃下鹊鸟投下的果实后受孕，生下的儿子后来成为女真部落的第一位酋长。我们必须在山附近建庙宇来纪念我们的祖先。"
- breached_great_wall:0 "冲破长城"
- desc_breached_great_wall:0 "我们的军队已经突破了长城，得以在我们的家乡与中原之间自由穿行。"
- mch_treason_modifier:0 "长城脚下的背叛"
- desc_mch_treason_modifier:0 "受命守卫长城抵挡北狄的将军已经可耻地背弃了职守，成群的蛮族部队借此侵入中原。"
- mukden_palace_modifier:0 "盛京皇宫"
- desc_mukden_palace_modifier:0 "盛京皇宫是我们帝国雄心的写照之一。我们会按中华的方式实行统治，但也不会忘记我们满洲的治国方式。"
- mukden_palace_modifier_fallback:0 "盛京皇宫"
- desc_mukden_palace_modifier_fallback:0 "盛京皇宫是我们帝国雄心的写照之一。我们会按中华的方式实行统治，但也不会忘记我们满洲的治国方式。"
- terrified_china:0 "杀一儆百"
- desc_terrified_china:0 "我们残酷地劫掠了一座中原大城。关于这座城市毁灭的传言使敌国的所有阶层都变得恐慌起来。现在只有真正的傻瓜才拒绝投降。"
- confucian_administration:0 "儒家官僚"
- desc_confucian_administration:0 "我们已经接纳了儒家的官僚体系。在这一体制下，仔细研读过儒家经典的学生会被拔擢为管理帝国的官员。"
- confucian_administration_fallback:0 "儒家官僚"
- desc_confucian_administration_fallback:0 "我们已经接纳了儒家的官僚体系。在这一体制下，仔细研读过儒家经典的学生会被拔擢为管理帝国的官员。"
- qing_censorate:0 "大清都察院"
- desc_qing_censorate:0 "我们决心要让大清的都察院比前朝处事更加公正，行事更加缜密。"
- the_sacred_edict:0 "圣谕广训"
- desc_the_sacred_edict:0 "皇上想要建立一个稳定、和谐，团结在儒家准则之下的中华社会。在每个村落，当地官员都必须以当地方言向百姓念诵、宣讲皇帝亲自宣谕的十六条儒家道德格言，每月须进行两次。"
- mch_sacred_mountain:0 "神山圣地"
- desc_mch_sacred_mountain:0 "我们在女真人的圣地布库里山建立了神龛。"
- mch_korean_subjugation:0 "收服朝鲜"
- desc_mch_korean_subjugation:0 "我们终于收服了朝鲜王国及其臣民。"
- library_of_the_four_treasuries:0 "四库全书"
- desc_library_of_the_four_treasuries:1 "我们已将全部中国历史尽皆收入我们的藏书中。为了避免异议的传播，所有敌视清王朝的材料都被排除在外。"
- inner_asian_trade:0 "内亚贸易"
- desc_inner_asian_trade:0 "在我们控制内亚地区后，这一地区的贸易将会重新繁荣起来。"
- mch_combat_modifier:0 "八旗狩猎"
- desc_mch_combat_modifier:1 "围绕着八旗单位结伴狩猎会是对女真人战斗技巧的绝佳锻炼。"
- FRM:0 "东宁"
- FRM_ADJ:0 "台湾"
- mch_missions.1.t:0 "长城脚下的背叛"
- mch_missions.1.d:0 "现在几乎没有人对明朝还有忠诚可言。甚至明朝的将军们也在怀疑是不是真的能抵御住[Root.GetAdjective]的进攻。奉命镇守山海关的吴三桂是一名极有天赋又雄心勃勃的将领。此前，在与[Root.Culture.GetName]军作战时，他曾取得过一些胜利。但近期发生在明朝都城等地的一些事件动摇了他对明朝[MNG.Monarch.GetTitle]的忠诚，现在他正在寻求与他过去的敌人达成本不太可能结成的同盟。在获得高官厚禄的许诺后，吴三桂同意倒向[Root.GetName]。现在我们可以安全地穿过山海关并直入北京。"
- mch_missions.1.d2:0 "前明将军吴三桂仍然在守卫山海关，但此处的防务已经摇摇欲坠，随时可能被攻陷。[Root.Monarch.GetName]和[726.Owner.GetName][726.Owner.Monarch.GetTitle]都向吴三桂方面派出了信使，拼命地想要将吴三桂和他麾下的部队争取到自己一方。\n\n[726.Owner.GetName][726.Owner.Monarch.GetTitle]开始动用起卑劣的手段，用吴三桂父亲的性命来威胁他投降。吴三桂并没有被[726.Owner.GetName]的无耻伎俩吓倒，他冲冠一怒，决定献出关隘、转投我[Root.GetName]。山海关的大门已向我们敞开。大军正马不停蹄地向北京进发。"
- mch_missions.1.a:0 "吴三桂做出了明智的选择。"
- mch_missions.3.t:0 "绿营兵"
- mch_missions.3.d:0 "中国正在被饥荒和叛乱所困扰，很明显，明朝已经失去了天命，新的势力即将取代她。成千上万名不满低薪和恶劣待遇的明军士兵宣誓效忠于[Root.GetName]，他们希望我们能够让这片土地恢复和平与稳定，并且给他们足够的粮饷。我们将他们编入了绿营。希望他们能够在和自己同胞的战斗中取得良好的战果。"
- mch_missions.3.a:0 "他们为我们效劳会更好。"
- mch_missions.4.d:0 "我国摇摇欲坠，成群结队的逃兵叛至敌方[From.GetAdjective]军麾下。他们将这些逃兵编入绿营，可以预见的是我们将很快在战场上遇到他们。"
- mch_missions.4.a:0 "叛徒！"
- mch_missions.5.t:0 "国姓爷逃往台湾"
- mch_missions.5.d:0 "国家崩溃之际，我们失去了大部分的港口，海军余部因此也脱离了我们的掌控。一位自称忠于明朝的将军「国姓爷」带领部分船只逃向了台湾。明朝历来都不太关注这个岛屿，认为它不过是一处无关紧要的荒蛮僻壤。但国姓爷发现了这座小岛的潜力，想将它作为反攻大陆的基地。"
- mch_missions.5.a:0 "懦夫！"
- ming_crisis:0 "明王朝的危机"
- ming_crisis_desc:0 "因为内部斗争，明王朝正在崩溃。他们面临着失去天命的风险。"
- ming_crisis.1.t:0 "明王朝的危机"
- ming_crisis.1.d:0 "大明正在面临可怕的危机。[Root.Monarch.Dynasty.GetName]家皇室没能遵循天命、统治天下，不再享有上天给予的庇佑和盛名。经年的管理不善和无尽的冲突已形成了痼疾，侵染了整个中华大地，人民的不满正迅速蔓延。一时间，天下汹汹，四处揭竿斩木。《诗》有之：「无念尔祖，聿修厥德」，我们必须感怀先祖、修养德行；毕竟，「宜鉴于殷，骏命不易」，永保天命绝非易事！"
- ming_crisis.1.a:0 "「命之不易，无遏尔躬。」"
- ming_crisis.2.t:0 "天命得到恢复"
- ming_crisis.2.d:0 "我们成功重获人民信任，不再有人怀疑我们是否有权拥有天命。我们必须以史为鉴，通过反省我们陷入危机的错误政策提升自身的水平、向尧舜之道迈进，避免重蹈覆辙。"
- ming_crisis.2.a:0 "没有人会再怀疑我们了。"
- ming_crisis.3.t:0 "李自成起义与大顺王朝"
- ming_crisis.3.d:0 "北方沦陷！农民军首领李自成将许多叛军与流寇纳入麾下，控制了帝国的广大地区，面积之大极为惊人。他僭号称帝，宣称自己是天命所归，在都城宣告建立大顺王朝，并许诺顺应天意，恢复旧礼。"
- ming_crisis.3.a:0 "杀贼！"
- ming_crisis.4.t:0 "云南都护"
- ming_crisis.4.d:1 "统治西南省份的异族人自古以来就不是件容易的事，但从来也没有出现过像现在这样严重的危机。叛军已开始聚集在军阀[CDL.Monarch.GetName]名下。这个军阀要求[Root.GetAdjective]朝承认他成为云南的都护。如果我们不采取有效行动，可能就会彻底丧失对这一地区的控制权。"
- ming_crisis.4.a:0 "建立都护府"
- ming_crisis.4.b:1 "大[Root.GetName]永不屈服！"
- ming_crisis.5.t:0 "失去对南方的控制"
- ming_crisis.5.d:1 "华南陷入了混乱。成群的叛军与流寇横行乡野，甚至控制了几座至关重要的大城市。因为[Root.GetAdjective]朝廷未能成功处理这次危机，当地管辖官员不得不自行处理掉这些麻烦。他们征召军队对抗叛匪，但他们拒绝服从于我们的将领。我们的信使报告称他们想要一直维持这样的藩镇诸侯地位，甚至是在危机平定之后。给予他们如此高的自治权将会开辟一个危险的先例，但我们目前的窘迫境况使我们很难挑战这些军阀。"
- ming_crisis.5.a:0 "给予当地督抚自治权。"
- ming_crisis.5.b:1 "大[Root.GetName]永不屈服！"
- ming_crisis.6.t:0 "[ming_disaster_rebel_province.GetAreaName]农民起义"
- ming_crisis.6.d:1 "在饱尝[Root.GetAdjective]朝数十年来的政策失当与不闻不问之后，[ming_disaster_rebel_province.GetAreaName]的农民已经揭竿而起。如果他们的叛乱继续发展下去，可能会酿成更大的危机。因此，我们要么立即满足他们的诉求，要么很快就会与他们兵戎相见。"
- ming_crisis.6.a:0 "叛军定会被粉碎！"
- ming_crisis.6.b:0 "同意他们的请求"
- mongols_restore_the_khanate_title:0 "宣称汗位"
- mongols_restore_the_khanate_desc:0 "我们必须重建蒙古汗国，还于旧都哈拉和林。在那里我们将召集忽里勒台大会，要求所有部落承认我们的权威。"
- mongols_unite_the_mongols_title:0 "统一蒙古"
- mongols_unite_the_mongols_desc:0 "成吉思汗治下，蒙古民族凝聚成同一个部落，尊戴同一位汗王。我们必须聚起各部族之众，恢复共有的蒙古认同。"
- mongols_restore_yuan_title:0 "恢复大元"
- mongols_restore_yuan_desc:0 "我们被揭竿而起的明军逐出中原，失去了天命。我们必须重铸忽必烈汗的帝国，取回天命！"
- mongols_reconquer_china_title:0 "重返中原"
- mongols_reconquer_china_desc:0 "元朝时蒙古人曾统治全中国。我们必须向相同的目标迈进。"
- mongols_subjugate_korea_title:0 "征服朝鲜"
- mongols_subjugate_korea_desc:0 "蒙哥汗曾迫使朝鲜人接受蒙古的统治。但此后他们不再向我们屈膝称臣，必须提醒他们谁才是真正的主人。"
- mongols_invade_japan_title:0 "摧毁幕府"
- mongols_invade_japan_desc:0 "即使是过去汗国的那些名将也没能征服日本。当我们的舰队从西边启航时，将不再有所谓的神风阻碍我们的征途！"
- mongols_annex_tibet_title:0 "并吞西藏"
- mongols_annex_tibet_desc:0 "许多蒙古人开始接受藏传佛教信仰。我们必须征服西藏以确保汗国能彻底掌控这一信仰。"
- oir_tumu_crisis_title:0 "土木之变"
- oir_tumu_crisis_desc:0 "明朝已足够孱弱，入侵的机会已经成熟了。我们必须召集军队，在他们还没有组织起军队时就在战场上将他们击败。"
- mongols_central_asia_title:0 "恢复对草原的统治"
- mongols_central_asia_desc:0 "蒙古帝国崩溃后，草原变成了无主之地。我们必须统治当地人民，重建秩序。"
- mongols_persia_title:0 "重建伊利汗国"
- mongols_persia_desc:0 "向波斯进军的时刻到了，一如我们先祖在很久以前做的那样。但在战争胜利后，谁将统治这片土地呢？"
- mongols_anatolia_title:0 "入侵叙利亚和安纳托利亚"
- mongols_anatolia_desc:0 "我们必须继续西征，突袭叙利亚和安纳托利亚。我们不允许突厥人抗拒我们的统治！"
- mongols_religion_mission_title:0 "确保信仰"
- mongols_religion_mission_desc:0 "不管是拥抱一个新的信仰还是强化我们祖先的传统，蒙古人都必须达成信仰的和谐统一。"
- mongols_tatars_title:0 "征服鞑靼"
- mongols_tatars_desc:0 "让所谓的金帐汗国自治显然是一个错误。既然他们的汗国已经崩溃，那么是时候让我们来统一鞑靼，让他们迷途知返。"
- mongols_yam_title:0 "重建站赤系统"
- mongols_yam_desc:0 "成吉思汗为蒙古帝国建立了一个兼顾中转站、补给点与情报机关为一体的系统应用于整个蒙古帝国，以此来缓解控制一个横跨数千里的帝国带来的负担。我们应该重建站赤系统，这样我们的军队与使团便可在国境内穿行自如。"
- mongols_pax_mongolica_title:0 "蒙古治下的和平"
- mongols_pax_mongolica_desc:0 "传说，从前在大汗的统治之下，一个女人可以毫无畏惧地顶着一个金块从帝国的一头走到另一头。我们必须在全境重建这样的和平盛景。"
- mongols_russia_title:0 "击败罗斯"
- mongols_russia_desc:0 "起初要求效忠之时，罗斯人拒绝了我们。希望他们在我们摧毁了他们土地之后学到了教训，否则我们不得不将过去的暴力再来一遍。"
- tumu_crisis_complete_tt:0 "在§Y土木之变§!中强迫§Y明§!投降，或者拥有§Y北京§!作为核心省份。"
- tibetan_missionaries:0 "西藏僧侣"
- desc_tibetan_missionaries:0 "我们已将西藏的僧侣送往各地以在国土上传播佛教信仰。"
- mongol_rule_tibet:0 "征服西藏"
- desc_mongol_rule_tibet:0 "我们拒绝了达赖喇嘛的条件，选择了武力统治西藏。"
- mongol_religion_unity:0 "宗教统一"
- desc_mongol_religion_unity:0 "蒙古人克服了他们的宗教分歧。"
- mongol_fleet_modifier:0 "打造蒙古舰队"
- desc_mongol_fleet_modifier:0 "这次不再有神风搅扰我们的计划。幕府必须被推翻！"
- mongol_defeated_japan:0 "摧毁幕府"
- desc_mongol_defeated_japan:0 "我们攻陷了京都，幕府所在地，成就了我们祖先所未能成之业。"
- pax_mongolica:0 "蒙古治下的和平"
- desc_pax_mongolica:0 "一位少女可以头顶金块从帝国一头走到另一头，整个旅程保证安全无虞。"
- mongol_european_conquest:0 "进军欧洲"
- desc_mongol_european_conquest:0 "罗斯人被击败后，通往欧洲的大门洞开。他们将会再次感受到蒙古部落带来的恐怖！"
- mongol_kurultai:0 "忽里勒台年度大会"
- desc_mongol_kurultai:0 "大忽里勒台大会必须每年举办一次，所有部落必须向我们的大汗效忠。"
- mongol_kurultai_tooltip:0 "在§Y哈拉和林§!激活§Y忽里勒台年度大会§!修正"
- reorganized_mongols:0 "重整蒙古部落"
- desc_reorganized_mongols:0 "我们已将蒙古整并成有明晰边界的诸部。尽管我们之间有分歧但是内讧必须终结。"
- genghis_khan_reborn:0 "成吉思汗再世"
- desc_genghis_khan_reborn:0 "达赖喇嘛宣告我们的统治者是成吉思汗再世。"
- mch_missions.6.t:1 "[Root.Monarch.GetTitle]与达赖喇嘛"
- mch_missions.6.d:1 "蒙古汗[Root.Monarch.GetName]怀疑与一个年老体弱的秃头和尚会面到底有多少价值。毫无疑问，这位达赖喇嘛只是想要紧抓他那已然崩坏的权力的最后一点残余。西藏目前归[Root.GetAdjective]统治，没有必要跟旧秩序讨价还价。不过许多蒙古头领已皈依佛教信仰，并向喇嘛寻求精神上的支持，因此[Root.Monarch.GetTitle]也不得不将这些因素考虑在内。\n\n令[Root.Monarch.GetTitle]十分惊讶的是，达赖喇嘛提出了一个十分有意思的提议。如果我们宣布将藏传佛教指定为全蒙古人民的信仰，作为回报，达赖喇嘛将向世界宣告[Root.Monarch.GetName]是成吉思汗再世。这将使[Root.Monarch.GetTitle]的统治合法性大增，但并不是所有人都已准备好接受这个新的信仰。"
- mch_missions.6.a:0 "接受和达赖喇嘛的合作。"
- mch_missions.6.b:0 "我们不会听取这些无聊的迷信。"
- mongol_tibetan_rulership_tt:1 "在§Y西藏§!地区拥有的所有信仰§Y金刚乘佛教§!的省份获得§Y征服西藏§!修正，持续§Y20年§!，给予如下效果：\n每月自治度变化：§G-0.05§!\n本地叛乱度：§G-3§!"
- mch_missions.7.t:0 "重新统一蒙古各部"
- mch_missions.7.d:0 "在大蒙古国崩溃后，历代曾有许多次让蒙古重归统一的尝试，但这些努力顶多取得过昙花一现的成果。像之前的许多先行者一样，我们通过从每个部族召集战士与头领，建立起了一支大军；但除非我们能争取到更大范围的团结，否则已建立起来的联合可能会很快崩溃。我们可以像成吉思汗那样，宣告所有蒙古人是一个民族，蒙古内部的分裂已经是过去式。或者，我们也可以选择改组这些部族，认可他们的特别性，但也要明订他们的权利与领地。"
- mch_missions.7.a:0 "我们都是蒙古人。"
- mch_missions.7.b:0 "必须按部落进行重整。"
- unite_mongol_culture_tt:1 "所有拥有的§Y科尔沁§!，§Y喀尔喀§!，§Y瓦剌§!文化的省份将转变为§Y蒙古§!文化"
- SOO:0 "宗"
- SOO_ADJ:0 "宗"
- pirates.21.t:0 "重回倭寇时代"
- pirates.21.d:0 "在1419年朝鲜入侵对马岛之后，宗氏和朝鲜签订了《癸亥条约》，停止了海盗活动以换取对朝贸易的合法化。通过控制日朝贸易，宗氏一族获得了巨额利润，同时也因为其对朝外交的能力而被幕府尊重有加。\n\n现在幕府日渐式微，有人建议宗氏现在应该重操旧业，回到传统的海盗生涯。这些突然出现的海盗的头目声称自己是传奇海盗阿只拔都再世，那个人曾带领500艘船组成的船队洗劫朝鲜海岸。"
- pirates.21.a:0 "开始我的海盗生涯！"
- pirates.21.b:0 "我们可是商人和外交家，不是什么海盗。"
- SOO_ideas:0 "宗氏理念"
- SOO_ideas_start:0 "宗氏传统"
- SOO_ideas_bonus:0 "宗氏野心"
- soo_wakan:0 "倭馆"
- soo_wakan_desc:0 "倭馆是在朝鲜半岛南端设立的日本人居留地，是朝廷唯一认可的官方关口。如果我们设法借保护定居者来控制倭馆，就可以垄断朝鲜贸易。"
- soo_tradition_of_wakou:0 "倭寇传统"
- soo_tradition_of_wakou_desc:0 "虽然我们赞赏官方认证下的和平有序的贸易，但我们需要为紧张局势的恶化做好军事准备。幸运地是，我们的海盗传统可以帮助我们解决力量问题。"
- soo_fight_for_tsushima:0 "为对马而战"
- soo_fight_for_tsushima_desc:0 "位于亚洲大陆和日本列岛之间，我们的家乡对马岛和临近的海域是诸国冲突对立之地。愿我们的舰队实力坚强，这样我们不仅能保卫自己的国土，还能进一步扩张！"
- soo_bahan_ship:0 "八幡船"
- soo_bahan_ship_desc:0 "我们的海盗八幡船，飘扬着八幡神的大旗令人畏惧。没有人想要和被战神保卫的舰队相遇！"
- soo_tough_negotiator:0 "顽强的谈判使节"
- soo_tough_negotiator_desc:0 "作为不同文化的熔炉，我们了解不同人群间谈判协调的困难。即便在一场艰难无穷无尽的战争中，我们仍要找寻外交解决的方案。"
- soo_port_improvement:0 "港口维护"
- soo_port_improvement_desc:0 "我们是外国商人，但现在是时候考虑海外扩张了。让我们改进港口，以便建造一个庞大的海军舰队。"
- soo_elementary_school:0 "小学"
- soo_elementary_school_desc:0 "小学对儿童的初等教育很重要。作为我们的下一代，他们应带领国家走进新时代。"
- PROV4651:0 "对马"
- PROV_ADJ4651:0 "对马"
- PROV4652:0 "海城"
- PROV_ADJ4652:0 "海城"
- PROV4653:0 "毛怜"
- PROV_ADJ4653:0 "毛怜"
- PROV4654:0 "富尔河"
- PROV_ADJ4654:0 "富尔河"
- PROV4655:0 "失里绵"
- PROV_ADJ4655:0 "失里绵"
- PROV4656:0 "斡兰河"
- PROV_ADJ4656:0 "斡兰河"
- PROV4657:0 "长白山脉"
- PROV_ADJ4657:0 "长白山脉"
- PROV4658:0 "囊哈儿"
- PROV_ADJ4658:0 "囊哈儿"
- PROV4659:0 "土鲁亭山"
- PROV_ADJ4659:0 "土鲁亭山"
- PROV4660:0 "屯河"
- PROV_ADJ4660:0 "屯河"
- PROV4661:0 "答剌河"
- PROV_ADJ4661:0 "答剌河"
- PROV4662:0 "哈剌察"
- PROV_ADJ4662:0 "哈剌察"
- PROV4663:1 "虎尔哈"
- PROV_ADJ4663:1 "虎尔哈"
- furdan_area:0 "富尔丹"
- sakhalin_area:0 "萨哈林"
- evenk:0 "鄂温克"
- SOL:0 "索伦"
- SOL_ADJ:0 "索伦"
- NVK:0 "尼夫赫"
- NVK_ADJ:0 "尼夫赫"
- EJZ:2 "赫哲"
- EJZ_ADJ:2 "赫哲"
- NHX:3 "鄂罗奇"
- NHX_ADJ:2 "鄂罗奇"
- manchu_manchuria_decision.tooltip:1 "是§Y女真§!或§Y满洲§!文化的核心省份。"
- desc_repaired_great_wall:0 "我们正在修护长城，阻止北方野蛮人的入侵。"
- flavor_oir.1.t:0 "土木之变"
- flavor_oir.1.d:0 "我国与瓦剌的冲突发展到兵戎相见的地步，天子轻率地决定御驾亲征。尽管本人将才欠佳，但皇帝仍不顾廷臣三番劝谏，执意要亲自领兵。"
- flavor_oir.1.a:0 "皇上，恭请三思啊！"
- flavor_oir.2.t:0 "明朝天子受俘"
- flavor_oir.2.d:0 "战事进展令人惊喜，明朝天子居然亲自带兵。[MNG.Monarch.GetSheHeCap]竟敢在战场上直面我军，实在愚蠢；我们花了点工夫便处理掉了他那可怜又孱弱的士兵，甚至设法抓住了天子本人。\n\n我们拿到了针对南朝朝廷的强力筹码，但必须尽快采取行动以便利用。我们得赶紧占领北京，以便强制执行我们的条款。"
- flavor_oir.2.a:0 "向北京前进！"
- oir_emperor_captured_tt:1 "§Y如果我们能在被俘天子死亡或者被取代之前攻下北京，我们就能占领华北地区§!"
- flavor_oir.3.d:1 "大祸临头了！皇上亲征瓦剌之际决断不明，六师大溃，圣驾已陷于瓦剌之手！\n\n我们决不能让敌人攻陷北京城，否则就不得不接受那些鞑子的无理要求。然而一旦皇帝被敌人羁押过久，其它[Root.Monarch.Dynasty.GetName]家宗室成员亦将承续大统。"
- flavor_oir.3.a:0 "国祚危矣！"
- flavor_oir.4.t:0 "新帝即位"
- flavor_oir.4.d:0 "皇帝北狩已久，鞑虏迟迟不肯归还。天命不可有违，帝位不得虚悬——懿旨已下，[Root.Heir.GetName]须即刻正位。"
- flavor_oir.4.d2:0 "皇帝北狩已久，鞑虏迟迟不肯归还。天命不可有违，帝位不得虚悬——懿旨已下，[Root.Monarch.Dynasty.GetName]家宗室须另择新君承续大统。"
- flavor_oir.4.a:0 "但愿新帝的识断胜于太上皇帝。"
- flavor_oir.5.t:0 "攻占北京"
- flavor_oir.5.d:0 "北京城已破！南朝的都城和皇帝都在我们手里，如此窘境想必只能对我们有求必应了。大汗已向南朝朝廷递交文书，敦促其投降。"
- flavor_oir.5.a:0 "我们只接受无条件投降。"
- ming_surrender_tt:0 "§Y明拥有、控制的所有华北地区省份将会被[Root.GetName]占领§!"
- flavor_oir.6.t:0 "瓦剌攻占北京"
- flavor_oir.6.d:0 "瓦剌鞑子攻占了北京城。除了投降就范外，我们已束手无策。"
- flavor_oir.6.a:0 "我们别无选择。"
- flavor_oir.7.t:0 "天子瘐崩"
- flavor_oir.7.d:0 "尽管我们待大明天子不可谓不尽心尽力，但他依然在我们眼皮底下一命呜呼。我们本希望用他作筹码来逼迫南朝就范，但这条道如今已经行不通了。"
- flavor_oir.7.a:0 "我们的筹码没了！"
- mng_militry_incompetence:0 "军事无能"
- desc_mng_militry_incompetence:0 "尽管他缺乏军事才能，皇帝仍然愚鲁地决定御驾亲征。"
- oir_captured_mng_emperor:0 "俘获皇帝"
- desc_oir_captured_mng_emperor:0 "我们的首领抓到了明朝皇帝。只要他活着就能激励我们的军队朝向伟大的目标。"
- warriors_do_not_read_books:0 "士兵不学无术"
- desc_warriors_do_not_read_books:0 "我国致力于军事事务，这不利于文化和行政的进步。"
- IS_NOT_GETTING_EXPELLED_MINORITY:0 "未在接收被驱逐的少数族群"
- IS_GETTING_EXPELLED_MINORITY:0 "正在接收被驱逐的少数族群"
- IS_RULER_NOT_COMMANDING_UNIT:0 "统治者没有在领兵"
- IS_RULER_COMMANDING_UNIT:0 "统治者正在领兵"
- CLEAR_REBELS:0 "清除$PROVINCE$的所有叛军"
- JAP_expand_the_kokka_title:0 "拓展国家"
- JAP_expand_the_kokka_desc:0 "我们家族的领地支撑着所有的政治努力。尽管对前几代来说已经足够，现在已经不能满足我们的野心。我们必须扩张我们的权力基础！"
- JAP_balance_the_four_divisions_title:0 "平衡四民"
- JAP_balance_the_four_divisions_desc:0 "社会被分为四个阶层，需要精美的平衡来创造一个真正和谐的状态。悲哀的是这是一个下克上的时代，最低贱的人物也可以取代原先的高位者。我们必须找到方法来补救这个糟糕的病态，重建和谐社会。"
- JAP_balance_the_four_divisions_tt:1 "§Y2个阶层§!需要达到§Y60§!或者更高的忠诚度"
- JAP_establish_political_supremacy_title:0 "夺取政治霸权"
- JAP_establish_political_supremacy_desc:0 "吾等野望远迈诸庸碌大名。这是吾等责任与命运，去夺取这片土地的至高权力。"
- JAP_issue_new_erizeni_rei_title:0 "颁布新撰钱令"
- JAP_issue_new_erizeni_rei_desc:0 "出色的财政乃政府稳定之基石。为保证政令通畅贸易延伸，我们必须鼓励成色高的铸币稳定地流入我们的领地。"
- JAP_survey_the_secret_fields_title:0 "调查隐田"
- JAP_survey_the_secret_fields_desc:0 "令人尴尬的是在各省中农民们拥有一些不被收税员们所知的「秘密田地」已经十分常见。通过对这些田产进行全面的调查记录我们能够同时充沛我们的库房和促进经济的健康状况。"
- JAP_construct_the_gokaido_title:0 "建设五街道"
- JAP_construct_the_gokaido_desc:0 "虽然国内的敌对势力已被平定，但继续维持对这些大名的控制依然十分重要。建造新的道路和驿站系统将有助于从首都更便捷地到达大名的领地，并促进途经地区的商业发展。"
- JAP_permit_ryogaesho_title:0 "准允两替商"
- JAP_permit_ryogaesho_desc:0 "许多大名正在经受财务不稳所带来的负面影响并导致他们无力偿还贷款。通过设定一些货币兑换点并使用我们自身的金融储备来提供一些更为可靠的贷款项目应当能够帮助稳定大名们的财政状况并缔造一个更为健康的地区经济环境。"
- JAP_pacify_the_north_title:0 "平定北方"
- JAP_pacify_the_north_desc:0 "虾夷人是我们的绊脚石，是贼徒的巢穴，他们南下侵扰着我们的顺民。我们必须向北方化外之地施以仁政，确保当地的民众知晓大义。"
- JAP_take_the_thousand_islands_title:0 "夺取千岛群岛"
- JAP_take_the_thousand_islands_desc:0 "天皇要求无土的浪人去日本北方的岛屿定居，这样可以促进帝国的和平。"
- JAP_siberian_intervention_title:0 "干涉西伯利亚"
- JAP_siberian_intervention_desc:0 "我国在满洲和千岛群岛的涉入需要全新的防线。西伯利亚的密林也许不是最诱人的土地，但是它们将提供一个良好的防御前线来针对西方任何想要攻击我们富饶领地的人。"
- JAP_sankin_kotai_title:0 "参勤交代"
- JAP_sankin_kotai_desc:0 "与其无脑抓捕不听话的领主从而承担叛乱的风险，我们可以采取一种更精妙的手法来削弱同化他们，就是命令他们定期访问京城。采用「参勤交代」的政策可以让领主同时维持两个居所，一个在他们自己的领地，另外一个位于京城，当然他们将会频繁地往来两地。这项费用将让除最富有领主之外的人耗费巨大，避免让他们把钱累积起来维持私人军队。同时也可以加强我们自己在京城的力量，让它对臣下和外交人员更具有吸引力。"
- JAP_encourage_financial_cliques_title:0 "鼓励财阀"
- JAP_encourage_financial_cliques_desc:0 "随着我们经济的增长国内的商人们也不可避免地获取了更多的财富与权力。如今他们的财富使我们难以继续将他们当作社会的最底层阶级来对待。或许这是我们支持他们并帮助他们发展的时候了。我们应当如何称呼这种庞大的新式商人组织？「财阀」么？"
- JAP_emperor_of_china_title:0 "帝国天命"
- JAP_emperor_of_china_desc:0 "我们曾被中国称为「倭人」，但现在的中国在我们面前已相形见绌！我们的天皇陛下无人匹及；我们必须维护菊花王座万王之上的最高地位。"
- JAP_secure_the_pacific_title:0 "太平洋安保"
- JAP_secure_the_pacific_desc:0 "随着我们财富的增长为了保护它们的防卫支出也随之增加了。当我们利用西方机遇进行发展的同时我们必须同时警惕东方的太平洋，鬼知道哪里会有什么威胁存在。我们最好采取一些行动以确保我们在太平洋诸岛上的权威从而防止任何势力趁机控制那些岛屿并从东方偷袭我们。"
- JAP_regulate_the_social_order_title:0 "规范社会秩序"
- JAP_regulate_the_social_order_desc:0 "为了防止另外一个混乱时代的出现我们必须确保每个人都对自身的社会地位有着明确的认知。就如同武士永远都应当是武士一般，商人与农民当亦然如此。不得有任何人违反这一铁律。"
- JAP_dominate_the_market_title:0 "主导市场"
- JAP_dominate_the_market_desc:0 "我们拥有着无比庞大的经济产出以及独一无二的国际声望，然而我们的海外公民未能得到他们应得的尊重。"
- JAP_go_to_indochina_title:0 "印支霸权"
- JAP_go_to_indochina_desc:1 "我们的领土范围不能被局限在中国区域，我们应当拓展皇帝陛下之荣光并使得所有人都能共享我等之繁华。"
- JAP_colonize_california_title:0 "殖民加利福尼亚"
- JAP_colonize_california_desc:0 "在大海彼岸是充满了机遇的新世界。很多人悄悄地说着那拥有无法丈量之财富的黄金王国只待我们前往采摘。我们应当即刻在那片大陆上建立基地并以任何可能的方式从任何新的发现中获利。"
- JAP_siberian_boom:0 "西伯利亚繁荣"
- JAP_gokaido_stations:0 "五街道宿场"
- JAP_gokaido_stations_for_everyone:0 "治下所有省份将会获得§Y五街道宿场§!修正，持续20年，给予如下效果：\n友方军队移动速度：§G+10.0％§!\n每月自治度变化：§G-0.05§!"
- JAP_sankin_kotai_modifier:0 "参勤交代"
- JAP_social_hierarchy:0 "规范化的社会阶级"
- JAP_indochinese_trade:0 "印度支那朱印船"
- JAP_trade_hegemon:0 "贸易霸权"
- JAP_cadastral_surveys:0 "地籍调查"
- JAP_currency_regulations:0 "货币法规"
- JAP_sengoku_contender:0 "战国竞争者"
- JAP_californian_colonization:0 "§Y[Root.GetName]§!或其属国在加利福尼亚拥有至少一个已殖民省份。"
- JAP_build_a_factroy:0 "§Y[Root.GetName]§!的省份中至少已建好§Y12§!座任意类别的工厂。"
- JAP_toughed_it_out_MoH:1 "§Y[Root.GetName]§!已处理所有不与幕府相关的事变，或者不再信仰神道教。"
- JAP_toughed_it_out_no_MoH:0 "§Y[Root.GetName]§!已处理了吉利支丹的到来，或者不再信仰神道教。"
- JAP_cn_in_rnw:0 "自身或者非朝贡附庸在新大陆拥有至少§Y10§!个省份。"
- JAP_no_corruption:0 "腐败度低于§Y0.1%§!。"
- lost_control_of_beijing:1 "皇帝未拥有并控制北京"
- desc_lost_control_of_beijing:0 "如果我们不能控制中国的主要城市北京，那就意味着我们不再受到天命的眷顾。"
- lost_control_of_nanjing:1 "皇帝未拥有并控制南京"
- desc_lost_control_of_nanjing:0 "如果我们不能控制中国的主要城市南京，那就意味着我们不再受到天命的眷顾。"
- lost_control_of_canton:1 "皇帝未拥有并控制广州"
- desc_lost_control_of_canton:0 "如果我们不能控制中国的主要城市广州，那就意味着我们不再受到天命的眷顾。"
- humane_personality:0 "仁德"
- desc_humane_personality:0 "这个统治者宅心仁厚。慈爱宽悯，坚守正道是我们统治者的待人之道。"
- humane_personality_die_desc:0 "[Root.Monarch.GetHerHisCap]臣民将深切地怀念[Root.Monarch.GetHerHis]同情心与仁慈。"
- petty_personality:0 "偏狭"
- desc_petty_personality:0 "这位统治者心胸狭隘。即使是最微不足道的小事也会唤起[Root.Monarch.GetHerHis]怒气，无论多小的财产都会引起[Root.Monarch.GetHerHis]妒忌。"
- petty_personality_die_desc:0 "[Root.Monarch.GetHerHisCap]狭窄的气量和嫉妒心对我们的皇朝有百害而无一利。"
+﻿l_english:
+ manchu_new:0 "án2m"
+ manchu_culture_tt:0 "Nb	g§YsYw§!wýNS¥c×S§Yán2m§!‡eS"
+ changbai_mountain:0 "•‹vqS"
+ desc_changbai_mountain:0 "•‹vqSùRsYwºNŒTgœœºNegô‹ý=fwQ	gÍ‘‰aŒVaIN„v0W¹p0(W2N*NlÏe„v.Oô‹Ee‹N-NÿÙµ^qSý«ˆÆ‰:NTØš^y1WKN0W0"
+ mch_great_wall_title:0 "ÕuÇ•ÎW"
+ mch_great_wall_desc:0 "-NýV‡v^a0ˆ0W²‹:N•ÎWïSåNÝO²bÖNMQmLeºNÛ¯r0ckb—:VIe•ÎWÇŽN’Qi–ÿFO=fïSåNæSBlÖNÕlÕuV•ÎW&&"
+ mch_eight_banners_title:0 "kQ×e"
+ mch_eight_banners_desc:0 ".Oßu„vsYwérsâVSO(WNLeºN„v²N•-NòTÏu-T2—•’‚ÿFO=f‚YœgbìNó`‰VgN*N^ýVÿbìNÅV‰˜ŠbbìN„vfkÅˆ›RÏ‘ÃuÍ‘Äubªu‹V%Nf„v×e›Q0"
+ mch_invade_joseon_title:0 "Û›Qgœœ"
+ mch_invade_joseon_desc:0 "gœœjO:NS¬N)YPR„vé…^SÿØVåN:Ncƒ0ÅV‰˜‰<ëÖNìN¥c×SN*N°e—RIN0"
+ mch_khan_of_the_mongols_title:0 "6eg™„äSø‹è"
+ mch_khan_of_the_mongols_desc:0 "2kŒ8—NÿÅVú^°e›Qÿ™„NKNëXÿ„V6UKNuQÿïS:NMRqš06q|VlY`ÇRÿN RRuQÿP`¾–gº0"
+ mch_mandate_of_heaven_title:0 ")Y‹T"
+ mch_mandate_of_heaven_desc:0 "–NwS¬N:NbìNNbµcÿ=föeP±Rðy)Y‹T†N0bìNS(W-NýVú^ËzN*N°e‹sgÿƒRSCSËyNãNÿ"
+ mch_green_standard_army_title:0 "ÿu%„"
+ mch_green_standard_army_desc:0 "-NýV›Q–Næ‰sSƒnÿvQS†˜áOÃVmNˆVëVSaƒ6qàeXR0‚YœgbìNýwYN†ŽNSSÿÙ›NS›Qb¸‹ýwY•bÚ‹ÿw^—HeàVvQlpeSKS„vçeIN0"
+ mch_devastate_china_title:0 "`SÎW"
+ mch_devastate_china_desc:0 "¸‹Y-NýVÎW^ÒbÝuTb›Q•bM–ÿëObìNw–eQcEN„vôVÎWbÿÙ'Y'YÏQ†NbìN„vÛIe¦^0bìNN—VN	ébNYÛLˆ`SÎWÿåNQHe2S0"
+ mch_extinguish_ming_title:0 "mpf"
+ mch_extinguish_ming_desc:0 "êS‰Ø	gN*NàVŽNfg„v!X’WÿbìNùR-NýV„vßu»l1S8lÜNOwck3zúV0bìNÅV‰˜‰V•^Ýumpfg0"
+ extinguish_ming_tt:0 "§Y[Root.GetName]§!·ƒ—VNb	g§Y-NýV§!!k'YF–N*gåb	gwýN„v8hÃV"
+ mch_ten_great_campaigns_title:0 "AShQfkŸR"
+ mch_ten_great_campaigns_desc:0 "bìN4ng…äSÈÊN0'Yn„v†ußWÅV‰˜Ü¾‰ßWŒTWSmÿ±›NÇ»SÎN*gRVz˜ŽN-NŸS‹sg„vlÏemNÅV‰˜,TÎNbìN„vßu»l0"
+ mch_confucian_administration_title:0 "Q¶R˜RÚP"
+ mch_confucian_administration_desc:0 "àQ*NNªuåNegÿ^ýV„v˜RÚP:g„gNôv1uQfRTAmìNŒcµc0¡l	gÖNìN„vm`z˜ÿbìN9h,gàeÕl»lt-NýV0bìNÅVSV9eÄuÇ»S„v˜RÚP:g„gÿb`Y-NŸS^ýV„v˜RÚPSOû|0"
+ mch_reform_the_censorate_title:0 "9ei—ýßRb–"
+ mch_reform_the_censorate_desc:0 "fg+gt^*PÛvLˆ0ng„výßRb–ÅV‰˜=f‡v^„v3wîvÿ(WhQ-NýVKzåg*Pÿíc2—:kN’wN„v˜RXT0"
+ mch_establish_tributaries_title:0 "ú^Ëzg!SOû|"
+ mch_establish_tributaries_desc:0 "bìNòTÏuÖSãN†NfgÿàVdk)YNø‹7YÅV‰˜b²‹bìN=f°e„v—RIN0Í‘ú^g!SOû|S=fNy˜p‚èT„vûN¡Rÿ	g›NºNïSýwa0ˆ0WgbNwŽNÖNìN°eÑ·ƒ—V„vìrËzÿwN¯wŒTs^•bM–0"
+ mch_harmonious_empire_title:0 "ŒTŒ^ýV"
+ mch_harmonious_empire_desc:0 "-NýVÅV‰˜ŒRhQßuN(Wngßu»lN0ƒR„vºNlÅV‰˜(WbìN1Wf„v»ltNŒTŒ0W³RjOÿwN×SlÏeŒTáOðN·u‰NKN³R0"
+ mch_library_of_the_four_treasuries_title:0 "ÛV“^hQfN"
+ mch_library_of_the_four_treasuries_desc:0 "°s(W=f‚uNèŒRte„v-NýV†SòS„vöeP†NÿÎNhQýVT0W6eÆ–fNM|ÿ„bUV0RbìN„v°efNîv-N0ÙmNSÐc›ON*N:gOeg¡Råg±›NïSýwS+T4xOWánºNßu»lŒTŒ`ó`„vfNM|0"
+ mch_three_feudatories_title:0 "	Né…"
+ mch_three_feudatories_desc:0 "Û›QñmeQ-NýVWS¹e„vTöeÿbìNÅV‰˜wQ†N¹pÿóS(Wíwg…QÿSå‹0W:S„vßu»lCgN>eÙuM–n„vfg'YXTïSýwôf R¹Rf0bìNÅV‰˜ó`žRÕl)R(uWS¹e„vNS¿R0"
+ mch_revoke_the_feudatories_title:0 "²dé…"
+ mch_revoke_the_feudatories_desc:0 "WS¹e„v0W¹eé…G•NïS‰áOÿ¢cPRÞV¥bðyÖNìN4–ŒÛSqN0bìNÅV‰˜ÖSˆmSVRàVöe6RœRNbPˆNÖNìN„vyrCgÿåN¿ObìNýwYôv¥cßu»lWS¹e0"
+ mch_annex_tibet_title:0 "v^T‰Ï…"
+ mch_annex_tibet_desc:0 "bìNegê'YIƒŸS„vwùRKbòTÏu(W‰Ï…Ùz3z†NßÿÖNìN„vINPRÅV‰˜¥c×SbìN„vßu»l0=föeP©‹‰Ï…‡eQ)Yg†N0"
+ mch_secure_inner_asia_title:0 "ý²b-NšN"
+ mch_secure_inner_asia_desc:0 "ùRŽN-NýV„vßu»lwegô‹ÿ-NšNNôv=fN*Nxyn0KS¡rÇ»Sþf>mcÜV›Qý²bå‹0W:SÿFO-NýVÎN*g(Wå‹0W:Sú^ËzwžRE–ßu»l0ÙÍyÅ`µQÅV‰˜9eØS0"
+ mch_integrate_taiwan_title:0 "teTðSŒn"
+ mch_integrate_taiwan_desc:0 "MRfYO‹R0wm×v-PÇRNðl‰:gçTKN’V·u·uTðSŒn›S‡åbw»S0dk›S†SãN*g¶–†u0tÿO†vîvvQ:NÑž4lŸl06q>TNY&T²‹vQ:NLeNbncCN'Y±`mN0"
+ mch_burma_campaign_title:0 "VO8u"
+ mch_burma_campaign_desc:0 "*bóîvMRÿŠegŠY„vfgWàVckŽV8uÿ(WÏeN¸cÏe„vWøSìN±Ì‘ûRBl‡^²b0bìNÅV‰˜JTÉ‹ÖNìNÿ(W)Y‹TNbRV„v‹sgb—MRÿÖNìNàeYïS0"
+ mch_subjugate_dai_viet_title:0 "6eg'YŠ"
+ mch_subjugate_dai_viet_desc:0 "'YŠ„vTIN	c-NNS„v¹eVíPðy‡v^ÿuóØÿNHe†NQ¶R„v˜RÚPSOû|0ÎNÖNìN„v±›NXbÍ‹egwÿÖNìNNÇ=f’QLr'ÿÅV‰˜‰©‹ÖNìNHSgŽNw‹T)YPR„vN0"
+ devastate_china_tooltip2:0 "(W§YNSWS§!b§Y‰WS§!0W:Såb	gN*NÑSUS¦^óS:N§Y25§!„vwýN"
+ mch_mountain_title:0 "qS-N1W0W"
+ mch_mountain_desc:0 "^“^Ì‘qSÿgœœºNðyKN:N‹v4YqSÿ=fbìNlÏewn„v1W0W0.Oô‹NMO)YsY(WqSô•VnÊlltmöeTNJžž•bN„vœgžRT×SURÿuN„v?QPRTegb:NsYwèK„„v,rNMOK‘•0bìNÅV‰˜(WqSD–Ñú^™^‡RegªuõVbìN„vVyHQ0"
+ breached_great_wall:0 "²Q4x•ÎW"
+ desc_breached_great_wall:0 "bìN„v›Q–òTÏuz4x†N•ÎWÿ—VåN(WbìN„v¶RaNN-NŸSKNô•ê1uzLˆ0"
+ mch_treason_modifier:0 "•ÎWN„vÌwÛS"
+ desc_mch_treason_modifier:0 "×S‹TˆRkS•ÎWµb!cSÄr„vS›QòTÏuïSIw0WÌwV†NLwˆRÿb²„vî†Ïeè–PdkµOeQ-NŸS0"
+ mukden_palace_modifier:0 "Ûv¬N‡v«R"
+ desc_mukden_palace_modifier:0 "Ûv¬N‡v«R=fbìN^ýVÄ–ÃV„v™QgqKNN0bìNO	c-NNS„v¹eVžRLˆßu»lÿFOmNNOØV°‹bìNán2m„v»lýV¹eV0"
+ mukden_palace_modifier_fallback:0 "Ûv¬N‡v«R"
+ desc_mukden_palace_modifier_fallback:0 "Ûv¬N‡v«R=fbìN^ýVÄ–ÃV„v™QgqKNN0bìNO	c-NNS„v¹eVžRLˆßu»lÿFOmNNOØV°‹bìNán2m„v»lýV¹eV0"
+ terrified_china:0 "NgNQŒv"
+ desc_terrified_china:0 "bìN‹kw‘0W«R c†NNµ^-NŸS'YÎW0sQŽNÙµ^ÎW^Ákmp„v.OŠOLeýV„vNb	g6–BSýØS—VP`Laweg0°s(WêS	gwck„v»PÜtMbÒbÝu•bM–0"
+ confucian_administration:0 "Q¶R˜RÚP"
+ desc_confucian_administration:0 "bìNòTÏu¥c³u†NQ¶R„v˜RÚPSOû|0(WÙNSO6RNÿÔNÆuxû‹ÇQ¶RÏuxQ„vfRuO«ˆÔbâd:N¡rt^ýV„v˜RXT0"
+ confucian_administration_fallback:0 "Q¶R˜RÚP"
+ desc_confucian_administration_fallback:0 "bìNòTÏu¥c³u†NQ¶R„v˜RÚPSOû|0(WÙNSO6RNÿÔNÆuxû‹ÇQ¶RÏuxQ„vfRuO«ˆÔbâd:N¡rt^ýV„v˜RXT0"
+ qing_censorate:0 "'YnýßRb–"
+ desc_qing_censorate:0 "bìN³QÃV‰©‹'Yn„výßRb–ÔkMRgY‹Nôf RlQckÿLˆ‹Nôf RÆR0"
+ the_sacred_edict:0 "1WŒ^­‹"
+ desc_the_sacred_edict:0 "‡vNó`‰ú^ËzN*N3zšR0ŒTŒÿâVÓu(WQ¶RÆQRKNN„v-NNS>yO0(WÏk*NQgK„ÿSV0W˜RXTýÅV‰˜åNSV0W¹eŠTŒvÓYõVõ‹0±R²‹‡v^²Nê±RŒ„vASmQagQ¶RS·V<hŠÿÏkg‰˜ÛLˆ2N!k0"
+ mch_sacred_mountain:0 "^yqS1W0W"
+ desc_mch_sacred_mountain:0 "bìN(WsYwºN„v1W0W^“^Ì‘qSú^Ëz†N^y›Ÿ0"
+ mch_korean_subjugation:0 "6eggœœ"
+ desc_mch_korean_subjugation:0 "bìNÈuŽN6eg†Ngœœ‹sýVÊSvQãl0"
+ library_of_the_four_treasuries:0 "ÛV“^hQfN"
+ desc_library_of_the_four_treasuries:1 "bìNòTShQè-NýV†SòSKS†v6eeQbìN„vÏ…fN-N0:N†NMQV®‹„v.O­dÿNb	gLeÆ‰n‹sg„vPg™eý«ˆ’cd–(WY0"
+ inner_asian_trade:0 "…QšN8f"
+ desc_inner_asian_trade:0 "(WbìNµc6R…QšN0W:STÿÙN0W:S„v8fSOÍ‘°eAucƒweg0"
+ mch_combat_modifier:0 "kQ×eérs"
+ desc_mch_combat_modifier:1 "ôVÕuNwkQ×eUSMOÓu4OérsO=fùRsYwºNb—eŽbçT„vÝusOI•¼p0"
+ FRM:0 "NR"
+ FRM_ADJ:0 "ðSŒn"
+ mch_missions.1.t:0 "•ÎWN„vÌwÛS"
+ mch_missions.1.d:0 "°s(WàQNN¡l	gºNùRfgØ	gàVÚ‹ïSŠ0uófg„vS›QìNmN(W`‘u=fN=fw„výwµb¡VOO[Root.GetAdjective]„vÛIe0IY‹TG•ˆRqSwmsQ„v4T	NBh=fNTg	g)YKÈSÄ–ÃVÃRÃR„vS†˜0dkMRÿ(WN[Root.Culture.GetName]›QjOböeÿÖNþfÖS—VÇN›NÜw)R0FOÑgÑSu(WfgýÎWIr0W„vN›N‹NöN¨RGd†NÖNùRfg[MNG.Monarch.GetTitle]„vàVÚ‹ÿ°s(WÖNck(WûRBlNÖNÇ»S„vLeºN¾b,gN*YïSýwÓub„vTßv0(W·ƒ—VØš˜RšS„y„v¸‹ú‹Tÿ4T	NBhTaPT[Root.GetName]0°s(WbìNïSåN‰RhQ0WzÇqSwmsQv^ôveQS¬N0"
+ mch_missions.1.d2:0 "MRfS›Q4T	NBhÍN6q(WˆRkSqSwmsQÿFOdkY„v2–¡RòTÏuGdGd2k`Wÿ–öeïSýw«ˆIew–0[Root.Monarch.GetName]ŒT[726.Owner.GetName][726.Owner.Monarch.GetTitle]ýT4T	NBh¹eb—>múQ†NáOOÿüb‹T0Wó`‰S4T	NBhŒTÖN¾žN„vè–‰NÖS0RêñTN¹e0\n\n[726.Owner.GetName][726.Owner.Monarch.GetTitle]VËY¨R(uwQS±R„vKbµkÿ(u4T	NBh6r²N„v'`‹TegZÁwÖN•bM–04T	NBhv^¡l	g«ˆ[726.Owner.GetName]„vàeIwOéOTPÿÖN²Q QN`ÿ³QšR.súQsQ˜–0l•bb[Root.GetName]0qSwmsQ„v'Yè•òTTbìN^eV0'Y›QcklšNjPDŽ0WTS¬NÛÑS0"
+ mch_missions.1.a:0 "4T	NBhZPúQ†Nfzf„v	éb0"
+ mch_missions.3.t:0 "ÿu%„uQ"
+ mch_missions.3.d:0 "-NýVck(W«ˆe™RƒŒTÛSqNNbðVpbÿˆVf>fÿfgòTÏu1Y»S†N)Y‹Tÿ°e„v¿R›RsSSÖSãNyY0bCSNNTNánNOª…ŒTv`±R…VG„vf›QëXuQ±R“ŠHeàVŽN[Root.GetName]ÿÖNìN^gbìNýwY©‹ÙGrW0Wb`YŒTs^N3zšRÿv^NÙuÖNìN³Y„v®|w™0bìNSÖNìNeQ†Nÿu%„0^gÖNìNýwY(WŒTêñTTÞw„vb—e-NÖS—Vo‚‹Y„vbœg0"
+ mch_missions.3.a:0 "ÖNìN:NbìNHe³ROôf‹Y0"
+ mch_missions.4.d:0 "býVGdGd2k`Wÿb²Óu–„vuQÛSóLe¹e[From.GetAdjective]›Q¾žN0ÖNìNSÙ›NuQeQÿu%„ÿïSåN„˜Á‰„v=fbìNSˆVëV(Wb:WNG0RÖNìN0"
+ mch_missions.4.a:0 "ÛS’Vÿ"
+ mch_missions.5.t:0 "ýVÓY7rŽVðSŒn"
+ mch_missions.5.d:0 "ýV¶R)TƒnKNE–ÿbìN1Y»S†N'YèR„v=nãSÿwm›QYOèàVdkmN1»y†NbìN„vŒcµc0NMOêðyàVŽNfg„vS›Q0ýVÓY7r0&^†˜èR9‚êST†NðSŒn0fg†SegýN*YsQèlÙ*N›SSÿ²‹:NƒRNÇ=fNYàesQ't‰„vRƒî†ûPäX0FOýVÓY7rÑS°s†NÙµ^S›S„vjo›Rÿó`SƒRjO:NÍSIe'YF–„vúW0W0"
+ mch_missions.5.a:0 "æa+Yÿ"
+ ming_crisis:0 "f‹sg„vqS:g"
+ ming_crisis_desc:0 "àV:N…Qè—e‰Nÿf‹sgck(W)Tƒn0ÖNìNb—4NNw1Y»S)Y‹T„vÎ˜i–0"
+ ming_crisis.1.t:0 "f‹sg„vqS:g"
+ ming_crisis.1.d:0 "'Yfck(Wb—4NïS`„vqS:g0[Root.Monarch.Dynasty.GetName]¶R‡v²R¡lýwuªV)Y‹T0ßu»l)YNÿNQ«N	gN)YÙuˆN„v‡^QOŒTÛvT0Ïut^„v¡rtN„UŒTàeKS„v²QzòTbVb†Nüu¾uÿµOÓg†Nte*N-NNS'Y0WÿºNl„vNánckÅ…ö^0Nöeô•ÿ)YNylylÿÛVYícÿz©e(g00×‹0	gKNÿ0àeõVSVyÿwîO¥S·V0ÿbìNÅV‰˜a`HQVy0îO‰Q·VLˆÿÕkßzÿ0œRt’ŽN·kÿš‹TNf0ÿ8lÝO)Y‹TÝu^—f‹Nÿ"
+ ming_crisis.1.a:0 "0‹TKNNfÿàeOS¬Ž00"
+ ming_crisis.2.t:0 ")Y‹T—V0Rb`Y"
+ ming_crisis.2.d:0 "bìNbŸRÍ‘·ƒºNláOûNÿNQ	gºN`‘ubìN=f&T	gCgåb	g)Y‹T0bìNÅV‰˜åNòS:Nt’ÿÇÍSwbìNw–eQqS:g„v•ï‹?eVrÐcGSê«Ž„v4ls^0T'S‚KNSÈÛÿMQÍ‘HŽ†‰™0"
+ ming_crisis.2.a:0 "¡l	gºNOQ`‘ubìN†N0"
+ ming_crisis.3.t:0 "NgêbwINN'Yz˜‹sg"
+ ming_crisis.3.d:0 "S¹e¦lw–ÿœQl›Q–™†˜NgêbS¸‹YÛS›QNAmÇR³ueQ¾žNÿµc6R†N^ýV„v^'Y0W:Sÿb—ïyKN'Yg:NÊ`ºN0ÖNíP÷Sðy^ÿ±RðyêñT=f)Y‹TNbRVÿ(WýÎW±RJTú^Ëz'Yz˜‹sgÿv^¸‹ú‹z˜”^)Yaÿb`Yçe<y0"
+ ming_crisis.3.a:0 "Ng<ÿ"
+ ming_crisis.4.t:0 "‘NWSý²b"
+ ming_crisis.4.d:1 "ßu»l‰WSwýN„vVÏeºNêäSåNeg1SN=föN¹Rf„v‹NÿFOÎNegmN¡l	gúQ°sÇÏP°s(WÙ7h%NÍ‘„vqS:g0ÛS›QòTVËYZwÆ–(W›Q–[CDL.Monarch.GetName]TN0Ù*N›Q–‰Bl[Root.GetAdjective]gb²‹ÖNb:N‘NWS„vý²b0‚YœgbìNNÇ‘ÖS	gHeLˆ¨RÿïSýw1SO‰V•^'N1YùRÙN0W:S„vµc6RCg0"
+ ming_crisis.4.a:0 "ú^Ëzý²bœ^"
+ ming_crisis.4.b:1 "'Y[Root.GetName]8lNHSgÿ"
+ ming_crisis.5.t:0 "1Y»SùRWS¹e„vµc6R"
+ ming_crisis.5.d:1 "NSWSw–eQ†N÷mqN0b²„vÛS›QNAmÇR*jLˆaNÎ‘ÿuóµc6R†NàQµ^ósQÍ‘‰„v'YÎW^0àV:N[Root.GetAdjective]g÷^*gýwbŸRYtÙ!kqS:gÿSV0W¡r–˜RXTN—VNêLˆYt‰cÙ›N»žæp0ÖNìNVìS›Q–ùR—bÛS*SÿFOÖNìNÒbÝugÎNŽNbìN„vS†˜0bìN„váOO¥bJTðyÖNìNó`‰NôvôucÙ7h„vé…G•ø‹¯O0WMOÿuó=f(WqS:gs^šRKNT0ÙuˆNÖNìN‚YdkØš„vê»lCgSOVŸN*NqSi–„vHQ‹OÿFObìNîvMR„v˜zëƒXµQObìNˆV¾–cbÙ›N›Q–0"
+ ming_crisis.5.a:0 "ÙuˆNSV0Wcwšbê»lCg0"
+ ming_crisis.5.b:1 "'Y[Root.GetName]8lNHSgÿ"
+ ming_crisis.6.t:0 "[ming_disaster_rebel_province.GetAreaName]œQlwIN"
+ ming_crisis.6.d:1 "(Wq™S[Root.GetAdjective]gpeASt^eg„v?eVr1YSVNNû•Nî•KNTÿ[ming_disaster_rebel_province.GetAreaName]„vœQlòTÏuícÿzww0‚YœgÖNìN„vÛSqNçuíuÑSUSN»SÿïSýwO‘bôf'Y„vqS:g0àVdkÿbìN‰HNËzsSán³ÖNìN„vÉ‹Blÿ‰HNˆVëV1SONÖNìNuQbøvÁ‰0"
+ ming_crisis.6.a:0 "ÛS›QšRO«ˆ‰|Žxÿ"
+ ming_crisis.6.b:0 "TaÖNìN„v÷‹Bl"
+ mongols_restore_the_khanate_title:0 "±RðyWlMO"
+ mongols_restore_the_khanate_desc:0 "bìNÅV‰˜Í‘ú^™„äSWlýVÿØŽNçeýÈTÉbŒT—g0(W±Ì‘bìNSìSÆ–ýVÌ‘ÒRðS'YOÿ‰BlNb	gèK„b²‹bìN„vCgZ0"
+ mongols_unite_the_mongols_title:0 "ßuN™„äS"
+ mongols_unite_the_mongols_desc:0 "b	T`Wl»lNÿ™„äSlÏeÝQZwbTN*NèK„ÿS4bTNMOWl‹s0bìNÅV‰˜ZwwTèÏeKNOÿb`YqQ	g„v™„äS²‹T0"
+ mongols_restore_yuan_title:0 "b`Y'YCQ"
+ mongols_restore_yuan_desc:0 "bìN«ˆícÿzww„vf›QúQ-NŸSÿ1Y»S†N)Y‹T0bìNÅV‰˜Í‘ø”ýVÅVÈpWl„v^ýVÿÖSÞV)Y‹Tÿ"
+ mongols_reconquer_china_title:0 "Í‘Ô-NŸS"
+ mongols_reconquer_china_desc:0 "CQgöe™„äSºNþfßu»lhQ-NýV0bìNÅV‰˜TøvT„vîvhÈÛ0"
+ mongols_subjugate_korea_title:0 "Vggœœ"
+ mongols_subjugate_korea_desc:0 "™„åTWlþfëOgœœºN¥c×S™„äS„vßu»l0FOdkTÖNìNNQTbìNHSðyãÿÅV‰˜Ðc’‘ÖNìNŒMb=fwck„vINºN0"
+ mongols_invade_japan_title:0 "gdÁkU^œ^"
+ mongols_invade_japan_desc:0 "sSO=fÇ»SWlýV„v±›NTSmN¡lýwVgåe,g0SVbìN„v0‚–ÎN‰¹=T*‚öeÿSNQ	gNbŒ„v^yÎ˜I–xbìN„vVÿ"
+ mongols_annex_tibet_title:0 "v^T‰Ï…"
+ mongols_annex_tibet_desc:0 "¸‹Y™„äSºNVËY¥c×SÏ….OiOYeáOðN0bìNÅV‰˜Vg‰Ï…åNnxÝOWlýVýw‰V•^ŒcµcÙNáOðN0"
+ oir_tumu_crisis_title:0 "W(gKNØS"
+ oir_tumu_crisis_desc:0 "fgòT³YqR1VÿeQµO„v:gOòTÏubŸq†N0bìNÅV‰˜ìSÆ–›Q–ÿ(WÖNìNØ¡l	gÄuÇuw›Q–öe1S(Wb:WNSÖNìNûQ%0"
+ mongols_central_asia_title:0 "b`YùRIƒŸS„vßu»l"
+ mongols_central_asia_desc:0 "™„äS^ýV)TƒnTÿIƒŸSØSb†NàeINKN0W0bìNÅV‰˜ßu»lSV0WºNlÿÍ‘ú^éy^0"
+ mongols_persia_title:0 "Í‘ú^O)RWlýV"
+ mongols_persia_desc:0 "Tâl¯eÛ›Q„vöeIR0R†NÿN‚YbìNHQVy(WˆVENåNMRZP„v±7h0FO(Wb‰NÜw)RTÿŒSßu»lÙGrW0WbTÿ"
+ mongols_anatolia_title:0 "eQµOÙS)RšNŒT‰R³uXb)RšN"
+ mongols_anatolia_desc:0 "bìNÅV‰˜çuíu‰Vÿz­ˆÙS)RšNŒT‰R³uXb)RšN0bìNNAQ¸‹z¥SºN—bÒbbìN„vßu»lÿ"
+ mongols_religion_mission_title:0 "nxÝOáOðN"
+ mongols_religion_mission_desc:0 "N¡r=fåb±bN*N°e„váOðNØ=f:VSbìNVyHQ„v.Oßuÿ™„äSºNýÅV‰˜¾báOðN„vŒTŒßuN0"
+ mongols_tatars_title:0 "Vg‘—|—"
+ mongols_tatars_desc:0 "©‹NbŒ„vÑ‘^WlýVê»l>f6q=fN*N•ï‹0âe6qÖNìN„vWlýVòTÏu)Tƒnÿ±HN=föeP©‹bìNegßuN‘—|—ÿ©‹ÖNìN÷åwÔ0"
+ mongols_yam_title:0 "Í‘ú^Ùzdû|ßu"
+ mongols_yam_desc:0 "b	T`Wl:N™„äS^ýVú^Ëz†NN*N|QŒ˜-NlÙz0eˆÙu¹pNÅ`¥b:gsQ:NNSO„vû|ßu”^(uŽNte*N™„äS^ýVÿåNdkegã‰µc6RN*N*jèpeCSÌ‘„v^ýV&^eg„vÅb0bìN”^å‹Í‘ú^Ùzdû|ßuÿÙ7hbìN„v›Q–NOâV¿OïS(WýVƒX…QzLˆê‚Y0"
+ mongols_pax_mongolica_title:0 "™„äS»lN„vŒTs^"
+ mongols_pax_mongolica_desc:0 ".Oô‹ÿÎNMR(W'YWl„vßu»lKNNÿN*NsYºNïSåNëkàeOuç`0Wv˜NwN*NÑ‘WWÎN^ýV„vN4Yp0RæSN4Y0bìNÅV‰˜(WhQƒXÍ‘ú^Ù7h„vŒTs^Ûvof0"
+ mongols_russia_title:0 "ûQ%W¯e"
+ mongols_russia_desc:0 "wR‰BlHeàVKNöeÿW¯eºNÒbÝu†NbìN0^gÖNìN(WbìNgdÁk†NÖNìNW0WKNTfR0R†NYe­‹ÿ&TRbìNN—VNSÇ»S„v´f›RQegNM0"
+ tumu_crisis_complete_tt:0 "(W§YW(gKNØS§!-N:Vë§Yf§!•bM–ÿbwåb	g§YS¬N§!jO:N8hÃVwýN0"
+ tibetan_missionaries:0 "‰Ï…çP±O"
+ desc_tibetan_missionaries:0 "bìNòTS‰Ï…„vçP±OŽVT0WåN(WýVWN.O­diOYeáOðN0"
+ mongol_rule_tibet:0 "Vg‰Ï…"
+ desc_mongol_rule_tibet:0 "bìNÒbÝu†N¾V‡UV„vagöNÿ	éb†Nfk›Rßu»l‰Ï…0"
+ mongol_religion_unity:0 "—RYeßuN"
+ desc_mongol_religion_unity:0 "™„äSºNKQg†NÖNìN„v—RYeRgk0"
+ mongol_fleet_modifier:0 "Sb.™„äS0‚–"
+ desc_mongol_fleet_modifier:0 "Ù!kNQ	g^yÎ˜dpbbìN„v¡‹R0U^œ^ÅV‰˜«ˆ¨cûÿ"
+ mongol_defeated_japan:0 "gdÁkU^œ^"
+ desc_mongol_defeated_japan:0 "bìNIew–†N¬NýÿU^œ^Nb(W0Wÿb1S†NbìNVyHQNb*gýwbKNN0"
+ pax_mongolica:0 "™„äS»lN„vŒTs^"
+ desc_pax_mongolica:0 "NMOSsYïSåN4Yv˜Ñ‘WWÎN^ýVN4Yp0RæSN4Yÿte*NÅezÝOÁ‹‰RhQàe^†0"
+ mongol_european_conquest:0 "Û›Q'k2m"
+ desc_mongol_european_conquest:0 "W¯eºN«ˆûQ%TÿŽV'k2m„v'Yè•mV0ÖNìNSOQ!ka×S0R™„äSèK„&^eg„vP``ÿ"
+ mongol_kurultai:0 "ýVÌ‘ÒRðSt^¦^'YO"
+ desc_mongol_kurultai:0 "'YýVÌ‘ÒRðS'YOÅV‰˜Ïkt^>NžRN!kÿNb	gèK„ÅV‰˜TbìN„v'YWlHeàV0"
+ mongol_kurultai_tooltip:0 "(W§YÈTÉbŒT—g§!ÀoIm§YýVÌ‘ÒRðSt^¦^'YO§!îOck"
+ reorganized_mongols:0 "Í‘te™„äSèK„"
+ desc_reorganized_mongols:0 "bìNòTS™„äStev^b	gfpf¹Lu„vø‹è0KS¡rbìNKNô•	gRgkFO=f…Qµ‹ÅV‰˜ÈuÓu0"
+ genghis_khan_reborn:0 "b	T`WlQN"
+ desc_genghis_khan_reborn:0 "¾V‡UV±RJTbìN„vßu»lw=fb	T`WlQN0"
+ mch_missions.6.t:1 "[Root.Monarch.GetTitle]N¾V‡UV"
+ mch_missions.6.d:1 "™„äSWl[Root.Monarch.GetName]`‘uNN*Nt^wSO1V„vÃy4YŒTSOb—0R•^	gYS÷N<P0ëkàe‘uî•ÿÙMO¾V‡UVêS=fó`‰'t“bÖN±òT6q)TOW„vCg›R„vgTN¹p‹kYO0‰Ï…îvMRRV[Root.GetAdjective]ßu»lÿ¡l	gÅV‰ßçeéy^¨‹÷NØ÷N0NÇ¸‹Y™„äS4Y†˜òTˆvOiOYeáOðNÿv^T‡UVûRBl¾|^yN„v=ecÿàVdk[Root.Monarch.GetTitle]mNN—VNSÙ›NàV.twQ†(W…Q0\n\näN[Root.Monarch.GetTitle]ASRÊ`¶‹„v=fÿ¾V‡UVÐcúQ†NN*NASR	ga`„vÐc®‹0‚YœgbìN±R^SÏ….OiOYecšR:NhQ™„äSºNl„váOðNÿjO:NÞV¥bÿ¾V‡UVSTNLu±RJT[Root.Monarch.GetName]=fb	T`WlQN0ÙSO[Root.Monarch.GetTitle]„vßu»lTÕl'`'YžXÿFOv^N=fNb	gºNýòTÆQY‹Y¥c×SÙ*N°e„váOðN0"
+ mch_missions.6.a:0 "¥c×SŒT¾V‡UV„vTjO0"
+ mch_missions.6.b:0 "bìNNO,TÖSÙ›NàeJw„v÷áO0"
+ mongol_tibetan_rulership_tt:1 "(W§Y‰Ï…§!0W:Såb	g„vNb	gáOðN§YÑ‘RXNiOYe§!„vwýN·ƒ—V§YVg‰Ï…§!îOckÿcíu§Y20t^§!ÿÙuˆN‚YNHeœgÿ\nÏkgê»l¦^ØSSÿ§G-0.05§!\n,g0WÛSqN¦^ÿ§G-3§!"
+ mch_missions.7.t:0 "Í‘°eßuN™„äSTè"
+ mch_missions.7.d:0 "(W'Y™„äSýV)TƒnTÿ†SãNþf	g¸‹Y!k©‹™„äSÍ‘RVßuN„vSÕ‹ÿFOÙ›NªR›Rv˜YÖS—VÇf±‚N°s„vbœg0ÏPKNMR„v¸‹YHQLˆwN7hÿbìNÇÎNÏk*NèÏeìSÆ–bëXN4Y†˜ÿú^Ëzw†NN=e'Y›QÿFOd–^—bìNýw‰NÖS0Rôf'YƒôV„vâVÓuÿ&TRòTú^Ëzweg„vTwTïSýwOˆVëV)Tƒn0bìNïSåNÏPb	T`Wl±7hÿ±RJTNb	g™„äSºN=fN*NlÏeÿ™„äS…Qè„vRÂˆòTÏu=fÇ»SV0bwÿbìNmNïSåN	éb9eÄuÙ›NèÏeÿ²‹ïSÖNìN„vyr+R'`ÿFOmN‰f¢‹ÖNìN„vCg)RN†˜0W0"
+ mch_missions.7.a:0 "bìNý=f™„äSºN0"
+ mch_missions.7.b:0 "ÅV‰˜	cèK„ÛLˆÍ‘te0"
+ unite_mongol_culture_tt:1 "Nb	gåb	g„v§YÑySl§!ÿ§YŽUSŽU§!ÿ§YætLR§!‡eS„vwýNSlØS:N§Y™„äS§!‡eS"
+ SOO:0 "—R"
+ SOO_ADJ:0 "—R"
+ pirates.21.t:0 "Í‘ÞV-PÇRöeãN"
+ pirates.21.d:0 "(W1419t^gœœeQµOùRlš›SKNTÿ—RlŒTgœœŒr¢‹†N0xv¥Nag¦u0ÿjPbk†Nwm×vIm¨RåNbcÖSùRg8f„vTÕlS0Çµc6Råeg8fÿ—RlNÏe·ƒ—V†NèT˜)R¦mÿTöemNàV:NvQùRgY²N„výw›Rw«ˆU^œ^SÍ‘	g R0\n\n°s(WU^œ^åenV®Vÿ	gºNú^®‹—Rl°s(W”^å‹Í‘ÍdçeNÿÞV0R.Oßu„vwm×vu¯m0Ù›Nz6qúQ°s„vwm×v„v4YîvðXðyêñT=f.OGYwm×v?–êSÔbýQNÿ±*NºNþf&^†˜500X‚9‚Äub„v9‚–m«Rgœœwm¸S0"
+ pirates.21.a:0 "VËYb„vwm×vu¯mÿ"
+ pirates.21.b:0 "bìNïS=fFUºNŒTY²N¶RÿN=fÀNHNwm×v0"
+ SOO_ideas:0 "—RltõV"
+ SOO_ideas_start:0 "—Rl.Oßu"
+ SOO_ideas_bonus:0 "—RlÎ‘ÃV"
+ soo_wakan:0 "-P†™"
+ soo_wakan_desc:0 "-P†™=f(WgœœJS›SWSïz¾‹Ëz„våe,gºNESYu0Wÿ=fg÷^=UN²‹ïS„v˜R¹esQãS0‚YœgbìN¾‹ÕlPÝO²bšRESwegµc6R-P†™ÿ1SïSåN„W­egœœ8f0"
+ soo_tradition_of_wakou:0 "-PÇR.Oßu"
+ soo_tradition_of_wakou_desc:0 "‹†6qbìN^O˜R¹e²‹Á‹N„vŒTs^	g^„v8fÿFObìN—‰:N't.VNS¿R„vv`SZP‹Y›Q‹NÆQY0x^Ð0W=fÿbìN„vwm×v.OßuïSåN.^©RbìNã‰³Q›RÏ‘î•˜˜0"
+ soo_fight_for_tsushima:0 ":NùRlšwb"
+ soo_fight_for_tsushima_desc:0 "MOŽNšN2m'YF–ŒTåe,gR›SKNô•ÿbìN„v¶RaNùRlš›SŒT4NÑ„vwmßW=fø‹ýV²QzùRËzKN0W0?abìN„v0‚–žR›RZW:VÿÙ7hbìNNÅNýwÝOkSêñT„výVWÿØýwÛNekib.Vÿ"
+ soo_bahan_ship:0 "kQa^9‚"
+ soo_bahan_ship_desc:0 "bìN„vwm×vkQa^9‚ÿØ˜lbNwkQa^^y„v'Y×eäNºNOuç`0¡l	gºNó`‰ŒT«ˆb^yÝOkS„v0‚–øvGÿ"
+ soo_tough_negotiator:0 "‹˜:V„vŒ2RO‚‚"
+ soo_tough_negotiator_desc:0 "jO:NNT‡eS„v”q‰pÿbìN†Nã‰NTºN²ô•Œ2ROSŒ„vðV¾–0sS¿O(WN:Wp‚¾–àewzàeKS„vb‰N-NÿbìNÍN‰ŒbûRY²Nã‰³Q„v¹eHh0"
+ soo_port_improvement:0 "=nãSôu²b"
+ soo_port_improvement_desc:0 "bìN=fYýVFUºNÿFO°s(W=föePwQ†wmYib.V†N0©‹bìN9eÛ=nãSÿåN¿Oú^.N*Nž^'Y„vwm›Q0‚–0"
+ soo_elementary_school:0 "SfR"
+ soo_elementary_school_desc:0 "SfRùR?Qåz„vRIrYe²wˆVÍ‘‰0jO:NbìN„vNNãNÿÖNìN”^&^†˜ýV¶RpÛ°eöeãN0"
+ PROV4651:0 "ùRlš"
+ PROV_ADJ4651:0 "ùRlš"
+ PROV4652:0 "wmÎW"
+ PROV_ADJ4652:0 "wmÎW"
+ PROV4653:0 "Ûk`"
+ PROV_ADJ4653:0 "Ûk`"
+ PROV4654:0 "ÌRS³l"
+ PROV_ADJ4654:0 "ÌRS³l"
+ PROV4655:0 "1YÌ‘õu"
+ PROV_ADJ4655:0 "1YÌ‘õu"
+ PROV4656:0 "¡epQ³l"
+ PROV_ADJ4656:0 "¡epQ³l"
+ PROV4657:0 "•‹vqS	"
+ PROV_ADJ4657:0 "•‹vqS	"
+ PROV4658:0 "ÊVÈT?Q"
+ PROV_ADJ4658:0 "ÊVÈT?Q"
+ PROV4659:0 "Wœ­NqS"
+ PROV_ADJ4659:0 "Wœ­NqS"
+ PROV4660:0 "oS³l"
+ PROV_ADJ4660:0 "oS³l"
+ PROV4661:0 "TrLR³l"
+ PROV_ADJ4661:0 "TrLR³l"
+ PROV4662:0 "ÈTLRßR"
+ PROV_ADJ4662:0 "ÈTLRßR"
+ PROV4663:1 "N†SÈT"
+ PROV_ADJ4663:1 "N†SÈT"
+ furdan_area:0 "ÌRS9N"
+ sakhalin_area:0 "(„ÈT—g"
+ evenk:0 "‘)nKQ"
+ SOL:0 "0t&O"
+ SOL_ADJ:0 "0t&O"
+ NVK:0 "<S+Yk"
+ NVK_ADJ:0 "<S+Yk"
+ EJZ:2 "kòT"
+ EJZ_ADJ:2 "kòT"
+ NHX:3 "‘WGY"
+ NHX_ADJ:2 "‘WGY"
+ manchu_manchuria_decision.tooltip:1 "=f§YsYw§!b§Yán2m§!‡eS„v8hÃVwýN0"
+ desc_repaired_great_wall:0 "bìNck(WîO²b•ÎWÿI–bkS¹eÎ‘î†ºN„veQµO0"
+ flavor_oir.1.t:0 "W(gKNØS"
+ flavor_oir.1.d:0 "býVNætLR„v²QzÑSUS0RuQbøvÁ‰„v0Wekÿ)YPR‰‡s0W³QšR¡VŒš²NV0KS¡r,gºNSMb.ksOÿFO‡v^ÍNNŒ˜÷^ã	NjuRŒÿgba‰²Nê†˜uQ0"
+ flavor_oir.1.a:0 "‡vNÿm`÷‹	N`JUÿ"
+ flavor_oir.2.t:0 "fg)YPR×SØO"
+ flavor_oir.2.d:0 "b‹NÛUSäNºNÊ`œUÿfg)YPRES6q²Nê&^uQ0[MNG.Monarch.GetSheHeCap]ßzbe(Wb:WNôvb—b›QÿžR(Wa0ˆÿbìN±‚†N¹påT+Y¿OYt‰c†NÖN±ïS`ÈSqR1V„vëXuQÿuó¾‹Õl“bOO†N)YPR,gºN0\n\nbìNÿb0R†Nˆ”ùRWSgg÷^„v:V›RyrxÿFOÅV‰˜KSëVÇ‘ÖSLˆ¨RåN¿O)R(u0bìN—Vv't`S†˜S¬NÿåN¿O:V6RgbLˆbìN„vag>k0"
+ flavor_oir.2.a:0 "TS¬NMRÛÿ"
+ oir_emperor_captured_tt:1 "§Y‚YœgbìNýw(W«ˆØO)YPR‰k¡Nbw«ˆÖSãNKNMRIeNS¬NÿbìN1Sýw`S†˜NSS0W:S§!"
+ flavor_oir.3.d:1 "'Yxy4N4Y†Nÿ‡vN²NVætLRKNE–³Q­eNfÿmQ^'Yƒnÿ1WŒšòTw–ŽNætLRKNKbÿ\n\nbìN³QNýw©‹LeºNIew–S¬NÎWÿ&TR1SN—VN¥c×S±›N‘—PR„vàet‰Bl06qwNæe‡v^«ˆLeºN¼bÇENÿvQƒR[Root.Monarch.Dynasty.GetName]¶R—R²RbXT¦NSbíu'Yßu0"
+ flavor_oir.3.a:0 "ýVZyqSãwÿ"
+ flavor_oir.4.t:0 "°e^sSMO"
+ flavor_oir.4.d:0 "‡v^SéròTENÿ‘—O†ßßN¯wRVØ0)Y‹TNïS	gÝÿ^MON—VZ†¬`ÿaèeòTNÿ[Root.Heir.GetName]‰˜sSIRckMO0"
+ flavor_oir.4.d2:0 "‡v^SéròTENÿ‘—O†ßßN¯wRVØ0)Y‹TNïS	gÝÿ^MON—VZ†¬`ÿaèeòTNÿ[Root.Monarch.Dynasty.GetName]¶R—R²R‰˜æSéb°eTbíu'Yßu0"
+ flavor_oir.4.a:0 "FO?a°e^„vÆ‹­eÜwŽN*YN‡v^0"
+ flavor_oir.5.t:0 "Ie`SS¬N"
+ flavor_oir.5.d:0 "S¬NÎWòT4xÿWSg„výÎWŒT‡v^ý(WbìNKbÌ‘ÿ‚Ydk˜zƒXó`ÅVêSýwùRbìN	gBlÅV”^†N0'YWlòTTWSgg÷^²N‡efNÿfeÃOvQ•bM–0"
+ flavor_oir.5.a:0 "bìNêS¥c×SàeagöN•bM–0"
+ ming_surrender_tt:0 "§Yfåb	g0µc6R„vNb	gNSS0W:SwýNSO«ˆ[Root.GetName]`S†˜§!"
+ flavor_oir.6.t:0 "ætLRIe`SS¬N"
+ flavor_oir.6.d:0 "ætLR‘—PRIe`S†NS¬NÎW0d–†N•bM–1SƒYÿbìNòTmgKbàeVr0"
+ flavor_oir.6.a:0 "bìN+Ràe	éb0"
+ flavor_oir.7.t:0 ")YPRv)T"
+ flavor_oir.7.d:0 "KS¡rbìN…V'Yf)YPRNïSŒNKSÃVKS›RÿFOÖNO6q(WbìN<w®v•^NN‹TjT|T0bìN,g^g(uÖNjOyrxeg<ëWSg1SƒÿFOÙagS‚YÊNòTÏuLˆN†N0"
+ flavor_oir.7.a:0 "bìN„vyrx¡l†Nÿ"
+ mng_militry_incompetence:0 "›Q‹Nàeýw"
+ desc_mng_militry_incompetence:0 "KS¡rÖN:ON›Q‹NMbýwÿ‡v^ÍN6qaœ0W³QšR¡VŒš²NV0"
+ oir_captured_mng_emperor:0 "ØO·ƒ‡v^"
+ desc_oir_captured_mng_emperor:0 "bìN„v–™†˜“b0R†Nfg‡v^0êS‰ÖNImNw1SýwÀo±RbìN„v›Q–gTO'Y„vîvh0"
+ warriors_do_not_read_books:0 "ëXuQNfRàe=g"
+ desc_warriors_do_not_read_books:0 "býVô›RŽN›Q‹N‹N¡RÿÙN)RŽN‡eSŒTLˆ?e„vÛek0"
+ IS_NOT_GETTING_EXPELLED_MINORITY:0 "*g(W¥c6e«ˆqš„vSpeÏe²"
+ IS_GETTING_EXPELLED_MINORITY:0 "ck(W¥c6e«ˆqš„vSpeÏe²"
+ IS_RULER_NOT_COMMANDING_UNIT:0 "ßu»lw¡l	g(W†˜uQ"
+ IS_RULER_COMMANDING_UNIT:0 "ßu»lwck(W†˜uQ"
+ CLEAR_REBELS:0 "nd–$PROVINCE$„vNb	gÛS›Q"
+ JAP_expand_the_kokka_title:0 "ÓbUSýV¶R"
+ JAP_expand_the_kokka_desc:0 "bìN¶RÏe„v†˜0W=e‘dNwNb	g„v?e»lªR›R0KS¡rùRMRàQãNegô‹òTÏu³Yÿ°s(WòTÏuNýwán³bìN„vÎ‘ÃV0bìNÅV‰˜ib.VbìN„vCg›RúWNxÿ"
+ JAP_balance_the_four_divisions_title:0 "s^aˆÛVl"
+ JAP_balance_the_four_divisions_desc:0 ">yO«ˆR:NÛV*N6–BSÿ—‰¾|Ž„vs^aˆegR.N*NwckŒTŒ„v¶r`0²`ÀT„v=fÙ=fN*NNKQN„vöeãNÿgNO1„vºNirmNïSåNÖSãNŸSHQ„vØšMOw0bìNÅV‰˜Œb0R¹eÕlegeˆQeÙ*Nß|Õ|„vÅu`ÿÍ‘ú^ŒTŒ>yO0"
+ JAP_balance_the_four_divisions_tt:1 "§Y2*N6–BS§!—‰¾0R§Y60§!bwôfØš„vàVÚ‹¦^"
+ JAP_establish_political_supremacy_title:0 ":YÖS?e»l8—Cg"
+ JAP_establish_political_supremacy_desc:0 ">TIrÎ‘gÜÈø‹¸^Œx'YT0Ù=f>TIr1ûNN‹TÐÿ»S:YÖSÙGrW0W„vóØšCg›R0"
+ JAP_issue_new_erizeni_rei_title:0 "˜^°e°d±”äN"
+ JAP_issue_new_erizeni_rei_desc:0 "úQr‚„v0?eCN?eœ^3zšRKNúWów0:NÝOÁ‹?eäNEu8fö^8OÿbìNÅV‰˜Ÿ±Rbr‚Øš„vø”^3zšR0WAmeQbìN„v†˜0W0"
+ JAP_survey_the_secret_fields_title:0 "Œåg–0u"
+ JAP_survey_the_secret_fields_desc:0 "äNºN4S,S„v=f(WTw-NœQlìNåb	gN›NN«ˆ6ezXTìNNbåw„v0ØyÆR0u0W0òTÏuASR8^Á‰0ÇùRÙ›N0uµNÛLˆhQb—„vŒåg°‹UVbìNýwYTöeEQ›lbìN„v“^?bŒTÃOÛÏuNm„veP·^¶rµQ0"
+ JAP_construct_the_gokaido_title:0 "ú^¾‹”NWˆS"
+ JAP_construct_the_gokaido_desc:0 "‹†6qýV…Q„vLeùR¿R›RòT«ˆs^šRÿFOçuíuôucùRÙ›N'YT„vµc6RO6qASRÍ‘‰0ú^.°e„vSïŒTšÙzû|ßuS	g©RŽNÎN–™ýôf¿Owc0W0R¾'YT„v†˜0Wÿv^ÃOÛÏu0W:S„vFUNÑSUS0"
+ JAP_permit_ryogaesho_title:0 "ÆQAQ2NÿfFU"
+ JAP_permit_ryogaesho_desc:0 "¸‹Y'YTck(WÏu×S0¡RN3zNb&^eg„vb—qVÍTv^üRôÖNìNàe›RPØ7>k0Ç¾‹šRN›N'^QQbc¹pv^O(ubìNê«Ž„vÑ‘‡¨PYegÐc›ON›Nôf:NïS`—„v7>ky˜îv”^SVýwY.^©R3zšR'YTìN„v0?e¶rµQv^.N*Nôf:NeP·^„v0W:SÏuNm¯sƒX0"
+ JAP_pacify_the_north_title:0 "s^šRS¹e"
+ JAP_pacify_the_north_desc:0 "Œ†7YºN=fbìN„vÊuówÿ=f<’V„vâTtzÿÖNìNWSNµOpbNwbìN„vz˜l0bìNÅV‰˜TS¹eSYKN0WËeåNÁN?eÿnxÝOSV0W„vlOåwSf'YIN0"
+ JAP_take_the_thousand_islands_title:0 ":YÖSCS›S²›S"
+ JAP_take_the_thousand_islands_desc:0 ")Y‡v‰BlàeW„vjmºN»Såe,gS¹e„v›SSšRESÿÙ7hïSåNÃOÛ^ýV„vŒTs^0"
+ JAP_siberian_intervention_title:0 "r^‰m‰=O)RšN"
+ JAP_siberian_intervention_desc:0 "býV(Wán2mŒTCS›S²›S„v‰meQ—‰hQ°e„v2–¿u0‰=O)RšN„vÆR—gmN¸‹N=fgñ‹ºN„vW0WÿFO=fƒRìNSÐc›ON*No‚‹Y„v2–¡VMR¿uegˆ”ùR‰¹eûNUOó`‰IeûQbìNÌRv™†˜0W„vºN0"
+ JAP_sankin_kotai_title:0 "ÂSäR²NãN"
+ JAP_sankin_kotai_desc:0 "NvQàe“bUcN,TÝ‹„v†˜INÎNwbÅbÛSqN„vÎ˜i–ÿbìNïSåNÇ‘ÖSNÍyôf¾|™Y„vKbÕlegJR1VTSÖNìNÿ1S=f‹TäNÖNìNšRg¿‹î•¬NÎW0Ç‘(u0ÂSäR²NãN0„v?eVrïSåN©‹†˜INTöeôuc2N*NESNbÿN*N(WÖNìNêñT„v†˜0WÿæSYN*NMOŽN¬NÎWÿSV6qÖNìNSO‘˜Au0WŽVeg2N0W0Ùy˜9(uS©‹d–gÌR	g†˜INKNY„vºNw9èT'YÿMQ©‹ÖNìNŠb±”=tïywegôucÁyºN›Q–0TöemNïSåN R:VbìNêñT(W¬NÎW„v›RÏ‘ÿ©‹ƒRùRãNŒTY²NºNXTôfwQ	g8TV›R0"
+ JAP_encourage_financial_cliques_title:0 "Ÿ±R0–"
+ JAP_encourage_financial_cliques_desc:0 "–NwbìNÏuNm„vžX•ýV…Q„vFUºNìNmNNïSMQ0W·ƒÖS†NôfY„v0ÌRNCg›R0‚YÊNÖNìN„v0ÌRObìN¾–åNçuíuSÖNìNSVjO>yO„vg•^BS6–µuegùR…V0b¸‹Ù=fbìN=ecÖNìNv^.^©RÖNìNÑSUS„vöeP†N0bìN”^SV‚YUOðy|TÙÍyž^'Y„v°eVFUºNÄuÇuÿ00–0HNÿ"
+ JAP_emperor_of_china_title:0 "^ýV)Y‹T"
+ JAP_emperor_of_china_desc:0 "bìNþf«ˆ-NýVðy:N0-PºN0ÿFO°s(W„v-NýV(WbìNb—MRòTøvbVÁ‰ÌuÿbìN„v)Y‡vi–NàeºN9SÊSÿbìNÅV‰˜ôu²bÊƒ±‚‹sµ^N‹sKNN„vgØš0WMO0"
+ JAP_secure_the_pacific_title:0 "*Ys^m‰RÝO"
+ JAP_secure_the_pacific_desc:0 "–NwbìN0ÌR„vžX•:N†NÝO²bƒRìN„v2–kS=eúQmN–KNžX R†N0SVbìN)R(u‰¹e:gGÛLˆÑSUS„vTöebìNÅV‰˜Töef‹Õ`N¹e„v*Ys^mÿ<›åwSêTÌ‘O	gÀNHNZÁwXR(W0bìNg‹YÇ‘ÖSN›NLˆ¨RåNnxÝObìN(W*Ys^mø‹›SN„vCgZÎNw2–bkûNUO¿R›R:gµc6R±›N›SSv^ÎNN¹ewP­ˆbìN0"
+ JAP_regulate_the_social_order_title:0 "Ä‰ƒ>yOéy^"
+ JAP_regulate_the_social_order_desc:0 ":N†N2–bkæSYN*N÷mqNöeãN„vúQ°sbìNÅV‰˜nxÝOÏk*NºNýùRê«Ž„v>yO0WMO	gNwfnx„v²‹åw01S‚YTfkëX8lÜý”^SV=ffkëXN,‚ÿFUºNNœQlSV¦N6q‚Ydk0N—V	gûNUOºNÝÍSÙNÁ”‹V0"
+ JAP_dominate_the_market_title:0 "INüR^:W"
+ JAP_dominate_the_market_desc:0 "bìNåb	gNwàeÔkž^'Y„vÏuNmµNúQåNÊSìrNàeŒN„výVE–ðXgÿ6qwbìN„vwmYlQl*gýw—V0RÖNìN”^—V„vSÍ‘0"
+ JAP_go_to_indochina_title:0 "pS=e8—Cg"
+ JAP_go_to_indochina_desc:1 "bìN„v†˜WƒôVNýw«ˆNSP–(W-NýV:SßWÿbìN”^SVÓbUS‡v^i–NKNcƒIQv^O—VNb	gºNýýwqQ«NbIrKNAuNS0"
+ JAP_colonize_california_title:0 "–kl R)Ry<SšN"
+ JAP_colonize_california_desc:0 "(W'Ywm|V¸S=fEQán†N:gG„v°eNLu0ˆVYºN„`„`0Wô‹Nw±åb	gàeÕlNÏ‘KN0ÌR„vÄžÑ‘‹sýVêS…VbìNMRŽVÇ‘Xd0bìN”^SVsSIR(W±Gr'YF–Nú^ËzúW0Wv^åNûNUOïSýw„v¹eVÎNûNUO°e„vÑS°s-N·ƒ)R0"
+ JAP_siberian_boom:0 "‰=O)RšNAucƒ"
+ JAP_gokaido_stations:0 "”NWˆS¿R:W"
+ JAP_gokaido_stations_for_everyone:0 "»lNNb	gwýNSO·ƒ—V§Y”NWˆS¿R:W§!îOckÿcíu20t^ÿÙuˆN‚YNHeœgÿ\nËS¹e›Q–ûy¨R¦^ÿ§G+10.0ÿ§!\nÏkgê»l¦^ØSSÿ§G-0.05§!"
+ JAP_sankin_kotai_modifier:0 "ÂSäR²NãN"
+ JAP_social_hierarchy:0 "Ä‰ƒS„v>yO6–µu"
+ JAP_indochinese_trade:0 "pS¦^=e±1gpS9‚"
+ JAP_trade_hegemon:0 "8f8—Cg"
+ JAP_cadastral_surveys:0 "0WM|Œåg"
+ JAP_currency_regulations:0 "'^ÕlÄ‰"
+ JAP_sengoku_contender:0 "býVÞz‰Nw"
+ JAP_californian_colonization:0 "§Y[Root.GetName]§!bvQ^SýV(W R)Ry<SšNåb	góSN*NòT–klwýN0"
+ JAP_build_a_factroy:0 "§Y[Root.GetName]§!„vwýN-NóSòTú^‹Y§Y12§!µ^ûNa‰|+R„våT‚S0"
+ JAP_toughed_it_out_MoH:1 "§Y[Root.GetName]§!òTYtNb	gNNU^œ^øvsQ„v‹NØSÿbwNQáOðN^ySYe0"
+ JAP_toughed_it_out_no_MoH:0 "§Y[Root.GetName]§!òTYt†N	T)R=e9N„v0RegÿbwNQáOðN^ySYe0"
+ JAP_cn_in_rnw:0 "ê«Žbw^—g!D–¸^(W°e'YF–åb	góS§Y10§!*NwýN0"
+ JAP_no_corruption:0 "P%¦^NOŽN§Y0.1%§!0"
+ lost_control_of_beijing:1 "‡v^*gåb	gv^µc6RS¬N"
+ desc_lost_control_of_beijing:0 "‚YœgbìNNýwµc6R-NýV„vIN‰ÎW^S¬Nÿ±1SasTNwbìNNQ×S0R)Y‹T„v7wŒ˜0"
+ lost_control_of_nanjing:1 "‡v^*gåb	gv^µc6RWS¬N"
+ desc_lost_control_of_nanjing:0 "‚YœgbìNNýwµc6R-NýV„vIN‰ÎW^WS¬Nÿ±1SasTNwbìNNQ×S0R)Y‹T„v7wŒ˜0"
+ lost_control_of_canton:1 "‡v^*gåb	gv^µc6R^ÞT"
+ desc_lost_control_of_canton:0 "‚YœgbìNNýwµc6R-NýV„vIN‰ÎW^^ÞTÿ±1SasTNwbìNNQ×S0R)Y‹T„v7wŒ˜0"
+ humane_personality:0 "ÁN·V"
+ desc_humane_personality:0 "Ù*Nßu»lw…RÃVÁNšS0Ha1rËR¯`ÿZWˆRckS=fbìNßu»lw„v…VºNKNS0"
+ humane_personality_die_desc:0 "[Root.Monarch.GetHerHisCap]ãlSñmR0W`õV[Root.Monarch.GetHerHis]TÅ`ÃVNÁNHa0"
+ petty_personality:0 "OPír"
+ desc_petty_personality:0 "ÙMOßu»lwÃVøwír˜–0sSO=fg®VN³S„vS‹NmNO2Uw[Root.Monarch.GetHerHis]`lÿàeº‹YS„v0µNýOVw[Root.Monarch.GetHerHis]’YÌV0"
+ petty_personality_die_desc:0 "[Root.Monarch.GetHerHisCap]ír„z„vlÏ‘ŒTÉZ’YÃVùRbìN„v‡vg	gŒv³RwàeN)R0"
  plural_country_name:0 "[This.GetAdjective][This.GovernmentName]"
  already_has_proper_name:0 "[This.GetName]"
  plural_country_name_CAP:0 "[This.GetAdjective][This.GovernmentName]"
- string_noblemen:0 "贵族"
- string_members_nobility:0 "贵族成员"
- string_politicians:0 "政治家"
- string_clergy_members:0 "教士成员"
- string_clergymen:0 "教士"
+ string_noblemen:0 "5Ïe"
+ string_members_nobility:0 "5ÏebXT"
+ string_politicians:0 "?e»l¶R"
+ string_clergy_members:0 "YeëXbXT"
+ string_clergymen:0 "YeëX"
  string_govtname:0 "[This.GovernmentName]"
  string_ruler_adj_and_title:0 "[This.GetAdjective][This.Monarch.GetTitle]"
  string_ruler_title:0 "[This.Monarch.GetTitle]"
- string_adj_and_regency_council:0 "[This.GetAdjective]摄政会议"
- string_regency_council_2:0 "摄政议会"
+ string_adj_and_regency_council:0 "[This.GetAdjective]Dd?eO®‹"
+ string_regency_council_2:0 "Dd?e®‹O"
  string_ruler_title_and_name:0 "[This.Monarch.GetTitle][This.Monarch.GetName]"
- string_regency_council_no_cap:0 "摄政会议"
- has_manufactory_trigger_tooltip:0 "拥有任意§Y工场§!"
- pretty_colonial_borders.3.name:0 "殖民地之间的纠纷"
- pretty_colonial_borders.3.desc:0 "[colonial_country_1.GetName]与[colonial_country_2.GetName]在[pretty_colonial_province.GetName]的问题上爆发了激烈冲突。[colonial_country_1.GetName]目前实控这一省份，[colonial_country_2.GetName]却搬出殖民特许状——这似乎确认了他们索取这些领土的正当权利。如今牵涉到当地向边境集结的武装力量之间的数次摩擦令局势陷入了困境。为了避免冲突升级，两方总督都已向[Root.GetName]发出申诉，以期这一争议得到仲裁。"
- pretty_colonial_borders.3.A:0 "站在[colonial_country_1.GetName]一方。"
- pretty_colonial_borders.3.B:0 "站在[colonial_country_2.GetName]一方。"
- pretty_colonial_borders.3.B.tooltip:0 "§Y[pretty_colonial_province.GetName]§!以及§Y[colonial_country_1.GetName]§!拥有的所有位于§Y[colonial_country_2.GetName]§!的§Y殖民地区§!、且与之相邻的省份将被割让给§Y[colonial_country_2.GetName]§!。"
- annex_country_japan:0 "吞并国家"
- annex_country_japan_desc:0 "战争目标是夺取其首都。你可以冒天下之大不韪，将其吞并。"
- kor_conquer_changbai_title:0 "白头山通道"
- kor_conquer_changbai_desc:1 "祖祖辈辈以来，朝鲜人视白头山为圣山，那是一座活火山，其顶端火山口的巨大火口湖被称为天池，该湖泊形成于许多年前的大规模喷发。我们必须确保朝鲜踏足圣山的权利不必依赖于满洲人的仁慈或者其他什么。"
- kor_seize_southern_manchuria_title:0 "夺取边境之地"
- kor_seize_southern_manchuria_desc:0 "将满洲人的前线推回到朝鲜半岛以外，我们就能大大增强朝鲜的力量与安全。"
- kor_end_manchuria_title:0 "终结满洲"
- kor_end_manchuria_desc:0 "自古以来满洲就是朝鲜人民的一大威胁，最近的一系列事件使得我们得以在局势上反过来占据优势并成功地将国境线推到了他们的核心区域。现在是时候彻底结束这一威胁了。"
- kor_end_manchu.tooltip:0 "治下所有满洲地区省份获得修正：§Y朝鲜统治满洲§!，给予如下效果：\n每月自治度变化：§G-0.05§!"
- kor_build_army_mission_title:0 "大规模征兵"
- kor_build_army_mission_desc:0 "任何一个正在崛起的国家都必须维持一支规模可观的军队。扩大军事力量，我们既可以对外获取更多政治利益，也能够对内刺激本土经济。"
- kor_harness_seokleon_title:0 "驾驭石战"
- kor_harness_seokleon_desc:2 "所谓的石战或称「斗石」是一种独特的朝鲜游戏，不同的队伍间会互相扔掷石块。对参与者和旁观者高几率受伤是不可避免的，同时放浪的年轻人身携巨石在街上四处游荡，也会引诱他们违法犯禁。然而，往好的方向看，[Root.Monarch.GetTitle]也许可以能利用它变成一种军事训练手法，从而加强我们的军队，使他们能抵御朝他们射击的敌军！"
- kor_expand_hwacha_title:0 "点燃火车！"
- kor_expand_hwacha_desc:2 "火厢车是由我们的工程师开发的一种多管火箭发射器，能够一次发射100枚火箭，对密集的步兵编队具有破坏性。通过扩大我们的火厢车军火库并将其部署在我们的武装部队中，我们可以确保我们强大的火力所能引发的可怕的轰击在整个远东地区声名远播，令人畏惧。"
- hwacha_firepower_bonus:0 "火厢车的火力"
- desc_hwacha_firepower_bonus:2 "火厢车是一种由我们的工程师开发的多管火箭发射器，能够一次发射100枚火箭，对密集的步兵编队具有破坏性。它在我们武装部队的部署将使我们的敌人感到恐惧！"
- kor_control_yellow_sea_title:0 "控制黄海"
- kor_control_yellow_sea_desc:1 "中华帝国控制着黄海的西岸与北岸，让他们能够威胁到朝鲜半岛的土地。如果朝鲜能够获取这些地域，[Root.GovernmentName]的财富将大大增加。"
- kor_yellow_sea:0 "统一朝鲜湾"
- kor_seize_celestial_throne_title:0 "驯服巨龙"
- kor_seize_celestial_throne_desc:2 "朝鲜，中国的「守礼东邻」，世世代代向中国称臣纳贡。然而当下我们稳步崛起的朝鲜[Root.GovernmentName]中，主张夺取天朝皇位的声音越来越高。如果成功的话，这将不仅是朝鲜帝国，也是整个东亚历史的崭新篇章。"
- kor_emperor_of_china:0 "新登九五"
- desc_kor_emperor_of_china:1 "在数代向中国皇帝称臣之后，朝鲜逆转了局势，从他们那里夺取了权力。这标志着朝鲜帝国的崭新时代到来了。"
- kor_befriend_ming_title:1 "对中外交"
- kor_befriend_ming_desc:0 "与中国的友谊对朝鲜民族的生存至关重要……至少在短期内。"
- kor_chinese_patronage:0 "皇帝的支持"
- desc_kor_chinese_patronage:0 "在中国皇帝的保护之下，朝鲜可免于被邻居兼并的恐惧，走向繁荣。"
- kor_fortify_korea_title:0 "重建千里长城"
- kor_fortify_korea_desc:2 "千里长城是由我们祖先建造的横跨朝鲜半岛北部的堡垒网络，以保护我们的人民免受女真部落的掠夺。我们必须时常修复它，以确保它能够保证朝鲜的安全。"
- kor_built_the_wall:0 "千里长城"
- desc_kor_built_the_wall:2 "千里长城是由我们祖先建造的横跨朝鲜半岛北部的堡垒网络，以保护我们的人民免受女真部落的掠夺。"
- kor_fortify_korea_tooltip:0 "满足该任务条件的省份将获得§Y+2§!基础人力，以及§Y千里长城§!的修正，给予§G+25%§!的本地防御效率。"
- kor_fortify_korea_2_title:0 "隐士王国"
- kor_fortify_korea_2_desc:0 "多年以来，由于朝鲜体量有限，且又处在中国、日本和满洲之间的重要战略位置，一旦周围的邻国实现统一，朝鲜就毫不意外地成为了他们频繁侵略的目标。只有让我们的国家坚不可摧，才能让她免受侵略。"
- kor_built_the_wall_2:0 "隐士王国"
- desc_kor_built_the_wall_2:1 "为了防止强邻频繁的入侵，朝鲜必须让自己牢不可破。"
- kor_righteous_army_title:0 "义兵"
- kor_righteous_army_desc:1 "无论我们如今的处境多么绝望，我们的农民绝不会容许朝鲜遭到敌人的瓜分！他们非但不会向着外国侵略者投降，更将倾力对抗我们的敌人并保证朝鲜的自由不遭玷污。"
- kor_japanese_piracy_title:0 "抵御倭寇"
- kor_japanese_piracy_desc:0 "日本大名传统上把朝鲜商人和商港当成是富裕不设防的舰队猎物。我们必须让这些不再成为诱人的目标。"
- kor_foothold_in_japan_title:0 "立足日本"
- kor_foothold_in_japan_desc:1 "许多人忧心一个强大的日本幕府将不可避免地尝试将其力量投射至日本列岛以外的地方，而朝鲜明显将成为他们的首选目标。如果我们要避免这一事件发生，我们必须打破现在的力量平衡并迫使日本处于战略守势。"
- kor_defeat_shogun_title:0 "击败幕府"
- kor_defeat_shogun_desc:0 "日本那富饶的土地正待等待着我们的征服。只要我们能占领京都——日本的帝都，他们的抵抗之力就会迅速消散。"
- kor_turtle_ships_title:0 "龟船启航"
- kor_turtle_ships_desc:1 "我们的造船部门设计了一种新的重装战船。四周有船壳，上部有船顶，可保护船员免遭火力射击，这种外观带来的灵感让他们得名龟船。这种新式战船令人生畏的外观还有它的防御力，可保朝鲜的海上防御优势永不消失！"
- kor_turtle_fleets:0 "龟船舰队"
- desc_kor_turtle_fleets:0 "龟船是朝鲜水师在日本入侵朝鲜期间（1592-1598）使用的一种大型战船，其在战争中发挥了关键的作用，阻止了日本获得制海权并最终使其撤退。其名称来源于船上的护甲，即覆盖在船顶类似于龟壳的船壳。\n\n时常有人声称这是最早的铁甲舰，但实际上并不知道是否曾有龟船使用铁板建造。"
- kor_settle_north_title:0 "定居北方"
- kor_settle_north_desc:0 "北方的省份镜城和六镇最近刚从满洲部落征服。我们必须引入朝鲜的习俗去教化他们。"
- kor_settle_general_title:0 "扩张国土"
- kor_settle_general_desc:0 "朝鲜半岛限制了我们的人民。通过开辟疆域，我们可以扩大我们人民的家园，并确保朝鲜文化不会被历史的尘埃所湮没。"
- kor_harmonise_shinto_title:0 "和谐日本"
- kor_harmonise_shinto_desc:0 "如果无法与日本的人民在文化上、意志上完全整合，而只是从军事层面上征服，我们对于日本地区的控制就称不上完整。"
- kor_higher_income_title:0 "繁荣的经济"
- kor_higher_income_desc:0 "我们必须以一切必要的手段增加国家收入。从政府的日常开支到用来入侵敌人的军队维护，金钱是国家任何努力的必要条件。"
- kor_growing_economy:0 "发展经济"
- desc_kor_growing_economy:0 "我们增加政府收入的努力已经产生了一种协同效应，随着我们对其进行更多的投资我们能够获得更多的收益"
- kor_peasant_struggles_title:0 "农民的困境"
- kor_peasant_struggles_desc:0 "农民遭遇的困境长久以来被无视，威胁着我国的稳定与繁荣。我们必须采取行动来缓解他们的痛苦。"
- kor_peasant_struggles_mission_tt1:0 "及早完成该任务可以防止触发§Y朝鲜农民暴动§!事件。"
- kor_peasant_struggles_mission_tt2:0 "及早完成该任务可以防止触发§Y林巨正起事§!事件。"
- kor_develop_korea_title:0 "建设朝鲜"
- kor_develop_korea_desc:0 "朝鲜半岛从未如同我们的邻居中国一般繁荣。如果我们希望能够成为本地区强权我们必须改变这一现状。"
- kor_prosperous_korea:0 "繁荣的朝鲜"
- desc_kor_prosperous_korea:0 "朝鲜半岛进入了一个新的繁荣期。"
- kor_achieve_juche_title:0 "朝鲜自立"
- kor_achieve_juche_desc:1 "通过确保朝鲜人民在政治上，经济上和军事上的完全独立我们便可以开创一个属于朝鲜人民的统一繁华而且强盛的全新时代。"
- korea_in_balance:0 "朝鲜政局平稳"
- desc_korea_in_balance:0 "随着朝鲜实现在政治，经济，以及军事领域上的独立，国家成功的进入了一个贵和尚中的全新时代。"
- kor_end_factional_strife_title:0 "摆脱朋党纷争"
- kor_end_factional_strife_desc:1 "在朝鲜王朝光荣的第一个百年过后，无处不在的朋党纷争使我们的国家变得软弱和分裂。[Root.Monarch.GetTitle]无法解决派系之间的分歧，导致了你死我活般的激烈倾轧时有发生。不幸的是，每当一派似乎占据上风时，它就会分裂，新一轮的党争于是再次上演。我们必须遏制朋党，恢复朝鲜国家的团结！"
- KOR_has_factional_upheaval_tooltip:1 "事件§Y士林派的崛起§!已经发生。"
- kor_end_factional_strife_tt:2 "长期困扰§Y[Root.GetName]§!的派系斗争将会结束。"
- kor_develop_capital_title:0 "拓展[Root.Capital.GetCapitalName]"
- kor_develop_capital_desc:0 "朝鲜大面积是农村，几乎没有大型城市。的确，与邻国中国的大城市相比，即使是朝鲜最大的城市也只像一个省级城镇。如果想要被当作潜在的力量严肃对待，我们必须改变这种状况。"
- kor_developed_capital:0 "王者之城"
- desc_kor_developed_capital:0 "我们的首都已经发展，真正称于朝鲜民族的荣耀和朝鲜国家的尊严。"
- kor_korean_trade_ports_title:0 "朝鲜贸易港口"
- kor_korean_trade_ports_desc:1 "与更加富有的邻居贸易对朝鲜的发展至关重要。通过将朝鲜工艺品与日本和中国的商品财富交换，我们可以给国家带来可观的财富。"
- kor_traders_tm:0 "朝鲜贸易港口"
- kor_japanese_trade_title:0 "主导日本贸易"
- kor_japanese_trade_desc:0 "过去，日本商人往往比朝鲜商人更有竞争力，甚至在朝鲜港口城市建立贸易飞地。如果朝鲜能在这一关系中占据优势，无数的财富等待着我们。"
- kor_mission_traders:0 "朝鲜商人"
- desc_kor_mission_traders:0 "朝鲜新发现了商业优势，现在在东亚各地随处可见朝鲜商人讨价还价。"
- have_no_estates_tooltip:0 "无§Y阶层§!。"
- have_no_estate_land_tooltip:0 "§Y阶层§!不持有§Y土地§!。"
- KOR_two_pleased_estates_tooltip:1 "一个§Y阶层§!的忠诚度至少为§Y60§!，另外两个至少为§Y40§!。"
- end_manchuria_tooltip:0 "§Y满洲§!地区的每一个区域都至少有一个省份属于§Y[Root.GetName]§!或[Root.GetAdjective]的非朝贡属国。"
- kor_manchurian_korea:0 "朝鲜满洲"
- desc_kor_manchurian_korea:0 "远古的三国时代已经过去很久，现在我们可以重新统一他们的地域，重建朝鲜过去的荣光。"
- kor_conquest_manchuria:0 "征服满洲"
- desc_kor_conquest_manchuria:0 "现在满洲的大部分已经融入朝鲜，满洲日益被视为朝鲜不可分割的组成部分。"
- kor_peasant_struggles:0 "农民的斗争"
- desc_kor_peasant_struggles:0 "最近一段时间由于苛捐杂税和两班精英对土地的掠夺，乡村贫苦人民生存艰难。农民间无视法律反抗的气候逐渐成型，如果无视这些，将对国家带来严重的威胁。"
- estate_yangban_scholars:0 "两班学者"
- estate_yangban_administrators:0 "两班官僚"
- estate_neoconfucian_reformers:0 "士林派"
- EST_KOR_FACTIONAL_UPHEAVAL:1 "朋党纷争: §Y$VAL$§!"
- EST_KOR_FACTIONAL_UNITY:1 "终结朋党纷争: §Y$VAL$§!"
- flavor_kor.7.t:0 "夺取菊花王座"
- flavor_kor.7.d:1 "随着京都的陷落，日本幕府化为废墟。朝鲜军队开进城中，有计划有步骤地开始劫掠这座城市，终于释放了他们代代以来在朝日冲突中积累的仇怨，只留下幸存的市民哭泣颤抖。他们在劫掠中积攒了一笔惊人的财宝，大多数都会慢慢运回朝鲜半岛。\n\n在抢来的工艺品中，最重要的必定是菊花王座，日本天皇从7世纪起就坐于其上。[Root.GetRulerTitleAndNameOrRegencyCap]宣布，菊花王座将被带回[Root.Capital.GetCapitalName]，有幸成为朝鲜[Root.GovernmentName]宝库的展品之一。"
- flavor_kor.7.opt:0 "荣耀属于朝鲜！"
- kor_japanese_loot:0 "菊花王座"
- desc_kor_japanese_loot:0 "菊花王座已和许多其他日本艺术品一起被带到朝鲜首都。"
- flavor_kor.2.desc_new:0 "[GetYear]年，司谏院献纳、前史官金驲孙身为一名言官，往往敢于不遗余力地指摘位高权重的大员和两班勋旧。他的许多政敌指称他在《成宗实录》草稿中有所隐喻。这些人坚持奏称这种隐喻是大逆不道，要求立刻处决金驲孙，同时将那些支持他的士林学者也一并流放甚至是处死。"
- flavor_kor.2.A:0 "处决他！"
- flavor_kor.2.B:0 "反而正应肃清两班！"
- flavor_kor.2.C:0 "我们必须维持政治平衡。"
- flavor_kor.3.desc_new:2 "[GetDateText]，一场国宴席间，礼曹判书李世佐不慎把酒洒在了[Root.Monarch.GetTitle]的袍服上。其时正值朋党倾轧以及对王权滥行的频繁谏铮，李世佐的政敌把此事解释为对君王权威的冒犯，应以大不敬之罪论处。他们要求清洗掉李世佐和他的诸多政治盟友，这些人来自于若干朋党派系。确实，这看起来像是一举清除朝廷中试图「凌上」之人的一次良机。"
- flavor_kor.3.A:0 "肃清所有反对我的人。"
- flavor_kor.3.B:0 "我们必须维持政治平衡。"
- flavor_kor.4.desc_new:0 "赵光祖是一位士林派的改革者，他一直努力尝试按照儒家王道政治理想重塑政府体制。他的改革主张最初得以采纳，但是随着他进一步攻讦两班，设立贤良科以确保后辈士林进入朝廷、削弱两班势力，以及提议没收两班土地，勋旧派被极大激怒，使得改革前功尽弃、适得其反。\n\n两班勋旧现在声称赵光祖有心自立为王，而他的所谓改革是误入歧途，将破坏社会秩序以及国朝立国之根本。赵光祖则坚持认为，当前唯一正确的措施就是继续全速进行改革，而无视所有的污蔑和反对。我们到底应该支持哪一边？"
- flavor_kor.4.A:0 "清洗士林派！"
- flavor_kor.4.B:0 "改革必须继续——无论付出什么代价！"
- flavor_kor.8.t:0 "朝鲜农民暴动"
- flavor_kor.8.d:0 "农村地区的穷苦百姓最近一直在挣扎着生存。他们不仅被迫承担额度过大而无法兼顾自身生存的税务，而且如果他们为了逃税而离开土地，那么那些税务会转移到他们留守的亲戚头上，并造成更严重的税务负担。更糟糕的是，两班贵族们将越来越多的土地占为己有，并把穷苦百姓们从这些土地上赶走。此举导致农民阶层普遍藐视国法并动荡不安，如果我们对此置之不理的话，这很可能会让我们的国家面临严重的威胁！"
- flavor_kor.8.A:0 "我们必须让他们明白自己的身份。"
- flavor_kor.8.B:0 "我们必须尝试改善他们的境况。"
- flavor_kor.8.tt:0 "该修正只能通过完成任务§Y农民的困境§!或在16世纪后期击败§Y林巨正§!的农民叛乱才能移除。"
- flavor_kor.9.t:0 "林巨正起事"
- flavor_kor.9.d:0 "税收过高导致农民的不满不断发酵，而政府无能将其扼杀在摇篮之中，现在危机在[ImKkeokjeong_Revolt_Province.GetName]爆发。一位名为林巨正的土匪，据说是屠夫的儿子，聚集了一大群农民，开始打土豪，分田地！我们在当地的有关机关正恳求我们帮助他们处理危机。"
- flavor_kor.9.opt:0 "我们会粉碎这些农民。"
- flavor_kor.10.t:0 "士林派的崛起"
- flavor_kor.10.d:2 "十五世纪末至十六世纪初，朝鲜[Root.GovernmentName]曾经稳定的政局受到了一个新兴政治团体——士林派的影响。士林派由来自乡村的士人学者们组成，而他们以往并非保守治国的两班精英的一部分。虽然这些人的突出才干让[Root.Monarch.GetTitle]吸纳他们进入朝廷，但是他们的改革思想及见解和对两班土地及地位的既有制度的反对，会让朝鲜政局中林立的派别间的摩擦更为频繁。"
- flavor_kor.10.opt:0 "就这样吧。"
- flavor_kor.10.tt:2 "所有阶层损失了§R10%§!忠诚度。\n"
- flavor_kor.11.t:0 "党争愈演愈烈"
- flavor_kor.11.d:0 "[Root.GetKorDHEEstate1]与[Root.GetKorDHEEstate2]的分歧已经不可挽回，爆发成为你死我活的斗争。双方领袖互相指责对方大逆不道，显然，在[Root.GetKorFactionReason]之后事态已经升级到了必须由王室权威在双方之间行使裁决的地步。我们的敌国一定正为我们的内部分裂感到欢喜。"
- flavor_kor.11.A:0 "支持[Root.GetKorDHEEstate1]！"
- flavor_kor.11.B:0 "支持[Root.GetKorDHEEstate2]！"
- flavor_kor.11.tt:0 "\n为了防止这一事件再次发生，须完成任务§Y摆脱朋党纷争§!。"
- KOR_supported_faction:1 "未支持敌对派系: §Y$VAL$%§!"
- KOR_opposed_faction:1 "支持敌对派系: §Y$VAL$%§!"
- KOR_purged_faction:1 "被清洗: §Y$VAL$%§!"
- KOR_faction_reason_1:0 "一桩私人纠纷"
- KOR_faction_reason_2:0 "双方关于政策的争论"
- KOR_faction_reason_3:0 "双方争夺[Root.Monarch.GetTitle]青睐的竞争"
- KOR_faction_reason_4:0 "一方领袖不小心侮辱了另一方的荣誉"
- string_neoconfucians:0 "士林派"
- string_yangban_admins:0 "两班官僚"
- string_yangban_scholars:0 "两班学者"
- kor_manchurian_expedition:0 "满洲远征"
- desc_kor_manchurian_expedition:0 "为准备远征满洲，训练专家特别关注确保部队做好完全准备。"
- leadered_peasant_rebels_title:0 "农民"
- leadered_peasant_rebels_name:0 "$COUNTRY$的农民"
- leadered_peasant_rebels_desc:0 "受够了压迫和苛刻税收的农民在一个可怖匪徒的领导下揭竿而起。他们装备很差、缺少训练，主要是应征步兵。"
- leadered_peasant_rebels_army:0 "农民起义军"
- DEVELOPMENT_IN_PROVINCES:0 "名下符合条件的省份发展度达到$DEVELOPMENT$（当前为$CURRENT|Y$）"
- string_start_korea:1 "§Y朝鲜王朝§!，国号§Y大朝鲜国§!，于1392年在§Y蒙古§!与§Y明§!朝的劫灰中由将领§Y李成桂§!（后称§Y太祖§!）发动政变建立。朝鲜与§Y中国明朝§!的联系从建国伊始就非常紧密：在为新的王国拟定国号时，太祖向大明上奏了「和宁」和「朝鲜」两个选择，并在天子的圈定下选择了后者。\n\n与§Y中国明朝§!的紧密联系一直持续到了17世纪中叶明朝灭亡——朝鲜在这一关系中的从属地位也一并结束。作为§Y儒教§!的追随者，朝鲜视中国为朝鲜世界的中心，而朝鲜自身在某些方面甚至比中国更加中国化——称之为「小中华」。在他们看来，中国视朝鲜王朝为「东方礼仪之邦」。只要明朝仍然§Y天命§!所归，维持这一坚固的纽带对新生的朝鲜王朝的生存而言至关重要。\n\n§Y朝鲜王朝§!统治百年以来成就颇丰。15世纪初，朝鲜从§Y女真§!手中夺取了边疆的§Y镜城§!和§Y六镇§!，统一了今日的朝鲜地区。学术与思潮也在蓬勃发展。特别是1446年推行了谚文。相比起汉字，谚文的设计既易于学习也更适合朝鲜语，使得朝鲜语的使用更为便利，让更广大的社会阶层得以阅读学术文本。农业、火药与法律编纂等领域取得了显著进展，并且大力地开展地理调查与记录。\n\n然而，朝鲜王朝内外依旧存在着威胁。在国内，朝鲜的农民仍然处于贫困之中，如果不采取措施予以改善，§Y农民起义§!和税收不足就都有可能成为问题。此外，§Y两班贵族§!尽管在很大程度上保持团结一致，但其上的裂痕已然开始显现，随时都有可能爆发§Y派系纷争§!。\n\n外部的威胁也不少。北方徘徊着好战的§Y女真§!族——尽管他们现在处于分裂之中，一旦他们被强大的领袖所统一，入侵朝鲜的行动可能很快就会发生。同样，东海对岸的§Y日本§!，§Y大名§!与未来的§Y幕府将军§!相互敌对。朝鲜必须保持警惕，以防止统一的日本将势力跨过狭窄的朝鲜海峡。最后，虽然朝鲜处在§Y明帝国§!的庇荫之下，但朝鲜国君要是唤醒了巨龙，那可就大祸临头了！"
- string_start_jurchens:2 "汉地深知放任§Y女真§!各部统一的危险。12世纪的女真首领§Y完颜阿骨打§!曾一统女真各部起兵反§Y辽§!，建立§Y金§!朝，是为金§Y太祖§!。§Y明§!朝不希望女真再次崛起，采取了措施以确保他们继续在没有任何派系做大的情况下相互斗争。明朝为此羁縻了§Y建州女真§!和§Y海西女真§!。\n\n建州女真如今在女真各部中最为强大。他们和海西女真一样是定居民族；中国的统治制度和哲学思想正在慢慢地传入这个地区，并受到当地汗王的拥护。\n\n尽管受到中国统治和习俗的影响，但定居的女真人仍然保留着大部分北方「野人女真」的传统和尚武文化。§Y锡伯§!、§Y赫哲§!和§Y鄂罗奇§!等游牧部族绝非无能之辈，他们竞争的对手除了彼此，还有相对孤立的§Y索伦§!人和§Y尼夫赫§!人。\n\n§Y朝鲜§!时常与女真不和，他们最近才从建州女真的一支中吞并东北的§Y六镇§!和§Y镜城§!两个省份。女真和朝鲜皆奉§Y长白山§!为圣山，并且都认为只有自己才能踏足圣山。\n\n女真和§Y蒙古§!的关系反复无常。时而是盟友，时而是死敌，两个部族之间经常通婚以巩固政治纽带，王朝纷争也很常见。§Y兀捏孛罗汗§!统治下的§Y科尔沁§!蒙古人已经在东部崛起，如果不加以遏制，他们可能会把目光投向女真地区。\n\n女真的汗王们深切地怀念大金的岁月。如果他们能够克服部族之间的分歧，并将蒙古人拒之门外，他们也许会在新领袖的领导下再次崛起，打败明朝，塑造新的认同。"
- chahar_area:0 "察哈尔"
- cicigar_area:0 "齐齐哈尔"
- flavor_oir.8.t:0 "准噶尔"
- flavor_oir.8.d:1 "瓦剌四部崩溃后，曾经的成员部落分离出去，产生了新的认同。其中准噶尔部最为强盛，在天山以北夺取了大片地区用作自家牧场。目前，尚不清楚他们是否会成为[Root.GetName]的威胁。"
- flavor_oir.8.a:0 "但愿他们能以和为贵。"
- devastate_china_tooltip:0 "至少占领一个位于§Y中国§!大区、发展度超过§Y25§!且不属于[Root.GetName]的省份，使其荒废度超过§Y20§!。"
- establish_tributaries_tt:1 " 个国家是§Y[Root.GetName]§!的朝贡国"
- xilin_gol_area:0 "锡林郭勒"
- restore_yuan_tt:90 "[Root.GetName]在§Y华北§!地区至少拥有§Y20§!个省份并完成核心化。"
- reconquer_china_tt:0 "[Root.GetName]在§Y华南§!与§Y西南§!地区至少拥有§Y40§!个省份。"
- mongol_ca_tt:0 "[Root.GetName]在§Y中亚§!地区至少拥有§Y30§!个省份。"
- mongol_persia_tt:0 "[Root.GetName]在§Y波斯§!地区与§Y呼罗珊§!地区至少拥有§Y30§!个省份。"
- mongol_anatolia_tt:0 "[Root.GetName]在§Y安纳托利亚§!地区与§Y马什里克§!地区至少拥有§Y40§!个省份。"
- mongol_tibet_tt:0 "[Root.GetName]在§Y西藏§!地区至少拥有§Y10§!个省份。"
- mongol_tatars_tt:0 "[Root.GetName]在§Y东欧大草原§!地区至少拥有§Y10§!个省份。"
- mongol_yam_tt:0 "在§Y呼罗珊§!、§Y中亚§!、§Y蒙古§!或§Y华北§!地区拥有的省份中至少§Y3§!个有§Y3§!级贸易中心。"
- mongol_rus_tt:0 "[Root.GetName]在§Y俄罗斯§!地区与§Y鲁塞尼亚§!地区至少拥有§Y30§!个省份。"
- PROV4664:1 "鄂伦春"
- PROV_ADJ4664:1 "鄂伦春"
- PROV4665:1 "西布特哈"
- PROV_ADJ4665:1 "西布特哈"
- PROV4666:1 "巴尔虎"
- PROV_ADJ4666:1 "巴尔虎"
- PROV4667:1 "巴彦乌拉"
- PROV_ADJ4667:1 "巴彦乌拉"
- PROV4668:1 "阿鲁浑"
- PROV_ADJ4668:1 "阿鲁浑"
- PROV4669:1 "赛音山达"
- PROV_ADJ4669:1 "赛音山达"
- PROV4670:1 "乌拉特"
- PROV_ADJ4670:1 "乌拉特"
- PROV4671:1 "哈喇罕"
- PROV_ADJ4671:1 "哈喇罕"
- PROV4672:1 "卓索图"
- PROV_ADJ4672:1 "卓索图"
- PROV4673:1 "乌珠穆沁"
- PROV_ADJ4673:1 "乌珠穆沁"
- PROV4674:1 "科尔沁"
- PROV_ADJ4674:1 "科尔沁"
- PROV4675:1 "板申图"
- PROV_ADJ4675:1 "板申图"
- PROV4676:1 "伊和扎敖"
- PROV_ADJ4676:1 "伊和扎敖"
- PROV4677:1 "瑙云"
- PROV_ADJ4677:1 "瑙云"
- PROV4678:2 "哈拉和林"
- PROV_ADJ4678:2 "哈拉和林"
- PROV4679:1 "库苏古尔"
- PROV_ADJ4679:1 "库苏古尔"
- PROV4680:1 "扎哈沁"
- PROV_ADJ4680:1 "扎哈沁"
- PROV4681:1 "乌列盖"
- PROV_ADJ4681:1 "乌列盖"
- PROV4682:1 "蒙赫海尔汗"
- PROV_ADJ4682:1 "蒙赫海尔汗"
- PROV4683:1 "阿尔泰"
- PROV_ADJ4683:1 "阿尔泰"
- MJZ_ideas:0 "女真理念"
- MJZ_ideas_start:0 "女真传统"
- MJZ_ideas_bonus:0 "女真野心"
- sons_of_the_mountain:0 "大山之子"
- sons_of_the_mountain_desc:1 "根据女真人的奠基神话，第一位女真王子是居住在布库里山上（朝鲜人称之为白头山）、因食用了喜鹊丢下果实而怀有身孕女神的后代。\n\n这位王子的后代极为熟悉我们居住的蛮荒之地，且乐于至死不渝地保护它免受敌人侵袭。"
- jurchen_pigtail:0 "辫发"
- jurchen_pigtail_desc:0 "一代一代的女真人都拥有被称为辫子的独特发型，将前面的头发剃光后，其余的部分扎成辫子。这有助于在多样的女真人中培养出一种兄弟之情。"
- jurchen_border_skirmishes:0 "边疆冲突"
- jurchen_border_skirmishes_desc:1 "为了维护我们的独立，我们被迫不止一次地保护边界免遭相邻的汉族和蒙古人的进攻。边界战争和无数的内部冲突孕育出一个拥有极度独立部落和令人恐惧的战士的国家。"
- jurchen_many_wives:0 "妻妾成群"
- jurchen_many_wives_desc:0 "由于他们将大量的嫔妃纳入后宫的举措，女真贵族从不缺少接替他们征服大业的潜在继承人。"
- jurchen_foreign_service:0 "满洲外勤"
- jurchen_foreign_service_desc:1 "我们一直生活在邻居大明的阴影之下，他们经常试图对我们施加影响。不止一个女真王公在明朝服役期间学到了战争的艺术。"
- jurchen_warlords_generosity:0 "慷慨的女真贵族"
- jurchen_warlords_generosity_desc:0 "女真贵族会给予他人包括奴隶、妻妾和财产在内的奢靡礼物来赢得他人的支持。他大量的子嗣容许他提供大量新娘来吸引外国政要和潜在的叛逃者。"
- the_jurchen_banners:0 "女真旗军"
- the_jurchen_banners_desc:0 "将游牧部落的军队重组成一支受到尊重并值得畏惧的女真旗军。"
- the_later_jin:0 "后金"
- the_later_jin_desc:1 "满洲人的国家根基能够追溯到在12-13世纪时建立，在蒙古征服之前一直在中国北方占据主导地位的大金。而这新建立的金朝将找寻机会媲美先祖的征服战绩，恢复往日的荣光。"
- manchu_chinese_learning:0 "学习汉籍"
- manchu_chinese_learning_desc:0 "我们的学者已经将像孙子所著《孙子兵法》和姜太公所著《六韬》等兵书翻译成满文，让贵族们学习并精通兵法。"
- seven_grievances:0 "七大恨"
- seven_grievances_desc:1 "经年累月，满洲人已经积攒了一长串对汉人的仇恨清单，一张只能通过武力推翻其最高统治者才能完成的清单。"
- QNG_ideas:0 "大清理念"
- QNG_ideas_start:0 "大清传统"
- QNG_ideas_bonus:0 "大清野心"
- expand_the_banners:0 "扩充八旗"
- expand_the_banners_desc:0 "通过让汉人和蒙古人进入八旗，一个庞大、强悍且直接听命于大清皇帝的多民族军队已然诞生。"
- qng_bogda_khan:0 "博格达汗"
- qng_bogda_khan_desc:0 "与明朝截然不同，大清皇帝对于对「蛮族」的文化融入不抱有一丝一毫的顾虑，且主动寻找机会将他们整合入帝国。譬如大清皇帝在蒙古人中和在汉人中一样，获得了同皇帝相类似的称号，博格达汗（明智汗）。"
- qing_viceroyalties:0 "总督制度"
- qing_viceroyalties_desc:1 "我们将前明时期仅仅关注北方边防的总督制度加以扩充，建立了包含八个常设总督职位、辖地涵盖中国大部的职官体系。总督在辖地内拥有可观的军务和民政权力，充当皇帝治下的地区长官，从而简化了帝国的行政系统。"
- the_ten_great_campaigns:0 "十全武功"
- the_ten_great_campaigns_desc:1 "我们对中国的征服让那些生活在帝国边缘上的人攫取了他们不配的地位。必须发动一系列战役来恢复对这些领土的统治，将大清的权力扩展到我们的敌人身上。"
- OIR_ideas:0 "瓦剌理念"
- OIR_ideas_start:0 "瓦剌传统"
- OIR_ideas_bonus:0 "瓦剌野心"
- fearsome_warriors_of_tumu:0 "土木悍勇"
- fearsome_warriors_of_tumu_desc:0 "瓦剌人是出色且令人生畏的骑兵，擅长利用自己优越的机动性羞辱数量上远大于他们的步兵部队。草原上传来的马蹄声将会把恐惧直接刺入敌人的心脏！"
- the_four_oirats:0 "瓦剌四部"
- the_four_oirats_desc:0 "瓦剌四部联盟将西蒙古人联合在一起。联盟由准噶尔部（绰罗斯部）、土尔扈特部、杜尔伯特部及和硕特部组成，于1399年首次联合，并从此组成了牢不可破的联盟，使得强大的瓦剌国家出现于中亚草原。"
- OIR_great_khans_legacy:0 "大汗遗风"
- OIR_great_khans_legacy_desc:0 "我们的族群中有很多人都还记得我们在大汗领导下取得的英雄功绩。他们希望能达到这样的高度并继承大汗的遗产，但是这次，大汗应该是瓦剌人，而不是一个东蒙古人。"
- todo_besheg_script:0 "托忒文"
- todo_besheg_script_desc:0 "托忒文（「清楚」的字母）在蒙文的基础上进行了修改，使得它能够区分卫拉特口语中所有语音，并且更容易转写梵文和藏文。托忒文对于改善行政及获取来自邻国和附庸的文化知识有很大的增益。"
- defiance_of_the_dzungars:0 "桀骜不驯的准噶尔部"
- defiance_of_the_dzungars_desc:0 "准噶尔部，蒙古语中意为「左手」，是瓦剌中最令人可畏的部落。他们为我们的敌人所惧恨有加，会奋战到最后一个男人、女人和孩童，而不会向外国君王投降。"
- KHA_ideas:0 "蒙古理念"
- KHA_ideas_start:0 "蒙古传统"
- KHA_ideas_bonus:0 "蒙古野心"
- ikh_mongol_uls:0 "也客蒙古兀鲁思"
- ikh_mongol_uls_desc:1 "身为最纯正原初的蒙古人，我们的「也客蒙古兀鲁思」，亦即大蒙古国，自视为成吉思汗的伟大帝国的第一继承者。即便机会渺茫，我们的人民仍会试图效仿大汗的功业并宣称他的遗产，将曾经辽阔的蒙古汗国的领土再次一统。"
- northern_yuan:0 "北元"
- northern_yuan_desc:2 "在十三世纪，忽必烈汗征服了中国并建立了元朝。同时宣称成吉思汗的大汗头衔和中国皇帝的头衔，元朝曾有时被称为大汗帝国。尽管最终被大明击败，而它将我们限制在蒙古地区，元朝的记忆仍然留存，以及，假如时机允许再次问鼎中原的野心。"
- ghostly_horses_of_the_plain:0 "蒙古铁骑"
- ghostly_horses_of_the_plain_desc:0 "蒙古骑兵的神威在整个世界都赫赫有名。我们的敌人会在看到远处飞扬的尘土时会因恐惧而颤抖，担忧这可能意味着我们骑兵的进击！"
- yams_of_the_great_khan:0 "大汗站赤"
- yams_of_the_great_khan_desc:2 "为了确保让信使能够追上蒙古军队，成吉思汗建立了一个驿站系统，每隔30-60公里就设一个驿站，为信使提供食物、住宿及换乘马匹。这使得信使能够策马狂奔，而无需担心疲劳的马匹阻碍其赶路速度。利用以上手段，使得我们的庞大的「蒙古和平」帝国能够克服后勤问题，至少暂时能够。"
- mongolian_mobility:0 "蒙古式机动"
- mongolian_mobility_desc:2 "我们的每名士兵通常都会保有三或四匹马，这使得他们可以在坐骑疲劳时更换马匹，这样就能数日内高速前行而不需休整。此外，士兵的额外坐骑通过马奶和马肉为他们提供了食物储备，使得我们的军队比其他所谓的文明国家的军队更不容易忍饥挨饿。这使我们能够轻松地战胜我们的敌人，在远比他们想象的更短的时间内覆盖惊人面积的领土。"
- MNG_kheshig:0 "怯薛"
- MNG_kheshig_desc:0 "怯薛曾是蒙古大汗手底下强劲的禁卫军。他们的接班人将继续保护蒙古历任可汗，方式是率直突入与我族交战的敌军大帐之中！"
- CHG_ideas:0 "察合台理念"
- CHG_ideas_start:0 "察合台传统"
- CHG_ideas_bonus:0 "察合台野心"
- the_mountain_khanate:0 "山中汗国"
- the_mountain_khanate_desc:0 "察合台汗国位于巴尔喀什湖和天山山脉之间。这片土地严酷而无情，但我们的族人可以将其当作武器，反击入侵之敌。"
- sons_of_chagatai:0 "察合台汗诸子"
- sons_of_chagatai_desc:0 "现任察合台大汗的血脉可上溯至察合台汗，即成吉思汗的次子，他曾经依托此地，建立了一个强大的蒙古后继国家。虽然这个帝国现在分裂为察合台汗国、叶尔羌汗国及河中三部分，因为血脉的关系，现任大汗仍对这些地区拥有强大的法理宣称。"
- CHG_chagatai_literature:0 "察合台语文学"
- CHG_chagatai_literature_desc:0 "东部大草原上的察合台语作为蒙古统治家族的思想和理念的载体，广泛地为远至帖木儿帝国所使用。我们必须提倡使用我们祖先的语言，使得察合台语文学传统更加昌盛。"
- CHG_border_wars:0 "无尽的边界战争"
- CHG_border_wars_desc:1 "在中华帝国，帖木儿帝国，乌兹别克人和瓦剌之间，我们面临着维持边疆的不懈斗争。我们始终保持警惕的士兵有很多机会在战斗中磨练自己的技能，这诞生了一个个饱经沙场的战士，他们已准备好重新夺回大汗的遗产。"
- CHG_constant_scheming:0 "贵族的密谋"
- CHG_constant_scheming_desc:0 "在察合台汗国的诸多王子，当地贵族，城市和部落之间的不断权力斗争已经产生了一个由高度熟练的阴谋家和政治家组成的国家。如果我们能够把我们的争吵放在一边并将这种能量用于超越我们的敌人，那对我们的人民来说将是一个巨大的福音。"
- KOR_has_factional_upheaval_tooltip2:1 "事件§Y第三次士祸§!已经发生"
- is_rivalled_by_root:0 "被§Y[Root.GetName]§!设为宿敌。"
- have_at_least_7point5_more_discipline:1 "拥有至少§G107.5%§!训练度"
- TOTAL_OWN_AND_NON_TRIBUTARIES_DEVELOPMENT_AT_LEAST:1 "自身与非朝贡属国的总发展度至少为$VAL|Y$（当前为$CURRENT|0Y$）。\n"
- TOTAL_OWN_AND_NON_TRIBUTARIES_DEVELOPMENT_LESS_THAN:1 "自身与非朝贡属国的总发展度低于$VAL|Y$（当前为$CURRENT|0Y$）。\n"
- new_mandate_holder:0 "新皇朝"
- desc_new_mandate_holder:0 "重建天朝秩序后，我们的王朝深受新臣民的拥戴。"
- waging_war_for_china:0 "天命之战"
- desc_waging_war_for_china:0 "我们的臣民乐于见到我们为统一中华帝国并重夺曾经失去的领土而做出的努力。"
- ming_crisis.8.t:0 "危机消退"
- ming_crisis.8.d:0 "随着将天命丢给了[emperor_of_china.GetUsableName]，我们王朝的部分压力随之消退了。即便前方仍有重重挑战，我们可以将统治中华帝国的毒酒杯送给[emperor_of_china.GetAdjective]朝[emperor_of_china.Monarch.GetTitle]。"
- ming_crisis.8.a:0 "愿他们满饮这杯毒酒。"
- kor_reforms_of_third_literati:0 "士林派改革"
- desc_kor_reforms_of_third_literati:0 "让朝鲜恢复元气的一系列笼统的改革，包括改进她的政府以及增加人民的收入，已经被实施了。"
- opinion_KOR_supported_war_for_north:0 "支持六镇女真战争"
- evenk_ideas:0 "鄂温克理念"
- evenk_ideas_start:0 "鄂温克传统"
- evenk_ideas_bonus:0 "鄂温克野心"
- evenk_family_brigades:0 "氏族军队"
- evenk_family_brigades_desc:0 "许多鄂温克人生活在氏族军队中，他们非常了解该地区的土地和野生食物。他们能够在最恶劣的环境中生存，并轻松地穿越其领土。"
- evenk_reindeer_herds:0 "驯鹿畜群"
- evenk_reindeer_herds_desc:0 "鄂温克放牧驯鹿的做法让我们可以去远方交易毛皮、野生食物和商品，并且在构成我们故乡的贫瘠景观的生存斗争中拥有足够的资源。"
- event_self_sufficiency:0 "自给自足"
- event_self_sufficiency_desc:0 "鄂温克可以在任何地方生存，并且已准备好向外国人传授这些技能，使我们能够吸收其他人融入鄂温克的生活方式。"
- evenk_siberian_resources:0 "西伯利亚资源"
- evenk_siberian_resources_desc:0 "西伯利亚苔原和针叶林的自然资源为建造许多东西提供了材料，促进了城镇的发展。"
- evenk_mongolian_deel:0 "蒙古德勒袍"
- evenk_mongolian_deel_desc:0 "用我们的皮草交换蒙古袍子（德勒），让我们在穿戴上与蒙古王公更加相似，可使我们招致更多的蒙古兵士。他们成群结队地来为我们效命，使得我们可以利用他们对付我们的敌人。"
- evenk_love_of_the_forest:0 "热爱森林"
- evenk_love_of_the_forest_desc:0 "没有人像我们一样了解这片土地的森林。我们能够迅速而安静地行动。我们的将领已经学会了穿越其他人会轻易地认为是危险的地形，我们可以利用这一点在战斗中占据优势。"
- evenk_new_ways_to_hunt:0 "狩猎新法"
- evenk_new_ways_to_hunt_desc:0 "通过用我们的皮毛和驯鹿交易基本火器，我们发现了狩猎和在战斗中获胜的新方法。与我们的传统弓箭相比，火器射程更远，并且比我们的刀具能造成更大的伤害。"
- PROV4684:0 "泽梅尼卡"
- PROV_ADJ4684:0 "泽梅尼卡"
- PROV4685:0 "卡拉干达"
- PROV_ADJ4685:0 "卡拉干达"
- PROV4686:0 "埃基巴斯图兹"
- PROV_ADJ4686:0 "埃基巴斯图兹"
- PROV4687:0 "伊玛基亚"
- PROV_ADJ4687:0 "伊玛基亚"
- PROV4688:0 "巴拉巴"
- PROV_ADJ4688:0 "巴拉巴"
- PROV4689:0 "鄂木"
- PROV_ADJ4689:0 "鄂木"
- PROV4690:0 "伊希姆"
- PROV_ADJ4690:0 "伊希姆"
- PROV4691:0 "阿斯"
- PROV_ADJ4691:0 "阿斯"
- PROV4692:0 "图尔盖"
- PROV_ADJ4692:0 "图尔盖"
- PROV4693:0 "克里雅"
- PROV_ADJ4693:0 "克里雅"
- aqmola_area:0 "阿克莫拉"
- aqmola_area_name:0 "阿克莫拉"
- aqmola_area_adj:0 "阿克莫拉"
- JAP_siberian_intervention_tt:0 "治下所有位于§Y东西伯利亚§!地区的省份获得「§Y西伯利亚繁荣§!」修正并在§Y10年内§!给予如下效果：\n本地商品产出修正：§G+15.0%§!"
- desc_JAP_siberian_boom:0 "在西伯利亚的投资吸引了许多淘金者和冒险家来到这片地区，提高了生产效率。"
- desc_JAP_gokaido_stations:0 "在领土大多数主要道路上设立宿场不仅让旅行更加便利，也让中央权威辐射到外地。"
- desc_JAP_sankin_kotai_modifier:1 "在首都容纳大量且经常交替的领主使得政府在一次性处理多项外交议案上驾轻就熟。"
- desc_JAP_social_hierarchy:0 "在我国境内，每个人都了解自己的位置所在。"
- desc_JAP_indochinese_trade:0 "拥有政府朱印状担保的商船可享受特别的保护和特权，让他们进行的贸易更少风险。"
- desc_JAP_trade_hegemon:0 "我国的工商业首屈一指，我们广大的商业利益代表遍布全球。"
- desc_JAP_cadastral_surveys:0 "调查乡间未申报的财产给政府带来了新财源。"
- desc_JAP_currency_regulations:0 "担保贷款使得在全国支援新的建设工程更加容易了。"
- desc_JAP_sengoku_contender:1 "在诸大名间，我等已被证明可跻身其列，吾辈实力被领内外广泛认可。"
- ming_crisis.9.t:0 "介入[From.GetAdjective]王朝的危机"
- ming_crisis.9.d:0 "[From.GetAdjective]朝皇帝失去了对北方的控制。农民领袖李自成聚起了大批叛军和流寇，并控制了[CSH.Capital.GetCapitalName]，在此建号称帝。[From.GetAdjective]朝危机的浮现正给我们带来了一个绝佳的机会，我们可以借机掌控中国北方，而且如果一切顺利、时机成熟的话，这更将成为我们宣称天命的舞台。"
- ming_crisis.9.A:0 "跨上战马，准备开战！"
- ming_crisis.9.B:0 "还不到我们涉入其中的时候。"
- empire_of_china_nomadic_border_events.3.t:0 "[From.GetUsableNameCap]朝恐惧游牧威胁"
- empire_of_china_nomadic_border_events.3.d:0 "[From.GetAdjective]朝臣民之中流传着不满的怨言，指称[From.Monarch.GetTitle]暗弱无能，无从处置我国构成的威胁。随着我国实力继续增长，这些怨言也势必水涨船高。"
- empire_of_china_nomadic_border_events.3.opt:0 "我们仅需等待他们崩溃。"
- empire_of_china_nomadic_border_events.3.tooltip:0 "§Y[From.GetName]§!：\n§Y没有防备的游牧边疆§!灾难进度达到§R10%§!。"
- empire_of_china_nomadic_border_events.4.t:0 "[From.GetUsableName]朝廷陷入恐慌"
- empire_of_china_nomadic_border_events.4.d:0 "[From.GetAdjective]朝[From.Monarch.GetTitle]面对举国上下对于我国威胁的恐慌情绪已经左支右绌，无力维持[From.Monarch.GetHerHis]权威。我们安插的间谍报称，预计不满很快将会爆发成叛乱，[From.Monarch.GetTitle]的权威也会崩溃……这将为我们带来夺取中国财富的天赐良机。"
- empire_of_china_nomadic_border_events.4.opt.manchu:0 "召集八旗军！"
- empire_of_china_nomadic_border_events.4.opt:0 "中国将是我们的！"
- empire_of_china_nomadic_border_events.4.tooltip:0 "§Y[From.GetName]§!：\n§Y没有防备的游牧边疆§!灾难进度达到§R75%§!。"
- empire_of_china_nomadic_border_events.5.t:0 "[emperor_of_china.GetAdjective]朝廷焦虑消退"
- empire_of_china_nomadic_border_events.5.d:0 "我们不再被认为是[emperor_of_china.GetUsableName]的威胁，中国的臣民也便心甘情愿地接受了朝廷的统治。"
- empire_of_china_nomadic_border_events.5.d.disaster:0 "对我国威胁的焦虑已被[emperor_of_china.GetUsableName]的其他问题所取代，这些问题将威胁国家的内部凝聚力。现在也许是我们出击的时刻！"
- empire_of_china_nomadic_border_events.5.opt:0 "真不幸。"
- CSH_ideas:0 "大顺理念"
- CSH_ideas_start:0 "大顺传统"
- CSH_ideas_bonus:0 "大顺野心"
- shun_humble_beginnings:0 "起于毫末"
- shun_humble_beginnings_desc:0 "顺朝脱胎于一支反抗明朝统治的起义军。这支起义军由被苛税杂捐榨干的富农与贫农组成。我们的人乐于拿起武器，而不是被迫忍受军中苦旅。"
- shun_dashing_king:0 "闯王"
- shun_dashing_king_desc:0 "顺朝的领袖又被称为「闯王」。通过正式接受这一称号并将之用于与外国政要的交往中，我们可以增强我们在国内外的威望。"
- shun_hidden_treasury:0 "藏富于民"
- shun_hidden_treasury_desc:0 "我们废除了旧的田赋制度，允许乡绅保留更多的收入，用来支付士兵军饷、佃农工资，以及在国外代表他们的外交官。这还意味着如果我们手头太紧，能有钱可借。"
- shun_obedient_to_heaven:0 "顺从天意"
- shun_obedient_to_heaven_desc:0 "我们选择的王朝名称意为「顺天」。为了与这个名字保持一致，我们的军队宣誓效忠我们的统治者，他们认为他具有上天赋予的能力。因此，他们愿意更加努力训练，变得更加自律，以确保他们的战斗取得辉煌成果。"
- shun_perfection_of_sieging:0 "完善围城"
- shun_perfection_of_sieging_desc:0 "我们已经找到了攻城战中火药的新用处，并开发出有效的剥落和破坏城堡城墙的方法。通过这些方法，我们可以成功围攻最强大的城堡，并在战争中轻松夺取和控制省份。"
- shun_from_sticks_to_guns:0 "从棍棒到火枪"
- shun_from_sticks_to_guns_desc:0 "我们的部队已经受训且装备了双手和远程武器。我们的士兵精通使用棍棒、刀剑、弓箭和火器，可以填补我们可能需要的任何角色。他们这些多面手将能主宰战场。"
- shun_claim_to_the_mandate:0 "天命所归"
- shun_claim_to_the_mandate_desc:0 "虽然我们的王朝起源卑微，但通过我们的能力与正义，我们赢得了贵族和平民的支持。我们现在被视为天命的强力宣称者，即一个统治中华大地的正统王朝。"
- furdan_area_name:0 "富尔丹"
- furdan_area_adj:0 "富尔丹"
- sakhalin_area_name:0 "萨哈林"
- sakhalin_area_adj:0 "萨哈林"
- chahar_area_name:0 "察哈尔"
- chahar_area_adj:0 "察哈尔"
- cicigar_name:0 "齐齐哈尔"
- cicigar_adj:0 "齐齐哈尔"
- xilin_gol_area_name:0 "锡林郭勒"
- xilin_gol_area_adj:0 "锡林郭勒"
- sinicize_culture_title:0 "汉化"
- sinicize_culture_desc:0 "我们的文化无上光荣，我们的语言是同侪中的佼佼者，传统和遗产是我们社会的支柱。\n不过，我们不能否认中国的语言、文化多年来对我们的影响——如今更是入木三分。虽然这一决定肯定会引发争议，但为了促进我国的[Root.Culture.GetName]人与中国人和谐相处，汉化或许是值得考虑的选择。"
- sinicize_culture_tt:2 "除新大陆与大洋洲之外的每个§Y[Root.Culture.GetName]§!省份均属于[Root.GetName]或其属国。"
- chinese_culture_group_dominates_in_country:0 "中华文化组中的一种文化是[Root.GetName]的§Y优势文化§!。"
- sinicize_culture_ct:0 "所有§Y[Root.Culture.GetName]§!文化省份将成为§Y中华§!文化组的一部分。"
- sinicize_mongols_ct:0 "所有§Y蒙古§!、§Y科尔沁§!、§Y喀尔喀§!、§Y瓦剌§!文化省份将成为§Y中华§!文化组的一部分。"
- vietnamese_new:1 "越"
- korean_new:1 "朝鲜"
- tibetan_new:1 "藏"
- altaic_new:0 "蒙"
- ming_crisis.3.b:0 "开城门，迎闯王，闯王来了不纳粮！"
- ming_crisis.4.c:0 "五云南国在天涯，六诏山川景物华……"
- ming_crisis.5.c:0 "日啖荔枝三百颗，不辞长作岭南人……"
- ming_crisis.5.e:0 "东南形胜，三[WUU.GetName]都会，钱塘自古繁华……"
- flavor_kor.13.t:0 "[Root.GetName]与满洲的崛起"
- flavor_kor.13.d:1 "我国与女真人过去曾兵革互兴，而仰仗着双方天然的疆界——白头山，朝鲜得以免受游牧部族的袭扰。然而，随着女真诸部的统一，我国的安全形势又变得严峻起来。尽管我们有能力制止他们对边境的袭掠，但在合同为一的满洲大军面前保全自身恐怕并无多大希望。我们也许值得考虑转而向[MCH.GetName]效忠并缴纳岁贡，以换得[Root.GetName]的和平与繁荣。"
- flavor_kor.13.a:0 "何必呢？天朝皇帝会保护我们。"
- flavor_kor.13.b:0 "我们应当向满洲朝贡。"
- flavor_kor.13.c:0 "我受够了这种把戏！从今往后我们不向任何国家纳贡称臣！"
- flavor_kor.14.t:0 "[From.GetName]请求纳贡称臣"
- flavor_kor.14.d:0 "[From.GetName][From.Monarch.GetTitle]终于承认了我们优越的军事实力，并要求成为我们伟大的[Root.GovernmentName]的朝贡国。当然，我们有充分的理由接受[From.Monarch.GetHerHis]要求，但我们将被迫放弃在朝鲜半岛的扩张计划。"
- flavor_kor.14.a:0 "接受要求"
- flavor_kor.14.a.tt:0 "治下所有§Y朝鲜§!地区的省份回归§Y[KOR.GetName]§!。"
- flavor_kor.14.b:0 "拒绝要求"
- flavor_mch.EVTNAME8:0 "满洲的崛起"
- flavor_mch.EVTDESC8:0 "关外的女真人一向是[Root.GetName]的忠实朝贡藩属。他们自知其位并为我们服务。\n然而，这种姿态最近发生了重大变化。当我们满足于他们每年的贡礼时，女真人巩固了他们的辖地，征服了周边各部，并统一成为如今渴望征服的大部族！"
- flavor_mch.EVTOPTA8:0 "伏望上苍垂怜我等。"
- mch_missions.5.b:0 "夺下岛屿，徐徐图之……"
- kor_defeat_shogun_tt:1 "如果我们完成该任务时正在合流§Y神道教§!信仰，将获得§G+15§!宗教融合进程。\n\n如果我们已经合流§Y神道教§!，将获得§G100§!军事点数。"
- sinicize_culture_at:0 "除新世界和大洋洲外的所有§Y[Root.Culture.GetGroupName]§!省份被[Root.GetName]或其属国拥有。"
- zhuang_new:0 "壮"
+ string_regency_council_no_cap:0 "Dd?eO®‹"
+ has_manufactory_trigger_tooltip:0 "åb	gûNa§YåT:W§!"
+ pretty_colonial_borders.3.name:0 "–kl0WKNô•„v u·u"
+ pretty_colonial_borders.3.desc:0 "[colonial_country_1.GetName]N[colonial_country_2.GetName](W[pretty_colonial_province.GetName]„vî•˜˜NrÑS†NÀoÈp²Qz0[colonial_country_1.GetName]îvMRžRµcÙNwýNÿ[colonial_country_2.GetName]tS,dúQ–klyr¸‹¶rÙ<ONNnx²‹†NÖNìN0tÖSÙ›N†˜W„vckSVCg)R0‚YÊNur‰m0RSV0WT¹ƒXÆ–Óu„vfkÅˆ›RÏ‘KNô•„vpe!kidædäNNS¿Rw–eQ†NðVƒX0:N†NMQ²QzGSµuÿ2N¹eI`cwýòTT[Root.GetName]ÑSúQ3uÉ‹ÿåNgÙN‰N®‹—V0RòNÁˆ0"
+ pretty_colonial_borders.3.A:0 "Ùz(W[colonial_country_1.GetName]N¹e0"
+ pretty_colonial_borders.3.B:0 "Ùz(W[colonial_country_2.GetName]N¹e0"
+ pretty_colonial_borders.3.B.tooltip:0 "§Y[pretty_colonial_province.GetName]§!åNÊS§Y[colonial_country_1.GetName]§!åb	g„vNb	gMOŽN§Y[colonial_country_2.GetName]§!„v§Y–kl0W:S§!0NNKNøv»„vwýNS«ˆrR©‹Ùu§Y[colonial_country_2.GetName]§!0"
+ annex_country_japan:0 "Tv^ýV¶R"
+ annex_country_japan_desc:0 "b‰Nîvh=f:YÖSvQ–™ý0`OïSåN’Q)YNKN'YNê—ÿSvQTv^0"
+ kor_conquer_changbai_title:0 "‹v4YqSS"
+ kor_conquer_changbai_desc:1 "VyVyˆˆåNegÿgœœºNÆ‰‹v4YqS:N1WqSÿ±=fNµ^ImkpqSÿvQv˜ïzkpqSãS„vèT'YkpãSVn«ˆðy:N)Y`lÿå‹VnÊlbVbŽN¸‹Yt^MR„v'YÄ‰!j·UÑS0bìNÅV‰˜nxÝOgœœŽ³1WqS„vCg)RNÅVOVŽNán2mºN„vÁNHabwvQÖNÀNHN0"
+ kor_seize_southern_manchuria_title:0 ":YÖS¹ƒXKN0W"
+ kor_seize_southern_manchuria_desc:0 "Sán2mºN„vMR¿u¨cÞV0RgœœJS›SåNYÿbìN1Sýw'Y'YžX:Vgœœ„v›RÏ‘N‰RhQ0"
+ kor_end_manchuria_title:0 "ÈuÓuán2m"
+ kor_end_manchuria_desc:0 "êäSåNegán2m1S=fgœœºNl„vN'YZÁwÿgÑ„vNû|R‹NöNO—VbìN—VåN(WNS¿RNÍSÇeg`SncO¿Rv^bŸR0WSýVƒX¿u¨c0R†NÖNìN„v8hÃV:SßW0°s(W=föeP‰V•^ÓumgÙNZÁw†N0"
+ kor_end_manchu.tooltip:0 "»lNNb	gán2m0W:SwýN·ƒ—VîOckÿ§Ygœœßu»lán2m§!ÿÙuˆN‚YNHeœgÿ\nÏkgê»l¦^ØSSÿ§G-0.05§!"
+ kor_build_army_mission_title:0 "'YÄ‰!jVuQ"
+ kor_build_army_mission_desc:0 "ûNUON*Nck(WTw„výV¶RýÅV‰˜ôucN=eÄ‰!jïSÂ‰„v›Q–0ib'Y›Q‹N›RÏ‘ÿbìNâeïSåNùRY·ƒÖSôfY?e»l)RÊvÿmNýwYùR…Q:RÀo,gWÏuNm0"
+ kor_harness_seokleon_title:0 "Œšmšówb"
+ kor_harness_seokleon_desc:2 "NbŒ„vówbbðy0—eów0=fNÍyìryr„vgœœ8nbÿNT„v–Oô•O’NøvTb·cówWW0ùRÂSNwŒTÁeÂ‰wØšàQ‡s×S2O=fNïSMQ„vÿTöe>ejm„vt^‰ºN«Ž:dèTów(WWˆNÛVY8naƒÿmNOVñ‹ÖNìNÝÕl¯ry06qwÿŽV‹Y„v¹eTwÿ[Root.Monarch.GetTitle]mN¸‹ïSåNýw)R(uƒRØSbNÍy›Q‹N­‹ÃuKbÕlÿÎNw R:VbìN„v›Q–ÿOÖNìNýwµb¡VgÖNìNSûQ„vLe›Qÿ"
+ kor_expand_hwacha_title:0 "¹pÃqkpfÿ"
+ kor_expand_hwacha_desc:2 "kp¢Sf=f1ubìN„våTz^VÑS„vNÍyY¡rkp­rÑSShVÿýwYN!kÑSS100šgkp­rÿùRÆRÆ–„vekuQ–wQ	g4xOW'`0Çib'YbìN„vkp¢Sf›Qkp“^v^SvQèr(WbìN„vfkÅˆè–-NÿbìNïSåNnxÝObìN:V'Y„vkp›RNbýwVÑS„vïS`„vpûQ(Wte*NÜN0W:SðXTÜ­dÿäNºNOuç`0"
+ hwacha_firepower_bonus:0 "kp¢Sf„vkp›R"
+ desc_hwacha_firepower_bonus:2 "kp¢Sf=fNÍy1ubìN„våTz^VÑS„vY¡rkp­rÑSShVÿýwYN!kÑSS100šgkp­rÿùRÆRÆ–„vekuQ–wQ	g4xOW'`0ƒR(WbìNfkÅˆè–„vèrSObìN„vLeºNa0RP`ç`ÿ"
+ kor_control_yellow_sea_title:0 "µc6RÄžwm"
+ kor_control_yellow_sea_desc:1 "-NNS^ýVµc6RNwÄžwm„v‰¸SNS¸Sÿ©‹ÖNìNýwYZÁw0RgœœJS›S„vW0W0‚YœggœœýwY·ƒÖSÙ›N0WßWÿ[Root.GovernmentName]„v0ÌRS'Y'YžX R0"
+ kor_yellow_sea:0 "ßuNgœœŒn"
+ kor_seize_celestial_throne_title:0 "ošgèT™Ÿ"
+ kor_seize_celestial_throne_desc:2 "gœœÿ-NýV„v0ˆR<yN»0ÿNNãNãNT-NýVðyã³u!06qwSVNbìN3zekTw„vgœœ[Root.GovernmentName]-NÿIN.V:YÖS)Yg‡vMO„vðXó—ŠegŠØš0‚YœgbŸR„vÝ‹ÿÙSNÅN=fgœœ^ýVÿmN=fte*NNšN†SòS„v-T°eÇràz0"
+ kor_emperor_of_china:0 "°e‰vkN”N"
+ desc_kor_emperor_of_china:1 "(WpeãNT-NýV‡v^ðyãKNTÿgœœl†NNS¿RÿÎNÖNìN±Ì‘:YÖS†NCg›R0Ùh×VNwgœœ^ýV„v-T°eöeãN0Reg†N0"
+ kor_befriend_ming_title:1 "ùR-NY²N"
+ kor_befriend_ming_desc:0 "N-NýV„vËSŒùRgœœlÏe„vuXRósQÍ‘‰&&óS(Wíwg…Q0"
+ kor_chinese_patronage:0 "‡v^„v=ec"
+ desc_kor_chinese_patronage:0 "(W-NýV‡v^„vÝO²bKNNÿgœœïSMQŽN«ˆ»ES|Qv^„vP`ç`ÿpTAucƒ0"
+ kor_fortify_korea_title:0 "Í‘ú^CSÌ‘•ÎW"
+ kor_fortify_korea_desc:2 "CSÌ‘•ÎW=f1ubìNVyHQú^.„v*jègœœJS›SSè„v!X’WQÜuÿåNÝO²bbìN„vºNlMQ×SsYwèK„„v c:Y0bìNÅV‰˜öe8^îOYƒRÿåNnxÝOƒRýwYÝOÁ‹gœœ„v‰RhQ0"
+ kor_built_the_wall:0 "CSÌ‘•ÎW"
+ desc_kor_built_the_wall:2 "CSÌ‘•ÎW=f1ubìNVyHQú^.„v*jègœœJS›SSè„v!X’WQÜuÿåNÝO²bbìN„vºNlMQ×SsYwèK„„v c:Y0"
+ kor_fortify_korea_tooltip:0 "án³å‹ûN¡RagöN„vwýNS·ƒ—V§Y+2§!úWNxºN›RÿåNÊS§YCSÌ‘•ÎW§!„vîOckÿÙuˆN§G+25%§!„v,g0W2–¡VHe‡s0"
+ kor_fortify_korea_2_title:0 "–ëX‹sýV"
+ kor_fortify_korea_2_desc:0 "Yt^åNegÿ1uŽNgœœSOÏ‘	gP–ÿNÈSY(W-NýV0åe,gŒTán2mKNô•„vÍ‘‰beuMOnÿNæehTôV„v»ýVžR°sßuNÿgœœ1SëkNaY0Wb:N†NÖNìN‘˜AuµOeu„vîvh0êS	g©‹bìN„výV¶RZWNïSgdÿMbýw©‹yYMQ×SµOeu0"
+ kor_built_the_wall_2:0 "–ëX‹sýV"
+ desc_kor_built_the_wall_2:1 ":N†N2–bk:V»‘˜Au„veQµOÿgœœÅV‰˜©‹êñTbrNïS4x0"
+ kor_righteous_army_title:0 "INuQ"
+ kor_righteous_army_desc:1 "àeº‹bìN‚YÊN„vYƒXYHNÝugÿbìN„vœQlÝuNO¹R¸‹gœœm0RLeºN„vÜtRÿÖNìN^—FONOTNwYýVµOeuw•bM–ÿôfS>P›RùR—bbìN„vLeºNv^ÝOÁ‹gœœ„vê1uNm·sal0"
+ kor_japanese_piracy_title:0 "µb¡V-PÇR"
+ kor_japanese_piracy_desc:0 "åe,g'YT.OßuNŠbgœœFUºNŒTFU=nSVb=fÌRÕˆN¾‹2–„v0‚–sir0bìNÅV‰˜©‹Ù›NNQb:Nñ‹ºN„vîvh0"
+ kor_foothold_in_japan_title:0 "Ëz³åe,g"
+ kor_foothold_in_japan_desc:1 "¸‹YºNçVÃVN*N:V'Y„våe,gU^œ^SNïSMQ0WSÕ‹SvQ›RÏ‘•bSóåe,gR›SåNY„v0W¹eÿwgœœf>fSb:NÖNìN„v–™	îvh0‚YœgbìN‰MQÙN‹NöNÑSuÿbìNÅV‰˜Sb4x°s(W„v›RÏ‘s^aˆv^ëOåe,gYŽNbeuˆR¿R0"
+ kor_defeat_shogun_title:0 "ûQ%U^œ^"
+ kor_defeat_shogun_desc:0 "åe,g±ÌRv™„vW0Wck…VIr…VNwbìN„vVg0êS‰bìNýw`S†˜¬Nýåe,g„v^ýÿÖNìN„vµb—bKN›R1SOÅˆmce0"
+ kor_turtle_ships_title:0 "ŸŸ9‚=T*‚"
+ kor_turtle_ships_desc:1 "bìN„v.9‚èè•¾‹¡‹†NNÍy°e„vÍ‘Åˆb9‚0ÛVhT	g9‚óXÿNè	g9‚v˜ÿïSÝO²b9‚XTMQmkp›RSûQÿÙÍyYÂ‰&^eg„vupa©‹ÖNìN—VTŸŸ9‚0ÙÍy°eVb9‚äNºNuOu„vYÂ‰Ø	gƒR„v2–¡V›RÿïSÝOgœœ„vwmN2–¡VO¿R8lNˆm1Yÿ"
+ kor_turtle_fleets:0 "ŸŸ9‚0‚–"
+ desc_kor_turtle_fleets:0 "ŸŸ9‚=fgœœ4l^(Wåe,geQµOgœœgô•ÿ1592-1598	ÿO(u„vNÍy'Y‹Wb9‚ÿvQ(Wb‰N-NÑS%c†NsQ.•„vjO(uÿI–bk†Nåe,g·ƒ—V6RwmCgv^gÈuOvQ²d0vQTðyegnŽN9‚N„v²b2uÿsS†‰Öv(W9‚v˜‰|<OŽNŸŸóX„v9‚óX0\n\nöe8^	gºNðXðyÙ=fgée„vÁ”2u0‚ÿFOžRE–Nv^NåwS=f&Tþf	gŸŸ9‚O(uÁ”gú^.0"
+ kor_settle_north_title:0 "šRESS¹e"
+ kor_settle_north_desc:0 "S¹e„vwýNj•ÎWŒTmQG•gÑRÎNán2mèK„Vg0bìNÅV‰˜VeQgœœ„v`N×O»SYeSÖNìN0"
+ kor_settle_general_title:0 "ib.VýVW"
+ kor_settle_general_desc:0 "gœœJS›SP–6R†NbìN„vºNl0ÇVŸ†ußWÿbìNïSåNib'YbìNºNl„v¶RíVÿv^nxÝOgœœ‡eSNO«ˆ†SòS„vSÃWNbnn¡l0"
+ kor_harmonise_shinto_title:0 "ŒTŒåe,g"
+ kor_harmonise_shinto_desc:0 "‚YœgàeÕlNåe,g„vºNl(W‡eSN0a×VNŒRhQteTÿwêS=fÎN›Q‹NBSb—NVgÿbìNùRŽNåe,g0W:S„vµc6R1SðyNNŒRte0"
+ kor_higher_income_title:0 "Aucƒ„vÏuNm"
+ kor_higher_income_desc:0 "bìNÅV‰˜åNNRÅV‰„vKbµkžX RýV¶R6eeQ0ÎN?eœ^„våe8^V=e0R(uegeQµOLeºN„v›Q–ôu²bÿÑ‘±”=fýV¶RûNUOªR›R„vÅV‰agöN0"
+ kor_growing_economy:0 "ÑSUSÏuNm"
+ desc_kor_growing_economy:0 "bìNžX R?eœ^6eeQ„vªR›RòTÏuµNu†NNÍyOSTHe”^ÿ–NwbìNùRvQÛLˆôfY„v•bDbìNýwY·ƒ—VôfY„v6eÊv"
+ kor_peasant_struggles_title:0 "œQl„vðVƒX"
+ kor_peasant_struggles_desc:0 "œQlmG„vðVƒX•ENåNeg«ˆàeÆ‰ÿZÁwNwbýV„v3zšRNAucƒ0bìNÅV‰˜Ç‘ÖSLˆ¨Regã‰ÖNìN„vÛuæ‚0"
+ kor_peasant_struggles_mission_tt1:0 "ÊSéeŒRbå‹ûN¡RïSåN2–bkæ‰ÑS§YgœœœQl´f¨R§!‹NöN0"
+ kor_peasant_struggles_mission_tt2:0 "ÊSéeŒRbå‹ûN¡RïSåN2–bkæ‰ÑS§Y—gèTckw‹N§!‹NöN0"
+ kor_develop_korea_title:0 "ú^¾‹gœœ"
+ kor_develop_korea_desc:0 "gœœJS›SÎN*g‚YTbìN„v»ES-NýVN,‚Aucƒ0‚YœgbìN^gýwYb:N,g0W:S:VCgbìNÅV‰˜9eØSÙN°s¶r0"
+ kor_prosperous_korea:0 "Aucƒ„vgœœ"
+ desc_kor_prosperous_korea:0 "gœœJS›SÛeQ†NN*N°e„vAucƒg0"
+ kor_achieve_juche_title:0 "gœœêËz"
+ kor_achieve_juche_desc:1 "ÇnxÝOgœœºNl(W?e»lNÿÏuNmNŒT›Q‹NN„vŒRhQìrËzbìN¿OïSåNVRN*N^SŽNgœœºNl„vßuNAuNSwN:VÛv„vhQ°eöeãN0"
+ korea_in_balance:0 "gœœ?eNSs^3z"
+ desc_korea_in_balance:0 "–NwgœœžR°s(W?e»lÿÏuNmÿåNÊS›Q‹N†˜ßWN„vìrËzÿýV¶RbŸR„vÛeQ†NN*N5ŒTS-N„vhQ°eöeãN0"
+ kor_end_factional_strife_title:0 "Fd1gZQ·u‰N"
+ kor_end_factional_strife_desc:1 "(Wgœœ‹sgIQcƒ„v,rN*NŒvt^ÇTÿàeYN(W„vgZQ·u‰NObìN„výV¶RØS—Vo1VŒTRÂˆ0[Root.Monarch.GetTitle]àeÕlã‰³Q>mû|KNô•„vRgkÿüRô†N`O‰kbIm,‚„vÀoÈp>Pgöe	gÑSu0Nx^„v=fÿÏkSVN>m<ONN`SncNÎ˜öeÿƒR1SORÂˆÿ°eNn„vZQ‰NŽN=fQ!kNo0bìNÅV‰˜O6RgZQÿb`YgœœýV¶R„vâVÓuÿ"
+ KOR_has_factional_upheaval_tooltip:1 "‹NöN§YëX—g>m„vTw§!òTÏuÑSu0"
+ kor_end_factional_strife_tt:2 "•gðVpb§Y[Root.GetName]§!„v>mû|—e‰NSOÓumg0"
+ kor_develop_capital_title:0 "ÓbUS[Root.Capital.GetCapitalName]"
+ kor_develop_capital_desc:0 "gœœ'Yb—ïy=fœQQgÿàQNN¡l	g'Y‹WÎW^0„vnxÿN»ýV-NýV„v'YÎW^øvÔkÿsSO=fgœœg'Y„vÎW^mNêSÏPN*NwµuÎWG•0‚Yœgó`‰«ˆSVjOjo(W„v›RÏ‘%NƒwùR…VÿbìNÅV‰˜9eØSÙÍy¶rµQ0"
+ kor_developed_capital:0 "‹swKNÎW"
+ desc_kor_developed_capital:0 "bìN„v–™ýòTÏuÑSUSÿwckðyŽNgœœlÏe„vcƒwŒTgœœýV¶R„vS%N0"
+ kor_korean_trade_ports_title:0 "gœœ8f=nãS"
+ kor_korean_trade_ports_desc:1 "Nôf RÌR	g„v»ES8fùRgœœ„vÑSUSósQÍ‘‰0ÇSgœœåTz‚ÁTNåe,gŒT-NýV„vFUÁT0ÌR²NbcÿbìNïSåNÙuýV¶R&^egïSÂ‰„v0ÌR0"
+ kor_traders_tm:0 "gœœ8f=nãS"
+ kor_japanese_trade_title:0 "INüRåe,g8f"
+ kor_japanese_trade_desc:0 "Ç»Sÿåe,gFUºNŽVŽVÔkgœœFUºNôf	gÞz‰N›Rÿuó(Wgœœ=nãSÎW^ú^Ëz8fÞ˜0W0‚Yœggœœýw(WÙNsQû|-N`SncO¿Rÿàepe„v0ÌRIr…VNwbìN0"
+ kor_mission_traders:0 "gœœFUºN"
+ desc_kor_mission_traders:0 "gœœ°eÑS°s†NFUNO¿Rÿ°s(W(WNšNT0W–YïSÁ‰gœœFUºN¨‹÷NØ÷N0"
+ have_no_estates_tooltip:0 "àe§Y6–BS§!0"
+ have_no_estate_land_tooltip:0 "§Y6–BS§!Nc	g§YW0W§!0"
+ KOR_two_pleased_estates_tooltip:1 "N*N§Y6–BS§!„vàVÚ‹¦^óS:N§Y60§!ÿæSY2N*NóS:N§Y40§!0"
+ end_manchuria_tooltip:0 "§Yán2m§!0W:S„vÏkN*N:SßWýóS	gN*NwýN^SŽN§Y[Root.GetName]§!b[Root.GetAdjective]„v^—g!^SýV0"
+ kor_manchurian_korea:0 "gœœán2m"
+ desc_kor_manchurian_korea:0 "ÜäS„v	NýVöeãNòTÏuÇ»SˆVENÿ°s(WbìNïSåNÍ‘°eßuNÖNìN„v0WßWÿÍ‘ú^gœœÇ»S„vcƒIQ0"
+ kor_conquest_manchuria:0 "Vgán2m"
+ desc_kor_conquest_manchuria:0 "°s(Wán2m„v'YèRòTÏu‡eQgœœÿán2måeÊv«ˆÆ‰:NgœœNïSRrR„vÄubèR0"
+ kor_peasant_struggles:0 "œQl„v—e‰N"
+ desc_kor_peasant_struggles:0 "gÑNµköeô•1uŽNÛ‚PcBgzŒT2Nís¾|ñ‚ùRW0W„v c:YÿaNQg+æ‚ºNluXRp‚¾–0œQlô•àeÆ‰Õl‹VÍS—b„vlPnb‹Wÿ‚YœgàeÆ‰Ù›NÿSùRýV¶R&^eg%NÍ‘„vZÁw0"
+ estate_yangban_scholars:0 "2NísfRw"
+ estate_yangban_administrators:0 "2Nís˜RÚP"
+ estate_neoconfucian_reformers:0 "ëX—g>m"
+ EST_KOR_FACTIONAL_UPHEAVAL:1 "gZQ·u‰N: §Y$VAL$§!"
+ EST_KOR_FACTIONAL_UNITY:1 "ÈuÓugZQ·u‰N: §Y$VAL$§!"
+ flavor_kor.7.t:0 ":YÖSÊƒ±‚‹sµ^"
+ flavor_kor.7.d:1 "–Nw¬Ný„vw–K„ÿåe,gU^œ^S:NŸ^ŸX0gœœ›Q–VÛÎW-Nÿ	g¡‹R	gek²š0WVËY«R cÙµ^ÎW^ÿÈuŽNÊ‘>e†NÖNìNãNãNåNeg(Wgåe²Qz-Nïy=t„vÇN(`ÿêSYuNx^XR„v^líTãl²˜–b0ÖNìN(W«R c-Nïye†NNrÊ`ºN„v0Rÿ'YYpeýObabaÐÞVgœœJS›S0\n\n(W¢beg„våTz‚ÁT-NÿgÍ‘‰„vÅVšR=fÊƒ±‚‹sµ^ÿåe,g)Y‡vÎN7Nªuw1SPWŽNvQN0[Root.GetRulerTitleAndNameOrRegencyCap]±R^ÿÊƒ±‚‹sµ^S«ˆ&^ÞV[Root.Capital.GetCapitalName]ÿ	gx^b:Ngœœ[Root.GovernmentName]R“^„vUSÁTKNN0"
+ flavor_kor.7.opt:0 "cƒw^SŽNgœœÿ"
+ kor_japanese_loot:0 "Êƒ±‚‹sµ^"
+ desc_kor_japanese_loot:0 "Êƒ±‚‹sµ^òTŒT¸‹YvQÖNåe,gz‚=gÁTNw«ˆ&^0Rgœœ–™ý0"
+ flavor_kor.2.desc_new:0 "[GetYear]t^ÿøSŒb–.s³u0MRòS˜RÑ‘ršYR«Ž:NNTŠ˜RÿŽVŽVbeŽNNWYO›R0WcXdMOØšCgÍ‘„v'YXTŒT2NísËRçe0ÖN„v¸‹Y?eLecðyÖN(W0b—RžRUV0Iƒ?z-N	gNb–»U0Ù›NºNZWcOYðyÙÍy–»U=f'YNSÿ‰BlËzIRY³QÑ‘ršYRÿTöeS±›N=ecÖN„vëX—gfRwmNNv^Am>euó=fY‰k0"
+ flavor_kor.2.A:0 "Y³QÖNÿ"
+ flavor_kor.2.B:0 "ÍSwck”^ƒwn2Nísÿ"
+ flavor_kor.2.C:0 "bìNÅV‰˜ôuc?e»ls^aˆ0"
+ flavor_kor.3.desc_new:2 "[GetDateText]ÿN:WýV´R-^ô•ÿ<yùf2RfNNgNPONNaŠbR‘m(W†N[Root.Monarch.GetTitle]„vˆgN0vQöeck<PgZQ>PgåNÊSùR‹sCgånLˆ„v‘˜AuŒî”ÿNgNPO„v?eLeŠbdk‹Nã‰Ê‘:NùRT‹sCgZ„v’Q¯rÿ”^åN'YNleKNjº‹Y0ÖNìN‰Blnm‰cNgNPOŒTÖN„vø‹Y?e»lßvËSÿÙ›NºNegêŽNå‚r^gZQ>mû|0nxžRÿÙwwegÏP=fN>Nnd–g÷^-NÕ‹þV0ÌQN0KNºN„vN!ko‚:g0"
+ flavor_kor.3.A:0 "ƒwnNb	gÍSùRb„vºN0"
+ flavor_kor.3.B:0 "bìNÅV‰˜ôuc?e»ls^aˆ0"
+ flavor_kor.4.desc_new:0 "uIQVy=fNMOëX—g>m„v9ei—wÿÖNNôvªR›RSÕ‹	cgqQ¶R‹sS?e»ltó`Í‘QX?eœ^SO6R0ÖN„v9ei—IN.VgR—VåNÇ‘³uÿFO=f–NwÖNÛNekIe¦‹2Nísÿ¾‹Ëz2o‚ÑyåNnxÝOTˆëX—gÛeQg÷^0JR1V2Nís¿R›RÿåNÊSÐc®‹¡l6e2NísW0WÿËRçe>m«ˆg'YÀo`ÿO—V9ei—MRŸRKSV0—VvQÍS0\n\n2NísËRçe°s(WðXðyuIQVy	gÃVêËz:N‹sÿwÖN„vNbŒ9ei—=fï‹eQgkÿS4xOW>yOéy^åNÊSýVgËzýVKN9h,g0uIQVyRZWc²‹:NÿSVMR=UNcknx„vªcËe1S=fçuíuhQÛLˆ9ei—ÿwàeÆ‰Nb	g„val…ŒTÍSùR0bìN0R•^”^å‹=ecêTN¹ÿ"
+ flavor_kor.4.A:0 "nmëX—g>mÿ"
+ flavor_kor.4.B:0 "9ei—ÅV‰˜çuíuàeº‹ØNúQÀNHNãN÷Nÿ"
+ flavor_kor.8.t:0 "gœœœQl´f¨R"
+ flavor_kor.8.d:0 "œQQg0W:S„vwzæ‚ŒvÓYgÑNôv(W1cNbNwuXR0ÖNìNNÅN«ˆëbÅb˜¦^Ç'YwàeÕl|QŒ˜ê«ŽuXR„vz¡RÿwN‚YœgÖNìN:N†Nzw»yVW0Wÿ±HN±›Nz¡ROlûy0RÖNìNYuˆR„v²Nb4YNÿv^.bôf%NÍ‘„vz¡RÅb0ôfß|Õ|„v=fÿ2Nís5ÏeìNSŠegŠY„vW0W`S:NñT	gÿv^Šbwzæ‚ŒvÓYìNÎNÙ›NW0WNvp0dk>NüRôœQl6–BSnfMÐ…Æ‰ýVÕlv^¨RaƒN‰Rÿ‚YœgbìNùRdknKNNt„vÝ‹ÿÙˆVïSýwO©‹bìN„výV¶Rb—4N%NÍ‘„vZÁwÿ"
+ flavor_kor.8.A:0 "bìNÅV‰˜©‹ÖNìNf‹vêñT„v«ŽýN0"
+ flavor_kor.8.B:0 "bìNÅV‰˜SÕ‹9e„UÖNìN„vƒXµQ0"
+ flavor_kor.8.tt:0 "å‹îOckêSýwÇŒRbûN¡R§YœQl„vðVƒX§!b(W16NªuTgûQ%§Y—gèTck§!„vœQlÛSqNMbýwûyd–0"
+ flavor_kor.9.t:0 "—gèTckw‹N"
+ flavor_kor.9.d:0 "z6eÇØšüRôœQl„vNánN­eÑSu‘ÿw?eœ^àeýwSvQ|bNg(WGdîrKN-Nÿ°s(WqS:g(W[ImKkeokjeong_Revolt_Province.GetName]rÑS0NMOT:N—gèTck„vW*Sÿncô‹=f`S+Y„v?QPRÿZwÆ–†NN'Y²œQlÿVËYSbWjŒÿR0u0WÿbìN(WSV0W„v	gsQ:gsQcks`BlbìN.^©RÖNìNYtqS:g0"
+ flavor_kor.9.opt:0 "bìNO‰|ŽxÙ›NœQl0"
+ flavor_kor.10.t:0 "ëX—g>m„vTw"
+ flavor_kor.10.d:2 "AS”NNªu+góASmQNªuRÿgœœ[Root.GovernmentName]þfÏu3zšR„v?eNS×S0R†NN*N°etQ?e»lâVSOëX—g>m„vqVÍT0ëX—g>m1uegêaNQg„vëXºNfRwìNÄubÿwÖNìNåNŽVv^^—ÝOˆR»lýV„v2Nís¾|ñ‚„vNèR0‹†6qÙ›NºN„vzúQMbr^©‹[Root.Monarch.GetTitle]8T³uÖNìNÛeQg÷^ÿFO=fÖNìN„v9ei—`ó`ÊSÁ‰ã‰ŒTùR2NísW0WÊS0WMO„vâe	g6R¦^„vÍSùRÿO©‹gœœ?eNS-N—gËz„v>m+Rô•„vidædôf:N‘˜Au0"
+ flavor_kor.10.opt:0 "1SÙ7h'T0"
+ flavor_kor.10.tt:2 "Nb	g6–BSmc1Y†N§R10%§!àVÚ‹¦^0\n"
+ flavor_kor.11.t:0 "ZQ‰NaoaÈp"
+ flavor_kor.11.d:0 "[Root.GetKorDHEEstate1]N[Root.GetKorDHEEstate2]„vRgkòTÏuNïSKcÞVÿrÑSb:N`O‰kbIm„v—e‰N0ÌS¹e†˜–ˆ’Nøvc1ùR¹e'YNSÿ>f6qÿ(W[Root.GetKorFactionReason]KNT‹N`òTÏuGSµu0R†NÅV‰˜1u‹s²RCgZ(WÌS¹eKNô•LˆOÁˆ³Q„v0Wek0bìN„vLeýVNšRck:NbìN„v…QèRÂˆa0R0kœU0"
+ flavor_kor.11.A:0 "=ec[Root.GetKorDHEEstate1]ÿ"
+ flavor_kor.11.B:0 "=ec[Root.GetKorDHEEstate2]ÿ"
+ flavor_kor.11.tt:0 "\n:N†N2–bkÙN‹NöNQ!kÑSuÿ‰˜ŒRbûN¡R§YFd1gZQ·u‰N§!0"
+ KOR_supported_faction:1 "*g=ecLeùR>mû|: §Y$VAL$%§!"
+ KOR_opposed_faction:1 "=ecLeùR>mû|: §Y$VAL$%§!"
+ KOR_purged_faction:1 "«ˆnm: §Y$VAL$%§!"
+ KOR_faction_reason_1:0 "NihÁyºN u·u"
+ KOR_faction_reason_2:0 "ÌS¹esQŽN?eVr„v‰Nº‹"
+ KOR_faction_reason_3:0 "ÌS¹e‰N:Y[Root.Monarch.GetTitle]R—Pw„vÞz‰N"
+ KOR_faction_reason_4:0 "N¹e†˜–ˆNSÃV®O±†NæSN¹e„vcƒ‰Š"
+ string_neoconfucians:0 "ëX—g>m"
+ string_yangban_admins:0 "2Nís˜RÚP"
+ string_yangban_scholars:0 "2NísfRw"
+ kor_manchurian_expedition:0 "án2mÜV"
+ desc_kor_manchurian_expedition:0 ":NÆQYÜVán2mÿ­‹ÃuN¶Ryr+RsQèlnxÝOè–ZP‹YŒRhQÆQY0"
+ leadered_peasant_rebels_title:0 "œQl"
+ leadered_peasant_rebels_name:0 "$COUNTRY$„vœQl"
+ leadered_peasant_rebels_desc:0 "×SY†N‹SëŒTÛ‚IRz6e„vœQl(WN*NïS`*S’V„v†˜üRNícÿzww0ÖNìNÅˆYˆVîT0:S­‹ÃuÿIN‰=f”^VekuQ0"
+ leadered_peasant_rebels_army:0 "œQlwIN›Q"
+ DEVELOPMENT_IN_PROVINCES:0 "TN&rTagöN„vwýNÑSUS¦^¾0R$DEVELOPMENT$ÿSVMR:N$CURRENT|Y$	ÿ"
+ string_start_korea:1 "§Ygœœ‹sg§!ÿýV÷S§Y'YgœœýV§!ÿŽN1392t^(W§Y™„äS§!N§Yf§!g„v«Rpp-N1uS†˜§YNgbBh§!ÿTðy§Y*YVy§!	ÿÑS¨R?eØSú^Ëz0gœœN§Y-NýVfg§!„vTwû|ÎNú^ýVOËY1S^—8^'tÆRÿ(W:N°e„v‹sýVßbšRýV÷Söeÿ*YVyT'YfNOY†N0ŒTR0ŒT0gœœ02N*N	ébÿv^(W)YPR„vWšRN	éb†NTw0\n\nN§Y-NýVfg§!„v'tÆRTwû|Nôvcíu0R†N17Nªu-NöSfgmp¡Ngœœ(WÙNsQû|-N„vÎN^S0WMOmNNv^Óumg0jO:N§YQYe§!„vý–wÿgœœÆ‰-NýV:NgœœNLu„v-NÃVÿwgœœê«Ž(WÐg›N¹eb—uóÔk-NýVôf R-NýVSðyKN:N0S-NNS00(WÖNìNwegÿ-NýVÆ‰gœœ‹sg:N0N¹e<yêNKN¦00êS‰fgÍN6q§Y)Y‹T§!NbRVÿôucÙNZWúV„vËu&^ùR°eu„vgœœ‹sg„vuXRwŠósQÍ‘‰0\n\n§Ygœœ‹sg§!ßu»lŒvt^åNegb1S‡˜0N015NªuRÿgœœÎN§YsYw§!Kb-N:YÖS†N¹†u„v§Yj•ÎW§!ŒT§YmQG•§!ÿßuN†NÊNåe„vgœœ0W:S0fR=gN`nomN(Wì„ÃRÑSUS0yr+R=f1446t^¨cLˆ†NŒ‡e0øvÔkwIlWRÿŒ‡e„v¾‹¡‹âefŽNfR`NmNôfTgœœí‹ÿO—Vgœœí‹„vO(uôf:N¿O)Rÿ©‹ôf^'Y„v>yO6–BS—VåN–û‹fR=g‡e,g0œQN0kpoƒNÕl‹V‚uIr†˜ßWÖS—V†N>fW„ÛUSÿv^N'Y›R0WVUS0WtŒågN°‹UV0\n\n6qwÿgœœ‹sg…QYOçeXR(WNwZÁw0(WýV…Qÿgœœ„vœQlÍN6qYŽN+ðVKN-Nÿ‚YœgNÇ‘ÖSªcËeˆNåN9e„Uÿ§YœQlwIN§!ŒTz6eN³1Sý	gïSýwb:Nî•˜˜0dkYÿ§Y2Nís5Ïe§!KS¡r(WˆV'Yz¦^NÝOcâVÓuNôÿFOvQN„vÂˆÕuòT6qVËY>f°sÿ–öeý	gïSýwrÑS§Y>mû|·u‰N§!0\n\nYè„vZÁwmNNS0S¹e˜VŠVNw‹Yb„v§YsYw§!ÏeKS¡rÖNìN°s(WYŽNRÂˆKN-NÿNæeÖNìN«ˆ:V'Y„v†˜–ˆNbßuNÿeQµOgœœ„vLˆ¨RïSýwˆVëV1SOÑSu0T7hÿNwmùR¸S„v§Yåe,g§!ÿ§Y'YT§!N*geg„v§YU^œ^S›Q§!øv’NLeùR0gœœÅV‰˜ÝOcf‹Õ`ÿåN2–bkßuN„våe,gS¿R›RèÇír„z„vgœœwmáS0gTÿ‹†6qgœœY(W§Yf^ýV§!„v‡^kƒKNNÿFOgœœýVT‰=f2U’‘†NèT™Ÿÿ±ïS1S'Yxy4N4Y†Nÿ"
+ string_start_jurchens:2 "Il0Wñmåw>eûN§YsYw§!TèßuN„vqSi–012Nªu„vsYw–™†˜§YŒRœ˜?–¨šSb§!þfNßusYwTèwuQÍS§YË§!ÿú^Ëz§YÑ‘§!gÿ=f:NÑ‘§Y*YVy§!0§Yf§!gN^gsYwQ!kTwÿÇ‘ÖS†NªcËeåNnxÝOÖNìNçuíu(W¡l	gûNUO>mû|ZP'Y„vÅ`µQNøv’N—e‰N0fg:NdkIu†N§Yú^ÞTsYw§!ŒT§Ywm‰sYw§!0\n\nú^ÞTsYw‚YÊN(WsYwTè-Ng:N:V'Y0ÖNìNŒTwm‰sYwN7h=fšRESlÏeÿ-NýV„vßu»l6R¦^ŒTòTfR`ó`ck(Wbaba0W.OeQÙ*N0W:Sÿv^×S0RSV0WWl‹s„våb²b0\n\nKS¡r×S0R-NýVßu»lŒT`N×O„vqVÍTÿFOšRES„vsYwºNÍN6qÝOYuNw'YèRS¹e0Î‘ºNsYw0„v.OßuŒTSfk‡eS0§Y!•=O§!0§YkòT§!ŒT§Y‘WGY§!Ir8ngrèÏeÝu^—àeýwKNˆÿÖNìNÞz‰N„vùRKbd–†N|VdkÿØ	gøvùRdRËz„v§Y0t&O§!ºNŒT§Y<S+Yk§!ºN0\n\n§Ygœœ§!öe8^NsYwNŒTÿÖNìNgÑMbÎNú^ÞTsYw„vN=e-NTv^NS„v§YmQG•§!ŒT§Yj•ÎW§!2N*NwýN0sYwŒTgœœ†vIY§Y•‹vqS§!:N1WqSÿv^Ný²‹:NêS	gêñTMbýwŽ³1WqS0\n\nsYwŒT§Y™„äS§!„vsQû|ÍSYàe8^0öew=fßvËSÿöew=f‰kLeÿ2N*NèÏeKNô•Ïu8^ZZåNéTúV?e»lËu&^ÿ‹sg·u‰NmNˆV8^Á‰0§YNQOciRWWl§!ßu»lN„v§YÑySl§!™„äSºNòTÏu(WNèTwÿ‚YœgN RåNO6RÿÖNìNïSýwOŠbîvIQ•bTsYw0W:S0\n\nsYw„vWl‹sìNñmR0W`õV'YÑ‘„vSg0‚YœgÖNìNýwYKQgèÏeKNô•„vRgkÿv^S™„äSºNÒbKNè•YÿÖNìNmN¸‹O(W°e†˜–ˆ„v†˜üRNQ!kTwÿSb%fgÿQX.°e„v²‹T0"
+ chahar_area:0 "ßRÈTS"
+ cicigar_area:0 "PŸPŸÈTS"
+ flavor_oir.8.t:0 "ÆQvVS"
+ flavor_oir.8.d:1 "ætLRÛVè)TƒnTÿþfÏu„vbXTèK„R»yúQ»SÿµNu†N°e„v²‹T0vQ-NÆQvVSèg:N:VÛvÿ(W)YqSåNS:YÖS†N'YGr0W:S(ujOê¶Rgr:W0îvMRÿSNnZiÖNìN=f&TOb:N[Root.GetName]„vZÁw0"
+ flavor_oir.8.a:0 "FO?aÖNìNýwåNŒT:N50"
+ devastate_china_tooltip:0 "óS`S†˜N*NMOŽN§Y-NýV§!'Y:S0ÑSUS¦^…Ç§Y25§!NN^SŽN[Root.GetName]„vwýNÿOvQRƒŸ^¦^…Ç§Y20§!0"
+ establish_tributaries_tt:1 " *NýV¶R=f§Y[Root.GetName]§!„vg!ýV"
+ xilin_gol_area:0 "!•—gíÒR"
+ restore_yuan_tt:90 "[Root.GetName](W§YNSS§!0W:SóSåb	g§Y20§!*NwýNv^ŒRb8hÃVS0"
+ reconquer_china_tt:0 "[Root.GetName](W§YNSWS§!N§Y‰WS§!0W:SóSåb	g§Y40§!*NwýN0"
+ mongol_ca_tt:0 "[Root.GetName](W§Y-NšN§!0W:SóSåb	g§Y30§!*NwýN0"
+ mongol_persia_tt:0 "[Root.GetName](W§Yâl¯e§!0W:SN§Y|TWÊs§!0W:SóSåb	g§Y30§!*NwýN0"
+ mongol_anatolia_tt:0 "[Root.GetName](W§Y‰R³uXb)RšN§!0W:SN§YlšÀNÌ‘KQ§!0W:SóSåb	g§Y40§!*NwýN0"
+ mongol_tibet_tt:0 "[Root.GetName](W§Y‰Ï…§!0W:SóSåb	g§Y10§!*NwýN0"
+ mongol_tatars_tt:0 "[Root.GetName](W§YN'k'YIƒŸS§!0W:SóSåb	g§Y10§!*NwýN0"
+ mongol_yam_tt:0 "(W§Y|TWÊs§!0§Y-NšN§!0§Y™„äS§!b§YNSS§!0W:Såb	g„vwýN-NóS§Y3§!*N	g§Y3§!µu8f-NÃV0"
+ mongol_rus_tt:0 "[Root.GetName](W§YÄOW¯e§!0W:SN§Yœ^X<SšN§!0W:SóSåb	g§Y30§!*NwýN0"
+ PROV4664:1 "‘&O%f"
+ PROV_ADJ4664:1 "‘&O%f"
+ PROV4665:1 "‰^yrÈT"
+ PROV_ADJ4665:1 "‰^yrÈT"
+ PROV4666:1 "ôTSN†"
+ PROV_ADJ4666:1 "ôTSN†"
+ PROV4667:1 "ôTfVLNÉb"
+ PROV_ADJ4667:1 "ôTfVLNÉb"
+ PROV4668:1 "?–œQm"
+ PROV_ADJ4668:1 "?–œQm"
+ PROV4669:1 "ió—qS¾"
+ PROV_ADJ4669:1 "ió—qS¾"
+ PROV4670:1 "LNÉbyr"
+ PROV_ADJ4670:1 "LNÉbyr"
+ PROV4671:1 "ÈT‡UU"
+ PROV_ADJ4671:1 "ÈT‡UU"
+ PROV4672:1 "SS0tþV"
+ PROV_ADJ4672:1 "SS0tþV"
+ PROV4673:1 "LNàsFzl"
+ PROV_ADJ4673:1 "LNàsFzl"
+ PROV4674:1 "ÑySl"
+ PROV_ADJ4674:1 "ÑySl"
+ PROV4675:1 "g3uþV"
+ PROV_ADJ4675:1 "g3uþV"
+ PROV4676:1 "OŒTNbVe"
+ PROV_ADJ4676:1 "OŒTNbVe"
+ PROV4677:1 "Yt‘N"
+ PROV_ADJ4677:1 "Yt‘N"
+ PROV4678:2 "ÈTÉbŒT—g"
+ PROV_ADJ4678:2 "ÈTÉbŒT—g"
+ PROV4679:1 "“^Ï‚äSS"
+ PROV_ADJ4679:1 "“^Ï‚äSS"
+ PROV4680:1 "NbÈTl"
+ PROV_ADJ4680:1 "NbÈTl"
+ PROV4681:1 "LNRÖv"
+ PROV_ADJ4681:1 "LNRÖv"
+ PROV4682:1 "™„kwmSWl"
+ PROV_ADJ4682:1 "™„kwmSWl"
+ PROV4683:1 "?–Sðl"
+ PROV_ADJ4683:1 "?–Sðl"
+ MJZ_ideas:0 "sYwtõV"
+ MJZ_ideas_start:0 "sYw.Oßu"
+ MJZ_ideas_bonus:0 "sYwÎ‘ÃV"
+ sons_of_the_mountain:0 "'YqSKNPR"
+ sons_of_the_mountain_desc:1 "9hncsYwºN„v`YúW^yÝ‹ÿ,rNMOsYw‹sPR=fESOO(W^“^Ì‘qSNÿgœœºNðyKN:N‹v4YqS	ÿ0àVß˜(u†NœUJž0NNœgžRw`	g«ŽURsY^y„vTãN0\n\nÙMO‹sPR„vTãNg:NŸq‰`bìNESOO„vî†RƒKN0WÿNPNŽNó‰kNn0WÝO²bƒRMQ×SLeºNµO­ˆ0"
+ jurchen_pigtail:0 "«ÑS"
+ jurchen_pigtail_desc:0 "NãNNãN„vsYwºNýåb	g«ˆðy:N«PR„vìryrÑS‹WÿSMRb—„v4YÑSCRIQTÿvQYO„vèRNbb«PR0Ù	g©RŽN(WY7h„vsYwºN-NùW‰QúQNÍyDQVKNÅ`0"
+ jurchen_border_skirmishes:0 "¹†u²Qz"
+ jurchen_border_skirmishes_desc:1 ":N†Nôu²bbìN„vìrËzÿbìN«ˆëNbkN!k0WÝO²b¹LuMQmøv»„vIlÏeŒT™„äSºN„vÛIe0¹Lub‰NŒTàepe„v…Qè²QzUR²wúQN*Nåb	gg¦^ìrËzèK„ŒTäNºNP`ç`„vbëX„výV¶R0"
+ jurchen_many_wives:0 "»Y¾Yb²"
+ jurchen_many_wives_desc:0 "1uŽNÖNìNS'YÏ‘„vÔZƒY³ueQT«R„v>NªcÿsYw5ÏeÎNN:S¥cÿfÖNìNVg'YN„vjo(WçubºN0"
+ jurchen_foreign_service:0 "án2mYäR"
+ jurchen_foreign_service_desc:1 "bìNNôvuIm(W»ES'Yf„v4–qVKNNÿÖNìNÏu8^Õ‹þVùRbìNËe RqVÍT0NbkN*NsYw‹slQ(WfggyVgô•fR0R†Nb‰N„vz‚=g0"
+ jurchen_warlords_generosity:0 "waha„vsYw5Ïe"
+ jurchen_warlords_generosity_desc:0 "sYw5ÏeOÙuˆNÖNºNSìbtY¶–0»Y¾YŒT0µN(W…Q„vbYa—<yiregb—VÖNºN„v=ec0ÖN'YÏ‘„vPRãU¹R¸‹ÖNÐc›O'YÏ‘°eZeg8TVYýV?e‰ŒTjo(W„vÛSw0"
+ the_jurchen_banners:0 "sYw×e›Q"
+ the_jurchen_banners_desc:0 "S8ngrèK„„v›Q–Í‘ÄubN=e×S0RSÍ‘v^<P—VOuç`„vsYw×e›Q0"
+ the_later_jin:0 "TÑ‘"
+ the_later_jin_desc:1 "án2mºN„výV¶R9húWýwYý¯n0R(W12-13Nªuöeú^Ëzÿ(W™„äSVgKNMRNôv(W-NýVS¹e`SncINüR0WMO„v'YÑ‘0wÙ°eú^Ëz„vÑ‘gSŒbûR:gO²ZŽHQVy„vVgbéuÿb`YŽVåe„vcƒIQ0"
+ manchu_chinese_learning:0 "fR`NIlM|"
+ manchu_chinese_learning_desc:0 "bìN„vfRwòTÏuSÏPYRPRNbW„0YRPRuQÕl0ŒTÜY*YlQNbW„0mQì—0IruQfNûÑ‹bán‡eÿ©‹5ÏeìNfR`Nv^¾|uQÕl0"
+ seven_grievances:0 "N'Yh`"
+ seven_grievances_desc:1 "Ïut^=tgÿán2mºNòTÏuïye†NN•2NùRIlºN„vÇNh`nUSÿN.VêSýwÇfk›R¨cûvQgØšßu»lwMbýwŒRb„vnUS0"
+ QNG_ideas:0 "'YntõV"
+ QNG_ideas_start:0 "'Yn.Oßu"
+ QNG_ideas_bonus:0 "'YnÎ‘ÃV"
+ expand_the_banners:0 "ibEQkQ×e"
+ expand_the_banners_desc:0 "Ç©‹IlºNŒT™„äSºNÛeQkQ×eÿN*Nž^'Y0:V`Nôv¥c,T‹TŽN'Yn‡v^„vYlÏe›Q–òT6qÞ‹u0"
+ qng_bogda_khan:0 "ZS<h¾Wl"
+ qng_bogda_khan_desc:0 "Nfg*b6qNTÿ'Yn‡v^ùRŽNùR0î†Ïe0„v‡eS‡eQN±b	gNNNëk„vŒ˜Q†ÿNIN¨RûRŒb:gOSÖNìNteTeQ^ýV0l‹‚Y'Yn‡v^(W™„äSºN-NŒT(WIlºN-NN7hÿ·ƒ—V†NT‡v^øv‰|<O„vðy÷SÿZS<h¾WlÿfzfWl	ÿ0"
+ qing_viceroyalties:0 "I`cw6R¦^"
+ qing_viceroyalties_desc:1 "bìNSMRföegÅNÅNsQèlS¹e¹2–„vI`cw6R¦^ RåNibEQÿú^Ëz†NS+TkQ*N8^¾‹I`cwLwMO0–0WµmÖv-NýV'Yè„vLw˜RSOû|0I`cw(W–0W…Qåb	gïSÂ‰„v›Q¡RŒTl?eCg›RÿEQSV‡v^»lN„v0W:S•˜RÿÎNwŽrS†N^ýV„vLˆ?eû|ßu0"
+ the_ten_great_campaigns:0 "AShQfkŸR"
+ the_ten_great_campaigns_desc:1 "bìNùR-NýV„vVg©‹±›NuIm(W^ýV¹N„vºN+eÖS†NÖNìNNM‘„v0WMO0ÅV‰˜ÑS¨RNû|RbyVegb`YùRÙ›N†˜W„vßu»lÿS'Yn„vCg›RibUS0RbìN„vLeºN«ŽN0"
+ OIR_ideas:0 "ætLRtõV"
+ OIR_ideas_start:0 "ætLR.Oßu"
+ OIR_ideas_bonus:0 "ætLRÎ‘ÃV"
+ fearsome_warriors_of_tumu:0 "W(g`ÇR"
+ fearsome_warriors_of_tumu_desc:0 "ætLRºN=fúQr‚NäNºNuOu„v‘šuQÿÅd•)R(uêñTOŠ„v:g¨R'`ž±peÏ‘NÜ'YŽNÖNìN„vekuQè–0IƒŸSN.Oeg„vlšDŽðXSOŠbP`ç`ôv¥c:ReQLeºN„vÃVÿ"
+ the_four_oirats:0 "ætLRÛVè"
+ the_four_oirats_desc:0 "ætLRÛVèTwßvS‰™„äSºNTwT(WNw0Twßv1uÆQvVSèÿðuW¯eè	ÿ0WSHbyrè0jgS=OyrèÊSŒTUxyrèÄubÿŽN1399t^–™!kTwTÿv^ÎNdkÄub†NbrNïS4x„vTwßvÿO—V:V'Y„vætLRýV¶RúQ°sŽN-NšNIƒŸS0"
+ OIR_great_khans_legacy:0 "'YWlWÎ˜"
+ OIR_great_khans_legacy_desc:0 "bìN„vÏe²-N	gˆVYºNýØ°‹—VbìN(W'YWl†˜üRNÖS—V„vñ‚Ä–ŸRéu0ÖNìN^gýw¾0RÙ7h„vØš¦^v^çub'YWl„vWµNÿFO=fÙ!kÿ'YWl”^å‹=fætLRºNÿwN=fN*NN™„äSºN0"
+ todo_besheg_script:0 "XbÒV‡e"
+ todo_besheg_script_desc:0 "XbÒV‡eÿ0nZi0„vWRÍk	ÿ(W™„‡e„vúWNxNÛLˆ†NîO9eÿO—VƒRýwY:SRkSÉbyrãSí‹-NNb	gí‹ó—ÿv^Nôf¹Rfl™Qµh‡eŒTÏ…‡e0XbÒV‡eùRŽN9e„ULˆ?eÊS·ƒÖSegê»ýVŒTD–¸^„v‡eSåwÆ‹	gˆV'Y„vžXÊv0"
+ defiance_of_the_dzungars:0 "NhœšNoš„vÆQvVSè"
+ defiance_of_the_dzungars_desc:0 "ÆQvVSèÿ™„äSí‹-Na:N0æTKb0ÿ=fætLR-NgäNºNïSOu„vèK„0ÖNìN:NbìN„vLeºNNbç`h`	g RÿOKYb0RgTN*N7uºN0sYºNŒTiRåzÿwNOTYýVT‹s•bM–0"
+ KHA_ideas:0 "™„äStõV"
+ KHA_ideas_start:0 "™„äS.Oßu"
+ KHA_ideas_bonus:0 "™„äSÎ‘ÃV"
+ ikh_mongol_uls:0 "mN¢R™„äSNQœ`"
+ ikh_mongol_uls_desc:1 "«Ž:Ng¯uckŸSR„v™„äSºNÿbìN„v0mN¢R™„äSNQœ`0ÿ¦NsS'Y™„äSýVÿêÆ‰:Nb	T`Wl„vO'Y^ýV„v,rNçubw0sS¿O:gO:n+ƒÿbìN„vºNlÍNOÕ‹þVHeÿN'YWl„vŸRNv^±RðyÖN„vWµNÿSþfÏuË–„v™„äSWlýV„v†˜WQ!kNßu0"
+ northern_yuan:0 "SCQ"
+ northern_yuan_desc:2 "(WAS	NNªuÿýVÅVÈpWlVg†N-NýVv^ú^Ëz†NCQg0Töe±Rðyb	T`Wl„v'YWl4YTˆŒT-NýV‡v^„v4YTˆÿCQgþf	göe«ˆðy:N'YWl^ýV0KS¡rgÈu«ˆ'YfûQ%ÿwƒRSbìNP–6R(W™„äS0W:SÿCQg„v°‹ÆVÍN6qYuXRÿåNÊSÿGP‚Yöe:gAQ¸‹Q!kî•Ÿ-NŸS„vÎ‘ÃV0"
+ ghostly_horses_of_the_plain:0 "™„äSÁ”‘š"
+ ghostly_horses_of_the_plain_desc:0 "™„äS‘šuQ„v^yZ(Wte*NNLuýkk	gT0bìN„vLeºNO(Ww0RÜYÞ˜lb„vSWöeOàVP`ç`w²˜–bÿÅbçVÙïSýwasTNwbìN‘šuQ„vÛûQÿ"
+ yams_of_the_great_khan:0 "'YWlÙzd"
+ yams_of_the_great_khan_desc:2 ":N†NnxÝO©‹áOOýwYýN™„äS›Q–ÿb	T`Wlú^Ëz†NN*NšÙzû|ßuÿÏk”–30-60lQÌ‘1S¾‹N*NšÙzÿ:NáOOÐc›Oß˜ir0OO¿RÊSbcXNlš9S0ÙO—VáOOýwYVrlšÂrTYÿwàe—ÅbÃV²u³R„vlš9SI–xvQvï¦^0)R(uåNNKbµkÿO—VbìN„vž^'Y„v0™„äSŒTs^0^ýVýwYKQgTäRî•˜˜ÿóS‚föeýwY0"
+ mongolian_mobility:0 "™„äSV:g¨R"
+ mongolian_mobility_desc:2 "bìN„vÏkTëXuQ8^ýOÝO	g	NbÛV9SlšÿÙO—VÖNìNïSåN(WPW‘š²u³Röeôfbclš9SÿÙ7h1Sýwpeåe…QØšMRLˆwN—Ote0dkYÿëXuQ„v˜YPW‘šÇlšvYŒTlš‰w:NÖNìNÐc›O†Nß˜ir¨PYÿO—VbìN„v›Q–ÔkvQÖNNbŒ„v‡efýV¶R„v›Q–ôfN¹RfÍVe™(c™0ÙObìNýwY‰Œg0WbÜwbìN„vLeºNÿ(WÜÔkÖNìNó`aŒ„vôfíw„vöeô•…Q†‰ÖvÊ`ºNb—ïy„v†˜W0"
+ MNG_kheshig:0 "=`›…"
+ MNG_kheshig_desc:0 "=`›…þf=f™„äS'YWlKb•^N:V²R„vykS›Q0ÖNìN„v¥císºNSçuíuÝO²b™„äS†SûNïSWlÿ¹eV=f‡sôvzeQNbÏe²Nb„vLe›Q'Y^KN-Nÿ"
+ CHG_ideas:0 "ßRTðStõV"
+ CHG_ideas_start:0 "ßRTðS.Oßu"
+ CHG_ideas_bonus:0 "ßRTðSÎ‘ÃV"
+ the_mountain_khanate:0 "qS-NWlýV"
+ the_mountain_khanate_desc:0 "ßRTðSWlýVMOŽNôTSŽUÀNVnŒT)YqSqS	KNô•0ÙGrW0W%Nw‘wàeÅ`ÿFObìN„vÏeºNïSåNSvQSVjOfkhVÿÍSûQeQµOKNLe0"
+ sons_of_chagatai:0 "ßRTðSWlø‹PR"
+ sons_of_chagatai_desc:0 "°sûNßRTðS'YWl„vNˆ	ïSN¯nóßRTðSWlÿsSb	T`Wl„v!kPRÿÖNþfÏuOXbdk0Wÿú^Ëz†NN*N:V'Y„v™„äSTçuýV¶R0‹†6qÙ*N^ýV°s(WRÂˆ:NßRTðSWlýV0öSSŒWlýVÊS³l-N	NèRÿàV:NNˆ	„vsQû|ÿ°sûN'YWlÍNùRÙ›N0W:Såb	g:V'Y„vÕlt±Rðy0"
+ CHG_chagatai_literature:0 "ßRTðSí‹‡efR"
+ CHG_chagatai_literature_desc:0 "Nè'YIƒŸSN„vßRTðSí‹jO:N™„äSßu»l¶RÏe„v`ó`ŒTtõV„v‹SOÿ^Ûl0W:NÜó^(g?Q^ýVNbO(u0bìNÅV‰˜Ðc!PO(ubìNVyHQ„ví‹ŠÿO—VßRTðSí‹‡efR.Oßuôf RfÛv0"
+ CHG_border_wars:0 "àeKS„v¹Lub‰N"
+ CHG_border_wars_desc:1 "(W-NNS^ýVÿ^(g?Q^ýVÿLNyQ+RKQºNŒTætLRKNô•ÿbìNb—4NNwôuc¹†u„vNÈa—e‰N0bìNËYÈuÝOcf‹Õ`„vëXuQ	gˆVY:gO(Wb—e-NèxÃuêñT„vŽbýwÿÙÞ‹u†NN*N*Nq™Ïu™l:W„vbëXÿÖNìNòTÆQY‹YÍ‘°e:YÞV'YWl„vWµN0"
+ CHG_constant_scheming:0 "5Ïe„vÆRŒ"
+ CHG_constant_scheming_desc:0 "(WßRTðSWlýV„vø‹Y‹sPRÿSV0W5ÏeÿÎW^ŒTèK„KNô•„vN­eCg›R—e‰NòTÏuµNu†NN*N1uØš¦^ŸqÃu„v4–Œ¶RŒT?e»l¶RÄub„výV¶R0‚YœgbìNýwYŠbbìN„v‰N5T>e(WN¹v^SÙÍyýwÏ‘(uŽN…ŠbìN„vLeºNÿ±ùRbìN„vºNlegô‹S=fN*NèT'Y„vyó—0"
+ KOR_has_factional_upheaval_tooltip2:1 "‹NöN§Y,r	N!këXxy§!òTÏuÑSu"
+ is_rivalled_by_root:0 "«ˆ§Y[Root.GetName]§!¾‹:N¿RLe0"
+ have_at_least_7point5_more_discipline:1 "åb	góS§G107.5%§!­‹Ãu¦^"
+ TOTAL_OWN_AND_NON_TRIBUTARIES_DEVELOPMENT_AT_LEAST:1 "ê«ŽN^—g!^SýV„vI`ÑSUS¦^óS:N$VAL|Y$ÿSVMR:N$CURRENT|0Y$	ÿ0\n"
+ TOTAL_OWN_AND_NON_TRIBUTARIES_DEVELOPMENT_LESS_THAN:1 "ê«ŽN^—g!^SýV„vI`ÑSUS¦^NOŽN$VAL|Y$ÿSVMR:N$CURRENT|0Y$	ÿ0\n"
+ new_mandate_holder:0 "°e‡vg"
+ desc_new_mandate_holder:0 "Í‘ú^)Ygéy^TÿbìN„v‹sgñm×S°eãl„våb4b0"
+ waging_war_for_china:0 ")Y‹TKNb"
+ desc_waging_war_for_china:0 "bìN„vãlPNŽNÁ‰0RbìN:NßuN-NNS^ýVv^Í‘:YþfÏu1Y»S„v†˜WwZPúQ„vªR›R0"
+ ming_crisis.8.t:0 "qS:gˆm"
+ ming_crisis.8.d:0 "–NwS)Y‹T0NÙu†N[emperor_of_china.GetUsableName]ÿbìN‹sg„vèR‹S›R–KNˆm†N0sS¿OMR¹eÍN	gÍ‘Í‘cbÿbìNïSåNSßu»l-NNS^ýV„vÒkR‘ogÙu[emperor_of_china.GetAdjective]g[emperor_of_china.Monarch.GetTitle]0"
+ ming_crisis.8.a:0 "?aÖNìNánn™ÙogÒkR‘0"
+ kor_reforms_of_third_literati:0 "ëX—g>m9ei—"
+ desc_kor_reforms_of_third_literati:0 "©‹gœœb`YCQl„vNû|R<rßu„v9ei—ÿSìb9eÛyY„v?eœ^åNÊSžX RºNl„v6eeQÿòTÏu«ˆžRËe†N0"
+ opinion_KOR_supported_war_for_north:0 "=ecmQG•sYwb‰N"
+ evenk_ideas:0 "‘)nKQtõV"
+ evenk_ideas_start:0 "‘)nKQ.Oßu"
+ evenk_ideas_bonus:0 "‘)nKQÎ‘ÃV"
+ evenk_family_brigades:0 "lÏe›Q–"
+ evenk_family_brigades_desc:0 "¸‹Y‘)nKQºNuIm(WlÏe›Q–-NÿÖNìN^—8^†Nã‰å‹0W:S„vW0WŒTÎ‘uß˜ir0ÖNìNýwY(Wgv`±R„v¯sƒX-NuXRÿv^‰Œg0WzŠvQ†˜W0"
+ evenk_reindeer_herds:0 "ošžju²"
+ evenk_reindeer_herds_desc:0 "‘)nKQ>egrošž„vZPÕl©‹bìNïSåN»SÜ¹e²NfÛk®v0Î‘uß˜irŒTFUÁTÿv^N(W„gbbìNEeaN„v+.vofÂ‰„vuXR—e‰N-Nåb	g³Y„vDn0"
+ event_self_sufficiency:0 "êÙuê³"
+ event_self_sufficiency_desc:0 "‘)nKQïSåN(WûNUO0W¹euXRÿv^NòTÆQY‹YTYýVºN.OˆcÙ›NŽbýwÿObìNýwY8T6evQÖNºN‡eQ‘)nKQ„vuIm¹eV0"
+ evenk_siberian_resources:0 "‰=O)RšNDn"
+ evenk_siberian_resources_desc:0 "‰=O)RšNÔ‚ŸSŒTˆ”öS—g„vê6qDn:Nú^.¸‹YN‰Ðc›O†NPg™eÿÃOÛ†NÎWG•„vÑSUS0"
+ evenk_mongolian_deel:0 "™„äS·VÒRˆ"
+ evenk_mongolian_deel_desc:0 "(ubìN„v®vIƒ²Nbc™„äSˆPRÿ·VÒR	ÿÿ©‹bìN(Wz4bNN™„äS‹slQôf Røv<OÿïSObìNÛbôôfY„v™„äSuQëX0ÖNìNb²Óu–0Weg:NbìNHe‹TÿO—VbìNïSåN)R(uÖNìNùRØNbìN„vLeºN0"
+ evenk_love_of_the_forest:0 "íp1rîh—g"
+ evenk_love_of_the_forest_desc:0 "¡l	gºNÏPbìNN7h†Nã‰ÙGrW0W„vîh—g0bìNýwYÅw‰RY—0WLˆ¨R0bìN„vS†˜òTÏufRO†NzŠvQÖNºNO‰f0W²‹:N=fqSi–„v0WbVÿbìNïSåN)R(uÙN¹p(Wb—e-N`SncO¿R0"
+ evenk_new_ways_to_hunt:0 "érs°eÕl"
+ evenk_new_ways_to_hunt_desc:0 "Ç(ubìN„v®vÛkŒTošž²NfúW,gkphVÿbìNÑS°s†NérsŒT(Wb—e-N·ƒÜw„v°e¹eÕl0NbìN„v.OßuV­røvÔkÿkphVSzôfÜÿv^NÔkbìN„vRwQýw.bôf'Y„v2O³R0"
+ PROV4684:0 "ýl…h<SaS"
+ PROV_ADJ4684:0 "ýl…h<SaS"
+ PROV4685:0 "aSÉbr^¾"
+ PROV_ADJ4685:0 "aSÉbr^¾"
+ PROV4686:0 "ÃWúWôT¯eþVyQ"
+ PROV_ADJ4686:0 "ÃWúWôT¯eþVyQ"
+ PROV4687:0 "O›súWšN"
+ PROV_ADJ4687:0 "O›súWšN"
+ PROV4688:0 "ôTÉbôT"
+ PROV_ADJ4688:0 "ôTÉbôT"
+ PROV4689:0 "‘(g"
+ PROV_ADJ4689:0 "‘(g"
+ PROV4690:0 "O^ÆY"
+ PROV_ADJ4690:0 "O^ÆY"
+ PROV4691:0 "?–¯e"
+ PROV_ADJ4691:0 "?–¯e"
+ PROV4692:0 "þVSÖv"
+ PROV_ADJ4692:0 "þVSÖv"
+ PROV4693:0 "KQÌ‘Å–"
+ PROV_ADJ4693:0 "KQÌ‘Å–"
+ aqmola_area:0 "?–KQ«ƒÉb"
+ aqmola_area_name:0 "?–KQ«ƒÉb"
+ aqmola_area_adj:0 "?–KQ«ƒÉb"
+ JAP_siberian_intervention_tt:0 "»lNNb	gMOŽN§YN‰=O)RšN§!0W:S„vwýN·ƒ—V0§Y‰=O)RšNAucƒ§!0îOckv^(W§Y10t^…Q§!ÙuˆN‚YNHeœgÿ\n,g0WFUÁTµNúQîOckÿ§G+15.0%§!"
+ desc_JAP_siberian_boom:0 "(W‰=O)RšN„v•bD8TV†N¸‹YØmÑ‘wŒT’Qi–¶Reg0RÙGr0W:SÿÐcØš†NuµNHe‡s0"
+ desc_JAP_gokaido_stations:0 "(W†˜W'YYpeIN‰SïN¾‹Ëz¿R:WNÅN©‹ÅeLˆôf R¿O)RÿmN©‹-N.YCgZS0RY0W0"
+ desc_JAP_sankin_kotai_modifier:1 "(W–™ý¹R³u'YÏ‘NÏu8^²Nÿf„v†˜INO—V?eœ^(WN!k'`YtYy˜Y²N®‹HhNŒš‰1SŸq0"
+ desc_JAP_social_hierarchy:0 "(WbýVƒX…QÿÏk*NºNý†Nã‰êñT„vMOnNb(W0"
+ desc_JAP_indochinese_trade:0 "åb	g?eœ^1gpS¶rÅbÝO„vFU9‚ïS«N×Syr+R„vÝO²bŒTyrCgÿ©‹ÖNìNÛLˆ„v8fôfSÎ˜i–0"
+ desc_JAP_trade_hegemon:0 "býV„våTFUN–™HSNcÿbìN^'Y„vFUN)RÊvãNhˆM^hQt0"
+ desc_JAP_cadastral_surveys:0 "ŒågaNô•*g3u¥b„v0µNÙu?eœ^&^eg†N°e0n0"
+ desc_JAP_currency_regulations:0 "ÅbÝO7>kO—V(WhQýV=eôc°e„vú^¾‹åTzôf R¹Rf†N0"
+ desc_JAP_sengoku_contender:1 "(Wø‹'YTô•ÿbIròT«ˆÁ‹fïSû«ŽvQRÿ>TˆžR›R«ˆ†˜…QY^Ûl²‹ïS0"
+ ming_crisis.9.t:0 "ËNeQ[From.GetAdjective]‹sg„vqS:g"
+ ming_crisis.9.d:0 "[From.GetAdjective]g‡v^1Y»S†NùRS¹e„vµc6R0œQl†˜–ˆNgêbZww†N'YybÛS›QŒTAmÇRÿv^µc6R†N[CSH.Capital.GetCapitalName]ÿ(Wdkú^÷Sðy^0[From.GetAdjective]gqS:g„vnm°sckÙubìN&^eg†NN*NÝusO„v:gOÿbìNïSåNP:gŒcµc-NýVS¹eÿwN‚YœgNRz˜)R0öe:gbŸq„vÝ‹ÿÙôfSb:NbìN±Rðy)Y‹T„v‚ðS0"
+ ming_crisis.9.A:0 "èNblšÿÆQYVbÿ"
+ ming_crisis.9.B:0 "ØN0RbìN‰meQvQ-N„vöeP0"
+ empire_of_china_nomadic_border_events.3.t:0 "[From.GetUsableNameCap]gP`ç`8ngrZÁw"
+ empire_of_china_nomadic_border_events.3.d:0 "[From.GetAdjective]gãlKN-NAm.ONwNán„v(`Šÿcðy[From.Monarch.GetTitle]—f1VàeýwÿàeÎNYnbýV„gb„vZÁw0–NwbýVžR›RçuíužX•ÿÙ›N(`ŠmN¿RÅV4l¨m9‚Øš0"
+ empire_of_china_nomadic_border_events.3.opt:0 "bìNÅN—Ir…VÖNìN)Tƒn0"
+ empire_of_china_nomadic_border_events.3.tooltip:0 "§Y[From.GetName]§!ÿ\n§Y¡l	g2–Y„v8ngr¹†u§!Œp¾–Û¦^¾0R§R10%§!0"
+ empire_of_china_nomadic_border_events.4.t:0 "[From.GetUsableName]g÷^w–eQP`La"
+ empire_of_china_nomadic_border_events.4.d:0 "[From.GetAdjective]g[From.Monarch.GetTitle]b—ùR>NýVNNùRŽNbýVZÁw„vP`LaÅ`êuòTÏuæT=eóSÌuÿàe›Rôuc[From.Monarch.GetHerHis]CgZ0bìN‰RÒc„vô•Œ¥bðyÿ„˜¡‹NánˆVëVSOrÑSbÛSqNÿ[From.Monarch.GetTitle]„vCgZmNO)Tƒn&&ÙS:NbìN&^eg:YÖS-NýV0ÌR„v)YPo‚:g0"
+ empire_of_china_nomadic_border_events.4.opt.manchu:0 "ìSÆ–kQ×e›Qÿ"
+ empire_of_china_nomadic_border_events.4.opt:0 "-NýVS=fbìN„vÿ"
+ empire_of_china_nomadic_border_events.4.tooltip:0 "§Y[From.GetName]§!ÿ\n§Y¡l	g2–Y„v8ngr¹†u§!Œp¾–Û¦^¾0R§R75%§!0"
+ empire_of_china_nomadic_border_events.5.t:0 "[emperor_of_china.GetAdjective]g÷^&qQ†ˆm"
+ empire_of_china_nomadic_border_events.5.d:0 "bìNNQ«ˆ²‹:N=f[emperor_of_china.GetUsableName]„vZÁwÿ-NýV„vãlmN¿OÃVuÅ`?a0W¥c×S†Ng÷^„vßu»l0"
+ empire_of_china_nomadic_border_events.5.d.disaster:0 "ùRbýVZÁw„v&qQ†òT«ˆ[emperor_of_china.GetUsableName]„vvQÖNî•˜˜NbÖSãNÿÙ›Nî•˜˜SZÁwýV¶R„v…QèÝQZw›R0°s(WmN¸‹=fbìNúQûQ„vöeIRÿ"
+ empire_of_china_nomadic_border_events.5.opt:0 "wNx^0"
+ CSH_ideas:0 "'Yz˜tõV"
+ CSH_ideas_start:0 "'Yz˜.Oßu"
+ CSH_ideas_bonus:0 "'Yz˜Î‘ÃV"
+ shun_humble_beginnings:0 "wŽNëk+g"
+ shun_humble_beginnings_desc:0 "z˜g1ÎwŽNN=eÍS—bfgßu»l„vwIN›Q0Ù=ewIN›Q1u«ˆÛ‚zBgPc¨ir^„vÌRœQN+œQÄub0bìN„vºNPNŽNÿbwfkhVÿwN=f«ˆëÍV×S›Q-Næ‚Åe0"
+ shun_dashing_king:0 "ï•‹s"
+ shun_dashing_king_desc:0 "z˜g„v†˜–ˆÈS«ˆðy:N0ï•‹s00ÇckV¥c×SÙNðy÷Sv^SKN(uŽNNYýV?e‰„v²NŽV-NÿbìNïSåNžX:VbìN(WýV…QY„vZg0"
+ shun_hidden_treasury:0 "Ï…ÌRŽNl"
+ shun_hidden_treasury_desc:0 "bìNŸ^d–†Nçe„v0uK6R¦^ÿAQ¸‹aNÅuÝOYuôfY„v6eeQÿ(ueg=eØNëXuQ›Qw™0COœQåTDÿåNÊS(WýVYãNhˆÖNìN„vY²N˜R0ÙØasTNw‚YœgbìNKb4Y*Y'tÿýw	g±”ïSP0"
+ shun_obedient_to_heaven:0 "z˜ÎN)Ya"
+ shun_obedient_to_heaven_desc:0 "bìN	éb„v‹sgTðya:N0z˜)Y00:N†NNÙ*NTWRÝOcNôÿbìN„v›Q–±R“ŠHeàVbìN„vßu»lwÿÖNìN²‹:NÖNwQ	gN)YKˆN„výw›R0àVdkÿÖNìN?aaôf RªR›R­‹ÃuÿØS—Vôf Rê‹VÿåNnxÝOÖNìN„vb—eÖS—V‰Lqbœg0"
+ shun_perfection_of_sieging:0 "ŒR„UôVÎW"
+ shun_perfection_of_sieging_desc:0 "bìNòTÏuŒb0R†NIeÎWb-Nkpoƒ„v°e(uYÿv^VÑSúQ	gHe„veRK„ŒT4xOWÎW!XÎW™X„v¹eÕl0ÇÙ›N¹eÕlÿbìNïSåNbŸRôVIeg:V'Y„vÎW!Xÿv^(Wb‰N-N‰Œg:YÖSŒTµc6RwýN0"
+ shun_from_sticks_to_guns:0 "ÎNÍhÒh0Rkpªg"
+ shun_from_sticks_to_guns_desc:0 "bìN„vè–òTÏu×S­‹NÅˆY†NÌSKbŒTÜzfkhV0bìN„vëXuQ¾|O(uÍhÒh0RQR0V­rŒTkphVÿïSåNkXeˆbìNïSýw—‰„vûNUOÒ‰r‚0ÖNìNÙ›NYb—KbSýwIN°Rb:W0"
+ shun_claim_to_the_mandate:0 ")Y‹TNbRV"
+ shun_claim_to_the_mandate_desc:0 "‹†6qbìN„v‹sgwnQS®VÿFOÇbìN„výw›RNckINÿbìNb—V†N5ÏeŒTs^l„v=ec0bìN°s(W«ˆÆ‰:N)Y‹T„v:V›R±RðywÿsSN*Nßu»l-NNS'Y0W„vckßu‹sg0"
+ furdan_area_name:0 "ÌRS9N"
+ furdan_area_adj:0 "ÌRS9N"
+ sakhalin_area_name:0 "(„ÈT—g"
+ sakhalin_area_adj:0 "(„ÈT—g"
+ chahar_area_name:0 "ßRÈTS"
+ chahar_area_adj:0 "ßRÈTS"
+ cicigar_name:0 "PŸPŸÈTS"
+ cicigar_adj:0 "PŸPŸÈTS"
+ xilin_gol_area_name:0 "!•—gíÒR"
+ xilin_gol_area_adj:0 "!•—gíÒR"
+ sinicize_culture_title:0 "IlS"
+ sinicize_culture_desc:0 "bìN„v‡eSàeNIQcƒÿbìN„ví‹Š=fTªO-N„v|O|Owÿ.OßuŒTWµN=fbìN>yO„v=eñg0\nNÇÿbìNNýw&T²‹-NýV„ví‹Š0‡eSYt^egùRbìN„vqVÍT‚YÊNôf=feQ(g	NR0‹†6qÙN³QšR¯wšROVÑS‰N®‹ÿFO:N†NÃOÛbýV„v[Root.Culture.GetName]ºNN-NýVºNŒTŒøvYÿIlSb¸‹=f<P—VwQ†„v	éb0"
+ sinicize_culture_tt:2 "d–°e'YF–N'Ym2mKNY„vÏk*N§Y[Root.Culture.GetName]§!wýNGW^SŽN[Root.GetName]bvQ^SýV0"
+ chinese_culture_group_dominates_in_country:0 "-NNS‡eSÄu-N„vNÍy‡eS=f[Root.GetName]„v§YO¿R‡eS§!0"
+ sinicize_culture_ct:0 "Nb	g§Y[Root.Culture.GetName]§!‡eSwýNSb:N§Y-NNS§!‡eSÄu„vNèR0"
+ sinicize_mongols_ct:0 "Nb	g§Y™„äS§!0§YÑySl§!0§YŽUSŽU§!0§YætLR§!‡eSwýNSb:N§Y-NNS§!‡eSÄu„vNèR0"
+ vietnamese_new:1 "Š"
+ korean_new:1 "gœœ"
+ tibetan_new:1 "Ï…"
+ altaic_new:0 "™„"
+ ming_crisis.3.b:0 "VÎWè•ÿÎï•‹sÿï•‹seg†NN³u®|ÿ"
+ ming_crisis.4.c:0 "”N‘NWSýV(W)Y¯mÿmQÏ‹qSÝTofirNS&&"
+ ming_crisis.5.c:0 "åeVUTƒg	NŒv—˜ÿNž•jO­SWSºN&&"
+ ming_crisis.5.e:0 "NWSbVÜwÿ	N[WUU.GetName]ýOÿ±”XXêäSAuNS&&"
+ flavor_kor.13.t:0 "[Root.GetName]Nán2m„vTw"
+ flavor_kor.13.d:1 "býVNsYwºNÇ»SþfuQi—’NtQÿwðN×NNwÌS¹e)Y6q„v†uLu‹v4YqSÿgœœ—VåNMQ×S8ngrèÏe„v­ˆpb06qwÿ–NwsYwø‹è„vßuNÿbýV„v‰RhQbV¿RÈSØS—V%NûSweg0KS¡rbìN	gýw›R6RbkÖNìNùR¹ƒX„v­ˆ cÿFO(WTT:NN„ván2m'Y›Qb—MRÝOhQê«ŽP``v^àeY'Y^g0bìNmN¸‹<P—VwQ†lwT[MCH.GetName]HeàVv^4³uS!ÿåNbc—V[Root.GetName]„vŒTs^NAucƒ0"
+ flavor_kor.13.a:0 "UOÅVbTÿ)Yg‡v^OÝO²bbìN0"
+ flavor_kor.13.b:0 "bìN”^SVTán2mg!0"
+ flavor_kor.13.c:0 "b×SY†NÙÍyŠbbÿÎNÊNŽVTbìNNTûNUOýV¶R³u!ðyãÿ"
+ flavor_kor.14.t:0 "[From.GetName]÷‹Bl³u!ðyã"
+ flavor_kor.14.d:0 "[From.GetName][From.Monarch.GetTitle]ÈuŽNb²‹†NbìNOŠ„v›Q‹NžR›Rÿv^‰Blb:NbìNO'Y„v[Root.GovernmentName]„vg!ýV0SV6qÿbìN	gEQR„vt1u¥c×S[From.Monarch.GetHerHis]‰BlÿFObìNS«ˆë>eV(WgœœJS›S„vib.V¡‹R0"
+ flavor_kor.14.a:0 "¥c×S‰Bl"
+ flavor_kor.14.a.tt:0 "»lNNb	g§Ygœœ§!0W:S„vwýNÞVRV§Y[KOR.GetName]§!0"
+ flavor_kor.14.b:0 "ÒbÝu‰Bl"
+ flavor_mch.EVTNAME8:0 "án2m„vTw"
+ flavor_mch.EVTDESC8:0 "sQY„vsYwºNNT=f[Root.GetName]„vàVžRg!é…^S0ÖNìNêåwvQMOv^:NbìNg¡R0\n6qwÿÙÍyÿY`gÑÑSu†NÍ‘'YØSS0SVbìNán³ŽNÖNìNÏkt^„v!<yöeÿsYwºNéTúV†NÖNìN„v–0WÿVg†NhT¹Tèÿv^ßuNb:N‚YÊN4ngVg„v'YèÏeÿ"
+ flavor_mch.EVTOPTA8:0 "OgNÍ‚‚W`bIr0"
+ mch_missions.5.b:0 ":YN›SSÿVVþVKN&&"
+ kor_defeat_shogun_tt:1 "‚YœgbìNŒRbå‹ûN¡Röeck(WTAm§Y^ySYe§!áOðNÿS·ƒ—V§G+15§!—RYe‡TÛz0\n\n‚YœgbìNòTÏuTAm§Y^ySYe§!ÿS·ƒ—V§G100§!›Q‹N¹ppe0"
+ sinicize_culture_at:0 "d–°eNLuŒT'Ym2mY„vNb	g§Y[Root.Culture.GetGroupName]§!wýN«ˆ[Root.GetName]bvQ^SýVåb	g0"
+ zhuang_new:0 "îX"

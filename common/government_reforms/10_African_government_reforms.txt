@@ -53,7 +53,7 @@ benin_tribe_remain_tribal_reform = { # 六改 建立先进部落
 	}
 	modifiers = {
 		legitimacy = 1
-		monthly_benin_jungle_assembled_power = 0.1
+		monthly_benin_jungle_assembled_power = 0.5
 	}
 	ai = {
 		factor = 0

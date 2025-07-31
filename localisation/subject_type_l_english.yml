@@ -1,69 +1,69 @@
-l_english:
- vassal_title:0 "附庸国"
- march_title:0 "卫戍国"
- client_vassal_title:0 "仆从国"
- client_march_title:0 "仆从卫戍国"
- personal_union_title:0 "被联统国"
- protectorate_title:0 "保护国"
- colony_title:0 "殖民领"
- daimyo_vassal_title:0 "大名"
- vassal_title_plural:0 "附庸国"
- march_title_plural:0 "卫戍国"
- client_vassal_title_plural:0 "仆从国"
- client_march_title_plural:0 "仆从卫戍国"
- personal_union_title_plural:0 "被联统国"
- protectorate_title_plural:0 "保护国"
- colony_title_plural:0 "殖民领"
- daimyo_vassal_title_plural:0 "大名"
- vassal_long_desc:0 "附庸国必须跟随它们的宗主国加入战争，不能采取特定的外交行动，并且要上缴一部分收入给宗主国。"
- march_long_desc:0 "卫戍国是无法被吞并的附庸国，并且不上缴任何贡税，但其军事能力相比常规附庸国更为强大。"
- client_vassal_long_desc:0 "和常规的附庸国一样，仆从国必须跟随它们的宗主国加入战争，不能采取特定的外交行动，并且要上缴一部分收入给宗主国。"
- daimyo_vassal_long_desc:0 "大名属国必须加入战争与宗主国共同作战，不能采取某些外交行动，还要将收入的一部分上供给宗主国。大名属国之间可以相互宣战。"
- client_march_long_desc:0 "和常规的卫戍国一样，一个仆从卫戍国是一个不能被吞并的附庸，并且不上缴任何贡税，但比常规的附庸国有更为强大的军事能力。"
- colony_long_desc:1 "殖民领是接受其宗主国统治但独立存在的殖民地国家。殖民领需要按月上缴关税给宗主国，其数额基于生产和贸易收入的一半，同时转移$TRADE|0%$的贸易竞争力。殖民领只能向原始国家或其它殖民领宣战。"
- protectorate_long_desc:0 "一个保护国将会提供其一半的贸易竞争力给它们的宗主国，同时宗主国将保护它们。"
- personal_union_long_desc:0 "在一个联合统治中，两个国家被同一个君主所统治。被联统国必须跟随他们的宗主国参与作战，且不能采取特定的外交行动。当君主死亡时，联合统治可能会延续、破裂，或者被联统国被继承或吞并。"
- vassal_is_our:0 "$NAME|Y$是我们的附庸国。"
- march_is_our:0 "$NAME|Y$是我们的卫戍国。"
- client_vassal_is_our:0 "$NAME|Y$是我们的仆从国。"
- client_march_is_our:0 "$NAME|Y$是我们的仆从卫戍国。"
- personal_union_is_our:0 "$NAME|Y$被我们联合统治。"
- protectorate_is_our:0 "$NAME|Y$是我们的保护国。"
- colony_is_our:0 "$NAME|Y$是我们的殖民领。"
- daimyo_vassal_is_our:0 "$NAME|Y$是我们的大名属国。"
- IS_OUR_OVERLORD:0 "$NAME|Y$是我们的宗主国。"
- colony_cant_fight:1 "作为一个$SUBJECTTYPE$，你只能对其它殖民地国家、相邻的原始国家或异教国家宣战。"
- subject_cant_fight:0 "$SUBJECTTYPES$不能自行宣战。"
- subject_cant_rival:0 "$SUBJECTTYPES$不能选择宿敌。"
- subject_cant_ally:0 "$SUBJECTTYPES$不能结盟。"
- subject_cant_marry:0 "$SUBJECTTYPES$不能缔结王室联姻。"
- subject_only_fight_same_overlord:0 "作为一个$MYSUBJECTTYPE$，我们只能向同一宗主国名下的$THEIRSUBJECTTYPES$宣战"
- subject_only_fight_other_overlord:0 "作为一个$MYSUBJECTTYPE$，我们只能向不同宗主国名下的$THEIRSUBJECTTYPES$宣战"
- subject_only_rival_same_overlord:0 "作为一个$MYSUBJECTTYPE$，我们只能将同一宗主国名下的$THEIRSUBJECTTYPES$设为宿敌"
- subject_only_rival_other_overlord:0 "作为一个$MYSUBJECTTYPE$，我们只能将不同宗主国名下的$THEIRSUBJECTTYPES$设为宿敌"
- subject_only_ally_same_overlord:0 "作为一个$MYSUBJECTTYPE$，我们只能与同一宗主国名下的$THEIRSUBJECTTYPES$结盟"
- subject_only_ally_other_overlord:0 "作为一个$MYSUBJECTTYPE$，我们只能与不同宗主国下的$THEIRSUBJECTTYPES$结盟"
- subject_only_marry_same_overlord:0 "作为一个$MYSUBJECTTYPE$，我们只能与同一宗主国名下的$THEIRSUBJECTTYPES$缔结王室联姻"
- subject_only_marry_other_overlord:0 "作为一个$MYSUBJECTTYPE$，我们只能与不同宗主国名下的$THEIRSUBJECTTYPES$缔结王室联姻"
- personal_union_no_overlord_dow:0 "你不能向与你同处一个联合统治中的国家宣战。"
- colony_no_overlord_dow:0 "你不能向你的殖民领宣战。"
- protectorate_no_overlord_dow:0 "你不能向你的保护国宣战。"
- relation_fight:0 "宣战"
- relation_rival:0 "宿敌"
- relation_ally:0 "结盟"
- relation_marry:0 "有一个王室联姻，缔结相对方是"
- THEIR_SUBJECT_TYPE_NO_ALLOW:0 "他们是个$SUBJECTTYPE$。"
- tributary_state:0 "朝贡国"
- tributary_state_title:0 "朝贡国"
- tributary_state_title_plural:0 "朝贡国"
- tributary_state_is_our:0 "§Y$NAME$§!是我们的朝贡国。"
- tributary_state_long_desc:1 "一个朝贡国必须每年进贡给他们的宗主国，以换取在该国自力参加的战争中的保护。朝贡国不跟随其宗主国加入战争，并且能够自由地采取它们自己的外交行动。"
- dummy:0 "傀儡"
- dummy_title:0 "傀儡"
- dummy_title_plural:0 "傀儡"
- dummy_is_our:0 "§Y$NAME$§!是我们的傀儡。"
- dummy_long_desc:1 "傀儡是用于各种用途的人体模型。"
- DEFAULT_OVERLORD:0 "宗主国"
- personal_union_overlord_title:0 "联统国"
- colony_overlord_title:0 "母国"
- crown_colony_no_overlord_dow:0 "你无法向你的王冠殖民领宣战。"
+﻿l_english:
+ vassal_title:0 "D–¸^ýV"
+ march_title:0 "kSbýV"
+ client_vassal_title:0 "ÆNÎNýV"
+ client_march_title:0 "ÆNÎNkSbýV"
+ personal_union_title:0 "«ˆTwßuýV"
+ protectorate_title:0 "ÝO²býV"
+ colony_title:0 "–kl†˜"
+ daimyo_vassal_title:0 "'YT"
+ vassal_title_plural:0 "D–¸^ýV"
+ march_title_plural:0 "kSbýV"
+ client_vassal_title_plural:0 "ÆNÎNýV"
+ client_march_title_plural:0 "ÆNÎNkSbýV"
+ personal_union_title_plural:0 "«ˆTwßuýV"
+ protectorate_title_plural:0 "ÝO²býV"
+ colony_title_plural:0 "–kl†˜"
+ daimyo_vassal_title_plural:0 "'YT"
+ vassal_long_desc:0 "D–¸^ýVÅV‰˜ß–ƒRìN„v—RINýV ReQb‰NÿNýwÇ‘ÖSyršR„vY²NLˆ¨Rÿv^N‰N4NèR6eeQÙu—RINýV0"
+ march_long_desc:0 "kSbýV=fàeÕl«ˆTv^„vD–¸^ýVÿv^NNN4ûNUO!zÿFOvQ›Q‹Nýw›RøvÔk8^Ä‰D–¸^ýVôf:N:V'Y0"
+ client_vassal_long_desc:0 "ŒT8^Ä‰„vD–¸^ýVN7hÿÆNÎNýVÅV‰˜ß–ƒRìN„v—RINýV ReQb‰NÿNýwÇ‘ÖSyršR„vY²NLˆ¨Rÿv^N‰N4NèR6eeQÙu—RINýV0"
+ daimyo_vassal_long_desc:0 "'YT^SýVÅV‰˜ ReQb‰NN—RINýVqQTjObÿNýwÇ‘ÖSÐg›NY²NLˆ¨RÿØ‰S6eeQ„vNèRN›OÙu—RINýV0'YT^SýVKNô•ïSåNøv’N±Rb0"
+ client_march_long_desc:0 "ŒT8^Ä‰„vkSbýVN7hÿN*NÆNÎNkSbýV=fN*NNýw«ˆTv^„vD–¸^ÿv^NNN4ûNUO!zÿFOÔk8^Ä‰„vD–¸^ýV	gôf:N:V'Y„v›Q‹Nýw›R0"
+ colony_long_desc:1 "–kl†˜=f¥c×SvQ—RINýVßu»lFOìrËzXR(W„v–kl0WýV¶R0–kl†˜—‰	cgN4sQzÙu—RINýVÿvQpe˜úWŽNuµNŒT8f6eeQ„vNJSÿTöelûy$TRADE|0%$„v8fÞz‰N›R0–kl†˜êSýwTŸSËYýV¶RbvQƒR–kl†˜±Rb0"
+ protectorate_long_desc:0 "N*NÝO²býVSOÐc›OvQNJS„v8fÞz‰N›RÙuƒRìN„v—RINýVÿTöe—RINýVSÝO²bƒRìN0"
+ personal_union_long_desc:0 "(WN*NTwTßu»l-Nÿ2N*NýV¶R«ˆTN*NTINNbßu»l0«ˆTwßuýVÅV‰˜ß–ÖNìN„v—RINýVÂSNjObÿNNýwÇ‘ÖSyršR„vY²NLˆ¨R0SVTIN‰k¡NöeÿTwTßu»lïSýwOö^íu04xÂˆÿbw«ˆTwßuýV«ˆçubbTv^0"
+ vassal_is_our:0 "$NAME|Y$=fbìN„vD–¸^ýV0"
+ march_is_our:0 "$NAME|Y$=fbìN„vkSbýV0"
+ client_vassal_is_our:0 "$NAME|Y$=fbìN„vÆNÎNýV0"
+ client_march_is_our:0 "$NAME|Y$=fbìN„vÆNÎNkSbýV0"
+ personal_union_is_our:0 "$NAME|Y$«ˆbìNTwTßu»l0"
+ protectorate_is_our:0 "$NAME|Y$=fbìN„vÝO²býV0"
+ colony_is_our:0 "$NAME|Y$=fbìN„v–kl†˜0"
+ daimyo_vassal_is_our:0 "$NAME|Y$=fbìN„v'YT^SýV0"
+ IS_OUR_OVERLORD:0 "$NAME|Y$=fbìN„v—RINýV0"
+ colony_cant_fight:1 "jO:NN*N$SUBJECTTYPE$ÿ`OêSýwùRvQƒR–kl0WýV¶R0øv»„vŸSËYýV¶RbVYeýV¶R±Rb0"
+ subject_cant_fight:0 "$SUBJECTTYPES$NýwêLˆ±Rb0"
+ subject_cant_rival:0 "$SUBJECTTYPES$Nýw	éb¿RLe0"
+ subject_cant_ally:0 "$SUBJECTTYPES$NýwÓußv0"
+ subject_cant_marry:0 "$SUBJECTTYPES$NýwÓu‹s²RTwûY0"
+ subject_only_fight_same_overlord:0 "jO:NN*N$MYSUBJECTTYPE$ÿbìNêSýwTTN—RINýVTN„v$THEIRSUBJECTTYPES$±Rb"
+ subject_only_fight_other_overlord:0 "jO:NN*N$MYSUBJECTTYPE$ÿbìNêSýwTNT—RINýVTN„v$THEIRSUBJECTTYPES$±Rb"
+ subject_only_rival_same_overlord:0 "jO:NN*N$MYSUBJECTTYPE$ÿbìNêSýwSTN—RINýVTN„v$THEIRSUBJECTTYPES$¾‹:N¿RLe"
+ subject_only_rival_other_overlord:0 "jO:NN*N$MYSUBJECTTYPE$ÿbìNêSýwSNT—RINýVTN„v$THEIRSUBJECTTYPES$¾‹:N¿RLe"
+ subject_only_ally_same_overlord:0 "jO:NN*N$MYSUBJECTTYPE$ÿbìNêSýwNTN—RINýVTN„v$THEIRSUBJECTTYPES$Óußv"
+ subject_only_ally_other_overlord:0 "jO:NN*N$MYSUBJECTTYPE$ÿbìNêSýwNNT—RINýVN„v$THEIRSUBJECTTYPES$Óußv"
+ subject_only_marry_same_overlord:0 "jO:NN*N$MYSUBJECTTYPE$ÿbìNêSýwNTN—RINýVTN„v$THEIRSUBJECTTYPES$Óu‹s²RTwûY"
+ subject_only_marry_other_overlord:0 "jO:NN*N$MYSUBJECTTYPE$ÿbìNêSýwNNT—RINýVTN„v$THEIRSUBJECTTYPES$Óu‹s²RTwûY"
+ personal_union_no_overlord_dow:0 "`ONýwTN`OTYN*NTwTßu»l-N„výV¶R±Rb0"
+ colony_no_overlord_dow:0 "`ONýwT`O„v–kl†˜±Rb0"
+ protectorate_no_overlord_dow:0 "`ONýwT`O„vÝO²býV±Rb0"
+ relation_fight:0 "±Rb"
+ relation_rival:0 "¿RLe"
+ relation_ally:0 "Óußv"
+ relation_marry:0 "	gN*N‹s²RTwûYÿÓuøvùR¹e=f"
+ THEIR_SUBJECT_TYPE_NO_ALLOW:0 "ÖNìN=f*N$SUBJECTTYPE$0"
+ tributary_state:0 "g!ýV"
+ tributary_state_title:0 "g!ýV"
+ tributary_state_title_plural:0 "g!ýV"
+ tributary_state_is_our:0 "§Y$NAME$§!=fbìN„vg!ýV0"
+ tributary_state_long_desc:1 "N*Ng!ýVÅV‰˜Ïkt^Û!ÙuÖNìN„v—RINýVÿåNbcÖS(Wå‹ýVê›RÂS R„vb‰N-N„vÝO²b0g!ýVNß–vQ—RINýV ReQb‰Nÿv^NýwYê1u0WÇ‘ÖSƒRìNêñT„vY²NLˆ¨R0"
+ dummy:0 "ŽP!Q"
+ dummy_title:0 "ŽP!Q"
+ dummy_title_plural:0 "ŽP!Q"
+ dummy_is_our:0 "§Y$NAME$§!=fbìN„vŽP!Q0"
+ dummy_long_desc:1 "ŽP!Q=f(uŽNTÍy(u„vºNSO!j‹W0"
+ DEFAULT_OVERLORD:0 "—RINýV"
+ personal_union_overlord_title:0 "TwßuýV"
+ colony_overlord_title:0 "ÍkýV"
+ crown_colony_no_overlord_dow:0 "`OàeÕlT`O„v‹s Q–kl†˜±Rb0"

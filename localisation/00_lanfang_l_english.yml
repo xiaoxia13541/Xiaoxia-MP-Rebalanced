@@ -1,706 +1,706 @@
-l_english:
- PROV4790:0 "勃良安"
- PROV4791:0 "井里汶"
- PROV4792:0 "肯德尔"
- PROV4793:0 "帕章"
- PROV4794:0 "玛琅"
- PROV4795:0 "波尼"
- PROV4796:1 "肯达里"
- PROV4797:0 "索彭"
- PROV4798:0 "瓦久"
- PROV4799:0 "桑库利朗"
- PROV4800:0 "巴塞尔"
- PROV4801:0 "巴都利金"
- PROV4802:1 "坤甸"
- PROV4803:0 "默利奥"
- PROV4804:0 "古晋"
- PROV4805:0 "民都鲁"
- PROV4806:0 "加帛"
- PROV4807:0 "北婆罗洲"
- PROV4808:0 "苏门答腊"
- PROV4809:0 "冷吉"
- PROV4810:0 "碟里"
- PROV4811:0 "巴鲁斯"
- PROV4812:0 "宜力"
- PROV4813:0 "槟榔屿"
- PROV4814:0 "士曼丹"
- PROV4815:0 "新加坡"
- PROV4816:0 "冷岳"
- PROV4817:0 "巴东"
- PROV4818:0 "因陀罗补罗"
- PROV4819:0 "广宁"
- PROV4820:0 "兴化"
- PROV4821:0 "乂安"
- PROV4822:0 "阿摩罗伐底"
- PROV4823:0 "嘉莱"
- PROV4824:0 "埃地"
- PROV4825:0 "菩萨"
- PROV4826:0 "贡布"
- PROV4827:0 "磅同"
- PROV4828:0 "柏威夏"
- PROV4829:0 "朗敦雷"
- PROV4830:0 "罗勇"
- PROV4831:0 "曼谷"
- PROV4832:1 "罗涡"
- PROV4833:0 "碧差汶"
- PROV4834:0 "素攀武里"
- PROV4835:0 "干乍那武里"
- PROV4836:0 "西贴"
- PROV4837:0 "孟威"
- PROV4838:0 "黎逸"
- PROV4839:0 "占巴塞"
- PROV4840:0 "塞公"
- PROV4841:0 "南奔"
- PROV4842:1 "南邦"
- PROV4843:0 "安南山脉"
- PROV4844:0 "道纳丘陵"
- PROV4845:0 "马穆朱"
- banten_area:0 "万丹"
- surabaya_area:0 "苏腊巴亚"
- sundanese:0 "巽他"
- nusa_tenggara:0 "努沙登加拉"
- makassar_area:0 "望加锡"
- jambi_area:0 "占碑"
- sabah_area:0 "沙巴"
- banjar_area:0 "班贾尔"
- johor_area:0 "柔佛"
- north_malaya_area:0 "北马来亚"
- tay_nguyen_area:0 "西原"
- angkor_area:0 "吴哥"
- sukhothai_area:0 "素可泰"
- vientiane_area:0 "万象"
- champasak_area:0 "占巴塞"
- BNE:0 "波尼"
- BNE_ADJ:0 "波尼"
- BEU:0 "贝劳"
- BEU_ADJ:0 "贝劳"
- SMB:0 "三发"
- SMB_ADJ:0 "三发"
- BRS:0 "巴鲁斯"
- BRS_ADJ:0 "巴鲁斯"
- DLI:0 "碟里"
- DLI_ADJ:0 "碟里"
- JMB:0 "占碑"
- JMB_ADJ:0 "占碑"
- PAH:0 "彭亨"
- PAH_ADJ:0 "彭亨"
- KEL:0 "吉兰丹"
- KEL_ADJ:0 "吉兰丹"
- IND:0 "因陀罗补罗"
- IND_ADJ:0 "因陀罗补罗"
- JAR:0 "嘉莱"
- JAR_ADJ:0 "嘉莱"
- RHA:0 "埃地"
- RHA_ADJ:0 "埃地"
- KOH:0 "格贺"
- KOH_ADJ:0 "格贺"
- SIA:0 "暹罗"
- SIA_ADJ:0 "暹罗"
- thai_group:0 "泰"
- acehnese:0 "亚齐"
- cloves:0 "丁香"
- clovesDESC:0 "丁香是十分名贵的香料，它原产于印度尼西亚的摩鹿加群岛，人们为了抢夺其产地曾爆发了多次战争。当丁香的花苞从素色转为亮红色时，便要进行收割。从亚洲到地中海，丁香常常被使用在烹调之中，并最终通过殖民者传到了美洲。"
- khmer.1.t:0 "柬埔寨的黑暗时代"
- khmer.1.d:0 "荣极一时的高棉王朝终归没落。吴哥，这个高棉文明的心脏竟为泰族入侵者所毁弃。全柬埔寨的庙宇和城市无不沦为断壁残垣，[Root.Monarch.GetName]国王勉力维持着[Root.Monarch.GetHerHis]对新首都[Root.Capital.GetCapitalName]城之外政局的控制。这是全高棉人的黑暗时刻。"
- khmer.1.a:0 "卷土重来未可知。"
- khmer_dark_age_tt:0 "§Y所有点数花费§!上升§R25%§!"
- khmer.2.t:0 "高棉复兴"
- khmer.2.d:0 "自从吴哥陷落以来，时局一直十分艰难，但通过[Root.Monarch.GetTitle]的不懈努力，我们已让[Root.GetName]从困顿之中重获新生。伟大的吴哥城和她恢弘庞大的庙宇建筑群已经得以重建，[Root.Monarch.GetTitle]已将首都重新迁回了这里。乡村地带再次殷殷屯屯，我国人民的心灵也能得以满足。高棉帝国已经准备再度崛起了。"
- khmer.2.a:0 "胜利属于[Root.GetName]！"
- khmer.3.t:0 "[Root.GetName][Root.GovernmentName]的信仰"
- khmer.3.d:0 "我们皈依上座部佛教信仰的过程远非一次平稳的过渡。一些人拒绝接受佛陀的教诲、仍在信奉印度教，而还有些人认为大乘佛法才是正道。既然我们已经实现了某种程度上的宗教和平，那么就应该决定采纳哪一种宗教作为国教。"
- khmer.3.a:0 "上座部佛教信仰必将带领我们走向开悟。"
- khmer.3.b:0 "我们应当回顾过去，重新接纳印度教。"
- khmer.3.c:0 "大乘佛教乃是正道。"
- dark_age_of_cambodia:0 "柬埔寨黑暗时代"
- desc_dark_age_of_cambodia:0 "我们的文明已经化为丘墟；高棉帝国已经日薄西山。"
- siamese_nation_title:0 "成立暹罗"
- siamese_nation_desc:0 "泰人必须被团结在一个国家之中，铸成一个必将支配东南亚的帝国。"
- flavor_peg.1.t:0 "信修浮"
- flavor_peg.1.d1:0 "勃固王室的男性血脉几乎断绝，而[Root.Heir.GetName]还是个孩子，勃固王国如今陷入了群龙无首的境地。在战争和动荡的时代，人们期待着信修浮，频耶伐流国王的母亲来指引他们。信修浮是一位已经监督王室数十年的杰出的行政天才和虔诚的信女。宣布她为摄政女王肯定会在人民当中广受欢迎。"
- flavor_peg.1.d2:0 "勃固王室的男性血脉几乎断绝，王位的继承陷入了危机。在战争和动荡的时代，人们期待着信修浮，频耶伐流国王的母亲来指引他们。信修浮是一位已经监督王室数十年的杰出的行政天才和虔诚的信女。宣布她为王位继承人肯定会在人民当中广受欢迎。"
- flavor_peg.1.a:0 "信修浮应当成为我们的女王。"
- flavor_peg.1.b:0 "她与王位不相称。"
- flavor_peg.2.t:0 "达磨悉提王"
- flavor_peg.2.d:2 "在信修浮女王不太得意的日子里，她遇见了一位名叫比摘迦诃罗的孟族僧人。这位僧人求得了心灵的开悟，也在世俗世界中通达无碍，故而信修浮女王选择了资助他。比摘迦诃罗对于女王的忠诚无可挑剔，正是他与女王一起策划了逃回勃固的计划，现在他已经成为了女王最亲近的顾问。而女王年事已高，她也日益渴望能够原离开尘世，投入精神世界的怀抱。于是她打算将自己的一位女儿嫁给比摘迦诃罗，尊他为达磨悉提，并奉他为勃固的国王。"
- flavor_peg.2.a:0 "达磨悉提应速登王位，刻不容缓。"
- flavor_peg.2.b:0 "达磨悉提可以作为我国的继承人。"
- flavor_peg.2.c:0 "不能让僧人统治我们。"
- flavor_suk.1.t:0 "戴莱洛的登天之路"
- flavor_suk.1.d:0 "近年来，一度强盛的素可泰王国已经沦为了阿瑜陀耶的副王领地。为了更进一步掌握素可泰，一位阿瑜陀耶的王子在素可泰最后一位合法国王波隆摩班去世后，被封为素可泰之王。他便是如今登上了阿瑜陀耶王位的戴莱洛王子，这是将素可泰纳入我们统治之下的最好时机。"
- flavor_suk.1.a:0 "将素可泰并入阿瑜陀耶王国。"
- flavor_suk.1.b:0 "在素可泰任命一位新的副王。"
- flavor_suk.1.c:0 "让戴莱洛来做决定。"
- flavor_suk.2.a:0 "在素可泰进行统治，并在阿瑜陀耶分封一位王侯。"
- flavor_suk.2.b:0 "拒绝接受阿瑜陀耶的王位。"
- flavor_suk.2.c:0 "在素可泰任命一名新的总督。"
- abandoned_mlc:0 "被放弃的马六甲"
- emerald_buddha:0 "玉佛"
- desc_emerald_buddha:0 "这尊神圣的佛像被供奉在这一省份的一所寺院之中。悉心守卫这里，因为敌人对这件珍宝也趋之若鹜。"
- emerald_buddha_tt:2 "§Y玉佛§!将被从§Y[emerald_buddha_province.GetName]§!移除。"
- emerald_buddha_alternate:0 "玉佛"
- desc_emerald_buddha_alternate:0 "这尊神圣的佛像被供奉在这一省份的一所寺院之中。悉心守卫这里，因为敌人对这件珍宝也趋之若鹜。"
- renovate_emerald_buddha_shrine_title:0 "修葺玉佛寺（§Y业力 +§!）"
- renovate_emerald_buddha_shrine_desc:1 "供奉神圣玉佛的寺庙需要修葺，不仅为从物质上维护这所寺庙，而且也是奖掖佛教对国家有利的方面。"
- flavor_lna.1.t:0 "玉佛"
- flavor_lna.1.d:0 "[From.GetCapitalName]的城门已经被攻陷，玉佛寺的大门已经敞开。尽管照看寺庙的和尚表示了抗议，但我们的士兵仍然夺取了这尊神圣的佛造像，并且准备将其运往[Root.Capital.GetCapitalName]。在那里，它将被更有资格的守护者敬拜和保护。"
- flavor_lna.1.a:0 "[From.Owner.GetAdjective]人简直连看上一眼这件珍宝都不配。"
- flavor_lna.2.t:0 "玉佛遭劫"
- flavor_lna.2.d:0 "[emerald_buddha_province.GetName]失陷，供奉玉佛的寺庙已向敌军敞开。尽管照看寺庙的僧众坚决抗议，但敌军士兵仍将这尊神圣的佛造像劫走，奉予他们亵渎佛法的[From.Monarch.GetName]，并准备将其迁至[From.Capital.GetName]供奉。"
- flavor_lna.2.a:0 "奇耻大辱。"
- estate_church_brahmins_at_court:0 "宫中的婆罗门"
- estate_church_brahmins_at_court_desc:0 "尽管我们不信奉印度教，但婆罗门仍然在社会上和宫廷中享有尊贵的地位。"
- estate_burghers_khmer_irrigation:0 "先进灌溉技术"
- estate_burghers_khmer_irrigation_desc:0 "国家向农民提供了基础设施与农用工具，让他们得以运用全世界最先进的灌溉技术，这能使得粮食产量高涨、人口迅速增加。"
- estate_vaisyas_khmer_irrigation:0 "先进灌溉技术"
- estate_vaisyas_khmer_irrigation_desc:0 "国家向农民提供了基础设施与农用工具，让他们得以运用全世界最先进的灌溉技术，这能使得粮食产量高涨、人口迅速增加。"
- estate_burghers_khmer_irrigation_effect_tooltip:0 "治下所有生产§Y谷物§!的省份获得：\n本地发展成本：§G-10%§!"
- estate_burghers_khmer_irrigation_revoke_effect_tooltip:0 "§Y先进灌溉技术§!修正将从治下所有省份移除。"
- estate_burghers_khmer_irrigation_mod:0 "先进灌溉技术"
- desc_estate_burghers_khmer_irrigation_mod:0 "国家向农民提供了基础设施与农用工具，让他们得以运用全世界最先进的灌溉技术，这能使得粮食产量高涨、人口迅速增加。"
- siamese_absolutism:0 "转轮圣王"
- siamese_absolutism_desc:0 "我们的君王不止是凡人。他是天降圣君，是世界的中心。只有我们的君王能赐予世界以和平与祥和。"
- flavor_lna.3.t:0 "[Root.GetAdjective]专制主义"
- flavor_lna.3.d:0 "[Root.Monarch.GetTitle]远非凡人。[Root.Monarch.GetSheHeCap]是转轮圣王，是普照世人的神圣之光，是指引我们走向和谐与启蒙的伟大灯塔。[Root.Monarch.GetTitle][Root.Monarch.GetName]的统治必须到达世界的每一个角落，以让世人都领受和平与繁荣。"
- flavor_lna.3.a:0 "我们将为世界带来秩序。"
- flavor_lna.3.b:0 "我们现在的政府很适合我们。"
- ming_crisis.10.t:0 "中国的动荡"
- ming_crisis.10.d:0 "明王朝陷入了危机之中。军阀割据、争权夺利，这使得明朝廷连控制其本国的领地都已捉襟见肘。我们必须扪心自问，这样一个骚乱不安的政权是否还值得葆有天命，而[Root.GetName]是否应当重新考量自己与明朝的贡属关系。"
- ming_crisis.10.a:0 "明廷对我们已经无用了。"
- ming_crisis.10.b:1 "我们将与[MNG.Capital.GetCapitalName]的天子同在。"
- ming_crisis.10.tt:0 "[Root.GetName]将继续作为明的朝贡国"
- estate_church_karma_temples:0 "僧院僧治"
- estate_church_karma_temples_desc:0 "我们应该把照看这些佛教圣殿的事务委托给僧人。"
- estate_church_karma_temples_tt:0 "建设§Y寺庙§!建筑§Y+3业力§!。\n摧毁§Y寺庙§!建筑§Y-3业力§!。"
- estate_church_influence_temples:0 "教堂圣所"
- estate_church_influence_temples_desc:1 "尊重教会对犯罪者和债务人给予庇护甚至收住宿费的特权，以此取悦地方教会（及教廷），即使如此一来牺牲的是我们的世俗权威。"
- estate_church_influence_temples_tt:0 "建设§Y教堂§!建筑§Y+3教廷影响力§!。\n摧毁§Y教堂§!建筑§Y-3教廷影响力§!。"
- estate_burghers_tropical_mod:0 "热带城市建设规划"
- desc_estate_burghers_tropical_mod:0 "尽管热带气候带来了许多不便，但我们十分善于在祖国的土地上建设起宏伟的都市；我们在这方面已有上千年的经验。"
- estate_burghers_tropical_nation:0 "热带城市建设规划"
- estate_burghers_tropical_nation_desc:0 "尽管热带气候带来了许多不便，但我们十分善于在祖国的土地上建设起宏伟的都市；我们在这方面已有上千年的经验。"
- estate_burghers_tropical_effect_tooltip:0 "治下所有热带气候的省份将得到：\n本地发展成本：§G-5%§!\n本地移民增长：§G+10§!"
- estate_burghers_tropical_revoke_effect_tooltip:0 "治下所有热带气候的省份将失去：\n本地发展成本：§G-5%§!\n本地移民增长：§G+10§!"
- estate_church_lao_animism:0 "容许民间宗教"
- estate_church_lao_animism_desc:0 "尽管民间的古老宗教与我国国教并不相一致，但我们仍允许大量人群继续保持他们这种信仰。"
- estate_church_lao_animism_effect_tooltip:0 "治下所有信仰§Y泛灵论§!的省份获得：\n本地传教强度：§R-100%§!\n本地宗教统一贡献：§G-100%§!"
- estate_church_lao_animism_revoke_effect_tooltip:1 "「§Y容许民间宗教§!」修正将从治下所有§Y泛灵论§!省份移除。"
- estate_church_lao_animism_mod:0 "容许民间宗教"
- desc_estate_church_lao_animism_mod:0 "尽管民间的古老宗教与我国国教并不相一致，但我们仍允许大量人群继续保持他们这种信仰。"
- flavor_mlc.9.t:0 "海洋之国"
- flavor_mlc.9.desc:0 "不同地域的马来人民正统一于在我们迅速扩张的国家治下。前所未有地，整个群岛正发展出共有的民族认同，我们也已远非那种有着众多贡属国的城邦，而成为了一个统一的国家。这一进步让我们必须思考，要将我们的国家冠以怎样的名号。"
- flavor_mlc.9.a:0 "我们应当重建那古老的帝国，室利佛逝。"
- flavor_mlc.9.b:0 "满者伯夷将延续她的荣耀。"
- flavor_mlc.9.c:0 "所有居住在努山达拉群岛的人都应向我们效忠。"
- flavor_mlc.9.d:0 "我们的国家应是全马来人民的祖国——马来亚。"
- SRIVIJAYA:0 "室利佛逝"
- SRIVIJAYA_ADJ:0 "室利佛逝"
- MAJAPAHIT_EMPIRE:0 "满者伯夷帝国"
- MAJAPAHIT_EMPIRE_ADJ:0 "满者伯夷帝国"
- NUSANTARA:0 "努山达拉"
- NUSANTARA_ADJ:0 "努山达拉"
- siamese_revolution:0 "暹罗革命"
- desc_siamese_revolution:1 "欧洲人和本国传统之间的紧张局势可能对我们的国家产生严重影响。"
- phetracha_coup_tt:0 "达到§Y10对外开放§!（当前为§Y[Root.siam_openness.GetValue]§!）"
- phetracha_arrested_tt:0 "达到§Y10反动主义§!（当前为§Y[Root.siam_reactionism.GetValue]§!）"
- siam_openness:0 "对外开放"
- siam_reactionism:0 "反动主义"
- siamese_rev.1.t:0 "暹罗革命"
- siamese_rev.1.d:1 "随着我们与西方人联系的不断发展，许多[Root.GetName]人对外国人表示怀疑。他们有很多畏惧：一些人坚信[siam_european_country.GetAdjective]外交官正在奴化我们，以为将来的入侵做准备；另一些人则将[siam_european_country.Religion.GetName]传教士视为对我们[Root.Religion.GetName]信仰的威胁；商人们则关注于我们与欧洲人的交易对我们的商业利益不利。反欧情绪正在[Root.GetName]迅速蔓延，并且这种情况可能在不久的将来达到顶端。"
- siamese_rev.1.a:0 "此事关系甚大。"
- siamese_rev.2.t:0 "暹罗革命结束"
- siamese_rev.2.d:1 "在碧罗阇发动了迅速和执行得当的政变后，一切已尘埃落定。欧洲人已被驱逐出境，宫中的煽动分子已被捕获并处死。我们今天已向[Root.GetAdjective]人民和整个世界发出了一个有力的信息：我们不会允许[Root.GetName]陷入外国影响。"
- siamese_rev.2.d2:1 "在碧罗阇被迅速逮捕并处死后，一切已尘埃落定。反动分子已经噤声，宫中的煽动分子已被捕获并处死。我们今天已发出了一个有力的信息：[Root.GetName]愿意保持开放的态度与其他国家合作、通商和交换新思想。"
- siamese_rev.2.a:0 "我们的麻烦结束了，至少现在如此。"
- opinion_siam_antiimperialist:0 "反帝国主义的暹罗人"
- opinion_open_siam:0 "暹罗开放"
- siamese_rev.3.t:0 "[siam_foreign_missionary_country.GetAdjective]传教士遇袭"
- siamese_rev.3.d:1 "在[siam_foreign_missionary_country.GetName]庇护下的[siam_foreign_missionary_country.Religion.GetName]传教士被[siam_foreign_missionary_province.GetName]的[siam_foreign_missionary_province.Religion.GetName]信徒袭击了。这些传教士请求[Root.GetAdjective]政府保护他们免于被暴民攻击，以便继续传教；而当地人则要求驱逐这些传教士，维护[siam_foreign_missionary_province.Religion.GetName]的宗教安宁。"
- siamese_rev.3.a:0 "我们必须让他们传教。"
- siamese_rev.3.b:0 "这些传教士是对[Root.Religion.GetName]的威胁。"
- EST_VAL_SIA_RESTRICTED_FOREIGN_MISSIONARIES:0 "限制外国传教士"
- siam_allowed_misionaries:0 "庇护传教士"
- siam_denied_misionaries:0 "传教士遇袭"
- siamese_rev.4.t:1 "[sia_noble_plot_province.GetName]的密谋者"
- siamese_rev.4.d:0 "我们的线人报告说[sia_noble_plot_province.GetName]的一帮本地贵族正在密谋对他们当地欧洲人日益增长的影响力采取行动，并且甚至可能要将[Root.Capital.GetName]宫中的外国影响铲除殆尽。"
- siamese_rev.4.a:0 "我们必须扼杀其于萌芽之时！"
- siamese_rev.4.b:0 "我们将会支持他们的谋划，当然是在背地里。"
- EST_VAL_SIA_PROVOKED_NOBLES:0 "受到挑衅的贵族"
- EST_VAL_SIA_SUPPORTED_NOBLE_PLOTS:0 "支持贵族阴谋"
- siamese_rev.5.t:1 "[sia_european_aggressor_country.GetAdjective]军事活动"
- siamese_rev.5.d:1 "我们观察到，在被允许驻扎在我们国土上的[sia_european_aggressor_country.GetAdjective]象征性驻军中有些可疑活动。有理由怀疑这些军事活动预示着即将到来的一次入侵：突袭皇宫、建立[sia_european_aggressor_country.GetAdjective]的统治。当然，也有可能是我们大惊小怪了，这些活动可能没什么危害。"
- siamese_rev.5.a:0 "我们没什么可做的。"
- siamese_rev.5.b:1 "把这些外国兵立时驱逐出洋！"
- opinion_sia_aggressive_acts:0 "部队被驱逐"
- siamese_rev.6.t:0 "与[sia_european_embassy_country.GetName]的贸易协定"
- siamese_rev.6.d:1 "来自[sia_european_embassy_country.GetName]的大使来到了我国宫廷，提出了一系列贸易协定并宣称协议对贵我两国都有裨益。而[Root.Monarch.GetTitle]的顾问更为谨慎，认为这些协议相较其表面，实际更倾向对方。但接受这些条款将大大改善两国之间的关系。"
- siamese_rev.6.a:0 "这一贸易协定对我们双方都有裨益。"
- siamese_rev.6.b:1 "这贸易协定是个侮辱。"
- opinion_sia_embassy_good:0 "良好的交易"
- opinion_sia_embassy_bad:0 "糟糕的交易"
- siamese_rev.7.t:0 "碧罗阇的政变"
- siamese_rev.7.d:1 "反欧情绪已在全[Root.GetName]爆发。一群贵族在一位名叫碧罗阇的人背后聚集起来，并成功发动了一场旨在推翻[Root.Monarch.GetName][Root.Monarch.GetTitle]的政变。政变的迅速发展使得碧罗阇能够对首都的欧洲驻军发动一场突袭，并且立刻把所有欧洲外交官赶出[Root.GetName]。碧罗阇的支持者已尊他为[Root.Monarch.GetTitle]，开启了[Root.GetName]相对封闭的时代。"
- siamese_rev.7.a:0 "我们将把外国人赶出我们的土地。"
- opinion_siam_isolationism:0 "孤立主义倾向"
- siamese_rev.8.t:0 "碧罗阇被捕"
- siamese_rev.8.d:1 "反欧情绪已在全[Root.GetName]爆发。一群贵族在一位名叫碧罗阇的人背后聚集起来，并发动了一场旨在推翻[Root.Monarch.GetName]的失败政变。政变的支持者已被包围并被捕获，在首都的欧洲外交官已经获得对他们的安全的保证。随之而来的显然将会是[Root.GetName]开放和进步的时代。"
- siamese_rev.8.a:0 "这些叛徒将在黎明时分被处死。"
- siamese_age_of_openness:0 "开放时代"
- desc_siamese_age_of_openness:0 "我们的国家现在向世界开放，并接受着世界的影响。"
- siamese_rev.9.t:0 "[Root.Monarch.GetName]的对外政策"
- siamese_rev.9.d:2 "[Root.Monarch.GetName][Root.Monarch.GetTitle]对欧洲商人、外交官和军队在东亚地区的日益增长的存在高度关注。到目前为止，他们与[Root.GetName]的关系还受到限制。[narai_foreign_policy_country.GetName]大使向我们保证他们只是寻求和我们的国家贸易，并且希望了解我们的国家。[Root.Monarch.GetTitle]和他的顾问对这个问题还需要深思熟虑。"
- siam_rev.9.a:0 "我们必须小心对待这些外国人。"
- siam_rev_can_start_tt:1 "可以开始§Y暹罗革命§!。"
- siamese_rev.10.t:0 "在[From.GetName]的新机遇"
- siamese_rev.10.d:0 "我们在[From.GetName]的远征探索队揭示了其国防的一系列战术和政治弱点，这使得他们很容易容易被突袭攻击打垮。我们的间谍和官员向我们保证，如果我们发动一场突袭，[From.GetAdjective]将别无选择而只能屈从于我们的统治。"
- siam_rev.10.a:0 "机会只留给有准备的人。"
- arrest_phetracha_decision_title:0 "拘捕碧罗阇"
- arrest_phetracha_decision_desc:0 "碧罗阇对国家是一个威胁，为了我们的利益，应该下令拘捕他。"
- phetracha_coup_decision_title:0 "支持碧罗阇"
- phetracha_coup_decision_desc:0 "碧罗阇是正确的，我们应该不计代价地支持他的事业。"
- arrest_phetracha_tt:0 "碧罗阇将被拘捕。"
- majapahit.1.t:0 "英雄现身"
- majapahit.1.d:1 "宰相的外甥不久前来到我们宫廷，他的一切都是个谜，只知道他名叫达玛尔乌兰——「月之光辉」。他在我们这里当马夫，但他面容俊朗的传言很快就到了宰相女儿那里，没有什么火能比初恋更难以扑灭了。\n他因冒犯所面临的命运就像夏日一样明朗，然而，吾主[Root.Monarch.GetName]在夜里惊醒，[Root.Monarch.GetSheHe]汗流满面、双目圆睁：「我做了一个梦，」[Root.Monarch.GetSheHe]说，「一个名叫达玛尔乌兰的年轻人救了我们的国家。」"
- majapahit.1.a:0 "但愿他是我们的救星。"
- majapahit.1.b:0 "因他的罪行而放逐此人。"
- damarwulan_tt:0 "§Y达玛尔乌兰§!必须赢得§Y5§!场针对§Y满者伯夷§!敌人的战役。"
- majapahit.2.t:0 "达玛尔乌兰的胜利"
- majapahit.2.d:1 "兵革之争从来都不是轻易之事。横流的鲜血散发着浓重的腥气，敌人尸身倒落尘埃却仍圆睁着双目；开战前的那个夜晚，也依旧让达玛尔乌兰无法入眠。\n然而，战斗胜利了，战斗胜利了，像往常一样；像过去一直以来一样，战斗胜利了。这是第五场战斗了，他希望这是最后一场。当他回到宫中，无上的荣耀加之于身，人们不断呼喊着他的名字。他几乎忘了那是自己的名字，他以为那个单词也许代表着胜利。[Root.Monarch.GetName]走近他身旁，[Root.Monarch.GetHerHis]心灵从未如此快活。「年轻的达玛尔乌兰啊」，[Root.Monarch.GetSheHe]说道，「你也已经不再年轻了。」"
- majapahit.2.a:0 "纳他为夫。"
- majapahit.2.b:0 "他应当成为[Root.GetName]的继承人。"
- majapahit.2.c:0 "他应当被永世传唱。"
- majapahit.3.t:0 "满者伯夷的陨落"
- majapahit.3.d:0 "满者伯夷已经陷入了穷途末路的垂死挣扎。这个一度建立起庞大的附庸和朝贡体系的帝国，现在已经政令难出[Root.Capital.GetCapitalName]城一步。中国在马六甲扶植起我们旧日的死对头，而同时文莱也趁势崛起，这一切最终将我们的霸权击垮。更糟糕的是，争夺继承权的龌龊之事时有发生，随时可能让帝国最后的根基因内斗而分崩离析。"
- majapahit.3.a:0 "黑暗时代来临。"
- majapahit.4.t:0 "[Root.GetName]的新曙光"
- majapahit.4.d:0 "[Root.GetName]排除万难，从长达数十年的动乱与衰退之中重获新生，再度成为强国。[Root.GovernmentName]政局稳定，藩属尽力输诚，信仰和睦同心；回想起名将加查·玛达决心征服整个努山达拉的那振聋发聩的誓言之时，我们再度充满了力量。"
- majapahit.4.a:0 "我们已从鬼门关回来了。"
- majapahit.5.t:0 "淡目的崛起"
- majapahit.5.d:0 "在淡目，穆斯林社群的自治程度日益增加，而他们已经开始拥立[Root.demak_sultan.GetName]，一位背弃正信的满者伯夷宗室王子为自己的新君。[Root.demak_sultan.GetName]不仅宣布建立起独立的淡目苏丹国，更想要进一步谋求满者伯夷的王冠。而因为多方阻挠，我们只能眼睁睁地看着淡目不断积蓄力量。"
- majapahit.5.a:0 "叛徒！"
- majapahit.6.t:0 "马塔兰的崛起"
- majapahit.6.d:0 "事实证明满者伯夷对爪哇本岛领土的控制都已经难以为继。我们的宿敌，一位自称马塔兰苏丹的家伙，前来搅弄风云，他频繁活动于爪哇岛的南部地区并宣称自己要夺取帝国的遗产。[Root.Monarch.GetTitle]除了眼睁睁地看着[Root.Monarch.GetHerHis]帝国在[Root.Monarch.GetHerHim]面前分崩离析之外，几乎无计可施。"
- majapahit.7.t:2 "对满者伯夷抱有二心"
- majapahit.7.d:0 "[maj_tributary_country.GetName]的统治者越来越不把[Root.GetAdjective]的统治放在眼里，甚至还演变成了对王权的公然蔑视，不仅拒绝上缴贡品还对我们的特使冷眼以待。"
- majapahit.7.a:0 "他们会后悔的。"
- majapahit.7.b:0 "做出让步换取忠诚。"
- majapahit.8.t:0 "[Root.maj_pretender.GetName]谋夺王位"
- majapahit.8.d:0 "为了争夺继承权而大打出手在[Root.GetName]几乎已是司空见惯。这一次，一位名叫[Root.maj_pretender.GetName]的亲王就招揽了一支军队并向着首都进军，志在推翻[Root.Monarch.GetTitle]，取而代之。"
- majapahit.8.a:0 "一时得势的小人，我定将你碎尸万段！"
- majapahit.9.t:0 "援助的提议"
- majapahit.9.d:0 "[Root.GetName]的局势万分危急，但仍似乎仍有一线生机。一队穆斯林商团找上了[Root.Monarch.GetTitle]，并提议施以援手，他们会提供巨量的资金，但我们也需要给予他们在各个港口的特权，还要求了在[Root.GetName]随意传教的自由。御前议政会警告说帝国目前风雨飘摇的局面可能会使得民众倒向外乡人的信仰，忘却满者伯夷帝国的传统。然而，真金白银虽然不会说话，却也能够驳斥这通说辞。"
- majapahit.9.a:0 "任何帮助都来者不拒。"
- majapahit.9.b:0 "我们不需要异教徒的帮助，赶走他们。"
- maj_muslim_traders_tt:0 "§Y这些商人将在我们的省份传播逊尼派信仰§!"
- majapahit.10.t:0 "伊斯兰教在[maj_sunni_province.GetName]的传播"
- majapahit.10.d:0 "至少自从郑和远航之时，穆斯林聚落就已经在满者伯夷扎根了。有的是通过贸易来到此地，有的是随着他人一起搬过来的，还有的是后来改信的，无论如何，他们的规模越来越大了。在黑暗时期，在人们无法靠国家保护他们时，伊斯兰教提供了慰藉和一个安逸的环境。[maj_sunni_province.GetName]的人民大多已经接受了逊尼派的信仰，这对传统的印度教-佛教体系造成了巨大的伤害。"
- majapahit.10.a:0 "他们竟敢背弃诸神？"
- maj_harmed_trade_relations:0 "受损的贸易关系"
- desc_maj_harmed_trade_relations:0 "我们拒绝了想要和我们通商的穆斯林商人的帮助，从经济层面讲，现在我们已经孤立无援了。"
- fall_of_majapahit:0 "满者伯夷的陨落"
- desc_fall_of_majapahit:0 "一度光辉灿烂的满者伯夷帝国几乎衰亡殆尽，它惨淡的残余势力已是大厦将倾。"
- grow_cloves_in_zanzibar_title:0 "在桑给巴尔岛培植丁香"
- grow_cloves_in_zanzibar_desc:0 "我们发现，丁香这种当前只出产于香料群岛的名贵商品，可以引种在非洲海岸的桑给巴尔岛上。"
- MAJ_ideas:0 "满者伯夷理念"
- MAJ_ideas_start:0 "满者伯夷传统"
- MAJ_ideas_bonus:0 "满者伯夷野心"
- maj_restore_candi:0 "重修禅邸庙"
- maj_restore_candi_desc:0 "分布在努山达拉各地的庙宇被称为禅邸。为了重建人民的信仰，我们应当修复所见的每一所禅邸。"
- maj_gajah_madas_oath:0 "加查·玛达之誓"
- maj_gajah_madas_oath_desc:0 "加查·玛达，这位活跃于满者伯夷黄金时代的经世伟才和骁勇猛将曾经立下誓言，在征服整个努山达拉之前，必将断绝口腹之欲、绝不尝一口香料。他的统一和征服的意志，将在新生的满者伯夷帝国永世长存。"
- maj_majapahit_armada:0 "满者伯夷无敌舰队"
- maj_majapahit_armada_desc:0 "满者伯夷曾仰仗一支庞大的舰队统治着海洋，舰队之中有许多庞大的东方战舰。我们必须沿袭我们的海军传统，让我们的舰队恢复以往的荣光。"
- maj_reformed_bhattara_saptaprabhu:0 "改革王室咨议会"
- maj_reformed_bhattara_saptaprabhu_desc:0 "根据传统，国君通常听取由王室长者组成的王室的咨议会，是时候改革这项制度，让有治国才能之人进入这个咨议会了。"
- maj_nusantara_tributaries:0 "努山达拉朝贡国"
- maj_nusantara_tributaries_desc:0 "在我们辉煌的巅峰时期，我们在努山达拉有数不尽的朝贡国。只要他们上缴了贡品并且不挑战我们的霸权，我们允许他们享有很大程度的自治权。"
- maj_maritime_silk_road:0 "海上丝路"
- maj_maritime_silk_road_desc:0 "在国家陷入危局之前，满者伯夷曾掌握着庞大而利润丰厚的贸易网络，它将丝绸和香料从东方销往西方。我们重建帝国之后，也要重新掌控贸易。"
- maj_nusa_tenggara:0 "努沙登加拉殖民地"
- maj_nusa_tenggara_desc:0 "满者伯夷一度支配着数十个弹丸小邦、东面的努沙登加拉诸酋邦，甚至触及苏拉威西和摩鹿加群岛。既然我们的帝国已经重生，我们应该在这些群岛上建立殖民地，以一种更直接的方式统治这些群岛。"
- lanfang_decision_title:0 "邀请华人公司联邦"
- lanfang_decision_desc:0 "一些华人矿业组织十分乐于开发婆罗洲的金矿资源。我们应该允许他们建立起自治的社群，这样就能大大提高他们兴办实业的效率。"
- lanfang_decision_formation_title:0 "邀请华人公司联邦"
- kongsi_federation:0 "公司联邦"
- kongsi_federation_desc:1 "公司联邦是一种实行民主制度的联合矿业财团所形成的共和国，其利益由成员共享。随着公司共和国的实力越来越强大，他们也承担起了与政府相当的职能，例如教育、农业事业的行政管理。"
- estate_nobles_command_of_the_military:0 "掌控军队"
- estate_nobles_command_of_the_military_desc:0 "我们的军队被贵族所掌控，因此我们只得仰仗他们的支持从而施展军力。"
- estate_nobles_command_of_the_military_tt:0 "招募§Y将领§!会增加§Y5%贵族影响力§!"
- EST_VAL_NOBLE_LEADER:0 "掌控军队: §Y$VAL$%§!"
- restore_dai_viet_title:0 "重建大越"
- restore_dai_viet_desc:0 "大越被敌对的世族所分裂。我们必须将越南人民团结起来，重建我们的王国。"
- northern_and_southern_dynasties:0 "南北朝"
- northern_and_southern_dynasties_desc:0 "两大敌对的世族之间的矛盾将国家分裂为南北两朝。"
- dai_disaster.1.t:0 "南北两朝"
- dai_disaster.1.d:0 "[Root.Monarch.GetRulerTitleAndNameOrRegency]暗弱无能，而这对与其作对的世族而言，则是登极至尊、推翻[Root.Monarch.Dynasty.GetName]朝的天赐良机。国家现在已经处于南北大分裂的边缘，双方的争斗也许将持续数十年之久。"
- dai_disaster.1.a:1 "支持南朝。"
- dai_disaster.1.b:1 "支持北朝。"
- north_vietnam_breaks_away:0 "§R我国北部将脱离掌控、独立建国。§!"
- south_vietnam_breaks_away:0 "§R我国南部将脱离掌控、独立建国。§!"
- dai_disaster.2.t:0 "大越分裂"
- dai_disaster.2.d:0 "大越已经四分五裂。[Root.Monarch.Dynasty.GetName]、[vietnam_rival_dynasty.Monarch.Dynasty.GetName]两家之间的矛盾冲突演变成为了国家的南北分裂，这必将掀起一场旷日持久、破坏严重的内战。"
- dai_disaster.2.a:0 "我们必将击败[TOK.Monarch.Dynasty.GetName]氏乱臣贼子！"
- dai_disaster.2.b:0 "我们必将击败[ANN.Monarch.Dynasty.GetName]氏乱臣贼子！"
- dai_disaster.3.t:0 "在[Root.GetName]的王朝紧张局势"
- dai_disaster.3.d:1 "[Root.GetName]目前仍无法摆脱王室冲突，现在，几个贵族家族已经掌握并巩固了足够的权力，甚至威胁要分裂国家。他们只等待一个足够弱小的统治者来实行他们的计划并使国家陷入混乱。"
- dai_disaster.3.a:0 "我们必须恢复团结。"
- do_your_missions_tt:0 "如果§Y阻止国家分裂§!任务没有完成，§R南北朝§!灾难可能会发生"
- confucian_bureaucracy:0 "儒家官僚制"
- confucian_bureaucracy_desc:0 "君主任命受过教育的官僚按照儒家原则来管理国家的一种政府体制。"
- examination_system_reform:0 "科举制度"
- examination_system_reform_desc:0 "那些希望参与国家政务队伍并晋升为政府官员的人必须参加一系列考试，以测试他们对儒家文学和治国方略的了解。"
- malay_islam_decision_title:0 "接纳伊斯兰教"
- malay_islam_decision_desc:0 "伊斯兰教迅速成为努山达拉的主流宗教。我们应当思考是否先知的话语在我们的心中产生共鸣。"
- opinion_malay_converted_to_islam:0 "皈依伊斯兰教"
- sakdina_system_reform:0 "萨克迪纳制"
- sakdina_system_reform_desc:0 "礼制森严，不可僭越。将我们的附庸国严格划分等级、排列位次，可以使他们认清互相之间的地位高低，并更加敬畏王权的威严。"
- corvee_reform:0 "徭役制度"
- corvee_reform_desc:0 "每一名农民都需要在国家征召时参加劳役。这种劳役可能是参与王家庞大工程的建设，也可能是充军。"
- uparaja_reform:0 "副王继承"
- uparaja_reform_desc:0 "我们应该将王族成员任命为副王，让他们在继承王位之前提早开始接触人民大众、参与政务。"
- ATJ_ideas:0 "亚齐理念"
- ATJ_ideas_start:0 "亚齐传统"
- ATJ_ideas_bonus:1 "亚齐野心"
- islamise_sumatra:0 "苏门答腊伊斯兰化"
- islamise_sumatra_desc:0 "亚齐是马来第一个接纳伊斯兰教的地区。尽管如此，附近国家和我们自己的土地上的许多人仍然遵循异教信仰。为了证明我们对真主安拉的信仰，我们应该努力使其他人皈依先知之道。"
- rise_of_aceh:0 "亚齐的崛起"
- rise_of_aceh_desc:0 "我们的雄心壮志绝不仅仅是成为一个贸易中转港。亚齐将领导一个横跨努山达拉的伟大帝国。"
- military_adventures:0 "军事冒险"
- military_adventures_desc:0 "不入虎穴，焉得虎子。我们不该畏惧在遥远的土地上进行能够提高我们在全世界的影响力的长期战役。"
- acehnese_moneylending:0 "亚齐借贷"
- acehnese_moneylending_desc:0 "金本位制让我们取得了对其他国家的经济优势，但真正使亚齐成为商贸之都的是极低的贷款利息。我们的商人在投资新企业时无需担心债主收取相当于他们一半以上利润的利息。"
- export_economy:0 "出口经济"
- export_economy_desc:0 "亚齐的经济主要依赖于出售高价值的物产，例如肉豆蔻，丁香以及槟榔果。亚齐人致力于在可能的军事和商业风险中保障国内食品生产。为了保证过剩的食品生产能够转换为价值更高的香料生产，我们需要建立稳固的商业伙伴关系。"
- BLI_ideas:0 "巴厘理念"
- BLI_ideas_start:0 "巴厘传统"
- BLI_ideas_bonus:1 "巴厘野心"
- javanese_culture:0 "接纳爪哇文化"
- javanese_culture_desc:0 "满者伯夷的古老统治使得爪哇文化在巴厘岛留下深刻的烙印，其中最主要的是建筑、舞蹈和戏剧，以及绘画、雕塑和哇扬皮影偶戏。同时，在文学上引入了卡维文字。"
- aristocratic_refugees:0 "流亡贵族"
- aristocratic_refugees_desc:0 "随着印度尼西亚群岛中伊斯兰教的崛起和各大王国的沦陷，失势的印度教贵族纷纷涌向巴厘岛，以恢复其古老的荣誉。"
- staunch_hindus:0 "坚定的印度教徒"
- staunch_hindus_desc:0 "宗教转变向马来世界袭来。我们必须不惜一切代价抵抗古老印度教文明的重大威胁——伊斯兰教和基督教。"
- conquerer_dalems:0 "征服者达勒姆"
- conquerer_dalems_desc:0 "被称作达勒姆的巴厘岛君王们并没有因为自己的王国弱小而放弃野心勃勃的征服。例如名叫巴图仁贡的达勒姆把他的吉尔吉尔王国扩张到了东方的群岛上，甚至在爪哇岛也有涉足。"
- bli_island_settlers:0 "岛屿移民"
- bli_island_settlers_desc:0 "除爪哇之外的周边岛屿，与巴厘岛相比都十分弱小蛮荒。移居这些岛屿，在岛屿上建立由巴厘岛贵族统治的政治清明，信仰虔诚的社会将会相当容易。"
- hindu_reformation:0 "印度教改革"
- hindu_reformation_desc:0 "我们周围的失败国家对宗教采取的三心二意和自由散漫的态度在巴厘岛上没有立足之地。我们应当认真听取达扬·尼拉塔上师的智慧启示，坚持湿婆信仰相对于其他形式的宗教生活至高无上的统治地位。应当建造新的神庙，改革神职制度，以建立一个符合时代需求的改良印度教信仰。"
- rivals_to_slaves:0 "俘虏为奴"
- rivals_to_slaves_desc:0 "当敌人可以作为一个奴隶存在的时候，我们为什么要杀掉他呢？不杀他们反而让他们服务于我们，不单单展现巴厘的统治者的怜悯，还能让本地解放更多的人力。"
- SUN_ideas:0 "巽他理念"
- SUN_ideas_start:0 "巽他传统"
- SUN_ideas_bonus:1 "巽他野心"
- defensive_moats:0 "护城河"
- defensive_moats_desc:0 "我们的防御工事在敌人无数次的进攻中保护了我们，并将继续履行属于它的使命。"
- wooden_architecture:0 "精致的木质建筑学"
- wooden_architecture_desc:0 "巽他建筑传统强调木质结构的美感。我们的神庙和宫殿是马来亚地区广受羡慕的翘楚。"
- seren_taun:0 "丰收节"
- seren_taun_desc:0 "丰收节展示了巽他的农业生活，在巽他的村庄中以高规格举办。"
- sunda_galuh:0 "巽他和加鲁联盟"
- sunda_galuh_desc:0 "巽他王国和加鲁王国曾经是独立但互相关联的国家。我们已经将其统一成一个牢不可分的王国。"
- estate_burghers_orang_laut_alliances:0 "海人同盟"
- estate_burghers_orang_laut_alliances_desc:0 "海人是马六甲海峡及周边海域土生土长的海上游牧民。他们对待盟友非常厚道，可以雇佣他们击退海盗或引导商人前往我们的港口。"
- DAI_NAM:0 "大南"
- DAI_NAM_ADJ:0 "大南"
- VIET_NAM:0 "越南"
- VIET_NAM_ADJ:0 "越南"
- flavor_dai.4.t:0 "天命"
- flavor_dai.4.d:0 "明失其德，暴虐无章。天命在吾，席卷八荒。一统九州，合铸新邦。但求一名，千载荣昌。"
- lavor_dai.4.a:0 "大南。"
- lavor_dai.4.b:0 "越南。"
- lavor_dai.4.c:0 "[Root.GetName]。"
- flavor_dai.5.t:0 "皇城"
- flavor_dai.5.d:0 "我们已把顺化确定为[Root.GetName]新都的备选，但是我们也可以重振[613.GetCapitalName]的旧都。不管我们选择哪一个，我们都要建造一座宏伟的皇城，我们光荣的[Root.Monarch.GetTitle]将在此进行统治。"
- flavor_dai.5.a:0 "顺化将成为国都的优良所在。"
- flavor_dai.5.b:0 "改[613.GetCapitalName]为河内。"
- stateless_society:0 "无国家社会"
- stateless_society_desc:0 "我们的民众有意不组成国家，他们更向往简朴的生活，对低地诸国盛行的等级压迫敬而远之。"
- STATELESS_SOCIETY:0 "无国家社会"
- TRIBAL_LEADER:0 "部落领袖"
- manpower_sailors_on_build_tt:0 "建设§Y兵营§!、§Y训练营§!建筑将获得§G1000§!人力；建设§Y船坞§!、§Y干船坞§!将获得§G200§!水手。"
- HARIPHUNCHAI:0 "骇黎朋猜"
- HARIPHUNCHAI_ADJ:0 "骇黎朋猜"
- DVARAVATI:0 "陀罗钵地"
- DVARAVATI_ADJ:0 "陀罗钵地"
- BURMA:0 "缅甸"
- BURMA_ADJ:0 "缅甸"
- RAMANNADESA:0 "罗摩那提沙"
- RAMANNADESA_ADJ:0 "罗摩那提沙"
- lxa_warning_tt:0 "§R因为你正扮演§Y澜沧§!，占领§Y[4839.GetName]§!、§Y[614.GetName]§!或§Y[615.GetName]§!的篡权叛军可能建立新的国家，从你的统治下分裂出来。§!"
- flavor_lxa.1.t:0 "占巴塞王国"
- flavor_lxa.1.d:0 "随着内战愈演愈烈，澜沧的一位王族公子已经在占巴塞建立了独立王国。我们敬爱的祖国今后也许将无立锥之地。"
- flavor_lxa.1.a:0 "必须打败这些乱臣贼子……早晚要打败他们。"
- flavor_lxa.2.t:0 "万象王国"
- flavor_lxa.2.d:0 "随着内战愈演愈烈，澜沧的一位王族公子已经在万象建立了独立王国。我们敬爱的祖国今后也许将无立锥之地。"
- flavor_lxa.3.t:0 "琅勃拉邦王国"
- flavor_lxa.3.d:0 "随着内战愈演愈烈，澜沧的一位王族公子已经在琅勃拉邦建立了独立王国。我们敬爱的祖国今后也许将无立锥之地。"
- restore_lan_xang_title:0 "重建澜沧"
- restore_lan_xang_desc:0 "伟大的老挝民族遭受了沉重的打击，已然四分五裂。现在轮到我们去控制那些名城要地、消灭王位觊觎者来实现国家的统一。"
- custom_idea_transport_power:0 "聊胜于无的训练"
- custom_idea_transport_power_desc:0 "尽管运输船极少有机会参与海军交战，我们仍然为船员安排了基础的登舰作战训练，这在作战时可以给他们一种安全感。"
- MLC_ideas:0 "马六甲理念"
- MLC_ideas_start:0 "马六甲传统"
- MLC_ideas_bonus:0 "马六甲野心"
- mlc_vassal_princes:0 "邦君附庸"
- mlc_vassal_princes_desc:0 "马六甲在香料群岛居于要冲之地，如果我们要利用这种地理优势，我们应开始寻求一些附庸。"
- mlc_maritime_laws:0 "海洋法"
- mlc_maritime_laws_desc:0 "努山达拉是我们祖先的家园，我们必须遵循安拉旨意，接受这片土地并成为这片区域的主要贸易港口。邻近的国家对我们造成不了任何海上威胁。"
- mlc_new_hegemony:0 "马六甲霸权"
- mlc_new_hegemony_desc:0 "我们的国家也许初创不久，而我们的历史却并非如此。我们必须重建古室利佛逝王朝，再现其旧日辉煌。马六甲的名字应被铭记！"
- mlc_islamic_sultanate:0 "伊斯兰苏丹国"
- mlc_islamic_sultanate_desc:0 "在远离先知故土的地方传播我们的信仰已然举步维艰，如果我们渴求一个带来和平的政府，那么我们需要多一点……变通，以目前而言。"
- mlc_habor_masters:0 "港口主宰"
- mlc_habor_masters_desc:0 "我们在确保国内宗教宽容氛围上的努力已初见成效，马六甲正是屹立在努山达拉上的一座大熔炉，来自不同文化、不同信仰的人们在此找到了立足之地，得以休养生息。由于我们的仁慈，邻近岛屿正帮助我们将贸易引导至我国的港口。"
- mlc_daulat:0 "苏丹君权"
- mlc_daulat_desc:0 "在我们祖先统治的时期，来自室利佛逝的国王们拥有血缘上的正统。作为一个新成立的国家，马六甲必须通过遵奉其先祖来确保苏丹的正统君权。苏丹承奉真主之慈惠而治，永远如此。"
- mlc_jawi_script:0 "爪夷文"
- mlc_jawi_script_desc:0 "随着古典马来语成为努山达拉的通用语，也是时候将婆罗米系文字改换成更适合我们信仰的文字了。爪夷文源自我们的远房亲戚阿拉伯文，将是统一努山达拉文字的绝佳选择。"
- BEI_ideas:0 "文莱理念"
- BEI_ideas_start:0 "文莱传统"
- BEI_ideas_bonus:0 "文莱野心"
- bei_galleys:0 "桨帆战舰舰队"
- bei_galleys_desc:0 "文莱舰队一直是我国军事力量的核心。千里之行始于足下，着眼于桨帆战船的建设将增强我们对周边海域的控制能力。"
- bei_sea_nomads:0 "海上游民"
- bei_sea_nomads_desc:0 "海人和巴瑶族的航海者居住在我国近海的船屋里。如果能让他们效忠我们文莱，我们将获得更多的水手和更强的海军力量。"
- bei_diplomacy:0 "文莱外交"
- bei_diplomacy_desc:0 "若想在努山达拉之内确立绝对的制海权，我们必须与一些人结盟。出使周边各国的外交使团已经着手此事一段时间了，如今文莱的政声颇为不错。"
- bei_vassals:0 "婆罗洲霸主"
- bei_vassals_desc:0 "一座岛屿，一个国家。文莱的领土应该达到卡普阿斯河三角洲地带，我们的势力应该遍布整个婆罗洲。一旦成功，其它马来亚苏丹国也就必须向我们俯首称臣。"
- bei_naval_prowess:0 "海军力量"
- bei_naval_prowess_desc:0 "通过与海上流民结盟，我们得以构建起庞大的舰队，文莱战舰之威名将抵达全努山达拉每一个角落。"
- bei_trade:0 "商人联盟"
- bei_trade_desc:0 "我们商人的脚步远及洛坤和暹罗，但现在是时候寻求更具冒险精神的贸易伙伴了。欧洲人对这一地带的香料贸易颇感兴趣，而葡萄牙人则似乎是他们之中最会做生意的人。"
- MSA_ideas:0 "马来亚理念"
- MSA_ideas_start:0 "马来亚传统"
- MSA_ideas_bonus:0 "马来亚雄心"
- msa_advanced_galley_warfare:0 "先进桨帆战舰战术"
- msa_advanced_galley_warfare_desc:0 "我们的国家一直就是一个海上国度，而技术进步如今终于让我们的舰船也能受益。这种新的技术能够帮助我们成为敌人所畏惧的力量。"
- msa_expert_haggling:0 "还价高手"
- msa_expert_haggling_desc:0 "我们的商贸文化使得马来人成为了贸易的行家里手。我们绝对可以从邻国手中赚得利益。"
- msa_chart_the_seas:0 "勘察群岛"
- msa_chart_the_seas_desc:0 "不为人所知的区域显然不能去征服。为了成为马来群岛的指航灯塔，我们必须弄清那些危险的巉岩峭壁的位置。"
- msa_in_every_port:0 "马来商贸通天下"
- msa_in_every_port_desc:0 "向海洋投资的每一分钱都必须有所回报。"
- msa_sea_nomads_steering:0 "与海上部族达成共识"
- msa_sea_nomads_steering_desc:0 "我们熟知海洋正如海洋熟知我们一样。波涛在我们面前变得轻柔，海上游民在我们面前也懂得敬畏。他们会帮助我们保障贸易线路。"
- msa_spice_kings:0 "香料之王"
- msa_spice_kings_desc:0 "我们从事香料贸易的历史可追溯到公元前1500年，成为海上丝绸之路的重要部分是我们国家值得引以为傲的成就。没有一片土地是我们所无法到达的。"
- SIA_ideas:0 "暹罗理念"
- SIA_ideas_start:0 "暹罗传统"
- SIA_ideas_bonus:0 "暹罗野心"
- sia_royal_poets:0 "王家诗人"
- sia_royal_poets_desc:0 "如果没有人唱颂战胜的传奇故事，那打了胜仗又有什么意义呢？我们的宫廷将成为诗人的安居之所，我们的光辉历史将成为他们的创作源泉。"
- sia_advanced_elephant_warfare:0 "先进象战战术"
- sia_advanced_elephant_warfare_desc:0 "《沅败记》，我国最伟大、最古老的诗篇之一，其中用一百多行文字记述了我国战象的身姿与荣耀。让他们瞧瞧我们的厉害吧！"
- sia_experienced_ambassadors:0 "有经验的大使"
- sia_experienced_ambassadors_desc:0 "我们在政治活动上有丰富的经验，我国的早期历史正是以各个王朝之间的彼此敌对为其特征的。我们在外交上的声誉能够为我们博得影响力。"
- sia_encourage_immigration:0 "鼓励移民"
- sia_encourage_immigration_desc:0 "我国东北部的呵叻高原仍然人口稀少，我们应当鼓励其它民族迁入暹罗，共享我们王国的辉煌。"
- sia_integrating_the_realm:0 "巩固国家"
- sia_integrating_the_realm_desc:0 "分权体制会削弱我们对边远省份的控制。如果我们建立「四柱制」，亦即设立四大行政部门，我们将控制支撑王国的四根支柱——军队、宗室、财税和农业。"
- sia_education_reform:0 "教育改革"
- sia_education_reform_desc:0 "妙觉灵明独自知，说出即是妄，落笔即是假。自己的经验胜过他人的千言万语，教育是知识的基础，科技的进步必须依赖于教育的进步。"
- sia_royal_absolutism:0 "绝对王权"
- sia_royal_absolutism_desc:0 "王者，万人之上而居神之下。我王统治大地，万民尊崇，犹神之于天国也。"
- LFA_ideas:0 "兰芳理念"
- LFA_ideas_start:0 "兰芳传统"
- LFA_ideas_bonus:0 "兰芳野心"
- lfa_free_elections:0 "自由选举"
- lfa_free_elections_desc:0 "我们国家的万民理应共治其邦而共享其政，而以金权干政的作奸犯科之道断不可行。"
- lfa_mining_syndicates:0 "矿业同乡会"
- lfa_mining_syndicates_desc:0 "负镐之工，速速崛起，因吾乡谊，结为工团！朱门财阀，以财困我，奋起抗之，夺回果实！"
- lfa_careful_diplomacy:0 "谨慎外交"
- lfa_careful_diplomacy_desc:0 "我们纵横捭阖的外交成绩甚至被周遭国家所猜忌眼红。而我们只需韬光养晦，以保证我们民本的理念颠覆不破。"
- lfa_national_militia:0 "客家民团"
- lfa_national_militia_desc:0 "客家男儿，速速崛起，结为义勇，保境安民！匪徒仇寇，冒犯我疆，举枪填弹，射杀敌军！"
- lfa_integrate_local_communities:0 "整合土人"
- lfa_integrate_local_communities_desc:0 "人与邻人之别也鲜矣！文种的多样性理应成为我们的财富而非我们的负担。凡自食其力者，兰芳都是他们的栖所。"
- lfa_improved_mining_techniques:0 "改进采矿技术"
- lfa_improved_mining_techniques_desc:0 "国之富由其民之足，兰芳当善用大地所赠予我们的资产。采掘技术得到发展，工作条件也能得到保证。"
- lfa_state_expansion:0 "南洋野望"
- lfa_state_expansion_desc:0 "平等与自由方能造就幸福繁荣之邦，兰芳便是这一真理的最好例证。我们应当将这一真理传播至世界余下的角落，并将他们从奴役的锁链中解放出来！"
- LIG_ideas:0 "洛坤理念"
- LIG_ideas_start:0 "洛坤传统"
- LIG_ideas_bonus:0 "洛坤野心"
- lig_autonomous_subject:0 "自治属国"
- lig_autonomous_subject_desc:0 "从泰人的统治中脱离出来后，我们已经争取到了作为一个城市勐邦的自由。我们独立国家的建立为东南亚其他地区所瞩目，而这正是我们应有的姿态。"
- lig_religious_conversion:0 "弘扬佛法"
- lig_religious_conversion_desc:1 "传统是我们力量的来源。作为整个努山达拉抵抗伊斯兰教传播的最后堡垒，洛坤理应挺身而出，担负起与全世界分享佛陀的教诲的重大责任。"
- lig_vassal_cities:0 "附庸城邦"
- lig_vassal_cities_desc:0 "我们洛坤作为一个勐，能够拥有自己的土司世系和附庸。想要扩大影响力的话，伺机吞并马来半岛上其他的勐似乎是一个不错的开始。"
- lig_trade_primacy:0 "贸易至上"
- lig_trade_primacy_desc:0 "悠久的航海传统使我们的海事贸易发展事半功倍。从大局来看，向东方而来的新兴商团招商引资无论如何都不是坏主意。"
- lig_bridge_to_malaya:0 "暹罗纽带"
- lig_bridge_to_malaya_desc:0 "暹罗和洛坤曾经同属一个帝国，这份联系尚未消失。我们应该在保持自身独立的同时寻求具有外交重要性的保护。古老的联盟绝不会被摒弃。"
- lig_spirit_of_rebellion:0 "反叛精神"
- lig_spirit_of_rebellion_desc:0 "我们的国家是在奋起抗争中获得独立的。因此洛坤和他的人民都不会轻易臣服于他人，敌国统治每拓张一寸都将付出沉重的代价。"
- lig_trade_protection:0 "保护洛坤的贸易"
- lig_trade_protection_desc:0 "船只是我们国家的骄傲，是我们贸易的倚仗。当务之急，是保护它们以确保它们顺利地抵达港口。"
- PLB_ideas:0 "巴邻旁理念"
- PLB_ideas_start:0 "巴邻旁传统"
- PLB_ideas_bonus:0 "巴邻旁野心"
- plb_ancient_scriptures:0 "古代文献"
- plb_ancient_scriptures_desc:0 "我们国家最古老的记录讲述了我们最伟大的国王之一带领两万人和数百舰船驶向了未知世界的故事。这个故事不会被遗忘。"
- plb_pirate_ancestry:0 "海盗后裔"
- plb_pirate_ancestry_desc:0 "尽管一些无知的外国人将我们叛逆的天性视为不计后果的鲁莽，但我们从来都一直为傲。毕竟小规模的械斗怎么会出人命呢……或许吧？"
- plb_controlling_the_strait:0 "掌控海峡"
- plb_controlling_the_strait_desc:0 "顺潮而呼，声非加疾也，而闻者彰。我们凝视着海洋，正如深海的巨鲸凝视着浪潮。"
- plb_center_of_the_dynasty:0 "王朝中心"
- plb_center_of_the_dynasty_desc:0 "在夏连特拉王朝统治期间，我们的国土成为了骁勇善战的人民的家园；我们的城市庆典不歇，宴乐不辍；我们的联盟坚不可破。"
- plb_trading_hub:0 "贸易核心"
- plb_trading_hub_desc:0 "来自大陆上的商人在漫长的季风期间必须在我们的国土上停留。因此，我们的城市做好了充足的准备，开设了大规模的集市，积攒了丰富的货源。"
- plb_through_the_monsoon:0 "度过雨季"
- plb_through_the_monsoon_desc:0 "驯服风暴，绝无可能；化身风暴，可歌可泣。相关知识在数代水手间代代传承，终于练就了仅凭一朵刚刚出现的乌云就能推断出风暴将至的本领。"
- plb_learned_scholars:0 "渊博学者"
- plb_learned_scholars_desc:0 "自从室利佛逝帝国建立以来，我国便一直被诸多僧侣和学者视为精神故乡，他们在此献出一生的时间投入到学习中去。"
- BAN_ideas:0 "万丹理念"
- BAN_ideas_start:0 "万丹传统"
- BAN_ideas_bonus:0 "万丹野心"
- ban_struck_down_by_diamonds:0 "钻石价更高"
- ban_struck_down_by_diamonds_desc:0 "爪哇有句俗语——「宝屋自夸世无双，钻石现身见真章」，在我国皈依正统信仰时用上这句话再贴切不过了。"
- ban_surrounded_by_stars:0 "群星环绕"
- ban_surrounded_by_stars_desc:0 "传说中，当第一批人来到我们的土地上，看到带给我们生命的清澈河流时，他们认为我们的国家为群星所环绕。这就是我们这片土地的富饶。"
- ban_from_east_to_west:0 "东西往来"
- ban_from_east_to_west_desc:0 "我国濒临巽他海峡的重要战略地位，使得我们在贸易上占尽了优势。来自世界各地的商人都从我们的沿岸经过，这助长了我们的商贸才能。"
- ban_rebuttal:0 "坚决反抗"
- ban_rebuttal_desc:0 "纠纠邦民，共赴国难，血不流干，死不休战。万丹在历史长河中塑造了一座永不沦陷的城市。"
- ban_fertile_lands:0 "沃土"
- ban_fertile_lands_desc:0 "农业是我国国计民生之本。我们拥有上天赐予的肥沃土壤，足以供养我们人口众多的国家。"
- ban_by_the_river:0 "内河航运"
- ban_by_the_river_desc:0 "我国中部纵横着许多适于航运的河流，而其支流更是遍及了我们全部的国土。我们已经掌握了这种运输渠道，能够借助它们轻松地运转货品。"
- ban_cultural_richness:0 "文化繁荣"
- ban_cultural_richness_desc:0 "因其战略价值和富饶的物产，我们的国家是许多旅行者的第二故乡，佛教和伊斯兰教交织于此，和睦共处。"
- SUL_ideas:0 "苏禄理念"
- SUL_ideas_start:0 "苏禄传统"
- SUL_ideas_bonus:0 "苏禄野心"
- sul_sultanate_of_sulu:0 "苏禄苏丹国"
- sul_sultanate_of_sulu_desc:0 "我们伟大的苏丹国是由宗教人士建立的，这一点决不能被忽视。他们对我主的虔信对国家的崛起至关重要。"
- sul_makhdum_teachings:0 "尊师的教诲"
- sul_makhdum_teachings_desc:0 "很久很久以前，睿智的学者卡里姆尊师来到我们的土地。他的言语洞察深邃，为我们的统治者指引了一条繁荣之路。因此我们应该永远铭记他的教诲。"
- sul_across_the_sulu_sea:0 "穿越苏禄海"
- sul_across_the_sulu_sea_desc:0 "因为关于我们土地的美丽传说，无数的旅者争相来到我们的家乡；因为对于探索未知领域的渴望，我们也扬帆前往遥远的土地。这造就了我们的外交使节勇于进取的冒险精神。"
- sul_port_of_jolo:0 "霍洛港"
- sul_port_of_jolo_desc:0 "我们的首都霍洛港举足轻重，富甲全菲律宾。来自大陆的丝绸、琥珀、白银、瓷器，来自马六甲和文莱的钢铁、珠宝，在这个贸易枢纽汇集，让我国成为了一个坐落在财富上的国度。"
- sul_dagat_sulu:0 "苏禄海"
- sul_dagat_sulu_desc:0 "苏禄海在季风季是艰险且无法通行的。位于我们海岸的风暴也不例外，但是我们的水手已经学会了忍受它们并继续弄潮，甚至是对抗那些深不可测的力量。"
- sul_coconut_plantations:0 "椰子种植园"
- sul_coconut_plantations_desc:0 "我们所有大型岛屿上都生长着椰子树，椰树的栽培是我们一个主要的收入来源。"
- sul_pearl_farming:0 "珍珠养殖业"
- sul_pearl_farming_desc:0 "一枚珍贝一次只能孕育一颗珍珠，因此育殖珍珠是一门只有持之以恒的人才能从事的活计。即便如此，它所带来的丰厚经济收益完全值得我们为之付出的努力。"
- CRB_ideas:0 "井里汶理念"
- CRB_ideas_start:0 "井里汶传统"
- CRB_ideas_bonus:0 "井里汶野心"
- crb_negara_gede:0 "内加拉-格德"
- crb_negara_gede_desc:0 "「内加拉-格德」在我们的方言中意思是「伟大的王国」，这是我们胜利的国家的真正名称。我们的沿海文化和高洁的历史使我们在该岛的政治活动中占有突出地位，为此我们的人民将永远心存感激。"
- crb_tari_topeng:0 "面具舞"
- crb_tari_topeng_desc:0 "面具舞是我们国度最重要的传统之一。舞者和乐师为这些鼓舞我国士气的多彩庆典倾尽了毕生精力。"
- crb_alis_panther:0 "阿里之豹"
- crb_alis_panther_desc:0 "展现我们国家狞猛一面的象征之一就是黑豹，这种危险的动物将其身形隐藏在我们岛屿深处的丛林之中。它那危险的天性使它成为难缠的对手。丛林对任何人都不温柔。"
- crb_mount_ciremai:0 "泽勒迈火山"
- crb_mount_ciremai_desc:0 "一股烟柱从我们国家的最高处直冲云霄。夜幕降临时，它的愤怒化作熊熊烈火打垮了敌军。泽勒迈火山一直照顾着它忠实的同伴。"
- crb_islamic_schools:0 "伊斯兰学校"
- crb_islamic_schools_desc:0 "学者们精通我们信仰的教诲，同时也善于教育年轻人。一大批致力于指引人民走向正确方向的学校使得我们能够培养善巧而虔诚的民族。"
- crb_batik_textiles:0 "巴蒂克蜡染纺织品"
- crb_batik_textiles_desc:0 "蜡染技术在爪哇的各地都很流行，但从未有过哪个国家像井里汶这般出名。我们的织布工专门研究这种方法，我们的生产力让全岛为之嫉妒。"
- crb_royal_lineage:0 "皇家血统"
- crb_royal_lineage_desc:0 "我们国家的领导人的皇室血统确保他统治的法理性。愿他们的明智带来繁荣，进取的精神永不堕落。"
- flavor_iro.1.t:0 "不可饶恕的公然冒犯"
- flavor_iro.1.d:0 "一群人趁着夜色前来。黯淡的月光下只能模糊地看见他们的脸庞，矛尖映射着火把的光焰。他们无声无息；脚步声轻得如同夏季的微风。然后，沉寂被打破了，夜晚的安宁随之告终。\n他们袭击了我们的村寨，点燃了我们的帐篷，偷走了我们的粮食，劫走了我们的人民。有许多战士一听到响动便已苏醒过来，尝试阻止敌人，可他们毕竟毫无防备，许多人因此在战斗中牺牲。他们就这样遇害了。他们曾是家人的至亲骨肉；是父亲，是兄弟，是儿子。可他们就这样残忍地被夺去了生命。\n只要我们还有一息尚存，必将让仇敌永无宁日。"
- opinion_iroquois_affront:0 "不可饶恕的公然冒犯"
- flavor_iro.1.a:0 "我们内心将永远为他们的离世而哭泣。"
- flavor_iro.2.t:0 "慰灵战争"
- flavor_iro.2.d:0 "劫掠周围村庄的人口以补充我们逝去的同胞已经成为了我们民族的一项传统。部族里的母亲们要求我们发动一场「慰灵战争」以抚慰她们最近失去了孩子的痛苦，接受这样合理的要求是我们的天职。\n在这个漆黑深沉的夜里，我们的战士成功地袭击了目标村庄，并在一片混乱中劫走了相当数量的当地人。"
- flavor_iro.2.a:0 "我们应该抓些俘虏。"
- flavor_iro.3.t:0 "一个新的俘虏"
- flavor_iro.3.d:1 "我们的战士从之前的劫掠中带回了一些俘虏。他们胜利地来到[Root.Monarch.GetName]的面前，并在将一个孩子怀抱到[Root.Monarch.GetHerHim]的身前。「以此来弥补您的损失」，这话音传到耳边，眼泪又流了出来。"
- flavor_iro.3.a:1 "拒绝他。"
- flavor_iro.3.b:0 "收养他。"
- iroquoian_iron_fist_opinion:0 "铁拳"
- iroquoian_iron_fist:0 "铁拳"
- desc_iroquoian_iron_fist:0 "我们用残酷的手段来统治我们的敌人。"
- flavor_iro.5.t:0 "一位新的将军"
- flavor_iro.5.d:1 "我们部族决定收养的孩子在我们的人民中正直而坚强地成长了起来。他在战斗中的勇猛和保护村庄中的表现已多次得到证明。他值得信赖的笑容赢得了许多我们最凶猛的战士的信任，他们会毫不犹豫地追随他。很难想象他曾经是个受到惊吓后想躲回家的孩子。\n最后，我们可以自豪地宣布——现在这里是他的家乡了。"
- flavor_iro.5.a:0 "长大得真快啊……"
- flavor_iro.4.t:0 "国母"
- flavor_iro.4.d:1 "最近的战争给我们部族的核心地带造成了伤害。一位女性认真地观察了我们在战争中的决定。尊重我们的古老传统，以及悉心照顾俘虏都是给我们带来骄傲的行为。这位年老又睿智的女性在我们的战士面前展现了真身，她是「洁古斯艾斯」——诸部族之母。大和平缔造者在久远的过去赋予了她这一称号。她审视的双眼中正充满着喜悦。\n「欢呼吧！」，她说，「你的行为给我们的人民带来了荣耀。」"
- flavor_iro.4.a:0 "我们做得不错。"
- mother_of_nations:0 "国母"
- desc_mother_of_nations:0 "国母的指引护佑着我们的人民。"
- burghers_estate_events.17.1.t:0 "热带城市建设"
- burghers_estate_events.17.1.d:1 "随着我们的发展和新热带省份的加入，[Root.GetName]的$ESTATE_BURGHERS$已经开始了他们对这些新地方的规划，这样他们就可以凭借自己的技术发展壮大。"
- burghers_estate_events.17.1.a:0 "很好。"
- renovate_emerald_buddha_shrine_alternate_title:0 "修葺玉佛寺（§Y业力 -§!）"
- renovate_emerald_buddha_shrine_alternate_desc:1 "供奉翡翠佛像的神龛需要修缮，这不仅是为了在物质层面维护它，同时也是为了强调当前佛教对国家的重要作用。"
- siamese_revolution_event_tt:0 "曾与欧洲商人接触。"
- siamese_revolution_tt:0 "是§Y欧洲§!国家，且在§Y东印度§!次大陆拥有一个省份。"
- siamese_revolution_religion_tt:0 "不是§Y[Root.Religion.GetName]§!"
- siamese_revolution_progression_tt:0 "首都在§Y欧洲§!。"
- PROV_ADJ4790:0 "勃良安"
- PROV_ADJ4791:0 "井里汶"
- PROV_ADJ4792:0 "肯德尔"
- PROV_ADJ4793:0 "帕章"
- PROV_ADJ4794:0 "玛琅"
- PROV_ADJ4795:0 "波尼"
- PROV_ADJ4796:0 "肯达里"
- PROV_ADJ4797:0 "索彭"
- PROV_ADJ4798:0 "瓦久"
- PROV_ADJ4799:0 "桑库利朗"
- PROV_ADJ4800:0 "巴塞尔"
- PROV_ADJ4801:0 "巴都利金"
- PROV_ADJ4802:0 "坤甸"
- PROV_ADJ4803:0 "默利奥"
- PROV_ADJ4804:0 "古晋"
- PROV_ADJ4805:0 "民都鲁"
- PROV_ADJ4806:0 "加帛"
- PROV_ADJ4807:0 "北婆罗洲"
- PROV_ADJ4808:0 "苏门答腊"
- PROV_ADJ4809:0 "冷吉"
- PROV_ADJ4810:0 "碟里"
- PROV_ADJ4811:0 "巴鲁斯"
- PROV_ADJ4812:0 "宜力"
- PROV_ADJ4813:0 "槟榔屿"
- PROV_ADJ4814:0 "士曼丹"
- PROV_ADJ4815:0 "新加坡"
- PROV_ADJ4816:0 "冷岳"
- PROV_ADJ4817:0 "巴东"
- PROV_ADJ4818:0 "因陀罗补罗"
- PROV_ADJ4819:0 "广宁"
- PROV_ADJ4820:0 "兴化"
- PROV_ADJ4821:0 "乂安"
- PROV_ADJ4822:0 "阿摩罗伐底"
- PROV_ADJ4823:0 "嘉莱"
- PROV_ADJ4824:0 "埃地"
- PROV_ADJ4825:0 "菩萨"
- PROV_ADJ4826:0 "贡布"
- PROV_ADJ4827:0 "磅同"
- PROV_ADJ4828:0 "柏威夏"
- PROV_ADJ4829:0 "朗敦雷"
- PROV_ADJ4830:0 "罗勇"
- PROV_ADJ4831:0 "曼谷"
- PROV_ADJ4832:0 "罗涡"
- PROV_ADJ4833:0 "碧差汶"
- PROV_ADJ4834:0 "素攀武里"
- PROV_ADJ4835:0 "干乍那武里"
- PROV_ADJ4836:0 "西贴"
- PROV_ADJ4837:0 "孟威"
- PROV_ADJ4838:0 "黎逸"
- PROV_ADJ4839:0 "占巴塞"
- PROV_ADJ4840:0 "塞公"
- PROV_ADJ4841:0 "南奔"
- PROV_ADJ4842:0 "南邦"
- PROV_ADJ4843:0 "安南山脉"
- PROV_ADJ4844:0 "道纳丘陵"
- PROV_ADJ4845:0 "马穆朱"
- have_crown_colony_tt:0 "拥有§Y王冠殖民领§!属国。"
- have_private_enterprise_tt:0 "拥有§Y特许公司殖民领§!属国。"
- have_self_governing_colony_tt:0 "拥有§Y自治殖民领§!属国。"
- TRIBAL_LEADER_fem:0 "部落领袖"
- ming_crisis.11.t:0 "[ming_disaster_new_tag.GetName]分离主义者在[ming_disaster_nationalist_province.GetName]发动起义！"
- ming_crisis.11.d:0 "一股[ming_disaster_new_tag.GetName]叛军竟胆敢质疑我们[Root.Monarch.GetTitle]的主权，并声称我们不再是天朝正统，他们在[ming_disaster_nationalist_province.GetName]准备了一支具有威胁的军队并已公开向我们宣布叛乱！"
- ming_crisis.11.a:0 "不能再犹豫了，一定要出重拳！"
- ming_crisis.11.b:0 "也许一些让步可以安抚他们……"
- lanfang_decision_formation_desc:0 "一些华人矿业组织十分乐于开发婆罗洲的金矿资源。我们应该允许他们建立起自治的社群，这样就能大大提高他们兴办实业的效率。"
- estate_church_karma_temples_ct:0 "建设§Y寺庙§!建筑§Y+5业力§!。\n摧毁§Y寺庙§!建筑§Y-5业力§!。"
- sia_importation_of_firearms:0 "引进火器"
- sia_importation_of_firearms_desc:0 "虽然燧发枪比火绳枪有着更强的火力，但它们在这里仍然是罕见的商品，因此我们应该通过从西方人购买来继续获取它们。\n自阿瑜陀耶时期以来，我们已经能够铸造自己的火炮，其中最著名的是我们称之为查隆的大型前膛装填青铜加农炮，通常口径为4-5英寸。"
+﻿l_english:
+ PROV4790:0 "ÃRo‚‰R"
+ PROV4791:0 "•NÌ‘vl"
+ PROV4792:0 "¯w·VS"
+ PROV4793:0 "^àz"
+ PROV4794:0 "›st"
+ PROV4795:0 "âl<S"
+ PROV4796:1 "¯w¾Ì‘"
+ PROV4797:0 "0tmV"
+ PROV4798:0 "ætEN"
+ PROV4799:0 "Qh“^)Rg"
+ PROV4800:0 "ôT^XS"
+ PROV4801:0 "ôTý)RÑ‘"
+ PROV4802:1 "dW8u"
+ PROV4803:0 "Øž)ReY"
+ PROV4804:0 "äSKf"
+ PROV4805:0 "lýœ"
+ PROV4806:0 " R^"
+ PROV4807:0 "SFZW2m"
+ PROV4808:0 "Ï‚è•TrJ"
+ PROV4809:0 "·Q	T"
+ PROV4810:0 "ŸxÌ‘"
+ PROV4811:0 "ôTœ¯e"
+ PROV4812:0 "œR›R"
+ PROV4813:0 "ßi”iS"
+ PROV4814:0 "ëXüf9N"
+ PROV4815:0 "°e RaW"
+ PROV4816:0 "·Q³S"
+ PROV4817:0 "ôTN"
+ PROV4818:0 "àVN–WeˆW"
+ PROV4819:0 "^R"
+ PROV4820:0 "tQS"
+ PROV4821:0 "BN‰R"
+ PROV4822:0 "?–idWO•^"
+ PROV4823:0 "	V±ƒ"
+ PROV4824:0 "ÃW0W"
+ PROV4825:0 "éƒ(„"
+ PROV4826:0 "!^"
+ PROV4827:0 "ÅxT"
+ PROV4828:0 "ÏgZY"
+ PROV4829:0 "gfe÷–"
+ PROV4830:0 "WÇR"
+ PROV4831:0 "üf7Œ"
+ PROV4832:1 "W¡m"
+ PROV4833:0 "µxîTvl"
+ PROV4834:0 ".tefkÌ‘"
+ PROV4835:0 "r^MN±fkÌ‘"
+ PROV4836:0 "‰4"
+ PROV4837:0 "mRZ"
+ PROV4838:0 "Îž8"
+ PROV4839:0 "`SôT^X"
+ PROV4840:0 "^XlQ"
+ PROV4841:0 "WSTY"
+ PROV4842:1 "WS¦"
+ PROV4843:0 "‰RWSqS	"
+ PROV4844:0 "S³uNu–"
+ PROV4845:0 "lšFz1g"
+ banten_area:0 "N9N"
+ surabaya_area:0 "Ï‚JôTšN"
+ sundanese:0 "ýTÖN"
+ nusa_tenggara:0 "ªR™l‰v RÉb"
+ makassar_area:0 "g R!•"
+ jambi_area:0 "`S‘x"
+ sabah_area:0 "™lôT"
+ banjar_area:0 "ís>S"
+ johor_area:0 "ÔgiO"
+ north_malaya_area:0 "SlšegšN"
+ tay_nguyen_area:0 "‰ŸS"
+ angkor_area:0 "4TåT"
+ sukhothai_area:0 ".tïSðl"
+ vientiane_area:0 "NaŒ"
+ champasak_area:0 "`SôT^X"
+ BNE:0 "âl<S"
+ BNE_ADJ:0 "âl<S"
+ BEU:0 "³R"
+ BEU_ADJ:0 "³R"
+ SMB:0 "	NÑS"
+ SMB_ADJ:0 "	NÑS"
+ BRS:0 "ôTœ¯e"
+ BRS_ADJ:0 "ôTœ¯e"
+ DLI:0 "ŸxÌ‘"
+ DLI_ADJ:0 "ŸxÌ‘"
+ JMB:0 "`S‘x"
+ JMB_ADJ:0 "`S‘x"
+ PAH:0 "mV¨N"
+ PAH_ADJ:0 "mV¨N"
+ KEL:0 "	TpQ9N"
+ KEL_ADJ:0 "	TpQ9N"
+ IND:0 "àVN–WeˆW"
+ IND_ADJ:0 "àVN–WeˆW"
+ JAR:0 "	V±ƒ"
+ JAR_ADJ:0 "	V±ƒ"
+ RHA:0 "ÃW0W"
+ RHA_ADJ:0 "ÃW0W"
+ KOH:0 "<h:"
+ KOH_ADJ:0 "<h:"
+ SIA:0 "¹fW"
+ SIA_ADJ:0 "¹fW"
+ thai_group:0 "ðl"
+ acehnese:0 "šNPŸ"
+ cloves:0 "N™™"
+ clovesDESC:0 "N™™=fASRT5„v™™™eÿƒRŸSµNŽNpS¦^<S‰šN„vidž R²›SÿºNìN:N†N¢b:YvQµN0WþfrÑS†NY!kb‰N0SVN™™„v±‚Þ‚ÎN.tr‚l:N®N¢ur‚öeÿ¿O‰ÛLˆ6erR0ÎNšN2m0R0W-NwmÿN™™8^8^«ˆO(u(WùpŒKN-Nÿv^gÈuÇ–klw.O0R†NŽ2m0"
+ khmer.1.t:0 "ìgÔWèR„vÑž—föeãN"
+ khmer.1.d:0 "cƒgNöe„vØšÉh‹sgÈuRV¡lK„04TåTÿÙ*NØšÉh‡ef„vÃVßz:NðlÏeeQµOwNbÁkV0hQìgÔWèR„v™^‡RŒTÎW^àeN¦l:N­eÁX‹k±Wÿ[Root.Monarch.GetName]ýV‹sÉR›RôucNw[Root.Monarch.GetHerHis]ùR°e–™ý[Root.Capital.GetCapitalName]ÎWKNY?eNS„vµc6R0Ù=fhQØšÉhºN„vÑž—föeIR0"
+ khmer.1.a:0 "wSWÍ‘eg*gïSåw0"
+ khmer_dark_age_tt:0 "§YNb	g¹ppe±‚9§!NGS§R25%§!"
+ khmer.2.t:0 "ØšÉhYtQ"
+ khmer.2.d:0 "êÎN4TåTw–K„åNegÿöeNSNôvASRp‚¾–ÿFOÇ[Root.Monarch.GetTitle]„vNÈaªR›RÿbìNòT©‹[Root.GetName]ÎNðV˜KN-NÍ‘·ƒ°eu0O'Y„v4TåTÎWŒTyYb`Vž^'Y„v™^‡Rú^Qr²òTÏu—VåNÍ‘ú^ÿ[Root.Monarch.GetTitle]òTS–™ýÍ‘°eÁÞV†NÙÌ‘0aNQg0W&^Q!k·k·koSoSÿbýVºNl„vÃVupmNýw—VåNán³0ØšÉh^ýVòTÏuÆQYQ¦^Tw†N0"
+ khmer.2.a:0 "Üw)R^SŽN[Root.GetName]ÿ"
+ khmer.3.t:0 "[Root.GetName][Root.GovernmentName]„váOðN"
+ khmer.3.d:0 "bìNˆvONµ^èiOYeáOðN„vÇzÜ^—N!ks^3z„vÇ!n0N›NºNÒbÝu¥c×SiON–„vYeò‹0ÍN(WáOIYpS¦^YeÿwØ	g›NºN²‹:N'YXNiOÕlMb=fckS0âe6qbìNòTÏužR°s†NÐgÍyz¦^N„v—RYeŒTs^ÿ±HN1S”^å‹³QšRÇ‘³uêTNÍy—RYejO:NýVYe0"
+ khmer.3.a:0 "Nµ^èiOYeáOðNÅVS&^†˜bìNpTVŸ`0"
+ khmer.3.b:0 "bìN”^SVÞVŒ˜Ç»SÿÍ‘°e¥c³upS¦^Ye0"
+ khmer.3.c:0 "'YXNiOYeCN=fckS0"
+ dark_age_of_cambodia:0 "ìgÔWèRÑž—föeãN"
+ desc_dark_age_of_cambodia:0 "bìN„v‡efòTÏuS:NNŸXÿØšÉh^ýVòTÏuåe„…‰qS0"
+ siamese_nation_title:0 "bËz¹fW"
+ siamese_nation_desc:0 "ðlºNÅV‰˜«ˆâVÓu(WN*NýV¶RKN-Nÿø”bN*NÅVS=eM‘NWSšN„v^ýV0"
+ flavor_peg.1.t:0 "áOîOnm"
+ flavor_peg.1.d1:0 "ÃRúV‹s²R„v7u'`Nˆ	àQNN­eÝuÿw[Root.Heir.GetName]Ø=f*NiRPRÿÃRúV‹sýV‚YÊNw–eQ†N²™Ÿàe–™„vƒX0W0(Wb‰NŒT¨Raƒ„vöeãNÿºNìNg…VNwáOîOnmÿ‘˜6wOAmýV‹s„vÍk²NegcVÖNìN0áOîOnm=fNMOòTÏuÑvcw‹s²RpeASt^„vpgúQ„vLˆ?e)YMbŒTT†Ú‹„váOsY0±R^yY:NDd?esY‹s¯wšRO(WºNlSV-N^×S0kÎ0"
+ flavor_peg.1.d2:0 "ÃRúV‹s²R„v7u'`Nˆ	àQNN­eÝuÿ‹sMO„vçubw–eQ†NqS:g0(Wb‰NŒT¨Raƒ„vöeãNÿºNìNg…VNwáOîOnmÿ‘˜6wOAmýV‹s„vÍk²NegcVÖNìN0áOîOnm=fNMOòTÏuÑvcw‹s²RpeASt^„vpgúQ„vLˆ?e)YMbŒTT†Ú‹„váOsY0±R^yY:N‹sMOçubºN¯wšRO(WºNlSV-N^×S0kÎ0"
+ flavor_peg.1.a:0 "áOîOnm”^SVb:NbìN„vsY‹s0"
+ flavor_peg.1.b:0 "yYN‹sMONøvðy0"
+ flavor_peg.2.t:0 "¾èx‰`Ðc‹s"
+ flavor_peg.2.d:2 "(WáOîOnmsY‹sN*Y—Va„våePRÌ‘ÿyYGÁ‰†NNMOTëSÔkXdæÃ‹W„vmRÏeçPºN0ÙMOçPºNBl—V†NÃVup„vVŸ`ÿmN(WN×ONLu-N¾àexÿEewáOîOnmsY‹s	éb†ND©RÖN0ÔkXdæÃ‹WùRŽNsY‹s„vàVÚ‹àeïScTRÿck=fÖNNsY‹sNwVrR†NÞVÃRúV„v¡‹Rÿ°s(WÖNòTÏub:N†NsY‹sg²NÑ„vŒ˜î•0wsY‹st^‹NòTØšÿyYmNåeÊv4ngýwYŸS»yVSNÿ•beQ¾|^yNLu„v`±b0ŽN=fyYSb—rSêñT„vNMOsY?QÁZÙuÔkXdæÃ‹WÿSÖN:N¾èx‰`Ðcÿv^IYÖN:NÃRúV„výV‹s0"
+ flavor_peg.2.a:0 "¾èx‰`Ðc”^‰v‹sMOÿIRN¹R0"
+ flavor_peg.2.b:0 "¾èx‰`ÐcïSåNjO:NbýV„vçubºN0"
+ flavor_peg.2.c:0 "Nýw©‹çPºNßu»lbìN0"
+ flavor_suk.1.t:0 "4b±ƒm„v‰v)YKNï"
+ flavor_suk.1.d:0 "Ñt^egÿN¦^:VÛv„v.tïSðl‹sýVòTÏu¦l:N†N?–jtN–6w„voR‹s†˜0W0:N†NôfÛNekŒcác.tïSðlÿNMO?–jtN–6w„v‹sPR(W.tïSðlgTNMOTÕlýV‹sâl†–idís»SNTÿ«ˆS:N.tïSðlKN‹s0ÖN¿O=f‚YÊN‰vN†N?–jtN–6w‹sMO„v4b±ƒm‹sPRÿÙ=fS.tïSðl³ueQbìNßu»lKNN„vg‹Yöe:g0"
+ flavor_suk.1.a:0 "S.tïSðlv^eQ?–jtN–6w‹sýV0"
+ flavor_suk.1.b:0 "(W.tïSðlûN‹TNMO°e„voR‹s0"
+ flavor_suk.1.c:0 "©‹4b±ƒmegZP³QšR0"
+ flavor_suk.2.a:0 "(W.tïSðlÛLˆßu»lÿv^(W?–jtN–6wRSNMO‹s¯O0"
+ flavor_suk.2.b:0 "ÒbÝu¥c×S?–jtN–6w„v‹sMO0"
+ flavor_suk.2.c:0 "(W.tïSðlûN‹TNT°e„vI`cw0"
+ abandoned_mlc:0 "«ˆ>eV„vlšmQ2u"
+ emerald_buddha:0 "‰siO"
+ desc_emerald_buddha:0 "ÙS^y1W„viOÏP«ˆ›OIY(WÙNwýN„vNNbúRb–KN-N0‰`ÃVˆRkSÙÌ‘ÿàV:NLeºNùRÙöNÍsRmN‹KNå‚jž0"
+ emerald_buddha_tt:2 "§Y‰siO§!S«ˆÎN§Y[emerald_buddha_province.GetName]§!ûyd–0"
+ emerald_buddha_alternate:0 "‰siO"
+ desc_emerald_buddha_alternate:0 "ÙS^y1W„viOÏP«ˆ›OIY(WÙNwýN„vNNbúRb–KN-N0‰`ÃVˆRkSÙÌ‘ÿàV:NLeºNùRÙöNÍsRmN‹KNå‚jž0"
+ renovate_emerald_buddha_shrine_title:0 "îOz„‰siOúRÿ§YN›R +§!	ÿ"
+ renovate_emerald_buddha_shrine_desc:1 "›OIY^y1W‰siO„vúR™^—‰îOz„ÿNÅN:NÎNir(Nôu²bÙNbúR™^ÿwNmN=fVY–ciOYeùRýV¶R	g)R„v¹eb—0"
+ flavor_lna.1.t:0 "‰siO"
+ flavor_lna.1.d:0 "[From.GetCapitalName]„vÎWè•òTÏu«ˆIew–ÿ‰siOúR„v'Yè•òTÏu^eV0KS¡rgqwúR™^„vŒTShˆ:y†N—b®‹ÿFObìN„vëXuQÍN6q:YÖS†NÙS^y1W„viO.ÏPÿv^NÆQYSvQÐŽV[Root.Capital.GetCapitalName]0(W±Ì‘ÿƒRS«ˆôf	gD<h„vˆR²bwleÜbŒTÝO²b0"
+ flavor_lna.1.a:0 "[From.Owner.GetAdjective]ºNŽrôvÞwNN<wÙöNÍsRýNM‘0"
+ flavor_lna.2.t:0 "‰siOm«R"
+ flavor_lna.2.d:0 "[emerald_buddha_province.GetName]1Yw–ÿ›OIY‰siO„vúR™^òTTLe›Q^eV0KS¡rgqwúR™^„vçPOZW³Q—b®‹ÿFOLe›QëXuQÍNSÙS^y1W„viO.ÏP«RpÿIYˆNÖNìNµNniOÕl„v[From.Monarch.GetName]ÿv^ÆQYSvQÁó[From.Capital.GetName]›OIY0"
+ flavor_lna.2.a:0 "GYIw'Y±0"
+ estate_church_brahmins_at_court:0 "«R-N„vFZWè•"
+ estate_church_brahmins_at_court_desc:0 "KS¡rbìNNáOIYpS¦^YeÿFOFZWè•ÍN6q(W>yONŒT«R÷^-N«N	gS5„v0WMO0"
+ estate_burghers_khmer_irrigation:0 "HQÛLp‰nŽb=g"
+ estate_burghers_khmer_irrigation_desc:0 "ýV¶RTœQlÐc›O†NúWNx¾‹ËeNœQ(uåTwQÿ©‹ÖNìN—VåNÐ(uhQNLugHQÛ„vLp‰nŽb=gÿÙýwO—V®|ß˜µNÏ‘Øš¨m0ºNãSÅžX R0"
+ estate_vaisyas_khmer_irrigation:0 "HQÛLp‰nŽb=g"
+ estate_vaisyas_khmer_irrigation_desc:0 "ýV¶RTœQlÐc›O†NúWNx¾‹ËeNœQ(uåTwQÿ©‹ÖNìN—VåNÐ(uhQNLugHQÛ„vLp‰nŽb=gÿÙýwO—V®|ß˜µNÏ‘Øš¨m0ºNãSÅžX R0"
+ estate_burghers_khmer_irrigation_effect_tooltip:0 "»lNNb	guµN§Y7Œir§!„vwýN·ƒ—Vÿ\n,g0WÑSUSb,gÿ§G-10%§!"
+ estate_burghers_khmer_irrigation_revoke_effect_tooltip:0 "§YHQÛLp‰nŽb=g§!îOckSÎN»lNNb	gwýNûyd–0"
+ estate_burghers_khmer_irrigation_mod:0 "HQÛLp‰nŽb=g"
+ desc_estate_burghers_khmer_irrigation_mod:0 "ýV¶RTœQlÐc›O†NúWNx¾‹ËeNœQ(uåTwQÿ©‹ÖNìN—VåNÐ(uhQNLugHQÛ„vLp‰nŽb=gÿÙýwO—V®|ß˜µNÏ‘Øš¨m0ºNãSÅžX R0"
+ siamese_absolutism:0 "ln1W‹s"
+ siamese_absolutism_desc:0 "bìN„vT‹sNbk=fáQºN0ÖN=f)YM–1WTÿ=fNLu„v-NÃV0êS	gbìN„vT‹sýwPˆNNLuåNŒTs^NeyŒT0"
+ flavor_lna.3.t:0 "[Root.GetAdjective]N6RININ"
+ flavor_lna.3.d:0 "[Root.Monarch.GetTitle]Ü^—áQºN0[Root.Monarch.GetSheHeCap]=fln1W‹sÿ=fnfgqNºN„v^y1WKNIQÿ=fcVbìNpTŒTŒN=T™„„vO'YopTX0[Root.Monarch.GetTitle][Root.Monarch.GetName]„vßu»lÅV‰˜0R¾NLu„vÏkN*NÒ‰K„ÿåN©‹NºNý†˜×SŒTs^NAucƒ0"
+ flavor_lna.3.a:0 "bìNS:NNLu&^egéy^0"
+ flavor_lna.3.b:0 "bìN°s(W„v?eœ^ˆVTbìN0"
+ ming_crisis.10.t:0 "-NýV„v¨Raƒ"
+ ming_crisis.10.d:0 "f‹sgw–eQ†NqS:gKN-N0›Q–rRnc0‰NCg:Y)RÿÙO—Vfg÷^Þµc6RvQ,gýV„v†˜0WýòTIcm‰Á‰˜w0bìNÅV‰˜jbÃVêî•ÿÙ7hN*NššqNN‰R„v?eCg=f&TØ<P—VF„	g)Y‹Tÿw[Root.GetName]=f&T”^SVÍ‘°ewÏ‘êñTNfg„v!^SsQû|0"
+ ming_crisis.10.a:0 "f÷^ùRbìNòTÏuàe(u†N0"
+ ming_crisis.10.b:1 "bìNSN[MNG.Capital.GetCapitalName]„v)YPRT(W0"
+ ming_crisis.10.tt:0 "[Root.GetName]SçuíujO:Nf„vg!ýV"
+ estate_church_karma_temples:0 "çPb–çP»l"
+ estate_church_karma_temples_desc:0 "bìN”^å‹ŠbgqwÙ›NiOYe1W¿k„v‹N¡RÔYXbÙuçPºN0"
+ estate_church_karma_temples_tt:0 "ú^¾‹§YúR™^§!ú^Qr§Y+3N›R§!0\ngdÁk§YúR™^§!ú^Qr§Y-3N›R§!0"
+ estate_church_influence_temples:0 "YeX1WNb"
+ estate_church_influence_temples_desc:1 "SÍ‘YeOùR¯rjwŒT:P¡RºNÙuˆN‡^²buó6eOO¿R9„vyrCgÿåNdkÖS¦`0W¹eYeOÿÊSYe÷^	ÿÿsSO‚YdkNegzrrr„v=fbìN„vN×OCgZ0"
+ estate_church_influence_temples_tt:0 "ú^¾‹§YYeX§!ú^Qr§Y+3Ye÷^qVÍT›R§!0\ngdÁk§YYeX§!ú^Qr§Y-3Ye÷^qVÍT›R§!0"
+ estate_burghers_tropical_mod:0 "íp&^ÎW^ú^¾‹Ä‰R"
+ desc_estate_burghers_tropical_mod:0 "KS¡ríp&^lP&^eg†N¸‹YN¿OÿFObìNASR„UŽN(WVyýV„vW0WNú^¾‹wRO„vý^ÿbìN(WÙ¹eb—òT	gNCSt^„vÏuŒš0"
+ estate_burghers_tropical_nation:0 "íp&^ÎW^ú^¾‹Ä‰R"
+ estate_burghers_tropical_nation_desc:0 "KS¡ríp&^lP&^eg†N¸‹YN¿OÿFObìNASR„UŽN(WVyýV„vW0WNú^¾‹wRO„vý^ÿbìN(WÙ¹eb—òT	gNCSt^„vÏuŒš0"
+ estate_burghers_tropical_effect_tooltip:0 "»lNNb	gíp&^lP„vwýNS—V0Rÿ\n,g0WÑSUSb,gÿ§G-5%§!\n,g0WûylžX•ÿ§G+10§!"
+ estate_burghers_tropical_revoke_effect_tooltip:0 "»lNNb	gíp&^lP„vwýNS1Y»Sÿ\n,g0WÑSUSb,gÿ§G-5%§!\n,g0WûylžX•ÿ§G+10§!"
+ estate_church_lao_animism:0 "¹R¸‹lô•—RYe"
+ estate_church_lao_animism_desc:0 "KS¡rlô•„väSw—RYeNbýVýVYev^NøvNôÿFObìNÍNAQ¸‹'YÏ‘ºN²çuíuÝOcÖNìNÙÍyáOðN0"
+ estate_church_lao_animism_effect_tooltip:0 "»lNNb	gáOðN§YÛlupº‹§!„vwýN·ƒ—Vÿ\n,g0W.OYe:V¦^ÿ§R-100%§!\n,g0W—RYeßuN!.sÿ§G-100%§!"
+ estate_church_lao_animism_revoke_effect_tooltip:1 "0§Y¹R¸‹lô•—RYe§!0îOckSÎN»lNNb	g§YÛlupº‹§!wýNûyd–0"
+ estate_church_lao_animism_mod:0 "¹R¸‹lô•—RYe"
+ desc_estate_church_lao_animism_mod:0 "KS¡rlô•„väSw—RYeNbýVýVYev^NøvNôÿFObìNÍNAQ¸‹'YÏ‘ºN²çuíuÝOcÖNìNÙÍyáOðN0"
+ flavor_mlc.9.t:0 "wmmKNýV"
+ flavor_mlc.9.desc:0 "NT0WßW„vlšegºNlckßuNŽN(WbìNÅib.V„výV¶R»lN0MRNb*g	g0Wÿte*N²›SckÑSUSúQqQ	g„vlÏe²‹TÿbìNmNòTÜ^—±Íy	gNwOY!^SýV„vÎW¦ÿwb:N†NN*NßuN„výV¶R0ÙNÛek©‹bìNÅV‰˜`wÿ‰SbìN„výV¶R QåN`7h„vT÷S0"
+ flavor_mlc.9.a:0 "bìN”^SVÍ‘ú^±äSw„v^ýVÿ²R)RiO0"
+ flavor_mlc.9.b:0 "ánw=O7YSö^íuyY„vcƒw0"
+ flavor_mlc.9.c:0 "Nb	gESOO(WªRqS¾Éb²›S„vºNý”^TbìNHeàV0"
+ flavor_mlc.9.d:0 "bìN„výV¶R”^=fhQlšegºNl„vVyýVlšegšN0"
+ SRIVIJAYA:0 "²R)RiO"
+ SRIVIJAYA_ADJ:0 "²R)RiO"
+ MAJAPAHIT_EMPIRE:0 "ánw=O7Y^ýV"
+ MAJAPAHIT_EMPIRE_ADJ:0 "ánw=O7Y^ýV"
+ NUSANTARA:0 "ªRqS¾Éb"
+ NUSANTARA_ADJ:0 "ªRqS¾Éb"
+ siamese_revolution:0 "¹fWi—‹T"
+ desc_siamese_revolution:1 "'k2mºNŒT,gýV.OßuKNô•„v't.VNS¿RïSýwùRbìN„výV¶RµNu%NÍ‘qVÍT0"
+ phetracha_coup_tt:0 "¾0R§Y10ùRYV>e§!ÿSVMR:N§Y[Root.siam_openness.GetValue]§!	ÿ"
+ phetracha_arrested_tt:0 "¾0R§Y10ÍS¨RININ§!ÿSVMR:N§Y[Root.siam_reactionism.GetValue]§!	ÿ"
+ siam_openness:0 "ùRYV>e"
+ siam_reactionism:0 "ÍS¨RININ"
+ siamese_rev.1.t:0 "¹fWi—‹T"
+ siamese_rev.1.d:1 "–NwbìNN‰¹eºNTwû|„vN­eÑSUSÿ¸‹Y[Root.GetName]ºNùRYýVºNhˆ:y`‘u0ÖNìN	gˆVYOuç`ÿN›NºNZWáO[siam_european_country.GetAdjective]Y²N˜Rck(WtYSbìNÿåN:NSeg„veQµOZPÆQYÿæSN›NºNRS[siam_european_country.Religion.GetName].OYeëXÆ‰:NùRbìN[Root.Religion.GetName]áOðN„vZÁwÿFUºNìNRsQèlŽNbìNN'k2mºN„v²NfùRbìN„vFUN)RÊvN)R0ÍS'kÅ`êuck(W[Root.GetName]Å…ö^ÿv^NÙÍyÅ`µQïSýw(WNEN„vSeg¾0Rv˜ïz0"
+ siamese_rev.1.a:0 "dk‹NsQû|u'Y0"
+ siamese_rev.2.t:0 "¹fWi—‹TÓumg"
+ siamese_rev.2.d:1 "(WµxW–ÑS¨R†NÅŒTgbLˆ—VSV„v?eØSTÿNRòTSÃWK„šR0'k2mºNòT«ˆqšúQƒXÿ«R-N„v‹q¨RRPRòT«ˆUc·ƒv^Y‰k0bìNÊN)YòTT[Root.GetAdjective]ºNlŒTte*NNLuÑSúQ†NN*N	g›R„váOo`ÿbìNNOAQ¸‹[Root.GetName]w–eQYýVqVÍT0"
+ siamese_rev.2.d2:1 "(WµxW–«ˆÅ.Ucv^Y‰kTÿNRòTSÃWK„šR0ÍS¨RRPRòTÏudVðXÿ«R-N„v‹q¨RRPRòT«ˆUc·ƒv^Y‰k0bìNÊN)YòTÑSúQ†NN*N	g›R„váOo`ÿ[Root.GetName]?aaÝOcV>e„v`¦^NvQÖNýV¶RTjO0FUŒT²Nbc°e`ó`0"
+ siamese_rev.2.a:0 "bìN„v»žæpÓumg†NÿóS°s(W‚Ydk0"
+ opinion_siam_antiimperialist:0 "ÍS^ýVININ„v¹fWºN"
+ opinion_open_siam:0 "¹fWV>e"
+ siamese_rev.3.t:0 "[siam_foreign_missionary_country.GetAdjective].OYeëXG­ˆ"
+ siamese_rev.3.d:1 "(W[siam_foreign_missionary_country.GetName]‡^²bN„v[siam_foreign_missionary_country.Religion.GetName].OYeëX«ˆ[siam_foreign_missionary_province.GetName]„v[siam_foreign_missionary_province.Religion.GetName]áO’V­ˆûQ†N0Ù›N.OYeëX÷‹Bl[Root.GetAdjective]?eœ^ÝO²bÖNìNMQŽN«ˆ´flIeûQÿåN¿Oçuíu.OYeÿwSV0WºNR‰BlqšÙ›N.OYeëXÿôu²b[siam_foreign_missionary_province.Religion.GetName]„v—RYe‰RR0"
+ siamese_rev.3.a:0 "bìNÅV‰˜©‹ÖNìN.OYe0"
+ siamese_rev.3.b:0 "Ù›N.OYeëX=fùR[Root.Religion.GetName]„vZÁw0"
+ EST_VAL_SIA_RESTRICTED_FOREIGN_MISSIONARIES:0 "P–6RYýV.OYeëX"
+ siam_allowed_misionaries:0 "‡^²b.OYeëX"
+ siam_denied_misionaries:0 ".OYeëXG­ˆ"
+ siamese_rev.4.t:1 "[sia_noble_plot_province.GetName]„vÆRŒw"
+ siamese_rev.4.d:0 "bìN„v¿uºN¥bJTô‹[sia_noble_plot_province.GetName]„vN.^,g0W5Ïeck(WÆRŒùRÖNìNSV0W'k2mºNåeÊvžX•„vqVÍT›RÇ‘ÖSLˆ¨Rÿv^NuóïSýw‰S[Root.Capital.GetName]«R-N„vYýVqVÍTò”d–†kKS0"
+ siamese_rev.4.a:0 "bìNÅV‰˜|bNgvQŽN„Ë‚KNöeÿ"
+ siamese_rev.4.b:0 "bìNSO=ecÖNìN„vŒRÿSV6q=f(WÌw0WÌ‘0"
+ EST_VAL_SIA_PROVOKED_NOBLES:0 "×S0RcEˆ„v5Ïe"
+ EST_VAL_SIA_SUPPORTED_NOBLE_PLOTS:0 "=ec5Ïe4–Œ"
+ siamese_rev.5.t:1 "[sia_european_aggressor_country.GetAdjective]›Q‹NIm¨R"
+ siamese_rev.5.d:1 "bìNÂ‰ßR0Rÿ(W«ˆAQ¸‹‰šNb(WbìNýVWN„v[sia_european_aggressor_country.GetAdjective]aŒV'`‰š›Q-N	g›NïS‘uIm¨R0	gt1u`‘uÙ›N›Q‹NIm¨R„˜:yNwsSS0Reg„vN!keQµOÿz­ˆ‡v«R0ú^Ëz[sia_european_aggressor_country.GetAdjective]„vßu»l0SV6qÿmN	gïSýw=fbìN'YÊ`S*`†NÿÙ›NIm¨RïSýw¡lÀNHNqS³R0"
+ siamese_rev.5.a:0 "bìN¡lÀNHNïSZP„v0"
+ siamese_rev.5.b:1 "ŠbÙ›NYýVuQËzöeqšúQmÿ"
+ opinion_sia_aggressive_acts:0 "è–«ˆqš"
+ siamese_rev.6.t:0 "N[sia_european_embassy_country.GetName]„v8fOSšR"
+ siamese_rev.6.d:1 "egê[sia_european_embassy_country.GetName]„v'YOeg0R†NbýV«R÷^ÿÐcúQ†NNû|R8fOSšRv^±RðyOS®‹ùR5b2NýVý	gèˆÊv0w[Root.Monarch.GetTitle]„vŒ˜î•ôf:N(ŒNaÿ²‹:NÙ›NOS®‹øvƒvQhˆb—ÿžRE–ôf>PTùR¹e0FO¥c×SÙ›Nag>kS'Y'Y9e„U2NýVKNô•„vsQû|0"
+ siamese_rev.6.a:0 "ÙN8fOSšRùRbìNÌS¹eý	gèˆÊv0"
+ siamese_rev.6.b:1 "Ù8fOSšR=f*N®O±0"
+ opinion_sia_embassy_good:0 "o‚‹Y„v²Nf"
+ opinion_sia_embassy_bad:0 "ß|Õ|„v²Nf"
+ siamese_rev.7.t:0 "µxW–„v?eØS"
+ siamese_rev.7.d:1 "ÍS'kÅ`êuòT(WhQ[Root.GetName]rÑS0N²5Ïe(WNMOTëSµxW–„vºNÌwTZwÆ–wegÿv^bŸRÑS¨R†NN:Wèe(W¨cû[Root.Monarch.GetName][Root.Monarch.GetTitle]„v?eØS0?eØS„vÅÑSUSO—VµxW–ýwYùR–™ý„v'k2m‰š›QÑS¨RN:Wz­ˆÿv^NËzIRŠbNb	g'k2mY²N˜RvúQ[Root.GetName]0µxW–„v=ecwòTSÖN:N[Root.Monarch.GetTitle]ÿV=T†N[Root.GetName]øvùRSí•„vöeãN0"
+ siamese_rev.7.a:0 "bìNSŠbYýVºNvúQbìN„vW0W0"
+ opinion_siam_isolationism:0 "dRËzININ>PT"
+ siamese_rev.8.t:0 "µxW–«ˆUc"
+ siamese_rev.8.d:1 "ÍS'kÅ`êuòT(WhQ[Root.GetName]rÑS0N²5Ïe(WNMOTëSµxW–„vºNÌwTZwÆ–wegÿv^ÑS¨R†NN:Wèe(W¨cû[Root.Monarch.GetName]„v1Y%?eØS0?eØS„v=ecwòT«ˆSôVv^«ˆUc·ƒÿ(W–™ý„v'k2mY²N˜RòTÏu·ƒ—VùRÖNìN„v‰RhQ„vÝOÁ‹0–KNweg„v>f6qSO=f[Root.GetName]V>eŒTÛek„vöeãN0"
+ siamese_rev.8.a:0 "Ù›NÛS’VS(WÎžföeR«ˆY‰k0"
+ siamese_age_of_openness:0 "V>eöeãN"
+ desc_siamese_age_of_openness:0 "bìN„výV¶R°s(WTNLuV>eÿv^¥c×SNwNLu„vqVÍT0"
+ siamese_rev.9.t:0 "[Root.Monarch.GetName]„vùRY?eVr"
+ siamese_rev.9.d:2 "[Root.Monarch.GetName][Root.Monarch.GetTitle]ùR'k2mFUºN0Y²N˜RŒT›Q–(WNšN0W:S„våeÊvžX•„vXR(WØš¦^sQèl00RîvMR:NbkÿÖNìNN[Root.GetName]„vsQû|Ø×S0RP–6R0[narai_foreign_policy_country.GetName]'YOTbìNÝOÁ‹ÖNìNêS=fûRBlŒTbìN„výV¶R8fÿv^N^g†Nã‰bìN„výV¶R0[Root.Monarch.GetTitle]ŒTÖN„vŒ˜î•ùRÙ*Nî•˜˜Ø—‰ñm`ŸqQ†0"
+ siam_rev.9.a:0 "bìNÅV‰˜SÃVùR…VÙ›NYýVºN0"
+ siam_rev_can_start_tt:1 "ïSåNVËY§Y¹fWi—‹T§!0"
+ siamese_rev.10.t:0 "(W[From.GetName]„v°e:gG"
+ siamese_rev.10.d:0 "bìN(W[From.GetName]„vÜV¢c0t–íc:y†NvQýV2–„vNû|Rb=gŒT?e»l1V¹pÿÙO—VÖNìNˆV¹Rf¹Rf«ˆz­ˆIeûQSb®W0bìN„vô•ŒŒT˜RXTTbìNÝOÁ‹ÿ‚YœgbìNÑS¨RN:Wz­ˆÿ[From.GetAdjective]S+Ràe	ébwêSýwHSÎNŽNbìN„vßu»l0"
+ siam_rev.10.a:0 ":gOêSYuÙu	gÆQY„vºN0"
+ arrest_phetracha_decision_title:0 "ØbUcµxW–"
+ arrest_phetracha_decision_desc:0 "µxW–ùRýV¶R=fN*NZÁwÿ:N†NbìN„v)RÊvÿ”^å‹NäNØbUcÖN0"
+ phetracha_coup_decision_title:0 "=ecµxW–"
+ phetracha_coup_decision_desc:0 "µxW–=fcknx„vÿbìN”^å‹N¡‹ãN÷N0W=ecÖN„v‹NN0"
+ arrest_phetracha_tt:0 "µxW–S«ˆØbUc0"
+ majapahit.1.t:0 "ñ‚Ä–°s«Ž"
+ majapahit.1.d:1 "°Røv„vY%uNENMReg0RbìN«R÷^ÿÖN„vNRý=f*NŒÿêSåwSÖNTëS¾›sSLNpQ0gKNIQ‰00ÖN(WbìNÙÌ‘SVlš+YÿFOÖNb—¹RÊOg„v.OŠˆVëV1S0R†N°RøvsY?Q±Ì‘ÿ¡l	gÀNHNkpýwÔkRK`ôf¾–åNQbmp†N0\nÖNàV’Q¯rNbb—4N„v‹TÐ1SÏPYåeN7hfgÿ6qwÿ>TIN[Root.Monarch.GetName](WYÌ‘Ê`’‘ÿ[Root.Monarch.GetSheHe]WlAmánb—0ÌSîvWAwÿ0bZP†NN*N¦hÿ0[Root.Monarch.GetSheHe]ô‹ÿ0N*NTëS¾›sSLNpQ„vt^‰ºNQe†NbìN„výV¶R00"
+ majapahit.1.a:0 "FO?aÖN=fbìN„vQef0"
+ majapahit.1.b:0 "àVÖN„vjLˆw>edkºN0"
+ damarwulan_tt:0 "§Y¾›sSLNpQ§!ÅV‰˜b—V§Y5§!:Wˆ”ùR§Yánw=O7Y§!LeºN„vbyV0"
+ majapahit.2.t:0 "¾›sSLNpQ„vÜw)R"
+ majapahit.2.d:1 "uQi—KN‰NÎNegýN=f‰fKN‹N0*jAm„vœœNˆceÑSNwSmÍ‘„velÿLeºN8S«ŽPK„SÃWtSÍNWAwNwÌSîvÿVbMR„v±*NYZfÿmNOçe©‹¾›sSLNpQàeÕleQ.w0\n6qwÿb—eÜw)R†Nÿb—eÜw)R†NÿÏPŽV8^N7hÿÏPÇ»SNôvåNegN7hÿb—eÜw)R†N0Ù=f,r”N:Wb—e†NÿÖN^gÙ=fgTN:W0SVÖNÞV0R«R-NÿàeN„vcƒw RKNŽN«ŽÿºNìNN­e|TŠUNwÖN„vTWR0ÖNàQNNØV†N±=fêñT„vTWRÿÖNåN:N±*NUSÍ‹mN¸‹ãNhˆNwÜw)R0[Root.Monarch.GetName]pÑÖN«ŽÁeÿ[Root.Monarch.GetHerHis]ÃVupÎN*g‚YdkëVIm00t^‰„v¾›sSLNpQJU0ÿ[Root.Monarch.GetSheHe]ô‹Sÿ0`OmNòTÏuNQt^‰†N00"
+ majapahit.2.a:0 "³uÖN:N+Y0"
+ majapahit.2.b:0 "ÖN”^SVb:N[Root.GetName]„vçubºN0"
+ majapahit.2.c:0 "ÖN”^SV«ˆ8lN.O1U0"
+ majapahit.3.t:0 "ánw=O7Y„vh–K„"
+ majapahit.3.d:0 "ánw=O7YòTÏuw–eQ†Nwz+gï„v‚W‰k1cNb0Ù*NN¦^ú^Ëzwž^'Y„vD–¸^ŒTg!SOû|„v^ýVÿ°s(WòTÏu?eäN¾–úQ[Root.Capital.GetCapitalName]ÎWNek0-NýV(WlšmQ2uvbiwbìNçeåe„v‰kùR4YÿwTöe‡e±ƒmN¿RTwÿÙNRgÈuSbìN„v8—CgûQ®W0ôfß|Õ|„v=fÿ‰N:YçubCg„vŒŸŠŸKN‹Nöe	gÑSuÿ–öeïSýw©‹^ýVgT„v9húWàV…Q—ewR)T»yg0"
+ majapahit.3.a:0 "Ñž—föeãNeg4N0"
+ majapahit.4.t:0 "[Root.GetName]„v°eÙfIQ"
+ majapahit.4.d:0 "[Root.GetName]’cd–N¾–ÿÎN•¾peASt^„v¨RqNNpˆKN-NÍ‘·ƒ°euÿQ¦^b:N:VýV0[Root.GovernmentName]?eNS3zšRÿé…^SKS›R“Ú‹ÿáOðNŒTfwTÃVÿÞVó`wTS Råg·›s¾³QÃVVgte*NªRqS¾Éb„v±=cKwÑSiw„v“ŠŠKNöeÿbìNQ¦^EQán†N›RÏ‘0"
+ majapahit.4.a:0 "bìNòTÎN<›è•sQÞVeg†N0"
+ majapahit.5.t:0 "ámîv„vTw"
+ majapahit.5.d:0 "(WámîvÿFz¯e—g>y²„vê»lz¦^åeÊvžX RÿwÖNìNòTÏuVËYåbËz[Root.demak_sultan.GetName]ÿNMOÌwVckáO„vánw=O7Y—R²R‹sPR:NêñT„v°eT0[Root.demak_sultan.GetName]NÅN±R^ú^ËzwìrËz„vámîvÏ‚9NýVÿôfó`‰ÛNekŒBlánw=O7Y„v‹s Q0wàV:NY¹eI–.cÿbìNêSýw<wAwAw0WwNwámîvN­eïyÄ„›RÏ‘0"
+ majapahit.5.a:0 "ÛS’Vÿ"
+ majapahit.6.t:0 "lšTXpQ„vTw"
+ majapahit.6.d:0 "‹NžRÁ‹fánw=O7YùR*rÇT,g›S†˜W„vµc6RýòTÏu¾–åN:Nçu0bìN„v¿RLeÿNMOêðylšTXpQÏ‚9N„v¶ROÿMRegdVÎ˜‘NÿÖN‘˜AuIm¨RŽN*rÇT›S„vWSè0W:Sv^±RðyêñT‰:YÖS^ýV„vWµN0[Root.Monarch.GetTitle]d–†N<wAwAw0WwNw[Root.Monarch.GetHerHis]^ýV(W[Root.Monarch.GetHerHim]b—MRR)T»ygKNYÿàQNNàe¡‹ïSËe0"
+ majapahit.7.t:2 "ùRánw=O7Y±b	gŒNÃV"
+ majapahit.7.d:0 "[maj_tributary_country.GetName]„vßu»lwŠegŠNŠb[Root.GetAdjective]„vßu»l>e(W<wÌ‘ÿuóØoØSb†NùR‹sCg„vlQ6q…Æ‰ÿNÅNÒbÝuN4!ÁTØùRbìN„vyrO·Q<wåN…V0"
+ majapahit.7.a:0 "ÖNìNOT”`„v0"
+ majapahit.7.b:0 "ZPúQ©‹ekbcÖSàVÚ‹0"
+ majapahit.8.t:0 "[Root.maj_pretender.GetName]Œ:Y‹sMO"
+ majapahit.8.d:0 ":N†N‰N:YçubCgw'YSbúQKb(W[Root.GetName]àQNNòT=føSzzÁ‰ï`0ÙN!kÿNMOTëS[Root.maj_pretender.GetName]„v²N‹s1SÛbýc†NN=e›Q–v^TNw–™ýÛ›Qÿ×V(W¨cû[Root.Monarch.GetTitle]ÿÖSwãNKN0"
+ majapahit.8.a:0 "Nöe—V¿R„vSºNÿbšRS`OŽx8SNµkÿ"
+ majapahit.9.t:0 "ôc©R„vÐc®‹"
+ majapahit.9.d:0 "[Root.GetName]„vNS¿RNRqS%`ÿFOÍN<ONNÍN	gN¿uu:g0N–Fz¯e—gFUâVŒbN†N[Root.Monarch.GetTitle]ÿv^Ðc®‹ËeåNôcKbÿÖNìNOÐc›OèTÏ‘„vDÑ‘ÿFObìNmN—‰ÙuˆNÖNìN(WT*N=nãS„vyrCgÿØ‰Bl†N(W[Root.GetName]–a.OYe„vê1u0¡VMR®‹?eOf‹JTô‹^ýVîvMRÎ˜è–Ø˜Gd„vNSb—ïSýwOO—VlOPTYaNºN„váOðNÿØVtSánw=O7Y^ýV„v.Oßu06qwÿwÑ‘‹vö”‹†6qNOô‹Ý‹ÿtSmNýwYsš¥eÙô‹ž0"
+ majapahit.9.a:0 "ûNUO.^©RýegwNÒb0"
+ majapahit.9.b:0 "bìNN—‰VYe’V„v.^©RÿvpÖNìN0"
+ maj_muslim_traders_tt:0 "§YÙ›NFUºNS(WbìN„vwýN.O­d<S>máOðN§!"
+ majapahit.10.t:0 "O¯epQYe(W[maj_sunni_province.GetName]„v.O­d"
+ majapahit.10.d:0 "óSêÎNÑŒTÜ*‚KNöeÿFz¯e—gZwK„1SòTÏu(Wánw=O7YNb9h†N0	g„v=fÇ8feg0Rdk0Wÿ	g„v=f–NwÖNºNNw,dÇeg„vÿØ	g„v=fTeg9eáO„vÿàeº‹‚YUOÿÖNìN„vÄ‰!jŠegŠ'Y†N0(WÑž—föegÿ(WºNìNàeÕl`—ýV¶RÝO²bÖNìNöeÿO¯epQYeÐc›O†NpaÉ…ŒTN*N‰R8„v¯sƒX0[maj_sunni_province.GetName]„vºNl'YYòTÏu¥c×S†N<S>m„váOðNÿÙùR.Oßu„vpS¦^Ye-iOYeSOû|.b†NèT'Y„v2O³R0"
+ majapahit.10.a:0 "ÖNìNßzbeÌwVø‹^yÿ"
+ maj_harmed_trade_relations:0 "×Smc„v8fsQû|"
+ desc_maj_harmed_trade_relations:0 "bìNÒbÝu†Nó`‰ŒTbìNFU„vFz¯e—gFUºN„v.^©RÿÎNÏuNmBSb—²‹ÿ°s(WbìNòTÏudRËzàeôc†N0"
+ fall_of_majapahit:0 "ánw=O7Y„vh–K„"
+ desc_fall_of_majapahit:0 "N¦^IQ‰pÂp„vánw=O7Y^ýVàQNNpˆ¡N†kKSÿƒRè`ám„v‹kYO¿R›RòT=f'Y¦SS>P0"
+ grow_cloves_in_zanzibar_title:0 "(WQhÙuôTS›SùWiN™™"
+ grow_cloves_in_zanzibar_desc:0 "bìNÑS°sÿN™™ÙÍySVMRêSúQµNŽN™™™e²›S„vT5FUÁTÿïSåNVÍy(W^—2mwm¸S„vQhÙuôTS›SN0"
+ MAJ_ideas:0 "ánw=O7YtõV"
+ MAJ_ideas_start:0 "ánw=O7Y.Oßu"
+ MAJ_ideas_bonus:0 "ánw=O7YÎ‘ÃV"
+ maj_restore_candi:0 "Í‘îO…y¸™^"
+ maj_restore_candi_desc:0 "R^(WªRqS¾ÉbT0W„v™^‡R«ˆðy:N…y¸0:N†NÍ‘ú^ºNl„váOðNÿbìN”^SVîOYNbÁ‰„vÏkNNb…y¸0"
+ maj_gajah_madas_oath:0 " Råg·›s¾KN“Š"
+ maj_gajah_madas_oath_desc:0 " Råg·›s¾ÿÙMOImÃŽNánw=O7YÄžÑ‘öeãN„vÏuNOMbŒTšÇRsSþfÏuËzN“ŠŠÿ(WVgte*NªRqS¾ÉbKNMRÿÅVS­eÝuãSyKN2k0ÝuNSNãS™™™e0ÖN„vßuNŒTVg„va×VÿS(W°eu„vánw=O7Y^ýV8lN•XR0"
+ maj_majapahit_armada:0 "ánw=O7YàeLe0‚–"
+ maj_majapahit_armada_desc:0 "ánw=O7YþfðN×NN=ež^'Y„v0‚–ßu»lNwwmmÿ0‚–KN-N	g¸‹Yž^'Y„vN¹eb0‚0bìNÅV‰˜¿l­ˆbìN„vwm›Q.Oßuÿ©‹bìN„v0‚–b`YåNŽV„vcƒIQ0"
+ maj_reformed_bhattara_saptaprabhu:0 "9ei—‹s²R¨T®‹O"
+ maj_reformed_bhattara_saptaprabhu_desc:0 "9hnc.OßuÿýVT8^,TÖS1u‹s²R•wÄub„v‹s²R„v¨T®‹Oÿ=föeP9ei—Ùy˜6R¦^ÿ©‹	g»lýVMbýwKNºNÛeQÙ*N¨T®‹O†N0"
+ maj_nusantara_tributaries:0 "ªRqS¾Ébg!ýV"
+ maj_nusantara_tributaries_desc:0 "(WbìN‰Lq„vÅTðSöegÿbìN(WªRqS¾Éb	gpeNKS„vg!ýV0êS‰ÖNìNN4†N!ÁTv^NNcbbìN„v8—CgÿbìNAQ¸‹ÖNìN«N	gˆV'Yz¦^„vê»lCg0"
+ maj_maritime_silk_road:0 "wmNNï"
+ maj_maritime_silk_road_desc:0 "(WýV¶Rw–eQqSNSKNMRÿánw=O7YþfŒcácNwž^'Yw)R¦m0NšS„v8fQÜuÿƒRSNøuŒT™™™eÎNN¹e•ŽV‰¹e0bìNÍ‘ú^^ýVKNTÿmN‰Í‘°eŒcµc8f0"
+ maj_nusa_tenggara:0 "ªR™l‰v RÉb–kl0W"
+ maj_nusa_tenggara_desc:0 "ánw=O7YN¦^=eM‘NwpeAS*N9V8NS¦0Nb—„vªR™l‰v RÉbø‹K‘¦ÿuóæ‰ÊSÏ‚ÉbZ‰ŒTidž R²›S0âe6qbìN„v^ýVòTÏuÍ‘uÿbìN”^å‹(WÙ›N²›SNú^Ëz–kl0WÿåNNÍyôfôv¥c„v¹eVßu»lÙ›N²›S0"
+ lanfang_decision_title:0 "Ž÷‹NSºNlQøSTw¦"
+ lanfang_decision_desc:0 "N›NNSºNÿwNÄuÇuASRPNŽNVÑSFZW2m„vÑ‘ÿwDn0bìN”^å‹AQ¸‹ÖNìNú^Ëzwê»l„v>y²ÿÙ7h1Sýw'Y'YÐcØšÖNìNtQžRžRN„vHe‡s0"
+ lanfang_decision_formation_title:0 "Ž÷‹NSºNlQøSTw¦"
+ kongsi_federation:0 "lQøSTw¦"
+ kongsi_federation_desc:1 "lQøSTw¦=fNÍyžRLˆlIN6R¦^„vTwTÿwN0âVNbbVb„vqQŒTýVÿvQ)RÊv1ubXTqQ«N0–NwlQøSqQŒTýV„vžR›RŠegŠ:V'YÿÖNìNmNbÅbw†NN?eœ^øvSV„vLwýwÿ‹O‚YYe²w0œQN‹NN„vLˆ?e¡rt0"
+ estate_nobles_command_of_the_military:0 "Œcµc›Q–"
+ estate_nobles_command_of_the_military_desc:0 "bìN„v›Q–«ˆ5ÏeNbŒcµcÿàVdkbìNêS—VðN×NÖNìN„v=ecÎNwËeUS›Q›R0"
+ estate_nobles_command_of_the_military_tt:0 "ÛbßR§YS†˜§!OžX R§Y5%5ÏeqVÍT›R§!"
+ EST_VAL_NOBLE_LEADER:0 "Œcµc›Q–: §Y$VAL$%§!"
+ restore_dai_viet_title:0 "Í‘ú^'YŠ"
+ restore_dai_viet_desc:0 "'YŠ«ˆLeùR„vNÏeNbRÂˆ0bìNÅV‰˜SŠWSºNlâVÓuwegÿÍ‘ú^bìN„v‹sýV0"
+ northern_and_southern_dynasties:0 "WSSg"
+ northern_and_southern_dynasties_desc:0 "2N'YLeùR„vNÏeKNô•„vÛwþvSýV¶RRÂˆ:NWSS2Ng0"
+ dai_disaster.1.t:0 "WSS2Ng"
+ dai_disaster.1.d:0 "[Root.Monarch.GetRulerTitleAndNameOrRegency]—f1VàeýwÿwÙùRNvQjOùR„vNÏewŠÿR=f‰vgóS0¨cû[Root.Monarch.Dynasty.GetName]g„v)YPo‚:g0ýV¶R°s(WòTÏuYŽNWSS'YRÂˆ„v¹ÿÌS¹e„v‰N—emN¸‹ScíupeASt^KNEN0"
+ dai_disaster.1.a:1 "=ecWSg0"
+ dai_disaster.1.b:1 "=ecSg0"
+ north_vietnam_breaks_away:0 "§RbýVSèS1»yŒcµc0ìrËzú^ýV0§!"
+ south_vietnam_breaks_away:0 "§RbýVWSèS1»yŒcµc0ìrËzú^ýV0§!"
+ dai_disaster.2.t:0 "'YŠRÂˆ"
+ dai_disaster.2.d:0 "'YŠòTÏuÛVR”NÂˆ0[Root.Monarch.Dynasty.GetName]0[vietnam_rival_dynasty.Monarch.Dynasty.GetName]2N¶RKNô•„vÛwþv²QzoØSb:N†NýV¶R„vWSSRÂˆÿÙÅVSŽcwN:W÷eåecEN04xOW%NÍ‘„v…Qb0"
+ dai_disaster.2.a:0 "bìNÅVSûQ%[TOK.Monarch.Dynasty.GetName]lqNã<PRÿ"
+ dai_disaster.2.b:0 "bìNÅVSûQ%[ANN.Monarch.Dynasty.GetName]lqNã<PRÿ"
+ dai_disaster.3.t:0 "(W[Root.GetName]„v‹sg't.VNS¿R"
+ dai_disaster.3.d:1 "[Root.GetName]îvMRÍNàeÕlFd1‹s²R²Qzÿ°s(WÿàQ*N5Ïe¶RÏeòTÏuŒcácv^éTúV†N³Y„vCg›RÿuóZÁw‰RÂˆýV¶R0ÖNìNêSIr…VN*N³Y1VS„vßu»lwegžRLˆÖNìN„v¡‹Rv^OýV¶Rw–eQ÷mqN0"
+ dai_disaster.3.a:0 "bìNÅV‰˜b`YâVÓu0"
+ do_your_missions_tt:0 "‚Yœg§YI–bkýV¶RRÂˆ§!ûN¡R¡l	gŒRbÿ§RWSSg§!Œp¾–ïSýwOÑSu"
+ confucian_bureaucracy:0 "Q¶R˜RÚP6R"
+ confucian_bureaucracy_desc:0 "TINûN‹T×SÇYe²w„v˜RÚP	cgqQ¶RŸSReg¡rtýV¶R„vNÍy?eœ^SO6R0"
+ examination_system_reform:0 "Ñy>N6R¦^"
+ examination_system_reform_desc:0 "±›N^gÂSNýV¶R?e¡R–Ov^KfGS:N?eœ^˜RXT„vºNÅV‰˜ÂS RNû|RwÕ‹ÿåNKmÕ‹ÖNìNùRQ¶R‡efRŒT»lýV¹eeu„v†Nã‰0"
+ malay_islam_decision_title:0 "¥c³uO¯epQYe"
+ malay_islam_decision_desc:0 "O¯epQYeÅb:NªRqS¾Éb„vINAm—RYe0bìN”^SV`w=f&THQåw„vÝ‹í‹(WbìN„vÃV-NµNuqQ1ž0"
+ opinion_malay_converted_to_islam:0 "ˆvOO¯epQYe"
+ sakdina_system_reform:0 "(„KQê³u6R"
+ sakdina_system_reform_desc:0 "<y6Rîh%NÿNïSíPŠ0SbìN„vD–¸^ýV%N<hRRIrµu0’cRMO!kÿïSåNOÖNìN²‹n’NøvKNô•„v0WMOØšNOÿv^ôf RleOu‹sCg„vZ%N0"
+ corvee_reform:0 "­VyV6R¦^"
+ corvee_reform_desc:0 "ÏkNTœQlý—‰(WýV¶RVìSöeÂS R³RyV0ÙÍy³RyVïSýw=fÂSN‹s¶Rž^'YåTz„vú^¾‹ÿmNïSýw=fEQ›Q0"
+ uparaja_reform:0 "oR‹sçub"
+ uparaja_reform_desc:0 "bìN”^å‹S‹sÏebXTûN‹T:NoR‹sÿ©‹ÖNìN(Wçub‹sMOKNMRÐcéeVËY¥cæ‰ºNl'YO0ÂSN?e¡R0"
+ ATJ_ideas:0 "šNPŸtõV"
+ ATJ_ideas_start:0 "šNPŸ.Oßu"
+ ATJ_ideas_bonus:1 "šNPŸÎ‘ÃV"
+ islamise_sumatra:0 "Ï‚è•TrJO¯epQS"
+ islamise_sumatra_desc:0 "šNPŸ=flšeg,rN*N¥c³uO¯epQYe„v0W:S0KS¡r‚YdkÿD–ÑýV¶RŒTbìNêñT„vW0WN„v¸‹YºNÍN6quªVVYeáOðN0:N†NÁ‹fbìNùRwIN‰RÉb„váOðNÿbìN”^å‹ªR›ROvQÖNºNˆvOHQåwKNS0"
+ rise_of_aceh:0 "šNPŸ„vTw"
+ rise_of_aceh_desc:0 "bìN„vÄ–ÃVîX×VÝuNÅNÅN=fb:NN*N8f-Nl=n0šNPŸS†˜üRN*N*jèªRqS¾Éb„vO'Y^ýV0"
+ military_adventures:0 "›Q‹N’Qi–"
+ military_adventures_desc:0 "NeQN†tzÿ	q—VN†PR0bìNNå‹Ouç`(WeÜ„vW0WNÛLˆýwYÐcØšbìN(WhQNLu„vqVÍT›R„v•gbyV0"
+ acehnese_moneylending:0 "šNPŸP7"
+ acehnese_moneylending_desc:0 "Ñ‘,gMO6R©‹bìNÖS—V†NùRvQÖNýV¶R„vÏuNmO¿RÿFOwckOšNPŸb:NFU8KNý„v=fgNO„v7>k)Ro`0bìN„vFUºN(W•bD°eONöeàe—ÅbÃV:PIN6eÖSøvSVŽNÖNìNNJSåNN)R¦m„v)Ro`0"
+ export_economy:0 "úQãSÏuNm"
+ export_economy_desc:0 "šNPŸ„vÏuNmIN‰OVŽNúQ.UØš÷N<P„virµNÿ‹O‚Y‰wFŒI…ÿN™™åNÊSßi”iœg0šNPŸºNô›RŽN(WïSýw„v›Q‹NŒTFUNÎ˜i–-NÝOœ–ýV…Qß˜ÁTuµN0:N†NÝOÁ‹ÇiR„vß˜ÁTuµNýwYlbc:N÷N<PôfØš„v™™™euµNÿbìN—‰ú^Ëz3zúV„vFUNO4OsQû|0"
+ BLI_ideas:0 "ôT˜StõV"
+ BLI_ideas_start:0 "ôT˜S.Oßu"
+ BLI_ideas_bonus:1 "ôT˜SÎ‘ÃV"
+ javanese_culture:0 "¥c³u*rÇT‡eS"
+ javanese_culture_desc:0 "ánw=O7Y„väSwßu»lO—V*rÇT‡eS(WôT˜S›SYuNñmIR„vÙppSÿvQ-NgIN‰„v=fú^Qr0‚HŽŒTbgRÿåNÊSØuIu0Õ–QXŒTÇTlb®vqVvPb0Töeÿ(W‡efRNVeQ†NaSôu‡eWR0"
+ aristocratic_refugees:0 "Am¡N5Ïe"
+ aristocratic_refugees_desc:0 "–NwpS¦^<S‰šN²›S-NO¯epQYe„vTwŒTT'Y‹sýV„v¦lw–ÿ1Y¿R„vpS¦^Ye5Ïe·u·uŒmTôT˜S›SÿåNb`YvQäSw„vcƒ‰Š0"
+ staunch_hindus:0 "ZWšR„vpS¦^Ye’V"
+ staunch_hindus_desc:0 "—RYelØSTlšegNLu­ˆeg0bìNÅV‰˜NÜ`NRãN÷Nµb—bäSwpS¦^Ye‡ef„vÍ‘'YZÁwO¯epQYeŒTúWcwYe0"
+ conquerer_dalems:0 "Vgw¾ÒRÆY"
+ conquerer_dalems_desc:0 "«ˆðyjO¾ÒRÆY„vôT˜S›ST‹sìNv^¡l	gàV:NêñT„v‹sýV1VSw>eVÎ‘ÃVÃRÃR„vVg0‹O‚YTëSôTþVÁN!„v¾ÒRÆYŠbÖN„v	TS	TS‹sýVib.V0R†NN¹e„v²›SNÿuó(W*rÇT›SmN	g‰m³0"
+ bli_island_settlers:0 "›SSûyl"
+ bli_island_settlers_desc:0 "d–*rÇTKNY„vhT¹›SSÿNôT˜S›SøvÔkýASR1VSî†Rƒ0ûyESÙ›N›SSÿ(W›SSNú^Ëz1uôT˜S›S5Ïeßu»l„v?e»lnfÿáOðNT†Ú‹„v>yOSOøvSV¹Rf0"
+ hindu_reformation:0 "pS¦^Ye9ei—"
+ hindu_reformation_desc:0 "bìNhTôV„v1Y%ýV¶RùR—RYeÇ‘ÖS„v	NÃVŒNaŒTê1uce+o„v`¦^(WôT˜S›SN¡l	gËz³KN0W0bìN”^SV²‹w,TÖS¾lb·<SÉbTXN^„vzfga=T:yÿZWcnFZáOðNøvùRŽNvQÖNbVV„v—RYeuImóØšàeN„vßu»l0WMO0”^SVú^.°e„v^y™^ÿ9ei—^yLw6R¦^ÿåNú^ËzN*N&rTöeãN—Bl„v9eo‚pS¦^YeáOðN0"
+ rivals_to_slaves:0 "ØOO†:NtY"
+ rivals_to_slaves_desc:0 "SVLeºNïSåNjO:NN*NtY¶–XR(W„vöePÿbìN:NÀNHN‰Ng‰cÖNbTÿNNgÖNìNÍSw©‹ÖNìNg¡RŽNbìNÿNUSUSUS°sôT˜S„vßu»lw„v`¯`ÿØýw©‹,g0Wã‰>eôfY„vºN›R0"
+ SUN_ideas:0 "ýTÖNtõV"
+ SUN_ideas_start:0 "ýTÖN.Oßu"
+ SUN_ideas_bonus:1 "ýTÖNÎ‘ÃV"
+ defensive_moats:0 "²bÎW³l"
+ defensive_moats_desc:0 "bìN„v2–¡VåT‹N(WLeºNàepe!k„vÛIe-NÝO²b†NbìNÿv^SçuíueSLˆ^SŽNƒR„vO‹T0"
+ wooden_architecture:0 "¾|ô„v(g(ú^QrfR"
+ wooden_architecture_desc:0 "ýTÖNú^Qr.Oßu:VŒ(g(Óu„g„vŽa0bìN„v^y™^ŒT«R¿k=flšegšN0W:S^×S¡Ua„vØZi0"
+ seren_taun:0 "0N6e‚‚"
+ seren_taun_desc:0 "0N6e‚‚US:y†NýTÖN„vœQNuImÿ(WýTÖN„vQg„^-NåNØšÄ‰<h>NžR0"
+ sunda_galuh:0 "ýTÖNŒT RœTwßv"
+ sunda_galuh_desc:0 "ýTÖN‹sýVŒT Rœ‹sýVþfÏu=fìrËzFO’NøvsQTw„výV¶R0bìNòTÏuSvQßuNbN*NbrNïSR„v‹sýV0"
+ estate_burghers_orang_laut_alliances:0 "wmºNTßv"
+ estate_burghers_orang_laut_alliances_desc:0 "wmºN=flšmQ2uwmáSÊShT¹wmßWWuW•„vwmN8ngrl0ÖNìNùR…VßvËS^—8^šSSÿïSåNÇ–cOÖNìNûQwm×vbVüRFUºNMRŽVbìN„v=nãS0"
+ DAI_NAM:0 "'YWS"
+ DAI_NAM_ADJ:0 "'YWS"
+ VIET_NAM:0 "ŠWS"
+ VIET_NAM_ADJ:0 "ŠWS"
+ flavor_dai.4.t:0 ")Y‹T"
+ flavor_dai.4.d:0 "f1YvQ·Vÿ´fP†àeàz0)Y‹T(W>Tÿ-^wSkQRƒ0NßukNÞTÿTø”°e¦0FOBlNTÿCS‹cƒf0"
+ lavor_dai.4.a:0 "'YWS0"
+ lavor_dai.4.b:0 "ŠWS0"
+ lavor_dai.4.c:0 "[Root.GetName]0"
+ flavor_dai.5.t:0 "‡vÎW"
+ flavor_dai.5.d:0 "bìNòTŠbz˜SnxšR:N[Root.GetName]°eý„vY	ÿFO=fbìNmNïSåNÍ‘=c[613.GetCapitalName]„vçeý0N¡rbìN	ébêTN*NÿbìNý‰ú^.Nµ^RO„v‡vÎWÿbìNIQcƒ„v[Root.Monarch.GetTitle]S(WdkÛLˆßu»l0"
+ flavor_dai.5.a:0 "z˜SSb:NýVý„vOo‚Nb(W0"
+ flavor_dai.5.b:0 "9e[613.GetCapitalName]:N³l…Q0"
+ stateless_society:0 "àeýV¶R>yO"
+ stateless_society_desc:0 "bìN„vlO	gaNÄubýV¶RÿÖNìNôfTŽVŽr4g„vuImÿùRNO0Wø‹ýVÛvLˆ„vIrµu‹SëlewÜKN0"
+ STATELESS_SOCIETY:0 "àeýV¶R>yO"
+ TRIBAL_LEADER:0 "èK„†˜–ˆ"
+ manpower_sailors_on_build_tt:0 "ú^¾‹§YuQ%„§!0§Y­‹Ãu%„§!ú^QrS·ƒ—V§G1000§!ºN›Rÿú^¾‹§Y9‚^W§!0§Yr^9‚^W§!S·ƒ—V§G200§!4lKb0"
+ HARIPHUNCHAI:0 "‡šÎžgs"
+ HARIPHUNCHAI_ADJ:0 "‡šÎžgs"
+ DVARAVATI:0 "N–Wµ”0W"
+ DVARAVATI_ADJ:0 "N–Wµ”0W"
+ BURMA:0 "8u"
+ BURMA_ADJ:0 "8u"
+ RAMANNADESA:0 "Wid±Ðc™l"
+ RAMANNADESA_ADJ:0 "Wid±Ðc™l"
+ lxa_warning_tt:0 "§RàV:N`Ocknbo§Yœoµl§!ÿ`S†˜§Y[4839.GetName]§!0§Y[614.GetName]§!b§Y[615.GetName]§!„várCgÛS›QïSýwú^Ëz°e„výV¶RÿÎN`O„vßu»lNRÂˆúQeg0§!"
+ flavor_lxa.1.t:0 "`SôT^X‹sýV"
+ flavor_lxa.1.d:0 "–Nw…QbaoaÈpÿœoµl„vNMO‹sÏelQPRòTÏu(W`SôT^Xú^Ëz†NìrËz‹sýV0bìNle1r„vVyýVÊNTmN¸‹SàeËz%•KN0W0"
+ flavor_lxa.1.a:0 "ÅV‰˜Sb%Ù›NqNã<PR&&éeZf‰Sb%ÖNìN0"
+ flavor_lxa.2.t:0 "NaŒ‹sýV"
+ flavor_lxa.2.d:0 "–Nw…QbaoaÈpÿœoµl„vNMO‹sÏelQPRòTÏu(WNaŒú^Ëz†NìrËz‹sýV0bìNle1r„vVyýVÊNTmN¸‹SàeËz%•KN0W0"
+ flavor_lxa.3.t:0 "tÃRÉb¦‹sýV"
+ flavor_lxa.3.d:0 "–Nw…QbaoaÈpÿœoµl„vNMO‹sÏelQPRòTÏu(WtÃRÉb¦ú^Ëz†NìrËz‹sýV0bìNle1r„vVyýVÊNTmN¸‹SàeËz%•KN0W0"
+ restore_lan_xang_title:0 "Í‘ú^œoµl"
+ restore_lan_xang_desc:0 "O'Y„vwclÏem×S†N‰lÍ‘„vSbûQÿòT6qÛVR”NÂˆ0°s(Wn0RbìN»Sµc6R±›NTÎW‰0W0ˆmmp‹sMOÊ‰Î‰wegžR°sýV¶R„vßuN0"
+ custom_idea_transport_power:0 "JwÜwŽNàe„v­‹Ãu"
+ custom_idea_transport_power_desc:0 "KS¡rÐ“9‚gS	g:gOÂSNwm›Q²NbÿbìNÍN6q:N9‚XT‰R’c†NúWNx„v‰v0‚jOb­‹ÃuÿÙ(WjOböeïSåNÙuÖNìNNÍy‰RhQa0"
+ MLC_ideas:0 "lšmQ2utõV"
+ MLC_ideas_start:0 "lšmQ2u.Oßu"
+ MLC_ideas_bonus:0 "lšmQ2uÎ‘ÃV"
+ mlc_vassal_princes:0 "¦TD–¸^"
+ mlc_vassal_princes_desc:0 "lšmQ2u(W™™™e²›SESŽN‰²QKN0Wÿ‚YœgbìN‰)R(uÙÍy0WtO¿RÿbìN”^VËYûRBlN›ND–¸^0"
+ mlc_maritime_laws:0 "wmmÕl"
+ mlc_maritime_laws_desc:0 "ªRqS¾Éb=fbìNVyHQ„v¶RíVÿbìNÅV‰˜uªV‰RÉbèeaÿ¥c×SÙGrW0Wv^b:NÙGr:SßW„vIN‰8f=nãS0»Ñ„výV¶RùRbìN.bN†NûNUOwmNZÁw0"
+ mlc_new_hegemony:0 "lšmQ2u8—Cg"
+ mlc_new_hegemony_desc:0 "bìN„výV¶RmN¸‹RRNENÿwbìN„v†SòStSv^^—‚Ydk0bìNÅV‰˜Í‘ú^äS²R)RiO‹sgÿQ°svQçeåe‰Lq0lšmQ2u„vTWR”^«ˆí”°‹ÿ"
+ mlc_islamic_sultanate:0 "O¯epQÏ‚9NýV"
+ mlc_islamic_sultanate_desc:0 "(WÜ»yHQåwEeW„v0W¹e.O­dbìN„váOðNòT6q>Nekôup‚ÿ‚YœgbìN4nBlN*N&^egŒTs^„v?eœ^ÿ±HNbìN—‰YN¹p&&ØSÿåNîvMRwŠ0"
+ mlc_habor_masters:0 "=nãSIN°R"
+ mlc_habor_masters_desc:0 "bìN(WnxÝOýV…Q—RYeËR¹RlôVN„vªR›RòTRÁ‰bHeÿlšmQ2uck=fySËz(WªRqS¾ÉbN„vNµ^'Y”q‰pÿegêNT‡eS0NTáOðN„vºNìN(WdkŒb0R†NËz³KN0Wÿ—VåNO‰Quo`01uŽNbìN„vÁNHaÿ»Ñ›SSck.^©RbìNS8fVüRóbýV„v=nãS0"
+ mlc_daulat:0 "Ï‚9NTCg"
+ mlc_daulat_desc:0 "(WbìNVyHQßu»l„vöegÿegê²R)RiO„výV‹sìNåb	gNˆN„vckßu0jO:NN*N°ebËz„výV¶RÿlšmQ2uÅV‰˜ÇuIYvQHQVyegnxÝOÏ‚9N„vckßuTCg0Ï‚9NbIYwINKNHaà`w»lÿ8lÜ‚Ydk0"
+ mlc_jawi_script:0 "*r7Y‡e"
+ mlc_jawi_script_desc:0 "–NwäSxQlšegí‹b:NªRqS¾Éb„v(uí‹ÿmN=föePSFZWs|û|‡eWR9ebcbôfTbìNáOðN„v‡eWR†N0*r7Y‡enêbìN„vÜ?b²Nb?–Éb=O‡eÿS=fßuNªRqS¾Éb‡eWR„vÝusO	éb0"
+ BEI_ideas:0 "‡e±ƒtõV"
+ BEI_ideas_start:0 "‡e±ƒ.Oßu"
+ BEI_ideas_bonus:0 "‡e±ƒÎ‘ÃV"
+ bei_galleys:0 "hh^b0‚0‚–"
+ bei_galleys_desc:0 "‡e±ƒ0‚–Nôv=fbýV›Q‹N›RÏ‘„v8hÃV0CSÌ‘KNLˆËYŽN³NÿNw<wŽNhh^b9‚„vú^¾‹SžX:VbìNùRhT¹wmßW„vµc6Rýw›R0"
+ bei_sea_nomads:0 "wmN8nl"
+ bei_sea_nomads_desc:0 "wmºNŒTôTvtÏe„v*‚wmwESOO(WbýVÑwm„v9‚KSÌ‘0‚Yœgýw©‹ÖNìNHeàVbìN‡e±ƒÿbìNS·ƒ—VôfY„v4lKbŒTôf:V„vwm›Q›RÏ‘0"
+ bei_diplomacy:0 "‡e±ƒY²N"
+ bei_diplomacy_desc:0 "å‚ó`(WªRqS¾ÉbKN…QnxËzÝuùR„v6RwmCgÿbìNÅV‰˜NN›NºNÓußv0úQOhT¹TýV„vY²NOâVòTÏuNwKbdk‹NNµköeô•†Nÿ‚YÊN‡e±ƒ„v?eðX‡˜:NN•0"
+ bei_vassals:0 "FZW2m8—IN"
+ bei_vassals_desc:0 "Nµ^›SSÿN*NýV¶R0‡e±ƒ„v†˜W”^å‹¾0RaSnf?–¯e³l	NÒ‰2m0W&^ÿbìN„v¿R›R”^å‹M^te*NFZW2m0NæebŸRÿvQƒRlšegšNÏ‚9NýVmN1SÅV‰˜TbìNïO–™ðyã0"
+ bei_naval_prowess:0 "wm›Q›RÏ‘"
+ bei_naval_prowess_desc:0 "ÇNwmNAmlÓußvÿbìN—VåN„gú^wž^'Y„v0‚–ÿ‡e±ƒb0‚KNZTSµb¾hQªRqS¾ÉbÏkN*NÒ‰K„0"
+ bei_trade:0 "FUºNTwßv"
+ bei_trade_desc:0 "bìNFUºN„vekÜÊSmdWŒT¹fWÿFO°s(W=föePûRBlôfwQ’Qi–¾|^y„v8fO4O†N0'k2mºNùRÙN0W&^„v™™™e8f‡˜atQ±ÿwa„„YrºNR<ONN=fÖNìNKN-NgOZPua„vºN0"
+ MSA_ideas:0 "lšegšNtõV"
+ MSA_ideas_start:0 "lšegšN.Oßu"
+ MSA_ideas_bonus:0 "lšegšNÄ–ÃV"
+ msa_advanced_galley_warfare:0 "HQÛhh^b0‚b=g"
+ msa_advanced_galley_warfare_desc:0 "bìN„výV¶RNôv1S=fN*NwmNýV¦^ÿwŽb=gÛek‚YÊNÈuŽN©‹bìN„v0‚9‚mNýw×SÊv0ÙÍy°e„vŽb=gýwY.^©RbìNb:NLeºNNbOuç`„v›RÏ‘0"
+ msa_expert_haggling:0 "Ø÷NØšKb"
+ msa_expert_haggling_desc:0 "bìN„vFU8‡eSO—VlšegºNb:N†N8f„vLˆ¶RÌ‘Kb0bìNÝuùRïSåNÎN»ýVKb-NZ—V)RÊv0"
+ msa_chart_the_seas:0 "ØRßR²›S"
+ msa_chart_the_seas_desc:0 "N:NºNNbåw„v:SßW>f6qNýw»SVg0:N†Nb:Nlšeg²›S„vc*‚opTXÿbìNÅV‰˜Vn±›NqSi–„vÉT©SíSÁX„vMOn0"
+ msa_in_every_port:0 "lšegFU8)YN"
+ msa_in_every_port_desc:0 "Twmm•bD„vÏkNR±”ýÅV‰˜	gNbÞV¥b0"
+ msa_sea_nomads_steering:0 "NwmNèÏe¾bqQÆ‹"
+ msa_sea_nomads_steering_desc:0 "bìNŸqåwwmmck‚YwmmŸqåwbìNN7h0âl›m(WbìNb—MRØS—V‰ÔgÿwmN8nl(WbìNb—MRmNÂa—VleOu0ÖNìNO.^©RbìNÝOœ–8f¿uï0"
+ msa_spice_kings:0 "™™™eKN‹s"
+ msa_spice_kings_desc:0 "bìNÎN‹N™™™e8f„v†SòSïSý¯n0RlQCQMR1500t^ÿb:NwmNNøuKNï„vÍ‘‰èR=fbìNýV¶R<P—VVåN:N²P„vb1S0¡l	gNGrW0W=fbìNNbàeÕl0R¾„v0"
+ SIA_ideas:0 "¹fWtõV"
+ SIA_ideas_start:0 "¹fW.Oßu"
+ SIA_ideas_bonus:0 "¹fWÎ‘ÃV"
+ sia_royal_poets:0 "‹s¶R×‹ºN"
+ sia_royal_poets_desc:0 "‚Yœg¡l	gºN1U‚˜bÜw„v.OGYEe‹Nÿ±Sb†NÜw×NÈS	gÀNHNaINbTÿbìN„v«R÷^Sb:N×‹ºN„v‰RESKNNbÿbìN„vIQ‰†SòSSb:NÖNìN„vRjOnÉl0"
+ sia_advanced_elephant_warfare:0 "HQÛaŒbb=g"
+ sia_advanced_elephant_warfare_desc:0 "0…l%°‹0ÿbýVgO'Y0gäSw„v×‹ÇrKNNÿvQ-N(uNŒvYLˆ‡eWR°‹ð†NbýVbaŒ„v«ŽÿYNcƒw0©‹ÖNìNµwµwbìN„v‰S³R'Tÿ"
+ sia_experienced_ambassadors:0 "	gÏuŒš„v'YO"
+ sia_experienced_ambassadors_desc:0 "bìN(W?e»lIm¨RN	g0NÌR„vÏuŒšÿbýV„véeg†SòSck=fåNT*N‹sgKNô•„v|VdkLeùR:NvQyrV„v0bìN(WY²NN„vðX‰ŠýwY:NbìNZS—VqVÍT›R0"
+ sia_encourage_immigration:0 "Ÿ±Rûyl"
+ sia_encourage_immigration_desc:0 "býVNSè„vuTûSØšŸSÍN6qºNãSzSÿbìN”^SVŸ±RvQƒRlÏeÁeQ¹fWÿqQ«NbìN‹sýV„v‰Lq0"
+ sia_integrating_the_realm:0 "éTúVýV¶R"
+ sia_integrating_the_realm_desc:0 "RCgSO6ROJR1VbìNùR¹ÜwýN„vµc6R0‚YœgbìNú^Ëz0ÛVñg6R0ÿ¦NsS¾‹ËzÛV'YLˆ?eèè•ÿbìNSµc6R=e‘d‹sýV„vÛV9h=eñg›Q–0—R²R00zŒTœQN0"
+ sia_education_reform:0 "Ye²w9ei—"
+ sia_education_reform_desc:0 "™YÉ‰upfìrêåwÿô‹úQsS=f„YÿK„rsS=fGP0êñT„vÏuŒšÜwÇÖNºN„vCSŠNí‹ÿYe²w=fåwÆ‹„vúWNxÿÑyŽb„vÛekÅV‰˜OVŽNYe²w„vÛek0"
+ sia_royal_absolutism:0 "ÝuùR‹sCg"
+ sia_royal_absolutism_desc:0 "‹swÿNºNKNNwES^yKNN0b‹sßu»l'Y0WÿNlSTÿ¹r^yKNŽN)YýVmN0"
+ LFA_ideas:0 "pQ³‚tõV"
+ LFA_ideas_start:0 "pQ³‚.Oßu"
+ LFA_ideas_bonus:0 "pQ³‚Î‘ÃV"
+ lfa_free_elections:0 "ê1u	>N"
+ lfa_free_elections_desc:0 "bìNýV¶R„vNlt”^qQ»lvQ¦wqQ«NvQ?eÿwåNÑ‘Cgr^?e„vjOxY¯rÑyKNS­eNïSLˆ0"
+ lfa_mining_syndicates:0 "ÿwNTaNO"
+ lfa_mining_syndicates_desc:0 "P•KNåTÿTwÿàV>TaNŒÿÓu:NåTâVÿ1gè•0–ÿåN0ðVbÿKYw—bKNÿ:YÞVœgžRÿ"
+ lfa_careful_diplomacy:0 "(ŒNaY²N"
+ lfa_careful_diplomacy_desc:0 "bìNµu*jmc–„vY²Nbéuuó«ˆhTmýV¶RNbsÌV<w¢u0wbìNêS—ì—IQ‰QffÿåNÝOÁ‹bìNl,g„vtõV ˜†‰N4x0"
+ lfa_national_militia:0 "¢R¶RlâV"
+ lfa_national_militia_desc:0 "¢R¶R7u?QÿTwÿÓu:NINÇRÿÝOƒX‰Rlÿ*S’VÇNÇRÿ’Q¯rb†uÿ>NªgkX9VÿSNgLe›Qÿ"
+ lfa_integrate_local_communities:0 "teTWºN"
+ lfa_integrate_local_communities_desc:0 "ºNN»ºNKN+RmNœœãwÿ‡eÍy„vY7h'`t”^b:NbìN„v0ÌRw^—bìN„vÅb0áQêß˜vQ›RwÿpQ³‚ý=fÖNìN„vhNb0"
+ lfa_improved_mining_techniques:0 "9eÛÇ‘ÿwŽb=g"
+ lfa_improved_mining_techniques_desc:0 "ýVKNÌR1uvQlKN³ÿpQ³‚SV„U(u'Y0WNb`ˆNbìN„vDµN0Ç‘˜cŽb=g—V0RÑSUSÿåTjOagöNmNýw—V0RÝOÁ‹0"
+ lfa_state_expansion:0 "WSmÎ‘g"
+ lfa_state_expansion_desc:0 "s^IrNê1u¹eýw.1Sx^yAucƒKN¦ÿpQ³‚¿O=fÙNwt„vg‹Y‹OÁ‹0bìN”^SVSÙNwt.O­dóNLuYON„vÒ‰K„ÿv^SÖNìNÎNtYyV„v•þ”-Nã‰>eúQegÿ"
+ LIG_ideas:0 "mdWtõV"
+ LIG_ideas_start:0 "mdW.Oßu"
+ LIG_ideas_bonus:0 "mdWÎ‘ÃV"
+ lig_autonomous_subject:0 "ê»l^SýV"
+ lig_autonomous_subject_desc:0 "ÎNðlºN„vßu»l-N1»yúQegTÿbìNòTÏu‰NÖS0R†NjO:NN*NÎW^ÐR¦„vê1u0bìNìrËzýV¶R„vú^Ëz:NNWSšNvQÖN0W:SNb©wîvÿwÙck=fbìN”^	g„vÿY`0"
+ lig_religious_conversion:0 "VlbiOÕl"
+ lig_religious_conversion_desc:1 ".Oßu=fbìN›RÏ‘„vegn0jO:Nte*NªRqS¾Ébµb—bO¯epQYe.O­d„vgT!X’WÿmdWt”^:c«ŽwúQÿÅbwNhQNLuR«NiON–„vYeò‹„vÍ‘'Y1ûN0"
+ lig_vassal_cities:0 "D–¸^ÎW¦"
+ lig_vassal_cities_desc:0 "bìNmdWjO:NN*NÐRÿýwYåb	gêñT„vWøSNû|ŒTD–¸^0ó`‰ib'YqVÍT›R„vÝ‹ÿ:O:gTv^lšegJS›SNvQÖN„vÐR<ONN=fN*NN•„vVËY0"
+ lig_trade_primacy:0 "8fóN"
+ lig_trade_primacy_desc:0 " `EN„v*‚wm.OßuObìN„vwm‹N8fÑSUS‹NJSŸRP0ÎN'YNSegwÿTN¹eweg„v°etQFUâVÛbFUVDàeº‹‚YUOýN=fOWINa0"
+ lig_bridge_to_malaya:0 "¹fWËu&^"
+ lig_bridge_to_malaya_desc:0 "¹fWŒTmdWþfÏuT^SN*N^ýVÿÙýNTwû|S*gˆm1Y0bìN”^å‹(WÝOcê«ŽìrËz„vTöeûRBlwQ	gY²NÍ‘‰'`„vÝO²b0äSw„vTwßvÝuNO«ˆRdV0"
+ lig_spirit_of_rebellion:0 "ÍSÛS¾|^y"
+ lig_spirit_of_rebellion_desc:0 "bìN„výV¶R=f(WKYw—b‰N-N·ƒ—VìrËz„v0àVdkmdWŒTÖN„vºNlýNO‰fãgŽNÖNºNÿLeýVßu»lÏkÓb.VNøRýSØNúQ‰lÍ‘„vãN÷N0"
+ lig_trade_protection:0 "ÝO²bmdW„v8f"
+ lig_trade_protection_desc:0 "9‚êS=fbìNýV¶R„v„š²Pÿ=fbìN8f„vP×N0SV¡RKN%`ÿ=fÝO²bƒRìNåNnxÝOƒRìNz˜)R0Wµb¾=nãS0"
+ PLB_ideas:0 "ôT»ÁetõV"
+ PLB_ideas_start:0 "ôT»Áe.Oßu"
+ PLB_ideas_bonus:0 "ôT»ÁeÎ‘ÃV"
+ plb_ancient_scriptures:0 "äSãN‡e.s"
+ plb_ancient_scriptures_desc:0 "bìNýV¶RgäSw„v°‹UV²‹ð†NbìNgO'Y„výV‹sKNN&^†˜2NNºNŒTpeŒv0‚9‚všT†N*gåwNLu„vEe‹N0Ù*NEe‹NNO«ˆWØV0"
+ plb_pirate_ancestry:0 "wm×vTÔˆ"
+ plb_pirate_ancestry_desc:0 "KS¡rN›Nàeåw„vYýVºNSbìNÛS„v)Y'`Æ‰:NN¡‹Tœg„vœËƒÿFObìNÎNegýNôv:N²P0ÕkßzSÄ‰!j„v°h—e`HNOúQºN‹TbT&&b¸‹'Tÿ"
+ plb_controlling_the_strait:0 "ŒcµcwmáS"
+ plb_controlling_the_strait_desc:0 "z˜now|TÿðX^— R¾umNÿwû•wpV0bìNÝQÆ‰Nwwmmÿck‚Yñmwm„vèT¸œÝQÆ‰Nwjmno0"
+ plb_center_of_the_dynasty:0 "‹sg-NÃV"
+ plb_center_of_the_dynasty_desc:0 "(WYÞyrÉb‹sgßu»lgô•ÿbìN„výVWb:N†NšÇR„Ub„vºNl„v¶RíVÿbìN„vÎW^†^xQNGkÿ´RPNNÿbìN„vTwßvZWNïS4x0"
+ plb_trading_hub:0 "8f8hÃV"
+ plb_trading_hub_desc:0 "egê'YF–N„vFUºN(W+o•„vcRÎ˜gô•ÅV‰˜(WbìN„výVWNjPYu0àVdkÿbìN„vÎW^ZP‹Y†NEQ³„vÆQYÿV¾‹†N'YÄ‰!j„vÆ–^ÿïye†N0NÌR„v'n0"
+ plb_through_the_monsoon:0 "¦^Çè–cR"
+ plb_through_the_monsoon_desc:0 "ošgÎ˜´fÿÝuàeïSýwÿS«ŽÎ˜´fÿïSLkïSãl0øvsQåwÆ‹(WpeãN4lKbô•ãNãN.ObÿÈuŽNÃu1S†NÅNíQN5gRRúQ°s„vLN‘N1Sýw¨c­eúQÎ˜´fSó„v,g†˜0"
+ plb_learned_scholars:0 "nZSfRw"
+ plb_learned_scholars_desc:0 "êÎN²R)RiO^ýVú^ËzåNegÿbýV¿ONôv«ˆø‹YçP±OŒTfRwÆ‰:N¾|^yEeaNÿÖNìN(Wdk.súQNu„vöeô••beQ0RfR`N-N»S0"
+ BAN_ideas:0 "N9NtõV"
+ BAN_ideas_start:0 "N9N.Oßu"
+ BAN_ideas_bonus:0 "N9NÎ‘ÃV"
+ ban_struck_down_by_diamonds:0 "»”ów÷NôfØš"
+ ban_struck_down_by_diamonds_desc:0 "*rÇT	gåS×Oí‹0RKSê8YNàeÌSÿ»”ów°s«ŽÁ‰wàz0ÿ(WbýVˆvOckßuáOðNöe(uNÙåSÝ‹Q4RNÇ†N0"
+ ban_surrounded_by_stars:0 "²f¯sÕu"
+ ban_surrounded_by_stars_desc:0 ".Oô‹-NÿSV,rNybºNeg0RbìN„vW0WNÿw0R&^ÙubìNu‹T„vnˆo³lAmöeÿÖNìN²‹:NbìN„výV¶R:N²fNb¯sÕu0Ù1S=fbìNÙGrW0W„vÌRv™0"
+ ban_from_east_to_west:0 "N‰ŽVeg"
+ ban_from_east_to_west_desc:0 "býVÒo4NýTÖNwmáS„vÍ‘‰beu0WMOÿO—VbìN(W8fN`SKS†NO¿R0egêNLuT0W„vFUºNýÎNbìN„v¿l¸SÏuÇÿÙ©R•†NbìN„vFU8Mbýw0"
+ ban_rebuttal:0 "ZW³QÍS—b"
+ ban_rebuttal_desc:0 " u u¦lÿqQtýV¾–ÿNˆNAmr^ÿ‰kNOb0N9N(W†SòS•³l-NQX.†NNµ^8lN¦lw–„vÎW^0"
+ ban_fertile_lands:0 "ƒlW"
+ ban_fertile_lands_desc:0 "œQN=fbýVýV¡‹luKN,g0bìNåb	gN)YPˆN„v¥wƒlWäXÿ³åN›O‰QbìNºNãSOY„výV¶R0"
+ ban_by_the_river:0 "…Q³l*‚Ð"
+ ban_by_the_river_desc:0 "býV-Nèµu*jNw¸‹YŽN*‚Ð„v³lAmÿwvQ=eAmôf=fMÊS†NbìNhQè„výVW0bìNòTÏuŒcác†NÙÍyÐ“.nSÿýwYP©RƒRìN‰Œg0WÐl'ÁT0"
+ ban_cultural_richness:0 "‡eSAucƒ"
+ ban_cultural_richness_desc:0 "àVvQbeu÷N<PŒTÌRv™„virµNÿbìN„výV¶R=f¸‹YÅeLˆw„v,rŒNEeaNÿiOYeŒTO¯epQYe²NÇuŽNdkÿŒTfwqQY0"
+ SUL_ideas:0 "Ï‚„ytõV"
+ SUL_ideas_start:0 "Ï‚„y.Oßu"
+ SUL_ideas_bonus:0 "Ï‚„yÎ‘ÃV"
+ sul_sultanate_of_sulu:0 "Ï‚„yÏ‚9NýV"
+ sul_sultanate_of_sulu_desc:0 "bìNO'Y„vÏ‚9NýV=f1u—RYeºNëXú^Ëz„vÿÙN¹p³QNýw«ˆýVÆ‰0ÖNìNùRbIN„vT†áOùRýV¶R„vTwósQÍ‘‰0"
+ sul_makhdum_teachings:0 "S^„vYeò‹"
+ sul_makhdum_teachings_desc:0 "ˆVENˆVENåNMRÿwzf„vfRwaSÌ‘ÆYS^eg0RbìN„vW0W0ÖN„vŠí‹mßRñmƒÿ:NbìN„vßu»lwcV†NNagAucƒKNï0àVdkbìN”^å‹8lÜí”°‹ÖN„vYeò‹0"
+ sul_across_the_sulu_sea:0 "zŠÏ‚„ywm"
+ sul_across_the_sulu_sea_desc:0 "àV:NsQŽNbìNW0W„vŽKN.Oô‹ÿàepe„vÅew‰Nøveg0RbìN„v¶RaNÿàV:NùRŽN¢c0t*gåw†˜ßW„v4ngÿbìNmNlb^MRŽVeÜ„vW0W0Ù.1S†NbìN„vY²NO‚‚ÇRŽNÛÖS„v’Qi–¾|^y0"
+ sul_port_of_jolo:0 "—m=n"
+ sul_port_of_jolo_desc:0 "bìN„v–™ý—m=n>N³‰Í‘ÿÌR2uhQòƒ‹V¾R0egê'YF–„vNøu0%tÀs0‹vö”0÷thVÿegêlšmQ2uŒT‡e±ƒ„v¢”Á”0àsRÿ(WÙ*N8f¢gËuGlÆ–ÿ©‹býVb:N†NN*NPWK„(W0ÌRN„výV¦^0"
+ sul_dagat_sulu:0 "Ï‚„ywm"
+ sul_dagat_sulu_desc:0 "Ï‚„ywm(WcRÎ˜cR=fp‚i–NàeÕlLˆ„v0MOŽNbìNwm¸S„vÎ˜´fmNN‹OYÿFO=fbìN„v4lKbòTÏufRO†NÍV×SƒRìNv^çuíuVnoÿuó=fùR—b±›NñmNïSKm„v›RÏ‘0"
+ sul_coconut_plantations:0 "0iPRÍyiíV"
+ sul_coconut_plantations_desc:0 "bìNNb	g'Y‹W›SSNýu•Nw0iPRhÿ0ih„vKhùW=fbìNN*NIN‰„v6eeQegn0"
+ sul_pearl_farming:0 "Ísàs‰Q–kN"
+ sul_pearl_farming_desc:0 "NšgÍsN!kêSýwUR²wN—˜ÍsàsÿàVdk²w–kÍsàs=fNè•êS	gcKNåNR`„vºNMbýwÎN‹N„vIm¡‹0sS¿O‚YdkÿƒRNb&^eg„v0NšSÏuNm6eÊvŒRhQ<P—VbìN:NKNØNúQ„vªR›R0"
+ CRB_ideas:0 "•NÌ‘vltõV"
+ CRB_ideas_start:0 "•NÌ‘vl.Oßu"
+ CRB_ideas_bonus:0 "•NÌ‘vlÎ‘ÃV"
+ crb_negara_gede:0 "…Q RÉb-<h·V"
+ crb_negara_gede_desc:0 "0…Q RÉb-<h·V0(WbìN„v¹eŠ-Na`=f0O'Y„v‹sýV0ÿÙ=fbìNÜw)R„výV¶R„vwckTðy0bìN„v¿lwm‡eSŒTØšm„v†SòSObìN(Wå‹›S„v?e»lIm¨R-N`S	gzúQ0WMOÿ:NdkbìN„vºNlS8lÜÃVXRaÀo0"
+ crb_tari_topeng:0 "b—wQ‚"
+ crb_tari_topeng_desc:0 "b—wQ‚=fbìNýV¦^gÍ‘‰„v.OßuKNN0‚wŒTPN^:NÙ›NŸ‚býVëXl„vYiV†^xQ>PKS†NÕku¾|›R0"
+ crb_alis_panther:0 "?–Ì‘KNyŒ"
+ crb_alis_panther_desc:0 "US°sbìNýV¶RÞrsNb—„vaŒVKNN1S=fÑžyŒÿÙÍyqSi–„v¨RirSvQ«ŽbV–Ï…(WbìN›SSñmY„vN—gKN-N0ƒR±qSi–„v)Y'`OƒRb:N¾–.„vùRKb0N—gùRûNUOºNýN)nÔg0"
+ crb_mount_ciremai:0 "ýlÒRÈkpqS"
+ crb_mount_ciremai_desc:0 "N¡wßpñgÎNbìNýV¶R„vgØšYôv²Q‘N—0YU^M–4NöeÿƒR„v2a`SjOŠqŠqÈpkpSb®W†NLe›Q0ýlÒRÈkpqSNôvgqŒ˜NwƒRàVžR„vT4O0"
+ crb_islamic_schools:0 "O¯epQfR!h"
+ crb_islamic_schools_desc:0 "fRwìN¾|bìNáOðN„vYeò‹ÿTöemN„UŽNYe²wt^‰ºN0N'Yybô›RŽNcVºNlpTcknx¹eT„vfR!hO—VbìNýwYùW‰Q„UçTwT†Ú‹„vlÏe0"
+ crb_batik_textiles:0 "ôT‚„KQ!‡ÓgºuÇuÁT"
+ crb_batik_textiles_desc:0 "!‡ÓgŽb=g(W*rÇT„vT0WýˆVAmLˆÿFOÎN*g	gÇêT*NýV¶RÏP•NÌ‘vlÙ,‚úQT0bìN„vÇu^åTNè•xvzÙÍy¹eÕlÿbìN„vuµN›R©‹hQ›S:NKNÉZ’Y0"
+ crb_royal_lineage:0 "‡v¶RNˆßu"
+ crb_royal_lineage_desc:0 "bìNýV¶R„v†˜üRºN„v‡v²RNˆßunxÝOÖNßu»l„vÕlt'`0?aÖNìN„vfzf&^egAucƒÿÛÖS„v¾|^y8lNXK„0"
+ flavor_iro.1.t:0 "NïSv™U`„vlQ6q’Q¯r"
+ flavor_iro.1.d:0 "N²ºNNwYr‚MReg0ïžám„vgIQNêSýw!jÊ|0WwÁ‰ÖNìN„v8ž^ÿÛwS.fSNwkpŠb„vIQ0q0ÖNìNàeðXàeo`ÿekðX‰—V‚YTYcR„v®VÎ˜06qTÿ‰lÂR«ˆSb4x†NÿYZf„v‰RR–KNJTÈu0\nÖNìN­ˆûQ†NbìN„vQgèRÿ¹pÃq†NbìN„v^÷rÿwPp†NbìN„v®|ß˜ÿ«Rp†NbìN„vºNl0	g¸‹YbëXN,T0RÍT¨R¿OòTÏ‚’‘ÇegÿSÕ‹I–bkLeºNÿïSÖNìNÕkßzëkàe2–Yÿ¸‹YºNàVdk(Wb—e-Nzrrr0ÖNìN1SÙ7hG³R†N0ÖNìNþf=f¶RºN„vó²N¨š‰wÿ=f6r²Nÿ=fDQVÿ=f?QPR0ïSÖNìN1SÙ7h‹kÍV0W«ˆ:Y»S†Nu‹T0\nêS‰bìNØ	gNo`SXRÿÅVS©‹ÇNLe8làeRåe0"
+ opinion_iroquois_affront:0 "NïSv™U`„vlQ6q’Q¯r"
+ flavor_iro.1.a:0 "bìN…QÃVS8lÜ:NÖNìN„v»yNwíTãl0"
+ flavor_iro.2.t:0 "paupb‰N"
+ flavor_iro.2.d:0 "«R chTôVQg„^„vºNãSåNeˆEQbìN»S„vTÞwòTÏub:N†NbìNlÏe„vNy˜.Oßu0èÏeÌ‘„vÍk²NìN‰BlbìNÑS¨RN:W0paupb‰N0åNšbpayYìNgÑ1Y»S†NiRPR„vÛuæ‚ÿ¥c×SÙ7hTt„v‰Bl=fbìN„v)YLw0\n(WÙ*NoÑžñm‰l„vYÌ‘ÿbìN„vbëXbŸR0W­ˆûQ†NîvhQg„^ÿv^(WNGr÷mqN-N«Rp†NøvSVpeÏ‘„vSV0WºN0"
+ flavor_iro.2.a:0 "bìN”^å‹“b›NØOO†0"
+ flavor_iro.3.t:0 "N*N°e„vØOO†"
+ flavor_iro.3.d:1 "bìN„vbëXÎNKNMR„v«R c-N&^ÞV†NN›NØOO†0ÖNìNÜw)R0Weg0R[Root.Monarch.GetName]„vb—MRÿv^(WSN*NiRPR`±b0R[Root.Monarch.GetHerHim]„v«ŽMR00åNdkeg%Veˆ¨`„vmc1Y0ÿÙÝ‹ó—.O0R3w¹ÿ<wêlÈSAm†NúQeg0"
+ flavor_iro.3.a:1 "ÒbÝuÖN0"
+ flavor_iro.3.b:0 "6e‰QÖN0"
+ iroquoian_iron_fist_opinion:0 "Á”ób"
+ iroquoian_iron_fist:0 "Á”ób"
+ desc_iroquoian_iron_fist:0 "bìN(u‹kw‘„vKbµkegßu»lbìN„vLeºN0"
+ flavor_iro.5.t:0 "NMO°e„vS›Q"
+ flavor_iro.5.d:1 "bìNèÏe³QšR6e‰Q„viRPR(WbìN„vºNl-NckôvwZW:V0Wb•†Nweg0ÖN(Wb—e-N„vÇRsŒTÝO²bQg„^-N„vhˆ°sòTY!k—V0RÁ‹f0ÖN<P—VáOV„vr¹Rb—V†N¸‹YbìNgöQs„vbëX„váOûNÿÖNìNOëkN¹rkŒ0Wý–ÖN0ˆV¾–ó`aŒÖNþfÏu=f*N×S0RÊ`TTó`²ŽÞV¶R„viRPR0\ngTÿbìNïSåNêjŒ0W±R^°s(WÙÌ‘=fÖN„v¶RaN†N0"
+ flavor_iro.5.a:0 "•'Y—VwëVJU&&"
+ flavor_iro.4.t:0 "ýVÍk"
+ flavor_iro.4.d:1 "gÑ„vb‰NÙubìNèÏe„v8hÃV0W&^.b†N2O³R0NMOsY'`²‹w0WÂ‰ßR†NbìN(Wb‰N-N„v³QšR0SÍ‘bìN„väSw.OßuÿåNÊS‰`ÃVgqŒ˜ØOO†ý=fÙubìN&^eg„š²P„vLˆ:N0ÙMOt^wÈSwzf„vsY'`(WbìN„vbëXb—MRUS°s†Nw«ŽÿyY=f0mäS¯eŒ‚¯e0ø‹èÏeKNÍk0'YŒTs^.w(WENÜ„vÇ»SKˆN†NyYÙNðy÷S0yY¡RÆ‰„vÌS<w-NckEQánNwœU¦`0\n00k|T'Tÿ0ÿyYô‹ÿ0`O„vLˆ:NÙubìN„vºNl&^eg†Ncƒw00"
+ flavor_iro.4.a:0 "bìNZP—VN•0"
+ mother_of_nations:0 "ýVÍk"
+ desc_mother_of_nations:0 "ýVÍk„vcV²bQONwbìN„vºNl0"
+ burghers_estate_events.17.1.t:0 "íp&^ÎW^ú^¾‹"
+ burghers_estate_events.17.1.d:1 "–NwbìN„vÑSUSŒT°eíp&^wýN„v ReQÿ[Root.GetName]„v$ESTATE_BURGHERS$òTÏuVËY†NÖNìNùRÙ›N°e0W¹e„vÄ‰RÿÙ7hÖNìN1SïSåNíQPêñT„vŽb=gÑSUSîX'Y0"
+ burghers_estate_events.17.1.a:0 "ˆV‹Y0"
+ renovate_emerald_buddha_shrine_alternate_title:0 "îOz„‰siOúRÿ§YN›R -§!	ÿ"
+ renovate_emerald_buddha_shrine_alternate_desc:1 "›OIYáàiOÏP„v^y›Ÿ—‰îO.ÿÙNÅN=f:N†N(Wir(BSb—ôu²bƒRÿTöemN=f:N†N:VŒSVMRiOYeùRýV¶R„vÍ‘‰jO(u0"
+ siamese_revolution_event_tt:0 "þfN'k2mFUºN¥cæ‰0"
+ siamese_revolution_tt:0 "=f§Y'k2m§!ýV¶RÿN(W§YNpS¦^§!!k'YF–åb	gN*NwýN0"
+ siamese_revolution_religion_tt:0 "N=f§Y[Root.Religion.GetName]§!"
+ siamese_revolution_progression_tt:0 "–™ý(W§Y'k2m§!0"
+ PROV_ADJ4790:0 "ÃRo‚‰R"
+ PROV_ADJ4791:0 "•NÌ‘vl"
+ PROV_ADJ4792:0 "¯w·VS"
+ PROV_ADJ4793:0 "^àz"
+ PROV_ADJ4794:0 "›st"
+ PROV_ADJ4795:0 "âl<S"
+ PROV_ADJ4796:0 "¯w¾Ì‘"
+ PROV_ADJ4797:0 "0tmV"
+ PROV_ADJ4798:0 "ætEN"
+ PROV_ADJ4799:0 "Qh“^)Rg"
+ PROV_ADJ4800:0 "ôT^XS"
+ PROV_ADJ4801:0 "ôTý)RÑ‘"
+ PROV_ADJ4802:0 "dW8u"
+ PROV_ADJ4803:0 "Øž)ReY"
+ PROV_ADJ4804:0 "äSKf"
+ PROV_ADJ4805:0 "lýœ"
+ PROV_ADJ4806:0 " R^"
+ PROV_ADJ4807:0 "SFZW2m"
+ PROV_ADJ4808:0 "Ï‚è•TrJ"
+ PROV_ADJ4809:0 "·Q	T"
+ PROV_ADJ4810:0 "ŸxÌ‘"
+ PROV_ADJ4811:0 "ôTœ¯e"
+ PROV_ADJ4812:0 "œR›R"
+ PROV_ADJ4813:0 "ßi”iS"
+ PROV_ADJ4814:0 "ëXüf9N"
+ PROV_ADJ4815:0 "°e RaW"
+ PROV_ADJ4816:0 "·Q³S"
+ PROV_ADJ4817:0 "ôTN"
+ PROV_ADJ4818:0 "àVN–WeˆW"
+ PROV_ADJ4819:0 "^R"
+ PROV_ADJ4820:0 "tQS"
+ PROV_ADJ4821:0 "BN‰R"
+ PROV_ADJ4822:0 "?–idWO•^"
+ PROV_ADJ4823:0 "	V±ƒ"
+ PROV_ADJ4824:0 "ÃW0W"
+ PROV_ADJ4825:0 "éƒ(„"
+ PROV_ADJ4826:0 "!^"
+ PROV_ADJ4827:0 "ÅxT"
+ PROV_ADJ4828:0 "ÏgZY"
+ PROV_ADJ4829:0 "gfe÷–"
+ PROV_ADJ4830:0 "WÇR"
+ PROV_ADJ4831:0 "üf7Œ"
+ PROV_ADJ4832:0 "W¡m"
+ PROV_ADJ4833:0 "µxîTvl"
+ PROV_ADJ4834:0 ".tefkÌ‘"
+ PROV_ADJ4835:0 "r^MN±fkÌ‘"
+ PROV_ADJ4836:0 "‰4"
+ PROV_ADJ4837:0 "mRZ"
+ PROV_ADJ4838:0 "Îž8"
+ PROV_ADJ4839:0 "`SôT^X"
+ PROV_ADJ4840:0 "^XlQ"
+ PROV_ADJ4841:0 "WSTY"
+ PROV_ADJ4842:0 "WS¦"
+ PROV_ADJ4843:0 "‰RWSqS	"
+ PROV_ADJ4844:0 "S³uNu–"
+ PROV_ADJ4845:0 "lšFz1g"
+ have_crown_colony_tt:0 "åb	g§Y‹s Q–kl†˜§!^SýV0"
+ have_private_enterprise_tt:0 "åb	g§Yyr¸‹lQøS–kl†˜§!^SýV0"
+ have_self_governing_colony_tt:0 "åb	g§Yê»l–kl†˜§!^SýV0"
+ TRIBAL_LEADER_fem:0 "èK„†˜–ˆ"
+ ming_crisis.11.t:0 "[ming_disaster_new_tag.GetName]R»yININw(W[ming_disaster_nationalist_province.GetName]ÑS¨RwINÿ"
+ ming_crisis.11.d:0 "N¡w[ming_disaster_new_tag.GetName]ÛS›QßzÆwbe(‘ubìN[Root.Monarch.GetTitle]„vINCgÿv^ðXðybìNNQ=f)YgckßuÿÖNìN(W[ming_disaster_nationalist_province.GetName]ÆQY†NN=ewQ	gZÁw„v›Q–v^òTlQVTbìN±R^ÛSqNÿ"
+ ming_crisis.11.a:0 "NýwQ¹rkŒ†NÿNšR‰úQÍ‘óbÿ"
+ ming_crisis.11.b:0 "mN¸‹N›N©‹ekïSåN‰RšbÖNìN&&"
+ lanfang_decision_formation_desc:0 "N›NNSºNÿwNÄuÇuASRPNŽNVÑSFZW2m„vÑ‘ÿwDn0bìN”^å‹AQ¸‹ÖNìNú^Ëzwê»l„v>y²ÿÙ7h1Sýw'Y'YÐcØšÖNìNtQžRžRN„vHe‡s0"
+ estate_church_karma_temples_ct:0 "ú^¾‹§YúR™^§!ú^Qr§Y+5N›R§!0\ngdÁk§YúR™^§!ú^Qr§Y-5N›R§!0"
+ sia_importation_of_firearms:0 "VÛkphV"
+ sia_importation_of_firearms_desc:0 "‹†6qçqÑSªgÔkkpóuªg	gNwôf:V„vkp›RÿFOƒRìN(WÙÌ‘ÍN6q=fUÁ‰„vFUÁTÿàVdkbìN”^å‹ÇÎN‰¹eºN-pNegçuíu·ƒÖSƒRìN0\nê?–jtN–6wöegåNegÿbìNòTÏuýwYø”.êñT„vkp®pÿvQ-NgW„T„v=fbìNðyKN:Någ†–„v'Y‹WMR›ÅˆkXR—Ü” RœQ®pÿ8^ãS„V:N4-5ñ‚øR0"

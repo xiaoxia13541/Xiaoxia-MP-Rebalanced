@@ -1,97 +1,97 @@
-l_english:
+﻿l_english:
  ASSIMILATED_CULTURE_HEADER:0 "$TITLE|Y$"
- ASSIMILATED_CULTURE_NO_BENEFIT:0 "同化该文化组无任何增益。"
- mughal_government_altaic_assimilated:0 "土库曼火枪手"
- mughal_government_altaic_assimilated_desc:0 "在征服中亚草原后，土库曼火枪手加入了我们的军队。让敌人在我们的枪声前颤抖吧！"
- mughal_government_baltic_assimilated:0 "波罗的海贸易"
- mughal_government_baltic_assimilated_desc:0 "来自波兰的粮食，来自俄罗斯的毛皮，载着这些贵重货物的船只在波罗的海来回游弋，海岸边便因此建立起了许多维护良好的富饶港口。"
- mughal_government_british_assimilated:0 "统治海洋"
- mughal_government_british_assimilated_desc:0 "如果说大不列颠有什么明显的特征的话，那便是其不可一世的海军。这只舰队及其战术远超别国。将其船只纳入海军后，我们将统治海洋！"
- mughal_government_burman_assimilated:0 "缅甸军师"
- mughal_government_burman_assimilated_desc:0 "缅甸贵族们被期许终生参研兵法。他们的专业知识将对我们大有益处。"
- mughal_government_byzantine_assimilated:0 "罗马的遗产"
- mughal_government_byzantine_assimilated_desc:0 "许多拥有不同程度合法性的国家都曾自称为罗马帝国。难道我们不能成为另一个靠征服人民来夺取罗马之名的国家么？"
- mughal_government_carpathian_assimilated:0 "喀尔巴阡黑军"
- mughal_government_carpathian_assimilated_desc:0 "喀尔巴阡的统治者长久以来依赖常备雇佣军来保卫他们的国家。现在那些佣兵仍在此处，可是不会有人再购买他们的服务了，因此我们可以迫使他们降价。"
- mughal_government_caucasian_assimilated:0 "马穆鲁克奴隶"
- mughal_government_caucasian_assimilated_desc:0 "高加索人长期以来都是马穆鲁克的奴隶战士的人力来源，而就是诸如此类的人建立了德里苏丹国。我们会继续招收奴隶战士并接纳他们。"
- mughal_government_gaelic_assimilated:0 "高地人的勇气"
- mughal_government_gaelic_assimilated_desc:0 "这些来自不列颠岛屿北部的人们以其对外敌的抵抗与对通常的震慑战术的抗性而闻名天下。现在在我们的统治下，可以雇用他们进我们的军队来使军队更有适应力。"
- mughal_government_central_indic_assimilated:0 "丛林战"
- mughal_government_central_indic_assimilated_desc:0 "浓密的丛林和险恶的天气构成了印度的中部地区。当地土著不仅找到了生存的方法，而且在那里茁壮成长。我们将把他们的知识运用到军队中，这样我们就可以在最艰苦的地区保持军队的补给。"
- mughal_government_east_asian_assimilated:0 "儒家官僚机构"
- mughal_government_east_asian_assimilated_desc:0 "千百年来儒家的政治理念指引着中国，形成有效率的统治，保障君主的正统。虽然它之前未能走上正道，儒家官僚体制的一些成分可以被我们自己的政府吸收。"
- mughal_government_kongo_group_assimilated:0 "刚果宗教融合"
- mughal_government_kongo_group_assimilated_desc:0 "多亏刚果人对宗教采取放任态度，当地的统治者家族相当乐意为莫卧儿帝国上交贡赋。"
- mughal_government_cushitic_assimilated:0 "祭司王约翰的王国"
- mughal_government_cushitic_assimilated_desc:0 "几个世纪以来，非洲之角一直是基督教的堡垒。祭司王约翰的故事赋予了王国在基督教世界眼中的合法性，与此同时其国王声称其血统来自于圣经中的所罗门王。我们可以利用这个遗产来推广我们的帝国并传播我们的信仰。"
- mughal_government_dravidian_assimilated:0 "南印度工业"
- mughal_government_dravidian_assimilated_desc:0 "南印度是纺织、香料和珍贵宝石的产业兴旺之家。这些产业的成功不仅仅是地理上的偶然，还是生产和贸易之间错综复杂的网络联系的结果。我们可以从这个体系中学到很多可以运用在我们国家的东西。"
- mughal_government_african_assimilated:0 "斯瓦希里的财富"
- mughal_government_african_assimilated_desc:0 "东班图人居住的非洲东海岸充满了财富。幸亏当地人已经建立了矿山，利用这些宝贵的资源将是一项简单的任务。"
- mughal_government_east_slavic_assimilated:0 "大规模征兵"
- mughal_government_east_slavic_assimilated_desc:0 "相对其他国家，东斯拉夫人能够招拢庞大的军队。他们通过大规模征兵和武装底层阶级来达到这个目的。虽然我们过去从未主动尝试过这种政策，但是也许这种方法还是有一些优点的。"
- mughal_government_eastern_aryan_assimilated:0 "东印度纺织业"
- mughal_government_eastern_aryan_assimilated_desc:0 "丝绸、棉花和布料激发了东印度地区的经济。他们对这些商品的依赖使这个地区成为新生产技术的创新中心，而我们将毫不犹豫地采用这些技术。"
- mughal_government_evenks_assimilated:0 "满洲骑兵战术"
- mughal_government_evenks_assimilated_desc:0 "著名的满洲铁骑，其强大之处在于他们优秀的战术。凌驾于敌人的机动性会为毁灭性的侧翼攻击提供机会。虽然我们自己的骑兵对这些方法并不陌生，但是学习满族人的专业知识将使得他们真正的无可抵挡。"
- mughal_government_french_assimilated:1 "法国宫廷文化"
- mughal_government_french_assimilated_desc:0 "法国贵族文化在全世界享有盛名。法国的外交官们和大使们确保他们国家的重要地位在国际上广为流传。他们应该为我们的国家服务。"
- mughal_government_germanic_assimilated:0 "德意志印刷机"
- mughal_government_germanic_assimilated_desc:0 "活字印刷的发明革命性地推动了全球社会的发展，而德意志正处于冲击的中心。掌握出版印刷可以帮助我们将我们的思想和理念传遍帝国的每一个角落。"
- mughal_government_great_lakes_group_assimilated:0 "大湖区散兵"
- mughal_government_great_lakes_group_assimilated_desc:0 "非洲大湖区的部落们长久以来训练着优秀的散兵。通过把他们合并入我们的大军，我们可以更有效率地掠夺敌人的财富。"
- mughal_government_hindusthani_assimilated:0 "永无止境的扩张"
- mughal_government_hindusthani_assimilated_desc:0 "正如德里苏丹国之前许多伟大的先辈一样，我们将开辟一个伟大的印度帝国。印度斯坦只是个开始！"
- mughal_government_iberian_assimilated:0 "伊比利亚殖民主义"
- mughal_government_iberian_assimilated_desc:0 "伊比利亚人民拥有着扩张的雄心，并将他们的视线放在了探索和征服未知世界上。作为我们国家不可分割的一部分，他们将会征服并定居在我们占领的地区。"
- mughal_government_iranian_assimilated:0 "西方学者"
- mughal_government_iranian_assimilated_desc:0 "擅长波斯语的学者以及商人是我们手下最得力的能臣。在吸纳了很多波斯的学识后，我们也可以在自己的国家培养一些这样的学者。"
- mughal_government_japanese_g_assimilated:0 "日本武士"
- mughal_government_japanese_g_assimilated_desc:0 "日本武士阶级因他们的绝对忠诚以及在战场上宁死不屈的精神而闻名四海。尽管他们的刀刃和我们的装备比相差甚远，我们的士兵仍然可以学习他们的武士精神。"
- mughal_government_korean_g_assimilated:0 "朝鲜文人"
- mughal_government_korean_g_assimilated_desc:0 "朝鲜的政治环境一直很大程度受多角度的学术观点影响。这就往往会形成一场充满文化素养的辩论，这是我们应该学习的。采用该制度可以推动国家创新发展。"
- mughal_government_latin_assimilated:0 "文艺复兴式君主"
- mughal_government_latin_assimilated_desc:0 "意大利崇尚革新的文化从没有衰退过，并逐渐形成一种易于接受新鲜事物和思想的新文化。我们的国家在兼并他们的同时，也必须从他们与时俱进的思想中学习。"
- mughal_government_lost_cultures_group_assimilated:0 "失落的知识"
- mughal_government_lost_cultures_group_assimilated_desc:0 "那些不可思议且大有来历的人已被我国征服。他们神奇的战略与战术给我们带来很多启发。"
- mughal_government_turko_semitic_assimilated:0 "黎凡特铁骑"
- mughal_government_turko_semitic_assimilated_desc:0 "阿拉伯世界素来以强壮的战马著称。让我们的士兵配备这些强健的马，可以让我们的骑兵令敌人更加闻风丧胆。"
- mughal_government_maghrebi_assimilated:0 "巴巴里海盗"
- mughal_government_maghrebi_assimilated_desc:0 "马格里布几乎囊括了北非的海岸。他们在劫掠来自意大利城邦的商船这一件事上有丰富的经验。我们应该征召他们加入我们的海军并组建一支私掠船。"
- mughal_government_malay_assimilated:0 "马来豪商"
- mughal_government_malay_assimilated_desc:0 "马来人有着悠久的贸易专业传统。任何希望成功的马来统治者都必须牢牢把握贸易政策和当地商人的相对强度。这种丰富的商业知识将对我们大有益处。"
- mughal_government_mande_assimilated:0 "伊斯兰的西部边境"
- mughal_government_mande_assimilated_desc:0 "我们已经将曼德人统一在我们的旗帜之下，我们的帝国已经从非洲一直延伸到亚洲。在我们的普世苏丹国之下，伊斯兰将会团结一致。"
- mughal_government_mon_khmer_assimilated:0 "东南亚寺庙建设"
- mughal_government_mon_khmer_assimilated_desc:0 "高棉和越南土地上的景观绝大多数都是巨大的寺庙。鉴于我们对建设伟大工程的兴趣，研究这些文化的建筑技术肯定可以收获很多东西。"
- mughal_government_pacific_assimilated:0 "太平洋水手"
- mughal_government_pacific_assimilated_desc:0 "太平洋上的人是天生的水手，可以在已知最大的海洋上航行很远的距离。我们应该运用他们作为我们海军的一个组成部分来保卫我们的海岸。"
- mughal_government_sahelian_assimilated:0 "沙漠游牧民"
- mughal_government_sahelian_assimilated_desc:0 "萨赫勒人是撒哈拉沙漠的游牧民，他们能够在常人无法行走的地形上远行。"
- mughal_government_scandinavian_assimilated:0 "北欧人的竞争与创新"
- mughal_government_scandinavian_assimilated_desc:0 "斯堪的纳维亚有悠久的战争传统，由于这个原因，北欧有大量经验丰富的军官，我们可以从中汲取宝贵的知识。"
- mughal_government_south_slavic_assimilated:0 "斯拉夫堡垒"
- mughal_government_south_slavic_assimilated_desc:0 "南斯拉夫人充当了欧洲其他国家抵御外来侵略者的堡垒。通过征服他们，我们证明了一切堡垒都是徒劳的，很快欧洲也会屈服于我们的统治。"
- mughal_government_southern_african_assimilated:0 "南非黄金"
- mughal_government_southern_african_assimilated_desc:0 "南非盛产黄金，因此当地人有着非常有效率的计算方法，以确保他们的通货膨胀不会急剧上升。"
- mughal_government_sudanese_assimilated:0 "苏丹人商队路线"
- mughal_government_sudanese_assimilated_desc:0 "苏丹人早已建立了覆盖他们土地上的危险地带的贸易路线。多亏了这点，他们的贸易把非洲的南部地区和埃及的财富结合了起来。"
- mughal_government_tartar_assimilated:0 "大草原骏马"
- mughal_government_tartar_assimilated_desc:0 "东欧大草原对马匹来说是一片优秀的放牧场地，鞑靼人很好地利用了它。他们在有效的放牧模式和繁育技术上的天赋有助于我们为骑兵们筹备大量的马匹。"
- mughal_government_tibetan_group_assimilated:0 "藏族苦行主义"
- mughal_government_tibetan_group_assimilated_desc:0 "西藏的僧侣把他们的生命奉献给在开放而又遥远的寺庙里苦行冥想。我们会效仿他们的奉献精神。"
- mughal_government_finno_ugric_assimilated:0 "芬兰骄傲"
- mughal_government_finno_ugric_assimilated_desc:0 "旧世界北方被冰雪覆盖的极地——一片被许多人称为不毛之地的地方——被芬兰-乌戈尔人称呼为自己的家园。"
- mughal_government_west_african_assimilated:0 "西非统治阶级"
- mughal_government_west_african_assimilated_desc:0 "随着我们的帝国一直延伸到西非部落，我们越来越依赖于遥远的当地统治者。然而，随着时间的推移，我们正在学习将这些本地领导层合并到我们自己之中，慢慢地侵蚀当地的统治并结束它们的自治。"
- mughal_government_west_slavic_assimilated:0 "斯拉夫将军"
- mughal_government_west_slavic_assimilated_desc:0 "西斯拉夫人几十年来为军队培养了许多擅长用非常规战术与新式武器的将军。继他们被我们征服之后，我们应该充分利用这一点。"
- mughal_government_western_aryan_assimilated:0 "古吉拉特商人"
- mughal_government_western_aryan_assimilated_desc:0 "位于古吉拉特的商人们驶遍印度洋的广阔海域寻找赚取利润的机会。他们把贸易提炼为一门精密的科学，当我们吸收他们的港口时，这将对我们大有用处。"
- mughal_government_southeastasian_group_assimilated:0 "泰族城市化"
- mughal_government_southeastasian_group_assimilated_desc:0 "在泰族人中普遍存在的「曼荼罗」政治模式将统治者和他的城市当作世界的中心。对首都重要性的强烈关注导致泰族人建立了能够支持数百万居民的大城市。因为我们自己也控制着几座大城市，泰族人对城市发展的精通将对我们大有益处。"
- mughal_government_thai_group_assimilated:0 "热带建筑"
- mughal_government_thai_group_assimilated_desc:0 "印度支那是一个严酷且典型热带的地区，但泰族人却设法在那里建造了宏伟的建筑。现在这些建筑天才为我们服务，让我们能够更有效地建造我们的建筑。"
- mughal_government_kamchatkan_g_assimilated:0 "西伯利亚猎人"
- mughal_government_kamchatkan_g_assimilated_desc:0 "堪察加人很健壮，知道如何在东西伯利亚的寒冷环境中生存。他们也是高效的猎人，可以击倒任何愚蠢到侵入他们领土的人。在他们的帮助下，没有入侵者会在我们的王国境内幸免。"
+ ASSIMILATED_CULTURE_NO_BENEFIT:0 "TSå‹‡eSÄuàeûNUOžXÊv0"
+ mughal_government_altaic_assimilated:0 "W“^üfkpªgKb"
+ mughal_government_altaic_assimilated_desc:0 "(WVg-NšNIƒŸSTÿW“^üfkpªgKb ReQ†NbìN„v›Q–0©‹LeºN(WbìN„vªgðXMR²˜–b'Tÿ"
+ mughal_government_baltic_assimilated:0 "âlW„vwm8f"
+ mughal_government_baltic_assimilated_desc:0 "egêâlpQ„v®|ß˜ÿegêÄOW¯e„vÛk®vÿ‹NwÙ›N5Í‘'ir„v9‚êS(WâlW„vwmegÞV8nVÿwm¸S¹¿OàVdkú^Ëzw†N¸‹Yôu²bo‚‹Y„vÌRv™=nãS0"
+ mughal_government_british_assimilated:0 "ßu»lwmm"
+ mughal_government_british_assimilated_desc:0 "‚Yœgô‹'YNR ˜	gÀNHNf>f„vyrV„vÝ‹ÿ±¿O=fvQNïSNN„vwm›Q0ÙêS0‚–ÊSvQb=gÜ…+RýV0SvQ9‚êS³ueQwm›QTÿbìNSßu»lwmmÿ"
+ mughal_government_burman_assimilated:0 "8u›Q^"
+ mughal_government_burman_assimilated_desc:0 "8u5ÏeìN«ˆg¸‹ÈuuÂSxuQÕl0ÖNìN„vNNåwÆ‹SùRbìN'Y	gÊvY0"
+ mughal_government_byzantine_assimilated:0 "Wlš„vWµN"
+ mughal_government_byzantine_assimilated_desc:0 "¸‹Yåb	gNTz¦^TÕl'`„výV¶Rýþfêðy:NWlš^ýV0¾–SbìNNýwb:NæSN*N`—VgºNleg:YÖSWlšKNT„výV¶RHNÿ"
+ mughal_government_carpathian_assimilated:0 "ŽUSôT!–Ñž›Q"
+ mughal_government_carpathian_assimilated_desc:0 "ŽUSôT!–„vßu»lw•ENåNegOV8^YÇ–cO›QegÝOkSÖNìN„výV¶R0°s(W±›NcOuQÍN(WdkYÿïS=fNO	gºNQ-pNÖNìN„vg¡R†NÿàVdkbìNïSåNëOÖNìNM–÷N0"
+ mughal_government_caucasian_assimilated:0 "lšFzœKQtY¶–"
+ mughal_government_caucasian_assimilated_desc:0 "Øš R0tºN•gåNegý=flšFzœKQ„vtY¶–bëX„vºN›Regnÿw1S=fø‹‚Ydk‰|„vºNú^Ëz†N·VÌ‘Ï‚9NýV0bìNOçuíuÛb6etY¶–bëXv^¥c³uÖNìN0"
+ mughal_government_gaelic_assimilated:0 "Øš0WºN„vÇRl"
+ mughal_government_gaelic_assimilated_desc:0 "Ù›NegêNR ˜›SSSè„vºNìNåNvQùRYLe„vµb—bNùR8^„v—Qab=g„v—b'`wû•T)YN0°s(W(WbìN„vßu»lNÿïSåNÇ–(uÖNìNÛbìN„v›Q–egO›Q–ôf	g”^›R0"
+ mughal_government_central_indic_assimilated:0 "N—gb"
+ mughal_government_central_indic_assimilated_desc:0 "SmÆR„vN—gŒTi–v`„v)Yl„gb†NpS¦^„v-Nè0W:S0SV0WWW„NÅNŒb0R†NuXR„v¹eÕlÿwN(W±Ì‘ƒîXb•0bìNSŠbÖNìN„våwÆ‹Ð(u0R›Q–-NÿÙ7hbìN1SïSåN(Wgp‚æ‚„v0W:SÝOc›Q–„veˆÙu0"
+ mughal_government_east_asian_assimilated:0 "Q¶R˜RÚP:g„g"
+ mughal_government_east_asian_assimilated_desc:0 "CSŒvt^egQ¶R„v?e»ltõVcVNw-NýVÿbVb	gHe‡s„vßu»lÿÝOœ–TIN„vckßu0‹†6qƒRKNMR*gýwpNckSÿQ¶R˜RÚPSO6R„vN›NbRïSåN«ˆbìNêñT„v?eœ^8T6e0"
+ mughal_government_kongo_group_assimilated:0 "Rœg—RYe‡T"
+ mughal_government_kongo_group_assimilated_desc:0 "YNRœgºNùR—RYeÇ‘ÖS>eûN`¦^ÿSV0W„vßu»lw¶RÏeøvSVPNa:N«ƒgS?Q^ýVN²N!K0"
+ mughal_government_cushitic_assimilated:0 "myøS‹s¦uð„v‹sýV"
+ mughal_government_cushitic_assimilated_desc:0 "àQ*NNªuåNegÿ^—2mKNÒ‰Nôv=fúWcwYe„v!X’W0myøS‹s¦uð„vEe‹NKˆN†N‹sýV(WúWcwYeNLu<w-N„vTÕl'`ÿNdkTöevQýV‹sðXðyvQNˆßuegêŽN1WÏu-N„vNbWè•‹s0bìNïSåN)R(uÙ*NWµNeg¨c^bìN„v^ýVv^.O­dbìN„váOðN0"
+ mughal_government_dravidian_assimilated:0 "WSpS¦^åTN"
+ mughal_government_dravidian_assimilated_desc:0 "WSpS¦^=fºuÇu0™™™eŒTÍs5Rów„vµNNtQúeKN¶R0Ù›NµNN„vbŸRNÅNÅN=f0WtN„vvP6qÿØ=fuµNŒT8fKNô••üuYBg„vQÜuTwû|„vÓuœg0bìNïSåNÎNÙ*NSOû|-NfR0RˆVYïSåNÐ(u(WbìNýV¶R„vN‰0"
+ mughal_government_african_assimilated:0 "¯eæt^Ì‘„v0ÌR"
+ mughal_government_african_assimilated_desc:0 "NísþVºNESOO„v^—2mNwm¸SEQán†N0ÌR0x^NSV0WºNòTÏuú^Ëz†NÿwqSÿ)R(uÙ›NR5„vDnS=fNy˜ŽrUS„vûN¡R0"
+ mughal_government_east_slavic_assimilated:0 "'YÄ‰!jVuQ"
+ mughal_government_east_slavic_assimilated_desc:0 "øvùRvQÖNýV¶RÿN¯eÉb+YºNýwYÛbâbž^'Y„v›Q–0ÖNìNÇ'YÄ‰!jVuQŒTfkÅˆ•^BS6–µueg¾0RÙ*Nîv„v0‹†6qbìNÇ»SÎN*gIN¨RSÕ‹ÇÙÍy?eVrÿFO=fmN¸‹ÙÍy¹eÕlØ=f	gN›NO¹p„v0"
+ mughal_government_eastern_aryan_assimilated:0 "NpS¦^ºuÇuN"
+ mughal_government_eastern_aryan_assimilated_desc:0 "Nøu0Éh±‚ŒT^™eÀoÑS†NNpS¦^0W:S„vÏuNm0ÖNìNùRÙ›NFUÁT„vOVOÙ*N0W:Sb:N°euµNŽb=g„vR°e-NÃVÿwbìNSëkN¹rkŒ0WÇ‘(uÙ›NŽb=g0"
+ mughal_government_evenks_assimilated:0 "án2m‘šuQb=g"
+ mughal_government_evenks_assimilated_desc:0 "W„T„ván2mÁ”‘šÿvQ:V'YKNY(WŽNÖNìNOÀy„vb=g0ÌQŒšŽNLeºN„v:g¨R'`O:NÁkmp'`„vµOüIeûQÐc›O:gO0‹†6qbìNêñT„v‘šuQùRÙ›N¹eÕlv^NL–uÿFO=ffR`NánÏeºN„vNNåwÆ‹SO—VÖNìNwck„vàeïSµb!c0"
+ mughal_government_french_assimilated:1 "ÕlýV«R÷^‡eS"
+ mughal_government_french_assimilated_desc:0 "ÕlýV5Ïe‡eS(WhQNLu«N	gÛvT0ÕlýV„vY²N˜RìNŒT'YOìNnxÝOÖNìNýV¶R„vÍ‘‰0WMO(WýVE–N^:NAm.O0ÖNìN”^å‹:NbìN„výV¶Rg¡R0"
+ mughal_government_germanic_assimilated:0 "·Va×VpS7R:g"
+ mughal_government_germanic_assimilated_desc:0 "ImWRpS7R„vÑSfi—‹T'`0W¨c¨R†NhQt>yO„vÑSUSÿw·Va×VckYŽN²QûQ„v-NÃV0ŒcácúQHrpS7RïSåN.^©RbìNSbìN„v`ó`ŒTtõV.OM^ýV„vÏkN*NÒ‰K„0"
+ mughal_government_great_lakes_group_assimilated:0 "'YVn:SceuQ"
+ mughal_government_great_lakes_group_assimilated_desc:0 "^—2m'YVn:S„vèK„ìN•ENåNeg­‹ÃuNwOÀy„vceuQ0ÇŠbÖNìNTv^eQbìN„v'Y›QÿbìNïSåNôf	gHe‡s0W c:YLeºN„v0ÌR0"
+ mughal_government_hindusthani_assimilated:0 "8làebkƒX„vib.V"
+ mughal_government_hindusthani_assimilated_desc:0 "ck‚Y·VÌ‘Ï‚9NýVKNMR¸‹YO'Y„vHQˆN7hÿbìNSVŸN*NO'Y„vpS¦^^ýV0pS¦^¯efWêS=f*NVËYÿ"
+ mughal_government_iberian_assimilated:0 "OÔk)RšN–klININ"
+ mughal_government_iberian_assimilated_desc:0 "OÔk)RšNºNlåb	gNwib.V„vÄ–ÃVÿv^SÖNìN„vÆ‰¿u>e(W†N¢c0tŒTVg*gåwNLuN0jO:NbìNýV¶RNïSRrR„vNèRÿÖNìNSOVgv^šRES(WbìN`S†˜„v0W:S0"
+ mughal_government_iranian_assimilated:0 "‰¹efRw"
+ mughal_government_iranian_assimilated_desc:0 "Åd•âl¯eí‹„vfRwåNÊSFUºN=fbìNKbNg—V›R„výwã0(W8T³u†NˆVYâl¯e„vfRÆ‹TÿbìNmNïSåN(WêñT„výV¶RùW‰QN›NÙ7h„vfRw0"
+ mughal_government_japanese_g_assimilated:0 "åe,gfkëX"
+ mughal_government_japanese_g_assimilated_desc:0 "åe,gfkëX6–µuàVÖNìN„vÝuùRàVÚ‹åNÊS(Wb:WNR‰kNHS„v¾|^ywû•TÛVwm0KS¡rÖNìN„vRRŒTbìN„vÅˆYÔkøvîTuÜÿbìN„vëXuQÍN6qïSåNfR`NÖNìN„vfkëX¾|^y0"
+ mughal_government_korean_g_assimilated:0 "gœœ‡eºN"
+ mughal_government_korean_g_assimilated_desc:0 "gœœ„v?e»l¯sƒXNôvˆV'Yz¦^×SYÒ‰¦^„vfR=gÂ‰¹pqVÍT0Ù1SŽVŽVObVbN:WEQán‡eS.t‰Q„v©º‹ÿÙ=fbìN”^å‹fR`N„v0Ç‘(uå‹6R¦^ïSåN¨c¨RýV¶RR°eÑSUS0"
+ mughal_government_latin_assimilated:0 "‡ez‚YtQVTIN"
+ mughal_government_latin_assimilated_desc:0 "a'Y)RTSi—°e„v‡eSÎN¡l	gpˆÇÿv^nbVbNÍyfŽN¥c×S°eœœ‹NirŒT`ó`„v°e‡eS0bìN„výV¶R(W|Qv^ÖNìN„vTöeÿmNÅV‰˜ÎNÖNìNNöeñOÛ„v`ó`-NfR`N0"
+ mughal_government_lost_cultures_group_assimilated:0 "1YK„„våwÆ‹"
+ mughal_government_lost_cultures_group_assimilated_desc:0 "±›NNïS`®‹N'Y	geg†S„vºNòT«ˆbýVVg0ÖNìN^yGY„vbeuNb=gÙubìN&^egˆVY=TÑS0"
+ mughal_government_turko_semitic_assimilated:0 "ÎžáQyrÁ”‘š"
+ mughal_government_turko_semitic_assimilated_desc:0 "?–Éb=ONLu.tegåN:VîX„vblšW„ðy0©‹bìN„vëXuQM‘YÙ›N:VeP„vlšÿïSåN©‹bìN„v‘šuQäNLeºNôf Rû•Î˜'NÆw0"
+ mughal_government_maghrebi_assimilated:0 "ôTôTÌ‘wm×v"
+ mughal_government_maghrebi_assimilated_desc:0 "lš<hÌ‘^àQNNÊVìb†NS^—„vwm¸S0ÖNìN(W«R cegêa'Y)RÎW¦„vFU9‚ÙNöN‹NN	g0NÌR„vÏuŒš0bìN”^å‹VìSÖNìN ReQbìN„vwm›Qv^Äuú^N=eÁy c9‚0"
+ mughal_government_malay_assimilated:0 "lšegjŒFU"
+ mughal_government_malay_assimilated_desc:0 "lšegºN	gNw `EN„v8fNN.Oßu0ûNUO^gbŸR„vlšegßu»lwýÅV‰˜brbrŠbác8f?eVrŒTSV0WFUºN„vøvùR:V¦^0ÙÍy0NÌR„vFUNåwÆ‹SùRbìN'Y	gÊvY0"
+ mughal_government_mande_assimilated:0 "O¯epQ„v‰è¹ƒX"
+ mughal_government_mande_assimilated_desc:0 "bìNòTÏuSüf·VºNßuN(WbìN„v×e^KNNÿbìN„v^ýVòTÏuÎN^—2mNôvö^8O0RšN2m0(WbìN„vnfNÏ‚9NýVKNNÿO¯epQSOâVÓuNô0"
+ mughal_government_mon_khmer_assimilated:0 "NWSšNúR™^ú^¾‹"
+ mughal_government_mon_khmer_assimilated_desc:0 "ØšÉhŒTŠWSW0WN„vofÂ‰Ýu'YYpeý=fèT'Y„vúR™^0t’ŽNbìNùRú^¾‹O'YåTz„vtQ±ÿxvzÙ›N‡eS„vú^QrŽb=g¯wšRïSåN6e·ƒˆVYN‰0"
+ mughal_government_pacific_assimilated:0 "*Ys^m4lKb"
+ mughal_government_pacific_assimilated_desc:0 "*Ys^mN„vºN=f)Yu„v4lKbÿïSåN(WòTåwg'Y„vwmmN*‚LˆˆVÜ„vÝ»y0bìN”^å‹Ð(uÖNìNjO:NbìNwm›Q„vN*NÄubèRegÝOkSbìN„vwm¸S0"
+ mughal_government_sahelian_assimilated:0 "™l.o8ngrl"
+ mughal_government_sahelian_assimilated_desc:0 "(„kÒRºN=f’dÈTÉb™l.o„v8ngrlÿÖNìNýwY(W8^ºNàeÕlLˆp„v0WbVNÜLˆ0"
+ mughal_government_scandinavian_assimilated:0 "S'kºN„vÞz‰NNR°e"
+ mughal_government_scandinavian_assimilated_desc:0 "¯e*X„v³uôušN	g `EN„vb‰N.Oßuÿ1uŽNÙ*NŸSàVÿS'k	g'YÏ‘ÏuŒš0NÌR„v›Q˜RÿbìNïSåNÎN-NrlÖSR5„våwÆ‹0"
+ mughal_government_south_slavic_assimilated:0 "¯eÉb+Y!X’W"
+ mughal_government_south_slavic_assimilated_desc:0 "WS¯eÉb+YºNEQSV†N'k2mvQÖNýV¶Rµb¡VYegµOeuw„v!X’W0ÇVgÖNìNÿbìNÁ‹f†NNR!X’Wý=f’V³R„vÿˆVëV'k2mmNOHSgŽNbìN„vßu»l0"
+ mughal_government_southern_african_assimilated:0 "WS^—ÄžÑ‘"
+ mughal_government_southern_african_assimilated_desc:0 "WS^—ÛvµNÄžÑ‘ÿàVdkSV0WºN	gNw^—8^	gHe‡s„v¡‹—r¹eÕlÿåNnxÝOÖNìN„v'¨ÀwNO%`gRNGS0"
+ mughal_government_sudanese_assimilated:0 "Ï‚9NºNFU–ï¿u"
+ mughal_government_sudanese_assimilated_desc:0 "Ï‚9NºNéeòTú^Ëz†N†‰ÖvÖNìNW0WN„vqSi–0W&^„v8fï¿u0YN†NÙ¹pÿÖNìN„v8fŠb^—2m„vWSè0W:SŒTÃWÊS„v0ÌRÓuT†Nweg0"
+ mughal_government_tartar_assimilated:0 "'YIƒŸSšlš"
+ mughal_government_tartar_assimilated_desc:0 "N'k'YIƒŸSùRlš9Segô‹=fNGrOÀy„v>egr:W0Wÿ‘—|—ºNˆV‹Y0W)R(u†NƒR0ÖNìN(W	gHe„v>egr!jVŒTAu²wŽb=gN„v)YK	g©RŽNbìN:N‘šuQìNyrY'YÏ‘„vlš9S0"
+ mughal_government_tibetan_group_assimilated:0 "Ï…Ïeæ‚LˆININ"
+ mughal_government_tibetan_group_assimilated_desc:0 "‰Ï…„vçP±OŠbÖNìN„vu‹TIY.sÙu(WV>ewÈSeÜ„vúR™^Ì‘æ‚Lˆ¥Qó`0bìNOHeÿNÖNìN„vIY.s¾|^y0"
+ mughal_government_finno_ugric_assimilated:0 "¬‚pQ„š²P"
+ mughal_government_finno_ugric_assimilated_desc:0 "çeNLuS¹e«ˆ°Qê–†‰Öv„vg0WNGr«ˆ¸‹YºNðy:NNÛkKN0W„v0W¹e«ˆ¬‚pQ-LNbSºNðy|T:NêñT„v¶RíV0"
+ mughal_government_west_african_assimilated:0 "‰^—ßu»l6–µu"
+ mughal_government_west_african_assimilated_desc:0 "–NwbìN„v^ýVNôvö^8O0R‰^—èK„ÿbìNŠegŠOVŽNeÜ„vSV0Wßu»lw06qwÿ–Nwöeô•„v¨cûyÿbìNck(WfR`NSÙ›N,g0W†˜üRBSTv^0RbìNêñTKN-Nÿbaba0WµOŽ†SV0W„vßu»lv^ÓumgƒRìN„vê»l0"
+ mughal_government_west_slavic_assimilated:0 "¯eÉb+YS›Q"
+ mughal_government_west_slavic_assimilated_desc:0 "‰¯eÉb+YºNàQASt^eg:N›Q–ùW‰Q†N¸‹YÅd•(u^—8^Ä‰b=gN°eVfkhV„vS›Q0çuÖNìN«ˆbìNVgKNTÿbìN”^å‹EQR)R(uÙN¹p0"
+ mughal_government_western_aryan_assimilated:0 "äS	TÉbyrFUºN"
+ mughal_government_western_aryan_assimilated_desc:0 "MOŽNäS	TÉbyr„vFUºNìNvšMpS¦^m„v^–wmßWûRŒbZÖS)R¦m„v:gO0ÖNìNŠb8fÐc¼p:NNè•¾|ÆR„vÑyfRÿSVbìN8T6eÖNìN„v=nãSöeÿÙSùRbìN'Y	g(uY0"
+ mughal_government_southeastasian_group_assimilated:0 "ðlÏeÎW^S"
+ mughal_government_southeastasian_group_assimilated_desc:0 "(WðlÏeºN-NnfMXR(W„v0üf|ƒW0?e»l!jVSßu»lwŒTÖN„vÎW^SVjONLu„v-NÃV0ùR–™ýÍ‘‰'`„v:VÈpsQèlüRôðlÏeºNú^Ëz†NýwY=ecpeŒvNESl„v'YÎW^0àV:NbìNêñTmNµc6RNwàQµ^'YÎW^ÿðlÏeºNùRÎW^ÑSUS„v¾|SùRbìN'Y	gÊvY0"
+ mughal_government_thai_group_assimilated:0 "íp&^ú^Qr"
+ mughal_government_thai_group_assimilated_desc:0 "pS¦^=e±=fN*N%Nw‘NxQ‹Wíp&^„v0W:SÿFOðlÏeºNtS¾‹Õl(W±Ì‘ú^.†NRO„vú^Qr0°s(WÙ›Nú^Qr)YMb:NbìNg¡Rÿ©‹bìNýwYôf	gHe0Wú^.bìN„vú^Qr0"
+ mughal_government_kamchatkan_g_assimilated:0 "‰=O)RšNsºN"
+ mughal_government_kamchatkan_g_assimilated_desc:0 "*XßR RºNˆVePîXÿåwS‚YUO(WN‰=O)RšN„vÒR·Q¯sƒX-NuXR0ÖNìNmN=fØšHe„vsºNÿïSåNûQPûNUOa0ˆ0RµOeQÖNìN†˜W„vºN0(WÖNìN„v.^©RNÿ¡l	geQµOwO(WbìN„v‹sýVƒX…Qx^MQ0"

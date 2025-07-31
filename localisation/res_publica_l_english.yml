@@ -1,581 +1,581 @@
-l_english:
- embraced_absolutism:0 "接受专制主义思想"
- rejected_absolutism:0 "拒绝专制主义思想"
- accepted_act_of_seclusion:0 "接受隔绝法案"
- ensured_stable_rule:0 "通过稳定统治确保联姻关系"
- uncertain_marriage_ties:0 "对于联姻关系的强度不确定"
- sermons_for_princes:0 "王室布道"
- desc_sermons_for_princes:0 "奥兰治家族出现在我们国家教会的布道、祈祷中，提升了公众对于他们的观感。"
- no_sermons_for_princes:0 "不进行王室布道"
- desc_no_sermons_for_princes:0 "我们尝试让我们国家的政治远离宗教。"
- angered_traders:0 "愤怒的商人"
- desc_angered_traders:0 "认为共和政体对于他们的事业有利的商人如今发现在专制统治下很难经商。"
- no_taxes_for_tyrants:0 "拒绝对暴君交税"
- desc_no_taxes_for_tyrants:0 "共和国的一些国民拒绝向一个他们认为太过暴虐与专制的统治者交税。"
- act_of_seclusion:0 "隔绝法案"
- desc_act_of_seclusion:0 "议会派已经和一个愿意削弱奥兰治家族的外国势力协商。"
- distrust_among_nobles:0 "贵族间的不信任"
- desc_distrust_among_nobles:0 "政府中一些反对奥兰治家族的人使得一些军队将领对于领导者不信任。"
- orangists_rally_against_rival:0 "奥兰治派团结贵族对抗敌国"
- desc_orangists_rally_against_rival:0 "奥兰治亲王在对抗我们仇敌的战争中接过领导权，以这一崇高的事业团结了贵族。"
- local_regenten_upset:0 "地方摄政大族失望"
- desc_local_regenten_upset:0 "君主派和议会派之间的利益冲突使地方代表相当失望。"
- local_nobles_upset:0 "地方贵族失望"
- desc_local_nobles_upset:0 "君主派和议会派之间的当地冲突使贵族失望。"
- dutch_republic.1.t:0 "绝对的权力"
- dutch_republic.1.d:0 "与周围其他受统治者压迫的人民相比，我们为我们独一无二的[Root.GovernmentName]而自豪。但是近日越来越多的贵族指出，专制主义不仅是当今世界的潮流，还在我们的邻国之间颇受欢迎。在该制度下，统治者拥有着近乎无限权力。\n\n贵族们宣称[Root.Monarch.GetName]拥有成为一个伟大的统治者的一切特性。赋予[Root.Monarch.GetTitle]更多权力可以使我们的国家富强并向其他统治者表示我们赞成他们的思想。"
- dutch_republic.1.a:0 "[Root.Monarch.GetTitle]即为国家！"
- dutch_republic.1.b:0 "我们从外国的暴君那里什么都学不到！"
- dutch_republic.2.a:1 "虽然很遗憾，但是我们必须开除$STATESMAN$$DIPLOMAT$$TRADER$$COLONIAL_GOVERNOR$。"
- dutch_republic.2.b:0 "抨击时政对我们共和国而言极为重要。"
- dutch_republic.3.t:0 "王室布道"
- dutch_republic.3.a:0 "我们必须确保虔诚者分明敌友。"
- dutch_republic.3.b:0 "让我们通过降低宣传力度来缓和局势。"
- dutch_republic.4.d:0 "有了像[Root.Monarch.GetName]这样的[Root.Monarch.GetTitle]，大多数贵族认为没有选举的必要，这只会削弱动摇[Root.GetAdjective]。许多贸易商人不同意这种说法。他们认为，共和国的体制，包括自由选举，对于确保[Root.GetName]维持经济优势是至关重要的。\n\n在一个有着扩张野心的独裁[Root.Monarch.GetTitle]治下，他们过去所享有的自由贸易和自由权利可能会受到威胁。如果现任[Root.Monarch.GetTitle]要终身统治，他们会要求[Root.Monarch.GetSheHe]为了这些原则而做出让步。"
- dutch_republic.4.b:0 "我们可以在他们的某些观点上让步并做出相应改革。"
- dutch_republic.5.a:0 "人民总该有权知道是谁领导他们走向自由吧？"
- dutch_republic.5.b:0 "有了这种支持，他们能保持谦逊。"
- dutch_republic.6.t:0 "贵族指望其它家族"
- dutch_republic.6.a:0 "他们敢质疑我们，让他们滚蛋。"
- dutch_republic.6.b:0 "我们会尽力满足他们。"
- dutch_republic.7.t:0 "真正的自由"
- dutch_republic.7.a:0 "或许，有那么一天……"
- dutch_republic.8.t:0 "不给暴君缴税"
- dutch_republic.8.a:0 "燕雀安知鸿鹄之志？"
- dutch_republic.9.t:0 "此即为暴君恶果"
- dutch_republic.9.a:0 "为了共和，我们必须行动起来。"
- dutch_republic.9.b:0 "$SPYMASTER$，我相信你犯了叛国罪。"
- dutch_republic.9.b.tt:0 "你知道那些叛国者的下场吗？"
- dutch_republic.10.t:0 "背弃共和"
- dutch_republic.10.a:0 "我们会用我们的思想代替它们。"
- dutch_republic.11.t:0 "提议出台隔绝法案"
- dutch_republic.11.d:0 "我们与尼德兰共和国达成了和平……暂时性的。条约的最终条款在战争结束时基本达成一致，但仍然留有谈判的余地。我们得知其当今的统治者对于削弱奥兰治派，一个在共和国中追寻权力的贵族家庭的地位很有兴趣。\n\n如果我们提议对方出台法案让下任奥兰治亲王远离政权，这既可以提升我们与其现政府的关系，也可以防止出现一个向我国再度用兵的国王。"
- dutch_republic.11.a:0 "这将是重新开始的好办法。"
- dutch_republic.11.a.tt:0 "向[This.GetName]提出协议。"
- dutch_republic.11.b:0 "我们没有理由支持他们的现政府。"
- dutch_republic.12.t:0 "隔绝法案"
- dutch_republic.12.d:0 "与[From.GetName]的战争结束了，我们认为一切都解决了。谈判在一些细枝末节上争论不休，但在这周，一切都改变了，[From.GetAdjective]代表提议一个新的条款。令我们惊讶的是，这是一个对共和国有利的条款。\n\n为了削弱奥兰治家族的政治地位，他们想让我们通过一项让未来的奥兰治亲王远离[Root.Monarch.GetTitle]政权的法令。他们的动机虽然不明，但即使这样一项法令不会永远生效，它也能够加强议会派统治……如果谨慎处理的话。"
- dutch_republic.12.a:0 "我们知道如何处理。"
- dutch_republic.12.b:0 "接受敌人如此的要求是难以置信的！"
- dutch_republic.13.t:0 "牢不可破的纽带"
- dutch_republic.13.a:0 "他们将被时代所抛弃，但我们不会。"
- dutch_republic.13.b:0 "出让一些权力来确保牢靠的关系。"
- dutch_republic.14.a:0 "把这个将军送到一个他回不来的地方。"
- dutch_republic.14.b:0 "让这个年轻人来到我们身边，并观察会发生什么。"
- dutch_republic.15.b:0 "我们会付出代价并且做出必须的让步。"
- dutch_republic.16.d:0 "最近议会派的统治的增强预示着了共和时代即将来临。经贸的成长、称职的统治，[Root.GetName]一系列的成功都只可能发生在我国这样的行省邦联中。\n\n通过摒弃了部分先王所坚持的独裁控制，我们做到了他们无法做到的事情。而现在是时候为自由卸下更多枷锁，以彰显我们对此种理念的信心了。"
- dutch_republic.16.a:0 "这是[Root.GetName]伟大的明证！"
- dutch_republic.16.b:0 "共和主义值得我们为之奉献。"
- dutch_republic.17.t:0 "无王国度"
- dutch_republic.17.a:0 "暴君的看法无所谓。"
- dutch_republic.17.b:0 "我们会证明我们的[Root.Monarch.GetTitle]和任何君主一样强大。"
- dutch_republic.19.t:0 "将军质疑当局"
- dutch_republic.19.a:0 "他们会明白这道理并察觉我们已经察觉到了他们。"
- dutch_republic.20.t:0 "政变"
- dutch_republic.20.a:0 "为了奥兰治家族！"
- dutch_republic.20.b:0 "为了共和！"
- dutch_republic.21.t:0 "意见分歧"
- dutch_republic.21.d:0 "在联省议会的几个议案上，需要妥协来使[Root.GovernmentName]有效率地运行。当代表无法达成一致时，我们的国家无法统治。我们确保[Root.GetName]不能被铁腕独裁统治的努力成功了。然而，这也意味着共识必须经过政治操纵而非权威。有时，根本达不成共识。"
- dutch_republic.22.t:0 "将军要求权力"
- dutch_republic.22.d:0 "长久以来，战争经常是多数人服从少数人的时刻。意识到这点，我们不愿对军人在权力上做出过多的让步。即使我们的国家在战争状态。\n\n一个对于我们到目前为止地成功至关重要的将领——至少在他自己看来是这样，现正与[Root.GovernmentName]代表在未来的行动方向上发生了冲突。他的军事指挥能力毋庸置疑，但倾向于武力的议会派赞同他的意见会削弱他们在[Root.GetName]的政治地位。"
- dutch_republic.22.a:0 "联省议会应当遵从他的意见以确保胜利。"
- dutch_republic.22.b:0 "我们要在恐怖面前坚持我们的理想！"
- dutch_republic.23.t:0 "奥兰治派团结贵族加入战争"
- dutch_republic.23.a:0 "奥兰治曾经领导我们国家走向胜利。"
- dutch_republic.23.b:0 "我们不能因此放弃共和事业。"
- dutch_republic.24.t:0 "议会派希望维持现状"
- dutch_republic.24.a:0 "一切必须回到过去的样子。"
- dutch_republic.24.b:0 "他们为国而战，让他们保留他们的权力。"
- dutch_republic.25.d:0 "战争对[Root.GetName]造成损失。人们奋勇作战，尽管有些人会为我们国家从这次战争中获得的伤痕感到自豪，但更多的人意识到了战争的残酷。议会派发现从那些有这种想法的人当中获得支持的机会，声称真正的共和国无需战争也不愿战争。这会减轻人们对于未来的忧虑，而未来或将属于议会派。"
- dutch_republic.25.b:0 "奥兰治亲王在未来会引导我们走向胜利。"
- dutch_republic.26.d:0 "[Root.GetName]是商人和国际贸易的关键，这从人们开始记事时便是如此。但通向这样成功的关键一直是争论的焦点。最近，一位来自该地区的经济学家在他的著作《[Root.GetName]的利益及其繁荣的动机》中表示共和政体是省份繁荣的原因之一，暗示在合适的政治环境下，这种好运会遍布[Root.Owner.GetName]。"
- dutch_republic.26.a:0 "明智的建议。"
- dutch_republic.26.b:0 "他们的利益对于其他[Root.Owner.GetAdjective]人是不必要的。"
- dutch_republic.27.t:0 "关注边界"
- dutch_republic.27.a:0 "在他们的支持下，我们的未来将会是永久的和平。"
- dutch_republic.27.b:0 "不必理会这些懦夫的看法！"
- dutch_republic.28.t:0 "[Root.GetName]的野望"
- dutch_republic.28.a:0 "他们会有恐惧我们的理由。"
- dutch_republic.28.b:0 "我们的国家如果以其他方式统治，其他人统治，一样会这么强大。"
- dutch_republic.29.t:0 "[Root.GetName]的计划"
- dutch_republic.29.a:0 "亲王的确支持。"
- dutch_republic.29.b:0 "战争是联省议会的事情，而非地方贵族。"
- dutch_republic.30.t:0 "[Root.GetCapitalName]的辩论"
- dutch_republic.30.a:0 "派遣一个支持奥兰治派的人去争论。"
- dutch_republic.30.b:0 "派遣一个支持议会派的人去争论。"
- strong_guild:0 "强有力的行会"
- desc_strong_guild:0 "控制着这个省的基本交易货物产值的行会的力量在最近的一次冲突中被加强了。"
- free_trade_of_goods:0 "货物自由贸易"
- desc_free_trade_of_goods:0 "在整个国家，这个省份的基本货物贸易不受行会限制。"
- allowed_imports:0 "允许进口"
- influential_guild_members:0 "有影响力的行会成员"
- desc_influential_guild_members:0 "当地行会领袖已经强大到可以取代贵族。"
- influential_nobles:0 "有影响力的贵族"
- desc_influential_nobles:0 "当地贵族用遗留的和传统的美德来保持他们的影响力。"
- foreign_guild_infiltrated:0 "外国行会的渗透"
- desc_foreign_guild_infiltrated:0 "我们行会的成员已经成功地融入到国外的同行之中。"
- guilds_compromised:0 "行会妥协"
- desc_guilds_compromised:0 "行会之间的国际合作已经危害到了国家机密。"
- suspended_diplomat:0 "被废除的外交官"
- desc_suspended_diplomat:0 "对国家的忠诚有待审查的外交家是禁止为国家服务的。"
- paranoid_recruitment:0 "偏执的征募"
- desc_paranoid_recruitment:0 "忠诚的贵族们从政府的行政部门的新成员中寻找潜在的同谋者。"
- trade_with_neighbor:0 "与邻国贸易"
- desc_trade_with_neighbor:0 "我们已经允许了和一个邻国的交易。"
- enemy_allowed_trade:0 "敌人允许贸易"
- guilds_cooperating:0 "行会合作"
- desc_guilds_cooperating:0 "在政治事务中团结起来，各个行会学会了高效合作。"
- traders_look_abroad:0 "商人将目光投向海外"
- desc_traders_look_abroad:0 "在共和国中巩固了力量后，商人们把目光投向了世界的其他地方。"
- aristocracy_united:0 "贵族团结"
- desc_aristocracy_united:0 "国中的贵族们一起合作至少来暂时地保住他们的政治权力。"
- goods_crossing_borders:0 "货物跨越国境"
- guilds_obstruct_trade:0 "行会阻碍贸易"
- desc_guilds_obstruct_trade:0 "由于政治上的分歧，行会禁止当地商品的交易。"
- uncooperative_trader:0 "不合作的商人"
- desc_uncooperative_trader:0 "由于政治分歧，商人拒绝为共和国效力。"
- attempted_assassination_of_heir:0 "继承人的暗杀企图"
- republic_factions.1.t:0 "行会限制[Root.GetTradeGoodsName]贸易"
- republic_factions.1.d:0 "[Root.Owner.GetName]的[Root.GetTradeGoodsName]贸易在[Root.GetName]引发了冲突。那些想要自由买卖这些商品的商人们认为把控其生产制造的行会如今势力过于强大。在他们看来，没什么比一家同业联盟协会更有害于经济了。\n\n然而行会领袖却声称他们的组织让[Root.GetTradeGoodsName]的生产变得更加高效。无论我们支持哪一方，反对我们政策的一方都会从中受害，甚至会破坏他们自己的贸易活动以此表明立场。"
- republic_factions.1.a:0 "我们要制定法律削弱和限制这家垄断集团。"
- republic_factions.1.b:0 "一个强有力的同业协会对于保障商品质量是很有必要的。"
- republic_factions.2.t:0 "行会推动重商主义改革"
- republic_factions.2.d:0 "近年来重商主义经济学理论在有影响力的行会成员中变得很受欢迎。显然，他们在这方面学识渊博……同样，很凑巧的是，他们也更容易从他们所支持的这些政策中获益。\n\n其他人却不太可能同样得益。跨国经营的强大商人们声称这些理论将走向死胡同，他们不惜一切代价也要阻止共和国采纳这些理论。借助行会的支持，它们很有可能会实现；当然，带来政治动荡是无可避免的。"
- republic_factions.2.a:0 "我们可无力去探索死胡同。"
- republic_factions.2.b:0 "重商主义才是未来，无论那些贸易者们是否意识到了这一点。"
- republic_factions.3.t:0 "商人呼吁增加进口"
- republic_factions.3.d:0 "一个强大的行会使得[Root.Owner.GetName]地区的[Root.GetTradeGoodsName]价格飞涨。如今，商人们发现，海外进口货物比起从本地采购更加便宜，他们宣称[Root.Owner.GetAdjective]现行的进口法规阻挠了商业发展。\n\n降低关税将为我们的商人提供良好的机会，使他们可以与[Root.GetTradeGoodsName]主产地签署有利可图的协议；但是强烈反对这一政策的行会，同样会不遗余力地谋求实现其主张。"
- republic_factions.3.a:0 "我们首要的关注点就是高效率的贸易。"
- republic_factions.3.b:0 "我们不能出台任何可能有损行会利益的优惠政策。"
- republic_factions.4.t:0 "行会领袖谋求贵族身份"
- republic_factions.4.d:0 "在[Root.GetName]，行会的存在孕育了一股新的势力，和一位新的头面人物。[Root.GetCapitalName]行会的领军人物不仅变得比这个省份的其他贵族更加富裕，他们还大权在握；不过他们并不具备长期以来决定城市统治者的血缘纽带。\n\n或许这种转变是必然的，特别是考虑到我们共和国的性质。尽管如此，在现阶段，唯一可以肯定的就是[Root.GetName]的原有贵族们十分讨厌这些没礼貌的土豪新贵，并且希望将他们驱离本地的权力核心。"
- republic_factions.4.a:0 "钱就是钱，无论新旧。"
- republic_factions.4.b:0 "如果那些贵族们帮我一些小忙，我们可以把那些暴发户排除在外。"
- republic_factions.5.t:0 "政府中的秘密社团"
- republic_factions.5.d:0 "行会的活动范围只有成员自己知道。由于行会的存在意义部分是为了管理知识，这件事就是无可避免的，但也会引发一些关于从事阴谋的指控。你通常很少注意到这些想法，认为它们不过是偏执的妄想——\n\n「[Root.Monarch.GetTitle]，我们的共和国正处于危险之中！但我们不能在这儿说。」\n一位贵族将你拽到一旁，用耳语似的声音长篇大论，告诉你在[Root.GetName]的政府中谁是或者谁不是秘密行会的一员。他还点名了其他同样关心这个问题的贵族们……这些贵族人数实在是太多了，以至于他自己这一方其实比他所指责的那一方看起来更像是搞阴谋的。话虽这么说，但毫无疑问的是，[Root.GetName]的贵族们感觉受到了那些被行会所引入而可能存在的秘密团体的威胁。"
- republic_factions.5.a:0 "谁在乎？没准这些阴谋能让政客们达成一次统一意见呐。"
- republic_factions.5.a.tt:0 "暂且别管这些可能存在的秘密行会吧。"
- republic_factions.5.b:0 "好啦，让我们那些知根知底的忠臣们来调查此事。"
- republic_factions.6.t:0 "行会高于国家"
- republic_factions.6.d:0 "当贵族们警告我们秘密社团正在逐渐渗入[Root.GetAdjective]政治时，我们没有听。他们预测说当这些阴谋集团发难的时候，我们可能会付出生命的代价。\n\n这种戏剧性的场面并没有发生，但我们的一位亲密的顾问最近做出了一些很可疑的举动，并最终承认这些举动是他作为一个秘密社团的成员所做出的贡献。其他政客对此表示强烈不满，看来一场政治丑闻是不可避免的了。"
- republic_factions.6.a:0 "他对[Root.GetName]的不忠会受到惩罚。"
- republic_factions.6.b:0 "试着缓和局势。"
- republic_factions.7.t:0 "国际行会的来往"
- republic_factions.7.d:0 "某个和国内一个行会过从甚密的外交官被其他资深外交官指责参与一个跨境行会的交易。他承认他在国外时参与了一些行会贸易，但是他否认这对他的政治任务产生了任何影响。然而，他反而声称自己乐于在国外利用他的人脉为国家谋求利益。\n\n那些贵族外交官的卫道士们认为这一行为十分可疑，但是支持这些行会间的联系可以在秘密行动时为我们带来便利。"
- republic_factions.7.a:0 "我们会看看谁的行会成员对他们的国家最忠诚。"
- republic_factions.7.b:0 "暂停他的工作直到我们把事情搞清楚。"
- republic_factions.8.t:0 "[Root.GetName]的贵族遗产"
- republic_factions.8.d:0 "我们的共和国抛弃了许多陈旧的贵族和封建理念，但有时，当他们对我们有用时，我们会依不同情况考虑恢复他们。这种情况在[Root.GetName]发生了，一位本国贵族声称一块接邻我国国境的领土实际上是他们家族的合法领地。\n\n当地的商人因为刚刚和邻国谈妥了一单大贸易，反对这一领土宣称。他们指出，对于一个共和国，贸易应该是第一位的——贵族的领土宣称只能带来战争和痛苦。"
- republic_factions.8.a:0 "可能是会带来战争，但谁说会带来痛苦？"
- republic_factions.8.b:0 "他们是对的。我们应该把这些次要的小事留在身后。"
- republic_factions.9.t:0 "候选人激烈竞争"
- republic_factions.9.d:0 "作为一个共和国，我们努力在经济利益和传统之间取得平衡。我们根据这一原则选择顾问。了解这一点的家族，不论是达官显贵还是贵族名流，纷纷早做打算，试图将他们的人送上这些职位，并在将来寻求对[Root.Monarch.GetName]直接提出建议的机会。\n\n一个这样的显要职位最近出缺，现在不同的派系都在向我们施压以争取这个位置。不可能让所有人都满意，而这个职位也必须尽快安排一个人选。"
- republic_factions.9.a:0 "在军事上有经验的人对我们会很有用。"
- republic_factions.9.b:0 "在[Root.GetName]商业优先。"
- republic_factions.10.t:0 "宿敌间的贸易"
- republic_factions.10.d:0 "我们对所有人开放贸易……只要我们能够控制住。那些贸易是否能由我们控制有待商榷，而就和我们共和国内所有有待商榷的问题一样，这个问题在商业利益面前变得不再重要。商人们已开始在友好的条款下，和我们的一个宿敌进行贸易，并声称尽管政治上存在分歧，但这些贸易是必要的。贵族们认为这里面有问题，并呼吁立刻终止这些贸易。"
- republic_factions.10.a:0 "我们能承受和这些蠢猪切断联系的代价。"
- republic_factions.10.b:0 "我们无法承受和这些蠢猪切断联系的代价。"
- republic_factions.10.b.tt:0 "[This.GetName]会在某一个我们有生意的贸易节点获得一些贸易竞争力。"
- republic_factions.11.t:0 "[From.GetName]开放贸易"
- republic_factions.11.d:0 "尽管[From.GetAdjective]公开敌视我们、反对我们的一切立场，但他们仍允许他们的商人和我们做生意。这给了我们一个在他们通常拒绝我们商人的地方获得一些贸易竞争力的机会。"
- republic_factions.11.a:0 "他们应该更多地像这样信任我们。"
- republic_factions.12.t:0 "来自$ARTIST$的提议"
- republic_factions.12.d:0 "[Root.GetName]的行会在政治场上运用计谋击败了他们的竞争者，控制了[Root.GetAdjective]政府，但他们的权力并非完全稳固。\n\n$ARTIST$，以他在技术和艺术上的无双造诣被共和国所珍视，为你带来了解决问题的办法。\n「[Root.Monarch.GetTitle]阁下，」$ARTIST$说道，「现在进行政权更替可以使行会所做的所有努力都化为泡影。我们知道您是一位明智的[Root.Monarch.GetWomanMan]，但如果您需要一点外快，行会并不缺少用于政治捐款的资金……」"
- republic_factions.12.a:0 "你认为我看到贿赂时会认不出来么？"
- republic_factions.12.b:0 "一笔用来支持公共项目的捐款看上去也不算犯罪。"
- republic_factions.13.t:0 "来自$TRADER$的提议"
- republic_factions.13.d:0 "「我们正在走下坡路，[Root.Monarch.GetTitle]阁下，」$TRADER$在一次政治辩论后的私下交谈中说。「我们的共和国靠的就是贸易。这是我们统治权的核心。如果我们把其他人的利益放在商人利益之上，那我们不久就会发现统治我们的不是一个[Root.Monarch.GetTitle]，而是一个忘记了是什么让我们走向伟大的昏聩之人。」\n\n你十分清楚接下来他该提到什么了。自然就该说道让商人继续掌权将为[Root.GetName]赚取多少的财富……还有这样到底能给你个人赚来多少好处。"
- republic_factions.13.a:0 "这个共和国最不需要的就是腐败。"
- republic_factions.13.b:0 "你说的是对的。[Root.GetName]需要钱。"
- republic_factions.14.t:0 "来自$COMMANDANT$的提议"
- republic_factions.14.d:0 "在许多国家，贵族们享受着比这里大得多的权力。然而在[Root.GetName]，钱比阶级更能说话。$COMMANDANT$，既没钱，也不是贵族，对此心知肚明。\n\n「说到底，」他说，「[Root.GetName]要想更加繁荣，她就需要一个强大的统治者。[Root.Monarch.GetTitle]阁下，如果您想重振我国往日的辉煌，军队就正站在您这边。很多贵族都愿意出一大笔钱来支持这项事业。」"
- republic_factions.14.a:0 "共和国不能被收买！"
- republic_factions.14.b:0 "你的忠诚值得赞赏。"
- republic_factions.15.t:0 "核心集团"
- republic_factions.15.d:0 "作为[Root.Monarch.GetTitle]，你一直试图对行会保持一个相对中立的态度，尤其是当他们在[Root.GetName]失势之后。你不是任何行会的会员，当前的政治形势也不允许你成为会员。然而这个情况可能会发生改变。共和国最有实力的行会向你提出了入会邀请，他们甚至承诺会在必要时对此保密。这是一个大胆的建议，然而如果拒绝会把你放在和这个行会对立的位置。"
- republic_factions.15.a:0 "我不能对除了共和国之外的任何事物宣誓忠诚。"
- republic_factions.15.b:0 "如果他们能保守秘密，我也可以。"
- republic_factions.16.t:0 "一次有益的交流"
- republic_factions.16.d:1 "在[Root.GetName]，商业和政治在很久以前就不可避免地纠缠在一起。有时候，我们可能遇到一桩对多方有利，但不是对共和国本身有利的交易。当[From.Monarch.GetTitle]本人身为这其中的一方时，情况变得更加捉摸不定。\n\n一项良好的商业协定能和一些重要的商人建立更紧密的关系，这显然是我们可以利用的。只要我们愿意牺牲一些作为共和国代表的廉正作风，我们就可以避免和这些伙伴的疏远。"
- republic_factions.16.a:0 "良好作风对长远有利。"
- republic_factions.16.b:0 "我们不能为了[Root.GetName]牺牲自己的利益。"
- republic_factions.17.t:0 "血浓于水"
- republic_factions.17.d:0 "对于[Root.GetName]的许多得势的人来说，人脉和财富决定了地位，但贵族依然看重血统。尽管贵族当前远不是我们共和国最大的势力，他们依然用同样的方法来确保忠诚。\n\n一个知名的家族最近试图提出迎娶你的女儿显然就是这样的一次尝试。你知道这将迫使你在政治上倾向他们并削弱共和国，但如果拒绝则会使让他们支持你计划中的军事改革更加困难。"
- republic_factions.17.a:0 "尽可能礼貌地拒绝。"
- republic_factions.17.b:0 "我们需要和这个家族保持联系。"
- republic_factions.18.t:0 "行会互相合作"
- republic_factions.18.d:0 "由于行会不仅在商业也在政治上成为[Root.GetAdjective]最大的势力，他们开始加强互相的合作。原本互相视为敌人的组织现在紧密地合作来维持对国家的统治。而作为一个幸运的副作用，他们对[Root.GetAdjective]产品质量和贸易的控制变得更广泛和有效了。"
- republic_factions.18.a:0 "要是他们在不得势的时候也这么讲道理就好了……"
- republic_factions.19.t:0 "商人展望国外"
- republic_factions.19.d:0 "在取得了对[Root.GetAdjective]共和国的控制之后，我们的商人开始试图控制全球贸易。他们对[Root.GetName]政治事务的控制使他们不再担忧国内事务，鼓励他们去冒更大的风险，这样的险当他们有政治隐忧的时候是决不会去冒的。最终，这不仅将使他们受益，共和国也将受益。"
- republic_factions.19.a:0 "让他们把全世界的财富带给我们。"
- republic_factions.20.t:0 "贵族抛弃前嫌"
- republic_factions.20.d:0 "由于[Root.GetName]开始为贵族服务，贵族也开始为[Root.GetName]服务。这些贵族曾经担忧他们被视为旧体制的遗留，现在则意识到只要他们合作就可以保持统治。虽然这将使他们和[Root.GetAdjective]其他政治势力对立，但却成功地压制了推翻共和国的野心并使他们的工作更加有效。"
- republic_factions.20.a:0 "我们伟大的共和国能使旧贵族也团结起来！"
- republic_factions.21.t:0 "行会阻碍贸易"
- republic_factions.21.d:0 "行会领袖可以是无情的政客，并从不对反对他的人留情。由于行会已经有一段时间没有控制[Root.Owner.GetName]的政府，他们中的一些人开始使用胁迫的手段来展示自己的力量。行会知道共和国依赖贸易，所以控制着[Root.GetTradeGoodsName]的行会开始阻止货物自由贸易。他们知道这将损害国家的经济，也将损害他们政治对手的利益。"
- republic_factions.21.a:0 "他们认为他们能这样获得[Root.Owner.Monarch.GetTitle]的青睐？"
- republic_factions.22.t:0 "商人拒绝为共和国服务"
- republic_factions.22.d:0 "尽管[Root.GetName]对贸易拥有毫无疑义的热情，她的许多有实力的商人开始宣称[Root.Monarch.GetTitle]拒绝听他们的建议并把其他利益置于将国家带向富裕之前。一个我们在国际贸易中依赖的商人威胁停止和共和国合作。尽管我们最终还是会取得一些共识，但这依然会在一切结束前损害我们的合作。"
- republic_factions.22.a:0 "他计划通过这个来实现什么？"
- republic_factions.23.t:0 "贵族拒绝共和"
- republic_factions.23.d:0 "在许多方面，我们的共和国非常有效地消除了贵族统治者的权力，而通常他们认为这些权力是理所应当拥有的。他们接受他们不能像在许多其他国家里一样，声称这是他们的权利。然而，有时这些贵族荣耀云云的旧观念也会被重新唤醒，正如[Root.GetName]的贵族感到他们除了用剑以外，无法以任何相关的方式影响政治。于是，他们拿起了剑，公开反叛共和国。"
- republic_factions.23.a:0 "如果他们需要权力，让他们用笔来战斗！"
- republic_factions.24.t:0 "家庭法案"
- republic_factions.24.d:0 "[Root.GetName]的贵族正在推进一项通常被称为家庭法案的立法，该法案旨在阻止人们受到一些「放荡不羁」的作家所写的一些内容不当的剧本和小说的影响。家庭法案背后主要的动力是一部下流的戏剧，一部家庭戏剧，这部剧讥讽贵族阶级的穷奢极欲并传遍了整个国家。由于受到了羞辱和反抗，这部讽刺剧的受害方现在希望共和国阻止它继续传播。"
- republic_factions.24.a:0 "有意思，他们通常叫这种法案为什么？"
- republic_factions.24.b:0 "自由不是为了淫秽而生的！"
- republic_factions.101.t:0 "$COUNTRY$发生革命"
- republic_factions.101.d:0 "到现在为止的很长一段时间内，共和国在[Root.GetAdjective]政治舞台上越来越受到行会的控制。依靠大量的学徒、小店主与手工业者，这个派系已经能够掌控政府内的所有权力，并把持了行政部门的所有机关。\n\n贵族与商人们不愿冒长期遭受边缘化的风险，而开始对谷物进行了投机。这很快就耗尽了国家的粮食储备，并导致了粮食价格的大幅上涨。直到现在，行会都不顾正在发展中的危机，因为穷人们请求贷款来购买食物这件事对公会来说似乎是一个利润丰厚的机会。直到事态发展为穷人们开始在[Root.Capital.GetCapitalName]中央广场[Root.Monarch.GetTitle]府邸的阶下群聚集会，并屠杀了一半奉命驱散他们的卫兵。\n\n最糟糕的是，他们已经开始抢劫了数十家的商店！"
- republic_factions.101.a:0 "我们不能任由民众使共和国陷入无政府的混乱。"
- republic_factions.101.b:0 "屈服于他们的要求。"
- republic_factions.102.t:0 "$COUNTRY$发生革命"
- republic_factions.102.d:0 "通过把从远方国家那里获取的丰富物产运回到[Root.Capital.GetCapitalName]的国内市场进行倒买的中介贸易，[Root.GetAdjective]的商人成功地逐步对议会施加越来越大的影响力。如此一来，他们将更轻易地控制所有政府机构，以确保他们对共和国的支配权。谁会来反对他们呢？毕竟[Root.GetName]达到了空前的繁荣，黄金也以前所未有的方式滚滚流入。\n\n是的，谁会来反对呢？也许是那些乡绅们，他们眼见自己的地产被掌权者收购，忧心自己的房屋面临被摧毀的威胁？也可能是行会的人，因为商人们无心保护本国产品，而更青睐于进口商品的利润？又或许是那些普通民众，他们厌倦了商人逐利贪得无厌造成的商品价格连连飙升，和动辄翻倍的租金……\n\n早上，群情激愤的人们聚集在[Root.Monarch.GetTitle]的宫殿门前，高喊着要将他们赶下台。"
- republic_factions.102.a:0 "我们不要被一群歹徒吓倒！"
- republic_factions.102.b:0 "屈服于他们的要求。"
- republic_factions.103.t:0 "$COUNTRY$发生革命"
- republic_factions.103.d:0 "[Root.GetName]的贵族动用一切手段施压，成功掌握了共和国的大权。大贵族家庭的公子王孙在共和国的街道与宫殿中招摇过市。眼下，他们的对手们绝无希望找到一种合法的方式来恢复他们失去的影响力。\n\n但非得用合法的方式？昨夜，一位年轻的贵族在酒馆中一场恶劣的斗殴中丧生。凶手也是一名广为人知的贵族，并且是其家族的长子。然而当局介入此次事件后，被指控犯下这项罪行的人完全变成了其他人，巧合的是这是一位纺织大亨、行会一大主事人的儿子。\n\n次日上午，行会与商人们开始向平民分发面包与武器；心怀不满的人群聚集在[Root.Monarch.GetTitle]的宫殿周围，在暴民可能自发展开报复之前，城镇民兵的第一次冲击导致了严重的流血伤亡。[Root.Monarch.GetName]被包围了。"
- republic_factions.103.a:0 "我们不能屈服于奸商！"
- republic_factions.103.b:0 "屈服于他们的要求。"
- republic_factions.103.b.tt:0 "§Y[Root.Monarch.GetName]§!试图通过实施快速的改革来安抚群众。\n§Y[Root.Monarch.GetName]§!将会辞职，并立即举行新的选举。"
- wrecked_by_factional_riots:0 "被党派的暴动所破坏"
- desc_wrecked_by_factional_riots:0 "这个美好的城市因为我们脆弱的政治制度所导致的内部争斗而被破坏。"
- dynastic_diplomacy:0 "王朝外交"
- converted_monarch:0 "君主改宗"
- desc_converted_monarch:0 "我们的君主为改信真正的信仰做出了一个光辉的榜样。"
- local_popularity:0 "当地支持"
- desc_local_popularity:0 "文化纽带给我们的君主带来了当地的支持。"
- sided_with_foreign_heir:0 "支持外来继承人"
- sided_with_supported_heir:0 "站在受支持的继承人一边"
- golden_liberty:0 "黄金自由制"
- desc_golden_liberty:0 "我们的君主，尽管来自国外，仍然接受了我们国家传统的黄金自由制，亦即贵族民主制。"
- elective_monarchy.1.t:0 "国会支持$HEIR$ $HEIR_DYNASTY$"
- elective_monarchy.1.d:0 "国会今天宣布支持$HEIR_DYNASTY$家族的$HEIR$，尽管$HEIR_ADJ$拥有外国血统，但仍被认定为$COUNTRY$王位当之无愧的继承人。他们的支持提高了$HEIR_ADJ$在我们现任$MONARCHTITLE$去世后即位的机会。"
- elective_monarchy.1.a:0 "$HEIR$值得这份支持。"
- elective_monarchy.2.t:0 "国会反对$HEIR$ $HEIR_DYNASTY$"
- elective_monarchy.2.d:0 "国会中的一个强大派系明确表示了对$HEIR_DYNASTY$家族的$HEIR$的厌恶和反感，他们认为这个外国人对$HEIR_S_PRONOUN$所希望统治的国家全无任何了解。他们的反对削弱了$HEIR_ADJ$在我们现任$MONARCHTITLE$去世后即位的机会。"
- elective_monarchy.2.a:0 "$HEIR$必须走！"
- elective_monarchy.3.t:0 "贿赂瑟姆议会"
- elective_monarchy.3.d:0 "赢得选举通常要懂得该给谁的手中添点油水。我们王朝的一位成员最近成为了一顶外国王冠最受支持的候选继承人，他们中的一些贵族明确表示，只要我们能够给出一份「与我们伟大国家身份相当」的慷慨资助，他们就乐于让我国继承人的地位更加稳固。"
- elective_monarchy.3.a:0 "慷慨地报答他们的支持。"
- elective_monarchy.3.b:0 "什么也不给他们。"
- elective_monarchy.4.t:0 "密谋反对$HEIR_DYNASTY$家族的$HEIR$"
- elective_monarchy.4.d:0 "最近国会中有一批人毫不掩盖他们对$HEIR_DYNASTY$家族的$HEIR$的不满，而现在你的间谍主管发现了他们正准备暗杀$HEIR_ADJ$。如果我们放任他们不管，我们将有被责备的风险，但是如果逮捕他们则可能会激怒他们在国会中的盟友。我们下一步该怎么做？"
- elective_monarchy.4.a:0 "放任他们的阴谋。"
- elective_monarchy.4.b:0 "逮捕这些密谋者！"
- elective_monarchy.5.t:0 "$FROM_ADJ$密谋者"
- elective_monarchy.5.d:0 "我们发现$FROM$政府默许了针对我国候选人的暗杀行动。这是对我国的极大侮辱，必须予以回应！"
- elective_monarchy.5.a:0 "一群恶魔！"
- elective_monarchy.6.t:0 "宗教差异"
- elective_monarchy.6.d:0 "我们的国家遵循着正确的[Root.Religion.GetName]信仰，同时，我们却也正支持我们王朝的成员去继承一个遵循错误的异端信仰的国家的王位。现在，那个国家提出要求，如果我们的候选人还想继承王位的话，他就必须改信他们的宗教。"
- elective_monarchy.6.a:0 "接受他们令人发指的要求。"
- elective_monarchy.6.b:0 "不能让我们候选人的灵魂受到这种危害！"
- elective_monarchy.7.t:0 "可疑的事故"
- elective_monarchy.7.d:0 "我们的$FROM$王位候选继承人在一次打猎事故中丧生了。虽然我们怀疑这起事故是另一家候选人精心策划的一次暗杀，但是我们并没有证据，我们为我们家族登临$FROM_ADJ$王位所做的一切努力也付之东流。"
- elective_monarchy.7.a:0 "太可怕了！"
- elective_monarchy.8.t:0 "[Root.Monarch.Dynasty.GetName]家族血脉共通"
- elective_monarchy.8.d:0 "尽管[Root.GetName]有时会因外部势力对我国政局的影响而被削弱，但选举一位外国君主能够建立一种信任的纽带，并提供了特有的外交优势。[Root.Monarch.GetName]很好地利用了[Root.Monarch.GetHerHis]家族在国外的影响力，加强了我们与[Root.Monarch.GetTitle]曾经的母国的联系。"
- elective_monarchy.8.a:0 "愿这份友谊长存。"
- elective_monarchy.9.t:0 "[Root.Monarch.GetName]继承头衔"
- elective_monarchy.9.d:0 "尽管[Root.Monarch.GetName]首先是我们的[Root.Monarch.GetTitle]，但[Root.Monarch.GetSheHe]仍然有权在[Root.Monarch.GetSheHe]所诞生的土地上拥有一些头衔。尽管外国人当初支持[Root.Monarch.GetSheHe]登上王位或许是怀揣着伺机统治我国的心思，但对他们土地的所有权拥有合法宣称很可能给我们一个反其道而行之的机会……"
- elective_monarchy.9.a:0 "这是[Root.Monarch.GetSheHe]与生俱来的权利！"
- elective_monarchy.9.b:0 "我们不会做这种不可告人的勾当。"
- elective_monarchy.10.t:0 "瑟姆议会强迫逊位"
- elective_monarchy.10.d:0 "[Root.Monarch.GetName]知道自己已经时日无多，而[Root.Monarch.GetSheHe]此时还希望让[Root.Monarch.GetHerHis]家族继续掌控王位。为此，[Root.Monarch.GetSheHe]开始扶植[Root.Monarch.GetHerHis]儿孙中的一位作为继承人的人选，并寻求其他方面的支持，以此对抗议会目前所支持的继承人。贵族们对此并不满意，而且考虑强迫[Root.Monarch.GetTitle]让位于他们心中理想的继承人。"
- elective_monarchy.10.a:0 "必须如此，一定要避免专制统治的出现。"
- elective_monarchy.10.b:0 "我们的[Root.Monarch.GetTitle]不会这么容易就向贵族低头的！"
- elective_monarchy.11.t:0 "改宗[Root.Religion.GetName]"
- elective_monarchy.11.d:0 "世界正在经历动荡的宗教变革。君主改宗可以被视为一种强大的趋势；当[Root.Monarch.GetName]在登上王位后改宗[Root.Religion.GetName]信仰时，许多人注意到了这一点。如果连[Root.Monarch.GetTitle]都要改变信仰，那么无知的大众是不是也必须遵从真正的信仰呢？现在，所有尊奉非国教信仰的人，无论是贵族还是平民，都感受到了更大的压力。"
- elective_monarchy.11.a:0 "希望他们能明白其中的道理，至少接受真正的信仰。"
- elective_monarchy.12.t:0 "野心过大的对外战争"
- elective_monarchy.12.d:0 "[Root.Monarch.GetName]发起的侵略战争并未取得预期效果。这通常会引起骚乱，尤其是当[Root.Owner.Monarch.GetTitle]是一名外国人时。在战争过程中，人民开始声称[Root.GetName]是一个爱好和平的国家，而这个鲁莽的统治者会将它带向毁灭的边缘。"
- elective_monarchy.12.a:0 "战争不过是刚刚开始！向前看！"
- elective_monarchy.12.b:0 "我们必须尽快解决这场纷争。"
- elective_monarchy.13.t:0 "我心如故"
- elective_monarchy.13.d:0 "作为一个[Root.Culture.GetName]人，[Root.Owner.Monarch.GetName]时常到访[Root.GetName]。这不仅仅是因为这里能让[Root.Owner.Monarch.GetTitle]回忆起[Root.Owner.Monarch.GetHerHis]过往的生活，这里的百姓也相当爱戴这位[Root.Owner.Monarch.GetTitle]——这些人时常与[Root.Owner.GetAdjective]的统治者感到有些疏远，但现如今受到瑟姆议会认可、坐上王位的君主，讲的是他们的语言。最近的一次到访让当地居民对国家政权的认可程度大大提高。"
- elective_monarchy.13.a:0 "我们毫无理由去怀疑此事。"
- elective_monarchy.14.t:0 "对[Root.Monarch.GetName]和[Root.Heir.GetName]的忠诚"
- elective_monarchy.14.d:0 "从不同的国家选举统治者，这一行为使得我们在某些程度上能避免一个王室家族完全地掌控[Root.GetName]。然而，有些时候，这同样会使外国贵族们怀疑我们的忠诚。我们现任[Root.Monarch.GetTitle]所属的[Root.Monarch.Dynasty.GetName]家族最近已经注意到议会中支持[Root.Heir.Dynasty.GetName]王朝的[Root.Heir.GetName]的势力在加强。尽管他们明白，他们家族不可能永远统治我们的国家，但他们已经开始询问这一事件对我们未来继续合作所可能带来的影响。"
- elective_monarchy.14.a:0 "向他们保证，瑟姆议会将继续支持[Root.Monarch.Dynasty.GetName]家族。"
- elective_monarchy.14.b:0 "承认做出改变是必要之举。"
- elective_monarchy.14.c:0 "保持中立。瑟姆议会只应该效忠于[Root.GetName]。"
- elective_monarchy.15.t:0 "[From.GetAdjective]瑟姆议会改变拥戴对象"
- elective_monarchy.15.d:0 "自从尊贵的[Root.Monarch.Dynasty.GetName]家族得到了[From.GetAdjective]的王冠，我们便希望我们的王朝能享受长期的统治。然而，[From.GetName]议会近来开始支持一个来自其它国家的候选人作为王位继承者，这让我们两国的关系变得紧张。在我们施压之后，[From.GetName]方面竟直接明确向我们表示，现在情况早已经变了，他们并不愿意让[Root.GetName]人继续掌控王位。"
- elective_monarchy.15.a:0 "这些[From.GetAdjective]贵族真是反复无常！"
- elective_monarchy.16.t:0 "[From.GetAdjective]瑟姆议会站在我们这边"
- elective_monarchy.16.d:0 "[From.Monarch.Dynasty.GetName]家族向[From.GetName]议会施压，想要维持本家族成员对[From.GetName]王位的控制，但是议会并不同意，而是选择支持我们。[From.Heir.GetName]现在已经得到议会的广泛支持，他们认为这样的选择能够摆脱当前王朝的把控，并避免专制君主的出现。"
- elective_monarchy.16.a:0 "[From.Heir.GetSheHeCap]将会领导[From.GetName]走向自由……或者至少领他们靠近我们这一边。"
- elective_monarchy.17.t:0 "黄金自由制"
- elective_monarchy.17.d:0 "统治[Root.GetName]这个国家和统治其它国家并不相同。在这里，想要在没有贵族认可的情况下主宰国家的意志是很难的，有时几乎完全不可能。对于一个外国君主来说，这相当让人失望和头疼，但这种政治惯例在[Root.GetAdjective]堪称政治生活的基础，并且备受珍视。事实上，如果不是这种制度，作为一个外国人，[Root.Monarch.GetName]也没有可能坐上[Root.GetName]的大位。接纳这种政治理念可能会使[Root.Monarch.GetTitle]在国际上看上去很软弱，但却更容易融入这个国家，并赢得议会的支持。"
- elective_monarchy.17.a:0 "他们明智地选择了我们。让我们倾听他们的请求。"
- elective_monarchy.17.b:0 "我们必须重新控制局面，停止这种无政府的状态！"
- elective_monarchy.18.t:0 "[Root.Monarch.Dynasty.GetName]家族获得[Root.GetAdjective]王位宣称"
- elective_monarchy.18.d:0 "最近[Root.Monarch.GetName]的外国亲戚之间发生了权利迁移，而继承法的差异如今导致了一个不幸的情况。[Root.Monarch.Dynasty.GetName]王朝的一名成员被认为不仅是我国[Root.Monarch.GetName]祖国的合法统治者，也被当作了我国的合法统治者。\n\n现在还不确定这份宣称会被怎样处置——这位外国君主可能会发动一场战争夺取我国王位，但也可能只把它当作强化自己在本国统治地位的垫脚石。不论如何，我们有被迫屈居他国统治之下的危险，这总是一个不祥的征兆。"
- elective_monarchy.18.a:0 "我们当初选择他们家族的人是因为信任，可不是为了这个！"
- elective_monarchy.19.t:0 "[Root.Monarch.GetName]获得[From.GetAdjective]王位宣称"
- elective_monarchy.19.d:0 "自从[From.Monarch.GetName]成功当选登上[From.GetAdjective]王位以来，我们对[From.Monarch.GetSheHe]的支持让我们获得了很多外交成果。然而，最近有人提出[Root.Monarch.Dynasty.GetName]家族对[From.GetName]的宣称应该超越单个的个人，因此[Root.Monarch.GetName]事实上应该被认为是[Root.GetName]和[From.GetName]的共同统治者。\n\n[From.Monarch.GetName]当然认为[From.Monarch.GetHerselfHimself]是一国之君，但是在家族中[Root.Monarch.GetName]的继承顺位要高于[From.Monarch.GetHerHim]。无疑[From.Monarch.GetTitle]的第一效忠对象应是自己的家族，不是吗？"
- elective_monarchy.19.a:0 "一个有趣的思路……"
- republican_dictatorship.1.t:0 "[Root.Monarch.GetTitle]执掌政权"
- republican_dictatorship.1.d:0 "在[Root.Monarch.GetName]的眼中，快速的、没有争议的做决定是确保[Root.GetName]做出改革来跟上时代步伐的唯一途径。[Root.Monarch.GetHerHisCap]对于政治进展的急不可耐惹恼了一些高级官员，他们认为之前的统治者在施行他们的想法时应采取更加慎重的行为。他们害怕这样极富于进取心的追求结果而不择手段在长远来看会给我们国家带来暗淡的结果。"
- republican_dictatorship.1.a:0 "[Root.GetName]不是民主国家，他们应当适应。"
- republican_dictatorship.1.b:0 "我们应当考虑他们的担忧。"
- republican_dictatorship.2.t:0 "[Root.Monarch.GetTitle]把持国际事务"
- republican_dictatorship.2.d:0 "[Root.GetAdjective]的国际贸易与外交的政策一直以老练与谨慎著称。但是在 [Root.Monarch.GetName]眼中，没有足够的进展。在绝对的统治下，不应该有任何的权衡犹豫。\n\n然而，在实际操作中，确实有权衡的理由。[Root.Monarch.GetTitle]或许比我们更能看清未来的道路，但是那条路是在满是暴君与独裁者的世界的路。即使是绝对的独裁掌握权力的今天，人们也在反思这难道就是我们想要的国家的未来？"
- republican_dictatorship.2.a:0 "这就是，并且我们应当沿着这条路走！"
- republican_dictatorship.2.b:0 "让我们重新考虑我们的选择。"
- republican_dictatorship.3.t:0 "[Root.Monarch.GetTitle]把持军队"
- republican_dictatorship.3.d:0 "如果 [Root.Monarch.GetName]将要决定我们[Root.GetName]未来的走向，[Root.Monarch.GetSheHe]必须能够使用军队对抗整个敌对的世界。但是军队尽管尊重指挥官和野心勃勃的君主的命令，他仍然有着不可破除的传统与结构，除非[Root.Monarch.GetTitle]有民众的支持。[Root.Monarch.GetHerHis]作为开国君主的遗产会流传万世吗？"
- republican_dictatorship.3.a:0 "只要有效。"
- republican_dictatorship.3.b:0 "不。我们应当停下并倾听。"
- republican_dictatorship.4.t:0 "军中对[Root.Monarch.GetName]的支持"
- republican_dictatorship.4.d:0 "尽管军中的许多人仍然保持了对之前统治者的忠诚，[Root.Monarch.GetTitle]确实有很多热诚的支持者。一些军队领导重视[Root.Monarch.GetName]所行使的绝对权力，并且意识到在动荡年代需要一个具有权威的领导人。\n\n由于政治原因，有时提拔一个有才华的人也是不可接受的，但是我们需要我们的将领既有能力又忠诚。我们应当抓住这次机会还是高尚的保持距离？"
- republican_dictatorship.4.a:0 "对于有益的专业知识没有任何可以质疑的余地。"
- republican_dictatorship.4.b:0 "最好把这种问题留给有经验的军队领导者。"
- republican_dictatorship.5.t:0 "人民需要民主"
- republican_dictatorship.5.d:0 "「我们已经废除了国王！让我们废除暴君！」\n\n人民，曾经目睹了旧体系的崩溃，开始将[Root.Monarch.GetName]视为另一个隐藏在现代政府假面后面的暴君。他们要求切实的、能够看得到的改变与表现才能容忍[Root.Monarch.GetHerHis]继续统治。或许他们会更倾向于接受另一位统治者，如果我们做出让步……以免他们干掉之前那一个。"
- republican_dictatorship.5.a:0 "[Root.Monarch.GetName]是人民的[Root.Monarch.GetWomanMan]！"
- republican_dictatorship.5.b:0 "[Root.GetName]从未有民主。"
- republican_dictatorship.6.t:0 "增加政府的授权"
- republican_dictatorship.6.d:0 "政务从来不是[Root.Monarch.GetName]的特长。[Root.Monarch.GetTitle]能够做出决定，但明智的决定往往不是[Root.Monarch.GetHerHim]能够做出的。雇佣下级官员来处理这些政务能够一定程度上缓解这一问题，但也使得他们权力变大，要求对于政务更大的权力。这很明显能够削弱中央权力，如果坚持君主的掌控会使得我们和胜任官员的直接冲突。"
- republican_dictatorship.6.a:0 "[Root.Monarch.GetTitle]不必命令一切。"
- republican_dictatorship.6.b:0 "驱逐任何会做出这种建议的人。"
- republican_dictatorship.7.t:0 "增加外务授权"
- republican_dictatorship.7.d:0 "[Root.Monarch.GetTitle]从不依靠妥协治国，[Root.Monarch.GetName]也不例外。遗憾的是，在国际事务中，妥协有时是必须的。拥有一位无法处理敏感的国际外交形势的统治者使得外交官和大使倾向于自行做决定。通常情况下，我们不会容忍这样的对于[Root.Monarch.GetTitle]权力的挑衅，但是[Root.GetName]看起来会从中受益。"
- republican_dictatorship.7.a:0 "那让我们妥协吧，只此一次。"
- republican_dictatorship.7.b:0 "绝不能容忍这种事情的继续。"
- republican_dictatorship.8.t:0 "增加军队的授权"
- republican_dictatorship.8.d:0 "军队会对于改变极为抵触，并且[Root.Monarch.GetName]对于军务并不熟悉。幸运的是，[Root.Monarch.GetSheHe]雇佣熟悉军务的人员，并且他们开始羡慕他们前辈的不必受过多的约束。将领现在正在要求越来越多的在做决定方面的自由，尽管这开始看起来像是好主意，失去对军队的掌控是对于[Root.Monarch.GetTitle]执政的一个巨大打击。"
- republican_dictatorship.8.a:0 "让我们专注于统治[Root.GetName]，让其他人来保卫她。"
- republican_dictatorship.8.b:0 "我们必须重夺统治权！"
- republican_dictatorship.9.t:0 "亲戚无法统治地方"
- republican_dictatorship.9.d:0 "我们一直致力于安排可信任的人来担任重要职务，最终巧合的是[Root.Owner.Monarch.GetTitle]的许多近亲成为了地方官员。尽管这使得我们能够更好地使政策在全国得到贯彻实施，[Root.GetCapitalName]的人民宣称他们在不称职的市长治下会受罪。在他们眼中，[Root.Owner.GetName]正在回到权力由家庭关系决定的时代，并且他们将为此付出代价。"
- republican_dictatorship.9.a:0 "人民已经发出了声音。市长应当辞职。"
- republican_dictatorship.9.b:0 "这种主张是一派胡言。"
- republican_dictatorship.10.t:0 "地方军队质疑统治者"
- republican_dictatorship.10.d:0 "尽管遵守共和国时代的一些准则使得[Root.Owner.Monarch.GetName]的统治被多数人接受，一些军队的领导者认为这是软弱的标志。一位[Root.GetName]的将领开始密谋反对[Root.Owner.Monarch.GetTitle]，宣称国家缺乏一位具有权威的统治者来保持统治到下一代人。根据他们的说法，如果不采取措施，[Root.Owner.GetName]会有变为无政府状态或者民粹主义的危险。"
- republican_dictatorship.10.a:0 "那么我应当是那个采取措施的人！"
- republican_dictatorship.10.b:0 "我们必须打倒这些反动派！"
- hardened_oak:0 "硬化橡木"
- desc_hardened_oak:0 "一位经验丰富的造船工人已经找到了一种加固我们船只船体的方法。"
- patriotic_curriculum:0 "爱国主义教育"
- desc_patriotic_curriculum:0 "海军学校教授爱国主义课程。"
- maintenance_curriculum:0 "损管培训"
- desc_maintenance_curriculum:0 "海军学校教授航海技术与船只维护课程。"
- galley_veterans:0 "桨帆船上的老兵"
- desc_galley_veterans:0 "老兵们发明的新战术在桨帆船战斗中得到普及。"
- heavy_ship_veterans:0 "重型战舰老兵"
- desc_heavy_ship_veterans:0 "老兵们发明的新战术在重型战舰战斗中得到普及。"
- grieving_sailors:0 "悲伤的水手"
- desc_grieving_sailors:0 "商船的沉没对于我们水手当中较为迷信的人有着负面的影响。"
- repairing_decayed_ships:0 "修复腐烂船只"
- desc_repairing_decayed_ships:0 "我们有着特别的修复在远航中受损的船只的技巧。"
- rotting_wood:0 "腐败木材"
- desc_rotting_wood:0 "我们以未做好万全准备进入陌生水域的航行使得木材比预期的更快腐烂。"
- shipyard_fire:0 "造船厂大火"
- desc_shipyard_fire:0 "当地造船厂的一次火灾减慢了生产进度。"
- skilled_diplomat:0 "熟练的外交官"
- desc_skilled_diplomat:0 "一位外交官有特别的技巧并且被派去处理我们最重要的外国事务。"
- just_causes:0 "正当理由"
- desc_just_causes:0 "我国外交团队的不懈努力使得世界相信，我们的宣称是合理的，行为是正当的。"
- popular_noble:0 "受欢迎的贵族"
- desc_popular_noble:0 "我们最合群的一位贵族在外国展现了他的慷慨。"
- vassals_feel_safe:0 "附庸感到安全"
- desc_vassals_feel_safe:0 "我们军队的强势与我们对他们权利的慷慨使得我们的附庸有安全感，在我们麾下得到庇护。"
- firm_hand:0 "强硬手段"
- desc_firm_hand:0 "合理的施压与手段使我们能够从我们的附庸那里榨取更多。"
- emissary_authority:0 "使者的权威"
- desc_emissary_authority:0 "我们外交官所携带的证件代表了我们国家意志的可靠与稳定。"
- suspected_diplomats:0 "有嫌疑的外交官"
- desc_suspected_diplomats:0 "我们的一些外交官涉嫌参与间谍行动，如今正在被严密审查。"
- slow_negotiations:0 "进展缓慢的谈判"
- desc_slow_negotiations:0 "我们的一些要求被我们的附庸视为侮辱，这减缓了与他们谈判的进程。"
- hostile_rhetoric:0 "敌意言论"
- desc_hostile_rhetoric:0 "我们的一名大使做出了不明智的发言，使得我们的邻国将我们视作威胁。"
- free_freethinkers:0 "解放自由思想家"
- desc_free_freethinkers:0 "让自由思想家免受迫害地宣扬知识使我们的沙龙和首都大学非常活跃。"
- fair_laws:0 "公正的法律"
- desc_fair_laws:0 "对于真正公正的承诺在我们民众的多数人中得到了支持。"
- ineffective_missionary:0 "徒劳的传教士"
- desc_ineffective_missionary:0 "一位官员献身于人文主义，我们的传教士发现很难让非信徒皈依。"
- fair_dealing:0 "公平交易"
- arrogant_administrators:0 "狂妄的官员"
- honest_broker:0 "可靠的调停人"
- rogue_nation:0 "无赖国家"
- ideagroups.1700.t:0 "坚木船身"
- ideagroups.1700.d:0 "一位经验丰富的造船工人发明了一种加固船身的技术，所以他们更能够经受暴风雨以及其他海洋上的考验。这项技术是保密的，短时间内海洋变得没那么恐怖了。"
- ideagroups.1700.a:0 "我们无惧风暴。"
- ideagroups.1701.t:0 "一位名副其实的海军司令"
- ideagroups.1701.d:0 "一位杰出的海军军官引起了我们的注意，他不仅精通指挥艺术，还能够教授他人。我们应该如何利用他的才华？"
- ideagroups.1701.a:0 "去海上，击溃我们的敌人！"
- ideagroups.1701.b:0 "去学校，去教授。"
- ideagroups.1702.t:0 "改进训练"
- ideagroups.1702.d:0 "海军学院有了新的教师，大臣要求我们给水手开设一门课程。我们的课程应当侧重什么？"
- ideagroups.1702.a:0 "当然是爱国义务。"
- ideagroups.1702.b:0 "航海技术与维护"
- ideagroups.1703.t:0 "战术革新"
- ideagroups.1703.d:0 "多年的海上战争使得我们的老兵在战争中立下赫赫战功。其中的一些技巧可以总结下来成为对抗敌人的利刃。"
- ideagroups.1703.a:0 "划你的船吧。"
- ideagroups.1703.b:0 "我们的舰船将会征服大海。"
- ideagroups.1704.t:0 "缉捕走私贩"
- ideagroups.1704.d:0 "我们统治海洋从而统治贸易。所以我们必须肃清领海内的非法走私与会损害国内市场的外国贸易。"
- ideagroups.1704.a:0 "胜利即为胜利，即便是战胜蝼蚁。"
- ideagroups.1704.b:0 "用查获财产投资。"
- ideagroups.1705.t:0 "皇家来客"
- ideagroups.1705.d:0 "我们的技艺精湛的造船工人与海军系统在已知世界当中声名远扬，一位外国王子想要参观我们的港口并与我们的人交流。这是我们无法拒绝的巨大荣耀！"
- ideagroups.1705.a:0 "好哇！"
- ideagroups.1706.t:0 "爱国者的捐赠"
- ideagroups.1706.d:0 "一位富商想要对我们巡视海洋保证航道的贸易与探索的自由所作出的努力表示感谢。贸易公司建造了用于海军的船只，并将其捐给皇家。"
- ideagroups.1706.a:0 "好极了！"
- ideagroups.1707.t:0 "海上灾难"
- ideagroups.1707.d:0 "一支贸易船队迷失于大洋之中，全部葬身鱼腹。灾难的消息横扫了港口，使得迷信的水手内心充满了恐惧。"
- ideagroups.1707.a:0 "随他们悲伤去吧。"
- ideagroups.1707.b:0 "所以，我们还没准备好。"
- ideagroups.1708.t:0 "兵源流失"
- ideagroups.1708.d:0 "我们码头，港口的急速扩张使得越来越多的年轻人离开农村去贸易公司的船上寻找工作。如今很难招募到可靠的战士。"
- ideagroups.1708.a:0 "愿海洋吞噬他们。"
- ideagroups.1709.t:0 "木材腐烂"
- ideagroups.1709.d:0 "我们以未做万全准备的船只驶向陌生海域使得木材比预想的更快腐烂。湿气，腐烂，白蚁……开拓新的市场需要代价。"
- ideagroups.1709.a:0 "尽你们的所能去解决它。"
- ideagroups.1709.b:0 "坚持原计划。"
- ideagroups.1710.t:0 "造船厂大火"
- ideagroups.1710.d:0 "焦油，木料，火药的危险混合物引起主要港口的大火只是时间早晚的事情。恢复生产需要一段时间。"
- ideagroups.1710.a:0 "这是诅咒！"
- ideagroups.1800.t:0 "熟练外交官"
- ideagroups.1800.d:0 "我们的一位大使具有特别的处理周边纠缠不清的同盟的外交技巧，能够明白错误行为的影响，并能说出恰当的话。我们应当如何让他发挥他的才能？"
- ideagroups.1800.a:0 "让他去从事最精细的工作。"
- ideagroups.1800.b:0 "让他在宫廷中为我服务。"
- ideagroups.1801.t:0 "我们的理由正当"
- ideagroups.1801.d:0 "我国外交团队的不懈努力使得世界相信，我们的宣称是合理的，行为是正当的，我们没有什么可让邻国恐惧的。可以说，我们所做的一切都是为了各国人民的共同利益。"
- ideagroups.1801.a:0 "来吧，我的美人儿。"
- ideagroups.1802.t:0 "受欢迎的贵族"
- ideagroups.1802.d:0 "我们的一位最受欢迎的贵族旅途归来，他向外国宫廷宣扬我们的伟大，更不要提他的挥金如土。只有一个伟大的国度才会有如此受欢迎的客人。"
- ideagroups.1802.a:0 "至少他们还是有可取之处的。"
- ideagroups.1803.t:0 "附庸感到安全"
- ideagroups.1803.d:0 "我们的强盛军力和对他们权利的慷慨程度，让我们的附庸在我们的保护伞下感到安全和受到保护。为了保障这项关系，他们增加了给我们支付的贡金。"
- ideagroups.1803.a:0 "牧羊者剪羊毛，而非宰杀羊。"
- ideagroups.1804.t:0 "公平相待"
- ideagroups.1804.d:0 "一个拥有殖民地与附庸的帝国如同一个吵闹的家庭，需要坚决但公正的手段来使一切井井有条。近期的政策赢得了我们属国的钦佩并使得我们的关系更加紧密。"
- ideagroups.1804.a:0 "秉持公平最终总会对自己有好处。"
- ideagroups.1805.t:0 "强硬手段"
- ideagroups.1805.d:0 "合理的施压与手段使我们能够从我们的附庸那里榨取更多。他们或许不喜欢，但我们是主他们是仆。他们或许最终会明白的——至少目前如此。"
- ideagroups.1805.a:0 "你的就是我的。"
- ideagroups.1806.t:0 "真理在大炮射程之内"
- ideagroups.1806.d:0 "我们外交官所携带的证件代表了我们国家意志的可靠与稳定。我们外交官所说的话背后是我们政府的权威，顺利的旅途与快马确保使者的职责得到快速履行。"
- ideagroups.1806.a:0 "尊重总是姗姗来迟。"
- ideagroups.1807.t:0 "狂妄的官员"
- ideagroups.1807.d:0 "我们的那些处理属国事务的官员因对驻在国缺乏了解而变得傲慢——他们认为首都以外的人的感受不值一顾。这导致愤怒在殖民领和附庸国中蔓延。"
- ideagroups.1807.a:0 "他们以为他们是谁？"
- ideagroups.1808.t:0 "间谍网瓦解"
- ideagroups.1808.d:0 "我们的一些外交官涉嫌参与间谍行动。如今每一个我们派遣的外交官或者大使都会被怀疑为间谍并且当他们完成任务时遭到严厉的审查。我们需要时间来恢复我们的名声。"
- ideagroups.1808.a:0 "这是令人失望的不信任。"
- ideagroups.1809.t:0 "粗鲁的要求"
- ideagroups.1809.d:0 "我们对于附庸的施压在首都人民看来很合理，但是这些要求在那些需要我们保护的弱小君主看起来是侮辱。对于条款的谈判可能需要比预期更长的时间。"
- ideagroups.1809.a:0 "我们可以等。"
- ideagroups.1810.t:0 "敌意言论"
- ideagroups.1810.d:0 "我们的一位大使在最近的一次沙龙上做出了不明智的发言。他的愤怒与对于邻国的带有战争威胁的谴责使得我们的威胁被夸大。"
- ideagroups.1810.a:0 "让他们颤抖吧。"
- ideagroups.1810.b:0 "我们可以平息这件事。"
- ideagroups.1900.t:0 "停止对自由思想家的迫害"
- ideagroups.1900.d:0 "我们让哲学家、政客和科学家免于政府与宗教责难推广知识的政策使得我们首都的沙龙与大学非常活跃。"
- ideagroups.1900.a:0 "明智之举！"
- ideagroups.1901.t:0 "公认的公平法律"
- ideagroups.1901.d:0 "事实证明，对不分国家、民族、传统的真正公平的承诺受到多数人拥护。对我们统治的不满之声平息了很多。"
- ideagroups.1901.a:0 "法律面前，人人平等。"
- ideagroups.1902.t:0 "可靠的调停人"
- ideagroups.1902.d:0 "我们作为一个维护全体国民利益，维护他国权利的国家而赢得国际声望。我们的公平行为在我们的邻国得到了回报。"
- ideagroups.1902.a:0 "他们真的喜欢我！"
- ideagroups.1903.t:0 "内阁合作"
- ideagroups.1903.d:0 "我们充满人文关怀的政策减少了顾问之间的猜忌，因为国内的宗教和种族差异无法再成为他们挑动嫌隙的缘由。每个人都为了他们信仰的国家工作，阁僚之间的信任建立了起来。"
- ideagroups.1903.a:0 "分享就是关怀。"
- ideagroups.1904.t:0 "包容每个人是通向进步的道路"
- ideagroups.1904.d:0 "我们国内的细碎的分歧一直阻碍了我们的发展。当政府职位向所有有才华的公民开放后，我们发现了当地经济的巨大发展成就。"
- ideagroups.1904.a:0 "容忍使得我们富有。"
- ideagroups.1905.t:0 "温和的回答平息怒火"
- ideagroups.1905.d:0 "我们的信仰给予我们和平与安全感，所以我们不必压迫他人。即便是在最黑暗深渊中的异端也能看到神明是如何鼓励尊重所有人的。"
- ideagroups.1905.a:0 "我们当团结一心。"
- ideagroups.1906.t:0 "世界灯塔"
- ideagroups.1906.d:0 "我们的信仰给予我们和平与安全感，所以我们不必压迫他人。即便是在最黑暗的深渊中的异教徒也能看到神明是如何鼓励尊重所有人的。"
- ideagroups.1906.a:0 "我们当团结一心。"
- ideagroups.1907.t:0 "缰绳过松"
- ideagroups.1907.d:0 "尊重我们新征服敌人的自由的努力反而招致「爱国」的暴民怒火喷发。这火焰最终会燃尽，但是我们可以现在就熄灭它。"
- ideagroups.1907.a:0 "让他们骂。"
- ideagroups.1907.b:0 "军队清场。"
- ideagroups.1908.t:0 "自由思想使我们远离上帝"
- ideagroups.1908.d:0 "容忍不同意见是一件正确且有利的事情，但是异端布道士依然在玩弄他们信徒的灵魂。我们可以以很小的代价压制他们，但是这违背了我们的人文主义思想。"
- ideagroups.1908.a:0 "长远来看这没有害处。"
- ideagroups.1908.b:0 "反击异端。"
- ideagroups.1909.t:0 "传教工作徒劳无功"
- ideagroups.1909.d:0 "对人文主义的官方承诺导致传教士难以再让不信者听从他们。没有来自官方的胡萝卜和大棒，传道士只能依靠他们自身的魅力。"
- ideagroups.1909.a:0 "十分不幸。"
- ideagroups.1910.t:0 "守旧势力反击"
- ideagroups.1910.d:0 "我们致力于对公民在国家中的地位采取更为自由化的观点，这导致邻国将我们视为野蛮国家，他们认为我们决心毁灭王室、教会和行会的传统权益。我们是只能信任那些与我们观念一致的人了吗？"
- ideagroups.1910.a:0 "虽千万人吾往矣。"
- sermons_for_princes_monarchist:0 "王室布道"
- desc_sermons_for_princes_monarchist:0 "[Root.Monarch.Dynasty.GetName]出现在我们国家教会的布道、祈祷中，提升了公众对于他们的观感。"
- act_of_seclusion_monarchists:0 "隔绝法案"
- desc_act_of_seclusion_monarchists:0 "议会派已经和一个愿意削弱[Root.GetName]君主派的外国势力协商。"
- distrust_among_nobles_monarchists:0 "贵族间的不信任"
- desc_distrust_among_nobles_monarchists:0 "政府机关对[Root.Monarch.Dynasty.GetName]家族的抵触使得一些军队将领对于领导者不信任。"
- monarchists_rally_against_rival:0 "君主派团结贵族对抗敌国"
- desc_monarchists_rally_against_rival:0 "[Root.GetName]亲王在对抗我们宿敌的战争中接过了领导权，以这一崇高的事业团结了贵族。"
- dutch_republic.2.t:1 "[Root.GovernmentName]的政治准则"
- dutch_republic.2.da:0 "[Root.GetName]的一位备受敬重的顾问，$STATESMAN$$DIPLOMAT$$TRADER$$COLONIAL_GOVERNOR$，最近出版了一本专著讨论共和制政府所要遵循的政治原则。尽管书本身质量很高，论证非常有说服力，但书中的部分材料对奥兰治亲王最近把持[Root.Monarch.GetTitle]之位的行为提出了严厉的批评，这位顾问对[Root.Monarch.GetName]的忠诚可能不像我们想的那样不可动摇。"
- dutch_republic.2.db:0 "[Root.GetName]的一位备受敬重的顾问，$STATESMAN$$DIPLOMAT$$TRADER$$COLONIAL_GOVERNOR$，最近出版了一本专著讨论共和制政府所要遵循的政治原则。尽管书本身质量很高，论证非常有说服力，但书中的部分材料对[Root.GetName]亲王最近把持[Root.Monarch.GetTitle]之位的行为提出了严厉的批评，这位顾问对[Root.Monarch.GetName]的忠诚可能不像我们想的那样不可动摇。"
- dutch_republic.3.da:0 "[Root.Religion.GetName]教堂讲坛上的布道使群众对于奥兰治家族的支持得到加强，在教堂中群众经常被灌输一个强有力的统治者对于国教的重要性与世袭统治的传统。\n\n然而，[Root.GetName]容纳了不止一种信仰。那些信奉不同信仰的人对于奥兰治亲王并不总是持有正面的评论，其中一些人利用我们国家的民主公然攻击[Root.Monarch.GetTitle]与国教。"
- dutch_republic.3.db:0 "[Root.Religion.GetName]教堂讲坛上的布道使群众对于[Root.Monarch.Dynasty.GetName]家族的支持得到加强，在教堂中群众经常被灌输一个强有力的统治者对于国教的重要性与世袭统治的传统。\n\n然而，[Root.GetName]容纳了不止一种信仰。那些信奉不同信仰的人对于[Root.GetName]亲王并不总是持有正面的评论，其中一些人利用我们国家的民主公然攻击[Root.Monarch.GetTitle]与国教。"
- dutch_republic.4.t:1 "[Root.GovernmentName]与自由贸易"
- dutch_republic.4.a:1 "他们的要求毫不相干。他们是[Root.GovernmentName]的臣民因而必须顺从。"
- dutch_republic.5.t:1 "[Root.GetName]的国王"
- dutch_republic.5.da:0 "奥兰治家族最近在[Root.GetName]受到了越来越多的支持。因此，他们的支持者也变得更为大胆。教会中的支持者以指称皇家的形式谈论起历任奥兰治亲王，将他们比作圣经中的古代贤王。我们的人民没有忘记他们在保卫我们国家主权中扮演的角色，并且被赞颂为救国救民之人的后裔毫无疑问有益于[Root.Monarch.GetName]。然而，即便是在教会布道的背景下，称呼[Root.Monarch.GetHerHim]为国王也有削弱我们共和政体的风险。"
- dutch_republic.5.db:0 "[Root.Monarch.Dynasty.GetName]家族最近在[Root.GetName]受到了越来越多的支持。因此，他们的支持者也变得更为大胆。教会中的支持者以指称皇家的形式谈论起历任[Root.GetName]亲王，将他们比作圣经中的古代贤王。我们的人民没有忘记他们在保卫我们国家主权中扮演的角色，并且被赞颂为救国救民之人的后裔毫无疑问有益于[Root.Monarch.GetName]。然而，即便是在教会布道的背景下，称呼[Root.Monarch.GetHerHim]为国王也有削弱我们共和政体的风险。"
- dutch_republic.6.da:0 "尽管仍然把持着[Root.Monarch.GetTitle]的位子并且统治着[Root.GetName]，但奥兰治派的影响力在最近开始轻微地衰弱。那些通过与奥兰治家族结盟来获取权力的贵族，越来越多地把这看做奥兰治家族尽管有很多功绩仍然受制于共和国的官僚制度和政治环境的表现。\n\n我们军队中的一些骨干人员要求[Root.Monarch.GetName]在军事事务中更加明确地展示力量。他们的建议并不十分具有建设性作用，但会让保守派满意。"
- dutch_republic.6.db:0 "尽管仍然把持着[Root.Monarch.GetTitle]的位子并且统治着[Root.GetName]，但君主派的影响力在最近开始轻微地衰弱。那些通过与统治家族结盟来获取权力的贵族，越来越多地把这看做[Root.Monarch.Dynasty.GetName]家族尽管有很多功绩仍然受制于共和国的官僚制度和政治环境的表现。\n\n我们军队中的一些骨干人员要求[Root.Monarch.GetName]在军事事务中更加明确地展示力量。他们的建议并不十分具有建设性作用，但会让保守派满意。"
- dutch_republic.7.da:0 "尽管奥兰治家族垄断了[Root.Monarch.GetTitle]的政权，[Root.GetName]最近却见证了共和思想的流行。议会派将此视为一个信号，认为我们国家极有可能向着他们所期望的制度完善的共和国方向发展。其中一些人甚至因为奥兰治亲王支持这种改变而称赞他。无论其真实性多大，我们最近的政治操作一直为保持尼德兰共和国的生机而努力。"
- dutch_republic.7.db:0 "尽管[Root.Monarch.Dynasty.GetName]家族垄断了[Root.Monarch.GetTitle]的政权，[Root.GetName]最近却见证了共和思想的流行。议会派将此视为一个信号，认为我们国家极有可能向着他们所期望的制度完善的共和国方向发展。其中一些人甚至因为[Root.GetName]亲王支持这种改变而称赞他。无论其真实性多大，我们最近的政治操作一直为保持[Root.GovernmentName]的生机而努力。"
- dutch_republic.8.da:0 "奥兰治派对于[Root.GetAdjective]的统治已经施加了巨大的影响力，而政治舞台上最近的事态发展只会加强他们对于所谓共和国的掌控。我们当中一些曾经忠诚的国民已经将此视为[Root.GetName]的优先事项开始起变化的一种信号，认为税赋被浪费在贵族家庭无谓的追求上的时代即将到来。他们认为长久以往只会有无尽的冲突与暴政。许多人通过拒绝向这个政府缴税来抗议。"
- dutch_republic.8.db:0 "君主派对于[Root.GetAdjective]的统治已经施加了巨大的影响力，而政治舞台上最近的事态发展只会加强他们对于所谓共和国的掌控。我们当中一些曾经忠诚的国民已经将此视为[Root.GetName]的优先事项开始起变化的一种信号，认为税赋被浪费在贵族家庭无谓的追求上的时代即将到来。他们认为长久以往只会有无尽的冲突与暴政。许多人通过拒绝向这个政府缴税来抗议。"
- dutch_republic.9.da:0 "[Root.Monarch.GetName]已经建立了绝对的统治。在这之前历任奥兰治亲王对[Root.GetName]的统治已经持续很久，所有迹象都表明[Root.Monarch.GetTitle][Root.Monarch.GetHerHis]统治将维持终生。\n\n$SPYMASTER$，[Root.Monarch.GetHerHis]一位亲信幕僚，赞同这个判断。他对于国家如此忠诚，以至于他如果发现对共和国有威胁的人存在，便会毫不犹豫地取他性命。最近一次只有少部分人参加的密会中，$SPYMASTER$告知大家[Root.Monarch.GetTitle][Root.Monarch.GetHerHim]本人以及奥兰治派对权力的把持或许是对共和体制的最大威胁。$SPYMASTER$确信，所谓终生执政必将不会长久。"
- dutch_republic.9.db:0 "[Root.Monarch.GetName]已经建立了绝对的统治。在这之前历任亲王对[Root.GetName]的统治已经持续很久，所有迹象都表明[Root.Monarch.GetTitle][Root.Monarch.GetHerHis]统治将维持终生。\n\n$SPYMASTER$，[Root.Monarch.GetHerHis]一位亲信幕僚，赞同这个判断。他对于国家如此忠诚，以至于他如果发现对国家有威胁的人存在，便会毫不犹豫地取他性命。最近一次只有少部分人参加的密会中，$SPYMASTER$告知大家[Root.Monarch.GetTitle][Root.Monarch.GetHerHim]本人以及君主派对权力的把持或许是对国家体制的最大威胁。$SPYMASTER$确信，所谓终生执政必将不会长久。"
- dutch_republic.10.da:0 "奥兰治亲王握有不容置疑的忠诚。尽管我们国家自诩为共和国，但自由选举已成往事。不仅是议会派在质疑[Root.GetName]共和制度的完整性；这些思想越来越少地被提及。无论我们的[Root.Monarch.GetTitle]理想多么崇高，我们政府的基石已然消失。"
- dutch_republic.10.db:0 "[Root.GetName]亲王握有不容置疑的忠诚。尽管我们国家自诩为共和国，但自由选举已成往事。不仅是议会派在质疑[Root.GetName]共和制度的完整性；这些思想越来越少地被提及。无论我们的[Root.Monarch.GetTitle]理想多么崇高，我们政府的基石已然消失。"
- dutch_republic.13.da:0 "[Root.GetName]或许是共和国，但我们仍然通过联姻的血缘关系在与其他国家的关系上保持了足够的力量。即便如此，当权者的统治越不稳定，这些关系就越脆弱。\n\n鉴于我国已经废弃了世袭制的传统，那些往常支持议会派当政的国家现在开始担心他们与[Root.GetAdjective]权力核心的联姻纽带将被削弱。他们希望确保具有影响力的大家族能保留一些权力……包括奥兰治家族。"
- dutch_republic.13.db:0 "[Root.GetName]或许是共和国，但我们仍然通过联姻的血缘关系在与其他国家的关系上保持了足够的力量。即便如此，当权者的统治越不稳定，这些关系就越脆弱。\n\n鉴于我国已经废弃了世袭制的传统，那些往常支持议会派当政的国家现在开始担心他们与[Root.GetAdjective]权力核心的联姻纽带将被削弱。他们希望确保具有影响力的大家族能保留一些权力……包括[Root.Monarch.Dynasty.GetName]家族。"
- dutch_republic.14.t:1 "陆军中的贵族团体"
- dutch_republic.14.da:0 "议会派成功地使[Root.GetName]的政府机构体系更加共和化，但是有一个机构对改革非常抗拒，那就是军队。和奥兰治家族十分亲密的一位将军破坏了我们试图架空忠于奥兰治家族的高阶将领的努力。\n\n现在，他甚至更进一步，想要他的一位亲戚，同样也是奥兰治派的人，成为[Root.Monarch.GetTitle]的顾问。虽然这个年轻人看起来是个有才华的指挥官，我们不会乐见他取得影响力。"
- dutch_republic.14.db:2 "议会派成功地使[Root.GetName]的政府机构体系更加共和化，但是有一个机构对改革非常抗拒，那就是军队。和[Root.Monarch.GetName]家族十分亲密的一位将军破坏了我们试图架空忠于[Root.Monarch.GetName]家族的高阶将领的努力。\n\n现在，他甚至更进一步，想要他的一位亲戚，同样也是君主派的人，成为[Root.Monarch.GetTitle]的顾问。虽然这个年轻人看起来是个有才华的指挥官，我们不会乐见他取得影响力。"
- dutch_republic.15.t:1 "贵族盼望[Root.GetName]亲王掌权"
- dutch_republic.15.da:0 "通过继承掌握大权的人往往笃信权力世袭的优点。[Root.GetName]的当地贵族并未察觉这种联系，并声称他们希望奥兰治家族掌权是为了国家的团结和稳定。\n\n统治那些不认同我们观点的人并非易事。有时，直接冲突无法避免。有时则可以避免，但需要付出代价。"
- dutch_republic.15.db:0 "通过继承掌握大权的人往往笃信权力世袭的优点。[Root.GetName]的当地贵族并未察觉这种联系并声称他们希望[Root.Monarch.Dynasty.GetName]家族掌权是为了国家的团结和稳定。\n\n统治那些不认同我们观点的人并非易事。有时，直接冲突无法避免。有时则可以避免，但需要付出代价。"
- dutch_republic.15.a:1 "他们是[Root.GetName]的国民，和其他人一样！"
- dutch_republic.16.t:1 "[Root.GovernmentName]的成功"
- dutch_republic.17.da:0 "最近对奥兰治派支持的增长点燃了对于其他国家如何看待我们的争论。一个有着弱势君主的国度会被视为猎物并且不值得尊重。而对于一个完全没有君主的国家，这又意味着什么？\n\n奥兰治派宣称他们有答案。为了让我们国家成为国际社会上的强大竞争者，[Root.Monarch.GetTitle]必须显示出[Root.Monarch.GetHerHis]能力来团结与统治。无用的力量炫耀通常被视为浪费，但现在看来这种炫耀或许是必须的。"
- dutch_republic.17.db:0 "最近对君主派支持的增长点燃了对于其他国家如何看待我们的[Root.GovernmentName]的争论。一个有着弱势君主的国度会被视为猎物并且不值得尊重。而对于一个完全没有君主的国家，这又意味着什么？\n\n君主派宣称他们有答案。为了让我们国家成为国际社会上的强大竞争者，[Root.Monarch.GetTitle]必须显示出[Root.Monarch.GetHerHis]能力来团结与统治。无用的力量炫耀通常被视为浪费，但现在看来这种炫耀或许是必须的。"
- dutch_republic.18.t:1 "[Root.GetAdjectiveCap]的光荣之路"
- dutch_republic.18.da:0 "在最近的奥兰治派与议会派冲突中敌方的胜利，出乎意料地使得[Root.GetName]从中受益。曾经对军事事务兴趣寥寥的贵族，如今开始期盼能有一位奥兰治亲王引导我们的人民走向辉煌。他们看到了[Root.GetAdjective]共和国光明、荣耀的未来，而无论这种看法是否正确，这会使得我们急需将领的军队从中受益。"
- dutch_republic.18.db:0 "在最近的君主派与议会派冲突中敌方的胜利，出乎意料地使得[Root.GetName]从中受益。曾经对军事事务兴趣寥寥的贵族，如今开始期盼能有一位[Root.GetName]亲王引导我们的人民走向辉煌。他们看到了[Root.GetAdjective]共和国光明、荣耀的未来，而无论这种看法是否正确，这会使得我们急需将领的军队从中受益。"
- dutch_republic.18.a:1 "让支持者加入陆军"
- dutch_republic.18.b:1 "让支持者加入海军"
- dutch_republic.19.da:0 "共和统治意味着频繁的妥协，寻找中间立场来使得决议通过。有时则不然。在最近的奥兰治派和议会派的冲突中，当现政府得胜时，有些贵族将此看做共和统治开始变得不通情理、肆意妄为的信号。\n\n我国士兵的士气或许会保持高涨，但有些将领对[Root.GetAdjective]的事业正在失去信心。他们或许是错的，但我们的军事力量会因此削弱。"
- dutch_republic.19.db:0 "联邦统治意味着频繁的妥协，寻找中间立场来使得决议通过。有时则不然。在最近的君主派和议会派的冲突中，当现政府得胜时，有些贵族将此看做共和统治开始变得不通情理、肆意妄为的信号。\n\n我国士兵的士气或许会保持高涨，但有些将领对[Root.GetAdjective]的事业正在失去信心。他们或许是错的，但我们的军事力量会因此削弱。"
- dutch_republic.20.da:1 "[Root.Mil_Advisor.GetName]是一个行动派的人，这也是为什么[Root.Mil_Advisor.GetSheHe]被当局所雇佣，而且尽管[Root.Mil_Advisor.GetSheHe]是一个著名的奥兰治派，他却能长期把持[Root.GetName]的首席军事顾问的位置。不过现在，[Root.Mil_Advisor.GetHerHis]行动开始针对起我们了。\n\n[Root.Mil_Advisor.GetName]声称议会派的势力已经不容置疑、正在摧毁[Root.GetName]，并把感到权力受到当权派系威胁的人团结在[Root.Mil_Advisor.GetHerHim]身后，准备发起政变来夺权。现在是时候阻止他们了。"
- dutch_republic.20.db:1 "[Root.Mil_Advisor.GetName]是一个行动派的人，这也是为什么[Root.Mil_Advisor.GetSheHe]被当局所雇佣，而且尽管[Root.Mil_Advisor.GetSheHe]是一个著名的君主派，他却能长期把持[Root.GetName]的首席军事顾问的位置。不过现在，[Root.Mil_Advisor.GetHerHis]行动开始针对起我们了。\n\n[Root.Mil_Advisor.GetName]声称议会派的势力已经不容置疑、正在摧毁[Root.GetName]，并把感到权力受到当权派系威胁的人团结在[Root.Mil_Advisor.GetHerHim]身后，准备发起政变来夺权。现在是时候阻止他们了。"
- dutch_republic.20.c:0 "为了王国！"
- dutch_republic.20.d:1 "为了联盟！"
- dutch_republic.21.a:1 "[Root.GovernmentName]陷入无政府状态？"
- dutch_republic.23.da:0 "我们正处在战争之中，但并非寻常的战争。我们的敌人不是一时的敌人，而是[Root.GetName]的死敌。在这样的时候，所有省份团结起来，同仇敌忾，贵族渴望领军建功立业。谁能比奥兰治亲王更擅长领兵？\n\n尽管允许奥兰治家族团结其他贵族和群众来加入战争会鼓舞士气，但议会派不是傻瓜。他们知道这种团结会在战争后依然持续，并且奥兰治派绝不愿让出他们得到的任何权力，即使是有最好的理由。"
- dutch_republic.23.db:0 "我们正处在战争之中，但并非寻常的战争。我们的敌人不是一时的敌人，而是[Root.GetName]的死敌。在这样的时候，所有省份团结起来，同仇敌忾，贵族渴望领军建功立业。谁能比[Root.GetName]亲王更擅长领兵？\n\n尽管允许[Root.Monarch.Dynasty.GetName]家族团结其他贵族和群众来加入战争会鼓舞士气，但议会派不是傻瓜。他们知道这种团结会在战争后依然持续，并且君主派绝不愿让出他们得到的任何权力，即使是有最好的理由。"
- dutch_republic.23.c:0 "[Root.Monarch.Dynasty.GetName]家族曾经领导我们国家走向胜利。"
- dutch_republic.24.da:0 "战争结束，奥兰治派的帮助起了很大的作用，他们仍然通过这些行为享有广泛的支持并且保持了他们被许诺的权力。议会派在战争时期对家族做出了让步，现在要求一切回复到战前的样子。他们宣称，这样做相当于将国家交给在战争中领导她的人，将共和国引以为荣的议会抛之不顾。"
- dutch_republic.24.db:0 "战争结束，君主派的帮助起了很大的作用，他们仍然通过这些行为享有广泛的支持并且保持了他们被许诺的权力。议会派在战争时期对家族做出了让步，现在要求一切回复到战前的样子。他们宣称，这样做相当于将国家交给在战争中领导她的人，将共和国引以为荣的议会抛之不顾。"
- dutch_republic.25.t:1 "重建[Root.GovernmentName]"
- dutch_republic.25.a:1 "让我们为[Root.GetName]人民重建这些理想。"
- dutch_republic.25.c:0 "[Root.GetName]亲王在未来会引导我们走向胜利。"
- dutch_republic.26.t:1 "[Root.GetName]的利益"
- dutch_republic.27.d:2 "我们国家的一部分边境居民怀着荣耀与征服的野心远眺边境。其他人则心怀恐惧。与一个可能威胁我们国家主权的国家接壤使得一些有影响力的士绅支持[Root.GovernmentName]国内议会派的议程，希望能避免寻求扩张[Root.GetAdjective]边界并与我们强大的邻居发生不必要冲突的亲王当权。"
- dutch_republic.28.da:0 "[Root.GetName]的贵族并不因为在边界省份而担心。相反，他们相信我们的邻国才应当担心，因为或许在我们眼中，邻国的土地被纳入[Root.GetName]治下，或是成为共和国一片新的联省议会直辖领土才会更好。国境对面的人们看起来已经知晓了这一点，因为他们显示出了对于[Root.Owner.GetName]力量的恐惧，尤其眼下是一位野心勃勃的奥兰治亲王在执政。"
- dutch_republic.28.db:0 "[Root.GetName]的贵族并不因为在边界省份而担心。相反，他们相信我们的邻国才应当担心，因为或许在我们眼中，邻国的土地被纳入[Root.GetName]治下，或是成为邦联一片新的联省议会直辖领土才会更好。国境对面的人们看起来已经知晓了这一点，因为他们显示出了对于[Root.Owner.GetName]力量的恐惧，尤其眼下是一位野心勃勃的[Root.GetName]亲王在执政。"
- dutch_republic.29.d:1 "被迫与我国的公开宿敌共享边境会让民众心中生出蔑视，但是[Root.GetCapitalName]的优秀公民能够很好地掩饰他们的轻蔑。\n\n相反，当地贵族已经开始秘密谋划对我们敌国的入侵方案，而他们认为这些方案只有当[Root.Owner.GetName]处在一位优先考虑国家荣耀而把政治斗争放在其次的领导人治下时才有机会施行。他们对共和派的努力毫无尊重，却认为只有一位亲王才能支持他们的野心。"
- dutch_republic.30.da:0 "[Root.GetName]是我们共和国的一大核心支柱省份，他们的代表在联省议会中有着很大的话语权。[Root.GetCapitalName]最近的事态发展对反对派有利，这引出了我们应该支持哪一方地方势力的问题。一次将要到来的议会辩论会给我们一次扭转局势的机会，但如果我们损害了反对派利益，他们不会给我们好脸色。"
- dutch_republic.30.db:0 "[Root.GetName]是我们联盟核心的一大核心支柱省份，他们的代表在联省议会中有着很大的话语权。[Root.GetCapitalName]最近的事态发展对反对派有利，这引出了我们应该支持哪一方地方势力的问题。一次将要到来的议会辩论会给我们一次扭转局势的机会，但如果我们损害了反对派利益，他们不会给我们好脸色。"
- dutch_republic.30.c:0 "派遣一个支持君主派的人去争论。"
+﻿l_english:
+ embraced_absolutism:0 "¥c×SN6RININ`ó`"
+ rejected_absolutism:0 "ÒbÝuN6RININ`ó`"
+ accepted_act_of_seclusion:0 "¥c×S”–ÝuÕlHh"
+ ensured_stable_rule:0 "Ç3zšRßu»lnxÝOTwûYsQû|"
+ uncertain_marriage_ties:0 "ùRŽNTwûYsQû|„v:V¦^NnxšR"
+ sermons_for_princes:0 "‹s²R^S"
+ desc_sermons_for_princes:0 "eYpQ»l¶RÏeúQ°s(WbìNýV¶RYeO„v^S0Hywy-NÿÐcGS†NlQOùRŽNÖNìN„vÂ‰a0"
+ no_sermons_for_princes:0 "NÛLˆ‹s²R^S"
+ desc_no_sermons_for_princes:0 "bìNSÕ‹©‹bìNýV¶R„v?e»lÜ»y—RYe0"
+ angered_traders:0 "2a`„vFUºN"
+ desc_angered_traders:0 "²‹:NqQŒT?eSOùRŽNÖNìN„v‹NN	g)R„vFUºN‚YÊNÑS°s(WN6Rßu»lNˆV¾–ÏuFU0"
+ no_taxes_for_tyrants:0 "ÒbÝuùR´fT²Nz"
+ desc_no_taxes_for_tyrants:0 "qQŒTýV„vN›NýVlÒbÝuTN*NÖNìN²‹:N*YÇ´fP†NN6R„vßu»lw²Nz0"
+ act_of_seclusion:0 "”–ÝuÕlHh"
+ desc_act_of_seclusion:0 "®‹O>mòTÏuŒTN*N?aaJR1VeYpQ»l¶RÏe„vYýV¿R›ROSFU0"
+ distrust_among_nobles:0 "5Ïeô•„vNáOûN"
+ desc_distrust_among_nobles:0 "?eœ^-NN›NÍSùReYpQ»l¶RÏe„vºNO—VN›N›Q–S†˜ùRŽN†˜üRwNáOûN0"
+ orangists_rally_against_rival:0 "eYpQ»l>mâVÓu5ÏeùR—bLeýV"
+ desc_orangists_rally_against_rival:0 "eYpQ»l²N‹s(WùR—bbìNÇNLe„vb‰N-N¥cÇ†˜üRCgÿåNÙNTØš„v‹NNâVÓu†N5Ïe0"
+ local_regenten_upset:0 "0W¹eDd?e'YÏe1Yg"
+ desc_local_regenten_upset:0 "TIN>mŒT®‹O>mKNô•„v)RÊv²QzO0W¹eãNhˆøvSV1Yg0"
+ local_nobles_upset:0 "0W¹e5Ïe1Yg"
+ desc_local_nobles_upset:0 "TIN>mŒT®‹O>mKNô•„vSV0W²QzO5Ïe1Yg0"
+ dutch_republic.1.t:0 "ÝuùR„vCg›R"
+ dutch_republic.1.d:0 "NhTôVvQÖN×Sßu»lw‹Së„vºNløvÔkÿbìN:NbìNìrNàeŒN„v[Root.GovernmentName]wêjŒ0FO=fÑåeŠegŠY„v5ÏecúQÿN6RININNÅN=fSVÊNNLu„vnoAmÿØ(WbìN„v»ýVKNô•‡˜×S0kÎ0(Wå‹6R¦^Nÿßu»lwåb	gNwÑNNàeP–Cg›R0\n\n5ÏeìN±Rðy[Root.Monarch.GetName]åb	gb:NN*NO'Y„vßu»lw„vNRyr'`0KˆN[Root.Monarch.GetTitle]ôfYCg›RïSåNObìN„výV¶RÌR:Vv^TvQÖNßu»lwhˆ:ybìN^bÖNìN„v`ó`0"
+ dutch_republic.1.a:0 "[Root.Monarch.GetTitle]sS:NýV¶Rÿ"
+ dutch_republic.1.b:0 "bìNÎNYýV„v´fT±Ì‘ÀNHNýfRN0Rÿ"
+ dutch_republic.2.a:1 "‹†6qˆVW¾aÿFO=fbìNÅV‰˜Vd–$STATESMAN$$DIPLOMAT$$TRADER$$COLONIAL_GOVERNOR$0"
+ dutch_republic.2.b:0 "¨bûQöe?eùRbìNqQŒTýVwŠg:NÍ‘‰0"
+ dutch_republic.3.t:0 "‹s²R^S"
+ dutch_republic.3.a:0 "bìNÅV‰˜nxÝOT†Ú‹wRfLeËS0"
+ dutch_republic.3.b:0 "©‹bìNÇM–NO±R.O›R¦^egŒTNS¿R0"
+ dutch_republic.4.d:0 "	g†NÏP[Root.Monarch.GetName]Ù7h„v[Root.Monarch.GetTitle]ÿ'YYpe5Ïe²‹:N¡l	g	>N„vÅV‰ÿÙêSOJR1V¨RGd[Root.GetAdjective]0¸‹Y8fFUºNNTaÙÍyô‹Õl0ÖNìN²‹:NÿqQŒTýV„vSO6RÿSìbê1u	>NÿùRŽNnxÝO[Root.GetName]ôucÏuNmO¿R=fósQÍ‘‰„v0\n\n(WN*N	gNwib.VÎ‘ÃV„vìrÁˆ[Root.Monarch.GetTitle]»lNÿÖNìNÇ»SNb«N	g„vê1u8fŒTê1uCg)RïSýwO×S0RZÁw0‚Yœg°sûN[Root.Monarch.GetTitle]‰Èu«Žßu»lÿÖNìNO‰Bl[Root.Monarch.GetSheHe]:N†NÙ›NŸSRwZPúQ©‹ek0"
+ dutch_republic.4.b:0 "bìNïSåN(WÖNìN„vÐg›NÂ‰¹pN©‹ekv^ZPúQøv”^9ei—0"
+ dutch_republic.5.a:0 "ºNlI`å‹	gCgåwS=fŒ†˜üRÖNìNpTê1u'Tÿ"
+ dutch_republic.5.b:0 "	g†NÙÍy=ecÿÖNìNýwÝOc&Œ0"
+ dutch_republic.6.t:0 "5ÏecgvQƒR¶RÏe"
+ dutch_republic.6.a:0 "ÖNìNbe(‘ubìNÿ©‹ÖNìNÚnË†0"
+ dutch_republic.6.b:0 "bìNOKS›Rán³ÖNìN0"
+ dutch_republic.7.t:0 "wck„vê1u"
+ dutch_republic.7.a:0 "b¸‹ÿ	g±HNN)Y&&"
+ dutch_republic.8.t:0 "NÙu´fT4z"
+ dutch_republic.8.a:0 "ÕqÀ–‰Råw?žDžKN×Vÿ"
+ dutch_republic.9.t:0 "dksS:N´fTv`œg"
+ dutch_republic.9.a:0 ":N†NqQŒTÿbìNÅV‰˜Lˆ¨Rweg0"
+ dutch_republic.9.b:0 "$SPYMASTER$ÿbøváO`O¯r†NÛSýVj0"
+ dutch_republic.9.b.tt:0 "`OåwS±›NÛSýVw„vN:WTÿ"
+ dutch_republic.10.t:0 "ÌwVqQŒT"
+ dutch_republic.10.a:0 "bìNO(ubìN„v`ó`ãNÿfƒRìN0"
+ dutch_republic.11.t:0 "Ðc®‹úQðS”–ÝuÕlHh"
+ dutch_republic.11.d:0 "bìNN<S·VpQqQŒTýV¾b†NŒTs^&&‚föe'`„v0ag¦u„vgÈuag>k(Wb‰NÓumgöeúW,g¾bNôÿFOÍN6qYu	gŒ2R„vYO0W0bìN—VåwvQSVÊN„vßu»lwùRŽNJR1VeYpQ»l>mÿN*N(WqQŒTýV-NýûRCg›R„v5Ïe¶R­^„v0WMOˆV	gtQ±0\n\n‚YœgbìNÐc®‹ùR¹eúQðSÕlHh©‹NûNeYpQ»l²N‹sÜ»y?eCgÿÙâeïSåNÐcGSbìNNvQ°s?eœ^„vsQû|ÿmNïSåN2–bkúQ°sN*NTbýVQ¦^(uuQ„výV‹s0"
+ dutch_republic.11.a:0 "ÙS=fÍ‘°eVËY„v‹YžRÕl0"
+ dutch_republic.11.a.tt:0 "T[This.GetName]ÐcúQOS®‹0"
+ dutch_republic.11.b:0 "bìN¡l	gt1u=ecÖNìN„v°s?eœ^0"
+ dutch_republic.12.t:0 "”–ÝuÕlHh"
+ dutch_republic.12.d:0 "N[From.GetName]„vb‰NÓumg†NÿbìN²‹:NNRýã‰³Q†N0Œ2R(WN›NÆug+g‚‚N‰Nº‹NOÿFO(WÙhTÿNRý9eØS†Nÿ[From.GetAdjective]ãNhˆÐc®‹N*N°e„vag>k0äNbìNÊ`¶‹„v=fÿÙ=fN*NùRqQŒTýV	g)R„vag>k0\n\n:N†NJR1VeYpQ»l¶RÏe„v?e»l0WMOÿÖNìNó`©‹bìNÇNy˜©‹*geg„veYpQ»l²N‹sÜ»y[Root.Monarch.GetTitle]?eCg„vÕläN0ÖNìN„v¨R:g‹†6qNfÿFOsSOÙ7hNy˜ÕläNNO8lÜuHeÿƒRmNýwY R:V®‹O>mßu»l&&‚Yœg(ŒNaYt„vÝ‹0"
+ dutch_republic.12.a:0 "bìNåwS‚YUOYt0"
+ dutch_republic.12.b:0 "¥c×SLeºN‚Ydk„v‰Bl=f¾–åNnáO„vÿ"
+ dutch_republic.13.t:0 "brNïS4x„vËu&^"
+ dutch_republic.13.a:0 "ÖNìNS«ˆöeãNNb›bVÿFObìNNO0"
+ dutch_republic.13.b:0 "úQ©‹N›NCg›RegnxÝObr`—„vsQû|0"
+ dutch_republic.14.a:0 "ŠbÙ*NS›Q0RN*NÖNÞVNeg„v0W¹e0"
+ dutch_republic.14.b:0 "©‹Ù*Nt^‰ºNeg0RbìN«Ž¹ÿv^Â‰ßROÑSuÀNHN0"
+ dutch_republic.15.b:0 "bìNOØNúQãN÷Nv^NZPúQÅV‰˜„v©‹ek0"
+ dutch_republic.16.d:0 "gÑ®‹O>m„vßu»l„vžX:V„˜:yNw†NqQŒTöeãNsSSeg4N0Ïu8„vb•0ðyLw„vßu»lÿ[Root.GetName]Nû|R„vbŸRýêSïSýwÑSu(WbýVÙ7h„vLˆw¦Tw-N0\n\nÇRdV†NèRHQ‹sNbZWc„vìrÁˆµc6RÿbìNZP0R†NÖNìNàeÕlZP0R„v‹NÅ`0w°s(W=föeP:Nê1uxSNôfY·g•ÿåNpV>fbìNùRdkÍytõV„váOÃV†N0"
+ dutch_republic.16.a:0 "Ù=f[Root.GetName]O'Y„vfÁ‹ÿ"
+ dutch_republic.16.b:0 "qQŒTININ<P—VbìN:NKNIY.s0"
+ dutch_republic.17.t:0 "àe‹sýV¦^"
+ dutch_republic.17.a:0 "´fT„vwÕlàeNbŒ0"
+ dutch_republic.17.b:0 "bìNOÁ‹fbìN„v[Root.Monarch.GetTitle]ŒTûNUOTINN7h:V'Y0"
+ dutch_republic.19.t:0 "S›Q(‘uSVNS"
+ dutch_republic.19.a:0 "ÖNìNOf‹vÙStv^ßRÉ‰bìNòTÏußRÉ‰0R†NÖNìN0"
+ dutch_republic.20.t:0 "?eØS"
+ dutch_republic.20.a:0 ":N†NeYpQ»l¶RÏeÿ"
+ dutch_republic.20.b:0 ":N†NqQŒTÿ"
+ dutch_republic.21.t:0 "aÁ‰Rgk"
+ dutch_republic.21.d:0 "(WTww®‹O„vàQ*N®‹HhNÿ—‰¥YOSegO[Root.GovernmentName]	gHe‡s0WÐLˆ0SVãNhˆàeÕl¾bNôöeÿbìN„výV¶RàeÕlßu»l0bìNnxÝO[Root.GetName]Nýw«ˆÁ”UìrÁˆßu»l„vªR›RbŸR†N06qwÿÙmNasTNwqQÆ‹ÅV‰˜ÏuÇ?e»lÍdµuw^—CgZ0	göeÿ9h,g¾NbqQÆ‹0"
+ dutch_republic.22.t:0 "S›Q‰BlCg›R"
+ dutch_republic.22.d:0 "•ENåNegÿb‰NÏu8^=fYpeºNgÎNSpeºN„vöeIR0aÆ‹0RÙ¹pÿbìNN?aùR›QºN(WCg›RNZPúQÇY„v©‹ek0sSObìN„výV¶R(Wb‰N¶r`0\n\nN*NùRŽNbìN0RîvMR:Nbk0WbŸRósQÍ‘‰„vS†˜óS(WÖNêñTweg=fÙ7hÿ°sckN[Root.GovernmentName]ãNhˆ(W*geg„vLˆ¨R¹eTNÑSu†N²Qz0ÖN„v›Q‹Nc%cýw›RËk¸^n‘uÿFO>PTŽNfk›R„v®‹O>m^TÖN„vaÁ‰OJR1VÖNìN(W[Root.GetName]„v?e»l0WMO0"
+ dutch_republic.22.a:0 "Tww®‹O”^SVuÎNÖN„vaÁ‰åNnxÝOÜw)R0"
+ dutch_republic.22.b:0 "bìN‰(WP``b—MRZWcbìN„vtó`ÿ"
+ dutch_republic.23.t:0 "eYpQ»l>mâVÓu5Ïe ReQb‰N"
+ dutch_republic.23.a:0 "eYpQ»lþfÏu†˜üRbìNýV¶RpTÜw)R0"
+ dutch_republic.23.b:0 "bìNNýwàVdk>eVqQŒT‹NN0"
+ dutch_republic.24.t:0 "®‹O>m^gôuc°s¶r"
+ dutch_republic.24.a:0 "NRÅV‰˜ÞV0RÇ»S„v7hPR0"
+ dutch_republic.24.b:0 "ÖNìN:NýVwbÿ©‹ÖNìNÝOYuÖNìN„vCg›R0"
+ dutch_republic.25.d:0 "b‰NùR[Root.GetName].bmc1Y0ºNìNKYÇRjObÿKS¡r	g›NºNO:NbìNýV¶RÎNÙ!kb‰N-N·ƒ—V„v2OÕua0RêjŒÿFOôfY„vºNaÆ‹0R†Nb‰N„v‹kw‘0®‹O>mÑS°sÎN±›N	gÙÍyó`Õl„vºNSV-N·ƒ—V=ec„v:gOÿðXðywck„vqQŒTýVàe—b‰NmNN?ab‰N0ÙOÏQ‰ºNìNùRŽN*geg„vçVQ†ÿw*gegbS^SŽN®‹O>m0"
+ dutch_republic.25.b:0 "eYpQ»l²N‹s(W*gegOVüRbìNpTÜw)R0"
+ dutch_republic.26.d:0 "[Root.GetName]=fFUºNŒTýVE–8f„vsQ.•ÿÙÎNºNìNVËY°‹‹Nöe¿O=f‚Ydk0FOTÙ7hbŸR„vsQ.•Nôv=f‰Nº‹„v&q¹p0gÑÿNMOegêå‹0W:S„vÏuNmfR¶R(WÖN„vW„jO0[Root.GetName]„v)RÊvÊSvQAucƒ„v¨R:g0-Nhˆ:yqQŒT?eSO=fwýNAucƒ„vŸSàVKNNÿ—f:y(WT„v?e»l¯sƒXNÿÙÍy‹YÐOM^[Root.Owner.GetName]0"
+ dutch_republic.26.a:0 "fzf„vú^®‹0"
+ dutch_republic.26.b:0 "ÖNìN„v)RÊvùRŽNvQÖN[Root.Owner.GetAdjective]ºN=fNÅV‰„v0"
+ dutch_republic.27.t:0 "sQèl¹Lu"
+ dutch_republic.27.a:0 "(WÖNìN„v=ecNÿbìN„v*gegSO=f8lEN„vŒTs^0"
+ dutch_republic.27.b:0 "NÅVtOÙ›Næa+Y„vwÕlÿ"
+ dutch_republic.28.t:0 "[Root.GetName]„vÎ‘g"
+ dutch_republic.28.a:0 "ÖNìNO	gP`ç`bìN„vt1u0"
+ dutch_republic.28.b:0 "bìN„výV¶R‚YœgåNvQÖN¹eVßu»lÿvQÖNºNßu»lÿN7hOÙHN:V'Y0"
+ dutch_republic.29.t:0 "[Root.GetName]„v¡‹R"
+ dutch_republic.29.a:0 "²N‹s„vnx=ec0"
+ dutch_republic.29.b:0 "b‰N=fTww®‹O„v‹NÅ`ÿw^—0W¹e5Ïe0"
+ dutch_republic.30.t:0 "[Root.GetCapitalName]„v©º‹"
+ dutch_republic.30.a:0 ">mcN*N=eceYpQ»l>m„vºN»S‰Nº‹0"
+ dutch_republic.30.b:0 ">mcN*N=ec®‹O>m„vºN»S‰Nº‹0"
+ strong_guild:0 ":V	g›R„vLˆO"
+ desc_strong_guild:0 "µc6RNwÙ*Nw„vúW,g²Nf'irµN<P„vLˆO„v›RÏ‘(WgÑ„vN!k²Qz-N«ˆ R:V†N0"
+ free_trade_of_goods:0 "'irê1u8f"
+ desc_free_trade_of_goods:0 "(Wte*NýV¶RÿÙ*NwýN„vúW,g'ir8fN×SLˆOP–6R0"
+ allowed_imports:0 "AQ¸‹ÛãS"
+ influential_guild_members:0 "	gqVÍT›R„vLˆObXT"
+ desc_influential_guild_members:0 "SV0WLˆO†˜–ˆòTÏu:V'Y0RïSåNÖSãN5Ïe0"
+ influential_nobles:0 "	gqVÍT›R„v5Ïe"
+ desc_influential_nobles:0 "SV0W5Ïe(uWYu„vŒT.Oßu„vŽ·VegÝOcÖNìN„vqVÍT›R0"
+ foreign_guild_infiltrated:0 "YýVLˆO„vn"
+ desc_foreign_guild_infiltrated:0 "bìNLˆO„vbXTòTÏubŸR0W‡eQ0RýVY„vTLˆKN-N0"
+ guilds_compromised:0 "LˆO¥YOS"
+ desc_guilds_compromised:0 "LˆOKNô•„výVE–TjOòTÏuqS³R0R†NýV¶R:gÆR0"
+ suspended_diplomat:0 "«ˆŸ^d–„vY²N˜R"
+ desc_suspended_diplomat:0 "ùRýV¶R„vàVÚ‹	g…V¡Råg„vY²N¶R=fybk:NýV¶Rg¡R„v0"
+ paranoid_recruitment:0 "OPgb„vVßR"
+ desc_paranoid_recruitment:0 "àVÚ‹„v5ÏeìNÎN?eœ^„vLˆ?eèè•„v°ebXT-NûRŒbjo(W„vTŒw0"
+ trade_with_neighbor:0 "N»ýV8f"
+ desc_trade_with_neighbor:0 "bìNòTÏuAQ¸‹†NŒTN*N»ýV„v²Nf0"
+ enemy_allowed_trade:0 "LeºNAQ¸‹8f"
+ guilds_cooperating:0 "LˆOTjO"
+ desc_guilds_cooperating:0 "(W?e»l‹N¡R-NâVÓuwegÿT*NLˆOfRO†NØšHeTjO0"
+ traders_look_abroad:0 "FUºNSîvIQ•bTwmY"
+ desc_traders_look_abroad:0 "(WqQŒTýV-NéTúV†N›RÏ‘TÿFUºNìNŠbîvIQ•bT†NNLu„vvQÖN0W¹e0"
+ aristocracy_united:0 "5ÏeâVÓu"
+ desc_aristocracy_united:0 "ýV-N„v5ÏeìNNwTjOóSeg‚föe0WÝOOOÖNìN„v?e»lCg›R0"
+ goods_crossing_borders:0 "'irèŠýVƒX"
+ guilds_obstruct_trade:0 "LˆOI–x8f"
+ desc_guilds_obstruct_trade:0 "1uŽN?e»lN„vRgkÿLˆOybkSV0WFUÁT„v²Nf0"
+ uncooperative_trader:0 "NTjO„vFUºN"
+ desc_uncooperative_trader:0 "1uŽN?e»lRgkÿFUºNÒbÝu:NqQŒTýVHe›R0"
+ attempted_assassination_of_heir:0 "çubºN„v—fNgOþV"
+ republic_factions.1.t:0 "LˆOP–6R[Root.GetTradeGoodsName]8f"
+ republic_factions.1.d:0 "[Root.Owner.GetName]„v[Root.GetTradeGoodsName]8f(W[Root.GetName]VÑS†N²Qz0±›Nó`‰ê1upNVSÙ›NFUÁT„vFUºNìN²‹:NŠbµcvQuµN6R.„vLˆO‚YÊN¿R›RÇŽN:V'Y0(WÖNìNwegÿ¡lÀNHNÔkN¶RTNTwßvOSOôf	g³RŽNÏuNm†N0\n\n6qwLˆO†˜–ˆtSðXðyÖNìN„vÄuÇu©‹[Root.GetTradeGoodsName]„vuµNØS—Vôf RØšHe0àeº‹bìN=ecêTN¹eÿÍSùRbìN?eVr„vN¹eýOÎN-N×S³RÿuóO4xOWÖNìNêñT„v8fIm¨RåNdkhˆfËz:W0"
+ republic_factions.1.a:0 "bìN‰6RšRÕl‹VJR1VŒTP–6RÙ¶R„W­eÆ–âV0"
+ republic_factions.1.b:0 "N*N:V	g›R„vTNOSOùRŽNÝOœ–FUÁT(Ï‘=fˆV	gÅV‰„v0"
+ republic_factions.2.t:0 "LˆO¨c¨RÍ‘FUININ9ei—"
+ republic_factions.2.d:0 "Ñt^egÍ‘FUININÏuNmfRtº‹(W	gqVÍT›R„vLˆObXT-NØS—VˆV×S0kÎ0>f6qÿÖNìN(WÙ¹eb—fRÆ‹nZS&&T7hÿˆVÑQçT„v=fÿÖNìNmNôf¹RfÎNÖNìNNb=ec„vÙ›N?eVr-N·ƒÊv0\n\nvQÖNºNtSN*YïSýwT7h—VÊv0èýVÏu%„„v:V'YFUºNìNðXðyÙ›Ntº‹SpT‰káwTÿÖNìNNÜ`NRãN÷NmN‰I–bkqQŒTýVÇ‘³uÙ›Ntº‹0P©RLˆO„v=ecÿƒRìNˆV	gïSýwOžR°sÿSV6qÿ&^eg?e»l¨Raƒ=fàeïSMQ„v0"
+ republic_factions.2.a:0 "bìNïSàe›R»S¢c0t‰káwT0"
+ republic_factions.2.b:0 "Í‘FUININMb=f*gegÿàeº‹±›N8fwìN=f&TaÆ‹0R†NÙN¹p0"
+ republic_factions.3.t:0 "FUºN|TTžX RÛãS"
+ republic_factions.3.d:0 "N*N:V'Y„vLˆOO—V[Root.Owner.GetName]0W:S„v[Root.GetTradeGoodsName]÷N<hÞ˜¨m0‚YÊNÿFUºNìNÑS°sÿwmYÛãS'irÔkwÎN,g0WÇ‘-ôf R¿OœRÿÖNìN±Rðy[Root.Owner.GetAdjective]°sLˆ„vÛãSÕlÄ‰I–.c†NFUNÑSUS0\n\nM–NOsQzS:NbìN„vFUºNÐc›Oo‚‹Y„v:gOÿOÖNìNïSåNN[Root.GetTradeGoodsName]INµN0WŒrr	g)RïSþV„vOS®‹ÿFO=f:VÈpÍSùRÙN?eVr„vLˆOÿT7hONWYO›R0WŒBlžR°svQIN.V0"
+ republic_factions.3.a:0 "bìN–™‰„vsQèl¹p1S=fØšHe‡s„v8f0"
+ republic_factions.3.b:0 "bìNNýwúQðSûNUOïSýw	gmcLˆO)RÊv„vOà`?eVr0"
+ republic_factions.4.t:0 "LˆO†˜–ˆŒBl5Ïe«ŽýN"
+ republic_factions.4.d:0 "(W[Root.GetName]ÿLˆO„vXR(WUR²w†NN¡w°e„v¿R›RÿŒTNMO°e„v4Yb—ºNir0[Root.GetCapitalName]LˆO„v†˜›QºNirNÅNØS—VÔkÙ*NwýN„vvQÖN5Ïeôf RÌRÕˆÿÖNìNØ'YCg(WácÿNÇÖNìNv^NwQY•gåNeg³QšRÎW^ßu»lw„vNˆËu&^0\n\nb¸‹ÙÍylØS=fÅV6q„vÿyr+R=fwQ†0RbìNqQŒTýV„v'`(0KS¡r‚Ydkÿ(W°s6–µkÿ=UNïSåN¯wšR„v1S=f[Root.GetName]„vŸS	g5ÏeìNASR¨‹ŒSÙ›N¡l<yŒŒ„vWjŒ°e5ÿv^N^gSÖNìNqš»y,g0W„vCg›R8hÃV0"
+ republic_factions.4.a:0 "±”1S=f±”ÿàeº‹°eçe0"
+ republic_factions.4.b:0 "‚Yœg±›N5ÏeìN.^bN›NSÙVÿbìNïSåNŠb±›N´fÑS7b’cd–(WY0"
+ republic_factions.5.t:0 "?eœ^-N„vØyÆR>yâV"
+ republic_factions.5.d:0 "LˆO„vIm¨RƒôVêS	gbXTêñTåwS01uŽNLˆO„vXR(WaINèR=f:N†N¡rtåwÆ‹ÿÙöN‹N1S=fàeïSMQ„vÿFOmNOVÑSN›NsQŽNÎN‹N4–Œ„vcµc0`O8^ˆVSèla0RÙ›Nó`Õlÿ²‹:NƒRìNNÇ=fOPgb„v„Yó`\n\n0[Root.Monarch.GetTitle]ÿbìN„vqQŒTýVckYŽNqSi–KN-NÿFObìNNýw(WÙ?Qô‹00\nNMO5ÏeS`Oýb0RNÁeÿ(u3wí‹<O„vðXó—•Çr'Yº‹ÿJTÉ‹`O(W[Root.GetName]„v?eœ^-NŒ=fbwŒN=fØyÆRLˆO„vNXT0ÖNØ¹pT†NvQÖNT7hsQÃVÙ*Nî•˜˜„v5ÏeìN&&Ù›N5ÏeºNpežR(W=f*YY†NÿåNóŽNÖNêñTÙN¹evQžRÔkÖNNbc1„v±N¹ewwegôfÏP=fd4–Œ„v0Ý‹‹†ÙHNô‹ÿFOëkàe‘uî•„v=fÿ[Root.GetName]„v5ÏeìNaÉ‰×S0R†N±›N«ˆLˆONbVeQwïSýwXR(W„vØyÆRâVSO„vZÁw0"
+ republic_factions.5.a:0 "Œ(WNNÿ¡lÆQÙ›N4–Œýw©‹?e¢RìN¾bN!kßuNaÁ‰PT0"
+ republic_factions.5.a.tt:0 "‚fN+R¡rÙ›NïSýwXR(W„vØyÆRLˆO'T0"
+ republic_factions.5.b:0 "‹YfUÿ©‹bìN±›Nåw9håw•^„vàVãìNegŒågdk‹N0"
+ republic_factions.6.t:0 "LˆOØšŽNýV¶R"
+ republic_factions.6.d:0 "SV5ÏeìNf‹JTbìNØyÆR>yâVck(WnneQ[Root.GetAdjective]?e»löeÿbìN¡l	g,T0ÖNìN„˜Kmô‹SVÙ›N4–ŒÆ–âVÑS¾–„vöePÿbìNïSýwOØNúQu‹T„vãN÷N0\n\nÙÍybgR'`„v:Wb—v^¡l	gÑSuÿFObìN„vNMO²NÆR„vŒ˜î•gÑZPúQ†NN›NˆVïS‘u„v>N¨Rÿv^gÈub²‹Ù›N>N¨R=fÖNjO:NN*NØyÆR>yâV„vbXTNbZPúQ„v!.s0vQÖN?e¢RùRdkhˆ:y:VÈpNánÿwegN:W?e»lNû•=fNïSMQ„v†N0"
+ republic_factions.6.a:0 "ÖNùR[Root.GetName]„vNàVO×S0Ré`Z0"
+ republic_factions.6.b:0 "Õ‹NwŒTNS¿R0"
+ republic_factions.7.t:0 "ýVE–LˆO„vegŽV"
+ republic_factions.7.d:0 "Ðg*NŒTýV…QN*NLˆOÇÎNuÆR„vY²N˜R«ˆvQÖNDñmY²N˜Rc1ÂSNN*NèƒXLˆO„v²Nf0ÖNb²‹ÖN(WýVYöeÂSN†NN›NLˆO8fÿFO=fÖN&T²‹ÙùRÖN„v?e»lûN¡RµNu†NûNUOqVÍT06qwÿÖNÍSwðXðyêñTPNŽN(WýVY)R(uÖN„vºN	:NýV¶RŒBl)RÊv0\n\n±›N5ÏeY²N˜R„vkSSëXìN²‹:NÙNLˆ:NASRïS‘uÿFO=f=ecÙ›NLˆOô•„vTwû|ïSåN(WØyÆRLˆ¨Röe:NbìN&^eg¿O)R0"
+ republic_factions.7.a:0 "bìNOwwŒ„vLˆObXTùRÖNìN„výV¶RgàVÚ‹0"
+ republic_factions.7.b:0 "‚fjPÖN„våTjOôv0RbìNŠb‹NÅ`dnZi0"
+ republic_factions.8.t:0 "[Root.GetName]„v5ÏeWµN"
+ republic_factions.8.d:0 "bìN„vqQŒTýV›bV†N¸‹YH–çe„v5ÏeŒTSú^tõVÿFO	göeÿSVÖNìNùRbìN	g(uöeÿbìNOONTÅ`µQwQ†b`YÖNìN0ÙÍyÅ`µQ(W[Root.GetName]ÑSu†NÿNMO,gýV5ÏeðXðyNWW¥c»býVýVƒX„v†˜WžRE–N=fÖNìN¶RÏe„vTÕl†˜0W0\n\nSV0W„vFUºNàV:NRRŒT»ýVŒ¥Y†NNUS'Y8fÿÍSùRÙN†˜W±Rðy0ÖNìNcúQÿùRŽNN*NqQŒTýVÿ8f”^å‹=f,rNMO„v5Ïe„v†˜W±RðyêSýw&^egb‰NŒTÛuæ‚0"
+ republic_factions.8.a:0 "ïSýw=fO&^egb‰NÿFOŒô‹O&^egÛuæ‚ÿ"
+ republic_factions.8.b:0 "ÖNìN=fùR„v0bìN”^å‹ŠbÙ›N!k‰„vS‹NYu(W«ŽT0"
+ republic_factions.9.t:0 "P	ºNÀoÈpÞz‰N"
+ republic_factions.9.d:0 "jO:NN*NqQŒTýVÿbìNªR›R(WÏuNm)RÊvŒT.OßuKNô•ÖS—Vs^aˆ0bìN9hncÙNŸSR	ébŒ˜î•0†Nã‰ÙN¹p„v¶RÏeÿNº‹=f¾˜R>f5Ø=f5ÏeTAmÿ·u·uéeZPSb—rÿÕ‹þVSÖNìN„vºNNÙ›NLwMOÿv^(WSegûRBlùR[Root.Monarch.GetName]ôv¥cÐcúQú^®‹„v:gO0\n\nN*NÙ7h„v>f‰LwMOgÑúQ:ÿ°s(WNT„v>mû|ý(WTbìNËe‹SåN‰NÖSÙ*NMOn0NïSýw©‹Nb	gºNýánaÿwÙ*NLwMOmNÅV‰˜KSëV‰R’cN*NºN	0"
+ republic_factions.9.a:0 "(W›Q‹NN	gÏuŒš„vºNùRbìNOˆV	g(u0"
+ republic_factions.9.b:0 "(W[Root.GetName]FUNOHQ0"
+ republic_factions.10.t:0 "¿RLeô•„v8f"
+ republic_factions.10.d:0 "bìNùRNb	gºNV>e8f&&êS‰bìNýwYµc6ROO0±›N8f=f&Týw1ubìNµc6R	g…VFU·iÿw1SŒTbìNqQŒTýV…QNb	g	g…VFU·i„vî•˜˜N7hÿÙ*Nî•˜˜(WFUN)RÊvb—MRØS—VNQÍ‘‰0FUºNìNòTVËY(WËS‹Y„vag>kNÿŒTbìN„vN*N¿RLeÛLˆ8fÿv^ðXðyKS¡r?e»lNXR(WRgkÿFOÙ›N8f=fÅV‰„v05ÏeìN²‹:NÙÌ‘b—	gî•˜˜ÿv^|TTËzIRÈubkÙ›N8f0"
+ republic_factions.10.a:0 "bìNýwb×SŒTÙ›N0ˆ*sR­eTwû|„vãN÷N0"
+ republic_factions.10.b:0 "bìNàeÕlb×SŒTÙ›N0ˆ*sR­eTwû|„vãN÷N0"
+ republic_factions.10.b.tt:0 "[This.GetName]O(WÐgN*NbìN	gua„v8f‚‚¹p·ƒ—VN›N8fÞz‰N›R0"
+ republic_factions.11.t:0 "[From.GetName]V>e8f"
+ republic_factions.11.d:0 "KS¡r[From.GetAdjective]lQVLeÆ‰bìN0ÍSùRbìN„vNRËz:WÿFOÖNìNÍNAQ¸‹ÖNìN„vFUºNŒTbìNZPua0ÙÙu†NbìNN*N(WÖNìN8^ÒbÝubìNFUºN„v0W¹e·ƒ—VN›N8fÞz‰N›R„v:gO0"
+ republic_factions.11.a:0 "ÖNìN”^å‹ôfY0WÏPÙ7háOûNbìN0"
+ republic_factions.12.t:0 "egê$ARTIST$„vÐc®‹"
+ republic_factions.12.d:0 "[Root.GetName]„vLˆO(W?e»l:WNÐ(u¡‹ŒûQ%†NÖNìN„vÞz‰Nwÿµc6R†N[Root.GetAdjective]?eœ^ÿFOÖNìN„vCg›Rv^^—ŒRhQ3zúV0\n\n$ARTIST$ÿåNÖN(WŽb=gŒTz‚=gN„vàeÌS.ã‹«ˆqQŒTýVNbÍsÆ‰ÿ:N`O&^eg†Nã‰³Qî•˜˜„vžRÕl0\n0[Root.Monarch.GetTitle]–Nÿ0$ARTIST$ô‹Sÿ0°s(WÛLˆ?eCgôfÿfïSåNOLˆONbZP„vNb	gªR›RýS:NálqV0bìNåwS¨`=fNMOfzf„v[Root.Monarch.GetWomanMan]ÿFO‚Yœg¨`—‰N¹pYëVÿLˆOv^N:S(uŽN?e»lPc>k„vDÑ‘&&0"
+ republic_factions.12.a:0 "`O²‹:Nbw0R?BöeO²‹NúQegHNÿ"
+ republic_factions.12.b:0 "Nr(ueg=eclQqQy˜îv„vPc>kwN»SmNN—r¯rj0"
+ republic_factions.13.t:0 "egê$TRADER$„vÐc®‹"
+ republic_factions.13.d:0 "0bìNck(WpNaWïÿ[Root.Monarch.GetTitle]–Nÿ0$TRADER$(WN!k?e»l©º‹T„vÁyN²NŒ-Nô‹00bìN„vqQŒTýV`—„v1S=f8f0Ù=fbìNßu»lCg„v8hÃV0‚YœgbìNŠbvQÖNºN„v)RÊv>e(WFUºN)RÊvKNNÿ±bìNNEN1SOÑS°sßu»lbìN„vN=fN*N[Root.Monarch.GetTitle]ÿw=fN*NØV°‹†N=fÀNHN©‹bìNpTO'Y„vfiwKNºN00\n\n`OASRnZi¥cNegÖNå‹Ðc0RÀNHN†N0ê6q1Så‹ô‹S©‹FUºNçuíuŒcCgS:N[Root.GetName]ZÖSYS„v0ÌR&&Ø	gÙ7h0R•^ýwÙu`O*NºNZegYS‹YY0"
+ republic_factions.13.a:0 "Ù*NqQŒTýVgN—‰„v1S=fP%0"
+ republic_factions.13.b:0 "`Oô‹„v=fùR„v0[Root.GetName]—‰±”0"
+ republic_factions.14.t:0 "egê$COMMANDANT$„vÐc®‹"
+ republic_factions.14.d:0 "(W¸‹YýV¶Rÿ5ÏeìN«N×SNwÔkÙÌ‘'Y—VY„vCg›R06qw(W[Root.GetName]ÿ±”Ôk6–µuôfýwô‹Ý‹0$COMMANDANT$ÿâe¡l±”ÿmNN=f5ÏeÿùRdkÃVåwšwf0\n\n0ô‹0R•^ÿ0ÖNô‹ÿ0[Root.GetName]‰ó`ôf RAucƒÿyY1S—‰N*N:V'Y„vßu»lw0[Root.Monarch.GetTitle]–Nÿ‚Yœg¨`ó`Í‘=cbýVŽVåe„v‰Lqÿ›Q–1SckÙz(W¨`Ù¹0ˆVY5Ïeý?aaúQN'Yr±”eg=ecÙy˜‹NN00"
+ republic_factions.14.a:0 "qQŒTýVNýw«ˆ6epNÿ"
+ republic_factions.14.b:0 "`O„vàVÚ‹<P—V^O0"
+ republic_factions.15.t:0 "8hÃVÆ–âV"
+ republic_factions.15.d:0 "jO:N[Root.Monarch.GetTitle]ÿ`ONôvÕ‹þVùRLˆOÝOcN*NøvùR-NËz„v`¦^ÿ2SvQ=fSVÖNìN(W[Root.GetName]1Y¿RKNT0`ON=fûNUOLˆO„vOXTÿSVMR„v?e»lbV¿RmNNAQ¸‹`Ob:NOXT06qwÙ*NÅ`µQïSýwOÑSu9eØS0qQŒTýVg	gžR›R„vLˆOT`OÐcúQ†NeQOŽ÷‹ÿÖNìNuóbú‹O(WÅV‰öeùRdkÝOÆR0Ù=fN*N'YÆw„vú^®‹ÿ6qw‚YœgÒbÝuOŠb`O>e(WŒTÙ*NLˆOùRËz„vMOn0"
+ republic_factions.15.a:0 "bNýwùRd–†NqQŒTýVKNY„vûNUO‹Nir±R“ŠàVÚ‹0"
+ republic_factions.15.b:0 "‚YœgÖNìNýwÝOˆRØyÆRÿbmNïSåN0"
+ republic_factions.16.t:0 "N!k	gÊv„v²NAm"
+ republic_factions.16.d:1 "(W[Root.GetName]ÿFUNŒT?e»l(WˆVENåNMR1SNïSMQ0W u.(WNw0	göePÿbìNïSýwG0RNihùRY¹e	g)RÿFON=fùRqQŒTýV,g«Ž	g)R„v²Nf0SV[From.Monarch.GetTitle],gºN«Ž:NÙvQ-N„vN¹eöeÿÅ`µQØS—Vôf RIcxdNšR0\n\nNy˜o‚‹Y„vFUNOSšRýwŒTN›NÍ‘‰„vFUºNú^Ëzôf'tÆR„vsQû|ÿÙ>f6q=fbìNïSåN)R(u„v0êS‰bìN?aazrrrN›NjO:NqQŒTýVãNhˆ„vÉ^ckjOÎ˜ÿbìN1SïSåNMQŒTÙ›NO4O„vuÜ0"
+ republic_factions.16.a:0 "o‚‹YjOÎ˜ùR•Ü	g)R0"
+ republic_factions.16.b:0 "bìNNýw:N†N[Root.GetName]zrrrêñT„v)RÊv0"
+ republic_factions.17.t:0 "NˆSmŽN4l"
+ republic_factions.17.d:0 "ùRŽN[Root.GetName]„v¸‹Y—V¿R„vºNegô‹ÿºN	ŒT0ÌR³QšR†N0WMOÿFO5ÏeO6qwÍ‘Nˆßu0KS¡r5ÏeSVMRÜN=fbìNqQŒTýVg'Y„v¿R›RÿÖNìNO6q(uT7h„v¹eÕlegnxÝOàVÚ‹0\n\nN*NåwT„v¶RÏegÑÕ‹þVÐcúQÎ6Z`O„vsY?Q>f6q1S=fÙ7h„vN!kSÕ‹0`OåwSÙSëO`O(W?e»lN>PTÖNìNv^JR1VqQŒTýVÿFO‚YœgÒbÝuROO©‹ÖNìN=ec`O¡‹R-N„v›Q‹N9ei—ôf RðV¾–0"
+ republic_factions.17.a:0 "KSïSýw<yŒŒ0WÒbÝu0"
+ republic_factions.17.b:0 "bìN—‰ŒTÙ*N¶RÏeÝOcTwû|0"
+ republic_factions.18.t:0 "LˆO’NøvTjO"
+ republic_factions.18.d:0 "1uŽNLˆONÅN(WFUNmN(W?e»lNb:N[Root.GetAdjective]g'Y„v¿R›RÿÖNìNVËY R:V’Nøv„vTjO0ŸS,g’NøvÆ‰:NLeºN„vÄuÇu°s(W'tÆR0WTjOegôucùRýV¶R„vßu»l0wjO:NN*Nx^Ð„voRjO(uÿÖNìNùR[Root.GetAdjective]µNÁT(Ï‘ŒT8f„vµc6RØS—Vôf^ÛlŒT	gHe†N0"
+ republic_factions.18.a:0 "‰=fÖNìN(WN—V¿R„vöePmNÙHN²‹St1S‹Y†N&&"
+ republic_factions.19.t:0 "FUºNUSgýVY"
+ republic_factions.19.d:0 "(WÖS—V†NùR[Root.GetAdjective]qQŒTýV„vµc6RKNTÿbìN„vFUºNVËYÕ‹þVµc6RhQt8f0ÖNìNùR[Root.GetName]?e»l‹N¡R„vµc6ROÖNìNNQÅbçVýV…Q‹N¡RÿŸ±RÖNìN»S’Qôf'Y„vÎ˜i–ÿÙ7h„vi–SVÖNìN	g?e»l–çV„vöeP=f³QNO»S’Q„v0gÈuÿÙNÅNSOÖNìN×SÊvÿqQŒTýVmNS×SÊv0"
+ republic_factions.19.a:0 "©‹ÖNìNŠbhQNLu„v0ÌR&^ÙubìN0"
+ republic_factions.20.t:0 "5Ïe›bVMRÌZ"
+ republic_factions.20.d:0 "1uŽN[Root.GetName]VËY:N5Ïeg¡Rÿ5ÏemNVËY:N[Root.GetName]g¡R0Ù›N5ÏeþfÏuÅbçVÖNìN«ˆÆ‰:NçeSO6R„vWYuÿ°s(WRaÆ‹0RêS‰ÖNìNTjO1SïSåNÝOcßu»l0‹†6qÙSOÖNìNŒT[Root.GetAdjective]vQÖN?e»l¿R›RùRËzÿFOtSbŸR0W‹S6R†N¨cûqQŒTýV„vÎ‘ÃVv^OÖNìN„våTjOôf R	gHe0"
+ republic_factions.20.a:0 "bìNO'Y„vqQŒTýVýwOçe5ÏemNâVÓuwegÿ"
+ republic_factions.21.t:0 "LˆOI–x8f"
+ republic_factions.21.d:0 "LˆO†˜–ˆïSåN=fàeÅ`„v?e¢Rÿv^ÎNNùRÍSùRÖN„vºNYuÅ`01uŽNLˆOòTÏu	gNµköeô•¡l	gµc6R[Root.Owner.GetName]„v?eœ^ÿÖNìN-N„vN›NºNVËYO(uÁwë„vKbµkegUS:yêñT„v›RÏ‘0LˆOåwSqQŒTýVOV8fÿNbåNµc6RNw[Root.GetTradeGoodsName]„vLˆOVËYI–bk'irê1u8f0ÖNìNåwSÙSmc³RýV¶R„vÏuNmÿmNSmc³RÖNìN?e»lùRKb„v)RÊv0"
+ republic_factions.21.a:0 "ÖNìN²‹:NÖNìNýwÙ7h·ƒ—V[Root.Owner.Monarch.GetTitle]„vR—Pwÿ"
+ republic_factions.22.t:0 "FUºNÒbÝu:NqQŒTýVg¡R"
+ republic_factions.22.d:0 "KS¡r[Root.GetName]ùR8fåb	gëkàe‘uIN„vípÅ`ÿyY„v¸‹Y	gžR›R„vFUºNVËY±Rðy[Root.Monarch.GetTitle]ÒbÝu,TÖNìN„vú^®‹v^ŠbvQÖN)RÊvnŽNSýV¶R&^TÌRÕˆKNMR0N*NbìN(WýVE–8f-NOV„vFUºNZÁwjPbkŒTqQŒTýVTjO0KS¡rbìNgÈuØ=fOÖS—VN›NqQÆ‹ÿFOÙO6qO(WNRÓumgMRmc³RbìN„vTjO0"
+ republic_factions.22.a:0 "ÖN¡‹RÇÙ*NegžR°sÀNHNÿ"
+ republic_factions.23.t:0 "5ÏeÒbÝuqQŒT"
+ republic_factions.23.d:0 "(W¸‹Y¹eb—ÿbìN„vqQŒTýV^—8^	gHe0Wˆmd–†N5Ïeßu»lw„vCg›Rÿw8^ÖNìN²‹:NÙ›NCg›R=ftNb”^SVåb	g„v0ÖNìN¥c×SÖNìNNýwÏP(W¸‹YvQÖNýV¶RÌ‘N7hÿðXðyÙ=fÖNìN„vCg)R06qwÿ	göeÙ›N5Ïecƒw‘N‘N„vçeÂ‰õVmNO«ˆÍ‘°e2U’‘ÿck‚Y[Root.GetName]„v5Ïea0RÖNìNd–†N(uQRåNYÿàeÕlåNûNUOøvsQ„v¹eVqVÍT?e»l0ŽN=fÿÖNìNÿbw†NQRÿlQVÍSÛSqQŒTýV0"
+ republic_factions.23.a:0 "‚YœgÖNìN—‰Cg›Rÿ©‹ÖNìN(uregb—eÿ"
+ republic_factions.24.t:0 "¶R­^ÕlHh"
+ republic_factions.24.d:0 "[Root.GetName]„v5Ïeck(W¨cÛNy˜8^«ˆðy:N¶R­^ÕlHh„vËzÕlÿå‹ÕlHhèe(WI–bkºNìN×S0RN›N0>eaƒN0„vjO¶RNb™Q„vN›N…Q¹RNSV„vgR,gŒTSô‹„vqVÍT0¶R­^ÕlHhÌwTIN‰„v¨R›R=fNèNAm„vbgRÿNè¶R­^bgRÿÙègR¥‹Ë‹5Ïe6–µu„vwzbYg2kv^.OM†Nte*NýV¶R01uŽN×S0R†Nž±ŒTÍS—bÿÙèË‹:RgR„v×S³R¹e°s(W^gqQŒTýVI–bkƒRçuíu.O­d0"
+ republic_factions.24.a:0 "	ga`ÿÖNìN8^ëSÙÍyÕlHh:NÀNHNÿ"
+ republic_factions.24.b:0 "ê1uN=f:N†Nëmýywu„vÿ"
+ republic_factions.101.t:0 "$COUNTRY$ÑSui—‹T"
+ republic_factions.101.d:0 "0R°s(W:Nbk„vˆV•Nµköeô•…QÿqQŒTýV(W[Root.GetAdjective]?e»l‚ðSNŠegŠ×S0RLˆO„vµc6R0O`—'YÏ‘„vfR’V0S—^INNKbåTNwÿÙ*N>mû|òTÏuýwYŒcµc?eœ^…Q„vNb	gCg›Rÿv^Šbc†NLˆ?eèè•„vNb	g:gsQ0\n\n5ÏeNFUºNìNN?a’Q•gm×S¹S„vÎ˜i–ÿwVËYùR7ŒirÛLˆ†N•b:g0ÙˆVëV1SwKS†NýV¶R„v®|ß˜¨PYÿv^üRô†N®|ß˜÷N<h„v'YE^N¨m0ôv0R°s(WÿLˆOýNŒ˜ck(WÑSUS-N„vqS:gÿàV:NwzºNìN÷‹Bl7>keg-pNß˜irÙöN‹NùRlQOegô‹<ONN=fN*N)R¦m0NšS„v:gO0ôv0R‹N`ÑSUS:NwzºNìNVËY(W[Root.Capital.GetCapitalName]-N.Y^:W[Root.Monarch.GetTitle]œ^¸„v6–N²ZwÆ–Oÿv^`SNg†NNJSIY‹TqšceÖNìN„vkSuQ0\n\ngß|Õ|„v=fÿÖNìNòTÏuVËY¢b«R†NpeAS¶R„vFU—^ÿ"
+ republic_factions.101.a:0 "bìNNýwûN1ulOOqQŒTýVw–eQàe?eœ^„v÷mqN0"
+ republic_factions.101.b:0 "HSgŽNÖNìN„v‰Bl0"
+ republic_factions.102.t:0 "$COUNTRY$ÑSui—‹T"
+ republic_factions.102.d:0 "ÇŠbÎNÜ¹eýV¶R±Ì‘·ƒÖS„v0NÌRirµNÐÞV0R[Root.Capital.GetCapitalName]„výV…Q^:WÛLˆPpN„v-NËN8fÿ[Root.GetAdjective]„vFUºNbŸR0WekùR®‹OËe RŠegŠ'Y„vqVÍT›R0‚YdkNegÿÖNìNSôf‰f0Wµc6RNb	g?eœ^:g„gÿåNnxÝOÖNìNùRqQŒTýV„v=eM‘Cg0ŒOegÍSùRÖNìNbTÿÕkßz[Root.GetName]¾0R†NzzMR„vAucƒÿÄžÑ‘mNåNMRNb*g	g„v¹eVÚnÚnAmeQ0\n\n=f„vÿŒOegÍSùRbTÿmN¸‹=f±›NaNÅuìNÿÖNìN<wÁ‰êñT„v0WµN«ˆŒcCgw6e-ÿçVÃVêñT„v?bKSb—4N«ˆgdÀk„vZÁwÿmNïSýw=fLˆO„vºNÿàV:NFUºNìNàeÃVÝO²b,gýVµNÁTÿwôfR—PwŽNÛãSFUÁT„v)R¦mÿÈSb¸‹=f±›NnflOÿÖNìNŒS&P†NFUºN)R*—VàeŒS.b„vFUÁT÷N<hÞÞÙ˜GSÿŒT¨R„ûP„vßyÑ‘&&\n\néeNÿ²Å`Ào2a„vºNìNZwÆ–(W[Root.Monarch.GetTitle]„v«R¿kè•MRÿØšŠUNw‰SÖNìNvNðS0"
+ republic_factions.102.a:0 "bìNN‰«ˆN²yk’VTPÿ"
+ republic_factions.102.b:0 "HSgŽNÖNìN„v‰Bl0"
+ republic_factions.103.t:0 "$COUNTRY$ÑSui—‹T"
+ republic_factions.103.d:0 "[Root.GetName]„v5Ïe¨R(uNRKbµkËe‹SÿbŸRŒcác†NqQŒTýV„v'YCg0'Y5Ïe¶R­^„vlQPR‹sYR(WqQŒTýV„vWˆSN«R¿k-NÛbGdÇ^0<wNÿÖNìN„vùRKbìNÝuàe^gŒb0RNÍyTÕl„v¹eVegb`YÖNìN1Y»S„vqVÍT›R0\n\nFO^——V(uTÕl„v¹eVÿ(fYÿNMOt^‰„v5Ïe(WR‘†™-NN:Wv`±R„v—e´k-N'Nu0öQKbmN=fNT^:NºNåw„v5Ïeÿv^N=fvQ¶RÏe„v•PR06qwSVNSËNeQdk!k‹NöNTÿ«ˆcµc¯rNÙy˜jLˆ„vºNŒRhQØSb†NvQÖNºNÿçTT„v=fÙ=fNMOºuÇu'Y¨N0LˆON'YIN‹NºN„v?QPR0\n\n!kåeNHSÿLˆONFUºNìNVËYTs^lRÑSb—SNfkhVÿÃV`Nán„vºN²ZwÆ–(W[Root.Monarch.GetTitle]„v«R¿khTôVÿ(W´flïSýwêÑSUSV¥bYKNMRÿÎWG•luQ„v,rN!k²QûQüRô†N%NÍ‘„vAmNˆ2O¡N0[Root.Monarch.GetName]«ˆSôV†N0"
+ republic_factions.103.a:0 "bìNNýwHSgŽNxYFUÿ"
+ republic_factions.103.b:0 "HSgŽNÖNìN„v‰Bl0"
+ republic_factions.103.b.tt:0 "§Y[Root.Monarch.GetName]§!Õ‹þVÇžRËeëV„v9ei—eg‰Ršb²O0\n§Y[Root.Monarch.GetName]§!SOžLwÿv^ËzsS>NLˆ°e„v	>N0"
+ wrecked_by_factional_riots:0 "«ˆZQ>m„v´f¨RNb4xOW"
+ desc_wrecked_by_factional_riots:0 "Ù*NŽ‹Y„vÎW^àV:NbìN1V„v?e»l6R¦^NbüRô„v…Qè‰N—ew«ˆ4xOW0"
+ dynastic_diplomacy:0 "‹sgY²N"
+ converted_monarch:0 "TIN9e—R"
+ desc_converted_monarch:0 "bìN„vTIN:N9eáOwck„váOðNZPúQ†NN*NIQ‰„vœi7h0"
+ local_popularity:0 "SV0W=ec"
+ desc_local_popularity:0 "‡eSËu&^ÙubìN„vTIN&^eg†NSV0W„v=ec0"
+ sided_with_foreign_heir:0 "=ecYegçubºN"
+ sided_with_supported_heir:0 "Ùz(W×S=ec„vçubºNN¹"
+ golden_liberty:0 "ÄžÑ‘ê1u6R"
+ desc_golden_liberty:0 "bìN„vTINÿKS¡regêýVYÿÍN6q¥c×S†NbìNýV¶R.Oßu„vÄžÑ‘ê1u6Rÿ¦NsS5ÏelIN6R0"
+ elective_monarchy.1.t:0 "ýVO=ec$HEIR$ $HEIR_DYNASTY$"
+ elective_monarchy.1.d:0 "ýVOÊN)Y±R^=ec$HEIR_DYNASTY$¶RÏe„v$HEIR$ÿKS¡r$HEIR_ADJ$åb	gYýVNˆßuÿFOÍN«ˆ²‹šR:N$COUNTRY$‹sMOSVKNàe'a„vçubºN0ÖNìN„v=ecÐcØš†N$HEIR_ADJ$(WbìN°sûN$MONARCHTITLE$»SNTsSMO„v:gO0"
+ elective_monarchy.1.a:0 "$HEIR$<P—VÙýN=ec0"
+ elective_monarchy.2.t:0 "ýVOÍSùR$HEIR$ $HEIR_DYNASTY$"
+ elective_monarchy.2.d:0 "ýVO-N„vN*N:V'Y>mû|fnxhˆ:y†NùR$HEIR_DYNASTY$¶RÏe„v$HEIR$„vŒSv`ŒTÍSaÿÖNìN²‹:NÙ*NYýVºNùR$HEIR_S_PRONOUN$Nb^gßu»l„výV¶RhQàeûNUO†Nã‰0ÖNìN„vÍSùRJR1V†N$HEIR_ADJ$(WbìN°sûN$MONARCHTITLE$»SNTsSMO„v:gO0"
+ elective_monarchy.2.a:0 "$HEIR$ÅV‰˜pÿ"
+ elective_monarchy.3.t:0 "?BmtÆY®‹O"
+ elective_monarchy.3.d:0 "b—V	>N8^‰Âa—Vå‹ÙuŒ„vKb-Nûm¹p¹l4l0bìN‹sg„vNMObXTgÑb:N†NNv˜YýV‹s Qg×S=ec„vP	çubºNÿÖNìN-N„vN›N5Ïefnxhˆ:yÿêS‰bìNýwYÙuúQNýN0NbìNO'YýV¶R«ŽýNøvSV0„vwahaD©RÿÖNìN1SPNŽN©‹býVçubºN„v0WMOôf R3zúV0"
+ elective_monarchy.3.a:0 "waha0W¥bTrÖNìN„v=ec0"
+ elective_monarchy.3.b:0 "ÀNHNmNNÙuÖNìN0"
+ elective_monarchy.4.t:0 "ÆRŒÍSùR$HEIR_DYNASTY$¶RÏe„v$HEIR$"
+ elective_monarchy.4.d:0 "gÑýVO-N	gNybºNëkN©cÖvÖNìNùR$HEIR_DYNASTY$¶RÏe„v$HEIR$„vNánÿw°s(W`O„vô•ŒIN¡rÑS°s†NÖNìNckÆQY—fNg$HEIR_ADJ$0‚YœgbìN>eûNÖNìNN¡rÿbìNS	g«ˆ1Y„vÎ˜i–ÿFO=f‚Yœg.UcÖNìNRïSýwOÀo`ÖNìN(WýVO-N„vßvËS0bìNNNekå‹`HNZPÿ"
+ elective_monarchy.4.a:0 ">eûNÖNìN„v4–Œ0"
+ elective_monarchy.4.b:0 ".UcÙ›NÆRŒwÿ"
+ elective_monarchy.5.t:0 "$FROM_ADJ$ÆRŒw"
+ elective_monarchy.5.d:0 "bìNÑS°s$FROM$?eœ^Øž¸‹†Nˆ”ùRbýVP	ºN„v—fNgLˆ¨R0Ù=fùRbýV„vg'Y®O±ÿÅV‰˜ˆNåNÞV”^ÿ"
+ elective_monarchy.5.a:0 "N²v`T›ÿ"
+ elective_monarchy.6.t:0 "—RYeîTV"
+ elective_monarchy.6.d:0 "bìN„výV¶RuªVNwcknx„v[Root.Religion.GetName]áOðNÿTöeÿbìNtSmNck=ecbìN‹sg„vbXT»SçubN*NuªV•ï‹„vVïzáOðN„výV¶R„v‹sMO0°s(Wÿ±*NýV¶RÐcúQ‰Blÿ‚YœgbìN„vP	ºNØó`çub‹sMO„vÝ‹ÿÖN1SÅV‰˜9eáOÖNìN„v—RYe0"
+ elective_monarchy.6.a:0 "¥c×SÖNìNäNºNÑSc„v‰Bl0"
+ elective_monarchy.6.b:0 "Nýw©‹bìNP	ºN„vupB›×S0RÙÍyqS³Rÿ"
+ elective_monarchy.7.t:0 "ïS‘u„v‹NEe"
+ elective_monarchy.7.d:0 "bìN„v$FROM$‹sMOP	çubºN(WN!kSbs‹NEe-N'Nu†N0‹†6qbìN`‘uÙw‹NEe=fæSN¶RP	ºN¾|ÃVVrR„vN!k—fNgÿFO=fbìNv^¡l	gÁ‹ncÿbìN:NbìN¶RÏe‰v4N$FROM_ADJ$‹sMONbZP„vNRªR›RmNØNKNNAm0"
+ elective_monarchy.7.a:0 "*YïS`†Nÿ"
+ elective_monarchy.8.t:0 "[Root.Monarch.Dynasty.GetName]¶RÏeNˆ	qQ"
+ elective_monarchy.8.d:0 "KS¡r[Root.GetName]	göeOàVYè¿R›RùRbýV?eNS„vqVÍTw«ˆJR1VÿFO	>NNMOYýVTINýwYú^ËzNÍyáOûN„vËu&^ÿv^Ðc›O†Nyr	g„vY²NO¿R0[Root.Monarch.GetName]ˆV‹Y0W)R(u†N[Root.Monarch.GetHerHis]¶RÏe(WýVY„vqVÍT›Rÿ R:V†NbìNN[Root.Monarch.GetTitle]þfÏu„vÍkýV„vTwû|0"
+ elective_monarchy.8.a:0 "?aÙýNËSŒ•XR0"
+ elective_monarchy.9.t:0 "[Root.Monarch.GetName]çub4YTˆ"
+ elective_monarchy.9.d:0 "KS¡r[Root.Monarch.GetName]–™HQ=fbìN„v[Root.Monarch.GetTitle]ÿFO[Root.Monarch.GetSheHe]ÍN6q	gCg(W[Root.Monarch.GetSheHe]NbÞ‹u„vW0WNåb	gN›N4YTˆ0KS¡rYýVºNSVR=ec[Root.Monarch.GetSheHe]‰vN‹sMOb¸‹=f`ãcNw:O:gßu»lbýV„vÃV`ÿFOùRÖNìNW0W„vNb	gCgåb	gTÕl±RðyˆVïSýwÙubìNN*NÍSvQSwLˆKN„v:gO&&"
+ elective_monarchy.9.a:0 "Ù=f[Root.Monarch.GetSheHe]NuñOeg„vCg)Rÿ"
+ elective_monarchy.9.b:0 "bìNNOZPÙÍyNïSJTºN„vþRSV0"
+ elective_monarchy.10.t:0 "mtÆY®‹O:VëMO"
+ elective_monarchy.10.d:0 "[Root.Monarch.GetName]åwSêñTòTÏuöeåeàeYÿw[Root.Monarch.GetSheHe]dköeØ^g©‹[Root.Monarch.GetHerHis]¶RÏeçuíuŒcµc‹sMO0:Ndkÿ[Root.Monarch.GetSheHe]VËYvbi[Root.Monarch.GetHerHis]?QYR-N„vNMOjO:NçubºN„vºN	ÿv^ûRBlvQÖN¹eb—„v=ecÿåNdkùR—b®‹OîvMRNb=ec„vçubºN05ÏeìNùRdkv^NánaÿwNwQ†:Vë[Root.Monarch.GetTitle]©‹MOŽNÖNìNÃV-Ntó`„vçubºN0"
+ elective_monarchy.10.a:0 "ÅV‰˜‚YdkÿNšR‰MQN6Rßu»l„vúQ°s0"
+ elective_monarchy.10.b:0 "bìN„v[Root.Monarch.GetTitle]NOÙHN¹Rf1ST5ÏeNO4Y„vÿ"
+ elective_monarchy.11.t:0 "9e—R[Root.Religion.GetName]"
+ elective_monarchy.11.d:0 "NLuck(WÏu†S¨Raƒ„v—RYeØSi—0TIN9e—RïSåN«ˆÆ‰:NNÍy:V'Y„v‹¿RÿSV[Root.Monarch.GetName](W‰vN‹sMOT9e—R[Root.Religion.GetName]áOðNöeÿ¸‹YºNèla0R†NÙN¹p0‚YœgÞ[Root.Monarch.GetTitle]ý‰9eØSáOðNÿ±HNàeåw„v'YO=fN=fmNÅV‰˜uÎNwck„váOðNbTÿ°s(WÿNb	gSIY^—ýVYeáOðN„vºNÿàeº‹=f5ÏeØ=fs^lÿýa×S0R†Nôf'Y„v‹S›R0"
+ elective_monarchy.11.a:0 "^gÖNìNýwf‹vvQ-N„vStÿóS¥c×Swck„váOðN0"
+ elective_monarchy.12.t:0 "Î‘ÃVÇ'Y„vùRYb‰N"
+ elective_monarchy.12.d:0 "[Root.Monarch.GetName]ÑSw„vµOeub‰Nv^*gÖS—V„˜gHeœg0Ù8^OVwššqNÿ2SvQ=fSV[Root.Owner.Monarch.GetTitle]=fNTYýVºNöe0(Wb‰NÇz-NÿºNlVËYðXðy[Root.GetName]=fN*N1r‹YŒTs^„výV¶RÿwÙ*NœËƒ„vßu»lwOSƒR&^TÁkmp„v¹0"
+ elective_monarchy.12.a:0 "b‰NNÇ=fRRVËYÿTMRwÿ"
+ elective_monarchy.12.b:0 "bìNÅV‰˜KSëVã‰³QÙ:W·u‰N0"
+ elective_monarchy.13.t:0 "bÃV‚YEe"
+ elective_monarchy.13.d:0 "jO:NN*N[Root.Culture.GetName]ºNÿ[Root.Owner.Monarch.GetName]öe8^0R¿‹[Root.GetName]0ÙNÅNÅN=fàV:NÙÌ‘ýw©‹[Root.Owner.Monarch.GetTitle]ÞVÆVw[Root.Owner.Monarch.GetHerHis]ÇŽV„vuImÿÙÌ‘„vŒvÓYmNøvSV1r4bÙMO[Root.Owner.Monarch.GetTitle]Ù›NºNöe8^N[Root.Owner.GetAdjective]„vßu»lwa0R	g›NuÜÿFO°s‚YÊN×S0RmtÆY®‹O²‹ïS0PWN‹sMO„vTINÿ²‹„v=fÖNìN„ví‹Š0gÑ„vN!k0R¿‹©‹SV0WESlùRýV¶R?eCg„v²‹ïSz¦^'Y'YÐcØš0"
+ elective_monarchy.13.a:0 "bìNëkàet1u»S`‘udk‹N0"
+ elective_monarchy.14.t:0 "ùR[Root.Monarch.GetName]ŒT[Root.Heir.GetName]„vàVÚ‹"
+ elective_monarchy.14.d:0 "ÎNNT„výV¶R	>Nßu»lwÿÙNLˆ:NO—VbìN(WÐg›Nz¦^NýwMQN*N‹s²R¶RÏeŒRhQ0WŒcµc[Root.GetName]06qwÿ	g›NöePÿÙT7hOOYýV5ÏeìN`‘ubìN„vàVÚ‹0bìN°sûN[Root.Monarch.GetTitle]Nb^S„v[Root.Monarch.Dynasty.GetName]¶RÏegÑòTÏuèla0R®‹O-N=ec[Root.Heir.Dynasty.GetName]‹sg„v[Root.Heir.GetName]„v¿R›R(W R:V0KS¡rÖNìNf‹vÿÖNìN¶RÏeNïSýw8lÜßu»lbìN„výV¶RÿFOÖNìNòTÏuVËYâ‹î•ÙN‹NöNùRbìN*gegçuíuTjONbïSýw&^eg„vqVÍT0"
+ elective_monarchy.14.a:0 "TÖNìNÝOÁ‹ÿmtÆY®‹OSçuíu=ec[Root.Monarch.Dynasty.GetName]¶RÏe0"
+ elective_monarchy.14.b:0 "b²‹ZPúQ9eØS=fÅV‰KN>N0"
+ elective_monarchy.14.c:0 "ÝOc-NËz0mtÆY®‹OêS”^å‹HeàVŽN[Root.GetName]0"
+ elective_monarchy.15.t:0 "[From.GetAdjective]mtÆY®‹O9eØSåb4bùRaŒ"
+ elective_monarchy.15.d:0 "êÎNS5„v[Root.Monarch.Dynasty.GetName]¶RÏe—V0R†N[From.GetAdjective]„v‹s QÿbìN¿O^gbìN„v‹sgýw«N×S•g„vßu»l06qwÿ[From.GetName]®‹OÑegVËY=ecN*NegêvQƒRýV¶R„vP	ºNjO:N‹sMOçubwÿÙ©‹bìN2NýV„vsQû|ØS—V't.V0(WbìNËe‹SKNTÿ[From.GetName]¹eb—ßzôv¥cfnxTbìNhˆ:yÿ°s(WÅ`µQéeòTÏuØS†NÿÖNìNv^N?aa©‹[Root.GetName]ºNçuíuŒcµc‹sMO0"
+ elective_monarchy.15.a:0 "Ù›N[From.GetAdjective]5Ïew=fÍSYàe8^ÿ"
+ elective_monarchy.16.t:0 "[From.GetAdjective]mtÆY®‹OÙz(WbìNÙ¹"
+ elective_monarchy.16.d:0 "[From.Monarch.Dynasty.GetName]¶RÏeT[From.GetName]®‹OËe‹Sÿó`‰ôuc,g¶RÏebXTùR[From.GetName]‹sMO„vµc6RÿFO=f®‹Ov^NTaÿw=f	éb=ecbìN0[From.Heir.GetName]°s(WòTÏu—V0R®‹O„v^Ûl=ecÿÖNìN²‹:NÙ7h„v	ébýwYFd1SVMR‹sg„vŠbµcÿv^MQN6RTIN„vúQ°s0"
+ elective_monarchy.16.a:0 "[From.Heir.GetSheHeCap]SO†˜üR[From.GetName]pTê1u&&bwóS†˜ÖNìN`—ÑbìNÙN¹0"
+ elective_monarchy.17.t:0 "ÄžÑ‘ê1u6R"
+ elective_monarchy.17.d:0 "ßu»l[Root.GetName]Ù*NýV¶RŒTßu»lvQƒRýV¶Rv^NøvT0(WÙÌ‘ÿó`‰(W¡l	g5Ïe²‹ïS„vÅ`µQNIN°RýV¶R„va×V=fˆV¾–„vÿ	göeàQNNŒRhQNïSýw0ùRŽNN*NYýVTINegô‹ÿÙøvSV©‹ºN1YgŒT4Y¼uÿFOÙÍy?e»lï`‹O(W[Root.GetAdjective]*Xðy?e»luIm„vúWNxÿv^NY×SÍsÆ‰0‹NžRNÿ‚YœgN=fÙÍy6R¦^ÿjO:NN*NYýVºNÿ[Root.Monarch.GetName]mN¡l	gïSýwPWN[Root.GetName]„v'YMO0¥c³uÙÍy?e»ltõVïSýwOO[Root.Monarch.GetTitle](WýVE–NwN»SˆVo1VÿFOtSôf¹Rf‡eQÙ*NýV¶Rÿv^b—V®‹O„v=ec0"
+ elective_monarchy.17.a:0 "ÖNìNfzf0W	éb†NbìN0©‹bìN>P,TÖNìN„v÷‹Bl0"
+ elective_monarchy.17.b:0 "bìNÅV‰˜Í‘°eµc6RNSb—ÿjPbkÙÍyàe?eœ^„v¶r`ÿ"
+ elective_monarchy.18.t:0 "[Root.Monarch.Dynasty.GetName]¶RÏe·ƒ—V[Root.GetAdjective]‹sMO±Rðy"
+ elective_monarchy.18.d:0 "gÑ[Root.Monarch.GetName]„vYýV²NbKNô•ÑSu†NCg)RÁûyÿwçubÕl„vîTV‚YÊNüRô†NN*NNx^„vÅ`µQ0[Root.Monarch.Dynasty.GetName]‹sg„vNTbXT«ˆ²‹:NNÅN=fbýV[Root.Monarch.GetName]VyýV„vTÕlßu»lwÿmN«ˆSVjO†NbýV„vTÕlßu»lw0\n\n°s(WØNnxšRÙýN±RðyO«ˆ`7hYnÙMOYýVTINïSýwOÑS¨RN:Wb‰N:YÖSbýV‹sMOÿFOmNïSýwêSŠbƒRSVjO:VSêñT(W,gýVßu»l0WMO„v«Wów0Nº‹‚YUOÿbìN	g«ˆëHSESÖNýVßu»lKNN„vqSi–ÿÙI`=fN*NNey„vVFQ0"
+ elective_monarchy.18.a:0 "bìNSVR	ébÖNìN¶RÏe„vºN=fàV:NáOûNÿïSN=f:N†NÙ*Nÿ"
+ elective_monarchy.19.t:0 "[Root.Monarch.GetName]·ƒ—V[From.GetAdjective]‹sMO±Rðy"
+ elective_monarchy.19.d:0 "êÎN[From.Monarch.GetName]bŸRSV	‰vN[From.GetAdjective]‹sMOåNegÿbìNùR[From.Monarch.GetSheHe]„v=ec©‹bìN·ƒ—V†NˆVYY²Nbœg06qwÿgÑ	gºNÐcúQ[Root.Monarch.Dynasty.GetName]¶RÏeùR[From.GetName]„v±Rðy”^å‹…ŠUS*N„v*NºNÿàVdk[Root.Monarch.GetName]‹NžRN”^å‹«ˆ²‹:N=f[Root.GetName]ŒT[From.GetName]„vqQTßu»lw0\n\n[From.Monarch.GetName]SV6q²‹:N[From.Monarch.GetHerselfHimself]=fNýVKNTÿFO=f(W¶RÏe-N[Root.Monarch.GetName]„vçubz˜MO‰ØšŽN[From.Monarch.GetHerHim]0àe‘u[From.Monarch.GetTitle]„v,rNHeàVùRaŒ”^=fêñT„v¶RÏeÿN=fTÿ"
+ elective_monarchy.19.a:0 "N*N	g±„v`ï&&"
+ republican_dictatorship.1.t:0 "[Root.Monarch.GetTitle]gbŒc?eCg"
+ republican_dictatorship.1.d:0 "(W[Root.Monarch.GetName]„v<w-NÿëV„v0¡l	g‰N®‹„vZP³QšR=fnxÝO[Root.GetName]ZPúQ9ei—egßNöeãNekO„v=UN„V0[Root.Monarch.GetHerHisCap]ùRŽN?e»lÛUS„v%`NïSwù`|`†NN›NØšµu˜RXTÿÖNìN²‹:NKNMR„vßu»lw(WËeLˆÖNìN„vó`Õlöe”^Ç‘ÖSôf RNaÍ‘„vLˆ:N0ÖNìN³R`Ù7hgÌRŽNÛÖSÃV„výBlÓuœgwNébKbµk(W•ÜegwOÙubìNýV¶R&^eg—fám„vÓuœg0"
+ republican_dictatorship.1.a:0 "[Root.GetName]N=flINýV¶RÿÖNìN”^SV”^0"
+ republican_dictatorship.1.b:0 "bìN”^SVwQ†ÖNìN„vÅbçV0"
+ republican_dictatorship.2.t:0 "[Root.Monarch.GetTitle]ŠbcýVE–‹N¡R"
+ republican_dictatorship.2.d:0 "[Root.GetAdjective]„výVE–8fNY²N„v?eVrNôvåNwÃuN(ŒNaW„ðy0FO=f(W [Root.Monarch.GetName]<w-Nÿ¡l	g³Y„vÛUS0(WÝuùR„vßu»lNÿN”^å‹	gûNUO„vCgaˆ¹rkŒ0\n\n6qwÿ(WžRE–ÍdjO-NÿnxžR	gCgaˆ„vt1u0[Root.Monarch.GetTitle]b¸‹ÔkbìNôfýwwn*geg„vSïÿFO=f±agï=f(Wán=f´fTNìrÁˆw„vNLu„vï0sSO=fÝuùR„vìrÁˆŒcácCg›R„vÊN)YÿºNìNmN(WÍS`Ù¾–S1S=fbìNó`‰„výV¶R„v*gegÿ"
+ republican_dictatorship.2.a:0 "Ù1S=fÿv^NbìN”^SV¿lNwÙagïpÿ"
+ republican_dictatorship.2.b:0 "©‹bìNÍ‘°ewQ†bìN„v	éb0"
+ republican_dictatorship.3.t:0 "[Root.Monarch.GetTitle]Šbc›Q–"
+ republican_dictatorship.3.d:0 "‚Yœg [Root.Monarch.GetName]S‰³QšRbìN[Root.GetName]*geg„vpTÿ[Root.Monarch.GetSheHe]ÅV‰˜ýwYO(u›Q–ùR—bte*NLeùR„vNLu0FO=f›Q–KS¡rSÍ‘c%c˜RŒTÎ‘ÃVÃRÃR„vTIN„v‹TäNÿÖNÍN6q	gNwNïS4xd–„v.OßuNÓu„gÿd–^—[Root.Monarch.GetTitle]	glO„v=ec0[Root.Monarch.GetHerHis]jO:NVýVTIN„vWµNOAm.ONNTÿ"
+ republican_dictatorship.3.a:0 "êS‰	gHe0"
+ republican_dictatorship.3.b:0 "N0bìN”^SVjPNv^>P,T0"
+ republican_dictatorship.4.t:0 "›Q-NùR[Root.Monarch.GetName]„v=ec"
+ republican_dictatorship.4.d:0 "KS¡r›Q-N„v¸‹YºNÍN6qÝOc†NùRKNMRßu»lw„vàVÚ‹ÿ[Root.Monarch.GetTitle]nxžR	gˆVYípÚ‹„v=ecw0N›N›Q–†˜üRÍ‘Æ‰[Root.Monarch.GetName]NbLˆO„vÝuùRCg›Rÿv^NaÆ‹0R(W¨Raƒt^ãN—‰N*NwQ	gCgZ„v†˜üRºN0\n\n1uŽN?e»lŸSàVÿ	göeÐcÔbN*N	gMbNS„vºNmN=fNïS¥c×S„vÿFO=fbìN—‰bìN„vS†˜âe	gýw›RÈSàVÚ‹0bìN”^SV“bOOÙ!k:gOØ=fØšS„vÝOcÝ»yÿ"
+ republican_dictatorship.4.a:0 "ùRŽN	gÊv„vNNåwÆ‹¡l	gûNUOïSåN(‘u„vYO0W0"
+ republican_dictatorship.4.b:0 "g‹YŠbÙÍyî•˜˜YuÙu	gÏuŒš„v›Q–†˜üRw0"
+ republican_dictatorship.5.t:0 "ºNl—‰lIN"
+ republican_dictatorship.5.d:0 "0bìNòTÏuŸ^d–†NýV‹sÿ©‹bìNŸ^d–´fTÿ0\n\nºNlÿþfÏuîvyw†NçeSOû|„v)TƒnÿVËYS[Root.Monarch.GetName]Æ‰:NæSN*N–Ï…(W°sãN?eœ^GPb—Tb—„v´fT0ÖNìN‰BlRžR„v0ýwYw—V0R„v9eØSNhˆ°sMbýw¹RÍV[Root.Monarch.GetHerHis]çuíußu»l0b¸‹ÖNìNOôf>PTŽN¥c×SæSNMOßu»lwÿ‚YœgbìNZPúQ©‹ek&&åNMQÖNìNr^‰cKNMR±N*N0"
+ republican_dictatorship.5.a:0 "[Root.Monarch.GetName]=fºNl„v[Root.Monarch.GetWomanMan]ÿ"
+ republican_dictatorship.5.b:0 "[Root.GetName]ÎN*g	glIN0"
+ republican_dictatorship.6.t:0 "žX R?eœ^„vˆcCg"
+ republican_dictatorship.6.d:0 "?e¡RÎNegN=f[Root.Monarch.GetName]„vyr•0[Root.Monarch.GetTitle]ýwYZPúQ³QšRÿFOfzf„v³QšRŽVŽVN=f[Root.Monarch.GetHerHim]ýwYZPúQ„v0Ç–cONµu˜RXTegYtÙ›N?e¡RýwYNšRz¦^Nã‰ÙNî•˜˜ÿFOmNO—VÖNìNCg›RØS'Yÿ‰BlùRŽN?e¡Rôf'Y„vCg›R0ÙˆVf>fýwYJR1V-N.YCg›Rÿ‚YœgZWcTIN„vŒcµcOO—VbìNŒTÜwûN˜RXT„vôv¥c²Qz0"
+ republican_dictatorship.6.a:0 "[Root.Monarch.GetTitle]NÅV‹TäNNR0"
+ republican_dictatorship.6.b:0 "qšûNUOOZPúQÙÍyú^®‹„vºN0"
+ republican_dictatorship.7.t:0 "žX RY¡RˆcCg"
+ republican_dictatorship.7.d:0 "[Root.Monarch.GetTitle]ÎNNO`—¥YOS»lýVÿ[Root.Monarch.GetName]mNN‹OY0W¾a„v=fÿ(WýVE–‹N¡R-Nÿ¥YOS	göe=fÅV‰˜„v0åb	gNMOàeÕlYtOea„výVE–Y²NbV¿R„vßu»lwO—VY²N˜RŒT'YO>PTŽNêLˆZP³QšR08^Å`µQNÿbìNNO¹RÍVÙ7h„vùRŽN[Root.Monarch.GetTitle]Cg›R„vcEˆÿFO=f[Root.GetName]wwegOÎN-N×SÊv0"
+ republican_dictatorship.7.a:0 "±©‹bìN¥YOS'TÿêSdkN!k0"
+ republican_dictatorship.7.b:0 "ÝuNýw¹RÍVÙÍy‹NÅ`„vçuíu0"
+ republican_dictatorship.8.t:0 "žX R›Q–„vˆcCg"
+ republican_dictatorship.8.d:0 "›Q–OùRŽN9eØSg:Nµbæ‰ÿv^N[Root.Monarch.GetName]ùRŽN›Q¡Rv^NŸq‰`0x^Ð„v=fÿ[Root.Monarch.GetSheHe]Ç–cOŸq‰`›Q¡R„vºNXTÿv^NÖNìNVËY¡UaÖNìNMRˆ„vNÅV×SÇY„v¦umg0S†˜°s(Wck(W‰BlŠegŠY„v(WZP³QšR¹eb—„vê1uÿKS¡rÙVËYwwegÏP=f‹YINaÿ1Y»SùR›Q–„vŒcµc=fùRŽN[Root.Monarch.GetTitle]gb?e„vN*NèT'YSbûQ0"
+ republican_dictatorship.8.a:0 "©‹bìNNèlŽNßu»l[Root.GetName]ÿ©‹vQÖNºNegÝOkSyY0"
+ republican_dictatorship.8.b:0 "bìNÅV‰˜Í‘:Yßu»lCgÿ"
+ republican_dictatorship.9.t:0 "²NbàeÕlßu»l0W¹e"
+ republican_dictatorship.9.d:0 "bìNNôvô›RŽN‰R’cïSáOûN„vºNegÅbûNÍ‘‰Lw¡RÿgÈuçTT„v=f[Root.Owner.Monarch.GetTitle]„v¸‹YÑ²Nb:N†N0W¹e˜RXT0KS¡rÙO—VbìNýwYôf‹Y0WO?eVr(WhQýV—V0R=‰VžRËeÿ[Root.GetCapitalName]„vºNl±RðyÖNìN(WNðyLw„v^•»lNO×Sj0(WÖNìN<w-Nÿ[Root.Owner.GetName]ck(WÞV0RCg›R1u¶R­^sQû|³QšR„vöeãNÿv^NÖNìNS:NdkØNúQãN÷N0"
+ republican_dictatorship.9.a:0 "ºNlòTÏuÑSúQ†NðXó—0^•”^SVžLw0"
+ republican_dictatorship.9.b:0 "ÙÍyIN.V=fN>máwŠ0"
+ republican_dictatorship.10.t:0 "0W¹e›Q–(‘ußu»lw"
+ republican_dictatorship.10.d:0 "KS¡ruˆRqQŒTýVöeãN„vN›NÆQRO—V[Root.Owner.Monarch.GetName]„vßu»l«ˆYpeºN¥c×SÿN›N›Q–„v†˜üRw²‹:NÙ=fo1V„vh×V0NMO[Root.GetName]„vS†˜VËYÆRŒÍSùR[Root.Owner.Monarch.GetTitle]ÿ±RðyýV¶R:ONNMOwQ	gCgZ„vßu»lwegÝOcßu»l0RNNãNºN09hncÖNìN„vô‹Õlÿ‚YœgNÇ‘ÖSªcËeÿ[Root.Owner.GetName]O	gØS:Nàe?eœ^¶r`bwl¹|ININ„vqSi–0"
+ republican_dictatorship.10.a:0 "±HNb”^SV=f±*NÇ‘ÖSªcËe„vºNÿ"
+ republican_dictatorship.10.b:0 "bìNÅV‰˜SbPÙ›NÍS¨R>mÿ"
+ hardened_oak:0 "lxSaj(g"
+ desc_hardened_oak:0 "NMOÏuŒš0NÌR„v.9‚åTºNòTÏuŒb0R†NNÍy RúVbìN9‚êS9‚SO„v¹eÕl0"
+ patriotic_curriculum:0 "1rýVININYe²w"
+ desc_patriotic_curriculum:0 "wm›QfR!hYeˆc1rýVININþ‹z0"
+ maintenance_curriculum:0 "mc¡rùW­‹"
+ desc_maintenance_curriculum:0 "wm›QfR!hYeˆc*‚wmŽb=gN9‚êSôu²bþ‹z0"
+ galley_veterans:0 "hh^9‚N„vwuQ"
+ desc_galley_veterans:0 "wuQìNÑSf„v°eb=g(Whh^9‚b—e-N—V0RnfÊS0"
+ heavy_ship_veterans:0 "Í‘‹Wb0‚wuQ"
+ desc_heavy_ship_veterans:0 "wuQìNÑSf„v°eb=g(WÍ‘‹Wb0‚b—e-N—V0RnfÊS0"
+ grieving_sailors:0 "²`2O„v4lKb"
+ desc_grieving_sailors:0 "FU9‚„v‰l¡lùRŽNbìN4lKbSV-Nƒ:N÷áO„vºN	gNwb—„vqVÍT0"
+ repairing_decayed_ships:0 "îOYPÂp9‚êS"
+ desc_repairing_decayed_ships:0 "bìN	gNwyr+R„vîOY(WÜ*‚-N×Smc„v9‚êS„vŽbçT0"
+ rotting_wood:0 "P%(gPg"
+ desc_rotting_wood:0 "bìNåN*gZP‹YNhQÆQYÛeQL–u4lßW„v*‚LˆO—V(gPgÔk„˜g„vôfëVPÂp0"
+ shipyard_fire:0 ".9‚‚S'Ykp"
+ desc_shipyard_fire:0 "SV0W.9‚‚S„vN!kkpŒpÏQba†NuµNÛ¦^0"
+ skilled_diplomat:0 "ŸqÃu„vY²N˜R"
+ desc_skilled_diplomat:0 "NMOY²N˜R	gyr+R„vŽbçTv^N«ˆ>m»SYtbìNgÍ‘‰„vYýV‹N¡R0"
+ just_causes:0 "ckSVt1u"
+ desc_just_causes:0 "býVY²NâV–„vNÈaªR›RO—VNLuøváOÿbìN„v±Rðy=fTt„vÿLˆ:N=fckSV„v0"
+ popular_noble:0 "×S0kÎ„v5Ïe"
+ desc_popular_noble:0 "bìNgT²„vNMO5Ïe(WYýVUS°s†NÖN„vwaha0"
+ vassals_feel_safe:0 "D–¸^a0R‰RhQ"
+ desc_vassals_feel_safe:0 "bìN›Q–„v:V¿RNbìNùRÖNìNCg)R„vwahaO—VbìN„vD–¸^	g‰RhQaÿ(WbìN¾žN—V0R‡^²b0"
+ firm_hand:0 ":VlxKbµk"
+ desc_firm_hand:0 "Tt„vËe‹SNKbµkObìNýwYÎNbìN„vD–¸^±Ì‘¨iÖSôfY0"
+ emissary_authority:0 "Ow„vCgZ"
+ desc_emissary_authority:0 "bìNY²N˜RNb:d&^„vÁ‹öNãNhˆ†NbìNýV¶Ra×V„vïS`—N3zšR0"
+ suspected_diplomats:0 "	gÌZ‘u„vY²N˜R"
+ desc_suspected_diplomats:0 "bìN„vN›NY²N˜R‰mÌZÂSNô•ŒLˆ¨Rÿ‚YÊNck(W«ˆ%NÆR¡Råg0"
+ slow_negotiations:0 "ÛUSba„vŒ2R"
+ desc_slow_negotiations:0 "bìN„vN›N‰Bl«ˆbìN„vD–¸^Æ‰:N®O±ÿÙÏQ†NNÖNìNŒ2R„vÛz0"
+ hostile_rhetoric:0 "LeaŠº‹"
+ desc_hostile_rhetoric:0 "bìN„vNT'YOZPúQ†NNfzf„vÑSŠÿO—VbìN„v»ýVSbìNÆ‰jOZÁw0"
+ free_freethinkers:0 "ã‰>eê1u`ó`¶R"
+ desc_free_freethinkers:0 "©‹ê1u`ó`¶RMQ×Së³R0W±RlbåwÆ‹ObìN„v™l™ŸŒT–™ý'YfR^—8^ImÃ0"
+ fair_laws:0 "lQck„vÕl‹V"
+ desc_fair_laws:0 "ùRŽNwcklQck„vbú‹(WbìNlO„vYpeºN-N—V0R†N=ec0"
+ ineffective_missionary:0 "’V³R„v.OYeëX"
+ desc_ineffective_missionary:0 "NMO˜RXT.s«ŽŽNºN‡eININÿbìN„v.OYeëXÑS°sˆV¾–©‹^—áO’VˆvO0"
+ fair_dealing:0 "lQs^²Nf"
+ arrogant_administrators:0 "Âr„Y„v˜RXT"
+ honest_broker:0 "ïS`—„vŒjPºN"
+ rogue_nation:0 "àeVýV¶R"
+ ideagroups.1700.t:0 "ZW(g9‚«Ž"
+ ideagroups.1700.d:0 "NMOÏuŒš0NÌR„v.9‚åTºNÑSf†NNÍy RúV9‚«Ž„vŽb=gÿNbåNÖNìNôfýwYÏu×S´fÎ˜è–åNÊSvQÖNwmmN„vwŒš0Ùy˜Žb=g=fÝOÆR„vÿíwöeô•…QwmmØS—V¡l±HNP``†N0"
+ ideagroups.1700.a:0 "bìNàeç`Î˜´f0"
+ ideagroups.1701.t:0 "NMOToRvQžR„vwm›QøSäN"
+ ideagroups.1701.d:0 "NMOpgúQ„vwm›Q›Q˜RVw†NbìN„vèlaÿÖNNÅN¾|c%cz‚=gÿØýwYYeˆcÖNºN0bìN”^å‹‚YUO)R(uÖN„vMbNSÿ"
+ ideagroups.1701.a:0 "»SwmNÿûQƒnbìN„vLeºNÿ"
+ ideagroups.1701.b:0 "»SfR!hÿ»SYeˆc0"
+ ideagroups.1702.t:0 "9eÛ­‹Ãu"
+ ideagroups.1702.d:0 "wm›QfRb–	g†N°e„vYe^ÿ'Yã‰BlbìNÙu4lKbV¾‹Nè•þ‹z0bìN„vþ‹z”^SVµOÍ‘ÀNHNÿ"
+ ideagroups.1702.a:0 "SV6q=f1rýVIN¡R0"
+ ideagroups.1702.b:0 "*‚wmŽb=gNôu²b"
+ ideagroups.1703.t:0 "b=gi—°e"
+ ideagroups.1703.d:0 "Yt^„vwmNb‰NO—VbìN„vwuQ(Wb‰N-NËzNkkbŸR0vQ-N„vN›NŽbçTïSåNI`ÓuNegb:NùR—bLeºN„v)RR0"
+ ideagroups.1703.a:0 "R`O„v9‚'T0"
+ ideagroups.1703.b:0 "bìN„v0‚9‚SOVg'Ywm0"
+ ideagroups.1704.t:0 "	UcpÁy)"
+ ideagroups.1704.d:0 "bìNßu»lwmmÎNwßu»l8f0NbåNbìNÅV‰˜ƒwn†˜wm…Q„v^—ÕlpÁyNOmc³RýV…Q^:W„vYýV8f0"
+ ideagroups.1704.a:0 "Üw)RsS:NÜw)RÿsS¿O=fbÜw|‡†0"
+ ideagroups.1704.b:0 "(uåg·ƒ0µN•bD0"
+ ideagroups.1705.t:0 "‡v¶Reg¢R"
+ ideagroups.1705.d:0 "bìN„vŽbz‚¾|in„v.9‚åTºNNwm›Qû|ßu(WòTåwNLuSV-NðXTÜlbÿNMOYýV‹sPRó`‰ÂSÂ‰bìN„v=nãSv^NbìN„vºN²NAm0Ù=fbìNàeÕlÒbÝu„vèT'Ycƒwÿ"
+ ideagroups.1705.a:0 "‹YÇTÿ"
+ ideagroups.1706.t:0 "1rýVw„vPc`"
+ ideagroups.1706.d:0 "NMOÌRFUó`‰ùRbìNáTÆ‰wmmÝOÁ‹*‚S„v8fN¢c0t„vê1uNbjOúQ„vªR›Rhˆ:ya0Œ08flQøSú^.†N(uŽNwm›Q„v9‚êSÿv^SvQPcÙu‡v¶R0"
+ ideagroups.1706.a:0 "‹Yg†Nÿ"
+ ideagroups.1707.t:0 "wmNŒp¾–"
+ ideagroups.1707.d:0 "N=e8f9‚–÷1YŽN'YmKN-NÿhQèl„«Ž|œy0Œp¾–„vˆmo`*jkb†N=nãSÿO—V÷áO„v4lKb…QÃVEQán†NP`ç`0"
+ ideagroups.1707.a:0 "–ÖNìN²`2O»S'T0"
+ ideagroups.1707.b:0 "NbåNÿbìNØ¡lÆQY‹Y0"
+ ideagroups.1708.t:0 "uQnAm1Y"
+ ideagroups.1708.d:0 "bìNx4Yÿ=nãS„v%`ib.VO—VŠegŠY„vt^‰ºN»yVœQQg»S8flQøS„v9‚NûRŒbåTjO0‚YÊNˆV¾–ÛbßR0RïS`—„vbëX0"
+ ideagroups.1708.a:0 "?awmmTlVÖNìN0"
+ ideagroups.1709.t:0 "(gPgPÂp"
+ ideagroups.1709.d:0 "bìNåN*gZPNhQÆQY„v9‚êSvšTL–uwmßWO—V(gPgÔk„˜ó`„vôfëVPÂp0nlÿPÂpÿ‹v†&&VÓb°e„v^:W—‰ãN÷N0"
+ ideagroups.1709.a:0 "KS`OìN„vNbýw»Sã‰³QƒR0"
+ ideagroups.1709.b:0 "ZWcŸS¡‹R0"
+ ideagroups.1710.t:0 ".9‚‚S'Ykp"
+ ideagroups.1710.d:0 "&q¹lÿ(g™eÿkpoƒ„vqSi–÷mTirVwIN‰=nãS„v'YkpêS=föeô•éeZf„v‹NÅ`0b`YuµN—‰Nµköeô•0"
+ ideagroups.1710.a:0 "Ù=fÅ‹’Tÿ"
+ ideagroups.1800.t:0 "ŸqÃuY²N˜R"
+ ideagroups.1800.d:0 "bìN„vNMO'YOwQ	gyr+R„vYthT¹ u.Nn„vTßv„vY²NŽbçTÿýwYf‹v•ï‹Lˆ:N„vqVÍTÿv^ýwô‹úQp`SV„vÝ‹0bìN”^SV‚YUO©‹ÖNÑS%cÖN„vMbýwÿ"
+ ideagroups.1800.a:0 "©‹ÖN»SÎN‹Ng¾|Æu„våTjO0"
+ ideagroups.1800.b:0 "©‹ÖN(W«R÷^-N:Nbg¡R0"
+ ideagroups.1801.t:0 "bìN„vt1uckSV"
+ ideagroups.1801.d:0 "býVY²NâV–„vNÈaªR›RO—VNLuøváOÿbìN„v±Rðy=fTt„vÿLˆ:N=fckSV„vÿbìN¡l	gÀNHNïS©‹»ýVP`ç`„v0ïSåNô‹ÿbìNNbZP„vNRý=f:N†NTýVºNl„vqQT)RÊv0"
+ ideagroups.1801.a:0 "eg'Tÿb„vŽºN?Q0"
+ ideagroups.1802.t:0 "×S0kÎ„v5Ïe"
+ ideagroups.1802.d:0 "bìN„vNMOg×S0kÎ„v5ÏeÅeRVegÿÖNTYýV«R÷^±RlbbìN„vO'YÿôfN‰ÐcÖN„v%cÑ‘‚YW0êS	gN*NO'Y„výV¦^MbO	g‚Ydk×S0kÎ„v¢RºN0"
+ ideagroups.1802.a:0 "óSÖNìNØ=f	gïSÖSKNY„v0"
+ ideagroups.1803.t:0 "D–¸^a0R‰RhQ"
+ ideagroups.1803.d:0 "bìN„v:VÛv›Q›RŒTùRÖNìNCg)R„vwahaz¦^ÿ©‹bìN„vD–¸^(WbìN„vÝO²bONa0R‰RhQŒT×S0RÝO²b0:N†NÝOœ–Ùy˜sQû|ÿÖNìNžX R†NÙubìN=eØN„v!Ñ‘0"
+ ideagroups.1803.a:0 "grŠwjRŠÛkÿw^—°RNgŠ0"
+ ideagroups.1804.t:0 "lQs^øv…V"
+ ideagroups.1804.d:0 "N*Nåb	g–kl0WND–¸^„v^ýV‚YTN*N5Tù•„v¶R­^ÿ—‰ZW³QFOlQck„vKbµkegONR•N•N	gag0Ñg„v?eVrb—V†NbìN^SýV„v¦”iOv^O—VbìN„vsQû|ôf R'tÆR0"
+ ideagroups.1804.a:0 "ÉyclQs^gÈuI`OùRêñT	g‹YY0"
+ ideagroups.1805.t:0 ":VlxKbµk"
+ ideagroups.1805.d:0 "Tt„vËe‹SNKbµkObìNýwYÎNbìN„vD–¸^±Ì‘¨iÖSôfY0ÖNìNb¸‹NœU0kÿFObìN=fINÖNìN=fÆN0ÖNìNb¸‹gÈuOf‹v„vóSîvMR‚Ydk0"
+ ideagroups.1805.a:0 "`O„v1S=fb„v0"
+ ideagroups.1806.t:0 "wt(W'Y®pSzKN…Q"
+ ideagroups.1806.d:0 "bìNY²N˜RNb:d&^„vÁ‹öNãNhˆ†NbìNýV¶Ra×V„vïS`—N3zšR0bìNY²N˜RNbô‹„vÝ‹ÌwT=fbìN?eœ^„vCgZÿz˜)R„vÅeNëVlšnxÝOOw„vLw1—V0RëVeSLˆ0"
+ ideagroups.1806.a:0 "SÍ‘I`=f×Y×Yegß0"
+ ideagroups.1807.t:0 "Âr„Y„v˜RXT"
+ ideagroups.1807.d:0 "bìN„v±›NYt^SýV‹N¡R„v˜RXTàVùR‰š(WýV:ON†Nã‰wØS—V²PbaÖNìN²‹:N–™ýåNY„vºN„va×SN<PNŒ˜0ÙüRô2a`(W–kl†˜ŒTD–¸^ýV-N…ö^0"
+ ideagroups.1807.a:0 "ÖNìNåN:NÖNìN=fŒÿ"
+ ideagroups.1808.t:0 "ô•ŒQætã‰"
+ ideagroups.1808.d:0 "bìN„vN›NY²N˜R‰mÌZÂSNô•ŒLˆ¨R0‚YÊNÏkN*NbìN>mc„vY²N˜Rbw'YOýO«ˆ`‘u:Nô•Œv^NSVÖNìNŒRbûN¡Röem0R%N‰S„v¡Råg0bìN—‰öeô•egb`YbìN„vTðX0"
+ ideagroups.1808.a:0 "Ù=fäNºN1Yg„vNáOûN0"
+ ideagroups.1809.t:0 "—|œ„v‰Bl"
+ ideagroups.1809.d:0 "bìNùRŽND–¸^„vËe‹S(W–™ýºNlwegˆVTtÿFO=fÙ›N‰Bl(W±›N—‰bìNÝO²b„v1VSTINwweg=f®O±0ùRŽNag>k„vŒ2RïSýw—‰Ôk„˜gôf•„vöeô•0"
+ ideagroups.1809.a:0 "bìNïSåNIr0"
+ ideagroups.1810.t:0 "LeaŠº‹"
+ ideagroups.1810.d:0 "bìN„vNMO'YO(WgÑ„vN!k™l™ŸNZPúQ†NNfzf„vÑSŠ0ÖN„v2a`NùRŽN»ýV„v&^	gb‰NZÁw„v4Œ1O—VbìN„vZÁw«ˆ8Y'Y0"
+ ideagroups.1810.a:0 "©‹ÖNìN²˜–b'T0"
+ ideagroups.1810.b:0 "bìNïSåNs^o`ÙöN‹N0"
+ ideagroups.1900.t:0 "jPbkùRê1u`ó`¶R„vë³R"
+ ideagroups.1900.d:0 "bìN©‹òTfR¶R0?e¢RŒTÑyfR¶RMQŽN?eœ^N—RYe1¾–¨c^åwÆ‹„v?eVrO—VbìN–™ý„v™l™ŸN'YfR^—8^ImÃ0"
+ ideagroups.1900.a:0 "fzfKN>Nÿ"
+ ideagroups.1901.t:0 "lQ²‹„vlQs^Õl‹V"
+ ideagroups.1901.d:0 "‹NžRÁ‹fÿùRNRýV¶R0lÏe0.Oßu„vwcklQs^„vbú‹×S0RYpeºNåb²b0ùRbìNßu»l„vNánKNðXs^o`†NˆVY0"
+ ideagroups.1901.a:0 "Õl‹Vb—MRÿºNºNs^Ir0"
+ ideagroups.1902.t:0 "ïS`—„vŒjPºN"
+ ideagroups.1902.d:0 "bìNjO:NN*Nôu²bhQSOýVl)RÊvÿôu²bÖNýVCg)R„výV¶Rwb—VýVE–ðXg0bìN„vlQs^Lˆ:N(WbìN„v»ýV—V0R†NÞV¥b0"
+ ideagroups.1902.a:0 "ÖNìNw„vœU0kbÿ"
+ ideagroups.1903.t:0 "…Q–TjO"
+ ideagroups.1903.d:0 "bìNEQánºN‡esQ`„v?eVrÏQS†NŒ˜î•KNô•„vsÌVÿàV:NýV…Q„v—RYeŒTÍyÏeîTVàeÕlQb:NÖNìNc¨RÌZ™–„v1u0Ïk*NºNý:N†NÖNìNáOðN„výV¶RåTjOÿ–ÚPKNô•„váOûNú^Ëz†Nweg0"
+ ideagroups.1903.a:0 "R«N1S=fsQ`0"
+ ideagroups.1904.t:0 "S¹RÏk*NºN=fTÛek„vSï"
+ ideagroups.1904.d:0 "bìNýV…Q„vÆuŽx„vRgkNôvI–x†NbìN„vÑSUS0SV?eœ^LwMOTNb	g	gMbNS„vlQlV>eTÿbìNÑS°s†NSV0WÏuNm„vèT'YÑSUSb1S0"
+ ideagroups.1904.a:0 "¹RÍVO—VbìNÌR	g0"
+ ideagroups.1905.t:0 ")nŒT„vÞVTrs^o``kp"
+ ideagroups.1905.d:0 "bìN„váOðNÙuˆNbìNŒTs^N‰RhQaÿNbåNbìNNÅV‹SëÖNºN0sS¿O=f(WgÑž—fñmn-N„vVïzmNýww0R^yf=f‚YUOŸ±RSÍ‘Nb	gºN„v0"
+ ideagroups.1905.a:0 "bìNSVâVÓuNÃV0"
+ ideagroups.1906.t:0 "NLuopTX"
+ ideagroups.1906.d:0 "bìN„váOðNÙuˆNbìNŒTs^N‰RhQaÿNbåNbìNNÅV‹SëÖNºN0sS¿O=f(WgÑž—f„vñmn-N„vVYe’VmNýww0R^yf=f‚YUOŸ±RSÍ‘Nb	gºN„v0"
+ ideagroups.1906.a:0 "bìNSVâVÓuNÃV0"
+ ideagroups.1907.t:0 "0óuÇŒg"
+ ideagroups.1907.d:0 "SÍ‘bìN°eVgLeºN„vê1u„vªR›RÍSwÛbô01rýV0„v´fl`kp·UÑS0Ùkp0qgÈuOÃqKSÿFO=fbìNïSåN°s(W1S„qmpƒR0"
+ ideagroups.1907.a:0 "©‹ÖNìN‚š0"
+ ideagroups.1907.b:0 "›Q–n:W0"
+ ideagroups.1908.t:0 "ê1u`ó`ObìNÜ»yN^"
+ ideagroups.1908.d:0 "¹RÍVNTaÁ‰=fNöNcknxN	g)R„v‹NÅ`ÿFO=fVïz^SëXO6q(W©sVÖNìNáO’V„vupB›0bìNïSåNåNˆVS„vãN÷N‹S6RÖNìNÿFO=fÙÝÌw†NbìN„vºN‡eININ`ó`0"
+ ideagroups.1908.a:0 "•ÜegwÙ¡l	g³RY0"
+ ideagroups.1908.b:0 "ÍSûQVïz0"
+ ideagroups.1909.t:0 ".OYeåTjO’V³RàeŸR"
+ ideagroups.1909.d:0 "ùRºN‡eININ„v˜R¹ebú‹üRô.OYeëX¾–åNQ©‹NáOw,TÎNÖNìN0¡l	gegê˜R¹e„váw„jSŒT'YÒhÿ.OSëXêSýwO`—ÖNìNê«Ž„vE››R0"
+ ideagroups.1909.a:0 "ASRNx^0"
+ ideagroups.1910.t:0 "ˆRçe¿R›RÍSûQ"
+ ideagroups.1910.d:0 "bìNô›RŽNùRlQl(WýV¶R-N„v0WMOÇ‘ÖSôf:Nê1uS„vÂ‰¹pÿÙüRô»ýVSbìNÆ‰:NÎ‘î†ýV¶RÿÖNìN²‹:NbìN³QÃVÁkmp‹s²R0YeOŒTLˆO„v.OßuCgÊv0bìN=fêSýwáOûN±›NNbìNÂ‰õVNô„vºN†NTÿ"
+ ideagroups.1910.a:0 "‹†CSNºN>TŽVãw0"
+ sermons_for_princes_monarchist:0 "‹s²R^S"
+ desc_sermons_for_princes_monarchist:0 "[Root.Monarch.Dynasty.GetName]úQ°s(WbìNýV¶RYeO„v^S0Hywy-NÿÐcGS†NlQOùRŽNÖNìN„vÂ‰a0"
+ act_of_seclusion_monarchists:0 "”–ÝuÕlHh"
+ desc_act_of_seclusion_monarchists:0 "®‹O>mòTÏuŒTN*N?aaJR1V[Root.GetName]TIN>m„vYýV¿R›ROSFU0"
+ distrust_among_nobles_monarchists:0 "5Ïeô•„vNáOûN"
+ desc_distrust_among_nobles_monarchists:0 "?eœ^:gsQùR[Root.Monarch.Dynasty.GetName]¶RÏe„vµbæ‰O—VN›N›Q–S†˜ùRŽN†˜üRwNáOûN0"
+ monarchists_rally_against_rival:0 "TIN>mâVÓu5ÏeùR—bLeýV"
+ desc_monarchists_rally_against_rival:0 "[Root.GetName]²N‹s(WùR—bbìN¿RLe„vb‰N-N¥cÇ†N†˜üRCgÿåNÙNTØš„v‹NNâVÓu†N5Ïe0"
+ dutch_republic.2.t:1 "[Root.GovernmentName]„v?e»lÆQR"
+ dutch_republic.2.da:0 "[Root.GetName]„vNMOY×SleÍ‘„vŒ˜î•ÿ$STATESMAN$$DIPLOMAT$$TRADER$$COLONIAL_GOVERNOR$ÿgÑúQHr†NN,gNW„¨‹º‹qQŒT6R?eœ^Nb‰uªV„v?e»lŸSR0KS¡rfN,g«Ž(Ï‘ˆVØšÿº‹Á‹^—8^	gô‹g›RÿFOfN-N„vèRPg™eùReYpQ»l²N‹sgÑŠbc[Root.Monarch.GetTitle]KNMO„vLˆ:NÐcúQ†N%N‰S„vybÄ‹ÿÙMOŒ˜î•ùR[Root.Monarch.GetName]„vàVÚ‹ïSýwNÏPbìNó`„v±7hNïS¨RGd0"
+ dutch_republic.2.db:0 "[Root.GetName]„vNMOY×SleÍ‘„vŒ˜î•ÿ$STATESMAN$$DIPLOMAT$$TRADER$$COLONIAL_GOVERNOR$ÿgÑúQHr†NN,gNW„¨‹º‹qQŒT6R?eœ^Nb‰uªV„v?e»lŸSR0KS¡rfN,g«Ž(Ï‘ˆVØšÿº‹Á‹^—8^	gô‹g›RÿFOfN-N„vèRPg™eùR[Root.GetName]²N‹sgÑŠbc[Root.Monarch.GetTitle]KNMO„vLˆ:NÐcúQ†N%N‰S„vybÄ‹ÿÙMOŒ˜î•ùR[Root.Monarch.GetName]„vàVÚ‹ïSýwNÏPbìNó`„v±7hNïS¨RGd0"
+ dutch_republic.3.da:0 "[Root.Religion.GetName]YeX²‹iWN„v^SO²OùRŽNeYpQ»l¶RÏe„v=ec—V0R R:Vÿ(WYeX-N²OÏu8^«ˆLp“N*N:V	g›R„vßu»lwùRŽNýVYe„vÍ‘‰'`NN­ˆßu»l„v.Oßu0\n\n6qwÿ[Root.GetName]¹R³u†NNbkNÍyáOðN0±›NáOIYNTáOðN„vºNùRŽNeYpQ»l²N‹sv^NI`=fc	gckb—„vÄ‹º‹ÿvQ-NN›NºN)R(ubìNýV¶R„vlINlQ6qIeûQ[Root.Monarch.GetTitle]NýVYe0"
+ dutch_republic.3.db:0 "[Root.Religion.GetName]YeX²‹iWN„v^SO²OùRŽN[Root.Monarch.Dynasty.GetName]¶RÏe„v=ec—V0R R:Vÿ(WYeX-N²OÏu8^«ˆLp“N*N:V	g›R„vßu»lwùRŽNýVYe„vÍ‘‰'`NN­ˆßu»l„v.Oßu0\n\n6qwÿ[Root.GetName]¹R³u†NNbkNÍyáOðN0±›NáOIYNTáOðN„vºNùRŽN[Root.GetName]²N‹sv^NI`=fc	gckb—„vÄ‹º‹ÿvQ-NN›NºN)R(ubìNýV¶R„vlINlQ6qIeûQ[Root.Monarch.GetTitle]NýVYe0"
+ dutch_republic.4.t:1 "[Root.GovernmentName]Nê1u8f"
+ dutch_republic.4.a:1 "ÖNìN„v‰BlëkNøvr^0ÖNìN=f[Root.GovernmentName]„vãlàVwÅV‰˜z˜ÎN0"
+ dutch_republic.5.t:1 "[Root.GetName]„výV‹s"
+ dutch_republic.5.da:0 "eYpQ»l¶RÏegÑ(W[Root.GetName]×S0R†NŠegŠY„v=ec0àVdkÿÖNìN„v=ecwmNØS—Vôf:N'YÆw0YeO-N„v=ecwåNcðy‡v¶R„vbVVŒº‹w†SûNeYpQ»l²N‹sÿSÖNìNÔkjO1WÏu-N„väSãN2‹s0bìN„vºNl¡l	gØV°‹ÖNìN(WÝOkSbìNýV¶RINCg-Nnbo„vÒ‰r‚ÿv^N«ˆ^‚˜:NQeýVQelKNºN„vTÔˆëkàe‘uî•	gÊvŽN[Root.Monarch.GetName]06qwÿsS¿O=f(WYeO^S„vÌwofNÿðy|T[Root.Monarch.GetHerHim]:NýV‹smN	gJR1VbìNqQŒT?eSO„vÎ˜i–0"
+ dutch_republic.5.db:0 "[Root.Monarch.Dynasty.GetName]¶RÏegÑ(W[Root.GetName]×S0R†NŠegŠY„v=ec0àVdkÿÖNìN„v=ecwmNØS—Vôf:N'YÆw0YeO-N„v=ecwåNcðy‡v¶R„vbVVŒº‹w†SûN[Root.GetName]²N‹sÿSÖNìNÔkjO1WÏu-N„väSãN2‹s0bìN„vºNl¡l	gØV°‹ÖNìN(WÝOkSbìNýV¶RINCg-Nnbo„vÒ‰r‚ÿv^N«ˆ^‚˜:NQeýVQelKNºN„vTÔˆëkàe‘uî•	gÊvŽN[Root.Monarch.GetName]06qwÿsS¿O=f(WYeO^S„vÌwofNÿðy|T[Root.Monarch.GetHerHim]:NýV‹smN	gJR1VbìNqQŒT?eSO„vÎ˜i–0"
+ dutch_republic.6.da:0 "KS¡rÍN6qŠbcNw[Root.Monarch.GetTitle]„vMOPRv^Nßu»lNw[Root.GetName]ÿFOeYpQ»l>m„vqVÍT›R(WgÑVËY‰®V0Wpˆ1V0±›NÇNeYpQ»l¶RÏeÓußveg·ƒÖSCg›R„v5ÏeÿŠegŠY0WŠbÙwZPeYpQ»l¶RÏeKS¡r	gˆVYŸRéuÍN6q×S6RŽNqQŒTýV„v˜RÚP6R¦^ŒT?e»l¯sƒX„vhˆ°s0\n\nbìN›Q–-N„vN›N¨šr^ºNXT‰Bl[Root.Monarch.GetName](W›Q‹N‹N¡R-Nôf Rfnx0WUS:y›RÏ‘0ÖNìN„vú^®‹v^NASRwQ	gú^¾‹'`jO(uÿFOO©‹ÝOˆR>mána0"
+ dutch_republic.6.db:0 "KS¡rÍN6qŠbcNw[Root.Monarch.GetTitle]„vMOPRv^Nßu»lNw[Root.GetName]ÿFOTIN>m„vqVÍT›R(WgÑVËY‰®V0Wpˆ1V0±›NÇNßu»l¶RÏeÓußveg·ƒÖSCg›R„v5ÏeÿŠegŠY0WŠbÙwZP[Root.Monarch.Dynasty.GetName]¶RÏeKS¡r	gˆVYŸRéuÍN6q×S6RŽNqQŒTýV„v˜RÚP6R¦^ŒT?e»l¯sƒX„vhˆ°s0\n\nbìN›Q–-N„vN›N¨šr^ºNXT‰Bl[Root.Monarch.GetName](W›Q‹N‹N¡R-Nôf Rfnx0WUS:y›RÏ‘0ÖNìN„vú^®‹v^NASRwQ	gú^¾‹'`jO(uÿFOO©‹ÝOˆR>mána0"
+ dutch_republic.7.da:0 "KS¡reYpQ»l¶RÏe„W­e†N[Root.Monarch.GetTitle]„v?eCgÿ[Root.GetName]gÑtSÁ‰Á‹†NqQŒT`ó`„vAmLˆ0®‹O>mSdkÆ‰:NN*NáO÷Sÿ²‹:NbìNýV¶Rg	gïSýwTNwÖNìNNbgg„v6R¦^ŒR„U„vqQŒTýV¹eTÑSUS0vQ-NN›NºNuóàV:NeYpQ»l²N‹s=ecÙÍy9eØSwðy^ÖN0àeº‹vQwžR'`Y'YÿbìNgÑ„v?e»lÍdjONôv:NÝOc<S·VpQqQŒTýV„vu:gwªR›R0"
+ dutch_republic.7.db:0 "KS¡r[Root.Monarch.Dynasty.GetName]¶RÏe„W­e†N[Root.Monarch.GetTitle]„v?eCgÿ[Root.GetName]gÑtSÁ‰Á‹†NqQŒT`ó`„vAmLˆ0®‹O>mSdkÆ‰:NN*NáO÷Sÿ²‹:NbìNýV¶Rg	gïSýwTNwÖNìNNbgg„v6R¦^ŒR„U„vqQŒTýV¹eTÑSUS0vQ-NN›NºNuóàV:N[Root.GetName]²N‹s=ecÙÍy9eØSwðy^ÖN0àeº‹vQwžR'`Y'YÿbìNgÑ„v?e»lÍdjONôv:NÝOc[Root.GovernmentName]„vu:gwªR›R0"
+ dutch_republic.8.da:0 "eYpQ»l>mùRŽN[Root.GetAdjective]„vßu»lòTÏuËe R†NèT'Y„vqVÍT›Rÿw?e»l‚ðSNgÑ„v‹N`ÑSUSêSO R:VÖNìNùRŽNNbŒqQŒTýV„vŒcµc0bìNSV-NN›NþfÏuàVÚ‹„výVlòTÏuSdkÆ‰:N[Root.GetName]„vOHQ‹Ny˜VËYwØSS„vNÍyáO÷Sÿ²‹:NzK«ˆjm9(W5Ïe¶R­^àeŒ„výBlN„vöeãNsSS0Reg0ÖNìN²‹:N•ENåNŽVêSO	gàeKS„v²QzN´f?e0¸‹YºNÇÒbÝuTÙ*N?eœ^4zeg—b®‹0"
+ dutch_republic.8.db:0 "TIN>mùRŽN[Root.GetAdjective]„vßu»lòTÏuËe R†NèT'Y„vqVÍT›Rÿw?e»l‚ðSNgÑ„v‹N`ÑSUSêSO R:VÖNìNùRŽNNbŒqQŒTýV„vŒcµc0bìNSV-NN›NþfÏuàVÚ‹„výVlòTÏuSdkÆ‰:N[Root.GetName]„vOHQ‹Ny˜VËYwØSS„vNÍyáO÷Sÿ²‹:NzK«ˆjm9(W5Ïe¶R­^àeŒ„výBlN„vöeãNsSS0Reg0ÖNìN²‹:N•ENåNŽVêSO	gàeKS„v²QzN´f?e0¸‹YºNÇÒbÝuTÙ*N?eœ^4zeg—b®‹0"
+ dutch_republic.9.da:0 "[Root.Monarch.GetName]òTÏuú^Ëz†NÝuùR„vßu»l0(WÙKNMR†SûNeYpQ»l²N‹sùR[Root.GetName]„vßu»lòTÏucíuˆVENÿNb	gùaŒýhˆf[Root.Monarch.GetTitle][Root.Monarch.GetHerHis]ßu»lSôucÈuu0\n\n$SPYMASTER$ÿ[Root.Monarch.GetHerHis]NMO²NáOU^ÚPÿ^TÙ*N2R­e0ÖNùRŽNýV¶R‚YdkàVÚ‹ÿåNóŽNÖN‚YœgÑS°sùRqQŒTýV	gZÁw„vºNXR(Wÿ¿OOëkN¹rkŒ0WÖSÖN'`‹T0gÑN!kêS	gSèRºNÂS R„vÆRO-Nÿ$SPYMASTER$JTåw'Y¶R[Root.Monarch.GetTitle][Root.Monarch.GetHerHim],gºNåNÊSeYpQ»l>mùRCg›R„vŠbcb¸‹=fùRqQŒTSO6R„vg'YZÁw0$SPYMASTER$nxáOÿNbŒÈuugb?eÅVSNO•EN0"
+ dutch_republic.9.db:0 "[Root.Monarch.GetName]òTÏuú^Ëz†NÝuùR„vßu»l0(WÙKNMR†SûN²N‹sùR[Root.GetName]„vßu»lòTÏucíuˆVENÿNb	gùaŒýhˆf[Root.Monarch.GetTitle][Root.Monarch.GetHerHis]ßu»lSôucÈuu0\n\n$SPYMASTER$ÿ[Root.Monarch.GetHerHis]NMO²NáOU^ÚPÿ^TÙ*N2R­e0ÖNùRŽNýV¶R‚YdkàVÚ‹ÿåNóŽNÖN‚YœgÑS°sùRýV¶R	gZÁw„vºNXR(Wÿ¿OOëkN¹rkŒ0WÖSÖN'`‹T0gÑN!kêS	gSèRºNÂS R„vÆRO-Nÿ$SPYMASTER$JTåw'Y¶R[Root.Monarch.GetTitle][Root.Monarch.GetHerHim],gºNåNÊSTIN>mùRCg›R„vŠbcb¸‹=fùRýV¶RSO6R„vg'YZÁw0$SPYMASTER$nxáOÿNbŒÈuugb?eÅVSNO•EN0"
+ dutch_republic.10.da:0 "eYpQ»l²N‹sác	gN¹Rn‘u„vàVÚ‹0KS¡rbìNýV¶Rêé‹:NqQŒTýVÿFOê1u	>NòTbŽV‹N0NÅN=f®‹O>m(W(‘u[Root.GetName]qQŒT6R¦^„vŒRte'`ÿÙ›N`ó`ŠegŠS0W«ˆÐcÊS0àeº‹bìN„v[Root.Monarch.GetTitle]tó`YHNTØšÿbìN?eœ^„vúWówòT6qˆm1Y0"
+ dutch_republic.10.db:0 "[Root.GetName]²N‹sác	gN¹Rn‘u„vàVÚ‹0KS¡rbìNýV¶Rêé‹:NqQŒTýVÿFOê1u	>NòTbŽV‹N0NÅN=f®‹O>m(W(‘u[Root.GetName]qQŒT6R¦^„vŒRte'`ÿÙ›N`ó`ŠegŠS0W«ˆÐcÊS0àeº‹bìN„v[Root.Monarch.GetTitle]tó`YHNTØšÿbìN?eœ^„vúWówòT6qˆm1Y0"
+ dutch_republic.13.da:0 "[Root.GetName]b¸‹=fqQŒTýVÿFObìNÍN6qÇTwûY„vNˆsQû|(WNvQÖNýV¶R„vsQû|NÝOc†N³Y„v›RÏ‘0sS¿O‚YdkÿSVCgw„vßu»lŠN3zšRÿÙ›NsQû|1SŠ1V0\n\nt’ŽNbýVòTÏuŸ^V†NN­ˆ6R„v.Oßuÿ±›NŽV8^=ec®‹O>mSV?e„výV¶R°s(WVËYÅbÃVÖNìNN[Root.GetAdjective]Cg›R8hÃV„vTwûYËu&^S«ˆJR1V0ÖNìN^gnxÝOwQ	gqVÍT›R„v'Y¶RÏeýwÝOYuN›NCg›R&&SìbeYpQ»l¶RÏe0"
+ dutch_republic.13.db:0 "[Root.GetName]b¸‹=fqQŒTýVÿFObìNÍN6qÇTwûY„vNˆsQû|(WNvQÖNýV¶R„vsQû|NÝOc†N³Y„v›RÏ‘0sS¿O‚YdkÿSVCgw„vßu»lŠN3zšRÿÙ›NsQû|1SŠ1V0\n\nt’ŽNbýVòTÏuŸ^V†NN­ˆ6R„v.Oßuÿ±›NŽV8^=ec®‹O>mSV?e„výV¶R°s(WVËYÅbÃVÖNìNN[Root.GetAdjective]Cg›R8hÃV„vTwûYËu&^S«ˆJR1V0ÖNìN^gnxÝOwQ	gqVÍT›R„v'Y¶RÏeýwÝOYuN›NCg›R&&Sìb[Root.Monarch.Dynasty.GetName]¶RÏe0"
+ dutch_republic.14.t:1 "F–›Q-N„v5ÏeâVSO"
+ dutch_republic.14.da:0 "®‹O>mbŸR0WO[Root.GetName]„v?eœ^:g„gSOû|ôf RqQŒTSÿFO=f	gN*N:g„gùR9ei—^—8^—bÒbÿ±1S=f›Q–0ŒTeYpQ»l¶RÏeASR²NÆR„vNMOS›Q4xOW†NbìNÕ‹þV¶gzzàVŽNeYpQ»l¶RÏe„vØš6–S†˜„vªR›R0\n\n°s(WÿÖNuóôfÛNekÿó`‰ÖN„vNMO²NbÿT7hmN=feYpQ»l>m„vºNÿb:N[Root.Monarch.GetTitle]„vŒ˜î•0‹†6qÙ*Nt^‰ºNwweg=f*N	gMbNS„vc%c˜RÿbìNNOPNÁ‰ÖNÖS—VqVÍT›R0"
+ dutch_republic.14.db:2 "®‹O>mbŸR0WO[Root.GetName]„v?eœ^:g„gSOû|ôf RqQŒTSÿFO=f	gN*N:g„gùR9ei—^—8^—bÒbÿ±1S=f›Q–0ŒT[Root.Monarch.GetName]¶RÏeASR²NÆR„vNMOS›Q4xOW†NbìNÕ‹þV¶gzzàVŽN[Root.Monarch.GetName]¶RÏe„vØš6–S†˜„vªR›R0\n\n°s(WÿÖNuóôfÛNekÿó`‰ÖN„vNMO²NbÿT7hmN=fTIN>m„vºNÿb:N[Root.Monarch.GetTitle]„vŒ˜î•0‹†6qÙ*Nt^‰ºNwweg=f*N	gMbNS„vc%c˜RÿbìNNOPNÁ‰ÖNÖS—VqVÍT›R0"
+ dutch_republic.15.t:1 "5Ïeüvg[Root.GetName]²N‹sŒcCg"
+ dutch_republic.15.da:0 "ÇçubŒcác'YCg„vºNŽVŽVráOCg›RN­ˆ„vO¹p0[Root.GetName]„vSV0W5Ïev^*gßRÉ‰ÙÍyTwû|ÿv^ðXðyÖNìN^geYpQ»l¶RÏeŒcCg=f:N†NýV¶R„vâVÓuŒT3zšR0\n\nßu»l±›NN²‹TbìNÂ‰¹p„vºNv^^—f‹N0	göeÿôv¥c²QzàeÕlMQ0	göeRïSåNMQÿFO—‰ØNúQãN÷N0"
+ dutch_republic.15.db:0 "ÇçubŒcác'YCg„vºNŽVŽVráOCg›RN­ˆ„vO¹p0[Root.GetName]„vSV0W5Ïev^*gßRÉ‰ÙÍyTwû|v^ðXðyÖNìN^g[Root.Monarch.Dynasty.GetName]¶RÏeŒcCg=f:N†NýV¶R„vâVÓuŒT3zšR0\n\nßu»l±›NN²‹TbìNÂ‰¹p„vºNv^^—f‹N0	göeÿôv¥c²QzàeÕlMQ0	göeRïSåNMQÿFO—‰ØNúQãN÷N0"
+ dutch_republic.15.a:1 "ÖNìN=f[Root.GetName]„výVlÿŒTvQÖNºNN7hÿ"
+ dutch_republic.16.t:1 "[Root.GovernmentName]„vbŸR"
+ dutch_republic.17.da:0 "gÑùReYpQ»l>m=ec„vžX•¹pÃq†NùRŽNvQÖNýV¶R‚YUOw…VbìN„v‰Nº‹0N*N	gNw1V¿RTIN„výV¦^O«ˆÆ‰:Nsirv^NN<P—VSÍ‘0wùRŽNN*NŒRhQ¡l	gTIN„výV¶RÿÙÈSasTNwÀNHNÿ\n\neYpQ»l>m±RðyÖNìN	gTrHh0:N†N©‹bìNýV¶Rb:NýVE–>yON„v:V'YÞz‰Nwÿ[Root.Monarch.GetTitle]ÅV‰˜>f:yúQ[Root.Monarch.GetHerHis]ýw›RegâVÓuNßu»l0àe(u„v›RÏ‘«pw8^«ˆÆ‰:Njm9ÿFO°s(WwegÙÍy«pwb¸‹=fÅV‰˜„v0"
+ dutch_republic.17.db:0 "gÑùRTIN>m=ec„vžX•¹pÃq†NùRŽNvQÖNýV¶R‚YUOw…VbìN„v[Root.GovernmentName]„v‰Nº‹0N*N	gNw1V¿RTIN„výV¦^O«ˆÆ‰:Nsirv^NN<P—VSÍ‘0wùRŽNN*NŒRhQ¡l	gTIN„výV¶RÿÙÈSasTNwÀNHNÿ\n\nTIN>m±RðyÖNìN	gTrHh0:N†N©‹bìNýV¶Rb:NýVE–>yON„v:V'YÞz‰Nwÿ[Root.Monarch.GetTitle]ÅV‰˜>f:yúQ[Root.Monarch.GetHerHis]ýw›RegâVÓuNßu»l0àe(u„v›RÏ‘«pw8^«ˆÆ‰:Njm9ÿFO°s(WwegÙÍy«pwb¸‹=fÅV‰˜„v0"
+ dutch_republic.18.t:1 "[Root.GetAdjectiveCap]„vIQcƒKNï"
+ dutch_republic.18.da:0 "(WgÑ„veYpQ»l>mN®‹O>m²Qz-NLe¹e„vÜw)RÿúQNNa™e0WO—V[Root.GetName]ÎN-N×SÊv0þfÏuùR›Q‹N‹N¡RtQ±åRåR„v5Ïeÿ‚YÊNVËYgüvýw	gNMOeYpQ»l²N‹sVüRbìN„vºNlpT‰Lq0ÖNìNw0R†N[Root.GetAdjective]qQŒTýVIQf0cƒw„v*gegÿwàeº‹ÙÍywÕl=f&TcknxÿÙOO—VbìN%`—S†˜„v›Q–ÎN-N×SÊv0"
+ dutch_republic.18.db:0 "(WgÑ„vTIN>mN®‹O>m²Qz-NLe¹e„vÜw)RÿúQNNa™e0WO—V[Root.GetName]ÎN-N×SÊv0þfÏuùR›Q‹N‹N¡RtQ±åRåR„v5Ïeÿ‚YÊNVËYgüvýw	gNMO[Root.GetName]²N‹sVüRbìN„vºNlpT‰Lq0ÖNìNw0R†N[Root.GetAdjective]qQŒTýVIQf0cƒw„v*gegÿwàeº‹ÙÍywÕl=f&TcknxÿÙOO—VbìN%`—S†˜„v›Q–ÎN-N×SÊv0"
+ dutch_republic.18.a:1 "©‹=ecw ReQF–›Q"
+ dutch_republic.18.b:1 "©‹=ecw ReQwm›Q"
+ dutch_republic.19.da:0 "qQŒTßu»lasTNw‘˜Au„v¥YOSÿûRŒb-Nô•Ëz:WegO—V³Q®‹Ç0	göeRN6q0(WgÑ„veYpQ»l>mŒT®‹O>m„v²Qz-NÿSV°s?eœ^—VÜwöeÿ	g›N5ÏeSdkwZPqQŒTßu»lVËYØS—VNÅ`t0†wa„Y:N„váO÷S0\n\nbýVëXuQ„vëXlb¸‹OÝOcØš¨mÿFO	g›NS†˜ùR[Root.GetAdjective]„v‹NNck(W1Y»SáOÃV0ÖNìNb¸‹=f•„vÿFObìN„v›Q‹N›RÏ‘OàVdkJR1V0"
+ dutch_republic.19.db:0 "Tw¦ßu»lasTNw‘˜Au„v¥YOSÿûRŒb-Nô•Ëz:WegO—V³Q®‹Ç0	göeRN6q0(WgÑ„vTIN>mŒT®‹O>m„v²Qz-NÿSV°s?eœ^—VÜwöeÿ	g›N5ÏeSdkwZPqQŒTßu»lVËYØS—VNÅ`t0†wa„Y:N„váO÷S0\n\nbýVëXuQ„vëXlb¸‹OÝOcØš¨mÿFO	g›NS†˜ùR[Root.GetAdjective]„v‹NNck(W1Y»SáOÃV0ÖNìNb¸‹=f•„vÿFObìN„v›Q‹N›RÏ‘OàVdkJR1V0"
+ dutch_republic.20.da:1 "[Root.Mil_Advisor.GetName]=fN*NLˆ¨R>m„vºNÿÙmN=f:NÀNHN[Root.Mil_Advisor.GetSheHe]«ˆSVNSNbÇ–cOÿwNKS¡r[Root.Mil_Advisor.GetSheHe]=fN*NW„T„veYpQ»l>mÿÖNtSýw•gŠbc[Root.GetName]„v–™-^›Q‹NŒ˜î•„vMOn0NÇ°s(Wÿ[Root.Mil_Advisor.GetHerHis]Lˆ¨RVËYˆ”ùRwbìN†N0\n\n[Root.Mil_Advisor.GetName]ðXðy®‹O>m„v¿R›RòTÏuN¹Rn‘u0ck(WgdÁk[Root.GetName]ÿv^Šba0RCg›R×S0RSVCg>mû|ZÁw„vºNâVÓu(W[Root.Mil_Advisor.GetHerHim]«ŽTÿÆQYÑSw?eØSeg:YCg0°s(W=föePI–bkÖNìN†N0"
+ dutch_republic.20.db:1 "[Root.Mil_Advisor.GetName]=fN*NLˆ¨R>m„vºNÿÙmN=f:NÀNHN[Root.Mil_Advisor.GetSheHe]«ˆSVNSNbÇ–cOÿwNKS¡r[Root.Mil_Advisor.GetSheHe]=fN*NW„T„vTIN>mÿÖNtSýw•gŠbc[Root.GetName]„v–™-^›Q‹NŒ˜î•„vMOn0NÇ°s(Wÿ[Root.Mil_Advisor.GetHerHis]Lˆ¨RVËYˆ”ùRwbìN†N0\n\n[Root.Mil_Advisor.GetName]ðXðy®‹O>m„v¿R›RòTÏuN¹Rn‘u0ck(WgdÁk[Root.GetName]ÿv^Šba0RCg›R×S0RSVCg>mû|ZÁw„vºNâVÓu(W[Root.Mil_Advisor.GetHerHim]«ŽTÿÆQYÑSw?eØSeg:YCg0°s(W=föePI–bkÖNìN†N0"
+ dutch_republic.20.c:0 ":N†N‹sýVÿ"
+ dutch_republic.20.d:1 ":N†NTwßvÿ"
+ dutch_republic.21.a:1 "[Root.GovernmentName]w–eQàe?eœ^¶r`ÿ"
+ dutch_republic.23.da:0 "bìNckY(Wb‰NKN-NÿFOv^^—ûR8^„vb‰N0bìN„vLeºNN=fNöe„vLeºNÿw=f[Root.GetName]„v‰kLe0(WÙ7h„vöePÿNb	gwýNâVÓuwegÿTÇNLeþVÿ5Ïe4ng†˜›Qú^ŸRËzN0ŒýwÔkeYpQ»l²N‹sôfÅd•†˜uQÿ\n\nKS¡rAQ¸‹eYpQ»l¶RÏeâVÓuvQÖN5ÏeŒT²Oeg ReQb‰NOŸ‚ëXlÿFO®‹O>mN=f»PÜt0ÖNìNåwSÙÍyâVÓuO(Wb‰NTO6qcíuÿv^NeYpQ»l>mÝuN?a©‹úQÖNìN—V0R„vûNUOCg›RÿsSO=f	gg‹Y„vt1u0"
+ dutch_republic.23.db:0 "bìNckY(Wb‰NKN-NÿFOv^^—ûR8^„vb‰N0bìN„vLeºNN=fNöe„vLeºNÿw=f[Root.GetName]„v‰kLe0(WÙ7h„vöePÿNb	gwýNâVÓuwegÿTÇNLeþVÿ5Ïe4ng†˜›Qú^ŸRËzN0ŒýwÔk[Root.GetName]²N‹sôfÅd•†˜uQÿ\n\nKS¡rAQ¸‹[Root.Monarch.Dynasty.GetName]¶RÏeâVÓuvQÖN5ÏeŒT²Oeg ReQb‰NOŸ‚ëXlÿFO®‹O>mN=f»PÜt0ÖNìNåwSÙÍyâVÓuO(Wb‰NTO6qcíuÿv^NTIN>mÝuN?a©‹úQÖNìN—V0R„vûNUOCg›RÿsSO=f	gg‹Y„vt1u0"
+ dutch_republic.23.c:0 "[Root.Monarch.Dynasty.GetName]¶RÏeþfÏu†˜üRbìNýV¶RpTÜw)R0"
+ dutch_republic.24.da:0 "b‰NÓumgÿeYpQ»l>m„v.^©Rw†NˆV'Y„vjO(uÿÖNìNÍN6qÇÙ›NLˆ:N«N	g^Ûl„v=ecv^NÝOc†NÖNìN«ˆ¸‹ú‹„vCg›R0®‹O>m(Wb‰NöegùR¶RÏeZPúQ†N©‹ekÿ°s(W‰BlNRÞVY0RbMR„v7hPR0ÖNìN±RðyÿÙ7hZPøvSVŽNSýV¶R²NÙu(Wb‰N-N†˜üRyY„vºNÿSqQŒTýVVåN:Ncƒ„v®‹O›bKNNŒ˜0"
+ dutch_republic.24.db:0 "b‰NÓumgÿTIN>m„v.^©Rw†NˆV'Y„vjO(uÿÖNìNÍN6qÇÙ›NLˆ:N«N	g^Ûl„v=ecv^NÝOc†NÖNìN«ˆ¸‹ú‹„vCg›R0®‹O>m(Wb‰NöegùR¶RÏeZPúQ†N©‹ekÿ°s(W‰BlNRÞVY0RbMR„v7hPR0ÖNìN±RðyÿÙ7hZPøvSVŽNSýV¶R²NÙu(Wb‰N-N†˜üRyY„vºNÿSqQŒTýVVåN:Ncƒ„v®‹O›bKNNŒ˜0"
+ dutch_republic.25.t:1 "Í‘ú^[Root.GovernmentName]"
+ dutch_republic.25.a:1 "©‹bìN:N[Root.GetName]ºNlÍ‘ú^Ù›Ntó`0"
+ dutch_republic.25.c:0 "[Root.GetName]²N‹s(W*gegOVüRbìNpTÜw)R0"
+ dutch_republic.26.t:1 "[Root.GetName]„v)RÊv"
+ dutch_republic.27.d:2 "bìNýV¶R„vNèR¹ƒXESl`NwcƒwNVg„vÎ‘ÃVÜ:w¹ƒX0vQÖNºNRÃV`P`ç`0NN*NïSýwZÁwbìNýV¶RINCg„výV¶R¥cäXO—VN›N	gqVÍT›R„vëXÅu=ec[Root.GovernmentName]ýV…Q®‹O>m„v®‹zÿ^gýwMQûRBlib.V[Root.GetAdjective]¹Luv^NbìN:V'Y„v»ESÑSuNÅV‰²Qz„v²N‹sSVCg0"
+ dutch_republic.28.da:0 "[Root.GetName]„v5Ïev^NàV:N(W¹LuwýNwÅbÃV0øvÍSÿÖNìNøváObìN„v»ýVMb”^SVÅbÃVÿàV:Nb¸‹(WbìN<w-Nÿ»ýV„vW0W«ˆ³ueQ[Root.GetName]»lNÿb=fb:NqQŒTýVNGr°e„vTww®‹Oôv–†˜WMbOôf‹Y0ýVƒXùRb—„vºNìNwwegòTÏuåwSf†NÙN¹pÿàV:NÖNìN>f:yúQ†NùRŽN[Root.Owner.GetName]›RÏ‘„vP`ç`ÿ2SvQ<wN=fNMOÎ‘ÃVÃRÃR„veYpQ»l²N‹s(Wgb?e0"
+ dutch_republic.28.db:0 "[Root.GetName]„v5Ïev^NàV:N(W¹LuwýNwÅbÃV0øvÍSÿÖNìNøváObìN„v»ýVMb”^SVÅbÃVÿàV:Nb¸‹(WbìN<w-Nÿ»ýV„vW0W«ˆ³ueQ[Root.GetName]»lNÿb=fb:N¦TwNGr°e„vTww®‹Oôv–†˜WMbOôf‹Y0ýVƒXùRb—„vºNìNwwegòTÏuåwSf†NÙN¹pÿàV:NÖNìN>f:yúQ†NùRŽN[Root.Owner.GetName]›RÏ‘„vP`ç`ÿ2SvQ<wN=fNMOÎ‘ÃVÃRÃR„v[Root.GetName]²N‹s(Wgb?e0"
+ dutch_republic.29.d:1 "«ˆëNbýV„vlQV¿RLeqQ«N¹ƒXO©‹lOÃV-NuúQ…Æ‰ÿFO=f[Root.GetCapitalName]„vOÀylQlýwYˆV‹Y0W©cp™ÖNìN„v‰…0\n\nøvÍSÿSV0W5ÏeòTÏuVËYØyÆRŒRùRbìNLeýV„veQµO¹eHhÿwÖNìN²‹:NÙ›N¹eHhêS	gSV[Root.Owner.GetName]Y(WNMOOHQwQ†ýV¶RcƒwwŠb?e»l—e‰N>e(WvQ!k„v†˜üRºN»lNöeMb	g:gOËeLˆ0ÖNìNùRqQŒT>m„vªR›RëkàeSÍ‘ÿtS²‹:NêS	gNMO²N‹sMbýw=ecÖNìN„vÎ‘ÃV0"
+ dutch_republic.30.da:0 "[Root.GetName]=fbìNqQŒTýV„vN'Y8hÃV=eñgwýNÿÖNìN„vãNhˆ(WTww®‹O-N	gNwˆV'Y„vÝ‹í‹Cg0[Root.GetCapitalName]gÑ„v‹N`ÑSUSùRÍSùR>m	g)RÿÙVúQ†NbìN”^å‹=ecêTN¹e0W¹e¿R›R„vî•˜˜0N!kS‰0Reg„v®‹O©º‹OÙubìNN!kmblNS¿R„v:gOÿFO‚YœgbìNmc³R†NÍSùR>m)RÊvÿÖNìNNOÙubìN‹Y8r‚0"
+ dutch_republic.30.db:0 "[Root.GetName]=fbìNTwßv8hÃV„vN'Y8hÃV=eñgwýNÿÖNìN„vãNhˆ(WTww®‹O-N	gNwˆV'Y„vÝ‹í‹Cg0[Root.GetCapitalName]gÑ„v‹N`ÑSUSùRÍSùR>m	g)RÿÙVúQ†NbìN”^å‹=ecêTN¹e0W¹e¿R›R„vî•˜˜0N!kS‰0Reg„v®‹O©º‹OÙubìNN!kmblNS¿R„v:gOÿFO‚YœgbìNmc³R†NÍSùR>m)RÊvÿÖNìNNOÙubìN‹Y8r‚0"
+ dutch_republic.30.c:0 ">mcN*N=ecTIN>m„vºN»S‰Nº‹0"

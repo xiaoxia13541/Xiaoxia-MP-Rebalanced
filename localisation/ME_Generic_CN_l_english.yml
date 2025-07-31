@@ -1,182 +1,182 @@
-l_english:
+﻿l_english:
  # Missions:
- CN_forming_a_merchant_case_title: "形成商人阶层"
- CN_forming_a_merchant_case_desc: "我们刚刚抵达美洲，我们的殖民地仍在发展中。因此，我们发现的小城市仍处于发展初期。随着它们的发展，贸易部门也在增长，我们应当支持并让其发展。一个商人阶层对于推动经济发展是必要的。"
- CN_dominate_home_trade_node_title: "主导贸易"
- CN_dominate_home_trade_node_desc: "我们的祖先来到这片土地是为了利用新的机会。从那时起，时代已经改变，殖民地已经成长为一个自给自足的黄金之地。一个黄金之地，不幸的是，由于我们糟糕的商业传统，黄金被廉价出口。我们需要主导贸易并按我们的方式制定价格！"
- CN_encourage_immigration_title: "鼓励移民"
- CN_encourage_immigration_desc: "我们最近成立的殖民地急需人力。为了建立一个自给自足的国家，需要殖民者来完成工作。我们需要传播我们土地上财富和机会的消息。"
- sealand_CN_encourage_immigration_tt:0 " §M事件给予以下之一：§! \n随机邻近的空省份获得拥有 §Y100§! 殖民者的开发地。\n\n §M或：§! "
- sealand_CN_encourage_immigration_ttt:0 " §M或：§! "
- CN_growth_of_cities_title: "城市增长"
- CN_growth_of_cities_desc: "随着农奴不断流入我们的土地和殖民地的不断扩张，主要的人口中心正在形成。"
- CN_rapid_urbanization_title: "快速城市化"
- CN_rapid_urbanization_desc: "城市的无情增长导致社会越来越依赖城市。我们的城市最终长得足够大，可以与我们的殖民统治者相媲美。"
- CN_colonial_expansion_title: "殖民扩张"
- CN_colonial_expansion_desc: "我们的殖民地仍然处于起步阶段。有这么多土地要占领，我们应该派遣探险队去超越并定居这些未知的土地！"
- CN_extensive_colonization_title: "广泛殖民"
- CN_extensive_colonization_desc: "尽管我们在殖民方面尽了最大努力，新世界仍然非常贫瘠。应该分配更多资源到殖民努力中，因为按照这个速度，我们的敌人会在我们之前占领这些土地。"
- CN_unite_the_region_title: "巩固地区"
- CN_unite_the_region_desc: "我们在殖民方面的努力终于结出了硕果。随着殖民地成长为一个相当大的国家，我们需要在家乡区域内巩固我们的控制，并专注于内部完善。"
- CN_beyond_our_borders_title: "超越我们的边界"
- CN_beyond_our_borders_desc: "我们不能满足于我们已经拥有的。因此，我们将定居新土地并为自己夺取新世界的财富！"
- CN_subdue_natives_title: "驱逐原住民"
- CN_subdue_natives_desc: "大多数独立的原住民部落只是我们身边的一根刺。他们的部落必须被征服并融入殖民政府。只有这样，我们才能最终完全开发新世界的财富！"
- CN_colonial_assembly_title: "殖民议会"
- CN_colonial_assembly_desc: "我们的殖民政府最初是为了以中央政府的名义管理海外领土而设立的。随着时间的推移，殖民地变得越来越大，在这个过程中，殖民政府变得比以往任何时候都更加必要。因此，我们需要创建一个殖民议会，它将与我们的公民更加紧密，并为所有人实行公平税收。"
- CN_colonial_laws_title: "殖民法律"
- CN_colonial_laws_desc: "我们的殖民议会授予我们独家自治权。我们的政府不能袖手旁观。因此，是时候制定第一个由殖民者完全决定的法律，而不是由压迫性的中央政府决定！"
- CN_army_title: "殖民军队"
- CN_army_desc: "自从我们建立了殖民议会以来，我们和我们的殖民统治者之间的紧张关系一直处于历史最高点。因此，我们需要显著加强我们的陆军力量，以对抗中央政府，如果他们敢于压迫我们的话。"
- sealand_CN_colonial_fighers_modifier:0 "殖民战士"
- CN_support_title: "殖民支持"
- CN_support_desc: "虽然看起来我们在我们的斗争中是孤立的，但其他殖民政府并没有什么不同。我们的外交官必须与他们接触并谈判支持，以防万一发生独立战争。只有这样，我们才能确保被压迫者的自由！"
- CN_workshops_title: "建立作坊"
- CN_workshops_desc: "作为一个海外领土，我们国家的主要关注点一直是出口。因此，许多资源已经被投入到提高我们的资源开采的产量和效率，以最大化利润。只要有这样的需求，这些资源将继续被投入到金融部门，而确实有这样的需求。"
- CN_manufactories_title: "制造商品"
- CN_manufactories_desc: "随着制造工业的出现，全球生产的效率进一步提高。历史上任何国家都没有达到如此高水平的自动化生产。我们需要利用制造工业并在我们所有的城市中建立它们。"
- sealand_CN_manufactories_tt:0 " §M事件给予以下之一：§! "
- sealand_CN_manufactories_ttt:0 " §M或：§! "
- CN_riches_of_the_new_world_title: "新世界的财富"
- CN_riches_of_the_new_world_desc: "新世界的独特气候允许建立种植园，生产世界闻名的作物。我们需要在这些作物的收获和衍生产品的生产上表现出色。"
- CN_mercantilism_title: "出口重点"
- CN_mercantilism_desc: "最小化进口，最大化出口。这些是重商主义概念的规则。作为一个拥有高需求产品的国家，我们应该利用这些产品并拥抱重商主义的规则。"
- CN_mmm_myes_gold_title: "淘金热"
- CN_mmm_myes_gold_desc: "新世界拥有许多被认为足够宝贵的资源，许多人因此放弃了他们的旧生活。其中之一就是黄金，对于黄金来说，有一股真正的移民潮。来自旧世界的黄金寻求者纷纷来到我们的地区寻找黄金。"
+ CN_forming_a_merchant_case_title: "bVbFUºN6–BS"
+ CN_forming_a_merchant_case_desc: "bìNRRµb¾Ž2mÿbìN„v–kl0WÍN(WÑSUS-N0àVdkÿbìNÑS°s„vSÎW^ÍNYŽNÑSUSRg0–NwƒRìN„vÑSUSÿ8fèè•mN(WžX•ÿbìN”^SV=ecv^©‹vQÑSUS0N*NFUºN6–BSùRŽN¨c¨RÏuNmÑSUS=fÅV‰„v0"
+ CN_dominate_home_trade_node_title: "INüR8f"
+ CN_dominate_home_trade_node_desc: "bìN„vVyHQeg0RÙGrW0W=f:N†N)R(u°e„v:gO0ÎN±öewÿöeãNòTÏu9eØSÿ–kl0WòTÏub•:NN*NêÙuê³„vÄžÑ‘KN0W0N*NÄžÑ‘KN0WÿNx^„v=fÿ1uŽNbìNß|Õ|„vFUN.OßuÿÄžÑ‘«ˆÉ^÷NúQãS0bìN—‰INüR8fv^	cbìN„v¹eV6RšR÷N<hÿ"
+ CN_encourage_immigration_title: "Ÿ±Rûyl"
+ CN_encourage_immigration_desc: "bìNgÑbËz„v–kl0W%`—ºN›R0:N†Nú^ËzN*NêÙuê³„výV¶Rÿ—‰–klwegŒRbåTjO0bìN—‰.O­dbìNW0WN0ÌRŒT:gO„vˆmo`0"
+ sealand_CN_encourage_immigration_tt:0 " §M‹NöNÙuˆNåNNKNNÿ§! \n–:g»Ñ„vzzwýN·ƒ—Våb	g §Y100§! –klw„vVÑS0W0\n\n §Mbÿ§! "
+ sealand_CN_encourage_immigration_ttt:0 " §Mbÿ§! "
+ CN_growth_of_cities_title: "ÎW^žX•"
+ CN_growth_of_cities_desc: "–NwœQtYN­eAmeQbìN„vW0WŒT–kl0W„vN­eib.VÿIN‰„vºNãS-NÃVck(WbVb0"
+ CN_rapid_urbanization_title: "ëVÎW^S"
+ CN_rapid_urbanization_desc: "ÎW^„vàeÅ`žX•üRô>yOŠegŠOVÎW^0bìN„vÎW^gÈu•—V³Y'YÿïSåNNbìN„v–klßu»lwøv²ZŽ0"
+ CN_colonial_expansion_title: "–klib.V"
+ CN_colonial_expansion_desc: "bìN„v–kl0WÍN6qYŽNwek6–µk0	gÙHNYW0W‰`S†˜ÿbìN”^å‹>mc¢ci––»S…Šv^šRESÙ›N*gåw„vW0Wÿ"
+ CN_extensive_colonization_title: "^Ûl–kl"
+ CN_extensive_colonization_desc: "KS¡rbìN(W–kl¹eb—KS†Ng'YªR›Rÿ°eNLuÍN6q^—8^+.v0”^å‹RM‘ôfYDn0R–klªR›R-NÿàV:N	cgqÙ*N¦^ÿbìN„vLeºNO(WbìNKNMR`S†˜Ù›NW0W0"
+ CN_unite_the_region_title: "éTúV0W:S"
+ CN_unite_the_region_desc: "bìN(W–kl¹eb—„vªR›RÈuŽNÓuúQ†NUxœg0–Nw–kl0Wb•:NN*NøvSV'Y„výV¶RÿbìN—‰(W¶RaN:SßW…QéTúVbìN„vµc6Rÿv^NèlŽN…QèŒR„U0"
+ CN_beyond_our_borders_title: "…ŠbìN„v¹Lu"
+ CN_beyond_our_borders_desc: "bìNNýwán³ŽNbìNòTÏuåb	g„v0àVdkÿbìNSšRES°eW0Wv^:NêñT:YÖS°eNLu„v0ÌRÿ"
+ CN_subdue_natives_title: "qšŸSOOl"
+ CN_subdue_natives_desc: "'YYpeìrËz„vŸSOOlèK„êS=fbìN«Ž¹„vN9h:R0ÖNìN„vèK„ÅV‰˜«ˆVgv^‡eQ–kl?eœ^0êS	gÙ7hÿbìNMbýwgÈuŒRhQVÑS°eNLu„v0ÌRÿ"
+ CN_colonial_assembly_title: "–kl®‹O"
+ CN_colonial_assembly_desc: "bìN„v–kl?eœ^gR=f:N†NåN-N.Y?eœ^„vTIN¡rtwmY†˜Ww¾‹Ëz„v0–Nwöeô•„v¨cûyÿ–kl0WØS—VŠegŠ'Yÿ(WÙ*NÇz-Nÿ–kl?eœ^ØS—VÔkåNŽVûNUOöePýôf RÅV‰0àVdkÿbìN—‰Rú^N*N–kl®‹OÿƒRSNbìN„vlQlôf R'tÆRÿv^:NNb	gºNžRLˆlQs^z6e0"
+ CN_colonial_laws_title: "–klÕl‹V"
+ CN_colonial_laws_desc: "bìN„v–kl®‹OˆcˆNbìNìr¶Rê»lCg0bìN„v?eœ^Nýw–ˆKbÁeÂ‰0àVdkÿ=föeP6RšR,rN*N1u–klwŒRhQ³QšR„vÕl‹VÿwN=f1u‹Së'`„v-N.Y?eœ^³QšRÿ"
+ CN_army_title: "–kl›Q–"
+ CN_army_desc: "êÎNbìNú^Ëz†N–kl®‹OåNegÿbìNŒTbìN„v–klßu»lwKNô•„v't.VsQû|NôvYŽN†SòSgØš¹p0àVdkÿbìN—‰>fW„ R:VbìN„vF–›Q›RÏ‘ÿåNùR—b-N.Y?eœ^ÿ‚YœgÖNìNbeŽN‹SëbìN„vÝ‹0"
+ sealand_CN_colonial_fighers_modifier:0 "–klbëX"
+ CN_support_title: "–kl=ec"
+ CN_support_desc: "‹†6qwwegbìN(WbìN„v—e‰N-N=fdRËz„vÿFOvQÖN–kl?eœ^v^¡l	gÀNHNNT0bìN„vY²N˜RÅV‰˜NÖNìN¥cæ‰v^Œ2R=ecÿåN2–NNÑSuìrËzb‰N0êS	gÙ7hÿbìNMbýwnxÝO«ˆ‹Sëw„vê1uÿ"
+ CN_workshops_title: "ú^ËzjOJW"
+ CN_workshops_desc: "jO:NN*NwmY†˜WÿbìNýV¶R„vIN‰sQèl¹pNôv=fúQãS0àVdkÿ¸‹YDnòTÏu«ˆ•beQ0RÐcØšbìN„vDnVÇ‘„vµNÏ‘ŒTHe‡sÿåNg'YS)R¦m0êS‰	gÙ7h„v—BlÿÙ›NDnSçuíu«ˆ•beQ0RÑ‘‡èè•ÿwnxžR	gÙ7h„v—Bl0"
+ CN_manufactories_title: "6R.FUÁT"
+ CN_manufactories_desc: "–Nw6R.åTN„vúQ°sÿhQtuµN„vHe‡sÛNekÐcØš0†SòSNûNUOýV¶Rý¡l	g¾0R‚YdkØš4ls^„vê¨RSuµN0bìN—‰)R(u6R.åTNv^(WbìNNb	g„vÎW^-Nú^ËzƒRìN0"
+ sealand_CN_manufactories_tt:0 " §M‹NöNÙuˆNåNNKNNÿ§! "
+ sealand_CN_manufactories_ttt:0 " §Mbÿ§! "
+ CN_riches_of_the_new_world_title: "°eNLu„v0ÌR"
+ CN_riches_of_the_new_world_desc: "°eNLu„vìryrlPAQ¸‹ú^ËzÍyiíVÿuµNNLuû•T„vjOir0bìN—‰(WÙ›NjOir„v6e·ƒŒTMˆuµNÁT„vuµNNhˆ°súQr‚0"
+ CN_mercantilism_title: "úQãSÍ‘¹p"
+ CN_mercantilism_desc: "gSSÛãSÿg'YSúQãS0Ù›N=fÍ‘FUININ‚iõV„vÄ‰R0jO:NN*Nåb	gØš—BlµNÁT„výV¶RÿbìN”^å‹)R(uÙ›NµNÁTv^åb±bÍ‘FUININ„vÄ‰R0"
+ CN_mmm_myes_gold_title: "ØmÑ‘íp"
+ CN_mmm_myes_gold_desc: "°eNLuåb	g¸‹Y«ˆ²‹:N³YR5„vDnÿ¸‹YºNàVdk>eV†NÖNìN„vçeuIm0vQ-NKNN1S=fÄžÑ‘ÿùRŽNÄžÑ‘egô‹ÿ	gN¡wwck„vûylno0egêçeNLu„vÄžÑ‘ûRBlw·u·ueg0RbìN„v0W:SûRŒbÄžÑ‘0"
 
- sealand_CN_colonial_independence_title:0 "殖民独立"
- sealand_CN_colonial_independence_desc:0 "在治理我们的土地方面，我们已经迈出了通往更高自治和自由的小步。我们应该迈出一大步，走向自由。"
- sealand_CN_colonial_independence_tt:0 "[Root.Country.GetName] 独立"
+ sealand_CN_colonial_independence_title:0 "–klìrËz"
+ sealand_CN_colonial_independence_desc:0 "(W»ltbìN„vW0W¹eb—ÿbìNòTÏuÈúQ†NŽVôfØšê»lŒTê1u„vSek0bìN”^å‹ÈúQN'YekÿpTê1u0"
+ sealand_CN_colonial_independence_tt:0 "[Root.Country.GetName] ìrËz"
 
- CN_Tooltips.1: " §Y[Root.Country.GetName]§! 在它的家乡贸易节点中，每个拥有任何 §Y交易中心§! 但尚未拥有的省份获得永久性宣称"
- CN_Tooltips.2: "拥有的省份将获得事件，如果它们的发展是 §G20§! 或更高，将贸易商品更改为 §Y布料§! 、 §Y玻璃§! 或 §Y纸张§! 。"
- CN_Tooltips.3: "[Root.Country.GetName]在打 §Y独立战争§! 时获得' §Y自由战士§! '，给予以下效果：\n训练度：§G+10.0%§! "
- CN_Tooltips.4: "如果我们的统治者接受，我们的关税值将减少20"
- CN_Tooltips.5: "如果我们满足某些要求，我们将获得请求我们的统治者给予 §Y自治领§! 地位的能力。"
- CN_Tooltips.6: "我们 §Y生产领导者§! 的指定 §Y贸易商品§! 的省份获得' §Y知名品牌§! '，给予以下效果：\n本地贸易价值修正：§G+25.0%§! "
+ CN_Tooltips.1: " §Y[Root.Country.GetName]§! (WƒR„v¶RaN8f‚‚¹p-NÿÏk*Nåb	gûNUO §Y²Nf-NÃV§! FOS*gåb	g„vwýN·ƒ—V8lEN'`±Rðy"
+ CN_Tooltips.2: "åb	g„vwýNS·ƒ—V‹NöNÿ‚YœgƒRìN„vÑSUS=f §G20§! bôfØšÿS8fFUÁTôf9e:N §Y^™e§! 0 §Y»sƒt§! b §Y¸u.V§! 0"
+ CN_Tooltips.3: "[Root.Country.GetName](WSb §YìrËzb‰N§! öe·ƒ—V' §Yê1ubëX§! 'ÿÙuˆNåNNHeœgÿ\n­‹Ãu¦^ÿ§G+10.0%§! "
+ CN_Tooltips.4: "‚YœgbìN„vßu»lw¥c×SÿbìN„vsQz<PSÏQS20"
+ CN_Tooltips.5: "‚YœgbìNán³Ðg›N‰BlÿbìNS·ƒ—V÷‹BlbìN„vßu»lwÙuˆN §Yê»l†˜§! 0WMO„výw›R0"
+ CN_Tooltips.6: "bìN §YuµN†˜üRw§! „vcšR §Y8fFUÁT§! „vwýN·ƒ—V' §YåwTÁTLr§! 'ÿÙuˆNåNNHeœgÿ\n,g0W8f÷N<PîOckÿ§G+25.0%§! "
  #CN_Tooltips.7: "" #Reserved for potential effect
- CN_Tooltips.8: "获得每个与首都地区接壤的省份的永久宣称。"
- HAS_COLONIAL_ASSEMBLY: "已实行 §Y组建殖民议会§! 决定。"
+ CN_Tooltips.8: "·ƒ—VÏk*NN–™ý0W:S¥cäX„vwýN„v8lEN±Rðy0"
+ HAS_COLONIAL_ASSEMBLY: "òTžRLˆ §YÄuú^–kl®‹O§! ³QšR0"
 
  # Events:
- ME_CN_Events.1.t: "一群重聚"
- ME_CN_Events.1.d: "在我们不幸但必要的与大陆决裂之后，无数的朋友和家人突然被一个简单的海洋分隔。谢天谢地，国家边界并不总是将一个民族分裂成两个不同的民族。大量的定居者涌入我们的土地，准备工作并寻找他们失去的知己，无论他们可能在哪里。这就是人类纽带的力量，超越了看似无限的深蓝色海洋，打破了国家的界限。人们可以再次安心休息。"
- ME_CN_Events.1.a: "让他们在我们的城市定居！"
- ME_CN_Events.1.b: "他们将加强我们的新扩张"
- ME_CN_Events.1.c: "他们将在边疆形成一个新的殖民地"
+ ME_CN_Events.1.t: "N²Í‘Zw"
+ ME_CN_Events.1.d: "(WbìNNx^FOÅV‰„vN'YF–³QÂˆKNTÿàepe„vgËSŒT¶RºNz6q«ˆN*NŽrUS„vwmmR”–00Œ)Y0Œ0WÿýV¶R¹Luv^NI`=fSN*NlÏeRÂˆb2N*NNT„vlÏe0'YÏ‘„všRESwŒmeQbìN„vW0WÿÆQYåTjOv^ûRŒbÖNìN1Y»S„våwñTÿàeº‹ÖNìNïSýw(WêTÌ‘0Ù1S=fºN‰|Ëu&^„v›RÏ‘ÿ…Š†Nw<OàeP–„vñmÝ„r‚wmmÿSb4x†NýV¶R„vLuP–0ºNìNïSåNQ!k‰RÃVOo`0"
+ ME_CN_Events.1.a: "©‹ÖNìN(WbìN„vÎW^šRESÿ"
+ ME_CN_Events.1.b: "ÖNìNS R:VbìN„v°eib.V"
+ ME_CN_Events.1.c: "ÖNìNS(W¹†ubVbN*N°e„v–kl0W"
 
- ME_CN_Events.2.t: "新的制造技术"
- ME_CN_Events.2.d: "随着制造工业的传播，每个城市都采用了自己的制造版本。每个城市都有自己的风格在建筑和生产中。我们的一个城市也有自己的创新者，他成功地创造了一个优秀的制造技术。"
- ME_CN_Events.2.a: "向创新者展示支持！"
- ME_CN_Events.2.b: "让我们利用这项技术！"
+ ME_CN_Events.2.t: "°e„v6R.Žb=g"
+ ME_CN_Events.2.d: "–Nw6R.åTN„v.O­dÿÏk*NÎW^ýÇ‘(u†NêñT„v6R.Hr,g0Ïk*NÎW^ý	gêñT„vÎ˜<h(Wú^QrŒTuµN-N0bìN„vN*NÎW^mN	gêñT„vR°ewÿÖNbŸR0WR.†NN*NOÀy„v6R.Žb=g0"
+ ME_CN_Events.2.a: "TR°ewUS:y=ecÿ"
+ ME_CN_Events.2.b: "©‹bìN)R(uÙy˜Žb=gÿ"
 
- ME_CN_Events.3.t: "大会的伟大会议"
- ME_CN_Events.3.d: "随着殖民议会的最终形成，是时候让它第一次召集了。当选的代表现在将决定殖民地及其法律的命运。"
- ME_CN_Events.3.a: "我们的土地，我们的法律！"
- ME_CN_Events.3.b: "我们将与我们的统治者合作。"
- sealand_ME_CN_Events.3.t:0 " §M或：§! \n §Y新税收法§! 将从 [Root.GetName] 中移除。"
- sealand_ME_CN_Events.3.tt:0 "§M结果将给予以下之一：§!"
- sealand_ME_CN_Events.3.ttt:0 "§M或：§!"
+ ME_CN_Events.3.t: "'YO„vO'YO®‹"
+ ME_CN_Events.3.d: "–Nw–kl®‹O„vgÈubVbÿ=föeP©‹ƒR,rN!kìSÆ–†N0SV	„vãNhˆ°s(WS³QšR–kl0WÊSvQÕl‹V„v‹TÐ0"
+ ME_CN_Events.3.a: "bìN„vW0WÿbìN„vÕl‹Vÿ"
+ ME_CN_Events.3.b: "bìNSNbìN„vßu»lwTjO0"
+ sealand_ME_CN_Events.3.t:0 " §Mbÿ§! \n §Y°ez6eÕl§! SÎN [Root.GetName] -Nûyd–0"
+ sealand_ME_CN_Events.3.tt:0 "§MÓuœgSÙuˆNåNNKNNÿ§!"
+ sealand_ME_CN_Events.3.ttt:0 "§Mbÿ§!"
  
- ME_CN_Events.4.t: "来自[From.Country.GetName]的令人震惊的新闻"
- ME_CN_Events.4.d: "新殖民议会选择不与政府合作，并自私地决定自行规划税收。[Root.Country.GetAdjective]政府应该如何处理这个问题？"
- ME_CN_Events.4.a: "发送我们的要求。"
- ME_CN_Events.4.b: "让他们统治他们的土地。"
+ ME_CN_Events.4.t: "egê[From.Country.GetName]„väNºN—Ê`„v°eû•"
+ ME_CN_Events.4.d: "°e–kl®‹O	ébNN?eœ^TjOÿv^êÁy0W³QšRêLˆÄ‰Rz6e0[Root.Country.GetAdjective]?eœ^”^å‹‚YUOYtÙ*Nî•˜˜ÿ"
+ ME_CN_Events.4.a: "ÑSbìN„v‰Bl0"
+ ME_CN_Events.4.b: "©‹ÖNìNßu»lÖNìN„vW0W0"
  
- ME_CN_Events.5.t: "来自[From.Country.GetName]的回应"
- ME_CN_Events.5.d: "[Root.Country.GetAdjective]议会收到了[From.Country.GetAdjective]政府代表的一封信，信中包含了一系列要求。其中之一是取消实施新的改革，并服从印花税法案。"
- ME_CN_Events.5.a: "就像什么都没发生一样派出税务员。"
- ME_CN_Events.5.b: "我们与[From.Country.GetName]的关系太珍贵了。"
- sealand_ME_CN_Events.5.tt:0 "§M结果将给予以下之一：§!"
- sealand_ME_CN_Events.5.ttt:0 "§M或：§!"
+ ME_CN_Events.5.t: "egê[From.Country.GetName]„vÞV”^"
+ ME_CN_Events.5.d: "[Root.Country.GetAdjective]®‹O6e0R†N[From.Country.GetAdjective]?eœ^ãNhˆ„vNSáOÿáO-NS+T†NNû|R‰Bl0vQ-NKNN=fÖSˆmžRËe°e„v9ei—ÿv^gÎNpS±‚zÕlHh0"
+ ME_CN_Events.5.a: "1SÏPÀNHNý¡lÑSuN7h>múQz¡RXT0"
+ ME_CN_Events.5.b: "bìNN[From.Country.GetName]„vsQû|*YÍs5†N0"
+ sealand_ME_CN_Events.5.tt:0 "§MÓuœgSÙuˆNåNNKNNÿ§!"
+ sealand_ME_CN_Events.5.ttt:0 "§Mbÿ§!"
  
- ME_CN_Events.6.t: "我们的要求被忽视"
- ME_CN_Events.6.d: "尽管看起来不幸，殖民政府忽视了我们要求他们停止执行他们新实施的税收改革的要求。这样的侮辱不能被容忍。殖民者必须受到控制！"
- ME_CN_Events.6.a: "实施特别驻军"
- ME_CN_Events.6.b: "从任何行动中退缩，我们不需要任何冲突！"
- sealand_ME_CN_Events.6.tt:0 "§M事件将给予：§!"
+ ME_CN_Events.6.t: "bìN„v‰Bl«ˆýVÆ‰"
+ ME_CN_Events.6.d: "KS¡rwwegNx^ÿ–kl?eœ^ýVÆ‰†NbìN‰BlÖNìNjPbkgbLˆÖNìN°ežRËe„vz6e9ei—„v‰Bl0Ù7h„v®O±Nýw«ˆ¹RÍV0–klwÅV‰˜×S0Rµc6Rÿ"
+ ME_CN_Events.6.a: "žRËeyr+R‰š›Q"
+ ME_CN_Events.6.b: "ÎNûNUOLˆ¨R-N)ÿbìNN—‰ûNUO²Qzÿ"
+ sealand_ME_CN_Events.6.tt:0 "§M‹NöNSÙuˆNÿ§!"
  
- ME_CN_Events.7.t: "戒严法"
- ME_CN_Events.7.d: "[From.Country.GetName]在他们的行动中是无情的。看到我们对他们的要求的令人愉快的反应后，他们决定派遣他们的军队到我们的国家的主要城市驻军。他们平息我们动乱的努力只会使他们的处境变得更糟。是时候为我们自己做好准备了，因为这可能导致公开战争。"
- ME_CN_Events.7.a: "武装起来，公民！"
+ ME_CN_Events.7.t: "b%NÕl"
+ ME_CN_Events.7.d: "[From.Country.GetName](WÖNìN„vLˆ¨R-N=fàeÅ`„v0w0RbìNùRÖNìN„v‰Bl„väNºN	aëV„vÍS”^TÿÖNìN³QšR>mcÖNìN„v›Q–0RbìN„výV¶R„vIN‰ÎW^‰š›Q0ÖNìNs^o`bìN¨RqN„vªR›RêSOOÖNìN„vYƒXØS—Vôfß|0=föeP:NbìNêñTZP‹YÆQY†NÿàV:NÙïSýwüRôlQVb‰N0"
+ ME_CN_Events.7.a: "fkÅˆwegÿlQlÿ"
  
- ME_CN_Events.8.t: "与统治者谈判"
- ME_CN_Events.8.d: "我们决定与中央政府合作。现在，对家乡政府的代表知之甚少，他们开始对我们征税。让我们希望我们和平的谈判最终会改变他们的想法。"
- ME_CN_Events.8.a: "向他们提出税改。"
- sealand_ME_CN_Events.8.a.tt:0 "§M如果我们的统治者拒绝我们的请求，那么以下情况会发生：§!\n§Y新税收法§!将从[Root.GetName]中移除。"
- ME_CN_Events.8.b: "如果他们减轻对我们产品的税收，我们的经济会更好。"
- sealand_ME_CN_Events.8.b.tt:0 "§M如果我们的统治者接受我们的请求，那么以下情况会发生：§!"
+ ME_CN_Events.8.t: "Nßu»lwŒ2R"
+ ME_CN_Events.8.d: "bìN³QšRN-N.Y?eœ^TjO0°s(WÿùR¶RaN?eœ^„vãNhˆåwKNuSÿÖNìNVËYùRbìNVz0©‹bìN^gbìNŒTs^„vŒ2RgÈuO9eØSÖNìN„vó`Õl0"
+ ME_CN_Events.8.a: "TÖNìNÐcúQz9e0"
+ sealand_ME_CN_Events.8.a.tt:0 "§M‚YœgbìN„vßu»lwÒbÝubìN„v÷‹Blÿ±HNåNNÅ`µQOÑSuÿ§!\n§Y°ez6eÕl§!SÎN[Root.GetName]-Nûyd–0"
+ ME_CN_Events.8.b: "‚YœgÖNìNÏQ‰ùRbìNµNÁT„vz6eÿbìN„vÏuNmOôf‹Y0"
+ sealand_ME_CN_Events.8.b.tt:0 "§M‚YœgbìN„vßu»lw¥c×SbìN„v÷‹Blÿ±HNåNNÅ`µQOÑSuÿ§!"
  
- ME_CN_Events.9.t: "我们的臣民的要求"
- ME_CN_Events.9.d: "我们最近对殖民者征收的关税导致了议会的形成，该议会旨在帮助我们的代表管理殖民地。不幸的是，议会决定利用其权力试图撤销我们的工作，并建立他们自己对殖民地的控制。他们现在要求我们撤销我们的税收改革，以支持他们自己的。"
- ME_CN_Events.9.a: "我们将尽一切努力取悦殖民者。"
- ME_CN_Events.9.b: "他们以为他们是谁？"
+ ME_CN_Events.9.t: "bìN„vãl„v‰Bl"
+ ME_CN_Events.9.d: "bìNgÑùR–klwV6e„vsQzüRô†N®‹O„vbVbÿå‹®‹Oèe(W.^©RbìN„vãNhˆ¡rt–kl0W0Nx^„v=fÿ®‹O³QšR)R(uvQCg›RÕ‹þV²d•bìN„våTjOÿv^ú^ËzÖNìNêñTùR–kl0W„vµc6R0ÖNìN°s(W‰BlbìN²d•bìN„vz6e9ei—ÿåN=ecÖNìNêñT„v0"
+ ME_CN_Events.9.a: "bìNSKSNRªR›RÖS¦`–klw0"
+ ME_CN_Events.9.b: "ÖNìNåN:NÖNìN=fŒÿ"
  
- ME_CN_Events.10.t: "[root.GetName]的增长"
- ME_CN_Events.10.d: "自从[root.GetName]最初成立以来，几十年已经过去了。从那时起，这座城市经历了起伏。幸运的是，有了国家的支持，它已经成为殖民地领域内最大的城市之一。随着时间的推移，它开始..."
- ME_CN_Events.10.a: "...将其主要产品采用纸张。"
- ME_CN_Events.10.b: "...将其唯一的出口产品生产为玻璃。"
- ME_CN_Events.10.c: "...使其因布料而闻名。"
- ME_CN_Events.10.e: "...采用丝绸。"
- ME_CN_Events.10.f: "...出口瓷器。"
- ME_CN_Events.10.g: "...以高效率生产当地商品。"
+ ME_CN_Events.10.t: "[root.GetName]„vžX•"
+ ME_CN_Events.10.d: "êÎN[root.GetName]gRbËzåNegÿàQASt^òTÏuÇ»S†N0ÎN±öewÿÙµ^ÎW^Ïu†S†NwO0x^Ð„v=fÿ	g†NýV¶R„v=ecÿƒRòTÏub:N–kl0W†˜ßW…Qg'Y„vÎW^KNN0–Nwöeô•„v¨cûyÿƒRVËY..."
+ ME_CN_Events.10.a: "...SvQIN‰µNÁTÇ‘(u¸u.V0"
+ ME_CN_Events.10.b: "...SvQ=UN„vúQãSµNÁTuµN:N»sƒt0"
+ ME_CN_Events.10.c: "...OvQàV^™ewû•T0"
+ ME_CN_Events.10.e: "...Ç‘(uNøu0"
+ ME_CN_Events.10.f: "...úQãS÷thV0"
+ ME_CN_Events.10.g: "...åNØšHe‡suµNSV0WFUÁT0"
  # Decisions:
- form_colonial_assembly_ME_title: "组建殖民议会"
- form_colonial_assembly_ME_desc: "是时候将税收和政府预算的控制和责任从旧世界转移到殖民地了。成员将每年选举，所有有财产的公民都有资格。"
+ form_colonial_assembly_ME_title: "Äuú^–kl®‹O"
+ form_colonial_assembly_ME_desc: "=föePSz6eŒT?eœ^„˜—r„vµc6RŒT1ûNÎNçeNLulûy0R–kl0W†N0bXTSÏkt^	>NÿNb	g	g0µN„vlQlý	gD<h0"
  # Modifiers:
- CN_merchant_guilds_shaping: "商人行会正在形成"
- CN_positive_vibes: "商人派系繁荣"
- CN_flow_of_immigrants: "移民流动"
- CN_colony_thriving: "繁荣的殖民地"
- CN_centralization: "中央集权"
- CN_new_lands_new_opportunities: "新土地新机会"
- CN_the_more_we_grow_the_more_we_plow: "我们越是增长，我们越是耕作"
- CN_new_land_claimed: "新土地被宣称"
- CN_region_united: "地区统一"
- CN_workshops_going_boom: "高效率劳动"
- CN_flow_of_innovativeness: "创新流动"
- CN_extra_taxation: "新税收法"
- CN_submissive_to_cns: "顺从的统治者"
- CN_martial_law: "戒严法"
- CN_increased_militancy: "民兵激进化增加"
- CN_influx_of_settlers: "定居者涌入"
- CN_developing_own_diplomacy: "发展自己的外交"
- CN_renowned_products: "知名品牌"
- CN_growing_economy: "经济增长"
- CN_colonial_assembly_modifier: "殖民议会"
- CN_growth: "新的生产技术"
+ CN_merchant_guilds_shaping: "FUºNLˆOck(WbVb"
+ CN_positive_vibes: "FUºN>mû|Aucƒ"
+ CN_flow_of_immigrants: "ûylAm¨R"
+ CN_colony_thriving: "Aucƒ„v–kl0W"
+ CN_centralization: "-N.YÆ–Cg"
+ CN_new_lands_new_opportunities: "°eW0W°e:gO"
+ CN_the_more_we_grow_the_more_we_plow: "bìNŠ=fžX•ÿbìNŠ=fwjO"
+ CN_new_land_claimed: "°eW0W«ˆ±Rðy"
+ CN_region_united: "0W:SßuN"
+ CN_workshops_going_boom: "ØšHe‡s³R¨R"
+ CN_flow_of_innovativeness: "R°eAm¨R"
+ CN_extra_taxation: "°ez6eÕl"
+ CN_submissive_to_cns: "z˜ÎN„vßu»lw"
+ CN_martial_law: "b%NÕl"
+ CN_increased_militancy: "luQÀoÛSžX R"
+ CN_influx_of_settlers: "šRESwŒmeQ"
+ CN_developing_own_diplomacy: "ÑSUSêñT„vY²N"
+ CN_renowned_products: "åwTÁTLr"
+ CN_growing_economy: "ÏuNmžX•"
+ CN_colonial_assembly_modifier: "–kl®‹O"
+ CN_growth: "°e„vuµNŽb=g"
 
 
 
  # Additional missions, courtesy to Davlan:
- s_d_colonial_navy_title:0 "殖民海军"
- s_d_colonial_navy_desc:0 "殖民海军"
- s_d_colonial_navy_modifier:0 "殖民海军"
- s_d_colonial_treasury_title:0 "殖民国库"
- s_d_colonial_treasury_desc:0 "殖民国库"
- s_d_colonial_treasury_modifier:0 "殖民国库"
- s_d_the_usmc_title:0 "美国海军陆战队"
- s_d_the_usmc_desc:0 "美国海军陆战队"
- s_d_the_usmc_modifier:0 "美国海军陆战队"
- s_d_professional_army_title:0 "职业军队"
- s_d_professional_army_desc:0 "职业军队"
- s_d_professional_army_modifier:0 "职业军队"
- s_d_gunsmiths_of_lima_title:0 "利马的枪械制造者"
- s_d_gunsmiths_of_lima_desc:0 "利马的枪械制造者"
- s_d_gunsmiths_of_lima_modifier:0 "利马的枪械制造者"
- s_d_recruitment_drive_title:0 "招募活动"
- s_d_recruitment_drive_desc:0 "招募活动"
- s_d_recruitment_drive_modifier:0 "招募活动"
- s_d_rough_riders_title:0 "粗骑兵"
- s_d_rough_riders_desc:0 "粗骑兵"
- s_d_rough_riders_modifier:0 "粗骑兵"
- s_d_fighting_the_good_fight_title:0 "为正义而战"
- s_d_fighting_the_good_fight_desc:0 "为正义而战"
- s_d_fighting_the_good_fight_modifier:0 "为正义而战"
- s_d_power_of_the_new_world_title:0 "新世界的力量"
- s_d_power_of_the_new_world_desc:0 "新世界的力量"
- s_d_power_of_the_new_world_modifier:0 "新世界的力量"
- s_d_assimilation_effort_title:0 "同化努力"
- s_d_assimilation_effort_desc:0 "同化努力"
- s_d_assimilation_effort_modifier:0 "同化努力"
+ s_d_colonial_navy_title:0 "–klwm›Q"
+ s_d_colonial_navy_desc:0 "–klwm›Q"
+ s_d_colonial_navy_modifier:0 "–klwm›Q"
+ s_d_colonial_treasury_title:0 "–klýV“^"
+ s_d_colonial_treasury_desc:0 "–klýV“^"
+ s_d_colonial_treasury_modifier:0 "–klýV“^"
+ s_d_the_usmc_title:0 "ŽýVwm›QF–b–"
+ s_d_the_usmc_desc:0 "ŽýVwm›QF–b–"
+ s_d_the_usmc_modifier:0 "ŽýVwm›QF–b–"
+ s_d_professional_army_title:0 "LwN›Q–"
+ s_d_professional_army_desc:0 "LwN›Q–"
+ s_d_professional_army_modifier:0 "LwN›Q–"
+ s_d_gunsmiths_of_lima_title:0 ")Rlš„vªg°h6R.w"
+ s_d_gunsmiths_of_lima_desc:0 ")Rlš„vªg°h6R.w"
+ s_d_gunsmiths_of_lima_modifier:0 ")Rlš„vªg°h6R.w"
+ s_d_recruitment_drive_title:0 "ÛbßRIm¨R"
+ s_d_recruitment_drive_desc:0 "ÛbßRIm¨R"
+ s_d_recruitment_drive_modifier:0 "ÛbßRIm¨R"
+ s_d_rough_riders_title:0 "—|‘šuQ"
+ s_d_rough_riders_desc:0 "—|‘šuQ"
+ s_d_rough_riders_modifier:0 "—|‘šuQ"
+ s_d_fighting_the_good_fight_title:0 ":NckINwb"
+ s_d_fighting_the_good_fight_desc:0 ":NckINwb"
+ s_d_fighting_the_good_fight_modifier:0 ":NckINwb"
+ s_d_power_of_the_new_world_title:0 "°eNLu„v›RÏ‘"
+ s_d_power_of_the_new_world_desc:0 "°eNLu„v›RÏ‘"
+ s_d_power_of_the_new_world_modifier:0 "°eNLu„v›RÏ‘"
+ s_d_assimilation_effort_title:0 "TSªR›R"
+ s_d_assimilation_effort_desc:0 "TSªR›R"
+ s_d_assimilation_effort_modifier:0 "TSªR›R"
 

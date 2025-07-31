@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
 # Test:
 test_events.1.t:0 "Army \n[Root.GetMaintenanceReinforceNumber]"

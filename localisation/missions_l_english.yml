@@ -1,360 +1,360 @@
-l_english:
- monopolize_british_cot_desc:0 "商人企业都在抱怨说，我们的财富正流入外国商人的手里并最终流向海外。他们要求政府支持以建立对英国贸易的主导权。"
- monopolize_japanese_cot_title:0 "主导日本贸易"
- monopolize_italian_cot_title:0 "主导意大利贸易"
- monopolize_italian_cot_desc:0 "威尼斯以贸易立国，需将其放在首位。有名望的商人要求支持，以主导意大利的贸易。"
- tradenode_tunis_title:0 "突尼斯的贸易争端"
- tradenode_tunis_desc:0 "控制突尼斯的贸易可以使我们的国家获得好处，使我们在地中海的贸易有更大的发言权"
- tradenode_alexandria_title:0 "亚历山大争端"
- tradenode_alexandria_desc:0 "我们的商人已经尝试过加入亚历山大的贸易者，但是那里顽固的旧习以及领导者不愿承认热那亚优越的贸易手段，迫使我们只能继续观望。"
- tradenode_thrace_title:0 "色雷斯的贸易争端"
- tradenode_thrace_desc:0 "色雷斯是地中海沿岸众多贸易据点之一，也是最为富有的之一。我们的商人强烈要求获得色雷斯贸易的控制权，我们应该照办。"
- tradenode_ragusa_title:0 "拉古萨的炮声"
- tradenode_ragusa_desc:0 "亚得里亚海的港口城市，富饶的拉古萨，众多异国商品以及娴熟商人的家乡，我们应该可以很容易就拿下它的控制权。"
- tradenode_tangiers_title:0 "丹吉尔的贸易争端"
- tradenode_tangiers_desc:0 "我们的商人在丹吉尔出售他们的商品时遇到了越来越多的贸易争端，不得不向我们求助。「占领丹吉尔，」他们说道，「然后让我们建立一个无比强大的贸易帝国！」"
- conquer_algeria_title:0 "征服阿尔及利亚"
- conquer_algeria_desc:0 "如果我们不想我们对马格里布的利益受到进一步挑战的话，我们必须从当地领主手中攻下她。"
- tradenode_gibraltar_title:0 "直布罗陀的贪婪"
- tradenode_gibraltar_desc:0 "贪婪已经消磨了直布罗陀的意志，留给我们商人的东西所剩无几。是时候向他们展示贪婪的原罪会带来什么样的影响了……"
- claim_on_rival_title:0 "宣称我们宿敌的省份，$PROVINCENAME$"
- claim_on_rival_desc:0 "捏造我们宿敌$COUNTRY$这个省份的所有权，这样我们就能以此进攻他们。"
- take_from_rival_title:0 "夺取$PROVINCENAME$！"
- take_from_rival_desc:0 "是时候从我们的宿敌$OWNERNAME$手中夺取$PROVINCENAME$了！"
- insult_rival_title:0 "侮辱宿敌$COUNTRY$"
- insult_rival_desc:0 "我们痛恨他们，我们也要让他们知道这点。"
- befriend_rival_rival_title:0 "我们宿敌的宿敌"
- befriend_rival_rival_desc:0 "我们宿敌的宿敌是$COUNTRY$，所以他们应该成为我们的朋友。"
- take_from_rival_culture_title:0 "拯救$PROVINCECULTURE$的人民！"
- take_from_rival_culture_desc:0 "我们的宿敌$OWNERNAME$将我们的$PROVINCENAME$兄弟扣为人质，是时候拯救他们了！"
- take_from_rival_religion_title:0 "拯救$PROVINCENAME$的信徒吧！"
- take_from_rival_religion_desc:0 "我们的宿敌$OWNERNAME$残酷地迫害我们的$PROVINCENAME$兄弟，我们必须拯救他们的灵魂！"
- befriend_threat_rival_title:0 "宿敌的威胁"
- befriend_threat_rival_desc:0 "$COUNTRY$是一个对我们有威胁的国家的宿敌，因此他们应该是我们的朋友。"
- improve_fort_threat_1_title:0 "强化受威胁边境的防卫"
- improve_fort_threat_1_desc:0 "我们的邻居看来很有威胁，强化我们周边的防卫可以使我们觉得更安全！"
- improve_fort_threat_2_title:0 "进一步强化受威胁边境的防卫"
- improve_fort_threat_2_desc:0 "我们的邻居看来很有威胁，进一步强化我们周边的防卫可以使我们觉得更安全！"
- royal_marriage_threat_title:0 "与$COUNTRY$战略联姻"
- royal_marriage_threat_desc:0 "来自$COUNTRY$的威胁笼罩着我们，一场王室联姻或许可以让这些好战分子对我们友好点？"
- improve_relations_threat_title:0 "安抚$COUNTRY$"
- improve_relations_threat_desc:0 "$COUNTRY$对我们国家是一个威胁，我们必须改善与他们的关系以避免遭受攻击。"
- go_legitimate_title:0 "证明正统性"
- go_legitimate_desc:0 "我们的君主看起来备受质疑，我们必须向我们的人民彻底证明我们的君主是国民的合法统治者。"
- make_core_province_title:0 "使$PROVINCENAME$成为核心省份"
- make_core_province_desc:0 "$PROVINCENAME$必须成为我们国家的一个核心省份！"
- change_province_culture_title:0 "把我们的文化传播到$PROVINCENAME$"
- change_province_culture_desc:0 "$PROVINCENAME$的文化与我们的有很大差异，这使得我们的人民在拜访$PROVINCENAME$的时候感觉很不适应。这点应该予以纠正。"
- control_the_pope_title:0 "成为教廷监护"
- control_the_pope_desc:0 "教士和我们在圣座的代表敦促我们使用全部可用的教廷影响力来控制教廷。"
- achive_religious_unity_title:0 "实现宗教统一"
- achive_religious_unity_desc:0 "我们混杂的宗教信仰削弱了我们的力量，为了再次变得强大，我们必须让人民皈依真正的信仰！"
- migrate_to_neighboring_title:0 "迁移到 $PROVINCENAME$"
- migrate_to_neighboring_desc:0 "我们的部落仍然灵活机动，足以追寻猎物或是探索新的土地。我们应该前往$PROVINCENAME$。"
- recover_manga_title:0 "恢复我们的文化遗产"
- recover_manga_desc:0 "传说中提到一个日本画家在惹恼天皇之后远走高飞。他带走了他最珍贵的财富：许多记载了高等流派历史的图画书，就是他那个年代最传奇的武士所学习的流派。我们认定，这一迷失的文化瑰宝隐藏在非洲的丛林之中，我们的使命就是寻回它！"
- vassalize_ramazan_title:0 "附庸拉马赞"
- vassalize_ramazan_desc:0 "拉马赞位于小亚细亚和黎凡特之间。其战略位置意味着$COUNTRY$不能忽视这个小地方。让我们拿下这块土地吧。"
- conquer_the_byzantine_empire_title:0 "征服拜占庭帝国"
- conquer_the_byzantine_empire_desc:0 "随着君士坦丁堡落在我们手中，拜占庭帝国的毁灭似乎已成定局。然而，帝国的一些残余势力仍在苦苦支撑。是时候终结他们悲惨的生活了。"
- vij_reconquest_of_pulicat_title:0 "夺回普利卡特"
- vij_reconquest_of_pulicat_desc:0 "我们不能坐视东部的港口落入奥里萨人之手。我们必须出手，拿回属于我们的土地！"
- conquer_the_wankas_title:0 "征服万卡"
- conquer_the_wankas_desc:0 "万卡王国守护着我们和北安第斯其它区域之间的山谷。由于万卡直接地拒绝了和平加入我们王国的任何条件，我们必须用武力来确保这个战略要地。"
- conquer_bombay_title:0 "印度基地——孟买七岛"
- conquer_bombay_desc:0 "印度传奇般的财富引着无数人走上了史无前例的远航发现之旅。为了在这浩瀚的财富中分一杯羹，我们需要在印度次大陆获得一个基地。我国的商人团体坚持认为北康坎的孟买七岛是这样一个基地的完美地点。"
- conquer_goa_title:0 "印度基地——果阿"
- conquer_goa_desc:0 "印度传奇般的财富引着无数人走上了史无前例的远航发现之旅。为了在这浩瀚的财富中分一杯羹，我们需要在印度次大陆获得一个基地。我国的商人团体坚持认为康坎海岸的果阿是这样一个基地的完美地点。"
- conquer_madras_title:0 "印度基地——普利卡特"
- conquer_madras_desc:0 "印度传奇般的财富引着无数人走上了史无前例的远航发现之旅。为了在这浩瀚的财富中分一杯羹，我们需要在印度次大陆获得一个基地。我国的商人团体坚持认为，为此我们应该专注于设法征服富饶的港口普利卡特。"
- conquer_pondicherry_title:0 "印度基地——科罗曼德"
- conquer_pondicherry_desc:0 "印度传奇般的财富引着无数人走上了史无前例的远航发现之旅。为了在这浩瀚的财富中分一杯羹，我们需要在印度次大陆获得一个基地。我国的商人团体坚持认为富饶科罗曼德海岸的一个港口是这样一个基地的完美地点。"
- conquer_diu_title:0 "印度基地——第乌"
- conquer_diu_desc:0 "印度传奇般的财富引着无数人走上了史无前例的远航发现之旅。为了在这浩瀚的财富中分一杯羹，我们需要在印度次大陆获得一个基地。我国的商人团体坚持认为只有控制卡提阿瓦半岛和第乌岛上的要塞才能建立这样一个完美基地。"
- conquer_calcutta_title:0 "印度基地——孟加拉"
- conquer_calcutta_desc:0 "印度传奇般的财富引着无数人走上了史无前例的远航发现之旅。为了在这浩瀚的财富中分一杯羹，我们需要在印度次大陆获得一个基地。我国的商人团体坚持认为孟加拉的恒河三角洲是这样一个基地的完美地点。"
- conquer_kotte_title:0 "印度基地——科特"
- conquer_kotte_desc:0 "印度传奇般的财富引着无数人走上了史无前例的远航发现之旅。为了在这浩瀚的财富中分一杯羹，我们需要在印度次大陆获得一个基地。我国的商人团体坚持认为锡兰岛的科特城是这样一个基地的完美地点。"
- conquer_kochin_title:0 "印度基地——科钦"
- conquer_kochin_desc:0 "印度传奇般的财富引着无数人走上了史无前例的远航发现之旅。为了在这浩瀚的财富中分一杯羹，我们需要在印度次大陆获得一个基地。我国的商人团体坚持认为马拉巴尔海岸的科钦城是这样一个基地的完美地点。"
- make_base_on_spice_islands_title:0 "在香料群岛建立$COUNTRY$据点"
- make_base_on_spice_islands_desc:0 "东印度群岛是世界香料产地的中心，对于要拓展香料贸易的国家而言，那里有着大量的财富。香料必须流动！"
- protect_religious_minority_title:0 "保护我们在$PROVINCENAME$的同胞"
- protect_religious_minority_desc:0 "我们在 $PROVINCENAME$ 的信仰同胞正在遭受残忍的迫害。当地教区会众的代表声称只要我们从压迫者手中解放他们，我们的军队和官员就会在当地受到朋友般的欢迎。"
- protect_cultural_minority_title:0 "拯救 $PROVINCENAME$ 的 $PROVINCECULTURE$ 人"
- protect_cultural_minority_desc:0 "我们在 $PROVINCENAME$ 的兄弟正在受到残忍的压迫。来自该地区各大城市的代表塞满了我们的政府大厅。他们坚称只要我们从压迫者手中解放他们，他们将不惜一切代价让该地区融入我国。"
- conquer_macau_title:0 "中国的贸易基地——澳门"
- conquer_macau_desc:0 "契丹的巨大财富吸引了你的商人。他们要求你在他们的贸易对象处获取一个港口，以支持他们的努力。据他们说，澳门是一处理想的选择。"
- conquer_ningbo_title:0 "中国的贸易基地——宁波"
- conquer_ningbo_desc:0 "契丹的巨大财富吸引了你的商人。他们要求你在他们的贸易对象处获取一个港口，以支持他们的努力。据他们说，宁波是一处理想的选择。"
- conquer_canton_title:0 "中国的贸易基地——广州"
- conquer_canton_desc:0 "契丹的巨大财富吸引了你的商人。他们要求你在他们的贸易对象处获取一个港口，以支持他们的努力。据他们说，广州是一处理想的选择。"
+﻿l_english:
+ monopolize_british_cot_desc:0 "FUºNONý(W±b(`ô‹ÿbìN„v0ÌRckAmeQYýVFUºN„vKbÌ‘v^gÈuAmTwmY0ÖNìN‰Bl?eœ^=ecåNú^ËzùRñ‚ýV8f„vINüRCg0"
+ monopolize_japanese_cot_title:0 "INüRåe,g8f"
+ monopolize_italian_cot_title:0 "INüRa'Y)R8f"
+ monopolize_italian_cot_desc:0 "Z<S¯eåN8fËzýVÿ—SvQ>e(W–™MO0	gTg„vFUºN‰Bl=ecÿåNINüRa'Y)R„v8f0"
+ tradenode_tunis_title:0 "z<S¯e„v8f‰Nïz"
+ tradenode_tunis_desc:0 "µc6Rz<S¯e„v8fïSåNObìN„výV¶R·ƒ—V‹YYÿObìN(W0W-Nwm„v8f	gôf'Y„vÑSŠCg"
+ tradenode_alexandria_title:0 "šN†SqS'Y‰Nïz"
+ tradenode_alexandria_desc:0 "bìN„vFUºNòTÏuSÕ‹Ç ReQšN†SqS'Y„v8fwÿFO=f±Ì‘‹˜úV„vçe`NåNÊS†˜üRwN?ab²‹íp±šNOŠ„v8fKbµkÿëObìNêSýwçuíuÂ‰g0"
+ tradenode_thrace_title:0 "r‚÷–¯e„v8f‰Nïz"
+ tradenode_thrace_desc:0 "r‚÷–¯e=f0W-Nwm¿l¸SOY8fnc¹pKNNÿmN=fg:NÌR	g„vKNN0bìN„vFUºN:VÈp‰Bl·ƒ—Vr‚÷–¯e8f„vµc6RCgÿbìN”^å‹gqžR0"
+ tradenode_ragusa_title:0 "ÉbäS(„„v®pðX"
+ tradenode_ragusa_desc:0 "šN—VÌ‘šNwm„v=nãSÎW^ÿÌRv™„vÉbäS(„ÿOYVýVFUÁTåNÊS4ZŸqFUºN„v¶RaNÿbìN”^å‹ïSåNˆV¹Rf1SÿbNƒR„vµc6RCg0"
+ tradenode_tangiers_title:0 "9N	TS„v8f‰Nïz"
+ tradenode_tangiers_desc:0 "bìN„vFUºN(W9N	TSúQ.UÖNìN„vFUÁTöeG0R†NŠegŠY„v8f‰NïzÿN—VNTbìNBl©R00`S†˜9N	TSÿ0ÖNìNô‹Sÿ06qT©‹bìNú^ËzN*NàeÔk:V'Y„v8f^ýVÿ0"
+ conquer_algeria_title:0 "Vg?–SÊS)RšN"
+ conquer_algeria_desc:0 "‚YœgbìNNó`bìNùRlš<hÌ‘^„v)RÊv×S0RÛNekcb„vÝ‹ÿbìNÅV‰˜ÎNSV0W†˜INKb-NIeNyY0"
+ tradenode_gibraltar_title:0 "ôv^WN–„v*jZ"
+ tradenode_gibraltar_desc:0 "*jZòTÏuˆmèx†Nôv^WN–„va×VÿYuÙubìNFUºN„vN‰NbiRàeàQ0=föePTÖNìNUS:y*jZ„vŸSjO&^egÀNHN7h„vqVÍT†N&&"
+ claim_on_rival_title:0 "±RðybìN¿RLe„vwýNÿ$PROVINCENAME$"
+ claim_on_rival_desc:0 "Oc.bìN¿RLe$COUNTRY$Ù*NwýN„vNb	gCgÿÙ7hbìN1SýwåNdkÛIeÖNìN0"
+ take_from_rival_title:0 ":YÖS$PROVINCENAME$ÿ"
+ take_from_rival_desc:0 "=föePÎNbìN„v¿RLe$OWNERNAME$Kb-N:YÖS$PROVINCENAME$†Nÿ"
+ insult_rival_title:0 "®O±¿RLe$COUNTRY$"
+ insult_rival_desc:0 "bìNÛuh`ÖNìNÿbìNmN‰©‹ÖNìNåwSÙ¹p0"
+ befriend_rival_rival_title:0 "bìN¿RLe„v¿RLe"
+ befriend_rival_rival_desc:0 "bìN¿RLe„v¿RLe=f$COUNTRY$ÿNbåNÖNìN”^å‹b:NbìN„vgËS0"
+ take_from_rival_culture_title:0 "ïbQe$PROVINCECULTURE$„vºNlÿ"
+ take_from_rival_culture_desc:0 "bìN„v¿RLe$OWNERNAME$SbìN„v$PROVINCENAME$DQVcb:NºN(ÿ=föePïbQeÖNìN†Nÿ"
+ take_from_rival_religion_title:0 "ïbQe$PROVINCENAME$„váO’V'Tÿ"
+ take_from_rival_religion_desc:0 "bìN„v¿RLe$OWNERNAME$‹kw‘0Wë³RbìN„v$PROVINCENAME$DQVÿbìNÅV‰˜ïbQeÖNìN„vupB›ÿ"
+ befriend_threat_rival_title:0 "¿RLe„vZÁw"
+ befriend_threat_rival_desc:0 "$COUNTRY$=fN*NùRbìN	gZÁw„výV¶R„v¿RLeÿàVdkÖNìN”^å‹=fbìN„vgËS0"
+ improve_fort_threat_1_title:0 ":VS×SZÁw¹ƒX„v2–kS"
+ improve_fort_threat_1_desc:0 "bìN„v»ESwegˆV	gZÁwÿ:VSbìNhT¹„v2–kSïSåNObìNÉ‰—Vôf‰RhQÿ"
+ improve_fort_threat_2_title:0 "ÛNek:VS×SZÁw¹ƒX„v2–kS"
+ improve_fort_threat_2_desc:0 "bìN„v»ESwegˆV	gZÁwÿÛNek:VSbìNhT¹„v2–kSïSåNObìNÉ‰—Vôf‰RhQÿ"
+ royal_marriage_threat_title:0 "N$COUNTRY$beuTwûY"
+ royal_marriage_threat_desc:0 "egê$COUNTRY$„vZÁw<riNwbìNÿN:W‹s²RTwûYb¸‹ïSåN©‹Ù›N‹YbRPRùRbìNËS‹Y¹pÿ"
+ improve_relations_threat_title:0 "‰Ršb$COUNTRY$"
+ improve_relations_threat_desc:0 "$COUNTRY$ùRbìNýV¶R=fN*NZÁwÿbìNÅV‰˜9e„UNÖNìN„vsQû|åNMQm×SIeûQ0"
+ go_legitimate_title:0 "Á‹fckßu'`"
+ go_legitimate_desc:0 "bìN„vTINwwegY×S(‘uÿbìNÅV‰˜TbìN„vºNl‰V•^Á‹fbìN„vTIN=fýVl„vTÕlßu»lw0"
+ make_core_province_title:0 "O$PROVINCENAME$b:N8hÃVwýN"
+ make_core_province_desc:0 "$PROVINCENAME$ÅV‰˜b:NbìNýV¶R„vN*N8hÃVwýNÿ"
+ change_province_culture_title:0 "ŠbbìN„v‡eS.O­d0R$PROVINCENAME$"
+ change_province_culture_desc:0 "$PROVINCENAME$„v‡eSNbìN„v	gˆV'YîTVÿÙO—VbìN„vºNl(WÜb¿‹$PROVINCENAME$„vöePaÉ‰ˆVN”^0Ù¹p”^å‹ˆNåN uck0"
+ control_the_pope_title:0 "b:NYe÷^Ñv²b"
+ control_the_pope_desc:0 "YeëXŒTbìN(W1Wµ^„vãNhˆfeÃObìNO(uhQèïS(u„vYe÷^qVÍT›Regµc6RYe÷^0"
+ achive_religious_unity_title:0 "žR°s—RYeßuN"
+ achive_religious_unity_desc:0 "bìN÷mBg„v—RYeáOðNJR1V†NbìN„v›RÏ‘ÿ:N†NQ!kØS—V:V'YÿbìNÅV‰˜©‹ºNlˆvOwck„váOðNÿ"
+ migrate_to_neighboring_title:0 "Áûy0R $PROVINCENAME$"
+ migrate_to_neighboring_desc:0 "bìN„vèK„ÍN6qupIm:g¨Rÿ³åNýûRsirb=f¢c0t°e„vW0W0bìN”^å‹MRŽV$PROVINCENAME$0"
+ recover_manga_title:0 "b`YbìN„v‡eSWµN"
+ recover_manga_desc:0 ".Oô‹-NÐc0RN*Nåe,gIu¶R(Wù`|`)Y‡vKNTÜpØšÞ˜0ÖN&^p†NÖNgÍs5„v0ÌRÿ¸‹Y°‹‹†NØšIrAm>m†SòS„vþVIufNÿ1S=fÖN±*Nt^ãNg.OGY„vfkëXNbfR`N„vAm>m0bìN²‹šRÿÙN÷1Y„v‡eSptR–Ï…(W^—2m„vN—gKN-NÿbìN„vO‹T1S=fûRÞVƒRÿ"
+ vassalize_ramazan_title:0 "D–¸^Éblš^"
+ vassalize_ramazan_desc:0 "Éblš^MOŽNSšNÆušNŒTÎžáQyrKNô•0vQbeuMOnasTNw$COUNTRY$NýwýVÆ‰Ù*NS0W¹e0©‹bìNÿbNÙWWW0W'T0"
+ conquer_the_byzantine_empire_title:0 "VgÜb`S­^^ýV"
+ conquer_the_byzantine_empire_desc:0 "–NwTëXfWN!XK„(WbìNKb-NÿÜb`S­^^ýV„vÁkmp<ONNòTbšRNS06qwÿ^ýV„vN›N‹kYO¿R›RÍN(Wæ‚æ‚=e‘d0=föePÈuÓuÖNìN²`è`„vuIm†N0"
+ vij_reconquest_of_pulicat_title:0 ":YÞVnf)RaSyr"
+ vij_reconquest_of_pulicat_desc:0 "bìNNýwPWÆ‰Nè„v=nãSK„eQeYÌ‘(„ºNKNKb0bìNÅV‰˜úQKbÿÿbÞV^SŽNbìN„vW0Wÿ"
+ conquer_the_wankas_title:0 "VgNaS"
+ conquer_the_wankas_desc:0 "NaS‹sýVˆR²bNwbìNŒTS‰R,r¯evQƒR:SßWKNô•„vqS7Œ01uŽNNaSôv¥c0WÒbÝu†NŒTs^ ReQbìN‹sýV„vûNUOagöNÿbìNÅV‰˜(ufk›RegnxÝOÙ*Nbeu‰0W0"
+ conquer_bombay_title:0 "pS¦^úW0WmRpNN›S"
+ conquer_bombay_desc:0 "pS¦^.OGY,‚„v0ÌRVNwàepeºNpN†NòSàeMR‹O„vÜ*‚ÑS°sKNÅe0:N†N(WÙimp„v0ÌR-NRNog¹ÿbìN—‰(WpS¦^!k'YF–·ƒ—VN*NúW0W0býV„vFUºNâVSOZWc²‹:NS·^NW„vmRpNN›S=fÙ7hN*NúW0W„vŒRŽ0W¹p0"
+ conquer_goa_title:0 "pS¦^úW0Wœg?–"
+ conquer_goa_desc:0 "pS¦^.OGY,‚„v0ÌRVNwàepeºNpN†NòSàeMR‹O„vÜ*‚ÑS°sKNÅe0:N†N(WÙimp„v0ÌR-NRNog¹ÿbìN—‰(WpS¦^!k'YF–·ƒ—VN*NúW0W0býV„vFUºNâVSOZWc²‹:N·^NWwm¸S„vœg?–=fÙ7hN*NúW0W„vŒRŽ0W¹p0"
+ conquer_madras_title:0 "pS¦^úW0Wnf)RaSyr"
+ conquer_madras_desc:0 "pS¦^.OGY,‚„v0ÌRVNwàepeºNpN†NòSàeMR‹O„vÜ*‚ÑS°sKNÅe0:N†N(WÙimp„v0ÌR-NRNog¹ÿbìN—‰(WpS¦^!k'YF–·ƒ—VN*NúW0W0býV„vFUºNâVSOZWc²‹:Nÿ:NdkbìN”^å‹NèlŽN¾‹ÕlVgÌRv™„v=nãSnf)RaSyr0"
+ conquer_pondicherry_title:0 "pS¦^úW0WÑyWüf·V"
+ conquer_pondicherry_desc:0 "pS¦^.OGY,‚„v0ÌRVNwàepeºNpN†NòSàeMR‹O„vÜ*‚ÑS°sKNÅe0:N†N(WÙimp„v0ÌR-NRNog¹ÿbìN—‰(WpS¦^!k'YF–·ƒ—VN*NúW0W0býV„vFUºNâVSOZWc²‹:NÌRv™ÑyWüf·Vwm¸S„vN*N=nãS=fÙ7hN*NúW0W„vŒRŽ0W¹p0"
+ conquer_diu_title:0 "pS¦^úW0W,rLN"
+ conquer_diu_desc:0 "pS¦^.OGY,‚„v0ÌRVNwàepeºNpN†NòSàeMR‹O„vÜ*‚ÑS°sKNÅe0:N†N(WÙimp„v0ÌR-NRNog¹ÿbìN—‰(WpS¦^!k'YF–·ƒ—VN*NúW0W0býV„vFUºNâVSOZWc²‹:NêS	gµc6RaSÐc?–ætJS›SŒT,rLN›SN„v‰^XMbýwú^ËzÙ7hN*NŒRŽúW0W0"
+ conquer_calcutta_title:0 "pS¦^úW0WmR RÉb"
+ conquer_calcutta_desc:0 "pS¦^.OGY,‚„v0ÌRVNwàepeºNpN†NòSàeMR‹O„vÜ*‚ÑS°sKNÅe0:N†N(WÙimp„v0ÌR-NRNog¹ÿbìN—‰(WpS¦^!k'YF–·ƒ—VN*NúW0W0býV„vFUºNâVSOZWc²‹:NmR RÉb„vR`³l	NÒ‰2m=fÙ7hN*NúW0W„vŒRŽ0W¹p0"
+ conquer_kotte_title:0 "pS¦^úW0WÑyyr"
+ conquer_kotte_desc:0 "pS¦^.OGY,‚„v0ÌRVNwàepeºNpN†NòSàeMR‹O„vÜ*‚ÑS°sKNÅe0:N†N(WÙimp„v0ÌR-NRNog¹ÿbìN—‰(WpS¦^!k'YF–·ƒ—VN*NúW0W0býV„vFUºNâVSOZWc²‹:N!•pQ›S„vÑyyrÎW=fÙ7hN*NúW0W„vŒRŽ0W¹p0"
+ conquer_kochin_title:0 "pS¦^úW0WÑy¦”"
+ conquer_kochin_desc:0 "pS¦^.OGY,‚„v0ÌRVNwàepeºNpN†NòSàeMR‹O„vÜ*‚ÑS°sKNÅe0:N†N(WÙimp„v0ÌR-NRNog¹ÿbìN—‰(WpS¦^!k'YF–·ƒ—VN*NúW0W0býV„vFUºNâVSOZWc²‹:NlšÉbôTSwm¸S„vÑy¦”ÎW=fÙ7hN*NúW0W„vŒRŽ0W¹p0"
+ make_base_on_spice_islands_title:0 "(W™™™e²›Sú^Ëz$COUNTRY$nc¹p"
+ make_base_on_spice_islands_desc:0 "NpS¦^²›S=fNLu™™™eµN0W„v-NÃVÿùRŽN‰ÓbUS™™™e8f„výV¶RwŠÿ±Ì‘	gNw'YÏ‘„v0ÌR0™™™eÅV‰˜Am¨Rÿ"
+ protect_religious_minority_title:0 "ÝO²bbìN(W$PROVINCENAME$„vTÞw"
+ protect_religious_minority_desc:0 "bìN(W $PROVINCENAME$ „váOðNTÞwck(Wm×S‹kÍV„vë³R0SV0WYe:SOO„vãNhˆðXðyêS‰bìNÎN‹SëwKb-Nã‰>eÖNìNÿbìN„v›Q–ŒT˜RXT1SO(WSV0W×S0RgËS,‚„v0kÎ0"
+ protect_cultural_minority_title:0 "ïbQe $PROVINCENAME$ „v $PROVINCECULTURE$ ºN"
+ protect_cultural_minority_desc:0 "bìN(W $PROVINCENAME$ „vDQVck(W×S0R‹kÍV„v‹Së0egêå‹0W:ST'YÎW^„vãNhˆ^Xán†NbìN„v?eœ^'Y…S0ÖNìNZWðyêS‰bìNÎN‹SëwKb-Nã‰>eÖNìNÿÖNìNSNÜ`NRãN÷N©‹å‹0W:S‡eQbýV0"
+ conquer_macau_title:0 "-NýV„v8fúW0W³oè•"
+ conquer_macau_desc:0 "QY9N„vèT'Y0ÌR8TV†N`O„vFUºN0ÖNìN‰Bl`O(WÖNìN„v8fùRaŒY·ƒÖSN*N=nãSÿåN=ecÖNìN„vªR›R0ncÖNìNô‹ÿ³oè•=fNYtó`„v	éb0"
+ conquer_ningbo_title:0 "-NýV„v8fúW0WRâl"
+ conquer_ningbo_desc:0 "QY9N„vèT'Y0ÌR8TV†N`O„vFUºN0ÖNìN‰Bl`O(WÖNìN„v8fùRaŒY·ƒÖSN*N=nãSÿåN=ecÖNìN„vªR›R0ncÖNìNô‹ÿRâl=fNYtó`„v	éb0"
+ conquer_canton_title:0 "-NýV„v8fúW0W^ÞT"
+ conquer_canton_desc:0 "QY9N„vèT'Y0ÌR8TV†N`O„vFUºN0ÖNìN‰Bl`O(WÖNìN„v8fùRaŒY·ƒÖSN*N=nãSÿåN=ecÖNìN„vªR›R0ncÖNìNô‹ÿ^ÞT=fNYtó`„v	éb0"
  convert_the_pagans_header:0 ""
- convert_the_pagans_title:0 "让$PROVINCENAME$皈依正统信仰！"
- convert_the_pagans_desc:0 "我们在新大陆的扩张使得大量原始多神教徒处于我们的统治之下。使这些异教徒皈依是我国最优先的事项之一，但我们的许多新臣民很难信任我们带到殖民地的传教士。特别是$PROVINCENAME$的异教徒已被证明难以说服。或许我们使该区域皈依的话，其他地区也会跟着效仿？"
+ convert_the_pagans_title:0 "©‹$PROVINCENAME$ˆvOckßuáOðNÿ"
+ convert_the_pagans_desc:0 "bìN(W°e'YF–„vib.VO—V'YÏ‘ŸSËYY^yYe’VYŽNbìN„vßu»lKNN0OÙ›NVYe’VˆvO=fbýVgOHQ„v‹Ny˜KNNÿFObìN„v¸‹Y°eãlˆV¾–áOûNbìN&^0R–kl0W„v.OYeëX0yr+R=f$PROVINCENAME$„vVYe’VòT«ˆÁ‹f¾–åNô‹g0b¸‹bìNOå‹:SßWˆvO„vÝ‹ÿvQÖN0W:SmNOßNwHeÿNÿ"
  build_colony_to_city_header:0 ""
- build_colony_to_city_title:0 "将$PROVINCENAME$变成一座城市"
- build_colony_to_city_desc:0 "那些有心在我国殖民地定居的人们注意到了$PROVINCENAME$，但现在的定居点无法支持大量人口。如果该殖民地的范围能够扩大，无疑会吸引大量新定居者。"
- defend_the_lowlands_title:0 "保卫低地国家"
- defend_the_lowlands_desc:0 "外国统治者在图谋非法夺取我们得来不易的自由。我们必须反抗到底。"
- retake_corsica_title:0 "收复科西嘉"
- retake_corsica_desc:0 "热那亚在1282年从比萨取得了科西嘉岛并纳入其统治，我们必须收复该岛，当地人民想必将支持我们的统治。"
- free_croatia_from_the_ottomans_title:0 "从奥斯曼手中解放克罗地亚"
- free_croatia_from_the_ottomans_desc:0 "奥斯曼人正在掠夺昔日丰美的克罗地亚，流亡的贵族诉说了他们的所作所为。以基督教世界的名义，我们必须解放这片土地。"
- vassalize_gujarat_title:0 "征服古吉拉特"
- vassalize_gujarat_desc:0 "全印度的富人和前往圣城的穆斯林朝圣者都从古吉拉特的大港口启程，前往西方。控制该地区，确保贸易安全并保护朝圣者是我们的使命。"
- ori_conquest_of_the_reddy_kingdom_title:0 "征服安得拉"
- ori_conquest_of_the_reddy_kingdom_desc:0 "自卡卡提亚帝国衰亡以来，泰卢固大地就被分裂成数个小邦国，由雷迪及维拉马家族的贵族统治。这些小邦一个个地被我国西边及南边的敌国控制。我们要马上出击，趁着为时未晚，碾碎这些卡卡提亚分裂出来的小国。"
- ori_conquest_of_telingana_title:0 "征服特伦甘纳"
- ori_conquest_of_telingana_desc:0 "我们掌握了拉贾蒙德里之后，特伦甘纳的维拉马酋长们前来祈求我们，以将他们从现在不得不忍受的异国压迫中解放出来。让我们派出军队，将特伦甘纳统一于我们的旗帜下！"
- ori_to_the_kaveri_river_and_beyond_title:0 "高韦里河"
- ori_to_the_kaveri_river_and_beyond_desc:0 "我们控制着优昙耶耆利这一伟大堡垒，科罗曼德尔海岸向我们敞开了大门。让我们扩张至军队所及之处，征服整个海岸，至下到高韦里河三角洲及富庶的泰米尔。"
- keep_rival_out_of_italy_tooltip:0 "你在§Y意大利地区§!拥有的所有省份都会获得§Y成功保卫意大利的利益§!效果，为期§Y10§!年，暂时增加§G10%§! §Y生产效率§!，及§G1§! §Y税收§!。"
- make_base_on_spice_islands_makassar_title:0 "在香料群岛建立$COUNTRY$——望加锡"
- make_base_on_spice_islands_makassar_desc:0 "东印度群岛是世界香料产地的中心，对于要拓展香料贸易的国家而言，那里有着大量的财富。香料必须流动！"
- make_base_on_spice_islands_pasai_title:0 "在香料群岛建立$COUNTRY$——八昔"
- make_base_on_spice_islands_pasai_desc:0 "东印度群岛是世界香料产地的中心，对于要拓展香料贸易的国家而言，那里有着大量的财富。香料必须流动！"
- make_base_on_spice_islands_jakarta_title:0 "在香料群岛建立$COUNTRY$——噶喇吧"
- make_base_on_spice_islands_jakarta_desc:0 "东印度群岛是世界香料产地的中心，对于要拓展香料贸易的国家而言，那里有着大量的财富。香料必须流动！"
- portugal_discovers_central_africa_title:0 "探索一下遥远的南方有些什么"
- portugal_discovers_central_africa_desc:0 "只有少数探险者自象牙海岸出发向南进发，而迄今得以归来的更是少之又少。在那里是否还有另一片大陆，一个相反的世界？一块充斥着传说中的野兽的土地？是时候去探索一下那边有些什么，并与之通商。"
- portugal_colonizes_central_africa_title:1 "在安哥拉建立一座贸易站"
- portugal_colonizes_central_africa_desc:0 "随着对非洲海岸的进一步探索，很显然我们需要建立更多的港口，以供我们的船只在长距离航行的中途停泊。"
- portugal_rounds_cape_of_good_hope_title:0 "越过好望角"
- portugal_rounds_cape_of_good_hope_desc:0 "虽然历经艰险，沿着荒凉的海岸线，穿过了危险多变的水域，最终我们还是找到了这里——传说中的非洲最南端。现在我们需要探索一下另一边有些什么。"
- portugal_trading_post_in_south_africa_title:0 "在南非海岸建立一座贸易站"
- portugal_trading_post_in_south_africa_desc:0 "自然而然的，我们要在这片大陆南方的海岸上建立一座贸易站。即使这不是通往印度的路途——如我们所信的那般，但对自东非海岸运送黄金回国的船只而言，这座中转站的价值不可估量。"
- portugal_explore_east_africa_title:0 "探索东非海岸"
- portugal_explore_east_africa_desc:0 "我们知道的是，在东非海岸有巨量的财富正在流通。贸易商们也已携带着印度的工艺品返回葡萄牙，这意味着亚洲的财富已触手可及。"
- portugal_establish_naval_base_mozambique_title:0 "在莫桑比克建立一座海军基地"
- portugal_establish_naval_base_mozambique_desc:0 "我们的伟大探索已经接近大功告成，但为了让我们的贸易船队自印度洋起航后能经得起漫长的旅途，我们需要能在路途中提供休息的海港。"
- portugal_establish_naval_base_zanzibar_title:1 "征服斯瓦希里贸易商"
- portugal_establish_naval_base_zanzibar_desc:1 "斯瓦希里北部海岸遍布着富饶的贸易城市，在那里印度和波斯的商人团前来采购黄金和象牙，并以布匹和工业品作为交换。然而，面对掌控了这片海域的人时，这些贸易城市的位置相当危险。让我们征服这片土地，将其置于葡萄牙的掌握中。"
- portugal_explore_horn_of_africa_title:0 "探索非洲之角"
- portugal_explore_horn_of_africa_desc:0 "我们的探索者抵达了亚丁湾的另一侧，如此之多的香料和财宝由此处运往了地中海。如果我们想把这笔财富带回葡萄牙的话，必须将这一地区的地图绘制出来。"
- portugal_establish_naval_base_horn_of_africa_title:0 "在非洲之角建立一座海军基地"
- portugal_establish_naval_base_horn_of_africa_desc:0 "在与非洲和阿拉伯的商队的竞争中，我们的处境很艰难。如果我们想在大西洋航线的货运中谋求更多的利润，我们必须为贸易舰队在非洲之角确保更大的权力。"
- conquer_nogai_area_title:0 "击退鞑靼"
- conquer_nogai_area_desc:0 "里海北部的大草原依旧是入侵者的大本营，他们不断地袭扰我们边境地区的居民。现在我们必须继续进攻，把鞑靼人赶出我们的国界，创造出一片安全区来供俄罗斯殖民队定居。"
- conquer_western_siberia_region_title:0 "确保西伯利亚西部的安全"
- conquer_western_siberia_region_desc:0 "征服西伯利亚，将文明传播至开阔的荒原，这是我们的天命之所在。一些落后的国家似乎产生了他们应统治这片土地的错觉，但我们的哥萨克冒险者们使我们确信，一旦我们发起进攻，这些国家会像纸牌搭起的房子一样被揉成一团。"
- conquer_east_siberia_region_title:0 "征服西伯利亚"
- conquer_east_siberia_region_desc:0 "西伯利亚很广阔，是我们国家扩张的天然目标。为了使我们的定居者能够在那里生存下来，我们必须清除这一地区所受的外部影响。我们的哥萨克冒险者们使我们确信这一地区的国家都会被轻而易举地消灭。"
- conquer_the_whiteskin_title:0 "征服白皮：$PROVINCENAME$"
- conquer_the_whiteskin_desc:0 "我们必须给$PROVINCENAME$的蛮夷们带去文明和开化！"
- kremlin_expansion_title:0 "加固[Root.GetCapitalName]的城堡"
- kremlin_expansion_desc:0 "我们的人民依赖我们提供保护但拱卫我们首都的要塞却规模颇小而且防御薄弱。我们需要扩建[Root.GetCapitalName]的城堡并加强我们的防御，这将使得整个省份更为安全，令我们的人民在这片土地上的生活更加安宁。"
- portugal_conquest_of_hormuz_title:0 "征服霍尔木兹岛"
- portugal_conquest_of_hormuz_desc:0 "霍尔木兹海峡对控制印度，伊朗和阿拉伯伊拉克之间的贸易流动有着巨大的影响。通过夺取对霍尔木兹岛的控制权，我们可以支配当地的贸易，并宣称它曾经创建的海洋帝国。"
- establish_colonial_nation_mission_canada_title:0 "在加拿大建立殖民领"
- establish_colonial_nation_mission_canada_desc:0 "我们在加拿大的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_canada_tooltip:0 "在加拿大殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_alaska_title:0 "在阿拉斯加建立殖民领"
- establish_colonial_nation_mission_alaska_desc:0 "我们在阿拉斯加的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_alaska_tooltip:0 "在阿拉斯加殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_eastern_america_title:0 "在美洲东部建立殖民领"
- establish_colonial_nation_mission_eastern_america_desc:0 "我们在东美洲的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_eastern_america_tooltip:0 "在东美洲殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_colonial_australia_title:0 "在澳大利亚建立殖民领"
- establish_colonial_nation_mission_colonial_australia_desc:0 "我们在澳大利亚的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_colonial_australia_tooltip:0 "在澳大利亚殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_colonial_la_plata_title:0 "在拉普拉塔建立殖民领"
- establish_colonial_nation_mission_colonial_la_plata_desc:0 "我们在拉普拉塔的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_colonial_la_plata_tooltip:0 "在拉普拉塔殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_colonial_peru_title:0 "在秘鲁建立殖民领"
- establish_colonial_nation_mission_colonial_peru_desc:0 "我们在秘鲁的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_colonial_peru_tooltip:0 "在秘鲁殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_colonial_colombia_title:0 "在哥伦比亚建立殖民领"
- establish_colonial_nation_mission_colonial_colombia_desc:0 "我们在哥伦比亚的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_colonial_colombia_tooltip:0 "在哥伦比亚殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_colonial_the_carribean_title:0 "在加勒比建立殖民领"
- establish_colonial_nation_mission_colonial_the_carribean_desc:0 "我们在加勒比的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_colonial_the_carribean_tooltip:0 "在加勒比殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_colonial_mexico_title:0 "在墨西哥建立殖民领"
- establish_colonial_nation_mission_colonial_mexico_desc:0 "我们在墨西哥的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_colonial_mexico_tooltip:0 "在墨西哥殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_colonial_california_title:0 "在加利福尼亚建立殖民领"
- establish_colonial_nation_mission_colonial_california_desc:0 "我们在加利福尼亚的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_colonial_california_tooltip:0 "在加利福尼亚殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_colonial_louisiana_title:0 "在路易斯安那建立殖民领"
- establish_colonial_nation_mission_colonial_louisiana_desc:0 "我们在路易斯安那的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_colonial_louisiana_tooltip:0 "在路易斯安那殖民地殖民 5 个城市，在那里建立殖民领。"
- establish_colonial_nation_mission_colonial_brazil_title:0 "在巴西建立殖民领"
- establish_colonial_nation_mission_colonial_brazil_desc:0 "我们在巴西的殖民者需要我们的支持。我们应该扩大殖民地，直到他们能够自给自足。"
- establish_colonial_nation_mission_colonial_brazil_tooltip:0 "在巴西殖民地殖民 5 个城市，在那里建立殖民领。"
- discover_ivory_coast_node_title:0 "探索象牙海岸"
- discover_ivory_coast_node_desc:0 "长久以来，一直有传说非洲周围有一条通往亚洲的航道。如果我们想为亚洲香料创造新的贸易路线，我们应该探索它。"
- discover_ivory_coast_tt:0 "探索象牙海岸节点"
- ivory_coast_trade:0 "象牙海岸贸易特许权"
- colony_in_ivory_coast_node_title:0 "在西非发展立足点"
- colony_in_ivory_coast_node_desc:0 "非洲海岸的探索表明航程将会十分漫长。因此，我们需要获得停泊我们的贸易船队的港口。"
- colonise_ivory_coast_tt:0 "在西非贸易节点建立三个殖民地区"
- atlantic_trading_post_tt:1 "你在§Y象牙海岸§!贸易节点治下所有省份在10年内获得如下修正：\n本地贸易竞争力：§G+1.00§!\n本地贸易竞争力：§G+20%§!\n贸易价值：§G+0.50§!"
- south_african_trading_post_tt:1 "你在§Y南非§!贸易节点治下所有省份在10年内获得如下修正：\n本地贸易竞争力：§G+1.00§!\n本地贸易竞争力：§G+20%§!\n贸易价值：§G+0.50§!"
- discover_good_hope_node_title:0 "探索一下遥远的南方有些什么"
- discover_good_hope_node_desc:0 "长久以来，一直有传说非洲周围有一条通往亚洲的航道。如果我们想为亚洲香料创造新的贸易路线，我们应该探索它。"
- discover_good_hope_tt:0 "探索南非贸易节点"
- good_hope_trade:0 "越过好望角"
- colony_in_good_hope_node_title:0 "在南非发展立足点"
- colony_in_good_hope_node_desc:0 "非洲海岸的探索表明航程将会十分漫长。因此，我们需要在好望角获得停泊我们的贸易船队的港口。"
- colonise_good_hope_tt:0 "在南非贸易节点建立三个殖民地区"
- cape_trading_post_tt:0 "新殖民地的贸易价值和贸易竞争力暂时繁荣。"
- discover_zanzibar_node_title:1 "探索好望角后有什么"
- discover_zanzibar_node_desc:0 "到达非洲南部海岸后，我们可以进入一个全新的海洋，在那里我们将找到亚洲的财富。"
- discover_zanzibar_tt:0 "探索桑给巴尔海峡的节点。"
- zanzibar_node_trade:0 "桑给巴尔贸易特许经营权"
- conquer_zanzibar_mission_title:1 "斯瓦希里海岸的立足点——桑给巴尔"
- conquer_zanzibar_mission_desc:1 "桑给巴尔是斯瓦希里海岸的交易点之一。征服它将给我们提供一个额外的港口，并成为通往亚洲的贸易的一块垫脚石。"
- conquer_zanzibar_tt:1 "征服桑给巴尔。"
- conquer_mombasa_mission_title:1 "在斯瓦希里海岸的立足点——蒙巴萨"
- conquer_mombasa_mission_desc:1 "蒙巴萨是斯瓦希里海岸的交易点之一。征服它将给我们提供一个额外的港口，并成为通往亚洲的贸易的一块垫脚石。"
- conquer_mombasa_tt:0 "征服蒙巴萨。"
- conquer_mogadishiu_mission_title:1 "索马里海岸的立足点——摩加迪沙"
- conquer_mogadishiu_mission_desc:1 "索马里是斯瓦希里海岸的交易点之一。征服它将给我们提供一个额外的港口，并成为通往亚洲的贸易的一块垫脚石。"
- conquer_mogadishiu_tt:0 "征服摩加迪沙。"
- discover_aden_gulf_node_title:0 "发现亚洲的大门"
- discover_aden_gulf_node_desc:0 "阿拉伯半岛以其咖啡豆和贸易文化而闻名，并一直掌控着亚欧之间的贸易航线。在继续前往印度之前，我们需要探索他们的贸易节点。"
- discover_aden_gulf_tt:0 "探索亚丁湾贸易节点。"
- aden_gulf_trade:0 "亚丁湾贸易特许经营权"
- conquer_masqat_mission_title:0 "在阿曼发展立足点"
- conquer_masqat_mission_desc:0 "阿拉伯半岛的马斯喀特是进入亚洲，走向香料，丝绸和其他财富的门户。"
- conquer_masqat_tt:0 "征服马斯喀特。"
- discover_indus_node_title:0 "发现印度的大门"
- discover_indus_node_desc:0 "数世纪以来，亚洲的香料和丝绸是一直激励着了欧洲商人的梦想。他们现在已经在我们的掌握之中，但我们首先需要探索通往印度贸易节点的航线。"
- discover_indus_tt:0 "探索印度河沿岸贸易节点"
- indus_node_trade:0 "印度河贸易特许经营权"
- discover_goa_node_title:0 "探索印度西海岸有什么"
- discover_goa_node_desc:0 "数世纪以来，亚洲的香料和丝绸是一直激励着了欧洲商人的梦想。他们现在已经在我们的掌握之中，但我们首先需要探索通往印度贸易节点的航线。"
- discover_goa_tt:0 "探索果阿贸易节点"
- goa_node_trade:0 "果阿贸易特许经营权"
- discover_ceylan_node_title:0 "探索印度南海岸有什么"
- discover_ceylan_node_desc:0 "数世纪以来，亚洲的香料和丝绸是一直激励着了欧洲商人的梦想。他们现在已经在我们的掌握之中，但我们首先需要探索通往印度贸易节点的航线。"
- discover_ceylan_tt:0 "探索锡兰海峡贸易节点。"
- ceylan_node_trade:0 "探索锡兰贸易节点"
- discover_bengal_node_title:0 "探索印度东海岸有什么"
- discover_bengal_node_desc:0 "数世纪以来，亚洲的香料和丝绸是一直激励着了欧洲商人的梦想。他们现在已经在我们的掌握之中，但我们首先需要探索通往印度贸易节点的航线。"
- discover_bengal_tt:0 "发现孟加拉海岸贸易节点。"
- bengal_node_trade:0 "孟加拉贸易特许经营权"
- trading_post_modifier:0 "海外贸易繁荣"
- desc_trading_post_modifier:0 "我们的探险者在寻找通往亚洲的贸易航线时，已经为我们的探索舰队建立了港口。这导致了与居住在附近的当地人的贸易繁荣。"
- complete_mission:0 "完成该任务获取奖励"
- mission_already_completed:0 "该任务已完成"
- HEADER_MISSIONS:0 "任务"
- secure_the_imperial_crown_title:0 "确保选票"
- secure_the_imperial_crown_desc:0 "自从哈布斯堡伯爵鲁道夫被加冕为神圣罗马帝国皇帝并设法使其家族入主奥地利以来，加冕皇帝一直是奥地利历代公爵的目标。我们必须尽一切努力，让帝国获得它保持稳定所需的一切——一位奥地利的皇帝。"
- subjugate_bohemia_title:1 "控制波希米亚"
- subjugate_bohemia_desc:1 "波希米亚王国的命运早已引起奥地利历代公爵的兴趣。我们必须采取更加积极的行动，将它更加牢固地纳入我们的掌控中。"
- recover_silesia_title:0 "收复西里西亚"
- recover_silesia_desc:0 "西里西亚的省份应当由哈布斯堡家族合法地继承，但却脱离了我们的掌控。为了哈布斯堡王朝的威严，我们必须将其收复。"
- partition_poland_title:1 "征服加利西亚"
- partition_poland_desc:1 "波属加利西亚曾经对我们而言是防卫邻国的重要缓冲区。然而现在我们应该保住这些富裕省份，以防被宿敌夺取的风险。"
- subjugate_hungary_title:0 "匈牙利的衰落"
- subjugate_hungary_desc:0 "相比于奥地利公国，匈牙利近期的衰落令人担忧。我们必须加强与匈牙利的关系，以防止他们的领土落入敌国的手中。"
- austrian_hungary_title:0 "皇家匈牙利"
- austrian_hungary_desc:0 "匈牙利王国四面都是危险的敌人。我们必须直接介入并保护匈牙利人民，使他们的土地统一在一个统治者之下。"
- austrian_croatia_title:0 "保护克罗地亚"
- austrian_croatia_desc:0 "让我们在克罗地亚旧王国创造一个军事边界。这样我们就可以挡开任何侵犯东南欧基督教国家的人。"
- conquer_transylvania_title:0 "征服特兰西瓦尼亚"
- conquer_transylvania_desc:0 "匈牙利东部需要被置于奥地利直接统治之下。这将使我们能够保护该地区的基督教徒免遭土耳其进攻的危险。"
- austrian_italian_ambition_title:0 "意大利雄心"
- austrian_italian_ambition_desc:0 "富饶的意大利北部长期以来一直违抗帝国法令。这些城市绝不能如此接近奥地利中心地带。"
- unite_austria_title:1 "哈布斯堡疆土"
- unite_austria_desc:0 "按照日耳曼继承法的传统，哈布斯堡家族的土地被分割开来，以保证每个儿子都会有遗产。但是这些分支已经不再认同奥地利大公国主支的领导。如果想强大起来，我们必须联合家族的土地。"
+ build_colony_to_city_title:0 "S$PROVINCENAME$ØSbNµ^ÎW^"
+ build_colony_to_city_desc:0 "±›N	gÃV(WbýV–kl0WšRES„vºNìNèla0R†N$PROVINCENAME$ÿFO°s(W„všRES¹pàeÕl=ec'YÏ‘ºNãS0‚Yœgå‹–kl0W„vƒôVýwYib'Yÿàe‘uO8TV'YÏ‘°ešRESw0"
+ defend_the_lowlands_title:0 "ÝOkSNO0WýV¶R"
+ defend_the_lowlands_desc:0 "YýVßu»lw(WþVŒ^—Õl:YÖSbìN—VegNf„vê1u0bìNÅV‰˜ÍS—b0R•^0"
+ retake_corsica_title:0 "6eYÑy‰	V"
+ retake_corsica_desc:0 "íp±šN(W1282t^ÎNÔk(„ÖS—V†NÑy‰	V›Sv^³ueQvQßu»lÿbìNÅV‰˜6eYå‹›SÿSV0WºNló`ÅVS=ecbìN„vßu»l0"
+ free_croatia_from_the_ottomans_title:0 "ÎNeY¯eüfKb-Nã‰>eKQW0WšN"
+ free_croatia_from_the_ottomans_desc:0 "eY¯eüfºNck(W c:Yfåe0NŽ„vKQW0WšNÿAm¡N„v5ÏeÉ‹ô‹†NÖNìN„vNbjONb:N0åNúWcwYeNLu„vTINÿbìNÅV‰˜ã‰>eÙGrW0W0"
+ vassalize_gujarat_title:0 "VgäS	TÉbyr"
+ vassalize_gujarat_desc:0 "hQpS¦^„vÌRºNŒTMRŽV1WÎW„vFz¯e—gg1WwýÎNäS	TÉbyr„v'Y=nãS=TzÿMRŽV‰¹e0µc6Rå‹0W:SÿnxÝO8f‰RhQv^ÝO²bg1Ww=fbìN„vO‹T0"
+ ori_conquest_of_the_reddy_kingdom_title:0 "Vg‰R—VÉb"
+ ori_conquest_of_the_reddy_kingdom_desc:0 "êaSaSÐcšN^ýVpˆ¡NåNegÿðlbSúV'Y0W1S«ˆRÂˆbpe*NS¦ýVÿ1u÷–êÊSôuÉblš¶RÏe„v5Ïeßu»l0Ù›NS¦N*N*N0W«ˆbýV‰¹ÊSWS¹„vLeýVµc6R0bìN‰lšNúQûQÿNw:Nöe*gZfÿ¾xŽxÙ›NaSaSÐcšNRÂˆúQeg„vSýV0"
+ ori_conquest_of_telingana_title:0 "Vgyr&Ou³u"
+ ori_conquest_of_telingana_desc:0 "bìNŒcác†NÉb>™„·VÌ‘KNTÿyr&Ou³u„vôuÉblšK‘•ìNMRegHyBlbìNÿåNSÖNìNÎN°s(WN—VNÍV×S„vVýV‹Së-Nã‰>eúQeg0©‹bìN>múQ›Q–ÿSyr&Ou³ußuNŽNbìN„v×e^Nÿ"
+ ori_to_the_kaveri_river_and_beyond_title:0 "Øšæ—Ì‘³l"
+ ori_to_the_kaveri_river_and_beyond_desc:0 "bìNµc6RNwOf6ww)RÙNO'Y!X’WÿÑyWüf·VSwm¸STbìN^eV†N'Yè•0©‹bìNib.Vó›Q–NbÊSKNYÿVgte*Nwm¸SÿóN0RØšæ—Ì‘³l	NÒ‰2mÊSÌR¶^„vðls|S0"
+ keep_rival_out_of_italy_tooltip:0 "`O(W§Ya'Y)R0W:S§!åb	g„vNb	gwýNýO·ƒ—V§YbŸRÝOkSa'Y)R„v)RÊv§!Heœgÿ:Ng§Y10§!t^ÿ‚föežX R§G10%§! §YuµNHe‡s§!ÿÊS§G1§! §Yz6e§!0"
+ make_base_on_spice_islands_makassar_title:0 "(W™™™e²›Sú^Ëz$COUNTRY$g R!•"
+ make_base_on_spice_islands_makassar_desc:0 "NpS¦^²›S=fNLu™™™eµN0W„v-NÃVÿùRŽN‰ÓbUS™™™e8f„výV¶RwŠÿ±Ì‘	gNw'YÏ‘„v0ÌR0™™™eÅV‰˜Am¨Rÿ"
+ make_base_on_spice_islands_pasai_title:0 "(W™™™e²›Sú^Ëz$COUNTRY$kQf"
+ make_base_on_spice_islands_pasai_desc:0 "NpS¦^²›S=fNLu™™™eµN0W„v-NÃVÿùRŽN‰ÓbUS™™™e8f„výV¶RwŠÿ±Ì‘	gNw'YÏ‘„v0ÌR0™™™eÅV‰˜Am¨Rÿ"
+ make_base_on_spice_islands_jakarta_title:0 "(W™™™e²›Sú^Ëz$COUNTRY$vV‡U'T"
+ make_base_on_spice_islands_jakarta_desc:0 "NpS¦^²›S=fNLu™™™eµN0W„v-NÃVÿùRŽN‰ÓbUS™™™e8f„výV¶RwŠÿ±Ì‘	gNw'YÏ‘„v0ÌR0™™™eÅV‰˜Am¨Rÿ"
+ portugal_discovers_central_africa_title:0 "¢c0tNNeÜ„vWS¹e	g›NÀNHN"
+ portugal_discovers_central_africa_desc:0 "êS	gSpe¢ci–wêaŒYrwm¸SúQÑSTWSÛÑSÿwÄÊN—VåNRVeg„vôf=fSKNÈSS0(W±Ì‘=f&TØ	gæSNGr'YF–ÿN*NøvÍS„vNLuÿNWWEQ¥eNw.Oô‹-N„vÎ‘‹Q„vW0Wÿ=föeP»S¢c0tNN±¹	g›NÀNHNÿv^NKNFU0"
+ portugal_colonizes_central_africa_title:1 "(W‰RåTÉbú^ËzNµ^8fÙz"
+ portugal_colonizes_central_africa_desc:0 "–NwùR^—2mwm¸S„vÛNek¢c0tÿˆV>f6qbìN—‰ú^ËzôfY„v=nãSÿåN›ObìN„v9‚êS(W•Ý»y*‚Lˆ„v-NjPÊl0"
+ portugal_rounds_cape_of_good_hope_title:0 "ŠÇ‹YgÒ‰"
+ portugal_rounds_cape_of_good_hope_desc:0 "‹†6q†SÏup‚i–ÿ¿lNwRƒÉQ„vwm¸S¿uÿzÇ†NqSi–YØS„v4lßWÿgÈubìNØ=fŒb0R†NÙÌ‘.Oô‹-N„v^—2mgWSïz0°s(WbìN—‰¢c0tNNæSN¹	g›NÀNHN0"
+ portugal_trading_post_in_south_africa_title:0 "(WWS^—wm¸Sú^ËzNµ^8fÙz"
+ portugal_trading_post_in_south_africa_desc:0 "ê6qw6q„vÿbìN‰(WÙGr'YF–WS¹e„vwm¸SNú^ËzNµ^8fÙz0sSOÙN=fŽVpS¦^„vï‚YbìNNbáO„v±,‚ÿFOùRêN^—wm¸SÐÄžÑ‘ÞVýV„v9‚êSwŠÿÙµ^-NlÙz„v÷N<PNïS0OÏ‘0"
+ portugal_explore_east_africa_title:0 "¢c0tN^—wm¸S"
+ portugal_explore_east_africa_desc:0 "bìNåwS„v=fÿ(WN^—wm¸S	gèTÏ‘„v0ÌRck(WAm08fFUìNmNòT:d&^NwpS¦^„våTz‚ÁTÔÞVa„„YrÿÙasTNwšN2m„v0ÌRòTæ‰KbïSÊS0"
+ portugal_establish_naval_base_mozambique_title:0 "(W«ƒQhÔkKQú^ËzNµ^wm›QúW0W"
+ portugal_establish_naval_base_mozambique_desc:0 "bìN„vO'Y¢c0tòTÏu¥cÑ'YŸRJTbÿFO:N†N©‹bìN„v8f9‚–êpS¦^mw*‚TýwÏu—Vw+o•„vÅeÿbìN—‰ýw(Wï-NÐc›OOo`„vwm=n0"
+ portugal_establish_naval_base_zanzibar_title:1 "Vg¯eæt^Ì‘8fFU"
+ portugal_establish_naval_base_zanzibar_desc:1 "¯eæt^Ì‘Sèwm¸SM^NwÌRv™„v8fÎW^ÿ(W±Ì‘pS¦^ŒTâl¯e„vFUºNâVMRegÇ‘-ÄžÑ‘ŒTaŒYrÿv^åN^9SŒTåTNÁTjO:N²Nbc06qwÿb—ùRŒcµc†NÙGrwmßW„vºNöeÿÙ›N8fÎW^„vMOnøvSVqSi–0©‹bìNVgÙGrW0WÿSvQnŽNa„„Yr„vŒcác-N0"
+ portugal_explore_horn_of_africa_title:0 "¢c0t^—2mKNÒ‰"
+ portugal_explore_horn_of_africa_desc:0 "bìN„v¢c0twµb¾†NšNNŒn„væSNµOÿ‚YdkKNY„v™™™eŒT0R1udkYÐŽV†N0W-Nwm0‚YœgbìNó`ŠbÙr0ÌR&^ÞVa„„Yr„vÝ‹ÿÅV‰˜SÙN0W:S„v0WþVØu6RúQeg0"
+ portugal_establish_naval_base_horn_of_africa_title:0 "(W^—2mKNÒ‰ú^ËzNµ^wm›QúW0W"
+ portugal_establish_naval_base_horn_of_africa_desc:0 "(WN^—2mŒT?–Éb=O„vFU–„vÞz‰N-NÿbìN„vYƒXˆVp‚¾–0‚YœgbìNó`(W'Y‰m*‚¿u„v'Ð-NŒBlôfY„v)R¦mÿbìNÅV‰˜:N8f0‚–(W^—2mKNÒ‰nxÝOôf'Y„vCg›R0"
+ conquer_nogai_area_title:0 "ûQ‘—|—"
+ conquer_nogai_area_desc:0 "Ì‘wmSè„v'YIƒŸSOçe=feQµOw„v'Y,g%„ÿÖNìNN­e0W­ˆpbbìN¹ƒX0W:S„vESl0°s(WbìNÅV‰˜çuíuÛIeÿŠb‘—|—ºNvúQbìN„výVLuÿR.úQNGr‰RhQ:Seg›OÄOW¯e–kl–šRES0"
+ conquer_western_siberia_region_title:0 "nxÝO‰=O)RšN‰è„v‰RhQ"
+ conquer_western_siberia_region_desc:0 "Vg‰=O)RšNÿS‡ef.O­dóV–„vRƒŸSÿÙ=fbìN„v)Y‹TKNNb(W0N›NK„T„výV¶R<ONNµNu†NÖNìN”^ßu»lÙGrW0W„v•É‰ÿFObìN„våT(„KQ’Qi–wìNObìNnxáOÿNæebìNÑSwÛIeÿÙ›NýV¶ROÏP¸uLr-dw„v?bPRN7h«ˆÉcbNâV0"
+ conquer_east_siberia_region_title:0 "Vg‰=O)RšN"
+ conquer_east_siberia_region_desc:0 "‰=O)RšNˆV^–ÿ=fbìNýV¶Rib.V„v)Y6qîvh0:N†NObìN„všRESwýwY(W±Ì‘uXRNegÿbìNÅV‰˜nd–ÙN0W:SNb×S„vYèqVÍT0bìN„våT(„KQ’Qi–wìNObìNnxáOÙN0W:S„výV¶RýO«ˆ‰wf>N0Wˆmmp0"
+ conquer_the_whiteskin_title:0 "Vg‹v®vÿ$PROVINCENAME$"
+ conquer_the_whiteskin_desc:0 "bìNÅV‰˜Ùu$PROVINCENAME$„vî†7YìN&^»S‡efŒTVSÿ"
+ kremlin_expansion_title:0 " RúV[Root.GetCapitalName]„vÎW!X"
+ kremlin_expansion_desc:0 "bìN„vºNlOVbìNÐc›OÝO²bFOñbkSbìN–™ý„v‰^XtSÄ‰!j‡˜SwN2–¡V„…1V0bìN—‰ibú^[Root.GetCapitalName]„vÎW!Xv^ R:VbìN„v2–¡VÿÙSO—Vte*NwýNôf:N‰RhQÿäNbìN„vºNl(WÙGrW0WN„vuImôf R‰RR0"
+ portugal_conquest_of_hormuz_title:0 "Vg—S(gyQ›S"
+ portugal_conquest_of_hormuz_desc:0 "—S(gyQwmáSùRµc6RpS¦^ÿOgŒT?–Éb=OOÉbKQKNô•„v8fAm¨R	gNwèT'Y„vqVÍT0Ç:YÖSùR—S(gyQ›S„vµc6RCgÿbìNïSåN=eM‘SV0W„v8fÿv^±RðyƒRþfÏuRú^„vwmm^ýV0"
+ establish_colonial_nation_mission_canada_title:0 "(W Rÿb'Yú^Ëz–kl†˜"
+ establish_colonial_nation_mission_canada_desc:0 "bìN(W Rÿb'Y„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_canada_tooltip:0 "(W Rÿb'Y–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_alaska_title:0 "(W?–Éb¯e Rú^Ëz–kl†˜"
+ establish_colonial_nation_mission_alaska_desc:0 "bìN(W?–Éb¯e R„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_alaska_tooltip:0 "(W?–Éb¯e R–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_eastern_america_title:0 "(WŽ2mNèú^Ëz–kl†˜"
+ establish_colonial_nation_mission_eastern_america_desc:0 "bìN(WNŽ2m„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_eastern_america_tooltip:0 "(WNŽ2m–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_colonial_australia_title:0 "(W³o'Y)RšNú^Ëz–kl†˜"
+ establish_colonial_nation_mission_colonial_australia_desc:0 "bìN(W³o'Y)RšN„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_colonial_australia_tooltip:0 "(W³o'Y)RšN–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_colonial_la_plata_title:0 "(WÉbnfÉbTXú^Ëz–kl†˜"
+ establish_colonial_nation_mission_colonial_la_plata_desc:0 "bìN(WÉbnfÉbTX„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_colonial_la_plata_tooltip:0 "(WÉbnfÉbTX–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_colonial_peru_title:0 "(WØyœú^Ëz–kl†˜"
+ establish_colonial_nation_mission_colonial_peru_desc:0 "bìN(WØyœ„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_colonial_peru_tooltip:0 "(WØyœ–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_colonial_colombia_title:0 "(WåT&OÔkšNú^Ëz–kl†˜"
+ establish_colonial_nation_mission_colonial_colombia_desc:0 "bìN(WåT&OÔkšN„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_colonial_colombia_tooltip:0 "(WåT&OÔkšN–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_colonial_the_carribean_title:0 "(W RÒRÔkú^Ëz–kl†˜"
+ establish_colonial_nation_mission_colonial_the_carribean_desc:0 "bìN(W RÒRÔk„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_colonial_the_carribean_tooltip:0 "(W RÒRÔk–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_colonial_mexico_title:0 "(W¨X‰åTú^Ëz–kl†˜"
+ establish_colonial_nation_mission_colonial_mexico_desc:0 "bìN(W¨X‰åT„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_colonial_mexico_tooltip:0 "(W¨X‰åT–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_colonial_california_title:0 "(W R)Ry<SšNú^Ëz–kl†˜"
+ establish_colonial_nation_mission_colonial_california_desc:0 "bìN(W R)Ry<SšN„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_colonial_california_tooltip:0 "(W R)Ry<SšN–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_colonial_louisiana_title:0 "(Wïf¯e‰R±ú^Ëz–kl†˜"
+ establish_colonial_nation_mission_colonial_louisiana_desc:0 "bìN(Wïf¯e‰R±„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_colonial_louisiana_tooltip:0 "(Wïf¯e‰R±–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ establish_colonial_nation_mission_colonial_brazil_title:0 "(WôT‰ú^Ëz–kl†˜"
+ establish_colonial_nation_mission_colonial_brazil_desc:0 "bìN(WôT‰„v–klw—‰bìN„v=ec0bìN”^å‹ib'Y–kl0Wÿôv0RÖNìNýwYêÙuê³0"
+ establish_colonial_nation_mission_colonial_brazil_tooltip:0 "(WôT‰–kl0W–kl 5 *NÎW^ÿ(W±Ì‘ú^Ëz–kl†˜0"
+ discover_ivory_coast_node_title:0 "¢c0taŒYrwm¸S"
+ discover_ivory_coast_node_desc:0 "•ENåNegÿNôv	g.Oô‹^—2mhTôV	gNagŽVšN2m„v*‚S0‚YœgbìNó`:NšN2m™™™eR.°e„v8fï¿uÿbìN”^å‹¢c0tƒR0"
+ discover_ivory_coast_tt:0 "¢c0taŒYrwm¸S‚‚¹p"
+ ivory_coast_trade:0 "aŒYrwm¸S8fyr¸‹Cg"
+ colony_in_ivory_coast_node_title:0 "(W‰^—ÑSUSËz³¹p"
+ colony_in_ivory_coast_node_desc:0 "^—2mwm¸S„v¢c0thˆf*‚zSOASR+o•0àVdkÿbìN—‰·ƒ—VjPÊlbìN„v8f9‚–„v=nãS0"
+ colonise_ivory_coast_tt:0 "(W‰^—8f‚‚¹pú^Ëz	N*N–kl0W:S"
+ atlantic_trading_post_tt:1 "`O(W§YaŒYrwm¸S§!8f‚‚¹p»lNNb	gwýN(W10t^…Q·ƒ—V‚YNîOckÿ\n,g0W8fÞz‰N›Rÿ§G+1.00§!\n,g0W8fÞz‰N›Rÿ§G+20%§!\n8f÷N<Pÿ§G+0.50§!"
+ south_african_trading_post_tt:1 "`O(W§YWS^—§!8f‚‚¹p»lNNb	gwýN(W10t^…Q·ƒ—V‚YNîOckÿ\n,g0W8fÞz‰N›Rÿ§G+1.00§!\n,g0W8fÞz‰N›Rÿ§G+20%§!\n8f÷N<Pÿ§G+0.50§!"
+ discover_good_hope_node_title:0 "¢c0tNNeÜ„vWS¹e	g›NÀNHN"
+ discover_good_hope_node_desc:0 "•ENåNegÿNôv	g.Oô‹^—2mhTôV	gNagŽVšN2m„v*‚S0‚YœgbìNó`:NšN2m™™™eR.°e„v8fï¿uÿbìN”^å‹¢c0tƒR0"
+ discover_good_hope_tt:0 "¢c0tWS^—8f‚‚¹p"
+ good_hope_trade:0 "ŠÇ‹YgÒ‰"
+ colony_in_good_hope_node_title:0 "(WWS^—ÑSUSËz³¹p"
+ colony_in_good_hope_node_desc:0 "^—2mwm¸S„v¢c0thˆf*‚zSOASR+o•0àVdkÿbìN—‰(W‹YgÒ‰·ƒ—VjPÊlbìN„v8f9‚–„v=nãS0"
+ colonise_good_hope_tt:0 "(WWS^—8f‚‚¹pú^Ëz	N*N–kl0W:S"
+ cape_trading_post_tt:0 "°e–kl0W„v8f÷N<PŒT8fÞz‰N›R‚föeAucƒ0"
+ discover_zanzibar_node_title:1 "¢c0t‹YgÒ‰T	gÀNHN"
+ discover_zanzibar_node_desc:0 "0R¾^—2mWSèwm¸STÿbìNïSåNÛeQN*NhQ°e„vwmmÿ(W±Ì‘bìNSŒb0RšN2m„v0ÌR0"
+ discover_zanzibar_tt:0 "¢c0tQhÙuôTSwmáS„v‚‚¹p0"
+ zanzibar_node_trade:0 "QhÙuôTS8fyr¸‹Ïu%„Cg"
+ conquer_zanzibar_mission_title:1 "¯eæt^Ì‘wm¸S„vËz³¹pQhÙuôTS"
+ conquer_zanzibar_mission_desc:1 "QhÙuôTS=f¯eæt^Ì‘wm¸S„v²Nf¹pKNN0VgƒRSÙubìNÐc›ON*N˜Y„v=nãSÿv^b:NŽVšN2m„v8f„vNWW«Wów0"
+ conquer_zanzibar_tt:1 "VgQhÙuôTS0"
+ conquer_mombasa_mission_title:1 "(W¯eæt^Ì‘wm¸S„vËz³¹p™„ôT(„"
+ conquer_mombasa_mission_desc:1 "™„ôT(„=f¯eæt^Ì‘wm¸S„v²Nf¹pKNN0VgƒRSÙubìNÐc›ON*N˜Y„v=nãSÿv^b:NŽVšN2m„v8f„vNWW«Wów0"
+ conquer_mombasa_tt:0 "Vg™„ôT(„0"
+ conquer_mogadishiu_mission_title:1 "0tlšÌ‘wm¸S„vËz³¹pid Rê™l"
+ conquer_mogadishiu_mission_desc:1 "0tlšÌ‘=f¯eæt^Ì‘wm¸S„v²Nf¹pKNN0VgƒRSÙubìNÐc›ON*N˜Y„v=nãSÿv^b:NŽVšN2m„v8f„vNWW«Wów0"
+ conquer_mogadishiu_tt:0 "Vgid Rê™l0"
+ discover_aden_gulf_node_title:0 "ÑS°sšN2m„v'Yè•"
+ discover_aden_gulf_node_desc:0 "?–Éb=OJS›SåNvQ–TaUFŒŒT8f‡eSwû•Tÿv^NôvŒcµcNwšN'kKNô•„v8f*‚¿u0(WçuíuMRŽVpS¦^KNMRÿbìN—‰¢c0tÖNìN„v8f‚‚¹p0"
+ discover_aden_gulf_tt:0 "¢c0tšNNŒn8f‚‚¹p0"
+ aden_gulf_trade:0 "šNNŒn8fyr¸‹Ïu%„Cg"
+ conquer_masqat_mission_title:0 "(W?–üfÑSUSËz³¹p"
+ conquer_masqat_mission_desc:0 "?–Éb=OJS›S„vlš¯eŽUyr=fÛeQšN2mÿpT™™™eÿNøuŒTvQÖN0ÌR„vè•7b0"
+ conquer_masqat_tt:0 "Vglš¯eŽUyr0"
+ discover_indus_node_title:0 "ÑS°spS¦^„v'Yè•"
+ discover_indus_node_desc:0 "peNªuåNegÿšN2m„v™™™eŒTNøu=fNôvÀo±RNw†N'k2mFUºN„v¦hó`0ÖNìN°s(WòTÏu(WbìN„vŒcácKN-NÿFObìN–™HQ—‰¢c0tŽVpS¦^8f‚‚¹p„v*‚¿u0"
+ discover_indus_tt:0 "¢c0tpS¦^³l¿l¸S8f‚‚¹p"
+ indus_node_trade:0 "pS¦^³l8fyr¸‹Ïu%„Cg"
+ discover_goa_node_title:0 "¢c0tpS¦^‰wm¸S	gÀNHN"
+ discover_goa_node_desc:0 "peNªuåNegÿšN2m„v™™™eŒTNøu=fNôvÀo±RNw†N'k2mFUºN„v¦hó`0ÖNìN°s(WòTÏu(WbìN„vŒcácKN-NÿFObìN–™HQ—‰¢c0tŽVpS¦^8f‚‚¹p„v*‚¿u0"
+ discover_goa_tt:0 "¢c0tœg?–8f‚‚¹p"
+ goa_node_trade:0 "œg?–8fyr¸‹Ïu%„Cg"
+ discover_ceylan_node_title:0 "¢c0tpS¦^WSwm¸S	gÀNHN"
+ discover_ceylan_node_desc:0 "peNªuåNegÿšN2m„v™™™eŒTNøu=fNôvÀo±RNw†N'k2mFUºN„v¦hó`0ÖNìN°s(WòTÏu(WbìN„vŒcácKN-NÿFObìN–™HQ—‰¢c0tŽVpS¦^8f‚‚¹p„v*‚¿u0"
+ discover_ceylan_tt:0 "¢c0t!•pQwmáS8f‚‚¹p0"
+ ceylan_node_trade:0 "¢c0t!•pQ8f‚‚¹p"
+ discover_bengal_node_title:0 "¢c0tpS¦^Nwm¸S	gÀNHN"
+ discover_bengal_node_desc:0 "peNªuåNegÿšN2m„v™™™eŒTNøu=fNôvÀo±RNw†N'k2mFUºN„v¦hó`0ÖNìN°s(WòTÏu(WbìN„vŒcácKN-NÿFObìN–™HQ—‰¢c0tŽVpS¦^8f‚‚¹p„v*‚¿u0"
+ discover_bengal_tt:0 "ÑS°smR RÉbwm¸S8f‚‚¹p0"
+ bengal_node_trade:0 "mR RÉb8fyr¸‹Ïu%„Cg"
+ trading_post_modifier:0 "wmY8fAucƒ"
+ desc_trading_post_modifier:0 "bìN„v¢ci–w(WûRŒbŽVšN2m„v8f*‚¿uöeÿòTÏu:NbìN„v¢c0t0‚–ú^Ëz†N=nãS0ÙüRô†NNESOO(WD–Ñ„vSV0WºN„v8fAucƒ0"
+ complete_mission:0 "ŒRbå‹ûN¡R·ƒÖSVY±R"
+ mission_already_completed:0 "å‹ûN¡RòTŒRb"
+ HEADER_MISSIONS:0 "ûN¡R"
+ secure_the_imperial_crown_title:0 "nxÝO	hy"
+ secure_the_imperial_crown_desc:0 "êÎNÈT^¯e!X=O5rœS+Y«ˆ R•Q:N^y1WWlš^ýV‡v^v^¾‹ÕlOvQ¶RÏeeQINeY0W)RåNegÿ R•Q‡v^Nôv=feY0W)R†SãNlQ5r„vîvh0bìNÅV‰˜KSNRªR›Rÿ©‹^ýV·ƒ—VƒRÝOc3zšRNb—„vNRNMOeY0W)R„v‡v^0"
+ subjugate_bohemia_title:1 "µc6Râl^s|šN"
+ subjugate_bohemia_desc:1 "âl^s|šN‹sýV„v‹TÐéeòTVweY0W)R†SãNlQ5r„vtQ±0bìNÅV‰˜Ç‘ÖSôf Rïyg„vLˆ¨RÿSƒRôf RbrúV0W³ueQbìN„vŒcµc-N0"
+ recover_silesia_title:0 "6eY‰Ì‘‰šN"
+ recover_silesia_desc:0 "‰Ì‘‰šN„vwýN”^SV1uÈT^¯e!X¶RÏeTÕl0WçubÿFOtS1»y†NbìN„vŒcµc0:N†NÈT^¯e!X‹sg„vZ%NÿbìNÅV‰˜SvQ6eY0"
+ partition_poland_title:1 "Vg R)R‰šN"
+ partition_poland_desc:1 "âl^S R)R‰šNþfÏuùRbìNwŠ=f2–kS»ýV„vÍ‘‰²Q:S06qw°s(WbìN”^å‹ÝOOOÙ›NÌRÕˆwýNÿåN2–«ˆ¿RLe:YÖS„vÎ˜i–0"
+ subjugate_hungary_title:0 "SYr)R„vpˆK„"
+ subjugate_hungary_desc:0 "øvÔkŽNeY0W)RlQýVÿSYr)RÑg„vpˆK„äNºNÅbçV0bìNÅV‰˜ R:VNSYr)R„vsQû|ÿåN2–bkÖNìN„v†˜WK„eQLeýV„vKb-N0"
+ austrian_hungary_title:0 "‡v¶RSYr)R"
+ austrian_hungary_desc:0 "SYr)R‹sýVÛVb—ý=fqSi–„vLeºN0bìNÅV‰˜ôv¥cËNeQv^ÝO²bSYr)RºNlÿOÖNìN„vW0WßuN(WN*Nßu»lwKNN0"
+ austrian_croatia_title:0 "ÝO²bKQW0WšN"
+ austrian_croatia_desc:0 "©‹bìN(WKQW0WšNçe‹sýVR.N*N›Q‹N¹Lu0Ù7hbìN1SïSåN!cVûNUOµO¯rNWS'kúWcwYeýV¶R„vºN0"
+ conquer_transylvania_title:0 "VgyrpQ‰æt<SšN"
+ conquer_transylvania_desc:0 "SYr)RNè—‰«ˆnŽNeY0W)Rôv¥cßu»lKNN0ÙSObìNýwYÝO²bå‹0W:S„vúWcwYe’VMQmW3wvQÛIe„vqSi–0"
+ austrian_italian_ambition_title:0 "a'Y)RÄ–ÃV"
+ austrian_italian_ambition_desc:0 "ÌRv™„va'Y)RSè•gåNegNôvÝ—b^ýVÕläN0Ù›NÎW^ÝuNýw‚Ydk¥cÑeY0W)R-NÃV0W&^0"
+ unite_austria_title:1 "ÈT^¯e!X†uW"
+ unite_austria_desc:0 "	cgqåe3wüfçubÕl„v.OßuÿÈT^¯e!X¶RÏe„vW0W«ˆRrRVegÿåNÝOÁ‹Ïk*N?QPRýO	gWµN0FO=fÙ›NR=eòTÏuNQ²‹TeY0W)R'YlQýVIN=e„v†˜üR0‚Yœgó`:V'YwegÿbìNÅV‰˜TwT¶RÏe„vW0W0"
  head_of_the_habsburgs_title:0 "AEIOU"
- head_of_the_habsburgs_desc:0 "奥地利的命运正是统治世界，而[Root.GetName]的命运正是统治奥地利。作为哈布斯堡家族遗产的守护者我们应该确保自己在奥地利的合法统治地位。"
- vassalize_wallachia_title:1 "征服瓦拉几亚"
- vassalize_wallachia_desc:0 "瓦拉几亚的王公们统治着那些相对贫瘠的土地，苏丹对这些土地没有兴趣。但是它们确实与我们的领土接壤，放任他们独立是不明智的。"
- vassalize_transylvania_title:1 "征服特兰西瓦尼亚"
- vassalize_transylvania_desc:0 "为赶走法兰克人十字军而付出的努力使我们从不信者之境夺取了更多巴尔干领土。我们现在和特兰西瓦尼亚接壤，为了确保伊斯兰之境的安全，必须让他们承认我们的宗主地位。"
- conquer_hungary_title:0 "控制多瑙河"
- conquer_hungary_desc:0 "我们必须继续沿着多瑙河前进，向匈牙利、奥地利和神圣罗马帝国的中心。"
- conquer_serbia_title:0 "征服塞尔维亚"
- conquer_serbia_desc:0 "自从匈牙利国王西吉斯蒙德带领着法兰克人十字军与奥斯曼军队作战后，我们就不曾安宁过。尽管安拉在那天赐予我们胜利，但是我们必须继续进军巴尔干，以保证我们的土地在未来依然安全。"
- conquer_bosnia_title:0 "征服波斯尼亚"
- conquer_bosnia_desc:0 "据说，波斯尼亚的国王与教宗勾结，合谋在巴尔干地区造成混乱。以神的名义，必须确保阴谋不会得逞。"
- conquer_southern_greece_title:1 "征服希腊"
- conquer_southern_greece_desc:0 "希腊南部的城市，可能会作为异教徒对我们发起十字军的铺路石。我们必须守住南方，以确保真正的伊斯兰领袖繁荣昌盛。"
- defeat_the_byzantine_empire_title:0 "世界渴望之城"
- defeat_the_byzantine_empire_desc:0 "伟大先知的最后指令是派出信仰的战士，使罗马人屈服于我们的脚下。我们必须做到其他圣战士所不曾做到之事：征服这座城市，以先知的名义。"
- army_reforms_of_mehemed_II_title:0 "改革帝国军"
- army_reforms_of_mehemed_II_desc:0 "穆罕默德二世意识到，如果帝国要变强，必须建设一支强大的现代化军队。只有当强大的常备军有了薪资和现代化武器装备，我们奥斯曼才能重新建立对安纳托利亚的统治。"
- consolidate_asia_minor_title:0 "巩固小亚细亚"
- consolidate_asia_minor_desc:0 "小亚细亚是帝国的绝对核心地区，苏丹从这里获得了大部分的资源。几十年前帖木儿彻底击败我们的军队后，许多当地的贝伊们重新获得了势力和独立。我们必须巩固我们对小亚细亚的控制，并重获失去的一切。"
- safeguard_eastern_anatolia_title:1 "保护安纳托利亚"
- safeguard_eastern_anatolia_desc:0 "控制埃里温和迪亚巴克尔的战略意义不可低估。我们必须征服并将移民迁入这些因帖木儿的入侵而荒废的土地，以确保我们的边境不被波斯进犯。"
- conquer_levant_title:0 "征服黎凡特"
- conquer_levant_desc:0 "马穆鲁克苏丹国的敌军阻碍了我们通向圣地、获得香料贸易收入，那是我们的夙愿。我们必须挺进叙利亚和埃及，以完成战略目标。"
- conquer_egypt_title:0 "征服埃及"
- conquer_egypt_desc:0 "是时候终结马穆鲁克的独立地位了。我们必须在埃及设立一位奥斯曼总督，以此为阿拉伯和北非的进一步征服开辟道路。"
- conquer_mesopotamia_title:0 "征服美索不达米亚"
- conquer_mesopotamia_desc:0 "美索不达米亚古城是亚洲香料贸易路线的重要一站。控制他们和他们的收入是一个非常诱人的目标。"
- conquer_hedjaz_title:0 "征服汉志"
- conquer_hedjaz_desc:0 "通过吞并汉志地区，我们不仅将成为圣城麦加和麦地那的守护者，而且还将获得一些对我们控制红海贸易至关重要的港口。"
- conquer_mocha_title:0 "征服摩卡"
- conquer_mocha_desc:1 "以当地出产的咖啡豆著称，摩卡城在帝国的地位越来越重要。位于红海的入口处的摩卡可以作为关税口岸和海军基地，也可以作为我们向印度洋扩张的铺路石。"
- conquer_haasa_title:0 "征服哈萨"
- conquer_haasa_desc:0 "我们必须保护印度到巴士拉的贸易路线。在哈萨地区建立奥斯曼帝国的统治，将保护这一重要的收入来源。"
- conquer_trebizond_title:0 "征服特拉比松"
- conquer_trebizond_desc:0 "我方间谍发来密报，称特拉比松的统治者正与其西方盟友沆瀣一气，要形成对抗我们帝国的包围网。我们必须率先发难，让他们享受同希腊遗民相同的命运。"
- conquer_tripolitania_title:0 "征服的黎波里塔尼亚"
- conquer_tripolitania_desc:0 "几十年来的黎波里塔尼亚的海岸城市一直为打劫我们船只的海盗提供安全庇护。我们的海军上将建议我们在该地区建立直接的奥斯曼的统治去阻止这些进攻。"
- conquer_tunisia_title:0 "征服突尼斯"
- conquer_tunisia_desc:0 "要是突尼斯落入基督徒的手中，我们对北非的统治将受到挑战。试图控制西地中海的基督徒正对当地人民实施高压政策，当地人将会把我们的军队视为救世主和保护者。"
- subjugate_algiers_title:0 "征服阿尔及尔"
- subjugate_algiers_desc:0 "如果我们不希望我们在马格里布的利益受到进一步的挑战，就必须更牢固地束缚住那里。是时候解放长久受到基督徒压迫的阿尔及尔地区了，如今它将成为我们的势力范围。"
- defeat_the_knights_title:1 "最后的十字军堡垒"
- defeat_the_knights_desc:0 "通过主的意愿，伊斯兰势力能够把法兰西十字军异教徒赶出圣地。但他们依旧留在罗得岛上蓄谋新的入侵。我们必须确保先知升天之地，圣城耶路撒冷的安全。"
- take_crete_from_venice_title:0 "征服克里特"
- take_crete_from_venice_desc:0 "克里特岛被异教徒海盗当作发动侵略的基地。我们必须征服这座岛屿并保护我们的船只。"
- recover_greece_title:0 "重夺希腊"
- recover_greece_desc:0 "在突厥人不断的打击过后，帝国已是风中残烛。为了我们能像不死鸟一样浴火重生，我们必须重夺希腊的土地。"
- recover_the_coast_of_asia_minor_title:1 "收复小亚细亚海岸线"
- recover_the_coast_of_asia_minor_desc:0 "只要小亚细亚沿岸被敌人所掌控，我们的安全就得不到保障。夺取沿岸的省份，我们才能得到所需的缓冲地带。"
- recover_the_balkans_title:1 "征服保加利亚"
- recover_the_balkans_desc:1 "为了保卫第二罗马，我们必须扩张到东巴尔干，征服保加利亚沙皇国的领土。保加利亚人是个光荣的民族，也经常反叛奥斯曼统治，他们一定会乐意加入复兴的罗马帝国。"
- convert_asia_minor_title:1 "使小亚细亚皈依"
- convert_asia_minor_desc:0 "小亚细亚的人民已经可悲地屈从于征服者的信仰。既然他们现在已经被解放了，我们就必须使他们皈依神圣的东正信仰。"
- convert_asia_minor_pp_title:1 "使小亚细亚皈依"
- convert_asia_minor_pp_desc:0 "小亚细亚的人民已经可悲地屈从于征服者的信仰。既然他们现在已经被解放了，我们就必须使他们皈依神圣的东正信仰。"
- recover_south_italy_title:0 "保证南意大利的安全"
- recover_south_italy_desc:0 "自那群卑鄙的法兰克人洗劫君士坦丁堡之后，我们就明白了他们的威胁。我们必须掌控南意大利来保障西岸的安全，确保这样的事情不会再次发生。"
- reestablish_the_theme_system_title:0 "重建军区制"
- reestablish_the_theme_system_desc:0 "我们从崩溃边缘恢复了过来，而现在有人呼吁，重建旧帝国军区制的行政区划。"
- reestablish_the_theme_system_pp_title:0 "重建军区制"
- reestablish_the_theme_system_pp_desc:0 "我们从崩溃边缘恢复了过来，而现在有人呼吁，重建旧帝国军区制的行政区划。"
- destroy_venice_title:0 "摧毁威尼斯"
- destroy_venice_desc:0 "正是这些来自「最尊贵的共和国」脑满肠肥的奸诈商人们的阴谋，在1204年的第四次十字军东征中，君士坦丁堡不幸落入拉丁入侵者之手。我们在之后奇迹般的复兴一直都是道奇宫的总督最可怕的噩梦。现在，是时候完成罗马的复仇，把总督吊死在他自己的城墙上了！"
- destroy_venice_pp_title:0 "消灭威尼斯"
- destroy_venice_pp_desc:0 "正是这些来自「最尊贵的共和国」脑满肠肥的奸诈商人们的阴谋，在1204年的第四次十字军东征中，君士坦丁堡不幸落入拉丁入侵者之手。我们在之后奇迹般的复兴一直都是道奇宫的总督最可怕的噩梦。现在，是时候完成罗马的复仇，把总督吊死在他自己的城墙上了！"
- the_pentarchy_title:0 "重建五大牧首区"
- the_pentarchy_desc:0 "基督教在1054年因教宗利奥九世傲慢所导致的东西大分裂，或许最终能得以和解。罗马的教宗是查士丁尼皇帝在531年所确立的五个同级主教之一，别外是君士坦丁堡、安条克、耶路撒冷和亚历山大。如果在东方教会的推动下，五位主教都能不计前嫌地恢复基督教，那么就有希望建立新的统一局面。"
- the_pentarchy_pp_title:0 "重建五大牧首区"
- the_pentarchy_pp_desc:0 "基督教在1054年因教宗利奥九世傲慢所导致的东西大分裂，或许最终能得以和解。罗马的教宗是查士丁尼皇帝在531年所确立的五个同级主教之一，别外是君士坦丁堡、安条克、耶路撒冷和亚历山大。如果在东方教会的推动下，五位主教都能不计前嫌地恢复基督教，那么就有希望建立新的统一局面。"
- recover_rome_title:0 "永恒之城"
- recover_rome_desc:0 "君士坦丁堡或许是新罗马，但自751年拉文那总督区失陷后，帝国的旧都永恒之城罗马已沦陷很久了。罗马帝国的突然复兴引发了强大的运动，要求我们夺回古老的拉丁家园……"
- recover_rome_pp_title:0 "永恒之城"
- recover_rome_pp_desc:0 "君士坦丁堡或许是新罗马，但自751年拉文那总督区失陷后，帝国的旧都永恒之城罗马已沦陷很久了。罗马帝国的突然复兴引发了强大的运动，要求我们夺回古老的拉丁家园……"
- recover_sicily_title:0 "收复西西里"
- recover_sicily_desc:0 "西西里于公元965年脱离帝国，落入阿拉伯人之手。是时候取得凯旋了，希腊语应该再次回响在达摩克里斯和阿基米德的岛屿上。"
- convert_rome_title:0 "光复罗马！"
- convert_rome_desc:0 "虽然罗马并不总是被帝国直接控制，但教宗里奥三世加冕查理曼神圣罗马皇帝时，罗马终于断绝了与拜占庭的所有联系。然而现在这座城市重归于我手，这座饱经风霜的城市终于要再次受到我们牧首的祝福。"
- recover_northern_balkans_title:0 "北部边境"
- recover_northern_balkans_desc:0 "我们必须收复往日北部的边疆地带，重建打击日耳曼蛮子的新前线。"
- recover_western_balkans_title:1 "征服巴尔干半岛"
- recover_western_balkans_desc:0 "我们必须再次确立对巴尔干半岛的权威，重新宣称亚得里亚海沿岸，将多瑙河作为我们的北部边界。"
- recover_west_anatolia_title:1 "安纳托利亚西部"
- recover_west_anatolia_desc:1 "是时候从突厥人手中夺回安纳托利亚，并在这个旧帝国核心地区重建罗马的统治了。"
- recover_central_anatolia_title:1 "安纳托利亚中部"
- recover_central_anatolia_desc:1 "我们必须继续驱逐突厥人，夺回更多罗马的领土，定将收复安纳托利亚中部，以更好保卫世界渴望之城，而且这是我们的固有领土。"
- conquest_of_azerbaijan_title:0 "波斯的阿塞拜疆"
- conquest_of_azerbaijan_desc:0 "作为伊利汗和黑羊的首都，大不里士是一个具有重要意义的城市。它控制着波斯西部阿塞拜疆的大部分面积。我们必须彻底恢复这个地区。"
- consolidate_iran_title:0 "统一伊朗"
- consolidate_iran_desc:0 "伊朗高原出现过多个古文明，也是波斯所有强大王朝的中心。我们必须保证整个区域在我们控制下，驱逐土匪和外国君主，保证波斯各个伟大城市的安全。"
- conquest_of_arabian_iraq_title:0 "纳杰夫和卡尔巴拉"
- conquest_of_arabian_iraq_desc:0 "保卫纳杰夫和卡尔巴拉的圣殿，恢复他们昔日的荣耀是我们的责任。我们必须不惜一切代价保护这个地区免遭外国入侵，这样我们就可以确保他们的安全。"
- persian_khorasan_title:0 "波斯的呼罗珊"
- persian_khorasan_desc:0 "最近几个世纪以来，东波斯开始成为学习和文化的中心。作为一个统一波斯文化圈的帝国，我们必须确保呼罗珊的大城市：哈烈，尼沙卜儿和马什哈德在波斯王国内得到适当巩固。"
- persian_afghanistan_title:0 "帝国坟场"
- persian_afghanistan_desc:0 "阿富汗的山地镇守着通往富饶的印度平原的道路。我们向那里扩张，不仅能保护本国免受任性的阿富汗人劫掠，还能为未来向东扩张铺平道路。"
- HEADER_DECISIONS:2 "决议和政策"
- have_vaisyas_in_5_provinces:1 "将至少5个2级§Y贸易中心§!分封给§Y吠舍§!、§Y市民§!、 或 §Y耆那§!阶层。"
+ head_of_the_habsburgs_desc:0 "eY0W)R„v‹TÐck=fßu»lNLuÿw[Root.GetName]„v‹TÐck=fßu»leY0W)R0jO:NÈT^¯e!X¶RÏeWµN„vˆR²bwbìN”^å‹nxÝOêñT(WeY0W)R„vTÕlßu»l0WMO0"
+ vassalize_wallachia_title:1 "VgætÉbàQšN"
+ vassalize_wallachia_desc:0 "ætÉbàQšN„v‹slQìNßu»lNw±›NøvùR+.v„vW0WÿÏ‚9NùRÙ›NW0W¡l	gtQ±0FO=fƒRìNnxžRNbìN„v†˜W¥cäXÿ>eûNÖNìNìrËz=fNfzf„v0"
+ vassalize_transylvania_title:1 "VgyrpQ‰æt<SšN"
+ vassalize_transylvania_desc:0 ":NvpÕlpQKQºNASWR›QwØNúQ„vªR›RObìNÎNNáOwKNƒX:YÖS†NôfYôTSr^†˜W0bìN°s(WŒTyrpQ‰æt<SšN¥cäXÿ:N†NnxÝOO¯epQKNƒX„v‰RhQÿÅV‰˜©‹ÖNìNb²‹bìN„v—RIN0WMO0"
+ conquer_hungary_title:0 "µc6RYYt³l"
+ conquer_hungary_desc:0 "bìNÅV‰˜çuíu¿lNwYYt³lMRÛÿTSYr)R0eY0W)RŒT^y1WWlš^ýV„v-NÃV0"
+ conquer_serbia_title:0 "Vg^XSôušN"
+ conquer_serbia_desc:0 "êÎNSYr)RýV‹s‰	T¯e™„·V&^†˜NwÕlpQKQºNASWR›QNeY¯eüf›Q–jObTÿbìN1SNþf‰RRÇ0KS¡r‰RÉb(W±)YPˆNbìNÜw)RÿFO=fbìNÅV‰˜çuíuÛ›QôTSr^ÿåNÝOÁ‹bìN„vW0W(W*gegO6q‰RhQ0"
+ conquer_bosnia_title:0 "Vgâl¯e<SšN"
+ conquer_bosnia_desc:0 "ncô‹ÿâl¯e<SšN„výV‹sNYe—RþRÓuÿTŒ(WôTSr^0W:S.b÷mqN0åN^y„vTINÿÅV‰˜nxÝO4–ŒNO—V0"
+ conquer_southern_greece_title:1 "Vg^J"
+ conquer_southern_greece_desc:0 "^JWSè„vÎW^ÿïSýwOjO:NVYe’VùRbìNÑSwASWR›Q„vú”ïów0bìNÅV‰˜ˆROOWS¹eÿåNnxÝOwck„vO¯epQ†˜–ˆAucƒfÛv0"
+ defeat_the_byzantine_empire_title:0 "NLu4ngKNÎW"
+ defeat_the_byzantine_empire_desc:0 "O'YHQåw„vgTcäN=f>múQáOðN„vbëXÿOWlšºNHSgŽNbìN„vN0bìNÅV‰˜ZP0RvQÖN1WbëXNbNþfZP0RKN‹NÿVgÙµ^ÎW^ÿåNHQåw„vTIN0"
+ army_reforms_of_mehemed_II_title:0 "9ei—^ýV›Q"
+ army_reforms_of_mehemed_II_desc:0 "FzUØž·VŒNNaÆ‹0Rÿ‚Yœg^ýV‰ØS:VÿÅV‰˜ú^¾‹N=e:V'Y„v°sãNS›Q–0êS	gSV:V'Y„v8^Y›Q	g†Nª…DŒT°sãNSfkhVÅˆYÿbìNeY¯eüfMbýwÍ‘°eú^ËzùR‰R³uXb)RšN„vßu»l0"
+ consolidate_asia_minor_title:0 "éTúVSšNÆušN"
+ consolidate_asia_minor_desc:0 "SšNÆušN=f^ýV„vÝuùR8hÃV0W:SÿÏ‚9NÎNÙÌ‘·ƒ—V†N'YèR„vDn0àQASt^MR^(g?Q‰V•^ûQ%bìN„v›Q–Tÿ¸‹YSV0W„vOìNÍ‘°e·ƒ—V†N¿R›RŒTìrËz0bìNÅV‰˜éTúVbìNùRSšNÆušN„vµc6Rÿv^Í‘·ƒ1Y»S„vNR0"
+ safeguard_eastern_anatolia_title:1 "ÝO²b‰R³uXb)RšN"
+ safeguard_eastern_anatolia_desc:0 "µc6RÃWÌ‘)nŒTêšNôTKQS„vbeuaINNïSNO0O0bìNÅV‰˜Vgv^SûylÁeQÙ›NàV^(g?Q„veQµOwRƒŸ^„vW0WÿåNnxÝObìN„v¹ƒXN«ˆâl¯eÛ¯r0"
+ conquer_levant_title:0 "VgÎžáQyr"
+ conquer_levant_desc:0 "lšFzœKQÏ‚9NýV„vLe›QI–x†NbìNT1W0W0·ƒ—V™™™e8f6eeQÿ±=fbìN„vY?a0bìNÅV‰˜:cÛÙS)RšNŒTÃWÊSÿåNŒRbbeuîvh0"
+ conquer_egypt_title:0 "VgÃWÊS"
+ conquer_egypt_desc:0 "=föePÈuÓulšFzœKQ„vìrËz0WMO†N0bìNÅV‰˜(WÃWÊS¾‹ËzNMOeY¯eüfI`cwÿåNdk:N?–Éb=OŒTS^—„vÛNekVgVŸSï0"
+ conquer_mesopotamia_title:0 "VgŽ0tN¾s|šN"
+ conquer_mesopotamia_desc:0 "Ž0tN¾s|šNäSÎW=fšN2m™™™e8fï¿u„vÍ‘‰NÙz0µc6RÖNìNŒTÖNìN„v6eeQ=fN*N^—8^ñ‹ºN„vîvh0"
+ conquer_hedjaz_title:0 "VgIl×V"
+ conquer_hedjaz_desc:0 "ÇTv^Il×V0W:SÿbìNNÅNSb:N1WÎW¦ž RŒT¦ž0W±„vˆR²bwÿwNØS·ƒ—VN›NùRbìNµc6R¢uwm8fósQÍ‘‰„v=nãS0"
+ conquer_mocha_title:0 "VgidaS"
+ conquer_mocha_desc:1 "åNSV0WúQµN„v–TaUFŒW„ðyÿidaSÎW(W^ýV„v0WMOŠegŠÍ‘‰0MOŽN¢uwm„veQãSY„vidaSïSåNjO:NsQzãS¸SŒTwm›QúW0WÿmNïSåNjO:NbìNTpS¦^mib.V„vú”ïów0"
+ conquer_haasa_title:0 "VgÈT(„"
+ conquer_haasa_desc:0 "bìNÅV‰˜ÝO²bpS¦^0RôTëXÉb„v8fï¿u0(WÈT(„0W:Sú^ËzeY¯eüf^ýV„vßu»lÿSÝO²bÙNÍ‘‰„v6eeQegn0"
+ conquer_trebizond_title:0 "VgyrÉbÔkŒg"
+ conquer_trebizond_desc:0 "b¹eô•ŒÑSegÆR¥bÿðyyrÉbÔkŒg„vßu»lwckNvQ‰¹eßvËS†l1pNlÿ‰bVbùR—bbìN^ýV„vSôVQ0bìNÅV‰˜‡sHQÑS¾–ÿ©‹ÖNìN«N×ST^JWløvT„v‹TÐ0"
+ conquer_tripolitania_title:0 "Vg„vÎžâlÌ‘TX<SšN"
+ conquer_tripolitania_desc:0 "àQASt^eg„vÎžâlÌ‘TX<SšN„vwm¸SÎW^Nôv:NSb«RbìN9‚êS„vwm×vÐc›O‰RhQ‡^²b0bìN„vwm›QNSú^®‹bìN(Wå‹0W:Sú^Ëzôv¥c„veY¯eüf„vßu»l»SI–bkÙ›NÛIe0"
+ conquer_tunisia_title:0 "Vgz<S¯e"
+ conquer_tunisia_desc:0 "‰=fz<S¯eK„eQúWcw’V„vKb-NÿbìNùRS^—„vßu»lS×S0Rcb0Õ‹þVµc6R‰0W-Nwm„vúWcw’VckùRSV0WºNlžRËeØš‹S?eVrÿSV0WºNSOŠbbìN„v›Q–Æ‰:NQeNINŒTÝO²bw0"
+ subjugate_algiers_title:0 "Vg?–SÊSS"
+ subjugate_algiers_desc:0 "‚YœgbìNN^gbìN(Wlš<hÌ‘^„v)RÊv×S0RÛNek„vcbÿ1SÅV‰˜ôfbrúV0WmgOO±Ì‘0=föePã‰>e•EN×S0RúWcw’V‹Së„v?–SÊSS0W:S†Nÿ‚YÊNƒRSb:NbìN„v¿R›RƒôV0"
+ defeat_the_knights_title:1 "gT„vASWR›Q!X’W"
+ defeat_the_knights_desc:0 "ÇIN„va?aÿO¯epQ¿R›RýwYŠbÕlpQ‰ASWR›QVYe’VvúQ1W0W0FOÖNìNOçeYu(WW—V›SNÄ„Œ°e„veQµO0bìNÅV‰˜nxÝOHQåwGS)YKN0Wÿ1WÎW6wï’d·Q„v‰RhQ0"
+ take_crete_from_venice_title:0 "VgKQÌ‘yr"
+ take_crete_from_venice_desc:0 "KQÌ‘yr›S«ˆVYe’Vwm×vSVjOÑS¨RµOeu„vúW0W0bìNÅV‰˜VgÙµ^›SSv^ÝO²bbìN„v9‚êS0"
+ recover_greece_title:0 "Í‘:Y^J"
+ recover_greece_desc:0 "(Wz¥SºNN­e„vSbûQÇTÿ^ýVòT=fÎ˜-N‹kÛp0:N†NbìNýwÏPN‰kžN7htmkpÍ‘uÿbìNÅV‰˜Í‘:Y^J„vW0W0"
+ recover_the_coast_of_asia_minor_title:1 "6eYSšNÆušNwm¸S¿u"
+ recover_the_coast_of_asia_minor_desc:0 "êS‰SšNÆušN¿l¸S«ˆLeºNNbŒcµcÿbìN„v‰RhQ1S—VN0RÝOœ–0:YÖS¿l¸S„vwýNÿbìNMbýw—V0RNb—„v²Q0W&^0"
+ recover_the_balkans_title:1 "VgÝO R)RšN"
+ recover_the_balkans_desc:1 ":N†NÝOkS,rŒNWlšÿbìNÅV‰˜ib.V0RNôTSr^ÿVgÝO R)RšN™l‡výV„v†˜W0ÝO R)RšNºN=f*NIQcƒ„vlÏeÿmNÏu8^ÍSÛSeY¯eüfßu»lÿÖNìNNšROPNa ReQYtQ„vWlš^ýV0"
+ convert_asia_minor_title:1 "OSšNÆušNˆvO"
+ convert_asia_minor_desc:0 "SšNÆušN„vºNlòTÏuïS²`0WHSÎNŽNVgw„váOðN0âe6qÖNìN°s(WòTÏu«ˆã‰>e†NÿbìN1SÅV‰˜OÖNìNˆvO^y1W„vNckáOðN0"
+ convert_asia_minor_pp_title:1 "OSšNÆušNˆvO"
+ convert_asia_minor_pp_desc:0 "SšNÆušN„vºNlòTÏuïS²`0WHSÎNŽNVgw„váOðN0âe6qÖNìN°s(WòTÏu«ˆã‰>e†NÿbìN1SÅV‰˜OÖNìNˆvO^y1W„vNckáOðN0"
+ recover_south_italy_title:0 "ÝOÁ‹WSa'Y)R„v‰RhQ"
+ recover_south_italy_desc:0 "ê±²QS‘„vÕlpQKQºNm«RTëXfWN!XKNTÿbìN1Sf‹v†NÖNìN„vZÁw0bìNÅV‰˜ŒcµcWSa'Y)RegÝOœ–‰¸S„v‰RhQÿnxÝOÙ7h„v‹NÅ`NOQ!kÑSu0"
+ reestablish_the_theme_system_title:0 "Í‘ú^›Q:S6R"
+ reestablish_the_theme_system_desc:0 "bìNÎN)Tƒn¹b`Y†NÇegÿw°s(W	gºN|TTÿÍ‘ú^çe^ýV›Q:S6R„vLˆ?e:SR0"
+ reestablish_the_theme_system_pp_title:0 "Í‘ú^›Q:S6R"
+ reestablish_the_theme_system_pp_desc:0 "bìNÎN)Tƒn¹b`Y†NÇegÿw°s(W	gºN|TTÿÍ‘ú^çe^ýV›Q:S6R„vLˆ?e:SR0"
+ destroy_venice_title:0 "gdÁkZ<S¯e"
+ destroy_venice_desc:0 "ck=fÙ›Negê0gS5„vqQŒTýV0án w¥w„vxYÈ‹FUºNìN„v4–Œÿ(W1204t^„v,rÛV!kASWR›QNV-NÿTëXfWN!XNx^K„eQÉbNeQµOwKNKb0bìN(WKNTGYù,‚„vYtQNôvý=fSGY«R„vI`cwgïS`„viV¦h0°s(Wÿ=föePŒRbWlš„vYÇNÿŠbI`cwT‰k(WÖNêñT„vÎW™XN†Nÿ"
+ destroy_venice_pp_title:0 "ˆmmpZ<S¯e"
+ destroy_venice_pp_desc:0 "ck=fÙ›Negê0gS5„vqQŒTýV0án w¥w„vxYÈ‹FUºNìN„v4–Œÿ(W1204t^„v,rÛV!kASWR›QNV-NÿTëXfWN!XNx^K„eQÉbNeQµOwKNKb0bìN(WKNTGYù,‚„vYtQNôvý=fSGY«R„vI`cwgïS`„viV¦h0°s(Wÿ=föePŒRbWlš„vYÇNÿŠbI`cwT‰k(WÖNêñT„vÎW™XN†Nÿ"
+ the_pentarchy_title:0 "Í‘ú^”N'Ygr–™:S"
+ the_pentarchy_desc:0 "úWcwYe(W1054t^àVYe—R)ReYkNN²PbaNbüRô„vN‰'YRÂˆÿb¸‹gÈuýw—VåNŒTã‰0Wlš„vYe—R=fågëXN<S‡v^(W531t^NbnxËz„v”N*NTµuINYeKNNÿ+RY=fTëXfWN!X0‰RagKQ06wï’d·QŒTšN†SqS'Y0‚Yœg(WN¹eYeO„v¨c¨RNÿ”NMOINYeýýwN¡‹MRÌZ0Wb`YúWcwYeÿ±HN1S	g^gú^Ëz°e„vßuNNSb—0"
+ the_pentarchy_pp_title:0 "Í‘ú^”N'Ygr–™:S"
+ the_pentarchy_pp_desc:0 "úWcwYe(W1054t^àVYe—R)ReYkNN²PbaNbüRô„vN‰'YRÂˆÿb¸‹gÈuýw—VåNŒTã‰0Wlš„vYe—R=fågëXN<S‡v^(W531t^NbnxËz„v”N*NTµuINYeKNNÿ+RY=fTëXfWN!X0‰RagKQ06wï’d·QŒTšN†SqS'Y0‚Yœg(WN¹eYeO„v¨c¨RNÿ”NMOINYeýýwN¡‹MRÌZ0Wb`YúWcwYeÿ±HN1S	g^gú^Ëz°e„vßuNNSb—0"
+ recover_rome_title:0 "8lR`KNÎW"
+ recover_rome_desc:0 "TëXfWN!Xb¸‹=f°eWlšÿFOê751t^Éb‡e±I`cw:S1Yw–Tÿ^ýV„vçeý8lR`KNÎWWlšòT¦lw–ˆVEN†N0Wlš^ýV„vz6qYtQVÑS†N:V'Y„vÐ¨Rÿ‰BlbìN:YÞVäSw„vÉbN¶RíV&&"
+ recover_rome_pp_title:0 "8lR`KNÎW"
+ recover_rome_pp_desc:0 "TëXfWN!Xb¸‹=f°eWlšÿFOê751t^Éb‡e±I`cw:S1Yw–Tÿ^ýV„vçeý8lR`KNÎWWlšòT¦lw–ˆVEN†N0Wlš^ýV„vz6qYtQVÑS†N:V'Y„vÐ¨Rÿ‰BlbìN:YÞVäSw„vÉbN¶RíV&&"
+ recover_sicily_title:0 "6eY‰‰Ì‘"
+ recover_sicily_desc:0 "‰‰Ì‘ŽNlQCQ965t^1»y^ýVÿK„eQ?–Éb=OºNKNKb0=föePÖS—VïQËe†Nÿ^Jí‹”^å‹Q!kÞVÍT(W¾idKQÌ‘¯eŒT?–úWs|·V„v›SSN0"
+ convert_rome_title:0 "IQYWlšÿ"
+ convert_rome_desc:0 "‹†6qWlšv^NI`=f«ˆ^ýVôv¥cµc6RÿFOYe—RÌ‘eY	NN R•Qågtüf^y1WWlš‡v^öeÿWlšÈuŽN­eÝu†NNÜb`S­^„vNb	gTwû|06qw°s(WÙµ^ÎW^Í‘RVŽNbKbÿÙµ^q™ÏuÎ˜—„vÎW^ÈuŽN‰Q!k×S0RbìNgr–™„vkyy0"
+ recover_northern_balkans_title:0 "Sè¹ƒX"
+ recover_northern_balkans_desc:0 "bìNÅV‰˜6eYŽVåeSè„v¹†u0W&^ÿÍ‘ú^SbûQåe3wüfî†PR„v°eMR¿u0"
+ recover_western_balkans_title:1 "VgôTSr^JS›S"
+ recover_western_balkans_desc:0 "bìNÅV‰˜Q!knxËzùRôTSr^JS›S„vCgZÿÍ‘°e±RðyšN—VÌ‘šNwm¿l¸SÿSYYt³ljO:NbìN„vSè¹Lu0"
+ recover_west_anatolia_title:1 "‰R³uXb)RšN‰è"
+ recover_west_anatolia_desc:1 "=föePÎNz¥SºNKb-N:YÞV‰R³uXb)RšNÿv^(WÙ*Nçe^ýV8hÃV0W:SÍ‘ú^Wlš„vßu»l†N0"
+ recover_central_anatolia_title:1 "‰R³uXb)RšN-Nè"
+ recover_central_anatolia_desc:1 "bìNÅV‰˜çuíuqšz¥SºNÿ:YÞVôfYWlš„v†˜WÿšRS6eY‰R³uXb)RšN-NèÿåNôf‹YÝOkSNLu4ngKNÎWÿwNÙ=fbìN„vúV	g†˜W0"
+ conquest_of_azerbaijan_title:0 "âl¯e„v?–^XÜb†u"
+ conquest_of_azerbaijan_desc:0 "jO:NO)RWlŒTÑžŠ„v–™ýÿ'YNÌ‘ëX=fN*NwQ	gÍ‘‰aIN„vÎW^0ƒRµc6RNwâl¯e‰è?–^XÜb†u„v'YèRb—ïy0bìNÅV‰˜‰V•^b`YÙ*N0W:S0"
+ consolidate_iran_title:0 "ßuNOg"
+ consolidate_iran_desc:0 "OgØšŸSúQ°sÇY*NäS‡efÿmN=fâl¯eNb	g:V'Y‹sg„v-NÃV0bìNÅV‰˜ÝOÁ‹te*N:SßW(WbìNµc6RNÿqšW*SŒTYýVTINÿÝOÁ‹âl¯eT*NO'YÎW^„v‰RhQ0"
+ conquest_of_arabian_iraq_title:0 "³upg+YŒTaSSôTÉb"
+ conquest_of_arabian_iraq_desc:0 "ÝOkS³upg+YŒTaSSôTÉb„v1W¿kÿb`YÖNìNfåe„vcƒw=fbìN„v1ûN0bìNÅV‰˜NÜ`NRãN÷NÝO²bÙ*N0W:SMQmYýVeQµOÿÙ7hbìN1SïSåNnxÝOÖNìN„v‰RhQ0"
+ persian_khorasan_title:0 "âl¯e„v|TWÊs"
+ persian_khorasan_desc:0 "gÑàQ*NNªuåNegÿNâl¯eVËYb:NfR`NŒT‡eS„v-NÃV0jO:NN*NßuNâl¯e‡eSW„v^ýVÿbìNÅV‰˜nxÝO|TWÊs„v'YÎW^ÿÈTÈpÿ<S™ljS?QŒTlšÀNÈT·V(Wâl¯e‹sýV…Q—V0RSVéTúV0"
+ persian_afghanistan_title:0 "^ýVmW:W"
+ persian_afghanistan_desc:0 "?–ÌRWl„vqS0WG•ˆRNwŽVÌRv™„vpS¦^s^ŸS„vSï0bìNT±Ì‘ib.VÿNÅNýwÝO²b,gýVMQ×SûN'`„v?–ÌRWlºN«R cÿØýw:N*gegTNib.Vú”s^Sï0"
+ HEADER_DECISIONS:2 "³Q®‹ŒT?eVr"
+ have_vaisyas_in_5_provinces:1 "SóS5*N2µu§Y8f-NÃV§!RSÙu§Y.T‚§!0§Y^l§!0 b §Yw±§!6–BS0"

@@ -429,8 +429,8 @@ ned_reformation_ability = {
 }
 # 彝
 cyi_focus_indochina_modifier = {
-	culture_conversion_cost = -0.15
 	caravan_power = 0.2
+	land_attrition = -0.1
 	manpower_in_own_culture_provinces = 0.15
 }
 
@@ -472,7 +472,7 @@ cyi_hinduism_cooperation = {
 cyi_thai_culture_conversion = {
 	local_unrest = 2
 	local_autonomy = 0.1
-	culture_conversion_cost = -0.2
+	local_culture_conversion_cost = -0.2
 }
 
 myitkyina_gem_mines = { # 密支那矿区
@@ -577,7 +577,7 @@ ben_shamans_modifier = {
 	church_privilege_slots = 1
 }
 benin_zealot_ruler_modifier = {
-	monthly_benin_jungle_assembled_power = 0.1
+	monthly_benin_jungle_assembled_power = 0.5
 }
 benin_scholar_ruler_modifier = {
 	idea_cost = -0.05
@@ -594,7 +594,7 @@ benin_manic_worship_modifier = {
 
 benin_royal_seminary = {
 	yearly_innovativeness = 0.25
-	monthly_benin_jungle_assembled_power = 0.1
+	monthly_benin_jungle_assembled_power = 0.5
 }
 benin_cooperation_with_chieftan_modifier ={
 	local_manpower = 1
@@ -695,4 +695,9 @@ eth_real_cawa_army = {
 	reinforce_speed = 0.5
 	land_maintenance_modifier = 0.2
 	is_cawa_modifier = yes
+}
+ 
+dev_tax_modifier = {
+	development_cost_modifier = -0.15
+	development_cost = -0.15
 }

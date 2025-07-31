@@ -1,65 +1,0 @@
-﻿l_english:
- a_new_destiny_awaits:0 "°e„v‹TÐ(WIr…V"
- into_the_wild:0 "ekeQÂrÎ‘"
- strategy_reborn:0 "beuÍ‘u"
- encounters_in_the_sun_ea:0 "åeNøvO"
- neverending_dunes:0 "àeKS™lN"
- the_long_walk_ea:0 "+o+o•ï"
- take_native_american_land_desc:1 "b‰Nîvh=fÇb—Vb—eegTÖNìNUS°s8—Cg0"
- ACTOR_ALREADY_FEDERATION:0 "`OòTÏu=fN*NŒRbteT„vèK„TwßvÿàVdkNýwQ ReQ+R„vTwßvTwßv0\n"
- RECEPIENT_ALREADY_FEDERATION:0 "àeÕlŽ÷‹$COUNTRY$ÿàV:NÖNìN=fN*NŒRbteT„vèK„Twßv0\n"
- INVITE_ACTOR_ALREADY_FEDERATION:0 "`ONýwTòTÏuŒRbteT„vèK„TwßvÌ‘Ž÷‹ôfY„výV¶R0\n"
- UNIFIED_FEDERATION_TEXT:0 "`O=fN*NteTT„vèK„Twßv0"
- UNIFIED_FEDERATION_TITLE:0 "teTT„vèK„Twßv"
- HUSSARS_NAME:0 "$HOME$,r $NUM$ ü‘šuQ"
- MODIFIER_HAS_HUSSARS:0 "AQ¸‹ÛbßRü‘šuQ"
- HUSSARS_CANT_HAVE:0 "`O„výV¶RàeÕlÛbßRü‘šuQ0"
- HUSSARS_DESC:1 "ü‘šuQ=f:V'YwzS„vè–0ÖNìNÁkmp'`„v²Q•NÅNýwÙuLeºN„vëXl.bèT'YSbûQÿmNÅd•(W§Y²QûQ6–µk§!ÑS%cZ›R0\n\nÏk100^SŽNøv¹R‡eS„vwýNÑSUS¦^AQ¸‹ÛbßR1–§Yü‘šuQ§!0"
- REGCAT_hussars:0 "ü‘šuQ"
- hussars_regiment:0 "ü‘šuQ"
- ADD_HUSSARS_SUB_UNIT_EFFECT:0 "(W$WHERE|Y$·ƒ—V0§Gü‘šuQ§!0$UNIT$0"
- HUSSARS_REGIMENT:0 "ü‘šuQâV\n$EFFECT$"
- HAVE_LESS_HUSSARS_THAN:0 "åb	gSŽN$VALUE|Y$–ü‘šuQâV0\n"
- HAVE_AT_LEAST_HUSSARS_THAN:0 "åb	góS$VALUE|Y$–ü‘šuQ0\n"
- MODIFIER_AMOUNT_OF_HUSSARS:0 "ïSÛbßR„vü‘šuQ"
- MODIFIER_LOCAL_AMOUNT_OF_HUSSARS:0 "1uÑSUS¦^·ƒ—VïSÛbßR„vü‘šuQ"
- MODIFIER_CAN_RECRUIT_HUSSARS:0 "ïSåNÛbßR§Yü‘šuQ§!"
- HUSSARS_REGIMENT_TYPE:0 "ü‘šuQ"
- STATE_HUSSARS_CREATED_REGIMENTS:0 "ÙS±‚9$MILAMOUNT|Y$ £mil£ åN(W$PROV|Y$ÛbßR$NUM|Y$–ü‘šuQ0\n`Oó`‰Rú^N=eü‘šuQâVTÿ"
- crowned_in_tallin:0 "ŽNTX—g R•Q"
- knights_of_swords:0 "RQR‘šëX"
- rise_of_the_balts:0 "âlW„vºNTw"
- battle_of_scandinavia:0 "¯e*X„v³uôušNKNb"
- lands_of_midnight_sun:0 "gYKN0W"
- united_we_stand:0 "âVÓuNô"
- papal_influence:0 "Ye÷^qVÍT›R"
- church_power:0 "YeO›RÏ‘"
- fervor:0 "ípÅ`"
- karma:0 "N›R"
- positive_karma:0 "ckN›R"
- negative_karma:0 "N›R"
- BREAK_ALLIANCE_EFFECT:0 "N$WHO|Y$­eÝußv¦u"
- MODIFIER_MILITARY_TACTICS:1 "›Q‹Nb=g"
- ONLY_HUSSARS_MODIFIER:0 "§YêSqVÍTü‘šuQâV§!"
- BANNER_LIMIT_CULTURE:0 "$PROVINCE$=f$CULTURE$‡eS„vwýNÿEewàeÕl(WdkVßRkQ×e0"
- LionsOfTheNorthDLC:0 "S¹eÄ–îr"
- POLICY_NAME:0 "$POLICY|Y$"
- POLICY_GROUP_IN_COLOR:0 "ÿ+ $POLICY|Y$	ÿ"
- MODIFIER_REASONS_TO_ELECT:0 "	^>PT"
- POLICY_GROUP:0 "ÿ+ $POLICY$	ÿ"
- HUSSARS_LIMIT_CULTURE:0 "$PROVINCE$=f$CULTURE$‡eS„vwýNÿEewàeÕl(WdkVßRü‘šuQ0"
- MODIFIER_MANPOWER_IN_OWN_CULTURE_PROVINCES:0 "INAm‡eSwýNºN›R"
- MODIFIER_MANPOWER_IN_ACCEPTED_CULTURE_PROVINCES:0 "øv¹R‡eSwýNºN›R"
- MODIFIER_MANPOWER_IN_CULTURE_GROUP_PROVINCES:0 "T‡eSÄuwýNºN›R"
- under_governing_capacity_modifier:0 "NOŽNLˆ?e¹RÏ‘NP–"
- UNDER_GOVERNING_CAPACITY_TOOLTIP:0 "\n§GNOŽN§!NP–„vžXÊvîOck‚YNÿ\n$MOD$"
- now_rise_my_loyal_subjects:0 "KYw'TÿbàVÚ‹„v^SýVìN"
- a_continuation_of_diplomacy:0 "Y²N„vö^íu"
- prussian_ambitions:0 "nfœëXÎ‘ÃV"
- order_and_diplomacy:0 "éy^NY²N"
- life_under_the_shadow_kingdom:0 "qVPR‹sýVN„vuIm"
- election_of_a_habsburg:0 "	>NNMO°e„vÈT^¯e!X¶RºN"
- autumn_in_aachen:0 "šNtKNËy"
- imperial_diet:0 "^ýV®‹O"
- charlemange_s_legacy:0 "ågtüf„vWµN"
- ninety_five_theses:0 "kNAS”Nagº‹²u"
