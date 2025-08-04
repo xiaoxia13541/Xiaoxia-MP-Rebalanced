@@ -57,9 +57,6 @@ tengwangge_building = { # 滕王阁
 			has_owner_harmonized_religion = yes
 		}
 		culture_group = east_asian
-		custom_trigger_tooltip = {
-			tooltip = poem_of_tengwangge_building_tt # 关山难越，谁悲失路之人。萍水相逢，尽是他乡之客。
-		}
 	}
 
 	#can our country upgrade it?
@@ -373,11 +370,6 @@ wudang_mountain = { # 武当山
 			has_owner_harmonized_religion = yes
 		}
 		culture_group = east_asian
-
-			
-		custom_trigger_tooltip = {
-			tooltip = poem_of_wudang_mountain_tt # 且乘金顶凉宵月，来避尘寰酷暑风。
-		}
 	}
 
 	can_upgrade_trigger = {
@@ -500,9 +492,6 @@ yungang_grottoes = { # 云冈石窟
 
 	can_use_modifiers_trigger = {
 		province_is_buddhist_or_accepts_buddhism = yes
-		custom_trigger_tooltip = {
-			tooltip = poem_of_yungang_grottoes_tt # 1、片石三千界，微尘四部洲。坐看群生劫，何缘彼岸舟？ 2、万载不改莲花界，大道虚无自古今。
-		}
 	}
 
 	can_upgrade_trigger = {
@@ -620,9 +609,6 @@ tongguan_fortress_monument = { # 潼关
 	}
 
 	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = poem_of_tongguan_tt # 峰峦如聚，波涛如怒，山河表里潼关路。
-		}
 	}
 
 	can_upgrade_trigger = {
