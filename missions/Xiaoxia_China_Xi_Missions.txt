@@ -156,7 +156,7 @@ h_cxi_2 = {
 
 	cxi_blazing_flare = {
 		icon = mission_wuu_the_fall_of_qi
-		required_missions = {  }  # cxi_great_xi_army
+		required_missions = { cxi_great_xi_army }  # 
 		position = 3
 		provinces_to_highlight = { }
 

@@ -1,0 +1,1024 @@
+﻿l_english:
+ foffy_china_faith_question_title:0 "áOðNKNî•"
+ foffy_china_faith_question_desc:0 "ìSÆ–NLuT0WgåwT„vfRwŒT^yLwºNXTÿ:NÖNìN>NžRN:W'Y‹W—RYe©º‹O0Ù:W©º‹ïSýwO³QšRbìNýV¶R„v‹TÐ0"
+ foffy_china.EVTNAME1:0 "áOðNKNî•"
+ foffy_china.EVTDESC1:0 "(WNLuT0WgåwT„vfRw„v.^©RNÿÖNìNÍT”^†NbìNle1r„v [Root.Monarch.GetTitle] „vìS2Uÿ[Root.Monarch.GetName] —‰³QšRêT*NáOðN=fwck„váOðN0"
+ foffy_china.EVTOPTA1:0 "Ñ‘RXN"
+ foffy_china.EVTOPTB1:0 "Œ<hÌ‘"
+ foffy_china.EVTOPTC1:0 "^ySYe"
+ foffy_china.EVTOPTD1:0 "Q¶R"
+ foffy_china.EVTOPTE1:0 "'YXN"
+ foffy_china_conversions:0 "-NýVˆvO"
+ china_cyi_conquer_zhou_title:0 "VghT"
+ china_cyi_conquer_zhou_desc:0 ":N†NßuNkVèK„ÿbìN—‰KQgbìNg:V'Y„vÞz‰NùRKbhTèK„0"
+ china_cyi_zhou_conquered:0 "VghT"
+ china_cyi_united_the_tribes_tooltip:0 "µc6RNb	g §YkV§! ‡eS„vwýN"
+ china_cyi_unite_the_tribes_title:0 "ßuNèK„"
+ china_cyi_unite_the_tribes_desc:0 "kVèK„åN‰N5TŒTN­e„v…Qè‰N—ewû•T0bìNgÈuS(WN*N¶RÏeNßuNèK„ÿjO:N:YÖS)YMO„v,rNek0"
+ china_cyi_tribes_united:0 "ßuNèK„"
+ china_cyi_subjugate_dali_title:0 "Vg'Yt"
+ china_cyi_subjugate_dali_desc:0 "‹vÏe=fbìNW0WWSè„vÞz‰NùRKbèK„0bìNSVgÖNìNÿv^VìSºNXT ReQbìN„v›Q–0"
+ china_cyi_chengdu_control:0 "µc6Rbý"
+ china_cyi_into_red_basin_title:0 "ÛeQ¢uÆv0W"
+ china_cyi_into_red_basin_desc:0 "¢uÆv0W=f-NýVg¥wƒl„vW0WKNN0bìNS>mcÜV›Qú^ËzN*NNèlŽNwjO„v%„0W0"
+ china_cyi_control_sichuan_basin_title:0 "µc6RÛVÝTÆv0W"
+ china_cyi_control_sichuan_basin_desc:0 "¢uÆv0W=f«ˆT–S„vqS0W¯sÕu„vÄžÑ‘KN0W0bìNSVgte*NÆv0W0"
+ china_cyi_control_chengdu_trade_title:0 "„W­ebý"
+ china_cyi_control_chengdu_trade_desc:0 ":N†NžX RbìN„v)R¦mÿbìN”^å‹µc6RbýhTôV„vNb	g8fAm¨R0"
+ china_cyi_convert_bai_people_tooltip:0 "SNb	g §Y‹vÏe§! ‡eS„vwýNlS:N [Root.Religion.GetName] "
+ china_cyi_convert_bai_people_title:0 "‹vÏe„váOðN"
+ china_cyi_convert_bai_people_desc:0 "bìNN‹vÏeºNêWSÏ‹‹sýVRú^åNegNôvÝOco‚‹Y„váOðNsQû|0°s(WÿbìNeg³QšRÖNìNáOðNŒTáOõV„v*geg0"
+ china_cyi_shan_harmonized:0 "?–NbÌ‘ININŒTŒ"
+ china_cyi_bai_converted:0 "‹vÏeºNlS"
+ china_cyi_fortified_castles:0 "gsO„vÛIe=f2–¡V"
+ china_cyi_fortify_the_castles_title:0 " R:VÎW™X"
+ china_cyi_fortify_the_castles_desc:0 "kVW0Wv^N=fg	g)RïSþV„v0te*NýV¶RM^Nw¸‹YqS	06qwÿÙùRbìNegô‹ˆV¹Rf2–ˆR0bìN”^å‹)R(uÙN‹NžR0"
+ bimoism_religion_influence:0 "ÕkidYe"
+ china_cyi_bimoism_religion_title:0 "ÕkidYe"
+ china_cyi_bimoism_religion_desc:0 "bìNVyHQ„v—RYe”^å‹«ˆÏk*NºN†^ky0:N†NZP0RÙN¹pÿbìNSRú^t^¦^‚‚åe0"
+ china_cyi_expand_eastward_title:0 "TNib.V"
+ china_cyi_expand_eastward_desc:0 "bìNÅV‰˜ÝO²bbìN„vÃV0W&^0:N†NZP0RÙN¹pÿbìNSib'YbìN„vNè¹Lu0"
+ china_cyi_restore_nanzhao_title:0 "b`YWSÏ‹"
+ china_cyi_restore_nanzhao_desc:0 "kVèK„þfÏu=f‰Lq„vWSÏ‹‹sýV„vNèR0bìNSb`YvQ‰Lqÿv^TbìN„vVyHQôle0"
+ china_cyi_nanzhao_kingdom_restored:0 "WSÏ‹b`Y"
+ china_cyi_yi_script_modifier:0 "kV‡e"
+ china_cyi_yi_script_title:0 "kV‡e"
+ china_cyi_yi_script_desc:0 "äSxQkV‡e=f(WUgöeg1u?–=TRú^„v0bìN”^å‹Rú^‡v¶RKb?zÿƒRSb:N*gegNãN„våwÆ‹opTX0"
+ china_cyi_tibet_conquered:0 "‰Ï…Vg"
+ china_cyi_conquer_tibet_title:0 "Vg‰Ï…"
+ china_cyi_conquer_tibet_desc:0 "=föePS‰Ï…W0W³ueQbìN„v†˜ßWÿv^±Rðy¾V‡UV„v4YTˆ†N0"
+ china_yue_yanshan_conquered:0 "VgÕqqS"
+ china_yue_conquer_yanshan_title:0 "VgÕqqS"
+ china_yue_conquer_yanshan_desc:0 "WSIlêÎNÙ*NSáRú^åNegÿ1SNôv=fbìNÌwT„v:R0bìN”^å‹(W	gýw›R„vöePÓumgÖNìN0"
+ china_yue_secured_heinan:0 "nxÝOwmWS›S"
+ china_yue_invade_heinan_title:0 "VgwmWS"
+ china_yue_invade_heinan_desc:0 "wmWS›SwQ	gbeuÍ‘‰'`0ƒRNÅN=fÅeLˆFUºNŒT4lKb„vÎ˜=nÿmN=fÝOkSbìNW0WbÑS¨Rwm›QeQµO„v‹Y0W¹e0"
+ china_yue_western_frontier_title:0 "ÝOkS‰è"
+ china_yue_western_frontier_desc:0 "bìN”^å‹ÝO²bbìN„vW0WMQ×SegêWSèŒT‰è„vûNUOZÁw0¦”ÞT=f2–¡VåT‹N„vŒRŽMOn0bìN—‰(W+RºN—V0RƒRKNMRHQÑS6RºN0WVgƒR0"
+ china_yue_red_river_delta_title:0 "¢u³l	NÒ‰2m"
+ china_yue_red_river_delta_desc:0 "¢u³l	NÒ‰2m=fS.^©RbìN(WsSS0Reg„vb‰N-N‰QIm›Q–„v¥wƒlW0W0bìNÅV‰˜·ƒ—VƒR0"
+ china_yue_controlling_red_river_delta:0 "¢u³l	NÒ‰2m"
+ china_yue_seize_vietnam_tooltip:0 "µc6RNb	g §YŠWS§! ‡eS„vwýN"
+ china_yue_vietnam_control:0 "µc6RWSŠ"
+ china_yue_seize_vietnam_title:0 "µc6RWSŠ"
+ china_yue_seize_vietnam_desc:0 "1SÏPbìN„vVyHQÎNWSŠ‹sýVN7h0bìNÅV‰˜Vg¬NÏeºNlÿ:NbìN„výV¶R&^egôf'Y„vcƒw0"
+ china_yue_mahayana_faith_title:0 "'YXNáOðN"
+ china_yue_mahayana_faith_desc:0 "bìN=f&T¥c×SŠWSºNláOðN„v'YXNiOYeÿbwbìN=f&T”^å‹:VLˆSÖNìNlS:NbìNêñT„váOðN0bìNÅV‰˜KSëV³QšR0"
+ china_yue_convert_vietnam_tooltip:0 "SNb	g §YŠWS§! ‡eS„vwýNlS:N [Root.Religion.GetName] "
+ china_yue_vietnam_harmonized:0 "'YXNŒTŒ"
+ china_yue_vietnam_converted:0 "'YXNlS"
+ china_yue_construct_trade_fleet_title:0 "ú^.8f9‚–"
+ china_yue_construct_trade_fleet_desc:0 "bìN—‰ÇRú^8f9‚–eg„W­e-NýVWS¹e„v8f0"
+ china_yue_trade_fleet:0 "²|8f9‚–"
+ china_yue_prepare_battle_fleet_title:0 "ÆQYb—e0‚–"
+ china_yue_prepare_battle_fleet_desc:0 "²|ºNlåNÖNìNúQr‚„v*‚wmŽbýwwû•T0bìNS)R(uÙ›Nýw›Rÿú^.N=eýwYôucwm›QeQµO„vb—e0‚–0"
+ china_yue_chinese_armada_title:0 "-NýV0‚–"
+ china_yue_chinese_armada_desc:0 "NLu”^å‹†Nã‰²|0bìNSú^.NLuNMRNb*g	g„vg'Y0‚–ÿ6qTÇfk›R:YÖS™Ÿi0"
+ china_yue_chinese_armada:0 "-NýV0‚–"
+ china_yue_conquer_canton_title:0 "ib.V0R^ÞT"
+ china_yue_conquer_canton_desc:0 "^ÞT=f-NýVgÍ‘‰„v0W:SKNN0bìN—‰VgÙ›NW0WÿåNnxÝO²|ºNl„vyIy0"
+ china_yue_destroy_huai_title:0 "Ákmpîm"
+ china_yue_destroy_huai_desc:0 "îmºNlùRbìN„výV¶RZÁw*YEN†N0bìN—‰ÅÓumgÖNìN0Ù›NW0WS^—8^TÝO²bbìNR5„vW0W0"
+ china_yue_develop_guangzhou_title:0 "ÑSUS^ÞT"
+ china_yue_develop_guangzhou_desc:0 "^ÞTW0W=f-NýVWS¹e„vÍsàs0bìN”^å‹)R(uÙ›N¥wƒl„vW0Wÿb:NN*NN¹RSÑ‰„v›RÏ‘0"
+ china_guangzhou_developed:0 "^ÞTÑSUS"
+ china_yue_nanyue_legacy_title:0 "WSŠWµN"
+ china_yue_nanyue_legacy_desc:0 "²|ºNl(WäSãN-NýVWSŠ‹sýV„v×e^NßuN0bìNSÇVgvQHQMR„vW0Wegôu²bvQWµN0"
+ china_yue_nanyue_legacy_restored:0 "WSŠWµN"
+ china_yue_metallurgy_title:0 "²|Ñ‘^S RåT"
+ china_yue_metallurgy_desc:0 "²|ºNlåNvQÑ‘^S RåTŽbýwwû•T0bìN”^å‹•beQôfY„vöeô•egR.bìN„vfkhV0"
+ china_yue_zhao_mo_tomb_title:0 "uWO“X"
+ china_yue_zhao_mo_tomb_desc:0 "äSãNWSŠ‹s - uWOºŽ(W^ÞTW0WN„vN*N“X-N0Ù=fbìN„š²PÇ»S„vWù0bìN”^å‹åNg'Y„vleaùR…VÙ*N“X0"
+ china_yue_tomb_of_zhao_mo:0 "uWO“X"
+ china_wuu_conquer_min_title:0 "Vgý•"
+ china_wuu_conquer_min_desc:0 "ý•ºNl=fbìNgäSw„vLeºNKNN0:N†Nb:N-NýV„vINüR›RÏ‘ÿbìN—‰9hd–ÖNìN0"
+ china_wuu_min_conquered:0 "Vgý•"
+ china_wuu_vassalize_ning_title:0 "VgRâl"
+ china_wuu_vassalize_ning_desc:0 "Râl„vßu»lwˆV1V0bìNN¾–‰RÅˆN*NŽP!Q†˜INegãNÿfÖNìNZPbìN„v‹TäN0"
+ china_wuu_control_jinhua_title:0 "µc6RÑ‘NS"
+ china_wuu_control_jinhua_desc:0 "Ñ‘NSW0W=fS:NbìN*geg„vb‰NÝOÁ‹ëXuQß˜ir„v0NÌRIz0u0bìN—‰åb	gƒR0"
+ china_wuu_kilns_of_jingdezhen_title:0 "of·VG•‘z"
+ china_wuu_kilns_of_jingdezhen_desc:0 "of·VG•÷thV(Wte*N-NýV-Nè‹sýVýˆV	gT0nxÝOvQRjO„vn4YSùRbìN„vFUºN^—8^	gÊv0"
+ china_wuu_xiamen_commandery_title:0 "¦Sè•á"
+ china_wuu_xiamen_commandery_desc:0 "¦Sè•á=f2–ˆRˆV‹Y„vW0W0‚YœgbìNýw¾‹Õl`S†˜ƒRÿƒRSg'Y0W.^©RbìNWS¹e„v2–¡V0"
+ china_wuu_ning_vassalized:0 "VgRâl"
+ china_wuu_hanghzou_bay_title:0 "µc6RmgÞTŒn"
+ china_wuu_hanghzou_bay_desc:0 "mgÞTŒn=f-NýVgÍ‘‰„v8f-NÃVKNN0‚YœgbìNó`bŸR:YÖS™ŸiÿbìNÅV‰˜nxÝO±*NwmŒn0"
+ china_wuu_yangtze_delta_title:0 "•ml	NÒ‰2m"
+ china_wuu_yangtze_delta_desc:0 "Äž³lAmÏute*N-NýV-Nè‹sýV0nxÝOvQAmßWùRbìN„vœQlŒTFUºNg:NÍ‘‰0"
+ china_wuu_hangzhou_trade_title:0 "mgÞT8f"
+ china_wuu_hangzhou_trade_desc:0 "mgÞTŒnùR-NýV8fósQÍ‘‰0„W­eƒR”^å‹ùRbìN„výV¶R^—8^	g)R0"
+ china_wuu_battle_fleet_title:0 "ú^.b—e0‚–"
+ china_wuu_battle_fleet_desc:0 "bìNÅV‰˜ú^.N=eb—e0‚–ÿåN¿O(W—‰öeÝOkSbìN„vwm¸S¿u0"
+ china_wuu_secure_southern_border_title:0 "ÝOkSWSè¹Lu"
+ china_wuu_secure_southern_border_desc:0 "ÝO²b4TýV„v¥wƒlœQ0u”^å‹=fbìN„vOHQ‹Ny˜KNN0WSè”^å‹=fN*NŒRŽ„v2–¡VMOnÿÝOÁ‹bìNÃV0W&^„v‰RhQ0"
+ china_wuu_huaian_push_title:0 "¨cTîm‰R"
+ china_wuu_huaian_push_desc:0 "îm‰R„v¥wƒlW0WŒTÎW^,g«Ž=fbìNåeÊvžX•„výV¶Rib.V„vO'Yï„V0"
+ china_wuu_kingdom_of_wu_title:0 "4TýV"
+ china_wuu_kingdom_of_wu_desc:0 "4TýV"
+ china_wuu_tianyi_ge_title:0 "îOY)YN–"
+ china_wuu_tianyi_ge_desc:0 ")YN–=fte*N‹sýV„våwÆ‹nÉl0bìNÅV‰˜îOYƒRÿOvQ:N*gegNãNg¡R0"
+ china_wuu_hanghzou_bay_held:0 "µc6RmgÞTŒn"
+ china_wuu_monopolize_hangzhou_trade:0 "mgÞT8f"
+ china_wuu_sea_dragon_king:0 "wm™Ÿ‹s"
+ china_wuu_pushed_north:0 "nxÝOSè¹Lu"
+ china_wuu_pushed_south:0 "nxÝOWSè¹Lu"
+ china_wuu_wuyue_kingdom:0 "4TŠ‹sýV"
+ china_wuu_own_min_culture_tt:0 "µc6RNb	g §Yý•§! ‡eS„vwýN"
+ foffy_china.EVTNAME2:0 "‹sˆRÁN"
+ foffy_china.EVTDESC2:0 "1472t^úQu„v-NýVfNÕl¶R0›Q‹NS†˜0òTfR¶R0?e»l¶RŒTjO¶R08^«ˆ²‹:N=fgÍ‘‰„v°eQ¶R`ó`¶R0"
+ foffy_china.EVTOPTA2:0 "ÖN”^å‹b:NbìN„v«R÷^òTfR¶R"
+ foffy_china.EVTOPTB2:0 "©‹ÖN:N›Q‹Ng¡R"
+ foffy_china.EVTOPTC2:0 "©‹ÖNNèlŽN‡efR"
+ china_wuu_tianyi_ge_library:0 ")YN–þVfN†™"
+ china_cyi_chengdu_tobacco_modifier:0 "býßpIƒÍyiíV"
+ china_cyi_chengdu_tabacco_title:0 "býßpIƒ"
+ h_qic_col_war3_4_2_tooltip:0 "h„vìrËz>PTNOŽN §Y5.00%§! ÿbw•»l0W:SŒRhQ«ˆåb	gŒT8hÃVS"
+ h_qic_col_war2_4_5_tooltip:0 "¡l	gåb	g„vwýN	g…Ç §Y2§! „vÛSqNb §Y50§! „v0W¹eê»l"
+ h_qic_col_war1_3_2_title:0 "éTúVS¬N"
+ h_qic_col_war1_3_2_desc:0 "bìNÅV‰˜éTúVbìN(WS¬N^…Q„v0WMOÿbìNïSåNÇVgbìND–Ñ„vÞz‰NùRKbegžR°sÙN¹p0"
+ h_qic_col_war1_3_3_title:0 "4xã‰)Y%m"
+ h_qic_col_war1_3_3_desc:0 ")Y%m‰^XP–6R†NbìNqVÍT-NýVSèwýN„výw›RÿbìN”^å‹SÙ*NwýN³ueQbìN„vHrþV0"
+ h_qic_col_war1_3_4_title:0 "Sb4xS¬N"
+ h_qic_col_war1_3_4_desc:0 "S¬Ná•gåNegNôv`SncNwbìNðyKN:N¶R„v0W:S„vóØšàeN„v0WMO0bìNòTÏuïy=t†N³Y„v›RÏ‘ŒTžR›Rÿ°s(WbìNïSåNcbÖNìN„v0WMO0"
+ h_qic_col_war2_3_5_title:0 "ªuõVw"
+ h_qic_col_war2_3_5_desc:0 "S¬N„vb‰NãN÷NØšfKS¡rbìN°s(W=fN*N:V'Y„vS¹e'YýVÿFOÙNãNºNØNúQ†NèT'Y„vãN÷N0bìN”^å‹:NÖNìNú^ËzN*NªuõV‘x0"
+ h_qic_col_war2_3_6_title:0 "ÝOkS¹Lu"
+ h_qic_col_war2_3_6_desc:0 "-NýV„v•ÎWÍN6qySËzÿbìNïSåN(uƒRegÝO²bêñTMQ×SÙ›N™„äSèK„„vµO³R0"
+ h_qic_col_war2_2_5_title:0 "2nwm"
+ h_qic_col_war2_2_5_desc:0 "2nwm=fN*NFUN0NÌR„v0W¹eÿbìN”^å‹nxÝO9‚êS=eØNÖNìN”^	g„vsQèlÿåb	gN*NFU9‚–0"
+ h_qic_col_war2_2_6_title:0 "-NýV8f"
+ h_qic_col_war2_2_6_desc:0 "bìN„v9‚êSµc6R†NNb	gS¬N„v8fÿmN¸‹=föeP)R(uƒRìNegibUSbìN„vqVÍT›R†N0"
+ h_qic_col_war2_2_7_title:0 "S¬N„veQãS"
+ h_qic_col_war2_2_7_desc:0 "‚YœgbìNnxÝOv^µc6R†N'YÞwÿbìNSåb	gNb	g-NýVS¹e8f„vÁ”³”0"
+ h_qic_col_war2_4_5_title:0 "b‰N„v4xOW"
+ h_qic_col_war2_4_5_desc:0 "bìNòTÏuSb†NÙHNEN„v×NÿmN¸‹=föePwwÙ*N0W:S„vŒTs^ÿb`YbìN„vmc1Y†N0"
+ h_qic_col_war3_4_2_title:0 "‰¹eS"
+ h_qic_col_war3_4_2_desc:0 "bìNNôvNèlŽNvQÖN¹Luÿ6qw=föePww(WÖNìNŒTs^öegØS—VÌR	g„v‰¹eS†N0"
+ h_qic_col_war3_4_3_title:0 "Vgh"
+ h_qic_col_war3_4_3_desc:0 "h„vºNlNôv=fN*NÍSÛS„v²SOÿ=föePbìNwck0WSÖNìN³ueQbìN„vHrþVbwgdÁkÖNìN0"
+ h_qic_col_war3_5_4_title:0 "ÆQYb‰N"
+ h_qic_col_war3_5_4_desc:0 "bìNÅV‰˜Ç3zšRbìN„výV¶RegÆQYb‰N0	g†N°eœœ„v°eNãNÿbìNS­‹ÃuÖNìNÛLˆVg0"
+ h_qic_col_war3_5_6_title:0 "„^íV=ec"
+ h_qic_col_war3_5_6_desc:0 "„^íV=fbìNýV¶R…Qè„vN*N:V'Y„v¾|ñ‚²SOÿÇ·ƒ—VÖNìN„v=ecŒTàVÚ‹ÿbìNïSåNÎNÖNìN±Ì‘·ƒ—Vôf'Y„vi`à`0©‹ÖNìN„vàVÚ‹ÃOÛbìN„výV¶R0"
+ h_cxi_col_war1_3_2_reward:0 "OÀyY²N˜R"
+ h_cxi_col_war1_3_4_reward:0 "ØšHeLˆ?e"
+ h_cxi_col_war2_4_5_reward:0 "FU9‚–"
+ h_cxi_col_war2_3_6_reward:0 "S¹e!X’W2–¡V"
+ h_cxi_col_war3_4_4_reward:0 "%N<håTjOÏ‘"
+ h_cxi_col_war3_4_3_reward:0 "°eNãN"
+ h_cxi_col_war1_3_2_title:0 "éTúVU"
+ h_cxi_col_war1_3_2_desc:0 "bìNÅV‰˜éTúVbìN(W‰‰R0W:S„v0WMOÿbìNïSåNÇVgbìND–Ñ„vÞz‰NùRKbegžR°sÙN¹p0"
+ h_cxi_col_war1_3_3_title:0 "VgXn"
+ h_cxi_col_war1_3_3_desc:0 "D–Ñ„vXnýV=fbìN(W‰‰R0W:S„vIN‰Þz‰NùRKbÿÇSÖNìNnŽNbìNKNNÿbìNïSåNT-NýVvQÖN0W:SUS:ybìN„vžR›R0"
+ h_cxi_col_war1_3_4_title:0 "Vgfkf"
+ h_cxi_col_war1_3_4_desc:0 "D–Ñ„váòTÏuXR(W†N*YENÿbìNÅV‰˜KSëVVgÖNìN0"
+ h_cxi_col_war3_4_3_title:0 "-NýV„vîTÝ"
+ h_cxi_col_war3_4_4_title:0 "'Y¨c¨R"
+ h_cxi_col_war3_4_4_desc:0 "N*NýV¶R„vöeô•hˆNˆVS	gO'Y„v:gO0bìNÅV‰˜ÔNÆuÄ‰RbìN„v'YbÿåN¿ObìN(W†SòSNYuNpS°‹0"
+ h_cxi_col_war2_2_5_title:0 "éTúV‰‰R"
+ h_cxi_col_war2_2_5_desc:0 "8fÎW^žXý=få‹0W:S„v0ÌR-NÃVÿ‚YœgbìNOå‹0W:S1ubìN¡rtÿbìNïSåN·ƒ—V'YÏ‘„v0ÌRÿv^)R(uÙ›N0ÌReg¨c¨RbìN„výV¶R0"
+ h_cxi_col_war2_2_6_title:0 "–™ý9eÛ"
+ h_cxi_col_war2_2_6_desc:0 "KS¡rbìN(WYèåN>fW„„v¦^žX•ÿFObìN„v–™ý¶r`%`—9eÛ0bìN—‰ÐcØšÙ*N0W:S„vhÆQÿåNôf‹Y0WÍS.fbìN„výV¶R0"
+ h_cxi_col_war2_2_7_title:0 "ú^Qr¡‹R"
+ h_cxi_col_war2_2_7_desc:0 "©‹bìN•bDŽNbìN„våT.SŒT^yLwºNXTÿÇú^.ÖNìN„vjOJWŒTúR™^ÿbìNïSåNw0RN›NDÑ‘ÞVAmÙubìN0"
+ h_cxi_col_war2_3_5_title:0 "0W:S›RÏ‘"
+ h_cxi_col_war2_3_5_desc:0 "S¹e„v:R=f‰‰RáÿÖNìN=fN*N”^å‹«ˆYt„vÛuæ‚0"
+ h_cxi_col_war2_3_7_title:0 "ðXgxvz"
+ h_cxi_col_war2_3_7_desc:0 "bìN„výV¶R=fN*N	gðXg„výV¶RÿvQÖNÎ‘î†„v-NýVºNêS=fNbìN&^0R'YF–„v‡eSøvÔk„v²NbýV0"
+ h_cxi_col_war2_4_5_title:0 "S¹e¹Lu"
+ h_cxi_col_war2_4_5_desc:0 "bìN”^å‹nxÝObìN„vS¹e¹LuÿƒRìN=f*gVÑS„vœQ0uÿgÈuS&^egèT'Y„v0ÌRbìN”^å‹SvQ³ueQbìN„v†˜ßW0"
+ h_cxi_col_war2_4_6_title:0 "'YÞ˜Ã"
+ h_cxi_col_war2_4_6_desc:0 "bìNýV¶R„vOºNòTÏuÎN‰¹e6e0R†NfNM|ŒTåwÆ‹ŒQÿÙ›NxvzObìN„vŽb=gMRÛ†NN'YekÿbìN‚YdkHQÛÿåNóŽNbìN„vfN°s(W«ˆÞV‰¹eÛLˆxvz0"
+ h_cxi_col_war2_5_5_title:0 "8f=nãS"
+ h_cxi_col_war2_5_5_desc:0 "D–Ñ„vm3–8fåb	gèT'Y„v0ÌRŒTùRD–ÑœQ0u„vqVÍT‚YœgbìNVgÖNìNÿbìNS:ND–ÑwýN&^egèT'Y„v0ÌRŒTAucƒ0"
+ h_cxi_col_war3_5_6_title:0 "åT‚Sú^¾‹"
+ h_cxi_col_war3_5_6_desc:0 "©‹bìNÇNèlŽN…QèuµNObìN„výV¶RåTNSÿbìNSg'Y0WÐcØšbìN„v6eeQŒTžR›R0WMO0"
+ h_cxi_col_war3_5_6_tooltip:0 "1u §Y[Root.GetName]§! åb	g„vwýNåb	gN*NåT‚S0"
+ h_cxi_col_war3_1_5_reward:0 "I`ÂSŒè"
+ h_cxi_col_war3_1_8_reward:0 "°eNãN"
+ h_cxi_col_war2_2_6_reward:0 "SV0WNøuuµNípno"
+ h_cxi_col_war2_3_5_reward:0 "VìSè–"
+ h_cxi_col_war2_4_6_reward:0 "fR=gxvz"
+ h_cxi_col_war2_5_5_reward:0 "8fžRõ"
+ foffychina.32.t:0 "aˆ3–ÿwNlQøS"
+ china_hengyang_mine_title:0 "Hengyang Jinkuang"
+ china_hengyang_mine_desc:0 "bìN„vNMOFUºNðXðy(WaˆqShTôV*‚LˆöeÑS°s†NÄžÑ‘0bìN”^å‹D©RÙ*N¢ci––ÿv^:NbìN„výV¶RnxÝOƒR0"
+ china_csh_destroy_lulin_title:0 "gdÁkLulin"
+ china_csh_destroy_lulin_desc:0 "9hd–Lulin=fßuN‰‰R0W:S„v,rNek0bìN”^å‹ÅLˆ¨R0"
+ china_csh_lulin_destroyed:0 "Lulin«ˆgdÁk"
+ china_csh_secure_taozhou_title:0 "nxÝOðSÞT‰RhQ"
+ china_csh_secure_taozhou_desc:0 "ðSÞTMOŽNbeuMOn0‚YœgbìNýwnxÝOƒRÿbìNïSåNÝO²bêñTMQ×SegêS¹eŒT‰¹e„vLeºN„vµO³R0"
+ china_csh_fortify_taozhou_title:0 " R:VðSÞT2–¡V"
+ china_csh_fortify_taozhou_desc:0 "°s(WbìNåb	gðSÞTÿbìN”^å‹ R:VôVÕuqSN„v2–¡V0Ù*N0W:S—‰ZWúV„v2–¡VåT‹N0"
+ china_csh_conquer_xia_title:0 "VgY"
+ china_csh_conquer_xia_desc:0 "Yåb	gÛeQ-NýVS¹e„vW0W0µc6RÙ*NeQãSSùRbìN	g)R0"
+ china_csh_gensu_control_title:0 "uƒwµc6R"
+ china_csh_gensu_control_desc:0 "jO:NN*N°eRú^„vžRSOÿßuNuƒw”^å‹=fbìN„v–™‰ûN¡R0"
+ china_csh_develop_gansu_title:0 "ÑSUSuƒw"
+ china_csh_develop_gansu_desc:0 "uƒwW0WDn0NÌR0ibUSÙ›NW0W„vúWNx¾‹ËeS	g©RŽNbìN*geg„vÑSUS0"
+ china_csh_taozhou_conquered:0 "ðSÞTVg"
+ china_csh_taozhou_fortified:0 "ðSÞT¾‹2–"
+ china_csh_china_wall_title:0 "ibú^•ÎW"
+ china_csh_china_wall_desc:0 "•ÎWÍTèS8wËzÿSçuíub:N*gegàQ*NNªuµb¡V8ngrèK„„v,rNS2–¿u0bìNùR-NýVºNl„v*geg	gibú^ƒR„vIN¡R0"
+ china_csh_great_wall_expanded:0 "•ÎWibUS"
+ china_csh_silk_road_entrance:0 "ÛeQ‰sè•sQ"
+ china_csh_yumen_entrance:0 "‰sè•sQeQãS"
+ china_csh_yinchuan_fort_title:0 "ö”ÝT‰^X"
+ china_csh_yinchuan_fort_desc:0 "MOŽN•ÎWD–Ñ„vö”ÝTˆR›Q=fN*N‹Y„vMRèTÙzÿïSåNf‹JTbìNsSS0Reg„v8ngrèK„0"
+ china_csh_into_lower_mongolia_title:0 "ÛeQY™„äS"
+ china_csh_into_lower_mongolia_desc:0 "©‹bìNÎN±›NW0WNqš8ngrlÏe0W0Wv^N¥wƒlbO'YÿFO³Y†N0"
+ china_csh_lower_mongolia_frontier:0 "Y™„äSºNãS"
+ china_csh_gao_guiying_title:0 "ØšBhñ‚"
+ china_csh_gao_guiying_desc:0 "‚Yœg¡l	gÖN„v»YPRØšBhñ‚ÿNgz˜„výV¶RSNàe=fY0bìNS(WNb	g‹N¡R-N,TÎNNIr+YºN„vaÁ‰0"
+ china_csh_gao_guiying_influence:0 "ØšBhñ‚„vqVÍT"
+ foffy_china.EVTNAME3:0 "NIr+YºN"
+ foffy_china.EVTDESC3:0 "Ngz˜(WyY„v6rÍk„v¶R-N²ŽÏ…öeG0R†NØšBhñ‚0ÎN±NIRwÿyYNÖNTLˆÿv^ïygÂSNRú^z˜ÞT0yY(WÖN›Q–„vMR¿uNÖNv^©wjOb0yYc%cv^Ye²wsYuQ ReQÙN‹NN0"
+ foffy_china.EVTOPTA3:0 "yY„vú^®‹=f^—8^ÅV—„v"
+ foffy_china.EVTOPTB3:0 "yY”^å‹†˜üRbìN"
+ china_csh_gao_guiying_general_tt:0 "ØšBhñ‚·ƒ—V†N §YŸ‚ºNÃV„v†˜–ˆ§! '`<h0"
+ china_csh_lulin_seized:0 "F–—g«ˆ`S†˜"
+ china_csh_control_of_gansu:0 "µc6Ruƒw"
+ china_csh_subdue_qin_title:0 "RVaN"
+ china_csh_subdue_qin_desc:0 "Ngz˜úQuv^(WU–‰w‰‰R^D–Ñ„vN*NSQg„^•'Y0ÈuŽN=föePÞV¶R†N0"
+ china_csh_eradicate_shu_title:0 "Vg‡"
+ china_csh_eradicate_shu_desc:0 "‡=fN*N„š²Pw:V'Y„výV¶R0ƒRØåb	gØš¦^2–¡V„vW0W0VgÖNìNS:NbìNSbVŽVÛVÝTÆv0W„vSï0"
+ china_csh_hanzhong_state_captured:0 "Il-N«ˆµc6R"
+ china_csh_hanzhong_state_title:0 "Tv^Il-N"
+ china_csh_hanzhong_state_desc:0 "bìN„výV¶R—‰b•ÿIl-NW0W=fŒRŽ„vsir0"
+ china_csh_expand_east_title:0 "TNib.V"
+ china_csh_expand_east_desc:0 "bìN«ˆS¹e„v™l.oŒTWS¹eÊS‰¹e„vqS	SôV0TNib.V=fgTt„v	éb0"
+ china_dragon_throne_title:0 "™Ÿi"
+ china_dragon_throne_desc:0 "=föePgÈu:YÖS™Ÿi†N0bìNèlšR‰åb	gƒRÿ¡l	gºNýwI–bkbìNåb	gƒR0"
+ china_four_great_inventions_title:0 "ÛV'YÑSf"
+ china_four_great_inventions_desc:0 "-NNS^ýVåNvQùRNLu‡efÑSUSµNuñmÜqVÍT„vÑSfwû•T0bìNSçuíuÙN<P—VSle„v.Oßu0"
+ china_art_of_war_tt:0 "ßu»lw	g‰®V„vïSýw'`µNu §Y%N<h§! '`<h0"
+ china_forbidden_city_modifier:0 "+tyÎWû°e"
+ china_forbidden_city_title:0 "û°e+tyÎW"
+ china_forbidden_city_desc:0 "+tyÎW1u-NýVfg‡v^ú^.0ê8lPN‡v^åNegÿƒR=f-NNS^ýV„vRµ^0bìNS:NvQÛNekO(uwÛLˆû°e0"
+ china_art_of_war_title:0 "b‰Nz‚=g"
+ china_art_of_war_desc:0 "YRPR„v0YRPRuQÕl0=f†SãN-NýV‡v^O(u„vÈug›Q‹NKbŒQ0ƒR«ˆØyÆRÝOXR†NpeŒvt^ÿôv0RNýNoR,g«ˆpÁy0Råe,g0"
+ china_winner_of_dragon_throne_tt:0 "¡l	gvQÖNìrËzýV¶R(W §Y-NýV:SßW§! „v–™ýåb	g…Ç §Y200§! „vÑSUS"
+ china_discover_new_world_tt:0 "(W°eNLuóSÑS°sN*NwýN"
+ china_csh_from_humble_beginings_title:0 "ÎNQS®V„vVËY"
+ china_csh_from_humble_beginings_desc:0 "Ngz˜úQu(WN*NSQg„^„v+ðVIzœQ¶R­^0ÖNÀNHNý¡l	g0FO	göeÙ›NSQS®V„vVËYïSåN&^egO'Y„vbŸREe‹N0©‹bìNÁ‹fƒR0"
+ china_csh_humble_origins:0 "QS®V„vwn"
+ china_csh_rebelious_past_title:0 "ÛS„vÇ»S"
+ china_csh_rebelious_past_desc:0 "z˜ÞT„vwn=f1uÍS—b‹Së'`fgßu»l„vQglVËY„v0ÎN±öewÿz˜ÞTåNùRÍS—b‹Sëw„vºN	gÔgoKN0Wwû•T0bìN”^å‹çuíuÙN.Oßu0"
+ china_csh_rebelious_past_modifier:0 "ÛS„vÇ»S"
+ china_yue_metalworking:0 "²|Ñ‘^S RåT"
+ h_qic_col_war1_3_2_reward:0 "OÀyY²N˜R"
+ h_qic_col_war1_3_4_reward:0 "ØšHeLˆ?e"
+ h_qic_col_war2_2_5_reward:0 "FU9‚–"
+ h_qic_col_war2_3_6_reward:0 "S¹e!X’W2–¡V"
+ h_qic_col_war3_4_3_reward:0 "%N<håTjOÏ‘"
+ h_qic_col_war3_5_4_reward:0 "°eNãN"
+ cyi_change_zhuang_culture_into_yi_tt:0 "»lNNb	g §YîP§! ‡eSbw §YîX§! ‡eS„vwýNSØS:N §YkV§! ‡eS"
+ all_bai_provicnes_minus_20_nationalism_tt:0 "»lNNb	g §Y‹v§! ‡eSwýN1Y»S20t^„vR»yININ"
+
+
+
+ qic_skilled_soliders_title:0 "ŽbûQKNëX"
+ qic_skilled_soliders_desc:0 "bìN„vëXuQ†SÏuèx:xÿ(Wb:WNåNØš…„vŽbz‚”^ùRTÍycbÿUS°súQNáQ„vÇRlNzfgaÿ=fäNºNleOu„vXR(W0"
+ qic_skilled_soliders_modifier:0 "ŽbûQKNëX"
+ desc_qic_skilled_soliders_modifier:0 " "
+ qic_great_qic_army_title:0 "'YPŸ›Q"
+ qic_great_qic_army_desc:0 "N=e:VŒ*NºNfkz‚ŒTb5–M‘T„v›Q–ÿÏuÇ%N<h­‹Ãuÿb—e›RúQr‚ÿY!kÖS—VÍ‘'YÜw)R0:NbìNßuN-NNS„vSïËzNWllšŸR³R0"
+ great_qic_army:0 "'YPŸ›Q–"
+ desc_great_qic_army:0 " "
+ qic_steady_like_taishan_title:0 "‰Rå‚ðlqS"
+ qic_steady_like_taishan_desc:0 "ØSNb2k:NÿfŽNÍSŒcÿ‰RŽNðlqS0"
+ qic_taishan_legion:0 "‰Rå‚ðlqS"
+ desc_qic_taishan_legion:0 " "
+ qic_heaven_suzhou_n_hangzhou_title:0 "NWSbVÜw"
+ qic_heaven_suzhou_n_hangzhou_desc:0 "mlWSirµN0Nv™ÿºN‡emƒ„ÿêäS¿O=fÌR¶^KN0Wÿ*XðyºNô•)YX0"
+ qic_conquering_central_china_title:0 "ž-NŸS"
+ qic_conquering_central_china_desc:0 "æy1YvQžÿ)YNqQKN"
+ qic_control_jiangnan:0 "NWSbVÜw"
+ desc_qic_control_jiangnan:0 "ßpógIuehÿÎ˜^àU^ÿÂSîTASNºN¶R0"
+ qic_prepare_for_war_title:0 "‰SuQãylš"
+ qic_prepare_for_war_desc:0 "öe0qNNÿ²Ä–v^w0ŒýwgÈu1–˜wúQÿî•Ÿ-NŸSÿb:N)YNKNINÿ"
+ qic_a_foothold_in_shandong_title:0 "Ëz³PŸœ"
+ qic_a_foothold_in_shandong_desc:0 "(WäSãN-NýVÿPŸœ'Y0WåNvQìryr„v0WO¿R0ñmšS„v‡eS•^t…ŒTÄ–šS„vºN›Rir›RDnÿY!kb:N‹sgËz³0‰SuQãylšÛwVbÛV¹e„v9húWNb(W0bìNïSåNàV0W6RœRÿÑSUSÏuNmÿ'FUåTKNN0¿O|œÐvKN)R'0wTíQPÄ–šS„v0›RÿÄuú^›Q–ÿùRYVbÿR‹s8—KNNcåeïS…VmN0"
+ a_foothold_in_shandong:0 "Ëz³PŸœ"
+ desc_a_foothold_in_shandong:0 "bìNòTÏuÆQY‹YÎ¥côf'Y„vcb"
+ qic_jianghuai_compaign_title:0 "WSNmlîm"
+ qic_jianghuai_compaign_desc:0 "mlîmAmßWÿåN|œs|KNaNW„ðyÿ¥wƒl„vW0WœRœQwÿÆRÆ–„v³lQ)RŽNFU8ÿºNãSÆRÆ–ÿAucƒ„vÏuNmïS:NbìNÐc›OÄ–šS0nNEQ³irD0vQìryr„v0WtMOnNOŠ„vê6qagöNÿTeg=fT¹e¿R›RÒ‰„v&q¹pÿbìN”^å‹SÙGr0W:S6eeQÊV-NÿîX'YbìN„vžR›R0"
+ qic_jianghuai_compaign:0 "Vgmlîm"
+ desc_qic_jianghuai_compaign:0 " "
+ qic_march_to_beijing_title:0 "SšR¬N^"
+ qic_march_to_beijing_desc:0 "Õq‘NASmQÞTå‚NôvRVŽNYºNÿRbgSb—ËYÈuXR(WèT'Y–±`0fåeËýV`SncS¹e'YGrW0WÿåNÕq¬N:N8hÃVÿßu»lNwS¹e8ngrNœQwBgY„v:SßWÿòT³åNNS‹R•gùRÙS0å‚ÏPWS‹ROP‰RÿRNßu-NNSb:NôuºNô‹¦hÿbìNNýwÍ‘HŽ†‰™ÿÅV‰˜8TÖSYe­‹ÿKSëVVgdk0W:N=f0"
+ all_outraged_countries_ae_minus_15_tt:0 "Nb	gùRbìNåb	g §RµOeuib.V§! `¦^„výV¶RS §G1Y»S§! §Y15¹p§! µOeuib.V`¦^îOck0"
+ qic_central_yangtze_plains_title:0 "kNwbˆ"
+ qic_central_yangtze_plains_desc:0 "mlIlTÎWÿZi0WO¦0NVn.fgÿÄždžÌQÍ‚0fkIlCNkNwbˆKN‰0Wÿ*Xðy™ŸtQKN	0•ml0Ilml²NGlÿ4lÐµu*jÿšS²NÇuÿÞkQ¹e0ŽNdkoSuQÿ®|IƒfZwÿÛïS%c^ž-NŸSÿïSnci–ˆR¡V0%„FUR')YNÿÌR2uN¹e0žRCNuQ¶RÅV‰N0FU>‘NÆ–KNR0W0"
+ qic_support_form_hubei:0 "IlKN^ãw"
+ desc_qic_support_form_hubei:0 " "
+ qic_shandong_hegemony_title:0 "PŸœ8—IN"
+ qic_shandong_hegemony_desc:0 "tQÑy>N	2MbÿËeÁN?ešbŒvÓYÿÃOœQQhåNúV9húW0Ãu:VuQˆR¹†uÿqšYLeibHrþV0^ÓußvËSÿRSùRKbÿíQÄ–Mb'YeuNÜÁ‰SSÆ‹ÿŒšmšNS¿RÿïSäNÛV¹eeggÿ8—NCNb0"
+ qic_access_to_shanxi_title:0 "IeÖSqS‰"
+ qic_access_to_shanxi_desc:0 "PR¯rðfÿbmN0bwwcÿÅV—Vø‹¯O0å‚vQNwcÿhˆÌ‘qS³lÿÅVàe³RmN0"
+ wuu_access_to_shanxi_title:0 "IeÖSqS‰"
+ wuu_access_to_shanxi_desc:0 "PR¯rðfÿbmN0bwwcÿÅV—Vø‹¯O0å‚vQNwcÿhˆÌ‘qS³lÿÅVàe³RmN0"
+ qic_a_new_day_dawning_title:0 "N¹eòTf"
+ qic_a_new_day_dawning_desc:0 "×S)YKNjyÿÛV¹eeg:0¼eN¯et^ÿNP	gPO0"
+ ture_fate_of_heaven:0 ")Y‹TNbRV"
+ desc_ture_fate_of_heaven:0 "bìN=fžRóTRV„v-NNS)YPR"
+ if_we_win_dynasty_disater_tt:0 "‚YœgbìN=fWSSgŒp¾–-N·ƒÜw„vN¹e"
+ Shanhaiguan_fortress:0 "qSwmsQ"
+ desc_Shanhaiguan_fortress:0 "2N¬N•¥”àeÌS0WÿNÌ‘•ÎW,rNsQ"
+ csh_interior_world:0 "hˆÌ‘qS³l"
+ desc_csh_interior_world:0 " "
+ qic_peacify_eastern_liaoning_title:0 "s^šRËN"
+ qic_peacify_eastern_liaoning_desc:0 "èwmNVÿ¶RýVñOcƒ0"
+ qic_birdle_jurchen_clans_title:0 "IusYwèK„"
+ qic_birdle_jurchen_clans_desc:0 "vQES¹0WÿlÎ˜‹R`ÿÇR›RÇºN0ÊNLˆIuKNVrÿ	gø‹YèˆÊv0ïSPvQÇR•ÿ:NbNb(uÿböeäNvQ²Q•w–5–ÿîXbýVZ0IuKNýw‰R¹0WÿMQvQpbeÿ¹ƒXŒvÓY—V«N*Ys^ÿ)RŽNœQQh0FU’N^ÿÃO8fŽVegÿžXbgKN0'ÿ:VýV¶RKN9húW0"
+ qic_allow_esetate_nomadic_tribe_tt:0 "=T(uèÏe6–BS"
+ qic_gyeongbok_palace_diplomacy_title:0 "ofy«RY²N"
+ qic_gyeongbok_palace_diplomacy_desc:0 "é—ýV‹†0WYN…–ÿFO¦N	gvQìryrirµNNŽbz‚0Né—ýV²N‹YÿïSÇ’N^FUÿO-NŸSKNNøu0Á”hVIrAmeQé—ýVÿbcÖSvQyrr‚KNirÿ’N	gàeÿAucƒÌS¹eÏuNmÿEQÈvýV“^ÿ¦NïSà`ÊSŒvÓYÿÃOÛlô•8fŽVegN‡eS²NAm0\n\nå‚é—ýV`	gNãKNÃVbNLeýVþRÓuÿfk›RVgïS‰V•^ˆmd–ÙNjo(WZÁwÿ2–bkvQ(W¹ƒX6R.‹NïzÿnxÝO¹ƒX0W:S„v•»lEN‰RÿMQvQàVN3zšRàV.tVÑSÞ•ÍS”^ÿqVÍTbg„v‰RhQ3zšR0"
+ if_we_ally_with_kor_owner_tt:0 "\n‚YœgbìNNIlÎW„vINºN=fßvËS:"
+ qic_good_relation_with_gyeongbok:0 "bŸR„vY²NVreu"
+ desc_qic_good_relation_with_gyeongbok:0 " "
+ alternatively_if_rival_kor_owner_tt:0 "‚YœgbìNNIlÎW„våb	gw=fLeùRsQû|ÿ"
+ has_won_at_least_300_battles:1 "òTÏu §Yb—V§! óS §G300§! :Wb—e. (SVMR: §Y[Root.GetAmountofBattles]§!.)"
+ qic_ture_chinese_emperor_title:0 "w™Ÿ)YPR"
+ qic_ture_chinese_emperor_desc:0 "«ŽNwNSŽ„v™ŸˆÿÑ‘IQê•wÿkN™ŸŒÞ˜„vþVHhÿNiO(WÉ‹ô‹NwÖNNuñOeg„vS5NZ%N0ÖN„vîvIQ‚Y¬pÿkbÆ‰NwgXNNÿ±=fNÍyßu¡V)YN„v8—lNêáO0ÖNñmåwêñT©wNw)YNÍ‚u„vyIyÿÎNdkÿÖN¿O=f-NNS'Y0W„vIN°Rÿ=fNl„v‡^QOwÿ=fÙGräSwW0W„vwckßu»lw0"
+ chi_ture_chinese_emperor_title:0 "w™Ÿ)YPR"
+ chi_ture_chinese_emperor_desc:0 "«ŽNwNSŽ„v™ŸˆÿÑ‘IQê•wÿkN™ŸŒÞ˜„vþVHhÿNiO(WÉ‹ô‹NwÖNNuñOeg„vS5NZ%N0ÖN„vîvIQ‚Y¬pÿkbÆ‰NwgXNNÿ±=fNÍyßu¡V)YN„v8—lNêáO0ÖNñmåwêñT©wNw)YNÍ‚u„vyIyÿÎNdkÿÖN¿O=f-NNS'Y0W„vIN°Rÿ=fNl„v‡^QOwÿ=fÙGräSwW0W„vwckßu»lw0"
+ qic_governing_xian_note_title:0 "Ïueu‰‰R"
+ qic_governing_xian_note_desc:0 "(W†SòS„v•³l-Nÿ‰‰RÙµ^äSwwO'Y„vÎW^ÿþf†SÏuàepe‰LqNµlQh0‚YÊNÿƒRQ!kÎeg†NN!k°e„v:gGÿ(WbìN„vñ‚fßu»lNÿÙµ^ÎW^Í‘°eqÑSúQì„ÃR„vu:gNAucƒ0"
+ qic_preserve_confucianism_hometown_title:0 "TRmRKNaN"
+ qic_preserve_confucianism_hometown_desc:0 "(WPŸœ'Y0W„v^²ˆW0WNÿ	gNGr«ˆ†SòSN‡eSxm¦m„v1W0WTRmRKNaN0ÙÌ‘=fQ¶R`ó`„vÑSn0Wÿ=f-NNSlÏe¾|^y„vGdîrÿôf=fYe²wNáOðN„v1W0W0CSŒvt^egÿÙGrW0WUR²w†Nàepe1W2ÿmNËn‰Q†NàepeÃVupÿ©‹ÁNIN<yzfáO„vÍyPRñmiŽNbìN„vãlÃV-N0"
+ if_harmonized_vajrayana_tt:0 "‚YœgbìNòTÏu‡T†N §YÑ‘RXNiOYe§! ÿ"
+ chi_hanlin_academy_modifier:0 "‰‰Rð—gb–"
+ desc_chi_hanlin_academy_modifier:0 "Ù*NfNb–:NbýV„vßu»l!.s†N¸‹YOÀy„v'Y0"
+
+
+
+ csh_reorganize_the_chuang_army_title:0 "Ngï•‹s"
+ csh_reorganize_the_chuang_army_desc:0 "Ç»SbìN=fN=e1uAmlŒTÛS›QTAm„vBgLr›QÿÙ©‹bìNÅîX'YÿFOmN(WN:W'Yb-NØNúQè`Ûu„vãN÷NÿbìN‰8TÖSYe­‹Í‘°eÄuú^bìN„vè–0"
+ csh_training_army:0 "­‹Ãu›Q–"
+ desc_csh_training_army:0 " "
+ csh_great_shun_army_title:0 "'Yz˜›Q"
+ csh_great_shun_army_desc:0 "'YR%c‚ÿNˆIQÞ˜…nÿNb0RKNYÿLeºNgÎ˜«ba—0ck=fíQPÙ¡wPRàeN&OÔk„vb—eÇRsÿ'Yz˜›Qµu*jWSSÿN¦^9e™Q†N)YN„v<hNSÿ(W†SòS„v•wSNÿYuN†NSm¨XÍ‘iV0âlœoîX–„vÇràzÿb:NTN.O‚˜Npˆ„v.OGY0"
+ csh_great_shun_army:0 "'Yz˜›Q"
+ desc_csh_great_shun_army:0 "bìN„v›Q–•NïSSV"
+ csh_form_humble_beginings_title:0 "wŽNÒR®V"
+ csh_form_humble_beginings_desc:0 "bìN„vëXuQúQ«Žs^áQÿb=f0uô•wjO„v(4gœQ+Yÿb=f^•NTYâl„vàeTŒvÓYÿöeãN„v*mAmSÖNìNwSeQbkpÿtSmNÀoÑS†NÖNìNÃV•^gñm‰l„v›RÏ‘0ÖNìNTwŽNIƒËƒKNô•ÿ`NwùRPKgNS„vánT2aÑaÿåN•NïSSVKN¿RÿŽ4xqS³l0"
+ form_humble_beginings:0 "wŽNÒR®V"
+ desc_form_humble_beginings:0 "Respectÿ"
+ csh_land_of_xiyu_title:0 "ÿQzz‰ßW"
+ csh_land_of_xiyu_desc:0 ".VžšàeYQXNÎiÿzz	gW*Ž(Wwm¯m"
+ csh_restore_hexi_corridor_title:0 "6eY³l‰pÊ^"
+ csh_restore_hexi_corridor_desc:0 "(W†SòS„v•³l-Nÿ³l‰pÊ^›R‚YN—˜Žt¨t„vfàsÿv•LT(WNSY'Y0W„v‰S¹r–0ƒRNÅN=fÞ¥c-NŸSN‰ßW„vËT‰U‰Sÿôf=fNøuKNï„vsQ.•¢gËuÿb‹NwN‰¹e‡ef²NAm„v‰LqÇŽV0"
+ csh_thousand_years_reunification:0 "N+RCSt^"
+ desc_csh_thousand_years_reunification:0 " "
+ csh_samarkand_connection_title:0 "’dlšSUS"
+ csh_samarkand_connection_desc:0 "ŽV’dlšSU„vï¿u=fN‰¹e‡ef²NAm„vÍ‘‰Ëu&^0-NNS„vNøu06ƒöS0÷thVIrFUÁT(WÙÌ‘ÐŽV‰¹eÿw-NšN„v™™™e0Rów0ÍsËyV‹QIrmN.OeQ-NNS0(WÙagïNÿ’dlšSU0^ÈTÉb0ŽUÀN0‰sè•0feLqIrFUNÍ‘G•ÿ=fFUÁTÆ–ceŒT‡eS²NAm„vÍ‘‰‚‚¹p0"
+ if_csh_choose_to_ally_central_asia_nation_tt:0 "‚YœgbìNÇY²N¹eVŒRbå‹ûN¡Rÿ"
+ samarkand_connection_military_modifier:0 "zLˆ'Y.o"
+ desc_samarkand_connection_military_modifier:0 "Vì„úQIl^XÿRVÁ–eQáw)Y0"
+ csh_vssalize_xia_title:0 "D–¸^YýV"
+ csh_vssalize_xia_desc:0 " "
+ csh_preparing_for_war_title:0 "‰SuQãylš"
+ csh_preparing_for_war_desc:0 "fgòTÏu†‰mpÿ(W±GräSww^²ˆ„vW0WNÿb‰N„v4–‘N„`6q<ri0RQRÒRIQê•ÁpÿblšÃÃ2kÕ‹0S†˜ìN(W™lØvMRŒRNwbeuÿîvIQ‚Y¬pÿmßRNwÏkN*NïSýw„vb:g0ÖNìNåwSÿÙ=fN:WsQNNu‰kXR¡N„vb‰N0"
+ csh_if_we_vassal_xia_tt:0 "‚YœgbìND–¸^†N§YY§!ÿ"
+ csh_control_Guanlong_region_title:0 "N†ŽsQG–"
+ csh_control_Guanlong_region_desc:0 "ôVËh	gN*Nô‹ÕlëSÑ‘Ò‰ö”¹ÿbìNòTÏu`Snc†N)YNÙØv'YËh„vNÒ‰0"
+ csh_great_wall_defense_title:0 "kN¹Í‘G•"
+ csh_great_wall_defense_desc:0 "kN¹Í‘G•ÿ=fbýV•ÎWN„vkN*NÍ‘‰sQaSÿ*j˜NŽNS¹e'Y0W0NwRÜÿ‰ó.V–cÿOqSÝTKNi–ÿQrZWÎW!X’Wÿ¾‹ýpkpðSçqÿ„gú^w%NÆR„v2–¡VSOû|0b:Nbg¹†u3zúV0CSËyNãN„vZWžRÝOœ–0"
+ csh_reclaim_beijing_title:0 "ôvµb‹^Õq"
+ csh_reclaim_beijing_desc:0 "°s(WbìNòTÏuÆQY‹Y:YÞV1Y»S„v^ýV–™ýS¬N0Ù=f^ýV„vÃVÿmN=fbìN:YÖS-NNS)Y‹T„vÅV‰KN0W0" 
+ csh_all_following_province_should_be_controlled_tt:0 "åb	gåNNwýNNán³ùR”^‰Blÿ"
+ csh_china_superpower_title:0 "î•Ÿ-NŸS"
+ csh_china_superpower_desc:0 "·VKNOfÿ‹†SÿÍ‘mN0vQxYÞV,fqNÿ‹†'Yÿ‰mN0)YZyf·Vÿ	gNbŽSbk0"
+ csh_control_of_Guanlong:0 "	NæyKN0W"
+ desc_csh_control_of_Guanlong:0 " "
+ Tongguan_defensiveness:0 "|osQ"
+ desc_Tongguan_defensiveness:0 "tQÿŒvÓYæ‚ÿ¡NÿŒvÓYæ‚0"
+ csh_conquering_shanxi_title:0 "³lŒl•¥”"
+ csh_conquering_shanxi_desc:0 "PR¯rðfÿbmN0bwwcÿÅV—Vø‹¯O0å‚vQNwcÿhˆÌ‘qS³lÿÅVàe³RmN0"
+ Shanxi_region_get_buffed_tt:0 "qS‰0W:SSO·ƒ—VåNNîOckÿ"
+ csh_reclaim_empire_capital:0 "Í‘:Y^ý"
+ desc_csh_reclaim_empire_capital:0 " "
+ csh_land_of_abundance_title:0 ")Yœ^KNýV"
+ csh_land_of_abundance_desc:0 "býs^ŸSÿÙGr«ˆN)Y7wŒ˜„vƒlWÿTegåNÌR¶^û•TPé0dkYlP)n¦mÿÛVcRRfÿêäSåNeg¿O=fºNãS.zÆRKN0W0‡&•Çu.¾|ŽÝu&OÿEu•T0W0ÛVkQ¾„v4lF–²NQÜuÿ©‹býs^ŸSNYLu'tÆRøvÞÿT‰|8fÆ–^ípù•^—áQÿ=fToRvQžR„v)Yœ^KNýV0"
+ wuu_land_of_abundance_title:0 ")Yœ^KNýV"
+ wuu_land_of_abundance_desc:0 "býs^ŸSÿÙGr«ˆN)Y7wŒ˜„vƒlWÿTegåNÌR¶^û•TPé0dkYlP)n¦mÿÛVcRRfÿêäSåNeg¿O=fºNãS.zÆRKN0W0‡&•Çu.¾|ŽÝu&OÿEu•T0W0ÛVkQ¾„v4lF–²NQÜuÿ©‹býs^ŸSNYLu'tÆRøvÞÿT‰|8fÆ–^ípù•^—áQÿ=fToRvQžR„v)Yœ^KNýV0"
+ usurp_the_throne:0 "ár:Y‹sMO"
+ desc_usurp_the_throne:0 " "
+ csh_five_warriors_crashing_mountain_title:0 "”NNVqS"
+ csh_five_warriors_crashing_mountain_desc:0 "æy­SNôTqS„vÍTèSi–ûSÿ‚YTNïS>Š„v)YXÿSÌRv™„vsQ-NŒTÀyKN„v‡0WR”–2Nïz0©‹bìN(WTqSûS­Sô•VŸúQNagSÿSb4x0WßW”––ÿïSåNg'Y0W¿O)RbìN0W›Q–d.RÛVÝT„v0ÌR0"
+ chinese_ancient_tibet_connection_title:0 "UC…äSS"
+ chinese_ancient_tibet_connection_desc:0 "R—Ï…ØšŸSKNN„v:V'Y¿R›Rÿ›R‚YØš¬`„v¾idKQ)R¯eKNQRÿþfùRU‹sg„gb†Ng:N%NûS„vZÁw0ùRŽNdk‰|jo(W„vqSi–ÿbìNÝuNýw	gNëk„vÈa.`N‰Æ‰ÿÅV‰˜KSée*gè–øu*ÿÎNbeuÄ‰R0›Q‹Nèr0Å`¥bdÆ–IrY¹eb—NwKbÿhQ¹eMO„gú^2–ƒSOû|ÿ2–±`ŽN*g6qÿMQÍ‘HŽ†SòS„v†‰™0"
+ desc_tea_and_horse_trade:0 "6ƒlš8f"
+ csh_emperor_of_shun_title:0 "z˜)Y”^‹T"
+ csh_emperor_of_shun_desc:0 "wm…Q†vãÿS‰vbŸqÿSËke™ºNÿõdkNS0"
+ hotan_gems:0 "ŒT–‰s"
+ desc_hotan_gems:0 "žtówàeIQÿ)n¦m	g¹e0"
+ desc_foffy_china_conversions:0 "RVS	g¹eÿYelN·V0"
+ foffy_china.EVTNAME6:0 "N-NšN„vËS‹YTwÜu"
+ foffy_china.EVTDESC6:0 "ée(WIlãNÿ.Vžš2N!kúQO‰ßWÿVŸ†NW„T„vNøuKNïÿckVÉbV†N-NNS‹sgN-NšNËS‹Y²NAm„v'YU^0ÙN>NªcNÅNOIlgN-NšNø‹YÎW¦ýV¶Rú^Ëzwôv¥cTwû|ÿôfÃOÛ†NÌS¹e?e»lN„v’N	gàe0-NšNTýV·u·u>mcOw¿‹î•Ilgÿ&^eg†Nìryr„vVßW‡eSŒTyrµNÿwIlgmNÇŒQSIr¹eVN-NšNèR?eCgú^Ëz'tÆRsQû|ÿ R:V†N?e»lËu&^0\n\n(W8f†˜ßWÿNøuKNïb:NÞ¥cÌS¹e„vÏuNm'Y¨R	0-NNS„vNøu06ƒöS0÷thVIr¾|ŽFUÁT¿lNwÙagFUïnnN­eÐŽV-NšNÿuóÜ¾'k2m0-NšN0W:SRåNlš9S0™™™e0àsRIryrµNÞVˆ™ÿvQ-N-NšNo‚lšñm×S-NŸS‹sgR—Pwÿg'Y0W9eo‚†N-NŸSlšÍyÿùR›Q‹NŒT²NÑSUSaINÍ‘'Y0FUN8f„vAucƒÿ¬Pu†NOYAuNS„v8fÎWG•ÿ‚YfeLq0|ipQIrÿƒRìNb:NÌS¹eÏuNm‡eS²NAm„vÍ‘‰¢gËu0"
+ foffy_china.EVTOPT6.A:0 "©‹bìN:NFUºN„v8fÐc›ON›N¿O)R0"
+ samarkand_connection_economic_modifier:0 "AuÙV„vNïFUºN"
+ desc_samarkand_connection_economic_modifier:0 " "
+ foffy_china.EVTOPT6.B:0 ">mçPºNâV¿l¿‹î•TýVÿ²NAmiOÕl0"
+ samarkand_connection_policital_modifier:0 " R:ViOÕl²NAm"
+ desc_samarkand_connection_policital_modifier:0 " "
+ foffy_china.EVTNAME12:0 "ËS‹YŽVeg„vÓumg"
+ foffy_china.EVTDESC12:0 "–Nw-NNS‹sg…QèÛwþvNuÿýV›Rn‹pˆ1V0þfÏu=e‘dNwž^'YY²NN8fSOû|„vÄ–šS9húWVËY¨RGdÿ0?eeQNweúQÿ›Q‹N›RÏ‘mNàVENub5–N›QYŸ^Vw'YN‚YMR0(WÙ,‚ðVƒXKNNÿôuû|N-NšNTýVËS‹YsQû|„vø‹Yßv¦uÿnb:N¾–åNb×SKNÍ‘0þfÏu‘˜Auz­hŽNNøuKNï„vOw–OåeÊvzuÿŽVfípù•^—áQ„vY²NgXÿ‚YÊNœœÁ‰-NšNOw„v«ŽqV08fŽVegmNm×SÍ‘RÿþfÏuAucƒ„vFUïn·Qnÿ|šÃ”ðXNQ `lbÿán‹'ir„vFU–ØS—VåRåRàeàQ0-NšNFUºNÅbçV8fÎ˜i–ÿ·u·uÏQSegNS²Nfÿw-NNSFUºNmNàVýV…QNS¿RN3zNYè^:W„)ÿ1Y»S†NŽVåe‰Lˆ8f„vípÅ`0\n\nþfÏu„v‡gg‰V•^Óumgÿ2N0WsQû|w–eQ†NMRNb*g	g„võPNS0þfÏu(WËS‹Y²NAm-N’NøvPt’0qQTAucƒ„v‡eSz‚=g²NAmmNÑNNjPÞnÿ±›NàV²NAmwýu>e„v‡efKN±‚ÿ(WTwÜu-N­e„vÒRÎ˜-Nnn¯g„0"
+ foffy_china.EVTOPT12.A:0 ")YN¡l	gNce„v´R-^..."
+ foffy_china6_introduction_tt:0 "Ù*N‹NöNSOŽN2NýV §YTöe§! æ‰ÑSÿêS‰bìN §YÝOc§! ßv¦u ÿ‹NöNKˆN2N*NýV¶R„vîOck1S §GNôv§! 	gHe0"
+ removed_samarkand_connection_modifier_tt:0 "ÎN §YN-NšN„vËS‹YTwÜu§! ‹NöN-N·ƒÖS„v8lENžXÊvS«ˆûyd–0"
+ csh_kuqan_gold:0 "“^fÑ‘ÿw"
+ desc_csh_kuqan_gold:0 ""
+ csh_securing_yumen:0 "ÝO²b‰sè•"
+ desc_csh_securing_yumen:0 " "
+
+ buddhism_warrior_monks_reform:0 "teTçPuQ"
+ 
+ cxi_ancient_tibetian_trade_route_title:0 "‰Ï…S"
+ cxi_ancient_tibetian_trade_route_desc:0 "ÝTÏ…äSS=f6ƒlšäSS-NVgée0Ð“Ï‘g'Y0†SòSjO(uƒ'Y„vNag¿uï0wÇnÏ…äSS'Y¦utQwŽNUãNÿbVbŽNlQCQmQNªuTgÿNTC…‹sgTYib.VŒTùRWSÏ‹„v8fIm¨RÆRRøvsQ0Ù2NagagSïNÅNÐ“6ƒöS0oƒPgIrirDÿØ.O­d†N‘NWS„v6ƒ‡eSŒT…Q0W„vHQÛåTz‚ÿùRbgŒT‰Ï…0W:S„v8fósQÍ‘‰0"
+ cxi_crossing_jianmen_fortress_title:0 "QR–åSXT"
+ cxi_crossing_jianmen_fortress_desc:0 "QRè•qS0W¿Ri–ûSÿ2NµOqSðSØš8weQ‘Nÿ-Nô•NagáS7ŒÿbVb)Y6q„v˜–ãS0QRè•sQMOŽNQRè•qS-NµkÿOTÿQów¶g(gÿîOú^hSÿ¾‹sQˆRkSÿqS¿Ri–ûSÿfˆR¾–IeÿêäS	gN+YSVsQÿN+Y«ƒVKNô‹0µc6R†NQRè•sQÿQàeYºNïSåNÓgcdkYÿ‰WSïS«ˆbìN6eeQÊV-N0"
+ cxi_rectify_military_discipline_title:0 "te˜›Qªu"
+ cxi_rectify_military_discipline_desc:0 "(WäSãN‹sg„v+o•SgÌ‘ÿ›Q–=fôu²b‹sgßu»lN†uW„vÍ‘‰›RÏ‘0SV‹sgb—4N›QªuŒgV0b—e›RpˆIrî•˜˜öeÿßu»lwŽVŽVO'Y›Rte˜›Q–0ÖNìNñmåwN=eªu‹V%Nf„v›Q–¹r‚Y¾|ÆRÐl„vb‰N:ghVÿýw(Wb:WNÑS%cúQ:V'Y„vZ›R09ei—åNTÿbìN„v›Q–b—ŒŒNšROq6qN°eÿªu‹V%NfÿëXlØšfÿ(Wb:WNNbT«ba—0"
+ indulged_warlords_reform_will_be_removed_tt:0 ",rŒNµu?eœ^9ei— §Yµu¹R›Q–§! S«ˆ §R²d•§! "
+ cxi_great_xi_army_title:0 "'Y‰›Q"
+ cxi_great_xi_army_desc:0 "Ngÿ"
+ great_xi_army:0 "'Y‰›Q"
+ desc_great_xi_army:0 "Ngÿÿ"
+ cxi_blazing_flare_title:0 "‚YkpÎqŸS"
+ cxi_blazing_flare_desc:0 "b›QNb0RKNYÿlO·u·uÍT”^ÿÎNÛVb—kQ¹eGlZwwegÿ'ê?a' ReQbìN„v–O0‚YTÎqŸS„vÈpkpÿ„˜:yNwN*N°eöeãN„veg4NÿwbìNmNSb:N-NNS'Y0W°e„vIN°Rÿ"
+ blazing_flare:0 "‚YkpÎqŸS"
+ desc_blazing_flare:0 "ÎqŸS„vÈpkpÿ„˜:yNwN*N°eöeãN„veg4N0"
+ cxi_destroy_baidi_city_title:0 "‹v^gdÝg"
+ cxi_destroy_baidi_city_desc:0 "‹v^ÎWÿÙµ^Ä–ŽŽNbeu‰0W„v›Q‹NÍ‘G•ÿþfÏu=f‹sg„vZWúV!X’W0°s‚YÊNbìN„v×e^(WÎW4YØšØšØ˜lbÿÙ=fN:W³åN‹eQòSŒQ„vO'YÜw)Rÿ"
+ cxi_smokeflame_of_xiangfan_title:0 "D‰jürßp"
+ cxi_smokeflame_of_xiangfan_desc:0 "mlIlKN0Wÿ0WYbeu‰²Qÿ=fŽV-NŸS„vè•7bÿvQ—V1YsQNNbg„vtQpˆ0ƒwnhT¹ø‹¯Oÿ‰V•^Œcµcdk0WÿïSåN:NbìN„vÛNekib.V`YšRúWNxÿmNïSåNg'YŸ‚ëXlÿ©‹bg„vßu»lwŒTŒvÓYýw0R†N‹sg„v:VÛvN^g0"
+ cxi_eastern_gansu_campaign_title:0 "G–óSaƒÇR"
+ cxi_eastern_gansu_campaign_desc:0 "'Yz˜<ÇR„v†wP†‚YTÒk2vN,‚ÿ%NÍ‘ZÁwNwŒvÓY„vu‹T0µN‰RhQŒT‹sg„v3zšR0:N†Nôu²b‹sg„v•»lEN‰RÿbìN—‰nxÝOÖNìNNQSbpbbìN„vãl0\n SV6qÿg‹Y=f8lÜNO0"
+ cxi_heluo_frontier_flags_title:0 "³lmÎd×e"
+ cxi_heluo_frontier_flags_desc:0 "-NŸS0W:SêäSåNeg¿O=fuQ¶RÅV‰NKN0W0ÙÌ‘þfÁ‰Á‹†Nàepe‹sg„vtQpˆôfÿfÿmNUR²w†NŽt¨t„vNSY‡ef0‚YÊNÿÙGrW0WQ!kb:NT¹e¿R›RÒ‰„v&q¹p0bìNýw&T(WÙGräSww^yØy„vW0WNÿÎdwÜw)R„v×e^ÿb1SNãN8—Nÿ"
+ xibei_region_gain_20_dev_tt:0 "–:gRM‘ §Y20§! ¹pÑSUS¦^0R»lN §Y‰S§! 0W:S„vwýN0"
+ cxi_steal_the_country_title:0 "ƒzýVw¯O"
+ cxi_steal_the_country_desc:0 "NgN=f:Njÿ`SN=f:NÄ–0\n`S—VkNŒvNÿsS:NÄ–-NÄ–0"
+ cxi_sea_of_blood_title:0 "Nˆwmoyj"
+ cxi_sea_of_blood_desc:0 "(W+o•w‹kw‘„výpkpSgÌ‘ÿbìNnèx:x†NNybäNLeºNÃVuOuç`„vÁ”Nˆßu^0ÖNìN»l›Q%N(Œÿ›Qªu‚YÁ”ÿ÷SäNKNNÿ	N›Q«ƒbeNÎNÿëXuQìN†våwÿ=U	g%NˆR›QÄ‰ÿ¹eýw(WRqSkpwm-NÝOhQ'`‹T0bìN„v›Q–(WÖNìN„v&^†˜N(Wb:WNµu*jpš‹šÿNbT«ba—ÿäNLeºNû•Î˜'NÆw0"
+ cxi_prepare_for_war_title:0 "‰SuQãylš"
+ cxi_prepare_for_war_desc:0 "fgòTÏu†‰mpÿ(W±GräSww^²ˆ„vW0WNÿb‰N„v4–‘N„`6q<ri0RQRÒRIQê•ÁpÿblšÃÃ2kÕ‹0S†˜ìN(W™lØvMRŒRNwbeuÿîvIQ‚Y¬pÿmßRNwÏkN*NïSýw„vb:g0ÖNìNåwSÿÙ=fN:WsQNNu‰kXR¡N„vb‰N0"
+ cxi_indulged_warlords_debuff:0 "åbuQêÍ‘„v›Q–"
+ desc_cxi_indulged_warlords_debuff:0 " "
+ cxi_tiger_unleashed:0 "sN†úQ<r"
+ desc_cxi_tiger_unleashed:0 "ÏuÇ•öeô•„vÆQYÿbìN„v›Q–ÈuŽNúQVÿ¿RNïS!c0"
+ if_we_finished_before_1459_tt:0 "‚YœgbìN(W §Y1459t^§! KNMRŒRbå‹ûN¡Rÿ"
+ dominating_central_china:0 "-NŸSIN°R"
+ desc_dominating_central_china:0 "bìN(WÙN0W:Såb	gÝuùRµc6RCgŒTINüR0WMO0"
+ cxi_control_shanxi_region_title:0 "	NKfKN0W"
+ cxi_control_shanxi_region_desc:0 "qS‰0W:Sÿ0WYÄžWØšŸSNèÿNO*YLˆqSÿ‰ÒoÄž³lÿS¥c…Q™„äSÿWSµb-NŸSÿ=fNGr†SòS `EN0ºN‡emƒ„„vW0W0ÿbNÙGr0W:SùRbìN„vßuN'YN'Y	gèˆÊv0"
+ cxi_costal_defense_title:0 "ibUSwm¸S¿u"
+ cxi_costal_defense_desc:0 "býV„vwm¸S¿u+o•NYBgÿb—4NNwegêwmN„vø‹YZÁwÿ‚Ywm×vµOpb0YLeeQµOIr0:N†Nµb¡V<ÇRÿ†SãN‹sgý(W¿lwm0W:Sú^Ëz†N%NÆR„v›Q‹N2–¡VSOû|0©‹bìNHeÿNMRgÿ(W¿lwm0W:S¾‹ËzkSNbÿîOú^wm2–¾‹ËeÿåN R:Vwm2–›RÏ‘0"
+ wuu_costal_defense_title:0 "ibUSwm¸S¿u"
+ wuu_costal_defense_desc:0 "býV„vwm¸S¿u+o•NYBgÿb—4NNwegêwmN„vø‹YZÁwÿ‚Ywm×vµOpb0YLeeQµOIr0:N†Nµb¡V<ÇRÿ†SãN‹sgý(W¿lwm0W:Sú^Ëz†N%NÆR„v›Q‹N2–¡VSOû|0©‹bìNHeÿNMRgÿ(W¿lwm0W:S¾‹ËzkSNbÿîOú^wm2–¾‹ËeÿåN R:Vwm2–›RÏ‘0"
+ cxi_shandong_conquer_title:0 "VgPŸœ"
+ cxi_shandong_conquer_desc:0 "qSN=fQ¶R„vÑSn0WÿmN=fO'Y„v`ó`¶RTRPR„vEeaN0PŸœ‡eSôf=f-NNS.Oßu‡eS„vIN‰n4Yÿ†SòSNþf•gESŽN-NNS‡eS„vMRRÿv^N(WT*N†˜ßWýÖS—V†N‰Lq„vb1S0ùRßuN-NNSÿ±Rðy-NNSckßuÿƒwnvQÖNî†7YwŠÿÙGrW0WósQÍ‘‰0"
+ cxi_blood_sea:0 "HaNŒcuQ"
+ desc_cxi_blood_sea:0 " "
+ cxi_appease_xiangyang_clan_title:0 "ibú^D‰3–äSÎW"
+ cxi_appease_xiangyang_clan_desc:0 "D‰3–äSÎWÿIlmlzÎWwÇÿOvQRúQWS0S2N¸S„vD‰ÎW:SŒTjÎW:S0Ùµ^äSÎWåb	g2800Yt^„v†SòSÿÏuÇSg„vm<yòTÏu4x%N*XÿbìN—‰îO.Ùµ^ÎW^ÿ R:V2–¡VÿåN2–åeTb‹N0"
+ stabilize_the_court_modifier:0 "3zšR„v«R÷^"
+ desc_stabilize_the_court_modifier:0 " "
+ ancient_city_of_xiangyang:0 "D‰3–ÎW"
+ desc_ancient_city_of_xiangyang:0 "Í‘°eùRÎW^ÛLˆîO.ŒTibú^:NÙµ^ÎW^&^eg†N°e„vu:g0"
+ cxi_stabilize_the_court_title:0 "‰Ršb6–µu"
+ cxi_stabilize_the_court_desc:0 "(WäSãN‹sg„v+o•oÛ†Sz-Nÿ‰RšbNT6–µu¿R›R0ôuc®V™Ys^aˆåN3zšRg²uÿ=f†SãNßu»lwšk¾|ízQ†KN‹N05ÏeËRbKbácÍ‘Cg0ÌR2uN¹eÿ—i`Zv^ËeÿÙuˆNScƒNyrCgÿÈSåNýVÕl¦umgÿ2–vQ>S'YN‰cÿëX'Y+Y6–BSÿP×NfRÆ‹ÿ=ft?e=eñgÿ¿OVÑyÖSëX0^³u2MbÿKˆN?e»l‚ðSÿäNvQàVÃV¥bHe0ùRŽNs^lŒvÓYÿ‰­V„…K0HŒpNmðVÿÝOvQu¡‹ÿˆm-Vl(`ÿ¹e:NNVr0=U	g|QŒ˜T¹e)RÊvÿhTËeŽN6–BSÉ‹BlKNô•ÿ(u`ÔgNRePKNVrÿ¹eýwÝOgX‰R3z0>y7z8lúV0"
+ cxi_appease_the_estate_modifier:0 "ána„v6–µu"
+ desc_cxi_appease_the_estate_modifier:0 " "
+ cxi_governing_wuchang_title:0 "Ïueufkf"
+ cxi_governing_wuchang_desc:0 "NIl+gt^ÿYRCg(W‘¿SQrÎWÿÖS'åNfkwf'KNaÿ‹TT:N'fkf'ÿfkfKNT1udkweg0ÎNNVËYÿdkY¿O=f•ml-N8n„vÍ‘‰›Q‹N‰^XŒT?e»l-NÃVÿ°s(WÙµ^ÎW^°s(WòTÏuRVD–bìN„vßu»lÿS:NbìN„vßuN'YN.súQƒR„vPRl0"
+ cxi_strategy_of_xuzhou_n_sishui_title:0 "V×l‰Naˆ"
+ cxi_strategy_of_xuzhou_n_sishui_desc:0 "×l4lAmßWÿµc|bWSS²N‰Sÿ0WtMOnìryrÿDn0NÌRY7hÿNôvý=fT¹e¿R›RÊ‰Î‰„v&q¹p04lû|µu*j)RŽNoÐÿW0W¥wƒlïSD›Q®|0:N†Nib'Y¿R›RÿbìN”^NÜ`>PKShQ›R:YÖSÿ—VKNRÛïSIe0ïSˆRÿ`YšRbg8—N0"
+ strategy_of_xuzhou_n_sishui:0 "¿lmlwN"
+ desc_strategy_of_xuzhou_n_sishui:0 " "
+ cxi_strom_above_zhongshan_title:0 "Î˜è–2keg"
+ cxi_strom_above_zhongshan_desc:0 "LN‘N‚Y¨XÿBSBSàSàS0W‹ST)YE–ÿÂrÎ˜|TxUÿwSw0WN„vSWNK„öSÿÜYÿ––„v÷–ðX<ObŸp1žÿëXuQìN(WÎW™XNáTI„vekðX‰lÍ‘w%`ÃOÿzzl-N%V+oNwNÍyäNºN’zo`„vlo`ÿ±=fb‰N„vMROYÿ=fÎ˜´feg4NMR„v„˜f‹0Nb	gºNýåwSÿN:WeÎ˜Nˆè–sSSÉbV7^U^0"
+ cxi_seven_slaughter_title:0 "NNgb1W"
+ cxi_seven_slaughter_desc:0 "†SÏuYt^„vVbNCgŒ—e‰Nÿ[Root.Monarch.GetName] ÈuŽNÙz(W†NCg›R„vÅTðSÿb:N†NÙGrW0WN„vNãNTIN0SVÖNPW(W±ØšØš„v‹sµ^KNNÿïO°w(uêñTãl„vœœNˆbceg„vmlqSöeÿÃV-NtSàe*YYœU¦`0ÖNåwSÿÙ‹sµ^KNNÿ=fàepe‹v¨šXxwbÿ=fàepe*NåeY„vNq¬qN1cNb0ÖN„v<w^yñmƒwYBgÿwÖNNbßu»l„vÙGrW0WÿmNS(WÖN„vV†˜NÿV=TN*N°e„vöeãN0"
+ all_eligible_provinces_gain_90_prosperity_n_1_production_n_modifier_tt:0 "Nb	gán³agöN„vwýNS·ƒ—V §G1§! úWNxuµNÿ §G90§! AucƒÛ¦^ÿåNÊSÿ"
+ 
+ foffy_china.14.t:0 " uck›Q–"
+ foffy_china.14.d:0 "–Nw›Q–¿R›R„vN­e¨ÀwÿÖNìNKb-N„vuQCgnb:N6R¦u‹sg„v)RR0Ù›N›Q–(W0W¹eNåbuQêÍ‘ÿbVb†N>S'YN‰c„vNSb—0ÖNìNNÅN(W›Q‹NNåb	gÝuùR„vÝ‹í‹CgÿØ(WÏuNmŒT?e»lNnnÿùR-N.Y?eCg„vCgZ„gb†N%NÍ‘ZÁw0†SòS„vfnN!k!kÁ‹fÿµu¹R›Q–¿R›R„vîX'Yÿ‹†ýw&^egíwg„vAucƒÿFOgÈutSb:N‹sg¾–åNFd1„v‰lÍ‘·g•ÿb:N¨RGd‹sg9húW„v–±`0"
+ foffy_china.14.a:0 "bìNNýwÍ‘HŽ†‰™ÿ"
+ cxi_suppress_warlords:0 "6Raˆ›Q–"
+ desc_cxi_suppress_warlords:0 " "
+ foffy_china.15.t:0 "±ƒÞT„v0WNRÏ…"
+ foffy_china.15.d:0 "(WäSãNÿ±ƒÞT„vÑ‘ÿwVÇ‘IN‰åNxÑ‘:NINÿÇ‘(uŽrUS„vØmm¹eÕlÛLˆVÇ‘0nc0‹RòS·ß˜'×V0°‹‹ÿS‹Röegÿ‰vÞT0±ƒÞTIr0W„vÑ‘ÿwVÇ‘òTÏu‡˜wQÄ‰!jÿt^µNÄžÑ‘peÏ‘ïSÂ‰0ÙÍyVÇ‘¹eV‹†6qŽb=gŽrUSÿFO:NSVöe„v‹sgÐc›O†NÍ‘‰„v0?e6eeQÿmNÃOÛ†NSV0WÏuNm„vÑSUS0"
+ foffy_china.15.a:0 ">mºN»SÔNÆuØR¢cÿ"
+ foffy_china.16.t:0 "‡xy"
+ foffy_china.16.d:0 "17Nªu-NöS.V.sàVŒTn›QHQTIeeQÛVÝT0ToyASNt^ÿ1644t^	ÿÿ.V.sàV‰ÛÛVÝTÿú^Ëz'Y‰?eCgÿt^÷S'Yz˜0(W'Y‰?eCgMRgÿ‹†Kbµk:VlxÿFO›QªuSïS0TàVÛVÝTT0Wfg¿R›RÍS—b:VÈpÿ.V.sàVŽN=f³QšRNg.b¥bY0vQ‰kTÿn›Q¿R›RVËYËNeQ0·^™q	Nt^ÿ1664t^	ÿngÆ–TASN'Y›QôVRœQl›QYOèYNAS	N¶Rÿ(WÝT0WYNg.b0Ir…Vn›Qs^šRÛVÝT'YèöeÿG•ˆR‘NWS„v4T	NBhŽN·^™qASŒNt^ÿ1673t^	ÿwuQÍSnÿÛVÝTQ!kb:Nb:WÿkQt^KNTÿn›Q‰V•^s^šRÛVÝT0ÏuÇpeASt^„v¨RqNŒTbyVÿO—VÛVÝTºNãS'YÏQ0"
+ foffy_china.16.a:0 "<›^yffÿê`êÏ‘"
+ sichuan_massacre:0 "‡xy"
+ desc_sichuan_massacre:0 " "
+ cxi_indulging_warlords:0 "µu¹R›Q–"
+ cxi_indulging_warlords_desc:0 "P©R›Q–Kb-N„vuQ›RÿbìNïSåNÅib.V†uWÿs^šRÛSqNÿNöeô•w<OýVZ'Y=cÿHrþV^²ˆ06qwÿ–Nw›Q–¿R›R„vN­e¨ÀwÿÖNìNKb-N„vuQCgnb:N6R¦u‹sg„v)RR0Ù›N›Q–(W0W¹eNåbuQêÍ‘ÿbVb†N>S'YN‰c„vNSb—0"
+
+ silk_road_chinese_warlord_title:0 "NïFUh"
+ silk_road_chinese_warlord_desc:0 "|šÃ” ` `ÿzŠÄž™l+o)Y„v'Y.oÿFU–„v†š|šÌwNw¾|Ž„vNøu0‡‘™™„v6ƒöSNŽt¨t„v÷thVÿŽúQNagÞ¥cN‰‡ef„vÿQ!k2U’‘‰law†NCSt^„vNï0"
+ silk_road_revival:0 "NøuKNïwn0W"
+ desc_silk_road_revival:0 "'Y.odRßpôvÿ•³lK„åeW"
+ sichuan_silk_production_chinese_warlord_title:0 "ib'Y‡&•uµN"
+ sichuan_silk_production_chinese_warlord_desc:0 "býs^ŸS—V)YìršS„vê6qagöNÿ:NQh•†‰Q–kÐc›O†N0Nv™„vir™e9húWÿ RKNýwåTçT.SãNãNøvb„v¾|inŽbz‚ÿO—V‡&•RýuIQ’‚0êæyIlöegwÿg÷^1S¾‹ËzNè•:g„g¡rtÇu.‹N¡RÿŒÆ–T¹eDn›O”^‡&•Çu.0‡&•âeýwjO:N‡v²R!ÁTÿmNýw¿lNwäSw„vFUïÜ•ÛV¹eÿbcÞV'YÏ‘0'ÿÑ‘ö”àsR0VßW™™™eÿïSåNg'Y0WEQÈvbýVœ^“^0bìN”^å‹Ÿ±Rlô•Çu7bib'YÏu%„ÿÏQMQKz­VyVÿ8TVôfYŒvÓY•b«ŽvQ-N0ckNbŒÿsYåTKNNÿ†‰cˆ)YN0"
+ change_sichuan_area_to_silk_tt:0 "‹NöNSObý0W:S„vµNirSlØS:NNøu"
+ revive_jingdezhen_klins_chinese_warlord_title:0 "YtQ÷tý"
+ revive_jingdezhen_klins_chinese_warlord_desc:0 "of·VG•åN÷thVlbTÿtSàVbqNüRôåT.SAmceÿÛvofNQ0bìNïSåN^4œi‡eÿìSÆ–Amce„výwåTçT.SÿÍ‘ú^‘z‚S0‚Yœgof·VG•ýwYQ°sAuNSÿ¾|Ž„v÷thV¯wšRýwYÊ`s‚ÛV¹eÿbìNå‚ýwÎN-NŒ)RÿšRïSEQÈvýV“^ÿ'YZNr0"
+ chinaware_will_double_the_price_tt:0 "÷thV„v÷N<hSO«ˆÐcGS"
+ foffychina.32.d:0 "bìND©R„v¢ci––OŽeQ†N±µ^÷þ–<ri0EQán*gåw„v'YqS0ÖNìN«ŽNw—|^»žcˆÿpc•RÿKbcŽrK–tS«ˆid2c—VÑS®N„vc˜cåTwQÿ(W?‡‡T–S„vqSïNp‚¾–MRLˆ0\n\nåePRN)Y)YÇ»Sÿ^gN1Yg²Nÿf0ÈuŽNÿ(WNY–K…„vqSSOñmYÿNMO1c˜c„v–XTN•4YN»SÿêS,T 'ÐTSV' NðXÿN¹bå‚–å‚°s„vÑ‘r‚ÎN©Sów-Nê•°s0'=fÑ‘ÿwÿ' NåwŒ'YŠUNðXÿOºNìNôVâbÇegÿ<w-Nán=fÊ`œUN¾–åNnáOÿÀo¨R—VípêlÈv6w0ÙýNegKNNf„vÑS°sÿàe‘uS‰V•^9eØSÖNìN„v‹TÐ0"
+ foffychina.32.a:0 "‰R’c'YÄ‰!jVÇ‘!"
+ foffychina.32.b:0 "ck8^VÇ‘1SïSåN†N"
+ 
+ foffy_china.EVTNAME4:0 "‡&•"
+ foffy_china.EVTDESC4:0 "bìNòTÏuµc6R‡0Wÿ‡&•„vŸSµN0WòTÏu(WbìNŒc-N0(WbìN„v»ltN‡0WòTÏuMRNb*g	g„vAucƒ0bìNòTÏuïSåNuµNôfY„v‡&•†Nÿ"
+ foffy_china.EVTOPT4.A:0 "‡&•‰Šán)YNÿ"
+ increasing_diplomatic_reputation:0 "‡&•‰Šán)YNÿ"
+ desc_increasing_diplomatic_reputation:0 "wýNbýµNirVËYuµNNøu"
+ foffy_china.EVTOPT4.B:0 "¾‹n&•˜Rcw."
+ chengdu_imposed_silk_production:0 "&•˜Rcw."
+ desc_chengdu_imposed_silk_production:0 "býôv^SÞT„vFUÁTSlØS:NNøu"
+ foffy_china.EVTNAME5:0 "YtQ÷tý"
+ foffy_china.EVTDESC5:0 "Í‘ú^of·VG•"
+ foffy_china.EVTOPT5.A:0 "²sÑsTRN,‚‹YÿY—-NÁ‰¨RR—qSeg0"
+ Restoration_of_Jingdezhen_klins:0 "of·VG•‘z"
+
+ foffy_china.EVTNAME7:0 "6ƒlš’N^"
+ foffy_china.EVTDESC7:0 "6ƒlš8f=f-NýVäSãNÍ‘‰„vÏuNmIm¨RÿwnŽNU‹RöegÿÛvLˆŽNfnÿcíuCSt^KNEN0ƒRåN6ƒöSŒTlš9S:NIN‰²NfFUÁTÿÞ¥c…Q0WN‰Ï…0W:S0†SãNßu»lwàeNS6ƒlš8fÆ‰:NýVKN‰?e0'YŒTkNt^ÿU‡e—R¨cLˆ·i6ƒ6RÿybkŒvÓYÁy%„6ƒöSÿS6ƒöS„vÍyi0Ç‘Xd0q6R0Ð•hQè6eRV˜R%„ÿžRLˆßuN„v„W­e¡rt0–NwUgKNTn™6ƒÎ˜SN6ƒ‡eS„vAucƒÿO6ƒöSb:NÅN!kŽNß˜Ðv„v0?e=eñg0"
+ foffy_china.EVTOPT7.A:0 "N^WSSÿN'ZwÑ‘ö”0"
+ tea_and_horse_trade:0 "6ƒlš’N^"
+
+
+ foffy_china.28.t:0 "‡TÏ….OiOYe"
+ foffy_china.28.d:0 " "
+ foffy_china.28.a:0 "x`N0'YÏ…Ïu0ÿ"
+ foffy_china.28.b:0 "0?–%VN–Ïu0=fbìNfR`N„vƒ,gÿ"
+ foffy_china.28.c:0 "ûÑ‹0àeÏ‘ÿRÏu0³ãwÿ"
+ foffy_china.28.e:0 "gõ‹0Â‰àeÏ‘ÿRÏu0'Tÿ"
+ foffy_china.28.f:0 "N‚Y>NžRÛv'Y„vœpQhêNVÿ"
+ foffy_china.28.g:0 "©‹ÖNìNÏk)YõVõ‹mQWRwŠÿ"
+ foffy_china.28.h:0 "bhQý‰ÿ"
+ foffy_china.29.t:0 "kVÏeºN„vSï"
+ foffy_china.29.d:0 " "
+ foffy_china.29.a:0 "Û›Q-NNSÿ"
+ cyi_integrate_into_china_modifier:0 "Û›Q-NNS"
+ desc_cyi_integrate_into_china_modifier:0 " "
+ foffy_china.29.b:0 "b:N‰WS8—INÿ"
+ cyi_focus_indochina_modifier:0 "wzqSv`4l"
+ desc_cyi_focus_indochina_modifier:0 " "
+ foffy_china.30.t:0 "R—Ü”^yh"
+ foffy_china.30.d:0 " "
+ foffy_china.30.a:0 "TNºN±R.ObìN„vO'Yb1Sÿ›OºNgÜbÿ"
+ bimox_chengdu:0 "Õkid1W0W"
+ desc_bimox_chengdu:0 " "
+ foffy_china.30.b:0 "êS=fN›NƒW>WwòT"
+
+ cyi_annex_lhasa_title:0 "|Qv^Éb(„"
+ cyi_annex_lhasa_desc:0 " "
+ cyi_tibetan_ambition_title:0 "ØšŸSÄ–ÃV"
+ cyi_tibetan_ambition_desc:0 " "
+ desc_china_cyi_tibet_conquered:0 " "
+ cyi_convert_lhasa_buddhism_title:0 "‡TÏ….OiOYe"
+ cyi_convert_lhasa_buddhism_desc:0 " "
+ desc_china_cyi_yi_script_modifier:0 " "
+ gain_all_bai_miao_culture_provs_claim_tt:0 "·ƒ—VNb	g §Y‹v§! ‡eSN §Y×‚§! ‡eSwýN„v8lEN±Rðy"
+ desc_china_cyi_zhou_conquered:0 " "
+ cyi_unite_xinan_region_title:0 "‰WSNßu"
+ cyi_unite_xinan_region_desc:0 " "
+ desc_china_cyi_tribes_united:0 " "
+ cyi_zhuang_people_subjugation_title:0 "teTîPºN"
+ cyi_zhuang_people_subjugation_desc:0 " "
+ cyi_land_of_baiyue_title:0 "ŒvŠKN0W"
+ cyi_land_of_baiyue_desc:0 " "
+ cyi_excel_at_diplomacy_modifier:0 "ñ‚f„vY²N?eVr"
+ desc_cyi_excel_at_diplomacy_modifier:0 " "
+ cyi_develop_guiyang_title:0 "ÑSUS53–"
+ cyi_develop_guiyang_desc:0 " "
+ cyi_take_back_kunming_title:0 "6eYff"
+ cyi_take_back_kunming_desc:0 " "
+ cyi_mountain_defense_title:0 "qS—g2–¡V"
+ cyi_mountain_defense_desc:0 " "
+ desc_china_cyi_fortified_castles:0 " "
+ cyi_suffer_shu_mountains_title:0 "‡S¾–"
+ cyi_suffer_shu_mountains_desc:0 " "
+ desc_china_csh_hanzhong_state_captured:0 " "
+ cyi_empire_edge_title:0 "^ýV¹ƒX"
+ cyi_empire_edge_desc:0 " "
+ cyi_shan_heritage_title:0 "¸c¦WµN"
+ cyi_shan_heritage_desc:0 " "
+ desc_china_cyi_shan_harmonized:0 " "
+ cyi_irrawaddy_river_title:0 "'YÑ‘™lml"
+ cyi_irrawaddy_river_desc:0 " "
+ chian_cyi_last_picture_title:0 "gT„vübþV"
+ chian_cyi_last_picture_desc:0 " "
+ china_cyi_minhow_title:0 "ý•¯O"
+ china_cyi_minhow_desc:0 " "
+ cyi_pacific_ambition:0 "*Ys^mÄ–ÃV"
+ desc_cyi_pacific_ambition:0 " "
+ china_cyi_holy_mandate_title:0 ")Y‹T^yˆc"
+ china_cyi_holy_mandate_desc:0 " "
+ china_cyi_south_china_warlord_title:0 "NSWSÄ–IN"
+ china_cyi_south_china_warlord_desc:0 " "
+ china_cyi_march_to_zhejiang_title:0 "Û›QmlYm"
+ china_cyi_march_to_zhejiang_desc:0 " "
+ cyi_south_china_boom:0 "AucƒžX•„vÏuNm"
+ desc_cyi_south_china_boom:0 " "
+ china_cyi_wuhan_campaign_title:0 "fkIlKNb"
+ china_cyi_wuhan_campaign_desc:0 " "
+ china_cyi_great_yi_title:0 "'YkV"
+ china_cyi_great_yi_desc:0 " "
+ china_cyi_peacify_gansu_title:0 "s^šRU–u"
+ china_cyi_peacify_gansu_desc:0 " "
+ cyi_zhang_xi_strategy:0 "^—àe1WIN"
+ desc_cyi_zhang_xi_strategy:0 "NNgbN†N1WÿêSO³R†N`O"
+ china_cyi_culture_policy_title:0 "¨cLˆkV‡eS"
+ china_cyi_culture_policy_desc:0 " "
+ cyi_saint_three_in_one:0 "1W	NN"
+ desc_cyi_saint_three_in_one:0 " "
+ china_cyi_siege_of_xian_title:0 "‰‰RKN«R"
+ china_cyi_siege_of_xian_desc:0 " "
+ cyi_northern_thai_lao_culture_gain_culture_buff_tt:0 "»lNNb	g §YlO§! ‡eS0§Y¹fW§! ‡eSŒT §YÐR§! ‡eS„vwýNS·ƒ—V §G-20%§! l‡eSÏQMQ±‚9ÿÏkg §R+0.1§! ê»l¦^žX•åNÊS §R+2§! ¹pÛSqNÿcíu25t^0"
+ csh_desert_frontier_title:0 "™l.oMR¿u"
+ csh_desert_frontier_desc:0 " "
+ csh_hehuang_valley_title:0 "³lmn7Œ0W"
+ csh_hehuang_valley_desc:0 " "
+ csh_tips_of_yungang_grottoes:0 "‚YœgbìNåb	g §Y'YT§! ÿRGYÂ‰ §Y‘N—SówŸz§! „vIrµuSžX RNµu"
+
+ cyi_millions_elephant_title:0 "NaŒ‹sýV"
+ cyi_millions_elephant_desc:0 " "
+ cyi_thai_culture_conversion:0 ":Vë‡eSlS"
+ desc_cyi_thai_culture_conversion:0 " "
+ cyi_charged_down_the_mountains_title:0 "ESØš4NN"
+ cyi_charged_down_the_mountains_desc:0 " "
+ allow_indian_personal_deities_tt:0 "AQ¸‹O(u §YpS¦^Ye§! „v §YaŒ4Y^y§!ÿ§YÏ‚)R6w§! *NºNTÜb"
+ cyi_hinduism_cooperation:0 "‡TpS¦^áOðN"
+ desc_cyi_hinduism_cooperation:0 " "
+ cyi_gange_delta_title:0 "R`³l	NÒ‰2m"
+ cyi_gange_delta_desc:0 " "
+ cyi_dominate_indochina_title:0 "=eM‘-NWSJS›S"
+ cyi_dominate_indochina_desc:0 " "
+ cyi_siam_superpower_title:0 "¹fW8—IN"
+ cyi_siam_superpower_desc:0 " "
+ cyi_mon_thai_culture_title:0 "ðl‡eS"
+ cyi_mon_thai_culture_desc:0 " "
+ cyi_malacca_ambition_title:0 " lšmQ2uÎ‘g"
+ cyi_malacca_ambition_desc:0 " "
+ cyi_burma_rainforest_title:0 "8uè–—g"
+ cyi_burma_rainforest_desc:0 " "
+ cyi_three_cities_title:0 "NSWSÍ‘G•"
+ cyi_three_cities_desc:0 " "
+ cyi_sack_of_chiang_mai_title:0 "¢wã‰nÈ"
+ cyi_sack_of_chiang_mai_desc:0 " "
+ if_we_owned_emerald_buddha_unlock_buddha_diety_tt:0 "‚YœgbìN„v–™ýåb	g §Y‰siO§! îOckÿRbìNSã‰• §YiON–§! *NºNTÜb0"
+ cyi_angkor_wat_title:0 "4TåTŸz"
+ cyi_angkor_wat_desc:0 " "
+ cyi_rice_fields_title:0 "ŒvNIz0u"
+ cyi_rice_fields_desc:0 " "
+ cyi_million_rice_fields:0 "Î˜Œè–z˜"
+ desc_cyi_million_rice_fields:0 " "
+ cyi_cham_submission_title:0 "`SÏeãg"
+ cyi_cham_submission_desc:0 " "
+ cyi_cham_architect:0 "`SÏeú^Qr^"
+ cyi_mon_thai_unification_title:0 "ðlNßu"
+ cyi_mon_thai_unification_desc:0 " "
+ cyi_malayan_ambition:0 "lšegšN„vÎ‘g"
+ desc_cyi_malayan_ambition:0 " "
+ cyi_myitkyina_crystal_title:0 "ÆR=e±ÿw:S"
+ cyi_myitkyina_crystal_desc:0 " "
+ myitkyina_gem_mines:0 "ÆR=e±áà"
+ desc_myitkyina_gem_mines:0 " "
+ cyi_indochina_domination:0 "=eM‘-NWSJS›S"
+ desc_cyi_indochina_domination:0 " "
+
+ west_african.29.t:0 "^yfRbòTfRÿ"
+ west_african.29.d:0 " "
+ west_african.29.a:0 "uªV^y„vèeaÿ"
+ benin_zealot_ruler_modifier:0 "Âríp„vßu»lw"
+ desc_benin_zealot_ruler_modifier:0 " "
+ west_african.29.b:0 "Ù=fÀNHN	g±„vN‰ÿ"
+ benin_scholar_ruler_modifier:0 "‹YfR„vßu»lw"
+ desc_benin_scholar_ruler_modifier:0 " "
+ west_african.29.c:0 "bìN”^å‹ôfNèlÏuNm‹N¡R"
+ benin_midas_touched_ruler_modifier:0 "ie0„vßu»lw"
+ desc_benin_midas_touched_ruler_modifier:0 " "
+ west_african.30.t:0 "RFUO"
+ west_african.30.d:0 " "
+ west_african.30.a:0 "ÑSUS8f"
+ benin_focus_on_trade:0 " "
+ desc_benin_focus_on_trade:0 "R8fFUO"
+ west_african.30.b:0 "èlÍ‘uµN"
+ benin_focus_on_manufactory:0 "RuµNFUO"
+ desc_benin_focus_on_manufactory:0 " "
+ desc_colony_banned:0 " "
+
+ ben_humuiliate_rival_title:0 "ž±¿RLe"
+ ben_humuiliate_rival_desc:0 " "
+ ben_eclipsed_or_humiliated_any_rival_tt:0 "…Šbwž±ûNa¿RLe"
+ ben_king_of_forest_title:0 "N—gKN‹s"
+ ben_king_of_forest_desc:0 " "
+ ben_assemble_an_legion_title:0 "Äuú^›QâV"
+ ben_assemble_an_legion_desc:0 " "
+ benin_march_to_jungle:0 "Û›Qè–—g"
+ desc_benin_march_to_jungle:0 " "
+ ben_guinea_domination_title:0 "=eM‘àQ…QšN"
+ ben_guinea_domination_desc:0 " "
+ benin_march_to_jungle2:0 "VÑSè–—g"
+ desc_benin_march_to_jungle2:0 " "
+ ben_african_empire_title:0 "R^ýV"
+ ben_african_empire_desc:0 " "
+ ben_african_manufactory_title:0 "^—2m6R.N"
+ ben_african_manufactory_desc:0 " "
+ ben_jungle_and_plains_title:0 "ßu»lè–—gs^ŸS"
+ ben_jungle_and_plains_desc:0 " "
+ benin_is_most_powerful_african_country_tt:0 "R=fte*N^—2mÑSUSgØšÿ›Q–peÏ‘gY„výV¶R"
+ benin_march_to_jungle3:0 "Aucƒè–—g"
+ desc_benin_march_to_jungle3:0 " "
+ benin_march_to_jungle4:0 "ætNW¾è–—g"
+ desc_benin_march_to_jungle4:0 " "
+ ben_build_up_temples_title:0 " tQú^^y™^"
+ ben_build_up_temples_desc:0 " "
+ ben_enbrace_the_tradition_title:0 "åb±b.Oßu"
+ ben_enbrace_the_tradition_desc:0 " "
+ ben_manic_worship_title:0 "ÂrípTÜb"
+ ben_manic_worship_desc:0 " "
+ benin_manic_worship_modifier:0 "Âríp„v—RYeTÜb"
+ desc_benin_manic_worship_modifier:0 "BBC WORSHIP"
+ ben_collect_tribute_title:0 "6eÆ–!ÁT"
+ ben_collect_tribute_desc:0 " "
+ ben_golden_city_title:0 "ÄžÑ‘KNÎW"
+ ben_golden_city_desc:0 " "
+ ben_oyo_salvation:0 "VgeY¦u"
+ desc_ben_oyo_salvation:0 " "
+ benin_rise_of_benin:0 "RTw"
+ desc_benin_rise_of_benin:0 " "
+ ben_rush_to_plains_title:0 "íp&^IƒŸS"
+ ben_rush_to_plains_desc:0 " "
+ benin_guinea_lord:0 "àQ…QšN8—IN"
+ desc_benin_guinea_lord:0 " "
+ ben_cousin_branch_title:0 "Kb³²Ng"
+ ben_cousin_branch_desc:0 " "
+ ben_cousin_branch_modifier:0 "†˜üRÏeºN"
+ desc_ben_cousin_branch_modifier:0 " "
+ ben_shamans_title:0 "(„án"
+ ben_shamans_desc:0 " "
+ ben_converted_20_prov_tt:0 "lS20*NwýN0RÜbirYe"
+ ben_shamans_modifier:0 "(„ánmyNy"
+ desc_ben_shamans_modifier:0 " "
+ ben_ancestor_summoning_title:0 "HQVyìS2U"
+ ben_ancestor_summoning_desc:0 " "
+ ben_divine_ritual_title:0 "^y1WêNV"
+ ben_divine_ritual_desc:0 " "
+ benin_divine_ritual_modifier:0 "^y1WêNV"
+ desc_benin_divine_ritual_modifier:0 " "
+ benin_assemble_warband:0 "Æ–ÓubâV"
+ desc_benin_assemble_warband:0 " "
+ benin_land_irrigation:0 "W0WLp‰n"
+ desc_benin_land_irrigation:0 " "
+ ben_salt_cloth_and_conch_title:0 "ß˜Ðv0^™eŒTóX"
+ ben_salt_cloth_and_conch_desc:0 " "
+ ben_double_dip_dev_bonus_tt:0 "»lNwýNÏkÐcGS1¹puµNïSåN˜Y—V0R1¹puµN"
+ ben_guinea_trade_title:0 "àQ…QšN8f"
+ ben_guinea_trade_desc:0 " "
+ ben_developing_commerce_chamber_title:0 "ÑSUSRFUO"
+ ben_developing_commerce_chamber_desc:0 " "
+ ben_west_african_trade:0 "‰^—8f"
+ desc_ben_west_african_trade:0 ""
+ ben_reform_traditional_warfare_title:0 "9ei—.OßubÕl"
+ ben_reform_traditional_warfare_desc:0 ""
+ ben_faithful_ruler_title:0 "T†Ú‹„vßu»lw"
+ ben_faithful_ruler_desc:0 " "
+ benin_reform_traditional_statics:0 "NöeñOÛ„v.OßubÕl"
+ desc_benin_reform_traditional_statics:0 " "
+ ben_royal_seminary_title:0 "‡v«R^yfRb–"
+ ben_royal_seminary_desc:0 " "
+ ben_cooperate_with_chieftain_title:0 "è–—gK‘•"
+ ben_cooperate_with_chieftain_desc:0 " "
+ benin_royal_seminary:0 "‡v«R^yfRb–"
+ desc_benin_royal_seminary:0 " "
+ benin_cooperation_with_chieftan_modifier:0 "NK‘•ìNTjO"
+ desc_benin_cooperation_with_chieftan_modifier:0 " "
+ ben_lawful_ruler_title:0 "%Nf‹VÕl"
+ ben_lawful_ruler_desc:0 " "
+ ben_niger_river_delta_monopoly_title:0 "„W­e<SåeS³l"
+ ben_niger_river_delta_monopoly_desc:0 " "
+ benin_lawful_ruler:0 "Õl»lTIN"
+ desc_benin_lawful_ruler:0 " "
+ benin_niger_monopoly_modifier:0 "ìr`S<SåeS³l"
+ desc_benin_niger_monopoly_modifier:0 " "
+ ben_jungle_confedracy_title:0 "N—gO®‹"
+ ben_jungle_confedracy_desc:0 " "
+ ben_prosperity_of_slave_trade_title:0 "tY¶–8ftQw"
+ ben_prosperity_of_slave_trade_desc:0 " "
+ if_we_have_burghers_land_right_privilege_minus_10_land_share_tt:0 "‚YœgbìNÙuN†NFUºNåTO†˜0WCgÿRFUºN6–µu1Y»S §G10%§! „v†˜0W"
+ ben_expand_into_jungle_title:0 "è–—gib.V"
+ ben_expand_into_jungle_desc:0 " "
+ slavery_boost:0 "tQÛv„vtY¶–8f"
+ desc_slavery_boost:0 " "
+ ben_jungle_development_modifier:0 "N—gVÑS"
+ desc_ben_jungle_development_modifier:0 " "
+ ben_import_artillery_title:0 "ÛãSkp®p"
+ ben_import_artillery_desc:0 " "
+ benin_inporting_artillery_modifier:0 "Yeg'Y®p"
+ desc_benin_inporting_artillery_modifier:0 " "
+ benin_thunder_in_jungle1_modifier:0 "®puQb=g„vÏ–bV"
+ benin_thunder_in_jungle2_modifier:0 "ÛãSkp®p"
+ replace_pervious_mofifier_tt:0 "§Yå‹îOckSOÿfbcHQMRîOck§!"
+ ben_thunder_in_jungle3_modifier:0 "è–—gÊ`÷–"
+ desc_benin_thunder_in_jungle1_modifier:0 " "
+ desc_benin_thunder_in_jungle2_modifier:0 " "
+ desc_benin_thunder_in_jungle3_modifier:0 " "
+ ben_thunder_in_jungle_title:0 "è–—gÊ`÷–"
+ ben_thunder_in_jungle_desc:0 " "
+ ben_increased_dev_modifier:0 "ÍyFŒ—VÜt"
+ ben_arsenal_title:0 "uQåT‚S"
+ ben_arsenal_desc:0 " "
+ benin_thunder_in_jungle_modifier:0 " RfkhVåT‚S"
+ desc_benin_thunder_in_jungle_modifier:0 "wPwPJTÉ‹`OÿuQåT‚S„vñ‚‡e=f?–îh³u(Arsenal)ÿùRÿ1S=f`OåwS„v±*N?–îh³u"
+ benin_allow_dahomey_amazons_merc_tt:0 "AQ¸‹ÛbßR §Y¾wƒŽsYbëX§! Ç–cO›QâV"
+ benin_has_any_active_gov_power_tt:0 "ck(WO(uûNa?eœ^ýw›R"
+ benin_mission_jungle_confedracy_modifier:0 "è–—g®‹O"
+ desc_benin_mission_jungle_confedracy_modifier:0 " "
+ ben_court_scholar_title:0 "«R÷^fRw"
+ ben_court_scholar_desc:0 " "
+ benin_open_court_modifier:0 "Vf„v«R÷^"
+ desc_benin_open_court_modifier:0 " "
+ ben_treasury_of_ivory_title:0 "aŒYr0ÌR"
+ ben_treasury_of_ivory_desc:0 " "
+ ivory_province_gain_1_trade_good_size_tt:0 "Nb	guµNaŒYr„vwýN·ƒ—VÿFUÁTuµN §G+1§!"
+ ben_ivory_gains:0 "UcNg'YaŒ"
+ desc_ben_ivory_gains:0 " "
+ ben_improve_the_conscription_system_title:0 "9e„UVìSû|ßu"
+ ben_improve_the_conscription_system_desc:0 " "
+ ben_well_served_conscription_system:0 "ŒR„U„vVìSû|ßu"
+ desc_ben_well_served_conscription_system:0 ""
+ ben_weapons_manufactory_modifier:0 "fkhVåT‚S"
+ desc_ben_weapons_manufactory_modifier:0 " "
+
+ cyi_monge_system:0 "™„<h6R¦^"
+ cyi_monge_system_desc:0 " "
+ cyi_sepo_theocracy:0 "r‚‡˜^yCg6R"
+ cyi_sepo_theocracy_desc:0 " "
+ cyi_zimo_kingdom:0 "yQ«ƒ^yCgýV"
+ cyi_zimo_kingdom_desc:0 " "
+ cyi_holy_empire:0 "^y1W^ýV"
+ cyi_holy_empire_desc:0 " "
+ cyi_kill_the_tiger_title:0 "N†K„s^3–"
+ cyi_kill_the_tiger_desc:0 " "
+
+ mng_baimujiaoji_title:0 "Œv(g²NÆ–"
+ mng_baimujiaoji_desc:0 "föeÿG•mlNbµN9‚wQàQÑ)YN'YJSÿT0WFUºN0Rdk).U(gPgÿ	gŒv(g²NÆ–KNðy0)n&^NÒR&^0W:SúQµN„v(gPg=fú^.'Y‹W0‚9‚„vÅV‰˜ÿ:N†Nú^.ž^'Y„v0‚–ÿbìN–™HQ‰µc6R9‚wQ„vegn0"
+
+ mng_guangzaobaochuan_title:0 "^.R9‚"
+ mng_guangzaobaochuan_desc:0 "ê8lPNTÿfùRYLu„v¢c0tn‹ŽNjPÞnÿwmy?eVrôf RÍ‘†NÙÍy‹¿R0–NwYLuFUºNN0ÌR„v0RegÿbìNaÆ‹0R†NÍ‘=Twmm‹NN„vÍ‘‰'`0Í‘ú^R9‚0‚–ÿS'Yf„vCgZNi`ýl^Ëe0ReÜ„vwmmÿ"
+ 
+ mng_zhaofengjiugang_title:0 "Ï‹Sçe=n"
+ mng_zhaofengjiugang_desc:0 "WSm„vFUºNìN&^eg†NNSBlôcáOÿðyánw=O7Y‹sÅdêÛIe†N	NiOPŸ‹sÿÞ&^NwZÁw0R†NbìN(Wçe=n„v8fÙzÿåNÊSWSmFUï„v‰RhQ0FUºNìNòTÏuåbËzhSb:Nçe=nI`cwÿ^gbìN(uÏ‹fNŒT0‚–ÝO²bÖNìN„v‰RhQ0Ùb¸‹ïSåNjO:NbìNÒcKbWSm‹N¡R„v:gO0"
+ 
+ mng_gujiaopanyan_title:0 "dRäSà‡ßp"
+ mng_gujiaopanyan_desc:0 "dRäSà‡ßpÿBS›m‡gÿÙ=f‹RºN‹s‚lYRÍ‹åSÿÏcØu„v=f™ŸŽm™™„vµN0W0™ŸŽm™™ÈST™Ÿy™™ÿµNê'Ym-N¹b™™¸œ„vy…Q0‹RöeòT	gNè•„vUc¸œ9‚sUc¹b™™¸œÿÖS™™6R|™:NÆrWR™™ÿN|™b¾NÑ‘0N=eR9‚–OTbìN„v‡v^¥bJTÿðy(WeÜ„vWS'YmÑS°s†N'YÏ‘„v¸œ²ÿv^IYN†NN.VwmþVÿNb—ÏcØuNw*gåw„vwm¸S¿u0‡v^ùRÙGrwm¸S¿uˆVatQ±0"
+ 
+ mng_wuyuetidu_title:0 "4TŠÐccw"
+ mng_wuyuetidu_desc:0 "4TŠN&^ºNXN9‚úQLˆÿY„U4l'`ÿêäSeg¿OÞ‹uÇàepeW„T„v4l^Ðccw0:N†NÄuú^'Yf„vwm›QÿbìNSV‹T0W¹e˜RÎN4TŠN&^ÔbâdOÀy„vºNMbÿ©‹ÖNìNc%cbìN„v0‚–0"
+ 
+ mng_linlangzongmu_title:0 "3ttI`îv"
+ mng_linlangzongmu_desc:0 "—g—gI`I`ÿàsH–‰s*jÿàepe„vR9‚:NbìN&^eg†NegêWSm„v0ÌR0àeº‹=fÉlÞT0^ÞTØ=fçe=nÿ0RYý=fegêÛVwm„vGYÍsVRÿO›+tÚYÄžÿÊsZt‰shÿupŸŒ†ÎwÿàeNbN	g0"
+ 
+ mng_datongtieye_title:0 "'YÁ”¶Q"
+ mng_datongtieye_desc:0 "*YVy(Wöeÿ¹ps^3–0'Y0^o‰R0*YŸSIrø‹˜R%„Á”¶QNbÿOqS‰Nöeb:N'YfgÍ‘‰„vÁ”ÿwegn0W0vQ-Nÿ'YÁ”¶QNb¶Q‘NPRÁ”ÿ:NKf-NgsO0–NwkphV„vÑSUSÿbìNôf”^ÛNekVÑSÙÌ‘ÿåNuµN3zšR0'YÏ‘„vÁ”0"
+ 
+ mng_xishuqiqianbu_title:0 "i`¸‹‰š0W"
+ mng_xishuqiqianbu_desc:0 "ÈS	gNyb‰¹eºNeg0R†N³oè•ÿÙ›NºNŒTdkMR0Reg„v‰¹eºNøvÔkÅˆmgåVÿ>NbklVlV	g<y0ÖNìN<ONNùR'Yf„våwÆ‹ˆVatQ±ÿv^hˆ:yÖNìNmN&^eg†NÖNìN„våwÆ‹ŒTfNM|ÿ…Q¹RsQŽNÑyfR0—RYeŒTz‚=gÿNqQ	gNCSYè0ÖNìNÐc®‹S³oè•RúQNWWjO:NÖNìN„v‰šYu0WÿÙ7h1SïSåN:N‡v^&^egôfY„våwÆ‹0"
+ 
+ mng_folangji_title:0 "iOÎ:gºN"
+ mng_folangji_desc:0 "^ÞTI`cw¥bJTÿwmNeg†NN²ÅˆmgGYV„vV¦ºNÿÖNìN±RðyêñT=fÎNeÜ'Ym„væSNïzeg„vÿv^hˆ:yêñTùRN¹e„vN›NbYˆOFUÁT^—8^atQ±ÿ÷‹Bl‡v^PÙuÖNìN³oè•ÙWW‰š0W›OÖNìN‚fYu0bìN”^SVwwÙ›NºNýwÙubìN&^egÀNHN0"
+ 
+ mng_xixuedongjian_title:0 "‰QÜb˜R"
+ mng_xixuedongjian_desc:0 "‰¹eeg„vfRw«ˆbìNðy:N‰QÿÖNìNòTÏu·ƒÆQ(WbìN„v…Q÷^-NûNLwÿ:NbìN„v»ltÐc›O‰måwÆ‹„v…PO0–NwN‰²NŽVnÆRÆ–ÿ	g¸‹YfRëXòTÏuaÆ‹0R‰måwÆ‹„vHQÛ'`ÿÐc®‹ú^Ëz‰fRjO:NfRÆ‹NîvÿNè•¥c³uŒT8T6e‰måwÆ‹0"
+ 
+ mng_tunmenchongtu_title:0 "oSè•²Qz"
+ mng_tunmenchongtu_desc:0 "‰mºNNI`=fíp1råwÆ‹ŒTŒTs^ÿ‹NžRN'YfN‰¹e„vRg¥cæ‰v^N—r	aëVÿiOÎ:gºNNÅNNùR‡v^i`ÆQ„v‰šNb0WÃV`aÀoÿØ‰Bl:V`S³oè•jO:N8fÙz0(W—V0R†NÒbÝu„vTrYKNTÿiOÎ:gºN¿O»SŽV†N^ÞTwm¸S„voSè•›Sÿ(WNb—îOú^†NåT‹NŒT®pðSÿNöepûQbìN„vFU9‚0=fïSÍVŸqNïSÍVÿ4l^ÐccwjlÐ’òTÏu†˜‹Tÿ2knRiOÎ:gºNÿÙ1S=foSè•wmb„vwàV0oSè•KNTiOÎ:gºNÎ˜´fÓN‡v»y^ÞTwm¸Sÿ–TNEN„v‰IƒŒnwmb-NÿiOÎ:gºNmc1Yè`Í‘ÿN—VN®‹ŒT0"
+ 
+ mng_dongnankouhuan_title:0 "NWSÇR±`"
+ mng_dongnankouhuan_desc:0 "2N¦^K„%KNTÿiOÎ:gºNv^¡l	g>eVùRNWS¿lwm„vÎ‘ÃVÿÖNìNlwŒb0R†NNpS¦åe,gÿNvQÛLˆ†NÆRŒÿ=ec-PÇR«R c'Yf¿l¸S0fNWS¿lwmNôvq™×SAmÇRKN±`ÿ°s(WÖNìN	g†NiOÎ:gºN„v=ecÿaÑSØS,g R‰S0NåwOuç`0Ûegx.7Y9‚ÖS—V†N¸‹Y6e·ƒÿÅVïS(uŽNNwmaƒÇRKN‹NÿæSäQ3–ºNbS›QçuIQòT†˜‹TnR-PÇRÿå‚ýwÖSÜwÿRiOÎ:g*S±`¦NïSs^ãw0"
+ 
+ mng_nanyangxuanwei_title:0 "WSm±Rpa"
+ mng_nanyangxuanwei_desc:0 "(WWSm	gàepe'Y'YSS„vWºNju¦0(WˆV•„vNµköeô•Ì‘ÿÙ›Nju¦êS=fvPScOg!ÿbÏ‹fNN¾ÿb!ON¾ÿwmïîOÜÿàeïSŒcác0°s(Wÿ'YfòTÏuåb	g†Npe=eàeÔk:V'Y„v0‚–ÿƒRìNSb:Nf(WWSm„vwmN!X’WÿñbkSË–„vwmßWÿZgÎ‘î†„vwmÏe0åegNbgqÿwmAmNbóÿ†v^Sb'Yf†uW0"
+ 
+ mng_shenjitiechong_title:0 "^y:gfkY"
+ mng_shenjitiechong_desc:0 "8lPN^Ðc¹p^y:g%„ÿåN^y:gÁ”®p(WMRÿ‘šuQèrŽN›QâV-N.YÿåNdkbÕl”NO™„äSÿàeNNKQ0(WnxÝO†N3zšR„v¢”Á”µNúQTÿbìN”^SVwQ†SkphVÓbUS0R	N›QKN-NÿÄuú^N=ekpªgè–ÿTöex`NÁ”®p„v6RÕlÿv^¨‹º‹ôVÎWb=gŒT2–ˆRVreu„vi—°e0"
+ 
+ mng_tiepaomengchong_title:0 "Á”®ph‚m‚"
+ mng_tiepaomengchong_desc:0 "ÑŒT„vR9‚0‚–1SòTÏu‰Rn	gÁ”®pÿYåN—xãS®p:NINÿãS„VƒSÿZ›RmNN,‚0TiOÎ:gºN„v²NAmObìN·ƒÖS†NÖNìNôf:NHQÛ„vÁ”®pÿÇxvzÖNìN„vÁ”®pÿbìN6Rb†N¢u7Y'Y®pÿv^SvQ‰RnŽNR9‚KNNÿÇ‘(uµOüVkp„vb=gÿžX:V†NR9‚„vb—e›R0"
+
+ mng_taiwan_title:0 "Ïueu	tt"
+ mng_taiwan_desc:0 "(WN‰¹eºNpe!k²N•KN-NÿbìNaÆ‹0R†Nµc6R›SSùRŽNŒcµcwmm„vÍ‘‰'`0dkMRNwm„v	ttø‹SNôv«ˆÆ‰:N-NŸS‹sg„v¿R›RƒôVÿSV0WWºNgvQÎ‘î†wNg‹sSÿbìNNôv^gÇ‘ÖS)nŒT„vVreuùRÖNìNÛLˆTS06qwÿiOÎ:gºN„v0RegO—V)nŒT0ba„vVreuNQžR(uÿbìNNýwAQ¸‹iOÎ:g<ÇR`SncÙµ^›SSÿ±SZÁw0RNWS¿lwm„v‰RhQ0"
+
+ LDH_ciallo_mng_event_namespace.1.t:0 "G•mlœ^(gPgÇ‘pN"
+ LDH_ciallo_mng_event_namespace.1.d:0 "G•mlœ^†Seg=ff„v9‚wQ'Y=nÿT0WFUºN†vTdkÐŒT).U(gPg01uŽNùRwmY¢c0t„v—BlNåeñOžXÿg÷^³QšRyr>m˜RXTåNØš÷N'YÏ‘Ç‘-FUºNìNKb-N„v(g™eÿåNYx.R9‚KN(u0Nöeô•ÿ'YÏ‘FUºNMRŽVsQYpNÛSV0W(gPg0"
+ LDH_ciallo_mng_event_namespace.1trans:0 "^Æ–Œv(gÿ›OR9‚(u"
+ 
+ LDH_ciallo_mng_event_namespace.2.t:0 "wmYGY™™"
+ LDH_ciallo_mng_event_namespace.2.d:0 "™ŸŽm™™ÿÈST™Ÿy™™ÿgR=f1uIlgºN6RjO„v0²NÞTN&^„vnlÎNwmN^cÞV†NNÍyonm„vppr‚âV¶rirÿRÉ‰GYe¾–ÍVÿVnàQåe…Vr^åqTÿY˜É‰GY™™àeÔkÿHTÙu1WNPT™ŸŽm™™0U‹RöeºNúQwmUc¸œÿÖSvQy…Q™ŸŽm™™6R™™|™ÿTÆrWR™™ÿCg5NÄwuœU1rKN0°s(WÿùRWSm„vVÓbO—V™ŸŽm™™	g†N3zšR„vµNúQegnÿ^ÞTFULˆteåe2cán†NBl-™ŸŽm™™|™„vFUºN0"
+ LDH_ciallo_mng_event_namespace.2trans:0 "GY™™ÖvN"
+ 
+ LDH_ciallo_mng_event_namespace.3.t:0 "'Yf„vÁ”¶QNb"
+ LDH_ciallo_mng_event_namespace.3.d:0 "+YkphVKN(uÿàeô•äSÊNÿàeô•IeˆRÿvQÍyžRY0‚YÑS•qÿsS^y:g0'YS›Q0ŒNS›Q0	NS›QÿZsàeLeÿ4xLeïSbNˆïÿIeÎWïSOËzŽxÿäSß`Ü”Á”ø”bwÿê^NöS›Qè•ËYåNŸqÁ”Sb.ÿƒø”wÜãw0"
+ LDH_ciallo_mng_event_namespace.3trans:0 "ïSEQ^y:g%„fkY"
+ 
+ LDH_ciallo_mng_event_namespace.4.t:0 "NwmKNIN"
+ LDH_ciallo_mng_event_namespace.4.d:0 "êoSè•0‰IƒŒnÞÜwTÿiOÎ:gºNÓN‡vÞVlšmQ2uÿ6qwvQ<ÃVN‰kÿÈSMRŽVNm=ec-PÇRÿNöeô•ObNWS¿l¸S*S×v*jLˆ0bS›QçuIQ†˜‹T—b-PÿASYOt^ô•aƒs^Nm-PÇRÿäNiOÎ:gAmºNgwuOuÿNbeYÛ¯r0"
+ LDH_ciallo_mng_event_namespace.4trans:0 ")YàeŒNåeÿWàeŒN‹s"
+ 
+ LDH_ciallo_mng_event_namespace.5.t:0 "N¹e„v1Y)R"
+ LDH_ciallo_mng_event_namespace.5.d:0 "lšmQ2uI`cwÞV¥bÿbìN„v0‚–«ˆfºNKSpe|kmpÿ—V0RbìN=ec„vwm×vâV–mNòTCP×eo`Ÿ0NbeYúQ0wegbìN(WN¹e„vªR›RòTÏu‰V•^4xµN†N0"
+ LDH_ciallo_mng_event_namespace.5trans:0 "bìNêS—VTN1Y%„væ‚œg"
+ 
+ LDH_ciallo_mng_event_namespace.6.t:0 "iOÎ:gºNÿ"
+ LDH_ciallo_mng_event_namespace.6.d:0 "^ÞT„vFUºNìNgÑŒº‹NwN²ÜSweg„v¢RºNÿÖNìNêðy=fegêeÜ'Ym„væSNïzÿXN9‚eg0RÙÌ‘=f:N†NZPua0N›NfRwwßR†NMRºN„vxQM|ÿ²‹:NÙ›NºNˆVïSýw=fNbŒ„viOÎ:gºN0©‹bìNwwÙ›NºNýwÙubìN&^egÀNHN0"
+ LDH_ciallo_mng_event_namespace.6trans:0 "Ù›N¢uÑSî†7YegêêTÌ‘ÿ"
+ 
+ LDH_ciallo_mng_event_namespace.7.t:0 "‰fRNn"
+ LDH_ciallo_mng_event_namespace.7.d:0 "‰mQëXÙubìN&^eg„vfNM|-N°‹‹NwàepeR5„våwÆ‹ÿg'Y0WÓbËR†NbìN„v<wLu0	g¸‹YfRëX²‹:NÿbìN”^SVwQ†SÙ›NfRî•³ueQbìN„vßu»l¹eÕl0uµN¹eÕlŒT›Q‹Nb=gSV-Nÿ^7Y•ŽbåN6R7Y0"
+ LDH_ciallo_mng_event_namespace.7trans:0 "åN|VKN•ÿeˆbKNíw"
+ 
+ LDH_ciallo_mng_event_namespace.8.t:0 "	tt=nãS"
+ LDH_ciallo_mng_event_namespace.8.d:0 "	tt›S†Seg=fb-NŸS‹sg„v¿R›RƒôVÿ6qwNiOÎ:gºN„v²N•ObìNaÆ‹0R†NÙµ^S›S„vbeu÷N<P0bìN„vÓbN–‰vN†NÙµ^EQán†NØšqSŒT4vl„vS›Sÿ(Wµb—b†Npe!kSV0WÎ‘ºNùRbìNO'Y‹NN„vÎ‘î†4xOWKNTÿbìNÈuŽN(W›SSWSèú^Ëz†NN*Nnc¹p0aó`N0R„v=fÿÙÌ‘	g¸‹YO(„vv–W0"
+ LDH_ciallo_mng_event_namespace.8trans:0 "v–W6Rb÷thVÿÎ‘ºNvÛqS-N"
+ 
+ LDH_ciallo_mng_event_namespace.9.t:0 "WSm±Rpa"
+ LDH_ciallo_mng_event_namespace.9.d:0 "àeº‹=f^ÞT0²NÞTÿØ=fçe=n0âl<Sÿ0RYýýwwÁ‰bìNž^'Y„vR9‚09‚N‹án†NTÍyGYÍsVRÿaŒVNw'Yf„v0ÌRÿ9‚7‚‰RnNwb’c„vèT‹WÁ”®pÿaŒVNw'Yf„vfkŸR0‚Yœg	gûNUOºNÆwbecb'Yf„vCgZÿbìN„v0‚–1SOŠbÖNìN„výV¶RŒTãlpbNˆ‰wQŸ‰|0åegNbgqKN0Wÿ†v=fb'Yf†uW0"
+ LDH_ciallo_mng_event_namespace.9trans:0 "åegØš¬`ÿnfgqWSm"
+
+ mng_chuanjudecaifu:0 "R9‚(g™e"
+ mng_xunxiangdecaifu:0 "ÆrWR™™|™"
+ mng_tikuangdekaifa:0 "˜R%„Á”¶QNb"
+ 
+ #trigger
+ LDH_ciallo_mng_trigger_1_tt:0 ""
+ 
+ 
+ #event insight
+ LDH_ciallo_mng_event_insight_1_tt:0 "\n §G‹NöNMR»w§! ÿg÷^>mcúQyrOÿ?aaåNØš÷N6e-FUºNìNKb-N„v(gPg0ÙOüRô9‚wQ„v÷N<hGSØš0"
+ LDH_ciallo_mng_event_insight_2_tt:0 "\n §G‹NöNMR»w§! ÿWSmUc¸œ9‚&^ÞVeg„v™Ÿy™™(W^ÞT^:WN×S0RCg5ìN„vípÈpýgcÿÙSüRôq™™„v÷N<h%`gRGSØš0"
+ LDH_ciallo_mng_event_insight_3_tt:0 "\n §G‹NöNMR»w§! ÿT˜R%„Á”¶QNb„vbËz©‹bìN„v¢”Á”µNÏ‘ÅžX Rÿ6qwøvÔkŽNx6RkphV„v—BlÿÙØÜÜNY0g÷^Ø(WçuíuûRBl¢”Á”„vegnÿÙOüRô¢”Á”„v÷N<hNGS0"
+ LDH_ciallo_mng_event_insight_4_tt:0 "\n §G‹NöNMR»w§! ÿåNfk›RnR-PÇRÿQåNÄ‰!jž^'Y„v0‚–ÝO²bbìN„vNWS¿lwmÿÇR±`ïS8lÝuãw0"
+ LDH_ciallo_mng_event_insight_5_tt:0 "\n §G‹NöNMR»w§! ÿNiOÎ:gºN„v²NAm©‹bìN¥cæ‰0R†NN›Nû•Nb*gû•„v‹Nir0"
+ LDH_ciallo_mng_event_insight_6_tt:0 "\n §G‹NöNMR»w§! ÿðSŒn›SØšqS—gËz04vl*jLˆÿÎ‘î†WºNœzLˆgô•0bìN„vVÓbw¾‹Õl(W›SSWSèŒb0R†NNYs^0WÿtSaYÑS°s†N'YÏ‘„vv–W0"
+ LDH_ciallo_mng_event_insight_7_tt:0 "\n §G‹NöNMR»w§! ÿÙ*N‹NöN±RJT†NwmNNøuKNï(WWSm„vú^Ëz0"
+ 
+ #modifier
+ LDH_ciallo_mng_modifier_1_tt:0 "\n [1821.GetName] „v™Ÿml.9‚‚SŒT [669.GetName] „v•PN.9‚‚Sþf16R.ÑŒT„vR9‚0‚–0–Nwwmy?eVr„v6e'tÿÙ2Nµ^.9‚‚Sn«ˆsQjP0°s(Wÿ:N†N'Yf„vwmm‹NNÿbìNSÍ‘=TÙ2Nµ^.9‚‚S0"
+ LDH_ciallo_mng_modifier_2_tt:0 "\n ‚YœgbìNŒRbûN¡RöeóSåb	g50000„v4lKbNP–ÿbìNØS·ƒ—V‚YNVY±Rÿ"
+ LDH_ciallo_mng_modifier_3_tt:0 "\n ‚YœgŒRbûN¡RöeÿbìN(WlšmQ2uwmáSåb	gg:V„v8fÞz‰N›RÿbìNØS·ƒ—V‚YNîOckÿ"
+ LDH_ciallo_mng_modifier_4_tt:0 "\n ‚YœgbìNŒRbûN¡RöeòT=T(uÛIetõVÿbìNS·ƒ—Vÿ"
+ LDH_ciallo_mng_modifier_5_tt:0 "\n ‚YœgbìN(WŒRbûN¡RöeòT=T(u2–ˆRtõVÿbìNS·ƒ—Vÿ"
+ LDH_ciallo_mng_modifier_6_tt:0 "\n ‚YœgbìNåNú^.60X‚R9‚èT0‚:NŒRbûN¡R„v¹eVÿbìNS·ƒ—Vÿ"
+ LDH_ciallo_mng_modifier_7_tt:0 "\n ‚YœgbìNåNú^.120X‚™„²QëVG‚:NŒRbûN¡R„v¹eVÿbìNS·ƒ—Vÿ"
+ LDH_ciallo_mng_modifier_8_tt:0 "\n ‚YœgbìNNûNUO–™ýMOŽN[1020.GetName]„výV¶Råb	g150¹p‹Ya¦^ÿbìNS·ƒ—Vÿ"
+ LDH_ciallo_mng_modifier_9_tt:0 "\n bwÿ‚YœgbìNùRûNUO–™ýMOŽN[1020.GetName]„výV¶RÛLˆ†NY²N®O±ÿbìNS·ƒ—Vÿ"
+ LDH_ciallo_mng_modifier_10_tt:0 "\n iOÎ:gºNncoSè•›SåN«R cb^ÞT¿l¸SÿÐccwjlÐ’òT†˜‹TaƒÇRÿ·ƒ—Vÿ"
+ LDH_ciallo_mng_modifier_11_tt:0 "\n ‡v^ùR‰mºN„våwÆ‹ˆVatQ±ÿi`ÆQÙ›N‰mºN‚föe‰šYu(W³oè•ÿåNTbìNÛLˆ²NAmŽVegÿ·ƒ—Vÿ"
+ LDH_ciallo_mng_modifier_12_tt:0 "\n ‚YœgŒRbûN¡Röeÿ¡l	gûNUO'k2mýV¶R„v6eeQÔkbìNôfØšÿbìNØS·ƒ—Vÿ"
+ 
+ #hidden effect
+ LDH_ciallo_mng_hidden_1_tt:0 "\n bìN»lNÏkN*NîOú^	g.9‚‚Sb'Y9‚‚S„vwýNýS·ƒ—V–klININ`noÛ¦^ §Gÿ100§! ÿTöeØS·ƒ—V,g0W.9‚±‚9ÏQMQÿÙNîOck=f8lEN„v0"
+
+ mng_chuanju:0 "G•mlœ^9‚wQ8f"
+ mng_baochuan:0 "R9‚Õ‹*‚"
+ mng_longjiangzaochuanchang:0 "™ŸmlR9‚‚S"
+ mng_changlezaochuanchang:0 "•PNR9‚‚S"
+ mng_caogang:0 "ø‹R9‚‚S"
+ mng_chongxiananyang:0 "Í‘NWSm"
+ mng_jiugang:0 "çe=n"
+ mng_mljhaiyuan:0 "lšmQ2u4lKb"
+ mng_bujingchuan:0 "WSmUc¸œ9‚"
+ mng_wuyuetidu:0 "4TŠÐccw"
+ mng_linlangzongmu:0 "3ttI`îv"
+ mng_nanyangjugang:0 "WSmèT=n"
+ mng_huayigongshi:0 "NS7YqQ^"
+ mng_shengongyaowei:0 "^yŸRwZ"
+ mng_wuchengyonggu:0 "fkb8lúV"
+ mng_hongyijianpao:0 "¢u7Y0‚®p"
+ mng_wuqianliao:0 "”NCS™e"
+ mng_zhaozouge:0 "ùhp8‚"
+ mng_yongjuekouhuan:0 "8lÝuÇR±`"
+ mng_donghaishanglu:0 "NwmFUï"
+ mng_qingjiaowokou:0 "ÝOlaƒÇR"
+ mng_folangji:0 "iOÎ:gºN"
+ mng_xsqqb:0 "‰fNNCSè"
+ mng_xsqqbgk:0 "‰Q‰š0W"
+ mng_wanshiwanguogangdu:0 "NNNýV=ný"
+ mng_nanyangsifanggangdu:0 "WSmÛV¹e=ný"
+ 
+ mng_jueduiquanwei:0 "N¹e„vÝuùRCgZ"
+ mng_dongyangshili:0 "N¹e„v1Y)R"
+ mng_xifangdezhishi:0 "N‰BgÎO"
+ mng_riyuesuozhao:0 "åegNbgqÿwmAmNbó"
+ 
+ mng_gaigeheguzhidu:0 "9ei—ŒTÇ–"
+ mng_tiangong:0 ")YåT"

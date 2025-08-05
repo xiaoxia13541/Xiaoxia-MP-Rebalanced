@@ -3026,7 +3026,7 @@ Royal_Hill_of_Ambohimanga = { # 皇家蓝山行宫
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 1
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
 
 	build_trigger = {
@@ -3480,7 +3480,7 @@ Ribeira_Grande = { # 大里贝拉
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 1
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
 
 	build_trigger = {
@@ -3842,7 +3842,7 @@ Agadez_Trans_Saharan_Trading_Town = { # 阿加德兹绿洲
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 1
-	starting_tier = 0
+	starting_tier = 1
 	type = monument
 
 	build_trigger = {

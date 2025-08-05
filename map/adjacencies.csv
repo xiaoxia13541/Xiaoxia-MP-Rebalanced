@@ -3,7 +3,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4651;2745;canal;4657;-1;-1;-1;-1;Tsushima-Gyeongju JAPAN
 1818;4651;sea;1376;-1;-1;-1;-1;Chikuzen-Tsushima JAPAN
 2159;666;sea;1370;-1;-1;-1;-1;Zhanhjing-Kiungchow China
-1033;1031;sea;1386;-1;-1;-1;-1;Sakhalin-Peni'un'kur JAPAN
+6440;1031;sea;1386;-1;-1;-1;-1;Sakhalin-Peni'un'kur JAPAN
 5850;1829;sea;1372;-1;-1;-1;-1;Xiamen-jinmen China
 5851;2155;sea;1372;-1;-1;-1;-1;Dadu-Penghu TAIWAN
 4350;656;sea;1395;-1;-1;-1;-1;Manila-Mindoro PHILIPPINE

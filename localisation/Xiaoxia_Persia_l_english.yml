@@ -1,0 +1,54 @@
+﻿l_english:
+
+ qom_freedom_title:0 "[Root.GetAdjective]„v†˜–ˆ"
+ qom_freedom_desc:0 "bìNÅV‰˜(WsSS0Reg„vÎ˜´f-NÝOkS[Root.GetName]ýV¶R‰RhQ0bìN„v[Root.Monarch.GetTitle]ÅV‰˜hˆfÿbìN=f^(g?Q‹sMO„vTÕlßu»lw0"
+ qom_persia_one_title:0 "=eM‘Nâl¯e"
+ qom_persia_one_desc:0 "êwmŒn¿l¸SNôvö^8O0RNb<hW¯eqS	„vq„ÁW0Wÿ=f^(g?QWµN„vsQ.•èR0bìNSÎN±›NÆwbe±Rðyçub^(g?QWµN„víPŠwKb-N:YÞVW0W0"
+ qom_persia_two_title:0 "=eM‘Nâl¯e"
+ qom_persia_two_desc:0 "Nb<hW¯eqS	ÿÇ»Sþf=fbýV‰¹e„v)Y6q¹Lu0nxÝObýVùRƒR„vßu»lQ!k«ˆb`Y0"
+ qom_khorasan_one_title:1 "=eM‘‰|TWÊs"
+ qom_khorasan_one_desc:0 "bìNòTEe„vTINÛPR^(g?QYuN„vÃV0W&^=fbìNWµN„v8hÃV0SVbìNåb	gƒRìN„vöePÿbìN„v±RðyMbO	gôfY„v÷N<P0"
+ qom_khorasan_two_title:1 "=eM‘N|TWÊs"
+ qom_khorasan_two_desc:0 "‰|TWÊsö^8O0RpS¦^„vVýVKN0WÿùRbìN‹sýV„vcíubŸRósQÍ‘‰0"
+ qom_army_built_title:0 "b‰NÆQY"
+ qom_army_built_desc:0 "O'Y„v^(g?QþfÏuäNNb	gýV¶RÆwÒR0`—N=eS—VïS`„vè–ÿbìNÝuàeïSýw:YÞVÖN„vWµN0"
+ qom_indian_raid_title:0 "«R cpS¦^"
+ qom_indian_raid_desc:0 "èÇV=OSqSãS1S=fÌRv™„vÁennfs^ŸS0©‹bìN¿lNwVyHQ„v³ùIeeQÙÌ‘ÿ:NbìN„v‹sgb—VO'Ycƒwÿ"
+ qom_conquer_punjab_MUG_title:0 "VgÁennf"
+ qom_conquer_punjab_MUG_desc:0 "pS¦^„vÌRv™Ü…bìN„vó`aŒ0©‹bìNëVlš R­—ÿgîXKNRO„v·VÌ‘ÎWMRÛÿ"
+ qom_conquer_delhi_title:0 "Vg·VÌ‘"
+ qom_conquer_delhi_desc:0 "O'Y„v^(g?QàV:NùR¹eTÜbvPÏP(W1398t^m«Rv^gdÁk†N·VÌ‘0=föePÞV0R±Ì‘ŒRbÙy˜ûN¡R†Nÿ·VÌ‘ÅV‰˜«ˆVgŒTm«R0"
+ qom_transoxiana_one_title:0 "=eM‘NèIƒŸS"
+ qom_transoxiana_one_desc:0 "‹†6qW0Wr^ñe0øRIƒNuÿFOÙGrW0Wt”^^SŽNbìN0"
+ qom_transoxiana_two_title:0 ":YÖS‰èIƒŸS"
+ qom_transoxiana_two_desc:0 "=föePjPbkIƒŸSèÏeàeKS„v·u‰N5Tù•†Nÿ©‹bìN†˜üRÖNìNÍ‘°eâVÓuweg0"
+ qom_stability_title:0 "3zúV[Root.GetName]"
+ qom_stability_desc:0 "býVÅV‰˜3zšRNegÿÆQY‹Y”^ùRNRcb0&TRÿNRVgý=f¸uNŒuQ0"
+ qom_build_army_mission_title:1 "ýV¶RF–›Q"
+ qom_build_army_mission_desc:0 "ûNUON*NTw-N„výV¶RýÅV‰˜ôucN=eÄ‰!jïSÂ‰„v›Q–0Çib'YbìN„v›Q‹N›RÏ‘ÿbìNâeïSåNÃOÛbìN(WýVY„v?e»l)RÊvÿmNïSåN:RÀobìN„výV…QÏuNm0"
+ qom_expand_country_mission_title:1 "ÝO²b[Root.GetName]"
+ qom_expand_country_mission_desc:0 "VyHQYuÙubìN„vÿ=fN*N:V'YwÌR³„výV¶R0=föePö^íuVyHQWµN0ib.V[Root.GetName]†NÿÙ7hbìN1SïSåNŠbN*Nôf:V'Y0ôf	gqVÍT›R„výV¶RYuÙubìN„vPRYRìN0"
+ qom_conquer_states_title:1 "ibUS‹s²R†˜0W"
+ qom_conquer_states_desc:0 "–NwbýV†˜W„vib.VÿbìNÅV‰˜nxÝOýwYwckS°eVg„vW0W³ueQLˆ?e:g„g¡rt0ú^Ëz[Root.GetAdjective]„vßu»lMb=fVg†˜WTgp‚æ‚„våTjO0"
+ qom_unite_home_region_title:1 "ßuNâl¯e"
+ qom_unite_home_region_desc:0 ":N†Nb—ùRb‰N„vwŒšÿÅV‰˜SýV›R•beQŽN›Q–ú^¾‹0býVÅVSTw:Nwck„v0W:S8—INÿ:NhQNLuNbOuç`wSÍ‘0"
+ qom_conquer_tabriz_title:0 "Vg[416.GetName]"
+ qom_conquer_tabriz_desc:0 "býV„v‰¹e=f[416.GetName]ÎW0ùRûNUOå‹0W:STw„vVgwwŠÿå‹ÎWý=fÍ‘‰„vCg›R-NÃV0:YÖSƒRNšROÐc=cb›Q„vëXlÿmNýwSbýVnxËz:NïSýwßuNå‹0W:S„v	g›RÞz‰Nw0"
+ qom_into_persia_title:0 "IeeQâl¯e"
+ qom_into_persia_desc:0 "býVßuN0W:S„v—e‰Nëkàe‘uî•SËYŽNIe`SMOŽNâl¯e„veh4Y!X0‚YœgbìNó`ÝO²bºNl0V†uibWÿ±1SÅV‰˜ú^Ëz3zúV„v†uLuv^µb¡VYèZÁw0"
+ qom_conquer_shirvan_title:0 "Vg^SáQ"
+ qom_conquer_shirvan_desc:0 "býV„vN¹e=fH–PN*X„v^SNárCg5ÏeìN0ÖNìNýBlìrËzNINCg„v?agN<PNÂT0bìNÅV‰˜ÅSb®WÖNìNÿåNv(WbýV„vùRKbKNMRSÖNìN„vW0W³ueQ¾žN0"
+ qom_establish_the_safaviyya_title:0 "Rú^(„ÕlôuYeâV"
+ qom_establish_the_safaviyya_desc:0 "ÝOkSbìN„vfR=g0‡eS0—RYeåNÊSbìNºNlìrNàeŒN„v«ŽýN²‹T”^SV=fbìN„v–™‰Lw10bìNïSåNÇRú^N*N›Q‹NYeâVeg:NbìN„vºNlÐc›OZWžR„vTþv0"
+ qom_rise_safavids_title:1 "(„Õlôu„vTw"
+ qom_rise_safavids_desc:1 "O'YËYŽNQS®VÿÙåSÝ‹(uegÏcðbìNb•:N:VCg„vÏu†SžR(W=fQ¾|™YNÇ†N0ÎN[424.GetName]„v²qS-NTwÿQ0RùR[416.GetName]ŒT[421.GetName]IQcƒ„vVgÿbìNŠbN*N1VS„v0ŒkýVØSb†NN*NO±›N„YþVár:YbìN4YTˆ„vºNû•Î˜'NÆw„v:Vw0¡l•ÿÙS=fN*N[Root.Monarch.Dynasty.GetName]„vªuCQÿ"
+ qom_establish_qizilbash_title:0 "ú^ËzGYyQSôTÀN"
+ qom_establish_qizilbash_desc:0 "bìN—‰:V`wàVÚ‹„vbëX»SÝOkSºNlÿûQegLe0Çú^ËzN=eêSùRbìN†˜–ˆàVÚ‹„v°e›QâVÿbìNïSåNnxÝO…QY‰R5X0"
+ qom_effective_governance_title:0 "ØšHe?eœ^"
+ qom_effective_governance_desc:0 "býV„vLˆ?e¡rtIN‰O`—¨cLˆYeÕl»lýV„vT†Ú‹˜RXT0ÝOœ–Ù›N˜RXT„vpeÏ‘ŒTýw›R1S=fÝOœ–býV8hÃV†˜W„vo‚‹YÐLˆ0"
+ qom_promote_piety_title:0 "‰VYT†le"
+ qom_promote_piety_desc:0 "b—ùRYèTÍyöQi–„vcbÿbìNÅV‰˜US:ybìNùRáOðNZWšR„vT†Ú‹ÿåNbìN„váOðN:N„š²Pÿán`ÀoÅ`0W»SÞVûQ±›NÕ‹þV¹bNgbìN„vNáOw0"
+ qom_clerical_reward_yes_tt:0 "£yes£‚YœgbìNŒRbå‹ûN¡RöeòT=T(u0§Y¡l6eYeO0WµN§!0ÿR·ƒ—VVY±Rÿ"
+ qom_clerical_reward_no_tt:0 "£no£‚YœgbìNŒRbå‹ûN¡RöeòT=T(u0§Y¡l6eYeO0WµN§!0ÿR·ƒ—VVY±Rÿ"
+ qom_minorities_reward_yes_tt:0 "\n£yes£‚YœgbìNŒRbå‹ûN¡RöeòT=T(u0§YŽ÷‹ýVYSpeÏe²§!0ÿR·ƒ—VVY±Rÿ"
+ qom_minorities_reward_no_tt:0 "\n£no£‚YœgbìNŒRbå‹ûN¡RöeòT=T(u0§YŽ÷‹ýVYSpeÏe²§!0ÿR·ƒ—VVY±Rÿ"

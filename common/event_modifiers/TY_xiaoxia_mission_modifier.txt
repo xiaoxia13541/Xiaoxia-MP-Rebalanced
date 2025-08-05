@@ -140,7 +140,7 @@ great_qic_army = {
 }
 
 qic_taishan_legion = {
-	global_defender_dice_roll_bonus = 1
+	own_territory_dice_roll_bonus = 1
 	recover_army_morale_speed = 0.15
 }
 

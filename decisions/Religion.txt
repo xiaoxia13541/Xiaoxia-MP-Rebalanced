@@ -2617,6 +2617,10 @@ country_decisions = {
 		}
 		allow = {
 			owns_core_province = 1
+			OR = {
+				owns_core_province = 17
+				owns_core_province = 12
+			}
 			stability = 1
 		}
 		effect = {
