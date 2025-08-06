@@ -1037,3 +1037,857 @@ h_yue_tier3_4 = {
 		}
 	}
 }
+
+ZE_yue_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR ={
+			tag = YUE
+			was_tag = YUE
+		}
+	}
+	has_country_shield = yes
+	yue_naval_supply_manufacturing = {		 # 百木交集
+		icon = mission_naval_supply_manufacturing
+		required_missions = { }
+		position = 10
+		trigger = {
+			num_of_owned_provinces_with = {
+        		trade_goods = naval_supplies
+				OR = {
+					has_building = workshop 
+					has_building = counting_house
+				}
+        		value = 5
+      		}
+			2145 = {
+        		development = 30
+				OR = {
+					has_building = workshop 
+					has_building = counting_house
+				}
+        	}
+		}
+		effect = {
+			add_country_modifier = {
+				name = yue_timber_of_ship		
+				duration = 7300
+			}
+			country_event = {
+        		id = LDH_ciallo_yue.1		
+        	}
+			custom_tooltip = LDH_ciallo_yue_event_insight_1_tt 
+		}
+	}
+
+	yue_massive_fleet = {	 # 广造宝船
+		icon = mission_yue_massive_fleet
+		required_missions = { yue_naval_supply_manufacturing }
+		position = 11
+		trigger = {
+			num_of_light_ship = 80
+			num_of_owned_provinces_with = {
+        		OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+        		value = 20
+      		}
+			OR ={
+				navy_tradition = 60
+				full_idea_group = naval_ideas
+			}
+			669 = {
+        		num_of_times_improved = 3
+					OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+        }
+		effect = {
+			add_country_modifier = {
+				name = yue_first_flagship		
+				duration = 7300
+			}
+			custom_tooltip = LDH_ciallo_yue_modifier_1_tt
+				669 = {
+					add_province_modifier = {
+						name = mng_changlezaochuanchang		
+						duration = -1 
+					}
+					add_institution_embracement = {
+            			which = new_world_i
+            			value = 100
+          			}
+				}
+			
+			custom_tooltip = LDH_ciallo_yue_hidden_1_tt
+			hidden_effect = {
+        		every_owned_province = {
+          			limit = {
+            			OR = {
+							has_building = shipyard
+							has_building = grand_shipyard
+						}
+						NOT = {
+							province_id = 669
+						}
+          			}
+          			add_institution_embracement = {
+            			which = new_world_i
+            			value = 100
+          			}
+          			add_province_modifier = {
+            			name = mng_caogang_shipyard		
+            			duration = -1
+          			}
+        		}
+      		}
+		}
+	}
+
+	yue_palembang_commission = {	# 诏封旧港	
+		icon = mission_palembang_commission
+		required_missions = { yue_massive_fleet yue_wu_yue_admiral }
+		position = 12
+		provinces_to_highlight = {
+			OR = {
+				province_id = 622
+				province_id = 636
+				province_id = 620
+			}
+			has_discovered = ROOT
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			AND = {
+				navy_size = 300
+				max_sailors = 25000
+			}
+			622 = {
+				owned_by = ROOT
+			}
+			596 = { is_strongest_trade_power = ROOT }
+			any_country = {
+          		capital_scope = { region = indonesia_region }
+          		OR = {
+            		has_opinion_modifier = {
+              			who = ROOT
+              			modifier = insulted
+           			}
+            		has_opinion_modifier = {
+              			who = ROOT
+              			modifier = scornfully_insulted
+            		}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = yue_sail_to_the_south		
+				duration = 7300
+			}
+			add_prestige = 10
+			622 = {
+					add_province_modifier = {
+						name = yue_palembang_trade_depot 
+						duration = -1 
+					}
+			}
+			custom_tooltip = LDH_ciallo_yue_modifier_2_tt
+			tooltip = {
+			if = {
+					limit = {
+						max_sailors = 50000
+					}
+					add_country_modifier = {
+						name = yue_malacca_sailor 
+						duration = 7300
+					}
+			}
+			}
+		}
+	}
+
+	yue_whale_ambergris = {		# 孤峤蟠烟
+		icon = mission_yue_whale_ambergris  
+		position = 14
+		required_missions = { yue_palembang_commission yue_dazzling_warehouse }
+		provinces_to_highlight = {
+			colonial_region = colonial_australia
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5 
+				colonial_region = colonial_australia
+				is_city = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = yue_southern_whaler
+				duration = 7300
+			}
+			country_event = {
+        		id = LDH_ciallo_yue.2		
+        	}
+			custom_tooltip = LDH_ciallo_yue_event_insight_2_tt
+		}
+	}
+}
+
+ZE_yue_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR ={
+			tag = YUE
+			was_tag = YUE
+		}
+	}
+	has_country_shield = yes
+	yue_wu_yue_admiral = {	# 吴越提督
+		icon = mission_yue_wu_yue_admiral
+		required_missions = { yue_naval_supply_manufacturing }
+		position = 11
+		trigger = {
+			max_sailors = 20000
+			navy_tradition = 40
+			2149 = {
+        		num_of_times_improved = 3
+				OR = {
+						has_building = dock 
+						has_building = drydock 
+					}
+        	}
+			684 = {
+        		num_of_times_improved = 3
+				OR = {
+						has_building = dock 
+						has_building = drydock 
+					}
+        	}
+			1824 = {
+        		num_of_times_improved = 3
+				OR = {
+						has_building = dock 
+						has_building = drydock 
+					}
+        	}
+			1822 = {
+        		num_of_times_improved = 3
+				OR = {
+						has_building = dock 
+						has_building = drydock 
+					}
+        	}
+		}
+		effect = {
+			add_country_modifier = {
+				name = yue_wu_yue_admiral
+				duration = 7300
+			}
+			create_admiral = {
+				tradition = 90
+			}
+		}
+	}
+	yue_dazzling_warehouse = {	# 琳琅总目
+		icon = mission_yue_dazzling_warehouse
+		required_missions = { yue_palembang_commission }
+		position = 13
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					region = malaya_region
+					region = indonesia_region
+					region = moluccas_region
+				}
+				has_manufactory_trigger = yes
+				value = 15
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = yue_dazzling_warehouse
+				duration = 7300
+			}
+			622 = {
+					remove_province_modifier = yue_palembang_trade_depot
+					add_province_modifier = {
+						name = yue_palembang_trade_bureau 
+						duration = -1 
+					}
+				}
+			custom_tooltip = LDH_ciallo_yue_modifier_3_tt
+			if = {
+				limit = {
+          			596 = {
+						is_strongest_trade_power = ROOT
+					}
+        		}
+        		add_country_modifier = {
+          			name = yue_shared_foreign_market
+          			duration = -1
+        		}
+			}
+		}
+	}
+}
+
+ZE_yue_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR ={
+			tag = YUE
+			was_tag = YUE
+		}
+	}
+	has_country_shield = yes
+
+	yue_datong_iron_mining = {	# 大通铁冶	
+		icon = mission_yue_datong_iron_mining
+		position = 10
+		required_missions = { }
+		
+		trigger = {
+			trade_goods_produced_amount = {
+				trade_goods = iron
+				amount = 40
+			}
+		}
+		effect = {
+			distribute_development = {
+					amount = 20
+					type = production
+				}
+			country_event = {
+        		id = LDH_ciallo_yue.3		
+        	}
+			custom_tooltip = LDH_ciallo_yue_event_insight_3_tt
+		}
+	}
+
+	yue_shenji_regime = {	# 神机武备	
+		icon = mission_yue_shenji_regime
+		required_missions = { yue_datong_iron_mining yue_frankie_people }
+		position = 11
+		trigger = {
+		mil_tech = 7
+		num_of_artillery = 40
+		OR = {
+				has_global_modifier_value = {
+					which = artillery_power
+					value = 0.15
+				}
+				has_global_modifier_value = {
+					which = discipline
+					value = 0.15
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = LDH_ciallo_yue_modifier_4_tt
+			tooltip = {
+				add_country_modifier = {
+            		name = yue_divine_mighty_power
+            		duration = 7300
+          		}
+			}
+			custom_tooltip = LDH_ciallo_yue_modifier_5_tt
+			tooltip = {
+        		add_country_modifier = {
+            		name = yue_firmly_martial
+            		duration = 7300
+				}
+			}
+			hidden_effect = {
+			if = {
+          		limit = {
+            		offensive_ideas = 1
+          		}
+          		add_country_modifier = {
+            		name = yue_divine_mighty_power
+            		duration = 7300
+          		}
+        	}
+			if = {
+          		limit = {
+            		defensive_ideas = 1
+            	}
+          		add_country_modifier = {
+            		name = yue_firmly_martial
+            		duration = 7300
+				}
+          	}
+			}
+		}
+	}
+
+	yue_iron_cannon_ship = { # 铁炮艨艟
+		icon = mission_yue_iron_cannon_ship
+		position = 12
+		required_missions = { yue_shenji_regime yue_wu_yue_admiral }
+		trigger = {
+			OR = {
+				num_of_heavy_ship = 60
+				num_of_galley = 120
+			}
+			if = { 
+				limit = { has_dlc = "Golden Century" }
+				has_flagship = yes 
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+            		name = yue_dutch_cannon
+            		duration = -1
+        	}
+			custom_tooltip = LDH_ciallo_yue_modifier_6_tt
+			tooltip = {
+				add_country_modifier = {
+            		name = yue_five_thousand_gunpowder
+            		duration = -1
+				}
+			}
+			custom_tooltip = LDH_ciallo_yue_modifier_7_tt
+			tooltip = {
+        		add_country_modifier = {
+            		name = yue_fast_boat
+            		duration = -1
+        		}
+			}
+			hidden_effect = {
+			if = {
+          		limit = {
+            		num_of_heavy_ship = 60
+            	}
+          		add_country_modifier = {
+            		name = yue_five_thousand_gunpowder
+            		duration = -1
+				}
+        	}
+			if = {
+          		limit = {
+            		num_of_galley = 120
+          		}
+          		add_country_modifier = {
+            		name = yue_fast_boat
+            		duration = -1
+        		}
+			}
+			}
+		}
+	}
+
+	yue_southeast_privateering = {	 # 东南寇患
+		icon = mission_yue_southeast_privateering
+		position = 13
+		required_missions = { yue_iron_cannon_ship yue_tunmen_turmoil }
+		trigger = {
+			if = {
+        		limit = {
+          		has_dlc = "Mandate of Heaven"
+        		}
+        		NOT = {
+         			any_owned_province = {
+            		has_port = yes
+            		devastation = 1
+          			}
+        		}
+      		}
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					culture_group = east_asian
+					prosperity = 100
+					value = 12
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = mission_yue_eradicate_the_private
+				duration = -1
+			}
+			custom_tooltip = LDH_ciallo_yue_modifier_8_tt
+			tooltip = {
+				add_country_modifier = {
+            		name = yue_east_sea_trade_route		
+            		duration = 7300
+				}
+			}
+
+			custom_tooltip = LDH_ciallo_yue_modifier_9_tt
+			tooltip = {
+				add_country_modifier = {
+            		name = yue_eliminate_bandits		
+            		duration = 7300
+				}
+          		country_event = {
+        			id = LDH_ciallo_yue.4		
+        		}
+				custom_tooltip = LDH_ciallo_yue_event_insight_4_tt
+			}
+			hidden_effect = {
+			if = {
+          		limit = {
+					1020 = {
+						owner = {
+							has_opinion = {
+								value = 150
+								who = ROOT 	
+							}
+						}
+					}
+				}
+          		add_country_modifier = {
+            		name = yue_east_sea_trade_route		
+            		duration = 7300
+				}
+          	}
+			if = {
+          		limit = {
+					1020 = {
+						owner = {
+							OR = { 
+								has_opinion_modifier = {
+									who = ROOT  
+									modifier = insulted
+								}
+								has_opinion_modifier = {
+									who = ROOT  
+									modifier = scornfully_insulted
+								}
+							}
+						}
+					}
+				}
+				add_country_modifier = {
+            		name = yue_eliminate_bandits		
+            		duration = 7300
+				}
+          		country_event = {
+        			id = LDH_ciallo_yue.4		
+        		}
+				custom_tooltip = LDH_ciallo_yue_event_insight_4_tt
+          	}
+			}
+		}
+	}
+
+	yue_nanyang_pacification_commission = {	
+		icon = mission_yue_nanyang_pacification_commission
+		position = 14
+		required_missions = { yue_dazzling_warehouse yue_southeast_privateering yue_taiwan_strategy }
+		trigger = {
+			is_great_power = yes
+			monthly_income = 1500
+			num_of_light_ship = 200
+			calc_true_if = {
+			trading_bonus = {
+				trade_goods = silk
+				value = yes
+			}
+			trading_bonus = {
+				trade_goods = chinaware
+				value = yes
+			}
+			trading_bonus = {
+				trade_goods = incense
+				value = yes
+			}
+			trading_bonus = {
+				trade_goods = tea
+				value = yes
+			}
+			trading_bonus = {
+				trade_goods = spices
+				value = yes
+			}
+			trading_bonus = {
+				trade_goods = cloves
+				value = yes
+			}
+			trading_bonus = {
+				trade_goods = gems
+				value = yes
+			}
+			trading_bonus = { 
+				trade_goods = coffee 
+				value = yes 
+			}
+			trading_bonus = { 
+				trade_goods = cotton
+				value = yes 
+			}
+			trading_bonus = { 
+				trade_goods = ivory
+				value = yes 
+			}
+			amount = 8
+			}
+		}
+		effect = {
+			667 = {
+				add_province_modifier = {
+					name = yue_permanent_port_capital
+					duration = -1
+				}
+			}
+			622 = {
+				remove_province_modifier = yue_palembang_trade_bureau
+				add_province_modifier = {
+					name = yue_palembang_trade_capital
+					duration = -1
+				}
+			}
+			country_event = {
+        		id = LDH_ciallo_yue.9		
+        	}
+			custom_tooltip = LDH_ciallo_yue_event_insight_7_tt
+		}
+	}
+}
+ZE_yue_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR ={
+			tag = YUE
+			was_tag = YUE
+		}
+	}
+	has_country_shield = yes
+
+	yue_tunmen_turmoil = {		
+		icon = mission_yue_tunmen_turmoil
+		position = 12
+		required_missions = { yue_shenji_regime yue_concession_land_permission }
+		trigger = {
+			667 = {
+				is_strongest_trade_power = ROOT
+				OR = {
+					has_building = coastal_defence
+					has_building = naval_battery
+				}
+			}
+			668 = {
+				is_strongest_trade_power = ROOT
+				OR = {
+					has_building = coastal_defence
+					has_building = naval_battery
+				}
+			}
+			NOT = {
+				any_country = {
+					navy_size = ROOT 
+					num_of_heavy_ship = ROOT
+				}
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			custom_tooltip = LDH_ciallo_yue_modifier_10_tt
+			define_advisor = {
+				name = "Wang Hong"
+          		type = naval_reformer
+          		cost_multiplier = 0.1
+          		skill = 3
+			}
+			227 = {
+				owner = {
+					country_event = { id = LDH_ciallo_yue.5 }
+				}
+			}
+		}
+	}
+	yue_taiwan_strategy = {		
+		icon = mission_yue_taiwan_strategy
+		position = 13
+		required_missions = { yue_tunmen_turmoil }
+		provinces_to_highlight = {
+			area = taiwan_area
+			NOT = {	
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			full_idea_group = exploration_ideas
+		}
+		effect = {
+			country_event = {
+        		id = LDH_ciallo_yue.8		
+        	}
+			custom_tooltip = LDH_ciallo_yue_event_insight_6_tt
+			2154 = {
+				change_culture = chimin
+				change_religion = ROOT
+			}
+			2155 = {
+				change_culture = chimin
+				change_religion = ROOT
+			}
+			738 = {
+				change_culture = chimin
+				change_religion = ROOT
+			}
+			if = {
+				limit = {
+					2154 = {
+						is_empty = yes
+					}
+				}
+				random_owned_province = {
+					2154 = {
+						create_colony = 400
+					}
+				}
+			}
+			if = {
+				limit = {
+					2155 = {
+						is_empty = yes
+					}
+				}
+				random_owned_province = {
+					2155 = {
+						create_colony = 400
+					}
+				}
+			}
+			if = {
+				limit = {
+					738 = {
+						is_empty = yes
+					}
+				}
+				random_owned_province = {
+					738 = {
+						create_colony = 400
+					}
+				}
+			}
+		}
+	}
+}
+ZE_yue_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR ={
+			tag = YUE
+			was_tag = YUE
+		}
+	}
+	has_country_shield = yes
+
+	yue_frankie_people = {		# 佛朗机人
+		icon = mission_establish_jesuit_missions
+		position = 10
+		required_missions = { }
+		trigger = {
+			AND = {
+				is_year = 1500
+				POR = {
+					any_owned_province = {
+					has_discovered = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = yue_frankie_people
+				duration = 7300
+			}
+			country_event = {
+        		id = LDH_ciallo_yue.6		
+        	}
+		}
+	}
+	yue_concession_land_permission = {	# 恩许驻地			
+		icon = mission_yue_concession_land_permission
+		position = 11
+		required_missions = { yue_frankie_people }
+		trigger = {
+			any_ally = { 
+					total_development = 200 
+					capital_scope = {
+						OR = { 
+							superregion = europe_superregion 
+							superregion = eastern_europe_superregion 
+						}
+					}
+					has_opinion = {
+						who = ROOT 
+						value = 100 
+					}
+					if = {
+						limit = { has_dlc = "Leviathan" }
+						trust = {
+							who = ROOT 
+							value = 60 
+						}
+					}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = yue_western_library
+				duration = 9125
+			}
+			custom_tooltip = LDH_ciallo_yue_modifier_11_tt
+			668 = {
+				add_province_modifier = {
+						name = yue_western_scholar_concession
+						duration = -1 
+				}
+			}
+		}
+	}
+	yue_western_bureaucrats = {		
+		icon = mission_yue_western_bureaucrats
+		position = 12
+		required_missions = { yue_concession_land_permission }
+		trigger = {
+			is_lacking_institutions = no
+			num_of_owned_provinces_with = {
+				OR = {
+					has_building = university
+					OR = {
+					has_building = courthouse
+					has_building = town_hall
+					}
+				}
+				value = 25
+			}
+		}
+		effect = {
+			country_event = {
+        		id = LDH_ciallo_yue.7		
+        	}
+			custom_tooltip = LDH_ciallo_yue_event_insight_5_tt
+			define_advisor = {
+          		type = trader
+          		cost_multiplier = 0.25
+          		skill = 3
+				religion = catholic
+			}
+		}
+	}
+}
