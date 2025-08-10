@@ -9,7 +9,7 @@ benin_missions_1 = {
 	has_country_shield = yes
 
 	ben_humuiliate_rival = { # 羞辱宿敌
-		icon = mission_general_riding
+		icon = mission_ben_humuiliate_rival
 		required_missions = { } 
 		position = 1
 		provinces_to_highlight = {
@@ -40,7 +40,7 @@ benin_missions_1 = {
 	}
 	
 	ben_king_of_forest = { # 丛林之王
-		icon = mission_general_riding
+		icon = mission_ben_king_of_forest
 		required_missions = { ben_assemble_an_legion } 
 		position = 2
 		provinces_to_highlight = {
@@ -78,7 +78,7 @@ benin_missions_1 = {
 	}
 
 	ben_guinea_domination = { # 支配几内亚
-		icon = mission_general_riding
+		icon = mission_ben_guinea_domination
 		required_missions = { ben_king_of_forest } 
 		position = 3
 		provinces_to_highlight = {
@@ -133,13 +133,14 @@ benin_missions_1 = {
 				name = benin_march_to_jungle2
 				duration = -1
 			}
+			custom_tooltip = replace_pervious_mofifier_tt
 			5088 = { add_siberian_construction = 100 }
 			5090 = { add_siberian_construction = 100 }
 		}
 	}
 
 	ben_jungle_and_plains = { # 丛林与平原
-		icon = mission_general_riding
+		icon = mission_ben_jungle_and_plains
 		required_missions = { ben_guinea_domination ben_rush_to_plains } 
 		position = 4
 		provinces_to_highlight = {
@@ -176,11 +177,12 @@ benin_missions_1 = {
 				name = benin_march_to_jungle3
 				duration = -1
 			}
+			custom_tooltip = replace_pervious_mofifier_tt
 		}
 	}
 
 	ben_african_empire = { # 非洲帝国
-		icon = mission_general_riding
+		icon = mission_ben_african_empire
 		required_missions = { ben_jungle_and_plains ben_african_manufactory } 
 		position = 6
 		provinces_to_highlight = {
@@ -228,11 +230,12 @@ benin_missions_1 = {
 				name = benin_march_to_jungle4
 				duration = -1
 			}
+			custom_tooltip = replace_pervious_mofifier_tt
 		}
 	}
 
 	ben_build_up_temples = { # 兴建寺庙
-		icon = mission_general_riding
+		icon = mission_ben_build_up_temples
 		required_missions = { ben_enbrace_the_tradition } 
 		position = 8
 		provinces_to_highlight = {
@@ -264,12 +267,9 @@ benin_missions_1 = {
 		}
 	}
 	ben_manic_worship = { # 狂热崇拜
-		icon = mission_general_riding
+		icon = mission_ben_manic_worship
 		required_missions = { ben_build_up_temples } 
 		position = 9
-		provinces_to_highlight = {
-
-		}
 		provinces_to_highlight = {
 
 		}
@@ -341,7 +341,7 @@ benin_mission_2 = {
 	has_country_shield = yes
 
 	ben_golden_city = { # 黄金之城
-		icon = mission_general_riding
+		icon = mission_ben_golden_city
 		required_missions = { ben_assemble_an_legion } 
 		position = 2
 		provinces_to_highlight = {
@@ -380,7 +380,7 @@ benin_mission_2 = {
 	}
 
 	ben_rush_to_plains = { # 冲向平原
-		icon = mission_general_riding
+		icon = mission_ben_rush_to_plains
 		required_missions = { ben_golden_city } 
 		position = 3
 		provinces_to_highlight = {
@@ -563,7 +563,7 @@ benin_mission_2 = {
 	}
 
 	ben_ancestor_summoning = { # 先祖召唤
-		icon = mission_general_riding
+		icon = mission_ben_ancestor_summoning
 		required_missions = { ben_shamans ben_manic_worship } 
 		position = 10
 		provinces_to_highlight = {
@@ -758,7 +758,7 @@ benin_mission_3 = {
 	}
 	
 	ben_reform_traditional_warfare = { # 改革传统战法
-		icon = mission_general_riding
+		icon = mission_ben_reform_traditional_warfare
 		required_missions = { } 
 		position = 8
 		provinces_to_highlight = {
@@ -782,7 +782,7 @@ benin_mission_3 = {
 	}
 
 	ben_faithful_ruler = { # 虔诚的统治者？
-		icon = mission_general_riding
+		icon = mission_ben_faithful_ruler
 		required_missions = { ben_shamans } 
 		position = 10
 		provinces_to_highlight = {
@@ -814,7 +814,7 @@ benin_mission_3 = {
 	}
 	
 	ben_royal_seminary = { # 皇宫神学院
-		icon = mission_general_riding
+		icon = mission_ben_royal_seminary
 		required_missions = { ben_faithful_ruler } 
 		position = 11
 		provinces_to_highlight = {
@@ -825,10 +825,8 @@ benin_mission_3 = {
 			1147 = {
 				is_capital = yes
 				base_tax = 12
-				development = 35
 				province_has_center_of_trade_of_level = 3
-				num_of_times_expanded_infrastructure = 1
-				has_building = cathedral
+				num_of_buildings_in_province = 6
 				is_prosperous = yes
 			}
 		}
@@ -921,7 +919,7 @@ benin_mission_4 = {
 	}
 
 	ben_cooperate_with_chieftain ={ # 与部落酋长合作
-		icon = mission_general_riding
+		icon = mission_ben_cooperate_with_chieftain
 		required_missions = { } 
 		position = 2
 		provinces_to_highlight = {
@@ -976,7 +974,7 @@ benin_mission_4 = {
 	}
 
 	ben_lawful_ruler = { # 严明律法的君主
-		icon = mission_general_riding
+		icon = mission_ben_lawful_ruler
 		required_missions = { ben_cooperate_with_chieftain } 
 		position = 3
 		provinces_to_highlight = {
@@ -1007,7 +1005,7 @@ benin_mission_4 = {
 	}
 
 	ben_niger_river_delta_monopoly = { # 垄断尼日尔河口
-		icon = mission_general_riding
+		icon = mission_ben_niger_river_delta_monopoly
 		required_missions = { ben_sweeping_and_irrigating_the_land } 
 		position = 4
 		provinces_to_highlight = {
@@ -1037,7 +1035,7 @@ benin_mission_4 = {
 	}
 
 	ben_developing_commerce_chamber = { # 发展贝宁商会
-		icon = mission_general_riding
+		icon = mission_ben_developing_commerce_chamber
 		required_missions = { ben_niger_river_delta_monopoly ben_jungle_confedracy} 
 		position = 5
 		provinces_to_highlight = {
@@ -1070,7 +1068,7 @@ benin_mission_4 = {
 	}
 
 	ben_prosperity_of_slave_trade = { # 奴隶贸易兴起
-		icon = mission_general_riding
+		icon = mission_ben_prosperity_of_slave_trade
 		required_missions = { ben_developing_commerce_chamber } 
 		position = 6
 		provinces_to_highlight = {
@@ -1100,7 +1098,7 @@ benin_mission_4 = {
 	}
 
 	ben_expand_into_jungle = { # 深入丛林开发
-		icon = mission_general_riding
+		icon = mission_ben_expand_into_jungle
 		required_missions = { ben_prosperity_of_slave_trade } 
 		position = 7
 		provinces_to_highlight = {
@@ -1133,7 +1131,7 @@ benin_mission_4 = {
 	}
 
 	ben_import_artillery = { # 贝宁火炮
-		icon = mission_general_riding
+		icon = mission_ben_import_artillery
 		required_missions = { ben_reform_traditional_warfare } 
 		position = 9
 		provinces_to_highlight = {
@@ -1165,12 +1163,13 @@ benin_mission_4 = {
 			add_country_modifier = {
 				name =  benin_thunder_in_jungle2_modifier
 				duration = -1
-			}	
+			}
+			custom_tooltip = replace_pervious_mofifier_tt	
 		}		
 	}
 
 	ben_thunder_in_jungle = { # 丛林天雷
-		icon = mission_general_riding
+		icon = mission_ben_thunder_in_jungle
 		required_missions = { ben_import_artillery ben_improve_the_conscription_system } 
 		position = 11
 		provinces_to_highlight = {
@@ -1190,6 +1189,7 @@ benin_mission_4 = {
 				name = benin_thunder_in_jungle3_modifier
 				duration = -1
 			}
+			custom_tooltip = replace_pervious_mofifier_tt
 		}	
 	}
 }
@@ -1206,7 +1206,7 @@ benin_mission_5 = {
 	has_country_shield = yes
 
 	ben_court_guardian = { # 宫廷卫队
-		icon = mission_general_riding
+		icon = mission_ben_court_guardian
 		required_missions = { ben_cooperate_with_chieftain } 
 		position = 3
 		provinces_to_highlight = {
@@ -1229,7 +1229,7 @@ benin_mission_5 = {
 	}
 
 	ben_jungle_confedracy = { # 丛林议事会
-		icon = mission_general_riding
+		icon = mission_ben_jungle_confedracy
 		required_missions = { } 
 		position = 4
 		provinces_to_highlight = {
@@ -1277,7 +1277,7 @@ benin_mission_5 = {
 	}
 
 	ben_court_scholar = { # 宫廷学者
-		icon = mission_general_riding
+		icon = mission_ben_court_scholar
 		required_missions = { ben_jungle_confedracy } 
 		position = 5
 		provinces_to_highlight = {
@@ -1302,7 +1302,7 @@ benin_mission_5 = {
 	}	
 
 	ben_treasury_of_ivory = { # 象牙财富
-		icon = mission_general_riding
+		icon = mission_ben_treasury_of_ivory
 		required_missions = { ben_prosperity_of_slave_trade } 
 		position = 7	
 		provinces_to_highlight = {
@@ -1331,7 +1331,7 @@ benin_mission_5 = {
 	}
 
 	ben_arsenal = { # 兵工厂
-		icon = mission_general_riding
+		icon = mission_ben_arsenal
 		required_missions = { } 
 		position = 8
 		provinces_to_highlight = {
@@ -1361,7 +1361,7 @@ benin_mission_5 = {
 	}
 
 	ben_improve_the_conscription_system = { # 完善征召制度
-		icon = mission_general_riding
+		icon = mission_ben_improve_the_conscription_system
 		required_missions = { ben_import_artillery ben_arsenal } 
 		position = 10
 		provinces_to_highlight = {
@@ -1376,7 +1376,7 @@ benin_mission_5 = {
 		}
 		effect = {
 			add_mil_power = -300
-			custom_tooltip = all_provinces_with_single_building_gain_2_manpower_tt
+			custom_tooltip = benin_manpower_gain_tt
 			hidden_effect = {
 				every_owned_province = {
 					limit = {
@@ -1386,14 +1386,12 @@ benin_mission_5 = {
 						}
 					}
 					add_base_manpower = 2
+				}		
+				add_country_modifier = {
+					name = ben_well_served_conscription_system
+					duration = -1
 				}
-			}
-			add_country_modifier = {
-				name = ben_well_served_conscription_system
-				duration = -1
 			}
 		}	
 	}
-
-
 }

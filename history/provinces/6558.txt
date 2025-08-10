@@ -5,3 +5,6 @@ culture = samoyed
 trade_goods = unknown
 religion = tengri_pagan_reformed
 
+native_ferocity = 2
+native_hostileness = 3
+native_size = 5

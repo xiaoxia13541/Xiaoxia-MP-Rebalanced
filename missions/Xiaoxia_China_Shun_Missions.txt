@@ -980,10 +980,12 @@ h_csh_4 = {
 			calc_true_if = {
 				amount = 12
 				all_owned_province = {
-					area = shandong_area
-					area = Dengzhou_area
-					area = jinan_area
-					area = tai_an_area
+					OR = {
+						area = shandong_area
+						area = Dengzhou_area
+						area = jinan_area
+						area = tai_an_area
+					}
 				}
 			}
 			2139 = {

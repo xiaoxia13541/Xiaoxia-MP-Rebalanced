@@ -156,7 +156,7 @@ h_cxi_2 = {
 
 	cxi_blazing_flare = {
 		icon = mission_wuu_the_fall_of_qi
-		required_missions = {  }  # cxi_great_xi_army
+		required_missions = { cxi_great_xi_army }  # 
 		position = 3
 		provinces_to_highlight = { }
 
@@ -206,11 +206,11 @@ h_cxi_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			5504 = {
-				development = 25
+				development = 22
 				has_trade_building_trigger = yes
 			}
 			680 = {
-				development = 25
+				development = 22
 				has_trade_building_trigger = yes
 			}
 		}

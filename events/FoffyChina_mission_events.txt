@@ -434,7 +434,7 @@ country_event = {
 	}
 }
 
-country_event = { # 齐 翰林院
+country_event = { # 西安翰林院
 	id = foffy_china.11
 	title = flavor_mng.30.t
 	desc = flavor_mng.30.d
@@ -453,7 +453,7 @@ country_event = { # 齐 翰林院
 	}
 }
 
-country_event = { # 顺 中亚若断盟则清除任务获得的buff
+country_event = { # 顺 中亚盟友 若断盟则清除任务获得的buff
 	id = foffy_china.12
 	title = "foffy_china.EVTNAME12"
 	desc = "foffy_china.EVTDESC12"
@@ -1073,14 +1073,13 @@ country_event = { # 青铜神树
 	title = foffy_china.30.t 
 	desc = foffy_china.30.d
 	picture = 3_SONS_eventPicture
-
+	fire_only_once = yes
+	
 	trigger = {
+		tag = CYI
 		5504 = {
 			religion = xiaoxia_bimox
 			owner = { religion = xiaoxia_bimox }
-		}
-		NOT = {
-			has_country_flag = foffy_china_30_FLAG 
 		}
 	}
 	
@@ -1103,12 +1102,10 @@ country_event = { # 青铜神树
 			}
 			add_province_triggered_modifier = bimox_chengdu
 		}
-		set_country_flag = foffy_china_30_FLAG 
 	}
 
 	option = { # 只是一些垃圾而已
 		name = foffy_china.30.b
 		add_prestige = -5
-		set_country_flag = foffy_china_30_FLAG 
 	}
 }

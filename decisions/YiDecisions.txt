@@ -34,7 +34,25 @@ country_decisions = { # 毕摩教 30天转教
 		}
 	}
 }
-
+country_decisions = {
+	bimox_ritual_heritage = {
+		potential = {
+			religion = xiaoxia_bimox
+		}
+		allow = {
+			prestige = 25	
+			stability = 1
+			theologian = 1
+		}
+		effect = {
+			add_dip_power = -50
+			add_country_modifier = {
+				name = bimox_ritual_heritage_modifier
+				duration = 9125
+			}
+		}
+	}
+}
 country_decisions = { # 彝族的文化决议
 
 	sinicize_yi_decision = { # 彝 - 西南文化 （变成西南之后可以直接使用中华组的汉化决议

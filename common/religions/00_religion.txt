@@ -2503,6 +2503,8 @@ eastern = {
 		personal_deity = yes
 		ancestors = yes
 		heretic = { XIAOXIA_BIMOX_HERETIC }
+
+		harmonized_modifier = harmonized_bimox
 	}
 
 	xiaoxia_bon = {
@@ -2517,7 +2519,7 @@ eastern = {
 			shock_damage_received = -0.1
 		}
 		country_as_secondary = {
-			shock_damage_received = -0.1
+			shock_damage_received = -0.05
 			defensiveness = 0.15
 		}
 		on_convert = {

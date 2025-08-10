@@ -46,4 +46,34 @@ country_decisions = {
 			factor = 0
 		}
 	} 
+
+	dev_tax_decision = {
+		color = { 203 0 50 }
+        major = yes
+        potential = {
+            tag = MIS
+			NOT = {
+				has_country_flag = dev_tax_applied_flag
+			}
+        }
+		allow = {
+			ai = no
+			tag = MIS
+		}
+		effect = {
+			set_country_flag = dev_tax_applied_flag
+			custom_tooltip = every_human_player_gain_dev_cost_and_dev_tax_tt
+			hidden_effect = {
+				every_country = {
+					add_country_modifier = {
+						name = dev_tax_modifier
+						duration = -1
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}		
+	}
 }

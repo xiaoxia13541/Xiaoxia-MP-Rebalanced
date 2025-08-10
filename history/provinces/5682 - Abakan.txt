@@ -1,7 +1,4 @@
 #5682 - Abakan
-owner = CJJ
-controller = CJJ
-is_city = yes
 culture = kirgiz
 religion = tengri_pagan_reformed
 capital = "Abakan"
@@ -10,4 +7,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 discovered_by = nomad_group
-add_core = CJJ
+native_ferocity = 2
+native_hostileness = 3
+native_size = 5

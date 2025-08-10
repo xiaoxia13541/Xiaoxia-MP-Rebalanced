@@ -12,6 +12,14 @@ country_event = {
 		set_country_flag = is_choosing_bimox_deity_flag
 	}
 	option = {
+		name = sea_advisor_event.0.0
+		add_legitimacy_equivalent = {
+			amount = 10
+			republican_tradition = 6
+		}
+		clr_country_flag = is_choosing_bimox_deity_flag
+	}
+	option = {
 		name = xiaoxia_bimox.1.a
 		change_personal_deity = madu
 		clr_country_flag = is_choosing_bimox_deity_flag
@@ -53,9 +61,4 @@ country_event = {
 		clr_country_flag = xiaoxia_change_bimox_deity
 		set_country_flag = xiaoxia_change_bimox_deity
 	}
-	option = {
-		name = sea_advisor_event.0.0
-		clr_country_flag = is_choosing_bimox_deity_flag
-	}
-	
 }

@@ -1,0 +1,156 @@
+namespace = LDH_ciallo_yue      #Ciallo～(∠・ω< )⌒★
+
+country_event = {
+	id = LDH_ciallo_yue.1
+    title = LDH_ciallo_yue.1.t 
+	desc = LDH_ciallo_yue.1.d
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = "LDH_ciallo_yue.1trans" #提高船具的价格
+        change_price = {
+			trade_goods = naval_supplies
+			key = mng_chuanjudecaifu
+			value = 0.25
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = LDH_ciallo_yue.2
+    title = LDH_ciallo_yue.2.t 
+	desc = LDH_ciallo_yue.2.d
+	picture = TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = "LDH_ciallo_yue.2trans" #提高熏香的价格
+        change_price = {
+			trade_goods = incense
+			key = mng_xunxiangdecaifu
+			value = 0.5
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = LDH_ciallo_yue.3
+    title = LDH_ciallo_yue.3.t 
+	desc = LDH_ciallo_yue.3.d
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = "LDH_ciallo_yue.3trans" #提高铁的价格
+        change_price = {
+			trade_goods = iron
+			key = mng_tikuangdekaifa
+			value = 0.25
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = LDH_ciallo_yue.4
+    title = LDH_ciallo_yue.4.t 
+	desc = LDH_ciallo_yue.4.d
+	picture = NAVAL_MILITARY_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = "LDH_ciallo_yue.4trans" #东洋的绝对权威
+        add_country_modifier = {
+            name = mng_jueduiquanwei		#东洋的绝对权威
+            duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = LDH_ciallo_yue.5
+    title = LDH_ciallo_yue.5.t 
+	desc = LDH_ciallo_yue.5.d
+	picture = PIRATE_CAPTAINS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = "LDH_ciallo_yue.5trans" #东洋的失利
+        prestige = -25
+        add_country_modifier = {
+            name = mng_dongyangshili		#东洋的失利
+            duration = 9125
+		}
+	}
+}
+
+country_event = {
+	id = LDH_ciallo_yue.6
+    title = LDH_ciallo_yue.6.t 
+	desc = LDH_ciallo_yue.6.d
+	picture = MERCHANTS_TALKING_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = "LDH_ciallo_yue.6trans" #佛郎机人
+        if = {
+			limit = { 
+				has_dlc = "Rule Britannia"
+			}
+			change_innovativeness = 5
+        }
+	}
+}
+
+country_event = {
+	id = LDH_ciallo_yue.7
+    title = LDH_ciallo_yue.7.t 
+	desc = LDH_ciallo_yue.7.d
+	picture = MERCHANTS_TALKING_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "LDH_ciallo_yue.7trans" #西学东渐
+        prestige = 25
+        add_country_modifier = {
+            name = mng_xifangdezhishi		#西学东渐
+            duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = LDH_ciallo_yue.8
+    title = LDH_ciallo_yue.8.t 
+	desc = LDH_ciallo_yue.8.d
+	picture = PORTUGUESE_MERCHANTS_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "LDH_ciallo_yue.8trans" #瓷器港口
+        738 = {
+			center_of_trade = 2
+			change_trade_goods = chinaware
+		}
+	}
+}
+
+country_event = {
+	id = LDH_ciallo_yue.9
+    title = LDH_ciallo_yue.9.t 
+	desc = LDH_ciallo_yue.9.d
+	picture = NAVAL_MILITARY_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "LDH_ciallo_yue.9trans" #南洋之主
+        add_splendor = 1200
+        add_country_modifier = {
+            name = mng_riyuesuozhao		#日月所照，海流所至
+            duration = -1
+		}
+	}
+}

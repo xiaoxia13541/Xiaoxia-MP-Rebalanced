@@ -1,0 +1,48 @@
+country_decisions = {
+	settle_in_Sarai_decision = {
+		major = yes
+		potential = {
+			any_owned_province = { 
+				OR = {
+					region = caucasia_region
+					region = central_asia_region
+					region = crimea_region 
+					region = russia_region
+					region = ruthenia_region 
+					region = ural_region
+				}
+			}
+			OR = {
+				has_reform = great_mongol_state_reform
+				has_reform = steppe_horde
+			}
+			NOT = {
+				has_global_flag = settle_in_Sarai_flag
+			}
+		}
+		allow = {
+			ai = no
+			adm_tech = 5
+			stability = 1
+			crown_land_share = 25
+			466 = {
+				owned_by = ROOT
+				is_core = ROOT
+				has_tax_building_trigger = yes	
+			}
+		}
+		effect = {
+			set_global_flag = settle_in_Sarai_flag
+			change_technology_group = eastern
+			change_unit_type = eastern
+			change_government = monarchy
+			add_stability = -1
+			add_legitimacy = 20
+			466 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+	}
+}

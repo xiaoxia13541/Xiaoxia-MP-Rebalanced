@@ -1,0 +1,136 @@
+spriteTypes = {
+    spriteType = {
+		name = "mission_ben_humuiliate_rival"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_humuiliate_rival.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_king_of_forest"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_king_of_forest.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_golden_city"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_golden_city.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_cooperate_with_chieftain"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_cooperate_with_chieftain.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_guinea_domination"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_guinea_domination.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_rush_to_plains"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_rush_to_plains.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_lawful_ruler"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_lawful_ruler.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_court_guardian"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_court_guardian.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_jungle_and_plains"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_jungle_and_plains.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_niger_river_delta_monopoly"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_niger_river_delta_monopoly.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_jungle_confedracy"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_jungle_confedracy.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_developing_commerce_chamber"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_developing_commerce_chamber.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_court_scholar"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_court_scholar.dds"
+    }
+	
+	spriteType = {
+		name = "mission_ben_prosperity_of_slave_trade"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_prosperity_of_slave_trade.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_expand_into_jungle"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_expand_into_jungle.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_treasury_of_ivory"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_treasury_of_ivory.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_build_up_temples"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_build_up_temples.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_reform_traditional_warfare"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_reform_traditional_warfare.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_arsenal"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_arsenal.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_manic_worship"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_manic_worship.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_import_artillery"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_import_artillery.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_ancestor_summoning"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_ancestor_summoning.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_faithful_ruler"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_faithful_ruler.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_improve_the_conscription_system"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_improve_the_conscription_system.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_royal_seminary"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_royal_seminary.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_thunder_in_jungle"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_thunder_in_jungle.dds"
+    }
+
+	spriteType = {
+		name = "mission_ben_african_empire"
+		texturefile = "gfx/interface/missions/Benin_missions/ben_african_empire.dds"
+    }
+}

@@ -91,8 +91,11 @@ chinese_clash_of_two_dynasty = {
 	
 
 	can_end = {
-		any_country = {
+		OR = {
 			has_reform = celestial_empire
+			any_country = {
+				has_reform = celestial_empire
+			}
 		}
 	}
 	

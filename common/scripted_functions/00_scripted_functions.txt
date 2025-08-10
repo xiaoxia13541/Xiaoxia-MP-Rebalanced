@@ -231,14 +231,14 @@ can_colonize_province = {
 			superregion = india_superregion
 		}
 	}
-	condition = {
-		tooltip = "AFRICA_WASTELANDS_CANNOT_COLONIZE"
-		potential = { }
-		allow = {
-			NOT = { province_id = 5001 }
-			NOT = { province_id = 5004 }
-		}
-	}
+	# condition = {
+	# 	tooltip = "AFRICA_WASTELANDS_CANNOT_COLONIZE"
+	# 	potential = { }
+	# 	allow = {
+	# 		NOT = { province_id = 5001 }
+	# 		NOT = { province_id = 5004 }
+	# 	}
+	# }
 	condition = {
 		tooltip = "SEA_EXODUS_CAN_ONLY_COLONIZE_COLONIAL_REGIONS"
 		potential = {

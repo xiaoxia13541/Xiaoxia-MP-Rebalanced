@@ -1,3 +1,4 @@
+# 群雄通用任务
 h_china_all_1 = {
 	slot = 1
 	generic = no
