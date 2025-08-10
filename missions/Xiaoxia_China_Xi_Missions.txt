@@ -206,11 +206,11 @@ h_cxi_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			5504 = {
-				development = 25
+				development = 22
 				has_trade_building_trigger = yes
 			}
 			680 = {
-				development = 25
+				development = 22
 				has_trade_building_trigger = yes
 			}
 		}

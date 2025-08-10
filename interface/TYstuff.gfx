@@ -34,20 +34,21 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "government_reform_cyi_holy_empire_icon"
-		texturefile = "gfx//interface//government_reform_icons//cyi_holy_empire.dds"
+		texturefile = "gfx//interface//government_reform_icons//cyi_chinese_holy_empire.dds"
 	}
 
-	# 花剌子模 政府改革
+	# 政府改革
+	# 花剌子模君主制
 	spriteType = {
 		name = "government_reform_khorazm_horde_nation_icon"
 		texturefile = "gfx//interface//government_reform_icons//khorazm_horde_nation.dds"
 	}
-	# 贝宁 阿扎玛议事会
+	# 贝宁阿扎玛议事会
 	spriteType = {
 		name = "government_reform_benin_jungel_confedracy_icon"
 		texturefile = "gfx//interface//government_reform_icons//benin_jungel_confedracy.dds"
 	}
-	# 贝宁六改 建立先进部落
+	# 部落制六改 建立先进部落
 	spriteType = {
 		name = "government_reform_advanced_reformed_tribes_icon"
 		texturefile = "gfx//interface//government_reform_icons//advanced_reformed_tribes.dds"

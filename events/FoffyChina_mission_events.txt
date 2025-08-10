@@ -434,7 +434,7 @@ country_event = {
 	}
 }
 
-country_event = { # 齐 翰林院
+country_event = { # 西安翰林院
 	id = foffy_china.11
 	title = flavor_mng.30.t
 	desc = flavor_mng.30.d
@@ -453,7 +453,7 @@ country_event = { # 齐 翰林院
 	}
 }
 
-country_event = { # 顺 中亚若断盟则清除任务获得的buff
+country_event = { # 顺 中亚盟友 若断盟则清除任务获得的buff
 	id = foffy_china.12
 	title = "foffy_china.EVTNAME12"
 	desc = "foffy_china.EVTDESC12"

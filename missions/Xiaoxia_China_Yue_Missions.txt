@@ -1,4 +1,6 @@
-h_yue_2 = {
+# 抚征南海 和辑百越 苍梧古国 越讴
+
+h_yue_2 = { 
 	slot = 2
 	generic = no
 	ai = yes
@@ -146,7 +148,7 @@ h_yue_3 = {
 	}
 	has_country_shield = yes
 	
-	h_yue_starter = { #Rise of Yue
+	h_yue_starter = { # Rise of Yue
 		icon = mission_manchu_warrior
 		position = 1
 		trigger = {
@@ -170,7 +172,42 @@ h_yue_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			country_event = { id = foffychina.6 } #Ruler Event
+			guilin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			guangxi_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			guangzhou_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			Punyu_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			guangdong_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			country_event = { id = foffychina.6 } # Ruler Event
 		}
 	}
 
@@ -193,6 +230,10 @@ h_yue_3 = {
 				ai = no
 			}
 			yanshan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			guangzhou_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -989,7 +1030,7 @@ h_yue_tier3_4 = {
 	}
 	has_country_shield = yes
 
-	china_yue_zhao_mo_tomb = { #Tomb of Zhao Mo
+	china_yue_zhao_mo_tomb = { # Tomb of Zhao Mo
 		icon = mission_temple_patronage
 		position = 7
 		required_missions = { china_yue_nanyue_legacy }
@@ -1315,7 +1356,7 @@ ZE_yue_missions_2 = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = yue_dazzling_warehouse
+				name = yue_dazzling_warehouse_modifier
 				duration = 7300
 			}
 			622 = {
@@ -1588,7 +1629,7 @@ ZE_yue_missions_3 = {
 		}
 	}
 
-	yue_nanyang_pacification_commission = {	
+	yue_nanyang_pacification_commission = {	# 南洋宣慰
 		icon = mission_yue_nanyang_pacification_commission
 		position = 14
 		required_missions = { yue_dazzling_warehouse yue_southeast_privateering yue_taiwan_strategy }
@@ -1715,7 +1756,7 @@ ZE_yue_missions_4 = {
 			}
 		}
 	}
-	yue_taiwan_strategy = {		
+	yue_taiwan_strategy = {	# 经略琉球
 		icon = mission_yue_taiwan_strategy
 		position = 13
 		required_missions = { yue_tunmen_turmoil }

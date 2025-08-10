@@ -717,7 +717,7 @@
  desc_colony_banned:0 " "
 
  ben_humuiliate_rival_title:0 "ž±¿RLe"
- ben_humuiliate_rival_desc:0 " "
+ ben_humuiliate_rival_desc:0 "(uLeºN„vNˆËn‰QbìN„vQRÿ"
  ben_eclipsed_or_humiliated_any_rival_tt:0 "…Šbwž±ûNa¿RLe"
  ben_king_of_forest_title:0 "N—gKN‹s"
  ben_king_of_forest_desc:0 " "
@@ -823,12 +823,12 @@
  desc_ben_jungle_development_modifier:0 " "
  ben_import_artillery_title:0 "ÛãSkp®p"
  ben_import_artillery_desc:0 " "
- benin_inporting_artillery_modifier:0 "Yeg'Y®p"
+ benin_inporting_artillery_modifier:0 "9ei—kp®pè–"
  desc_benin_inporting_artillery_modifier:0 " "
  benin_thunder_in_jungle1_modifier:0 "®puQb=g„vÏ–bV"
- benin_thunder_in_jungle2_modifier:0 "ÛãSkp®p"
+ benin_thunder_in_jungle2_modifier:0 "®puQb=g„vbŸq"
+ benin_thunder_in_jungle3_modifier:0 "è–—gÊ`÷–"
  replace_pervious_mofifier_tt:0 "§Yå‹îOckSOÿfbcHQMRîOck§!"
- ben_thunder_in_jungle3_modifier:0 "è–—gÊ`÷–"
  desc_benin_thunder_in_jungle1_modifier:0 " "
  desc_benin_thunder_in_jungle2_modifier:0 " "
  desc_benin_thunder_in_jungle3_modifier:0 " "
@@ -849,7 +849,7 @@
  desc_benin_open_court_modifier:0 " "
  ben_treasury_of_ivory_title:0 "aŒYr0ÌR"
  ben_treasury_of_ivory_desc:0 " "
- ivory_province_gain_1_trade_good_size_tt:0 "Nb	guµNaŒYr„vwýN·ƒ—VÿFUÁTuµN §G+1§!"
+ ivory_province_gain_1_trade_good_size_tt:0 "Nb	guµNaŒYr„vwýN·ƒ—V §YUcNg'YaŒ§! cíu0R8nbÓumgÿÙuˆNåNNHeœgÿ\n,g0WFUÁTµNúQ §G+1§!"
  ben_ivory_gains:0 "UcNg'YaŒ"
  desc_ben_ivory_gains:0 " "
  ben_improve_the_conscription_system_title:0 "9e„UVìSû|ßu"
@@ -880,7 +880,7 @@
  yue_palembang_commission_desc:0 "WSm„vFUºNìN&^eg†NNSBlôcáOÿðyánw=O7Y‹sÅdêÛIe†N	NiOPŸ‹sÿÞ&^NwZÁw0R†NbìN(Wçe=n„v8fÙzÿåNÊSWSmFUï„v‰RhQ0FUºNìNòTÏuåbËzhSb:Nçe=nI`cwÿ^gbìN(uÏ‹fNŒT0‚–ÝO²bÖNìN„v‰RhQ0Ùb¸‹ïSåNjO:NbìNÒcKbWSm‹N¡R„v:gO0"
  
  yue_whale_ambergris_title:0 "dRäSà‡ßp"
- yue_whale_ambergris_desc:0 "dRäSà‡ßpÿBS›m‡gÿÙ=f‹RºN‹s‚lYRÍ‹åSÿÏcØu„v=f™ŸŽm™™„vµN0W0™ŸŽm™™ÈST™Ÿy™™ÿµNê'Ym-N¹b™™¸œ„vy…Q0‹RöeòT	gNè•„vUc¸œ9‚sUc¹b™™¸œÿÖS™™6R|™:NÆrWR™™ÿN|™b¾NÑ‘0N=eR9‚–OTbìN„v‡v^¥bJTÿðy(WeÜ„vWS'YmÑS°s†N'YÏ‘„v¸œ²ÿv^IYN†NN.VwmþVÿNb—ÏcØuNw*gåw„vwm¸S¿u0‡v^ùRÙGrwm¸S¿uˆVatQ±0"
+ yue_whale_ambergris_desc:0 "dRäSà‡ßpÿBS›m‡gÿÙ=f‹RºN‹s‚lYRÍ‹åSÿÏcØu„v=f™ŸŽm™™„vµN0W0™ŸŽm™™ÈST™Ÿy™™ÿµNêWSm¸œµœy…Q0‹RöeòT	gNè•„vUc¸œ9‚ŽNÜmsUcÿÖS™™6R|™:NÆrWR™™ÿN|™b¾NÑ‘0N=eR9‚–OTbìN„v‡v^¥bJTÿðy(WeÜ„vWS'YmÑS°s†N'YÏ‘„v¸œ²ÿv^IYN†NN.VwmþVÿNb—ÏcØuNw*gåw„vwm¸S¿u0‡v^ùRÙGrwm¸S¿uˆVatQ±0"
  
  yue_wu_yue_admiral_title:0 "4TŠÐccw"
  yue_wu_yue_admiral_desc:0 "4TŠN&^ºNXN9‚úQLˆÿY„U4l'`ÿêäSeg¿OÞ‹uÇàepeW„T„v4l^Ðccw0:N†NÄuú^'Yf„vwm›QÿbìNSV‹T0W¹e˜RÎN4TŠN&^ÔbâdOÀy„vºNMbÿ©‹ÖNìNc%cbìN„v0‚–0"

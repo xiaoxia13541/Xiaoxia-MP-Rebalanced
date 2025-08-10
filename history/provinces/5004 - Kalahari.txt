@@ -1,5 +1,5 @@
 culture = tshua
-religion = shamanism#Fetishism
+religion = shamanism #Fetishism
 capital = "Kalahari"
 trade_goods = unknown
 base_tax = 1

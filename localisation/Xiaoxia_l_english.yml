@@ -328,17 +328,15 @@
  ben_court_guardian_desc:0 " "
  MARCHTOOLARGE:0 "kSbýV*Y'Y†N"
  MARCHTOOLARGEUS:0 "kSbýV*Y'Y†N"
-
  dev_tax_decision_title:0 "Íy0WKbíu9"
  dev_tax_decision_desc:0 " "
- every_human_player_gain_dev_cost_and_dev_tax_tt:0 "Ïk*NýV¶R·ƒ—V‚YNHeœgÿ\nÑSUSb,g §R-15%§! \nÑSUSb,gîOck §R-15%§! \nÏk!kÍy0W˜Ycbd– §R6§! ¹pùR”^¹ppe0"
+ every_human_player_gain_dev_cost_and_dev_tax_tt:0 "Ïk*NýV¶R·ƒ—V‚YNHeœgÿ\nÑSUSb,g §G-15%§! \nÑSUSb,gîOck §G-15%§! \nÏk!kÍy0W˜Ycbd– §R6§! ¹pùR”^¹ppe0"
  dimensionality_reduction_superregion_attack_title:0 "-NPRmpNg-superregionHr,g"
  dimensionality_reduction_superregion_attack_desc:0 "÷‹(ŒNaO(uÿÍdjONïS²d•ÿd•†N1SÍ‘V'T"
  dimensionality_reduction_region_attack_title:0 "-NPRmpNg-regionHr,g"
  dimensionality_reduction_region_attack_desc:0 "÷‹(ŒNaO(uÿÍdjONïS²d•ÿd•†N1SÍ‘V'T"
  dev_tax_modifier:0 "Íy0WKbíu9"
  desc_dev_tax_modifier:0 "zåTwïSv`JU"
- every_human_player_gain_dev_cost_and_dev_tax_tt
  xiaoxia_fishing_game_title:0 "“”|œ8nb"
  xiaoxia_fishing_game_desc:0 "PWbr†NTÿNweg“”|œ8"
  recruit_rajput_hero_general_title:0 "ÛbßRÉbpgnfyrñ‚Ä–"
@@ -384,21 +382,22 @@
  desc_1nomu_event_modifier:0 " "
  kha_life_of_steppe_warrior:0 "IƒŸSbëX„vuIm"
  kha_life_of_steppe_warrior_desc:0 " "
- all_provinces_with_single_building_gain_2_manpower_tt:0 "Nb	gán³ûN¡RagöN„vwýNS·ƒ—V §G2§! ¹púWNxºN›R0"
+ benin_manpower_gain_tt:1 "Nb	gán³ûN¡RagöN„vwýNS·ƒ—V §G2§! ¹púWNxºN›R0"
  unlock_estate_burghers_geo_tame_the_mountains_tt:0 "ã‰•FUºN6–µuyrCg §YåTNSqS:S§! "
  return_coptic_faith_title:0 "ÞVRVÑynfyráOðN"
  return_coptic_faith_desc:0 " "
  return_norse_faith_title:0 "ÞVRVú‹¯eáOðN"
+ return_norse_faith_desc:0 " "
  return_coptic_faith_desc:0 " "
  religious_manic_modifier:0 "áOðNÂríp"
- desc_religious_manic_modifier:0 "áOÿýÙubáOJUJUJUJUJUJUJUJUJUJUJUJUJUJUJUJU"
+ desc_religious_manic_modifier:0 "áOÿýÙubáOJUJUJUJUJUJU"
  settle_in_Sarai_decision_title:0 "šRES(„±ƒ"
- settle_in_Sarai_decision_desc:0 "šRES(„±ƒ"
+ settle_in_Sarai_decision_desc:0 " "
  has_unlock_any_idea_groups_tt:0 "ã‰•ûNatõVÄu"
  estate_church_eth_real_cawa:0 "ck—Rp`æt"
  estate_church_eth_real_cawa_desc:0 "ONbhTåwÿ™l¿S„v™l¿SSTMb=fck—R™l¿SST0TtJUÿêS	gbìN„vp`ætMb=fg‰S³R„vp`æt0"
  eth_real_cawa_army:0 "wck„vp`æt›Q–"
- desc_eth_real_cawa_army:0 " "
+ desc_eth_real_cawa_army:0 "Make Ethiopia Great Again ! "
  unlock_estate_burghers_khmer_irrigation_tt:0 "ã‰•FUºN6–µuyrCg §YHQÛ„vLp‰nŽb=g§! "  
  bimox_ritual_heritage_title:0 "ö^íuú‹Ï‚—RYe"
  bimox_ritual_heritage_desc:0 "(W*gegÿêNV0áOðNŒTÏu‡eDnÍNOçuíu«ˆÐ(uÿmN—‰Í‘°eà‹Ê‘0ºNìNcíuS<›B›qšTÜ¹eÿFOvQNbaŒV„vP`ç`SåNNT¹eVHT°s0‚YŽV8^N7hHyBlVyHQÝOQOÿFOú‹Ï‚ºNlOV„v²‹TÊS†SòSsQû|R—‰QšRIN0"

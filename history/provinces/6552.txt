@@ -9,3 +9,6 @@ is_city = yes
 culture = tunjur
 trade_goods = wool
 discovered_by = sub_saharan
+native_ferocity = 2
+native_hostileness = 3
+native_size = 5

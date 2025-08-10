@@ -125,10 +125,10 @@ won_chinese_disaster_modifier = {
 }
 
 lost_chinese_disaster_modifier = {
-	discipline = -0.05
-	land_morale = -0.1
-	global_tax_modifier = -0.1
+	stability_cost_modifier = 0.2
 	global_autonomy = 0.1
+	prestige = -1
+	legitimacy = -1
 }
 # 齐任务
 qic_skilled_soliders_modifier = {
@@ -290,6 +290,12 @@ harmonized_bon = {
 	# shock_damage_received = -0.1
 	religion = yes
 }
+
+harmonized_bimox = {
+	# shock_damage_received = -0.1
+	religion = yes	
+}
+
 # 新松奇+1骰子
 xiaoxia_belssing = {
 	local_defender_dice_roll_bonus = 1
